@@ -12,8 +12,8 @@ not carried over).
 | --- | --- | --- | --- | --- |
 | Native client UI, sessions, chat, settings, pair, OpenTunnel | `anomalyco/opencode-android` `app`, `core`, `server`, `feature:*` | kept as-is | done | Base of the new project. |
 | OpenCode runtime installer / self-heal / ELF patcher | `opencode-termux` `app/src/main/java/com/termux/app/OpenCodeBootstrap.java`, `ElfPatch.java`, `OpenCodeInstallState.java`, `app/src/main/cpp/*` | `:runtime` | done | `OpenCodeWebActivity` coupling replaced by `UnifiedApp`; no `sharedUserId`. |
-| Termux bootstrap extraction | `opencode-termux` `TermuxInstaller.java` + `libtermux-bootstrap` | `:runtime` | done | Called from `MainActivity` through `UnifiedRuntime`; requires `applicationId = com.termux`. |
-| Daemon lifecycle (start/stop/pair) | `opencode-termux` `OpenCodeService.java`, `OpenCodeForegroundService.java` | `:runtime` | done | Service declared in runtime manifest; startup bridged by `UnifiedRuntime.kt`. Native client still owns server connection. |
+| Termux bootstrap extraction | `opencode-termux` `TermuxInstaller.java` + `libtermux-bootstrap` | `:runtime` | done | First step of `UnifiedSetupActivity` → `UnifiedSetup`; requires `applicationId = com.termux`. |
+| Daemon lifecycle (start/stop/pair) | `opencode-termux` `OpenCodeService.java`, `OpenCodeForegroundService.java` | `:runtime` | done | `UnifiedSetup` starts the foreground service and creates the one-time pair link; `UnifiedHandoff` redeems it with the native `OpenCodeClient`. |
 | Terminal emulator | `opencode-termux` `terminal-emulator`, `terminal-view` | `:feature:terminal` | done | New Compose `AndroidView` host + `TerminalActivity`, reachable from Settings. Fork had deleted its terminal Activity. |
 | File browser / properties | `opencode-termux` `FileManagerActivity.java`, `FileManagerUtils.java` | `:feature:workspace` | done | New Compose browser rooted at runtime home/prefix/shared storage with path validation and properties dialog. Reachable from Settings via `opencode://workspace/files`. |
 | Code editor / viewer | `opencode-termux` `CodeViewerActivity.java` | `:feature:workspace` | done | Compose editor with wrap/text-size controls, match count, 4 MiB limit, 30-snapshot undo cap, atomic save and POSIX mode preservation. |
@@ -26,7 +26,8 @@ not carried over).
 | Backup exclusions | `opencode-termux` Termux home/prefix | `app/src/main/res/xml/data_extraction_rules.xml` | done | Exclude `usr/`, `home/` (gh/ssh/opencode configs) and `Downloads/` from cloud backup and device transfer. |
 | `TermuxApplication` init | `opencode-termux` `TermuxApplication.java` | `UnifiedRuntime.kt` | done | Crash handler, log config, bootstrap variant, shell manager, Termux-am socket, shell environment and directory checks are installed from `OpenCodeApplication`. Theme/dynamic-color hooks stay dropped: the Compose shell owns appearance. |
 | Runtime settings controls | `opencode-termux` `SettingsActivity.java` | `:feature:settings` | done | Storage status, CLI update check and battery-optimization rows call a public runtime façade; theme/wake-lock rows stay dropped as duplicates. |
-| WebView shell / pair cookie flow | `opencode-termux` `OpenCodeWebActivity.java` | — | drop | Native client pair flow replaces it. |
+| WebView shell / pair cookie flow | `opencode-termux` `OpenCodeWebActivity.java` | — | drop | Replaced by the silent handoff: `UnifiedSetupActivity` prepares and pairs, then opens the native chat directly. |
+| Silent auto-pair handoff | `opencode-termux` WebView pair URL | `app/UnifiedSetupActivity.kt`, `app/UnifiedHandoff.kt`, `runtime/UnifiedSetup.java` | done | Local one-time link is redeemed through `OpenCodeClient.redeemPairing`, saved with `remember()` before `MainActivity` builds its store, so no native pairing UI appears. |
 | `sharedUserId` | `opencode-termux` manifest | — | drop | No shared user id in the unified app. |
 | `applicationId` | `opencode-termux` bootstrap paths | `app/build.gradle.kts` | kept | Must stay `com.termux`: the bootstrap binaries hardcode `/data/data/com.termux/files/usr`. Launcher shortcuts were retargeted accordingly. |
 
@@ -34,8 +35,8 @@ not carried over).
 
 - Do not ship two daemon owners. The native client's `OpenCodeClient`/server contract stays
   authoritative; the runtime layer only installs and supervises the local process.
-- Do not load the web UI in a WebView. Pairing is done by the native connection screen via
-  `opencode pair --remote` / manual server entry.
+- Do not load the web UI in a WebView. The boot core pairs silently with the native client; the
+  native connection screen remains only for adding other, remote servers.
 - Do not copy the three `termux-shared` branding edits globally; keep shared Termux constants
   parameterised instead.
 
