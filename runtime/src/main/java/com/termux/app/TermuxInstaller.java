@@ -108,13 +108,13 @@ final class TermuxInstaller {
         // Termux can only be run as the primary user (device owner) since only that
         // account has the expected file system paths. Verify that:
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N && !PackageUtils.isCurrentUserThePrimaryUser(activity)) {
-            bootstrapErrorMessage = activity.getString(R.string.bootstrap_error_not_primary_user_message,
+            bootstrapErrorMessage = activity.getString(R.string.oc_runtime_bootstrap_error_not_primary_user_message,
                 MarkdownUtils.getMarkdownCodeForString(TERMUX_PREFIX_DIR_PATH, false));
             Logger.logError(LOG_TAG, "isFilesDirectoryAccessible: " + isFilesDirectoryAccessible);
             Logger.logError(LOG_TAG, bootstrapErrorMessage);
             sendBootstrapCrashReportNotification(activity, bootstrapErrorMessage);
             MessageDialogUtils.exitAppWithErrorMessage(activity,
-                activity.getString(R.string.bootstrap_error_title),
+                activity.getString(R.string.oc_runtime_bootstrap_error_title),
                 bootstrapErrorMessage);
             return;
         }
@@ -124,14 +124,14 @@ final class TermuxInstaller {
             //noinspection SdCardPath
             if (PackageUtils.isAppInstalledOnExternalStorage(activity) &&
                 !TermuxConstants.TERMUX_FILES_DIR_PATH.equals(activity.getFilesDir().getAbsolutePath().replaceAll("^/data/user/0/", "/data/data/"))) {
-                bootstrapErrorMessage += "\n\n" + activity.getString(R.string.bootstrap_error_installed_on_portable_sd,
+                bootstrapErrorMessage += "\n\n" + activity.getString(R.string.oc_runtime_bootstrap_error_installed_on_portable_sd,
                     MarkdownUtils.getMarkdownCodeForString(TERMUX_PREFIX_DIR_PATH, false));
             }
 
             Logger.logError(LOG_TAG, bootstrapErrorMessage);
             sendBootstrapCrashReportNotification(activity, bootstrapErrorMessage);
             MessageDialogUtils.showMessage(activity,
-                activity.getString(R.string.bootstrap_error_title),
+                activity.getString(R.string.oc_runtime_bootstrap_error_title),
                 bootstrapErrorMessage, null);
             return;
         }
@@ -150,7 +150,7 @@ final class TermuxInstaller {
 
         // Show the branded startup dialog and keep it visible while the rest of the setup
         // (glibc and OpenCode) runs, so the first start uses a single screen.
-        showStartupProgress(activity, activity.getString(R.string.bootstrap_installer_body));
+        showStartupProgress(activity, activity.getString(R.string.oc_runtime_bootstrap_installer_body));
 
         new Thread() {
             @Override
@@ -276,12 +276,12 @@ final class TermuxInstaller {
         activity.runOnUiThread(() -> {
             dismissStartupProgress();
             try {
-                new MaterialAlertDialogBuilder(activity).setTitle(R.string.bootstrap_error_title).setMessage(R.string.bootstrap_error_body)
-                    .setNegativeButton(R.string.bootstrap_error_abort, (dialog, which) -> {
+                new MaterialAlertDialogBuilder(activity).setTitle(R.string.oc_runtime_bootstrap_error_title).setMessage(R.string.oc_runtime_bootstrap_error_body)
+                    .setNegativeButton(R.string.oc_runtime_bootstrap_error_abort, (dialog, which) -> {
                         dialog.dismiss();
                         activity.finish();
                     })
-                    .setPositiveButton(R.string.bootstrap_error_try_again, (dialog, which) -> {
+                    .setPositiveButton(R.string.oc_runtime_bootstrap_error_try_again, (dialog, which) -> {
                         dialog.dismiss();
                         FileUtils.deleteFile("termux prefix directory", TERMUX_PREFIX_DIR_PATH, true);
                         TermuxInstaller.setupBootstrapIfNeeded(activity, whenDone);
@@ -345,12 +345,12 @@ final class TermuxInstaller {
         try {
             Dialog dialog = new Dialog(activity);
             dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-            View view = LayoutInflater.from(activity).inflate(R.layout.dialog_startup_progress, null, false);
-            sProgressMessageView = view.findViewById(R.id.startup_progress_message);
-            sProgressDetailView = view.findViewById(R.id.startup_progress_detail);
-            sProgressPercentView = view.findViewById(R.id.startup_progress_percent);
-            sProgressLogView = view.findViewById(R.id.startup_progress_log);
-            sProgressBarView = view.findViewById(R.id.startup_progress_bar);
+            View view = LayoutInflater.from(activity).inflate(R.layout.oc_runtime_dialog_startup_progress, null, false);
+            sProgressMessageView = view.findViewById(R.id.oc_runtime_startup_progress_message);
+            sProgressDetailView = view.findViewById(R.id.oc_runtime_startup_progress_detail);
+            sProgressPercentView = view.findViewById(R.id.oc_runtime_startup_progress_percent);
+            sProgressLogView = view.findViewById(R.id.oc_runtime_startup_progress_log);
+            sProgressBarView = view.findViewById(R.id.oc_runtime_startup_progress_bar);
 
             dialog.setContentView(view);
             dialog.setCancelable(false);
