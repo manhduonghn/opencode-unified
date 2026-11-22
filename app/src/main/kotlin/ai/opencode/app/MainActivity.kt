@@ -107,10 +107,10 @@ class MainActivity : ComponentActivity() {
         splash.setKeepOnScreenCondition { LaunchBloomController.keepsCover(store.state.isColdLaunchContentReady) }
         enableEdgeToEdge()
         super.onCreate(savedInstanceState)
-        // Unified app: the Settings row opens the Termux shell through this deep link.
-        if (savedInstanceState == null && openTerminalIfRequested(intent)) return
         // Unified app: bootstrap/repair and supervise the local OpenCode runtime.
         if (savedInstanceState == null) UnifiedRuntime.initialize(this)
+        // Unified app: Settings opens the inherited shell and file browser through deep links.
+        if (savedInstanceState == null && (openTerminalIfRequested(intent) || openWorkspaceIfRequested(intent))) return
         lifecycle.addObserver(
             LifecycleEventObserver { _, event ->
                 when (event) {
@@ -250,7 +250,7 @@ class MainActivity : ComponentActivity() {
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
         setIntent(intent)
-        if (openTerminalIfRequested(intent)) return
+        if (openTerminalIfRequested(intent) || openWorkspaceIfRequested(intent)) return
         // A window asked again for its own session shows it.
         if (intent.action == SessionWindowTarget.ACTION && root.follows) {
             val next = RootStore.target(intent, null) ?: return
@@ -264,6 +264,15 @@ class MainActivity : ComponentActivity() {
     private fun openTerminalIfRequested(intent: Intent?): Boolean {
         if (intent?.data?.scheme != "opencode" || intent.data?.host != "terminal") return false
         startActivity(Intent(this, ai.opencode.feature.terminal.TerminalActivity::class.java))
+        finish()
+        return true
+    }
+
+    /** Settings and the share sheet open the Compose file browser with `opencode://workspace/files`. */
+    private fun openWorkspaceIfRequested(intent: Intent?): Boolean {
+        val uri = intent?.data ?: return false
+        if (uri.scheme != "opencode" || uri.host != "workspace") return false
+        startActivity(Intent(this, ai.opencode.feature.workspace.WorkspaceActivity::class.java).setData(uri))
         finish()
         return true
     }

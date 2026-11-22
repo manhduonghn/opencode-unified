@@ -15,8 +15,11 @@ not carried over).
 | Termux bootstrap extraction | `opencode-termux` `TermuxInstaller.java` + `libtermux-bootstrap` | `:runtime` | wired | Called from `MainActivity` through `UnifiedRuntime`; requires `applicationId = com.termux`. |
 | Daemon lifecycle (start/stop/pair) | `opencode-termux` `OpenCodeService.java`, `OpenCodeForegroundService.java` | `:runtime` | wired | Service declared in runtime manifest; startup bridged by `UnifiedRuntime.kt`. Native client still owns server connection. |
 | Terminal emulator | `opencode-termux` `terminal-emulator`, `terminal-view` | `:feature:terminal` | wired | New Compose `AndroidView` host + `TerminalActivity`, reachable from Settings. Fork had deleted its terminal Activity. |
-| File manager, code editor, picker, properties | `opencode-termux` `FileManagerActivity.java`, `FileManagerUtils.java`, `CodeViewerActivity.java`, bottom sheets | `:workspace` | planned | Prefer porting behaviour to Compose to avoid resource-name collisions. |
-| Storage permission / symlink setup | `opencode-termux` `StorageAccess.java`, `SettingsActivity.java` storage block | `:runtime` + `:feature:settings` | partial | `StorageAccess.java` is already in `:runtime` but package-private. Do **not** port legacy storage flags or `root-path /`; expose a runtime façade and use SAF/scoped paths. |
+| File browser / properties | `opencode-termux` `FileManagerActivity.java`, `FileManagerUtils.java` | `:feature:workspace` | wired | New Compose browser rooted at runtime home/prefix/shared storage with path validation and properties dialog. Reachable from Settings via `opencode://workspace/files`. |
+| Code editor / viewer | `opencode-termux` `CodeViewerActivity.java` | `:feature:workspace` | planned | Still to port: text view/edit, atomic save, undo caps and search/goto. |
+| Directory picker / write operations | `opencode-termux` `DirectoryPickerBottomSheet.java`, `FileManagerUtils.java` | `:feature:workspace` | planned | Still to port: create/rename/copy/move/delete and ZIP with zip-slip checks. Keep all protected-path invariants. |
+| Storage permission / symlink setup | `opencode-termux` `StorageAccess.java`, `SettingsActivity.java` storage block | `:runtime` + `:feature:settings` | wired | `StorageAccess` and `TermuxInstaller.setupStorageSymlinks` exposed through `RuntimeStorage`; Settings opens system app details. No legacy storage flags or `root-path /`. |
+| Scoped file provider | `opencode-termux` `file_paths.xml` | `app/src/main/res/xml/workspace_file_paths.xml` | wired | Authority `com.termux.workspace.files`; only `files-path home/` and `cache-path workspace-share/`. |
 | Share target | `opencode-termux` `FileReceiverActivity.java`, `file_paths.xml` | `:feature:system/share` | replaced | Native `ShareActivity` already handles `ACTION_SEND`/`SEND_MULTIPLE`. Add “save to ~/Downloads” only if needed; never add a second exported receiver or a broad provider. |
 | GitHub device login / clone | `opencode-termux` `GitHubActivity.java` | `:workspace` | planned | Do not reuse the hardcoded client id or broad scopes; prefer `gh auth login` device flow with argument arrays and scoped paths. |
 | Crash report UI | `opencode-termux` `ReportActivity` manifest entries | `:runtime` | wired | Declared so `TermuxCrashUtils` notifications can open the shared report screen. |
@@ -39,7 +42,8 @@ not carried over).
 ## Security decisions
 
 - Never port the fork's `root-path /` / `external-path .` provider or `MANAGE_EXTERNAL_STORAGE`.
-  A future workspace provider uses only `files-path home/` and `cache-path workspace-share/`.
+  The workspace provider declares only `files-path home/` and `cache-path workspace-share/`, and
+  deep-link paths are canonicalized and rejected outside the runtime roots.
 - Do not reuse the fork's GitHub OAuth client id or scopes; keep tokens in `gh`'s credential store
   and exclude `home/.config/gh`, `home/.ssh` and `home/.opencode` from backup.
 - Preserve the fork's file-manager safety invariants (protected paths, symlink handling, zip-slip

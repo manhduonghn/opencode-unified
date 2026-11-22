@@ -34,6 +34,7 @@ include(
     ":feature:system",
     ":devtools",
     ":feature:terminal",
+    ":feature:workspace",
     // Unified-app additions: Termux runtime and terminal libraries.
     ":termux-shared",
     ":terminal-emulator",

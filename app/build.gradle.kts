@@ -74,11 +74,14 @@ dependencies {
     implementation(project(":feature:system"))
     implementation(project(":devtools"))
     implementation(project(":feature:terminal"))
+    implementation(project(":feature:workspace"))
     // Unified app: local OpenCode runtime/bootstrap inherited from the Termux-based app.
     implementation(project(":runtime"))
     implementation(libs.compose.material3)
     implementation(libs.compose.material3.adaptive)
     implementation(libs.androidx.activity.compose)
+    // FileProvider for scoped workspace file URIs.
+    implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.core.splashscreen)
     implementation(libs.androidx.profileinstaller)
     implementation(libs.androidx.navigation3.runtime)

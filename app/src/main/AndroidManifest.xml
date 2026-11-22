@@ -58,5 +58,16 @@
                 <data android:path="/pair/" />
             </intent-filter>
         </activity>
+
+        <!-- Scoped URIs for workspace files. Never use <root-path> or external-path ".". -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.termux.workspace.files"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/workspace_file_paths" />
+        </provider>
     </application>
 </manifest>

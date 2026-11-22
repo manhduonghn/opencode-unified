@@ -337,6 +337,14 @@ private fun SettingsRootPage(store: SettingsStore) {
                         )
                     }
                 }
+                SettingsRow(stringResource(R.string.settings_workspace_title), "folder", SettingsTint.Blue) {
+                    runCatching {
+                        context.startActivity(
+                            Intent(Intent.ACTION_VIEW, Uri.parse("opencode://workspace/files"))
+                                .setPackage(context.packageName),
+                        )
+                    }
+                }
                 // Runtime-specific controls inherited from OpenCode for Termux.
                 SettingsDivider(inset = true)
                 SettingsRow(
