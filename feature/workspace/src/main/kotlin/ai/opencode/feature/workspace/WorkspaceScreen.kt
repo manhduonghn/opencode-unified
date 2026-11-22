@@ -1,6 +1,7 @@
 package ai.opencode.feature.workspace
 
 import android.content.Context
+import android.content.Intent
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -158,6 +159,21 @@ fun WorkspaceScreen(initialPath: String?, modifier: Modifier = Modifier) {
                 }
             },
             confirmButton = {
+                if (!entry.isDirectory && !entry.isLink && isTextFile(entry.file)) {
+                    TextButton(onClick = {
+                        context.startActivity(
+                            Intent(context, CodeViewerActivity::class.java)
+                                .putExtra(CodeViewerActivity.EXTRA_PATH, entry.file.absolutePath),
+                        )
+                        selected = null
+                    }) { Text(stringResource(R.string.oc_workspace_open)) }
+                } else {
+                    TextButton(onClick = { selected = null }) {
+                        Text(stringResource(R.string.oc_workspace_close))
+                    }
+                }
+            },
+            dismissButton = {
                 TextButton(onClick = { selected = null }) {
                     Text(stringResource(R.string.oc_workspace_close))
                 }
@@ -246,6 +262,22 @@ private fun listWorkspace(dir: File, showHidden: Boolean, query: String): Listin
         })
         .toList()
     return Listing(entries, false)
+}
+
+private val TEXT_EXTENSIONS = setOf(
+    "txt", "md", "markdown", "json", "jsonc", "xml", "html", "htm", "css", "js", "mjs",
+    "cjs", "ts", "tsx", "jsx", "java", "kt", "kts", "gradle", "groovy", "c", "h", "cc",
+    "cpp", "hpp", "py", "rb", "php", "sh", "bash", "zsh", "fish", "yml", "yaml", "toml",
+    "ini", "cfg", "conf", "properties", "csv", "tsv", "sql", "log", "gitignore",
+    "gitattributes", "editorconfig", "env", "service", "desktop", "srt", "vtt", "tex",
+    "diff", "patch", "lock", "pro", "mk", "cmake", "makefile",
+)
+
+private fun isTextFile(file: File): Boolean {
+    val name = file.name.lowercase(Locale.ROOT)
+    if (name in setOf("dockerfile", "makefile")) return true
+    val dot = name.lastIndexOf('.')
+    return dot >= 0 && name.substring(dot + 1) in TEXT_EXTENSIONS
 }
 
 private fun formatSize(bytes: Long): String {

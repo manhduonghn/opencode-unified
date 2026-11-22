@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  The app's single FileProvider. Only diagnostics cache, the Termux home and a dedicated workspace
+  share cache are exposed. Never add <root-path> or <external-path path=".">.
+-->
 <paths>
     <cache-path name="diagnostics" path="diagnostics/" />
+    <files-path name="termux_home" path="home/" />
+    <cache-path name="workspace_share" path="workspace-share/" />
 </paths>

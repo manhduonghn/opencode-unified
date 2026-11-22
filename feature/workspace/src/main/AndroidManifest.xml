@@ -5,5 +5,10 @@
             android:name="ai.opencode.feature.workspace.WorkspaceActivity"
             android:exported="false"
             android:label="@string/oc_workspace_title" />
+        <activity
+            android:name="ai.opencode.feature.workspace.CodeViewerActivity"
+            android:exported="false"
+            android:label="@string/oc_workspace_code_title"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 </manifest>

@@ -80,8 +80,6 @@ dependencies {
     implementation(libs.compose.material3)
     implementation(libs.compose.material3.adaptive)
     implementation(libs.androidx.activity.compose)
-    // FileProvider for scoped workspace file URIs.
-    implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.core.splashscreen)
     implementation(libs.androidx.profileinstaller)
     implementation(libs.androidx.navigation3.runtime)
