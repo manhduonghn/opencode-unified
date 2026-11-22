@@ -38,6 +38,8 @@ class OpenCodeApplication : Application() {
     @OptIn(ExperimentalFoundationApi::class)
     override fun onCreate() {
         super.onCreate()
+        // Install the Termux-derived runtime plumbing before any activity or crash can occur.
+        UnifiedRuntime.install(this)
         // Compose Foundation 1.12.1 crashes on mouse presses after the last of multiple selectable texts.
         ComposeFoundationFlags.isMouseSelectionBetweenTextEnabled = false
         DependencyValues.installRoot { this[AppContext] = applicationContext }

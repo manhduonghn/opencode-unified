@@ -21,7 +21,7 @@ not carried over).
 | GitHub device login / clone | `opencode-termux` `GitHubActivity.java` | `:workspace` | planned | Do not reuse the hardcoded client id or broad scopes; prefer `gh auth login` device flow with argument arrays and scoped paths. |
 | Crash report UI | `opencode-termux` `ReportActivity` manifest entries | `:runtime` | wired | Declared so `TermuxCrashUtils` notifications can open the shared report screen. |
 | Backup exclusions | `opencode-termux` Termux home/prefix | `app/src/main/res/xml/data_extraction_rules.xml` | wired | Exclude `usr/`, `home/` (gh/ssh/opencode configs) and `Downloads/` from cloud backup and device transfer. |
-| `TermuxApplication` init | `opencode-termux` `TermuxApplication.java` | `UnifiedRuntime.kt` | planned | Crash/log setup, shell manager, Termux-am socket and directory checks are not yet mirrored; decide each explicitly. |
+| `TermuxApplication` init | `opencode-termux` `TermuxApplication.java` | `UnifiedRuntime.kt` | wired | Crash handler, log config, bootstrap variant, shell manager, Termux-am socket, shell environment and directory checks are installed from `OpenCodeApplication`. Theme/dynamic-color hooks stay dropped: the Compose shell owns appearance. |
 | Runtime settings controls | `opencode-termux` `SettingsActivity.java` | `:feature:settings` | wired | Storage status, CLI update check and battery-optimization rows call a public runtime façade; theme/wake-lock rows stay dropped as duplicates. |
 | WebView shell / pair cookie flow | `opencode-termux` `OpenCodeWebActivity.java` | — | drop | Native client pair flow replaces it. |
 | `sharedUserId` | `opencode-termux` manifest | — | drop | No shared user id in the unified app. |
