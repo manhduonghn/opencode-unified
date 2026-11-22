@@ -18,7 +18,7 @@ object OpenCodeBuild {
     const val MIN_SDK = 33
     /**
      * Must stay <= 28: Android 10's W^X rule denies `execve` of files in an app's data directory
-     * to apps targeting API 29+, which makes every Termux `$PREFIX/bin/*` command (apt, bash,
+     * to apps targeting API 29+, which makes every Termux command under `$PREFIX/bin` (apt, bash,
      * dpkg, the glibc loader) fail instantly. The fork also targets 28 for this reason.
      * `compileSdk` remains 37, so all APIs are still available at build time.
      */
