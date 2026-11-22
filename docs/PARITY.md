@@ -16,8 +16,12 @@ not carried over).
 | Daemon lifecycle (start/stop/pair) | `opencode-termux` `OpenCodeService.java`, `OpenCodeForegroundService.java` | `:runtime` | wired | Service declared in runtime manifest; startup bridged by `UnifiedRuntime.kt`. Native client still owns server connection. |
 | Terminal emulator | `opencode-termux` `terminal-emulator`, `terminal-view` | `:feature:terminal` | wired | New Compose `AndroidView` host + `TerminalActivity`, reachable from Settings. Fork had deleted its terminal Activity. |
 | File manager, code editor, picker, properties | `opencode-termux` `FileManagerActivity.java`, `FileManagerUtils.java`, `CodeViewerActivity.java`, bottom sheets | `:workspace` | planned | Prefer porting behaviour to Compose to avoid resource-name collisions. |
-| Storage access / share target | `opencode-termux` `StorageAccess.java`, `FileReceiverActivity.java`, `file_paths.xml` | `:workspace` | planned | Replace `root-path /` with scoped paths; keep `ACTION_SEND`. |
-| GitHub device login / clone | `opencode-termux` `GitHubActivity.java` | `:workspace` | planned | Review hardcoded client id and OAuth scopes before reuse. |
+| Storage permission / symlink setup | `opencode-termux` `StorageAccess.java`, `SettingsActivity.java` storage block | `:runtime` + `:feature:settings` | partial | `StorageAccess.java` is already in `:runtime` but package-private. Do **not** port legacy storage flags or `root-path /`; expose a runtime façade and use SAF/scoped paths. |
+| Share target | `opencode-termux` `FileReceiverActivity.java`, `file_paths.xml` | `:feature:system/share` | replaced | Native `ShareActivity` already handles `ACTION_SEND`/`SEND_MULTIPLE`. Add “save to ~/Downloads” only if needed; never add a second exported receiver or a broad provider. |
+| GitHub device login / clone | `opencode-termux` `GitHubActivity.java` | `:workspace` | planned | Do not reuse the hardcoded client id or broad scopes; prefer `gh auth login` device flow with argument arrays and scoped paths. |
+| Crash report UI | `opencode-termux` `ReportActivity` manifest entries | `:runtime` | wired | Declared so `TermuxCrashUtils` notifications can open the shared report screen. |
+| Backup exclusions | `opencode-termux` Termux home/prefix | `app/src/main/res/xml/data_extraction_rules.xml` | wired | Exclude `usr/`, `home/` (gh/ssh/opencode configs) and `Downloads/` from cloud backup and device transfer. |
+| `TermuxApplication` init | `opencode-termux` `TermuxApplication.java` | `UnifiedRuntime.kt` | planned | Crash/log setup, shell manager, Termux-am socket and directory checks are not yet mirrored; decide each explicitly. |
 | WebView shell / pair cookie flow | `opencode-termux` `OpenCodeWebActivity.java` | — | drop | Native client pair flow replaces it. |
 | `sharedUserId` | `opencode-termux` manifest | — | drop | No shared user id in the unified app. |
 | `applicationId` | `opencode-termux` bootstrap paths | `app/build.gradle.kts` | kept | Must stay `com.termux`: the bootstrap binaries hardcode `/data/data/com.termux/files/usr`. Launcher shortcuts were retargeted accordingly. |
@@ -30,3 +34,13 @@ not carried over).
   `opencode pair --remote` / manual server entry.
 - Do not copy the three `termux-shared` branding edits globally; keep shared Termux constants
   parameterised instead.
+
+## Security decisions
+
+- Never port the fork's `root-path /` / `external-path .` provider or `MANAGE_EXTERNAL_STORAGE`.
+  A future workspace provider uses only `files-path home/` and `cache-path workspace-share/`.
+- Do not reuse the fork's GitHub OAuth client id or scopes; keep tokens in `gh`'s credential store
+  and exclude `home/.config/gh`, `home/.ssh` and `home/.opencode` from backup.
+- Preserve the fork's file-manager safety invariants (protected paths, symlink handling, zip-slip
+  checks) when reimplementing its behaviour in Compose.
+- Extend the native share sheet instead of adding a second exported `ACTION_SEND` activity.
