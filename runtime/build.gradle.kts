@@ -8,7 +8,7 @@ android {
 
     externalNativeBuild {
         ndkBuild {
-            path = "src/main/cpp/Android.mk"
+            path = file("src/main/cpp/Android.mk")
         }
     }
 
