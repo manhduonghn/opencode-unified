@@ -17,9 +17,14 @@ android {
             abiFilters += listOf("arm64-v8a", "x86_64")
         }
     }
+
+    compileOptions {
+        isCoreLibraryDesugaringEnabled = true
+    }
 }
 
 dependencies {
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.0.4")
     api(project(":termux-shared"))
     implementation("androidx.annotation:annotation:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")

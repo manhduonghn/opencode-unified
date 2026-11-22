@@ -47,6 +47,10 @@ android {
     buildFeatures {
         buildConfig = true
     }
+    compileOptions {
+        // :termux-shared publishes an AAR that requires core library desugaring.
+        isCoreLibraryDesugaringEnabled = true
+    }
     androidResources {
         // Library (Material, AndroidX) translations are kept only for the app's own languages, so
         // their labels, e.g. a sheet's "Drag handle", never read in a language the app isn't in.
@@ -57,6 +61,7 @@ android {
 }
 
 dependencies {
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.0.4")
     implementation(project(":core"))
     implementation(project(":server"))
     implementation(project(":feature:session"))
