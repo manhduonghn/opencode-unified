@@ -46,24 +46,22 @@ val downloadBootstraps = tasks.register("downloadBootstraps") {
     outputs.upToDateWhen { false }
 
     doLast {
-        fun sha256(file: File): String {
-            val digest = MessageDigest.getInstance("SHA-256")
-            file.inputStream().use { input ->
-                val buffer = ByteArray(8192)
-                while (true) {
-                    val read = input.read(buffer)
-                    if (read < 0) break
-                    digest.update(buffer, 0, read)
-                }
-            }
-            return BigInteger(1, digest.digest()).toString(16).padStart(64, '0')
-        }
-
         bootstrapChecksums.forEach { (arch, expected) ->
             val file = File(bootstrapDir, "bootstrap-$arch.zip")
-            if (file.exists() && sha256(file) == expected) return@forEach
-
             if (file.exists()) {
+                // Inlined so the task action never captures a Gradle script function reference
+                // (which the configuration cache cannot serialize).
+                val localDigest = MessageDigest.getInstance("SHA-256")
+                file.inputStream().use { input ->
+                    val buffer = ByteArray(8192)
+                    while (true) {
+                        val read = input.read(buffer)
+                        if (read < 0) break
+                        localDigest.update(buffer, 0, read)
+                    }
+                }
+                val localChecksum = BigInteger(1, localDigest.digest()).toString(16).padStart(64, '0')
+                if (localChecksum == expected) return@forEach
                 println("Deleting stale ${file.name}: checksum mismatch")
                 file.delete()
             }

@@ -1,5 +1,6 @@
 package ai.opencode.feature.terminal
 
+import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
 import android.view.KeyEvent
@@ -25,7 +26,7 @@ internal class TerminalClients(private val context: Context) : TerminalSessionCl
     override fun onSessionFinished(finishedSession: TerminalSession) = Unit
 
     override fun onCopyTextToClipboard(session: TerminalSession, text: String) {
-        clipboard?.primaryClip = android.content.ClipData.newPlainText("terminal", text)
+        clipboard?.setPrimaryClip(ClipData.newPlainText("terminal", text))
     }
 
     override fun onPasteTextFromClipboard(session: TerminalSession?) {
