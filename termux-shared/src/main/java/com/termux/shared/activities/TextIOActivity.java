@@ -232,6 +232,8 @@ public class TextIOActivity extends AppCompatActivity {
         return false;
     }
 
+    // Back confirms and returns a result; super.onBackPressed() would discard the edit.
+    @SuppressLint("MissingSuperCall")
     @Override
     public void onBackPressed() {
         confirm();

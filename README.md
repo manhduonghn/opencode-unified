@@ -41,9 +41,10 @@ Requirements: JDK 17, Android SDK platform 37 (minor 1), build-tools 37, NDK `29
 
 ## Status
 
-This is an integration scaffold. The native client is complete; the runtime installer/daemon is
-wired at startup. Terminal, workspace (files/GitHub/share) and settings surfaces are tracked in
-`docs/PARITY.md` and are being ported incrementally.
+The merge is complete. The native client is the shell; the Termux runtime installs and supervises
+the local `opencode` process. Terminal, workspace (files, editor, GitHub), share-to-Downloads and
+runtime settings surfaces are all present. See `docs/PARITY.md` for the full parity matrix and the
+intentional non-goals/drops (WebView shell, `sharedUserId`, broad storage permissions).
 
 ## Licensing
 

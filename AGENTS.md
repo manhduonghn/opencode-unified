@@ -18,7 +18,8 @@ UI. See [docs/PARITY.md](docs/PARITY.md) for what has been carried over and what
 | `:feature:workspace` | `opencode-termux` file manager, code viewer, GitHub activity | Compose file browser, editor and `gh`-backed clone surface. |
 | `:termux-shared`, `:terminal-emulator`, `:terminal-view` | upstream Termux libraries | Shared utilities and terminal primitives for the runtime/terminal screens. |
 
-`:app` depends on `:runtime`; `:runtime` depends on `:termux-shared`. No reverse dependency.
+`:app`, `:feature:settings`, `:feature:workspace` and `:feature:system` (share) depend on `:runtime`;
+`:runtime` depends on `:termux-shared`. No reverse dependency.
 `UnifiedRuntime.kt` is the only startup bridge. `RuntimeStorage.java` and `RuntimeShell.java` are
 the only public façades from `:runtime` into Compose features; `TermuxInstaller`, `StorageAccess`
 and `TermuxShell` stay package-private. `UnifiedApp.java` holds the application id and launcher
@@ -31,9 +32,9 @@ activity so the Java runtime does not need to depend on the Kotlin shell.
 - Keep `applicationId = "com.termux"` and **no** `sharedUserId`, and no build-type id suffix.
   The bootstrap binaries hardcode `/data/data/com.termux/files/usr`; changing the id breaks the
   runtime. This intentionally conflicts with a stock Termux install (see README).
-- Prefix new resources from the Termux layer with `oc_runtime_` / `oc_terminal_` so they cannot
-  collide with the client's 57-locale resource set. Do not put them in `values/strings*.xml`; the
-  translation checker scans that pattern.
+- Prefix new resources from the Termux layer with `oc_runtime_`, `oc_terminal_`, `oc_workspace_` or
+  `oc_share_` so they cannot collide with the client's 57-locale resource set. Do not put them in
+  `values/strings*.xml`; the translation checker scans that pattern.
 - Keep `minSdk 33`, `compileSdk 37`, JDK 17, NDK `29.0.14206865` in sync between
   `build-logic/src/main/kotlin/OpenCodePlugins.kt` and `.github/workflows/ci.yml`.
 - The native client's logging rules still apply: log counts/statuses/timings through `AppLog`,
