@@ -67,7 +67,7 @@ import static com.termux.shared.termux.TermuxConstants.TERMUX_STAGING_PREFIX_DIR
  * <p/>
  * (5.2) For every other zip entry, extract it into $STAGING_PREFIX and set execute permissions if necessary.
  */
-final class TermuxInstaller {
+public final class TermuxInstaller {
 
     private static final String LOG_TAG = "TermuxInstaller";
 
@@ -529,7 +529,7 @@ final class TermuxInstaller {
             true, false, TermuxUtils.AppInfoMode.TERMUX_AND_PLUGIN_PACKAGES, true);
     }
 
-    static void setupStorageSymlinks(final Context context) {
+    public static void setupStorageSymlinks(final Context context) {
         setupStorageSymlinks(context, null);
     }
 
@@ -540,7 +540,7 @@ final class TermuxInstaller {
      *                   symlinks were created or the setup failed. The caller is responsible for
      *                   switching to the UI thread if needed.
      */
-    static void setupStorageSymlinks(final Context context, final Runnable onComplete) {
+    public static void setupStorageSymlinks(final Context context, final Runnable onComplete) {
         final String LOG_TAG = "termux-storage";
         final String title = TermuxConstants.TERMUX_APP_NAME + " Setup Storage Error";
 

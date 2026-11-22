@@ -24,5 +24,9 @@ gradlePlugin {
             id = "opencode.android.application"
             implementationClass = "OpenCodeApplicationPlugin"
         }
+        register("bootstrap-download") {
+            id = "opencode.bootstrap.download"
+            implementationClass = "BootstrapDownloadPlugin"
+        }
     }
 }

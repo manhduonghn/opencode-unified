@@ -22,6 +22,7 @@ not carried over).
 | Crash report UI | `opencode-termux` `ReportActivity` manifest entries | `:runtime` | wired | Declared so `TermuxCrashUtils` notifications can open the shared report screen. |
 | Backup exclusions | `opencode-termux` Termux home/prefix | `app/src/main/res/xml/data_extraction_rules.xml` | wired | Exclude `usr/`, `home/` (gh/ssh/opencode configs) and `Downloads/` from cloud backup and device transfer. |
 | `TermuxApplication` init | `opencode-termux` `TermuxApplication.java` | `UnifiedRuntime.kt` | planned | Crash/log setup, shell manager, Termux-am socket and directory checks are not yet mirrored; decide each explicitly. |
+| Runtime settings controls | `opencode-termux` `SettingsActivity.java` | `:feature:settings` | wired | Storage status, CLI update check and battery-optimization rows call a public runtime façade; theme/wake-lock rows stay dropped as duplicates. |
 | WebView shell / pair cookie flow | `opencode-termux` `OpenCodeWebActivity.java` | — | drop | Native client pair flow replaces it. |
 | `sharedUserId` | `opencode-termux` manifest | — | drop | No shared user id in the unified app. |
 | `applicationId` | `opencode-termux` bootstrap paths | `app/build.gradle.kts` | kept | Must stay `com.termux`: the bootstrap binaries hardcode `/data/data/com.termux/files/usr`. Launcher shortcuts were retargeted accordingly. |

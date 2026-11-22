@@ -1,7 +1,12 @@
 package ai.opencode.feature.settings
 
+import android.app.Activity
 import android.content.Intent
 import android.net.Uri
+import android.provider.Settings as AndroidSettings
+import com.termux.app.OpenCodeBootstrap
+import com.termux.app.RuntimeStorage
+import com.termux.shared.android.PermissionUtils
 import ai.opencode.core.R as CoreR
 import ai.opencode.core.experiments.ExperimentalFeature
 import ai.opencode.core.experiments.key
@@ -331,6 +336,32 @@ private fun SettingsRootPage(store: SettingsStore) {
                                 .setPackage(context.packageName),
                         )
                     }
+                }
+                // Runtime-specific controls inherited from OpenCode for Termux.
+                SettingsDivider(inset = true)
+                SettingsRow(
+                    stringResource(R.string.settings_runtime_storage_title),
+                    "folder",
+                    SettingsTint.Blue,
+                    badge = stringResource(
+                        if (RuntimeStorage.hasPermission(context)) R.string.settings_value_on
+                        else R.string.settings_value_off,
+                    ),
+                ) {
+                    runCatching {
+                        context.startActivity(
+                            Intent(
+                                AndroidSettings.ACTION_APPLICATION_DETAILS_SETTINGS,
+                                Uri.fromParts("package", context.packageName, null),
+                            ),
+                        )
+                    }
+                }
+                SettingsRow(stringResource(R.string.settings_runtime_updates_title), "arrow.clockwise", SettingsTint.Teal) {
+                    (context as? Activity)?.let(OpenCodeBootstrap::requestUpdate)
+                }
+                SettingsRow(stringResource(R.string.settings_runtime_battery_title), "bolt", SettingsTint.Orange) {
+                    runCatching { PermissionUtils.requestDisableBatteryOptimizations(context) }
                 }
             }
             settingsSection(key = "whats-new") {

@@ -25,13 +25,13 @@ import java.util.List;
  * {@code READ/WRITE_EXTERNAL_STORAGE} permissions still cover the primary storage because this
  * app targets SDK 28.</p>
  */
-final class StorageAccess {
+public final class StorageAccess {
 
     private StorageAccess() {
     }
 
     /** Whether the app can read the primary shared storage. */
-    static boolean hasLegacyStoragePermission(Context context) {
+    public static boolean hasLegacyStoragePermission(Context context) {
         return ContextCompat.checkSelfPermission(context,
                 android.Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED
             && ContextCompat.checkSelfPermission(context,
@@ -39,13 +39,13 @@ final class StorageAccess {
     }
 
     /** Whether the app has the "All files access" special permission (Android 11+). */
-    static boolean hasAllFilesAccess(Context context) {
+    public static boolean hasAllFilesAccess(Context context) {
         return Build.VERSION.SDK_INT >= Build.VERSION_CODES.R
             && Environment.isExternalStorageManager();
     }
 
     /** Whether any shared storage permission is available. */
-    static boolean hasStoragePermission(Context context) {
+    public static boolean hasStoragePermission(Context context) {
         return hasAllFilesAccess(context) || hasLegacyStoragePermission(context);
     }
 
@@ -55,7 +55,7 @@ final class StorageAccess {
      * <p>On Android 10 and lower the legacy storage permission also covers the secondary
      * volumes. On Android 11 and higher only the "All files access" permission does.</p>
      */
-    static boolean hasSecondaryVolumeAccess(Context context) {
+    public static boolean hasSecondaryVolumeAccess(Context context) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
             return hasAllFilesAccess(context);
         }
@@ -67,7 +67,7 @@ final class StorageAccess {
      *
      * @return {@code true} if a permission request was started.
      */
-    static boolean requestStoragePermission(Activity activity, int requestCode) {
+    public static boolean requestStoragePermission(Activity activity, int requestCode) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
             return PermissionUtils.requestManageStorageExternalPermission(activity, requestCode) == null;
         } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -81,7 +81,7 @@ final class StorageAccess {
      *
      * @return {@code true} if a permission request was started.
      */
-    static boolean requestLegacyStoragePermission(Activity activity, int requestCode) {
+    public static boolean requestLegacyStoragePermission(Activity activity, int requestCode) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             return PermissionUtils.requestLegacyStorageExternalPermission(activity, requestCode);
         }
@@ -89,7 +89,7 @@ final class StorageAccess {
     }
 
     /** The primary shared storage root, normally {@code /storage/emulated/0}. */
-    static File primaryRoot() {
+    public static File primaryRoot() {
         return Environment.getExternalStorageDirectory();
     }
 
@@ -99,7 +99,7 @@ final class StorageAccess {
      * <p>Older Android versions may report the primary root as {@code /storage/self/primary}
      * instead of {@code /storage/emulated/0}, so the canonical paths are compared when possible.</p>
      */
-    static boolean isPrimaryRoot(File root) {
+    public static boolean isPrimaryRoot(File root) {
         if (root == null) return false;
         File primary = primaryRoot();
         if (root.getAbsolutePath().equals(primary.getAbsolutePath())) return true;
@@ -118,7 +118,7 @@ final class StorageAccess {
      * that path so this also works below API 30, where {@code StorageVolume#getDirectory()}
      * does not exist yet.</p>
      */
-    static List<File> volumeRoots(Context context) {
+    public static List<File> volumeRoots(Context context) {
         List<File> roots = new ArrayList<>();
         File[] dirs = context.getExternalFilesDirs(null);
         if (dirs == null) return roots;
@@ -140,7 +140,7 @@ final class StorageAccess {
     }
 
     /** Strip {@code /Android/data/<package>/files} from an app-specific external directory. */
-    static File volumeRootOf(File appDir) {
+    public static File volumeRootOf(File appDir) {
         String path = appDir.getAbsolutePath();
         int index = path.indexOf("/Android/data/");
         if (index <= 0) return null;
