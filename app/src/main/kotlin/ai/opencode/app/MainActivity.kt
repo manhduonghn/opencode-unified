@@ -107,8 +107,8 @@ class MainActivity : ComponentActivity() {
         splash.setKeepOnScreenCondition { LaunchBloomController.keepsCover(store.state.isColdLaunchContentReady) }
         enableEdgeToEdge()
         super.onCreate(savedInstanceState)
-        // Unified app: bootstrap/repair and supervise the local OpenCode runtime.
-        if (savedInstanceState == null) UnifiedRuntime.initialize(this)
+        // Unified app: the bootstrap/runtime/pair pipeline lives in UnifiedSetupActivity, the
+        // launcher. Reaching this activity means the local daemon is already paired.
         // Unified app: Settings opens the inherited shell and file browser through deep links.
         if (savedInstanceState == null && (openTerminalIfRequested(intent) || openWorkspaceIfRequested(intent))) return
         lifecycle.addObserver(

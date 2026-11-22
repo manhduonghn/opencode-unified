@@ -16,12 +16,21 @@ public final class UnifiedApp {
     public static final String APPLICATION_ID = "com.termux";
 
     /** Fully qualified launcher activity of the unified app shell. */
-    public static final String LAUNCHER_ACTIVITY = "ai.opencode.app.MainActivity";
+    public static final String LAUNCHER_ACTIVITY = "ai.opencode.app.UnifiedSetupActivity";
 
     /** Version reported in diagnostics; the shell supplies the real version at runtime. */
     public static final String VERSION_NAME = "0.1.0";
 
     private UnifiedApp() {
+    }
+
+    /**
+     * The fork's branded startup dialog is only needed while the shell has no UI of its own. The
+     * unified app shows its own preparation screen, so the runtime wrapper closes the fork dialog
+     * once bootstrap extraction is over and the Compose flow takes over.
+     */
+    public static void dismissStartupProgress() {
+        TermuxInstaller.dismissStartupProgress();
     }
 
     /** An explicit intent that opens the shell regardless of which activity is exported. */

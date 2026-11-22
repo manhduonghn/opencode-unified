@@ -415,6 +415,11 @@ public final class OpenCodeBootstrap {
         }
     }
 
+    /** @return the full report of the last failed setup, or null when there is none. */
+    public static String getLastErrorDetail() {
+        return readTextFileQuietly(new File(ERROR_DETAIL_PATH));
+    }
+
     /** @return true while an installation is running. */
     public static boolean isInstallRunning() {
         synchronized (sLock) {
