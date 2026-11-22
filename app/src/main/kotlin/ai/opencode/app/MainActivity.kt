@@ -272,7 +272,11 @@ class MainActivity : ComponentActivity() {
     private fun openWorkspaceIfRequested(intent: Intent?): Boolean {
         val uri = intent?.data ?: return false
         if (uri.scheme != "opencode" || uri.host != "workspace") return false
-        startActivity(Intent(this, ai.opencode.feature.workspace.WorkspaceActivity::class.java).setData(uri))
+        val target: Class<*> = when (uri.path) {
+            "/github" -> ai.opencode.feature.workspace.GitHubActivity::class.java
+            else -> ai.opencode.feature.workspace.WorkspaceActivity::class.java
+        }
+        startActivity(Intent(this, target).setData(uri))
         finish()
         return true
     }

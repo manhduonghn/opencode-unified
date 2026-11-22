@@ -14,11 +14,15 @@ UI. See [docs/PARITY.md](docs/PARITY.md) for what has been carried over and what
 | --- | --- | --- |
 | `:app`, `:core`, `:server`, `:feature:*`, `:devtools` | `anomalyco/opencode-android` | Native client. Keep its store/dependency/shared-key architecture. |
 | `:runtime` | custom `opencode-termux` `app` classes + `cpp` | Installer, ELF patcher, launcher scripts, daemon supervision. |
+| `:feature:terminal` | `opencode-termux` `terminal-emulator`/`terminal-view` | Compose host for the shell. |
+| `:feature:workspace` | `opencode-termux` file manager, code viewer, GitHub activity | Compose file browser, editor and `gh`-backed clone surface. |
 | `:termux-shared`, `:terminal-emulator`, `:terminal-view` | upstream Termux libraries | Shared utilities and terminal primitives for the runtime/terminal screens. |
 
 `:app` depends on `:runtime`; `:runtime` depends on `:termux-shared`. No reverse dependency.
-`UnifiedRuntime.kt` is the only startup bridge. `UnifiedApp.java` holds the application id and
-launcher activity so the Java runtime does not need to depend on the Kotlin shell.
+`UnifiedRuntime.kt` is the only startup bridge. `RuntimeStorage.java` and `RuntimeShell.java` are
+the only public façades from `:runtime` into Compose features; `TermuxInstaller`, `StorageAccess`
+and `TermuxShell` stay package-private. `UnifiedApp.java` holds the application id and launcher
+activity so the Java runtime does not need to depend on the Kotlin shell.
 
 ## Hard rules
 

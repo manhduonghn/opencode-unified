@@ -345,6 +345,14 @@ private fun SettingsRootPage(store: SettingsStore) {
                         )
                     }
                 }
+                SettingsRow(stringResource(R.string.settings_github_title), "github", SettingsTint.Gray) {
+                    runCatching {
+                        context.startActivity(
+                            Intent(Intent.ACTION_VIEW, Uri.parse("opencode://workspace/github"))
+                                .setPackage(context.packageName),
+                        )
+                    }
+                }
                 // Runtime-specific controls inherited from OpenCode for Termux.
                 SettingsDivider(inset = true)
                 SettingsRow(

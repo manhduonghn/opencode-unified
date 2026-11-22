@@ -21,7 +21,7 @@ not carried over).
 | Storage permission / symlink setup | `opencode-termux` `StorageAccess.java`, `SettingsActivity.java` storage block | `:runtime` + `:feature:settings` | wired | `StorageAccess` and `TermuxInstaller.setupStorageSymlinks` exposed through `RuntimeStorage`; Settings opens system app details. No legacy storage flags or `root-path /`. |
 | Scoped file provider | `opencode-termux` `file_paths.xml` | `devtools/src/main/res/xml/devtools_file_paths.xml` | wired | The app's single `FileProvider` (authority `${applicationId}.devtools.files`) now also exposes `files-path home/` and `cache-path workspace-share/`; no `root-path`. |
 | Share target | `opencode-termux` `FileReceiverActivity.java`, `file_paths.xml` | `:feature:system/share` | replaced | Native `ShareActivity` already handles `ACTION_SEND`/`SEND_MULTIPLE`. Add “save to ~/Downloads” only if needed; never add a second exported receiver or a broad provider. |
-| GitHub device login / clone | `opencode-termux` `GitHubActivity.java` | `:workspace` | planned | Do not reuse the hardcoded client id or broad scopes; prefer `gh auth login` device flow with argument arrays and scoped paths. |
+| GitHub login / clone | `opencode-termux` `GitHubActivity.java` | `:feature:workspace` | wired | `gh` owns credentials: a pasted token is piped to `gh auth login --with-token` and never saved in app state. Clone uses argument arrays with `GIT_TERMINAL_PROMPT=0` and validates HTTPS GitHub URLs and home-relative destinations. No client id or scopes are embedded. |
 | Crash report UI | `opencode-termux` `ReportActivity` manifest entries | `:runtime` | wired | Declared so `TermuxCrashUtils` notifications can open the shared report screen. |
 | Backup exclusions | `opencode-termux` Termux home/prefix | `app/src/main/res/xml/data_extraction_rules.xml` | wired | Exclude `usr/`, `home/` (gh/ssh/opencode configs) and `Downloads/` from cloud backup and device transfer. |
 | `TermuxApplication` init | `opencode-termux` `TermuxApplication.java` | `UnifiedRuntime.kt` | wired | Crash handler, log config, bootstrap variant, shell manager, Termux-am socket, shell environment and directory checks are installed from `OpenCodeApplication`. Theme/dynamic-color hooks stay dropped: the Compose shell owns appearance. |
@@ -44,8 +44,9 @@ not carried over).
 - Never port the fork's `root-path /` / `external-path .` provider or `MANAGE_EXTERNAL_STORAGE`.
   The workspace provider declares only `files-path home/` and `cache-path workspace-share/`, and
   deep-link paths are canonicalized and rejected outside the runtime roots.
-- Do not reuse the fork's GitHub OAuth client id or scopes; keep tokens in `gh`'s credential store
-  and exclude `home/.config/gh`, `home/.ssh` and `home/.opencode` from backup.
+- Do not reuse the fork's GitHub OAuth client id or scopes; the Compose screen pipes the token to
+  `gh auth login --with-token`, keeps it out of saved state, and relies on `gh`'s credential store.
+  `home/` (including `.config/gh`, `.ssh` and `.opencode`) is excluded from backup.
 - Preserve the fork's file-manager safety invariants (protected paths, symlink handling, zip-slip
   checks) when reimplementing its behaviour in Compose.
 - Extend the native share sheet instead of adding a second exported `ACTION_SEND` activity.
