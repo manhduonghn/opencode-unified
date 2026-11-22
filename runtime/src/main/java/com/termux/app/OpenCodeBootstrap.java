@@ -2039,7 +2039,7 @@ public final class OpenCodeBootstrap {
                 NotificationManager.IMPORTANCE_LOW);
 
             PendingIntent contentIntent = PendingIntent.getActivity(context, 0,
-                UnifiedApp.openAppIntent(context), PendingIntent.FLAG_UPDATE_CURRENT);
+                UnifiedApp.openAppIntent(context), PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
 
             Notification.Builder builder = NotificationUtils.geNotificationBuilder(context, NOTIFICATION_CHANNEL_ID,
                 Notification.PRIORITY_LOW, "OpenCode", message, null, contentIntent, null,
@@ -2069,7 +2069,7 @@ public final class OpenCodeBootstrap {
                 NotificationManager.IMPORTANCE_LOW);
 
             PendingIntent contentIntent = PendingIntent.getActivity(context, 0,
-                UnifiedApp.openAppIntent(context), PendingIntent.FLAG_UPDATE_CURRENT);
+                UnifiedApp.openAppIntent(context), PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
 
             Notification.Builder builder = NotificationUtils.geNotificationBuilder(context, NOTIFICATION_CHANNEL_ID,
                 Notification.PRIORITY_LOW, title, text, null, contentIntent, null,
