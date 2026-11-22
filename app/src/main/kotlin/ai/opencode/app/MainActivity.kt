@@ -108,11 +108,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         super.onCreate(savedInstanceState)
         // Unified app: the Settings row opens the Termux shell through this deep link.
-        if (savedInstanceState == null && intent.data?.scheme == "opencode" && intent.data?.host == "terminal") {
-            startActivity(Intent(this, ai.opencode.feature.terminal.TerminalActivity::class.java))
-            finish()
-            return
-        }
+        if (savedInstanceState == null && openTerminalIfRequested(intent)) return
         // Unified app: bootstrap/repair and supervise the local OpenCode runtime.
         if (savedInstanceState == null) UnifiedRuntime.initialize(this)
         lifecycle.addObserver(
@@ -254,6 +250,7 @@ class MainActivity : ComponentActivity() {
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
         setIntent(intent)
+        if (openTerminalIfRequested(intent)) return
         // A window asked again for its own session shows it.
         if (intent.action == SessionWindowTarget.ACTION && root.follows) {
             val next = RootStore.target(intent, null) ?: return
@@ -261,6 +258,14 @@ class MainActivity : ComponentActivity() {
             return
         }
         handle(intent)
+    }
+
+    /** Settings opens the inherited shell with `opencode://terminal`; handle cold and warm starts alike. */
+    private fun openTerminalIfRequested(intent: Intent?): Boolean {
+        if (intent?.data?.scheme != "opencode" || intent.data?.host != "terminal") return false
+        startActivity(Intent(this, ai.opencode.feature.terminal.TerminalActivity::class.java))
+        finish()
+        return true
     }
 
     private fun handle(intent: Intent?) {
