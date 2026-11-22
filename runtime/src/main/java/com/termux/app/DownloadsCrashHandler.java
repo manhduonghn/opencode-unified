@@ -106,7 +106,7 @@ public final class DownloadsCrashHandler implements Thread.UncaughtExceptionHand
         try {
             PackageInfo info = context.getPackageManager().getPackageInfo(context.getPackageName(), 0);
             report.append("App: ").append(info.versionName)
-                .append(" (").append(info.longVersionCode).append(")\n");
+                .append(" (").append(info.getLongVersionCode()).append(")\n");
         } catch (PackageManager.NameNotFoundException ignored) {
         }
         report.append('\n');
