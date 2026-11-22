@@ -1147,14 +1147,25 @@ public final class OpenCodeBootstrap {
 
         private static String formatTransferDetail(long done, long total, double rate, long etaSeconds) {
             StringBuilder sb = new StringBuilder();
-            sb.append(OpenCodeInstallDialog.formatSize(done));
+            sb.append(formatSize(done));
             if (total > 0)
-                sb.append(" / ").append(OpenCodeInstallDialog.formatSize(total));
+                sb.append(" / ").append(formatSize(total));
             if (rate > 0.01)
                 sb.append(String.format(Locale.US, " - %.2f MB/s", rate));
             if (etaSeconds > 0)
                 sb.append(" - ").append(formatEta(etaSeconds)).append(" left");
             return sb.toString();
+        }
+
+        /** Human-readable size for download progress; previously lived in OpenCodeInstallDialog. */
+        private static String formatSize(long bytes) {
+            if (bytes < 0) return "";
+            if (bytes < 1024) return bytes + " B";
+            double kb = bytes / 1024.0;
+            if (kb < 1024) return String.format(Locale.US, "%.1f kB", kb);
+            double mb = kb / 1024.0;
+            if (mb < 1024) return String.format(Locale.US, "%.1f MB", mb);
+            return String.format(Locale.US, "%.2f GB", mb / 1024.0);
         }
 
         private static String formatEta(long seconds) {
