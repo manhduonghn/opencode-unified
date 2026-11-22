@@ -25,6 +25,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
@@ -35,6 +36,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.termux.app.RuntimeStorage
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.io.File
 import java.nio.file.Files
@@ -43,11 +45,11 @@ import java.util.Date
 import java.util.Locale
 
 /**
- * Read-only Compose replacement for the fork's `FileManagerActivity`.
+ * Compose replacement for the fork's `FileManagerActivity`.
  *
  * It browses the Termux home (plus the prefix and shared storage) through the same runtime façade
- * the shell uses. Write operations, ZIP handling and the text editor are layered on in later
- * slices; keeping this first slice read-only avoids ever exposing the fork's `root-path /`.
+ * the shell uses. All write operations go through [WorkspaceFiles], which keeps the fork's
+ * protected-path, symlink and zip-slip rules; no broad provider or storage permission is needed.
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -62,11 +64,22 @@ fun WorkspaceScreen(initialPath: String?, modifier: Modifier = Modifier) {
     var selected by remember { mutableStateOf<WorkspaceEntry?>(null) }
     var goToOpen by remember { mutableStateOf(false) }
     var goToText by remember { mutableStateOf("") }
+    val scope = rememberCoroutineScope()
+    var refresh by remember { mutableStateOf(0) }
+    var opFailed by remember { mutableStateOf(false) }
+    var nameAction by remember { mutableStateOf<NameAction?>(null) }
+    var nameText by remember { mutableStateOf("") }
+    var copied by remember { mutableStateOf<File?>(null) }
 
-    LaunchedEffect(path, query, showHidden) {
+    LaunchedEffect(path, query, showHidden, refresh) {
         val listing = withContext(Dispatchers.IO) { listWorkspace(File(path), showHidden, query) }
         entries = listing.entries
         failed = listing.failed
+    }
+
+    fun finish(result: Result<*>) {
+        opFailed = result.isFailure
+        if (result.isSuccess) refresh++
     }
 
     Scaffold(
@@ -86,6 +99,10 @@ fun WorkspaceScreen(initialPath: String?, modifier: Modifier = Modifier) {
                     }) { Text("↑") }
                 },
                 actions = {
+                    IconButton(onClick = {
+                        nameAction = NameAction.NewFolder
+                        nameText = ""
+                    }) { Text("＋") }
                     IconButton(onClick = { goToOpen = true }) { Text("⌕") }
                     IconButton(onClick = { showHidden = !showHidden }) {
                         Text(if (showHidden) "◉" else "○")
@@ -108,6 +125,38 @@ fun WorkspaceScreen(initialPath: String?, modifier: Modifier = Modifier) {
                 singleLine = true,
                 modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp),
             )
+            Row(Modifier.fillMaxWidth().padding(horizontal = 8.dp)) {
+                TextButton(onClick = {
+                    nameAction = NameAction.NewFile
+                    nameText = ""
+                }) { Text(stringResource(R.string.oc_workspace_new_file)) }
+                TextButton(onClick = {
+                    nameAction = NameAction.NewFolder
+                    nameText = ""
+                }) { Text(stringResource(R.string.oc_workspace_new_folder)) }
+                TextButton(onClick = {
+                    val source = copied ?: return@TextButton
+                    scope.launch(Dispatchers.IO) {
+                        val result = WorkspaceFiles.copy(source, WorkspaceFiles.uniqueTarget(File(path), source.name))
+                        withContext(Dispatchers.Main) { finish(result) }
+                    }
+                }) { Text(stringResource(R.string.oc_workspace_paste)) }
+                TextButton(onClick = {
+                    val here = File(path)
+                    val parent = here.parentFile ?: return@TextButton
+                    val target = WorkspaceFiles.uniqueTarget(
+                        parent,
+                        "${here.name}.zip",
+                    )
+                    scope.launch(Dispatchers.IO) {
+                        val result = WorkspaceFiles.createZip(listOf(here), target)
+                        withContext(Dispatchers.Main) { finish(result) }
+                    }
+                }) { Text(stringResource(R.string.oc_workspace_zip)) }
+            }
+            if (opFailed) {
+                Text(stringResource(R.string.oc_workspace_operation_failed), Modifier.padding(horizontal = 16.dp))
+            }
             when {
                 failed -> Text(stringResource(R.string.oc_workspace_error), Modifier.padding(16.dp))
                 entries.isEmpty() -> Text(stringResource(R.string.oc_workspace_empty), Modifier.padding(16.dp))
@@ -156,6 +205,27 @@ fun WorkspaceScreen(initialPath: String?, modifier: Modifier = Modifier) {
                     PropertyRow(stringResource(R.string.oc_workspace_size), formatSize(entry.size))
                     PropertyRow(stringResource(R.string.oc_workspace_modified), formatDate(entry.modified))
                     PropertyRow(stringResource(R.string.oc_workspace_path), entry.file.absolutePath)
+                    Row(Modifier.fillMaxWidth().padding(top = 8.dp)) {
+                        TextButton(onClick = {
+                            nameAction = NameAction.Rename(entry.file)
+                            nameText = entry.name
+                            selected = null
+                        }) { Text(stringResource(R.string.oc_workspace_rename)) }
+                        TextButton(onClick = {
+                            copied = entry.file
+                            selected = null
+                        }) { Text(stringResource(R.string.oc_workspace_copy)) }
+                        TextButton(onClick = {
+                            scope.launch(Dispatchers.IO) {
+                                val deleted = WorkspaceFiles.delete(entry.file)
+                                withContext(Dispatchers.Main) {
+                                    opFailed = !deleted
+                                    if (deleted) refresh++
+                                }
+                            }
+                            selected = null
+                        }) { Text(stringResource(R.string.oc_workspace_delete)) }
+                    }
                 }
             },
             confirmButton = {
@@ -207,6 +277,55 @@ fun WorkspaceScreen(initialPath: String?, modifier: Modifier = Modifier) {
             },
         )
     }
+
+    nameAction?.let { action ->
+        AlertDialog(
+            onDismissRequest = { nameAction = null },
+            title = {
+                Text(
+                    stringResource(
+                        when (action) {
+                            NameAction.NewFile -> R.string.oc_workspace_new_file
+                            NameAction.NewFolder -> R.string.oc_workspace_new_folder
+                            is NameAction.Rename -> R.string.oc_workspace_rename
+                        },
+                    ),
+                )
+            },
+            text = {
+                OutlinedTextField(
+                    value = nameText,
+                    onValueChange = { nameText = it },
+                    label = { Text(stringResource(R.string.oc_workspace_name)) },
+                    singleLine = true,
+                )
+            },
+            confirmButton = {
+                TextButton(onClick = {
+                    scope.launch(Dispatchers.IO) {
+                        val result = when (action) {
+                            NameAction.NewFile -> WorkspaceFiles.createFile(File(path), nameText)
+                            NameAction.NewFolder -> WorkspaceFiles.createDirectory(File(path), nameText)
+                            is NameAction.Rename -> WorkspaceFiles.rename(action.file, nameText)
+                        }
+                        withContext(Dispatchers.Main) { finish(result) }
+                    }
+                    nameAction = null
+                }) { Text(stringResource(R.string.oc_workspace_save)) }
+            },
+            dismissButton = {
+                TextButton(onClick = { nameAction = null }) {
+                    Text(stringResource(R.string.oc_workspace_cancel))
+                }
+            },
+        )
+    }
+}
+
+private sealed interface NameAction {
+    object NewFile : NameAction
+    object NewFolder : NameAction
+    data class Rename(val file: File) : NameAction
 }
 
 @Composable

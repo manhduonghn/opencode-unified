@@ -61,10 +61,17 @@ fun GitHubScreen(modifier: Modifier = Modifier) {
     val toolsReady = remember {
         RuntimeShell.hasExecutable("gh") && RuntimeShell.hasExecutable("git")
     }
+    // Resolved in composition so the click handler can set them without a Composable call.
+    val notInstalledText = stringResource(R.string.oc_workspace_github_not_installed)
+    val invalidRepoText = stringResource(R.string.oc_workspace_github_invalid_repo)
+    val invalidDestinationText = stringResource(R.string.oc_workspace_github_invalid_destination)
 
     fun report(line: String) {
-        output += line + "\n"
-        if (output.length > 8000) output = output.takeLast(8000)
+        // Shell output arrives on a reader thread; marshal state writes back to Main.
+        scope.launch(Dispatchers.Main) {
+            output += line + "\n"
+            if (output.length > 8000) output = output.takeLast(8000)
+        }
     }
 
     LaunchedEffect(Unit) {
@@ -113,16 +120,18 @@ fun GitHubScreen(modifier: Modifier = Modifier) {
             TextButton(onClick = {
                 if (token.isBlank()) return@TextButton
                 scope.launch(Dispatchers.IO) {
-                    busy = true
+                    withContext(Dispatchers.Main) { busy = true }
                     val result = RuntimeShell.runWithInput(
                         context,
                         token,
                         arrayOf("gh", "auth", "login", "--with-token", "-h", "github.com"),
                         60_000,
                     ) { line -> report(line) }
-                    token = ""
-                    status = parseAuthStatus(result)
-                    busy = false
+                    withContext(Dispatchers.Main) {
+                        token = ""
+                        status = parseAuthStatus(result)
+                        busy = false
+                    }
                 }
             }) { Text(stringResource(R.string.oc_workspace_github_sign_in)) }
 
@@ -145,11 +154,9 @@ fun GitHubScreen(modifier: Modifier = Modifier) {
                     File(RuntimeStorage.home(), "repos").absolutePath
                 }
                 when {
-                    !toolsReady -> error = stringResource(R.string.oc_workspace_github_not_installed)
-                    !HTTPS_GITHUB.matches(repo.trim()) ->
-                        error = stringResource(R.string.oc_workspace_github_invalid_repo)
-                    !isInsideHome(target) ->
-                        error = stringResource(R.string.oc_workspace_github_invalid_destination)
+                    !toolsReady -> error = notInstalledText
+                    !HTTPS_GITHUB.matches(repo.trim()) -> error = invalidRepoText
+                    !isInsideHome(target) -> error = invalidDestinationText
                     else -> {
                         error = null
                         runCommand(
@@ -182,10 +189,12 @@ private fun runCommand(
     onDone: (String) -> Unit,
 ) {
     scope.launch(Dispatchers.IO) {
-        onBusy(true)
+        withContext(Dispatchers.Main) { onBusy(true) }
         val result = RuntimeShell.run(context, args, 600_000) { line -> onLine(line) }
-        onDone(result)
-        onBusy(false)
+        withContext(Dispatchers.Main) {
+            onDone(result)
+            onBusy(false)
+        }
     }
 }
 
