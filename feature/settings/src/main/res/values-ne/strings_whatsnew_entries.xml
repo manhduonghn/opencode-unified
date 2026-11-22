@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- What’s New entries, oldest first: one group per file in whatsnew/entries/. -->
+
+    <!-- 2026-10-06-01-voice-messages -->
+    <string name="settings_whatsnew_entry_voice_messages_title">आवाज सन्देशहरू</string>
+    <string name="settings_whatsnew_entry_voice_messages_summary">आवाजले तपाईंका लागि सत्रमा सोधेका कुरा ध्वनि तरङ्गको चिन्हसहित आवाज सन्देशका रूपमा देखिन्छन्।</string>
+
+    <!-- 2026-10-07-01-attachment-menu-hold -->
+    <string name="settings_whatsnew_entry_attachment_menu_hold_title">+ बाट संलग्न गर्नुहोस्</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_summary">सन्देश बाकसबाट खुल्ने + मेनुमा क्यामेरा, फोटोहरू र फाइलहरू छन्। एकै पटक छान्न + थिचिराखेर औँला सार्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_1">फोटोहरू सन्देश बाकसको ठीक माथि खुल्छन्; संलग्न गर्न फोटोहरूमा ट्याप गर्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_2">क्यामेरामा लेन्सका बटन र फ्ल्यास छन्। जुम गर्न पिन्च गर्नुहोस् र फोकस गर्न ट्याप गर्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_example">+ थिचिराख्नुहोस्, माथि फोटोहरूतिर औँला सार्नुहोस् र छोड्नुहोस्</string>
+
+    <!-- 2026-10-08-01-voice-webrtc-weak-connection -->
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_title">अझ स्थिर कलहरू</string>
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_summary">कमजोर जडान हुँदा कलमा अब केही सेकेन्ड चुप्पी छाउनुको सट्टा क्षणभर मात्र आवाज अड्किन्छ।</string>
+
+    <!-- 2026-10-08-02-mute-sessions -->
+    <string name="settings_whatsnew_entry_mute_sessions_title">सत्रका सूचना बन्द गर्नुहोस्</string>
+    <string name="settings_whatsnew_entry_mute_sessions_summary">सूचना बन्द गरिएका सत्रहरू सूचीमै रहन्छन्, तर छुटेका अपडेटहरूमा आउँदैनन् र नपढिएको जनाउने थोप्लो पनि देखाउँदैनन्।</string>
+    <string name="settings_whatsnew_entry_mute_sessions_detail_1">सबैलाई पढिएको चिन्ह लगाउन छुटेका अपडेटहरू थिचिराख्नुहोस्। तपाईंको जवाफ पर्खिरहेका सत्रहरू भने रहन्छन्।</string>
+    <string name="settings_whatsnew_entry_mute_sessions_example">साइड प्यानलमा सत्र थिचिराख्नुहोस् र सूचना बन्द गर्नुहोस् मा ट्याप गर्नुहोस्</string>
+
+    <!-- 2026-10-08-03-pair-from-anywhere -->
+    <string name="settings_whatsnew_entry_pair_from_anywhere_title">जहाँबाट पनि जोड्नुहोस्</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_summary">एउटै Wi-Fi वा Tailscale बिना जुनसुकै नेटवर्कबाट जडान गर्न कम्प्युटरमा opencode pair --remote चलाउनुहोस्।</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_detail_1">त्यसले देखाएको कोड स्क्यान गर्नुहोस् वा दिएको लिङ्क टाँस्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_example">opencode pair --remote चलाउनुहोस्, अनि फोनमा सर्भर थप्नुहोस्</string>
+
+    <!-- 2026-10-08-04-drawer-peek -->
+    <string name="settings_whatsnew_entry_drawer_peek_title">सत्रहरू कहिले सक्रिय थिए</string>
+    <string name="settings_whatsnew_entry_drawer_peek_summary">हरेक सत्र पछिल्लो पटक कहिले सक्रिय थियो हेर्न सत्रको सूचीलाई सत्रतिर तान्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_drawer_peek_detail_1">सूचीमा बायाँ स्वाइप गर्दा यो बन्द हुन्छ।</string>
+    <string name="settings_whatsnew_entry_drawer_peek_example">सत्रको सूची खोल्नुहोस् र दायाँ तान्नुहोस्</string>
+
+    <!-- 2026-10-08-05-dictation-keeps-going -->
+    <string name="settings_whatsnew_entry_dictation_keeps_going_title">बोलेर लेख्नुहोस् र पठाउनुहोस्</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_summary">बोलेर लेख्न माइकमा ट्याप गर्नुहोस्, अनि रेकर्डिङ पट्टीबाटै पठाउनुहोस्। पहिले जाँच्न चाहनुहुन्छ भने रोक्नुहोस् मा ट्याप गर्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_1">बोल्न माइक थिचिराख्नुहोस्, लक गर्न माथि वा रद्द गर्न बायाँ औँला सार्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_2">एपबाट बाहिरिँदा पनि रेकर्डिङ चलिरहन्छ। यसलाई रोक्न प्रत्यक्ष गतिविधिमा बटन हुन्छ।</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_3">रेकर्डिङ गर्दागर्दै सत्र फेर्नुभयो भने पठाउनुहोस् थिच्दा स्क्रिनमा भएको सत्रमा पठाइन्छ।</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_example">माइकमा ट्याप गर्नुहोस्, एउटा वाक्य बोल्नुहोस् र पठाउनुहोस् मा ट्याप गर्नुहोस्</string>
+
+    <!-- 2026-10-08-06-siri-shortcuts-spotlight -->
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_title">एप कार्यहरू र सर्टकटहरू</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_summary">Google Assistant का एप कार्यहरू, एप सर्टकटहरू वा द्रुत सेटिङहरूबाट कल वा सत्र सुरु गर्नुहोस्, वा सन्देश पठाउनुहोस्।</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_detail_1">भर्खरका सत्रहरू हेर्न एपको आइकन थिचिराख्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_example">“Hey Google, OpenCode मा आवाज कल सुरु गर” भन्नुहोस्</string>
+
+    <!-- 2026-10-09-01-working-orb -->
+    <string name="settings_whatsnew_entry_working_orb_title">स्थिति गोला</string>
+    <string name="settings_whatsnew_entry_working_orb_summary">काम हुँदै छ को छेउमा र उप-एजेन्टका कार्डमा देखिने गोलाले एजेन्ट के गर्दै छ भन्ने देखाउँछ। काम सकिएपछि यो प्रतिलिपि गर्ने बटन बन्छ।</string>
+
+    <!-- 2026-10-09-02-shell-glyph -->
+    <string name="settings_whatsnew_entry_shell_glyph_title">शेल गतिविधि</string>
+    <string name="settings_whatsnew_entry_shell_glyph_summary">चलिरहेको शेलको आउटपुट आउँदा त्यसको &gt;_ प्रम्प्टमा घुम्ने एनिमेसन देखिन्छ।</string>
+
+    <!-- 2026-10-09-03-math-and-diagrams -->
+    <string name="settings_whatsnew_entry_math_and_diagrams_title">गणित र आरेखहरू</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_summary">जवाफमा गणितीय सूत्रहरू मिलाएर देखाइन्छ र Mermaid आरेखहरू कोरिन्छन्।</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_1">जुम बढाउन आरेखमा ट्याप गर्नुहोस् वा यसको स्रोत हेर्न थिचिराख्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_2">गणितीय सूत्रहरूको आकार तपाईंको पाठको आकारअनुसार बदलिन्छ।</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_example">सन्देश कसरी पठाइन्छ भन्ने प्रवाहचित्र माग्नुहोस्</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_prompt">सन्देश कसरी पठाइन्छ भन्ने प्रवाहचित्र कोर्नुहोस्</string>
+
+    <!-- 2026-10-09-04-always-notify -->
+    <string name="settings_whatsnew_entry_always_notify_title">सकिएपछि सूचना दिनुहोस्</string>
+    <string name="settings_whatsnew_entry_always_notify_summary">यहाँ सुरु गरेको सत्रको काम सकिएपछि के भयो भन्ने छोटो सारांशसहित सूचना पाउनुहोस्।</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_1">कम्प्युटरबाट सुरु भएका समेत हरेक जवाफको सूचना पाउन सत्रको प्यानलमा सधैं सूचना दिनुहोस् खोल्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_2">सम्बन्धित सत्र खोल्न सूचनामा ट्याप गर्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_always_notify_example">सन्देश पठाउनुहोस्, अनि फोन लक गर्नुहोस्</string>
+
+    <!-- 2026-10-09-05-server-switcher -->
+    <string name="settings_whatsnew_entry_server_switcher_title">सर्भर फेर्नुहोस्</string>
+    <string name="settings_whatsnew_entry_server_switcher_summary">जडान भएको सर्भरको नाम साइड प्यानलको शीर्षकमा देखिन्छ। अर्को सर्भरमा जान वा थप्न त्यसमा ट्याप गर्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_1">सेटिङहरूमा जडानको अवस्था चलिरहेको धड्कनका रूपमा र सर्भरको नामछेउमा सन्देश पुगेर फर्कन लाग्ने समय देखिन्छ।</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_2">सर्भरको नाम फेर्नुहोस्; यो नाम यही फोनमा मात्र प्रयोग हुन्छ।</string>
+    <string name="settings_whatsnew_entry_server_switcher_example">साइड प्यानल खोल्नुहोस्, सर्भरको नाममा ट्याप गर्नुहोस् र अर्को कम्प्युटर थप्नुहोस्</string>
+
+    <!-- 2026-10-10-01-share-opened-files -->
+    <string name="settings_whatsnew_entry_share_opened_files_title">फोटोजस्तै छविहरू</string>
+    <string name="settings_whatsnew_entry_share_opened_files_summary">सत्रमा छविहरू पूरै देखिन्छन् र फोटोहरूजस्तै खुल्छन्: जुम गर्न पिन्च गर्नुहोस्, अर्को छविमा जान स्वाइप गर्नुहोस् र बन्द गर्न तल तान्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_1">एजेन्टले उल्लेख गरेको हरेक फाइल एपमै खुल्छ।</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_2">साझा गर्नुहोस् बाट भिडियो र अडियोसहित खोलेको जुनसुकै सामग्री फोटोहरू वा फाइलहरूमा बचत गर्न सकिन्छ।</string>
+    <string name="settings_whatsnew_entry_share_opened_files_example">एजेन्टलाई केही स्क्रिनसट पढ्न भन्नुहोस्, अनि एउटामा ट्याप गरेर तल तान्नुहोस्</string>
+
+    <!-- 2026-10-10-02-call-voice -->
+    <string name="settings_whatsnew_entry_call_voice_title">आवाज कलहरू</string>
+    <string name="settings_whatsnew_entry_call_voice_summary">खाली सन्देश बाकसको ध्वनि तरङ्गमा ट्याप गरेर बोल्नुहोस्। तपाईं बोल्दै गर्दा आवाजले सत्रहरूमा काम गर्छ र काम सकिएपछि बताउँछ।</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_1">नाम लिएर कुनै पनि सत्र खोल्न भन्नुहोस्: आवाजले त्यो खोलेर त्यहाँ काम सुरु गर्छ वा कामलाई दिशा दिन्छ।</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_2">बीचमै रोक्न आफैँ बोल्नुहोस् वा काम कस्तो हुँदै छ भनेर सोध्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_3">बोलीको प्रत्यक्ष पाठ हेर्न कल बारमा थिच्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_4">कलको सूचनाबाट माइक बन्द गर्नुहोस् वा कल अन्त्य गर्नुहोस्, लक स्क्रिनबाट पनि।</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_5">एजेन्टले काम गरिरहँदा कल गर्न ‘रोक्नुहोस्’ थिचिराख्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_6">सेटिङहरू → आवाजमा आवाज छान्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_call_voice_example">कल सुरु गरेर भन्नुहोस्, “मेरो अपलोड सुधारको सत्र खोल्नुहोस् र परीक्षणहरू जाँच्नुहोस्”</string>
+
+    <!-- 2026-10-10-03-drawer-one-edge -->
+    <string name="settings_whatsnew_entry_drawer_one_edge_title">चिटिक्क साइड प्यानल</string>
+    <string name="settings_whatsnew_entry_drawer_one_edge_summary">पङ्क्तिहरू एउटै किनाराबाट सुरु हुन्छन्, स्थिति जनाउने थोप्लाहरू हरेक पङ्क्तिको अन्त्यमा छन् र खोज्ने बटन माथि छ।</string>
+
+    <!-- 2026-10-11-01-paste-as-a-card -->
+    <string name="settings_whatsnew_entry_paste_as_a_card_title">लामो पाठ कार्डमा</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_summary">लामो पाठ टाँस्दा छविहरूको छेउमा ‘टाँसिएको पाठ’ कार्ड बन्छ, र एजेन्टले अझै पनि सबै पाठ पढ्छ।</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_1">टाँसिएको सबै पाठ पढ्न कार्डमा थिच्नुहोस्। प्रतिलिपि गर्ने र साझा गर्ने विकल्प पनि छन्।</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_2">लामा सन्देशहरू केही लाइनमा छोट्टिन्छन् र ‘थप देखाउनुहोस्’ विकल्प देखिन्छ।</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_example">लामो लग प्रतिलिपि गर्नुहोस्, सन्देश बाकसमा टाँस्नुहोस् र कार्डमा थिच्नुहोस्</string>
+
+    <!-- 2026-10-11-02-ride-out-drops -->
+    <string name="settings_whatsnew_entry_ride_out_drops_title">कमजोर सिग्नलमा पनि चल्छ</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_summary">केही सेकेन्ड सिग्नल हराउँदैमा अब काम असफल हुँदैन। सन्देश पठाउने काम, सत्र र कलहरू जडान पर्खेर फेरि जारी रहन्छन्।</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_1">‘पठाउनुहोस्’ सधैं तयार रहन्छ र सन्देशहरू पठाएकै क्रममा जान्छन्।</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_2">पठाउन नसकिएको सन्देश ‘फेरि प्रयास गर्नुहोस्’ विकल्पसहित त्यहीँ रहन्छ। फेरि प्रयास गर्दा दोहोरिएर पठाइँदैन।</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_3">सर्भर अफलाइन हुँदा साइड प्यानलमा त्यसको नाम मधुरो हुन्छ। ‘फेरि प्रयास गर्नुहोस्’ विकल्पका लागि त्यसमा थिच्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_example">रेल सुरुङमा पस्दै गर्दा सत्र खोल्नुहोस्</string>
+
+    <!-- 2026-10-11-03-new-session-recent-projects -->
+    <string name="settings_whatsnew_entry_new_session_recent_projects_title">कुनै पनि परियोजनामा सुरु गर्नुहोस्</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_summary">‘नयाँ सत्र’ मा सन्देश बाकसमाथि भर्खरका परियोजनाहरू देखिन्छन्। ‘सबै परियोजनाहरू’ बाट कम्प्युटरको कुनै पनि फोल्डर खोल्न सकिन्छ।</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_1">टाइप गर्दा छानेको परियोजना सन्देश बाकसमाथि देखिइरहन्छ।</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_2">नयाँ सत्रबाट सुरु गरिएको कलले तपाईंले छानेकै परियोजनामा काम गर्छ।</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_example">‘नयाँ सत्र’, त्यसपछि ‘सबै परियोजनाहरू’, अनि ‘फोल्डर छान्नुहोस्…’ मा थिच्नुहोस्</string>
+
+    <!-- 2026-10-11-04-stop-runs-your-steer -->
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_title">काम हुँदै गर्दा दिशा दिनुहोस्</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_summary">एजेन्टले काम गरिरहँदा सन्देश पठाउनुहोस्। उसले पहिले लामो समय लाग्ने आदेशहरू पृष्ठभूमिमा सार्छ र अर्को चरणमा तपाईंको सन्देश पढ्छ।</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_1">एउटा सन्देशका लागि ‘दिशा दिनुहोस्’ वा ‘पङ्क्तिमा राख्नुहोस्’ छान्न ‘पठाउनुहोस्’ थिचिराख्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_2">पर्खिरहेको सन्देशलाई पङ्क्तिमा सार्न वा मेट्न थिचिराख्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_3">‘रोक्नुहोस्’ तुरुन्तै ‘रोक्दै…’ मा बदलिन्छ र तपाईंले दिशा दिन पठाएको सन्देशको पालो आउँछ।</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_example">लामो समय लाग्ने आदेश चलिरहँदा सन्देश पठाउनुहोस् र आदेश पृष्ठभूमिमा सरेको हेर्नुहोस्</string>
+
+    <!-- 2026-10-12-01-browser-push-in -->
+    <string name="settings_whatsnew_entry_browser_push_in_title">एपभित्र ब्राउजर पृष्ठहरू</string>
+    <string name="settings_whatsnew_entry_browser_push_in_summary">एपभित्रको ब्राउजर प्रयोगात्मक सुविधा चालु हुँदा लिङ्कको पृष्ठ सत्रमाथि खुल्छ। पछाडि जान किनाराबाट स्वाइप गर्नुहोस्।</string>
+
+    <!-- 2026-10-12-02-answer-from-the-bar -->
+    <string name="settings_whatsnew_entry_answer_from_the_bar_title">सन्देश बाकसबाटै जवाफ दिनुहोस्</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_summary">प्रश्न र अनुमति अनुरोधहरू सन्देश बाकसबाटै खुल्छन्। त्यहीँ विकल्प थिचेर, टाइप गरेर वा बोलेर जवाफ दिनुहोस्।</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_1">अनुमति दिनुअघि सम्बन्धित आदेश वा सम्पादन देखिन्छ।</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_2">‘अस्वीकार गर्नुहोस्’ ले तपाईंले लेखेको कुरालाई सट्टामा के गर्ने भन्ने निर्देशन मान्छ, त्यसैले एजेन्टले काम जारी राख्छ।</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_3">जवाफ दिएपछि तपाईंको मस्यौदा फेरि देखिन्छ।</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_example">एजेन्टले प्रश्न सोध्दा माइक थिचिराखेर आफ्नो जवाफ भन्नुहोस्</string>
+
+    <!-- 2026-10-12-03-new-messages-divider -->
+    <string name="settings_whatsnew_entry_new_messages_divider_title">छोडेकै ठाउँबाट अघि बढ्नुहोस्</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_summary">सत्रमा फर्कँदा पुछारमा खुल्छ, जहाँ तपाईं नहुँदा आएका सन्देशहरू तयार हुन्छन्। धेरै सन्देश थुप्रिएका बेला ‘नयाँ’ रेखाबाट खोल्न सेटिङहरू › सत्रहरूमा ‘नयाँ सन्देश विभाजक’ चालु गर्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_1">साइड प्यानल खोल्दा तपाईंले खोल्न सक्ने सत्रहरू अद्यावधिक हुन्छन्, ताकि थिच्दा तयार होऊन्।</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_2">सत्रमा फर्कँदा अद्यावधिक भइरहे पनि पृष्ठभूमिको काम र सन्दर्भ मापक यथावत् रहन्छन्।</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_example">लामो कार्य सुरु गर्नुहोस्, अर्को सत्रमा जानुहोस् र जवाफ आएपछि फर्कनुहोस्</string>
+
+    <!-- 2026-10-12-04-model-list-and-level-meter -->
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_title">नयाँ मोडेल छनोट</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_summary">मोडेल प्यानलबाट मोडेल र त्यसको सोचाइको स्तर छान्नुहोस्। मनपर्नेहरू माथि हुन्छन्। सन्देश बाकसबाट खुल्ने सूची चलाएर हेर्न सेटिङहरू → प्रयोगात्मकमा ‘नयाँ मोडेल छनोट’ चालु गर्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_1">मोडेलमा सोचाइका स्तरहरू उपलब्ध छन् भने मोडेल प्यानलको ‘सोच्दै’ मेनु प्रयोग गर्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_2">मनपर्नेमा थप्न मोडेलमा स्वाइप गर्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_3">सत्रको हल्का रेखाले मोडेल वा स्तर बदलेको ठाउँ जनाउँछ।</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_example">सन्देश बाकसमा मोडेल थिच्नुहोस् र सोचाइको स्तर छान्नुहोस्</string>
+
+    <!-- 2026-10-12-05-run-error-line -->
+    <string name="settings_whatsnew_entry_run_error_line_title">काम असफल हुँदा</string>
+    <string name="settings_whatsnew_entry_run_error_line_summary">काम बीचमै रोकिएमा कारण सरल भाषामा देखिन्छ, साथै अघि बढ्ने एउटा विकल्प: ‘सम्पादन गर्नुहोस्’, ‘सङ्क्षिप्त’, ‘मोडेल बदल्नुहोस्’ वा ‘फेरि प्रयास गर्नुहोस्’।</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_1">‘सम्पादन गर्नुहोस्’ ले तपाईंको सन्देश पूर्ववत् गरेर फेरि लेख्न सन्देश बाकसमा फर्काउँछ।</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_2">पूरा त्रुटि हेर्न र प्रतिलिपि गर्न उक्त लाइन थिचिराख्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_3">एजेन्टले आफैं फेरि प्रयास गर्ने भए ‘काम हुँदै छ’ मा अर्को प्रयाससम्म बाँकी समय देखिन्छ।</string>
+    <string name="settings_whatsnew_entry_run_error_line_example">जवाफ रोकिएमा ‘सम्पादन गर्नुहोस्’ थिच्नुहोस्, सन्देशको शब्द बदल्नुहोस् र फेरि पठाउनुहोस्</string>
+
+    <!-- 2026-10-12-06-transcript-keyboard-space -->
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_title">किबोर्ड हट्दा खाली ठाउँ रहँदैन</string>
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_summary">किबोर्ड तानेर हटाउँदा अब अन्तिम सन्देशमुनि खाली ठाउँ रहँदैन।</string>
+
+    <!-- 2026-10-12-07-share-sheet-sends -->
+    <string name="settings_whatsnew_entry_share_sheet_sends_title">साझा गर्ने प्यानलबाट पठाउनुहोस्</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_summary">OpenCode मा जे पनि साझा गर्नुहोस्, सत्र छान्नुहोस्, सन्देश थप्नुहोस् र एप नखोली पठाउनुहोस्।</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_1">तपाईंका भर्खरका सत्रहरू साझा गर्ने प्यानलको माथिल्लो पङ्क्तिमा देखिन्छन्।</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_2">JSON फाइल र निर्यात गरिएका सामग्री आफ्नै नाम कायम राखेर फाइलका रूपमा संलग्न हुन्छन्।</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_3">“OpenCode मा जारी राख्नुहोस्” ले तपाईंले साझा गरेको सामग्री सन्देश बाकसमा राखेर सत्र खोल्छ।</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_4">पठाउन नसकेमा, “पछि पठाउनुहोस्” ले अर्को पटक एप खोल्दा पठाउँछ।</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_example">OpenCode मा स्क्रिनसट साझा गर्नुहोस्, प्रश्न लेख्नुहोस् र “पठाउनुहोस्” ट्याप गर्नुहोस्</string>
+
+    <!-- 2026-10-12-08-app-icon-badge -->
+    <string name="settings_whatsnew_entry_app_icon_badge_title">एप आइकनमा ब्याज</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_summary">एप आइकनले नपढिएका वा तपाईंलाई पर्खिरहेका सत्रहरूको सङ्ख्या देखाउँछ, जुन “छुटेका अपडेटहरू” कै सङ्ख्या हो।</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_1">सूचना बन्द गरिएका सत्रहरू गनिँदैनन्।</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_2">यसका लागि सूचनाहरू चालू हुनुपर्छ।</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_example">सत्रमा एउटा प्रश्नको उत्तर नदिई गृह स्क्रिनमा जानुहोस्</string>
+
+    <!-- 2026-10-12-09-drawer-keeps-keyboard -->
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_title">साइड प्यानलसँगै सर्ने किबोर्ड</string>
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_summary">लेख्दै गर्दा सत्र सूची खोल्दा पनि सन्देशमै फोकस रहन्छ र किबोर्ड सत्रसँगै छेउतिर सर्छ।</string>
+
+    <!-- 2026-10-12-10-whats-new-page -->
+    <string name="settings_whatsnew_entry_whats_new_page_title">“नयाँ के छ” अब अझ सरल</string>
+    <string name="settings_whatsnew_entry_whats_new_page_summary">“नयाँ के छ” सेटिङहरू जस्तै पृष्ठका रूपमा खुल्छ। हरेक सुविधाको छुट्टै पृष्ठ छ र सुधारहरू यहीँ समेटिएका छन्।</string>
+
+    <!-- 2026-10-12-11-catch-up-returns-to-drawer -->
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_title">“छुटेका अपडेटहरू” बाट साइड प्यानलमा</string>
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_summary">“छुटेका अपडेटहरू” बाट निस्कँदा सत्र सूची छोडेकै अवस्थामा फर्कनुहुन्छ।</string>
+
+    <!-- 2026-10-12-12-transcript-day-stamps -->
+    <string name="settings_whatsnew_entry_transcript_day_stamps_title">वार्तालापको पाठमा दिन</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_summary">धेरै दिन चल्ने सत्रमा हरेक दिनको पहिलो सन्देशमाथि “बुधबार बिहान ८:२४” जस्तै दिन देखिन्छ। एक घण्टाको अन्तरालपछि पठाइएको सन्देशमाथि समय देखिन्छ।</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_1">दिनका लागि आज, हिजो वा यही हप्ताभित्रको भए बार देखिन्छ, नत्र मिति देखिन्छ।</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_2">पर्खिरहेका दिशानिर्देशन र लामबद्ध सन्देशहरूमा समय देखिँदैन।</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_example">यसै हप्ताको सुरुमा थालेको सत्र खोल्नुहोस् र माथि स्क्रोल गर्नुहोस्</string>
+
+    <!-- 2026-10-12-13-rich-link-previews -->
+    <string name="settings_whatsnew_entry_rich_link_previews_title">लिङ्क पूर्वावलोकन</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_summary">जवाफमुनिका लिङ्कहरूले एक-एक लाइनमा आफू के हुन् भनेर देखाउँछन्: शीर्षक र अवस्थासहितको पुल अनुरोध वा मुद्दा, कमिट, भिडियो वा पृष्ठ।</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_1">GitHub का पुल अनुरोध, मुद्दा, कमिट र भण्डारका शीर्षक देखिन्छन्। खुला, मर्ज गरिएको वा बन्द अवस्था रङमा देखिन्छ।</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_2">X पोस्टमा कसले के पोस्ट गर्‍यो भन्ने देखिन्छ; YouTube लिङ्कमा शीर्षक र अन्य पृष्ठमा लिङ्कबाट लिइएको नाम देखिन्छ।</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_3">तीनवटा लिङ्क देखिन्छन्। बाँकी हेर्न “प्रतिलिपि गर्नुहोस्” छेउको “थप” ट्याप गर्नुहोस् र लुकाउन फेरि ट्याप गर्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_4">ठूलो पूर्वावलोकन, “लिङ्क प्रतिलिपि गर्नुहोस्” र “साझा गर्नुहोस्” हेर्न लिङ्क थिचिराख्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_example">यो हप्ता भण्डारमा के परिवर्तन भयो भनेर एजेन्टलाई सोध्नुहोस्</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_prompt">मैले प्रयोग गर्ने GitHub भण्डारमा यो हप्ता के परिवर्तन भयो? लिङ्कहरू पनि दिनुहोस्।</string>
+
+    <!-- 2026-10-13-01-rolling-numbers -->
+    <string name="settings_whatsnew_entry_rolling_numbers_title">घुम्दै बदलिने अङ्कहरू</string>
+    <string name="settings_whatsnew_entry_rolling_numbers_summary">पृष्ठभूमिको कामको सूचक, सत्र प्यानल, “N प्रयोग गरियो” पङ्क्तिहरू र “छुटेका अपडेटहरू” का सङ्ख्याहरू एक-एक अङ्क घुम्दै बदलिन्छन्।</string>
+
+    <!-- 2026-10-13-02-grouped-steering -->
+    <string name="settings_whatsnew_entry_grouped_steering_title">समूहमा राखिएका सन्देशहरू</string>
+    <string name="settings_whatsnew_entry_grouped_steering_summary">लगातार पठाएका सन्देशहरू एउटै खण्डमा बस्छन् र एजेन्टलाई पर्खिरहेका दिशानिर्देशन सन्देशहरूमा एउटै “दिशानिर्देशन” लेबल हुन्छ।</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_1">लगातारका सन्देश बबलहरू नजिकै बस्छन् र भेटिने ठाउँमा तिनका कुनाहरू जोडिन्छन्।</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_2">खण्डभित्र फोटो र फाइलहरूले आफ्नै गोलाकार आकार कायम राख्छन्।</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_3">एजेन्टले हरेक सन्देश लिँदा त्यो एकैचोटि माथि आफ्नो ठाउँमा सर्छ।</string>
+    <string name="settings_whatsnew_entry_grouped_steering_example">एजेन्टले काम गरिरहँदा छिटोछिटो तीनवटा सन्देश पठाउनुहोस्, एउटामा फोटो राख्नुहोस्</string>
+
+    <!-- 2026-10-13-03-inline-tool-rows -->
+    <string name="settings_whatsnew_entry_inline_tool_rows_title">सरल उपकरण र प्रश्न पङ्क्तिहरू</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_summary">उपकरण समूह र उत्तर दिइएका प्रश्नहरू कोडजस्तै पूरा चौडाइको पट्टीमा खुल्छन्। लगातारका पढ्ने कार्यहरू एउटै पङ्क्तिमा जोडिन्छन्।</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_1">संक्षिप्त समूहमा “N उपकरण प्रयोग गरियो” देखिन्छ र असफल उपकरण कलहरू रातोमा चिन्ह लगाइन्छन्।</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_2">“कार्यान्वयन गर्नुहोस्” पङ्क्तिमा स्क्रिप्टले चलाएका उपकरणका नाम र “सीप” पङ्क्तिमा सीपको नाम देखिन्छ।</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_3">उत्तर दिइएका प्रश्नहरूमा प्रम्प्ट र दिइएका सबै विकल्प देखिन्छन्, तपाईंको रोजाइमा ठीक चिह्न हुन्छ।</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_example">सत्रको “N उपकरण प्रयोग गरियो” पङ्क्ति ट्याप गरेर त्यसको पट्टी खोल्नुहोस्</string>
+
+    <!-- 2026-10-13-04-mac-motion-playgrounds -->
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_title">Mac मा प्रयोगस्थलका नियन्त्रणहरू</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_summary">विकासकर्ता मोड चालू गरेर ट्युनिङलाई आफ्नो Mac सँग जोड्नुहोस्। त्यसपछि प्रयोगस्थलका एनिमेसन सुस्त गतिमा फेरि चलाउन र खिचिएका फ्रेम जाँच्न सक्नुहुन्छ।</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_1">Mac को नियन्त्रण पृष्ठमा प्रयोगस्थल चयन, पूर्वनिर्धारित सेट र फेरि चलाउने नियन्त्रणहरू हुन्छन्; फोनमा प्रयोगस्थल मात्र देखिन्छ।</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_2">साना कार्डहरूले स्क्रिनमा भएका नियन्त्रण देखाउँछन्। चाल र खाली ठाउँका लागि नाम दिइएका पूर्वनिर्धारित सेट छन्, र मूल रूप फर्काउन “मूल” छ। हरेक सेटका सबै मान एकैपटक लागू हुन्छन्।</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_3">Mac जोडिँदा तैरिने ट्युनिङ प्यानल लुक्छ। ट्युनिङ इसाराले यसलाई देखाउनुहोस् र बाहिरिन “प्रयोगस्थलबाट बाहिरिनुहोस्” छान्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_4">पूर्वतयार परिदृश्यहरूले उही नमुना सत्र फेरि चलाउँछन्, ताकि बिल्डहरूबीचको चाल तुलना गर्न सकियोस्।</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_5">फेरि चलाउँदा सुरुदेखि सुरु हुन्छ र दिशानिर्देशन तथा लामबद्ध सन्देशहरूलाई पर्खाइमा नराखी पठाइन्छ।</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_6">Mac को समीक्षा प्लेयरमा रेकर्ड गरिएको आकार र स्थान चरणैपिच्छे हेर्न, फ्रेम चिन्ह लगाउन र एनिमेसनबारे प्रतिक्रिया पठाउन सकिन्छ।</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_example">सेटिङहरू → विकासकर्ता खोल्नुहोस्, Mac को ट्युनिङ पृष्ठसँग जोड्नुहोस्, अनि वार्तालापको पाठ → स्ट्रिम जवाफ 0.25× मा चलाएर हेर्नुहोस्</string>
+
+    <!-- 2026-10-13-05-catch-up-flicks -->
+    <string name="settings_whatsnew_entry_catch_up_flicks_title">“छुटेका अपडेटहरू” मा सजिलो स्वाइप</string>
+    <string name="settings_whatsnew_entry_catch_up_flicks_summary">“छुटेका अपडेटहरू” मा छिटो स्वाइप गर्दा वा थोरै तान्दा पनि कार्ड पछाडि फर्कनुको सट्टा अघि सर्छ।</string>
+
+    <!-- 2026-10-14-01-settings-grouped-by-purpose -->
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_title">अझ स्पष्ट सेटिङहरू</string>
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_summary">प्रयोगात्मक सुविधा र विकासकर्ता उपकरणहरू सेटिङहरू → प्रयोगात्मकमा, एपभित्रका सूचनाहरू सूचनाहरूमा र कल इतिहास आवाजमा पाउनुहोस्।</string>
+
+    <!-- 2026-10-14-02-send-ats-recovery -->
+    <string name="settings_whatsnew_entry_send_ats_recovery_title">भरपर्दो सन्देश पठाइ</string>
+    <string name="settings_whatsnew_entry_send_ats_recovery_summary">iOS ले चलिरहेको सर्भर जडान केही बेरका लागि अस्वीकार गरेमा सन्देश पठाउन आफैँ फेरि प्रयास हुन्छ।</string>
+
+    <!-- 2026-10-14-03-keyboard-menus-and-header -->
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_title">अझ स्थिर किबोर्ड र मेनुहरू</string>
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_summary">लेख्दै गर्दा + ट्याप गरेर किबोर्ड नलुकाई वा नियन्त्रणहरू नसारी संलग्नक खोल्नुहोस्। किबोर्ड सर्दा पनि हेडरको धमिलो प्रभाव आफ्नै ठाउँमा रहन्छ।</string>
+
+    <!-- 2026-10-14-04-open-links-in-apps -->
+    <string name="settings_whatsnew_entry_open_links_in_apps_title">लिङ्कहरू सम्बन्धित एपमै खुल्छन्</string>
+    <string name="settings_whatsnew_entry_open_links_in_apps_summary">लिङ्क GitHub वा YouTube जस्ता सम्बन्धित एपमा खुल्छ। “एपभित्रको ब्राउजर” प्रयोग चालू छ भने लिङ्क थिचिराखेर “एपको ब्राउजरमा खोल्नुहोस्” छान्नुहोस्।</string>
+
+    <!-- 2026-10-14-05-session-list-quiet-hierarchy -->
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_title">हेर्न सजिलो सत्र सूची</string>
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_summary">पिन गरिएका र भर्खरका शीर्षक साना खैरा अक्षरमा देखिन्छन्। नपढिएका र पर्खिरहेका सत्र अलि बाक्ला अक्षरमा छुट्टिन्छन्, पढिसकेका सत्र अलि फिका हुन्छन्।</string>
+
+    <!-- 2026-10-14-06-queued-messages-fitted-sheet -->
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_title">व्यवस्थित लामबद्ध सन्देशहरू</string>
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_summary">लामबद्ध सन्देशको प्यानल चाहिने जति मात्र अग्लो हुन्छ। यसमा क्रमाङ्कित पङ्क्ति र सन्देश अहिले पठाउन वा रद्द गर्न सादा बटनहरू छन्।</string>
+
+    <!-- 2026-10-14-07-control-center-sessions -->
+    <string name="settings_whatsnew_entry_control_center_sessions_title">सत्रका लागि टाइलहरू</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_summary">एक ट्यापमै सत्र खोल्न वा त्यसमा कल सुरु गर्न द्रुत सेटिङहरूमा टाइल थप्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_1">नयाँ ‘सत्र खोल्नुहोस्’ टाइलले तपाईंले छानेको सत्र खोल्छ।</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_2">‘कल सुरु गर्नुहोस्’ ले तपाईंले छानेको वा नयाँ सत्रमा कल गर्न सक्छ। तपाईंले नबदलेसम्म पछिल्लो पटक हेरेको सत्रमा कल गर्छ।</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_3">पिन गरिएका र भर्खरका सत्रबाट छान्नुहोस्; टाइलमा सत्रको हालको शीर्षक देखिन्छ।</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_4">टाइलले एप मात्र खोल्छन्: तपाईंले नबोलेसम्म वा नलेखेसम्म केही पठाइँदैन।</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_example">द्रुत सेटिङहरू खोल्नुहोस्, ‘सम्पादन गर्नुहोस्’ मा ट्याप गर्नुहोस् र OpenCode को ‘सत्र खोल्नुहोस्’ टाइल तानेर राख्नुहोस्</string>
+
+    <!-- 2026-10-15-01-settings-keyboard-down -->
+    <string name="settings_whatsnew_entry_settings_keyboard_down_title">सेटिङहरूमा किबोर्डले छेक्दैन</string>
+    <string name="settings_whatsnew_entry_settings_keyboard_down_summary">लेख्दै गर्दा साइड प्यानलबाट सेटिङहरू खोल्दा किबोर्डले सेटिङहरू छेक्नुको सट्टा लुक्छ।</string>
+
+    <!-- 2026-10-15-02-session-list-sidebar-grey -->
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_title">थप खुला सत्र सूची</string>
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_summary">सत्र सूचीको शीर्षक ठूलो भएको छ। ‘पिन गरिएका’ र ‘भर्खरका’ शीर्षक पनि ठूला खैरा अक्षरमा छन् र तिनको माथि थप खाली ठाउँ छ। हेर्न साइड प्यानल खोल्नुहोस्।</string>
+
+    <!-- 2026-10-15-03-voice-varied-acknowledgements -->
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_title">कलमा कम ‘जाँच्दै छु’</string>
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_summary">कलमा हरेक अनुरोधको जवाफ ‘जाँच्दै छु’ दिनुको सट्टा तपाईंको कुराअनुसार प्रतिक्रिया आउँछ। अनुरोधपछि पनि बोलिरहँदा एउटै अनुरोध अब दुई पटक पठाइँदैन।</string>
+
+    <!-- 2026-10-15-04-smoother-streaming -->
+    <string name="settings_whatsnew_entry_smoother_streaming_title">क्रमशः आउने जवाफ अझ सहज</string>
+    <string name="settings_whatsnew_entry_smoother_streaming_summary">क्रमशः आउने जवाफको नयाँ लाइन फिका वा झिलिक्क नभई बिस्तारै देखिन्छ। पङ्क्तिहरू पाठभन्दा पर तन्किएर फेरि खुम्चिँदैनन्। सूचीका बुँदा र शीर्षक पनि सुरुमा एक्लो ड्यास वा ह्यास देखिनुको सट्टा सही रूपमै देखिन्छन्।</string>
+
+    <!-- 2026-10-15-05-model-list-sheet -->
+    <string name="settings_whatsnew_entry_model_list_sheet_title">प्यानलमा मोडेल सूची</string>
+    <string name="settings_whatsnew_entry_model_list_sheet_summary">‘नयाँ मोडेल छनोट’ प्रयोगात्मक सुविधा चालु हुँदा किबोर्ड लुक्छ र सन्देश बाकस त्यही ठाउँमा मोडेलको प्यानल बन्छ। जति छिटो खोले र बन्द गरे पनि सहजै पुरानै रूपमा फर्किन्छ।</string>
+
+    <!-- 2026-10-15-06-queued-pill-whole-title -->
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_title">लामबद्ध सङ्ख्या पूरा देखिन्छ</string>
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_summary">सन्देश लेखन क्षेत्रमाथिको सूचकमा ‘२ लामबद्ध’ काटिएर ‘२ लाम…’ नभई पूरा देखिन्छ। अन्य ठाउँमा फेरिँदै जाने सङ्ख्याका अक्षर पनि काटिँदैनन्।</string>
+
+    <!-- 2026-10-16-01-plus-menu-photo-sheet -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_title">किबोर्डको ठाउँमा फोटोहरू</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_summary">‘नयाँ प्लस मेनु’ प्रयोगात्मक सुविधा चालु हुँदा ‘फोटोहरू’ ले + मेनुलाई किबोर्डको ठाउँमा फोटो प्यानल बनाउँछ। + थिचिराख्दा नयाँ फोटोहरू देखिन्छन्: कुनै फोटोमा औँला सारेर छोड्दा त्यो थपिन्छ।</string>
+
+    <!-- 2026-10-16-02-composer-large-text-targets -->
+    <string name="settings_whatsnew_entry_composer_large_text_targets_title">सन्देश लेख्दा ट्याप गर्न सजिलो</string>
+    <string name="settings_whatsnew_entry_composer_large_text_targets_summary">पाठको आकार ठूलो हुँदा पनि सन्देश लेखन क्षेत्रका बटन ट्याप गर्न सजिलो छ।</string>
+
+    <!-- 2026-10-16-03-project-pick-haptic -->
+    <string name="settings_whatsnew_entry_project_pick_haptic_title">नयाँ परियोजना छान्दा हल्का कम्पन</string>
+    <string name="settings_whatsnew_entry_project_pick_haptic_summary">नयाँ सत्रका लागि सन्देश बाकसमाथि वा ‘सबै परियोजनाहरू’ मा फरक परियोजना छान्दा हल्का कम्पन हुन्छ।</string>
+
+    <!-- 2026-10-16-04-fork-opens-copy -->
+    <string name="settings_whatsnew_entry_fork_opens_copy_title">फोर्कले प्रतिलिपि खोल्छ</string>
+    <string name="settings_whatsnew_entry_fork_opens_copy_summary">सत्रको विवरणमा ‘फोर्क’ गर्दा फेरि त्यसको प्रतिलिपि खुल्छ।</string>
+
+    <!-- 2026-10-16-05-transcript-row-targets -->
+    <string name="settings_whatsnew_entry_transcript_row_targets_title">ट्याप गर्न अझ सजिलो</string>
+    <string name="settings_whatsnew_entry_transcript_row_targets_summary">सत्र प्यानलको शीर्षक ट्याप गर्न सजिलो छ। बोलेर लेखाउँदा लुकाइएका सन्देश लेखन क्षेत्रका बटनमा VoiceOver र Voice Control अब पुग्दैनन्।</string>
+
+    <!-- 2026-10-16-06-image-previews -->
+    <string name="settings_whatsnew_entry_image_previews_title">छवि पूर्वावलोकनहरू</string>
+    <string name="settings_whatsnew_entry_image_previews_summary">एजेन्टले नाम लिएका छविहरू मिलाइएका साना-ठूला खण्डमा पूर्वावलोकनका रूपमा देखिन्छन्। फाइल नभेटिए त्यसको जानकारी देखिन्छ।</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_1">छविको नाम उल्लेख गर्ने अनुच्छेदमुनि त्यसको पूर्वावलोकन देखिन्छ।</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_2">पूरा स्क्रिनमा खोल्न छविमा ट्याप गर्नुहोस्। जवाफका अरू छवि हेर्न स्वाइप गर्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_3">सत्रको फोल्डरबाहिरका छवि तपाईंले ट्याप गरेपछि मात्र लोड हुन्छन्।</string>
+    <string name="settings_whatsnew_entry_image_previews_example">एजेन्टलाई तपाईंको परियोजनाका स्क्रिनसट देखाउन भन्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_image_previews_prompt">यो परियोजनाका स्क्रिनसटहरू देखाउनुहोस्।</string>
+
+    <!-- 2026-10-16-07-connection-error-details -->
+    <string name="settings_whatsnew_entry_connection_error_details_title">जडान त्रुटिमा असफलताको विवरण</string>
+    <string name="settings_whatsnew_entry_connection_error_details_summary">जडान त्रुटिमा त्रुटि कोड, प्रयास गरिएको ठेगाना र DNS नतिजा देखिन्छ। टेलनेटको नामले Tailscale बाहिरको ठेगाना दिएमा मद्दत पनि देखिन्छ।</string>
+
+    <!-- 2026-10-16-08-outage-reconnect-delay -->
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_title">छिटो पुनः जडान</string>
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_summary">अवरोधपछि सर्भर फेरि चल्दा सत्रहरूले छुटेका अपडेट छिट्टै पाउँछन्।</string>
+
+    <!-- 2026-10-17-01-every-running-subagent -->
+    <string name="settings_whatsnew_entry_every_running_subagent_title">चलिरहेका सबै उप-एजेन्ट</string>
+    <string name="settings_whatsnew_entry_every_running_subagent_summary">सन्देश लेखन क्षेत्रमाथिको उप-एजेन्ट गणनामा अरू उप-एजेन्टभित्रका र १०० भन्दा बढी उप-एजेन्ट भएका सत्रका सबै उप-एजेन्ट समेटिन्छन्, TUI मा जस्तै।</string>
+
+    <!-- 2026-10-17-02-session-view-refined-standard -->
+    <string name="settings_whatsnew_entry_session_view_refined_standard_title">जवाफका अक्षर अझ स्पष्ट</string>
+    <string name="settings_whatsnew_entry_session_view_refined_standard_summary">तेस्रो तहका शीर्षक बाक्लो पाठभन्दा ठूला देखिन्छन्। बाक्लो पाठ छुट्टियोस् भनेर सामान्य पाठ अलि हल्का छ, अनि अनुच्छेद र कोड खण्डको वरिपरि अलि बढी खाली ठाउँ छ।</string>
+
+    <!-- 2026-10-17-03-bottom-follow-on-load -->
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_title">तलै रहनुहोस्</string>
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_summary">ढिलो आएको सामग्री लोड हुँदा पनि सत्रको दृश्य तलै रहन्छ।</string>
+
+    <!-- 2026-10-17-04-drafts-stay-put -->
+    <string name="settings_whatsnew_entry_drafts_stay_put_title">मस्यौदाहरू सुरक्षित रहन्छन्</string>
+    <string name="settings_whatsnew_entry_drafts_stay_put_summary">पृष्ठभूमिमा एप बन्द भए पनि मस्यौदा, संलग्न फोटो र स्थान, अनि पठाउन पर्खिरहेका सन्देश जस्ताको तस्तै रहन्छन्।</string>
+
+    <!-- 2026-10-18-01-themes -->
+    <string name="settings_whatsnew_entry_themes_title">विषयवस्तुहरू</string>
+    <string name="settings_whatsnew_entry_themes_summary">सत्रमा Tokyo Night, Catppuccin, Dracula, Rosé Pine वा GitHub जस्ता विषयवस्तु लगाउनुहोस्। छान्दै गर्दा तुरुन्तै पूर्वावलोकन हेर्न सकिन्छ।</string>
+    <string name="settings_whatsnew_entry_themes_detail_1">विषयवस्तुले वार्तालापको पाठ, तपाईंका सन्देश, कोड, सिन्ट्याक्स, भिन्नता र लिङ्कका रङ बदल्छन्।</string>
+    <string name="settings_whatsnew_entry_themes_detail_2">उपस्थितिभित्रको मोडले उज्यालो, अँध्यारो वा प्रणालीअनुसारको रूप सेट गर्छ।</string>
+    <string name="settings_whatsnew_entry_themes_detail_3">सबै विषयवस्तुमा नियन्त्रणहरूले आफ्नो मौलिक Liquid Glass रूप कायम राख्छन्।</string>
+    <string name="settings_whatsnew_entry_themes_example">सेटिङहरू → उपस्थिति → विषयवस्तु खोल्नुहोस् र Tokyo Night चलाएर हेर्नुहोस्।</string>
+
+    <!-- 2026-10-18-02-return-key-sends -->
+    <string name="settings_whatsnew_entry_return_key_sends_title">रिटर्न कुञ्जीको सेटिङ</string>
+    <string name="settings_whatsnew_entry_return_key_sends_summary">रिटर्न थिच्दा नयाँ लाइन थप्न चाहनुहुन्छ भने सेटिङहरूमा ‘रिटर्न कुञ्जीले पठाउने’ बन्द गर्नुहोस्, वा भौतिक किबोर्डमा Command-Return र Shift-Return प्रयोग गर्नुहोस्।</string>
+
+    <!-- 2026-10-18-03-quote-replies -->
+    <string name="settings_whatsnew_entry_quote_replies_title">जवाफ उद्धृत गर्नुहोस्</string>
+    <string name="settings_whatsnew_entry_quote_replies_summary">सहायकको जवाफमा पाठ चयन गरी ‘उद्धृत गर्नुहोस्’ मा ट्याप गर्नुहोस्। त्यो पाठ तपाईंको सन्देशमा उद्धरण कार्डको रूपमा थपिन्छ।</string>
+
+    <!-- 2026-10-18-04-launch-bloom -->
+    <string name="settings_whatsnew_entry_launch_bloom_title">खुल्दाको एनिमेसन</string>
+    <string name="settings_whatsnew_entry_launch_bloom_summary">एप पूर्ण रूपमा बन्द भएको अवस्थाबाट खोल्दा OpenCode को चिह्न खुम्चिएर फैलिँदै तपाईंको सत्र खुल्छ।</string>
+
+    <!-- 2026-10-18-05-drag-to-pin -->
+    <string name="settings_whatsnew_entry_drag_to_pin_title">पिन गर्न सत्र तान्नुहोस्</string>
+    <string name="settings_whatsnew_entry_drag_to_pin_summary">कुनै सत्र थिचिराखेर माथि पिन गरिएका खण्डमा तान्दा त्यही ठाउँमा पिन हुन्छ। पिन हटाउन त्यसलाई तल भर्खरका खण्डमा तान्नुहोस्।</string>
+
+    <!-- 2026-10-19-01-call-tray-colour-blend -->
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_title">सहज कल बटन</string>
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_summary">कल ट्रे प्रयोग चालु हुँदा कल सुरु भएपछि कल बटन सीधै रातो अन्त्य बटनमा बदलिन्छ र कल राख्दा फर्किन्छ। बीचमा पृष्ठभूमि झिलिक्क देखिँदैन।</string>
+
+    <!-- 2026-10-19-02-optical-insets -->
+    <string name="settings_whatsnew_entry_optical_insets_title">समान दूरीमा नियन्त्रणहरू</string>
+    <string name="settings_whatsnew_entry_optical_insets_summary">सन्देश लेखनका + र माइक, पृष्ठभूमिको काम र लामबद्ध सूचकका चिह्न, अनि साइड प्यानलको नयाँ सत्रको चिह्न अब पारदर्शी भागका गोलाकार छेउमा बीचमा देखिन्छन्। शेलको चिह्न पनि अब उप-एजेन्टको गोलाजस्तै छ, झिम्किने कर्सर छैन। दुवै चल्दा सँगसँगै देखिन्छन्।</string>
+
+    <!-- 2026-10-19-03-smart-dictation-audio -->
+    <string name="settings_whatsnew_entry_smart_dictation_audio_title">सङ्गीतसँगै सहज आवाज लेखन</string>
+    <string name="settings_whatsnew_entry_smart_dictation_audio_summary">सङ्गीत बज्दै गर्दा बोलेर लेखाउँदा AirPods मा सङ्गीत स्टेरियोमै रहन्छ र एक मिनेटपछि आवाज काटिँदैन। फोन मात्र प्रयोग गर्दा पनि सङ्गीत इयरपिसमा नसरी स्पिकरमै बज्छ।</string>
+
+    <!-- 2026-10-19-04-interrupted-hand -->
+    <string name="settings_whatsnew_entry_interrupted_hand_title">बाधा हुँदा हातको चिह्न</string>
+    <string name="settings_whatsnew_entry_interrupted_hand_summary">बाधा भएको काम र शेलमा अब उठाइएको हात देखिन्छ। तपाईंले रोकेको शेलमा पनि रोकियोको सट्टा बाधा भयो देखिन्छ।</string>
+
+    <!-- 2026-10-19-05-autocomplete-fast-scroll -->
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_title">छिटो स्वतः पूर्ति</string>
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_summary">सन्देश लेखनमा स्वतः पूर्तिको प्रयोग चालु हुँदा टाइप गर्नासाथ सुझाव आउँछन्। सूची तान्दा कुनै पङ्क्ति चयन नभई स्क्रोल हुन्छ।</string>
+
+    <!-- 2026-10-19-06-experimental-groups -->
+    <string name="settings_whatsnew_entry_experimental_groups_title">समूहमा राखिएका प्रयोगहरू</string>
+    <string name="settings_whatsnew_entry_experimental_groups_summary">सेटिङहरू → प्रयोगात्मकमा प्रयोगहरू समूहमा राखिएका छन्। कलका लागि कल शैलीको एउटै विकल्प छ।</string>
+
+    <!-- 2026-10-19-07-model-picker-standard-sheet -->
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_title">सामान्य प्यानलमा मोडेल चयन</string>
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_summary">नयाँ मोडेल चयनको प्रयोग चालु हुँदा सन्देश बाकसको मोडेल थिच्दा सामान्य प्यानल खुल्छ। हरेक मोडेलको आफ्नै सोचाइ स्तरको मेनु हुन्छ। पहिलेको चयन प्यानल अब सेटिङहरू › प्रयोगात्मकमा अनुकूलित मोडेल चयन नाममा छ।</string>
+
+    <!-- 2026-10-19-08-problem-reports-reach-session -->
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_title">रिपोर्ट सत्रमै पुग्छन्</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_summary">समस्या रिपोर्ट गर्नुहोस् प्रयोग गर्दा अब तपाईंको टिप्पणी सोही सत्रमा पनि पठाइन्छ। एजेन्टले पढ्न मिल्ने गरी पूरा रिपोर्ट संलग्न हुन्छ।</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_1">सन्देशको सुरुमा समस्या रिपोर्टको पङ्क्ति, तपाईंको टिप्पणी, रिपोर्ट ID र अपलोड गरिएको ट्रेसको लिङ्क हुन्छ।</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_2">यन्त्र, बिल्ड, स्क्रिन, समयरेखा र एप लगका विवरण तपाईंले आफैँ संलग्न गरेजस्तै फाइलमा आउँछन्।</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_3">घरबाट पठाउँदा यो तपाईंको सबैभन्दा पछिल्लो सत्रमा जान्छ।</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_4">अपलोड असफल भए पनि टिप्पणी र सारांश पुग्छन् र असफल भएको जानकारी दिन्छन्। त्यसपछि फेरि प्रयास गर्नुहोस् थिच्दा ट्रेसको लिङ्क मात्र पठाइन्छ।</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_5">पुगेपछि “सत्रमा पठाइयो” भन्ने पुष्टि देखिन्छ।</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_example">सत्रको मेनु खोल्नुहोस्, समस्या रिपोर्ट गर्नुहोस् छान्नुहोस्, टिप्पणी थपेर पठाउनुहोस् थिच्नुहोस्</string>
+
+    <!-- 2026-10-19-09-team-scrawl-feedback -->
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_title">टोलीको Scrawl प्रतिक्रिया</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_summary">आफ्नो व्यक्तिगत लिङ्कबाट Team Feedback मा जोडिनुहोस्। तीन औँलाले बनाएका Scrawl रेकर्डिङ र संवेदनशील विवरण हटाइएका निदानहरू Problems बोर्डको साझा पङ्क्तिमा पठाउन सक्नुहुन्छ।</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_1">के सङ्कलन हुन्छ हेर्न र स्वीकार गर्न आफ्नो opencode://team/join लिङ्क खोल्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_2">तीन चरणको अभ्यासले तीन औँला थिचिराख्ने, बोल्ने र कोर्ने, अनि अभ्यास क्लिप परीक्षण खण्डमा पठाउने तरिका सिकाउँछ।</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_3">हरेक रेकर्डिङमा समस्या रिपोर्ट गर्नुहोस्मा जस्तै संवेदनशील विवरण हटाइएका समयरेखा, एप लग र Motion Watch निदानहरू संलग्न हुन्छन्।</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_4">सेटिङहरू › विकासकर्ताबाट जुनसुकै बेला अभ्यास फेरि चलाउन वा Team Feedback छोड्न सक्नुहुन्छ।</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_example">आफ्नो Team Feedback स्थिति हेर्न वा अभ्यास फेरि चलाउन सेटिङहरू › विकासकर्ता खोल्नुहोस्।</string>
+
+    <!-- 2026-10-19-10-scrawl-faster-start -->
+    <string name="settings_whatsnew_entry_scrawl_faster_start_title">Scrawl अझ छिटो सुरु</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_summary">माइक्रोफोन र रेकर्डर सुरु हुँदै गर्दा नै Scrawl का नियन्त्रणहरू देखिन्छन्।</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_1">रेकर्डिङ तयार हुँदै गर्दा कोर्नुहोस्, पठाउनुहोस् र त्याग्नुहोस्मा गरिएका ट्यापहरू सुरक्षित राखिन्छन्।</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_2">तीन औँला थिचिराख्दा माइक्रोफोन चाँडै सुरु नगरी माथिल्लो तह तयार हुन्छ।</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_3">अडियोको माध्यम बदलिँदा Scrawl को माइक्रोफोन फेरि सुरु भएर एप बन्द हुने समस्या समाधान भयो।</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_example">जोडिएको यन्त्रमा रेकर्डिङ सुरु गर्न तीन औँला थिचिराख्नुहोस्</string>
+
+    <!-- 2026-10-20-01-call-tray-docks-in-drawer -->
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_title">साइड प्यानलमा कल ट्रे</string>
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_summary">कल ट्रे प्रयोग चालु हुँदा कलको बीचमा साइड प्यानल खोल्दा ट्रे नयाँ सत्रमुनि सर्छ। यसमा आवाजको स्तर, माइक बन्द र अन्त्य बटन हुन्छन्। प्यानल बन्द गर्दा ट्रे पहिलेकै ठाउँमा फर्किन्छ।</string>
+
+    <!-- 2026-10-20-02-markdown-streams-smoothly -->
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_title">आउँदै गरेका जवाफ अझ सहज</string>
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_summary">लामा जवाफ आउँदै गर्दा पनि छिटो देखिन्छन्। अधुरा बाक्ला अक्षर, कोड र लिङ्क पनि कच्चा Markdown को सट्टा ढाँचासहित देखिन्छन्।</string>
+
+    <!-- 2026-10-20-04-return-newline-default -->
+    <string name="settings_whatsnew_entry_return_newline_default_title">Return ले नयाँ लाइन थप्छ</string>
+    <string name="settings_whatsnew_entry_return_newline_default_summary">Return ले अब पूर्वनिर्धारित रूपमा नयाँ लाइन थप्छ। Return बाट पठाउन सेटिङहरू › सत्रहरूमा Return कुञ्जीले पठाउने विकल्प चालु गर्नुहोस्, वा भौतिक किबोर्डमा Ctrl+Enter प्रयोग गर्नुहोस्।</string>
+
+    <!-- 2026-10-20-05-drawer-session-alignment -->
+    <string name="settings_whatsnew_entry_drawer_session_alignment_title">मिलाइएका साइड प्यानल नियन्त्रणहरू</string>
+    <string name="settings_whatsnew_entry_drawer_session_alignment_summary">फोन र ट्याब्लेटमा खोज्नुहोस्, नयाँ सत्र र सेटिङहरू अब सत्रको हेडर र सन्देश बाकससँग मिलेर देखिन्छन्।</string>
+
+    <!-- 2026-10-20-06-call-tray-switch-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_title">स्थिर कल नियन्त्रणहरू</string>
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_summary">सत्र बदल्दा पनि कलको ध्वनि तरङ्ग चलिरहन्छ। सत्र सूची खोल्दा नियन्त्रणहरू उही उचाइमा रहन्छन्।</string>
+
+    <!-- 2026-10-20-07-voice-delegation-visible-on-admission -->
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_title">आवाजका सन्देश तुरुन्तै देखिन्छन्</string>
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_summary">आवाजले सत्रमा पठाएका सन्देश सर्भरले स्वीकार गर्नासाथ देखिन्छन्, सत्रका अपडेट आउन ढिलो भए पनि।</string>
+
+    <!-- 2026-10-20-08-inline-image-links -->
+    <string name="settings_whatsnew_entry_inline_image_links_title">छवि लिङ्कको पूर्वावलोकन</string>
+    <string name="settings_whatsnew_entry_inline_image_links_summary">जवाफमा लिङ्क गरिएका छवि हेर्न सेटिङहरू › प्रयोगात्मक › वार्तालापको पाठमा छवि लिङ्कको पूर्वावलोकन चालु गर्नुहोस्। पूरा स्क्रिनमा खोलेर जुम गर्न सानो छविमा ट्याप गर्नुहोस्।</string>
+
+    <!-- 2026-10-20-09-smooth-link-preview-arrival -->
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_title">सहज लिङ्क पूर्वावलोकन</string>
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_summary">लिङ्कका पूर्वावलोकन लोड हुँदा बिस्तारै देखिन्छन्। शीर्षकको उचाइ बदलिँदा तलका पङ्क्तिहरू सहज रूपमा सर्छन्।</string>
+
+    <!-- 2026-10-20-10-subagent-capsule-press -->
+    <string name="settings_whatsnew_entry_subagent_capsule_press_title">गोलाकार गतिविधि सूचक</string>
+    <string name="settings_whatsnew_entry_subagent_capsule_press_summary">उप-एजेन्ट र शेलको क्याप्सुल थिच्दा पनि यसको छेउ गोलाकार नै रहन्छ।</string>
+
+    <!-- 2026-10-20-11-advanced-settings-open -->
+    <string name="settings_whatsnew_entry_advanced_settings_open_title">अझ सरल उन्नत सेटिङहरू</string>
+    <string name="settings_whatsnew_entry_advanced_settings_open_summary">सेटिङहरू › प्रयोगात्मकका सबै प्रयोगहरू खुला समूहमा छन्। मोडेल छान्ने विकल्पहरू एउटै मोडेल चयन विकल्पमा छन्, र विकल्प बदल्न त्यसको पङ्क्तिमा जहाँसुकै ट्याप गर्न सकिन्छ।</string>
+
+    <!-- 2026-10-20-12-revert-to-here -->
+    <string name="settings_whatsnew_entry_revert_to_here_title">सन्देश उल्टाउनुहोस्</string>
+    <string name="settings_whatsnew_entry_revert_to_here_summary">आफ्नो कुनै सन्देश थिचिराखेर सन्देश उल्टाउनुहोस् छान्नुहोस्। त्यस बिन्दुमा फर्केर सन्देश सम्पादन गर्न सक्नुहुन्छ।</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_1">सन्देशको पाठ, फोटो र फाइलहरू सन्देश बाकसमा फर्किन्छन्।</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_2">नयाँ सन्देश नपठाउँदासम्म पूर्ववत गर्नुहोस् थिचेर संवाद र तिनका फाइल परिवर्तनहरू फिर्ता ल्याउन सकिन्छ।</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_3">एजेन्टले काम नगरेको बेला यो विकल्प उपलब्ध हुन्छ।</string>
+    <string name="settings_whatsnew_entry_revert_to_here_example">पहिले पठाएको सन्देश थिचिराखेर सन्देश उल्टाउनुहोस् छान्नुहोस्।</string>
+
+    <!-- 2026-10-20-13-drag-from-transcript -->
+    <string name="settings_whatsnew_entry_drag_from_transcript_title">सत्रबाट तान्नुहोस्</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_summary">कोड, छवि, फाइल, लिङ्क र सन्देशहरू थिचिराखेर सत्रबाट अन्य एपमा तान्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_1">कोड ब्लकहरू तिनको भाषासहित पाठका रूपमा जान्छन्।</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_2">छवि र एजेन्टले लेखेका फाइलहरू फाइलकै रूपमा जान्छन्।</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_3">संलग्न गर्न वा टाँस्न तिनलाई सन्देश बाकसमा छोड्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_4">स्क्रोल गर्ने, पाठ चयन गर्ने र मेनुहरू पहिलेझैँ काम गर्छन्।</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_example">जवाफमा कोडको एउटा लाइन चयन गर्नुहोस्, त्यसपछि चयन गरिएको भाग थिचिराखेर ब्लकलाई Notes मा तान्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_prompt">स्ट्रिङ उल्टो पार्ने छोटो Swift फङ्सन कोड ब्लकमा लेख्नुहोस्।</string>
+
+    <!-- 2026-10-20-14-tuning-glass-tap-targets -->
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_title">सजिला समायोजन नियन्त्रणहरू</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_summary">खुम्चिएको समायोजन बटन र छेउको ट्याबमा ट्याप गर्ने क्षेत्र ठूलो भएको छ।</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_detail_1">तिनको सिसाजस्तो देखिने भागको आकार उस्तै छ।</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_example">समायोजन प्यानल खुम्च्याउनुहोस्, त्यसपछि यसको बटन वा ट्याबको छेउमा ट्याप गर्नुहोस्</string>
+
+    <!-- 2026-10-20-15-new-session-project-continuity -->
+    <string name="settings_whatsnew_entry_new_session_project_continuity_title">स्थिर परियोजना चयन</string>
+    <string name="settings_whatsnew_entry_new_session_project_continuity_summary">परियोजना छान्दा भर्खरका फोल्डरहरू आफ्नै ठाउँमा रहन्छन्, हेडरको नाम बिस्तारै बदलिन्छ र परियोजना प्यानलमा फोल्डरका पथहरू अझ स्पष्ट देखिन्छन्।</string>
+
+    <!-- 2026-10-20-16-simple-session-loading -->
+    <string name="settings_whatsnew_entry_simple_session_loading_title">शान्त सत्र लोडिङ</string>
+    <string name="settings_whatsnew_entry_simple_session_loading_summary">सत्र लोड हुन केही समय लाग्दा मात्र सानो, स्थिर लोगो बिस्तारै देखिन्छ, अनि हराउँदै सन्देशहरू देखिन्छन्।</string>
+
+    <!-- 2026-10-20-17-voice-route-consistency -->
+    <string name="settings_whatsnew_entry_voice_route_consistency_title">आवाज जडानमा सुधार</string>
+    <string name="settings_whatsnew_entry_voice_route_consistency_summary">तपाईंको सर्भरले कल चलाउँदा Grok ले तपाईंकै xAI कुञ्जी प्रयोग गरिरहन्छ, र Gemini ले आफ्नो परिचय सही दिन्छ।</string>
+
+    <!-- 2026-10-20-18-call-tray-edge-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_title">कल ट्रेको चाल</string>
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_summary">कल ट्रे खुल्दा र साइड प्यानलभित्र वा बाहिर सर्दा यसको ध्वनि तरङ्ग गोलाकार किनारासँगै चल्छ।</string>
+
+    <!-- 2026-10-21-01-call-tray-keyboard-return -->
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_title">कल ट्रेको फिर्ती</string>
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_summary">साइड प्यानल बन्द भएर किबोर्ड फर्कँदा पनि कल ट्रे देखिइरहन्छ।</string>
+
+    <!-- 2026-10-21-02-drawer-title-fade -->
+    <string name="settings_whatsnew_entry_drawer_title_fade_title">अझ पूरा सत्र शीर्षकहरू</string>
+    <string name="settings_whatsnew_entry_drawer_title_fade_summary">साइड प्यानलका लामा सत्र शीर्षकहरू अब चाँडै तीन थोप्लामा टुङ्गिनुको सट्टा किनारासम्म पुगेर बिस्तारै हराउँछन्।</string>
+
+    <!-- 2026-10-21-03-call-sounds-from-the-tap -->
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_title">छिटो बज्ने कलका ध्वनिहरू</string>
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_summary">ट्याप गरेको केही सेकेन्डपछि होइन, पहिलो चालसँगै कल जडान हुँदाको टिङटिङ आवाज सुरु हुन्छ।</string>
+
+    <!-- 2026-10-21-04-calm-wireframe-launch -->
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_title">शान्त लोडिङ</string>
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_summary">क्यासमा रहेका सत्रहरू तुरुन्तै खुल्छन्। लोड हुन केही समय लाग्ने सत्रमा सन्देशका आकृतिहरू मधुरो र उज्यालो हुँदै देखिन्छन्, अनि तिनको ठाउँमा तपाईंका सन्देशहरू आउँछन्।</string>
+
+    <!-- 2026-10-21-05-request-dictation-last-line -->
+    <string name="settings_whatsnew_entry_request_dictation_last_line_title">बोलेर लेख्दा अन्तिम लाइन देखिन्छ</string>
+    <string name="settings_whatsnew_entry_request_dictation_last_line_summary">iOS 26 मा, बाँकी अनुरोधको जवाफ बाकसमा लामो पाठ बोलेर लेख्न रोकेपछि बीचको पाठको सट्टा अन्तिम लाइनहरू देखिन्छन्।</string>
+
+    <!-- 2026-10-21-06-first-run-pairing-fixes -->
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_title">पहिलो पटक जोड्न अझ स्पष्ट</string>
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_summary">क्लिपबोर्ड खाली हुँदा टाँस्न खोजेमा टाँस्नुहोस् नजिकै त्यसको जानकारी देखिन्छ, र सेटअपले अब आधा मिनेटमै टाढाबाट पहुँच दिने वाचा गर्दैन।</string>
+
+    <!-- 2026-10-21-07-welcome-pairing-copy -->
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_title">OpenCode एपबाट जोड्नुहोस्</string>
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_summary">स्वागत स्क्रिनले कम्प्युटरको OpenCode मा सेटिङहरू → जोड्दै वा टर्मिनलमा /pair प्रयोग गर्न सुझाउँछ। OpenCode नभएकाहरूका लागि स्थापना गर्ने आदेश पनि देखाउँछ।</string>
+
+    <!-- 2026-10-21-08-session-id-links -->
+    <string name="settings_whatsnew_entry_session_id_links_title">सत्रका लिङ्कहरू</string>
+    <string name="settings_whatsnew_entry_session_id_links_summary">जवाफमा आएको सत्र ID त्यस सत्रको शीर्षकका रूपमा देखिन्छ। सत्र खोल्न त्यसमा ट्याप गर्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_1">उप-एजेन्टको ID ले हालको सत्रमाथि त्यसको सत्र खोल्छ, र पछाडि थिच्दा फर्किन्छ।</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_2">ID प्रतिलिपि गर्न त्यसलाई थिचिराख्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_3">यो सर्भरले नचिनेको ID छोट्याएर देखाइन्छ।</string>
+    <string name="settings_whatsnew_entry_session_id_links_example">एजेन्टलाई अर्को सत्रको ID उल्लेख गर्न भन्नुहोस्, त्यसपछि शीर्षकमा ट्याप गर्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_session_id_links_prompt">मेरा सबैभन्दा भर्खरका पाँच OpenCode सत्रहरू तिनका सत्र ID सहित सूचीमा देखाउनुहोस्।</string>
+
+    <!-- 2026-10-21-10-ipad-multiple-windows -->
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_title">ट्याब्लेटमा धेरै विन्डो</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_summary">ट्याब्लेटमा सत्रहरू छुट्टाछुट्टै विन्डोमा खोल्नुहोस् र दुईवटा सँगसँगै राख्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_1">साइड प्यानलमा सत्र थिचिराखेर नयाँ विन्डोमा खोल्नुहोस् छान्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_2">हरेक विन्डोको आफ्नै सत्र, साइड प्यानल र सन्देश बाकस हुन्छ।</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_3">पिन गरिएका र पढिएका सत्रहरू अनि तपाईंका सर्भरहरू सबै विन्डोमा उस्तै हुन्छन्।</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_4">विन्डोहरू फेरि खोल्दा पहिले देखाएकै सत्रमा फर्किन्छन्।</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_example">साइड प्यानलमा सत्र थिचिराख्नुहोस्, नयाँ विन्डोमा खोल्नुहोस् छान्नुहोस् र पहिलो विन्डोको छेउमा राख्नुहोस्।</string>
+
+    <!-- 2026-10-21-11-plain-launch -->
+    <string name="settings_whatsnew_entry_plain_launch_title">सरल सुरुवात</string>
+    <string name="settings_whatsnew_entry_plain_launch_summary">OpenCode साधारण स्क्रिनमा खुल्छ र सत्र तयार हुनासाथ लोडिङ एनिमेसन नदेखाई सीधै सत्रमा जान्छ।</string>
+
+    <!-- 2026-10-21-12-breath-ping-call-sounds -->
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_title">मधुरा कलका ध्वनिहरू</string>
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_summary">कल जोडिँदा, सङ्केत दिँदा र काटिँदा सासजस्ता मधुरा ध्वनिहरू बज्छन्, जसले कुराकानीमा बाधा दिँदैनन्।</string>
+
+    <!-- 2026-10-21-13-smoother-session-list -->
+    <string name="settings_whatsnew_entry_smoother_session_list_title">सहज सत्र सूची</string>
+    <string name="settings_whatsnew_entry_smoother_session_list_summary">सत्रहरू चलिरहँदा पनि साइड प्यानलको सत्र सूची सहजै स्क्रोल हुन्छ। सत्रलाई थिचिराख्दा पङ्क्तिको आकार नबदली मेनु खुल्छ।</string>
+
+    <!-- 2026-10-22-01-whats-new-actions -->
+    <string name="settings_whatsnew_entry_whats_new_actions_title">नयाँ के छबाट खोल्नुहोस् र चलाएर हेर्नुहोस्</string>
+    <string name="settings_whatsnew_entry_whats_new_actions_summary">नयाँ के छमा कुनै अपडेटको पृष्ठबाट बटन थिचेर विषयवस्तुहरू जस्ता सम्बन्धित सेटिङ खोल्न वा तयार प्रम्प्टसहित नयाँ सत्र चलाएर हेर्न सक्नुहुन्छ।</string>
+
+    <!-- 2026-10-22-02-project-icons-current-discovery -->
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_title">परियोजना आइकनमा सुधार</string>
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_summary">परियोजना आइकनहरू चालु हुँदा सर्भरले Icon Composer बन्डलमा भेटेका आइकनहरू पनि साइड प्यानलमा देखिन्छन्।</string>
+
+    <!-- 2026-10-22-03-new-divider-off-page -->
+    <string name="settings_whatsnew_entry_new_divider_off_page_title">आवश्यक हुँदा मात्र नयाँ</string>
+    <string name="settings_whatsnew_entry_new_divider_off_page_summary">नयाँ सन्देश छुट्याउने रेखाको प्रयोगात्मक सुविधा चालु हुँदा स्क्रिनमा अट्नेभन्दा बढी सन्देश आएमा मात्र नयाँ चिन्ह देखिन्छ।</string>
+
+    <!-- 2026-10-22-04-catch-up-all-caught-up-row -->
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_title">सबै अपडेट पढियो</string>
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_summary">छुटेका अपडेटहरूमा अन्तिम सत्र पढेपछि सिधै साइड प्यानलमा फर्किनुहुन्छ। त्यहाँ छुटेका अपडेटहरूमा ठीक चिन्हसहित सबै अपडेट पढियो देखिन्छ।</string>
+
+    <!-- 2026-10-23-01-session-mentions -->
+    <string name="settings_whatsnew_entry_session_mentions_title">सत्र उल्लेख गर्नुहोस्</string>
+    <string name="settings_whatsnew_entry_session_mentions_summary">सन्देश लेखनको स्वतः पूरा गर्ने प्रयोगात्मक सुविधा चालु हुँदा डेस्कटपमा जस्तै @ टाइप गरेर अर्को सत्रको शीर्षकमार्फत उल्लेख गर्नुहोस्।</string>
+
+    <!-- 2026-10-23-02-gpt-live-own-key -->
+    <string name="settings_whatsnew_entry_gpt_live_own_key_title">GPT-Live कुञ्जीहरू</string>
+    <string name="settings_whatsnew_entry_gpt_live_own_key_summary">GPT-Live कलमा तपाईंको आफ्नै OpenAI कुञ्जी, सर्भरको OpenAI कुञ्जी वा त्यसको OpenCode Console जडान प्रयोग गर्न सकिन्छ।</string>
+
+    <!-- 2026-10-23-03-pair-opens-drawer -->
+    <string name="settings_whatsnew_entry_pair_opens_drawer_title">छोडेकै ठाउँबाट जारी राख्नुहोस्</string>
+    <string name="settings_whatsnew_entry_pair_opens_drawer_summary">नयाँ कम्प्युटर जोडेपछि खाली सत्रमा छोड्नुको सट्टा साइड प्यानलमा त्यसका भर्खरका सत्रहरू खुल्छन्, ताकि एउटा छान्न सक्नुहोस्।</string>
+
+    <!-- 2026-10-23-04-voice-server-picker -->
+    <string name="settings_whatsnew_entry_voice_server_picker_title">आवाजका लागि सर्भर छान्नुहोस्</string>
+    <string name="settings_whatsnew_entry_voice_server_picker_summary">सेटिङहरू › आवाज › आवाज प्रदायकमा कलका लागि सुरक्षित गरिएको सर्भर वा यस फोनमा भएको आफ्नो OpenAI खाता छान्नुहोस्।</string>
+
+    <!-- 2026-10-24-01-living-orb-floats -->
+    <string name="settings_whatsnew_entry_living_orb_floats_title">जीवन्त गोला अब सबै स्क्रिनमा</string>
+    <string name="settings_whatsnew_entry_living_orb_floats_summary">सेटिङहरू › प्रयोगात्मक › कलहरूमा जीवन्त गोला अब तैरिने कल शैली हो। यो ठूलो छ, सेटिङहरू र हरेक स्क्रिनमाथि रहन्छ र दुवै आवाजसँगै चल्छ। एकैचोटि बोल्दा हरेक आवाज आफ्नै रङमा देखिन्छ। कार्ड बनाउन यसलाई ट्याप गर्नुहोस्, पूरा कल र वार्तालापको पाठ हेर्न माथि तान्नुहोस् र फेरि सानो बनाउन तल तान्नुहोस्। कल शैलीमुनिको गोलाबाट यसको रूप बदल्न सकिन्छ।</string>
+
+    <!-- 2026-10-24-02-new-messages-divider-on -->
+    <string name="settings_whatsnew_entry_new_messages_divider_on_title">नयाँ सन्देश छुट्याउने रेखा</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_summary">तपाईं अनुपस्थित हुँदा आएको जवाफ स्क्रिनभन्दा लामो भए सत्र खुल्दा त्यसको सुरुमा नयाँ लेखिएको रेखा देखिन्छ।</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_1">स्क्रिनमा अट्ने जवाफको अन्त्यमा सत्र खुल्छ, छुट्याउने रेखा देखिँदैन।</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_2">तपाईंले हेरिरहँदा आउँदै गरेका जवाफमा कहिल्यै चिन्ह लगाइँदैन।</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_3">अन्त्यसम्म पढेपछि छुट्याउने रेखा हट्छ।</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_4">सेटिङहरू › सत्रहरूमा यसलाई बन्द गर्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_example">लामो जवाफ माग्नुहोस्, जवाफ पूरा नहुँदासम्म अर्को एपमा जानुहोस् अनि फर्कनुहोस्।</string>
+
+    <!-- 2026-10-24-03-composer-keyboard-morph -->
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_title">किबोर्डसँगै चल्ने सन्देश लेखन</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_summary">सन्देश लेखनका नियन्त्रणहरू किबोर्डसँगै खुल्छन् र यसलाई माथि वा तल तान्दा सँगै सर्छन्।</string>
+
+    <!-- 2026-10-24-04-composer-photo-viewer -->
+    <string name="settings_whatsnew_entry_composer_photo_viewer_title">सन्देश लेखनका फोटो पूरा स्क्रिनमा</string>
+    <string name="settings_whatsnew_entry_composer_photo_viewer_summary">सन्देश लेखनमा भएको फोटो पूरा स्क्रिनमा हेर्न ट्याप गर्नुहोस्, अरू फोटो हेर्न स्वाइप गर्नुहोस् र पठाउनुअघि चाहेको फोटो हटाउनुहोस्।</string>
+
+    <!-- 2026-10-24-05-plus-menu-photo-picker -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_title">फोटो छान्ने नयाँ सुविधा</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_summary">सेटिङहरू › प्रयोगात्मक › सन्देश लेखनमा नयाँ प्लस मेनु चालु गर्नुहोस्। + मेनुबाटै भर्खरका ८ वटासम्म फोटो छान्नुहोस्, सबै फोटोहरू हेर्नुहोस् र फोटोहरू सन्देश लेखनमा अनि सत्रमा सरेको हेर्नुहोस्।</string>
+
+    <!-- 2026-10-24-06-project-icons-lit -->
+    <string name="settings_whatsnew_entry_project_icons_lit_title">चम्किला परियोजना आइकनहरू</string>
+    <string name="settings_whatsnew_entry_project_icons_lit_summary">परियोजना आइकनहरू चालु हुँदा साइड प्यानलका आइकनमा माथिबाट हल्का उज्यालो, काँचजस्तो पातलो किनारा र हल्का छाया देखिन्छ।</string>
+
+    <!-- 2026-10-24-07-session-live-activity -->
+    <string name="settings_whatsnew_entry_session_live_activity_title">सत्रका प्रत्यक्ष अपडेटहरू</string>
+    <string name="settings_whatsnew_entry_session_live_activity_summary">सेटिङहरू › प्रयोगात्मक › साइड प्यानलमा सत्रका प्रत्यक्ष अपडेटहरू चालु गर्नुहोस्। तपाईंले पठाएको काम पूरा नहुँदासम्म वा तपाईंको इनपुट नचाहिँदासम्म प्रत्यक्ष सूचनामा, लक स्क्रिनमा समेत, त्यसको प्रगति हेर्नुहोस्।</string>
+
+    <!-- 2026-10-24-08-sign-in-failed-edit-server -->
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_title">अस्वीकृत साइन-इन सच्याउनुहोस्</string>
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_summary">सर्भरले पासवर्ड अस्वीकार गर्दा साइड प्यानलको सर्भर मेनुमा काम नलाग्ने फेरि प्रयास गर्नुहोस् विकल्पको सट्टा सर्भर सम्पादन गर्नुहोस्… देखिन्छ। स्वागत स्क्रिनले अब टर्मिनलमा opencode pair --remote चलाउन सुझाउँछ।</string>
+
+    <!-- 2026-10-25-01-voice-app-screenshot -->
+    <string name="settings_whatsnew_entry_voice_app_screenshot_title">आवाजबाट स्क्रिनसट</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_summary">आवाज कलमा “यो हेर्नुहोस्” भन्नुहोस् र एपको स्क्रिन तपाईंको प्रतिक्रियासहित सत्रमा पठाइन्छ।</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_1">यसले एपको आफ्नै स्क्रिन मात्र, स्क्रिनको नाम र कल तथा एपको अवस्थासहित पठाउँछ।</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_2">यससँगै कलको लग वा एपका भर्खरका लगहरू पठाउन भन्नुहोस्; ठेगाना र लगइन विवरण लुकाइन्छन्।</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_3">साइन-इन स्क्रिन वा पासवर्ड फिल्ड देखिएको बेला यसले स्क्रिनसट लिँदैन।</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_example">आवाज कलमा “स्क्रिनसट लिनुहोस्, यो पङ्क्ति मिलेको छैन” भन्नुहोस्</string>
+
+    <!-- 2026-10-25-02-voice-background-results -->
+    <string name="settings_whatsnew_entry_voice_background_results_title">पृष्ठभूमिको कामका नतिजा कलमा</string>
+    <string name="settings_whatsnew_entry_voice_background_results_summary">कलमा तपाईंले काम दिएको सत्रले पृष्ठभूमिमा काम सुरु गरेमा, तपाईं अरू काममा लागिसकेको भए पनि काम सकिनासाथ कलमै नतिजा सुनाउँछ।</string>
+
+    <!-- 2026-10-25-03-sound-effects-experiment -->
+    <string name="settings_whatsnew_entry_sound_effects_experiment_title">ध्वनि प्रभावहरू</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_summary">जवाफ, अनुरोध, छुटेका अपडेटहरू र पठाउन असफल हुँदा कम्पनसँगै मधुरो ध्वनि बजाउने प्रयोगात्मक सुविधा।</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_1">मौन र कम्पन मोडमा यी ध्वनि बन्द हुन्छन् र सङ्गीत बजिरहन्छ।</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_2">कल, बोलेर लेख्ने सुविधा वा मिडिया चल्दा र एप पृष्ठभूमिमा हुँदा यी ध्वनि बज्दैनन्।</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_3">स्विचमुनि आवाजको स्तर र वैकल्पिक पठाउँदाको ध्वनि छन्।</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_example">सेटिङहरू › प्रयोगात्मकमा ध्वनि प्रभावहरू चालु गर्नुहोस्, अनि अर्को सत्रमा जवाफ पर्खनुहोस्</string>
+
+    <!-- 2026-10-25-90-session-title-first-prompt -->
+    <string name="settings_whatsnew_entry_session_title_first_prompt_title">पहिलो प्रम्प्टबाट शीर्षक</string>
+    <string name="settings_whatsnew_entry_session_title_first_prompt_summary">शीर्षक नभएका सत्रमा सर्भरले नाम नदिँदासम्म पहिलो प्रम्प्ट एक लाइनमा देखिन्छ।</string>
+
+    <!-- 2026-10-26-01-settings-sessions-page -->
+    <string name="settings_whatsnew_entry_settings_sessions_page_title">सत्रका सेटिङहरू</string>
+    <string name="settings_whatsnew_entry_settings_sessions_page_summary">सेटिङहरूमा नयाँ सत्रहरू पृष्ठ छ। त्यहाँ रिटर्न कुञ्जीले पठाउने विकल्पमाथि नयाँ सन्देश छुट्याउने रेखा छ। उन्नत खण्डमा अब दुई पङ्क्ति छन्: प्रयोगात्मक र विकासकर्ता।</string>
+
+    <!-- 2026-10-26-02-project-icons-default -->
+    <string name="settings_whatsnew_entry_project_icons_default_title">परियोजना आइकनहरू चालु</string>
+    <string name="settings_whatsnew_entry_project_icons_default_summary">परियोजना आइकनहरू अब सत्रका शीर्षकसँगै देखिन्छन्। सेटिङहरू › प्रयोगात्मकमा तिनलाई बन्द गर्नुहोस्।</string>
+
+    <!-- 2026-10-26-03-plus-menu-over-keyboard -->
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_title">किबोर्डमाथि फोटोहरू</string>
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_summary">नयाँ प्लस मेनु चालु हुँदा + मेनु किबोर्डमाथि खुल्छ। त्यसबाट फोटोहरू प्यानल स्क्रिनका किनारासम्म फैलिन्छ र किबोर्ड नलुकाई फेरि खुम्चिन्छ।</string>
+
+    <!-- 2026-10-26-04-living-orb-connect-motion -->
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_title">जडान हुँदा गोलाको चाल</string>
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_summary">जीवन्त गोला चालु हुँदा, कल जडान हुँदै गर्दा कल बटन गोलामा उठेर घुम्छ र कल सकिएपछि बटनमै फर्कन्छ। तुरुन्तै फेरि कल गर्दा अब अड्किँदैन, नयाँ कल सुरु हुन्छ।</string>
+
+    <!-- 2026-10-26-05-living-orb-presets -->
+    <string name="settings_whatsnew_entry_living_orb_presets_title">गोलाका पूर्वसेट र आकर्षक शैली</string>
+    <string name="settings_whatsnew_entry_living_orb_presets_summary">सेटिङहरू › प्रयोगात्मक › कलहरूमा कल शैलीमुनिको गोला अब आकर्षक शैलीमा खुल्छ, ठूलो प्रत्यक्ष पूर्वावलोकन र पूर्वसेटहरूको पङ्क्तिसहित। आफ्नै सेटअप बचत गर्नुहोस्, पुन: नामाकरण गर्नुहोस् र साझा गर्न प्रतिलिपि वा टाँस्नुहोस्।</string>
+
+    <!-- 2026-10-26-06-send-after-a-pause -->
+    <string name="settings_whatsnew_entry_send_after_a_pause_title">विरामपछि पठाउँदा सहज चाल</string>
+    <string name="settings_whatsnew_entry_send_after_a_pause_summary">केही बेरपछि पठाएको सन्देश अब समयमुनिबाट पहिले सन्देश लेखन क्षेत्रतिर झर्नुको सट्टा लेखन क्षेत्रबाट सीधै आफ्नो बबलमा उठ्छ।</string>
+
+    <!-- 2026-10-27-01-steadier-round-trip -->
+    <string name="settings_whatsnew_entry_steadier_round_trip_title">स्थिर प्रतिक्रिया समय</string>
+    <string name="settings_whatsnew_entry_steadier_round_trip_summary">जडान कार्डको ms अङ्क अब पछिल्ला केही जाँचको औसत हो। त्यसैले एउटा ढिलो प्रतिक्रियाले यसलाई ह्वात्तै बढाउनुको सट्टा थोरै मात्र बदल्छ।</string>
+
+    <!-- 2026-10-27-02-drawer-drag-follows-finger -->
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_title">साइड प्यानलमा तान्दा औँलासँगै</string>
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_summary">साइड प्यानलमा तानेको सत्र अब औँलामुनि नै रहन्छ, शीर्ष भागमाथि देखिन्छ, सूचीको छेउमा पुग्दा सूची सार्छ र छोडेपछि आफ्नो ठाउँमा बस्छ।</string>
+
+    <!-- 2026-10-27-03-inbox-sidebar-experiment -->
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_title">इनबक्स साइड प्यानल</string>
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_summary">सत्रहरू इनबक्सझैँ हेर्न सेटिङहरू › प्रयोगात्मक › साइड प्यानलमा इनबक्स साइड प्यानल चालु गर्नुहोस्: पहिले तपाईंको जवाफ चाहिने, त्यसपछि नपढिएका सत्रहरू, हरेकको परियोजना र पछिल्लो जवाफसहित। पढिएको चिन्ह लगाउन वा अभिलेखमा राख्न स्वाइप गर्नुहोस्।</string>
+
+    <!-- 2026-10-28-01-first-pairing-ready-session -->
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_title">पहिलो सत्र तयार</string>
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_summary">पहिलो कम्प्युटर जोड्दा अब त्यसको पछिल्लो परियोजनामा नयाँ सत्र खुल्छ, सोधेर हेर्न केही प्रश्नहरूसहित। एक ट्यापले जडान भएको पुष्टि गर्छ। नयाँ स्थापना गर्दा ‘नयाँ के छ’ पनि पहिल्यै पढिएको हुन्छ।</string>
+
+    <!-- 2026-10-28-02-welcome-preview -->
+    <string name="settings_whatsnew_entry_welcome_preview_title">स्वागतको पूर्वावलोकन</string>
+    <string name="settings_whatsnew_entry_welcome_preview_summary">पहिलोपटक देखिने नयाँ स्वागतमा ल्यापटपमा काम गरिरहेको OpenCode लाई फोनले दिशा दिएको देखिन्छ, अनि एकै चरणमा जोडिन्छ। हेर्न सेटिङहरू › प्रयोगात्मक › साइड प्यानलमा स्वागतको पूर्वावलोकन चालु गरी स्वागत देखाउनुहोस् ट्याप गर्नुहोस्; बन्द गर्दा अघिकै ठाउँमा फर्कनुहुन्छ।</string>
+
+    <!-- 2026-10-29-01-composer-text-selection -->
+    <string name="settings_whatsnew_entry_composer_text_selection_title">सन्देश लेखनमा पाठ चयन</string>
+    <string name="settings_whatsnew_entry_composer_text_selection_summary">मस्यौदामा चयनका ह्यान्डल वा आवर्धक तान्दा अब किबोर्ड लुक्दैन र सन्देश लेखन क्षेत्र माथि वा तल सर्दैन।</string>
+
+    <!-- 2026-10-30-01-voice-waits-for-you -->
+    <string name="settings_whatsnew_entry_voice_waits_for_you_title">कलमा तपाईंले बोलिसकुन्जेल पर्खिन्छ</string>
+    <string name="settings_whatsnew_entry_voice_waits_for_you_summary">आवाज एजेन्ट अब तपाईं बोल्दाबोल्दै बोल्दैन: अपडेटहरू तपाईंले बोलिसकेपछि मात्र सुनाउँछ, र ऊ बोल्दा तपाईं बोल्न थालेमा रोकिन्छ।</string>
+
+    <!-- 2026-10-30-02-wisp-call-sounds -->
+    <string name="settings_whatsnew_entry_wisp_call_sounds_title">आवाज कलमा Wisp का ध्वनि</string>
+    <string name="settings_whatsnew_entry_wisp_call_sounds_summary">कल सुरु हुँदा जडानको मधुरो झङ्कारसँगै हल्का सासको ध्वनि आउँछ, जडान भएपछि घण्टी बज्छ, एजेन्टले हेर्दा, खोल्दा वा चलाउँदा हल्का टिक सुनिन्छ र अन्त्यमा सुस्केरा आउँछ। सेटिङहरू › आवाज › कलका ध्वनिमा अर्को समूह छान्नुहोस्।</string>
+
+    <!-- 2026-10-30-03-wisp-orb -->
+    <string name="settings_whatsnew_entry_wisp_orb_title">आवाजको गोला अब Wisp</string>
+    <string name="settings_whatsnew_entry_wisp_orb_summary">कलको गोलामा अब Wisp को रूप छ: दुवै आवाजले चम्काउने बिन्दुहरूमाथि काँचको लेन्स, अनि जडान, सुनाइ, काम, बोलाइ र तपाईंको पर्खाइका लागि Wisp का भावहरू। अब यही एक मात्र गोला शैली भएकाले पुराना शैली र गोलाका सेटिङहरू हटेका छन्।</string>
+
+    <!-- 2026-10-31-01-encrypted-notification-previews -->
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_title">गुप्तीकरण गरिएका सूचना पूर्वावलोकन</string>
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_summary">अपडेट गरिएको सूचना प्लगइन र HTTPS जडान हुँदा, सर्भरले यो उपकरणका लागि शीर्षक र सन्देश गुप्तीकरण गर्छ। पूर्वावलोकन खोल्न नसकिएमा सूचनामा ‘नयाँ गतिविधि’ मात्र देखिन्छ।</string>
+
+    <!-- 2026-10-31-02-move-session-folder-gone -->
+    <string name="settings_whatsnew_entry_move_session_folder_gone_title">फोल्डर हटे पनि सत्र रहन्छ</string>
+    <string name="settings_whatsnew_entry_move_session_folder_gone_summary">सत्रको फोल्डर नरहेमा, जस्तै कार्यस्थान हटाइएको अवस्थामा, पठाउन असफल हुँदा सत्रलाई त्यसको परियोजनाको फोल्डरमा सार्ने विकल्प आउँछ र फेरि पठाइन्छ।</string>
+
+    <!-- 2026-10-31-03-notification-plugin-setup -->
+    <string name="settings_whatsnew_entry_notification_plugin_setup_title">OpenCode सँग सूचना सेटअप</string>
+    <string name="settings_whatsnew_entry_notification_plugin_setup_summary">सेटिङहरू → सूचनाहरूमा OpenCode सँग सेटअप गर्नुहोस् ट्याप गरी नभएको सूचना प्लगइन स्थापना गर्ने प्रम्प्ट समीक्षा गर्नुहोस्।</string>
+
+    <!-- 2026-11-01-01-call-card-takes-over -->
+    <string name="settings_whatsnew_entry_call_card_takes_over_title">तल्लो भागभरि कल कार्ड</string>
+    <string name="settings_whatsnew_entry_call_card_takes_over_summary">जीवन्त गोलामा कल कार्ड अब सन्देश क्षेत्र ढाक्दै स्क्रिनको तल्लो भागभरि फैलिन्छ, चारैतिर बराबर खाली ठाउँसहित। त्यसैले किबोर्डले यसलाई खुम्च्याउँदैन। टाइप गर्न यसलाई फेरि गोलामा खुम्च्याउनुहोस्।</string>
+
+    <!-- 2026-11-01-01-screenshot-shutter -->
+    <string name="settings_whatsnew_entry_screenshot_shutter_title">स्क्रिनसटको सटर</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_summary">एपले सत्रका लागि आफ्नै स्क्रिनसट लिँदा स्क्रिन झिलिक्क हुन्छ र सटरको क्लिक सुनिन्छ।</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_1">स्क्रिनसट लिएपछि मात्र फ्ल्यास आउँछ, त्यसैले तस्बिरमा कहिल्यै पर्दैन।</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_2">चाल कम गर्नुहोस् चालु हुँदा हल्का मधुरो हुन्छ, र झिलिमिली बत्ती मधुरो पार्नुहोस् चालु हुँदा यो बन्द हुन्छ।</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_3">कलमा क्लिकको ध्वनि कलकै अडियोबाट बज्छ, त्यसैले एजेन्टले सुन्दैन।</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_example">आवाज कलमा ‘यो हेर्नुहोस्’ भन्नुहोस्</string>
+
+    <!-- 2026-11-01-01-voice-says-whats-running -->
+    <string name="settings_whatsnew_entry_voice_says_whats_running_title">कलमा चलिरहेको कामको जानकारी</string>
+    <string name="settings_whatsnew_entry_voice_says_whats_running_summary">तपाईंको अनुरोधमा समय लाग्दा आवाज एजेन्ट चुप लाग्नुको सट्टा के काम गर्दै छ भनेर बताउँछ।</string>
+
+    <!-- 2026-11-01-02-living-orb-default -->
+    <string name="settings_whatsnew_entry_living_orb_default_title">गोलामा तैरिने कल</string>
+    <string name="settings_whatsnew_entry_living_orb_default_summary">अब सबैका आवाज कल हरेक स्क्रिनमाथि जीवन्त गोलामा तैरिन्छन्, र सन्देश लेख्ने क्षेत्र तपाईंले चलाउन पाउनुहुन्छ।</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_1">कल कार्डमा फैलाउन गोला ट्याप गर्नुहोस्, अनि पूरा कल र वार्तालापको पाठ हेर्न माथि तान्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_2">गोलालाई जहाँ पनि तान्नुहोस्; सत्र फेर्दा वा सेटिङहरू खोल्दा पनि त्यहीँ रहन्छ।</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_3">सेटिङहरू छेउको कल बटनबाट सत्र सूचीमै पनि कल सुरु गर्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_4">ट्रे हटाइएको छ: तपाईंले त्यो प्रयोग गर्नुभएको भए पनि अब कल गोलामै तैरिन्छन्।</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_5">सेटिङहरू › प्रयोगात्मक › कलहरू › जीवन्त गोलामा यसलाई बन्द गर्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_living_orb_default_example">कल सुरु गरेर सत्र सूची खोल्नुहोस्: गोला पनि सँगै आउँछ</string>
+
+    <!-- 2026-11-01-02-quicker-send -->
+    <string name="settings_whatsnew_entry_quicker_send_title">अझ छिटो पठाउने</string>
+    <string name="settings_whatsnew_entry_quicker_send_summary">पठाएको सन्देश अब पहिले सन्देश लेखन क्षेत्रमा पर्खिनुको सट्टा सूचीसँगै आफ्नो बबलमा उठ्छ।</string>
+
+    <!-- 2026-11-01-02-share-screen-with-agents -->
+    <string name="settings_whatsnew_entry_share_screen_with_agents_title">एजेन्टहरूसँग स्क्रिन साझा</string>
+    <string name="settings_whatsnew_entry_share_screen_with_agents_summary">सेटिङहरू › प्रयोगात्मक › कलहरूमा एजेन्टहरूसँग स्क्रिन साझा चालु गर्नुहोस्। कलमा एजेन्टले एप हेर्न अनुरोध गर्न सक्छ: तस्बिर पठाउन साझा गर्नुहोस् वा अहिले होइन ट्याप गर्नुहोस्।</string>
+
+    <!-- 2026-11-01-03-audio-in-calls -->
+    <string name="settings_whatsnew_entry_audio_in_calls_title">कलमा अडियो</string>
+    <string name="settings_whatsnew_entry_audio_in_calls_summary">सेटिङहरू › प्रयोगात्मक › कलहरूमा कलमा अडियो चालु गरेपछि एजेन्टले कलमा सङ्गीत वा क्लिप बजाउन सक्छ। तपाईं वा एजेन्ट बोल्दा आवाज कम हुन्छ; सन्देश लेखन क्षेत्रमाथिबाट केही बेर रोक्नुहोस् वा बन्द गर्नुहोस्।</string>
+
+    <!-- 2026-11-01-03-open-links-from-calls -->
+    <string name="settings_whatsnew_entry_open_links_from_calls_title">कलबाट लिङ्क खोल्ने</string>
+    <string name="settings_whatsnew_entry_open_links_from_calls_summary">सेटिङहरू › प्रयोगात्मक › कलहरूमा कलबाट लिङ्क खोल्ने चालु गरेपछि एजेन्टले कलमा Uber यात्राजस्ता लिङ्क दिन सक्छ: सम्बन्धित एपमा खोल्न खोल्नुहोस् ट्याप गर्नुहोस्, वा अहिले होइन छान्नुहोस्।</string>
+
+    <!-- 2026-11-02-01-fold-questions -->
+    <string name="settings_whatsnew_entry_fold_questions_title">प्रश्न खुम्च्याएर छेउमा</string>
+    <string name="settings_whatsnew_entry_fold_questions_summary">प्रश्नलाई तल तानेर सन्देश लेखन क्षेत्रमाथि सानो पट्टीमा खुम्च्याउनुहोस्, र फेरि देखाउन ट्याप गर्नुहोस्। उत्तर पठाउन असफल हुँदा अब फेरि प्रयास गर्नुहोस् नथिचेसम्म पर्खिन्छ।</string>
+
+    <!-- 2026-11-02-01-steadier-following -->
+    <string name="settings_whatsnew_entry_steadier_following_title">जवाफ पछ्याउँदा स्थिर दृश्य</string>
+    <string name="settings_whatsnew_entry_steadier_following_summary">आउँदै गरेको जवाफ तल्लो भागमै अडिन्छ र ‘काम हुँदै छ’ उफ्रिँदैन। सन्देश लेखन क्षेत्रभन्दा माथि जहाँबाट पनि सूची स्वाइप गर्न सक्नुहुन्छ।</string>
+
+    <!-- 2026-11-02-40-model-display-names -->
+    <string name="settings_whatsnew_entry_model_display_names_title">मोडेलका नामहरू</string>
+    <string name="settings_whatsnew_entry_model_display_names_summary">मोडेल सूची लोड हुँदा वा फेरि जडान हुँदा सन्देश लेखनले मोडेलका नामहरू सम्झिराख्छ।</string>
+
+    <!-- 2026-11-02-41-all-experiments -->
+    <string name="settings_whatsnew_entry_all_experiments_title">सबै प्रयोगहरू</string>
+    <string name="settings_whatsnew_entry_all_experiments_summary">सेटिङहरू › प्रयोगात्मकको माथि रहेको एउटै स्विचले सबै प्रयोगहरू चालु गर्छ, पछि आउने नयाँ प्रयोगहरू पनि।</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_1">कुनै प्रयोग नचाहिए त्यसको स्विच बन्द गर्नुहोस्; अर्को पटक पनि बन्द नै रहन्छ।</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_2">सबै प्रयोगहरू बन्द गर्दा स्विचहरू पहिलेको अवस्थामा फर्कन्छन्।</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_3">अनुमति माग्ने प्रयोगहरू भने छुट्टै रोज्नुपर्छ।</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_4">स्वतः पूरा गर्ने सुविधा, प्लस मेनुको फोटो प्यानल, नयाँ सर्भर बदल्ने सुविधा र परियोजना आइकनहरू अब सबैका लागि चालु छन्।</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_5">एकल छनोटकर्ता र जीवन्त गोलाका अब साधारण स्विच छन्, र कल ट्रे हटाइएको छ।</string>
+    <string name="settings_whatsnew_entry_all_experiments_example">सेटिङहरू › प्रयोगात्मक खोल्नुहोस् र सबै प्रयोगहरू चालु गर्नुहोस्</string>
+
+    <!-- 2026-11-03-01-search-all-sessions -->
+    <string name="settings_whatsnew_entry_search_all_sessions_title">पुराना सत्रहरू फेला पार्नुहोस्</string>
+    <string name="settings_whatsnew_entry_search_all_sessions_summary">साइड प्यानलको खोजले अब भर्खरका मात्र होइन, सबै सत्रहरू खोज्छ। तलसम्म स्क्रोल गर्दा पुराना सत्रहरू लोड हुन्छन्।</string>
+
+    <!-- 2026-11-03-01-voice-open-session -->
+    <string name="settings_whatsnew_entry_voice_open_session_title">आवाजबाट सत्र बदल्नुहोस्</string>
+    <string name="settings_whatsnew_entry_voice_open_session_summary">आवाज एजेन्टलाई सत्र खोल्न भन्दा अब साइड प्यानल बन्द हुन्छ र कल जडान रहिरहन्छ।</string>
+
+    <!-- 2026-11-03-02-orb-divider-image-links -->
+    <string name="settings_whatsnew_entry_orb_divider_image_links_title">तीन प्रयोगहरू जारी</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_summary">जीवन्त गोला, नयाँ विभाजक र छवि लिङ्कको पूर्वावलोकन अब स्विचबिना सबैका लागि चालु छन्।</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_1">हरेक कल जीवन्त गोलामा तैरिन्छ; पुरानो कल पट्टी हटाइएको छ।</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_2">सत्रमा फर्कँदा, तपाईं नहुँदा आएका सन्देशहरू स्क्रिनमा नअटेमा नयाँ विभाजकले तिनको सुरुवात देखाउँछ।</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_3">सीधै छविमा जाने लिङ्कहरूले सन्देशमुनि त्यो छवि देखाउँछन्।</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_example">सन्देश लेखनबाट कल सुरु गर्नुहोस् र गोलामा तैरिएको हेर्नुहोस्</string>
+
+    <!-- 2026-11-04-01-call-links-and-audio -->
+    <string name="settings_whatsnew_entry_call_links_and_audio_title">कलमा लिङ्क र अडियो</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_summary">कलबाट लिङ्क खोल्ने र कलमा अडियो बजाउने सुविधा अब स्विचबिना सबैका लागि चालु छन्।</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_1">कलमा एजेन्टले Uber सवारी जस्ता लिङ्क दिन सक्छ: सम्बन्धित एपमा खोल्न खोल्नुहोस् ट्याप गर्नुहोस्, वा अहिले होइन रोज्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_2">एजेन्टले कलमा सङ्गीत वा क्लिप बजाउन सक्छ। तपाईं वा एजेन्ट बोल्दा आवाज कम हुन्छ; सन्देश लेखनको माथिबाट पज वा बन्द गर्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_example">कलमा एजेन्टलाई सङ्गीत बजाउन भन्नुहोस्</string>
+
+    <!-- 2026-11-04-01-composer-editing-caret -->
+    <string name="settings_whatsnew_entry_composer_editing_caret_title">मस्यौदा सम्पादन</string>
+    <string name="settings_whatsnew_entry_composer_editing_caret_summary">मस्यौदाको बीचमा कुनै शब्द सम्पादन गर्दा कर्सर टाइप गरिरहेकै ठाउँमा रहन्छ।</string>
+
+    <!-- 2026-11-04-01-loading-touch-recovery -->
+    <string name="settings_whatsnew_entry_loading_touch_recovery_title">लोड भएपछि स्क्रोल</string>
+    <string name="settings_whatsnew_entry_loading_touch_recovery_summary">लोड हुँदै गर्दा एपमा फर्कँदा वार्तालापको पाठ तुरुन्तै स्क्रोल गर्न मिल्छ।</string>
+
+    <!-- 2026-11-05-01-composer-keyboard-width -->
+    <string name="settings_whatsnew_entry_composer_keyboard_width_title">टाइप गर्दा फराकिलो लेखन क्षेत्र</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_width_summary">किबोर्ड खुलेको बेला सन्देश लेखन क्षेत्र दुवैतिर थोरै र बराबर ठाउँ छोडेर फराकिलो हुन्छ, त्यसैले लामो मस्यौदा कम लाइनमा अट्छ।</string>
+
+    <!-- 2026-11-05-02-plus-menu-touch-release -->
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_title">संलग्नक मेनु बन्द गर्दा</string>
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_summary">संलग्नक मेनु बन्द गर्दा, लेआउट बदलिँदै भए पनि त्यसको मुनिको सत्र फेरि चलाउन मिल्छ।</string>
+
+    <!-- 2026-11-05-02-quiet-reconnecting-pill -->
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_title">खोल्दा कम हलचल</string>
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_summary">एप खोल्दा अब सन्देश लेखनको माथि “फेरि जडान हुँदै…” झुल्किँदैन र सत्र पनि सर्दैन; फेरि जडान हुन केही समय लागे मात्र यो सूचना देखिन्छ।</string>
+
+    <!-- 2026-11-05-03-stuck-touch-recovery -->
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_title">स्क्रोल आफैँ ठीक हुन्छ</string>
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_summary">कुनै अदृश्य अवरोधले सत्रलाई एक सेकेन्डभन्दा बढी स्क्रोल हुन नदिएमा एपले त्यसलाई हटाउँछ।</string>
+
+    <!-- 2026-11-05-04-reply-text-selection -->
+    <string name="settings_whatsnew_entry_reply_text_selection_title">जवाफभरि पाठ चयन गर्नुहोस्</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_summary">जवाफको कुनै शब्द थिचिराख्नुहोस् वा दुईपटक ट्याप गर्नुहोस्, अनि चयनका ह्यान्डलहरू अनुच्छेद, सूची, कोड र तालिकाभरि तान्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_1">ह्यान्डललाई हेडरको ठीक मुनि वा सन्देश लेखनको ठीक माथि समातिराख्दा जवाफ स्क्रोल हुन्छ। किनाराको जति नजिक, उति छिटो स्क्रोल हुन्छ।</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_2">प्रतिलिपि गर्दा सूचीका चिन्ह र सङ्ख्या अनि तालिकाका पङ्क्ति र स्तम्भ जस्ताका तस्तै रहन्छन्। उद्धरणले चयनलाई सन्देश लेखनमा थप्छ र कोडलाई कोड ब्लकभित्रै राख्छ।</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_example">लामो जवाफको सुरुतिरको शब्द थिचिराख्नुहोस्, अनि अन्तिम ह्यान्डललाई तल सन्देश लेखनसम्म तानेर त्यहीँ समातिराख्नुहोस्</string>
+
+    <!-- 2026-11-06-01-scrolling-unsticks -->
+    <string name="settings_whatsnew_entry_scrolling_unsticks_title">अड्किएको स्क्रोल आफैँ खुल्छ</string>
+    <string name="settings_whatsnew_entry_scrolling_unsticks_summary">कहिलेकाहीँ अर्को सत्रमा नगएसम्म स्क्रोल नहुने सत्र अब आफैँ फेरि स्क्रोल हुन थाल्छ।</string>
+
+    <!-- 2026-11-06-02-server-addresses -->
+    <string name="settings_whatsnew_entry_server_addresses_title">भरपर्दो सर्भर जडान</string>
+    <string name="settings_whatsnew_entry_server_addresses_summary">OpenCode ले सर्भरका सबै ठेगानामा एकैचोटि प्रयास गर्छ र पहिले जवाफ दिने ठेगाना प्रयोग गर्छ। त्यसैले घरबाट निस्कँदा VPN बन्द र चालु नगरी नै फेरि जडान हुन्छ।</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_1">घरको नेटवर्कमा चलेको ठेगानालाई अब अरू सबै ठाउँमा पहिले प्रयास गरिँदैन।</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_2">जडान क्षणभर टुट्दा, फोन अनलक गर्दा वा द्रुत सेटिङहरू तल तान्दा अब ब्यानर झुल्किँदैन। केही सेकेन्डपछि फेरि जडान हुँदै देखिन्छ र करिब १२ सेकेन्डपछि अफलाइन देखिन्छ, वा फोनमा नेटवर्क नभए ४ सेकेन्डपछि।</string>
+    <string name="settings_whatsnew_entry_server_addresses_example">Tailscale मार्फत जोडिएको सर्भरमा सत्र खुला राखेर Wi-Fi बन्द गर्नुहोस् र काम जारी राख्नुहोस्</string>
+
+    <!-- 2026-11-07-01-server-voice -->
+    <string name="settings_whatsnew_entry_server_voice_title">सर्भरका कुञ्जीबाट कल</string>
+    <string name="settings_whatsnew_entry_server_voice_summary">सर्भर आवाज अब स्विचबिना सबैका लागि चालु छ। कलले तपाईंको OpenCode सर्भरका कुञ्जीहरू प्रयोग गर्न सक्छ, त्यसैले यो फोनलाई आफ्नै OpenAI कुञ्जी चाहिँदैन।</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_1">स्वतः छान्नुहोस् चालु हुँदा, कलले पहिले हालको सर्भर, त्यसपछि यो फोनको OpenAI कुञ्जी र अन्त्यमा सुरक्षित गरिएको अर्को तयार सर्भर प्रयोग गर्छ।</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_2">यो फोन र सर्भर दुवैमा OpenAI कुञ्जी भए अब कलले सर्भरको कुञ्जी प्रयोग गर्छ। फोनकै कुञ्जी प्रयोग गरिरहन आवाज प्रदायकमा तपाईंको OpenAI खाता खोल्नुहोस् र कलका लागि प्रयोग गर्नुहोस् ट्याप गर्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_3">Gemini कुञ्जी भएका सर्भरमा अब Gemini Live पनि प्रदायकका रूपमा उपलब्ध छ।</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_4">कल सुरु हुन नसके कारण र समाधान गर्ने बटन देखिन्छ।</string>
+    <string name="settings_whatsnew_entry_server_voice_example">सेटिङहरू › आवाज खोल्नुहोस् र आवाज प्रदायक ट्याप गर्नुहोस्</string>
+
+    <!-- 2026-11-07-02-rename-clear-button -->
+    <string name="settings_whatsnew_entry_rename_clear_button_title">एक ट्यापमा शीर्षक खाली गर्नुहोस्</string>
+    <string name="settings_whatsnew_entry_rename_clear_button_summary">सत्र र सर्भर पुन: नामाकरण गर्दा अब खाली गर्ने बटन छ, त्यसैले पुरानो शीर्षक मेटिरहनु नपरी नयाँ लेख्न सक्नुहुन्छ।</string>
+
+    <!-- 2026-11-07-03-one-picker -->
+    <string name="settings_whatsnew_entry_one_picker_title">नयाँ मोडेल छनोटकर्ता</string>
+    <string name="settings_whatsnew_entry_one_picker_summary">सन्देश बाकसमा मोडेल ट्याप गर्दा त्यहीँबाट सूची फैलिन्छ। माथि मनपर्ने र भर्खरका, अनि तल सबै प्रदायकहरू देखिन्छन्।</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_1">सूची नछोडी सोचाइको स्तर बदल्न मोडेलको पङ्क्तिमा भएको “उच्च” जस्तो स्तरमा ट्याप गर्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_2">मनपर्नेमा राख्न वा त्यहाँबाट हटाउन पङ्क्ति स्वाइप गर्नुहोस् वा थिचिराख्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_3">खोज तल छ। नामपछि स्तर लेखेर, जस्तै “opus high”, Return थिच्दा दुवै चयन हुन्छन्।</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_4">सूची अग्लो बनाउन ह्यान्डल माथि तान्नुहोस्, वा बन्द गर्न तल तान्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_5">नयाँ छनोट सुविधाले पुरानो मोडेल पानालाई विस्थापित गरेको छ। सेटिङहरू › प्रयोगात्मकबाट एकीकृत छनोटको स्विच पनि हटाइएको छ।</string>
+    <string name="settings_whatsnew_entry_one_picker_example">सन्देश बाकसमा मोडेल ट्याप गर्नुहोस्, अनि मनपर्नेमा राख्न पङ्क्ति स्वाइप गर्नुहोस्</string>
+
+    <!-- 2026-11-08-01-connecting-caption-glass -->
+    <string name="settings_whatsnew_entry_connecting_caption_glass_title">सजिलै पढिने “मार्फत जडान गर्दै…”</string>
+    <string name="settings_whatsnew_entry_connecting_caption_glass_summary">सर्भरमार्फत कल जडान हुँदा “मार्फत जडान गर्दै…” लेखिएको भाग अब काँचजस्तो पृष्ठभूमिमा देखिन्छ, त्यसैले पछाडिका सन्देशसँग मिसिँदैन।</string>
+
+    <!-- 2026-11-08-02-default-model -->
+    <string name="settings_whatsnew_entry_default_model_title">नयाँ सत्रमा तपाईंको पूर्वनिर्धारित मोडेल</string>
+    <string name="settings_whatsnew_entry_default_model_summary">नयाँ सत्रहरू अब अघिल्लो सत्रको मोडेलमा होइन, OpenCode मा पूर्वनिर्धारित राखिएको मोडेलमा सुरु हुन्छन्। सोचाइको स्तर पनि त्यस मोडेलका लागि तपाईंले पछिल्लो पटक छानेकै हुन्छ।</string>
+
+    <!-- 2026-11-11-01-streamed-reply-prefix -->
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_title">जवाफ आउँदै गर्दा खोल्नुहोस्</string>
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_summary">जवाफ आउँदै गर्दा सत्र खोल्दा, बाँकी जवाफ आउँदै गर्छ र आइसकेको भाग पढ्न सक्नुहुन्छ।</string>
+
+    <!-- 2026-11-13-01-draw-on-images -->
+    <string name="settings_whatsnew_entry_draw_on_images_title">छविमा कोर्नुहोस्</string>
+    <string name="settings_whatsnew_entry_draw_on_images_summary">कुनै कुराबारे सोध्नुअघि त्यसमा चिनो लगाउनुहोस्।</string>
+    <string name="settings_whatsnew_entry_draw_on_images_detail_1">छवि पूरा स्क्रिनमा खोलेर कलम बटनमा ट्याप गर्नुहोस्। रङ छानेर कोर्नुहोस्, अनि चिनो लगाइएको छवि सन्देशमा संलग्न गर्न थप्नुहोस् बटनमा ट्याप गर्नुहोस्। मूल छवि जस्ताको तस्तै रहन्छ।</string>
+    <string name="settings_whatsnew_entry_draw_on_images_example">स्क्रिनसटमा सार्न चाहेको कन्ट्रोललाई घेरा लगाउनुहोस्, अनि कहाँ सार्ने भनेर बताउनुहोस्।</string>
+
+    <!-- 2026-11-14-01-fullscreen-viewer -->
+    <string name="settings_whatsnew_entry_fullscreen_viewer_title">फोटो र भिडियोबीच स्वाइप गर्नुहोस्</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_summary">सत्रका छवि र भिडियो एकै ठाउँमा हेर्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_detail_1">स्वाइप गरेर भिडियोमा जानुहोस्, अनि हालको फ्रेममा चिनो लगाउन कलम बटनमा ट्याप गर्नुहोस्। थप्नुहोस् बटनले चिनो लगाइएको फ्रेम नपठाई संलग्न गर्छ।</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_example">डेमोमा बदल्नुपर्ने स्क्रिन आएपछि रोक्नुहोस्, सम्बन्धित भागमा घेरा लगाउनुहोस् र मस्यौदामा थप्नुहोस्।</string>
+
+    <!-- 2026-11-15-01-pairing-link-name -->
+    <string name="settings_whatsnew_entry_pairing_link_name_title">OpenCode Console बाट नामसहितका सर्भरहरू</string>
+    <string name="settings_whatsnew_entry_pairing_link_name_summary">OpenCode Console बाट जोडिएको सर्भर आफ्नै नामसहित आउँछ, जस्तै “Anomaly Box”।</string>
+
+    <!-- 2026-11-17-01-session-media -->
+    <string name="settings_whatsnew_entry_session_media_title">सत्रको मिडिया</string>
+    <string name="settings_whatsnew_entry_session_media_summary">सत्रका छवि, भिडियो, अडियो, फाइलहरू र सार्वजनिक वेब लिङ्कहरू हेर्नुहोस्।</string>
+    <string name="settings_whatsnew_entry_session_media_detail_1">सत्रको ⋮ मेनुबाट सत्रको मिडिया छान्नुहोस्। मिडियाले छवि, भिडियो र अडियोलाई महिनाअनुसार टाइलहरूमा वा सूचीमा देखाउँछ। फाइलहरू र लिङ्कहरूमा कागजात, टाँसिएका सामग्री र वेब लिङ्कहरूको सूची देखिन्छ।</string>
+    <string name="settings_whatsnew_entry_session_media_example">पूरै सत्रमा पछाडि स्क्रोल नगरी आज बिहान पठाउनुभएको स्क्रिनसट फेला पार्नुहोस्।</string>
+
+    <!-- 2026-11-18-02-drawer-call-phone -->
+    <string name="settings_whatsnew_entry_drawer_call_phone_title">साइड प्यानलमा कलका लागि फोन आइकन</string>
+    <string name="settings_whatsnew_entry_drawer_call_phone_summary">सत्र सूचीमा सेटिङहरू छेउको कल बटनमा अब सन्देश बाकसमा जस्तै फोन आइकन देखिन्छ।</string>
+
+    <!-- 2026-11-19-01-background-scripts -->
+    <string name="settings_whatsnew_entry_background_scripts_title">पृष्ठभूमिमा चल्ने स्क्रिप्टहरू</string>
+    <string name="settings_whatsnew_entry_background_scripts_summary">एजेन्टले पृष्ठभूमिमा सारेका स्क्रिप्टहरू उप-एजेन्टहरू र शेलहरूसँगै देखिन्छन्। उप-एजेन्टका छवि, भिडियो वा स्क्रिप्टहरूको काम चलिरहेसम्म त्यो सूचीमै रहन्छ। स्क्रिप्ट वा उप-एजेन्टलाई सूचीबाटै रोक्नुहोस्।</string>
+</resources>

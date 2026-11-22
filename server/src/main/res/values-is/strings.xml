@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Skel</string>
+    <string name="server_notice_source_subagent">Undirfulltrúi</string>
+    <string name="server_notice_heading_finished">%1$s: lokið</string>
+    <string name="server_notice_heading_failed">%1$s: mistókst</string>
+    <string name="server_notice_heading_interrupted">%1$s: truflað</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$d skel: lokið</item>
+        <item quantity="other">%1$d skeljar: lokið</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$d skel mistókst</item>
+        <item quantity="other">%1$d skeljar mistókust</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">%1$d skel trufluð</item>
+        <item quantity="other">%1$d skeljar truflaðar</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">%1$d undirfulltrúi lauk verki</item>
+        <item quantity="other">%1$d undirfulltrúar luku verki</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">%1$d undirfulltrúa mistókst</item>
+        <item quantity="other">%1$d undirfulltrúum mistókst</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">%1$d undirfulltrúi var truflaður</item>
+        <item quantity="other">%1$d undirfulltrúar voru truflaðir</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Þjappa</string>
+    <string name="server_run_error_action_switch_model">Skipta um líkan</string>
+    <string name="server_run_error_aborted">Truflað</string>
+    <string name="server_run_error_permission_rejected">Truflað eftir að beiðni var hafnað</string>
+    <string name="server_run_error_content_filter">Öryggissía lokaði á svarið</string>
+    <string name="server_run_error_rate_limit">Tíðnimörkum náð</string>
+    <string name="server_run_error_quota">Notkunarhámarki náð</string>
+    <string name="server_run_error_auth">Þjónustuveitan hafnaði lyklinum</string>
+    <string name="server_run_error_context_overflow">Setan er of löng fyrir þetta líkan</string>
+    <string name="server_run_error_invalid_request">Þjónustuveitan hafnaði beiðninni</string>
+    <string name="server_run_error_overloaded">Of mikið álag er á líkaninu</string>
+    <string name="server_run_error_internal">Vandamál kom upp hjá þjónustuveitunni</string>
+    <string name="server_run_error_transport">Tenging við líkanið rofnaði</string>
+    <string name="server_run_error_timeout">Líkanið var of lengi að svara</string>
+    <string name="server_run_error_invalid_output">Ekki tókst að lesa svar líkansins</string>
+    <string name="server_run_error_unavailable">Þetta líkan er ekki tiltækt</string>
+    <string name="server_run_error_unsupported_operation">Þetta líkan getur ekki gert það</string>
+    <string name="server_run_error_tool_execution">Verkfæri brást og keyrslan stöðvaðist</string>
+    <string name="server_run_error_other">Keyrslan stöðvaðist vegna villu</string>
+    <string name="server_run_retry_in_seconds">%1$s · reynir aftur eftir %2$d s</string>
+    <string name="server_run_retry_now">%1$s · reynir aftur</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">Ekki tókst að ná sambandi við OpenCode-netþjóninn</string>
+    <string name="server_error_folder_gone">Mappan er ekki lengur til</string>
+    <string name="server_error_uploads_unsupported">Þessi netþjónn styður ekki skráaviðhengi. Uppfærðu OpenCode á tölvunni þinni.</string>
+    <string name="server_error_archiving_unsupported">Þessi netþjónn styður ekki vistun í skjalasafn. Uppfærðu OpenCode á tölvunni þinni.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode hefur ekki leyfi til að tengjast tækjum á staðarnetinu þínu. Kveiktu á „Nálæg tæki“ fyrir OpenCode í stillingum og reyndu svo aftur.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Ónefnd seta</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Skel</string>
+    <string name="server_tool_shell_killed">Skelinni var lokað</string>
+    <string name="server_tool_shell_exit_code">Skipun lauk með kóðanum %1$d</string>
+    <string name="server_notice_session_update">Uppfærsla setu</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Tenging mistókst</string>
+    <string name="server_connection_resolved_address_unknown">Vistfang úr uppflettingu: óþekkt</string>
+    <string name="server_connection_resolved_address">Vistfang úr uppflettingu eftir bilun: %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">Þetta tailnet-heiti gaf vistfang utan vistfangasviðs Tailscale, svo hugsanlega er Tailscale DNS ekki í notkun. Kveiktu á „Use Tailscale DNS settings“ í Tailscale-forritinu og slökktu á einka-DNS eða VPN-sniðum sem breyta DNS.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Staðarnet</string>
+    <string name="server_connection_route_loopback">Baklykkja</string>
+    <string name="server_connection_route_internet">Internet</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">er ekki veffang</string>
+    <string name="server_pairing_origin_bad_scheme">byrjar ekki á http:// eða https://</string>
+    <string name="server_pairing_origin_no_host">vantar vélarheiti</string>
+    <string name="server_pairing_origin_credentials">inniheldur notandanafn eða lykilorð</string>
+    <string name="server_pairing_origin_query">inniheldur fyrirspurn eða brot</string>
+    <string name="server_pairing_origin_port">er með gátt utan bilsins 1–65535</string>
+    <string name="server_pairing_origin_path">inniheldur slóð, en netþjónninn verður að vera á rót vistfangsins</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Netþjónn</string>
+    <string name="server_friendly_name_numbered">Netþjónn %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">Tengingin rofnaði eftir að skilaboðin voru send, svo þau gætu hafa borist.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Þessi samþætting býður ekki upp á innskráningu.</string>
+    <string name="server_error_sign_in_url_invalid">Veffang innskráningarsíðunnar er ógilt.</string>
+    <string name="server_error_load_server_details">Ekki tókst að hlaða upplýsingum um netþjón</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">Þessi pörunarkóði er útrunninn eða hefur þegar verið notaður. Keyrðu `opencode pair --remote` aftur.</string>
+    <string name="server_error_pairing_unsupported">Þessi netþjónn styður ekki pörunartengla. Uppfærðu OpenCode á tölvunni eða sláðu inn netþjóninn handvirkt.</string>
+    <string name="server_error_notification_previews_need_https">Dulkóðuð forskoðun tilkynninga krefst HTTPS-tengingar við netþjón.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Sláðu inn gilt HTTP- eða HTTPS-veffang netþjóns.</string>
+    <string name="server_error_credentials_rejected">Netþjónninn hafnaði þessum auðkenningarupplýsingum.</string>
+    <string name="server_error_http_status">Netþjónninn skilaði HTTP %1$d.</string>
+    <string name="server_error_event_stream_http">Atburðastraumurinn skilaði HTTP %1$d.</string>
+    <string name="server_error_event_stream_oversized_frame">Atburðastraumurinn sendi of stóran ramma.</string>
+    <string name="server_error_event_stream_ended">Atburðastraumnum lauk.</string>
+    <string name="server_error_event_stream_server_failure">Atburðastraumurinn tilkynnti bilun í netþjóni.</string>
+    <string name="server_tool_failed">Verkfæri mistókst</string>
+    <string name="server_error_list_folder">Netþjónninn gat ekki birt innihald möppunnar</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Ekki tókst að hlaða verkefnum og setum</string>
+    <string name="server_error_load_session_family">Ekki tókst að hlaða tengdum setum</string>
+    <string name="server_error_update_session">Ekki tókst að uppfæra setuna</string>
+    <string name="server_error_load_session_ancestry">Ekki tókst að hlaða upprunakeðju virku setunnar</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Þegar svarað annars staðar</string>
+    <string name="server_request_already_dismissed">Þegar vísað frá</string>
+    <string name="server_request_already_answered">Þegar svarað</string>
+    <string name="server_request_already_dismissed_elsewhere">Þegar vísað frá annars staðar</string>
+    <string name="server_request_no_longer_waiting">Bíður ekki lengur</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Margmiðlun ekki tiltæk</string>
+    <string name="server_pasted_text_title">Innlímdur texti</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d lína · %2$s</item>
+        <item quantity="other">%1$d línur · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d lína</item>
+        <item quantity="other">%1$d línur</item>
+    </plurals>
+    <string name="server_file_size_zero">0 KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d bæti</item>
+        <item quantity="other">%1$d bæti</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">Verkefni</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Skrá</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Ljúktu þessu skrefi</string>
+    <string name="server_form_required">Áskilið</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">Sláðu inn að minnsta kosti %1$d staf</item>
+        <item quantity="other">Sláðu inn að minnsta kosti %1$d stafi</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">Sláðu inn að hámarki %1$d staf</item>
+        <item quantity="other">Sláðu inn að hámarki %1$d stafi</item>
+    </plurals>
+    <string name="server_form_invalid_format">Ógilt snið</string>
+    <string name="server_form_choose_option">Veldu tiltækan valkost</string>
+    <string name="server_form_invalid_email">Sláðu inn gilt netfang</string>
+    <string name="server_form_invalid_url">Sláðu inn gilt URL</string>
+    <string name="server_form_invalid_date">Sláðu inn dagsetningu á sniðinu YYYY-MM-DD</string>
+    <string name="server_form_invalid_date_time">Sláðu inn gilda dagsetningu og tíma</string>
+    <string name="server_form_minimum">Verður að vera að minnsta kosti %1$s</string>
+    <string name="server_form_maximum">Má að hámarki vera %1$s</string>
+    <string name="server_form_whole_number">Sláðu inn heiltölu</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">Veldu að minnsta kosti %1$d</item>
+        <item quantity="other">Veldu að minnsta kosti %1$d</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">Veldu að hámarki %1$d</item>
+        <item quantity="other">Veldu að hámarki %1$d</item>
+    </plurals>
+    <string name="server_form_invalid_value">Ógilt gildi</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Fela valin</string>
+    <string name="server_model_visibility_only_show">Sýna aðeins valin</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Slökkt</string>
+    <string name="server_model_variant_extra_high">Sérlega hátt</string>
+    <string name="server_model_variant_max">Hámark</string>
+    <string name="server_delivery_steering">Stýring</string>
+    <string name="server_delivery_queued">Í biðröð</string>
+</resources>

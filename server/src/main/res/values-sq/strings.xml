@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Guaska</string>
+    <string name="server_notice_source_subagent">Nënagjenti</string>
+    <string name="server_notice_heading_finished">%1$s përfundoi</string>
+    <string name="server_notice_heading_failed">%1$s dështoi</string>
+    <string name="server_notice_heading_interrupted">%1$s u ndërpre</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$d guaskë përfundoi</item>
+        <item quantity="other">%1$d guaska përfunduan</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$d guaskë dështoi</item>
+        <item quantity="other">%1$d guaska dështuan</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">%1$d guaskë u ndërpre</item>
+        <item quantity="other">%1$d guaska u ndërprenë</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">%1$d nënagjent përfundoi</item>
+        <item quantity="other">%1$d nënagjentë përfunduan</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">%1$d nënagjent dështoi</item>
+        <item quantity="other">%1$d nënagjentë dështuan</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">%1$d nënagjent u ndërpre</item>
+        <item quantity="other">%1$d nënagjentë u ndërprenë</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Kompakt</string>
+    <string name="server_run_error_action_switch_model">Ndërro modelin</string>
+    <string name="server_run_error_aborted">E ndërprerë</string>
+    <string name="server_run_error_permission_rejected">U ndërpre pas refuzimit të një kërkese</string>
+    <string name="server_run_error_content_filter">Filtri i sigurisë bllokoi përgjigjen</string>
+    <string name="server_run_error_rate_limit">U arrit kufiri i shpeshtësisë së kërkesave</string>
+    <string name="server_run_error_quota">U arrit kufiri i përdorimit</string>
+    <string name="server_run_error_auth">Ofruesi refuzoi tastin API</string>
+    <string name="server_run_error_context_overflow">Sesioni është tepër i gjatë për këtë model</string>
+    <string name="server_run_error_invalid_request">Ofruesi refuzoi kërkesën</string>
+    <string name="server_run_error_overloaded">Modeli është i mbingarkuar</string>
+    <string name="server_run_error_internal">Ofruesi pati një problem</string>
+    <string name="server_run_error_transport">Lidhja me modelin u ndërpre</string>
+    <string name="server_run_error_timeout">Modeli vonoi tepër për t\'u përgjigjur</string>
+    <string name="server_run_error_invalid_output">Përgjigjja e modelit nuk u lexua dot</string>
+    <string name="server_run_error_unavailable">Ky model nuk është i disponueshëm</string>
+    <string name="server_run_error_unsupported_operation">Ky model nuk mund ta bëjë këtë</string>
+    <string name="server_run_error_tool_execution">Një mjet dështoi dhe ekzekutimi u ndal</string>
+    <string name="server_run_error_other">Ekzekutimi u ndal me një gabim</string>
+    <string name="server_run_retry_in_seconds">%1$s · duke u përpjekur përsëri pas %2$d s</string>
+    <string name="server_run_retry_now">%1$s · duke u përpjekur përsëri</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">Nuk u arrit dot serveri OpenCode</string>
+    <string name="server_error_folder_gone">Dosja nuk ekziston më</string>
+    <string name="server_error_uploads_unsupported">Ky server nuk mbështet bashkëngjitjen e skedarëve. Përditëso OpenCode në kompjuter.</string>
+    <string name="server_error_archiving_unsupported">Ky server nuk mbështet arkivimin. Përditëso OpenCode në kompjuterin tënd.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode nuk ka leje të lidhet me pajisjet në rrjetin lokal. Aktivizo Pajisjet në afërsi për OpenCode te Cilësimet, pastaj provo sërish.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Sesion pa titull</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Guaska</string>
+    <string name="server_tool_shell_killed">Guaska u ndal me forcë</string>
+    <string name="server_tool_shell_exit_code">Komanda përfundoi me kodin %1$d</string>
+    <string name="server_notice_session_update">Përditësim i sesionit</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Lidhja dështoi</string>
+    <string name="server_connection_resolved_address_unknown">Adresa e gjetur: e panjohur</string>
+    <string name="server_connection_resolved_address">Adresa e gjetur (kërkim pas dështimit): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">Ky emër tailnet u zgjidh në një adresë jashtë intervalit të Tailscale, ndaj DNS i Tailscale mund të mos jetë në përdorim. Në aplikacionin Tailscale, aktivizo Përdor cilësimet DNS të Tailscale dhe çaktivizo DNS privat ose çdo profil VPN që ndryshon DNS.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Rrjet lokal</string>
+    <string name="server_connection_route_loopback">Lidhje me vetveten</string>
+    <string name="server_connection_route_internet">Internet</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">nuk është adresë uebi</string>
+    <string name="server_pairing_origin_bad_scheme">nuk fillon me http:// ose https://</string>
+    <string name="server_pairing_origin_no_host">nuk ka emër pritësi</string>
+    <string name="server_pairing_origin_credentials">përmban emër përdoruesi ose fjalëkalim</string>
+    <string name="server_pairing_origin_query">përmban parametra kërkimi ose fragment</string>
+    <string name="server_pairing_origin_port">ka një port jashtë intervalit 1–65535</string>
+    <string name="server_pairing_origin_path">përmban një shteg, por serveri duhet të jetë në rrënjën e adresës së tij</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Serveri</string>
+    <string name="server_friendly_name_numbered">Serveri %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">Lidhja u ndërpre pasi u dërgua mesazhi, ndaj ai mund të ketë mbërritur.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Ky integrim nuk ka mënyrë identifikimi.</string>
+    <string name="server_error_sign_in_url_invalid">Adresa e faqes së identifikimit nuk është e vlefshme.</string>
+    <string name="server_error_load_server_details">Nuk u ngarkuan dot detajet e serverit</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">Ky kod çiftimi ka skaduar ose është përdorur tashmë. Ekzekuto sërish `opencode pair --remote`.</string>
+    <string name="server_error_pairing_unsupported">Ky server nuk mbështet lidhje çiftimi. Përditëso OpenCode në kompjuter ose shto serverin manualisht.</string>
+    <string name="server_error_notification_previews_need_https">Pamjet paraprake të enkriptuara të njoftimeve kërkojnë lidhje HTTPS me serverin.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Fut një URL të vlefshme HTTP ose HTTPS të serverit.</string>
+    <string name="server_error_credentials_rejected">Serveri i refuzoi këto të dhëna hyrjeje.</string>
+    <string name="server_error_http_status">Serveri ktheu HTTP %1$d.</string>
+    <string name="server_error_event_stream_http">Rrjedha e ngjarjeve ktheu HTTP %1$d.</string>
+    <string name="server_error_event_stream_oversized_frame">Rrjedha e ngjarjeve dërgoi një kornizë tepër të madhe.</string>
+    <string name="server_error_event_stream_ended">Rrjedha e ngjarjeve përfundoi.</string>
+    <string name="server_error_event_stream_server_failure">Rrjedha e ngjarjeve raportoi një dështim të serverit.</string>
+    <string name="server_tool_failed">Mjeti dështoi</string>
+    <string name="server_error_list_folder">Serveri nuk e listoi dot përmbajtjen e kësaj dosjeje</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Nuk u ngarkuan dot projektet dhe sesionet</string>
+    <string name="server_error_load_session_family">Nuk u ngarkua dot familja e sesionit</string>
+    <string name="server_error_update_session">Nuk u përditësua dot sesioni</string>
+    <string name="server_error_load_session_ancestry">Nuk u ngarkua dot prejardhja e sesionit aktiv</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Ka marrë përgjigje diku tjetër</string>
+    <string name="server_request_already_dismissed">Është hedhur poshtë tashmë</string>
+    <string name="server_request_already_answered">Ka marrë përgjigje tashmë</string>
+    <string name="server_request_already_dismissed_elsewhere">Është hedhur poshtë diku tjetër</string>
+    <string name="server_request_no_longer_waiting">Nuk është më në pritje</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Media nuk është e disponueshme</string>
+    <string name="server_pasted_text_title">Teksti i ngjitur</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d rresht · %2$s</item>
+        <item quantity="other">%1$d rreshta · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d rresht</item>
+        <item quantity="other">%1$d rreshta</item>
+    </plurals>
+    <string name="server_file_size_zero">Zero KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d bajt</item>
+        <item quantity="other">%1$d bajte</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">Projekti</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Skedari</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Plotëso këtë hap</string>
+    <string name="server_form_required">E detyrueshme</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">Fut të paktën %1$d karakter</item>
+        <item quantity="other">Fut të paktën %1$d karaktere</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">Fut jo më shumë se %1$d karakter</item>
+        <item quantity="other">Fut jo më shumë se %1$d karaktere</item>
+    </plurals>
+    <string name="server_form_invalid_format">Format i pavlefshëm</string>
+    <string name="server_form_choose_option">Zgjidh një opsion të disponueshëm</string>
+    <string name="server_form_invalid_email">Fut një adresë emaili të vlefshme</string>
+    <string name="server_form_invalid_url">Fut një URL të vlefshme</string>
+    <string name="server_form_invalid_date">Fut një datë në formatin YYYY-MM-DD</string>
+    <string name="server_form_invalid_date_time">Fut një datë dhe orë të vlefshme</string>
+    <string name="server_form_minimum">Duhet të jetë të paktën %1$s</string>
+    <string name="server_form_maximum">Duhet të jetë jo më shumë se %1$s</string>
+    <string name="server_form_whole_number">Fut një numër të plotë</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">Zgjidh të paktën %1$d</item>
+        <item quantity="other">Zgjidh të paktën %1$d</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">Zgjidh jo më shumë se %1$d</item>
+        <item quantity="other">Zgjidh jo më shumë se %1$d</item>
+    </plurals>
+    <string name="server_form_invalid_value">Vlerë e pavlefshme</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Fshih të zgjedhurat</string>
+    <string name="server_model_visibility_only_show">Trego vetëm të zgjedhurat</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Çaktivizuar</string>
+    <string name="server_model_variant_extra_high">Tepër i lartë</string>
+    <string name="server_model_variant_max">Maksimal</string>
+    <string name="server_delivery_steering">Udhëzim</string>
+    <string name="server_delivery_queued">Në radhë</string>
+</resources>

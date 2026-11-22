@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Nepavyko pridėti bendrinamų elementų</string>
+    <string name="app_alert_open_session_failed_title">Nepavyko atidaryti seanso</string>
+    <string name="app_alert_pairing_failed_title">Nepavyko susieti su serveriu</string>
+    <string name="app_pairing_confirm">Susieti</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Serveriai</string>
+    <string name="app_servers_back_description">Atgal į %1$s</string>
+    <string name="app_server_fallback_name">serveris</string>
+    <string name="app_connection_intro_new">Tęskite programavimo seansus savo įrenginyje (%1$s).</string>
+    <string name="app_connection_intro_returning">Tęskite, kur baigėte, arba susiekite kitą kompiuterį.</string>
+    <string name="app_connection_enter_manually">Įvesti serverį rankiniu būdu</string>
+    <string name="app_connection_scan_pairing_code">Nuskaityti susiejimo kodą</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Kompiuteryje atidarykite OpenCode ir eikite į Nustatymai → Susiejimas arba terminale paleiskite opencode pair --remote. Tada nuskaitykite kodą šiuo įrenginiu (%1$s).</string>
+    <string name="app_setup_install_title">Dar neturite OpenCode?</string>
+    <string name="app_setup_other_ways_to_install">Kiti diegimo būdai</string>
+    <string name="app_setup_terminal_title">Arba paleiskite tai terminale</string>
+    <string name="app_setup_terminal_detail">Veikia bet kuriame tinkle.</string>
+    <string name="app_setup_paste_prompt">Arba nukopijuokite išvestą nuorodą, tada</string>
+    <string name="app_setup_paste">Įklijuoti</string>
+    <string name="app_setup_copy_command_description">Kopijuoti %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Jungiamasi</string>
+    <string name="app_servers_edit_description">Redaguoti %1$s</string>
+    <string name="app_servers_remove_description">Pašalinti %1$s</string>
+    <string name="app_servers_remove_confirm_title">Pašalinti %1$s?</string>
+    <string name="app_servers_remove_confirm_message">Šiame įrenginyje (%1$s) bus pašalinti išsaugoti adresas ir slaptažodis. Seansai serveryje nepasikeis.</string>
+    <string name="app_servers_remove_confirm">Pašalinti serverį</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Etapas: %1$s</string>
+    <string name="app_error_server">Serveris: %1$s</string>
+    <string name="app_error_attempt">Bandymas: %1$d</string>
+    <string name="app_error_copy_report">Kopijuoti klaidos ataskaitą</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Naujas serveris</string>
+    <string name="app_server_form_edit_title">Redaguoti serverį</string>
+    <string name="app_server_form_name">Pavadinimas</string>
+    <string name="app_server_form_address">Serverio adresas</string>
+    <string name="app_server_form_username">Naudotojo vardas</string>
+    <string name="app_server_form_password">Slaptažodis (neprivaloma)</string>
+    <string name="app_server_form_hide_password_description">Slėpti slaptažodį</string>
+    <string name="app_server_form_show_password_description">Rodyti slaptažodį</string>
+    <string name="app_server_form_connect">Prisijunkite</string>
+    <string name="app_server_form_save_and_connect">Išsaugoti ir prisijungti</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Antraštės</string>
+    <string name="app_server_form_header_name">Pavadinimas</string>
+    <string name="app_server_form_header_name_description">Antraštės %1$d pavadinimas</string>
+    <string name="app_server_form_header_value">Reikšmė</string>
+    <string name="app_server_form_header_value_description">Antraštės %1$d reikšmė</string>
+    <string name="app_server_form_header_remove_description">Pašalinti antraštę %1$d</string>
+    <string name="app_server_form_header_add">Pridėti antraštę</string>
+    <string name="app_server_form_headers_detail">Siunčiamos su kiekviena užklausa tarpiniam serveriui, pvz., Cloudflare Access.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">„%1$s“ nėra tinkamas antraštės pavadinimas</string>
+    <string name="app_server_form_header_invalid_value">%1$s reikšmėje negali būti eilutės lūžio</string>
+    <string name="app_server_form_name_placeholder">Neprivaloma</string>
+    <string name="app_connection_progress_pairing">Susiejama</string>
+    <string name="app_connection_progress_connecting">Jungiamasi</string>
+    <string name="app_connection_progress_loading_sessions">Įkeliami seansai</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Susieti su %1$s?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode išbandys %1$s ir prisijungs prie pirmo atsakiusio adreso.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode susisies su %1$s ir prie jo prisijungs.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode išbandys %1$s ir %2$s ir prisijungs prie pirmo atsakiusio adreso.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode išbandys %1$s ir %2$s ir prisijungs prie pirmo atsakiusio adreso.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Gali būti pakeisti išsaugoti %2$s prisijungimo duomenys.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Susiejimas</string>
+    <string name="app_error_phase_connect">Prisijunkite</string>
+    <string name="app_error_phase_load_sessions">Įkelti seansus</string>
+    <string name="app_error_candidate_detail">Variantas %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Nepasiekiamas (netinkamas adresas)</string>
+    <string name="app_error_title_pair">Nepavyko susieti</string>
+    <string name="app_error_title_load_sessions">Nepavyko įkelti seansų</string>
+    <string name="app_error_title_connect">Nepavyko prisijungti prie %1$s</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Mainų sritis tuščia</string>
+    <string name="app_paste_not_a_pairing_link">Tai nėra susiejimo nuoroda</string>
+    <string name="app_server_no_longer_saved">Šis serveris nebėra išsaugotas šiame įrenginyje (%1$s). Norėdami atidaryti seansą, prisijunkite prie jo iš naujo.</string>
+    <string name="app_session_no_longer_available">Seansas galėjo būti ištrintas arba serveris gali būti nepasiekiamas.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Prisijungta prie %1$s</string>
+    <string name="app_pairing_invalid_code">Tai nėra OpenCode susiejimo kodas. Kompiuteryje paleiskite opencode pair --remote, tada nuskaitykite QR kodą arba įklijuokite parodytą nuorodą.</string>
+    <string name="app_pairing_unusable_address">Nepavyko naudoti „%1$s“ iš šio susiejimo kodo: %2$s.</string>
+    <string name="app_pairing_loopback">Šis serveris priima ryšius tik per localhost, todėl šis įrenginys (%1$s) jo nepasiekia. Kompiuteryje paleiskite opencode pair --remote – taip prisijungsite iš bet kurio tinklo.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Serveris, į kurį bendrinote, nebėra išsaugotas šiame įrenginyje. Prisijunkite prie jo iš naujo ir bendrinkite dar kartą.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">paskutinį kartą naudotas</string>
+    <string name="app_server_form_hint_new">Norėdami susieti, įklijuokite `opencode pair --remote` parodytą nuorodą arba įveskite OpenCode serverio adresą ir slaptažodį. Naudotojo vardas paprastai yra opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Pakeitimai išsaugomi prisijungus prie šio serverio. Šis serveris buvo susietas, todėl jo slaptažodis yra seanso prieigos raktas. Užuot jį keitę, nuskaitykite naują susiejimo kodą.</string>
+    <string name="app_server_form_hint_edit">Pakeitimai išsaugomi prisijungus prie šio serverio.</string>
+</resources>

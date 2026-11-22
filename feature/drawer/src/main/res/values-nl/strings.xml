@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Catch Up -->
+    <plurals name="drawer_catch_up_remaining">
+        <item quantity="one">%1$d over</item>
+        <item quantity="other">%1$d over</item>
+    </plurals>
+    <string name="drawer_catch_up_leave_description">Bijlezen verlaten</string>
+    <string name="drawer_catch_up_keep_unread">Ongelezen houden</string>
+    <string name="drawer_catch_up_undo">Ongedaan maken</string>
+    <string name="drawer_catch_up_title">Bijlezen</string>
+    <string name="drawer_catch_up_all_caught_up">Helemaal bij</string>
+    <string name="drawer_catch_up_swipe_mark_read">Markeren als\ngelezen</string>
+    <string name="drawer_catch_up_swipe_keep_unread">Ongelezen\nhouden</string>
+
+    <!-- Drawer container -->
+    <string name="drawer_close_description">Sessielijst sluiten</string>
+
+    <!-- Drawer footer and delete confirmation -->
+    <string name="drawer_delete_session_title">“%1$s” verwijderen?</string>
+    <string name="drawer_delete_session_message">Dit verwijdert de sessie van de server voor alle clients.</string>
+    <string name="drawer_new_session">Nieuwe sessie</string>
+    <string name="drawer_start_voice_call_description">Spraakoproep starten</string>
+
+    <!-- Archived page -->
+    <string name="drawer_archived">Gearchiveerd</string>
+    <string name="drawer_archived_search_placeholder">Zoek in archief</string>
+    <string name="drawer_archived_empty">Geen gearchiveerde sessies</string>
+    <string name="drawer_no_results">Geen resultaten</string>
+
+    <!-- Session row actions -->
+    <string name="drawer_row_selected">Geselecteerd</string>
+    <string name="drawer_row_not_selected">Niet geselecteerd</string>
+    <string name="drawer_row_select_action">Selecteren</string>
+    <string name="drawer_pin">Vastzetten</string>
+    <string name="drawer_unpin">Losmaken</string>
+    <string name="drawer_mark_as_read">Markeren als gelezen</string>
+    <string name="drawer_mark_as_unread">Markeren als ongelezen</string>
+    <string name="drawer_mute">Dempen</string>
+    <string name="drawer_unmute">Dempen opheffen</string>
+    <string name="drawer_hide">Verbergen</string>
+    <string name="drawer_unhide">Zichtbaar maken</string>
+    <string name="drawer_move_up">Omhoog verplaatsen</string>
+    <string name="drawer_move_down">Omlaag verplaatsen</string>
+
+    <!-- Section headers, shortcut rows and list footer -->
+    <string name="drawer_section_pinned">Vastgezet</string>
+    <string name="drawer_section_recents">Recent</string>
+    <plurals name="drawer_catch_up_session_count">
+        <item quantity="one">%1$d sessie</item>
+        <item quantity="other">%1$d sessies</item>
+    </plurals>
+    <string name="drawer_catch_up_open_action">Veeg door ongelezen en wachtende sessies</string>
+    <string name="drawer_mark_all_read">Alles markeren als gelezen</string>
+    <string name="drawer_whats_new">Wat is er nieuw</string>
+    <string name="drawer_whats_new_hide">Verbergen</string>
+    <string name="drawer_empty_title">Geen sessies</string>
+    <string name="drawer_empty_message">Begin met Nieuwe sessie.</string>
+    <string name="drawer_search_no_results_title">Geen resultaten voor “%1$s”</string>
+    <string name="drawer_search_no_results_message">Controleer de spelling of probeer een andere zoekopdracht.</string>
+    <string name="drawer_load_more_description">Meer sessies laden</string>
+    <string name="drawer_load_more_failed">Meer sessies laden mislukt</string>
+
+    <!-- Selection bar -->
+    <string name="drawer_selection_cancel_description">Selectie annuleren</string>
+    <plurals name="drawer_selection_count">
+        <item quantity="one">%1$d geselecteerd</item>
+        <item quantity="other">%1$d geselecteerd</item>
+    </plurals>
+    <string name="drawer_selection_more_options_description">Meer opties</string>
+    <plurals name="drawer_delete_sessions_title">
+        <item quantity="one">%1$d sessie verwijderen?</item>
+        <item quantity="other">%1$d sessies verwijderen?</item>
+    </plurals>
+    <string name="drawer_delete_sessions_message">Dit verwijdert ze van de server voor alle clients.</string>
+
+    <!-- Inbox Sidebar -->
+    <string name="drawer_inbox_needs_input">Je invoer is nodig</string>
+    <string name="drawer_inbox_working">Bezig</string>
+    <string name="drawer_inbox_unread">Ongelezen</string>
+
+    <!-- Drawer button -->
+    <string name="drawer_button_open_sessions_description">Sessies openen</string>
+    <string name="drawer_button_attention_state">Een sessie heeft je invoer nodig</string>
+    <string name="drawer_button_unread_state">Ongelezen sessies</string>
+    <string name="drawer_notice_open_sessions_action">Sessies openen</string>
+    <string name="drawer_notice_open_session_action">Sessie openen</string>
+
+    <!-- Search pill -->
+    <string name="drawer_search_description">Zoek sessies</string>
+    <string name="drawer_search_cancel_description">Zoeken annuleren</string>
+
+    <!-- Pin drop zone -->
+    <string name="drawer_drop_to_pin">Loslaten om vast te zetten</string>
+
+    <!-- Server title -->
+    <string name="drawer_server_connecting_state">Verbinding maken</string>
+    <string name="drawer_server_edit">Server bewerken…</string>
+    <string name="drawer_server_manage">Servers beheren…</string>
+    <string name="drawer_server_reconnecting_state">Opnieuw verbinden</string>
+    <string name="drawer_server_sign_in_failed">Aanmelden mislukt</string>
+    <string name="drawer_server_offline">Offline</string>
+    <string name="drawer_server_connecting_to_state">Verbinding maken met %1$s</string>
+    <string name="drawer_server_show_servers_hint">Je servers tonen</string>
+    <string name="drawer_server_offer_edit_hint">Aanbieden om de server te bewerken</string>
+    <string name="drawer_server_offer_try_again_hint">Aanbieden om het opnieuw te proberen</string>
+
+    <!-- Server flow: switch-back note and server menu status -->
+    <string name="drawer_server_switched_back_title">Teruggeschakeld naar %1$s</string>
+    <string name="drawer_server_timed_out_detail">%1$s reageerde niet binnen %2$s s</string>
+    <string name="drawer_server_unreachable_detail">Verbinden met %1$s mislukt</string>
+    <string name="drawer_server_sign_in_failed_detail">Aanmelden bij %1$s mislukt</string>
+    <string name="drawer_server_pair_again">Opnieuw koppelen</string>
+    <string name="drawer_server_menu_connected">Verbonden</string>
+    <string name="drawer_server_menu_connecting">Verbinding maken…</string>
+    <string name="drawer_server_menu_unreachable">Onbereikbaar</string>
+
+    <!-- Row selection menu -->
+    <string name="drawer_archive">Archiveren</string>
+    <string name="drawer_unarchive">Uit archief halen</string>
+    <string name="drawer_open_in_new_window">Openen in nieuw venster</string>
+
+    <!-- Session row state for TalkBack -->
+    <string name="drawer_row_pinned_state">Vastgezet</string>
+    <string name="drawer_row_muted_state">Gedempt</string>
+    <string name="drawer_row_hidden_state">Verborgen</string>
+    <string name="drawer_row_needs_input_state">Je invoer is nodig</string>
+    <string name="drawer_row_working_state">Bezig</string>
+    <string name="drawer_row_unread_state">Ongelezen</string>
+    <string name="drawer_row_unsent_failed_state">Verzenden mislukt</string>
+    <string name="drawer_row_unsent_sending_state">Verzenden</string>
+
+    <!-- Errors -->
+    <string name="drawer_notifications_request_error">Toestemming vragen mislukt. Probeer het opnieuw.</string>
+    <string name="drawer_notifications_open_settings_error">Instellingen openen mislukt. Open de Android-instellingen en kies Meldingen → OpenCode.</string>
+    <string name="drawer_delete_session_error">“%1$s” verwijderen mislukt</string>
+    <plurals name="drawer_delete_sessions_error">
+        <item quantity="one">%1$d sessie verwijderen mislukt</item>
+        <item quantity="other">%1$d sessies verwijderen mislukt</item>
+    </plurals>
+    <string name="drawer_archive_error">“%1$s” archiveren mislukt</string>
+    <plurals name="drawer_archive_sessions_error">
+        <item quantity="one">%1$d sessie archiveren mislukt</item>
+        <item quantity="other">%1$d sessies archiveren mislukt</item>
+    </plurals>
+    <string name="drawer_unarchive_error">“%1$s” uit het archief halen mislukt</string>
+    <plurals name="drawer_unarchive_sessions_error">
+        <item quantity="one">%1$d sessie uit het archief halen mislukt</item>
+        <item quantity="other">%1$d sessies uit het archief halen mislukt</item>
+    </plurals>
+
+    <!-- Session activity notification -->
+    <string name="drawer_session_activity_new_session">Nieuwe sessie</string>
+
+    <!-- Inbox ages and row dates -->
+    <string name="drawer_age_now">nu</string>
+    <plurals name="drawer_age_minutes">
+        <item quantity="one">%1$dm</item>
+        <item quantity="other">%1$dm</item>
+    </plurals>
+    <plurals name="drawer_age_hours">
+        <item quantity="one">%1$du</item>
+        <item quantity="other">%1$du</item>
+    </plurals>
+    <plurals name="drawer_age_days">
+        <item quantity="one">%1$dd</item>
+        <item quantity="other">%1$dd</item>
+    </plurals>
+    <string name="drawer_date_yesterday">Gisteren</string>
+
+    <!-- Appearance settings transcript preview -->
+    <string name="drawer_appearance_preview_user_text">Help me het sessiescherm te verbeteren. Laat zien wat je vindt en leg de wijzigingen uit.</string>
+    <string name="drawer_appearance_preview_assistant_text">Ik heb het indelingsprobleem gevonden in `SessionView.swift`. De transcriptie en berichtinvoer delen de beschikbare hoogte, dus het toetsenbord is een goede stresstest.</string>
+</resources>

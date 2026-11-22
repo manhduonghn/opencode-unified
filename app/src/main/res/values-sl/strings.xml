@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Deljenih elementov ni bilo mogoče dodati</string>
+    <string name="app_alert_open_session_failed_title">Seje ni bilo mogoče odpreti</string>
+    <string name="app_alert_pairing_failed_title">Seznanjanje s strežnikom ni uspelo</string>
+    <string name="app_pairing_confirm">Seznani</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Strežniki</string>
+    <string name="app_servers_back_description">Nazaj na %1$s</string>
+    <string name="app_server_fallback_name">strežnik</string>
+    <string name="app_connection_intro_new">Nadaljujte seje programiranja kar prek naprave %1$s.</string>
+    <string name="app_connection_intro_returning">Nadaljujte, kjer ste ostali, ali seznanite drug računalnik.</string>
+    <string name="app_connection_enter_manually">Ročno vnesi strežnik</string>
+    <string name="app_connection_scan_pairing_code">Skeniraj kodo za seznanjanje</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">V računalniku odprite OpenCode in pojdite v Nastavitve → Seznanjanje ali v terminalu zaženite opencode pair --remote. Nato skenirajte kodo s to napravo: %1$s.</string>
+    <string name="app_setup_install_title">Še nimate OpenCode?</string>
+    <string name="app_setup_other_ways_to_install">Drugi načini namestitve</string>
+    <string name="app_setup_terminal_title">Ali v terminalu zaženite to</string>
+    <string name="app_setup_terminal_detail">Deluje v katerem koli omrežju.</string>
+    <string name="app_setup_paste_prompt">Ali kopirajte izpisano povezavo in nato</string>
+    <string name="app_setup_paste">Prilepi</string>
+    <string name="app_setup_copy_command_description">Kopiraj %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Povezovanje</string>
+    <string name="app_servers_edit_description">Uredi %1$s</string>
+    <string name="app_servers_remove_description">Odstrani %1$s</string>
+    <string name="app_servers_remove_confirm_title">Odstranim %1$s?</string>
+    <string name="app_servers_remove_confirm_message">S tem se iz naprave %1$s odstranita naslov in geslo. Seje na strežniku ostanejo nespremenjene.</string>
+    <string name="app_servers_remove_confirm">Odstrani strežnik</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Faza: %1$s</string>
+    <string name="app_error_server">Strežnik: %1$s</string>
+    <string name="app_error_attempt">Poskus: %1$d</string>
+    <string name="app_error_copy_report">Kopiraj poročilo o napaki</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Nov strežnik</string>
+    <string name="app_server_form_edit_title">Uredi strežnik</string>
+    <string name="app_server_form_name">Ime</string>
+    <string name="app_server_form_address">Naslov strežnika</string>
+    <string name="app_server_form_username">Uporabniško ime</string>
+    <string name="app_server_form_password">Geslo (neobvezno)</string>
+    <string name="app_server_form_hide_password_description">Skrij geslo</string>
+    <string name="app_server_form_show_password_description">Pokaži geslo</string>
+    <string name="app_server_form_connect">Poveži</string>
+    <string name="app_server_form_save_and_connect">Shrani in poveži</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Glave</string>
+    <string name="app_server_form_header_name">Ime</string>
+    <string name="app_server_form_header_name_description">Ime glave %1$d</string>
+    <string name="app_server_form_header_value">Vrednost</string>
+    <string name="app_server_form_header_value_description">Vrednost glave %1$d</string>
+    <string name="app_server_form_header_remove_description">Odstrani glavo %1$d</string>
+    <string name="app_server_form_header_add">Dodaj glavo</string>
+    <string name="app_server_form_headers_detail">Pošljejo se z vsako zahtevo za posredniški strežnik, kot je Cloudflare Access, pred vašim strežnikom.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">»%1$s« ni veljavno ime glave</string>
+    <string name="app_server_form_header_invalid_value">Vrednost glave %1$s ne sme vsebovati preloma vrstice</string>
+    <string name="app_server_form_name_placeholder">Neobvezno</string>
+    <string name="app_connection_progress_pairing">Seznanjanje</string>
+    <string name="app_connection_progress_connecting">Povezovanje</string>
+    <string name="app_connection_progress_loading_sessions">Nalaganje sej</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Seznanim s strežnikom %1$s?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode bo poskusil naslov %1$s in preklopil na prvi naslov, ki se odzove.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode se bo seznanil s strežnikom %1$s in preklopil nanj.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode bo poskusil naslova %1$s in %2$s ter preklopil na prvega, ki se odzove.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode bo poskusil naslove %1$s in %2$s ter preklopil na prvega, ki se odzove.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Shranjeni prijavni podatki za %2$s bodo morda zamenjani.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Seznanjanje</string>
+    <string name="app_error_phase_connect">Poveži</string>
+    <string name="app_error_phase_load_sessions">Naloži seje</string>
+    <string name="app_error_candidate_detail">Kandidat %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Ni na voljo (neveljaven naslov)</string>
+    <string name="app_error_title_pair">Seznanjanje ni uspelo</string>
+    <string name="app_error_title_load_sessions">Sej ni bilo mogoče naložiti</string>
+    <string name="app_error_title_connect">Povezava s strežnikom %1$s ni uspela</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Odložišče je prazno</string>
+    <string name="app_paste_not_a_pairing_link">To ni povezava za seznanjanje</string>
+    <string name="app_server_no_longer_saved">Ta strežnik ni več shranjen v napravi %1$s. Za odpiranje seje se znova povežite z njim.</string>
+    <string name="app_session_no_longer_available">Morda je bila izbrisana ali pa strežnik ni na voljo.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Povezava s strežnikom %1$s je vzpostavljena</string>
+    <string name="app_pairing_invalid_code">To ni koda za seznanjanje OpenCode. V računalniku zaženite opencode pair --remote, nato skenirajte prikazano QR kodo ali prilepite izpisano povezavo.</string>
+    <string name="app_pairing_unusable_address">Naslova »%1$s« iz te kode za seznanjanje ni mogoče uporabiti, ker %2$s.</string>
+    <string name="app_pairing_loopback">Ta strežnik posluša le na lokalnem gostitelju, zato naprava %1$s ne more dostopati do njega. V računalniku raje zaženite opencode pair --remote, ki deluje iz katerega koli omrežja.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Strežnik, v katerega ste delili vsebino, ni več shranjen v tej napravi. Znova se povežite z njim in ponovite deljenje.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">nazadnje uporabljen</string>
+    <string name="app_server_form_hint_new">Za seznanjanje prilepite povezavo, ki jo izpiše `opencode pair --remote`, ali uporabite naslov in geslo strežnika OpenCode. Uporabniško ime je običajno opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Spremembe se shranijo, ko se vzpostavi povezava s tem strežnikom. Strežnik je bil seznanjen, zato je njegovo geslo žeton seje; namesto spreminjanja gesla skenirajte novo kodo za seznanjanje.</string>
+    <string name="app_server_form_hint_edit">Spremembe se shranijo, ko se vzpostavi povezava s tem strežnikom.</string>
+</resources>

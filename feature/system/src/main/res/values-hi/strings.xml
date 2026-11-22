@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_new_session">नया सेशन</string>
+    <string name="system_start_call">कॉल शुरू करें</string>
+    <string name="system_open_session">सेशन खोलें</string>
+    <string name="widget_start_call_description">आपके चुने हुए या पिछली बार देखे गए सेशन में वॉइस कॉल शुरू करता है।</string>
+    <string name="widget_open_session_description">आपका चुना हुआ सेशन खोलता है।</string>
+    <string name="widget_new_session_description">नया OpenCode सेशन खोलता है।</string>
+
+    <!-- Shared across screens -->
+    <string name="system_selected_description">चुना हुआ</string>
+    <string name="system_last_viewed_session">पिछली बार देखा गया सेशन</string>
+
+    <!-- Quick actions (launcher shortcuts) -->
+    <string name="system_quick_action_session_fallback">सेशन</string>
+    <!-- Long label: the session's title, then its project. -->
+    <string name="system_quick_action_long_label">%1$s · %2$s</string>
+
+    <!-- Shortcuts and Ask OpenCode -->
+    <string name="system_session_type_name">सेशन</string>
+    <string name="system_project_type_name">प्रोजेक्ट</string>
+    <string name="system_intent_open_session_description">OpenCode में सेशन खोलता है।</string>
+    <string name="system_intent_new_session_description">OpenCode में नया सेशन शुरू करता है।</string>
+    <string name="system_intent_start_voice_call_title">वॉइस कॉल शुरू करें</string>
+    <string name="system_intent_start_voice_call_description">किसी सेशन में OpenCode के साथ वॉइस कॉल शुरू करता है। सेशन न चुनने पर कॉल पिछली बार देखे गए सेशन में शुरू होती है।</string>
+    <string name="system_intent_background_call_title">बैकग्राउंड में वॉइस कॉल शुरू करें</string>
+    <string name="system_intent_background_call_description">ऐप खोले बिना OpenCode के साथ वॉइस कॉल शुरू करता है। कॉल स्टेटस बार और लॉक स्क्रीन पर दिखती है।</string>
+    <string name="system_delivery_type_name">भेजने का तरीका</string>
+    <string name="system_delivery_steer">दिशा दें</string>
+    <string name="system_delivery_queue">कतार में रखें</string>
+    <string name="system_ask_title">OpenCode से पूछें</string>
+    <string name="system_ask_description">ऐप खोले बिना OpenCode सेशन में संदेश भेजता है।</string>
+    <string name="system_ask_message_title">संदेश</string>
+    <string name="system_ask_message_placeholder">OpenCode को क्या करना चाहिए?</string>
+    <string name="system_ask_session_title">सेशन</string>
+    <string name="system_ask_started_new_session">%1$s में नया सेशन शुरू किया</string>
+    <string name="system_ask_queued_for">“%1$s” के लिए कतार में रखा</string>
+    <string name="system_ask_sent_to">“%1$s” को भेजा</string>
+    <string name="system_ask_your_session">आपका सेशन</string>
+    <string name="system_ask_no_server">पहले OpenCode खोलें और सर्वर से कनेक्ट करें।</string>
+    <string name="system_ask_no_project">पहले OpenCode खोलें और सेशन शुरू करें।</string>
+    <string name="system_ask_empty_message">भेजने के लिए कुछ नहीं है।</string>
+    <!-- The server's error message follows. -->
+    <string name="system_ask_send_failed">OpenCode को भेज नहीं सके। %1$s</string>
+
+    <!-- Live Updates: voice call -->
+    <string name="system_call_muted">म्यूट</string>
+    <string name="system_call_unmute">म्यूट हटाएँ</string>
+    <string name="system_call_mute">म्यूट करें</string>
+    <string name="system_call_end">कॉल खत्म करें</string>
+    <string name="system_call_connecting">कनेक्ट हो रहा है…</string>
+    <string name="system_call_reconnecting">फिर से कनेक्ट हो रहा है…</string>
+    <string name="system_call_ended">कॉल खत्म हुई</string>
+    <string name="system_call_end_title">कॉल खत्म करें</string>
+    <string name="system_call_toggle_mute_title">कॉल म्यूट करें या म्यूट हटाएँ</string>
+
+    <!-- Live Updates: hands-free recording -->
+    <string name="system_recording_active">रिकॉर्डिंग</string>
+    <string name="system_recording_stopped">रिकॉर्डिंग रुक गई</string>
+    <string name="system_recording_stop">रिकॉर्डिंग रोकें</string>
+    <string name="system_recording_stop_title">रिकॉर्डिंग रोकें</string>
+    <string name="system_recording_new_session">नया सेशन</string>
+
+    <!-- Live Updates: session run -->
+    <string name="system_session_working">कार्य जारी है</string>
+    <string name="system_session_last_seen_working">पिछली बार कार्य जारी था</string>
+    <!-- Where the run is (Working), then its current step (a tool name, Thinking or Replying). -->
+    <string name="system_session_status_with_step">%1$s · %2$s</string>
+    <string name="system_session_step_thinking">सोच रहा है</string>
+    <string name="system_session_step_replying">जवाब दे रहा है</string>
+    <string name="system_session_needs_input">आपका इनपुट चाहिए</string>
+    <string name="system_session_input">इनपुट</string>
+    <string name="system_session_done">हो गया</string>
+    <string name="system_session_failed">असफल</string>
+
+    <!-- Session notifications -->
+    <string name="system_notification_placeholder_body">नई गतिविधि</string>
+
+    <!-- Notification channels -->
+    <string name="system_channel_voice_calls">वॉइस कॉल</string>
+    <string name="system_channel_recording">रिकॉर्डिंग</string>
+    <string name="system_channel_session_runs">सेशन का संचालन</string>
+    <string name="system_channel_session_updates">सेशन अपडेट</string>
+    <string name="system_channel_shared_items">शेयर किए गए आइटम</string>
+
+    <!-- Share sheet: notifications -->
+    <string name="system_share_continue_notification_body">OpenCode में जारी रखने के लिए टैप करें</string>
+
+    <!-- Share sheet -->
+    <string name="system_share_your_server">आपका सर्वर</string>
+    <string name="system_share_new_session_in_project">नया सेशन · %1$s</string>
+    <string name="system_share_save_failed_message">फिर से कोशिश करें। अगर ऐसा बार-बार हो, तो इस डिवाइस में कुछ जगह खाली करें।</string>
+    <!-- The session's title, then its project. -->
+    <string name="system_share_session_chip_description">%1$s, %2$s</string>
+    <string name="system_share_problem_unreachable">%1$s से संपर्क नहीं हो सका</string>
+    <string name="system_share_problem_too_large">यहाँ से इतनी बड़ी फ़ाइलें नहीं भेज सके</string>
+    <string name="system_share_problem_uploads_unsupported">%1$s पर फ़ाइलें अपलोड नहीं हो सकीं</string>
+    <string name="system_share_problem_sign_in">%1$s में साइन इन नहीं हो सका</string>
+    <string name="system_share_problem_send">%1$s को नहीं भेज सके</string>
+    <string name="system_share_problem_no_credentials">यहाँ से भेजने के लिए OpenCode एक बार खोलें</string>
+    <plurals name="system_share_image_count">
+        <item quantity="one">%d छवि</item>
+        <item quantity="other">%d छवियाँ</item>
+    </plurals>
+    <plurals name="system_share_file_count">
+        <item quantity="one">%d फ़ाइल</item>
+        <item quantity="other">%d फ़ाइलें</item>
+    </plurals>
+    <plurals name="system_share_images_skipped">
+        <item quantity="one">%d छवि नहीं जोड़ी जा सकी</item>
+        <item quantity="other">%d छवियाँ नहीं जोड़ी जा सकीं</item>
+    </plurals>
+    <plurals name="system_share_files_skipped">
+        <item quantity="one">%d फ़ाइल नहीं जोड़ी जा सकी</item>
+        <item quantity="other">%d फ़ाइलें नहीं जोड़ी जा सकीं</item>
+    </plurals>
+    <string name="system_share_save_failed_title">OpenCode के लिए सहेज नहीं सके</string>
+    <string name="system_share_continue_description">OpenCode में जारी रखें</string>
+    <string name="system_share_no_server_title">पहले सर्वर से कनेक्ट करें</string>
+    <string name="system_share_no_server_message">OpenCode खोलकर अपने कंप्यूटर से कनेक्ट करें, फिर दोबारा शेयर करें।</string>
+    <string name="system_share_send_later">बाद में भेजें</string>
+    <string name="system_share_saved_continue">सहेज लिया। जारी रखने के लिए OpenCode खोलें</string>
+    <string name="system_share_loading_description">शेयर किए गए आइटम लोड हो रहे हैं</string>
+    <string name="system_share_image_description">छवि</string>
+    <string name="system_share_image_position_description">%2$d में से छवि %1$d</string>
+    <string name="system_share_search_sessions_description">सेशन खोजें</string>
+    <string name="system_share_new_session_in_project_description">%1$s में नया सेशन</string>
+    <string name="system_share_choose_project_description">इसका प्रोजेक्ट चुनें</string>
+    <string name="system_share_message_placeholder">संदेश</string>
+    <string name="system_share_sent_to">%1$s को भेजा</string>
+    <string name="system_share_sending_description">भेजा जा रहा है</string>
+    <string name="system_share_sent_description">भेज दिया</string>
+    <string name="system_share_sessions_title">सेशन</string>
+    <string name="system_share_pinned_header">पिन किए गए</string>
+    <string name="system_share_recents_header">हाल के</string>
+
+    <!-- Widget configuration -->
+    <string name="system_widget_choose_session_title">सेशन चुनें</string>
+</resources>

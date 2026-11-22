@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">Slika</string>
+    <string name="media_image_load_failed">Nije moguće učitati sliku</string>
+    <string name="media_unavailable">Medijski sadržaj nije dostupan</string>
+    <string name="media_try_again_label">Pokušaj ponovno</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">Preglednik medija</string>
+    <string name="media_viewer_save_to_photos_description">Spremi u fotografije</string>
+    <string name="media_file_viewer_screen_title">Preglednik datoteka</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d od %3$d</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">Crtaj po slici</string>
+    <string name="media_drawing_undo_description">Poništi</string>
+    <string name="media_drawing_add_to_prompt_description">Dodaj u upit</string>
+    <string name="media_drawing_canvas_description">Platno za crtanje</string>
+    <string name="media_drawing_discard_title">Odbaciti crtež?</string>
+    <string name="media_drawing_discard_confirm">Odbaci crtež</string>
+    <string name="media_drawing_keep">Nastavi crtati</string>
+    <string name="media_drawing_add_failed_title">Nije moguće dodati crtež</string>
+    <string name="media_drawing_flatten_failed">Nije moguće izraditi sliku. Pokušaj ponovno.</string>
+    <string name="media_drawing_prompt_unavailable">Poruka ove sesije trenutačno ne može primiti privitke.</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">Bijela</string>
+    <string name="media_drawing_ink_black">Crna</string>
+    <string name="media_drawing_ink_red">Crvena</string>
+    <string name="media_drawing_ink_yellow">Žuta</string>
+    <string name="media_drawing_ink_green">Zelena</string>
+    <string name="media_drawing_ink_blue">Plava</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">Uvećano</string>
+    <string name="media_zoom_out_label">Umanji</string>
+    <string name="media_zoom_in_label">Uvećaj</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">Pauziraj</string>
+    <string name="media_player_play">Reproduciraj</string>
+    <string name="media_player_position_description">Položaj reprodukcije</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">Nije moguće reproducirati videozapis</string>
+    <string name="media_video_position_description">Položaj videozapisa</string>
+    <string name="media_video_capture_failed_title">Nije moguće snimiti kadar</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">Prikaži pregled</string>
+    <string name="media_file_show_source_description">Prikaži izvor</string>
+    <string name="media_file_unwrap_lines_description">Ne prelamaj retke</string>
+    <string name="media_file_wrap_lines_description">Prelomi retke</string>
+    <string name="media_file_start_pip_description">Pokreni sliku u slici</string>
+    <string name="media_file_opening">Otvaranje…</string>
+    <string name="media_file_share_failed_title">Nije moguće podijeliti datoteku</string>
+    <string name="media_file_share_downloading_description">Preuzimanje za dijeljenje</string>
+    <string name="media_file_confirm_large_message">Veličina datoteke je %1$s. Preuzeti je za pregled na ovom uređaju?</string>
+    <string name="media_file_download">Preuzmi</string>
+    <string name="media_file_open_in_another_app">Otvori u drugoj aplikaciji</string>
+    <string name="media_file_no_app_message">Nijedna aplikacija na ovom uređaju ne može otvoriti ovu datoteku. Podijelite je da biste je spremili ili poslali drugdje.</string>
+    <string name="media_file_pdf_page_description">Stranica %1$d od %2$d</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">Datoteka nije pronađena</string>
+    <string name="media_file_error_open_failed_title">Nije moguće otvoriti datoteku</string>
+    <string name="media_file_error_unreadable">Nije moguće čitati s ove putanje na poslužitelju.</string>
+    <string name="media_file_error_not_found">Možda je premještena ili izbrisana.</string>
+    <string name="media_file_error_unauthorized">Poslužitelj nije prihvatio lozinku ovog uređaja.</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">Poslužitelj je nije mogao pročitati (HTTP %1$d). Možda je riječ o mapi.</string>
+    <string name="media_file_error_timed_out">Isteklo je vrijeme za zahtjev.</string>
+    <string name="media_file_error_unexpected_response">Poslužitelj je poslao neočekivan odgovor.</string>
+    <string name="media_file_error_over_limit">Datoteka premašuje ograničenje veličine za preuzimanje.</string>
+    <string name="media_file_error_size_unknown">Poslužitelj nije naveo veličinu privitka.</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">Preuzimanje…</string>
+    <string name="media_file_downloading_size">Preuzimanje %1$s</string>
+    <string name="media_file_downloading_progress">Preuzimanje %1$s od %2$s</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">Nula KB</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="one">%1$d bajt</item>
+        <item quantity="few">%1$d bajta</item>
+        <item quantity="other">%1$d bajtova</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s KB</string>
+    <string name="media_file_size_megabytes">%1$s MB</string>
+    <string name="media_file_size_gigabytes">%1$s GB</string>
+    <string name="media_file_size_terabytes">%1$s TB</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">Nije pronađeno</string>
+    <string name="media_image_load_label">Učitaj sliku</string>
+    <string name="media_image_loading_state">Učitavanje</string>
+    <string name="media_image_open_label">Otvori sliku</string>
+    <string name="media_image_tap_to_load">Dodirni za učitavanje</string>
+    <string name="media_image_outside_project_value">Izvan projekta</string>
+    <string name="media_image_deferred_low_data_value">Odgođeno radi uštede podataka</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">Otvori %1$s</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">Nazad na sesiju</string>
+    <string name="media_browser_ask_description">Pitaj o ovoj stranici</string>
+    <string name="media_browser_forward_description">Naprijed</string>
+    <string name="media_browser_open_in_browser_description">Otvori u pregledniku</string>
+    <string name="media_browser_scroll_to_top_label">Pomakni se na vrh stranice</string>
+    <string name="media_browser_ask_placeholder">Pitaj o ovoj stranici</string>
+    <string name="media_browser_reply_needs_input">Potreban je vaš unos</string>
+    <string name="media_browser_reply_working">U tijeku</string>
+    <string name="media_browser_go_back_to_session_label">Nazad na sesiju</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">Odgovor spreman</string>
+    <string name="media_browser_reply_back_to_read">· Vrati se i pročitaj</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">Sesija</string>
+    <string name="media_link_open_in_app_browser">Otvori u pregledniku aplikacije</string>
+    <string name="media_link_open_in_browser">Otvori u pregledniku</string>
+    <string name="media_link_open_in_app">Otvori u aplikaciji</string>
+    <string name="media_link_copy">Kopiraj vezu</string>
+    <string name="media_link_share">Podijeli…</string>
+    <string name="media_link_open_session">Otvori sesiju</string>
+    <string name="media_link_copy_session_id">Kopiraj ID</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">Kopiraj ID za %1$s</string>
+    <string name="media_link_open_session_named_description">Otvori sesiju %1$s</string>
+    <string name="media_link_open_host_in_app_browser_description">Otvori %1$s u pregledniku aplikacije</string>
+    <string name="media_link_open_host_in_browser_description">Otvori %1$s u pregledniku</string>
+    <string name="media_link_open_host_in_app_description">Otvori %1$s u aplikaciji</string>
+    <string name="media_link_copy_host_description">Kopiraj vezu na %1$s</string>
+    <string name="media_link_share_host_description">Podijeli vezu na %1$s</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%1$s na %2$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s, veza %2$d</string>
+    <string name="media_link_more_links_description">Više veza</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">Video</string>
+    <string name="media_link_preview_post">Objava</string>
+    <string name="media_link_preview_post_unavailable">Objava nije dostupna</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">Spremište</string>
+    <string name="media_github_kind_issue">Problem</string>
+    <string name="media_github_kind_pull_request">Zahtjev za spajanje</string>
+    <string name="media_github_kind_commit">Potvrda izmjena</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">Otvoreno</string>
+    <string name="media_github_state_closed">Zatvoreno</string>
+    <string name="media_github_state_merged">Spojeno</string>
+    <string name="media_github_state_draft">Skica</string>
+    <string name="media_github_state_completed">Dovršeno</string>
+    <string name="media_github_state_not_planned">Nije planirano</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">Dijagram, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">Preglednik dijagrama</string>
+    <string name="media_mermaid_diagram_description">Dijagram</string>
+    <string name="media_mermaid_loading_state">%1$s, učitavanje</string>
+    <string name="media_mermaid_view_source">Prikaži izvor</string>
+    <string name="media_mermaid_source_title">Izvor dijagrama</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">Dijagram toka</string>
+    <string name="media_mermaid_type_sequence">Dijagram slijeda</string>
+    <string name="media_mermaid_type_class">Dijagram klasa</string>
+    <string name="media_mermaid_type_state">Dijagram stanja</string>
+    <string name="media_mermaid_type_entity_relationship">Dijagram entiteta i veza</string>
+    <string name="media_mermaid_type_user_journey">Korisničko putovanje</string>
+    <string name="media_mermaid_type_gantt">Ganttov dijagram</string>
+    <string name="media_mermaid_type_pie">Tortni grafikon</string>
+    <string name="media_mermaid_type_quadrant">Kvadrantni grafikon</string>
+    <string name="media_mermaid_type_requirement">Dijagram zahtjeva</string>
+    <string name="media_mermaid_type_git_graph">Git graf</string>
+    <string name="media_mermaid_type_c4">C4 dijagram</string>
+    <string name="media_mermaid_type_mind_map">Mentalna mapa</string>
+    <string name="media_mermaid_type_timeline">Vremenska linija</string>
+    <string name="media_mermaid_type_sankey">Sankeyjev dijagram</string>
+    <string name="media_mermaid_type_xy_chart">XY grafikon</string>
+    <string name="media_mermaid_type_block">Blokovski dijagram</string>
+    <string name="media_mermaid_type_packet">Dijagram paketa</string>
+    <string name="media_mermaid_type_kanban">Kanban ploča</string>
+    <string name="media_mermaid_type_architecture">Dijagram arhitekture</string>
+    <string name="media_mermaid_type_radar">Radarski grafikon</string>
+    <string name="media_mermaid_type_treemap">Karta stabla</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Call ended and failure cards -->
+    <string name="voice_call_ended_title">Samtalen er avsluttet</string>
+    <string name="voice_call_ended_rejoin">Bli med igjen</string>
+    <string name="voice_failure_title">Kunne ikke koble til tale</string>
+    <string name="voice_failure_check_api_key">Sjekk API-nøkkel</string>
+    <string name="voice_failure_start_title">Kunne ikke starte samtalen</string>
+
+    <!-- Floating call -->
+    <string name="voice_floating_expand">Utvid</string>
+    <string name="voice_floating_orb_description">Talesamtale</string>
+    <string name="voice_floating_orb_show_controls">Vis samtalekontroller</string>
+    <string name="voice_floating_end_description">Avslutt talesamtale</string>
+    <string name="voice_floating_control_placeholder_state">Ikke tilgjengelig i denne prototypen</string>
+    <string name="voice_floating_duration_description">Samtalevarighet</string>
+
+    <!-- Floating call stage -->
+    <string name="voice_stage_talking_in">Snakker i</string>
+    <string name="voice_stage_minimize_description">Minimer</string>
+    <string name="voice_mute">Demp</string>
+    <string name="voice_unmute">Opphev demping</string>
+    <string name="voice_stage_pause">Pause</string>
+    <string name="voice_stage_camera">Kamera</string>
+    <string name="voice_transcript_empty">Si noe til sesjonen din.</string>
+    <string name="voice_transcript_you">Du</string>
+    <string name="voice_transcript_user_line_description">Du: %1$s</string>
+
+    <!-- Call rows: screen request -->
+    <string name="voice_screen_request_detail">Stemmen vil se skjermen din</string>
+    <string name="voice_screen_request_spoken">Trenger svar fra deg. Stemmen vil se skjermen din</string>
+    <string name="voice_screen_request_spoken_with_reason">Trenger svar fra deg. Stemmen vil se skjermen din. %1$s</string>
+    <string name="voice_screen_request_title">Dele skjermen?</string>
+
+    <!-- Call rows: open link -->
+    <string name="voice_open_link_spoken">Trenger svar fra deg. %1$s</string>
+    <string name="voice_open_link_spoken_with_host">Trenger svar fra deg. %1$s %2$s</string>
+    <string name="voice_open_link_open">Åpne</string>
+
+    <!-- Call rows: audio on the call -->
+    <string name="voice_audio_paused">Satt på pause</string>
+    <string name="voice_audio_playing">Spilles av i samtalen</string>
+    <string name="voice_audio_play">Spill av lyd</string>
+    <string name="voice_audio_pause">Sett lyd på pause</string>
+    <string name="voice_audio_stop">Stopp lyd</string>
+
+    <!-- Call history -->
+    <string name="voice_call_history_title">Samtalehistorikk</string>
+    <string name="voice_call_history_options_description">Alternativer for historikk</string>
+    <string name="voice_call_history_delete_all">Slett alle</string>
+    <string name="voice_call_history_empty_title">Ingen talesamtaler ennå</string>
+    <string name="voice_call_history_empty_message">Samtaler lagres på denne telefonen, så du kan spille dem av igjen.</string>
+    <string name="voice_call_history_delete_all_confirm_title">Slette alle talesamtaler?</string>
+
+    <!-- Call replay -->
+    <string name="voice_replay_timeline_description">Samtalens tidslinje</string>
+    <string name="voice_replay_timeline_state">%1$s av %2$s</string>
+    <string name="voice_replay_pause">Pause</string>
+    <string name="voice_replay_play">Spill av</string>
+    <string name="voice_replay_position_description">Posisjon</string>
+    <string name="voice_replay_speed_description">Avspillingshastighet</string>
+    <string name="voice_replay_empty">Trykk på spill av for å høre samtalen igjen.</string>
+
+    <!-- Call notification -->
+    <string name="voice_notification_channel_name">Samtaler</string>
+    <string name="voice_notification_channel_description">Pågående OpenCode-samtaler</string>
+    <string name="voice_notification_connecting">Kobler til…</string>
+    <string name="voice_notification_reconnecting">Kobler til på nytt…</string>
+    <string name="voice_notification_call_ended">Samtalen er avsluttet</string>
+    <string name="voice_notification_end">Avslutt</string>
+    <!-- Call status caption -->
+    <string name="voice_status_connecting_via">Kobler til via %1$s…</string>
+    <string name="voice_status_weak_connection">Svak tilkobling</string>
+    <string name="voice_status_paused">Satt på pause</string>
+    <string name="voice_status_needs_input">Trenger svar fra deg</string>
+    <string name="voice_status_working">Arbeider</string>
+    <string name="voice_status_speaking">Snakker</string>
+    <string name="voice_status_muted">Dempet</string>
+    <string name="voice_status_listening">Lytter</string>
+    <string name="voice_status_ending">Avslutter…</string>
+    <string name="voice_status_ended">Avsluttet</string>
+    <string name="voice_session_new_title">Ny sesjon</string>
+    <string name="voice_call_note_builtin_fallback">Bruker innebygd delegering for denne samtalen</string>
+
+    <!-- Floating call tag and spoken length -->
+    <string name="voice_floating_now_talking_in">Snakker nå i %1$s</string>
+    <string name="voice_floating_spoken_duration">%1$s, %2$s</string>
+    <plurals name="voice_floating_spoken_minutes">
+        <item quantity="one">%1$d minutt</item>
+        <item quantity="other">%1$d minutter</item>
+    </plurals>
+    <plurals name="voice_floating_spoken_seconds">
+        <item quantity="one">%1$d sekund</item>
+        <item quantity="other">%1$d sekunder</item>
+    </plurals>
+
+    <!-- Voice providers -->
+    <string name="voice_provider_state_ready">Klar</string>
+    <string name="voice_provider_state_no_key">Ingen nøkkel</string>
+    <string name="voice_provider_state_needs_update">Oppdater OpenCode</string>
+    <string name="voice_provider_state_offline">Frakoblet</string>
+    <string name="voice_provider_place_phone">Denne telefonen</string>
+    <string name="voice_provider_brand_openai_account">OpenAI-kontoen din</string>
+    <string name="voice_provider_name">%1$s på %2$s</string>
+    <string name="voice_provider_subtitle">På %1$s</string>
+    <string name="voice_provider_key_row_title">%1$s-nøkkel</string>
+    <string name="voice_provider_key_placeholder">API-nøkkel for %1$s</string>
+
+    <!-- Voice key source -->
+    <string name="voice_key_source_server_row_title">Nøkkel på serveren din</string>
+    <string name="voice_key_source_phone_footer">Samtaler bruker din egen OpenAI- eller xAI-nøkkel.</string>
+    <string name="voice_key_source_server_footer">Samtaler bruker serverens %1$s-nøkkel.</string>
+    <string name="voice_key_source_opencode_footer">Samtaler faktureres til arbeidsområdet ditt i OpenCode Console.</string>
+
+    <!-- Call failure fixes and diagnosis -->
+    <string name="voice_fix_set_up_on_phone">Sett opp på denne telefonen</string>
+    <string name="voice_fix_choose_provider">Velg leverandør</string>
+    <string name="voice_fix_update_opencode">Oppdater OpenCode</string>
+    <string name="voice_diagnosis_needs_update">%1$s trenger en nyere versjon av OpenCode for talesamtaler.</string>
+    <string name="voice_diagnosis_your_server_needs_update">Serveren din trenger en nyere versjon av OpenCode for talesamtaler.</string>
+    <string name="voice_diagnosis_no_key">%1$s mangler en nøkkel for talesamtaler.</string>
+    <string name="voice_diagnosis_your_server_no_key">Serveren din mangler en nøkkel for talesamtaler.</string>
+    <string name="voice_diagnosis_unreachable">Kunne ikke nå %1$s.</string>
+    <string name="voice_diagnosis_your_server_unreachable">Kunne ikke nå serveren din.</string>
+    <string name="voice_diagnosis_failed">%1$s kunne ikke starte samtalen.</string>
+    <string name="voice_diagnosis_your_server_failed">Serveren din kunne ikke starte samtalen.</string>
+    <string name="voice_diagnosis_key_rejected">OpenAI godtok ikke nøkkelen på denne telefonen.</string>
+    <string name="voice_diagnosis_missing_phone_key">Legg til API-nøkkelen din for %1$s for å ringe fra denne telefonen.</string>
+
+    <!-- Call errors -->
+    <string name="voice_error_microphone_denied">Tillat mikrofontilgang i innstillingene for å snakke med sesjonen din.</string>
+    <string name="voice_error_audio_format_unavailable">Lydformatet til maskinvaren støttes ikke.</string>
+    <string name="voice_error_audio_engine_rejected">Kunne ikke starte samtalelyden. Prøv igjen om litt.</string>
+    <string name="voice_error_server_unsupported">Denne serveren trenger en nyere versjon av OpenCode for talesamtaler</string>
+    <string name="voice_error_invalid_server_url">Kunne ikke starte tale: Skriv inn en gyldig HTTP- eller HTTPS-URL for serveren.</string>
+    <string name="voice_error_invalid_response">Kunne ikke starte tale: Serveren returnerte et ugyldig svar.</string>
+    <string name="voice_error_start_voice_detail">Kunne ikke starte tale: %1$s</string>
+    <string name="voice_error_start_voice_http">Kunne ikke starte tale (HTTP %1$d).</string>
+    <string name="voice_error_openai_rejected_key">OpenAI avviste API-nøkkelen.</string>
+    <string name="voice_error_openai_verify_http">OpenAI kunne ikke verifisere denne nøkkelen (HTTP %1$d).</string>
+    <string name="voice_error_no_connection">Ingen tilkobling.</string>
+    <string name="voice_error_model_address_invalid">Adressen til talemodellen er ugyldig.</string>
+    <string name="voice_error_xai_rejected_key">xAI avviste API-nøkkelen.</string>
+    <string name="voice_error_xai_verify_http">xAI kunne ikke verifisere denne nøkkelen (HTTP %1$d).</string>
+    <string name="voice_error_xai_key_disabled">Denne xAI-API-nøkkelen er deaktivert.</string>
+    <string name="voice_error_xai_key_blocked">Denne xAI-API-nøkkelen er blokkert.</string>
+    <string name="voice_error_service_address_invalid">Adressen til taletjenesten er ugyldig.</string>
+    <string name="voice_error_connection_lost">Taletilkoblingen ble brutt.</string>
+    <string name="voice_error_connection_closed">Taletilkoblingen er lukket.</string>
+    <string name="voice_error_connection_setup">Kunne ikke opprette taletilkoblingen.</string>
+    <string name="voice_error_safety_filter">Et sikkerhetsfilter avsluttet talesamtalen.</string>
+    <string name="voice_error_audio_reset">Systemet tilbakestilte lyden. Start samtalen på nytt.</string>
+    <string name="voice_error_missing_phone_key">Legg til API-nøkkelen din for %1$s i innstillingene for å bruke tale.</string>
+
+    <!-- Voice accents -->
+    <string name="voice_accent_australian_english">Australsk engelsk</string>
+    <string name="voice_accent_british_english">Britisk engelsk</string>
+    <string name="voice_accent_irish_english">Irsk engelsk</string>
+    <string name="voice_accent_north_american_english">Nordamerikansk engelsk</string>
+    <string name="voice_accent_brazilian_portuguese">Brasiliansk portugisisk</string>
+    <string name="voice_accent_filipino_english">Filippinsk engelsk</string>
+    <string name="voice_accent_southern_us_english">Sørstatsengelsk</string>
+    <string name="voice_accent_indian_english">Indisk engelsk</string>
+    <string name="voice_preview_error">Kunne ikke spille av forhåndsvisningen</string>
+
+    <!-- Call sound packs -->
+    <string name="voice_sound_pack_breath_ping">Breath Ping</string>
+    <string name="voice_sound_pack_crystal_glass">Crystal Glass</string>
+    <string name="voice_sound_pack_warm_analog">Warm Analog</string>
+    <string name="voice_sound_pack_aurora_pulse">Aurora Pulse</string>
+    <string name="voice_sound_pack_velvet_bell">Velvet Bell</string>
+    <string name="voice_sound_pack_silent">Silent</string>
+
+    <!-- Open link card -->
+    <string name="voice_open_link_card_title_untitled">Åpne lenke?</string>
+    <string name="voice_open_link_card_title">Åpne %1$s?</string>
+
+    <!-- Delegator choice -->
+    <string name="voice_delegator_session_fallback">Sesjon</string>
+    <string name="voice_delegator_unavailable_gemini">Gemini Live delegerer direkte til sesjonen på skjermen. Velg OpenAI som taleleverandør for å bruke en OpenCode-sesjon.</string>
+    <string name="voice_delegator_unavailable_engine">%1$s delegerer direkte til sesjonen på skjermen. Bytt talemodell til GPT-Live for å bruke en OpenCode-sesjon.</string>
+
+    <!-- Call log list and replay -->
+    <string name="voice_call_log_duration_seconds">%1$d s</string>
+    <string name="voice_call_log_duration_minutes">%1$d min %2$d s</string>
+    <string name="voice_replay_to_delegator">→ Delegering</string>
+    <string name="voice_replay_to_voice">→ Stemme</string>
+    <string name="voice_replay_audio">Lyd</string>
+    <string name="voice_replay_track_user">Du</string>
+    <string name="voice_replay_track_voice">Stemme</string>
+    <string name="voice_replay_track_delegator">Delegering</string>
+    <string name="voice_replay_track_tools">Verktøy</string>
+</resources>

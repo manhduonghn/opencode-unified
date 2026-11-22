@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Call ended and failure cards -->
+    <string name="voice_call_ended_title">Zvans beidzies</string>
+    <string name="voice_call_ended_rejoin">Pievienoties vēlreiz</string>
+    <string name="voice_failure_title">Neizdevās izveidot balss savienojumu</string>
+    <string name="voice_failure_check_api_key">Pārbaudīt API atslēgu</string>
+    <string name="voice_failure_start_title">Neizdevās sākt zvanu</string>
+
+    <!-- Floating call -->
+    <string name="voice_floating_expand">Izvērst</string>
+    <string name="voice_floating_orb_description">Balss zvans</string>
+    <string name="voice_floating_orb_show_controls">Rādīt zvana vadīklas</string>
+    <string name="voice_floating_end_description">Beigt balss zvanu</string>
+    <string name="voice_floating_control_placeholder_state">Šajā prototipā nav pieejams</string>
+    <string name="voice_floating_duration_description">Zvana ilgums</string>
+
+    <!-- Floating call stage -->
+    <string name="voice_stage_talking_in">Saruna sesijā</string>
+    <string name="voice_stage_minimize_description">Minimizēt</string>
+    <string name="voice_mute">Apklusināt</string>
+    <string name="voice_unmute">Noņemt apklusināšanu</string>
+    <string name="voice_stage_pause">Pauzēt</string>
+    <string name="voice_stage_camera">Kamera</string>
+    <string name="voice_transcript_empty">Pasaki kaut ko savai sesijai.</string>
+    <string name="voice_transcript_you">Tu</string>
+    <string name="voice_transcript_user_line_description">Tu: %1$s</string>
+
+    <!-- Call rows: screen request -->
+    <string name="voice_screen_request_detail">Balss asistents vēlas redzēt tavu ekrānu</string>
+    <string name="voice_screen_request_spoken">Vajadzīga tava atbilde. Balss asistents vēlas redzēt tavu ekrānu</string>
+    <string name="voice_screen_request_spoken_with_reason">Vajadzīga tava atbilde. Balss asistents vēlas redzēt tavu ekrānu. %1$s</string>
+    <string name="voice_screen_request_title">Kopīgot ekrānu?</string>
+
+    <!-- Call rows: open link -->
+    <string name="voice_open_link_spoken">Vajadzīga tava atbilde. %1$s</string>
+    <string name="voice_open_link_spoken_with_host">Vajadzīga tava atbilde. %1$s %2$s</string>
+    <string name="voice_open_link_open">Atvērt</string>
+
+    <!-- Call rows: audio on the call -->
+    <string name="voice_audio_paused">Pauzēts</string>
+    <string name="voice_audio_playing">Atskaņo zvanā</string>
+    <string name="voice_audio_play">Atskaņot audio</string>
+    <string name="voice_audio_pause">Pauzēt audio</string>
+    <string name="voice_audio_stop">Apturēt audio</string>
+
+    <!-- Call history -->
+    <string name="voice_call_history_title">Zvanu vēsture</string>
+    <string name="voice_call_history_options_description">Vēstures opcijas</string>
+    <string name="voice_call_history_delete_all">Dzēst visu</string>
+    <string name="voice_call_history_empty_title">Balss zvanu vēl nav</string>
+    <string name="voice_call_history_empty_message">Zvani tiek saglabāti šajā tālrunī, lai vari tos noklausīties vēlreiz.</string>
+    <string name="voice_call_history_delete_all_confirm_title">Dzēst visus balss zvanus?</string>
+
+    <!-- Call replay -->
+    <string name="voice_replay_timeline_description">Zvana laika skala</string>
+    <string name="voice_replay_timeline_state">%1$s no %2$s</string>
+    <string name="voice_replay_pause">Pauzēt</string>
+    <string name="voice_replay_play">Atskaņot</string>
+    <string name="voice_replay_position_description">Pozīcija</string>
+    <string name="voice_replay_speed_description">Atskaņošanas ātrums</string>
+    <string name="voice_replay_empty">Nospied atskaņošanas pogu, lai noklausītos zvanu vēlreiz.</string>
+
+    <!-- Call notification -->
+    <string name="voice_notification_channel_name">Zvani</string>
+    <string name="voice_notification_channel_description">Notiekošie OpenCode zvani</string>
+    <string name="voice_notification_connecting">Veido savienojumu…</string>
+    <string name="voice_notification_reconnecting">Atjauno savienojumu…</string>
+    <string name="voice_notification_call_ended">Zvans beidzies</string>
+    <string name="voice_notification_end">Beigt</string>
+    <!-- Call status caption -->
+    <string name="voice_status_connecting_via">Veido savienojumu, izmantojot %1$s…</string>
+    <string name="voice_status_weak_connection">Vājš savienojums</string>
+    <string name="voice_status_paused">Pauzēts</string>
+    <string name="voice_status_needs_input">Vajadzīga tava atbilde</string>
+    <string name="voice_status_working">Darbojas</string>
+    <string name="voice_status_speaking">Runā</string>
+    <string name="voice_status_muted">Apklusināts</string>
+    <string name="voice_status_listening">Klausās</string>
+    <string name="voice_status_ending">Beidz zvanu…</string>
+    <string name="voice_status_ended">Beidzies</string>
+    <string name="voice_session_new_title">Jauna sesija</string>
+    <string name="voice_call_note_builtin_fallback">Šim zvanam izmanto iebūvēto deleģētāju</string>
+
+    <!-- Floating call tag and spoken length -->
+    <string name="voice_floating_now_talking_in">Tagad saruna sesijā %1$s</string>
+    <string name="voice_floating_spoken_duration">%1$s, %2$s</string>
+    <plurals name="voice_floating_spoken_minutes">
+        <item quantity="zero">%1$d minūšu</item>
+        <item quantity="one">%1$d minūte</item>
+        <item quantity="other">%1$d minūtes</item>
+    </plurals>
+    <plurals name="voice_floating_spoken_seconds">
+        <item quantity="zero">%1$d sekunžu</item>
+        <item quantity="one">%1$d sekunde</item>
+        <item quantity="other">%1$d sekundes</item>
+    </plurals>
+
+    <!-- Voice providers -->
+    <string name="voice_provider_state_ready">Gatavs</string>
+    <string name="voice_provider_state_no_key">Nav atslēgas</string>
+    <string name="voice_provider_state_needs_update">Atjaunināt OpenCode</string>
+    <string name="voice_provider_state_offline">Bezsaistē</string>
+    <string name="voice_provider_place_phone">Šis tālrunis</string>
+    <string name="voice_provider_brand_openai_account">Tavs OpenAI konts</string>
+    <string name="voice_provider_name">%1$s ierīcē %2$s</string>
+    <string name="voice_provider_subtitle">Ierīcē %1$s</string>
+    <string name="voice_provider_key_row_title">%1$s atslēga</string>
+    <string name="voice_provider_key_placeholder">%1$s API atslēga</string>
+
+    <!-- Voice key source -->
+    <string name="voice_key_source_server_row_title">Atslēga tavā serverī</string>
+    <string name="voice_key_source_phone_footer">Zvaniem izmanto tavu OpenAI vai xAI atslēgu.</string>
+    <string name="voice_key_source_server_footer">Zvaniem izmanto tava servera %1$s atslēgu.</string>
+    <string name="voice_key_source_opencode_footer">Maksa par zvaniem tiek iekasēta no tavas OpenCode Console darbvietas.</string>
+
+    <!-- Call failure fixes and diagnosis -->
+    <string name="voice_fix_set_up_on_phone">Iestatīt šajā tālrunī</string>
+    <string name="voice_fix_choose_provider">Izvēlēties pakalpojumu sniedzēju</string>
+    <string name="voice_fix_update_opencode">Atjaunināt OpenCode</string>
+    <string name="voice_diagnosis_needs_update">%1$s balss zvaniem vajadzīga jaunāka OpenCode versija.</string>
+    <string name="voice_diagnosis_your_server_needs_update">Tavam serverim balss zvaniem vajadzīga jaunāka OpenCode versija.</string>
+    <string name="voice_diagnosis_no_key">%1$s nav atslēgas balss zvaniem.</string>
+    <string name="voice_diagnosis_your_server_no_key">Tavam serverim nav atslēgas balss zvaniem.</string>
+    <string name="voice_diagnosis_unreachable">Neizdevās sasniegt %1$s.</string>
+    <string name="voice_diagnosis_your_server_unreachable">Neizdevās sasniegt tavu serveri.</string>
+    <string name="voice_diagnosis_failed">%1$s neizdevās sākt zvanu.</string>
+    <string name="voice_diagnosis_your_server_failed">Tavam serverim neizdevās sākt zvanu.</string>
+    <string name="voice_diagnosis_key_rejected">OpenAI nepieņēma šajā tālrunī saglabāto atslēgu.</string>
+    <string name="voice_diagnosis_missing_phone_key">Pievieno savu %1$s API atslēgu, lai zvanītu no šī tālruņa.</string>
+
+    <!-- Call errors -->
+    <string name="voice_error_microphone_denied">Iestatījumos atļauj piekļuvi mikrofonam, lai sarunātos ar savu sesiju.</string>
+    <string name="voice_error_audio_format_unavailable">Audio ierīces formāts netiek atbalstīts.</string>
+    <string name="voice_error_audio_engine_rejected">Neizdevās ieslēgt zvana skaņu. Pēc brīža mēģini vēlreiz.</string>
+    <string name="voice_error_server_unsupported">Šim serverim balss zvaniem vajadzīga jaunāka OpenCode versija</string>
+    <string name="voice_error_invalid_server_url">Neizdevās sākt balss sarunu: ievadi derīgu HTTP vai HTTPS servera URL.</string>
+    <string name="voice_error_invalid_response">Neizdevās sākt balss sarunu: serveris atgrieza nederīgu atbildi.</string>
+    <string name="voice_error_start_voice_detail">Neizdevās sākt balss sarunu: %1$s</string>
+    <string name="voice_error_start_voice_http">Neizdevās sākt balss sarunu (HTTP %1$d).</string>
+    <string name="voice_error_openai_rejected_key">OpenAI noraidīja API atslēgu.</string>
+    <string name="voice_error_openai_verify_http">OpenAI nevarēja pārbaudīt šo atslēgu (HTTP %1$d).</string>
+    <string name="voice_error_no_connection">Nav savienojuma.</string>
+    <string name="voice_error_model_address_invalid">Balss modeļa adrese nav derīga.</string>
+    <string name="voice_error_xai_rejected_key">xAI noraidīja API atslēgu.</string>
+    <string name="voice_error_xai_verify_http">xAI nevarēja pārbaudīt šo atslēgu (HTTP %1$d).</string>
+    <string name="voice_error_xai_key_disabled">Šī xAI API atslēga ir atspējota.</string>
+    <string name="voice_error_xai_key_blocked">Šī xAI API atslēga ir bloķēta.</string>
+    <string name="voice_error_service_address_invalid">Balss pakalpojuma adrese nav derīga.</string>
+    <string name="voice_error_connection_lost">Balss savienojums pārtrūka.</string>
+    <string name="voice_error_connection_closed">Balss savienojums ir slēgts.</string>
+    <string name="voice_error_connection_setup">Neizdevās izveidot balss savienojumu.</string>
+    <string name="voice_error_safety_filter">Drošības filtrs pārtrauca balss zvanu.</string>
+    <string name="voice_error_audio_reset">Sistēma atiestatīja audio. Sāc zvanu vēlreiz.</string>
+    <string name="voice_error_missing_phone_key">Iestatījumos pievieno savu %1$s API atslēgu, lai izmantotu balsi.</string>
+
+    <!-- Voice accents -->
+    <string name="voice_accent_australian_english">Austrālijas angļu</string>
+    <string name="voice_accent_british_english">Britu angļu</string>
+    <string name="voice_accent_irish_english">Īrijas angļu</string>
+    <string name="voice_accent_north_american_english">Ziemeļamerikas angļu</string>
+    <string name="voice_accent_brazilian_portuguese">Brazīlijas portugāļu</string>
+    <string name="voice_accent_filipino_english">Filipīnu angļu</string>
+    <string name="voice_accent_southern_us_english">ASV dienvidu angļu</string>
+    <string name="voice_accent_indian_english">Indijas angļu</string>
+    <string name="voice_preview_error">Neizdevās atskaņot paraugu</string>
+
+    <!-- Call sound packs -->
+    <string name="voice_sound_pack_breath_ping">Elpas zvaniņš</string>
+    <string name="voice_sound_pack_crystal_glass">Kristāla stikls</string>
+    <string name="voice_sound_pack_warm_analog">Silts analogais tonis</string>
+    <string name="voice_sound_pack_aurora_pulse">Ziemeļblāzmas pulss</string>
+    <string name="voice_sound_pack_velvet_bell">Samta zvans</string>
+    <string name="voice_sound_pack_silent">Bez skaņas</string>
+
+    <!-- Open link card -->
+    <string name="voice_open_link_card_title_untitled">Atvērt saiti?</string>
+    <string name="voice_open_link_card_title">Atvērt %1$s?</string>
+
+    <!-- Delegator choice -->
+    <string name="voice_delegator_session_fallback">Sesija</string>
+    <string name="voice_delegator_unavailable_gemini">Gemini Live nodod uzdevumus tieši ekrānā atvērtajai sesijai. Izvēlies OpenAI kā balss pakalpojumu sniedzēju, lai izmantotu OpenCode sesiju.</string>
+    <string name="voice_delegator_unavailable_engine">%1$s nodod uzdevumus tieši ekrānā atvērtajai sesijai. Nomaini balss modeli uz GPT-Live, lai izmantotu OpenCode sesiju.</string>
+
+    <!-- Call log list and replay -->
+    <string name="voice_call_log_duration_seconds">%1$d s</string>
+    <string name="voice_call_log_duration_minutes">%1$d min %2$d s</string>
+    <string name="voice_replay_to_delegator">→ Deleģētājs</string>
+    <string name="voice_replay_to_voice">→ Balss</string>
+    <string name="voice_replay_audio">Audio</string>
+    <string name="voice_replay_track_user">Tu</string>
+    <string name="voice_replay_track_voice">Balss</string>
+    <string name="voice_replay_track_delegator">Deleģētājs</string>
+    <string name="voice_replay_track_tools">Instrumenti</string>
+</resources>

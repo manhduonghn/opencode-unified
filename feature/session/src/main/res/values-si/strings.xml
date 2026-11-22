@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent activity glyph -->
+    <string name="session_activity_running_description">ක්‍රියාත්මකයි</string>
+    <!-- Background work panel -->
+    <string name="session_background_work_show_label">ක්‍රියාත්මක උප නියෝජිතයින්, ස්ක්‍රිප්ට් සහ ෂෙල් පෙන්වන්න</string>
+    <string name="session_background_work_collapsed_description">හකුළා ඇත</string>
+    <string name="session_background_work_subagents_title">උප නියෝජිතයින්</string>
+    <string name="session_background_work_open_subagent_label">උප නියෝජිතයාගේ සැසිය විවෘත කරන්න</string>
+    <string name="session_background_work_shells_title">ෂෙල්</string>
+    <string name="session_background_work_show_shell_label">ෂෙල් ප්‍රතිදානය පෙන්වන්න</string>
+    <!-- The session's images and videos, paged in the full-screen viewer -->
+    <string name="session_visual_attached_image">අමුණා ඇති රූපය</string>
+    <string name="session_visual_tool_image">මෙවලම් රූපය</string>
+    <string name="session_visual_image">රූපය</string>
+    <!-- One image of several: the image's label, then its place, as “Attached image 2 of 3” -->
+    <string name="session_visual_image_page_label">%1$s, %3$dන් %2$dවැන්න</string>
+    <!-- A diagram's label, read by TalkBack. %1$s is its kind, as “Diagram, Flowchart” -->
+    <string name="session_visual_diagram_label">රූපසටහන, %1$s</string>
+    <!-- Jump to latest -->
+    <string name="session_scroll_to_latest_description">නවතම වෙත අනුචලනය කරන්න</string>
+    <!-- Dictation bar -->
+    <string name="session_dictation_finishing_description">හඬින් ලිවීම අවසන් කරමින්</string>
+    <string name="session_dictation_stop_recording_description">පටිගත කිරීම නවත්වන්න</string>
+    <string name="session_dictation_stop_recording_hint">වචන ඔබේ පණිවිඩයට එක් කරන්න</string>
+    <string name="session_sending_message_description">පණිවිඩය යවමින්</string>
+    <string name="session_delivery_steer_label">ඊළඟ පියවරේදී මඟ පෙන්වන්න</string>
+    <string name="session_delivery_queue_label">මේ ප්‍රතිචාරයෙන් පසු පෝලිම්ගත කරන්න</string>
+    <string name="session_delivery_steer">මඟ පෙන්වන්න</string>
+    <string name="session_delivery_queue">පෝලිම්ගත කරන්න</string>
+    <!-- Draft project picker -->
+    <string name="session_draft_project_choose_label">සැසිය අරඹන ස්ථානය තෝරන්න</string>
+    <string name="session_project_choose_folder">ෆෝල්ඩරය තෝරන්න…</string>
+    <string name="session_project_all_projects">සියලු ව්‍යාපෘති</string>
+    <string name="session_project_selected_description">තෝරා ඇත</string>
+    <string name="session_project_picker_title">ව්යාපෘතිය</string>
+    <!-- Folder browser -->
+    <string name="session_folder_select_description">ෆෝල්ඩරය තෝරන්න</string>
+    <string name="session_folder_path_description">මාර්ගය</string>
+    <string name="session_folder_title">ෆෝල්ඩරය</string>
+    <string name="session_folder_select">තෝරන්න</string>
+    <string name="session_folder_open_failed_title">ෆෝල්ඩරය විවෘත කිරීමට නොහැකි විය</string>
+    <string name="session_folder_empty_title">ෆෝල්ඩර නැත</string>
+    <string name="session_folder_search_empty_title">“%1$s” සඳහා ප්‍රතිඵල නැත</string>
+    <string name="session_folder_search_empty_message">අක්ෂර වින්‍යාසය බලන්න හෝ වෙනත් සෙවුමක් කරන්න.</string>
+    <!-- Server connection pill -->
+    <string name="session_server_edit">සේවාදායකය සංස්කරණය කරන්න…</string>
+    <!-- Starter prompts -->
+    <string name="session_starter_prompts_title">මෙහෙම අහන්න</string>
+    <string name="session_starter_prompt_pick_label">එය පණිවිඩයට ඇතුළත් කරන්න</string>
+    <!-- Session sheet -->
+    <string name="session_sheet_rename_failed">නැවත නම් කිරීමට නොහැකි විය</string>
+    <string name="session_sheet_status_description">තත්ත්වය</string>
+    <string name="session_rename_title">සැසිය නැවත නම් කරන්න</string>
+    <string name="session_untitled_title">සැසිය</string>
+    <string name="session_pin">ඉහළ රඳවන්න</string>
+    <string name="session_pinned">ඉහළ රඳවා ඇති</string>
+    <string name="session_unread">නොකියවූ</string>
+    <string name="session_mute">නිහඬ කරන්න</string>
+    <string name="session_muted">නිහඬ කළ</string>
+    <string name="session_compact">සංක්ෂිප්ත</string>
+    <string name="session_fork">ෆෝක් කරන්න</string>
+    <string name="session_toggle_on_description">සක්‍රියයි</string>
+    <string name="session_toggle_off_description">අක්‍රියයි</string>
+    <string name="session_export">අපනයනය කරන්න</string>
+    <string name="session_export_markdown">Markdown</string>
+    <string name="session_export_json">JSON</string>
+    <string name="session_sheet_model">ආකෘතිය</string>
+    <string name="session_sheet_context">සන්දර්භය</string>
+    <string name="session_sheet_unknown_description">නොදන්නා</string>
+    <string name="session_sheet_context_tokens">ටෝකන %1$s</string>
+    <string name="session_sheet_cost">වියදම</string>
+    <string name="session_sheet_media">මාධ්‍ය</string>
+    <string name="session_sheet_media_value">ගොනු සහ සබැඳි</string>
+    <string name="session_always_notify">සැමවිටම දැනුම් දෙන්න</string>
+    <string name="session_always_notify_message_phone">මෙතැනින් නොයැවූ පණිවිඩවලට ලැබෙන ප්‍රතිචාර ඇතුළුව, ප්‍රතිචාරයක් අවසන් වන සෑම විටම මේ දුරකථනයට දැනුම් දෙන්න.</string>
+    <string name="session_always_notify_message_tablet">මෙතැනින් නොයැවූ පණිවිඩවලට ලැබෙන ප්‍රතිචාර ඇතුළුව, ප්‍රතිචාරයක් අවසන් වන සෑම විටම මේ ටැබ්ලටයට දැනුම් දෙන්න.</string>
+    <string name="session_delete_session">සැසිය මකන්න</string>
+    <string name="session_rename_placeholder">මාතෘකාව</string>
+    <string name="session_auto_rename">ස්වයංක්‍රීයව නැවත නම් කරන්න</string>
+    <string name="session_delete_confirm_title">“%1$s” මකන්නද?</string>
+    <string name="session_delete_confirm_message">මෙය සියලු සේවාලාභීන් සඳහා සේවාදායකයෙන් සැසිය ඉවත් කරයි.</string>
+    <!-- Transcript -->
+    <string name="session_move_to_background">පසුබිමට ගෙන යන්න</string>
+    <string name="session_move_to_background_hint">නියෝජිතයාට ඔබේ ඊළඟ පණිවිඩය කියවීමට හැකි වන සේ දැනට කරන වැඩ පසුබිමේ කරගෙන යන්න</string>
+    <!-- Attachments -->
+    <string name="session_attachment_add_image_failed_title">රූපය එකතු කිරීමට නොහැකි විය</string>
+    <string name="session_attachment_upload">උඩුගත කරන්න</string>
+    <string name="session_attachment_remove_image_description">රූප ඇමුණුම %1$d ඉවත් කරන්න</string>
+    <string name="session_attachment_remove_description">%1$s ඉවත් කරන්න</string>
+    <string name="session_attachment_file_description">ගොනු ඇමුණුම %1$s</string>
+    <string name="session_attachment_cancel_upload_description">%1$s උඩුගත කිරීම අවලංගු කරන්න</string>
+    <string name="session_attachment_open_photo_label">ඡායාරූපය සම්පූර්ණ තිරයේ විවෘත කරන්න</string>
+    <string name="session_attachment_image_description">රූප ඇමුණුම %1$d</string>
+    <string name="session_attachment_video_description">වීඩියෝ ඇමුණුම %1$d</string>
+    <!-- Composer controls -->
+    <string name="session_answer_own_description">ඔබේම පිළිතුර</string>
+    <string name="session_answer_own_type_label">ඔබේම පිළිතුර ටයිප් කරන්න හෝ හඬින් කියන්න</string>
+    <string name="session_answer_own_clear_label">ඔබේ පිළිතුර පසෙක තබන්න</string>
+    <string name="session_answer_own_choose_label">ඔබේ වචනවලින් පිළිතුරු දෙන්න</string>
+    <string name="session_answer_decline_with_words_label">ඒ වෙනුවට කළ යුතු දේ නියෝජිතයාට කියන්න</string>
+    <string name="session_answer_required_description">පිළිතුරක් තෝරන්න හෝ ඔබේම පිළිතුර ටයිප් කරන්න</string>
+    <string name="session_dictate_message_description">පණිවිඩය හඬින් කියන්න</string>
+    <string name="session_dictate_message_hint">පණිවිඩය හඬින් කියන්න, නැතිනම් පටිගත කර යැවීමට ස්පර්ශ කරගෙන සිටින්න</string>
+    <string name="session_send_waiting_for_uploads_description">උඩුගත කිරීම් අවසන් වූ පසු යවයි</string>
+    <string name="session_steer_message_description">පණිවිඩයෙන් මඟ පෙන්වන්න</string>
+    <string name="session_stopping_description">නවත්වමින්</string>
+    <string name="session_start_voice_call">හඬ ඇමතුමක් අරඹන්න</string>
+    <string name="session_dictation_stop_description">හඬින් ලිවීම නවත්වන්න</string>
+    <!-- Composer -->
+    <string name="session_requests_load_failed_title">ඉල්ලීම් පූරණය කිරීමට නොහැකි විය</string>
+    <plurals name="session_queued_count">
+        <item quantity="one">%1$dක් පෝලිමේ</item>
+        <item quantity="other">%1$dක් පෝලිමේ</item>
+    </plurals>
+    <string name="session_queued_show_label">මෙම ප්‍රතිචාරය අවසන් වන තෙක් රැඳී සිටින පණිවිඩ පෙන්වන්න</string>
+    <plurals name="session_queued_messages_description">
+        <item quantity="one">පණිවිඩ %1$dක් පෝලිමේ</item>
+        <item quantity="other">පණිවිඩ %1$dක් පෝලිමේ</item>
+    </plurals>
+    <string name="session_dictation_preparing">හඬින් ලිවීමට සූදානම් වෙමින්…</string>
+    <string name="session_message_placeholder">පණිවිඩය</string>
+    <!-- Session header -->
+    <string name="session_back_to_main_description">ප්‍රධාන සැසිය වෙත ආපසු</string>
+    <string name="session_header_open_from_catch_up_label">සැසිය විවෘත කර අලුත් දේ බැලීමෙන් ඉවත් වන්න</string>
+    <string name="session_header_show_details_label">සැසි විස්තර පෙන්වන්න</string>
+    <string name="session_header_idle_description">නිෂ්ක්‍රීයයි</string>
+    <string name="session_header_syncing_description">සමමුහුර්ත කරමින්</string>
+    <string name="session_header_last_known_description">අවසන් වරට දැනගත්</string>
+    <string name="session_menu_more_description">තවත්</string>
+    <string name="session_unpin">ඉහළින් ඉවත් කරන්න</string>
+    <string name="session_copy_session_id">සැසි ID පිටපත් කරන්න</string>
+    <string name="session_mark_as_read">කියවූ ලෙස සලකුණු කරන්න</string>
+    <string name="session_mark_as_unread">නොකියවූ ලෙස සලකුණු කරන්න</string>
+    <string name="session_unmute">නිහඬ බව ඉවත් කරන්න</string>
+    <string name="session_menu_export_expanded_description">දිග හැර ඇත</string>
+    <string name="session_menu_export_collapsed_description">හකුළා ඇත</string>
+    <string name="session_info">සැසි තොරතුරු</string>
+    <!-- Session screen -->
+    <string name="session_load_failed_title">සැසිය පූරණය කිරීමට නොහැකි විය</string>
+    <string name="session_location_share_failed_title">ස්ථානය බෙදාගැනීමට නොහැකි විය</string>
+    <!-- Shell output -->
+    <string name="session_shell_stop_confirm_title">මෙම ෂෙල් එක නවත්වන්නද?</string>
+    <string name="session_shell_stop_confirm_message">විධානය දැන් අවසන් වේ. මෙහි පෙන්වන ප්‍රතිදානය ඔබ එය වසන තෙක් පවතී.</string>
+    <string name="session_shell_stop">ෂෙල් නවත්වන්න</string>
+    <string name="session_shell_copy_output">ප්‍රතිදානය පිටපත් කරන්න</string>
+    <string name="session_shell_share_output">ප්‍රතිදානය බෙදාගන්න</string>
+    <string name="session_shell_earlier_output_hidden">පෙර ප්‍රතිදානය සඟවා ඇත</string>
+    <string name="session_shell_showing_last_output">අවසන් 4 MB පෙන්වයි</string>
+    <string name="session_shell_load_earlier">පෙර දේ පූරණය කරන්න</string>
+    <string name="session_shell_output_unavailable_title">ප්‍රතිදානය නොමැත</string>
+    <string name="session_shell_output_unavailable_message">මෙම ෂෙල් ප්‍රතිදානය තවදුරටත් සේවාදායකයේ නැත.</string>
+    <string name="session_shell_no_output_yet_title">තවම ප්‍රතිදානයක් නැත</string>
+    <string name="session_shell_no_output_title">ප්‍රතිදානයක් නැත</string>
+    <string name="session_shell_no_output_yet_message">විධානයෙන් ප්‍රතිදානය ලැබෙන විට මෙහි පෙන්වයි.</string>
+    <string name="session_shell_status_stopping">නවත්වමින්…</string>
+    <string name="session_shell_status_unavailable">ලබාගත නොහැකියි</string>
+    <string name="session_shell_status_interrupted">බාධා කළා</string>
+    <string name="session_shell_status_timed_out">කාලය ඉකුත් විය</string>
+    <string name="session_shell_status_exited_with_code">%1$d කේතය සමඟ අවසන් විය</string>
+    <string name="session_shell_status_exited">අවසන් විය</string>
+    <plurals name="session_shell_elapsed_hours">
+        <item quantity="one">පැය %1$d</item>
+        <item quantity="other">පැය %1$d</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_minutes">
+        <item quantity="one">මිනිත්තු %1$d</item>
+        <item quantity="other">මිනිත්තු %1$d</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_seconds">
+        <item quantity="one">තත්පර %1$d</item>
+        <item quantity="other">තත්පර %1$d</item>
+    </plurals>
+
+    <!-- Agent activity (glyph labels and titles) -->
+    <string name="session_activity_idle">නිෂ්ක්‍රීයයි</string>
+    <string name="session_activity_starting_up">ආරම්භ වෙමින්</string>
+    <string name="session_activity_thinking">කල්පනා කරනවා</string>
+    <string name="session_activity_long_work">දිගු කාර්යයක්</string>
+    <string name="session_activity_tool_burst">මෙවලම් රැසක් ධාවනය කරමින්</string>
+    <string name="session_activity_streaming_output">ප්‍රතිදානය ලැබෙමින්</string>
+    <string name="session_activity_waiting_for_input">යෙදවුම සඳහා රැඳී සිටිමින්</string>
+    <string name="session_activity_handing_off">වැඩ පවරමින්</string>
+    <string name="session_activity_done">අවසන්</string>
+    <string name="session_activity_failed">අසාර්ථකයි</string>
+    <string name="session_working_stopping">නවත්වමින්…</string>
+    <string name="session_status_working">ක්‍රියා කරමින්</string>
+    <string name="session_status_needs_input">ඔබේ යෙදවුම අවශ්‍යයි</string>
+    <string name="session_status_done">අවසන්</string>
+
+    <!-- Lists: joins two or three phrases -->
+    <string name="session_list_two">%1$s, %2$s</string>
+    <string name="session_list_three">%1$s, %2$s, %3$s</string>
+
+    <!-- Background work panel -->
+    <plurals name="session_background_work_subagent_count">
+        <item quantity="one">උප නියෝජිතයින් %1$d</item>
+        <item quantity="other">උප නියෝජිතයින් %1$d</item>
+    </plurals>
+    <plurals name="session_background_work_shell_count">
+        <item quantity="one">ෂෙල් %1$d</item>
+        <item quantity="other">ෂෙල් %1$d</item>
+    </plurals>
+    <plurals name="session_background_work_script_count">
+        <item quantity="one">ස්ක්‍රිප්ට් %1$dක්</item>
+        <item quantity="other">ස්ක්‍රිප්ට් %1$dක්</item>
+    </plurals>
+    <string name="session_background_work_summary">%1$s · %2$s</string>
+    <string name="session_background_work_scripts_title">ස්ක්‍රිප්ට්</string>
+    <string name="session_background_work_stop_script_label">ස්ක්‍රිප්ටය නවත්වන්න</string>
+    <string name="session_background_work_stop_subagent_label">උප නියෝජිතයා නවත්වන්න</string>
+    <string name="session_background_work_stop_script_failed">ස්ක්‍රිප්ටය නැවැත්වීමට නොහැකි විය</string>
+    <string name="session_background_work_stop_subagent_failed">උප නියෝජිතයා නැවැත්වීමට නොහැකි විය</string>
+
+    <!-- Composer buttons -->
+    <string name="session_send_message_description">පණිවිඩය යවන්න</string>
+    <string name="session_stop_description">නවත්වන්න</string>
+    <string name="session_start_voice_call_description">හඬ ඇමතුමක් අරඹන්න</string>
+    <string name="session_model_level_default">පෙරනිමිය</string>
+
+    <!-- In-app notice -->
+    <plurals name="session_notice_session_count">
+        <item quantity="one">සැසි %1$d</item>
+        <item quantity="other">සැසි %1$d</item>
+    </plurals>
+    <plurals name="session_notice_needs_input_count">
+        <item quantity="one">%1$dකට ඔබේ යෙදවුම අවශ්‍යයි</item>
+        <item quantity="other">%1$dකට ඔබේ යෙදවුම අවශ්‍යයි</item>
+    </plurals>
+    <string name="session_notice_announcement">%1$s, %2$s</string>
+
+    <!-- Server connection pill -->
+    <string name="session_server_reconnecting">%1$s වෙත නැවත සම්බන්ධ වෙමින්…</string>
+    <string name="session_server_connect_failed">%1$s වෙත සම්බන්ධ වීමට නොහැකි විය</string>
+    <string name="session_server_sign_in_failed">%1$s වෙත පිවිසීමට නොහැකි විය</string>
+    <string name="session_server_pair_again">නැවත යුගල කරන්න</string>
+    <string name="session_server_try_again_click_label">නැවත උත්සාහ කරන්න</string>
+    <string name="session_server_pair_again_click_label">නැවත යුගල කරන්න</string>
+
+    <!-- Export -->
+    <string name="session_export_folder_failed">අපනයන ෆෝල්ඩරය සෑදීමට නොහැකි විය</string>
+    <string name="session_export_save_failed">අපනයනය සුරැකීමට නොහැකි විය</string>
+
+    <!-- Session errors -->
+    <string name="session_agent_fallback_name">නියෝජිතයා</string>
+    <string name="session_something_went_wrong">යමක් වැරදී ඇත</string>
+    <string name="session_something_went_wrong_sentence">යමක් වැරදී ඇත.</string>
+    <string name="session_load_earlier_failed">පෙර පණිවිඩ පූරණය කිරීමට නොහැකි විය</string>
+    <string name="session_move_to_background_failed">පසුබිමට ගෙන යාමට නොහැකි විය: %1$s</string>
+    <string name="session_move_failed_reason">සැසිය ගෙන යාමට නොහැකි විය</string>
+    <string name="session_delivery_waiting_to_send">යැවීමට රැඳී සිටිමින්</string>
+    <string name="session_create_failed">සැසිය සෑදීමට නොහැකි විය.</string>
+    <string name="session_switch_agent_failed">නියෝජිතයා මාරු කිරීමට නොහැකි විය: %1$s</string>
+    <string name="session_switch_model_failed">ආකෘතිය මාරු කිරීමට නොහැකි විය: %1$s</string>
+    <string name="session_pending_send_now_failed_details">යැවීමට ඇති පණිවිඩය දැන් යැවීමට නොහැකි විය: %1$s</string>
+    <string name="session_pending_cancel_failed_details">යැවීමට ඇති පණිවිඩය අවලංගු කිරීමට නොහැකි විය: %1$s</string>
+    <string name="session_pending_queue_failed_details">යැවීමට ඇති පණිවිඩය පෝලිම්ගත කිරීමට නොහැකි විය: %1$s</string>
+    <string name="session_stopped_before_sent">යැවීමට පෙර බාධා විය</string>
+    <string name="session_stop_failed">සැසිය නැවැත්වීමට නොහැකි විය</string>
+    <string name="session_undo_message_failed">පණිවිඩය අහෝසි කිරීමට නොහැකි විය: %1$s</string>
+    <string name="session_revert_failed">ප්‍රතිවර්තනය කිරීමට නොහැකි විය</string>
+    <string name="session_revert_failed_details">ප්‍රතිවර්තනය කිරීමට නොහැකි විය: %1$s</string>
+
+    <!-- Session sheet errors -->
+    <string name="session_sheet_rename_failed_title">සැසිය නැවත නම් කිරීමට නොහැකි විය</string>
+    <string name="session_sheet_compact_failed_title">සැසිය සංක්ෂිප්ත කිරීමට නොහැකි විය</string>
+    <string name="session_sheet_fork_failed_title">සැසිය ෆෝක් කිරීමට නොහැකි විය</string>
+    <string name="session_sheet_save_export_failed">අපනයනය සුරැකීමට නොහැකි විය</string>
+    <string name="session_sheet_export_failed_title">සැසිය අපනයනය කිරීමට නොහැකි විය</string>
+    <string name="session_sheet_notifications_off_message">පළමුව සැකසීම් තුළ දැනුම්දීම් සක්‍රිය කරන්න.</string>
+    <string name="session_sheet_always_notify_on_failed_title">සැමවිටම දැනුම් දීම සක්‍රිය කිරීමට නොහැකි විය</string>
+    <string name="session_sheet_always_notify_off_failed_title">සැමවිටම දැනුම් දීම අක්‍රිය කිරීමට නොහැකි විය</string>
+
+    <!-- Attachments -->
+    <string name="session_attachment_files_unsupported">සේවාදායකය ගොනුවලට සහය නොදක්වයි</string>
+    <string name="session_attachment_upload_failed">උඩුගත කිරීමට නොහැකි විය</string>
+    <string name="session_attachment_file_fallback_name">ගොනුව</string>
+    <string name="session_attachment_image_too_large">20 MB ට වඩා කුඩා රූපයක් තෝරන්න.</string>
+    <string name="session_attachment_image_load_failed">මෙම රූපය පූරණය කිරීමට නොහැකි විය. වෙනත් ඡායාරූපයක් උත්සාහ කරන්න.</string>
+    <string name="session_attachment_file_add_failed">මෙම ගොනුව එකතු කිරීමට නොහැකි විය. වෙනත් ගොනුවක් උත්සාහ කරන්න.</string>
+    <plurals name="session_attachment_files_add_failed">
+        <item quantity="one">ගොනු %1$dක් එකතු කිරීමට නොහැකි විය.</item>
+        <item quantity="other">ගොනු %1$dක් එකතු කිරීමට නොහැකි විය.</item>
+    </plurals>
+    <string name="session_large_upload_title">%1$s උඩුගත කරන්නද?</string>
+    <string name="session_large_upload_message_one">“%1$s” විශාල ගොනුවක්. ඔබේ සේවාදායකයට උඩුගත කර අවසන් වූ පසු පණිවිඩය යැවෙයි.</string>
+    <plurals name="session_large_upload_message_many">
+        <item quantity="one">ගොනු %1$dක් විශාලයි. ඔබේ සේවාදායකයට උඩුගත කර අවසන් වූ පසු පණිවිඩය යැවෙයි.</item>
+        <item quantity="other">ගොනු %1$dක් විශාලයි. ඔබේ සේවාදායකයට උඩුගත කර අවසන් වූ පසු පණිවිඩය යැවෙයි.</item>
+    </plurals>
+
+    <!-- Header and screens -->
+    <string name="session_new_session_title">නව සැසිය</string>
+    <string name="session_pasted_text_screen_title">ඇලවූ පෙළ</string>
+    <string name="session_pasted_text_viewer_screen_title">ඇලවූ පෙළ දසුන</string>
+    <string name="session_context_summary">%2$s න් %1$d%%</string>
+    <string name="session_context_accessibility_value">ටෝකන %2$s න් %1$d%% භාවිත කර ඇත</string>
+
+    <!-- Starter prompts (shown, then sent as the person’s message) -->
+    <string name="session_starter_project_purpose">මේ ව්යාපෘතියෙන් මොකක්ද කරන්නේ?</string>
+    <string name="session_starter_code_tour">කේතය ගැන කෙටි හැඳින්වීමක් දෙන්න</string>
+    <string name="session_starter_recent_changes">මෑතකදී මෙහි වෙනස් වුණේ මොනවාද?</string>
+
+    <!-- Shell output -->
+    <string name="session_shell_refresh_failed">ප්‍රතිදානය නැවුම් කිරීමට නොහැකි විය</string>
+    <string name="session_shell_load_earlier_failed">පෙර ප්‍රතිදානය පූරණය කිරීමට නොහැකි විය</string>
+    <string name="session_shell_stop_failed">ෂෙල් නැවැත්වීමට නොහැකි විය</string>
+    <string name="session_quote_remove_description">උපුටාගැනීම ඉවත් කරන්න</string>
+    <string name="session_quote_comment_placeholder">අවශ්‍ය නම් අදහසක් එක් කරන්න…</string>
+    <string name="session_media_title">සැසි මාධ්‍ය</string>
+    <string name="session_media_filter_media">මාධ්‍ය</string>
+    <string name="session_media_filter_files">ගොනු</string>
+    <string name="session_media_filter_links">සබැඳි</string>
+    <string name="session_media_layout_description">මාධ්‍ය පිරිසැලසුම</string>
+    <string name="session_media_layout_tiles">ටයිල්</string>
+    <string name="session_media_layout_list">ලැයිස්තුව</string>
+    <string name="session_media_origin_user">ඔබ යැවූ</string>
+    <string name="session_media_origin_agent">නියෝජිතයා බෙදාගත්</string>
+    <string name="session_media_open_click_label">විවෘත කරන්න</string>
+    <string name="session_media_open_link_click_label">සබැඳිය විවෘත කරන්න</string>
+    <string name="session_media_empty_media_title">මාධ්‍ය නැත</string>
+    <string name="session_media_empty_media_message">මෙම සැසියේ බෙදාගත් රූප, වීඩියෝ සහ ශ්‍රව්‍ය මෙහි දිස්වේ.</string>
+    <string name="session_media_empty_files_title">ගොනු නැත</string>
+    <string name="session_media_empty_files_message">මෙම සැසියේ ලේඛන සහ ඇලවූ පෙළ මෙහි දිස්වේ.</string>
+    <string name="session_media_empty_links_title">සබැඳි නැත</string>
+    <string name="session_media_empty_links_message">මෙම සැසියේ බෙදාගත් වෙබ් සබැඳි මෙහි පෙන්වයි.</string>
+    <string name="session_media_earlier_note">පෙර පණිවිඩ තවම පූරණය කර නැත.</string>
+    <string name="session_media_load_earlier">පෙර පණිවිඩ පූරණය කරන්න</string>
+    <string name="session_media_loading_earlier">පූරණය වෙමින්…</string>
+    <string name="session_media_earlier_failed">පෙර පණිවිඩ පූරණය කිරීමට නොහැකි විය. ඔබේ සම්බන්ධතාවය පරීක්ෂා කර නැවත උත්සාහ කරන්න.</string>
+    <string name="session_media_earlier_nothing_new">දැන් පූරණය වූ පණිවිඩවල අලුත් දෙයක් නැත. පෙර පණිවිඩවල තවත් තිබිය හැක.</string>
+</resources>

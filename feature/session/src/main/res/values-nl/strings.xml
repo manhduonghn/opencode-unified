@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent activity glyph -->
+    <string name="session_activity_running_description">Bezig</string>
+    <!-- Background work panel -->
+    <string name="session_background_work_show_label">Actieve subagents, scripts en shells tonen</string>
+    <string name="session_background_work_collapsed_description">Samengevouwen</string>
+    <string name="session_background_work_subagents_title">Subagents</string>
+    <string name="session_background_work_open_subagent_label">Sessie van de subagent openen</string>
+    <string name="session_background_work_shells_title">Shells</string>
+    <string name="session_background_work_show_shell_label">Uitvoer van de shell tonen</string>
+    <!-- The session's images and videos, paged in the full-screen viewer -->
+    <string name="session_visual_attached_image">Bijgevoegde afbeelding</string>
+    <string name="session_visual_tool_image">Afbeelding van hulpmiddel</string>
+    <string name="session_visual_image">Afbeelding</string>
+    <!-- One image of several: the image's label, then its place, as “Attached image 2 of 3” -->
+    <string name="session_visual_image_page_label">%1$s %2$d van %3$d</string>
+    <!-- A diagram's label, read by TalkBack. %1$s is its kind, as “Diagram, Flowchart” -->
+    <string name="session_visual_diagram_label">Diagram, %1$s</string>
+    <!-- Jump to latest -->
+    <string name="session_scroll_to_latest_description">Ga naar de laatste</string>
+    <!-- Dictation bar -->
+    <string name="session_dictation_finishing_description">Dicteren afronden</string>
+    <string name="session_dictation_stop_recording_description">Opname stoppen</string>
+    <string name="session_dictation_stop_recording_hint">Zet de woorden in je bericht</string>
+    <string name="session_sending_message_description">Bericht verzenden</string>
+    <string name="session_delivery_steer_label">Bijsturen bij de volgende stap</string>
+    <string name="session_delivery_queue_label">In wachtrij plaatsen na dit antwoord</string>
+    <string name="session_delivery_steer">Bijsturen</string>
+    <string name="session_delivery_queue">In wachtrij plaatsen</string>
+    <!-- Draft project picker -->
+    <string name="session_draft_project_choose_label">Kies waar de sessie start</string>
+    <string name="session_project_choose_folder">Map kiezen…</string>
+    <string name="session_project_all_projects">Alle projecten</string>
+    <string name="session_project_selected_description">Geselecteerd</string>
+    <string name="session_project_picker_title">Project</string>
+    <!-- Folder browser -->
+    <string name="session_folder_select_description">Selecteer map</string>
+    <string name="session_folder_path_description">Pad</string>
+    <string name="session_folder_title">Map</string>
+    <string name="session_folder_select">Selecteren</string>
+    <string name="session_folder_open_failed_title">Map openen mislukt</string>
+    <string name="session_folder_empty_title">Geen mappen</string>
+    <string name="session_folder_search_empty_title">Geen resultaten voor “%1$s”</string>
+    <string name="session_folder_search_empty_message">Controleer de spelling of probeer een andere zoekopdracht.</string>
+    <!-- Server connection pill -->
+    <string name="session_server_edit">Server bewerken…</string>
+    <!-- Starter prompts -->
+    <string name="session_starter_prompts_title">Vraag bijvoorbeeld</string>
+    <string name="session_starter_prompt_pick_label">Zet dit in het bericht</string>
+    <!-- Session sheet -->
+    <string name="session_sheet_rename_failed">Hernoemen mislukt</string>
+    <string name="session_sheet_status_description">Status</string>
+    <string name="session_rename_title">Sessie hernoemen</string>
+    <string name="session_untitled_title">Sessie</string>
+    <string name="session_pin">Vastzetten</string>
+    <string name="session_pinned">Vastgezet</string>
+    <string name="session_unread">Ongelezen</string>
+    <string name="session_mute">Dempen</string>
+    <string name="session_muted">Gedempt</string>
+    <string name="session_compact">Comprimeren</string>
+    <string name="session_fork">Afsplitsen</string>
+    <string name="session_toggle_on_description">Aan</string>
+    <string name="session_toggle_off_description">Uit</string>
+    <string name="session_export">Exporteren</string>
+    <string name="session_export_markdown">Markdown</string>
+    <string name="session_export_json">JSON</string>
+    <string name="session_sheet_model">Model</string>
+    <string name="session_sheet_context">Context</string>
+    <string name="session_sheet_unknown_description">Onbekend</string>
+    <string name="session_sheet_context_tokens">%1$s tokens</string>
+    <string name="session_sheet_cost">Kosten</string>
+    <string name="session_sheet_media">Media</string>
+    <string name="session_sheet_media_value">Bestanden en links</string>
+    <string name="session_always_notify">Altijd melden</string>
+    <string name="session_always_notify_message_phone">Stuur een melding naar deze telefoon wanneer een antwoord klaar is, ook als je het bericht niet vanaf hier hebt verstuurd.</string>
+    <string name="session_always_notify_message_tablet">Stuur een melding naar deze tablet wanneer een antwoord klaar is, ook als je het bericht niet vanaf hier hebt verstuurd.</string>
+    <string name="session_delete_session">Sessie verwijderen</string>
+    <string name="session_rename_placeholder">Titel</string>
+    <string name="session_auto_rename">Automatisch hernoemen</string>
+    <string name="session_delete_confirm_title">“%1$s” verwijderen?</string>
+    <string name="session_delete_confirm_message">Dit verwijdert de sessie van de server voor alle clients.</string>
+    <!-- Transcript -->
+    <string name="session_move_to_background">Naar de achtergrond verplaatsen</string>
+    <string name="session_move_to_background_hint">Laat het werk op de achtergrond doorgaan zodat de agent je volgende bericht leest</string>
+    <!-- Attachments -->
+    <string name="session_attachment_add_image_failed_title">Afbeelding toevoegen mislukt</string>
+    <string name="session_attachment_upload">Uploaden</string>
+    <string name="session_attachment_remove_image_description">Afbeeldingsbijlage %1$d verwijderen</string>
+    <string name="session_attachment_remove_description">%1$s verwijderen</string>
+    <string name="session_attachment_file_description">Bestandsbijlage %1$s</string>
+    <string name="session_attachment_cancel_upload_description">Upload van %1$s annuleren</string>
+    <string name="session_attachment_open_photo_label">Foto op volledig scherm openen</string>
+    <string name="session_attachment_image_description">Afbeeldingsbijlage %1$d</string>
+    <string name="session_attachment_video_description">Videobijlage %1$d</string>
+    <!-- Composer controls -->
+    <string name="session_answer_own_description">Je eigen antwoord</string>
+    <string name="session_answer_own_type_label">Typ of dicteer je eigen antwoord</string>
+    <string name="session_answer_own_clear_label">Je eigen antwoord opzijzetten</string>
+    <string name="session_answer_own_choose_label">Antwoord in je eigen woorden</string>
+    <string name="session_answer_decline_with_words_label">Vertel de agent wat hij in plaats daarvan moet doen</string>
+    <string name="session_answer_required_description">Kies een antwoord of typ je eigen antwoord</string>
+    <string name="session_dictate_message_description">Bericht dicteren</string>
+    <string name="session_dictate_message_hint">Dicteer je bericht of houd ingedrukt om op te nemen en te verzenden</string>
+    <string name="session_send_waiting_for_uploads_description">Verzenden zodra de uploads klaar zijn</string>
+    <string name="session_steer_message_description">Bericht bijsturen</string>
+    <string name="session_stopping_description">Bezig met stoppen</string>
+    <string name="session_start_voice_call">Spraakoproep starten</string>
+    <string name="session_dictation_stop_description">Dicteren stoppen</string>
+    <!-- Composer -->
+    <string name="session_requests_load_failed_title">Verzoeken laden mislukt</string>
+    <plurals name="session_queued_count">
+        <item quantity="one">%1$d in de wachtrij</item>
+        <item quantity="other">%1$d in de wachtrij</item>
+    </plurals>
+    <string name="session_queued_show_label">Toon berichten die wachten tot dit antwoord klaar is</string>
+    <plurals name="session_queued_messages_description">
+        <item quantity="one">%1$d bericht in de wachtrij</item>
+        <item quantity="other">%1$d berichten in de wachtrij</item>
+    </plurals>
+    <string name="session_dictation_preparing">Dicteren voorbereiden…</string>
+    <string name="session_message_placeholder">Bericht</string>
+    <!-- Session header -->
+    <string name="session_back_to_main_description">Terug naar de hoofdsessie</string>
+    <string name="session_header_open_from_catch_up_label">Sessie openen en Bijlezen verlaten</string>
+    <string name="session_header_show_details_label">Sessiedetails tonen</string>
+    <string name="session_header_idle_description">Inactief</string>
+    <string name="session_header_syncing_description">Synchroniseren</string>
+    <string name="session_header_last_known_description">Laatst bekend</string>
+    <string name="session_menu_more_description">Meer</string>
+    <string name="session_unpin">Losmaken</string>
+    <string name="session_copy_session_id">Sessie-ID kopiëren</string>
+    <string name="session_mark_as_read">Markeren als gelezen</string>
+    <string name="session_mark_as_unread">Markeren als ongelezen</string>
+    <string name="session_unmute">Dempen opheffen</string>
+    <string name="session_menu_export_expanded_description">Uitgevouwen</string>
+    <string name="session_menu_export_collapsed_description">Samengevouwen</string>
+    <string name="session_info">Sessie-info</string>
+    <!-- Session screen -->
+    <string name="session_load_failed_title">Sessie laden mislukt</string>
+    <string name="session_location_share_failed_title">Locatie delen mislukt</string>
+    <!-- Shell output -->
+    <string name="session_shell_stop_confirm_title">Deze shell stoppen?</string>
+    <string name="session_shell_stop_confirm_message">De opdracht stopt meteen. De uitvoer blijft hier staan tot je dit venster sluit.</string>
+    <string name="session_shell_stop">Shell stoppen</string>
+    <string name="session_shell_copy_output">Uitvoer kopiëren</string>
+    <string name="session_shell_share_output">Uitvoer delen</string>
+    <string name="session_shell_earlier_output_hidden">Eerdere uitvoer verborgen</string>
+    <string name="session_shell_showing_last_output">Laatste 4 MB wordt getoond</string>
+    <string name="session_shell_load_earlier">Eerdere uitvoer laden</string>
+    <string name="session_shell_output_unavailable_title">Uitvoer niet beschikbaar</string>
+    <string name="session_shell_output_unavailable_message">De server heeft de uitvoer van deze shell niet meer.</string>
+    <string name="session_shell_no_output_yet_title">Nog geen uitvoer</string>
+    <string name="session_shell_no_output_title">Geen uitvoer</string>
+    <string name="session_shell_no_output_yet_message">Uitvoer verschijnt hier zodra de opdracht die schrijft.</string>
+    <string name="session_shell_status_stopping">Bezig met stoppen…</string>
+    <string name="session_shell_status_unavailable">Niet beschikbaar</string>
+    <string name="session_shell_status_interrupted">Onderbroken</string>
+    <string name="session_shell_status_timed_out">Time-out</string>
+    <string name="session_shell_status_exited_with_code">Beëindigd met code %1$d</string>
+    <string name="session_shell_status_exited">Beëindigd</string>
+    <plurals name="session_shell_elapsed_hours">
+        <item quantity="one">%1$d uur</item>
+        <item quantity="other">%1$d uur</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_minutes">
+        <item quantity="one">%1$d minuut</item>
+        <item quantity="other">%1$d minuten</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_seconds">
+        <item quantity="one">%1$d seconde</item>
+        <item quantity="other">%1$d seconden</item>
+    </plurals>
+
+    <!-- Agent activity (glyph labels and titles) -->
+    <string name="session_activity_idle">Inactief</string>
+    <string name="session_activity_starting_up">Opstarten</string>
+    <string name="session_activity_thinking">Denken</string>
+    <string name="session_activity_long_work">Langdurig bezig</string>
+    <string name="session_activity_tool_burst">Reeks hulpmiddelacties</string>
+    <string name="session_activity_streaming_output">Uitvoer streamen</string>
+    <string name="session_activity_waiting_for_input">Wachten op invoer</string>
+    <string name="session_activity_handing_off">Overdragen</string>
+    <string name="session_activity_done">Klaar</string>
+    <string name="session_activity_failed">Mislukt</string>
+    <string name="session_working_stopping">Bezig met stoppen…</string>
+    <string name="session_status_working">Bezig</string>
+    <string name="session_status_needs_input">Je invoer is nodig</string>
+    <string name="session_status_done">Klaar</string>
+
+    <!-- Lists: joins two or three phrases -->
+    <string name="session_list_two">%1$s, %2$s</string>
+    <string name="session_list_three">%1$s, %2$s, %3$s</string>
+
+    <!-- Background work panel -->
+    <plurals name="session_background_work_subagent_count">
+        <item quantity="one">%1$d subagent</item>
+        <item quantity="other">%1$d subagenten</item>
+    </plurals>
+    <plurals name="session_background_work_shell_count">
+        <item quantity="one">%1$d shell</item>
+        <item quantity="other">%1$d shells</item>
+    </plurals>
+    <plurals name="session_background_work_script_count">
+        <item quantity="one">%1$d script</item>
+        <item quantity="other">%1$d scripts</item>
+    </plurals>
+    <string name="session_background_work_summary">%1$s · %2$s</string>
+    <string name="session_background_work_scripts_title">Scripts</string>
+    <string name="session_background_work_stop_script_label">Script stoppen</string>
+    <string name="session_background_work_stop_subagent_label">Subagent stoppen</string>
+    <string name="session_background_work_stop_script_failed">Script stoppen mislukt</string>
+    <string name="session_background_work_stop_subagent_failed">Subagent stoppen mislukt</string>
+
+    <!-- Composer buttons -->
+    <string name="session_send_message_description">Bericht verzenden</string>
+    <string name="session_stop_description">Stoppen</string>
+    <string name="session_start_voice_call_description">Spraakoproep starten</string>
+    <string name="session_model_level_default">Standaard</string>
+
+    <!-- In-app notice -->
+    <plurals name="session_notice_session_count">
+        <item quantity="one">%1$d sessie</item>
+        <item quantity="other">%1$d sessies</item>
+    </plurals>
+    <plurals name="session_notice_needs_input_count">
+        <item quantity="one">%1$d wacht op je invoer</item>
+        <item quantity="other">%1$d wachten op je invoer</item>
+    </plurals>
+    <string name="session_notice_announcement">%1$s, %2$s</string>
+
+    <!-- Server connection pill -->
+    <string name="session_server_reconnecting">Opnieuw verbinden met %1$s…</string>
+    <string name="session_server_connect_failed">Verbinden met %1$s mislukt</string>
+    <string name="session_server_sign_in_failed">Aanmelden bij %1$s mislukt</string>
+    <string name="session_server_pair_again">Opnieuw koppelen</string>
+    <string name="session_server_try_again_click_label">opnieuw proberen</string>
+    <string name="session_server_pair_again_click_label">opnieuw koppelen</string>
+
+    <!-- Export -->
+    <string name="session_export_folder_failed">Exportmap maken mislukt</string>
+    <string name="session_export_save_failed">Export opslaan mislukt</string>
+
+    <!-- Session errors -->
+    <string name="session_agent_fallback_name">Agent</string>
+    <string name="session_something_went_wrong">Er is iets misgegaan</string>
+    <string name="session_something_went_wrong_sentence">Er is iets misgegaan.</string>
+    <string name="session_load_earlier_failed">Eerdere berichten laden mislukt</string>
+    <string name="session_move_to_background_failed">Naar de achtergrond verplaatsen mislukt: %1$s</string>
+    <string name="session_move_failed_reason">Sessie verplaatsen mislukt</string>
+    <string name="session_delivery_waiting_to_send">Wachten op verzending</string>
+    <string name="session_create_failed">Sessie maken mislukt.</string>
+    <string name="session_switch_agent_failed">Agent wisselen mislukt: %1$s</string>
+    <string name="session_switch_model_failed">Model wisselen mislukt: %1$s</string>
+    <string name="session_pending_send_now_failed_details">Bericht nu verzenden mislukt: %1$s</string>
+    <string name="session_pending_cancel_failed_details">Wachtend bericht annuleren mislukt: %1$s</string>
+    <string name="session_pending_queue_failed_details">Wachtend bericht in wachtrij plaatsen mislukt: %1$s</string>
+    <string name="session_stopped_before_sent">Onderbroken vóór verzending</string>
+    <string name="session_stop_failed">Sessie stoppen mislukt</string>
+    <string name="session_undo_message_failed">Bericht ongedaan maken mislukt: %1$s</string>
+    <string name="session_revert_failed">Terugdraaien mislukt</string>
+    <string name="session_revert_failed_details">Terugdraaien mislukt: %1$s</string>
+
+    <!-- Session sheet errors -->
+    <string name="session_sheet_rename_failed_title">Sessie hernoemen mislukt</string>
+    <string name="session_sheet_compact_failed_title">Sessie comprimeren mislukt</string>
+    <string name="session_sheet_fork_failed_title">Sessie afsplitsen mislukt</string>
+    <string name="session_sheet_save_export_failed">Export opslaan mislukt</string>
+    <string name="session_sheet_export_failed_title">Sessie exporteren mislukt</string>
+    <string name="session_sheet_notifications_off_message">Zet eerst meldingen aan in Instellingen.</string>
+    <string name="session_sheet_always_notify_on_failed_title">Altijd melden inschakelen mislukt</string>
+    <string name="session_sheet_always_notify_off_failed_title">Altijd melden uitschakelen mislukt</string>
+
+    <!-- Attachments -->
+    <string name="session_attachment_files_unsupported">Server ondersteunt geen bestanden</string>
+    <string name="session_attachment_upload_failed">Upload mislukt</string>
+    <string name="session_attachment_file_fallback_name">Bestand</string>
+    <string name="session_attachment_image_too_large">Kies een afbeelding kleiner dan 20 MB.</string>
+    <string name="session_attachment_image_load_failed">Deze afbeelding kon niet worden geladen. Probeer een andere foto.</string>
+    <string name="session_attachment_file_add_failed">Dit bestand kon niet worden toegevoegd. Probeer een ander bestand.</string>
+    <plurals name="session_attachment_files_add_failed">
+        <item quantity="one">%1$d bestand kon niet worden toegevoegd.</item>
+        <item quantity="other">%1$d bestanden konden niet worden toegevoegd.</item>
+    </plurals>
+    <string name="session_large_upload_title">%1$s uploaden?</string>
+    <string name="session_large_upload_message_one">“%1$s” is een groot bestand. Het bericht wordt verzonden zodra de upload naar je server klaar is.</string>
+    <plurals name="session_large_upload_message_many">
+        <item quantity="one">%1$d bestand is groot. Het bericht wordt verzonden zodra de upload naar je server klaar is.</item>
+        <item quantity="other">%1$d bestanden zijn groot. Het bericht wordt verzonden zodra de upload naar je server klaar is.</item>
+    </plurals>
+
+    <!-- Header and screens -->
+    <string name="session_new_session_title">Nieuwe sessie</string>
+    <string name="session_pasted_text_screen_title">Geplakte tekst</string>
+    <string name="session_pasted_text_viewer_screen_title">Weergave van geplakte tekst</string>
+    <string name="session_context_summary">%1$d%% van %2$s</string>
+    <string name="session_context_accessibility_value">%1$d%% van %2$s tokens gebruikt</string>
+
+    <!-- Starter prompts (shown, then sent as the person’s message) -->
+    <string name="session_starter_project_purpose">Wat doet dit project?</string>
+    <string name="session_starter_code_tour">Geef me een korte rondleiding door de code</string>
+    <string name="session_starter_recent_changes">Wat is hier onlangs veranderd?</string>
+
+    <!-- Shell output -->
+    <string name="session_shell_refresh_failed">Uitvoer vernieuwen mislukt</string>
+    <string name="session_shell_load_earlier_failed">Eerdere uitvoer laden mislukt</string>
+    <string name="session_shell_stop_failed">Shell stoppen mislukt</string>
+    <string name="session_quote_remove_description">Citaat verwijderen</string>
+    <string name="session_quote_comment_placeholder">Voeg eventueel een opmerking toe…</string>
+    <string name="session_media_title">Sessiemedia</string>
+    <string name="session_media_filter_media">Media</string>
+    <string name="session_media_filter_files">Bestanden</string>
+    <string name="session_media_filter_links">Links</string>
+    <string name="session_media_layout_description">Media-indeling</string>
+    <string name="session_media_layout_tiles">Tegels</string>
+    <string name="session_media_layout_list">Lijst</string>
+    <string name="session_media_origin_user">Door jou verzonden</string>
+    <string name="session_media_origin_agent">Gedeeld door de agent</string>
+    <string name="session_media_open_click_label">Openen</string>
+    <string name="session_media_open_link_click_label">Link openen</string>
+    <string name="session_media_empty_media_title">Geen media</string>
+    <string name="session_media_empty_media_message">Afbeeldingen, video\'s en audio die in deze sessie zijn gedeeld, verschijnen hier.</string>
+    <string name="session_media_empty_files_title">Geen bestanden</string>
+    <string name="session_media_empty_files_message">Documenten en geplakte tekst uit deze sessie verschijnen hier.</string>
+    <string name="session_media_empty_links_title">Geen links</string>
+    <string name="session_media_empty_links_message">Weblinks die in deze sessie zijn gedeeld, verschijnen hier.</string>
+    <string name="session_media_earlier_note">Eerdere berichten zijn nog niet geladen.</string>
+    <string name="session_media_load_earlier">Eerdere berichten laden</string>
+    <string name="session_media_loading_earlier">Laden…</string>
+    <string name="session_media_earlier_failed">Eerdere uitvoer laden mislukt. Controleer je verbinding en probeer het opnieuw.</string>
+    <string name="session_media_earlier_nothing_new">Niets nieuws in de zojuist geladen uitvoer. Eerdere uitvoer bevat mogelijk meer.</string>
+</resources>

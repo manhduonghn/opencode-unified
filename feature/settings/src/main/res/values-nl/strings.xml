@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Appearance -->
+    <string name="settings_appearance_title">Uiterlijk</string>
+    <string name="settings_appearance_mode_header">Modus</string>
+    <string name="settings_appearance_theme">Thema</string>
+
+    <!-- Appearance › Themes -->
+    <string name="settings_themes_title">Thema\'s</string>
+    <string name="settings_themes_preview_description">Transcriptievoorbeeld</string>
+    <string name="settings_themes_preview_user_message">Help me het sessiescherm te verbeteren. Laat zien wat je vindt en leg de wijzigingen uit.</string>
+    <string name="settings_themes_preview_reply">Ik heb het lay-outprobleem in %1$s gevonden. De transcriptie en berichtinvoer delen de beschikbare hoogte, dus het toetsenbord is een goede stresstest.</string>
+
+    <!-- Language -->
+    <string name="settings_language_title">Taal</string>
+    <string name="settings_language_system_default">Systeemstandaard</string>
+    <string name="settings_language_search_placeholder">Zoek talen</string>
+    <string name="settings_language_suggested_header">Voorgesteld</string>
+    <string name="settings_language_all_header">Alle talen</string>
+    <string name="settings_language_no_matches">Geen overeenkomende talen</string>
+
+    <!-- Experimental -->
+    <string name="settings_experimental_title">Experimenteel</string>
+    <string name="settings_experimental_all_footer">Schakelt ook nieuwe experimenten in, behalve als ze je scherm bekijken of op de achtergrond luisteren.</string>
+    <string name="settings_experimental_all">Alle experimenten</string>
+    <string name="settings_experimental_all_on">Alles aan</string>
+    <plurals name="settings_experimental_on_count">
+        <item quantity="one">%d aan</item>
+        <item quantity="other">%d aan</item>
+    </plurals>
+
+    <!-- Models -->
+    <string name="settings_models_title">Modellen</string>
+    <string name="settings_models_mode_hide">Verbergen</string>
+    <string name="settings_models_mode_only_show">Alleen tonen</string>
+    <string name="settings_models_mode_hide_footer">Schakel de modellen uit die je niet gebruikt.</string>
+    <string name="settings_models_mode_only_show_footer">Schakel alleen de modellen in die je gebruikt.</string>
+    <string name="settings_models_providers_header">Aanbieders</string>
+    <string name="settings_models_stale_header">Niet meer aangeboden</string>
+    <string name="settings_models_forget_unavailable">Niet-beschikbare modellen vergeten</string>
+    <string name="settings_models_show_every_model">Alle modellen tonen</string>
+    <string name="settings_models_load_failed_title">Modellen laden mislukt</string>
+    <string name="settings_models_summary_hidden">Verborgen</string>
+    <string name="settings_models_summary_all">Alle</string>
+    <string name="settings_models_summary_count">%1$d van %2$d</string>
+
+    <!-- Models › Provider -->
+    <string name="settings_models_search_placeholder">Zoek modellen</string>
+    <string name="settings_models_show_provider">Toon %1$s</string>
+
+    <!-- Notifications -->
+    <string name="settings_notifications_title">Meldingen</string>
+    <string name="settings_notifications_device_header">Deze %1$s</string>
+    <string name="settings_notifications_device_footer">Meldingen gaan via een tussenserver die niets opslaat. Alleen sessies die op deze %1$s zijn gestart, sturen er meldingen naartoe.</string>
+    <string name="settings_notifications_allow">Meldingen toestaan</string>
+    <string name="settings_notifications_open_android_settings">Android-instellingen openen</string>
+    <string name="settings_notifications_turn_on">Meldingen inschakelen</string>
+    <string name="settings_notifications_server_header">Server</string>
+    <string name="settings_notifications_set_up_footer">Opent een sessie met het verzoek aan OpenCode om de plug-in te installeren. Verzend het bericht en controleer opnieuw.</string>
+    <string name="settings_notifications_plugin_needed_footer">De server heeft de OpenCode notify-plug-in nodig.</string>
+    <string name="settings_notifications_notify_plugin">Notify-plug-in</string>
+    <string name="settings_notifications_plugin_installed">Geïnstalleerd</string>
+    <string name="settings_notifications_plugin_not_running">Niet actief</string>
+    <string name="settings_notifications_plugin_not_installed">Niet geïnstalleerd</string>
+    <string name="settings_notifications_plugin_check_failed">Status controleren mislukt</string>
+    <string name="settings_notifications_set_up">Instellen met OpenCode</string>
+    <string name="settings_notifications_check_again">Opnieuw controleren</string>
+    <string name="settings_notifications_in_app_footer">Worden op de zijmenuknop getoond.</string>
+    <string name="settings_notifications_in_app_notices">Meldingen in de app</string>
+
+    <!-- Sessions -->
+    <string name="settings_sessions_title">Sessies</string>
+    <string name="settings_sessions_composer_header">Berichtinvoer</string>
+    <string name="settings_sessions_return_key_sends">Verzenden met Enter</string>
+    <string name="settings_sessions_new_sessions_header">Nieuwe sessies</string>
+    <string name="settings_sessions_server_default">Serverstandaard</string>
+    <string name="settings_sessions_default_agent">Standaardagent</string>
+
+    <!-- Shared values -->
+    <string name="settings_value_on">Aan</string>
+    <string name="settings_value_off">Uit</string>
+
+    <!-- Sound Effects -->
+    <string name="settings_sound_effects_volume">Volume</string>
+    <string name="settings_sound_effects_volume_description">Volume van geluidseffecten</string>
+    <string name="settings_sound_effects_send_sound">Verzendgeluid</string>
+
+    <!-- Voice › Delegator -->
+    <string name="settings_delegator_title">Delegator</string>
+    <string name="settings_delegator_other_server_note">“%1$s” staat op een andere server. Kies er een op deze server of wissel van server.</string>
+    <string name="settings_delegator_mode_footer">Ingebouwd werkt via OpenAI, zonder sessie. OpenCode-sessie werkt in een sessie op je server.</string>
+    <string name="settings_delegator_built_in">Ingebouwd</string>
+    <string name="settings_delegator_opencode_session">OpenCode-sessie</string>
+    <string name="settings_delegator_target_header">Doelsessie</string>
+    <string name="settings_delegator_target_footer">Automatisch gebruikt een sessie met de naam “Voice” op deze server. Huidige sessie gebruikt de sessie op het scherm.</string>
+    <string name="settings_delegator_automatic">Automatisch</string>
+    <string name="settings_delegator_viewed_session">Huidige sessie</string>
+    <string name="settings_delegator_search_placeholder">Zoek sessies</string>
+    <string name="settings_delegator_sessions_header">Kies een sessie</string>
+    <string name="settings_delegator_sessions_footer">Een gekozen sessie behoudt zijn model.</string>
+    <string name="settings_delegator_no_sessions">Geen sessies op deze server</string>
+    <string name="settings_delegator_no_matching_sessions">Geen overeenkomende sessies</string>
+    <string name="settings_delegator_new_session">Nieuwe sessie</string>
+    <string name="settings_delegator_direct">Direct</string>
+    <string name="settings_delegator_direct_session_unavailable">Direct · Sessie niet beschikbaar</string>
+    <string name="settings_delegator_another_server">%1$s · Andere server</string>
+
+    <!-- Voice › Key Editor -->
+    <string name="settings_voice_key_hide_description">Sleutel verbergen</string>
+    <string name="settings_voice_key_show_description">Toon sleutel</string>
+    <string name="settings_voice_key_verify">Controleren</string>
+
+    <!-- Voice › Voice Provider -->
+    <string name="settings_voice_provider_title">Spraakaanbieder</string>
+    <string name="settings_voice_provider_place">Op %1$s</string>
+    <string name="settings_voice_api_key_title">API-sleutel</string>
+    <string name="settings_voice_provider_automatic_footer">Als %1$s niet klaar is voor gebruik, gebruiken oproepen een andere aanbieder die dat wel is.</string>
+    <string name="settings_voice_provider_choose_automatically">Automatisch kiezen</string>
+    <string name="settings_voice_provider_others_header">Andere aanbieders</string>
+    <string name="settings_voice_provider_use_description">%1$s gebruiken</string>
+    <string name="settings_voice_provider_use">Gebruiken</string>
+    <string name="settings_voice_provider_set_up">Instellen</string>
+    <plurals name="settings_voice_provider_not_available_count">
+        <item quantity="one">%d niet beschikbaar</item>
+        <item quantity="other">%d niet beschikbaar</item>
+    </plurals>
+
+    <!-- Voice › API Key -->
+    <string name="settings_voice_account_title">Je OpenAI-account</string>
+    <string name="settings_voice_account_place">Op deze telefoon</string>
+    <string name="settings_voice_account_key_footer">Oproepen gebruiken je OpenAI-account in plaats van een server.</string>
+    <string name="settings_voice_account_use_for_calls">Gebruiken voor oproepen</string>
+
+    <!-- Voice -->
+    <string name="settings_voice_title">Spraak</string>
+    <string name="settings_voice_call_setup_header">Oproepinstellingen</string>
+    <string name="settings_voice_calls_header">Oproepen</string>
+    <string name="settings_voice_raise_to_talk_hint">Schakel in of uit dat een oproep via de oorspeaker start wanneer je in een sessie je telefoon naar je oor brengt</string>
+    <string name="settings_voice_enable">Spraak inschakelen</string>
+    <string name="settings_voice_model">Model</string>
+    <string name="settings_voice_model_description">Spraakmodel</string>
+    <string name="settings_voice_call_voice">Stem</string>
+    <string name="settings_voice_raise_to_talk">Optillen om te praten</string>
+    <string name="settings_voice_call_sounds">Oproepgeluiden</string>
+    <string name="settings_voice_call_history">Oproepgeschiedenis</string>
+    <string name="settings_voice_edit_key_label">Je API-sleutel voor %1$s bewerken</string>
+    <string name="settings_voice_key_verified">Geverifieerd</string>
+    <string name="settings_voice_key_checking">Controleren…</string>
+    <string name="settings_voice_key_saved">Opgeslagen</string>
+    <string name="settings_voice_key_missing">Ontbreekt</string>
+    <string name="settings_voice_preview_disabled_hint">Voeg je sleutel voor %1$s toe om stemmen te beluisteren</string>
+
+    <!-- Voice › Voice Picker -->
+    <string name="settings_voice_picker_add_key_footer">Voeg je sleutel voor %1$s toe om stemmen te beluisteren.</string>
+    <string name="settings_voice_picker_unavailable_footer">%1$s is niet beschikbaar op %2$s, dus oproepen gebruiken %3$s.</string>
+    <string name="settings_voice_stop_preview_description">Stemvoorbeeld van %1$s stoppen</string>
+    <string name="settings_voice_preview_description">%1$s beluisteren</string>
+    <string name="settings_voice_preview_playing">Wordt afgespeeld</string>
+    <string name="settings_voice_call_voice_unavailable">%1$s · %2$s niet beschikbaar</string>
+
+    <!-- Settings root -->
+    <string name="settings_whats_new_title">Wat is er nieuw</string>
+    <string name="settings_developer_title">Ontwikkelaar</string>
+    <string name="settings_app_version">Versie %1$s (%2$s)</string>
+    <string name="settings_app_version_commit">Versie %1$s (%2$s) · %3$s</string>
+
+    <!-- Connection card -->
+    <string name="settings_connection_show_server_label">Toon de server</string>
+    <string name="settings_connection_milliseconds">%1$d ms</string>
+    <string name="settings_connection_card_value_description">%1$s, %2$s, %3$s</string>
+    <string name="settings_connection_status_connected">Verbonden</string>
+    <string name="settings_connection_status_slow">Traag</string>
+    <string name="settings_connection_status_unstable">Instabiel</string>
+    <string name="settings_connection_status_reconnecting">Opnieuw verbinden</string>
+    <string name="settings_connection_status_offline">Offline</string>
+    <string name="settings_connection_status_sign_in_failed">Aanmelden mislukt</string>
+    <string name="settings_connection_status_switching">Overschakelen</string>
+    <string name="settings_connection_status_switching_to">Overschakelen naar %1$s</string>
+    <string name="settings_connection_status_code">%1$s · %2$d</string>
+    <string name="settings_connection_status_http_description">%1$s, HTTP %2$d</string>
+    <plurals name="settings_connection_status_milliseconds_description">
+        <item quantity="one">%1$s, %2$d milliseconde</item>
+        <item quantity="other">%1$s, %2$d milliseconden</item>
+    </plurals>
+
+    <!-- Server page -->
+    <string name="settings_server_title">Server</string>
+    <string name="settings_server_address">Adres</string>
+    <string name="settings_server_connection">Verbinding</string>
+    <string name="settings_server_version">Versie</string>
+    <string name="settings_server_edit_server">Server bewerken…</string>
+    <string name="settings_server_rename_server_ellipsis">Server hernoemen…</string>
+    <string name="settings_server_rename_title">Server hernoemen</string>
+    <string name="settings_server_rename_message">Alleen deze %1$s gebruikt de naam. Laat leeg voor ‘%2$s’.</string>
+    <string name="settings_server_status">Status</string>
+    <string name="settings_server_status_milliseconds">%1$s · %2$d ms</string>
+
+    <!-- Servers section -->
+    <string name="settings_servers_header">Servers</string>
+    <string name="settings_servers_edit_server">%1$s bewerken…</string>
+    <string name="settings_servers_rename_message">Alleen deze %1$s gebruikt de naam. Laat leeg om de computernaam te gebruiken.</string>
+    <string name="settings_servers_remove_title">%1$s verwijderen?</string>
+    <string name="settings_servers_remove_message">Dit verwijdert het adres en wachtwoord op deze %1$s. Sessies op de server blijven behouden.</string>
+    <string name="settings_servers_remove_server">Server verwijderen</string>
+    <string name="settings_servers_current_server_state">Huidige server, %1$s</string>
+    <string name="settings_servers_switch_label">Overschakelen naar deze server</string>
+    <string name="settings_servers_options_description">Opties voor %1$s</string>
+    <string name="settings_servers_rename_menu">Hernoemen…</string>
+    <string name="settings_servers_edit_menu">Bewerken…</string>
+    <string name="settings_servers_remove_menu">Verwijderen…</string>
+    <string name="settings_servers_add_server">Server toevoegen</string>
+    <string name="settings_servers_scan_pairing_code">Koppelcode scannen</string>
+    <string name="settings_servers_enter_address">Adres invoeren</string>
+
+    <!-- Pairing scanner -->
+    <string name="settings_pairing_paste">Plakken</string>
+    <string name="settings_pairing_no_camera_title">Geen camera beschikbaar</string>
+    <string name="settings_pairing_no_camera_message">Kopieer de link die `opencode pair` op je computer toont en plak die hier.</string>
+    <string name="settings_pairing_camera_off_title">Cameratoegang uitgeschakeld</string>
+    <string name="settings_pairing_camera_off_message">Sta cameratoegang toe in Instellingen om de QR-code te scannen, of plak de link die `opencode pair` toont.</string>
+    <string name="settings_pairing_nothing_to_paste_title">Niets om te plakken</string>
+    <string name="settings_pairing_nothing_to_paste_message">Er staat geen koppellink op je klembord. Kopieer de link die opencode pair toont en probeer het opnieuw.</string>
+    <string name="settings_pairing_point_camera">Richt je camera op de QR-code</string>
+    <string name="settings_pairing_paste_link">Koppellink plakken</string>
+    <string name="settings_pairing_computer_hint">Open op je computer Instellingen → Koppelen in OpenCode, of voer %1$s uit in een terminal.</string>
+</resources>

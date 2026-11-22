@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Appearance -->
+    <string name="settings_appearance_title">Зовнішній вигляд</string>
+    <string name="settings_appearance_mode_header">Режим</string>
+    <string name="settings_appearance_theme">Тема</string>
+
+    <!-- Appearance › Themes -->
+    <string name="settings_themes_title">Теми</string>
+    <string name="settings_themes_preview_description">Попередній перегляд розшифровки</string>
+    <string name="settings_themes_preview_user_message">Допоможи покращити екран сесії. Покажи, що знайдеш, і поясни зміни.</string>
+    <string name="settings_themes_preview_reply">Знайшов проблему з компонуванням у %1$s. Розшифровка й редактор повідомлень ділять доступну висоту, тож клавіатура добре допомагає перевірити компонування.</string>
+
+    <!-- Language -->
+    <string name="settings_language_title">Мова</string>
+    <string name="settings_language_system_default">Системна за замовчуванням</string>
+    <string name="settings_language_search_placeholder">Пошук мов</string>
+    <string name="settings_language_suggested_header">Рекомендовані</string>
+    <string name="settings_language_all_header">Усі мови</string>
+    <string name="settings_language_no_matches">Відповідних мов немає</string>
+
+    <!-- Experimental -->
+    <string name="settings_experimental_title">Експериментальний</string>
+    <string name="settings_experimental_all_footer">Також вмикає нові функції, крім тих, що бачать ваш екран або слухають у фоні.</string>
+    <string name="settings_experimental_all">Усі експерименти</string>
+    <string name="settings_experimental_all_on">Усе ввімкнено</string>
+    <plurals name="settings_experimental_on_count">
+        <item quantity="one">%d увімкнено</item>
+        <item quantity="few">%d увімкнено</item>
+        <item quantity="many">%d увімкнено</item>
+        <item quantity="other">%d увімкнено</item>
+    </plurals>
+
+    <!-- Models -->
+    <string name="settings_models_title">Моделі</string>
+    <string name="settings_models_mode_hide">Приховати</string>
+    <string name="settings_models_mode_only_show">Показувати лише</string>
+    <string name="settings_models_mode_hide_footer">Вимкніть моделі, якими не користуєтеся.</string>
+    <string name="settings_models_mode_only_show_footer">Увімкніть лише ті моделі, якими користуєтеся.</string>
+    <string name="settings_models_providers_header">Провайдери</string>
+    <string name="settings_models_stale_header">Більше не доступні</string>
+    <string name="settings_models_forget_unavailable">Забути недоступні моделі</string>
+    <string name="settings_models_show_every_model">Показати всі моделі</string>
+    <string name="settings_models_load_failed_title">Не вдалося завантажити моделі</string>
+    <string name="settings_models_summary_hidden">Приховано</string>
+    <string name="settings_models_summary_all">Усі</string>
+    <string name="settings_models_summary_count">%1$d з %2$d</string>
+
+    <!-- Models › Provider -->
+    <string name="settings_models_search_placeholder">Пошук моделей</string>
+    <string name="settings_models_show_provider">Показати %1$s</string>
+
+    <!-- Notifications -->
+    <string name="settings_notifications_title">Сповіщення</string>
+    <string name="settings_notifications_device_header">Цей %1$s</string>
+    <string name="settings_notifications_device_footer">Сповіщення проходять через проміжний сервер, який нічого не зберігає. Цей %1$s отримує сповіщення лише про сесії, розпочаті на ньому.</string>
+    <string name="settings_notifications_allow">Дозволити сповіщення</string>
+    <string name="settings_notifications_open_android_settings">Відкрити налаштування Android</string>
+    <string name="settings_notifications_turn_on">Увімкнути сповіщення</string>
+    <string name="settings_notifications_server_header">Сервер</string>
+    <string name="settings_notifications_set_up_footer">Відкриє сесію із запитом до OpenCode встановити плагін. Надішліть запит і перевірте ще раз.</string>
+    <string name="settings_notifications_plugin_needed_footer">Серверу потрібен плагін сповіщень OpenCode.</string>
+    <string name="settings_notifications_notify_plugin">Плагін сповіщень</string>
+    <string name="settings_notifications_plugin_installed">Встановлено</string>
+    <string name="settings_notifications_plugin_not_running">Не працює</string>
+    <string name="settings_notifications_plugin_not_installed">Не встановлено</string>
+    <string name="settings_notifications_plugin_check_failed">Не вдалося перевірити стан</string>
+    <string name="settings_notifications_set_up">Налаштувати з OpenCode</string>
+    <string name="settings_notifications_check_again">Перевірити ще раз</string>
+    <string name="settings_notifications_in_app_footer">Показуються на кнопці бічної панелі.</string>
+    <string name="settings_notifications_in_app_notices">Повідомлення в застосунку</string>
+
+    <!-- Sessions -->
+    <string name="settings_sessions_title">Сесії</string>
+    <string name="settings_sessions_composer_header">Редактор повідомлень</string>
+    <string name="settings_sessions_return_key_sends">Надсилати клавішею Enter</string>
+    <string name="settings_sessions_new_sessions_header">Нові сесії</string>
+    <string name="settings_sessions_server_default">За замовчуванням на сервері</string>
+    <string name="settings_sessions_default_agent">Агент за замовчуванням</string>
+
+    <!-- Shared values -->
+    <string name="settings_value_on">Увімкнено</string>
+    <string name="settings_value_off">Вимкнено</string>
+
+    <!-- Sound Effects -->
+    <string name="settings_sound_effects_volume">Гучність</string>
+    <string name="settings_sound_effects_volume_description">Гучність звукових ефектів</string>
+    <string name="settings_sound_effects_send_sound">Звук надсилання</string>
+
+    <!-- Voice › Delegator -->
+    <string name="settings_delegator_title">Делегатор</string>
+    <string name="settings_delegator_other_server_note">«%1$s» на іншому сервері. Виберіть сесію на цьому сервері або змініть сервер.</string>
+    <string name="settings_delegator_mode_footer">Вбудований режим працює через OpenAI без сесії. Режим сесії OpenCode працює в сесії на вашому сервері.</string>
+    <string name="settings_delegator_built_in">Вбудований</string>
+    <string name="settings_delegator_opencode_session">Сесія OpenCode</string>
+    <string name="settings_delegator_target_header">Цільова сесія</string>
+    <string name="settings_delegator_target_footer">Автоматичний вибір використовує сесію «Voice» на цьому сервері. Поточна сесія — ту, що на екрані.</string>
+    <string name="settings_delegator_automatic">Автоматично</string>
+    <string name="settings_delegator_viewed_session">Поточна сесія</string>
+    <string name="settings_delegator_search_placeholder">Пошук сесій</string>
+    <string name="settings_delegator_sessions_header">Виберіть сесію</string>
+    <string name="settings_delegator_sessions_footer">Вибрана сесія зберігає свою модель.</string>
+    <string name="settings_delegator_no_sessions">На цьому сервері немає сесій</string>
+    <string name="settings_delegator_no_matching_sessions">Відповідних сесій немає</string>
+    <string name="settings_delegator_new_session">Нова сесія</string>
+    <string name="settings_delegator_direct">Напряму</string>
+    <string name="settings_delegator_direct_session_unavailable">Напряму · Сесія недоступна</string>
+    <string name="settings_delegator_another_server">%1$s · Інший сервер</string>
+
+    <!-- Voice › Key Editor -->
+    <string name="settings_voice_key_hide_description">Приховати ключ</string>
+    <string name="settings_voice_key_show_description">Показати ключ</string>
+    <string name="settings_voice_key_verify">Перевірити</string>
+
+    <!-- Voice › Voice Provider -->
+    <string name="settings_voice_provider_title">Голосовий провайдер</string>
+    <string name="settings_voice_provider_place">На %1$s</string>
+    <string name="settings_voice_api_key_title">Ключ API</string>
+    <string name="settings_voice_provider_automatic_footer">Якщо %1$s не готовий, для дзвінків використовується інший доступний провайдер.</string>
+    <string name="settings_voice_provider_choose_automatically">Вибирати автоматично</string>
+    <string name="settings_voice_provider_others_header">Інші провайдери</string>
+    <string name="settings_voice_provider_use_description">Використовувати %1$s</string>
+    <string name="settings_voice_provider_use">Використовувати</string>
+    <string name="settings_voice_provider_set_up">Налаштувати</string>
+    <plurals name="settings_voice_provider_not_available_count">
+        <item quantity="one">%d недоступний</item>
+        <item quantity="few">%d недоступні</item>
+        <item quantity="many">%d недоступних</item>
+        <item quantity="other">%d недоступних</item>
+    </plurals>
+
+    <!-- Voice › API Key -->
+    <string name="settings_voice_account_title">Ваш обліковий запис OpenAI</string>
+    <string name="settings_voice_account_place">На цьому телефоні</string>
+    <string name="settings_voice_account_key_footer">Для дзвінків використовується ваш обліковий запис OpenAI замість сервера.</string>
+    <string name="settings_voice_account_use_for_calls">Використовувати для дзвінків</string>
+
+    <!-- Voice -->
+    <string name="settings_voice_title">Голос</string>
+    <string name="settings_voice_call_setup_header">Налаштування дзвінків</string>
+    <string name="settings_voice_calls_header">Дзвінки</string>
+    <string name="settings_voice_raise_to_talk_hint">Починати дзвінок через розмовний динамік, коли ви підносите телефон до вуха у відкритій сесії</string>
+    <string name="settings_voice_enable">Увімкнути голос</string>
+    <string name="settings_voice_model">Модель</string>
+    <string name="settings_voice_model_description">Голосова модель</string>
+    <string name="settings_voice_call_voice">Голос</string>
+    <string name="settings_voice_raise_to_talk">Піднести, щоб говорити</string>
+    <string name="settings_voice_call_sounds">Звуки дзвінків</string>
+    <string name="settings_voice_call_history">Історія дзвінків</string>
+    <string name="settings_voice_edit_key_label">Редагувати ваш ключ API %1$s</string>
+    <string name="settings_voice_key_verified">Перевірено</string>
+    <string name="settings_voice_key_checking">Перевірка…</string>
+    <string name="settings_voice_key_saved">Збережено</string>
+    <string name="settings_voice_key_missing">Відсутній</string>
+    <string name="settings_voice_preview_disabled_hint">Додайте ключ %1$s, щоб прослухати голоси</string>
+
+    <!-- Voice › Voice Picker -->
+    <string name="settings_voice_picker_add_key_footer">Додайте ключ %1$s, щоб прослухати голоси.</string>
+    <string name="settings_voice_picker_unavailable_footer">%1$s недоступний на %2$s, тому для дзвінків використовується %3$s.</string>
+    <string name="settings_voice_stop_preview_description">Зупинити прослуховування %1$s</string>
+    <string name="settings_voice_preview_description">Прослухати %1$s</string>
+    <string name="settings_voice_preview_playing">Відтворення</string>
+    <string name="settings_voice_call_voice_unavailable">%1$s · %2$s недоступний</string>
+
+    <!-- Settings root -->
+    <string name="settings_whats_new_title">Що нового</string>
+    <string name="settings_developer_title">Для розробників</string>
+    <string name="settings_app_version">Версія %1$s (%2$s)</string>
+    <string name="settings_app_version_commit">Версія %1$s (%2$s) · %3$s</string>
+
+    <!-- Connection card -->
+    <string name="settings_connection_show_server_label">Показати сервер</string>
+    <string name="settings_connection_milliseconds">%1$d мс</string>
+    <string name="settings_connection_card_value_description">%1$s, %2$s, %3$s</string>
+    <string name="settings_connection_status_connected">Підключено</string>
+    <string name="settings_connection_status_slow">Повільне</string>
+    <string name="settings_connection_status_unstable">Нестабільне</string>
+    <string name="settings_connection_status_reconnecting">Повторне підключення</string>
+    <string name="settings_connection_status_offline">Не в мережі</string>
+    <string name="settings_connection_status_sign_in_failed">Не вдалося ввійти</string>
+    <string name="settings_connection_status_switching">Перемикання</string>
+    <string name="settings_connection_status_switching_to">Перемикання на %1$s</string>
+    <string name="settings_connection_status_code">%1$s · %2$d</string>
+    <string name="settings_connection_status_http_description">%1$s, HTTP %2$d</string>
+    <plurals name="settings_connection_status_milliseconds_description">
+        <item quantity="one">%1$s, %2$d мілісекунда</item>
+        <item quantity="few">%1$s, %2$d мілісекунди</item>
+        <item quantity="many">%1$s, %2$d мілісекунд</item>
+        <item quantity="other">%1$s, %2$d мілісекунди</item>
+    </plurals>
+
+    <!-- Server page -->
+    <string name="settings_server_title">Сервер</string>
+    <string name="settings_server_address">Адреса</string>
+    <string name="settings_server_connection">Підключення</string>
+    <string name="settings_server_version">Версія</string>
+    <string name="settings_server_edit_server">Редагувати сервер…</string>
+    <string name="settings_server_rename_server_ellipsis">Перейменувати сервер…</string>
+    <string name="settings_server_rename_title">Перейменувати сервер</string>
+    <string name="settings_server_rename_message">Ця назва діє лише на цьому %1$s. Залиште поле порожнім для «%2$s».</string>
+    <string name="settings_server_status">Стан</string>
+    <string name="settings_server_status_milliseconds">%1$s · %2$d мс</string>
+
+    <!-- Servers section -->
+    <string name="settings_servers_header">Сервери</string>
+    <string name="settings_servers_edit_server">Редагувати %1$s…</string>
+    <string name="settings_servers_rename_message">Ця назва діє лише на цьому %1$s. Залиште поле порожнім, щоб використовувати назву комп’ютера.</string>
+    <string name="settings_servers_remove_title">Видалити %1$s?</string>
+    <string name="settings_servers_remove_message">Адресу й пароль буде видалено на цьому %1$s. Сесії на сервері залишаться без змін.</string>
+    <string name="settings_servers_remove_server">Видалити сервер</string>
+    <string name="settings_servers_current_server_state">Поточний сервер, %1$s</string>
+    <string name="settings_servers_switch_label">Перемкнутися на цей сервер</string>
+    <string name="settings_servers_options_description">Параметри %1$s</string>
+    <string name="settings_servers_rename_menu">Перейменувати…</string>
+    <string name="settings_servers_edit_menu">Редагувати…</string>
+    <string name="settings_servers_remove_menu">Видалити…</string>
+    <string name="settings_servers_add_server">Додати сервер</string>
+    <string name="settings_servers_scan_pairing_code">Сканувати код сполучення</string>
+    <string name="settings_servers_enter_address">Ввести адресу</string>
+
+    <!-- Pairing scanner -->
+    <string name="settings_pairing_paste">Вставити</string>
+    <string name="settings_pairing_no_camera_title">Камера недоступна</string>
+    <string name="settings_pairing_no_camera_message">Скопіюйте посилання, яке виводить `opencode pair` на комп’ютері, і вставте його сюди.</string>
+    <string name="settings_pairing_camera_off_title">Доступ до камери вимкнено</string>
+    <string name="settings_pairing_camera_off_message">Дозвольте доступ до камери в налаштуваннях, щоб сканувати QR-код, або вставте посилання, яке виводить `opencode pair`.</string>
+    <string name="settings_pairing_nothing_to_paste_title">Нічого вставляти</string>
+    <string name="settings_pairing_nothing_to_paste_message">У буфері обміну немає посилання для сполучення. Скопіюйте посилання, яке виводить opencode pair, і спробуйте ще раз.</string>
+    <string name="settings_pairing_point_camera">Наведіть камеру на QR-код</string>
+    <string name="settings_pairing_paste_link">Вставити посилання для сполучення</string>
+    <string name="settings_pairing_computer_hint">На комп’ютері відкрийте в OpenCode Налаштування → Сполучення або виконайте %1$s у терміналі.</string>
+</resources>

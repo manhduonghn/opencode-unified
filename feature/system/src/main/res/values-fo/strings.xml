@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_new_session">Nýggj setan</string>
+    <string name="system_start_call">Byrja samrøðu</string>
+    <string name="system_open_session">Opna setu</string>
+    <string name="widget_start_call_description">Byrjar eina raddsamrøðu í einari setu, tú velur, ella teirri, tú hugdi at seinast.</string>
+    <string name="widget_open_session_description">Opnar eina setu, tú velur.</string>
+    <string name="widget_new_session_description">Opnar eina nýggja OpenCode-setu.</string>
+
+    <!-- Shared across screens -->
+    <string name="system_selected_description">Vald</string>
+    <string name="system_last_viewed_session">Seinast vísta seta</string>
+
+    <!-- Quick actions (launcher shortcuts) -->
+    <string name="system_quick_action_session_fallback">Seta</string>
+    <!-- Long label: the session's title, then its project. -->
+    <string name="system_quick_action_long_label">%1$s · %2$s</string>
+
+    <!-- Shortcuts and Ask OpenCode -->
+    <string name="system_session_type_name">Seta</string>
+    <string name="system_project_type_name">Verkætlan</string>
+    <string name="system_intent_open_session_description">Opnar eina setu í OpenCode.</string>
+    <string name="system_intent_new_session_description">Byrjar eina nýggja setu í OpenCode.</string>
+    <string name="system_intent_start_voice_call_title">Byrja raddsamrøðu</string>
+    <string name="system_intent_start_voice_call_description">Byrjar eina raddsamrøðu við OpenCode í einari setu. Er eingin seta vald, byrjar samrøðan í teirri, tú hugdi at seinast.</string>
+    <string name="system_intent_background_call_title">Byrja raddsamrøðu í bakgrundini</string>
+    <string name="system_intent_background_call_description">Byrjar eina raddsamrøðu við OpenCode uttan at opna forritið. Samrøðan sæst á støðulinjuni og lásskíggjanum.</string>
+    <string name="system_delivery_type_name">Sending</string>
+    <string name="system_delivery_steer">Stýr</string>
+    <string name="system_delivery_queue">Set í bíðirøð</string>
+    <string name="system_ask_title">Spyr OpenCode</string>
+    <string name="system_ask_description">Sendir boð til eina OpenCode-setu uttan at opna forritið.</string>
+    <string name="system_ask_message_title">Boð</string>
+    <string name="system_ask_message_placeholder">Hvat skal OpenCode gera?</string>
+    <string name="system_ask_session_title">Seta</string>
+    <string name="system_ask_started_new_session">Nýggj seta byrjað í %1$s</string>
+    <string name="system_ask_queued_for">Sett í bíðirøð til “%1$s”</string>
+    <string name="system_ask_sent_to">Sent til “%1$s”</string>
+    <string name="system_ask_your_session">tín seta</string>
+    <string name="system_ask_no_server">Opna OpenCode og fá fyrst samband við ein ambætara.</string>
+    <string name="system_ask_no_project">Opna OpenCode og byrja eina setu fyrst.</string>
+    <string name="system_ask_empty_message">Einki er at senda.</string>
+    <!-- The server's error message follows. -->
+    <string name="system_ask_send_failed">Kundi ikki senda til OpenCode. %1$s</string>
+
+    <!-- Live Updates: voice call -->
+    <string name="system_call_muted">Doyvt</string>
+    <string name="system_call_unmute">Ódoyv</string>
+    <string name="system_call_mute">Doyv</string>
+    <string name="system_call_end">Enda samrøðu</string>
+    <string name="system_call_connecting">Fær samband…</string>
+    <string name="system_call_reconnecting">Fær samband aftur…</string>
+    <string name="system_call_ended">Samrøðan er endað</string>
+    <string name="system_call_end_title">Enda samrøðu</string>
+    <string name="system_call_toggle_mute_title">Doyv ella ódoyv samrøðu</string>
+
+    <!-- Live Updates: hands-free recording -->
+    <string name="system_recording_active">Tekur upp</string>
+    <string name="system_recording_stopped">Upptøkan er steðgað</string>
+    <string name="system_recording_stop">Steðga upptøku</string>
+    <string name="system_recording_stop_title">Steðga upptøku</string>
+    <string name="system_recording_new_session">Nýggj setan</string>
+
+    <!-- Live Updates: session run -->
+    <string name="system_session_working">Arbeiða</string>
+    <string name="system_session_last_seen_working">Arbeiddi við seinastu kanning</string>
+    <!-- Where the run is (Working), then its current step (a tool name, Thinking or Replying). -->
+    <string name="system_session_status_with_step">%1$s · %2$s</string>
+    <string name="system_session_step_thinking">At hugsa</string>
+    <string name="system_session_step_replying">Svarar</string>
+    <string name="system_session_needs_input">Bíðar eftir tínum svari</string>
+    <string name="system_session_input">Inntak</string>
+    <string name="system_session_done">Liðugt</string>
+    <string name="system_session_failed">Mistókst</string>
+
+    <!-- Session notifications -->
+    <string name="system_notification_placeholder_body">Nýtt virksemi</string>
+
+    <!-- Notification channels -->
+    <string name="system_channel_voice_calls">Raddsamrøður</string>
+    <string name="system_channel_recording">Tekur upp</string>
+    <string name="system_channel_session_runs">Setukoyrslur</string>
+    <string name="system_channel_session_updates">Setudagføringar</string>
+    <string name="system_channel_shared_items">Deildir lutir</string>
+
+    <!-- Share sheet: notifications -->
+    <string name="system_share_continue_notification_body">Trýst fyri at halda fram í OpenCode</string>
+
+    <!-- Share sheet -->
+    <string name="system_share_your_server">tín ambætari</string>
+    <string name="system_share_new_session_in_project">Nýggj setan · %1$s</string>
+    <string name="system_share_save_failed_message">Royn aftur. Um tað heldur fram, frígev goymslupláss á hesum tólinum.</string>
+    <!-- The session's title, then its project. -->
+    <string name="system_share_session_chip_description">%1$s, %2$s</string>
+    <string name="system_share_problem_unreachable">Fekk ikki samband við %1$s</string>
+    <string name="system_share_problem_too_large">Kundi ikki senda so stórar fílur hiðani</string>
+    <string name="system_share_problem_uploads_unsupported">Kundi ikki senda fílur upp til %1$s</string>
+    <string name="system_share_problem_sign_in">Kundi ikki rita inn á %1$s</string>
+    <string name="system_share_problem_send">Kundi ikki senda til %1$s</string>
+    <string name="system_share_problem_no_credentials">Opna OpenCode einaferð fyri at senda hiðani</string>
+    <plurals name="system_share_image_count">
+        <item quantity="one">%d mynd</item>
+        <item quantity="other">%d myndir</item>
+    </plurals>
+    <plurals name="system_share_file_count">
+        <item quantity="one">%d skrá</item>
+        <item quantity="other">%d fílur</item>
+    </plurals>
+    <plurals name="system_share_images_skipped">
+        <item quantity="one">%d mynd kundi ikki leggjast afturat</item>
+        <item quantity="other">%d myndir kundu ikki leggjast afturat</item>
+    </plurals>
+    <plurals name="system_share_files_skipped">
+        <item quantity="one">%d skrá kundi ikki leggjast afturat</item>
+        <item quantity="other">%d fílur kundu ikki leggjast afturat</item>
+    </plurals>
+    <string name="system_share_save_failed_title">Kundi ikki goyma til OpenCode</string>
+    <string name="system_share_continue_description">Halt fram í OpenCode</string>
+    <string name="system_share_no_server_title">Fá fyrst samband við ein ambætara</string>
+    <string name="system_share_no_server_message">Opna OpenCode og fá samband við telduna, og deil so aftur.</string>
+    <string name="system_share_send_later">Send seinni</string>
+    <string name="system_share_saved_continue">Goymt. Opna OpenCode fyri at halda fram</string>
+    <string name="system_share_loading_description">Heintar deildar lutir</string>
+    <string name="system_share_image_description">Mynd</string>
+    <string name="system_share_image_position_description">Mynd %1$d av %2$d</string>
+    <string name="system_share_search_sessions_description">Leitiløtur</string>
+    <string name="system_share_new_session_in_project_description">Nýggj setan í %1$s</string>
+    <string name="system_share_choose_project_description">Vel verkætlan til setuna</string>
+    <string name="system_share_message_placeholder">Boð</string>
+    <string name="system_share_sent_to">Sent til %1$s</string>
+    <string name="system_share_sending_description">Sendir</string>
+    <string name="system_share_sent_description">Sent</string>
+    <string name="system_share_sessions_title">Setur</string>
+    <string name="system_share_pinned_header">Festar</string>
+    <string name="system_share_recents_header">Nýliga brúkt</string>
+
+    <!-- Widget configuration -->
+    <string name="system_widget_choose_session_title">Vel setu</string>
+</resources>

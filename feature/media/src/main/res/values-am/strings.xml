@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">ምስል</string>
+    <string name="media_image_load_failed">ምስሉን መጫን አልተቻለም</string>
+    <string name="media_unavailable">ሚዲያው አይገኝም</string>
+    <string name="media_try_again_label">እንደገና ሞክር</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">የሚዲያ መመልከቻ</string>
+    <string name="media_viewer_save_to_photos_description">በፎቶዎች ውስጥ አስቀምጥ</string>
+    <string name="media_file_viewer_screen_title">የፋይል መመልከቻ</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d ከ%3$d</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">በምስል ላይ ሳል</string>
+    <string name="media_drawing_undo_description">ቀልብስ</string>
+    <string name="media_drawing_add_to_prompt_description">ወደ ፕሮምፕት አክል</string>
+    <string name="media_drawing_canvas_description">የመሳያ ሸራ</string>
+    <string name="media_drawing_discard_title">ስዕሉ ይጣል?</string>
+    <string name="media_drawing_discard_confirm">ስዕሉን ጣል</string>
+    <string name="media_drawing_keep">መሳል ቀጥል</string>
+    <string name="media_drawing_add_failed_title">ስዕሉን ማከል አልተቻለም</string>
+    <string name="media_drawing_flatten_failed">ምስሉን መፍጠር አልተቻለም። እንደገና ሞክር።</string>
+    <string name="media_drawing_prompt_unavailable">የዚህ ክፍለ ጊዜ መልእክት አሁን አባሪዎችን መቀበል አይችልም።</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">ነጭ</string>
+    <string name="media_drawing_ink_black">ጥቁር</string>
+    <string name="media_drawing_ink_red">ቀይ</string>
+    <string name="media_drawing_ink_yellow">ቢጫ</string>
+    <string name="media_drawing_ink_green">አረንጓዴ</string>
+    <string name="media_drawing_ink_blue">ሰማያዊ</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">ጎልቷል</string>
+    <string name="media_zoom_out_label">አሳንስ</string>
+    <string name="media_zoom_in_label">አጉላ</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">ለአፍታ አቁም</string>
+    <string name="media_player_play">አጫውት</string>
+    <string name="media_player_position_description">የመልሶ ማጫወት አቀማመጥ</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">ቪዲዮውን ማጫወት አልተቻለም</string>
+    <string name="media_video_position_description">የቪዲዮ አቀማመጥ</string>
+    <string name="media_video_capture_failed_title">ፍሬሙን ማንሳት አልተቻለም</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">ቅድመ እይታ አሳይ</string>
+    <string name="media_file_show_source_description">ምንጩን አሳይ</string>
+    <string name="media_file_unwrap_lines_description">መስመሮችን አታጥፍ</string>
+    <string name="media_file_wrap_lines_description">መስመሮችን አጥፍ</string>
+    <string name="media_file_start_pip_description">ምስል በምስል ውስጥ ጀምር</string>
+    <string name="media_file_opening">በመክፈት ላይ…</string>
+    <string name="media_file_share_failed_title">ፋይሉን ማጋራት አልተቻለም</string>
+    <string name="media_file_share_downloading_description">ለማጋራት በማውረድ ላይ</string>
+    <string name="media_file_confirm_large_message">የዚህ ፋይል መጠን %1$s ነው። በዚህ መሣሪያ ለማየት ይውረድ?</string>
+    <string name="media_file_download">አውርድ</string>
+    <string name="media_file_open_in_another_app">በሌላ መተግበሪያ ክፈት</string>
+    <string name="media_file_no_app_message">በዚህ መሣሪያ ላይ ይህን ፋይል የሚከፍት መተግበሪያ የለም። ለማስቀመጥ ወይም ወደ ሌላ ቦታ ለመላክ ያጋሩት።</string>
+    <string name="media_file_pdf_page_description">ገጽ %1$d ከ%2$d</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">ፋይሉ አልተገኘም</string>
+    <string name="media_file_error_open_failed_title">ፋይሉን መክፈት አልተቻለም</string>
+    <string name="media_file_error_unreadable">ይህን ዱካ ከአገልጋዩ ማንበብ አይቻልም።</string>
+    <string name="media_file_error_not_found">ተዛውሮ ወይም ተሰርዞ ሊሆን ይችላል።</string>
+    <string name="media_file_error_unauthorized">አገልጋዩ የዚህን መሣሪያ የይለፍ ቃል አልተቀበለም።</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">አገልጋዩ ማንበብ አልቻለም (HTTP %1$d)። አቃፊ ሊሆን ይችላል።</string>
+    <string name="media_file_error_timed_out">የጥያቄው ጊዜ አልፏል።</string>
+    <string name="media_file_error_unexpected_response">አገልጋዩ ያልተጠበቀ ምላሽ ልኳል።</string>
+    <string name="media_file_error_over_limit">ፋይሉ ከማውረጃ መጠን ገደቡ በላይ ነው።</string>
+    <string name="media_file_error_size_unknown">አገልጋዩ የአባሪውን መጠን አላሳወቀም።</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">በማውረድ ላይ…</string>
+    <string name="media_file_downloading_size">%1$s በማውረድ ላይ</string>
+    <string name="media_file_downloading_progress">ከ%2$s፣ %1$s በማውረድ ላይ</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">ዜሮ KB</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="one">%1$d ባይት</item>
+        <item quantity="other">%1$d ባይቶች</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s KB</string>
+    <string name="media_file_size_megabytes">%1$s MB</string>
+    <string name="media_file_size_gigabytes">%1$s GB</string>
+    <string name="media_file_size_terabytes">%1$s TB</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">አልተገኘም</string>
+    <string name="media_image_load_label">ምስሉን ጫን</string>
+    <string name="media_image_loading_state">በመጫን ላይ</string>
+    <string name="media_image_open_label">ምስሉን ክፈት</string>
+    <string name="media_image_tap_to_load">ለመጫን መታ ያድርጉ</string>
+    <string name="media_image_outside_project_value">ከፕሮጀክቱ ውጭ</string>
+    <string name="media_image_deferred_low_data_value">በውሂብ ቆጣቢ ሁነታ ምክንያት ለሌላ ጊዜ ተላልፏል</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">%1$s ክፈት</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">ወደ ክፍለ ጊዜው ተመለስ</string>
+    <string name="media_browser_ask_description">ስለዚህ ገጽ ጠይቅ</string>
+    <string name="media_browser_forward_description">ወደ ፊት</string>
+    <string name="media_browser_open_in_browser_description">በአሳሽ ክፈት</string>
+    <string name="media_browser_scroll_to_top_label">ወደ ገጹ መጀመሪያ ሸብልል</string>
+    <string name="media_browser_ask_placeholder">ስለዚህ ገጽ ጠይቅ</string>
+    <string name="media_browser_reply_needs_input">የእርስዎን ግቤት ይፈልጋል</string>
+    <string name="media_browser_reply_working">በመስራት ላይ</string>
+    <string name="media_browser_go_back_to_session_label">ወደ ክፍለ ጊዜው ተመለስ</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">ምላሽ ዝግጁ</string>
+    <string name="media_browser_reply_back_to_read">· ለማንበብ ተመለስ</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">ክፍለ ጊዜ</string>
+    <string name="media_link_open_in_app_browser">በመተግበሪያ ውስጥ አሳሽ ክፈት</string>
+    <string name="media_link_open_in_browser">በአሳሽ ክፈት</string>
+    <string name="media_link_open_in_app">በመተግበሪያ ክፈት</string>
+    <string name="media_link_copy">መገልበጥ አገናኝ</string>
+    <string name="media_link_share">አጋራ…</string>
+    <string name="media_link_open_session">ክፍለ ጊዜውን ክፈት</string>
+    <string name="media_link_copy_session_id">ID ኮፒ አድርግ</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">የ%1$s ID ኮፒ አድርግ</string>
+    <string name="media_link_open_session_named_description">ክፍለ ጊዜ %1$s ክፈት</string>
+    <string name="media_link_open_host_in_app_browser_description">%1$s በመተግበሪያ ውስጥ አሳሽ ክፈት</string>
+    <string name="media_link_open_host_in_browser_description">%1$s በአሳሽ ክፈት</string>
+    <string name="media_link_open_host_in_app_description">%1$s በመተግበሪያ ክፈት</string>
+    <string name="media_link_copy_host_description">ወደ %1$s የሚወስደውን አገናኝ ኮፒ አድርግ</string>
+    <string name="media_link_share_host_description">ወደ %1$s የሚወስደውን አገናኝ አጋራ</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%1$s በ%2$s ላይ</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s አገናኝ %2$d</string>
+    <string name="media_link_more_links_description">ተጨማሪ አገናኞች</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">ቪዲዮ</string>
+    <string name="media_link_preview_post">ልጥፍ</string>
+    <string name="media_link_preview_post_unavailable">ልጥፉ አይገኝም</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">ማከማቻ</string>
+    <string name="media_github_kind_issue">ጉዳይ</string>
+    <string name="media_github_kind_pull_request">የማዋሃድ ጥያቄ</string>
+    <string name="media_github_kind_commit">ኮሚት</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">ክፍት</string>
+    <string name="media_github_state_closed">ተዘግቷል</string>
+    <string name="media_github_state_merged">ተዋህዷል</string>
+    <string name="media_github_state_draft">ረቂቅ</string>
+    <string name="media_github_state_completed">ተጠናቋል</string>
+    <string name="media_github_state_not_planned">አልታቀደም</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">ንድፍ፣ %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">የንድፍ መመልከቻ</string>
+    <string name="media_mermaid_diagram_description">ንድፍ</string>
+    <string name="media_mermaid_loading_state">%1$s፣ በመጫን ላይ</string>
+    <string name="media_mermaid_view_source">ምንጩን አሳይ</string>
+    <string name="media_mermaid_source_title">የንድፉ ምንጭ</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">የሂደት ንድፍ</string>
+    <string name="media_mermaid_type_sequence">የቅደም ተከተል ንድፍ</string>
+    <string name="media_mermaid_type_class">የክፍል ንድፍ</string>
+    <string name="media_mermaid_type_state">የሁኔታ ንድፍ</string>
+    <string name="media_mermaid_type_entity_relationship">የአካላት ግንኙነት ንድፍ</string>
+    <string name="media_mermaid_type_user_journey">የተጠቃሚ ጉዞ</string>
+    <string name="media_mermaid_type_gantt">የGantt ገበታ</string>
+    <string name="media_mermaid_type_pie">ክብ ገበታ</string>
+    <string name="media_mermaid_type_quadrant">ባለአራት ክፍል ገበታ</string>
+    <string name="media_mermaid_type_requirement">የመስፈርት ንድፍ</string>
+    <string name="media_mermaid_type_git_graph">የGit ግራፍ</string>
+    <string name="media_mermaid_type_c4">የC4 ንድፍ</string>
+    <string name="media_mermaid_type_mind_map">የሐሳብ ካርታ</string>
+    <string name="media_mermaid_type_timeline">የጊዜ መስመር</string>
+    <string name="media_mermaid_type_sankey">የSankey ንድፍ</string>
+    <string name="media_mermaid_type_xy_chart">የXY ገበታ</string>
+    <string name="media_mermaid_type_block">የብሎክ ንድፍ</string>
+    <string name="media_mermaid_type_packet">የፓኬት ንድፍ</string>
+    <string name="media_mermaid_type_kanban">የKanban ሰሌዳ</string>
+    <string name="media_mermaid_type_architecture">የመዋቅር ንድፍ</string>
+    <string name="media_mermaid_type_radar">የራዳር ገበታ</string>
+    <string name="media_mermaid_type_treemap">የዛፍ ካርታ</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

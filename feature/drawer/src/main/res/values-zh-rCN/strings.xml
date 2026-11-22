@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Catch Up -->
+    <plurals name="drawer_catch_up_remaining">
+        <item quantity="other">还剩 %1$d 个</item>
+    </plurals>
+    <string name="drawer_catch_up_leave_description">退出动态浏览</string>
+    <string name="drawer_catch_up_keep_unread">保持未读</string>
+    <string name="drawer_catch_up_undo">撤销</string>
+    <string name="drawer_catch_up_title">查看动态</string>
+    <string name="drawer_catch_up_all_caught_up">已看完所有动态</string>
+    <string name="drawer_catch_up_swipe_mark_read">标为\n已读</string>
+    <string name="drawer_catch_up_swipe_keep_unread">保持\n未读</string>
+
+    <!-- Drawer container -->
+    <string name="drawer_close_description">关闭会话列表</string>
+
+    <!-- Drawer footer and delete confirmation -->
+    <string name="drawer_delete_session_title">删除“%1$s”？</string>
+    <string name="drawer_delete_session_message">此会话将从服务器删除，所有客户端都将无法访问。</string>
+    <string name="drawer_new_session">新建会话</string>
+    <string name="drawer_start_voice_call_description">开始语音通话</string>
+
+    <!-- Archived page -->
+    <string name="drawer_archived">已归档</string>
+    <string name="drawer_archived_search_placeholder">搜索已归档会话</string>
+    <string name="drawer_archived_empty">暂无已归档会话</string>
+    <string name="drawer_no_results">无结果</string>
+
+    <!-- Session row actions -->
+    <string name="drawer_row_selected">已选择</string>
+    <string name="drawer_row_not_selected">未选择</string>
+    <string name="drawer_row_select_action">选择</string>
+    <string name="drawer_pin">置顶</string>
+    <string name="drawer_unpin">取消置顶</string>
+    <string name="drawer_mark_as_read">标为已读</string>
+    <string name="drawer_mark_as_unread">标为未读</string>
+    <string name="drawer_mute">静音</string>
+    <string name="drawer_unmute">取消静音</string>
+    <string name="drawer_hide">隐藏</string>
+    <string name="drawer_unhide">取消隐藏</string>
+    <string name="drawer_move_up">上移</string>
+    <string name="drawer_move_down">下移</string>
+
+    <!-- Section headers, shortcut rows and list footer -->
+    <string name="drawer_section_pinned">已置顶</string>
+    <string name="drawer_section_recents">最近使用</string>
+    <plurals name="drawer_catch_up_session_count">
+        <item quantity="other">%1$d 个会话</item>
+    </plurals>
+    <string name="drawer_catch_up_open_action">滑动浏览未读和等待处理的会话</string>
+    <string name="drawer_mark_all_read">全部标为已读</string>
+    <string name="drawer_whats_new">最新动态</string>
+    <string name="drawer_whats_new_hide">隐藏</string>
+    <string name="drawer_empty_title">暂无会话</string>
+    <string name="drawer_empty_message">点击“新建会话”开始。</string>
+    <string name="drawer_search_no_results_title">没有关于“%1$s”的结果</string>
+    <string name="drawer_search_no_results_message">检查拼写或换个关键词搜索。</string>
+    <string name="drawer_load_more_description">正在加载更多会话</string>
+    <string name="drawer_load_more_failed">无法加载更多会话</string>
+
+    <!-- Selection bar -->
+    <string name="drawer_selection_cancel_description">取消选择</string>
+    <plurals name="drawer_selection_count">
+        <item quantity="other">已选择 %1$d 个</item>
+    </plurals>
+    <string name="drawer_selection_more_options_description">更多选项</string>
+    <plurals name="drawer_delete_sessions_title">
+        <item quantity="other">删除 %1$d 个会话？</item>
+    </plurals>
+    <string name="drawer_delete_sessions_message">这些会话将从服务器删除，所有客户端都将无法访问。</string>
+
+    <!-- Inbox Sidebar -->
+    <string name="drawer_inbox_needs_input">需要你输入</string>
+    <string name="drawer_inbox_working">工作中</string>
+    <string name="drawer_inbox_unread">未读</string>
+
+    <!-- Drawer button -->
+    <string name="drawer_button_open_sessions_description">打开会话列表</string>
+    <string name="drawer_button_attention_state">有会话需要你输入</string>
+    <string name="drawer_button_unread_state">有未读会话</string>
+    <string name="drawer_notice_open_sessions_action">打开会话列表</string>
+    <string name="drawer_notice_open_session_action">打开会话</string>
+
+    <!-- Search pill -->
+    <string name="drawer_search_description">搜索会话</string>
+    <string name="drawer_search_cancel_description">取消搜索</string>
+
+    <!-- Pin drop zone -->
+    <string name="drawer_drop_to_pin">松开即可置顶</string>
+
+    <!-- Server title -->
+    <string name="drawer_server_connecting_state">正在连接</string>
+    <string name="drawer_server_edit">编辑服务器…</string>
+    <string name="drawer_server_manage">管理服务器…</string>
+    <string name="drawer_server_reconnecting_state">正在重新连接</string>
+    <string name="drawer_server_sign_in_failed">登录失败</string>
+    <string name="drawer_server_offline">离线</string>
+    <string name="drawer_server_connecting_to_state">正在连接到 %1$s</string>
+    <string name="drawer_server_show_servers_hint">显示你的服务器</string>
+    <string name="drawer_server_offer_edit_hint">提示编辑服务器</string>
+    <string name="drawer_server_offer_try_again_hint">提示再试一次</string>
+
+    <!-- Server flow: switch-back note and server menu status -->
+    <string name="drawer_server_switched_back_title">已切回 %1$s</string>
+    <string name="drawer_server_timed_out_detail">%1$s 在 %2$s 秒内未响应</string>
+    <string name="drawer_server_unreachable_detail">无法连接到 %1$s</string>
+    <string name="drawer_server_sign_in_failed_detail">无法登录 %1$s</string>
+    <string name="drawer_server_pair_again">重新配对</string>
+    <string name="drawer_server_menu_connected">已连接</string>
+    <string name="drawer_server_menu_connecting">正在连接…</string>
+    <string name="drawer_server_menu_unreachable">无法连接</string>
+
+    <!-- Row selection menu -->
+    <string name="drawer_archive">归档</string>
+    <string name="drawer_unarchive">取消归档</string>
+    <string name="drawer_open_in_new_window">在新窗口中打开</string>
+
+    <!-- Session row state for TalkBack -->
+    <string name="drawer_row_pinned_state">已置顶</string>
+    <string name="drawer_row_muted_state">已静音</string>
+    <string name="drawer_row_hidden_state">已隐藏</string>
+    <string name="drawer_row_needs_input_state">需要你输入</string>
+    <string name="drawer_row_working_state">工作中</string>
+    <string name="drawer_row_unread_state">未读</string>
+    <string name="drawer_row_unsent_failed_state">发送失败</string>
+    <string name="drawer_row_unsent_sending_state">正在发送</string>
+
+    <!-- Errors -->
+    <string name="drawer_notifications_request_error">无法请求权限，请重试。</string>
+    <string name="drawer_notifications_open_settings_error">无法打开设置。请打开 Android 设置，选择通知 → OpenCode。</string>
+    <string name="drawer_delete_session_error">无法删除“%1$s”</string>
+    <plurals name="drawer_delete_sessions_error">
+        <item quantity="other">无法删除 %1$d 个会话</item>
+    </plurals>
+    <string name="drawer_archive_error">无法归档“%1$s”</string>
+    <plurals name="drawer_archive_sessions_error">
+        <item quantity="other">无法归档 %1$d 个会话</item>
+    </plurals>
+    <string name="drawer_unarchive_error">无法取消归档“%1$s”</string>
+    <plurals name="drawer_unarchive_sessions_error">
+        <item quantity="other">无法取消归档 %1$d 个会话</item>
+    </plurals>
+
+    <!-- Session activity notification -->
+    <string name="drawer_session_activity_new_session">新建会话</string>
+
+    <!-- Inbox ages and row dates -->
+    <string name="drawer_age_now">刚刚</string>
+    <plurals name="drawer_age_minutes">
+        <item quantity="other">%1$d分钟</item>
+    </plurals>
+    <plurals name="drawer_age_hours">
+        <item quantity="other">%1$d小时</item>
+    </plurals>
+    <plurals name="drawer_age_days">
+        <item quantity="other">%1$d天</item>
+    </plurals>
+    <string name="drawer_date_yesterday">昨天</string>
+
+    <!-- Appearance settings transcript preview -->
+    <string name="drawer_appearance_preview_user_text">帮我改进会话界面。告诉我发现了什么，并解释这些改动。</string>
+    <string name="drawer_appearance_preview_assistant_text">我在 `SessionView.swift` 中找到了布局问题。对话记录和输入框共用可用高度，所以弹出键盘很适合用来测试布局。</string>
+</resources>

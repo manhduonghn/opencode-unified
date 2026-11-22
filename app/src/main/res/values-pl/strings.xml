@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Nie udało się dodać udostępnionych elementów</string>
+    <string name="app_alert_open_session_failed_title">Nie udało się otworzyć sesji</string>
+    <string name="app_alert_pairing_failed_title">Nie udało się sparować z serwerem</string>
+    <string name="app_pairing_confirm">Sparuj</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Serwery</string>
+    <string name="app_servers_back_description">Powrót do %1$s</string>
+    <string name="app_server_fallback_name">serwer</string>
+    <string name="app_connection_intro_new">Kontynuuj sesje programowania z urządzenia %1$s.</string>
+    <string name="app_connection_intro_returning">Wróć do pracy lub sparuj kolejny komputer.</string>
+    <string name="app_connection_enter_manually">Wpisz serwer ręcznie</string>
+    <string name="app_connection_scan_pairing_code">Zeskanuj kod parowania</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Na komputerze otwórz OpenCode i przejdź do Ustawienia → Parowanie lub uruchom opencode pair --remote w terminalu. Następnie zeskanuj kod urządzeniem %1$s.</string>
+    <string name="app_setup_install_title">Nie masz jeszcze OpenCode?</string>
+    <string name="app_setup_other_ways_to_install">Inne sposoby instalacji</string>
+    <string name="app_setup_terminal_title">Lub uruchom to w terminalu</string>
+    <string name="app_setup_terminal_detail">Działa w każdej sieci.</string>
+    <string name="app_setup_paste_prompt">Lub skopiuj wyświetlony link, a potem</string>
+    <string name="app_setup_paste">Wklej</string>
+    <string name="app_setup_copy_command_description">Kopiuj %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Łączenie</string>
+    <string name="app_servers_edit_description">Edytuj %1$s</string>
+    <string name="app_servers_remove_description">Usuń %1$s</string>
+    <string name="app_servers_remove_confirm_title">Usunąć %1$s?</string>
+    <string name="app_servers_remove_confirm_message">Adres i hasło zostaną usunięte z urządzenia %1$s. Sesje na serwerze pozostaną bez zmian.</string>
+    <string name="app_servers_remove_confirm">Usuń serwer</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Etap: %1$s</string>
+    <string name="app_error_server">Serwer: %1$s</string>
+    <string name="app_error_attempt">Próba: %1$d</string>
+    <string name="app_error_copy_report">Kopiuj raport błędu</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Nowy serwer</string>
+    <string name="app_server_form_edit_title">Edytuj serwer</string>
+    <string name="app_server_form_name">Nazwa</string>
+    <string name="app_server_form_address">Adres URL serwera</string>
+    <string name="app_server_form_username">Nazwa użytkownika</string>
+    <string name="app_server_form_password">Hasło (opcjonalnie)</string>
+    <string name="app_server_form_hide_password_description">Ukryj hasło</string>
+    <string name="app_server_form_show_password_description">Pokaż hasło</string>
+    <string name="app_server_form_connect">Połącz</string>
+    <string name="app_server_form_save_and_connect">Zapisz i połącz</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Nagłówki</string>
+    <string name="app_server_form_header_name">Nazwa</string>
+    <string name="app_server_form_header_name_description">Nazwa nagłówka %1$d</string>
+    <string name="app_server_form_header_value">Wartość</string>
+    <string name="app_server_form_header_value_description">Wartość nagłówka %1$d</string>
+    <string name="app_server_form_header_remove_description">Usuń nagłówek %1$d</string>
+    <string name="app_server_form_header_add">Dodaj nagłówek</string>
+    <string name="app_server_form_headers_detail">Wysyłane z każdym żądaniem do serwera proxy, np. Cloudflare Access, pośredniczącego w połączeniu.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">„%1$s” nie jest prawidłową nazwą nagłówka</string>
+    <string name="app_server_form_header_invalid_value">Wartość %1$s nie może zawierać znaku nowej linii</string>
+    <string name="app_server_form_name_placeholder">Opcjonalnie</string>
+    <string name="app_connection_progress_pairing">Parowanie</string>
+    <string name="app_connection_progress_connecting">Łączenie</string>
+    <string name="app_connection_progress_loading_sessions">Ładowanie sesji</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Sparować z %1$s?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode sprawdzi %1$s i przełączy się na pierwszy adres, który odpowie.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode sparuje się z %1$s i przełączy się na ten serwer.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode sprawdzi %1$s i %2$s i przełączy się na pierwszy adres, który odpowie.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode sprawdzi %1$s i %2$s i przełączy się na pierwszy adres, który odpowie.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Zapisane dane logowania do %2$s mogą zostać zastąpione.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Parowanie</string>
+    <string name="app_error_phase_connect">Połącz</string>
+    <string name="app_error_phase_load_sessions">Wczytaj sesje</string>
+    <string name="app_error_candidate_detail">Kandydat %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Niedostępny (nieprawidłowy adres)</string>
+    <string name="app_error_title_pair">Nie udało się sparować</string>
+    <string name="app_error_title_load_sessions">Nie udało się wczytać sesji</string>
+    <string name="app_error_title_connect">Nie udało się połączyć z %1$s</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Schowek jest pusty</string>
+    <string name="app_paste_not_a_pairing_link">To nie jest link do parowania</string>
+    <string name="app_server_no_longer_saved">Ten serwer nie jest już zapisany na urządzeniu %1$s. Połącz się z nim ponownie, aby otworzyć sesję.</string>
+    <string name="app_session_no_longer_available">Sesja mogła zostać usunięta lub serwer może być niedostępny.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Połączono z %1$s</string>
+    <string name="app_pairing_invalid_code">To nie jest kod parowania OpenCode. Uruchom opencode pair --remote na komputerze, a następnie zeskanuj wyświetlony kod QR lub wklej podany link.</string>
+    <string name="app_pairing_unusable_address">Nie można użyć adresu „%1$s” z tego kodu parowania: %2$s.</string>
+    <string name="app_pairing_loopback">Ten serwer nasłuchuje tylko na localhost, więc urządzenie %1$s nie może się z nim połączyć. Zamiast tego uruchom na komputerze opencode pair --remote — działa z dowolnej sieci.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Serwer, na który udostępniono dane, nie jest już zapisany na tym urządzeniu. Połącz się z nim ponownie i spróbuj udostępnić jeszcze raz.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">ostatnio używany</string>
+    <string name="app_server_form_hint_new">Aby sparować, wklej link wyświetlony przez `opencode pair --remote` lub użyj adresu i hasła swojego serwera OpenCode. Nazwa użytkownika to zwykle opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Zmiany zostaną zapisane po połączeniu z tym serwerem. Ten serwer został sparowany, więc jego hasło jest tokenem sesji. Zamiast je zmieniać, zeskanuj nowy kod parowania.</string>
+    <string name="app_server_form_hint_edit">Zmiany zostaną zapisane po połączeniu z tym serwerem.</string>
+</resources>

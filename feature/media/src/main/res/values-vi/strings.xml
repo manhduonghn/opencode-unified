@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">Hình ảnh</string>
+    <string name="media_image_load_failed">Không thể tải hình ảnh</string>
+    <string name="media_unavailable">Nội dung đa phương tiện không có sẵn</string>
+    <string name="media_try_again_label">Thử lại</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">Trình xem đa phương tiện</string>
+    <string name="media_viewer_save_to_photos_description">Lưu vào Ảnh</string>
+    <string name="media_file_viewer_screen_title">Trình xem tệp</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d trên %3$d</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">Vẽ lên hình ảnh</string>
+    <string name="media_drawing_undo_description">Hoàn tác</string>
+    <string name="media_drawing_add_to_prompt_description">Thêm vào lời nhắc</string>
+    <string name="media_drawing_canvas_description">Khung vẽ</string>
+    <string name="media_drawing_discard_title">Bỏ bản vẽ?</string>
+    <string name="media_drawing_discard_confirm">Bỏ bản vẽ</string>
+    <string name="media_drawing_keep">Tiếp tục vẽ</string>
+    <string name="media_drawing_add_failed_title">Không thể thêm bản vẽ</string>
+    <string name="media_drawing_flatten_failed">Không thể tạo hình ảnh. Hãy thử lại.</string>
+    <string name="media_drawing_prompt_unavailable">Tin nhắn của phiên này hiện chưa thể thêm tệp đính kèm.</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">Trắng</string>
+    <string name="media_drawing_ink_black">Đen</string>
+    <string name="media_drawing_ink_red">Đỏ</string>
+    <string name="media_drawing_ink_yellow">Vàng</string>
+    <string name="media_drawing_ink_green">Xanh lá</string>
+    <string name="media_drawing_ink_blue">Xanh dương</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">Đã phóng to</string>
+    <string name="media_zoom_out_label">Thu nhỏ</string>
+    <string name="media_zoom_in_label">Phóng to</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">Tạm dừng</string>
+    <string name="media_player_play">Phát</string>
+    <string name="media_player_position_description">Vị trí phát</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">Không thể phát video</string>
+    <string name="media_video_position_description">Vị trí video</string>
+    <string name="media_video_capture_failed_title">Không thể chụp khung hình</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">Hiện bản xem trước</string>
+    <string name="media_file_show_source_description">Hiện mã nguồn</string>
+    <string name="media_file_unwrap_lines_description">Không tự động xuống dòng</string>
+    <string name="media_file_wrap_lines_description">Tự động xuống dòng</string>
+    <string name="media_file_start_pip_description">Bật chế độ hình trong hình</string>
+    <string name="media_file_opening">Đang mở…</string>
+    <string name="media_file_share_failed_title">Không thể chia sẻ tệp</string>
+    <string name="media_file_share_downloading_description">Đang tải xuống để chia sẻ</string>
+    <string name="media_file_confirm_large_message">Tệp này có dung lượng %1$s. Tải xuống để xem trên thiết bị này?</string>
+    <string name="media_file_download">Tải xuống</string>
+    <string name="media_file_open_in_another_app">Mở bằng ứng dụng khác</string>
+    <string name="media_file_no_app_message">Không có ứng dụng nào trên thiết bị này mở được tệp này. Hãy chia sẻ để lưu hoặc gửi đến nơi khác.</string>
+    <string name="media_file_pdf_page_description">Trang %1$d trên %2$d</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">Không tìm thấy tệp</string>
+    <string name="media_file_error_open_failed_title">Không thể mở tệp</string>
+    <string name="media_file_error_unreadable">Không thể đọc đường dẫn này từ máy chủ.</string>
+    <string name="media_file_error_not_found">Tệp có thể đã bị di chuyển hoặc xóa.</string>
+    <string name="media_file_error_unauthorized">Máy chủ không chấp nhận mật khẩu của thiết bị này.</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">Máy chủ không thể đọc tệp (HTTP %1$d). Đây có thể là thư mục.</string>
+    <string name="media_file_error_timed_out">Yêu cầu đã hết thời gian chờ.</string>
+    <string name="media_file_error_unexpected_response">Máy chủ gửi phản hồi không như mong đợi.</string>
+    <string name="media_file_error_over_limit">Tệp vượt quá giới hạn dung lượng tải xuống.</string>
+    <string name="media_file_error_size_unknown">Máy chủ không cho biết kích thước tệp đính kèm.</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">Đang tải xuống…</string>
+    <string name="media_file_downloading_size">Đang tải xuống %1$s</string>
+    <string name="media_file_downloading_progress">Đang tải xuống %1$s trên %2$s</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">0 KB</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="other">%1$d byte</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s KB</string>
+    <string name="media_file_size_megabytes">%1$s MB</string>
+    <string name="media_file_size_gigabytes">%1$s GB</string>
+    <string name="media_file_size_terabytes">%1$s TB</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">Không tìm thấy</string>
+    <string name="media_image_load_label">Tải hình ảnh</string>
+    <string name="media_image_loading_state">Đang tải</string>
+    <string name="media_image_open_label">Mở hình ảnh</string>
+    <string name="media_image_tap_to_load">Chạm để tải</string>
+    <string name="media_image_outside_project_value">Ngoài dự án</string>
+    <string name="media_image_deferred_low_data_value">Hoãn tải do chế độ tiết kiệm dữ liệu</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">Mở %1$s</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">Quay lại phiên</string>
+    <string name="media_browser_ask_description">Hỏi về trang này</string>
+    <string name="media_browser_forward_description">Tiến tới</string>
+    <string name="media_browser_open_in_browser_description">Mở trong trình duyệt</string>
+    <string name="media_browser_scroll_to_top_label">Cuộn lên đầu trang</string>
+    <string name="media_browser_ask_placeholder">Hỏi về trang này</string>
+    <string name="media_browser_reply_needs_input">Cần bạn phản hồi</string>
+    <string name="media_browser_reply_working">Đang làm việc</string>
+    <string name="media_browser_go_back_to_session_label">Quay lại phiên</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">Đã sẵn sàng phản hồi</string>
+    <string name="media_browser_reply_back_to_read">· Quay lại để đọc</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">Phiên</string>
+    <string name="media_link_open_in_app_browser">Mở trong trình duyệt trong ứng dụng</string>
+    <string name="media_link_open_in_browser">Mở trong trình duyệt</string>
+    <string name="media_link_open_in_app">Mở trong ứng dụng</string>
+    <string name="media_link_copy">Sao chép liên kết</string>
+    <string name="media_link_share">Chia sẻ…</string>
+    <string name="media_link_open_session">Mở phiên</string>
+    <string name="media_link_copy_session_id">Sao chép ID</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">Sao chép ID của %1$s</string>
+    <string name="media_link_open_session_named_description">Mở phiên %1$s</string>
+    <string name="media_link_open_host_in_app_browser_description">Mở %1$s trong trình duyệt trong ứng dụng</string>
+    <string name="media_link_open_host_in_browser_description">Mở %1$s trong trình duyệt</string>
+    <string name="media_link_open_host_in_app_description">Mở %1$s trong ứng dụng</string>
+    <string name="media_link_copy_host_description">Sao chép liên kết đến %1$s</string>
+    <string name="media_link_share_host_description">Chia sẻ liên kết đến %1$s</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%1$s trên %2$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s liên kết %2$d</string>
+    <string name="media_link_more_links_description">Thêm liên kết</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">Video</string>
+    <string name="media_link_preview_post">Bài đăng</string>
+    <string name="media_link_preview_post_unavailable">Bài đăng không có sẵn</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">Kho lưu trữ</string>
+    <string name="media_github_kind_issue">Vấn đề</string>
+    <string name="media_github_kind_pull_request">Yêu cầu hợp nhất</string>
+    <string name="media_github_kind_commit">Bản ghi thay đổi</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">Mở</string>
+    <string name="media_github_state_closed">Đã đóng</string>
+    <string name="media_github_state_merged">Đã hợp nhất</string>
+    <string name="media_github_state_draft">Bản nháp</string>
+    <string name="media_github_state_completed">Đã hoàn tất</string>
+    <string name="media_github_state_not_planned">Không có kế hoạch</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">Sơ đồ, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">Trình xem sơ đồ</string>
+    <string name="media_mermaid_diagram_description">Sơ đồ</string>
+    <string name="media_mermaid_loading_state">%1$s, đang tải</string>
+    <string name="media_mermaid_view_source">Xem mã nguồn</string>
+    <string name="media_mermaid_source_title">Mã nguồn sơ đồ</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">Lưu đồ</string>
+    <string name="media_mermaid_type_sequence">Sơ đồ tuần tự</string>
+    <string name="media_mermaid_type_class">Sơ đồ lớp</string>
+    <string name="media_mermaid_type_state">Sơ đồ trạng thái</string>
+    <string name="media_mermaid_type_entity_relationship">Sơ đồ quan hệ thực thể</string>
+    <string name="media_mermaid_type_user_journey">Hành trình người dùng</string>
+    <string name="media_mermaid_type_gantt">Biểu đồ Gantt</string>
+    <string name="media_mermaid_type_pie">Biểu đồ tròn</string>
+    <string name="media_mermaid_type_quadrant">Biểu đồ góc phần tư</string>
+    <string name="media_mermaid_type_requirement">Sơ đồ yêu cầu</string>
+    <string name="media_mermaid_type_git_graph">Đồ thị Git</string>
+    <string name="media_mermaid_type_c4">Sơ đồ C4</string>
+    <string name="media_mermaid_type_mind_map">Sơ đồ tư duy</string>
+    <string name="media_mermaid_type_timeline">Dòng thời gian</string>
+    <string name="media_mermaid_type_sankey">Sơ đồ Sankey</string>
+    <string name="media_mermaid_type_xy_chart">Biểu đồ XY</string>
+    <string name="media_mermaid_type_block">Sơ đồ khối</string>
+    <string name="media_mermaid_type_packet">Sơ đồ gói tin</string>
+    <string name="media_mermaid_type_kanban">Bảng Kanban</string>
+    <string name="media_mermaid_type_architecture">Sơ đồ kiến trúc</string>
+    <string name="media_mermaid_type_radar">Biểu đồ radar</string>
+    <string name="media_mermaid_type_treemap">Biểu đồ cây</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

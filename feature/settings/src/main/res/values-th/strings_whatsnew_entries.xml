@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- What’s New entries, oldest first: one group per file in whatsnew/entries/. -->
+
+    <!-- 2026-10-06-01-voice-messages -->
+    <string name="settings_whatsnew_entry_voice_messages_title">ข้อความเสียง</string>
+    <string name="settings_whatsnew_entry_voice_messages_summary">สิ่งที่ฟีเจอร์เสียงถามเซสชันแทนคุณจะแสดงเป็นข้อความเสียง พร้อมสัญลักษณ์คลื่นเสียง</string>
+
+    <!-- 2026-10-07-01-attachment-menu-hold -->
+    <string name="settings_whatsnew_entry_attachment_menu_hold_title">แนบด้วย +</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_summary">เมนู + ขยายจากช่องข้อความ มีทั้งกล้อง รูปถ่าย และไฟล์ กด + ค้างแล้วเลื่อนเพื่อเลือกได้ในครั้งเดียว</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_1">รูปถ่ายจะเปิดเหนือช่องข้อความ แตะรูปเพื่อแนบได้เลย</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_2">กล้องมีปุ่มเลือกเลนส์ บีบนิ้วเพื่อซูม แตะเพื่อโฟกัส และแฟลช</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_example">กด + ค้าง เลื่อนขึ้นไปที่รูปถ่าย แล้วปล่อย</string>
+
+    <!-- 2026-10-08-01-voice-webrtc-weak-connection -->
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_title">โทรได้เสถียรขึ้น</string>
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_summary">เมื่อสัญญาณไม่ดี เสียงจะสะดุดเพียงชั่วครู่ แทนที่จะเงียบไปหลายวินาที</string>
+
+    <!-- 2026-10-08-02-mute-sessions -->
+    <string name="settings_whatsnew_entry_mute_sessions_title">ปิดการแจ้งเตือนเซสชัน</string>
+    <string name="settings_whatsnew_entry_mute_sessions_summary">เซสชันที่ปิดการแจ้งเตือนยังอยู่ในรายการ แต่จะไม่รวมในติดตามอัปเดตหรือแสดงจุดยังไม่อ่าน</string>
+    <string name="settings_whatsnew_entry_mute_sessions_detail_1">กดติดตามอัปเดตค้างเพื่อทำเครื่องหมายว่าอ่านทั้งหมดแล้ว เซสชันที่รอคุณอยู่จะยังคงอยู่</string>
+    <string name="settings_whatsnew_entry_mute_sessions_example">กดเซสชันในแถบด้านข้างค้าง แล้วแตะปิดการแจ้งเตือน</string>
+
+    <!-- 2026-10-08-03-pair-from-anywhere -->
+    <string name="settings_whatsnew_entry_pair_from_anywhere_title">จับคู่ได้จากทุกที่</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_summary">เรียกใช้ opencode pair --remote บนคอมพิวเตอร์เพื่อเชื่อมต่อจากทุกเครือข่าย ไม่ต้องใช้ Wi-Fi เดียวกันหรือ Tailscale</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_detail_1">สแกนรหัสที่แสดง หรือวางลิงก์ที่ได้</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_example">เรียกใช้ opencode pair --remote แล้วเพิ่มเซิร์ฟเวอร์บนมือถือ</string>
+
+    <!-- 2026-10-08-04-drawer-peek -->
+    <string name="settings_whatsnew_entry_drawer_peek_title">เวลาที่เซสชันทำงานล่าสุด</string>
+    <string name="settings_whatsnew_entry_drawer_peek_summary">ลากรายการเซสชันเข้าหาหน้าเซสชัน เพื่อดูว่าแต่ละเซสชันทำงานล่าสุดเมื่อใด</string>
+    <string name="settings_whatsnew_entry_drawer_peek_detail_1">ปัดรายการไปทางซ้ายเพื่อปิด</string>
+    <string name="settings_whatsnew_entry_drawer_peek_example">เปิดรายการเซสชันแล้วลากไปทางขวา</string>
+
+    <!-- 2026-10-08-05-dictation-keeps-going -->
+    <string name="settings_whatsnew_entry_dictation_keeps_going_title">พูดแล้วส่ง</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_summary">แตะไมค์เพื่อพูดเป็นข้อความ แล้วส่งจากแถบบันทึกเสียงได้เลย หรือแตะหยุดเพื่อตรวจดูก่อน</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_1">กดไมค์ค้างเพื่อพูด เลื่อนขึ้นเพื่อล็อก หรือเลื่อนซ้ายเพื่อยกเลิก</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_2">ยังบันทึกเสียงต่อเมื่อออกจากแอป และหยุดได้จาก Live Activity</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_3">หากเปลี่ยนเซสชันระหว่างบันทึกเสียง เมื่อแตะส่ง ข้อความจะไปยังเซสชันบนหน้าจอ</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_example">แตะไมค์ พูดหนึ่งประโยค แล้วแตะส่ง</string>
+
+    <!-- 2026-10-08-06-siri-shortcuts-spotlight -->
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_title">การทำงานของแอปและทางลัด</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_summary">เริ่มการโทรหรือเซสชัน หรือส่งข้อความผ่าน App Actions ของ Google Assistant ทางลัดแอป หรือการตั้งค่าด่วน</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_detail_1">กดไอคอนแอปค้างเพื่อดูเซสชันล่าสุด</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_example">พูดว่า “Hey Google เริ่มโทรด้วยเสียงใน OpenCode”</string>
+
+    <!-- 2026-10-09-01-working-orb -->
+    <string name="settings_whatsnew_entry_working_orb_title">ลูกแก้วสถานะ</string>
+    <string name="settings_whatsnew_entry_working_orb_summary">ลูกแก้วข้างการทำงานและบนการ์ดตัวแทนย่อยแสดงว่าเอเจนต์กำลังทำอะไร และเปลี่ยนเป็นปุ่มคัดลอกเมื่อเสร็จ</string>
+
+    <!-- 2026-10-09-02-shell-glyph -->
+    <string name="settings_whatsnew_entry_shell_glyph_title">การทำงานของเชลล์</string>
+    <string name="settings_whatsnew_entry_shell_glyph_summary">พรอมต์ &gt;_ ของเชลล์ที่กำลังทำงานจะเคลื่อนไหววนเมื่อมีผลลัพธ์เข้ามา</string>
+
+    <!-- 2026-10-09-03-math-and-diagrams -->
+    <string name="settings_whatsnew_entry_math_and_diagrams_title">คณิตศาสตร์และแผนภาพ</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_summary">คำตอบแสดงสูตรคณิตศาสตร์อย่างเป็นระเบียบและวาดแผนภาพ Mermaid ได้</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_1">แตะแผนภาพเพื่อซูมเข้า หรือกดค้างเพื่อดูต้นฉบับ</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_2">สูตรคณิตศาสตร์ปรับขนาดตามข้อความของคุณ</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_example">ลองขอผังงานแสดงขั้นตอนการส่งข้อความ</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_prompt">วาดผังงานแสดงขั้นตอนการส่งข้อความ</string>
+
+    <!-- 2026-10-09-04-always-notify -->
+    <string name="settings_whatsnew_entry_always_notify_title">แจ้งเตือนเมื่อเสร็จ</string>
+    <string name="settings_whatsnew_entry_always_notify_summary">รับการแจ้งเตือนเมื่อเซสชันที่คุณเริ่มจากที่นี่ทำงานเสร็จ พร้อมสรุปสั้น ๆ ว่าทำอะไรไปบ้าง</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_1">เปิดแจ้งเตือนเสมอในแผงเซสชัน เพื่อรับการแจ้งเตือนทุกคำตอบ แม้จะเริ่มจากคอมพิวเตอร์</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_2">แตะการแจ้งเตือนเพื่อเปิดเซสชันนั้น</string>
+    <string name="settings_whatsnew_entry_always_notify_example">ส่งข้อความ แล้วล็อกมือถือ</string>
+
+    <!-- 2026-10-09-05-server-switcher -->
+    <string name="settings_whatsnew_entry_server_switcher_title">สลับเซิร์ฟเวอร์</string>
+    <string name="settings_whatsnew_entry_server_switcher_summary">ชื่อเซิร์ฟเวอร์ที่ใช้อยู่แสดงเป็นหัวข้อแถบด้านข้าง แตะเพื่อสลับไปเซิร์ฟเวอร์อื่นหรือเพิ่มเซิร์ฟเวอร์</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_1">การตั้งค่าแสดงการเชื่อมต่อเป็นจังหวะชีพจรแบบสด พร้อมเวลารับส่งไปกลับข้างชื่อเซิร์ฟเวอร์</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_2">เปลี่ยนชื่อเซิร์ฟเวอร์ได้ โดยชื่อนี้จะใช้บนมือถือเครื่องนี้เท่านั้น</string>
+    <string name="settings_whatsnew_entry_server_switcher_example">เปิดแถบด้านข้าง แตะชื่อเซิร์ฟเวอร์ แล้วเพิ่มคอมพิวเตอร์อีกเครื่อง</string>
+
+    <!-- 2026-10-10-01-share-opened-files -->
+    <string name="settings_whatsnew_entry_share_opened_files_title">ดูรูปภาพได้เหมือนรูปถ่าย</string>
+    <string name="settings_whatsnew_entry_share_opened_files_summary">รูปภาพแสดงเต็มรูปในเซสชัน และเปิดดูได้เหมือนรูปถ่าย: บีบนิ้วเพื่อซูม ปัดเพื่อเปลี่ยนรูป และลากลงเพื่อปิด</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_1">ไฟล์ทุกไฟล์ที่เอเจนต์ระบุชื่อเปิดในแอปได้</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_2">ใช้แชร์เพื่อบันทึกสิ่งที่เปิดไว้ลงในรูปถ่ายหรือไฟล์ได้ รวมทั้งวิดีโอและเสียง</string>
+    <string name="settings_whatsnew_entry_share_opened_files_example">ขอให้เอเจนต์อ่านภาพหน้าจอสักสองสามภาพ แล้วแตะภาพหนึ่งและลากลง</string>
+
+    <!-- 2026-10-10-02-call-voice -->
+    <string name="settings_whatsnew_entry_call_voice_title">โทรด้วยเสียง</string>
+    <string name="settings_whatsnew_entry_call_voice_summary">แตะคลื่นเสียงในช่องข้อความว่างแล้วพูด ฟีเจอร์เสียงจะทำงานในเซสชันระหว่างที่คุณคุย และบอกเมื่องานเสร็จ</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_1">เรียกเซสชันไหนก็ได้ด้วยชื่อ ฟีเจอร์เสียงจะเปิดเซสชันนั้น แล้วเริ่มหรือชี้นำงานให้</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_2">พูดแทรกเพื่อขัดจังหวะ หรือถามว่างานไปถึงไหนแล้ว</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_3">แตะแถบการโทรเพื่อดูคำบรรยายสด</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_4">ปิดไมค์และวางสายได้จากการแจ้งเตือนการโทร รวมถึงบนหน้าจอล็อก</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_5">แตะปุ่มหยุดค้างไว้เพื่อโทรขณะเอเจนต์ทำงาน</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_6">เลือกเสียงได้ที่การตั้งค่า → เสียง</string>
+    <string name="settings_whatsnew_entry_call_voice_example">เริ่มโทรแล้วพูดว่า “เปิดเซสชันแก้ปัญหาการอัปโหลดของฉัน แล้วตรวจสอบผลทดสอบ”</string>
+
+    <!-- 2026-10-10-03-drawer-one-edge -->
+    <string name="settings_whatsnew_entry_drawer_one_edge_title">แถบด้านข้างเป็นระเบียบขึ้น</string>
+    <string name="settings_whatsnew_entry_drawer_one_edge_summary">แต่ละแถวเริ่มชิดขอบเดียวกัน มีจุดสถานะอยู่ท้ายแถว และปุ่มค้นหาอยู่ด้านบน</string>
+
+    <!-- 2026-10-11-01-paste-as-a-card -->
+    <string name="settings_whatsnew_entry_paste_as_a_card_title">วางข้อความยาวเป็นการ์ด</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_summary">ข้อความยาวที่วางจะแสดงเป็นการ์ดข้อความที่วางข้างรูปภาพ โดยเอเจนต์ยังอ่านข้อความทั้งหมดได้</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_1">แตะการ์ดเพื่ออ่านข้อความที่วางทั้งหมด พร้อมปุ่มคัดลอกและแชร์</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_2">ข้อความยาวจะย่อเหลือไม่กี่บรรทัด พร้อมปุ่มแสดงเพิ่มเติม</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_example">คัดลอกบันทึกยาวๆ วางในช่องข้อความ แล้วแตะการ์ด</string>
+
+    <!-- 2026-10-11-02-ride-out-drops -->
+    <string name="settings_whatsnew_entry_ride_out_drops_title">ใช้งานได้แม้สัญญาณอ่อน</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_summary">สัญญาณขาดหายไม่กี่วินาทีจะไม่ทำให้งานล้มเหลวอีกต่อไป การส่งข้อความ เซสชัน และการโทรจะรอการเชื่อมต่อแล้วทำงานต่อ</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_1">ปุ่มส่งพร้อมใช้เสมอ และข้อความจะส่งตามลำดับที่คุณส่ง</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_2">ข้อความที่ส่งไม่สำเร็จจะอยู่ที่เดิมพร้อมปุ่มลองอีกครั้ง โดยการลองใหม่จะไม่ส่งข้อความซ้ำ</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_3">เมื่อเซิร์ฟเวอร์ออฟไลน์ ชื่อในแถบด้านข้างจะจางลง แตะชื่อเพื่อใช้ปุ่มลองอีกครั้ง</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_example">เปิดเซสชันขณะรถไฟกำลังเข้าอุโมงค์</string>
+
+    <!-- 2026-10-11-03-new-session-recent-projects -->
+    <string name="settings_whatsnew_entry_new_session_recent_projects_title">เริ่มในโปรเจกต์ไหนก็ได้</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_summary">เซสชันใหม่จะแสดงโปรเจกต์ล่าสุดเหนือช่องข้อความ และทุกโปรเจกต์ให้คุณเปิดโฟลเดอร์ใดก็ได้บนคอมพิวเตอร์</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_1">โปรเจกต์ที่เลือกจะแสดงอยู่เหนือช่องข้อความขณะพิมพ์</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_2">การโทรที่เริ่มจากเซสชันใหม่จะทำงานในโปรเจกต์ที่เลือก</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_example">แตะเซสชันใหม่ แล้วแตะทุกโปรเจกต์ จากนั้นเลือกโฟลเดอร์…</string>
+
+    <!-- 2026-10-11-04-stop-runs-your-steer -->
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_title">ชี้นำระหว่างทำงาน</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_summary">ส่งข้อความขณะเอเจนต์ทำงานได้ เอเจนต์จะอ่านในขั้นตอนถัดไป โดยย้ายคำสั่งที่ใช้เวลานานไปทำงานเบื้องหลังก่อน</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_1">แตะปุ่มส่งค้างไว้เพื่อเลือกชี้นำหรือเข้าคิวสำหรับข้อความนั้น</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_2">แตะข้อความที่รออยู่ค้างไว้เพื่อย้ายเข้าคิวหรือลบ</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_3">ปุ่มหยุดจะเปลี่ยนเป็นกำลังหยุด… ทันที และข้อความชี้นำที่คุณส่งจะทำงานต่อเป็นลำดับถัดไป</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_example">ขณะคำสั่งที่ใช้เวลานานกำลังทำงาน ลองส่งข้อความแล้วดูคำสั่งย้ายไปทำงานเบื้องหลัง</string>
+
+    <!-- 2026-10-12-01-browser-push-in -->
+    <string name="settings_whatsnew_entry_browser_push_in_title">เปิดหน้าเว็บในแอป</string>
+    <string name="settings_whatsnew_entry_browser_push_in_summary">เมื่อเปิดฟีเจอร์ทดลองเบราว์เซอร์ในแอป การแตะลิงก์จะเลื่อนหน้าเว็บเข้ามาทับเซสชัน ปัดจากขอบเพื่อย้อนกลับ</string>
+
+    <!-- 2026-10-12-02-answer-from-the-bar -->
+    <string name="settings_whatsnew_entry_answer_from_the_bar_title">ตอบจากช่องข้อความ</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_summary">คำถามและคำขอสิทธิ์จะขยายขึ้นจากช่องข้อความ ให้ตอบได้ตรงนั้นเลย ทั้งแตะตัวเลือก พิมพ์ หรือพูดคำตอบเอง</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_1">คำขอสิทธิ์จะแสดงคำสั่งหรือการแก้ไขก่อนให้คุณอนุญาต</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_2">เมื่อแตะปฏิเสธ ข้อความที่คุณพิมพ์จะเป็นคำสั่งให้ทำอย่างอื่นแทน เพื่อให้เอเจนต์ทำงานต่อได้</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_3">ฉบับร่างของคุณจะกลับมาเมื่อตอบแล้ว</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_example">เมื่อเอเจนต์ถามคำถาม ให้กดไมค์ค้างไว้แล้วพูดคำตอบ</string>
+
+    <!-- 2026-10-12-03-new-messages-divider -->
+    <string name="settings_whatsnew_entry_new_messages_divider_title">กลับมาทำต่อจากเดิม</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_summary">เมื่อกลับเข้าเซสชัน จะเปิดที่ด้านล่างพร้อมข้อความที่เข้ามาระหว่างที่คุณไม่อยู่ หากต้องการเปิดตรงเส้นใหม่เมื่อมีข้อความค้างอ่านจำนวนมาก ให้เปิดเส้นแบ่งข้อความใหม่ที่การตั้งค่า › เซสชัน</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_1">เซสชันที่คุณน่าจะเปิดจะรีเฟรชเมื่อเปิดแถบด้านข้าง จึงพร้อมทันทีที่แตะ</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_2">เมื่อสลับกลับมา งานเบื้องหลังและมาตรวัดบริบทของเซสชันจะยังอยู่ระหว่างรีเฟรช</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_example">เริ่มงานที่ใช้เวลานาน สลับไปเซสชันอื่น แล้วกลับมาเมื่อมีคำตอบแล้ว</string>
+
+    <!-- 2026-10-12-04-model-list-and-level-meter -->
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_title">ตัวเลือกโมเดลแบบใหม่</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_summary">เลือกโมเดลและระดับการคิดจากแผงโมเดล โดยมีรายการโปรดอยู่ด้านบน หากต้องการลองรายการที่ขยายขึ้นจากช่องข้อความ ให้เปิดตัวเลือกโมเดลแบบใหม่ที่การตั้งค่า → การทดลอง</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_1">ใช้เมนูกำลังคิดในแผงโมเดล เมื่อโมเดลรองรับการเลือกระดับ</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_2">ปัดโมเดลเพื่อเพิ่มในรายการโปรด</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_3">มีบรรทัดเล็กๆ ในเซสชันระบุจุดที่คุณเปลี่ยนโมเดลหรือระดับ</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_example">แตะโมเดลในช่องข้อความ แล้วเลือกระดับการคิด</string>
+
+    <!-- 2026-10-12-05-run-error-line -->
+    <string name="settings_whatsnew_entry_run_error_line_title">เมื่อการทำงานล้มเหลว</string>
+    <string name="settings_whatsnew_entry_run_error_line_summary">เมื่อการทำงานหยุดก่อนเสร็จ จะแจ้งเหตุผลด้วยภาษาง่ายๆ พร้อมทางแก้หนึ่งอย่าง: แก้ไข กะทัดรัด เปลี่ยนโมเดล หรือลองอีกครั้ง</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_1">ปุ่มแก้ไขจะเลิกทำข้อความที่ส่ง แล้วนำกลับมาไว้ในช่องข้อความให้ปรับคำ</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_2">แตะบรรทัดค้างไว้เพื่อดูข้อผิดพลาดทั้งหมดและคัดลอก</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_3">เมื่อเอเจนต์จะลองใหม่เอง การทำงานจะแสดงเวลานับถอยหลังก่อนลองครั้งถัดไป</string>
+    <string name="settings_whatsnew_entry_run_error_line_example">เมื่อคำตอบถูกบล็อก ให้แตะแก้ไข ปรับข้อความ แล้วส่งอีกครั้ง</string>
+
+    <!-- 2026-10-12-06-transcript-keyboard-space -->
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_title">ปิดแป้นพิมพ์ไม่เหลือช่องว่าง</string>
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_summary">การลากปิดแป้นพิมพ์จะไม่ทิ้งช่องว่างใต้ข้อความสุดท้ายอีกต่อไป</string>
+
+    <!-- 2026-10-12-07-share-sheet-sends -->
+    <string name="settings_whatsnew_entry_share_sheet_sends_title">ส่งจากแผงแชร์</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_summary">แชร์สิ่งต่างๆ ไปยัง OpenCode เลือกเซสชัน เพิ่มข้อความ แล้วส่งได้โดยไม่ต้องเปิดแอป</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_1">เซสชันล่าสุดจะแสดงในแถวบนสุดของแผงแชร์</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_2">ไฟล์ JSON และไฟล์ส่งออกจะแนบเป็นไฟล์โดยคงชื่อเดิมไว้</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_3">ดำเนินการต่อใน OpenCode จะเปิดเซสชันพร้อมสิ่งที่คุณแชร์ในช่องข้อความ</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_4">หากส่งไม่ได้ ส่งภายหลังจะส่งให้เมื่อคุณเปิดแอปครั้งถัดไป</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_example">แชร์ภาพหน้าจอไปยัง OpenCode พิมพ์คำถาม แล้วแตะส่ง</string>
+
+    <!-- 2026-10-12-08-app-icon-badge -->
+    <string name="settings_whatsnew_entry_app_icon_badge_title">ตัวเลขบนไอคอนแอป</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_summary">ไอคอนแอปแสดงจำนวนเซสชันที่ยังไม่อ่านหรือรอคุณอยู่ เป็นจำนวนเดียวกับในติดตามอัปเดต</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_1">ไม่นับเซสชันที่ปิดเสียงแล้ว</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_2">ต้องเปิดการแจ้งเตือนก่อน</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_example">ปล่อยให้เซสชันรอคำตอบจากคุณ แล้วไปที่หน้าจอหลัก</string>
+
+    <!-- 2026-10-12-09-drawer-keeps-keyboard -->
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_title">คีย์บอร์ดเลื่อนตามแถบด้านข้าง</string>
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_summary">เมื่อเปิดรายการเซสชันขณะพิมพ์ ช่องข้อความยังพร้อมให้พิมพ์ต่อ และคีย์บอร์ดจะเลื่อนไปด้านข้างพร้อมเซสชัน</string>
+
+    <!-- 2026-10-12-10-whats-new-page -->
+    <string name="settings_whatsnew_entry_whats_new_page_title">หน้ามีอะไรใหม่ที่เรียบง่ายขึ้น</string>
+    <string name="settings_whatsnew_entry_whats_new_page_summary">มีอะไรใหม่เปิดเป็นหน้าเหมือนการตั้งค่า แต่ละฟีเจอร์มีหน้าของตัวเอง และรวมรายการแก้ไขไว้ที่นี่</string>
+
+    <!-- 2026-10-12-11-catch-up-returns-to-drawer -->
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_title">ออกจากติดตามอัปเดตกลับแถบด้านข้าง</string>
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_summary">เมื่อออกจากติดตามอัปเดต คุณจะกลับไปยังรายการเซสชันในตำแหน่งเดิมที่เปิดไว้</string>
+
+    <!-- 2026-10-12-12-transcript-day-stamps -->
+    <string name="settings_whatsnew_entry_transcript_day_stamps_title">แสดงวันในบันทึกการสนทนา</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_summary">เซสชันที่คุยข้ามวันจะแสดงวันเหนือข้อความแรกของแต่ละวัน เช่น “วันพุธ 8:24 น.” และแสดงเวลาเหนือข้อความที่ส่งหลังเว้นช่วงไปหนึ่งชั่วโมง</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_1">แสดงวันนี้ เมื่อวาน หรือชื่อวันหากอยู่ในสัปดาห์นี้ นอกนั้นแสดงวันที่</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_2">ข้อความปรับทิศทางและข้อความในคิวจะยังไม่แสดงวันเวลาระหว่างรอ</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_example">เปิดเซสชันที่เริ่มไว้ก่อนหน้านี้ในสัปดาห์ แล้วเลื่อนขึ้น</string>
+
+    <!-- 2026-10-12-13-rich-link-previews -->
+    <string name="settings_whatsnew_entry_rich_link_previews_title">ตัวอย่างลิงก์</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_summary">ลิงก์ใต้คำตอบแสดงข้อมูลลิงก์ละหนึ่งบรรทัด ทั้งคำขอดึงหรืออิสซูพร้อมชื่อและสถานะ คอมมิต วิดีโอ และหน้าเว็บ</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_1">คำขอดึง อิสซู คอมมิต และรีโพซิทอรีบน GitHub จะแสดงชื่อ พร้อมสถานะเปิด รวมแล้ว หรือปิดแล้วเป็นสี</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_2">โพสต์ X แสดงผู้โพสต์และข้อความ ลิงก์ YouTube แสดงชื่อวิดีโอ ส่วนหน้าเว็บอื่นแสดงชื่อที่อ่านจากลิงก์</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_3">แสดงสามลิงก์ แตะ “เพิ่มเติม” ข้างคัดลอกเพื่อดูที่เหลือ แล้วแตะอีกครั้งเพื่อย่อกลับ</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_4">กดลิงก์ค้างไว้เพื่อดูตัวอย่างขนาดใหญ่ขึ้น คัดลอกลิงก์ หรือแชร์</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_example">ถามเอเจนต์ว่ารีโพซิทอรีมีอะไรเปลี่ยนไปบ้างในสัปดาห์นี้</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_prompt">สัปดาห์นี้รีโพซิทอรีบน GitHub ที่ฉันใช้มีอะไรเปลี่ยนไปบ้าง? ใส่ลิงก์มาด้วย</string>
+
+    <!-- 2026-10-13-01-rolling-numbers -->
+    <string name="settings_whatsnew_entry_rolling_numbers_title">ตัวเลขเลื่อนเปลี่ยนค่า</string>
+    <string name="settings_whatsnew_entry_rolling_numbers_summary">ตัวเลขที่อัปเดตสดในแถบงานเบื้องหลัง แผงเซสชัน แถวใช้ไป N รายการ และติดตามอัปเดต จะเลื่อนเปลี่ยนทีละหลัก</string>
+
+    <!-- 2026-10-13-02-grouped-steering -->
+    <string name="settings_whatsnew_entry_grouped_steering_title">จัดกลุ่มข้อความ</string>
+    <string name="settings_whatsnew_entry_grouped_steering_summary">ข้อความที่คุณส่งติดกันจะรวมเป็นกลุ่มเดียว และข้อความปรับทิศทางที่รอเอเจนต์จะใช้ป้ายปรับทิศทางร่วมกัน</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_1">กล่องข้อความที่ส่งติดกันจะอยู่ชิดกัน โดยมีมุมเชื่อมต่อกันตรงรอยต่อ</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_2">รูปถ่ายและไฟล์ยังคงรูปทรงโค้งมนของตัวเองภายในกลุ่ม</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_3">เมื่อเอเจนต์รับแต่ละข้อความ ข้อความจะเลื่อนขึ้นเข้าที่ในจังหวะเดียว</string>
+    <string name="settings_whatsnew_entry_grouped_steering_example">ขณะเอเจนต์ทำงาน ลองส่งข้อความติดกันสามข้อความ โดยแนบรูปถ่ายในข้อความหนึ่ง</string>
+
+    <!-- 2026-10-13-03-inline-tool-rows -->
+    <string name="settings_whatsnew_entry_inline_tool_rows_title">แถวเครื่องมือและคำถามที่เรียบง่าย</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_summary">กลุ่มเครื่องมือและคำถามที่ตอบแล้วจะเปิดเป็นแถบเต็มความกว้างเหมือนโค้ด โดยรวมการอ่านที่ต่อเนื่องกันไว้ในแถวเดียว</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_1">กลุ่มที่ย่อไว้จะแสดง “ใช้เครื่องมือ N รายการ” และทำเครื่องหมายการเรียกใช้เครื่องมือที่ล้มเหลวเป็นสีแดง</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_2">แถวเรียกใช้จะแสดงชื่อเครื่องมือที่สคริปต์เรียกใช้ ส่วนแถวทักษะแสดงชื่อทักษะ</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_3">คำถามที่ตอบแล้วจะแสดงพรอมต์และตัวเลือกทั้งหมด พร้อมทำเครื่องหมายตัวเลือกที่คุณเลือก</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_example">แตะแถว “ใช้เครื่องมือ N รายการ” ในเซสชันเพื่อเปิดแถบรายละเอียด</string>
+
+    <!-- 2026-10-13-04-mac-motion-playgrounds -->
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_title">ควบคุมพื้นที่ทดลองบน Mac</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_summary">เมื่อเปิดโหมดนักพัฒนา ให้จับคู่การปรับแต่งกับ Mac เพื่อเล่นภาพเคลื่อนไหวในพื้นที่ทดลองซ้ำแบบช้า ๆ และตรวจดูเฟรมที่บันทึกไว้</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_1">หน้าปรับค่าบน Mac มีตัวเลือกพื้นที่ทดลอง ชุดค่าสำเร็จ และปุ่มควบคุมการเล่นซ้ำ ส่วนมือถือแสดงเฉพาะพื้นที่ทดลอง</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_2">การ์ดขนาดเล็กแสดงตัวควบคุมที่อยู่บนหน้าจอ พร้อมชุดค่าสำเร็จสำหรับการเคลื่อนไหวและระยะห่าง และตัวเลือกดั้งเดิมเพื่อคืนรูปแบบที่มากับแอป แต่ละชุดจะใช้ค่าทั้งหมดพร้อมกันในครั้งเดียว</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_3">แผงปรับแต่งลอยจะซ่อนเมื่อ Mac เชื่อมต่อ เรียกกลับมาได้ด้วยท่าทางปรับแต่ง แล้วเลือกออกจากพื้นที่ทดลองเพื่อออก</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_4">สถานการณ์ที่เตรียมไว้จะเล่นเซสชันตัวอย่างเดิมซ้ำ เพื่อให้คุณเทียบการเคลื่อนไหวระหว่างบิลด์ได้</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_5">การเล่นซ้ำจะเริ่มใหม่ และส่งข้อความปรับทิศทางกับข้อความในคิวแทนที่จะปล่อยให้รอ</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_6">ตัวเล่นสำหรับตรวจสอบบน Mac ให้คุณไล่ดูตำแหน่งและขนาดที่บันทึกไว้ทีละเฟรม ทำเครื่องหมายเฟรม และส่งข้อเสนอแนะเรื่องภาพเคลื่อนไหว</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_example">เปิดการตั้งค่า → นักพัฒนา จับคู่กับหน้าปรับแต่งบน Mac แล้วลองบันทึกการสนทนา → สตรีมคำตอบที่ 0.25×</string>
+
+    <!-- 2026-10-13-05-catch-up-flicks -->
+    <string name="settings_whatsnew_entry_catch_up_flicks_title">ปัดในติดตามอัปเดตได้ง่ายขึ้น</string>
+    <string name="settings_whatsnew_entry_catch_up_flicks_summary">ปัดเร็ว ๆ หรือลากสั้นลงในติดตามอัปเดต การ์ดก็จะเลื่อนผ่านไปแทนที่จะเด้งกลับ</string>
+
+    <!-- 2026-10-14-01-settings-grouped-by-purpose -->
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_title">การตั้งค่าที่ชัดเจนขึ้น</string>
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_summary">ค้นหาฟีเจอร์ทดลองและเครื่องมือสำหรับนักพัฒนาได้ที่การตั้งค่า → การทดลอง ประกาศในแอปอยู่ในการแจ้งเตือน และประวัติการโทรอยู่ในเสียง</string>
+
+    <!-- 2026-10-14-02-send-ats-recovery -->
+    <string name="settings_whatsnew_entry_send_ats_recovery_title">ส่งได้มั่นใจขึ้น</string>
+    <string name="settings_whatsnew_entry_send_ats_recovery_summary">แอปจะลองส่งข้อความใหม่อัตโนมัติ หาก iOS ปฏิเสธการเชื่อมต่อเซิร์ฟเวอร์ที่ใช้งานได้อยู่ชั่วคราว</string>
+
+    <!-- 2026-10-14-03-keyboard-menus-and-header -->
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_title">คีย์บอร์ดและเมนูนิ่งขึ้น</string>
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_summary">แตะ + ขณะพิมพ์เพื่อเปิดเมนูไฟล์แนบโดยไม่ต้องซ่อนคีย์บอร์ดหรือขยับปุ่มควบคุม ส่วนเบลอของแถบด้านบนจะอยู่กับที่ขณะคีย์บอร์ดเคลื่อน</string>
+
+    <!-- 2026-10-14-04-open-links-in-apps -->
+    <string name="settings_whatsnew_entry_open_links_in_apps_title">เปิดลิงก์ในแอปที่รองรับ</string>
+    <string name="settings_whatsnew_entry_open_links_in_apps_summary">ลิงก์จะเปิดในแอปที่รองรับ เช่น GitHub หรือ YouTube หากเปิดการทดลองเบราว์เซอร์ในแอปไว้ ให้กดลิงก์ค้างแล้วเลือกเปิดในเบราว์เซอร์ของแอป</string>
+
+    <!-- 2026-10-14-05-session-list-quiet-hierarchy -->
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_title">รายการเซสชันดูง่ายขึ้น</string>
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_summary">หัวข้อปักหมุดแล้วและล่าสุดใช้ตัวอักษรสีเทาขนาดเล็กลง เซสชันที่ยังไม่อ่านและกำลังรอใช้ตัวอักษรหนาปานกลางให้เด่นขึ้น ส่วนที่อ่านแล้วจะจางลงเล็กน้อย</string>
+
+    <!-- 2026-10-14-06-queued-messages-fitted-sheet -->
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_title">ข้อความในคิวเป็นระเบียบขึ้น</string>
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_summary">แผงข้อความในคิวสูงพอดีกับรายการ มีเลขกำกับแต่ละแถวและปุ่มเรียบ ๆ สำหรับส่งทันทีหรือยกเลิก</string>
+
+    <!-- 2026-10-14-07-control-center-sessions -->
+    <string name="settings_whatsnew_entry_control_center_sessions_title">ไทล์สำหรับเซสชัน</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_summary">เพิ่มไทล์ในการตั้งค่าด่วนเพื่อเปิดเซสชันหรือเริ่มโทรในเซสชันได้ในแตะเดียว</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_1">ไทล์เปิดเซสชันใหม่จะเปิดเซสชันที่คุณเลือก</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_2">เริ่มโทรใช้โทรในเซสชันที่เลือกหรือเซสชันใหม่ได้ หากไม่ได้เปลี่ยน จะโทรในเซสชันที่คุณดูล่าสุด</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_3">เลือกจากเซสชันที่ปักหมุดและเซสชันล่าสุด โดยไทล์จะแสดงชื่อปัจจุบันของเซสชัน</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_4">ไทล์แค่เปิดแอป จะไม่มีการส่งอะไรจนกว่าคุณจะพูดหรือพิมพ์</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_example">เปิดการตั้งค่าด่วน แตะแก้ไข แล้วลากไทล์เปิดเซสชันของ OpenCode ไปวาง</string>
+
+    <!-- 2026-10-15-01-settings-keyboard-down -->
+    <string name="settings_whatsnew_entry_settings_keyboard_down_title">แป้นพิมพ์ไม่บังการตั้งค่า</string>
+    <string name="settings_whatsnew_entry_settings_keyboard_down_summary">เมื่อเปิดการตั้งค่าจากแถบด้านข้างระหว่างพิมพ์ แป้นพิมพ์จะซ่อนลงแทนที่จะค้างบังหน้าการตั้งค่า</string>
+
+    <!-- 2026-10-15-02-session-list-sidebar-grey -->
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_title">รายการเซสชันโปร่งขึ้น</string>
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_summary">รายการเซสชันมีชื่อหัวเรื่องใหญ่ขึ้น หัวข้อปักหมุดแล้วและล่าสุดเป็นสีเทาขนาดใหญ่ขึ้น พร้อมเพิ่มช่องว่างด้านบน เปิดแถบด้านข้างเพื่อดูได้</string>
+
+    <!-- 2026-10-15-03-voice-varied-acknowledgements -->
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_title">พูดว่า “กำลังตรวจสอบ” น้อยลง</string>
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_summary">ระหว่างโทร เสียงจะตอบรับตามสิ่งที่คุณพูดแทนการตอบทุกคำขอว่า “กำลังตรวจสอบ” และไม่ส่งคำขอซ้ำเมื่อคุณยังพูดต่อ</string>
+
+    <!-- 2026-10-15-04-smoother-streaming -->
+    <string name="settings_whatsnew_entry_smoother_streaming_title">คำตอบทยอยแสดงลื่นไหลขึ้น</string>
+    <string name="settings_whatsnew_entry_smoother_streaming_summary">บรรทัดล่าสุดของคำตอบค่อย ๆ ปรากฏโดยไม่หรี่แสงหรือกะพริบ แถวไม่ยืดเกินข้อความแล้วหดกลับ และรายการกับหัวข้อแสดงเป็นรูปแบบที่ถูกต้องทันที ไม่เริ่มจากขีดหรือเครื่องหมายแฮชลอย ๆ</string>
+
+    <!-- 2026-10-15-05-model-list-sheet -->
+    <string name="settings_whatsnew_entry_model_list_sheet_title">รายการโมเดลแบบแผง</string>
+    <string name="settings_whatsnew_entry_model_list_sheet_summary">เมื่อเปิดฟีเจอร์ทดลองตัวเลือกโมเดลใหม่ ช่องข้อความจะเปลี่ยนเป็นแผงรายการโมเดลแทนที่แป้นพิมพ์ แป้นพิมพ์จะซ่อนลง และแผงจะพับกลับอย่างลื่นไหลแม้เปิดปิดอย่างรวดเร็ว</string>
+
+    <!-- 2026-10-15-06-queued-pill-whole-title -->
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_title">จำนวนในคิวแสดงครบ</string>
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_summary">ป้ายเหนือช่องเขียนข้อความแสดง “อยู่ในคิว 2 รายการ” ได้ครบโดยไม่ตัดเป็น “อยู่ในคิ…” และตัวนับแบบเลื่อนในส่วนอื่นก็แสดงครบทุกตัวอักษรเช่นกัน</string>
+
+    <!-- 2026-10-16-01-plus-menu-photo-sheet -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_title">รูปถ่ายแทนที่แป้นพิมพ์</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_summary">เมื่อเปิดฟีเจอร์ทดลองเมนูบวกใหม่ การเลือกรูปถ่ายจะขยายเมนู + เป็นแผงรูปถ่ายแทนที่แป้นพิมพ์ กด + ค้างเพื่อดูรูปถ่ายล่าสุด แล้วเลื่อนไปที่รูปและปล่อยเพื่อแนบ</string>
+
+    <!-- 2026-10-16-02-composer-large-text-targets -->
+    <string name="settings_whatsnew_entry_composer_large_text_targets_title">แตะช่องเขียนข้อความง่ายขึ้น</string>
+    <string name="settings_whatsnew_entry_composer_large_text_targets_summary">ปุ่มในช่องเขียนข้อความแตะง่ายขึ้นเมื่อใช้ตัวอักษรขนาดใหญ่</string>
+
+    <!-- 2026-10-16-03-project-pick-haptic -->
+    <string name="settings_whatsnew_entry_project_pick_haptic_title">สั่นเบา ๆ เมื่อเปลี่ยนโปรเจกต์</string>
+    <string name="settings_whatsnew_entry_project_pick_haptic_summary">เมื่อเลือกโปรเจกต์อื่นให้เซสชันใหม่จากเหนือช่องข้อความหรือในทุกโปรเจกต์ จะมีการสั่นเบา ๆ</string>
+
+    <!-- 2026-10-16-04-fork-opens-copy -->
+    <string name="settings_whatsnew_entry_fork_opens_copy_title">แตกแขนงแล้วเปิดสำเนา</string>
+    <string name="settings_whatsnew_entry_fork_opens_copy_summary">ปุ่มแตกแขนงในรายละเอียดเซสชันกลับมาเปิดเซสชันสำเนาได้แล้ว</string>
+
+    <!-- 2026-10-16-05-transcript-row-targets -->
+    <string name="settings_whatsnew_entry_transcript_row_targets_title">แตะง่ายขึ้น</string>
+    <string name="settings_whatsnew_entry_transcript_row_targets_summary">ชื่อในแผงเซสชันแตะง่ายขึ้น และ VoiceOver กับ Voice Control จะไม่เลือกปุ่มในช่องเขียนข้อความที่ซ่อนอยู่ระหว่างป้อนข้อความด้วยเสียง</string>
+
+    <!-- 2026-10-16-06-image-previews -->
+    <string name="settings_whatsnew_entry_image_previews_title">ตัวอย่างรูปภาพ</string>
+    <string name="settings_whatsnew_entry_image_previews_summary">รูปภาพที่เอเจนต์เอ่ยถึงจะแสดงตัวอย่างแบบช่องจัดเรียง และระบุให้ทราบหากไม่พบไฟล์</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_1">ตัวอย่างรูปภาพจะแสดงใต้ย่อหน้าที่เอ่ยถึง</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_2">แตะรูปภาพเพื่อเปิดเต็มจอ แล้วปัดดูรูปภาพอื่นในคำตอบได้</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_3">รูปภาพนอกโฟลเดอร์ของเซสชันจะโหลดเมื่อคุณแตะเท่านั้น</string>
+    <string name="settings_whatsnew_entry_image_previews_example">ลองขอให้เอเจนต์แสดงภาพหน้าจอจากโปรเจกต์ของคุณ</string>
+    <string name="settings_whatsnew_entry_image_previews_prompt">แสดงภาพหน้าจอในโปรเจกต์นี้ให้ดูหน่อย</string>
+
+    <!-- 2026-10-16-07-connection-error-details -->
+    <string name="settings_whatsnew_entry_connection_error_details_title">ระบุสาเหตุที่เชื่อมต่อไม่สำเร็จ</string>
+    <string name="settings_whatsnew_entry_connection_error_details_summary">ข้อผิดพลาดการเชื่อมต่อแสดงรหัสข้อผิดพลาด ที่อยู่ที่ลองเชื่อมต่อ และผล DNS พร้อมคำแนะนำเมื่อชื่อใน tailnet ชี้ไปยังที่อยู่นอก Tailscale</string>
+
+    <!-- 2026-10-16-08-outage-reconnect-delay -->
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_title">เชื่อมต่อใหม่เร็วขึ้น</string>
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_summary">เซสชันอัปเดตตามทันเร็วขึ้นเมื่อเซิร์ฟเวอร์กลับมาทำงานหลังหยุดให้บริการ</string>
+
+    <!-- 2026-10-17-01-every-running-subagent -->
+    <string name="settings_whatsnew_entry_every_running_subagent_title">นับตัวแทนย่อยที่ทำงานครบทุกตัว</string>
+    <string name="settings_whatsnew_entry_every_running_subagent_summary">จำนวนตัวแทนย่อยเหนือช่องเขียนข้อความรวมตัวที่ซ้อนอยู่ในตัวแทนย่อยอื่น และในเซสชันที่มีมากกว่า 100 ตัวแล้ว ตรงกับ TUI</string>
+
+    <!-- 2026-10-17-02-session-view-refined-standard -->
+    <string name="settings_whatsnew_entry_session_view_refined_standard_title">ตัวอักษรในคำตอบอ่านชัดขึ้น</string>
+    <string name="settings_whatsnew_entry_session_view_refined_standard_summary">หัวข้อระดับ 3 เด่นกว่าข้อความตัวหนา ข้อความทั่วไปจางลงเล็กน้อยให้ตัวหนาเด่นขึ้น และเพิ่มระยะห่างระหว่างย่อหน้ากับบล็อกโค้ดอีกนิด</string>
+
+    <!-- 2026-10-17-03-bottom-follow-on-load -->
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_title">คงตำแหน่งไว้ด้านล่างสุด</string>
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_summary">เซสชันจะคงตำแหน่งไว้ด้านล่างสุดขณะโหลดเนื้อหาที่มาช้า</string>
+
+    <!-- 2026-10-17-04-drafts-stay-put -->
+    <string name="settings_whatsnew_entry_drafts_stay_put_title">ฉบับร่างไม่หาย</string>
+    <string name="settings_whatsnew_entry_drafts_stay_put_summary">ฉบับร่าง รูปถ่ายและตำแหน่งที่แนบ รวมถึงข้อความที่รอส่ง จะยังอยู่แม้แอปถูกปิดขณะทำงานเบื้องหลัง</string>
+
+    <!-- 2026-10-18-01-themes -->
+    <string name="settings_whatsnew_entry_themes_title">ธีม</string>
+    <string name="settings_whatsnew_entry_themes_summary">เลือกธีมให้เซสชัน เช่น Tokyo Night, Catppuccin, Dracula, Rosé Pine หรือ GitHub พร้อมดูตัวอย่างทันทีขณะเลือก</string>
+    <string name="settings_whatsnew_entry_themes_detail_1">ธีมกำหนดสีของบันทึกการสนทนา ข้อความของคุณ โค้ด ไวยากรณ์ diff และลิงก์</string>
+    <string name="settings_whatsnew_entry_themes_detail_2">เลือกโหมดสว่าง มืด หรือตามระบบได้ที่โหมดในรูปลักษณ์</string>
+    <string name="settings_whatsnew_entry_themes_detail_3">ปุ่มและส่วนควบคุมยังคงใช้รูปลักษณ์ Liquid Glass ของระบบในทุกธีม</string>
+    <string name="settings_whatsnew_entry_themes_example">เปิดการตั้งค่า → รูปลักษณ์ → ธีม แล้วลอง Tokyo Night</string>
+
+    <!-- 2026-10-18-02-return-key-sends -->
+    <string name="settings_whatsnew_entry_return_key_sends_title">ตั้งค่าปุ่ม Return</string>
+    <string name="settings_whatsnew_entry_return_key_sends_summary">ปิดตัวเลือกกด Return เพื่อส่งในการตั้งค่า หากต้องการให้ Return ขึ้นบรรทัดใหม่ หรือใช้ Command-Return และ Shift-Return บนแป้นพิมพ์ภายนอก</string>
+
+    <!-- 2026-10-18-03-quote-replies -->
+    <string name="settings_whatsnew_entry_quote_replies_title">อ้างอิงคำตอบ</string>
+    <string name="settings_whatsnew_entry_quote_replies_summary">เลือกข้อความในคำตอบของผู้ช่วย แล้วแตะอ้างอิงเพื่อเพิ่มเป็นการ์ดคำอ้างอิงในข้อความของคุณ</string>
+
+    <!-- 2026-10-18-04-launch-bloom -->
+    <string name="settings_whatsnew_entry_launch_bloom_title">แอนิเมชันบานเมื่อเปิดแอป</string>
+    <string name="settings_whatsnew_entry_launch_bloom_summary">เมื่อเริ่มเปิดแอปใหม่ โลโก้ OpenCode จะหดเข้าแล้วบานออกเข้าสู่เซสชันของคุณ</string>
+
+    <!-- 2026-10-18-05-drag-to-pin -->
+    <string name="settings_whatsnew_entry_drag_to_pin_title">ลากเซสชันเพื่อปักหมุด</string>
+    <string name="settings_whatsnew_entry_drag_to_pin_summary">กดเซสชันค้างแล้วลากขึ้นไปยัง ปักหมุดแล้ว เพื่อปักหมุดไว้ตรงนั้น หรือลากเซสชันที่ปักหมุดลงมายัง ล่าสุด เพื่อเลิกปักหมุด</string>
+
+    <!-- 2026-10-19-01-call-tray-colour-blend -->
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_title">ปุ่มโทรเปลี่ยนสีลื่นไหลขึ้น</string>
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_summary">เมื่อเปิดการทดลองแถบการโทร ปุ่มโทรจะเปลี่ยนเป็นปุ่มวางสายสีแดงอย่างนุ่มนวลเมื่อเริ่มโทร และเปลี่ยนกลับเมื่อวางสาย โดยไม่กะพริบผ่านสีพื้นหลัง</string>
+
+    <!-- 2026-10-19-02-optical-insets -->
+    <string name="settings_whatsnew_entry_optical_insets_title">จัดปุ่มให้สมดุลขึ้น</string>
+    <string name="settings_whatsnew_entry_optical_insets_summary">ปุ่ม + และไมค์ในช่องเขียนข้อความ ไอคอนในแถบงานเบื้องหลังและงานที่อยู่ในคิว รวมถึงสัญลักษณ์เซสชันใหม่ในแถบด้านข้าง ดูอยู่กึ่งกลางส่วนโค้งของพื้นผิวกระจกแล้ว ไอคอนเชลล์เปลี่ยนเป็นวงกลมเหมือนลูกแก้วตัวแทนย่อย ไม่มีเคอร์เซอร์กะพริบ และแสดงคู่กันเมื่อทั้งสองทำงานอยู่</string>
+
+    <!-- 2026-10-19-03-smart-dictation-audio -->
+    <string name="settings_whatsnew_entry_smart_dictation_audio_title">พิมพ์ด้วยเสียงพร้อมฟังเพลงได้ลื่นไหลขึ้น</string>
+    <string name="settings_whatsnew_entry_smart_dictation_audio_summary">เมื่อพิมพ์ด้วยเสียงระหว่างฟังเพลงบน AirPods เพลงจะยังเป็นสเตอริโอและไม่สะดุดหลังผ่านไปหนึ่งนาที ส่วนเมื่อใช้มือถืออย่างเดียว เสียงจะยังออกลำโพงแทนลำโพงแนบหู</string>
+
+    <!-- 2026-10-19-04-interrupted-hand -->
+    <string name="settings_whatsnew_entry_interrupted_hand_title">ไอคอนยกมือเมื่อถูกขัดจังหวะ</string>
+    <string name="settings_whatsnew_entry_interrupted_hand_summary">งานและเชลล์ที่ถูกขัดจังหวะจะแสดงไอคอนยกมือ และเชลล์ที่คุณหยุดจะแสดงว่า ถูกขัดจังหวะ แทน หยุดแล้ว</string>
+
+    <!-- 2026-10-19-05-autocomplete-fast-scroll -->
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_title">เติมข้อความอัตโนมัติไวขึ้น</string>
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_summary">เมื่อเปิดการทดลองเติมข้อความอัตโนมัติในช่องเขียนข้อความ คำแนะนำจะตามทันขณะพิมพ์ และลากเลื่อนรายการได้โดยไม่เผลอเลือกรายการ</string>
+
+    <!-- 2026-10-19-06-experimental-groups -->
+    <string name="settings_whatsnew_entry_experimental_groups_title">จัดกลุ่มฟีเจอร์ทดลอง</string>
+    <string name="settings_whatsnew_entry_experimental_groups_summary">ฟีเจอร์ใน การตั้งค่า → การทดลอง จัดเป็นกลุ่มแล้ว และรวมตัวเลือกรูปแบบการโทรไว้ที่เดียว</string>
+
+    <!-- 2026-10-19-07-model-picker-standard-sheet -->
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_title">เลือกโมเดลในแผงมาตรฐาน</string>
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_summary">เมื่อเปิดการทดลองตัวเลือกโมเดลแบบใหม่ แตะโมเดลในช่องข้อความเพื่อเปิดแผงมาตรฐาน โดยแต่ละโมเดลมีเมนูระดับการคิดของตัวเอง ตัวเลือกแบบเดิมเปลี่ยนชื่อเป็น ตัวเลือกโมเดลแบบกำหนดเอง ใน การตั้งค่า › การทดลอง</string>
+
+    <!-- 2026-10-19-08-problem-reports-reach-session -->
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_title">ส่งรายงานถึงเซสชันด้วย</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_summary">ตอนนี้ รายงานปัญหา จะส่งข้อความของคุณไปยังเซสชันที่ใช้รายงานด้วย พร้อมแนบรายงานฉบับเต็มให้เอเจนต์อ่าน</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_1">ข้อความเริ่มด้วยบรรทัดรายงานปัญหา ตามด้วยข้อความของคุณ ID รายงาน และลิงก์ข้อมูลติดตามการทำงานที่อัปโหลดไว้</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_2">ข้อมูลอุปกรณ์ บิลด์ หน้าจอ ไทม์ไลน์ และบันทึกแอปจะส่งมาเป็นไฟล์แนบ เหมือนที่คุณแนบเอง</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_3">หากรายงานจากหน้าหลัก จะส่งไปยังเซสชันล่าสุดของคุณ</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_4">หากอัปโหลดไม่สำเร็จ ข้อความและสรุปจะยังส่งไปพร้อมแจ้งว่าอัปโหลดไม่สำเร็จ จากนั้น ลองอีกครั้ง จะส่งเฉพาะลิงก์ข้อมูลติดตามการทำงาน</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_5">เมื่อส่งถึงแล้ว จะแสดงข้อความยืนยันว่า “ส่งไปยังเซสชันแล้ว”</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_example">เปิดเมนูของเซสชัน เลือก รายงานปัญหา เพิ่มข้อความ แล้วแตะ ส่ง</string>
+
+    <!-- 2026-10-19-09-team-scrawl-feedback -->
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_title">ส่งความคิดเห็นทีมผ่าน Scrawl</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_summary">เข้าร่วม Team Feedback ผ่านลิงก์ส่วนตัว เพื่อส่งคลิป Scrawl ที่บันทึกด้วยสามนิ้วและข้อมูลวินิจฉัยที่ปกปิดข้อมูลส่วนตัวแล้ว ไปยังคิวร่วมบนบอร์ดปัญหา</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_1">เปิดลิงก์ opencode://team/join ของคุณเพื่อตรวจสอบว่าจะเก็บข้อมูลใดบ้าง แล้วกดยอมรับ</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_2">บทสอนแบบโต้ตอบสามขั้นตอนจะพาลองแตะสามนิ้วค้าง พูดและวาด แล้วส่งคลิปฝึกไปยังช่องทดสอบ</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_3">แต่ละคลิปจะแนบไทม์ไลน์ บันทึกแอป และข้อมูลวินิจฉัย Motion Watch ที่ปกปิดข้อมูลส่วนตัวแล้ว เช่นเดียวกับรายงานปัญหา</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_4">ดูบทสอนซ้ำหรือออกจาก Team Feedback ได้ทุกเมื่อใน การตั้งค่า › นักพัฒนา</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_example">เปิด การตั้งค่า › นักพัฒนา เพื่อตรวจสอบสถานะ Team Feedback หรือดูบทสอนซ้ำ</string>
+
+    <!-- 2026-10-19-10-scrawl-faster-start -->
+    <string name="settings_whatsnew_entry_scrawl_faster_start_title">เริ่ม Scrawl ได้เร็วขึ้น</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_summary">ปุ่มควบคุมของ Scrawl จะแสดงระหว่างที่ไมโครโฟนและตัวบันทึกกำลังเริ่มทำงาน</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_1">การแตะ วาด ส่ง และทิ้ง ระหว่างเตรียมบันทึกจะถูกเก็บไว้เพื่อทำต่อ</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_2">แตะสามนิ้วค้างเพื่อเตรียมแผงซ้อน โดยไม่เปิดไมโครโฟนก่อนเวลา</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_3">แก้ปัญหาแอปปิดตัวเมื่อไมโครโฟนของ Scrawl เริ่มใหม่ระหว่างเปลี่ยนอุปกรณ์เสียง</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_example">บนอุปกรณ์ที่จับคู่แล้ว แตะสามนิ้วค้างเพื่อเริ่มบันทึก</string>
+
+    <!-- 2026-10-20-01-call-tray-docks-in-drawer -->
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_title">แถบการโทรในแถบด้านข้าง</string>
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_summary">เมื่อเปิดการทดลองแถบการโทร หากเปิดแถบด้านข้างระหว่างโทร แถบการโทรจะย้ายไปใต้เซสชันใหม่ พร้อมระดับเสียง ปุ่มปิดไมค์ และปุ่มวางสาย และย้ายกลับเมื่อปิดแถบด้านข้าง</string>
+
+    <!-- 2026-10-20-02-markdown-streams-smoothly -->
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_title">แสดงคำตอบระหว่างรับได้ลื่นไหลขึ้น</string>
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_summary">คำตอบยาวยังแสดงได้รวดเร็วระหว่างรับข้อความ และตัวหนา โค้ด หรือลิงก์ที่ยังเขียนไม่จบจะแสดงแบบจัดรูปแบบแทน Markdown ดิบ</string>
+
+    <!-- 2026-10-20-04-return-newline-default -->
+    <string name="settings_whatsnew_entry_return_newline_default_title">กด Return เพื่อขึ้นบรรทัดใหม่</string>
+    <string name="settings_whatsnew_entry_return_newline_default_summary">ตอนนี้ Return จะขึ้นบรรทัดใหม่ตามค่าเริ่มต้น เปิด ส่งด้วยปุ่ม Return ใน การตั้งค่า › เซสชัน เพื่อส่งด้วย Return หรือใช้ Ctrl+Enter บนแป้นพิมพ์ภายนอก</string>
+
+    <!-- 2026-10-20-05-drawer-session-alignment -->
+    <string name="settings_whatsnew_entry_drawer_session_alignment_title">จัดแนวปุ่มในแถบด้านข้าง</string>
+    <string name="settings_whatsnew_entry_drawer_session_alignment_summary">ค้นหา เซสชันใหม่ และการตั้งค่า อยู่ในแนวเดียวกับส่วนหัวและช่องข้อความของเซสชัน ทั้งบนมือถือและแท็บเล็ต</string>
+
+    <!-- 2026-10-20-06-call-tray-switch-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_title">ปุ่มควบคุมการโทรนิ่งขึ้น</string>
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_summary">คลื่นเสียงการโทรยังเคลื่อนไหวต่อเนื่องเมื่อสลับเซสชัน และปุ่มควบคุมอยู่ในระดับเดิมเมื่อเปิดรายการเซสชัน</string>
+
+    <!-- 2026-10-20-07-voice-delegation-visible-on-admission -->
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_title">ข้อความจากเสียงแสดงทันที</string>
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_summary">ข้อความที่ฟีเจอร์เสียงส่งเข้าเซสชันจะแสดงทันทีที่เซิร์ฟเวอร์รับ แม้การอัปเดตเซสชันจะล่าช้า</string>
+
+    <!-- 2026-10-20-08-inline-image-links -->
+    <string name="settings_whatsnew_entry_inline_image_links_title">ตัวอย่างรูปภาพจากลิงก์</string>
+    <string name="settings_whatsnew_entry_inline_image_links_summary">เปิด ตัวอย่างรูปภาพจากลิงก์ ใน การตั้งค่า › การทดลอง › บันทึกการสนทนา เพื่อดูตัวอย่างรูปภาพที่ลิงก์ไว้ในคำตอบ แตะภาพขนาดย่อเพื่อเปิดเต็มจอและซูม</string>
+
+    <!-- 2026-10-20-09-smooth-link-preview-arrival -->
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_title">ตัวอย่างลิงก์แสดงลื่นไหลขึ้น</string>
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_summary">ตัวอย่างลิงก์จะค่อยๆ ปรากฏเมื่อโหลด และรายการด้านล่างจะเลื่อนอย่างนุ่มนวลเมื่อความสูงของชื่อเปลี่ยน</string>
+
+    <!-- 2026-10-20-10-subagent-capsule-press -->
+    <string name="settings_whatsnew_entry_subagent_capsule_press_title">แถบกิจกรรมคงรูปโค้งมน</string>
+    <string name="settings_whatsnew_entry_subagent_capsule_press_summary">แถบตัวแทนย่อยและเชลล์ยังคงปลายโค้งมนขณะกด</string>
+
+    <!-- 2026-10-20-11-advanced-settings-open -->
+    <string name="settings_whatsnew_entry_advanced_settings_open_title">การตั้งค่าขั้นสูงที่เรียบง่ายขึ้น</string>
+    <string name="settings_whatsnew_entry_advanced_settings_open_summary">กลุ่มตัวเลือกใน การตั้งค่า › การทดลอง ขยายไว้ทั้งหมดแล้ว ตัวเลือกโมเดลรวมเป็นตัวเลือกเดียวชื่อ ตัวเลือกโมเดล และแตะตรงไหนก็ได้ในแถวเพื่อเปลี่ยนค่า</string>
+
+    <!-- 2026-10-20-12-revert-to-here -->
+    <string name="settings_whatsnew_entry_revert_to_here_title">รีเซ็ตไปยังจุดนี้</string>
+    <string name="settings_whatsnew_entry_revert_to_here_summary">กดข้อความของคุณค้างไว้แล้วเลือก รีเซ็ตไปยังจุดนี้ เพื่อย้อนกลับไปแก้ไขที่จุดนั้น</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_1">ข้อความ รูปถ่าย และไฟล์จะกลับมาอยู่ในช่องข้อความ</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_2">เลือก เลิกทำ เพื่อคืนบทสนทนาและการเปลี่ยนแปลงไฟล์ได้จนกว่าจะส่งข้อความใหม่</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_3">ใช้ได้ขณะที่เอเจนต์ไม่ได้ทำงาน</string>
+    <string name="settings_whatsnew_entry_revert_to_here_example">กดข้อความที่คุณเคยส่งค้างไว้ แล้วเลือก รีเซ็ตไปยังจุดนี้</string>
+
+    <!-- 2026-10-20-13-drag-from-transcript -->
+    <string name="settings_whatsnew_entry_drag_from_transcript_title">ลากออกจากเซสชัน</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_summary">กดค้างแล้วลากโค้ด รูปภาพ ไฟล์ ลิงก์ และข้อความจากเซสชันไปยังแอปอื่น</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_1">บล็อกโค้ดจะส่งไปเป็นข้อความพร้อมระบุภาษา</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_2">รูปภาพและไฟล์ที่เอเจนต์เขียนจะส่งไปเป็นไฟล์</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_3">วางสิ่งเหล่านี้ลงในช่องข้อความเพื่อแนบหรือวาง</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_4">การเลื่อน การเลือกข้อความ และเมนูยังใช้งานได้เหมือนเดิม</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_example">เลือกโค้ดหนึ่งบรรทัดในคำตอบ แล้วกดส่วนที่เลือกค้างไว้เพื่อลากบล็อกไปยัง Notes</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_prompt">เขียนฟังก์ชัน Swift สั้นๆ ที่กลับลำดับตัวอักษรในสตริง โดยใส่ในบล็อกโค้ด</string>
+
+    <!-- 2026-10-20-14-tuning-glass-tap-targets -->
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_title">ปุ่มปรับแต่งที่แตะง่ายขึ้น</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_summary">ปุ่มทรงแคปซูลเมื่อพับแผงปรับแต่งและแท็บริมจอมีพื้นที่ให้แตะใหญ่ขึ้น</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_detail_1">หน้าปุ่มแบบกระจกยังมีขนาดเท่าเดิม</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_example">พับแผงปรับแต่ง แล้วแตะใกล้ขอบปุ่มทรงแคปซูลหรือแท็บ</string>
+
+    <!-- 2026-10-20-15-new-session-project-continuity -->
+    <string name="settings_whatsnew_entry_new_session_project_continuity_title">เลือกโปรเจกต์ได้นิ่งขึ้น</string>
+    <string name="settings_whatsnew_entry_new_session_project_continuity_summary">โฟลเดอร์ล่าสุดไม่สลับตำแหน่งขณะเลือกโปรเจกต์ ชื่อส่วนหัวเปลี่ยนอย่างนุ่มนวล และแผงโปรเจกต์แสดงเส้นทางโฟลเดอร์ชัดขึ้น</string>
+
+    <!-- 2026-10-20-16-simple-session-loading -->
+    <string name="settings_whatsnew_entry_simple_session_loading_title">โหลดเซสชันอย่างเรียบง่ายขึ้น</string>
+    <string name="settings_whatsnew_entry_simple_session_loading_summary">โลโก้เล็กๆ ที่อยู่นิ่งจะค่อยๆ ปรากฏเฉพาะเมื่อเซสชันโหลดนานสักหน่อย แล้วจางหายไปเป็นข้อความ</string>
+
+    <!-- 2026-10-20-17-voice-route-consistency -->
+    <string name="settings_whatsnew_entry_voice_route_consistency_title">แก้ไขการเชื่อมต่อเสียง</string>
+    <string name="settings_whatsnew_entry_voice_route_consistency_summary">Grok ยังคงใช้คีย์ xAI ของคุณเมื่อเซิร์ฟเวอร์จัดการการโทร และ Gemini ระบุตัวเองได้ถูกต้อง</string>
+
+    <!-- 2026-10-20-18-call-tray-edge-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_title">การเคลื่อนไหวของแถบการโทร</string>
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_summary">รูปคลื่นของแถบการโทรเคลื่อนตามขอบโค้งขณะเปิดและเลื่อนเข้าหรือออกจากแถบด้านข้าง</string>
+
+    <!-- 2026-10-21-01-call-tray-keyboard-return -->
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_title">แถบการโทรเมื่อกลับมา</string>
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_summary">แถบการโทรยังแสดงอยู่ขณะแถบด้านข้างปิดและแป้นพิมพ์กลับมา</string>
+
+    <!-- 2026-10-21-02-drawer-title-fade -->
+    <string name="settings_whatsnew_entry_drawer_title_fade_title">แสดงชื่อเซสชันได้ยาวขึ้น</string>
+    <string name="settings_whatsnew_entry_drawer_title_fade_summary">ชื่อเซสชันยาวๆ ในแถบด้านข้างจะแสดงจนถึงขอบแล้วค่อยๆ จาง แทนการตัดด้วยจุดไข่ปลาก่อนถึงขอบ</string>
+
+    <!-- 2026-10-21-03-call-sounds-from-the-tap -->
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_title">เสียงการโทรเริ่มเร็วขึ้น</string>
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_summary">เสียงรอเชื่อมต่อเริ่มพร้อมภาพเคลื่อนไหวรอบแรก แทนที่จะรอสองสามวินาทีหลังแตะ</string>
+
+    <!-- 2026-10-21-04-calm-wireframe-launch -->
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_title">โหลดได้นุ่มนวลขึ้น</string>
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_summary">เซสชันที่แคชไว้จะเปิดทันที ส่วนเซสชันที่ต้องรอโหลดจะแสดงกรอบข้อความกะพริบเบาๆ แล้วค่อยๆ เปลี่ยนเป็นข้อความของคุณ</string>
+
+    <!-- 2026-10-21-05-request-dictation-last-line -->
+    <string name="settings_whatsnew_entry_request_dictation_last_line_title">แสดงท้ายข้อความที่พูด</string>
+    <string name="settings_whatsnew_entry_request_dictation_last_line_summary">บน iOS 26 เมื่อหยุดป้อนข้อความยาวด้วยเสียงในช่องตอบคำขอที่รออยู่ จะแสดงบรรทัดท้ายๆ แทนข้อความช่วงกลาง</string>
+
+    <!-- 2026-10-21-06-first-run-pairing-fixes -->
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_title">จับคู่ครั้งแรกได้ชัดเจนขึ้น</string>
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_summary">หากแตะวางตอนคลิปบอร์ดว่าง จะมีข้อความแจ้งข้างปุ่มวาง และหน้าตั้งค่าจะไม่บอกอีกต่อไปว่าเข้าถึงจากระยะไกลได้ภายในครึ่งนาที</string>
+
+    <!-- 2026-10-21-07-welcome-pairing-copy -->
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_title">จับคู่จากแอป OpenCode</string>
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_summary">หน้าต้อนรับแนะนำให้ไปที่ การตั้งค่า → การจับคู่ ใน OpenCode บนคอมพิวเตอร์ หรือใช้ /pair ในเทอร์มินัล พร้อมคำสั่งติดตั้งสำหรับผู้ที่ยังไม่มี OpenCode</string>
+
+    <!-- 2026-10-21-08-session-id-links -->
+    <string name="settings_whatsnew_entry_session_id_links_title">ลิงก์เซสชัน</string>
+    <string name="settings_whatsnew_entry_session_id_links_summary">ID เซสชันในคำตอบจะแสดงเป็นชื่อเซสชันนั้น แตะเพื่อเปิดเซสชัน</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_1">แตะ ID ของตัวแทนย่อยเพื่อเปิดซ้อนบนเซสชันปัจจุบัน แล้วกด ย้อนกลับ เพื่อกลับมา</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_2">กดค้างเพื่อคัดลอก ID</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_3">ID ที่เซิร์ฟเวอร์นี้ไม่รู้จักจะแสดงแบบย่อ</string>
+    <string name="settings_whatsnew_entry_session_id_links_example">ขอให้เอเจนต์ระบุเซสชันอื่นด้วย ID แล้วแตะชื่อเซสชัน</string>
+    <string name="settings_whatsnew_entry_session_id_links_prompt">แสดงเซสชัน OpenCode ล่าสุดของฉันห้าเซสชันพร้อม ID เซสชัน</string>
+
+    <!-- 2026-10-21-10-ipad-multiple-windows -->
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_title">หลายหน้าต่างบนแท็บเล็ต</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_summary">บนแท็บเล็ต เปิดแต่ละเซสชันในหน้าต่างแยกและวางสองหน้าต่างข้างกันได้</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_1">กดเซสชันในแถบด้านข้างค้างไว้ แล้วเลือก เปิดในหน้าต่างใหม่</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_2">แต่ละหน้าต่างมีเซสชัน แถบด้านข้าง และช่องข้อความของตัวเอง</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_3">รายการปักหมุด สถานะอ่านเซสชัน และเซิร์ฟเวอร์ของคุณจะเหมือนกันทุกหน้าต่าง</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_4">เมื่อเปิดหน้าต่างอีกครั้ง จะกลับไปยังเซสชันเดิม</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_example">กดเซสชันในแถบด้านข้างค้างไว้ เลือก เปิดในหน้าต่างใหม่ แล้ววางข้างหน้าต่างแรก</string>
+
+    <!-- 2026-10-21-11-plain-launch -->
+    <string name="settings_whatsnew_entry_plain_launch_title">เปิดแอปแบบเรียบง่าย</string>
+    <string name="settings_whatsnew_entry_plain_launch_summary">OpenCode เปิดด้วยหน้าจอเรียบๆ แล้วไปยังเซสชันทันทีที่พร้อม โดยไม่มีภาพเคลื่อนไหวขณะโหลด</string>
+
+    <!-- 2026-10-21-12-breath-ping-call-sounds -->
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_title">เสียงการโทรที่นุ่มนวลขึ้น</string>
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_summary">เสียงเชื่อมต่อ เสียงแจ้ง และเสียงวางสายใช้โทนนุ่มเบาคล้ายลมหายใจ ไม่รบกวนบทสนทนา</string>
+
+    <!-- 2026-10-21-13-smoother-session-list -->
+    <string name="settings_whatsnew_entry_smoother_session_list_title">รายการเซสชันที่ลื่นไหลขึ้น</string>
+    <string name="settings_whatsnew_entry_smoother_session_list_summary">รายการเซสชันในแถบด้านข้างเลื่อนได้ลื่นไหลขณะเซสชันทำงาน และเมื่อกดเซสชันค้างเพื่อเปิดเมนู แถวจะยังมีขนาดเท่าเดิม</string>
+
+    <!-- 2026-10-22-01-whats-new-actions -->
+    <string name="settings_whatsnew_entry_whats_new_actions_title">เปิดและลองใช้จากมีอะไรใหม่</string>
+    <string name="settings_whatsnew_entry_whats_new_actions_summary">หน้ารายการในมีอะไรใหม่มีปุ่มเปิดการตั้งค่าที่เกี่ยวข้อง เช่น ธีม หรือเริ่มเซสชันใหม่พร้อมพรอมต์ที่กรอกไว้ให้ลองใช้</string>
+
+    <!-- 2026-10-22-02-project-icons-current-discovery -->
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_title">แก้ไขไอคอนโปรเจกต์</string>
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_summary">เมื่อเปิดใช้ไอคอนโปรเจกต์ แถบด้านข้างจะแสดงไอคอนที่เซิร์ฟเวอร์พบในชุด Icon Composer ด้วย</string>
+
+    <!-- 2026-10-22-03-new-divider-off-page -->
+    <string name="settings_whatsnew_entry_new_divider_off_page_title">แสดง “ใหม่” เมื่อจำเป็น</string>
+    <string name="settings_whatsnew_entry_new_divider_off_page_summary">เมื่อเปิดการทดลองเส้นคั่นข้อความใหม่ ป้าย “ใหม่” จะระบุข้อความที่เพิ่งมาถึงเฉพาะเมื่อข้อความยาวเกินหน้าจอ</string>
+
+    <!-- 2026-10-22-04-catch-up-all-caught-up-row -->
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_title">ติดตามครบแล้ว</string>
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_summary">เมื่ออ่านเซสชันสุดท้ายในติดตามอัปเดต คุณจะกลับไปที่แถบด้านข้างทันที โดยติดตามอัปเดตจะแสดงเครื่องหมายถูกพร้อมข้อความ “ติดตามครบแล้ว”</string>
+
+    <!-- 2026-10-23-01-session-mentions -->
+    <string name="settings_whatsnew_entry_session_mentions_title">อ้างถึงเซสชัน</string>
+    <string name="settings_whatsnew_entry_session_mentions_summary">เมื่อเปิดการทดลองเติมข้อความอัตโนมัติในช่องเขียนข้อความ ให้พิมพ์ @ เพื่ออ้างถึงเซสชันอื่นด้วยชื่อ เช่นเดียวกับบนเดสก์ท็อป</string>
+
+    <!-- 2026-10-23-02-gpt-live-own-key -->
+    <string name="settings_whatsnew_entry_gpt_live_own_key_title">คีย์ GPT-Live</string>
+    <string name="settings_whatsnew_entry_gpt_live_own_key_summary">การโทร GPT-Live ใช้คีย์ OpenAI ของคุณ คีย์ OpenAI ของเซิร์ฟเวอร์ หรือการเชื่อมต่อ OpenCode Console ของเซิร์ฟเวอร์ได้</string>
+
+    <!-- 2026-10-23-03-pair-opens-drawer -->
+    <string name="settings_whatsnew_entry_pair_opens_drawer_title">ทำต่อจากที่ค้างไว้</string>
+    <string name="settings_whatsnew_entry_pair_opens_drawer_summary">หลังจับคู่คอมพิวเตอร์เครื่องใหม่ แถบด้านข้างจะเปิดรายการเซสชันล่าสุดของเครื่องนั้นให้เลือก แทนที่จะค้างอยู่ที่เซสชันว่าง</string>
+
+    <!-- 2026-10-23-04-voice-server-picker -->
+    <string name="settings_whatsnew_entry_voice_server_picker_title">เลือกเซิร์ฟเวอร์เสียง</string>
+    <string name="settings_whatsnew_entry_voice_server_picker_summary">ใน การตั้งค่า › เสียง › ผู้ให้บริการเสียง เลือกให้การโทรผ่านเซิร์ฟเวอร์ที่บันทึกไว้ หรือใช้บัญชี OpenAI ของคุณบนมือถือเครื่องนี้</string>
+
+    <!-- 2026-10-24-01-living-orb-floats -->
+    <string name="settings_whatsnew_entry_living_orb_floats_title">ลูกแก้วมีชีวิตลอยได้ทุกหน้า</string>
+    <string name="settings_whatsnew_entry_living_orb_floats_summary">ลูกแก้วมีชีวิตเป็นรูปแบบการโทรแบบลอยแล้วใน การตั้งค่า › การทดลอง › การโทร มีขนาดใหญ่ขึ้น ลอยอยู่เหนือการตั้งค่าและทุกหน้าจอ และเคลื่อนไหวตามเสียงทั้งสองฝ่าย โดยแยกสีเมื่อพูดพร้อมกัน แตะเพื่อขยายเป็นการ์ด ลากขึ้นเพื่อดูการโทรและบันทึกการสนทนาทั้งหมด แล้วลากลงเพื่อย่อกลับ เปลี่ยนรูปลักษณ์ได้ที่ลูกแก้ว ใต้รูปแบบการโทร</string>
+
+    <!-- 2026-10-24-02-new-messages-divider-on -->
+    <string name="settings_whatsnew_entry_new_messages_divider_on_title">เส้นคั่นข้อความใหม่</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_summary">เมื่อคำตอบที่มาถึงระหว่างคุณไม่อยู่ยาวเกินหน้าจอ เซสชันจะเปิดที่เส้นคั่น “ใหม่” ตรงต้นคำตอบ</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_1">คำตอบที่พอดีหน้าจอจะเปิดที่ท้ายคำตอบโดยไม่มีเส้นคั่น</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_2">คำตอบที่ทยอยเข้ามาขณะคุณดูอยู่จะไม่มีเครื่องหมายกำกับ</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_3">เมื่ออ่านลงไปจนจบ เส้นคั่นจะหายไป</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_4">ปิดได้ใน การตั้งค่า › เซสชัน</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_example">ขอคำตอบยาว ๆ แล้วสลับไปแอปอื่นจนตอบเสร็จ จากนั้นกลับมา</string>
+
+    <!-- 2026-10-24-03-composer-keyboard-morph -->
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_title">ช่องเขียนข้อความขยับตามแป้นพิมพ์</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_summary">ปุ่มควบคุมในช่องเขียนข้อความจะเปิดพร้อมแป้นพิมพ์ และขยับตามเมื่อคุณลากแป้นพิมพ์ขึ้นลง</string>
+
+    <!-- 2026-10-24-04-composer-photo-viewer -->
+    <string name="settings_whatsnew_entry_composer_photo_viewer_title">ดูรูปในช่องเขียนข้อความแบบเต็มจอ</string>
+    <string name="settings_whatsnew_entry_composer_photo_viewer_summary">แตะรูปถ่ายในช่องเขียนข้อความเพื่อดูเต็มจอ ปัดเพื่อดูรูปอื่น และเอารูปออกได้ก่อนส่ง</string>
+
+    <!-- 2026-10-24-05-plus-menu-photo-picker -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_title">ตัวเลือกรูปถ่ายใหม่</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_summary">เปิดเมนู + แบบใหม่ใน การตั้งค่า › การทดลอง › ช่องเขียนข้อความ เพื่อเลือกรูปถ่ายล่าสุดได้สูงสุด 8 รูปจากเมนู + โดยตรง เรียกดูรูปถ่ายทั้งหมด และดูรูปเคลื่อนเข้าสู่ช่องเขียนข้อความแล้วเข้าสู่เซสชัน</string>
+
+    <!-- 2026-10-24-06-project-icons-lit -->
+    <string name="settings_whatsnew_entry_project_icons_lit_title">ไอคอนโปรเจกต์มีแสงเงา</string>
+    <string name="settings_whatsnew_entry_project_icons_lit_summary">เมื่อเปิดใช้ไอคอนโปรเจกต์ ไอคอนในแถบด้านข้างจะมีแสงนุ่ม ๆ จากด้านบน ขอบแก้วบาง ๆ และเงาจาง ๆ</string>
+
+    <!-- 2026-10-24-07-session-live-activity -->
+    <string name="settings_whatsnew_entry_session_live_activity_title">อัปเดตเซสชันแบบสด</string>
+    <string name="settings_whatsnew_entry_session_live_activity_summary">เปิดอัปเดตเซสชันแบบสดใน การตั้งค่า › การทดลอง › แถบด้านข้าง เพื่อติดตามงานที่สั่งผ่านการแจ้งเตือนแบบสด รวมถึงบนหน้าจอล็อก จนกว่างานจะเสร็จหรือต้องการคำตอบจากคุณ</string>
+
+    <!-- 2026-10-24-08-sign-in-failed-edit-server -->
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_title">แก้ปัญหาเข้าสู่ระบบถูกปฏิเสธ</string>
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_summary">เมื่อเซิร์ฟเวอร์ไม่ยอมรับรหัสผ่าน เมนูเซิร์ฟเวอร์ในแถบด้านข้างจะแสดง “แก้ไขเซิร์ฟเวอร์…” แทน “ลองอีกครั้ง” ที่ช่วยไม่ได้ และหน้าต้อนรับจะแนะนำให้ใช้ opencode pair --remote ในเทอร์มินัล</string>
+
+    <!-- 2026-10-25-01-voice-app-screenshot -->
+    <string name="settings_whatsnew_entry_voice_app_screenshot_title">ถ่ายภาพหน้าจอด้วยเสียง</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_summary">ระหว่างโทรด้วยเสียง พูดว่า “ดูนี่สิ” เพื่อส่งภาพหน้าจอแอปไปยังเซสชันพร้อมความคิดเห็นของคุณ</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_1">ส่งเฉพาะภาพหน้าจอของแอปนี้ พร้อมชื่อหน้าจอและสถานะการโทรกับแอป</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_2">ขอให้แนบบันทึกการโทรหรือบันทึกแอปล่าสุดไปด้วยได้ โดยที่อยู่และข้อมูลเข้าสู่ระบบจะถูกปิดบัง</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_3">จะไม่ถ่ายภาพขณะที่หน้าจอเข้าสู่ระบบหรือช่องรหัสผ่านแสดงอยู่</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_example">ระหว่างโทรด้วยเสียง พูดว่า “ถ่ายภาพหน้าจอให้หน่อย แถวนี้จัดไม่ตรง”</string>
+
+    <!-- 2026-10-25-02-voice-background-results -->
+    <string name="settings_whatsnew_entry_voice_background_results_title">รับผลจากงานเบื้องหลังระหว่างโทร</string>
+    <string name="settings_whatsnew_entry_voice_background_results_summary">เมื่อเซสชันที่คุณสั่งระหว่างโทรเริ่มทำงานเบื้องหลัง ระบบจะบอกผลผ่านการโทรทันทีที่งานเสร็จ แม้คุณจะไปทำอย่างอื่นแล้ว</string>
+
+    <!-- 2026-10-25-03-sound-effects-experiment -->
+    <string name="settings_whatsnew_entry_sound_effects_experiment_title">เสียงเอฟเฟกต์</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_summary">การทดลองที่เล่นเสียงเบา ๆ พร้อมการสั่นเมื่อมีคำตอบ คำขอ การติดตามอัปเดต และการส่งไม่สำเร็จ</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_1">โหมดเงียบและโหมดสั่นจะปิดเสียงเอฟเฟกต์ โดยเพลงยังเล่นต่อ</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_2">เสียงจะไม่ดังระหว่างโทร พิมพ์ด้วยเสียง เล่นสื่อ หรือเมื่อแอปอยู่เบื้องหลัง</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_3">ใต้สวิตช์มีระดับเสียงและตัวเลือกเปิดเสียงเมื่อส่ง</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_example">เปิดเสียงเอฟเฟกต์ใน การตั้งค่า › การทดลอง แล้วรอคำตอบในเซสชันอื่น</string>
+
+    <!-- 2026-10-25-90-session-title-first-prompt -->
+    <string name="settings_whatsnew_entry_session_title_first_prompt_title">ใช้พรอมต์แรกเป็นชื่อ</string>
+    <string name="settings_whatsnew_entry_session_title_first_prompt_summary">เซสชันที่ยังไม่มีชื่อจะแสดงพรอมต์แรกในบรรทัดเดียว จนกว่าเซิร์ฟเวอร์จะตั้งชื่อให้</string>
+
+    <!-- 2026-10-26-01-settings-sessions-page -->
+    <string name="settings_whatsnew_entry_settings_sessions_page_title">การตั้งค่าเซสชัน</string>
+    <string name="settings_whatsnew_entry_settings_sessions_page_summary">การตั้งค่ามีหน้าเซสชันใหม่ โดยเส้นคั่นข้อความใหม่อยู่เหนือตัวเลือกกด Enter เพื่อส่ง และขั้นสูงแยกเป็นสองแถวแล้ว ได้แก่ การทดลองและนักพัฒนา</string>
+
+    <!-- 2026-10-26-02-project-icons-default -->
+    <string name="settings_whatsnew_entry_project_icons_default_title">เปิดใช้ไอคอนโปรเจกต์</string>
+    <string name="settings_whatsnew_entry_project_icons_default_summary">ไอคอนโปรเจกต์จะแสดงข้างชื่อเซสชันแล้ว ปิดได้ใน การตั้งค่า › การทดลอง</string>
+
+    <!-- 2026-10-26-03-plus-menu-over-keyboard -->
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_title">รูปถ่ายเหนือแป้นพิมพ์</string>
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_summary">เมื่อเปิดเมนู + แบบใหม่ เมนู + จะเปิดเหนือแป้นพิมพ์ และรูปถ่ายจะขยายจากเมนูเป็นแผงเต็มความกว้างหน้าจอ แล้วย่อกลับโดยไม่ซ่อนแป้นพิมพ์</string>
+
+    <!-- 2026-10-26-04-living-orb-connect-motion -->
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_title">ลูกแก้วเคลื่อนไหวขณะเชื่อมต่อ</string>
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_summary">เมื่อเปิดลูกแก้วมีชีวิต ปุ่มโทรจะลอยขึ้นเป็นลูกแก้วและหมุนขณะเชื่อมต่อ แล้วกลับมาเป็นปุ่มเมื่อวางสาย หากโทรซ้ำทันทีจะเริ่มสายใหม่โดยไม่ค้าง</string>
+
+    <!-- 2026-10-26-05-living-orb-presets -->
+    <string name="settings_whatsnew_entry_living_orb_presets_title">ชุดลูกแก้วสำเร็จรูปและแบบแฟนซี</string>
+    <string name="settings_whatsnew_entry_living_orb_presets_summary">ลูกแก้ว ใต้รูปแบบการโทรใน การตั้งค่า › การทดลอง › การโทร จะเปิดที่แบบแฟนซี พร้อมตัวอย่างเคลื่อนไหวที่ใหญ่ขึ้นและแถวชุดสำเร็จรูป บันทึกชุดของคุณ เปลี่ยนชื่อ และคัดลอกหรือวางการตั้งค่าเพื่อแชร์ได้</string>
+
+    <!-- 2026-10-26-06-send-after-a-pause -->
+    <string name="settings_whatsnew_entry_send_after_a_pause_title">ส่งลื่นขึ้นหลังเว้นช่วง</string>
+    <string name="settings_whatsnew_entry_send_after_a_pause_summary">ข้อความที่ส่งหลังเว้นช่วงจะลอยจากช่องเขียนข้อความเข้าสู่กรอบข้อความทันที แทนที่จะเลื่อนลงเข้าหาช่องเขียนข้อความใต้เวลาก่อน</string>
+
+    <!-- 2026-10-27-01-steadier-round-trip -->
+    <string name="settings_whatsnew_entry_steadier_round_trip_title">เวลาไปกลับนิ่งขึ้น</string>
+    <string name="settings_whatsnew_entry_steadier_round_trip_summary">ตัวเลข ms บนการ์ดการเชื่อมต่อเป็นค่าเฉลี่ยจากการตรวจสอบล่าสุดหลายครั้งแล้ว การตอบกลับที่ช้าเพียงครั้งเดียวจึงทำให้ค่าเปลี่ยนเล็กน้อยแทนที่จะกระโดด</string>
+
+    <!-- 2026-10-27-02-drawer-drag-follows-finger -->
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_title">ลากในแถบด้านข้างได้ตามนิ้ว</string>
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_summary">เซสชันที่ลากในแถบด้านข้างจะอยู่ตรงใต้นิ้ว ลอยเหนือส่วนหัว เลื่อนรายการเมื่อถึงขอบ และเด้งเข้าที่เมื่อปล่อย</string>
+
+    <!-- 2026-10-27-03-inbox-sidebar-experiment -->
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_title">กล่องข้อความในแถบด้านข้าง</string>
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_summary">เปิดกล่องข้อความในแถบด้านข้างที่ การตั้งค่า › การทดลอง › แถบด้านข้าง เพื่อดูเซสชันแบบกล่องข้อความ โดยแสดงรายการที่รอคุณตอบก่อน ตามด้วยรายการที่ยังไม่อ่าน พร้อมโปรเจกต์และคำตอบล่าสุด ปัดเพื่อทำเครื่องหมายว่าอ่านแล้วหรือจัดเก็บ</string>
+
+    <!-- 2026-10-28-01-first-pairing-ready-session -->
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_title">เซสชันแรกพร้อมใช้</string>
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_summary">เมื่อจับคู่คอมพิวเตอร์เครื่องแรก จะเปิดเซสชันใหม่ในโปรเจกต์ล่าสุดของเครื่องนั้น พร้อมคำถามให้ลอง และแตะเพื่อยืนยันว่าเชื่อมต่อแล้ว เมื่อติดตั้งใหม่ มีอะไรใหม่จะถูกทำเครื่องหมายว่าอ่านแล้วด้วย</string>
+
+    <!-- 2026-10-28-02-welcome-preview -->
+    <string name="settings_whatsnew_entry_welcome_preview_title">ดูตัวอย่างหน้าต้อนรับ</string>
+    <string name="settings_whatsnew_entry_welcome_preview_summary">หน้าต้อนรับครั้งแรกแบบใหม่แสดง OpenCode ทำงานบนแล็ปท็อปโดยมีมือถือคอยชี้นำ แล้วจับคู่ได้ในขั้นตอนเดียว เปิดดูตัวอย่างหน้าต้อนรับใน การตั้งค่า › การทดลอง › แถบด้านข้าง แล้วแตะแสดงหน้าต้อนรับเพื่อดู ปิดแล้วจะกลับมาที่เดิม</string>
+
+    <!-- 2026-10-29-01-composer-text-selection -->
+    <string name="settings_whatsnew_entry_composer_text_selection_title">เลือกข้อความในช่องเขียนข้อความ</string>
+    <string name="settings_whatsnew_entry_composer_text_selection_summary">การลากจุดจับข้อความที่เลือกหรือแว่นขยายในฉบับร่างจะไม่ซ่อนแป้นพิมพ์หรือดึงช่องเขียนข้อความขึ้นลงอีกต่อไป</string>
+
+    <!-- 2026-10-30-01-voice-waits-for-you -->
+    <string name="settings_whatsnew_entry_voice_waits_for_you_title">รอให้คุณพูดจบก่อน</string>
+    <string name="settings_whatsnew_entry_voice_waits_for_you_summary">เอเจนต์เสียงจะไม่พูดแทรกคุณอีกต่อไป โดยจะรอให้คุณพูดจบก่อนแจ้งความคืบหน้า และจะหยุดเมื่อคุณพูดแทรก</string>
+
+    <!-- 2026-10-30-02-wisp-call-sounds -->
+    <string name="settings_whatsnew_entry_wisp_call_sounds_title">การโทรด้วยเสียงใช้เสียงของ Wisp</string>
+    <string name="settings_whatsnew_entry_wisp_call_sounds_summary">เริ่มสายด้วยเสียงลมหายใจเบา ๆ คลอเสียงใสขณะเชื่อมต่อ มีเสียงกังวานเมื่อเชื่อมต่อ เสียงติ๊กเบา ๆ เมื่อเอเจนต์ดู เปิด หรือเรียกใช้สิ่งต่าง ๆ และเสียงถอนหายใจเมื่อวางสาย เลือกชุดเสียงอื่นได้ที่ การตั้งค่า › เสียง › เสียงการโทร</string>
+
+    <!-- 2026-10-30-03-wisp-orb -->
+    <string name="settings_whatsnew_entry_wisp_orb_title">ลูกแก้วเสียงเปลี่ยนเป็น Wisp แล้ว</string>
+    <string name="settings_whatsnew_entry_wisp_orb_summary">ลูกแก้วการโทรใช้รูปลักษณ์ของ Wisp แล้ว: เลนส์แก้วเหนือจุดเรืองแสงที่สว่างตามเสียงของทั้งสองฝ่าย พร้อมอารมณ์ของ Wisp ขณะเชื่อมต่อ ฟัง ทำงาน พูด และรอคุณ นี่เป็นรูปแบบลูกแก้วเพียงแบบเดียว จึงนำรูปแบบเก่าและการตั้งค่าลูกแก้วออกแล้ว</string>
+
+    <!-- 2026-10-31-01-encrypted-notification-previews -->
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_title">เข้ารหัสตัวอย่างการแจ้งเตือน</string>
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_summary">เมื่อใช้ปลั๊กอินการแจ้งเตือนที่อัปเดตแล้วและเชื่อมต่อผ่าน HTTPS เซิร์ฟเวอร์จะเข้ารหัสชื่อและข้อความสำหรับอุปกรณ์นี้ หากเปิดตัวอย่างไม่ได้ การแจ้งเตือนจะแสดงเพียง “มีกิจกรรมใหม่”</string>
+
+    <!-- 2026-10-31-02-move-session-folder-gone -->
+    <string name="settings_whatsnew_entry_move_session_folder_gone_title">โฟลเดอร์หาย เซสชันยังอยู่</string>
+    <string name="settings_whatsnew_entry_move_session_folder_gone_summary">เมื่อโฟลเดอร์ของเซสชันหายไป เช่น พื้นที่ทำงานถูกลบ หากส่งไม่สำเร็จ แอปจะเสนอให้ย้ายเซสชันไปยังโฟลเดอร์ของโปรเจกต์แล้วส่งอีกครั้ง</string>
+
+    <!-- 2026-10-31-03-notification-plugin-setup -->
+    <string name="settings_whatsnew_entry_notification_plugin_setup_title">ตั้งค่าการแจ้งเตือนด้วย OpenCode</string>
+    <string name="settings_whatsnew_entry_notification_plugin_setup_summary">ใน การตั้งค่า → การแจ้งเตือน แตะตั้งค่าด้วย OpenCode เพื่อตรวจสอบพรอมต์ที่จะติดตั้งปลั๊กอินการแจ้งเตือนที่ยังไม่มี</string>
+
+    <!-- 2026-11-01-01-call-card-takes-over -->
+    <string name="settings_whatsnew_entry_call_card_takes_over_title">การ์ดการโทรเต็มพื้นที่ด้านล่าง</string>
+    <string name="settings_whatsnew_entry_call_card_takes_over_summary">ในลูกแก้วมีชีวิต การ์ดการโทรจะเต็มพื้นที่ด้านล่างของหน้าจอทับช่องข้อความ โดยเว้นขอบเท่ากันรอบด้าน แป้นพิมพ์จึงไม่บีบการ์ดอีกต่อไป ย่อกลับเป็นลูกแก้วเพื่อพิมพ์</string>
+
+    <!-- 2026-11-01-01-screenshot-shutter -->
+    <string name="settings_whatsnew_entry_screenshot_shutter_title">ชัตเตอร์ภาพหน้าจอ</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_summary">เมื่อแอปจับภาพหน้าจอตัวเองให้เซสชัน หน้าจอจะกะพริบพร้อมเสียงชัตเตอร์</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_1">แสงแฟลชจะแสดงหลังจับภาพ จึงไม่ติดอยู่ในภาพ</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_2">ลดการเคลื่อนไหวจะเปลี่ยนเป็นหรี่แสงเบา ๆ และลดแสงกะพริบจะปิดเอฟเฟกต์นี้</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_3">ขณะโทร เสียงชัตเตอร์จะเล่นผ่านช่องเสียงการโทร เอเจนต์จึงไม่ได้ยิน</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_example">ระหว่างโทรด้วยเสียง ลองพูดว่า “ดูนี่สิ”</string>
+
+    <!-- 2026-11-01-01-voice-says-whats-running -->
+    <string name="settings_whatsnew_entry_voice_says_whats_running_title">บอกว่ายังทำอะไรอยู่ระหว่างโทร</string>
+    <string name="settings_whatsnew_entry_voice_says_whats_running_summary">เมื่อคำขอของคุณใช้เวลาสักพัก เอเจนต์เสียงจะบอกว่ากำลังทำอะไรอยู่แทนที่จะเงียบไป</string>
+
+    <!-- 2026-11-01-02-living-orb-default -->
+    <string name="settings_whatsnew_entry_living_orb_default_title">สายโทรลอยอยู่ในลูกแก้ว</string>
+    <string name="settings_whatsnew_entry_living_orb_default_summary">การโทรด้วยเสียงจะลอยอยู่ในลูกแก้วมีชีวิตเหนือทุกหน้าจอสำหรับทุกคนแล้ว โดยคุณยังใช้ช่องข้อความได้ตามปกติ</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_1">แตะลูกแก้วเพื่อขยายเป็นการ์ดการโทร แล้วลากขึ้นเพื่อดูหน้าการโทรเต็มพร้อมบันทึกการสนทนา</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_2">ลากลูกแก้วไปไว้ตรงไหนก็ได้ ลูกแก้วจะอยู่ที่เดิมเมื่อสลับเซสชันหรือเปิดการตั้งค่า</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_3">เริ่มโทรจากรายการเซสชันได้ด้วยปุ่มโทรข้างการตั้งค่า</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_4">นำถาดออกแล้ว หากคุณเคยใช้ถาด สายโทรจะลอยอยู่ในลูกแก้วเช่นกัน</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_5">ปิดได้ที่ การตั้งค่า › การทดลอง › การโทร › ลูกแก้วมีชีวิต</string>
+    <string name="settings_whatsnew_entry_living_orb_default_example">เริ่มโทร แล้วเปิดรายการเซสชัน ลูกแก้วจะตามคุณไปด้วย</string>
+
+    <!-- 2026-11-01-02-quicker-send -->
+    <string name="settings_whatsnew_entry_quicker_send_title">ส่งได้เร็วขึ้น</string>
+    <string name="settings_whatsnew_entry_quicker_send_summary">ข้อความที่ส่งจะลอยเข้าสู่กรอบข้อความไปพร้อมกับรายการ แทนที่จะรออยู่ที่ช่องเขียนข้อความก่อน</string>
+
+    <!-- 2026-11-01-02-share-screen-with-agents -->
+    <string name="settings_whatsnew_entry_share_screen_with_agents_title">แชร์หน้าจอกับเอเจนต์</string>
+    <string name="settings_whatsnew_entry_share_screen_with_agents_summary">เปิดแชร์หน้าจอกับเอเจนต์ใน การตั้งค่า › การทดลอง › การโทร แล้วเอเจนต์จะขอดูแอประหว่างโทรได้ แตะแชร์เพื่อส่งภาพให้ หรือแตะไว้ก่อน</string>
+
+    <!-- 2026-11-01-03-audio-in-calls -->
+    <string name="settings_whatsnew_entry_audio_in_calls_title">เสียงระหว่างโทร</string>
+    <string name="settings_whatsnew_entry_audio_in_calls_summary">เปิดเสียงระหว่างโทรใน การตั้งค่า › การทดลอง › การโทร แล้วเอเจนต์จะเล่นเพลงหรือคลิปให้คุณฟังระหว่างโทรได้ เสียงจะเบาลงเมื่อฝ่ายใดฝ่ายหนึ่งพูด หยุดชั่วคราวหรือหยุดได้เหนือช่องเขียนข้อความ</string>
+
+    <!-- 2026-11-01-03-open-links-from-calls -->
+    <string name="settings_whatsnew_entry_open_links_from_calls_title">เปิดลิงก์จากการโทร</string>
+    <string name="settings_whatsnew_entry_open_links_from_calls_summary">เปิดลิงก์จากการโทรใน การตั้งค่า › การทดลอง › การโทร แล้วเอเจนต์จะเสนอลิงก์ระหว่างโทรได้ เช่น ลิงก์เรียกรถ Uber แตะเปิดเพื่อเปิดในแอปนั้น หรือแตะไว้ก่อน</string>
+
+    <!-- 2026-11-02-01-fold-questions -->
+    <string name="settings_whatsnew_entry_fold_questions_title">ย่อคำถามไม่ให้เกะกะ</string>
+    <string name="settings_whatsnew_entry_fold_questions_summary">ลากคำถามลงเพื่อย่อเป็นแถบเล็กเหนือช่องเขียนข้อความ แล้วแตะเพื่อนำกลับมา หากส่งคำตอบไม่สำเร็จ จะรอให้คุณแตะลองอีกครั้ง</string>
+
+    <!-- 2026-11-02-01-steadier-following -->
+    <string name="settings_whatsnew_entry_steadier_following_title">ติดตามคำตอบได้นิ่งขึ้น</string>
+    <string name="settings_whatsnew_entry_steadier_following_summary">คำตอบที่กำลังทยอยแสดงจะติดอยู่ด้านล่างโดยข้อความกำลังทำงานไม่เด้งไปมา และคุณปัดเลื่อนรายการได้จากทุกจุดเหนือช่องเขียนข้อความ</string>
+
+    <!-- 2026-11-02-40-model-display-names -->
+    <string name="settings_whatsnew_entry_model_display_names_title">ชื่อโมเดล</string>
+    <string name="settings_whatsnew_entry_model_display_names_summary">ช่องเขียนข้อความจะจำชื่อโมเดลไว้ระหว่างโหลดรายการโมเดลหรือเชื่อมต่อใหม่</string>
+
+    <!-- 2026-11-02-41-all-experiments -->
+    <string name="settings_whatsnew_entry_all_experiments_title">การทดลองทั้งหมด</string>
+    <string name="settings_whatsnew_entry_all_experiments_summary">สวิตช์เดียวด้านบนของการตั้งค่า › การทดลอง เปิดการทดลองทั้งหมด รวมถึงรายการใหม่ที่เพิ่มเข้ามาด้วย</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_1">ปิดการทดลองที่ไม่ต้องการได้ทีละรายการ และครั้งถัดไปก็จะยังปิดอยู่</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_2">เมื่อปิดการทดลองทั้งหมด สวิตช์ต่างๆ จะกลับไปเป็นแบบที่คุณตั้งไว้ก่อนหน้า</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_3">การทดลองที่ต้องขอสิทธิ์ยังต้องเลือกเปิดแยกเอง</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_4">การเติมข้อความอัตโนมัติ แผงรูปถ่ายในเมนูบวก ตัวสลับเซิร์ฟเวอร์แบบใหม่ และไอคอนโปรเจกต์ เปิดให้ทุกคนใช้แล้ว</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_5">ตัวเลือกรวมและลูกแก้วมีชีวิตเป็นสวิตช์ทั่วไปแล้ว ส่วนถาดการโทรถูกนำออกแล้ว</string>
+    <string name="settings_whatsnew_entry_all_experiments_example">เปิดการตั้งค่า › การทดลอง แล้วเปิดการทดลองทั้งหมด</string>
+
+    <!-- 2026-11-03-01-search-all-sessions -->
+    <string name="settings_whatsnew_entry_search_all_sessions_title">ค้นหาเซสชันก่อนหน้านี้</string>
+    <string name="settings_whatsnew_entry_search_all_sessions_summary">การค้นหาในแถบด้านข้างจะค้นทุกเซสชันแล้ว ไม่ใช่แค่เซสชันล่าสุด และเลื่อนลงล่างสุดเพื่อโหลดเซสชันก่อนหน้านี้ได้</string>
+
+    <!-- 2026-11-03-01-voice-open-session -->
+    <string name="settings_whatsnew_entry_voice_open_session_title">สลับเซสชันด้วยเสียง</string>
+    <string name="settings_whatsnew_entry_voice_open_session_summary">เมื่อขอให้เอเจนต์เสียงเปิดเซสชัน แถบด้านข้างจะปิดลงโดยไม่ตัดสาย</string>
+
+    <!-- 2026-11-03-02-orb-divider-image-links -->
+    <string name="settings_whatsnew_entry_orb_divider_image_links_title">เปิดใช้ 3 การทดลองแล้ว</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_summary">ลูกแก้วมีชีวิต เส้นแบ่งข้อความใหม่ และตัวอย่างลิงก์รูปภาพ เปิดให้ทุกคนใช้แล้วโดยไม่มีสวิตช์</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_1">ทุกสายจะแสดงในลูกแก้วมีชีวิตที่ลอยอยู่ แถบการโทรแบบเดิมถูกนำออกแล้ว</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_2">เมื่อกลับเข้าเซสชัน หากข้อความที่เข้ามาระหว่างที่คุณไม่อยู่ยาวเกินหน้าจอ จะมีเส้นแบ่ง “ใหม่” บอกจุดเริ่มต้น</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_3">ลิงก์ที่ไปยังรูปภาพโดยตรงจะแสดงรูปใต้ข้อความ</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_example">เริ่มโทรจากช่องเขียนข้อความ แล้วดูสายที่ลอยอยู่ในลูกแก้ว</string>
+
+    <!-- 2026-11-04-01-call-links-and-audio -->
+    <string name="settings_whatsnew_entry_call_links_and_audio_title">ลิงก์และเสียงระหว่างโทร</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_summary">การเปิดลิงก์จากการโทรและเสียงระหว่างโทร เปิดให้ทุกคนใช้แล้วโดยไม่มีสวิตช์</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_1">ระหว่างโทร เอเจนต์อาจเสนอลิงก์ เช่น เรียกรถ Uber แตะเปิดเพื่อเปิดในแอปนั้น หรือแตะไว้ก่อน</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_2">เอเจนต์เล่นเพลงหรือคลิปให้ฟังระหว่างโทรได้ เสียงจะเบาลงเมื่อคุณหรือเอเจนต์พูด และหยุดชั่วคราวหรือหยุดได้เหนือช่องเขียนข้อความ</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_example">ระหว่างโทร ลองขอให้เอเจนต์เปิดเพลง</string>
+
+    <!-- 2026-11-04-01-composer-editing-caret -->
+    <string name="settings_whatsnew_entry_composer_editing_caret_title">แก้ไขฉบับร่าง</string>
+    <string name="settings_whatsnew_entry_composer_editing_caret_summary">เมื่อแก้คำกลางฉบับร่าง เคอร์เซอร์จะอยู่ตรงที่คุณกำลังพิมพ์</string>
+
+    <!-- 2026-11-04-01-loading-touch-recovery -->
+    <string name="settings_whatsnew_entry_loading_touch_recovery_title">เลื่อนหลังโหลด</string>
+    <string name="settings_whatsnew_entry_loading_touch_recovery_summary">เมื่อกลับเข้าแอประหว่างเปลี่ยนหน้าขณะโหลด จะเลื่อนบันทึกการสนทนาได้ทันที</string>
+
+    <!-- 2026-11-05-01-composer-keyboard-width -->
+    <string name="settings_whatsnew_entry_composer_keyboard_width_title">ช่องเขียนกว้างขึ้นขณะพิมพ์</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_width_summary">เมื่อเปิดแป้นพิมพ์ ช่องเขียนข้อความจะกว้างขึ้นโดยเว้นขอบแคบเท่ากัน ทำให้ฉบับร่างยาวๆ ขึ้นบรรทัดใหม่น้อยลง</string>
+
+    <!-- 2026-11-05-02-plus-menu-touch-release -->
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_title">ปิดเมนูไฟล์แนบ</string>
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_summary">เมื่อปิดเมนูไฟล์แนบ จะกลับมาใช้เซสชันด้านล่างได้ แม้หน้าจอกำลังปรับการจัดวาง</string>
+
+    <!-- 2026-11-05-02-quiet-reconnecting-pill -->
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_title">เปิดแอปได้นิ่งขึ้น</string>
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_summary">เมื่อเปิดแอป จะไม่มีข้อความ “กำลังเชื่อมต่อใหม่…” กะพริบเหนือช่องเขียนข้อความหรือดันเซสชันให้ขยับอีก แถบสถานะจะแสดงเฉพาะเมื่อเชื่อมต่อใหม่ใช้เวลาสักพัก</string>
+
+    <!-- 2026-11-05-03-stuck-touch-recovery -->
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_title">กลับมาเลื่อนได้เอง</string>
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_summary">หากมีสิ่งที่มองไม่เห็นขวางจนเลื่อนเซสชันไม่ได้นานเกินหนึ่งวินาที แอปจะปลดให้เลื่อนได้</string>
+
+    <!-- 2026-11-05-04-reply-text-selection -->
+    <string name="settings_whatsnew_entry_reply_text_selection_title">เลือกข้อความข้ามส่วนในคำตอบ</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_summary">กดค้างหรือแตะสองครั้งที่คำในคำตอบ แล้วลากจุดจับข้ามย่อหน้า รายการ โค้ด และตารางได้</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_1">ลากจุดจับค้างไว้ใต้ส่วนหัวหรือเหนือช่องเขียนข้อความ คำตอบจะเลื่อนให้ ยิ่งใกล้ขอบก็ยิ่งเลื่อนเร็ว</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_2">การคัดลอกจะเก็บสัญลักษณ์และเลขลำดับรายการ รวมถึงแถวและคอลัมน์ของตารางไว้ การอ้างอิงจะเพิ่มส่วนที่เลือกลงในช่องเขียนข้อความ โดยยังคงกรอบบล็อกโค้ดไว้</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_example">กดค้างที่คำใกล้ต้นคำตอบยาวๆ แล้วลากจุดจับท้ายลงมาค้างไว้ที่ช่องเขียนข้อความ</string>
+
+    <!-- 2026-11-06-01-scrolling-unsticks -->
+    <string name="settings_whatsnew_entry_scrolling_unsticks_title">แก้อาการเลื่อนค้างได้เอง</string>
+    <string name="settings_whatsnew_entry_scrolling_unsticks_summary">เซสชันที่บางครั้งเลื่อนไม่ได้จนต้องสลับไปเซสชันอื่น ตอนนี้จะกลับมาเลื่อนได้เอง</string>
+
+    <!-- 2026-11-06-02-server-addresses -->
+    <string name="settings_whatsnew_entry_server_addresses_title">เชื่อมต่อเซิร์ฟเวอร์ได้เสถียรขึ้น</string>
+    <string name="settings_whatsnew_entry_server_addresses_summary">OpenCode จะลองทุกที่อยู่ของเซิร์ฟเวอร์พร้อมกัน แล้วใช้ที่อยู่ที่ตอบก่อน จึงเชื่อมต่อใหม่ได้เมื่อคุณออกจากบ้าน โดยไม่ต้องปิดแล้วเปิด VPN</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_1">ที่อยู่ที่เคยใช้ได้บนเครือข่ายที่บ้านจะไม่ถูกลองก่อนเสมอเมื่ออยู่ที่อื่นอีกแล้ว</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_2">การหลุดชั่วครู่ ปลดล็อกมือถือ หรือดึงแผงการตั้งค่าด่วนลงมา จะไม่ทำให้แบนเนอร์กะพริบอีก สถานะกำลังเชื่อมต่อใหม่จะแสดงหลังผ่านไปไม่กี่วินาที และออฟไลน์หลังประมาณ 12 วินาที หรือ 4 วินาทีหากมือถือไม่มีเครือข่าย</string>
+    <string name="settings_whatsnew_entry_server_addresses_example">เปิดเซสชันบนเซิร์ฟเวอร์ที่จับคู่ผ่าน Tailscale แล้วปิด Wi-Fi และทำงานต่อได้เลย</string>
+
+    <!-- 2026-11-07-01-server-voice -->
+    <string name="settings_whatsnew_entry_server_voice_title">โทรด้วยคีย์ของเซิร์ฟเวอร์</string>
+    <string name="settings_whatsnew_entry_server_voice_summary">การโทรผ่านเซิร์ฟเวอร์เปิดให้ทุกคนใช้แล้วโดยไม่มีสวิตช์ การโทรใช้คีย์ของเซิร์ฟเวอร์ OpenCode ได้ มือถือเครื่องนี้จึงไม่ต้องมีคีย์ OpenAI ของตัวเอง</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_1">เมื่อเปิดเลือกอัตโนมัติ การโทรจะใช้เซิร์ฟเวอร์ที่คุณใช้อยู่ก่อน ตามด้วยคีย์ OpenAI บนมือถือเครื่องนี้ แล้วจึงใช้เซิร์ฟเวอร์อื่นที่บันทึกไว้และพร้อมใช้งาน</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_2">หากทั้งมือถือและเซิร์ฟเวอร์มีคีย์ OpenAI ตอนนี้การโทรจะใช้คีย์ของเซิร์ฟเวอร์ หากต้องการใช้คีย์บนมือถือต่อ ให้เปิดบัญชี OpenAI ของคุณในผู้ให้บริการเสียง แล้วแตะใช้สำหรับการโทร</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_3">ตอนนี้เลือก Gemini Live เป็นผู้ให้บริการได้ด้วย บนเซิร์ฟเวอร์ที่มีคีย์สำหรับ Gemini</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_4">หากเริ่มโทรไม่ได้ จะแจ้งสาเหตุและแสดงปุ่มสำหรับแก้ไข</string>
+    <string name="settings_whatsnew_entry_server_voice_example">เปิดการตั้งค่า › เสียง แล้วแตะผู้ให้บริการเสียง</string>
+
+    <!-- 2026-11-07-02-rename-clear-button -->
+    <string name="settings_whatsnew_entry_rename_clear_button_title">ล้างชื่อด้วยการแตะครั้งเดียว</string>
+    <string name="settings_whatsnew_entry_rename_clear_button_summary">หน้าเปลี่ยนชื่อเซสชันและเปลี่ยนชื่อเซิร์ฟเวอร์มีปุ่มล้างแล้ว เริ่มตั้งชื่อใหม่ได้โดยไม่ต้องลบชื่อเดิมทีละตัว</string>
+
+    <!-- 2026-11-07-03-one-picker -->
+    <string name="settings_whatsnew_entry_one_picker_title">ตัวเลือกโมเดลแบบใหม่</string>
+    <string name="settings_whatsnew_entry_one_picker_summary">แตะโมเดลในช่องข้อความ แล้วรายการจะขยายออกมา โดยมีรายการโปรดและล่าสุดอยู่ด้านบน และผู้ให้บริการทั้งหมดอยู่ด้านล่าง</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_1">แตะระดับการคิดในแถวของโมเดล เช่น “high” เพื่อเปลี่ยนระดับโดยไม่ต้องออกจากรายการ</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_2">ปัดหรือแตะแถวค้างไว้เพื่อเพิ่มในรายการโปรดหรือเอาออก</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_3">ช่องค้นหาอยู่ด้านล่าง พิมพ์ระดับต่อท้ายชื่อ เช่น “opus high” แล้วกด Return เพื่อเลือกทั้งสองอย่าง</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_4">ลากแถบลากขึ้นเพื่อขยายรายการให้สูงขึ้น หรือลากลงเพื่อปิด</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_5">ตัวเลือกใหม่นี้มาแทนแผงโมเดลเดิม และนำสวิตช์ตัวเลือกรวมออกจากการตั้งค่า › การทดลองแล้ว</string>
+    <string name="settings_whatsnew_entry_one_picker_example">แตะโมเดลในช่องข้อความ แล้วปัดแถวเพื่อเพิ่มในรายการโปรด</string>
+
+    <!-- 2026-11-08-01-connecting-caption-glass -->
+    <string name="settings_whatsnew_entry_connecting_caption_glass_title">“กำลังเชื่อมต่อผ่าน…” อ่านง่ายขึ้น</string>
+    <string name="settings_whatsnew_entry_connecting_caption_glass_summary">ขณะเชื่อมต่อการโทรผ่านเซิร์ฟเวอร์ ข้อความ “กำลังเชื่อมต่อผ่าน…” จะมีพื้นหลังแบบกระจก จึงไม่ปะปนกับข้อความด้านหลังอีกต่อไป</string>
+
+    <!-- 2026-11-08-02-default-model -->
+    <string name="settings_whatsnew_entry_default_model_title">เซสชันใหม่ใช้โมเดลเริ่มต้นของคุณ</string>
+    <string name="settings_whatsnew_entry_default_model_summary">เซสชันใหม่จะใช้โมเดลที่ตั้งเป็นค่าเริ่มต้นใน OpenCode พร้อมระดับการคิดที่คุณเลือกล่าสุดสำหรับโมเดลนั้น แทนโมเดลจากเซสชันล่าสุด</string>
+
+    <!-- 2026-11-11-01-streamed-reply-prefix -->
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_title">เปิดอ่านคำตอบระหว่างส่ง</string>
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_summary">เมื่อเปิดเซสชันระหว่างที่คำตอบกำลังส่งมา คุณจะอ่านส่วนที่มาถึงแล้วได้โดยไม่ต้องรอให้ส่งจบ</string>
+
+    <!-- 2026-11-13-01-draw-on-images -->
+    <string name="settings_whatsnew_entry_draw_on_images_title">วาดบนรูปภาพ</string>
+    <string name="settings_whatsnew_entry_draw_on_images_summary">ชี้จุดที่ต้องการก่อนถามถึง</string>
+    <string name="settings_whatsnew_entry_draw_on_images_detail_1">เปิดรูปภาพเต็มจอแล้วแตะปุ่มปากกา เลือกสี วาด แล้วแตะเพิ่มเพื่อแนบรูปที่วาดไว้กับข้อความ รูปต้นฉบับจะไม่เปลี่ยนแปลง</string>
+    <string name="settings_whatsnew_entry_draw_on_images_example">วงส่วนควบคุมที่ต้องการย้ายในภาพหน้าจอ แล้วอธิบายว่าควรย้ายไปที่ไหน</string>
+
+    <!-- 2026-11-14-01-fullscreen-viewer -->
+    <string name="settings_whatsnew_entry_fullscreen_viewer_title">ปัดดูรูปถ่ายและวิดีโอ</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_summary">ดูรูปภาพและวิดีโอในเซสชันรวมกัน</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_detail_1">ปัดไปที่วิดีโอ แล้วแตะปุ่มปากกาเพื่อวาดบนเฟรมปัจจุบัน แตะเพิ่มเพื่อแนบเฟรมที่วาดไว้โดยยังไม่ส่ง</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_example">หยุดวิดีโอสาธิตไว้ที่หน้าจอที่ต้องแก้ไข วงจุดที่ต้องการ แล้วเพิ่มลงในฉบับร่าง</string>
+
+    <!-- 2026-11-15-01-pairing-link-name -->
+    <string name="settings_whatsnew_entry_pairing_link_name_title">เซิร์ฟเวอร์พร้อมชื่อจาก OpenCode Console</string>
+    <string name="settings_whatsnew_entry_pairing_link_name_summary">เซิร์ฟเวอร์ที่จับคู่จาก OpenCode Console จะมาพร้อมชื่อ เช่น “Anomaly Box”</string>
+
+    <!-- 2026-11-17-01-session-media -->
+    <string name="settings_whatsnew_entry_session_media_title">สื่อในเซสชัน</string>
+    <string name="settings_whatsnew_entry_session_media_summary">ดูรูปภาพ วิดีโอ เสียง ไฟล์ และลิงก์เว็บสาธารณะในเซสชัน</string>
+    <string name="settings_whatsnew_entry_session_media_detail_1">เลือกสื่อในเซสชันจากเมนู ⋮ ของเซสชัน ส่วนสื่อจะแสดงรูปภาพ วิดีโอ และเสียงเป็นไทล์แยกตามเดือนหรือเป็นรายการ ส่วนไฟล์และลิงก์จะแสดงเอกสาร ข้อความที่วาง และลิงก์เว็บ</string>
+    <string name="settings_whatsnew_entry_session_media_example">หาภาพหน้าจอที่ส่งเมื่อเช้าได้โดยไม่ต้องเลื่อนย้อนดูทั้งเซสชัน</string>
+
+    <!-- 2026-11-18-02-drawer-call-phone -->
+    <string name="settings_whatsnew_entry_drawer_call_phone_title">ไอคอนโทรศัพท์สำหรับการโทรในแถบด้านข้าง</string>
+    <string name="settings_whatsnew_entry_drawer_call_phone_summary">ปุ่มโทรข้างการตั้งค่าในรายการเซสชันใช้ไอคอนโทรศัพท์เหมือนในช่องข้อความ</string>
+
+    <!-- 2026-11-19-01-background-scripts -->
+    <string name="settings_whatsnew_entry_background_scripts_title">สคริปต์ในงานเบื้องหลัง</string>
+    <string name="settings_whatsnew_entry_background_scripts_summary">สคริปต์ที่เอเจนต์ย้ายไปทำงานเบื้องหลังจะแสดงข้างตัวแทนย่อยและเชลล์ ตัวแทนย่อยจะยังอยู่ในรายการขณะที่งานรูปภาพ วิดีโอ หรือสคริปต์ของตัวเองยังทำงานอยู่ หยุดสคริปต์หรือตัวแทนย่อยได้จากรายการ</string>
+</resources>

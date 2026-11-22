@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Call ended and failure cards -->
+    <string name="voice_call_ended_title">Puhelu päättynyt</string>
+    <string name="voice_call_ended_rejoin">Liity uudelleen</string>
+    <string name="voice_failure_title">Ääniyhteys epäonnistui</string>
+    <string name="voice_failure_check_api_key">Tarkista API-avain</string>
+    <string name="voice_failure_start_title">Puhelun aloitus epäonnistui</string>
+
+    <!-- Floating call -->
+    <string name="voice_floating_expand">Laajenna</string>
+    <string name="voice_floating_orb_description">Äänipuhelu</string>
+    <string name="voice_floating_orb_show_controls">Näytä puhelun säätimet</string>
+    <string name="voice_floating_end_description">Lopeta äänipuhelu</string>
+    <string name="voice_floating_control_placeholder_state">Ei käytettävissä tässä prototyypissä</string>
+    <string name="voice_floating_duration_description">Puhelun kesto</string>
+
+    <!-- Floating call stage -->
+    <string name="voice_stage_talking_in">Puhut istunnossa</string>
+    <string name="voice_stage_minimize_description">Pienennä</string>
+    <string name="voice_mute">Mykistä</string>
+    <string name="voice_unmute">Poista mykistys</string>
+    <string name="voice_stage_pause">Keskeytä</string>
+    <string name="voice_stage_camera">Kamera</string>
+    <string name="voice_transcript_empty">Sano jotain istunnollesi.</string>
+    <string name="voice_transcript_you">Sinä</string>
+    <string name="voice_transcript_user_line_description">Sinä: %1$s</string>
+
+    <!-- Call rows: screen request -->
+    <string name="voice_screen_request_detail">Ääni haluaa nähdä näyttösi</string>
+    <string name="voice_screen_request_spoken">Odottaa vastaustasi. Ääni haluaa nähdä näyttösi</string>
+    <string name="voice_screen_request_spoken_with_reason">Odottaa vastaustasi. Ääni haluaa nähdä näyttösi. %1$s</string>
+    <string name="voice_screen_request_title">Jaetaanko näyttö?</string>
+
+    <!-- Call rows: open link -->
+    <string name="voice_open_link_spoken">Odottaa vastaustasi. %1$s</string>
+    <string name="voice_open_link_spoken_with_host">Odottaa vastaustasi. %1$s %2$s</string>
+    <string name="voice_open_link_open">Avaa</string>
+
+    <!-- Call rows: audio on the call -->
+    <string name="voice_audio_paused">Keskeytetty</string>
+    <string name="voice_audio_playing">Toistetaan puhelussa</string>
+    <string name="voice_audio_play">Toista ääni</string>
+    <string name="voice_audio_pause">Keskeytä ääni</string>
+    <string name="voice_audio_stop">Pysäytä ääni</string>
+
+    <!-- Call history -->
+    <string name="voice_call_history_title">Puheluhistoria</string>
+    <string name="voice_call_history_options_description">Historian vaihtoehdot</string>
+    <string name="voice_call_history_delete_all">Poista kaikki</string>
+    <string name="voice_call_history_empty_title">Ei vielä äänipuheluja</string>
+    <string name="voice_call_history_empty_message">Puhelut tallennetaan tähän puhelimeen, jotta voit kuunnella ne uudelleen.</string>
+    <string name="voice_call_history_delete_all_confirm_title">Poistetaanko kaikki äänipuhelut?</string>
+
+    <!-- Call replay -->
+    <string name="voice_replay_timeline_description">Puhelun aikajana</string>
+    <string name="voice_replay_timeline_state">%1$s / %2$s</string>
+    <string name="voice_replay_pause">Keskeytä</string>
+    <string name="voice_replay_play">Toista</string>
+    <string name="voice_replay_position_description">Toistokohta</string>
+    <string name="voice_replay_speed_description">Toistonopeus</string>
+    <string name="voice_replay_empty">Kuuntele puhelu uudelleen painamalla toistopainiketta.</string>
+
+    <!-- Call notification -->
+    <string name="voice_notification_channel_name">Puhelut</string>
+    <string name="voice_notification_channel_description">Käynnissä olevat OpenCode-puhelut</string>
+    <string name="voice_notification_connecting">Yhdistetään…</string>
+    <string name="voice_notification_reconnecting">Yhdistetään uudelleen…</string>
+    <string name="voice_notification_call_ended">Puhelu päättynyt</string>
+    <string name="voice_notification_end">Lopeta</string>
+    <!-- Call status caption -->
+    <string name="voice_status_connecting_via">Yhdistetään %1$s:n kautta…</string>
+    <string name="voice_status_weak_connection">Heikko yhteys</string>
+    <string name="voice_status_paused">Keskeytetty</string>
+    <string name="voice_status_needs_input">Odottaa vastaustasi</string>
+    <string name="voice_status_working">Työskennellään</string>
+    <string name="voice_status_speaking">Puhuu</string>
+    <string name="voice_status_muted">Mykistetty</string>
+    <string name="voice_status_listening">Kuuntelee</string>
+    <string name="voice_status_ending">Lopetetaan…</string>
+    <string name="voice_status_ended">Päättynyt</string>
+    <string name="voice_session_new_title">Uusi istunto</string>
+    <string name="voice_call_note_builtin_fallback">Puhelussa käytetään sisäistä delegoijaa</string>
+
+    <!-- Floating call tag and spoken length -->
+    <string name="voice_floating_now_talking_in">Puhut nyt istunnossa %1$s</string>
+    <string name="voice_floating_spoken_duration">%1$s, %2$s</string>
+    <plurals name="voice_floating_spoken_minutes">
+        <item quantity="one">%1$d minuutti</item>
+        <item quantity="other">%1$d minuuttia</item>
+    </plurals>
+    <plurals name="voice_floating_spoken_seconds">
+        <item quantity="one">%1$d sekunti</item>
+        <item quantity="other">%1$d sekuntia</item>
+    </plurals>
+
+    <!-- Voice providers -->
+    <string name="voice_provider_state_ready">Valmis</string>
+    <string name="voice_provider_state_no_key">Ei avainta</string>
+    <string name="voice_provider_state_needs_update">Päivitä OpenCode</string>
+    <string name="voice_provider_state_offline">Ei yhteyttä</string>
+    <string name="voice_provider_place_phone">Tämä puhelin</string>
+    <string name="voice_provider_brand_openai_account">OpenAI-tilisi</string>
+    <string name="voice_provider_name">%1$s kohteessa %2$s</string>
+    <string name="voice_provider_subtitle">Kohteessa %1$s</string>
+    <string name="voice_provider_key_row_title">%1$s-avain</string>
+    <string name="voice_provider_key_placeholder">%1$s-API-avain</string>
+
+    <!-- Voice key source -->
+    <string name="voice_key_source_server_row_title">Avain palvelimellasi</string>
+    <string name="voice_key_source_phone_footer">Puheluissa käytetään omaa OpenAI- tai xAI-avaintasi.</string>
+    <string name="voice_key_source_server_footer">Puheluissa käytetään palvelimesi %1$s-avainta.</string>
+    <string name="voice_key_source_opencode_footer">Puhelut laskutetaan OpenCode Console -työtililtäsi.</string>
+
+    <!-- Call failure fixes and diagnosis -->
+    <string name="voice_fix_set_up_on_phone">Ota käyttöön tässä puhelimessa</string>
+    <string name="voice_fix_choose_provider">Valitse palveluntarjoaja</string>
+    <string name="voice_fix_update_opencode">Päivitä OpenCode</string>
+    <string name="voice_diagnosis_needs_update">%1$s tarvitsee uudemman OpenCode-version äänipuheluihin.</string>
+    <string name="voice_diagnosis_your_server_needs_update">Palvelimesi tarvitsee uudemman OpenCode-version äänipuheluihin.</string>
+    <string name="voice_diagnosis_no_key">Kohteesta %1$s puuttuu äänipuhelujen avain.</string>
+    <string name="voice_diagnosis_your_server_no_key">Palvelimeltasi puuttuu äänipuhelujen avain.</string>
+    <string name="voice_diagnosis_unreachable">Kohteeseen %1$s ei saatu yhteyttä.</string>
+    <string name="voice_diagnosis_your_server_unreachable">Palvelimeesi ei saatu yhteyttä.</string>
+    <string name="voice_diagnosis_failed">%1$s ei voinut aloittaa puhelua.</string>
+    <string name="voice_diagnosis_your_server_failed">Palvelimesi ei voinut aloittaa puhelua.</string>
+    <string name="voice_diagnosis_key_rejected">OpenAI ei hyväksynyt tämän puhelimen avainta.</string>
+    <string name="voice_diagnosis_missing_phone_key">Lisää %1$s-API-avaimesi, jotta voit soittaa tästä puhelimesta.</string>
+
+    <!-- Call errors -->
+    <string name="voice_error_microphone_denied">Salli mikrofonin käyttö asetuksissa, jotta voit puhua istunnollesi.</string>
+    <string name="voice_error_audio_format_unavailable">Äänilaitteen äänimuotoa ei tueta.</string>
+    <string name="voice_error_audio_engine_rejected">Puheluäänen käynnistys epäonnistui. Yritä hetken kuluttua uudelleen.</string>
+    <string name="voice_error_server_unsupported">Tämä palvelin tarvitsee uudemman OpenCode-version äänipuheluihin</string>
+    <string name="voice_error_invalid_server_url">Äänipuhelun aloitus epäonnistui: anna kelvollinen palvelimen HTTP- tai HTTPS-URL.</string>
+    <string name="voice_error_invalid_response">Äänipuhelun aloitus epäonnistui: palvelin palautti virheellisen vastauksen.</string>
+    <string name="voice_error_start_voice_detail">Äänipuhelun aloitus epäonnistui: %1$s</string>
+    <string name="voice_error_start_voice_http">Äänipuhelun aloitus epäonnistui (HTTP %1$d).</string>
+    <string name="voice_error_openai_rejected_key">OpenAI hylkäsi API-avaimen.</string>
+    <string name="voice_error_openai_verify_http">OpenAI ei voinut vahvistaa tätä avainta (HTTP %1$d).</string>
+    <string name="voice_error_no_connection">Ei yhteyttä.</string>
+    <string name="voice_error_model_address_invalid">Äänimallin osoite on virheellinen.</string>
+    <string name="voice_error_xai_rejected_key">xAI hylkäsi API-avaimen.</string>
+    <string name="voice_error_xai_verify_http">xAI ei voinut vahvistaa tätä avainta (HTTP %1$d).</string>
+    <string name="voice_error_xai_key_disabled">Tämä xAI-API-avain on poistettu käytöstä.</string>
+    <string name="voice_error_xai_key_blocked">Tämä xAI-API-avain on estetty.</string>
+    <string name="voice_error_service_address_invalid">Äänipalvelun osoite on virheellinen.</string>
+    <string name="voice_error_connection_lost">Ääniyhteys katkesi.</string>
+    <string name="voice_error_connection_closed">Ääniyhteys on suljettu.</string>
+    <string name="voice_error_connection_setup">Ääniyhteyden muodostus epäonnistui.</string>
+    <string name="voice_error_safety_filter">Turvasuodatin päätti äänipuhelun.</string>
+    <string name="voice_error_audio_reset">Järjestelmä nollasi äänen. Aloita puhelu uudelleen.</string>
+    <string name="voice_error_missing_phone_key">Lisää %1$s-API-avaimesi asetuksissa, jotta voit käyttää ääntä.</string>
+
+    <!-- Voice accents -->
+    <string name="voice_accent_australian_english">Australian englanti</string>
+    <string name="voice_accent_british_english">Britannian englanti</string>
+    <string name="voice_accent_irish_english">Irlannin englanti</string>
+    <string name="voice_accent_north_american_english">Pohjois-Amerikan englanti</string>
+    <string name="voice_accent_brazilian_portuguese">Brasilian portugali</string>
+    <string name="voice_accent_filipino_english">Filippiinien englanti</string>
+    <string name="voice_accent_southern_us_english">Yhdysvaltain eteläosien englanti</string>
+    <string name="voice_accent_indian_english">Intian englanti</string>
+    <string name="voice_preview_error">Ääninäytteen toisto epäonnistui</string>
+
+    <!-- Call sound packs -->
+    <string name="voice_sound_pack_breath_ping">Henkäys</string>
+    <string name="voice_sound_pack_crystal_glass">Kristallilasi</string>
+    <string name="voice_sound_pack_warm_analog">Lämmin analogi</string>
+    <string name="voice_sound_pack_aurora_pulse">Revontulipulssi</string>
+    <string name="voice_sound_pack_velvet_bell">Samettikello</string>
+    <string name="voice_sound_pack_silent">Äänetön</string>
+
+    <!-- Open link card -->
+    <string name="voice_open_link_card_title_untitled">Avataanko linkki?</string>
+    <string name="voice_open_link_card_title">Avataanko %1$s?</string>
+
+    <!-- Delegator choice -->
+    <string name="voice_delegator_session_fallback">Istunto</string>
+    <string name="voice_delegator_unavailable_gemini">Gemini Live delegoi suoraan näytöllä olevaan istuntoon. Valitse äänipalveluntarjoajaksi OpenAI, jos haluat käyttää OpenCode-istuntoa.</string>
+    <string name="voice_delegator_unavailable_engine">%1$s delegoi suoraan näytöllä olevaan istuntoon. Vaihda äänimalliksi GPT-Live, jos haluat käyttää OpenCode-istuntoa.</string>
+
+    <!-- Call log list and replay -->
+    <string name="voice_call_log_duration_seconds">%1$d s</string>
+    <string name="voice_call_log_duration_minutes">%1$d min %2$d s</string>
+    <string name="voice_replay_to_delegator">→ Delegoija</string>
+    <string name="voice_replay_to_voice">→ Ääni</string>
+    <string name="voice_replay_audio">Ääni</string>
+    <string name="voice_replay_track_user">Sinä</string>
+    <string name="voice_replay_track_voice">Ääni</string>
+    <string name="voice_replay_track_delegator">Delegoija</string>
+    <string name="voice_replay_track_tools">Työkalut</string>
+</resources>

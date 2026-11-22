@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">Imazhi</string>
+    <string name="media_image_load_failed">Nuk u ngarkua dot imazhi</string>
+    <string name="media_unavailable">Media nuk është e disponueshme</string>
+    <string name="media_try_again_label">Provo sërish</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">Shikuesi i medias</string>
+    <string name="media_viewer_save_to_photos_description">Ruaj te fotot</string>
+    <string name="media_file_viewer_screen_title">Shikuesi i skedarëve</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d nga %3$d</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">Vizato mbi imazh</string>
+    <string name="media_drawing_undo_description">Zhbër</string>
+    <string name="media_drawing_add_to_prompt_description">Shto te kërkesa</string>
+    <string name="media_drawing_canvas_description">Kanavaca e vizatimit</string>
+    <string name="media_drawing_discard_title">Të hidhet vizatimi?</string>
+    <string name="media_drawing_discard_confirm">Hidhe vizatimin</string>
+    <string name="media_drawing_keep">Vazhdo vizatimin</string>
+    <string name="media_drawing_add_failed_title">Vizatimi nuk u shtua dot</string>
+    <string name="media_drawing_flatten_failed">Imazhi nuk u krijua dot. Provo sërish.</string>
+    <string name="media_drawing_prompt_unavailable">Mesazhi i këtij sesioni nuk pranon bashkëngjitje tani për tani.</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">E bardhë</string>
+    <string name="media_drawing_ink_black">E zezë</string>
+    <string name="media_drawing_ink_red">E kuqe</string>
+    <string name="media_drawing_ink_yellow">E verdhë</string>
+    <string name="media_drawing_ink_green">Jeshile</string>
+    <string name="media_drawing_ink_blue">Blu</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">I zmadhuar</string>
+    <string name="media_zoom_out_label">Zvogëlo</string>
+    <string name="media_zoom_in_label">Zmadho</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">Ndalo përkohësisht</string>
+    <string name="media_player_play">Luaj</string>
+    <string name="media_player_position_description">Pozicioni i luajtjes</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">Videoja nuk u luajt dot</string>
+    <string name="media_video_position_description">Pozicioni i videos</string>
+    <string name="media_video_capture_failed_title">Kuadri nuk u kap dot</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">Trego pamjen paraprake</string>
+    <string name="media_file_show_source_description">Trego kodin burimor</string>
+    <string name="media_file_unwrap_lines_description">Mos i mbështill rreshtat</string>
+    <string name="media_file_wrap_lines_description">Mbështill rreshtat</string>
+    <string name="media_file_start_pip_description">Nis figurën brenda figurës</string>
+    <string name="media_file_opening">Po hapet…</string>
+    <string name="media_file_share_failed_title">Nuk u nda dot skedari</string>
+    <string name="media_file_share_downloading_description">Po shkarkohet për ta ndarë</string>
+    <string name="media_file_confirm_large_message">Ky skedar është %1$s. Ta shkarkojmë për ta parë në këtë pajisje?</string>
+    <string name="media_file_download">Shkarko</string>
+    <string name="media_file_open_in_another_app">Hap në një aplikacion tjetër</string>
+    <string name="media_file_no_app_message">Asnjë aplikacion në këtë pajisje nuk mund ta hapë këtë skedar. Ndaje për ta ruajtur ose për ta dërguar diku tjetër.</string>
+    <string name="media_file_pdf_page_description">Faqja %1$d nga %2$d</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">Skedari nuk u gjet</string>
+    <string name="media_file_error_open_failed_title">Nuk u hap dot skedari</string>
+    <string name="media_file_error_unreadable">Kjo rrugë nuk mund të lexohet nga serveri.</string>
+    <string name="media_file_error_not_found">Mund të jetë zhvendosur ose fshirë.</string>
+    <string name="media_file_error_unauthorized">Serveri nuk e pranoi fjalëkalimin e kësaj pajisjeje.</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">Serveri nuk e lexoi dot (HTTP %1$d). Mund të jetë dosje.</string>
+    <string name="media_file_error_timed_out">Kërkesës i mbaroi koha.</string>
+    <string name="media_file_error_unexpected_response">Serveri dërgoi një përgjigje të papritur.</string>
+    <string name="media_file_error_over_limit">Skedari e kalon kufirin e madhësisë për shkarkim.</string>
+    <string name="media_file_error_size_unknown">Serveri nuk e tregoi madhësinë e bashkëngjitjes.</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">Po shkarkohet…</string>
+    <string name="media_file_downloading_size">Po shkarkohet %1$s</string>
+    <string name="media_file_downloading_progress">Po shkarkohet %1$s nga %2$s</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">Zero KB</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="one">%1$d bajt</item>
+        <item quantity="other">%1$d bajte</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s KB</string>
+    <string name="media_file_size_megabytes">%1$s MB</string>
+    <string name="media_file_size_gigabytes">%1$s GB</string>
+    <string name="media_file_size_terabytes">%1$s TB</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">Nuk u gjet</string>
+    <string name="media_image_load_label">Ngarko imazhin</string>
+    <string name="media_image_loading_state">Po ngarkohet</string>
+    <string name="media_image_open_label">Hap imazhin</string>
+    <string name="media_image_tap_to_load">Prek për ta ngarkuar</string>
+    <string name="media_image_outside_project_value">Jashtë projektit</string>
+    <string name="media_image_deferred_low_data_value">Shtyrë për modalitetin e kursimit të të dhënave</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">Hap %1$s</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">Kthehu te sesioni</string>
+    <string name="media_browser_ask_description">Pyet për këtë faqe</string>
+    <string name="media_browser_forward_description">Përpara</string>
+    <string name="media_browser_open_in_browser_description">Hap në shfletues</string>
+    <string name="media_browser_scroll_to_top_label">Shko në krye të faqes</string>
+    <string name="media_browser_ask_placeholder">Pyet për këtë faqe</string>
+    <string name="media_browser_reply_needs_input">Kërkohet përgjigjja jote</string>
+    <string name="media_browser_reply_working">Duke punuar</string>
+    <string name="media_browser_go_back_to_session_label">Kthehu te sesioni</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">Përgjigjja gati</string>
+    <string name="media_browser_reply_back_to_read">· Kthehu për ta lexuar</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">Sesioni</string>
+    <string name="media_link_open_in_app_browser">Hap në shfletuesin e aplikacionit</string>
+    <string name="media_link_open_in_browser">Hap në shfletues</string>
+    <string name="media_link_open_in_app">Hap në aplikacion</string>
+    <string name="media_link_copy">Kopjo lidhjen</string>
+    <string name="media_link_share">Ndaj…</string>
+    <string name="media_link_open_session">Hap sesionin</string>
+    <string name="media_link_copy_session_id">Kopjo ID-në</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">Kopjo ID-në e %1$s</string>
+    <string name="media_link_open_session_named_description">Hap sesionin %1$s</string>
+    <string name="media_link_open_host_in_app_browser_description">Hap %1$s në shfletuesin e aplikacionit</string>
+    <string name="media_link_open_host_in_browser_description">Hap %1$s në shfletues</string>
+    <string name="media_link_open_host_in_app_description">Hap %1$s në aplikacion</string>
+    <string name="media_link_copy_host_description">Kopjo lidhjen për %1$s</string>
+    <string name="media_link_share_host_description">Ndaj lidhjen për %1$s</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%1$s në %2$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s lidhja %2$d</string>
+    <string name="media_link_more_links_description">Më shumë lidhje</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">Video</string>
+    <string name="media_link_preview_post">Postim</string>
+    <string name="media_link_preview_post_unavailable">Postimi nuk disponohet</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">Depo</string>
+    <string name="media_github_kind_issue">Çështje</string>
+    <string name="media_github_kind_pull_request">Kërkesë bashkimi</string>
+    <string name="media_github_kind_commit">Regjistrim</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">Hapur</string>
+    <string name="media_github_state_closed">Mbyllur</string>
+    <string name="media_github_state_merged">Bashkuar</string>
+    <string name="media_github_state_draft">Draft</string>
+    <string name="media_github_state_completed">Përfunduar</string>
+    <string name="media_github_state_not_planned">Pa planifikuar</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">Diagram, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">Shikuesi i diagrameve</string>
+    <string name="media_mermaid_diagram_description">Diagram</string>
+    <string name="media_mermaid_loading_state">%1$s, po ngarkohet</string>
+    <string name="media_mermaid_view_source">Shiko kodin burimor</string>
+    <string name="media_mermaid_source_title">Kodi burimor i diagramit</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">Diagram rrjedhe</string>
+    <string name="media_mermaid_type_sequence">Diagram sekuence</string>
+    <string name="media_mermaid_type_class">Diagram klasash</string>
+    <string name="media_mermaid_type_state">Diagram gjendjesh</string>
+    <string name="media_mermaid_type_entity_relationship">Diagram marrëdhëniesh mes entiteteve</string>
+    <string name="media_mermaid_type_user_journey">Rrugëtimi i përdoruesit</string>
+    <string name="media_mermaid_type_gantt">Diagram Gantt</string>
+    <string name="media_mermaid_type_pie">Grafik rrethor</string>
+    <string name="media_mermaid_type_quadrant">Grafik kuadrantesh</string>
+    <string name="media_mermaid_type_requirement">Diagram kërkesash</string>
+    <string name="media_mermaid_type_git_graph">Graf Git</string>
+    <string name="media_mermaid_type_c4">Diagram C4</string>
+    <string name="media_mermaid_type_mind_map">Hartë mendore</string>
+    <string name="media_mermaid_type_timeline">Afati kohor</string>
+    <string name="media_mermaid_type_sankey">Diagram Sankey</string>
+    <string name="media_mermaid_type_xy_chart">Grafik XY</string>
+    <string name="media_mermaid_type_block">Diagram blloqesh</string>
+    <string name="media_mermaid_type_packet">Diagram paketash</string>
+    <string name="media_mermaid_type_kanban">Tabelë Kanban</string>
+    <string name="media_mermaid_type_architecture">Diagram arkitekture</string>
+    <string name="media_mermaid_type_radar">Grafik radar</string>
+    <string name="media_mermaid_type_treemap">Hartë hierarkike</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

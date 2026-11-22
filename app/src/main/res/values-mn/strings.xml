@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Хуваалцсан зүйлсийг нэмж чадсангүй</string>
+    <string name="app_alert_open_session_failed_title">Сессийг нээж чадсангүй</string>
+    <string name="app_alert_pairing_failed_title">Сервертэй хослуулж чадсангүй</string>
+    <string name="app_pairing_confirm">Хослуулах</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Серверүүд</string>
+    <string name="app_servers_back_description">%1$s рүү буцах</string>
+    <string name="app_server_fallback_name">сервер</string>
+    <string name="app_connection_intro_new">%1$s дээрээсээ код бичих сессүүдээ үргэлжлүүлээрэй.</string>
+    <string name="app_connection_intro_returning">Орхисон газраасаа үргэлжлүүлэх эсвэл өөр компьютер хослуулаарай.</string>
+    <string name="app_connection_enter_manually">Серверийг гараар оруулах</string>
+    <string name="app_connection_scan_pairing_code">Хослуулах кодыг сканнердах</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Компьютер дээрээ OpenCode нээгээд Тохиргоо → Хослуулах руу орох эсвэл терминалд opencode pair --remote ажиллуулна уу. Дараа нь энэ %1$s ашиглан кодыг сканнердаарай.</string>
+    <string name="app_setup_install_title">OpenCode хараахан суулгаагүй юу?</string>
+    <string name="app_setup_other_ways_to_install">Суулгах бусад арга</string>
+    <string name="app_setup_terminal_title">Эсвэл үүнийг терминалд ажиллуулаарай</string>
+    <string name="app_setup_terminal_detail">Аль ч сүлжээнээс ажиллана.</string>
+    <string name="app_setup_paste_prompt">Эсвэл гарч ирсэн холбоосыг хуулаад</string>
+    <string name="app_setup_paste">Буулгах</string>
+    <string name="app_setup_copy_command_description">%1$s хуулах</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Холбож байна</string>
+    <string name="app_servers_edit_description">%1$s засварлах</string>
+    <string name="app_servers_remove_description">%1$s арилгах</string>
+    <string name="app_servers_remove_confirm_title">%1$s арилгах уу?</string>
+    <string name="app_servers_remove_confirm_message">Энэ %1$s дээр хадгалсан хаяг, нууц үгийг арилгана. Сервер дээрх сессүүдэд нөлөөлөхгүй.</string>
+    <string name="app_servers_remove_confirm">Сервер арилгах</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Үе шат: %1$s</string>
+    <string name="app_error_server">Сервер: %1$s</string>
+    <string name="app_error_attempt">Оролдлого: %1$d</string>
+    <string name="app_error_copy_report">Алдааны тайланг хуулах</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Шинэ сервер</string>
+    <string name="app_server_form_edit_title">Сервер засах</string>
+    <string name="app_server_form_name">Нэр</string>
+    <string name="app_server_form_address">Серверийн хаяг</string>
+    <string name="app_server_form_username">Хэрэглэгчийн нэр</string>
+    <string name="app_server_form_password">Нууц үг (заавал биш)</string>
+    <string name="app_server_form_hide_password_description">Нууц үгийг нуух</string>
+    <string name="app_server_form_show_password_description">Нууц үгийг үзүүлэх</string>
+    <string name="app_server_form_connect">Холбох</string>
+    <string name="app_server_form_save_and_connect">Хадгалаад холбох</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Толгой талбарууд</string>
+    <string name="app_server_form_header_name">Нэр</string>
+    <string name="app_server_form_header_name_description">%1$d-р толгой талбарын нэр</string>
+    <string name="app_server_form_header_value">Утга</string>
+    <string name="app_server_form_header_value_description">%1$d-р толгой талбарын утга</string>
+    <string name="app_server_form_header_remove_description">%1$d-р толгой талбарыг арилгах</string>
+    <string name="app_server_form_header_add">Толгой талбар нэмэх</string>
+    <string name="app_server_form_headers_detail">Серверийн урд байрлах Cloudflare Access зэрэг проксид зориулж хүсэлт бүртэй илгээнэ.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">“%1$s” нь толгой талбарын зөв нэр биш</string>
+    <string name="app_server_form_header_invalid_value">%1$s талбарын утгад мөр шилжүүлэлт байж болохгүй</string>
+    <string name="app_server_form_name_placeholder">Заавал биш</string>
+    <string name="app_connection_progress_pairing">Хослуулж байна</string>
+    <string name="app_connection_progress_connecting">Холбож байна</string>
+    <string name="app_connection_progress_loading_sessions">Сессүүдийг ачаалж байна</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">%1$s хослуулах уу?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode нь %1$s хаягийг шалгаад эхэлж хариу өгсөн хаяг руу шилжинэ.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode нь %1$s хослуулаад түүн рүү шилжинэ.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode нь %1$s болон %2$s хаягийг шалгаад эхэлж хариу өгсөн хаяг руу шилжинэ.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode нь %1$s, мөн %2$s хаягийг шалгаад эхэлж хариу өгсөн хаяг руу шилжинэ.</string>
+    <string name="app_pairing_confirm_replaces">%1$s %2$s серверт хадгалсан нэвтрэх мэдээлэл солигдож болзошгүй.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Хослуулах</string>
+    <string name="app_error_phase_connect">Холбох</string>
+    <string name="app_error_phase_load_sessions">Сессүүдийг ачаалах</string>
+    <string name="app_error_candidate_detail">Хувилбар %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Ашиглах боломжгүй (буруу хаяг)</string>
+    <string name="app_error_title_pair">Хослуулж чадсангүй</string>
+    <string name="app_error_title_load_sessions">Сессүүдийг ачаалж чадсангүй</string>
+    <string name="app_error_title_connect">%1$s рүү холбогдож чадсангүй</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Түр санах ой хоосон байна</string>
+    <string name="app_paste_not_a_pairing_link">Энэ хослуулах холбоос биш байна</string>
+    <string name="app_server_no_longer_saved">Энэ сервер одоо энэ %1$s төхөөрөмжид хадгалагдаагүй байна. Сессийг нээхийн тулд дахин холбогдоно уу.</string>
+    <string name="app_session_no_longer_available">Устгагдсан эсвэл сервер ашиглах боломжгүй болсон байж магадгүй.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">%1$s рүү холбогдлоо</string>
+    <string name="app_pairing_invalid_code">Энэ OpenCode хослуулах код биш байна. Компьютер дээрээ opencode pair --remote ажиллуулаад, гарч ирэх QR кодыг сканнердах эсвэл холбоосыг нь буулгана уу.</string>
+    <string name="app_pairing_unusable_address">Энэ хослуулах кодын “%1$s” хаягийг ашиглаж чадсангүй: %2$s.</string>
+    <string name="app_pairing_loopback">Энэ сервер зөвхөн localhost дээр холболт хүлээн авдаг тул энэ %1$s төхөөрөмжөөс холбогдох боломжгүй. Компьютер дээрээ opencode pair --remote ажиллуулбал аль ч сүлжээнээс холбогдоно.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Таны хуваалцсан сервер энэ төхөөрөмжид хадгалагдахаа больсон байна. Дахин холбогдоод, дахин хуваалцана уу.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">сүүлд ашигласан</string>
+    <string name="app_server_form_hint_new">Хослуулахын тулд `opencode pair --remote` ажиллуулахад гарах холбоосыг буулгана уу. Эсвэл OpenCode серверийнхээ хаяг, нууц үгийг ашиглана уу. Хэрэглэгчийн нэр нь ихэвчлэн opencode байдаг.</string>
+    <string name="app_server_form_hint_edit_paired">Энэ серверт холбогдоход өөрчлөлтүүд хадгалагдана. Энэ серверийг хослуулсан тул нууц үг нь сессийн токен юм. Үүнийг солихын оронд шинэ хослуулах код сканнердана уу.</string>
+    <string name="app_server_form_hint_edit">Энэ серверт холбогдоход өөрчлөлтүүд хадгалагдана.</string>
+</resources>

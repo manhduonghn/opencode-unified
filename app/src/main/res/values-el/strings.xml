@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Αδυναμία προσθήκης κοινόχρηστων στοιχείων</string>
+    <string name="app_alert_open_session_failed_title">Αδυναμία ανοίγματος συνεδρίας</string>
+    <string name="app_alert_pairing_failed_title">Αδυναμία ζευγοποίησης με διακομιστή</string>
+    <string name="app_pairing_confirm">Ζευγοποίηση</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Διακομιστές</string>
+    <string name="app_servers_back_description">Επιστροφή σε %1$s</string>
+    <string name="app_server_fallback_name">διακομιστής</string>
+    <string name="app_connection_intro_new">Συνεχίστε τις συνεδρίες προγραμματισμού από το %1$s σας.</string>
+    <string name="app_connection_intro_returning">Συνεχίστε από εκεί που μείνατε ή κάντε ζευγοποίηση με άλλον υπολογιστή.</string>
+    <string name="app_connection_enter_manually">Χειροκίνητη εισαγωγή διακομιστή</string>
+    <string name="app_connection_scan_pairing_code">Σάρωση κωδικού ζευγοποίησης</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Στον υπολογιστή σας, ανοίξτε το OpenCode και πηγαίνετε στις Ρυθμίσεις → Ζευγοποίηση ή εκτελέστε opencode pair --remote σε ένα τερματικό. Έπειτα σαρώστε τον κωδικό με αυτό το %1$s.</string>
+    <string name="app_setup_install_title">Δεν έχετε ακόμη το OpenCode;</string>
+    <string name="app_setup_other_ways_to_install">Άλλοι τρόποι εγκατάστασης</string>
+    <string name="app_setup_terminal_title">Ή εκτελέστε αυτό σε ένα τερματικό</string>
+    <string name="app_setup_terminal_detail">Λειτουργεί από οποιοδήποτε δίκτυο.</string>
+    <string name="app_setup_paste_prompt">Ή αντιγράψτε τον σύνδεσμο που εμφανίζει και μετά</string>
+    <string name="app_setup_paste">Επικόλληση</string>
+    <string name="app_setup_copy_command_description">Αντιγραφή %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Σύνδεση</string>
+    <string name="app_servers_edit_description">Επεξεργασία %1$s</string>
+    <string name="app_servers_remove_description">Αφαίρεση %1$s</string>
+    <string name="app_servers_remove_confirm_title">Αφαίρεση %1$s;</string>
+    <string name="app_servers_remove_confirm_message">Η διεύθυνση και ο κωδικός πρόσβασης θα διαγραφούν από αυτό το %1$s. Οι συνεδρίες στον διακομιστή δεν επηρεάζονται.</string>
+    <string name="app_servers_remove_confirm">Αφαίρεση διακομιστή</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Στάδιο: %1$s</string>
+    <string name="app_error_server">Διακομιστής: %1$s</string>
+    <string name="app_error_attempt">Προσπάθεια: %1$d</string>
+    <string name="app_error_copy_report">Αντιγραφή αναφοράς σφάλματος</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Νέος διακομιστής</string>
+    <string name="app_server_form_edit_title">Επεξεργασία διακομιστή</string>
+    <string name="app_server_form_name">Όνομα</string>
+    <string name="app_server_form_address">Διεύθυνση διακομιστή</string>
+    <string name="app_server_form_username">Όνομα χρήστη</string>
+    <string name="app_server_form_password">Κωδικός πρόσβασης (προαιρετικό)</string>
+    <string name="app_server_form_hide_password_description">Απόκρυψη κωδικού πρόσβασης</string>
+    <string name="app_server_form_show_password_description">Εμφάνιση κωδικού πρόσβασης</string>
+    <string name="app_server_form_connect">Σύνδεση</string>
+    <string name="app_server_form_save_and_connect">Αποθήκευση και σύνδεση</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Κεφαλίδες</string>
+    <string name="app_server_form_header_name">Όνομα</string>
+    <string name="app_server_form_header_name_description">Όνομα κεφαλίδας %1$d</string>
+    <string name="app_server_form_header_value">Τιμή</string>
+    <string name="app_server_form_header_value_description">Τιμή κεφαλίδας %1$d</string>
+    <string name="app_server_form_header_remove_description">Αφαίρεση κεφαλίδας %1$d</string>
+    <string name="app_server_form_header_add">Προσθήκη κεφαλίδας</string>
+    <string name="app_server_form_headers_detail">Αποστέλλονται με κάθε αίτημα, για ενδιάμεσο διακομιστή όπως το Cloudflare Access.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">Το «%1$s» δεν είναι έγκυρο όνομα κεφαλίδας</string>
+    <string name="app_server_form_header_invalid_value">Η τιμή του %1$s δεν μπορεί να περιέχει αλλαγή γραμμής</string>
+    <string name="app_server_form_name_placeholder">Προαιρετικό</string>
+    <string name="app_connection_progress_pairing">Ζευγοποίηση</string>
+    <string name="app_connection_progress_connecting">Σύνδεση</string>
+    <string name="app_connection_progress_loading_sessions">Φόρτωση συνεδριών</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Ζευγοποίηση με %1$s;</string>
+    <string name="app_pairing_confirm_try_one">Το OpenCode θα δοκιμάσει %1$s και θα συνδεθεί στην πρώτη διεύθυνση που θα απαντήσει.</string>
+    <string name="app_pairing_confirm_pair_one">Το OpenCode θα κάνει ζευγοποίηση με %1$s και θα συνδεθεί εκεί.</string>
+    <string name="app_pairing_confirm_try_two">Το OpenCode θα δοκιμάσει %1$s και %2$s και θα συνδεθεί στην πρώτη διεύθυνση που θα απαντήσει.</string>
+    <string name="app_pairing_confirm_try_many">Το OpenCode θα δοκιμάσει %1$s και %2$s και θα συνδεθεί στην πρώτη διεύθυνση που θα απαντήσει.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Τα αποθηκευμένα διαπιστευτήρια για %2$s ενδέχεται να αντικατασταθούν.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Ζευγοποίηση</string>
+    <string name="app_error_phase_connect">Σύνδεση</string>
+    <string name="app_error_phase_load_sessions">Φόρτωση συνεδριών</string>
+    <string name="app_error_candidate_detail">Υποψήφια σύνδεση %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Μη διαθέσιμο (μη έγκυρη διεύθυνση)</string>
+    <string name="app_error_title_pair">Αδυναμία ζευγοποίησης</string>
+    <string name="app_error_title_load_sessions">Αδυναμία φόρτωσης συνεδριών</string>
+    <string name="app_error_title_connect">Αδυναμία σύνδεσης με %1$s</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Το πρόχειρό σας είναι άδειο</string>
+    <string name="app_paste_not_a_pairing_link">Αυτός δεν είναι σύνδεσμος ζευγοποίησης</string>
+    <string name="app_server_no_longer_saved">Αυτός ο διακομιστής δεν είναι πλέον αποθηκευμένος σε αυτό το %1$s. Συνδεθείτε ξανά για να ανοίξετε τη συνεδρία.</string>
+    <string name="app_session_no_longer_available">Ίσως διαγράφηκε ή ο διακομιστής δεν είναι διαθέσιμος.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Έγινε σύνδεση με %1$s</string>
+    <string name="app_pairing_invalid_code">Αυτός δεν είναι κωδικός ζευγοποίησης OpenCode. Εκτελέστε opencode pair --remote στον υπολογιστή σας και σαρώστε τον κωδικό QR ή επικολλήστε τον σύνδεσμο που εμφανίζεται.</string>
+    <string name="app_pairing_unusable_address">Αδυναμία χρήσης του «%1$s» από αυτόν τον κωδικό ζευγοποίησης: %2$s.</string>
+    <string name="app_pairing_loopback">Αυτός ο διακομιστής δέχεται συνδέσεις μόνο στο localhost, οπότε αυτό το %1$s δεν μπορεί να συνδεθεί. Εκτελέστε αντί γι’ αυτό opencode pair --remote στον υπολογιστή σας, για σύνδεση από οποιοδήποτε δίκτυο.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Ο διακομιστής στον οποίο κάνατε κοινοποίηση δεν είναι πλέον αποθηκευμένος σε αυτή τη συσκευή. Συνδεθείτε ξανά και επαναλάβετε την κοινοποίηση.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">τελευταία χρήση</string>
+    <string name="app_server_form_hint_new">Για ζευγοποίηση, επικολλήστε τον σύνδεσμο που εμφανίζει η εντολή `opencode pair --remote` ή χρησιμοποιήστε τη διεύθυνση και τον κωδικό πρόσβασης του διακομιστή OpenCode. Το όνομα χρήστη είναι συνήθως opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Οι αλλαγές αποθηκεύονται μόλις συνδεθεί ο διακομιστής. Έχει γίνει ζευγοποίηση, οπότε ο κωδικός πρόσβασής του είναι διακριτικό συνεδρίας. Σαρώστε νέο κωδικό ζευγοποίησης αντί να τον αλλάξετε.</string>
+    <string name="app_server_form_hint_edit">Οι αλλαγές αποθηκεύονται μόλις συνδεθεί ο διακομιστής.</string>
+</resources>

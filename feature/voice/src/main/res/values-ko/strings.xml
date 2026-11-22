@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Call ended and failure cards -->
+    <string name="voice_call_ended_title">통화 종료됨</string>
+    <string name="voice_call_ended_rejoin">다시 참여</string>
+    <string name="voice_failure_title">음성 연결을 할 수 없어요</string>
+    <string name="voice_failure_check_api_key">API 키 확인</string>
+    <string name="voice_failure_start_title">통화를 시작할 수 없어요</string>
+
+    <!-- Floating call -->
+    <string name="voice_floating_expand">펼치기</string>
+    <string name="voice_floating_orb_description">음성 통화</string>
+    <string name="voice_floating_orb_show_controls">통화 제어 버튼 표시</string>
+    <string name="voice_floating_end_description">음성 통화 종료</string>
+    <string name="voice_floating_control_placeholder_state">이 프로토타입에서는 사용할 수 없어요</string>
+    <string name="voice_floating_duration_description">통화 시간</string>
+
+    <!-- Floating call stage -->
+    <string name="voice_stage_talking_in">대화 중인 세션</string>
+    <string name="voice_stage_minimize_description">최소화</string>
+    <string name="voice_mute">음소거</string>
+    <string name="voice_unmute">음소거 해제</string>
+    <string name="voice_stage_pause">일시 정지</string>
+    <string name="voice_stage_camera">카메라</string>
+    <string name="voice_transcript_empty">세션에 말을 걸어 보세요.</string>
+    <string name="voice_transcript_you">나</string>
+    <string name="voice_transcript_user_line_description">나: %1$s</string>
+
+    <!-- Call rows: screen request -->
+    <string name="voice_screen_request_detail">음성 기능이 화면 공유를 요청해요</string>
+    <string name="voice_screen_request_spoken">입력이 필요해요. 음성 기능이 화면 공유를 요청해요</string>
+    <string name="voice_screen_request_spoken_with_reason">입력이 필요해요. 음성 기능이 화면 공유를 요청해요. %1$s</string>
+    <string name="voice_screen_request_title">화면을 공유할까요?</string>
+
+    <!-- Call rows: open link -->
+    <string name="voice_open_link_spoken">입력이 필요해요. %1$s</string>
+    <string name="voice_open_link_spoken_with_host">입력이 필요해요. %1$s %2$s</string>
+    <string name="voice_open_link_open">열기</string>
+
+    <!-- Call rows: audio on the call -->
+    <string name="voice_audio_paused">일시 정지됨</string>
+    <string name="voice_audio_playing">통화에서 재생 중</string>
+    <string name="voice_audio_play">오디오 재생</string>
+    <string name="voice_audio_pause">오디오 일시 정지</string>
+    <string name="voice_audio_stop">오디오 중지</string>
+
+    <!-- Call history -->
+    <string name="voice_call_history_title">통화 기록</string>
+    <string name="voice_call_history_options_description">기록 옵션</string>
+    <string name="voice_call_history_delete_all">모두 삭제</string>
+    <string name="voice_call_history_empty_title">아직 음성 통화가 없어요</string>
+    <string name="voice_call_history_empty_message">통화는 다시 들을 수 있도록 이 휴대폰에 저장돼요.</string>
+    <string name="voice_call_history_delete_all_confirm_title">모든 음성 통화를 삭제할까요?</string>
+
+    <!-- Call replay -->
+    <string name="voice_replay_timeline_description">통화 타임라인</string>
+    <string name="voice_replay_timeline_state">%2$s 중 %1$s</string>
+    <string name="voice_replay_pause">일시 정지</string>
+    <string name="voice_replay_play">재생</string>
+    <string name="voice_replay_position_description">재생 위치</string>
+    <string name="voice_replay_speed_description">재생 속도</string>
+    <string name="voice_replay_empty">재생을 눌러 통화를 다시 들어 보세요.</string>
+
+    <!-- Call notification -->
+    <string name="voice_notification_channel_name">통화</string>
+    <string name="voice_notification_channel_description">진행 중인 OpenCode 통화</string>
+    <string name="voice_notification_connecting">연결 중…</string>
+    <string name="voice_notification_reconnecting">다시 연결 중…</string>
+    <string name="voice_notification_call_ended">통화 종료됨</string>
+    <string name="voice_notification_end">종료</string>
+    <!-- Call status caption -->
+    <string name="voice_status_connecting_via">%1$s 경유로 연결 중…</string>
+    <string name="voice_status_weak_connection">연결 불안정</string>
+    <string name="voice_status_paused">일시 정지됨</string>
+    <string name="voice_status_needs_input">입력이 필요해요</string>
+    <string name="voice_status_working">일하고 있는</string>
+    <string name="voice_status_speaking">말하는 중</string>
+    <string name="voice_status_muted">음소거됨</string>
+    <string name="voice_status_listening">듣는 중</string>
+    <string name="voice_status_ending">종료 중…</string>
+    <string name="voice_status_ended">종료됨</string>
+    <string name="voice_session_new_title">새 세션</string>
+    <string name="voice_call_note_builtin_fallback">이 통화는 내장 위임 에이전트를 사용해요</string>
+
+    <!-- Floating call tag and spoken length -->
+    <string name="voice_floating_now_talking_in">지금 %1$s에서 대화 중</string>
+    <string name="voice_floating_spoken_duration">%1$s, %2$s</string>
+    <plurals name="voice_floating_spoken_minutes">
+        <item quantity="other">%1$d분</item>
+    </plurals>
+    <plurals name="voice_floating_spoken_seconds">
+        <item quantity="other">%1$d초</item>
+    </plurals>
+
+    <!-- Voice providers -->
+    <string name="voice_provider_state_ready">준비됨</string>
+    <string name="voice_provider_state_no_key">키 없음</string>
+    <string name="voice_provider_state_needs_update">OpenCode 업데이트</string>
+    <string name="voice_provider_state_offline">오프라인</string>
+    <string name="voice_provider_place_phone">이 휴대폰</string>
+    <string name="voice_provider_brand_openai_account">내 OpenAI 계정</string>
+    <string name="voice_provider_name">%2$s의 %1$s</string>
+    <string name="voice_provider_subtitle">%1$s에서</string>
+    <string name="voice_provider_key_row_title">%1$s 키</string>
+    <string name="voice_provider_key_placeholder">%1$s API 키</string>
+
+    <!-- Voice key source -->
+    <string name="voice_key_source_server_row_title">내 서버의 키</string>
+    <string name="voice_key_source_phone_footer">통화에 내 OpenAI 또는 xAI 키를 사용해요.</string>
+    <string name="voice_key_source_server_footer">통화에 내 서버의 %1$s 키를 사용해요.</string>
+    <string name="voice_key_source_opencode_footer">통화 요금은 내 OpenCode Console 작업 공간에 청구돼요.</string>
+
+    <!-- Call failure fixes and diagnosis -->
+    <string name="voice_fix_set_up_on_phone">이 휴대폰에서 설정</string>
+    <string name="voice_fix_choose_provider">공급자 선택</string>
+    <string name="voice_fix_update_opencode">OpenCode 업데이트</string>
+    <string name="voice_diagnosis_needs_update">%1$s에서 음성 통화를 하려면 OpenCode를 업데이트해야 해요.</string>
+    <string name="voice_diagnosis_your_server_needs_update">음성 통화를 하려면 내 서버의 OpenCode를 업데이트해야 해요.</string>
+    <string name="voice_diagnosis_no_key">%1$s에 음성 통화용 키가 없어요.</string>
+    <string name="voice_diagnosis_your_server_no_key">내 서버에 음성 통화용 키가 없어요.</string>
+    <string name="voice_diagnosis_unreachable">%1$s에 연결할 수 없어요.</string>
+    <string name="voice_diagnosis_your_server_unreachable">내 서버에 연결할 수 없어요.</string>
+    <string name="voice_diagnosis_failed">%1$s에서 통화를 시작할 수 없어요.</string>
+    <string name="voice_diagnosis_your_server_failed">내 서버에서 통화를 시작할 수 없어요.</string>
+    <string name="voice_diagnosis_key_rejected">OpenAI에서 이 휴대폰의 키를 거부했어요.</string>
+    <string name="voice_diagnosis_missing_phone_key">이 휴대폰에서 통화하려면 내 %1$s API 키를 추가하세요.</string>
+
+    <!-- Call errors -->
+    <string name="voice_error_microphone_denied">세션과 대화하려면 설정에서 마이크 접근을 허용하세요.</string>
+    <string name="voice_error_audio_format_unavailable">지원하지 않는 오디오 하드웨어 형식이에요.</string>
+    <string name="voice_error_audio_engine_rejected">통화 오디오를 시작할 수 없어요. 잠시 후 다시 시도하세요.</string>
+    <string name="voice_error_server_unsupported">음성 통화를 하려면 이 서버의 OpenCode를 업데이트해야 해요</string>
+    <string name="voice_error_invalid_server_url">음성 통화를 시작할 수 없어요: 올바른 HTTP 또는 HTTPS 서버 URL을 입력하세요.</string>
+    <string name="voice_error_invalid_response">음성 통화를 시작할 수 없어요: 서버가 잘못된 응답을 보냈어요.</string>
+    <string name="voice_error_start_voice_detail">음성 통화를 시작할 수 없어요: %1$s</string>
+    <string name="voice_error_start_voice_http">음성 통화를 시작할 수 없어요 (HTTP %1$d).</string>
+    <string name="voice_error_openai_rejected_key">OpenAI에서 API 키를 거부했어요.</string>
+    <string name="voice_error_openai_verify_http">OpenAI에서 이 키를 확인할 수 없어요 (HTTP %1$d).</string>
+    <string name="voice_error_no_connection">연결되지 않았어요.</string>
+    <string name="voice_error_model_address_invalid">음성 모델 주소가 올바르지 않아요.</string>
+    <string name="voice_error_xai_rejected_key">xAI에서 API 키를 거부했어요.</string>
+    <string name="voice_error_xai_verify_http">xAI에서 이 키를 확인할 수 없어요 (HTTP %1$d).</string>
+    <string name="voice_error_xai_key_disabled">이 xAI API 키는 비활성화되어 있어요.</string>
+    <string name="voice_error_xai_key_blocked">이 xAI API 키는 차단되어 있어요.</string>
+    <string name="voice_error_service_address_invalid">음성 서비스 주소가 올바르지 않아요.</string>
+    <string name="voice_error_connection_lost">음성 연결이 끊어졌어요.</string>
+    <string name="voice_error_connection_closed">음성 연결이 종료되었어요.</string>
+    <string name="voice_error_connection_setup">음성 연결을 설정할 수 없어요.</string>
+    <string name="voice_error_safety_filter">안전 필터가 음성 통화를 종료했어요.</string>
+    <string name="voice_error_audio_reset">시스템에서 오디오를 초기화했어요. 통화를 다시 시작하세요.</string>
+    <string name="voice_error_missing_phone_key">음성 기능을 사용하려면 설정에서 내 %1$s API 키를 추가하세요.</string>
+
+    <!-- Voice accents -->
+    <string name="voice_accent_australian_english">호주 영어</string>
+    <string name="voice_accent_british_english">영국 영어</string>
+    <string name="voice_accent_irish_english">아일랜드 영어</string>
+    <string name="voice_accent_north_american_english">북미 영어</string>
+    <string name="voice_accent_brazilian_portuguese">브라질 포르투갈어</string>
+    <string name="voice_accent_filipino_english">필리핀 영어</string>
+    <string name="voice_accent_southern_us_english">미국 남부 영어</string>
+    <string name="voice_accent_indian_english">인도 영어</string>
+    <string name="voice_preview_error">미리 듣기를 재생할 수 없어요</string>
+
+    <!-- Call sound packs -->
+    <string name="voice_sound_pack_breath_ping">숨결 알림음</string>
+    <string name="voice_sound_pack_crystal_glass">크리스털 유리</string>
+    <string name="voice_sound_pack_warm_analog">따뜻한 아날로그</string>
+    <string name="voice_sound_pack_aurora_pulse">오로라 맥동</string>
+    <string name="voice_sound_pack_velvet_bell">벨벳 종소리</string>
+    <string name="voice_sound_pack_silent">무음</string>
+
+    <!-- Open link card -->
+    <string name="voice_open_link_card_title_untitled">링크를 열까요?</string>
+    <string name="voice_open_link_card_title">%1$s 열까요?</string>
+
+    <!-- Delegator choice -->
+    <string name="voice_delegator_session_fallback">세션</string>
+    <string name="voice_delegator_unavailable_gemini">Gemini Live는 화면에 표시된 세션에 바로 위임해요. OpenCode 세션을 사용하려면 OpenAI 음성 공급자를 선택하세요.</string>
+    <string name="voice_delegator_unavailable_engine">%1$s은 화면에 표시된 세션에 바로 위임해요. OpenCode 세션을 사용하려면 음성 모델을 GPT-Live로 바꾸세요.</string>
+
+    <!-- Call log list and replay -->
+    <string name="voice_call_log_duration_seconds">%1$d초</string>
+    <string name="voice_call_log_duration_minutes">%1$d분 %2$d초</string>
+    <string name="voice_replay_to_delegator">→ 위임 에이전트</string>
+    <string name="voice_replay_to_voice">→ 목소리</string>
+    <string name="voice_replay_audio">오디오</string>
+    <string name="voice_replay_track_user">나</string>
+    <string name="voice_replay_track_voice">목소리</string>
+    <string name="voice_replay_track_delegator">위임 에이전트</string>
+    <string name="voice_replay_track_tools">도구</string>
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_new_session">Նոր նիստ</string>
+    <string name="system_start_call">Սկսել զանգ</string>
+    <string name="system_open_session">Բացել նիստը</string>
+    <string name="widget_start_call_description">Սկսում է ձայնային զանգ ձեր ընտրած կամ վերջին դիտած նիստում։</string>
+    <string name="widget_open_session_description">Բացում է ձեր ընտրած նիստը։</string>
+    <string name="widget_new_session_description">Բացում է նոր OpenCode նիստ։</string>
+
+    <!-- Shared across screens -->
+    <string name="system_selected_description">Ընտրված է</string>
+    <string name="system_last_viewed_session">Վերջին դիտած նիստը</string>
+
+    <!-- Quick actions (launcher shortcuts) -->
+    <string name="system_quick_action_session_fallback">Նիստ</string>
+    <!-- Long label: the session's title, then its project. -->
+    <string name="system_quick_action_long_label">%1$s · %2$s</string>
+
+    <!-- Shortcuts and Ask OpenCode -->
+    <string name="system_session_type_name">Նիստ</string>
+    <string name="system_project_type_name">Նախագիծ</string>
+    <string name="system_intent_open_session_description">Բացում է նիստ OpenCode-ում։</string>
+    <string name="system_intent_new_session_description">Սկսում է նոր նիստ OpenCode-ում։</string>
+    <string name="system_intent_start_voice_call_title">Սկսել ձայնային զանգ</string>
+    <string name="system_intent_start_voice_call_description">Սկսում է ձայնային զանգ OpenCode-ի հետ նիստում։ Եթե նիստը նշված չէ, զանգը սկսվում է վերջին դիտած նիստում։</string>
+    <string name="system_intent_background_call_title">Սկսել ձայնային զանգ հետին պլանում</string>
+    <string name="system_intent_background_call_description">Սկսում է ձայնային զանգ OpenCode-ի հետ՝ առանց հավելվածը բացելու։ Զանգը ցուցադրվում է կարգավիճակի տողում և կողպէկրանին։</string>
+    <string name="system_delivery_type_name">Ուղարկման եղանակ</string>
+    <string name="system_delivery_steer">Ուղղորդել</string>
+    <string name="system_delivery_queue">Հերթագրել</string>
+    <string name="system_ask_title">Հարցնել OpenCode-ին</string>
+    <string name="system_ask_description">Հաղորդագրություն է ուղարկում OpenCode-ի նիստին՝ առանց հավելվածը բացելու։</string>
+    <string name="system_ask_message_title">Հաղորդագրություն</string>
+    <string name="system_ask_message_placeholder">Ի՞նչ պետք է անի OpenCode-ը։</string>
+    <string name="system_ask_session_title">Նիստ</string>
+    <string name="system_ask_started_new_session">Նոր նիստ է սկսվել %1$s-ում</string>
+    <string name="system_ask_queued_for">Հերթագրվել է «%1$s»-ի համար</string>
+    <string name="system_ask_sent_to">Ուղարկվել է «%1$s»-ին</string>
+    <string name="system_ask_your_session">ձեր նիստը</string>
+    <string name="system_ask_no_server">Նախ բացեք OpenCode-ը և կապվեք սերվերին։</string>
+    <string name="system_ask_no_project">Նախ բացեք OpenCode-ը և սկսեք նիստ։</string>
+    <string name="system_ask_empty_message">Ուղարկելու բան չկա։</string>
+    <!-- The server's error message follows. -->
+    <string name="system_ask_send_failed">Չհաջողվեց ուղարկել OpenCode-ին։ %1$s</string>
+
+    <!-- Live Updates: voice call -->
+    <string name="system_call_muted">Լռեցված</string>
+    <string name="system_call_unmute">Միացնել ձայնը</string>
+    <string name="system_call_mute">Լռեցնել</string>
+    <string name="system_call_end">Ավարտել զանգը</string>
+    <string name="system_call_connecting">Կապ է հաստատվում…</string>
+    <string name="system_call_reconnecting">Կապը վերահաստատվում է…</string>
+    <string name="system_call_ended">Զանգն ավարտվել է</string>
+    <string name="system_call_end_title">Ավարտել զանգը</string>
+    <string name="system_call_toggle_mute_title">Լռեցնել կամ միացնել զանգի ձայնը</string>
+
+    <!-- Live Updates: hands-free recording -->
+    <string name="system_recording_active">Ձայնագրում</string>
+    <string name="system_recording_stopped">Ձայնագրումը կանգնեցված է</string>
+    <string name="system_recording_stop">Կանգնեցնել ձայնագրումը</string>
+    <string name="system_recording_stop_title">Կանգնեցնել ձայնագրումը</string>
+    <string name="system_recording_new_session">Նոր նիստ</string>
+
+    <!-- Live Updates: session run -->
+    <string name="system_session_working">Աշխատում է</string>
+    <string name="system_session_last_seen_working">Վերջին տվյալներով՝ աշխատում է</string>
+    <!-- Where the run is (Working), then its current step (a tool name, Thinking or Replying). -->
+    <string name="system_session_status_with_step">%1$s · %2$s</string>
+    <string name="system_session_step_thinking">Մտածում</string>
+    <string name="system_session_step_replying">Պատասխանում է</string>
+    <string name="system_session_needs_input">Սպասում է ձեր մուտքագրմանը</string>
+    <string name="system_session_input">Մուտքագրում</string>
+    <string name="system_session_done">Պատրաստ է</string>
+    <string name="system_session_failed">Չհաջողվեց</string>
+
+    <!-- Session notifications -->
+    <string name="system_notification_placeholder_body">Նոր ակտիվություն</string>
+
+    <!-- Notification channels -->
+    <string name="system_channel_voice_calls">Ձայնային զանգեր</string>
+    <string name="system_channel_recording">Ձայնագրում</string>
+    <string name="system_channel_session_runs">Նիստերի գործարկումներ</string>
+    <string name="system_channel_session_updates">Նիստերի թարմացումներ</string>
+    <string name="system_channel_shared_items">Կիսված տարրեր</string>
+
+    <!-- Share sheet: notifications -->
+    <string name="system_share_continue_notification_body">Հպեք՝ OpenCode-ում շարունակելու համար</string>
+
+    <!-- Share sheet -->
+    <string name="system_share_your_server">ձեր սերվերը</string>
+    <string name="system_share_new_session_in_project">Նոր նիստ · %1$s</string>
+    <string name="system_share_save_failed_message">Կրկին փորձեք։ Եթե խնդիրը կրկնվում է, սարքում մի քիչ տեղ ազատեք։</string>
+    <!-- The session's title, then its project. -->
+    <string name="system_share_session_chip_description">%1$s, %2$s</string>
+    <string name="system_share_problem_unreachable">Չհաջողվեց կապվել %1$s-ին</string>
+    <string name="system_share_problem_too_large">Չհաջողվեց այստեղից այսքան մեծ ֆայլեր ուղարկել</string>
+    <string name="system_share_problem_uploads_unsupported">Չհաջողվեց ֆայլեր վերբեռնել %1$s-ում</string>
+    <string name="system_share_problem_sign_in">Չհաջողվեց մուտք գործել %1$s</string>
+    <string name="system_share_problem_send">Չհաջողվեց ուղարկել %1$s-ին</string>
+    <string name="system_share_problem_no_credentials">Մեկ անգամ բացեք OpenCode-ը՝ այստեղից ուղարկելու համար</string>
+    <plurals name="system_share_image_count">
+        <item quantity="one">%d պատկեր</item>
+        <item quantity="other">%d պատկեր</item>
+    </plurals>
+    <plurals name="system_share_file_count">
+        <item quantity="one">%d ֆայլ</item>
+        <item quantity="other">%d ֆայլ</item>
+    </plurals>
+    <plurals name="system_share_images_skipped">
+        <item quantity="one">Չհաջողվեց ավելացնել %d պատկեր</item>
+        <item quantity="other">Չհաջողվեց ավելացնել %d պատկեր</item>
+    </plurals>
+    <plurals name="system_share_files_skipped">
+        <item quantity="one">Չհաջողվեց ավելացնել %d ֆայլ</item>
+        <item quantity="other">Չհաջողվեց ավելացնել %d ֆայլ</item>
+    </plurals>
+    <string name="system_share_save_failed_title">Չհաջողվեց պահել OpenCode-ի համար</string>
+    <string name="system_share_continue_description">Շարունակել OpenCode-ում</string>
+    <string name="system_share_no_server_title">Նախ կապվեք սերվերին</string>
+    <string name="system_share_no_server_message">Բացեք OpenCode-ը և կապվեք ձեր համակարգչին, ապա կրկին կիսվեք։</string>
+    <string name="system_share_send_later">Ուղարկել ավելի ուշ</string>
+    <string name="system_share_saved_continue">Պահված է։ Բացեք OpenCode-ը՝ շարունակելու համար</string>
+    <string name="system_share_loading_description">Կիսված տարրերը բեռնվում են</string>
+    <string name="system_share_image_description">Պատկեր</string>
+    <string name="system_share_image_position_description">Պատկեր %1$d՝ %2$d-ից</string>
+    <string name="system_share_search_sessions_description">Որոնման նիստեր</string>
+    <string name="system_share_new_session_in_project_description">Նոր նիստ %1$s-ում</string>
+    <string name="system_share_choose_project_description">Ընտրել դրա նախագիծը</string>
+    <string name="system_share_message_placeholder">Հաղորդագրություն</string>
+    <string name="system_share_sent_to">Ուղարկվել է %1$s-ին</string>
+    <string name="system_share_sending_description">Ուղարկվում է</string>
+    <string name="system_share_sent_description">Ուղարկված է</string>
+    <string name="system_share_sessions_title">Նիստեր</string>
+    <string name="system_share_pinned_header">Ամրացված</string>
+    <string name="system_share_recents_header">Վերջինները</string>
+
+    <!-- Widget configuration -->
+    <string name="system_widget_choose_session_title">Ընտրեք նիստ</string>
+</resources>

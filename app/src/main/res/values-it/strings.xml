@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Impossibile aggiungere gli elementi condivisi</string>
+    <string name="app_alert_open_session_failed_title">Impossibile aprire la sessione</string>
+    <string name="app_alert_pairing_failed_title">Impossibile associare il server</string>
+    <string name="app_pairing_confirm">Associa</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Server</string>
+    <string name="app_servers_back_description">Torna a %1$s</string>
+    <string name="app_server_fallback_name">server</string>
+    <string name="app_connection_intro_new">Porta avanti le tue sessioni di programmazione dal tuo %1$s.</string>
+    <string name="app_connection_intro_returning">Riprendi da dove avevi lasciato o associa un altro computer.</string>
+    <string name="app_connection_enter_manually">Inserisci un server manualmente</string>
+    <string name="app_connection_scan_pairing_code">Scansiona il codice di associazione</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Sul computer, apri OpenCode e vai a Impostazioni → Associazione, oppure esegui opencode pair --remote in un terminale. Poi scansiona il codice con questo %1$s.</string>
+    <string name="app_setup_install_title">Non hai ancora OpenCode?</string>
+    <string name="app_setup_other_ways_to_install">Altri modi per installarlo</string>
+    <string name="app_setup_terminal_title">Oppure esegui questo in un terminale</string>
+    <string name="app_setup_terminal_detail">Funziona da qualsiasi rete.</string>
+    <string name="app_setup_paste_prompt">Oppure copia il link visualizzato, poi</string>
+    <string name="app_setup_paste">Incolla</string>
+    <string name="app_setup_copy_command_description">Copia %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Connessione in corso</string>
+    <string name="app_servers_edit_description">Modifica %1$s</string>
+    <string name="app_servers_remove_description">Rimuovi %1$s</string>
+    <string name="app_servers_remove_confirm_title">Rimuovere %1$s?</string>
+    <string name="app_servers_remove_confirm_message">L’indirizzo e la password verranno rimossi da questo %1$s. Le sessioni sul server resteranno invariate.</string>
+    <string name="app_servers_remove_confirm">Rimuovi server</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Fase: %1$s</string>
+    <string name="app_error_server">Server: %1$s</string>
+    <string name="app_error_attempt">Tentativo: %1$d</string>
+    <string name="app_error_copy_report">Copia rapporto di errore</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Nuovo server</string>
+    <string name="app_server_form_edit_title">Modifica server</string>
+    <string name="app_server_form_name">Nome</string>
+    <string name="app_server_form_address">Indirizzo del server</string>
+    <string name="app_server_form_username">Nome utente</string>
+    <string name="app_server_form_password">Password (facoltativa)</string>
+    <string name="app_server_form_hide_password_description">Nascondi password</string>
+    <string name="app_server_form_show_password_description">Mostra password</string>
+    <string name="app_server_form_connect">Connetti</string>
+    <string name="app_server_form_save_and_connect">Salva e connetti</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Intestazioni</string>
+    <string name="app_server_form_header_name">Nome</string>
+    <string name="app_server_form_header_name_description">Nome dell’intestazione %1$d</string>
+    <string name="app_server_form_header_value">Valore</string>
+    <string name="app_server_form_header_value_description">Valore dell’intestazione %1$d</string>
+    <string name="app_server_form_header_remove_description">Rimuovi intestazione %1$d</string>
+    <string name="app_server_form_header_add">Aggiungi intestazione</string>
+    <string name="app_server_form_headers_detail">Inviate con ogni richiesta, per un proxy davanti al server come Cloudflare Access.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">“%1$s” non è un nome di intestazione valido</string>
+    <string name="app_server_form_header_invalid_value">Il valore di %1$s non può contenere un ritorno a capo</string>
+    <string name="app_server_form_name_placeholder">Facoltativo</string>
+    <string name="app_connection_progress_pairing">Associazione in corso</string>
+    <string name="app_connection_progress_connecting">Connessione in corso</string>
+    <string name="app_connection_progress_loading_sessions">Caricamento sessioni</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Associare %1$s?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode proverà %1$s e passerà al primo indirizzo che risponde.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode si assocerà a %1$s e passerà a quel server.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode proverà %1$s e %2$s e passerà al primo che risponde.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode proverà %1$s e %2$s e passerà al primo che risponde.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Le credenziali salvate per %2$s potrebbero essere sostituite.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Associazione</string>
+    <string name="app_error_phase_connect">Connetti</string>
+    <string name="app_error_phase_load_sessions">Carica sessioni</string>
+    <string name="app_error_candidate_detail">Candidato %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Non disponibile (indirizzo non valido)</string>
+    <string name="app_error_title_pair">Impossibile completare l\'associazione</string>
+    <string name="app_error_title_load_sessions">Impossibile caricare le sessioni</string>
+    <string name="app_error_title_connect">Impossibile connettersi a %1$s</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Gli appunti sono vuoti</string>
+    <string name="app_paste_not_a_pairing_link">Non è un collegamento di associazione</string>
+    <string name="app_server_no_longer_saved">Questo server non è più salvato su questo %1$s. Connettiti di nuovo per aprire la sessione.</string>
+    <string name="app_session_no_longer_available">La sessione potrebbe essere stata eliminata o il server potrebbe non essere disponibile.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Connesso a %1$s</string>
+    <string name="app_pairing_invalid_code">Non è un codice di associazione OpenCode. Esegui opencode pair --remote sul computer, poi scansiona il codice QR o incolla il collegamento generato.</string>
+    <string name="app_pairing_unusable_address">Impossibile usare “%1$s” da questo codice di associazione: %2$s.</string>
+    <string name="app_pairing_loopback">Quel server è in ascolto solo su localhost, quindi questo %1$s non può raggiungerlo. Esegui invece opencode pair --remote sul computer: funziona da qualsiasi rete.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Il server con cui hai condiviso non è più salvato su questo dispositivo. Connettiti di nuovo, poi ripeti la condivisione.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">ultimo utilizzo</string>
+    <string name="app_server_form_hint_new">Per l\'associazione, incolla il collegamento generato da `opencode pair --remote`, oppure usa l\'indirizzo e la password del tuo server OpenCode. Il nome utente di solito è opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Le modifiche vengono salvate quando il server si connette. Questo server è stato associato, quindi la password è un token di sessione: scansiona un nuovo codice di associazione anziché modificarla.</string>
+    <string name="app_server_form_hint_edit">Le modifiche vengono salvate quando il server si connette.</string>
+</resources>

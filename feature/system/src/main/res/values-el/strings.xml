@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_new_session">Νέα συνεδρία</string>
+    <string name="system_start_call">Έναρξη κλήσης</string>
+    <string name="system_open_session">Άνοιγμα συνεδρίας</string>
+    <string name="widget_start_call_description">Ξεκινά φωνητική κλήση σε συνεδρία που επιλέγετε ή σε αυτή που είδατε τελευταία.</string>
+    <string name="widget_open_session_description">Ανοίγει μια συνεδρία που επιλέγετε.</string>
+    <string name="widget_new_session_description">Ανοίγει μια νέα συνεδρία OpenCode.</string>
+
+    <!-- Shared across screens -->
+    <string name="system_selected_description">Επιλεγμένη</string>
+    <string name="system_last_viewed_session">Συνεδρία που είδατε τελευταία</string>
+
+    <!-- Quick actions (launcher shortcuts) -->
+    <string name="system_quick_action_session_fallback">Συνεδρία</string>
+    <!-- Long label: the session's title, then its project. -->
+    <string name="system_quick_action_long_label">%1$s · %2$s</string>
+
+    <!-- Shortcuts and Ask OpenCode -->
+    <string name="system_session_type_name">Συνεδρία</string>
+    <string name="system_project_type_name">Έργο</string>
+    <string name="system_intent_open_session_description">Ανοίγει μια συνεδρία στο OpenCode.</string>
+    <string name="system_intent_new_session_description">Ξεκινά μια νέα συνεδρία στο OpenCode.</string>
+    <string name="system_intent_start_voice_call_title">Έναρξη φωνητικής κλήσης</string>
+    <string name="system_intent_start_voice_call_description">Ξεκινά φωνητική κλήση με το OpenCode σε μια συνεδρία. Αν δεν επιλέξετε συνεδρία, η κλήση ξεκινά σε αυτή που είδατε τελευταία.</string>
+    <string name="system_intent_background_call_title">Έναρξη φωνητικής κλήσης στο παρασκήνιο</string>
+    <string name="system_intent_background_call_description">Ξεκινά φωνητική κλήση με το OpenCode χωρίς να ανοίξει η εφαρμογή. Η κλήση εμφανίζεται στη γραμμή κατάστασης και στην οθόνη κλειδώματος.</string>
+    <string name="system_delivery_type_name">Τρόπος αποστολής</string>
+    <string name="system_delivery_steer">Καθοδήγηση</string>
+    <string name="system_delivery_queue">Ουρά</string>
+    <string name="system_ask_title">Ρωτήστε το OpenCode</string>
+    <string name="system_ask_description">Στέλνει μήνυμα σε μια συνεδρία OpenCode χωρίς να ανοίξει η εφαρμογή.</string>
+    <string name="system_ask_message_title">Μήνυμα</string>
+    <string name="system_ask_message_placeholder">Τι θέλετε να κάνει το OpenCode;</string>
+    <string name="system_ask_session_title">Συνεδρία</string>
+    <string name="system_ask_started_new_session">Ξεκίνησε νέα συνεδρία στο %1$s</string>
+    <string name="system_ask_queued_for">Στην ουρά για «%1$s»</string>
+    <string name="system_ask_sent_to">Στάλθηκε σε «%1$s»</string>
+    <string name="system_ask_your_session">τη συνεδρία σας</string>
+    <string name="system_ask_no_server">Ανοίξτε πρώτα το OpenCode και συνδεθείτε σε έναν διακομιστή.</string>
+    <string name="system_ask_no_project">Ανοίξτε πρώτα το OpenCode και ξεκινήστε μια συνεδρία.</string>
+    <string name="system_ask_empty_message">Δεν υπάρχει τίποτα για αποστολή.</string>
+    <!-- The server's error message follows. -->
+    <string name="system_ask_send_failed">Δεν ήταν δυνατή η αποστολή στο OpenCode. %1$s</string>
+
+    <!-- Live Updates: voice call -->
+    <string name="system_call_muted">Σε σίγαση</string>
+    <string name="system_call_unmute">Άρση σίγασης</string>
+    <string name="system_call_mute">Σίγαση</string>
+    <string name="system_call_end">Τερματισμός κλήσης</string>
+    <string name="system_call_connecting">Σύνδεση…</string>
+    <string name="system_call_reconnecting">Επανασύνδεση…</string>
+    <string name="system_call_ended">Η κλήση τερματίστηκε</string>
+    <string name="system_call_end_title">Τερματισμός κλήσης</string>
+    <string name="system_call_toggle_mute_title">Σίγαση ή άρση σίγασης κλήσης</string>
+
+    <!-- Live Updates: hands-free recording -->
+    <string name="system_recording_active">Ηχογράφηση</string>
+    <string name="system_recording_stopped">Η ηχογράφηση σταμάτησε</string>
+    <string name="system_recording_stop">Διακοπή ηχογράφησης</string>
+    <string name="system_recording_stop_title">Διακοπή ηχογράφησης</string>
+    <string name="system_recording_new_session">Νέα συνεδρία</string>
+
+    <!-- Live Updates: session run -->
+    <string name="system_session_working">Εργασία</string>
+    <string name="system_session_last_seen_working">Τελευταία κατάσταση: εργασία</string>
+    <!-- Where the run is (Working), then its current step (a tool name, Thinking or Replying). -->
+    <string name="system_session_status_with_step">%1$s · %2$s</string>
+    <string name="system_session_step_thinking">Σκέψη</string>
+    <string name="system_session_step_replying">Απάντηση</string>
+    <string name="system_session_needs_input">Χρειάζεται η απάντησή σας</string>
+    <string name="system_session_input">Είσοδος</string>
+    <string name="system_session_done">Τέλος</string>
+    <string name="system_session_failed">Απέτυχε</string>
+
+    <!-- Session notifications -->
+    <string name="system_notification_placeholder_body">Νέα δραστηριότητα</string>
+
+    <!-- Notification channels -->
+    <string name="system_channel_voice_calls">Φωνητικές κλήσεις</string>
+    <string name="system_channel_recording">Ηχογράφηση</string>
+    <string name="system_channel_session_runs">Εκτελέσεις συνεδριών</string>
+    <string name="system_channel_session_updates">Ενημερώσεις συνεδριών</string>
+    <string name="system_channel_shared_items">Κοινοποιημένα στοιχεία</string>
+
+    <!-- Share sheet: notifications -->
+    <string name="system_share_continue_notification_body">Πατήστε για συνέχεια στο OpenCode</string>
+
+    <!-- Share sheet -->
+    <string name="system_share_your_server">ο διακομιστής σας</string>
+    <string name="system_share_new_session_in_project">Νέα συνεδρία · %1$s</string>
+    <string name="system_share_save_failed_message">Δοκιμάστε ξανά. Αν συνεχιστεί, ελευθερώστε χώρο σε αυτή τη συσκευή.</string>
+    <!-- The session's title, then its project. -->
+    <string name="system_share_session_chip_description">%1$s, %2$s</string>
+    <string name="system_share_problem_unreachable">Αδυναμία σύνδεσης με %1$s</string>
+    <string name="system_share_problem_too_large">Αδυναμία αποστολής τόσο μεγάλων αρχείων από εδώ</string>
+    <string name="system_share_problem_uploads_unsupported">Αδυναμία μεταφόρτωσης αρχείων σε %1$s</string>
+    <string name="system_share_problem_sign_in">Αδυναμία εισόδου σε %1$s</string>
+    <string name="system_share_problem_send">Αδυναμία αποστολής σε %1$s</string>
+    <string name="system_share_problem_no_credentials">Ανοίξτε το OpenCode μία φορά για αποστολή από εδώ</string>
+    <plurals name="system_share_image_count">
+        <item quantity="one">%d εικόνα</item>
+        <item quantity="other">%d εικόνες</item>
+    </plurals>
+    <plurals name="system_share_file_count">
+        <item quantity="one">%d αρχείο</item>
+        <item quantity="other">%d αρχεία</item>
+    </plurals>
+    <plurals name="system_share_images_skipped">
+        <item quantity="one">%d εικόνα δεν προστέθηκε</item>
+        <item quantity="other">%d εικόνες δεν προστέθηκαν</item>
+    </plurals>
+    <plurals name="system_share_files_skipped">
+        <item quantity="one">%d αρχείο δεν προστέθηκε</item>
+        <item quantity="other">%d αρχεία δεν προστέθηκαν</item>
+    </plurals>
+    <string name="system_share_save_failed_title">Αδυναμία αποθήκευσης για το OpenCode</string>
+    <string name="system_share_continue_description">Συνέχεια στο OpenCode</string>
+    <string name="system_share_no_server_title">Συνδεθείτε πρώτα σε διακομιστή</string>
+    <string name="system_share_no_server_message">Ανοίξτε το OpenCode και συνδεθείτε στον υπολογιστή σας. Έπειτα κοινοποιήστε ξανά.</string>
+    <string name="system_share_send_later">Αποστολή αργότερα</string>
+    <string name="system_share_saved_continue">Αποθηκεύτηκε. Ανοίξτε το OpenCode για συνέχεια</string>
+    <string name="system_share_loading_description">Φόρτωση κοινοποιημένων στοιχείων</string>
+    <string name="system_share_image_description">Εικόνα</string>
+    <string name="system_share_image_position_description">Εικόνα %1$d από %2$d</string>
+    <string name="system_share_search_sessions_description">Συνεδρίες αναζήτησης</string>
+    <string name="system_share_new_session_in_project_description">Νέα συνεδρία στο %1$s</string>
+    <string name="system_share_choose_project_description">Επιλογή έργου</string>
+    <string name="system_share_message_placeholder">Μήνυμα</string>
+    <string name="system_share_sent_to">Στάλθηκε σε %1$s</string>
+    <string name="system_share_sending_description">Αποστολή</string>
+    <string name="system_share_sent_description">Στάλθηκε</string>
+    <string name="system_share_sessions_title">Συνεδρίες</string>
+    <string name="system_share_pinned_header">Καρφιτσωμένες</string>
+    <string name="system_share_recents_header">Πρόσφατα</string>
+
+    <!-- Widget configuration -->
+    <string name="system_widget_choose_session_title">Επιλογή συνεδρίας</string>
+</resources>

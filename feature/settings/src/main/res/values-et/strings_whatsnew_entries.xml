@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- What’s New entries, oldest first: one group per file in whatsnew/entries/. -->
+
+    <!-- 2026-10-06-01-voice-messages -->
+    <string name="settings_whatsnew_entry_voice_messages_title">Häälsõnumid</string>
+    <string name="settings_whatsnew_entry_voice_messages_summary">See, mida Hääl sinu eest seansilt küsib, kuvatakse lainekujuga märgitud häälsõnumina.</string>
+
+    <!-- 2026-10-07-01-attachment-menu-hold -->
+    <string name="settings_whatsnew_entry_attachment_menu_hold_title">Manusta plussnupuga</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_summary">+ avab sõnumikastist menüü valikutega Kaamera, Fotod ja Failid. Hoia + all ja libista, et valida ühe liigutusega.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_1">Fotod avanevad otse sõnumikasti kohal; manustamiseks puuduta fotosid.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_2">Kaameral on objektiivinupud ja välk. Suumimiseks näpista, teravustamiseks puuduta.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_example">Hoia + all, libista üles valikule Fotod ja lase lahti</string>
+
+    <!-- 2026-10-08-01-voice-webrtc-weak-connection -->
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_title">Stabiilsemad kõned</string>
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_summary">Katkendlik ühendus põhjustab nüüd kõnes vaid lühikese tõrke, mitte sekunditepikkust vaikust.</string>
+
+    <!-- 2026-10-08-02-mute-sessions -->
+    <string name="settings_whatsnew_entry_mute_sessions_title">Vaigista seansid</string>
+    <string name="settings_whatsnew_entry_mute_sessions_summary">Vaigistatud seansid jäävad loendisse, kuid ei ilmu vaatesse „Vaata üle” ega saa lugemata sõnumi täppi.</string>
+    <string name="settings_whatsnew_entry_mute_sessions_detail_1">Hoia nuppu „Vaata üle” all, et märkida kõik loetuks. Sinu vastust ootavad seansid jäävad alles.</string>
+    <string name="settings_whatsnew_entry_mute_sessions_example">Hoia külgpaneelil seanssi all ja puuduta „Vaigista”</string>
+
+    <!-- 2026-10-08-03-pair-from-anywhere -->
+    <string name="settings_whatsnew_entry_pair_from_anywhere_title">Seo kõikjalt</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_summary">Käivita arvutis opencode pair --remote, et ühenduda mis tahes võrgust ilma ühise Wi-Fi või Tailscale ühenduseta.</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_detail_1">Skaneeri kuvatav kood või kleebi väljastatud link.</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_example">Käivita opencode pair --remote ja lisa seejärel server telefonis</string>
+
+    <!-- 2026-10-08-04-drawer-peek -->
+    <string name="settings_whatsnew_entry_drawer_peek_title">Seansside viimane aktiivsus</string>
+    <string name="settings_whatsnew_entry_drawer_peek_summary">Lohista seansiloendit seansi poole, et näha, millal iga seanss viimati aktiivne oli.</string>
+    <string name="settings_whatsnew_entry_drawer_peek_detail_1">Loendil vasakule pühkimine sulgeb selle.</string>
+    <string name="settings_whatsnew_entry_drawer_peek_example">Ava seansiloend ja lohista seda paremale</string>
+
+    <!-- 2026-10-08-05-dictation-keeps-going -->
+    <string name="settings_whatsnew_entry_dictation_keeps_going_title">Dikteeri ja saada</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_summary">Dikteerimiseks puuduta mikrofoni ja saada otse salvestusribalt või puuduta esmalt „Peata”, et tekst üle vaadata.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_1">Rääkimiseks hoia mikrofoni all, lukustamiseks libista üles, tühistamiseks vasakule.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_2">Salvestamine jätkub ka rakendusest lahkudes. Selle saad peatada reaalajategevuse kaudu.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_3">Kui vahetad salvestamise ajal seanssi, saadab nupp „Saada” sõnumi ekraanil olevasse seanssi.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_example">Puuduta mikrofoni, ütle lause ja puuduta „Saada”</string>
+
+    <!-- 2026-10-08-06-siri-shortcuts-spotlight -->
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_title">Rakenduse toimingud ja otseteed</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_summary">Alusta kõnet või seanssi või saada sõnum Google Assistant App Actionsi, rakenduse otseteede või kiirseadete kaudu.</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_detail_1">Hiljutiste seansside nägemiseks hoia rakenduse ikooni all.</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_example">Ütle „Hey Google, start a voice call in OpenCode”</string>
+
+    <!-- 2026-10-09-01-working-orb -->
+    <string name="settings_whatsnew_entry_working_orb_title">Olekukera</string>
+    <string name="settings_whatsnew_entry_working_orb_summary">Kera kirje „Töötab” kõrval ja alamagentide kaartidel näitab, mida agent teeb. Töö lõppedes muutub see kopeerimisnupuks.</string>
+
+    <!-- 2026-10-09-02-shell-glyph -->
+    <string name="settings_whatsnew_entry_shell_glyph_title">Shelli tegevus</string>
+    <string name="settings_whatsnew_entry_shell_glyph_summary">Töötava shelli &gt;_ viip teeb väljundi saabudes ringe.</string>
+
+    <!-- 2026-10-09-03-math-and-diagrams -->
+    <string name="settings_whatsnew_entry_math_and_diagrams_title">Valemid ja diagrammid</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_summary">Vastustes kuvatakse vormindatud valemeid ja Mermaid-diagramme.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_1">Suurendamiseks puuduta diagrammi, lähtekoodi vaatamiseks hoia seda all.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_2">Valemid järgivad sinu teksti suurust.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_example">Küsi sõnumi saatmise vooskeemi</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_prompt">Joonista sõnumi saatmise vooskeem</string>
+
+    <!-- 2026-10-09-04-always-notify -->
+    <string name="settings_whatsnew_entry_always_notify_title">Teavita valmimisest</string>
+    <string name="settings_whatsnew_entry_always_notify_summary">Saa siin alustatud seansi töö lõppedes teavitus koos lühikese kokkuvõttega tehtust.</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_1">Lülita seansi paneelil sisse „Teavita alati”, et saada teavitus igast vastusest, ka arvutis algatatud vastustest.</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_2">Seansi avamiseks puuduta teavitust.</string>
+    <string name="settings_whatsnew_entry_always_notify_example">Saada sõnum ja lukusta siis telefon</string>
+
+    <!-- 2026-10-09-05-server-switcher -->
+    <string name="settings_whatsnew_entry_server_switcher_title">Vaheta serverit</string>
+    <string name="settings_whatsnew_entry_server_switcher_summary">Praegune server on külgpaneeli pealkiri. Puuduta seda, et valida teine server või lisada uus.</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_1">Seadetes näitab ühendust pulseeriv indikaator ja serveri nime kõrval kuvatakse edasi-tagasi viivitus.</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_2">Nimeta server ümber; seda nime kasutab ainult see telefon.</string>
+    <string name="settings_whatsnew_entry_server_switcher_example">Ava külgpaneel, puuduta serveri nime ja lisa oma teine arvuti</string>
+
+    <!-- 2026-10-10-01-share-opened-files -->
+    <string name="settings_whatsnew_entry_share_opened_files_title">Pildid nagu fotod</string>
+    <string name="settings_whatsnew_entry_share_opened_files_summary">Pildid kuvatakse seansis tervikuna ja avanevad nagu fotod: suumimiseks näpista, vahetamiseks pühi ja sulgemiseks lohista alla.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_1">Iga agendi mainitud fail avaneb rakenduses.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_2">Nupuga „Jaga” saad kõik avatu salvestada fotode või failide hulka, ka videod ja heli.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_example">Palu agendil lugeda mõnda kuvatõmmist, seejärel puuduta ühte ja lohista see alla</string>
+
+    <!-- 2026-10-10-02-call-voice -->
+    <string name="settings_whatsnew_entry_call_voice_title">Häälkõned</string>
+    <string name="settings_whatsnew_entry_call_voice_summary">Puuduta tühjas sõnumikastis lainekuju ja räägi. Hääl töötab sinu rääkimise ajal seanssides ja annab teada, kui töö on valmis.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_1">Küsi seanssi nime järgi: Hääl avab selle ning alustab või suunab seal tööd.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_2">Katkestamiseks räägi vahele või küsi, kuidas töö edeneb.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_3">Puuduta kõneriba, et näha reaalajas subtiitreid.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_4">Vaigista või lõpeta kõne otse kõneteavitusest, ka lukustuskuval.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_5">Helistamiseks agendi töötamise ajal hoia nuppu „Peata“ all.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_6">Vali hääl jaotises Seaded → Hääl.</string>
+    <string name="settings_whatsnew_entry_call_voice_example">Alusta kõnet ja ütle „ava mu üleslaadimise paranduste seanss ja kontrolli teste“</string>
+
+    <!-- 2026-10-10-03-drawer-one-edge -->
+    <string name="settings_whatsnew_entry_drawer_one_edge_title">Korrastatum külgpaneel</string>
+    <string name="settings_whatsnew_entry_drawer_one_edge_summary">Read algavad samalt joonelt, olekutäpid on iga rea lõpus ja otsingunupp on ülaosas.</string>
+
+    <!-- 2026-10-11-01-paste-as-a-card -->
+    <string name="settings_whatsnew_entry_paste_as_a_card_title">Pikad kleebitud tekstid kaartidena</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_summary">Pikk kleebitud tekst ilmub piltide kõrvale kaardina „Kleebitud tekst“ ja agent loeb selle endiselt tervenisti läbi.</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_1">Puuduta kaarti, et lugeda kogu teksti ning kasutada valikuid „Kopeeri“ ja „Jaga“.</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_2">Pikkadest sõnumitest kuvatakse vaid mõni rida koos nupuga „Näita rohkem“.</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_example">Kopeeri pikk logi, kleebi see sõnumikasti ja puuduta kaarti</string>
+
+    <!-- 2026-10-11-02-ride-out-drops -->
+    <string name="settings_whatsnew_entry_ride_out_drops_title">Töötab ka nõrga leviga</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_summary">Mõnesekundiline levikatkestus ei põhjusta enam tõrkeid. Saatmine, seansid ja kõned ootavad ühenduse taastumist ning jätkuvad.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_1">Nupp „Saada“ on alati kasutusvalmis ja sõnumid lähevad teele saatmise järjekorras.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_2">Saatmata sõnum jääb oma kohale nupuga „Proovi uuesti“. Uuesti proovimine ei saada seda kunagi topelt.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_3">Võrguühenduseta serveri nimi muutub külgpaneelil tuhmiks. Puuduta seda, et valida „Proovi uuesti“.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_example">Ava seanss, kui rong sõidab tunnelisse</string>
+
+    <!-- 2026-10-11-03-new-session-recent-projects -->
+    <string name="settings_whatsnew_entry_new_session_recent_projects_title">Alusta mis tahes projektis</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_summary">Vaates „Uus seanss“ on hiljutised projektid sõnumikasti kohal. Valikuga „Kõik projektid“ saad avada arvutis mis tahes kausta.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_1">Valitud projekt jääb kirjutamise ajal sõnumikasti kohale.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_2">Uuest seansist alustatud kõne kasutab sinu valitud projekti.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_example">Puuduta „Uus seanss“, siis „Kõik projektid“ ja seejärel „Valige kaust…“</string>
+
+    <!-- 2026-10-11-04-stop-runs-your-steer -->
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_title">Suuna agenti töö ajal</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_summary">Saada sõnum agendi töötamise ajal. Agent loeb seda järgmisel sammul, viies esmalt pikalt töötavad käsud taustale.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_1">Hoia nuppu „Saada“ all, et valida ühe sõnumi jaoks „Suuna“ või „Pane järjekorda“.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_2">Hoia ootel sõnumit all, et see järjekorda viia või kustutada.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_3">Nupu „Peata“ tekst muutub kohe tekstiks „Peatamine…“ ja sinu saadetud suunav sõnum täidetakse järgmisena.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_example">Saada pikalt töötava käsu ajal sõnum ja vaata, kuidas käsk liigub taustale</string>
+
+    <!-- 2026-10-12-01-browser-push-in -->
+    <string name="settings_whatsnew_entry_browser_push_in_title">Veebilehed rakenduse sees</string>
+    <string name="settings_whatsnew_entry_browser_push_in_summary">Kui katsefunktsioon „Rakendusesisene brauser“ on sees, avaneb lingi leht seansi peal. Tagasiminekuks nipsa ekraani servast.</string>
+
+    <!-- 2026-10-12-02-answer-from-the-bar -->
+    <string name="settings_whatsnew_entry_answer_from_the_bar_title">Vasta sõnumikastis</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_summary">Küsimused ja loataotlused avanevad sõnumikastist ning saad vastata sealsamas: puuduta valikut või kirjuta või dikteeri oma vastus.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_1">Loataotluses näed käsku või muudatust enne selle lubamist.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_2">Valik „Keela“ annab sinu kirjutatud teksti agendile juhiseks, mida selle asemel teha, nii et töö saab jätkuda.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_3">Pärast vastamist tuleb sinu mustand tagasi.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_example">Kui agent küsib küsimuse, hoia mikrofoninuppu all ja ütle oma vastus</string>
+
+    <!-- 2026-10-12-03-new-messages-divider -->
+    <string name="settings_whatsnew_entry_new_messages_divider_title">Jätka sealt, kus pooleli jäi</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_summary">Seansi juurde naastes avaneb selle lõpp koos vahepeal saabunud sõnumitega. Et pikk lugemata vestlus avaneks hoopis eraldusjoone „Uus“ juurest, lülita jaotises Seaded › Seansid sisse „Uute sõnumite eraldusjoon“.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_1">Seansse, mille tõenäoliselt avad, värskendatakse külgpaneeli avamisel, et need oleksid puudutamisel valmis.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_2">Seansi juurde naastes säilivad värskendamise ajal selle taustatöö ja kontekstinäidik.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_example">Alusta pikka ülesannet, lülitu teise seanssi ja tule tagasi, kui vastus on saabunud</string>
+
+    <!-- 2026-10-12-04-model-list-and-level-meter -->
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_title">Uus mudelivalija</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_summary">Vali paneelil „Mudel“ mudel ja selle mõtlemistase. Lemmikud on loendi alguses. Sõnumikastist avaneva loendi proovimiseks lülita jaotises Seaded → Eksperimentaalne sisse „Uus mudelivalija“.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_1">Kui mudel pakub mõtlemistasemeid, vali tase paneeli „Mudel“ menüüst „Mõtlemine“.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_2">Nipsa mudelit, et see lemmikutesse lisada.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_3">Tagasihoidlik rida seansis märgib kohta, kus vahetasid mudelit või taset.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_example">Puuduta sõnumikastis mudelit ja vali mõtlemistase</string>
+
+    <!-- 2026-10-12-05-run-error-line -->
+    <string name="settings_whatsnew_entry_run_error_line_title">Kui töö ebaõnnestub</string>
+    <string name="settings_whatsnew_entry_run_error_line_summary">Enneaegu peatunud töö näitab põhjust lihtsas keeles ja pakub üht võimalust jätkamiseks: „Muuda“, „Kompaktne“, „Vaheta mudelit“ või „Proovi uuesti“.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_1">Valik „Muuda“ võtab sinu sõnumi tagasi ja paneb selle ümbersõnastamiseks sõnumikasti.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_2">Hoia rida all, et näha täielikku veateadet ja see kopeerida.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_3">Kui agent proovib ise uuesti, näitab olek „Töötab“ järgmise katseni jäänud aega.</string>
+    <string name="settings_whatsnew_entry_run_error_line_example">Kui vastus blokeeritakse, puuduta „Muuda“, sõnasta sõnum ümber ja saada uuesti</string>
+
+    <!-- 2026-10-12-06-transcript-keyboard-space -->
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_title">Klaviatuur sulgub tühimikuta</string>
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_summary">Klaviatuuri ära lohistamine ei jäta enam viimase sõnumi alla tühimikku.</string>
+
+    <!-- 2026-10-12-07-share-sheet-sends -->
+    <string name="settings_whatsnew_entry_share_sheet_sends_title">Saada jagamismenüüst</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_summary">Jaga midagi OpenCode\'iga, vali seanss, lisa sõnum ja saada see rakendust avamata.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_1">Sinu hiljutised seansid kuvatakse jagamismenüü ülemises reas.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_2">JSON-failid ja eksporditud andmed lisatakse failidena ning nende nimed säilivad.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_3">„Jätka OpenCode’is“ avab seansi, kus jagatud sisu on sõnumikastis.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_4">Kui saatmine ei õnnestu, saadab „Saada hiljem“ selle järgmisel rakenduse avamisel.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_example">Jaga kuvatõmmist OpenCode’i, kirjuta küsimus ja puuduta „Saada“</string>
+
+    <!-- 2026-10-12-08-app-icon-badge -->
+    <string name="settings_whatsnew_entry_app_icon_badge_title">Märk rakenduse ikoonil</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_summary">Rakenduse ikoon näitab lugemata või sinu ootel seansside arvu, nagu vaade „Vaata üle“.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_1">Vaigistatud seansse ei loendata.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_2">Selleks peavad teavitused olema sisse lülitatud.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_example">Jäta seanss küsimusele vastust ootama ja mine avakuvale</string>
+
+    <!-- 2026-10-12-09-drawer-keeps-keyboard -->
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_title">Klaviatuur liigub koos külgpaneeliga</string>
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_summary">Kirjutamise ajal seansiloendit avades jääb sõnumikast aktiivseks ja klaviatuur liigub koos seansiga kõrvale.</string>
+
+    <!-- 2026-10-12-10-whats-new-page -->
+    <string name="settings_whatsnew_entry_whats_new_page_title">Lihtsam „Mis on uut“</string>
+    <string name="settings_whatsnew_entry_whats_new_page_summary">„Mis on uut“ avaneb nüüd lehena nagu seaded. Igal uuendusel on oma leht ja parandused on koondatud siia.</string>
+
+    <!-- 2026-10-12-11-catch-up-returns-to-drawer -->
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_title">„Vaata üle“ viib tagasi külgpaneelile</string>
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_summary">Vaatest „Vaata üle“ lahkudes naased seansiloendisse täpselt sinna, kus pooleli jäid.</string>
+
+    <!-- 2026-10-12-12-transcript-day-stamps -->
+    <string name="settings_whatsnew_entry_transcript_day_stamps_title">Päevad vestluse tekstis</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_summary">Mitmepäevases seansis kuvatakse iga päeva esimese sõnumi kohal päev, näiteks „Kolmapäev 8:24“, ning tunnise pausi järel saadetud sõnumi kohal kellaaeg.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_1">Päeva näidatakse kui „Täna“, „eile“ või sama nädala nädalapäev, muul juhul kuupäevana.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_2">Suunamis- ja järjekorras sõnumitel pole ootamise ajal ajamärget.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_example">Ava nädala alguses alustatud seanss ja keri üles</string>
+
+    <!-- 2026-10-12-13-rich-link-previews -->
+    <string name="settings_whatsnew_entry_rich_link_previews_title">Linkide eelvaated</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_summary">Vastuse all näed igal real lingi sisu: mestimistaotlust või probleemi koos pealkirja ja olekuga, sissekannet, videot või lehte.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_1">GitHubi mestimistaotlused, probleemid, sissekanded ja hoidlad näitavad pealkirja ning olekut „Avatud“, „Mestitud“ või „Suletud“ värviliselt.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_2">X-i postitustel on autor ja tekst, YouTube’i linkidel pealkiri ning muudel lehtedel lingist loetud nimi.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_3">Näha on kolm linki. Ülejäänute nägemiseks puuduta „Kopeeri“ kõrval „rohkem“ ja peitmiseks puuduta uuesti.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_4">Hoia linki all, et näha suuremat eelvaadet ning valikuid „Kopeeri link“ ja „Jaga“.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_example">Küsi agendilt, mis sel nädalal hoidlas muutus</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_prompt">Mis muutus sel nädalal GitHubi hoidlas, mida kasutan? Lisa lingid.</string>
+
+    <!-- 2026-10-13-01-rolling-numbers -->
+    <string name="settings_whatsnew_entry_rolling_numbers_title">Veerevad numbrid</string>
+    <string name="settings_whatsnew_entry_rolling_numbers_summary">Taustatöö näidiku, seansipaneeli, „Kasutatud N“ ridade ja vaate „Vaata üle“ arvud muutuvad numbrite kaupa veeredes.</string>
+
+    <!-- 2026-10-13-02-grouped-steering -->
+    <string name="settings_whatsnew_entry_grouped_steering_title">Rühmitatud sõnumid</string>
+    <string name="settings_whatsnew_entry_grouped_steering_summary">Järjest saadetud sõnumid on ühes plokis ja agenti ootavad suunamissõnumid ühise sildi „Suunamine“ all.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_1">Järjestikused sõnumimullid on lähestikku ja nende nurgad ühinevad kokkupuutekohas.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_2">Fotod ja failid säilitavad ploki sees oma ümara kuju.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_3">Kui agent sõnumi vastu võtab, liigub see ühe liigutusega üles oma kohale.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_example">Saada agendi töötamise ajal kiiresti kolm sõnumit, neist üks fotoga</string>
+
+    <!-- 2026-10-13-03-inline-tool-rows -->
+    <string name="settings_whatsnew_entry_inline_tool_rows_title">Tagasihoidlikud tööriista- ja küsimuseread</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_summary">Tööriistarühmad ja vastatud küsimused avanevad koodi moodi täislaiuses ribana ning järjestikused lugemised koonduvad ühele reale.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_1">Ahendatud rühmadel on kirjas „Kasutatud N tööriista“ ja ebaõnnestunud tööriistakutsed on märgitud punaselt.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_2">„Käivita“ read näitavad skripti kutsutud tööriistade nimesid ja „Oskus“ read oskuse nime.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_3">Vastatud küsimuste juures on viip ja kõik pakutud valikud, sinu valik märgistatult.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_example">Puuduta seansis rida „Kasutatud N tööriista“, et selle riba avada</string>
+
+    <!-- 2026-10-13-04-mac-motion-playgrounds -->
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_title">Katseala juhtimine Macis</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_summary">Lülita arendajarežiim sisse ja seo häälestus Maciga, et katseala animatsioone aegluubis taasesitada ning jäädvustatud kaadreid uurida.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_1">Maci häälestuslehel on katseala valik, eelseaded ja taasesituse juhtnupud; telefon näitab ainult katseala.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_2">Kompaktsed kaardid näitavad ekraanil olevaid juhtelemente. Liikumisel ja vahedel on nimelised eelseaded ning „Algne“ taastab algse ilme ja toimimise. Iga eelseade rakendab kõik väärtused korraga.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_3">Maci ühendamisel peidetakse hõljuv häälestuspaneel. Ava see häälestusžestiga ja vali lahkumiseks „Välju katsealalt“.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_4">Kindla algseisuga stsenaariumid taasesitavad sama näidisseanssi, et saaksid võrrelda liikumist eri järkudes.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_5">Taasesitus algab puhtalt lehelt ning edastab suunamis- ja järjekorras sõnumid, mitte ei jäta neid ootama.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_6">Maci ülevaatuspleieris saad jäädvustatud geomeetriat sammhaaval uurida, kaadri märkida ja animatsiooni kohta tagasisidet saata.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_example">Ava Seaded → Arendaja, seo Maci häälestuslehega ja proovi siis Vestluse tekst → Vastuse voogedastus kiirusel 0,25×</string>
+
+    <!-- 2026-10-13-05-catch-up-flicks -->
+    <string name="settings_whatsnew_entry_catch_up_flicks_title">Lihtsam pühkida vaates „Vaata üle“</string>
+    <string name="settings_whatsnew_entry_catch_up_flicks_summary">Kiire pühkimine või lühem lohistus vaates „Vaata üle“ saadab kaardi edasi, mitte ei tõmba seda tagasi.</string>
+
+    <!-- 2026-10-14-01-settings-grouped-by-purpose -->
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_title">Selgemad seaded</string>
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_summary">Katsefunktsioonid ja arendaja tööriistad leiad jaotisest Seaded → Eksperimentaalne, rakendusesisesed teated jaotisest Teavitused ja kõneajaloo jaotisest Hääl.</string>
+
+    <!-- 2026-10-14-02-send-ats-recovery -->
+    <string name="settings_whatsnew_entry_send_ats_recovery_title">Kindlam saatmine</string>
+    <string name="settings_whatsnew_entry_send_ats_recovery_summary">Sõnumite saatmist proovitakse automaatselt uuesti, kui iOS juba toimiva serveriühenduse korraks tagasi lükkab.</string>
+
+    <!-- 2026-10-14-03-keyboard-menus-and-header -->
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_title">Stabiilsem klaviatuur ja menüüd</string>
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_summary">Puuduta kirjutamise ajal +, et avada manused klaviatuuri peitmata ja juhtnuppe liigutamata. Päise hägustus püsib klaviatuuri liikumisel paigal.</string>
+
+    <!-- 2026-10-14-04-open-links-in-apps -->
+    <string name="settings_whatsnew_entry_open_links_in_apps_title">Lingid avanevad oma rakendustes</string>
+    <string name="settings_whatsnew_entry_open_links_in_apps_summary">Link avaneb sobivas rakenduses, näiteks GitHubis või YouTube’is. Kui rakendusesisese brauseri katsefunktsioon on sees, hoia linki all ja vali „Ava rakenduse brauseris“.</string>
+
+    <!-- 2026-10-14-05-session-list-quiet-hierarchy -->
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_title">Ülevaatlikum seansiloend</string>
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_summary">Jaotiste „Kinnitatud” ja „Hiljutised” pealkirjad on väiksemas hallis kirjas, lugemata ja ootel seansid paistavad silma poolpaksus kirjas ning loetud seansid on veidi tuhmimad.</string>
+
+    <!-- 2026-10-14-06-queued-messages-fitted-sheet -->
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_title">Korrastatud sõnumijärjekord</string>
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_summary">Järjekorras sõnumite paneel on vaid järjekorra kõrgune. Read on nummerdatud ning tagasihoidlike nuppudega saad sõnumi kohe saata või tühistada.</string>
+
+    <!-- 2026-10-14-07-control-center-sessions -->
+    <string name="settings_whatsnew_entry_control_center_sessions_title">Seansi kiirseadenupud</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_summary">Lisa kiirseadete nupp, et avada seanss või alustada selles kõnet ühe puudutusega.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_1">Uus nupp „Ava seanss” avab sinu valitud seansi.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_2">Nupuga „Alusta kõnet” saad helistada valitud või uude seanssi. Vaikimisi helistab see viimati vaadatud seanssi.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_3">Vali kinnitatud ja hiljutiste seansside hulgast. Nupp näitab seansi praegust pealkirja.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_4">Nupud avavad vaid rakenduse: midagi ei saadeta enne, kui räägid või kirjutad.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_example">Ava kiirseaded, puuduta „Muuda” ja lohista OpenCode’i nupp „Ava seanss” paika</string>
+
+    <!-- 2026-10-15-01-settings-keyboard-down -->
+    <string name="settings_whatsnew_entry_settings_keyboard_down_title">Klaviatuur ei kata seadeid</string>
+    <string name="settings_whatsnew_entry_settings_keyboard_down_summary">Kui avad kirjutamise ajal külgpaneelist seaded, peidetakse klaviatuur, mitte ei jäeta seda seadete peale.</string>
+
+    <!-- 2026-10-15-02-session-list-sidebar-grey -->
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_title">Avaram seansiloend</string>
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_summary">Seansiloendi pealkiri ning hallid jaotiste „Kinnitatud” ja „Hiljutised” pealkirjad on suuremad, nende kohal on rohkem ruumi. Vaata külgpaneelist.</string>
+
+    <!-- 2026-10-15-03-voice-varied-acknowledgements -->
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_title">Kõnedes vähem „Kontrollin” vastuseid</string>
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_summary">Kõnes reageerib hääl sinu öeldule, mitte ei vasta igale palvele „Kontrollin”. Kui jätkad rääkimist, ei saadeta sama päringut enam kaks korda.</string>
+
+    <!-- 2026-10-15-04-smoother-streaming -->
+    <string name="settings_whatsnew_entry_smoother_streaming_title">Sujuvam vastuste kuvamine</string>
+    <string name="settings_whatsnew_entry_smoother_streaming_summary">Saabuva vastuse uusim rida ilmub sujuvalt, tuhmumise või vilkumiseta. Read ei veni enam tekstist pikemaks ega tõmbu tagasi ning loendielemendid ja pealkirjad ilmuvad kohe õigel kujul, mitte üksiku kriipsu või trellimärgina.</string>
+
+    <!-- 2026-10-15-05-model-list-sheet -->
+    <string name="settings_whatsnew_entry_model_list_sheet_title">Mudeliloend paneelina</string>
+    <string name="settings_whatsnew_entry_model_list_sheet_summary">Kui katsefunktsioon „Uus mudelivalija” on sees, muutub sõnumiväli klaviatuuri kohal mudelipaneeliks ja klaviatuur peidetakse. Paneel sulgub sujuvalt ka kiire avamise ja sulgemise korral.</string>
+
+    <!-- 2026-10-15-06-queued-pill-whole-title -->
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_title">Järjekorra arv täies pikkuses</string>
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_summary">Sõnumiredaktori kohal olev silt näitab tervet teksti „2 järjekorras”, mitte „2 järje…”. Ka mujal jäävad muutuvate loendurite kõik märgid nähtavale.</string>
+
+    <!-- 2026-10-16-01-plus-menu-photo-sheet -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_title">Fotod klaviatuuri asemel</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_summary">Kui katsefunktsioon „Uus plussmenüü” on sees, laiendab „Fotod” + menüü klaviatuuri asemel fotopaneeliks. Hoia + all, et näha uusimaid fotosid, libista soovitud fotole ja vabasta sõrm selle lisamiseks.</string>
+
+    <!-- 2026-10-16-02-composer-large-text-targets -->
+    <string name="settings_whatsnew_entry_composer_large_text_targets_title">Lihtsam puudutada sõnumiredaktoris</string>
+    <string name="settings_whatsnew_entry_composer_large_text_targets_summary">Suure teksti korral on sõnumiredaktori nuppe lihtsam puudutada.</string>
+
+    <!-- 2026-10-16-03-project-pick-haptic -->
+    <string name="settings_whatsnew_entry_project_pick_haptic_title">Värin projekti vahetamisel</string>
+    <string name="settings_whatsnew_entry_project_pick_haptic_summary">Kui valid uuele seansile teise projekti sõnumivälja kohal või vaates „Kõik projektid”, annab sellest märku kerge värin.</string>
+
+    <!-- 2026-10-16-04-fork-opens-copy -->
+    <string name="settings_whatsnew_entry_fork_opens_copy_title">Hargnemine avab koopia</string>
+    <string name="settings_whatsnew_entry_fork_opens_copy_summary">Seansi üksikasjades avab „Hargne” taas loodud koopia.</string>
+
+    <!-- 2026-10-16-05-transcript-row-targets -->
+    <string name="settings_whatsnew_entry_transcript_row_targets_title">Lihtsam puudutada</string>
+    <string name="settings_whatsnew_entry_transcript_row_targets_summary">Seansipaneeli pealkirja on lihtsam puudutada ning VoiceOver ja Voice Control ei pääse enam ligi dikteerimise ajal peidetud sõnumiredaktori nuppudele.</string>
+
+    <!-- 2026-10-16-06-image-previews -->
+    <string name="settings_whatsnew_entry_image_previews_title">Piltide eelvaated</string>
+    <string name="settings_whatsnew_entry_image_previews_summary">Agendi mainitud pildid kuvatakse eri suurusega paanidel eelvaadetena. Puuduva faili kohta ilmub teade.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_1">Eelvaated asuvad neid mainiva lõigu all.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_2">Puuduta pilti, et avada see täisekraanil, ja sirvi vastuse pilte pühkides.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_3">Väljaspool seansi kausta olevad pildid laaditakse alles puudutamisel.</string>
+    <string name="settings_whatsnew_entry_image_previews_example">Palu agendil näidata oma projekti kuvatõmmiseid.</string>
+    <string name="settings_whatsnew_entry_image_previews_prompt">Näita mulle selle projekti kuvatõmmiseid.</string>
+
+    <!-- 2026-10-16-07-connection-error-details -->
+    <string name="settings_whatsnew_entry_connection_error_details_title">Ühendusvead näitavad vea põhjust</string>
+    <string name="settings_whatsnew_entry_connection_error_details_summary">Ühendusvead näitavad veakoodi, proovitud aadressi ja DNS-i tulemust ning annavad abi, kui tailneti nimi lahendatakse Tailscale’i-väliseks aadressiks.</string>
+
+    <!-- 2026-10-16-08-outage-reconnect-delay -->
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_title">Kiirem taasühendamine</string>
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_summary">Seansid jõuavad kiiremini järele, kui server pärast katkestust taas tööle hakkab.</string>
+
+    <!-- 2026-10-17-01-every-running-subagent -->
+    <string name="settings_whatsnew_entry_every_running_subagent_title">Kõik töötavad alamagendid</string>
+    <string name="settings_whatsnew_entry_every_running_subagent_summary">Sõnumiredaktori kohal olev alamagentide arv hõlmab ka teiste alamagentide all töötavaid agente ja üle 100 alamagendiga seansse, nagu terminaliliideses.</string>
+
+    <!-- 2026-10-17-02-session-view-refined-standard -->
+    <string name="settings_whatsnew_entry_session_view_refined_standard_title">Selgem vastuste kirjastiil</string>
+    <string name="settings_whatsnew_entry_session_view_refined_standard_summary">Kolmanda taseme pealkirjad eristuvad paksust tekstist, tavatekst on veidi mahedam, et paks kiri paistaks paremini silma, ning lõikude ja koodiplokkide ümber on pisut rohkem ruumi.</string>
+
+    <!-- 2026-10-17-03-bottom-follow-on-load -->
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_title">Vaade püsib allservas</string>
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_summary">Seansivaade püsib allservas ka viivitusega sisu laadimisel.</string>
+
+    <!-- 2026-10-17-04-drafts-stay-put -->
+    <string name="settings_whatsnew_entry_drafts_stay_put_title">Mustandid jäävad alles</string>
+    <string name="settings_whatsnew_entry_drafts_stay_put_summary">Mustandid, lisatud fotod ja asukohad ning saatmist ootavad sõnumid jäävad alles, kui rakendus taustal sulgub.</string>
+
+    <!-- 2026-10-18-01-themes -->
+    <string name="settings_whatsnew_entry_themes_title">Teemad</string>
+    <string name="settings_whatsnew_entry_themes_summary">Vali seanssidele teema, näiteks Tokyo Night, Catppuccin, Dracula, Rosé Pine või GitHub. Sirvides näed kohe eelvaadet.</string>
+    <string name="settings_whatsnew_entry_themes_detail_1">Teemad annavad värvi vestluse tekstile, sinu sõnumitele, koodile, süntaksile, diffidele ja linkidele.</string>
+    <string name="settings_whatsnew_entry_themes_detail_2">Välimuse seadete jaotises „Režiim” saad valida „Valgus”, „Tume” või „Süsteem”.</string>
+    <string name="settings_whatsnew_entry_themes_detail_3">Juhtelemendid säilitavad kõigi teemade puhul oma algse Liquid Glassi ilme.</string>
+    <string name="settings_whatsnew_entry_themes_example">Ava Seaded → Välimus → Teema ja proovi teemat Tokyo Night.</string>
+
+    <!-- 2026-10-18-02-return-key-sends -->
+    <string name="settings_whatsnew_entry_return_key_sends_title">Enter-klahvi seadistus</string>
+    <string name="settings_whatsnew_entry_return_key_sends_summary">Lülita seadetes välja „Enter saadab”, kui soovid Enteriga uut rida lisada, või kasuta füüsilisel klaviatuuril Command-Returni ja Shift-Returni.</string>
+
+    <!-- 2026-10-18-03-quote-replies -->
+    <string name="settings_whatsnew_entry_quote_replies_title">Vastuste tsiteerimine</string>
+    <string name="settings_whatsnew_entry_quote_replies_summary">Vali assistendi vastuses tekst ja puuduta „Tsiteeri“, et lisada see oma sõnumisse tsitaadikaardina.</string>
+
+    <!-- 2026-10-18-04-launch-bloom -->
+    <string name="settings_whatsnew_entry_launch_bloom_title">Avanemisanimatsioon</string>
+    <string name="settings_whatsnew_entry_launch_bloom_summary">Rakenduse külmkäivitusel tõmbub OpenCode’i logo kokku ja avaneb sujuvalt sinu seansiks.</string>
+
+    <!-- 2026-10-18-05-drag-to-pin -->
+    <string name="settings_whatsnew_entry_drag_to_pin_title">Kinnitamiseks lohista seanssi</string>
+    <string name="settings_whatsnew_entry_drag_to_pin_summary">Hoia seanssi all ja lohista see üles jaotisse „Kinnitatud“, et kinnitada see soovitud kohale. Kinnituse eemaldamiseks lohista seanss alla jaotisse „Hiljutised“.</string>
+
+    <!-- 2026-10-19-01-call-tray-colour-blend -->
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_title">Sujuvam kõnenupp</string>
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_summary">Kui katsefunktsioon „Kõnepaneel“ on sees, muutub kõnenupp kõne alguses sujuvalt punaseks nupuks „Lõpeta“ ja kõne lõpus tagasi, ilma vahepeal taustavärvi vilgutamata.</string>
+
+    <!-- 2026-10-19-02-optical-insets -->
+    <string name="settings_whatsnew_entry_optical_insets_title">Ühtlaselt paigutatud nupud</string>
+    <string name="settings_whatsnew_entry_optical_insets_summary">Sõnumiredaktori pluss ja mikrofon, taustatöö ja järjekorra märkide ikoonid ning külgpaneeli uue seansi sümbol on nüüd oma klaasja tausta ümarates otstes visuaalselt keskel. Shelli ikoon on nüüd alamagendi kera moodi ring ilma vilkuva kursorita. Kui mõlemad töötavad, kuvatakse need kõrvuti.</string>
+
+    <!-- 2026-10-19-03-smart-dictation-audio -->
+    <string name="settings_whatsnew_entry_smart_dictation_audio_title">Sujuvam dikteerimine muusikaga</string>
+    <string name="settings_whatsnew_entry_smart_dictation_audio_summary">Muusika saatel dikteerides jääb AirPodside heli stereoks ega katke minuti pärast. Ainult telefoni kasutades kõlab muusika endiselt kõlarist, mitte kuularist.</string>
+
+    <!-- 2026-10-19-04-interrupted-hand -->
+    <string name="settings_whatsnew_entry_interrupted_hand_title">Katkestust tähistab käsi</string>
+    <string name="settings_whatsnew_entry_interrupted_hand_summary">Katkestatud käivitust ja shelli tähistab nüüd tõstetud käsi. Peatatud shelli olek on nüüd „Katkestatud“, mitte „Peatatud“.</string>
+
+    <!-- 2026-10-19-05-autocomplete-fast-scroll -->
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_title">Kiirem automaattäitmine</string>
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_summary">Kui katsefunktsioon „Sõnumiredaktori automaattäitmine“ on sees, püsivad soovitused kirjutamisega sammus ning loendi lohistamine kerib seda ilma rida valimata.</string>
+
+    <!-- 2026-10-19-06-experimental-groups -->
+    <string name="settings_whatsnew_entry_experimental_groups_title">Rühmitatud katsefunktsioonid</string>
+    <string name="settings_whatsnew_entry_experimental_groups_summary">Katsefunktsioonid jaotises Seaded → Eksperimentaalne on rühmitatud ning kõnedel on üks valik „Kõne stiil“.</string>
+
+    <!-- 2026-10-19-07-model-picker-standard-sheet -->
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_title">Mudelivalik tavapaneelina</string>
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_summary">Kui katsefunktsioon „Uus mudelivalija“ on sees, avab sõnumikasti mudel tavapaneeli, kus igal mudelil on oma mõtlemistaseme menüü. Varasem valija on nüüd „Kohandatud mudelivalija“ jaotises Seaded › Eksperimentaalne.</string>
+
+    <!-- 2026-10-19-08-problem-reports-reach-session -->
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_title">Veateated jõuavad seanssi</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_summary">„Teata probleemist“ saadab nüüd sinu märkuse ka seanssi, kust teate saatsid, ning lisab täieliku aruande agendile lugemiseks.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_1">Sõnum algab probleemiteate reaga, millele järgnevad sinu märkus, aruande ID ja üles laaditud jälitusandmete link.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_2">Seadme, järgu ja ekraani andmed, ajaskaala ning rakenduse logi saabuvad manusena, nagu sinu enda lisatud fail.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_3">Avalehelt saadetud teade läheb sinu viimasesse seanssi.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_4">Kui üleslaadimine nurjub, jõuavad märkus ja kokkuvõte siiski kohale koos teatega nurjumise kohta. „Proovi uuesti“ saadab seejärel ainult jälitusandmete lingi.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_5">Kohalejõudmisel kuvatakse kinnitus „Seanssi saadetud“.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_example">Ava seansi menüü, vali „Teata probleemist“, lisa märkus ja puuduta „Saada“</string>
+
+    <!-- 2026-10-19-09-team-scrawl-feedback -->
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_title">Tiimi tagasiside Scrawliga</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_summary">Liitu isikliku lingi kaudu Team Feedbackiga, et saata kolme sõrmega käivitatud Scrawli salvestisi ja tundlikest andmetest puhastatud diagnostikat Problems-tahvli ühisesse järjekorda.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_1">Ava oma opencode://team/join link, vaata üle kogutavad andmed ja nõustu.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_2">Kolmeastmeline interaktiivne õpetus näitab, kuidas hoida kolme sõrme ekraanil, rääkida ja joonistada ning saata harjutusklipp testijaotisse.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_3">Iga salvestisega lisatakse samad tundlikest andmetest puhastatud ajaskaala, rakenduse logi ja Motion Watchi diagnostika nagu valikuga „Teata probleemist“.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_4">Õpetust saad korrata või Team Feedbackist lahkuda igal ajal jaotises Seaded › Arendaja.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_example">Ava Seaded › Arendaja, et vaadata oma Team Feedbacki olekut või korrata õpetust.</string>
+
+    <!-- 2026-10-19-10-scrawl-faster-start -->
+    <string name="settings_whatsnew_entry_scrawl_faster_start_title">Scrawl käivitub kiiremini</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_summary">Scrawli nupud ilmuvad juba mikrofoni ja salvesti käivitumise ajal.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_1">Valikute „Joonista“, „Saada“ ja „Loobu“ puudutused jäetakse salvestuse ettevalmistamise ajal meelde.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_2">Kolme sõrme ekraanil hoidmine valmistab juhtkihi ette mikrofoni enneaegselt käivitamata.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_3">Parandatud krahh, mis tekkis Scrawli mikrofoni taaskäivitumisel heliseadme vahetuse ajal.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_example">Salvestamise alustamiseks hoia seotud seadme ekraanil kolme sõrme</string>
+
+    <!-- 2026-10-20-01-call-tray-docks-in-drawer -->
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_title">Kõnepaneel külgpaneelis</string>
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_summary">Kui katsefunktsioon „Kõnepaneel“ on sees, liigub paneel kõne ajal külgpaneeli avamisel valiku „Uus seanss“ alla koos helitaseme ning nuppudega „Vaigista“ ja „Lõpeta“. Sulgemisel liigub see tagasi.</string>
+
+    <!-- 2026-10-20-02-markdown-streams-smoothly -->
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_title">Sujuvam vastuste kuvamine</string>
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_summary">Pikad vastused kuvatakse ka saabumise ajal kiiresti ning pooleli olev paks kiri, kood ja lingid ilmuvad vormindatult, mitte Markdowni toortekstina.</string>
+
+    <!-- 2026-10-20-04-return-newline-default -->
+    <string name="settings_whatsnew_entry_return_newline_default_title">Return lisab uue rea</string>
+    <string name="settings_whatsnew_entry_return_newline_default_summary">Return lisab nüüd vaikimisi uue rea. Returniga saatmiseks lülita jaotises Seaded › Seansid sisse „Return-klahv saadab“ või kasuta füüsilisel klaviatuuril Ctrl+Enter.</string>
+
+    <!-- 2026-10-20-05-drawer-session-alignment -->
+    <string name="settings_whatsnew_entry_drawer_session_alignment_title">Joondatud külgpaneeli nupud</string>
+    <string name="settings_whatsnew_entry_drawer_session_alignment_summary">„Otsi“, „Uus seanss“ ja „Seaded“ on telefonides ja tahvelarvutites joondatud seansi päise ja sõnumikastiga.</string>
+
+    <!-- 2026-10-20-06-call-tray-switch-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_title">Stabiilsemad kõnenupud</string>
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_summary">Kõne helilaine liigub seansi vahetamisel edasi ning nupud püsivad seansiloendi avamisel samal kõrgusel.</string>
+
+    <!-- 2026-10-20-07-voice-delegation-visible-on-admission -->
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_title">Häälsõnumid ilmuvad kohe</string>
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_summary">Häälefunktsiooni saadetud sõnumid ilmuvad seanssi kohe, kui server need vastu võtab, isegi kui seansi uuendused viibivad.</string>
+
+    <!-- 2026-10-20-08-inline-image-links -->
+    <string name="settings_whatsnew_entry_inline_image_links_title">Pildilinkide eelvaated</string>
+    <string name="settings_whatsnew_entry_inline_image_links_summary">Lülita jaotises Seaded › Eksperimentaalne › Vestluse tekst sisse „Pildilinkide eelvaated“, et näha vastustes lingitud pilte. Puuduta pisipilti, et avada see täisekraanil ja suumida.</string>
+
+    <!-- 2026-10-20-09-smooth-link-preview-arrival -->
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_title">Sujuvamad lingieelvaated</string>
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_summary">Lingieelvaated ilmuvad laadimisel sujuvalt ning nende all olevad read liiguvad pealkirja kõrguse muutudes sujuvalt kaasa.</string>
+
+    <!-- 2026-10-20-10-subagent-capsule-press -->
+    <string name="settings_whatsnew_entry_subagent_capsule_press_title">Ümar tegevusnäidik</string>
+    <string name="settings_whatsnew_entry_subagent_capsule_press_summary">Alamagendi ja shelli näidiku otsad jäävad ümaraks ka sellele vajutades.</string>
+
+    <!-- 2026-10-20-11-advanced-settings-open -->
+    <string name="settings_whatsnew_entry_advanced_settings_open_title">Lihtsamad täpsemad seaded</string>
+    <string name="settings_whatsnew_entry_advanced_settings_open_summary">Kõik katsefunktsioonid jaotises Seaded › Eksperimentaalne on avatud rühmades, mudelivalijad on koondatud üheks valikuks „Mudelivalija“ ning valiku muutmiseks võid puudutada selle rea mis tahes kohta.</string>
+
+    <!-- 2026-10-20-12-revert-to-here -->
+    <string name="settings_whatsnew_entry_revert_to_here_title">Taasta sõnum</string>
+    <string name="settings_whatsnew_entry_revert_to_here_summary">Hoia oma sõnumit all ja vali „Taasta sõnum“, et naasta sellesse punkti ja sõnumit muuta.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_1">Sõnumi tekst, fotod ja failid naasevad sõnumikasti.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_2">„Võta tagasi“ taastab vestluse ja failimuudatused, kuni saadad uue sõnumi.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_3">See valik on saadaval siis, kui agent ei tööta.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_example">Hoia varem saadetud sõnumit all ja vali „Taasta sõnum“.</string>
+
+    <!-- 2026-10-20-13-drag-from-transcript -->
+    <string name="settings_whatsnew_entry_drag_from_transcript_title">Lohista seansist välja</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_summary">Hoia all ja lohista koodi, pilte, faile, linke ja sõnumeid seansist teistesse rakendustesse.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_1">Koodiplokid edastatakse tekstina koos programmeerimiskeele tähisega.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_2">Agendi loodud pildid ja failid edastatakse failidena.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_3">Lohista need sõnumikasti, et need manustada või kleepida.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_4">Kerimine, teksti valimine ja menüüd toimivad nagu varem.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_example">Vali vastuses koodirida, hoia valikut all ja lohista plokk rakendusse Notes.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_prompt">Kirjuta koodiplokis lühike Swifti funktsioon, mis pöörab stringi tagurpidi.</string>
+
+    <!-- 2026-10-20-14-tuning-glass-tap-targets -->
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_title">Lihtsam häälestada</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_summary">Kokkupandud häälestusnupu ja servasaki puutealad on suuremad.</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_detail_1">Nende klaasjad pinnad jäävad sama suureks.</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_example">Pane häälestuspaneel kokku ja puuduta selle nupu või saki serva lähedal</string>
+
+    <!-- 2026-10-20-15-new-session-project-continuity -->
+    <string name="settings_whatsnew_entry_new_session_project_continuity_title">Stabiilsem projektivalik</string>
+    <string name="settings_whatsnew_entry_new_session_project_continuity_summary">Hiljutised kaustad püsivad projekti valides paigal, nimi päises vahetub sujuvalt ja projektipaneel näitab kaustade asukohti selgemalt.</string>
+
+    <!-- 2026-10-20-16-simple-session-loading -->
+    <string name="settings_whatsnew_entry_simple_session_loading_title">Rahulikum seansi laadimine</string>
+    <string name="settings_whatsnew_entry_simple_session_loading_summary">Väike liikumatu logo ilmub sujuvalt vaid siis, kui seansi laadimine võtab hetke aega, ning asendub siis sõnumitega.</string>
+
+    <!-- 2026-10-20-17-voice-route-consistency -->
+    <string name="settings_whatsnew_entry_voice_route_consistency_title">Häälühenduse parandused</string>
+    <string name="settings_whatsnew_entry_voice_route_consistency_summary">Grok kasutab endiselt sinu xAI API klahvi, kui kõnesid haldab sinu server, ning Gemini tutvustab end õigesti.</string>
+
+    <!-- 2026-10-20-18-call-tray-edge-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_title">Kõnepaneeli liikumine</string>
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_summary">Kõnepaneeli helilaine järgib selle ümarat serva, kui paneel avaneb ning liigub külgpaneeli sisse või sealt välja.</string>
+
+    <!-- 2026-10-21-01-call-tray-keyboard-return -->
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_title">Kõnepaneeli naasmine</string>
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_summary">Kõnepaneel jääb nähtavale, kui külgpaneel sulgub ja klaviatuur naaseb.</string>
+
+    <!-- 2026-10-21-02-drawer-title-fade -->
+    <string name="settings_whatsnew_entry_drawer_title_fade_title">Pikemad seansi pealkirjad</string>
+    <string name="settings_whatsnew_entry_drawer_title_fade_summary">Pikad seansi pealkirjad ulatuvad külgpaneelis servani ja hajuvad, selle asemel et lõppeda varem kolme punktiga.</string>
+
+    <!-- 2026-10-21-03-call-sounds-from-the-tap -->
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_title">Kiiremad kõnehelid</string>
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_summary">Kõne ühendushelid algavad kohe esimese animatsiooniga, mitte paar sekundit pärast puudutust.</string>
+
+    <!-- 2026-10-21-04-calm-wireframe-launch -->
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_title">Rahulikum laadimine</string>
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_summary">Vahemälus olevad seansid avanevad kohe. Kui laadimine võtab hetke aega, kuvatakse pulseerivad sõnumimullid, mis asenduvad sujuvalt sinu sõnumitega.</string>
+
+    <!-- 2026-10-21-05-request-dictation-last-line -->
+    <string name="settings_whatsnew_entry_request_dictation_last_line_title">Dikteerimise lõpp on nähtav</string>
+    <string name="settings_whatsnew_entry_request_dictation_last_line_summary">iOS 26 puhul on pärast pika dikteerimise lõpetamist ootel päringu vastusekastis näha teksti viimased read, mitte keskosa.</string>
+
+    <!-- 2026-10-21-06-first-run-pairing-fixes -->
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_title">Selgem esmane sidumine</string>
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_summary">Kui lõikelaud on kleepimisel tühi, kuvatakse teade valiku „Kleebi“ kõrval. Seadistus ei luba enam kaugjuurdepääsu poole minutiga.</string>
+
+    <!-- 2026-10-21-07-welcome-pairing-copy -->
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_title">Seo OpenCode rakenduses</string>
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_summary">Tervituskuva juhatab sind arvutis OpenCode jaotisse Seaded → Sidumine või terminalis käsuni /pair ning näitab paigalduskäsku, kui sul OpenCode veel pole.</string>
+
+    <!-- 2026-10-21-08-session-id-links -->
+    <string name="settings_whatsnew_entry_session_id_links_title">Seansilingid</string>
+    <string name="settings_whatsnew_entry_session_id_links_summary">Vastuses olev seansi ID kuvatakse seansi pealkirjana. Seansi avamiseks puuduta seda.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_1">Alamagendi ID avab selle praeguse seansi peal ning „Tagasi“ viib tagasi.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_2">ID kopeerimiseks hoia linki all.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_3">Sellele serverile tundmatu ID kuvatakse lühendatult.</string>
+    <string name="settings_whatsnew_entry_session_id_links_example">Palu agendil viidata teisele seansile selle ID abil ja puuduta siis pealkirja.</string>
+    <string name="settings_whatsnew_entry_session_id_links_prompt">Loetle minu viis viimast OpenCode seanssi koos nende ID-dega.</string>
+
+    <!-- 2026-10-21-10-ipad-multiple-windows -->
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_title">Mitu akent tahvelarvutis</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_summary">Tahvelarvutis saad avada seansid eraldi akendes ja hoida kaht kõrvuti.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_1">Hoia külgpaneelis seanssi all ja vali „Ava uues aknas“.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_2">Igal aknal on oma seanss, külgpaneel ja sõnumikast.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_3">Kinnitused, loetud seansid ja sinu serverid on kõigis akendes samad.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_4">Aknad avanevad uuesti samas seansis, mida need varem näitasid.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_example">Hoia külgpaneelis seanssi all, vali „Ava uues aknas“ ja aseta see esimese akna kõrvale.</string>
+
+    <!-- 2026-10-21-11-plain-launch -->
+    <string name="settings_whatsnew_entry_plain_launch_title">Lihtne käivitus</string>
+    <string name="settings_whatsnew_entry_plain_launch_summary">OpenCode avaneb lihtsal kuval ja lülitub kohe sinu seansile, kui see on valmis, ilma laadimisanimatsioonita.</string>
+
+    <!-- 2026-10-21-12-breath-ping-call-sounds -->
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_title">Pehmemad kõnehelid</string>
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_summary">Kõnede ühendamist, märguandeid ja lõpetamist saadavad pehmed, õhulised helid, mis jäävad vestluse taustale.</string>
+
+    <!-- 2026-10-21-13-smoother-session-list -->
+    <string name="settings_whatsnew_entry_smoother_session_list_title">Sujuvam seansiloend</string>
+    <string name="settings_whatsnew_entry_smoother_session_list_summary">Külgpaneeli seansiloend kerib sujuvalt ka siis, kui seansid töötavad. Seanssi pikalt vajutades avaneb selle menüü, ilma et rea suurus muutuks.</string>
+
+    <!-- 2026-10-22-01-whats-new-actions -->
+    <string name="settings_whatsnew_entry_whats_new_actions_title">Ava ja proovi vaates „Mis on uut“</string>
+    <string name="settings_whatsnew_entry_whats_new_actions_summary">Vaate „Mis on uut“ iga sissekande lehel on nupp, mis avab vastava seade, näiteks teemad, või alustab uut seanssi proovimiseks valmis viibaga.</string>
+
+    <!-- 2026-10-22-02-project-icons-current-discovery -->
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_title">Projektiikoonide parandused</string>
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_summary">Kui projektiikoonid on lubatud, näitab külgpaneel ka ikoone, mille server leiab Icon Composeri pakettidest.</string>
+
+    <!-- 2026-10-22-03-new-divider-off-page -->
+    <string name="settings_whatsnew_entry_new_divider_off_page_title">„Uus“ ainult vajadusel</string>
+    <string name="settings_whatsnew_entry_new_divider_off_page_summary">Kui uute sõnumite eraldaja katsefunktsioon on sees, märgib „Uus“ saabunud sisu ainult siis, kui seda on rohkem, kui ekraanile mahub.</string>
+
+    <!-- 2026-10-22-04-catch-up-all-caught-up-row -->
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_title">Kõik üle vaadatud</string>
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_summary">Kui loed vaates „Vaata üle“ viimase seansi läbi, naased otse külgpaneelile, kus „Vaata üle“ saab linnukese ja teksti „Kõik üle vaadatud“.</string>
+
+    <!-- 2026-10-23-01-session-mentions -->
+    <string name="settings_whatsnew_entry_session_mentions_title">Maini seansse</string>
+    <string name="settings_whatsnew_entry_session_mentions_summary">Kui sõnumiredaktori automaattäite katsefunktsioon on sees, sisesta @, et mainida teist seanssi pealkirja järgi, nagu töölauarakenduses.</string>
+
+    <!-- 2026-10-23-02-gpt-live-own-key -->
+    <string name="settings_whatsnew_entry_gpt_live_own_key_title">GPT-Live\'i võtmed</string>
+    <string name="settings_whatsnew_entry_gpt_live_own_key_summary">GPT-Live\'i kõned saavad kasutada sinu OpenAI võtit, serveri OpenAI võtit või selle OpenCode Console\'i ühendust.</string>
+
+    <!-- 2026-10-23-03-pair-opens-drawer -->
+    <string name="settings_whatsnew_entry_pair_opens_drawer_title">Jätka sealt, kus pooleli jäi</string>
+    <string name="settings_whatsnew_entry_pair_opens_drawer_summary">Pärast uue arvuti sidumist avaneb tühja seansi asemel külgpaneel selle hiljutiste seanssidega, et saaksid neist ühe valida.</string>
+
+    <!-- 2026-10-23-04-voice-server-picker -->
+    <string name="settings_whatsnew_entry_voice_server_picker_title">Vali hääleserver</string>
+    <string name="settings_whatsnew_entry_voice_server_picker_summary">Vali jaotises Seaded › Hääl › Häälepakkuja, millise salvestatud serveri kaudu kõned käivad, või kasuta selles telefonis oma OpenAI kontot.</string>
+
+    <!-- 2026-10-24-01-living-orb-floats -->
+    <string name="settings_whatsnew_entry_living_orb_floats_title">Elav kera hõljub kõikjal</string>
+    <string name="settings_whatsnew_entry_living_orb_floats_summary">Elav kera on nüüd hõljuv kõnestiil jaotises Seaded › Eksperimentaalne › Kõned. See on suurem, püsib seadete ja kõigi vaadete peal ning liigub mõlema hääle järgi, kumbki oma värviga, kui korraga räägite. Puuduta kera, et avada see kaardina. Lohista üles, et näha kogu kõnet ja vestluse teksti, ning alla, et see taas väikseks teha. Kõnestiili all olev „Kera“ muudab selle välimust.</string>
+
+    <!-- 2026-10-24-02-new-messages-divider-on -->
+    <string name="settings_whatsnew_entry_new_messages_divider_on_title">Uute sõnumite eraldaja</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_summary">Kui sinu äraolekul saabunud vastus on ekraanist pikem, avaneb seanss selle alguses oleva eraldaja „Uus“ juures.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_1">Ekraanile mahtuv vastus avaneb lõpus, ilma eraldajata.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_2">Vaatamise ajal saabuvad vastused ei saa kunagi märget.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_3">Lõpuni lugemine eemaldab eraldaja.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_4">Lülita see välja jaotises Seaded › Seansid.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_example">Küsi pikka vastust, ava selle valmimiseni teine rakendus ja tule siis tagasi.</string>
+
+    <!-- 2026-10-24-03-composer-keyboard-morph -->
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_title">Sõnumiredaktor järgib klaviatuuri</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_summary">Sõnumiredaktori nupud avanevad koos klaviatuuriga ning liiguvad sellega kaasa, kui seda üles või alla lohistad.</string>
+
+    <!-- 2026-10-24-04-composer-photo-viewer -->
+    <string name="settings_whatsnew_entry_composer_photo_viewer_title">Sõnumiredaktori fotod täisekraanil</string>
+    <string name="settings_whatsnew_entry_composer_photo_viewer_summary">Puuduta sõnumiredaktoris fotot, et näha seda täisekraanil, sirvida fotosid pühkides ja mõni enne saatmist eemaldada.</string>
+
+    <!-- 2026-10-24-05-plus-menu-photo-picker -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_title">Uus fotovalija</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_summary">Lülita jaotises Seaded › Eksperimentaalne › Sõnumiredaktor sisse „Uus plussmenüü“, et valida otse + menüüst kuni 8 hiljutist fotot, sirvida kõiki fotosid ning näha neid lendamas sõnumiredaktorisse ja sealt seanssi.</string>
+
+    <!-- 2026-10-24-06-project-icons-lit -->
+    <string name="settings_whatsnew_entry_project_icons_lit_title">Valgustatud projektiikoonid</string>
+    <string name="settings_whatsnew_entry_project_icons_lit_summary">Kui projektiikoonid on lubatud, langeb külgpaneeli ikoonidele valgus: pehme helk ülalt, õrn klaasjas serv ja mahe vari.</string>
+
+    <!-- 2026-10-24-07-session-live-activity -->
+    <string name="settings_whatsnew_entry_session_live_activity_title">Seansi reaalajauuendused</string>
+    <string name="settings_whatsnew_entry_session_live_activity_summary">Lülita jaotises Seaded › Eksperimentaalne › Külgpaneel sisse „Seansi reaalajauuendused“, et jälgida käivitatud tööd reaalajateavitusest ka lukustuskuval, kuni töö valmib või vajab sinu sisendit.</string>
+
+    <!-- 2026-10-24-08-sign-in-failed-edit-server -->
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_title">Paranda nurjunud sisselogimine</string>
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_summary">Kui server keeldub paroolist, pakub külgpaneeli serverimenüü valikut „Muuda serverit…“, mitte kasutut valikut „Proovi uuesti“. Tervituskuva juhatab nüüd terminalis käsuni opencode pair --remote.</string>
+
+    <!-- 2026-10-25-01-voice-app-screenshot -->
+    <string name="settings_whatsnew_entry_voice_app_screenshot_title">Kuvatõmmised häälkõnes</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_summary">Ütle häälkõnes „vaata seda“ ja rakenduse kuvatõmmis saadetakse koos sinu tagasisidega seanssi.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_1">Saadetakse ainult rakenduse enda kuvatõmmis koos vaate nime ning kõne ja rakenduse olekuga.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_2">Palu lisada kõnelogi või rakenduse viimased logid; aadressid ja sisselogimisandmed peidetakse.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_3">Kuvatõmmist ei tehta, kui näha on sisselogimiskuva või parooliväli.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_example">Ütle häälkõnes „tee kuvatõmmis, see rida on paigast ära“</string>
+
+    <!-- 2026-10-25-02-voice-background-results -->
+    <string name="settings_whatsnew_entry_voice_background_results_title">Taustatöö tulemused kõnes</string>
+    <string name="settings_whatsnew_entry_voice_background_results_summary">Kui kõne ajal palutud seanss alustab taustal tööd, kuuled kõnes tulemust kohe, kui töö valmib, isegi kui oled juba muude asjade juurde liikunud.</string>
+
+    <!-- 2026-10-25-03-sound-effects-experiment -->
+    <string name="settings_whatsnew_entry_sound_effects_experiment_title">Heliefektid</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_summary">Katsefunktsioon, mis lisab vastuste, taotluste, „Vaata üle“ ja nurjunud saatmiste värinatagasisidele pehmed helid.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_1">Vaikne ja värinarežiim vaigistavad need, muusika mängib edasi.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_2">Helid on vaigistatud kõne, dikteerimise ja meedia esitamise ajal ning taustal.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_3">Helitugevus ja valikuline saatmisheli asuvad lüliti all.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_example">Lülita jaotises Seaded › Eksperimentaalne sisse „Heliefektid“ ja oota siis teises seansis vastust</string>
+
+    <!-- 2026-10-25-90-session-title-first-prompt -->
+    <string name="settings_whatsnew_entry_session_title_first_prompt_title">Pealkirjad esimestest viipadest</string>
+    <string name="settings_whatsnew_entry_session_title_first_prompt_summary">Pealkirjata seansid näitavad nüüd oma esimest viipa ühel real, kuni server neile nime annab.</string>
+
+    <!-- 2026-10-26-01-settings-sessions-page -->
+    <string name="settings_whatsnew_entry_settings_sessions_page_title">Seansside seaded</string>
+    <string name="settings_whatsnew_entry_settings_sessions_page_summary">Seadetes on uus leht „Seansid“, kus „Uute sõnumite eraldaja“ asub valiku „Enter saadab“ kohal. „Täpsemalt“ asemel on nüüd kaks rida: „Eksperimentaalne“ ja „Arendaja“.</string>
+
+    <!-- 2026-10-26-02-project-icons-default -->
+    <string name="settings_whatsnew_entry_project_icons_default_title">Projektiikoonid on sees</string>
+    <string name="settings_whatsnew_entry_project_icons_default_summary">Projektiikoonid kuvatakse nüüd seansside pealkirjade kõrval. Lülita need välja jaotises Seaded › Eksperimentaalne.</string>
+
+    <!-- 2026-10-26-03-plus-menu-over-keyboard -->
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_title">Fotod klaviatuuri kohal</string>
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_summary">Kui „Uus plussmenüü“ on sees, avaneb + menüü klaviatuuri kohal. „Fotod“ laieneb sealt ekraani servadeni ulatuvaks paneeliks ja tõmbub tagasi klaviatuuri peitmata.</string>
+
+    <!-- 2026-10-26-04-living-orb-connect-motion -->
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_title">Kera liikumine ühendamisel</string>
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_summary">Kui elav kera on sisse lülitatud, tõuseb kõnenupp keraks ja pöörleb ühendamise ajal. Kõne lõppedes naaseb see nupuks. Kohe uuesti helistades algab uus kõne ega jää enam kinni.</string>
+
+    <!-- 2026-10-26-05-living-orb-presets -->
+    <string name="settings_whatsnew_entry_living_orb_presets_title">Kera eelseaded ja uhke stiil</string>
+    <string name="settings_whatsnew_entry_living_orb_presets_summary">Jaotises Seaded › Eksperimentaalne › Kõned kõnestiili all olev Kera avaneb nüüd uhkes stiilis, suurema reaalajas eelvaate ja eelseadete reaga. Salvesta ja nimeta ümber oma eelseadeid ning kopeeri või kleebi seadistus selle jagamiseks.</string>
+
+    <!-- 2026-10-26-06-send-after-a-pause -->
+    <string name="settings_whatsnew_entry_send_after_a_pause_title">Sujuvam saatmine pärast pausi</string>
+    <string name="settings_whatsnew_entry_send_after_a_pause_summary">Pärast pausi saadetud sõnum tõuseb nüüd sõnumiredaktorist otse oma mulli, mitte ei vaju esmalt ajatempli all redaktori poole.</string>
+
+    <!-- 2026-10-27-01-steadier-round-trip -->
+    <string name="settings_whatsnew_entry_steadier_round_trip_title">Stabiilsem edasi-tagasi viivitus</string>
+    <string name="settings_whatsnew_entry_steadier_round_trip_summary">Ühenduskaardi ms-näit on nüüd viimaste kontrollide jooksev keskmine, nii et üks aeglane vastus muudab seda vaid veidi, mitte hüppeliselt.</string>
+
+    <!-- 2026-10-27-02-drawer-drag-follows-finger -->
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_title">Lohistamine järgib su sõrme</string>
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_summary">Külgpaneelil lohistatav seanss püsib nüüd otse sõrme all, liigub päise kohal, kerib loendit selle servades ja vetrub lahti lastes paika.</string>
+
+    <!-- 2026-10-27-03-inbox-sidebar-experiment -->
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_title">Postkast külgpaneelil</string>
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_summary">Lülita jaotises Seaded › Eksperimentaalne › Külgpaneel sisse Postkast külgpaneelil. Seansid ilmuvad postkastina: esmalt sinu sisendit ootavad, siis lugemata seansid, igaühel projekt ja viimane vastus. Loetuks märkimiseks või arhiveerimiseks pühi seansil.</string>
+
+    <!-- 2026-10-28-01-first-pairing-ready-session -->
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_title">Esimene seanss on valmis</string>
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_summary">Esimese arvuti sidumisel avaneb nüüd selle viimases projektis uus seanss koos mõne näidisküsimusega ning puudutus kinnitab, et ühendus toimib. Uuel paigaldusel on ka „Mis on uut” juba loetuks märgitud.</string>
+
+    <!-- 2026-10-28-02-welcome-preview -->
+    <string name="settings_whatsnew_entry_welcome_preview_title">Tervituse eelvaade</string>
+    <string name="settings_whatsnew_entry_welcome_preview_summary">Uus esmakäivituse tervitus näitab sülearvutis töötavat OpenCode’i, mida juhitakse telefonist, ja seejärel toimub sidumine ühe sammuga. Lülita jaotises Seaded › Eksperimentaalne › Külgpaneel sisse Tervituse eelvaade ning puuduta Näita tervitust. Sulgemisel naased eelmisse vaatesse.</string>
+
+    <!-- 2026-10-29-01-composer-text-selection -->
+    <string name="settings_whatsnew_entry_composer_text_selection_title">Teksti valimine sõnumiredaktoris</string>
+    <string name="settings_whatsnew_entry_composer_text_selection_summary">Mustandis valikupidemeid või luupi lohistades ei peideta enam klaviatuuri ega liigutata sõnumiredaktorit üles-alla.</string>
+
+    <!-- 2026-10-30-01-voice-waits-for-you -->
+    <string name="settings_whatsnew_entry_voice_waits_for_you_title">Kõne ootab, kuni lõpetad</string>
+    <string name="settings_whatsnew_entry_voice_waits_for_you_summary">Häälagent ei räägi enam sulle vahele: teated ootavad, kuni oled rääkimise lõpetanud, ja kui sina vahele räägid, jääb agent vait.</string>
+
+    <!-- 2026-10-30-02-wisp-call-sounds -->
+    <string name="settings_whatsnew_entry_wisp_call_sounds_title">Häälkõned kasutavad Wispi helisid</string>
+    <string name="settings_whatsnew_entry_wisp_call_sounds_summary">Kõne algab pehme hingetõmbega vaikse ühendusheli saatel ning ühendamisel kõlab helin. Agendi vaatamise, avamise ja käivitamise ajal kostab õrn tiksumine ning kõne lõpeb ohkega. Vali muu helikomplekt jaotises Seaded › Hääl › Kõnehelid.</string>
+
+    <!-- 2026-10-30-03-wisp-orb -->
+    <string name="settings_whatsnew_entry_wisp_orb_title">Häälkera on nüüd Wisp</string>
+    <string name="settings_whatsnew_entry_wisp_orb_summary">Kõnekera on nüüd Wispi nägu: klaaslääts helendavate täppide kohal, mida valgustavad mõlemad hääled. Wispi ilmed näitavad ühendamist, kuulamist, töötamist, rääkimist ja sinu järel ootamist. See on nüüd ainus stiil, nii et vanad stiilid ja kera seaded on eemaldatud.</string>
+
+    <!-- 2026-10-31-01-encrypted-notification-previews -->
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_title">Krüptitud teavituste eelvaated</string>
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_summary">Uuendatud teavitusplugina ja HTTPS-ühenduse korral krüptib server pealkirja ja sõnumi selle seadme jaoks. Kui eelvaadet ei saa avada, näitab teavitus vaid teksti „Uus tegevus”.</string>
+
+    <!-- 2026-10-31-02-move-session-folder-gone -->
+    <string name="settings_whatsnew_entry_move_session_folder_gone_title">Seansid säilivad ka kaustata</string>
+    <string name="settings_whatsnew_entry_move_session_folder_gone_summary">Kui seansi kaust on kadunud, näiteks tööruumi kustutamisel, pakutakse nurjunud saatmise järel seansi teisaldamist projekti kausta ja saadetakse uuesti.</string>
+
+    <!-- 2026-10-31-03-notification-plugin-setup -->
+    <string name="settings_whatsnew_entry_notification_plugin_setup_title">Seadista teavitused OpenCode’iga</string>
+    <string name="settings_whatsnew_entry_notification_plugin_setup_summary">Puuduta jaotises Seaded → Teavitused valikut Seadista OpenCode’iga, et vaadata üle viip, mis paigaldab puuduva teavitusplugina.</string>
+
+    <!-- 2026-11-01-01-call-card-takes-over -->
+    <string name="settings_whatsnew_entry_call_card_takes_over_title">Kõnekaart täidab ekraani alaosa</string>
+    <string name="settings_whatsnew_entry_call_card_takes_over_summary">Elava kera režiimis täidab kõnekaart nüüd ekraani alaosa sõnumivälja peal, ühtlaste servavahedega, nii et klaviatuur ei suru seda enam kokku. Kirjutamiseks kahanda see tagasi keraks.</string>
+
+    <!-- 2026-11-01-01-screenshot-shutter -->
+    <string name="settings_whatsnew_entry_screenshot_shutter_title">Kuvatõmmise katikuheli</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_summary">Kui rakendus teeb endast seansi jaoks kuvatõmmise, vilgub ekraan ja kostab katikuklõps.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_1">Välgatus tuleb pärast jäädvustamist, nii et see ei jää kunagi pildile.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_2">Vähenda liikumist muudab välgatuse õrnaks hämarduseks ning Hämarda vilkuvaid tulesid lülitab selle välja.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_3">Kõne ajal esitatakse klõps kõne helikanalis, nii et agent seda ei kuule.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_example">Ütle häälkõnes „vaata seda”</string>
+
+    <!-- 2026-11-01-01-voice-says-whats-running -->
+    <string name="settings_whatsnew_entry_voice_says_whats_running_title">Kõnes kuuled, mis veel töös on</string>
+    <string name="settings_whatsnew_entry_voice_says_whats_running_summary">Kui su palve täitmine võtab aega, ütleb häälagent vaikimise asemel, millega ta parasjagu tegeleb.</string>
+
+    <!-- 2026-11-01-02-living-orb-default -->
+    <string name="settings_whatsnew_entry_living_orb_default_title">Kõned hõljuvad keras</string>
+    <string name="settings_whatsnew_entry_living_orb_default_summary">Häälkõned hõljuvad nüüd kõigil elavas keras kõigi vaadete kohal, jättes sõnumivälja sinu käsutusse.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_1">Puuduta kera, et avada kõnekaart, ja lohista üles, et näha kogu kõnevaadet koos vestluse tekstiga.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_2">Lohista kera kuhu tahes. See püsib paigal ka seanssi vahetades või seadeid avades.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_3">Kõne saad alustada ka seansiloendist seadete kõrval oleva kõnenupuga.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_4">Aluspaneel on eemaldatud: kui kasutasid seda, hõljuvad ka sinu kõned nüüd keras.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_5">Lülita see välja jaotises Seaded › Eksperimentaalne › Kõned › Elav kera.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_example">Alusta kõnet ja ava seansiloend: kera tuleb sinuga kaasa</string>
+
+    <!-- 2026-11-01-02-quicker-send -->
+    <string name="settings_whatsnew_entry_quicker_send_title">Kiirem saatmine</string>
+    <string name="settings_whatsnew_entry_quicker_send_summary">Saadetud sõnum tõuseb nüüd koos loendiga oma mulli, mitte ei oota esmalt sõnumiredaktori juures.</string>
+
+    <!-- 2026-11-01-02-share-screen-with-agents -->
+    <string name="settings_whatsnew_entry_share_screen_with_agents_title">Jaga ekraani agentidega</string>
+    <string name="settings_whatsnew_entry_share_screen_with_agents_summary">Lülita jaotises Seaded › Eksperimentaalne › Kõned sisse Jaga ekraani agentidega. Siis saab agent kõne ajal paluda rakendust näha: pildi saatmiseks puuduta Jaga või keeldumiseks Mitte praegu.</string>
+
+    <!-- 2026-11-01-03-audio-in-calls -->
+    <string name="settings_whatsnew_entry_audio_in_calls_title">Heli kõnedes</string>
+    <string name="settings_whatsnew_entry_audio_in_calls_summary">Lülita jaotises Seaded › Eksperimentaalne › Kõned sisse Heli kõnedes. Siis saab agent kõne ajal sulle muusikat või heliklippi esitada. Heli muutub vaiksemaks, kui kumbki teist räägib. Esituse saad peatada või lõpetada sõnumiredaktori kohal.</string>
+
+    <!-- 2026-11-01-03-open-links-from-calls -->
+    <string name="settings_whatsnew_entry_open_links_from_calls_title">Ava linke kõnedest</string>
+    <string name="settings_whatsnew_entry_open_links_from_calls_summary">Lülita jaotises Seaded › Eksperimentaalne › Kõned sisse Ava linke kõnedest. Siis saab agent kõne ajal pakkuda linki, näiteks Uberi sõidule: selle rakenduses avamiseks puuduta Avatud või keeldumiseks Mitte praegu.</string>
+
+    <!-- 2026-11-02-01-fold-questions -->
+    <string name="settings_whatsnew_entry_fold_questions_title">Voldi küsimused eest ära</string>
+    <string name="settings_whatsnew_entry_fold_questions_summary">Lohista küsimust alla, et voltida see väikeseks ribaks sõnumiredaktori kohal, ja puuduta riba küsimuse taastamiseks. Nurjunud vastuse saatmine ootab nüüd, kuni puudutad Proovi uuesti.</string>
+
+    <!-- 2026-11-02-01-steadier-following -->
+    <string name="settings_whatsnew_entry_steadier_following_title">Stabiilsem jälgimine</string>
+    <string name="settings_whatsnew_entry_steadier_following_summary">Järk-järgult saabuv vastus püsib allservas, ilma et Töötab-näit hüpleks, ning loendit saab pühkida kõikjalt sõnumiredaktori kohal.</string>
+
+    <!-- 2026-11-02-40-model-display-names -->
+    <string name="settings_whatsnew_entry_model_display_names_title">Mudelite nimed</string>
+    <string name="settings_whatsnew_entry_model_display_names_summary">Sõnumiredaktor jätab mudelite nimed meelde, kuni mudeliloend laadib või ühendus taastub.</string>
+
+    <!-- 2026-11-02-41-all-experiments -->
+    <string name="settings_whatsnew_entry_all_experiments_title">Kõik eksperimendid</string>
+    <string name="settings_whatsnew_entry_all_experiments_summary">Üks lüliti jaotise Seaded › Eksperimentaalne ülaosas lülitab sisse kõik eksperimendid, ka edaspidi lisanduvad.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_1">Soovi korral lülita mõni eksperiment välja; see jääb välja ka järgmisel korral.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_2">Kõigi eksperimentide väljalülitamine taastab lülitite varasemad asendid.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_3">Luba küsivad eksperimendid jäävad endiselt eraldi valikuks.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_4">Automaatne lõpetamine, plussmenüü fotopaneel, uus serverivahetus ja projektiikoonid on nüüd kõigil sisse lülitatud.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_5">Ühine valija ja elav kera on nüüd tavalised lülitid ning kõnepaneel on eemaldatud.</string>
+    <string name="settings_whatsnew_entry_all_experiments_example">Ava Seaded › Eksperimentaalne ja lülita sisse Kõik eksperimendid</string>
+
+    <!-- 2026-11-03-01-search-all-sessions -->
+    <string name="settings_whatsnew_entry_search_all_sessions_title">Otsi vanemaid seansse</string>
+    <string name="settings_whatsnew_entry_search_all_sessions_summary">Külgpaneeli otsing hõlmab nüüd kõiki seansse, mitte ainult hiljutisi, ning alla kerides laaditakse vanemad seansid.</string>
+
+    <!-- 2026-11-03-01-voice-open-session -->
+    <string name="settings_whatsnew_entry_voice_open_session_title">Vaheta seansse häälega</string>
+    <string name="settings_whatsnew_entry_voice_open_session_summary">Kui palud hääleagendil seansi avada, sulgub nüüd külgpaneel ja kõne jätkub.</string>
+
+    <!-- 2026-11-03-02-orb-divider-image-links -->
+    <string name="settings_whatsnew_entry_orb_divider_image_links_title">Kolm eksperimenti kõigile</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_summary">Elav kera, eraldusjoon „Uus” ja pildilinkide eelvaated on nüüd kõigil sisse lülitatud, ilma lülitita.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_1">Iga kõne hõljub nüüd elavas keras; vana kõneriba on eemaldatud.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_2">Seanssi naastes märgib eraldusjoon „Uus” vahepeal saabunud sisu, kui see ekraanile ei mahu.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_3">Otse pildile viivad lingid näitavad pilti sõnumi all.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_example">Alusta sõnumiredaktorist kõnet ja vaata, kuidas see keras hõljub</string>
+
+    <!-- 2026-11-04-01-call-links-and-audio -->
+    <string name="settings_whatsnew_entry_call_links_and_audio_title">Lingid ja heli kõnedes</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_summary">Linkide avamine kõnedest ja heli kõnedes on nüüd kõigil sisse lülitatud, ilma lülitita.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_1">Kõne ajal saab agent pakkuda linki, näiteks Uberi sõidule: puuduta „Avatud”, et avada link vastavas rakenduses, või „Mitte praegu”.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_2">Agent saab kõnes muusikat või klippi esitada. Heli muutub vaiksemaks, kui kumbki teist räägib; saad esituse sõnumiredaktori kohal pausile panna või peatada.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_example">Palu agendil kõne ajal muusikat mängida</string>
+
+    <!-- 2026-11-04-01-composer-editing-caret -->
+    <string name="settings_whatsnew_entry_composer_editing_caret_title">Mustandite muutmine</string>
+    <string name="settings_whatsnew_entry_composer_editing_caret_summary">Mustandi keskel sõna muutes püsib kursor seal, kus kirjutad.</string>
+
+    <!-- 2026-11-04-01-loading-touch-recovery -->
+    <string name="settings_whatsnew_entry_loading_touch_recovery_title">Kerimine pärast laadimist</string>
+    <string name="settings_whatsnew_entry_loading_touch_recovery_summary">Laadimise ajal rakendusse naastes saab vestluse teksti kohe jälle kerida.</string>
+
+    <!-- 2026-11-05-01-composer-keyboard-width -->
+    <string name="settings_whatsnew_entry_composer_keyboard_width_title">Laiem sõnumiredaktor kirjutamisel</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_width_summary">Kui klaviatuur on avatud, laieneb sõnumiredaktor väikeste ühtlaste servavahedeni, nii et pikad mustandid murduvad vähem ridadele.</string>
+
+    <!-- 2026-11-05-02-plus-menu-touch-release -->
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_title">Manusemenüü sulgemine</string>
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_summary">Manusemenüü sulgemisel saab selle all olevat seanssi jälle kasutada ka paigutuse muutumise ajal.</string>
+
+    <!-- 2026-11-05-02-quiet-reconnecting-pill -->
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_title">Sujuvam käivitus</string>
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_summary">Rakenduse avamisel ei vilksata enam sõnumiredaktori kohal „Ühenduse taastamine…” ega nihku seanss; teade ilmub vaid siis, kui ühenduse taastamine võtab aega.</string>
+
+    <!-- 2026-11-05-03-stuck-touch-recovery -->
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_title">Kerimine taastub ise</string>
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_summary">Kui miski nähtamatu takistab seansi kerimist üle sekundi, eemaldab rakendus takistuse.</string>
+
+    <!-- 2026-11-05-04-reply-text-selection -->
+    <string name="settings_whatsnew_entry_reply_text_selection_title">Vali teksti üle kogu vastuse</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_summary">Hoia vastuses sõna all või topeltpuuduta seda, seejärel lohista valikupidemeid üle lõikude, loendite, koodi ja tabelite.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_1">Hoia valikupidet päise all või sõnumiredaktori kohal ja vastus hakkab kerima – seda kiiremini, mida lähemal oled servale.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_2">Kopeerimine säilitab loendite täpid ja numbrid ning tabelite read ja veerud. Tsiteerimine lisab valitud teksti sõnumiredaktorisse ja säilitab koodiplokid.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_example">Hoia pika vastuse alguses sõna all, seejärel lohista lõpu valikupide alla sõnumiredaktorini ja hoia seda seal</string>
+
+    <!-- 2026-11-06-01-scrolling-unsticks -->
+    <string name="settings_whatsnew_entry_scrolling_unsticks_title">Kerimine vabaneb ise</string>
+    <string name="settings_whatsnew_entry_scrolling_unsticks_summary">Seansis, mida varem sai vahel kerida alles pärast teise seanssi lülitumist, taastub kerimine nüüd iseenesest.</string>
+
+    <!-- 2026-11-06-02-server-addresses -->
+    <string name="settings_whatsnew_entry_server_addresses_title">Kindlamad serveriühendused</string>
+    <string name="settings_whatsnew_entry_server_addresses_summary">OpenCode proovib korraga kõiki serveri aadresse ja kasutab esimesena vastanut, nii et kodust lahkudes taastub ühendus VPN-i välja ja sisse lülitamata.</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_1">Koduvõrgus töötanud aadressi ei proovita enam igal pool mujal esimesena.</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_2">Lühike katkestus, telefoni avamine või kiirseadete alla tõmbamine ei pane enam teadet vilksatama. „Ühenduse taastamine” ilmub mõne sekundi pärast ja „Võrguühenduseta” umbes 12 sekundi pärast või 4 sekundi pärast, kui telefonil pole võrku.</string>
+    <string name="settings_whatsnew_entry_server_addresses_example">Ava seanss Tailscale’i kaudu seotud serveris, lülita Wi-Fi välja ja jätka tööd</string>
+
+    <!-- 2026-11-07-01-server-voice -->
+    <string name="settings_whatsnew_entry_server_voice_title">Kõned serveri API klahvidega</string>
+    <string name="settings_whatsnew_entry_server_voice_summary">Serveri hääl on nüüd kõigil sisse lülitatud, ilma lülitita. Kõned saavad kasutada OpenCode’i serveri API klahve, nii et telefon ei vaja oma OpenAI API klahvi.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_1">Kui „Vali automaatselt” on sees, kasutavad kõned esmalt praegust serverit, siis telefoni OpenAI API klahvi ja seejärel mõnda teist valmis salvestatud serverit.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_2">Kui nii telefonis kui ka serveris on OpenAI API klahv, kasutavad kõned nüüd serveri oma. Enda oma kasutamiseks ava häälepakkuja alt „Sinu OpenAI konto” ja puuduta „Kasuta kõnedeks”.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_3">Gemini API klahviga serverites on nüüd pakkujaks ka Gemini Live.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_4">Kui kõnet ei saa alustada, näed põhjust ja nuppu, millega seda parandada.</string>
+    <string name="settings_whatsnew_entry_server_voice_example">Ava Seaded › Hääl ja puuduta „Häälepakkuja”</string>
+
+    <!-- 2026-11-07-02-rename-clear-button -->
+    <string name="settings_whatsnew_entry_rename_clear_button_title">Tühjenda pealkiri ühe puudutusega</string>
+    <string name="settings_whatsnew_entry_rename_clear_button_summary">Seansi ja serveri ümbernimetamisel on nüüd tühjendusnupp, et saaksid uut pealkirja alustada vana käsitsi kustutamata.</string>
+
+    <!-- 2026-11-07-03-one-picker -->
+    <string name="settings_whatsnew_entry_one_picker_title">Uus mudelivalija</string>
+    <string name="settings_whatsnew_entry_one_picker_summary">Puuduta sõnumikastis mudelit ja sellest avaneb loend, mille ülaosas on Lemmikud ja Hiljutised ning all kõik pakkujad.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_1">Puuduta mudeli real mõtlemistaset, näiteks „kõrge“, et seda nimekirjast lahkumata muuta.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_2">Libista real või hoia seda all, et mudel lemmikutesse lisada või sealt eemaldada.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_3">Otsing on allservas. Kui sisestad nime järele taseme, näiteks „opus high“, valitakse sisestusklahvi vajutamisel mõlemad.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_4">Lohista pidet üles, et nimekirja kõrgemaks teha, või alla, et see sulgeda.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_5">Uus valija asendab vana mudelipaneeli ning One Pickeri lüliti on jaotisest Seaded › Eksperimentaalne eemaldatud.</string>
+    <string name="settings_whatsnew_entry_one_picker_example">Puuduta sõnumikastis mudelit, seejärel libista real, et see lemmikutesse lisada</string>
+
+    <!-- 2026-11-08-01-connecting-caption-glass -->
+    <string name="settings_whatsnew_entry_connecting_caption_glass_title">Loetav „Ühendamine … kaudu“</string>
+    <string name="settings_whatsnew_entry_connecting_caption_glass_summary">Kui kõne ühendub serveri kaudu, on rida „Ühendamine … kaudu“ klaasjal taustal ega sula enam taustal olevate sõnumitega kokku.</string>
+
+    <!-- 2026-11-08-02-default-model -->
+    <string name="settings_whatsnew_entry_default_model_title">Uued seansid kasutavad sinu vaikemudelit</string>
+    <string name="settings_whatsnew_entry_default_model_summary">Uued seansid algavad OpenCode’is määratud vaikemudeliga ja sellele viimati valitud mõtlemistasemega, mitte eelmise seansi mudeliga.</string>
+
+    <!-- 2026-11-11-01-streamed-reply-prefix -->
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_title">Ava vastus juba saabumise ajal</string>
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_summary">Kui avad seansi vastuse saabumise ajal, saad juba saabunud osa lugeda, kuni vastus täieneb.</string>
+
+    <!-- 2026-11-13-01-draw-on-images -->
+    <string name="settings_whatsnew_entry_draw_on_images_title">Joonista piltidele</string>
+    <string name="settings_whatsnew_entry_draw_on_images_summary">Märgi detail enne selle kohta küsimist.</string>
+    <string name="settings_whatsnew_entry_draw_on_images_detail_1">Ava pilt täisekraanil ja puuduta pliiatsinuppu. Vali värv, joonista ja puuduta nuppu Lisa, et lisada märgistatud pilt oma sõnumile. Algne pilt jääb muutmata.</string>
+    <string name="settings_whatsnew_entry_draw_on_images_example">Tõmba kuvatõmmisel ring ümber juhtelemendile, mida soovid liigutada, ja kirjelda, kuhu see peaks minema.</string>
+
+    <!-- 2026-11-14-01-fullscreen-viewer -->
+    <string name="settings_whatsnew_entry_fullscreen_viewer_title">Liigu pühkides fotode ja videote vahel</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_summary">Sirvi seansi pilte ja videoid üheskoos.</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_detail_1">Pühi videoni ja puuduta pliiatsinuppu, et praegusele kaadrile märkmeid joonistada. Nupp Lisa lisab märgistatud kaadri sõnumile, kuid ei saada seda.</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_example">Peata demovideo muutmist vajaval kuval, tõmba detailile ring ümber ja lisa kaader mustandile.</string>
+
+    <!-- 2026-11-15-01-pairing-link-name -->
+    <string name="settings_whatsnew_entry_pairing_link_name_title">Nimega serverid OpenCode Console’ist</string>
+    <string name="settings_whatsnew_entry_pairing_link_name_summary">OpenCode Console’i kaudu seotud server lisatakse koos nimega, näiteks „Anomaly Box“.</string>
+
+    <!-- 2026-11-17-01-session-media -->
+    <string name="settings_whatsnew_entry_session_media_title">Seansi meedia</string>
+    <string name="settings_whatsnew_entry_session_media_summary">Sirvi seansi pilte, videoid, heli, faile ja avalikke veebilinke.</string>
+    <string name="settings_whatsnew_entry_session_media_detail_1">Vali seansi ⋮ menüüst Seansi meedia. Meedia näitab pilte, videoid ja heli kuude kaupa rühmitatud paanidena või nimekirjana. Failid ja Lingid loetlevad dokumente, kleebitud tekste ja veebilinke.</string>
+    <string name="settings_whatsnew_entry_session_media_example">Leia hommikul saadetud kuvatõmmis kogu seanssi tagasi kerimata.</string>
+
+    <!-- 2026-11-18-02-drawer-call-phone -->
+    <string name="settings_whatsnew_entry_drawer_call_phone_title">Telefoniikoon külgpaneeli kõnenupul</string>
+    <string name="settings_whatsnew_entry_drawer_call_phone_summary">Seansside nimekirjas seadete kõrval oleval kõnenupul on nüüd telefoniikoon, nagu sõnumikastiski.</string>
+
+    <!-- 2026-11-19-01-background-scripts -->
+    <string name="settings_whatsnew_entry_background_scripts_title">Skriptid taustatööde hulgas</string>
+    <string name="settings_whatsnew_entry_background_scripts_summary">Agendi taustale viidud skriptid kuvatakse alamagentide ja shellide kõrval. Alamagent jääb nimekirja, kuni selle piltide, videote või skriptidega seotud töö kestab. Mõlemad saad peatada otse nimekirjast.</string>
+</resources>

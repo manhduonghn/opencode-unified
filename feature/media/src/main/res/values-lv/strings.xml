@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">Attēls</string>
+    <string name="media_image_load_failed">Neizdevās ielādēt attēlu</string>
+    <string name="media_unavailable">Multivide nav pieejama</string>
+    <string name="media_try_again_label">Mēģināt vēlreiz</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">Multivides skatītājs</string>
+    <string name="media_viewer_save_to_photos_description">Saglabāt fotoattēlos</string>
+    <string name="media_file_viewer_screen_title">Failu skatītājs</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d no %3$d</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">Zīmēt uz attēla</string>
+    <string name="media_drawing_undo_description">Atsaukt</string>
+    <string name="media_drawing_add_to_prompt_description">Pievienot uzvednei</string>
+    <string name="media_drawing_canvas_description">Zīmēšanas audekls</string>
+    <string name="media_drawing_discard_title">Atmest zīmējumu?</string>
+    <string name="media_drawing_discard_confirm">Atmest zīmējumu</string>
+    <string name="media_drawing_keep">Turpināt zīmēt</string>
+    <string name="media_drawing_add_failed_title">Neizdevās pievienot zīmējumu</string>
+    <string name="media_drawing_flatten_failed">Neizdevās izveidot attēlu. Mēģini vēlreiz.</string>
+    <string name="media_drawing_prompt_unavailable">Šīs sesijas ziņai pašlaik nevar pievienot pielikumus.</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">Balta</string>
+    <string name="media_drawing_ink_black">Melna</string>
+    <string name="media_drawing_ink_red">Sarkana</string>
+    <string name="media_drawing_ink_yellow">Dzeltena</string>
+    <string name="media_drawing_ink_green">Zaļa</string>
+    <string name="media_drawing_ink_blue">Zila</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">Tuvināts</string>
+    <string name="media_zoom_out_label">Tālināt</string>
+    <string name="media_zoom_in_label">Tuvināt</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">Pauzēt</string>
+    <string name="media_player_play">Atskaņot</string>
+    <string name="media_player_position_description">Atskaņošanas pozīcija</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">Neizdevās atskaņot video</string>
+    <string name="media_video_position_description">Video pozīcija</string>
+    <string name="media_video_capture_failed_title">Neizdevās uzņemt kadru</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">Rādīt priekšskatījumu</string>
+    <string name="media_file_show_source_description">Rādīt pirmkodu</string>
+    <string name="media_file_unwrap_lines_description">Nelauzt rindas</string>
+    <string name="media_file_wrap_lines_description">Lauzt rindas</string>
+    <string name="media_file_start_pip_description">Ieslēgt attēlu attēlā</string>
+    <string name="media_file_opening">Notiek atvēršana…</string>
+    <string name="media_file_share_failed_title">Neizdevās kopīgot failu</string>
+    <string name="media_file_share_downloading_description">Notiek lejupielāde kopīgošanai</string>
+    <string name="media_file_confirm_large_message">Faila lielums ir %1$s. Lejupielādēt to, lai skatītu šajā ierīcē?</string>
+    <string name="media_file_download">Lejupielādēt</string>
+    <string name="media_file_open_in_another_app">Atvērt citā lietotnē</string>
+    <string name="media_file_no_app_message">Neviena lietotne šajā ierīcē nevar atvērt šo failu. Kopīgo to, lai saglabātu vai nosūtītu citur.</string>
+    <string name="media_file_pdf_page_description">Lapa %1$d no %2$d</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">Fails nav atrasts</string>
+    <string name="media_file_error_open_failed_title">Neizdevās atvērt failu</string>
+    <string name="media_file_error_unreadable">Šo ceļu nevar nolasīt no servera.</string>
+    <string name="media_file_error_not_found">Iespējams, tas ir pārvietots vai dzēsts.</string>
+    <string name="media_file_error_unauthorized">Serveris nepieņēma šīs ierīces paroli.</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">Serveris nevarēja to nolasīt (HTTP %1$d). Iespējams, tā ir mape.</string>
+    <string name="media_file_error_timed_out">Beidzās pieprasījuma gaidīšanas laiks.</string>
+    <string name="media_file_error_unexpected_response">Serveris nosūtīja negaidītu atbildi.</string>
+    <string name="media_file_error_over_limit">Fails pārsniedz lejupielādes izmēra limitu.</string>
+    <string name="media_file_error_size_unknown">Serveris nenorādīja pielikuma izmēru.</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">Notiek lejupielāde…</string>
+    <string name="media_file_downloading_size">Lejupielādē %1$s</string>
+    <string name="media_file_downloading_progress">Lejupielādē %1$s no %2$s</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">0 KB</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="zero">%1$d baitu</item>
+        <item quantity="one">%1$d baits</item>
+        <item quantity="other">%1$d baiti</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s KB</string>
+    <string name="media_file_size_megabytes">%1$s MB</string>
+    <string name="media_file_size_gigabytes">%1$s GB</string>
+    <string name="media_file_size_terabytes">%1$s TB</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">Nav atrasts</string>
+    <string name="media_image_load_label">Ielādēt attēlu</string>
+    <string name="media_image_loading_state">Ielādējas</string>
+    <string name="media_image_open_label">Atvērt attēlu</string>
+    <string name="media_image_tap_to_load">Pieskaries, lai ielādētu</string>
+    <string name="media_image_outside_project_value">Ārpus projekta</string>
+    <string name="media_image_deferred_low_data_value">Atlikts datu taupīšanas režīmā</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">Atvērt %1$s</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">Atpakaļ uz sesiju</string>
+    <string name="media_browser_ask_description">Jautāt par šo lapu</string>
+    <string name="media_browser_forward_description">Uz priekšu</string>
+    <string name="media_browser_open_in_browser_description">Atvērt pārlūkprogrammā</string>
+    <string name="media_browser_scroll_to_top_label">Ritināt uz lapas sākumu</string>
+    <string name="media_browser_ask_placeholder">Jautā par šo lapu</string>
+    <string name="media_browser_reply_needs_input">Vajadzīga tava ievade</string>
+    <string name="media_browser_reply_working">Darbojas</string>
+    <string name="media_browser_go_back_to_session_label">Atpakaļ uz sesiju</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">Atbilde gatava</string>
+    <string name="media_browser_reply_back_to_read">· Atpakaļ, lai lasītu</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">Sesija</string>
+    <string name="media_link_open_in_app_browser">Atvērt lietotnes pārlūkprogrammā</string>
+    <string name="media_link_open_in_browser">Atvērt pārlūkprogrammā</string>
+    <string name="media_link_open_in_app">Atvērt lietotnē</string>
+    <string name="media_link_copy">Kopēt saiti</string>
+    <string name="media_link_share">Kopīgot…</string>
+    <string name="media_link_open_session">Atvērt sesiju</string>
+    <string name="media_link_copy_session_id">Kopēt ID</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">Kopēt %1$s ID</string>
+    <string name="media_link_open_session_named_description">Atvērt sesiju %1$s</string>
+    <string name="media_link_open_host_in_app_browser_description">Atvērt %1$s lietotnes pārlūkprogrammā</string>
+    <string name="media_link_open_host_in_browser_description">Atvērt %1$s pārlūkprogrammā</string>
+    <string name="media_link_open_host_in_app_description">Atvērt %1$s lietotnē</string>
+    <string name="media_link_copy_host_description">Kopēt saiti uz %1$s</string>
+    <string name="media_link_share_host_description">Kopīgot saiti uz %1$s</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%1$s vietnē %2$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s, saite %2$d</string>
+    <string name="media_link_more_links_description">Vairāk saišu</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">Video</string>
+    <string name="media_link_preview_post">Ieraksts</string>
+    <string name="media_link_preview_post_unavailable">Ieraksts nav pieejams</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">Repozitorijs</string>
+    <string name="media_github_kind_issue">Problēma</string>
+    <string name="media_github_kind_pull_request">Izmaiņu pieprasījums</string>
+    <string name="media_github_kind_commit">Iesniegums</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">Atvērts</string>
+    <string name="media_github_state_closed">Aizvērts</string>
+    <string name="media_github_state_merged">Apvienots</string>
+    <string name="media_github_state_draft">Melnraksts</string>
+    <string name="media_github_state_completed">Pabeigts</string>
+    <string name="media_github_state_not_planned">Nav plānots</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">Diagramma, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">Diagrammu skatītājs</string>
+    <string name="media_mermaid_diagram_description">Diagramma</string>
+    <string name="media_mermaid_loading_state">%1$s, ielādējas</string>
+    <string name="media_mermaid_view_source">Rādīt pirmkodu</string>
+    <string name="media_mermaid_source_title">Diagrammas pirmkods</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">Plūsmas diagramma</string>
+    <string name="media_mermaid_type_sequence">Secības diagramma</string>
+    <string name="media_mermaid_type_class">Klašu diagramma</string>
+    <string name="media_mermaid_type_state">Stāvokļu diagramma</string>
+    <string name="media_mermaid_type_entity_relationship">Entītiju attiecību diagramma</string>
+    <string name="media_mermaid_type_user_journey">Lietotāja ceļš</string>
+    <string name="media_mermaid_type_gantt">Ganta diagramma</string>
+    <string name="media_mermaid_type_pie">Sektoru diagramma</string>
+    <string name="media_mermaid_type_quadrant">Kvadrantu diagramma</string>
+    <string name="media_mermaid_type_requirement">Prasību diagramma</string>
+    <string name="media_mermaid_type_git_graph">Git grafs</string>
+    <string name="media_mermaid_type_c4">C4 diagramma</string>
+    <string name="media_mermaid_type_mind_map">Domu karte</string>
+    <string name="media_mermaid_type_timeline">Laika skala</string>
+    <string name="media_mermaid_type_sankey">Sankija diagramma</string>
+    <string name="media_mermaid_type_xy_chart">XY diagramma</string>
+    <string name="media_mermaid_type_block">Bloku diagramma</string>
+    <string name="media_mermaid_type_packet">Pakešu diagramma</string>
+    <string name="media_mermaid_type_kanban">Kanban dēlis</string>
+    <string name="media_mermaid_type_architecture">Arhitektūras diagramma</string>
+    <string name="media_mermaid_type_radar">Radara diagramma</string>
+    <string name="media_mermaid_type_treemap">Koka karte</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Shell</string>
+    <string name="server_notice_source_subagent">Subagen</string>
+    <string name="server_notice_heading_finished">%1$s selesai</string>
+    <string name="server_notice_heading_failed">%1$s gagal</string>
+    <string name="server_notice_heading_interrupted">%1$s dihentikan</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="other">%1$d shell selesai</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="other">%1$d shell gagal</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="other">%1$d shell dihentikan</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="other">%1$d subagen selesai</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="other">%1$d subagen gagal</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="other">%1$d subagen dihentikan</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Kompak</string>
+    <string name="server_run_error_action_switch_model">Ganti model</string>
+    <string name="server_run_error_aborted">Dihentikan</string>
+    <string name="server_run_error_permission_rejected">Dihentikan setelah permintaan ditolak</string>
+    <string name="server_run_error_content_filter">Filter keamanan memblokir balasan</string>
+    <string name="server_run_error_rate_limit">Batas laju tercapai</string>
+    <string name="server_run_error_quota">Batas penggunaan tercapai</string>
+    <string name="server_run_error_auth">Penyedia menolak kuncinya</string>
+    <string name="server_run_error_context_overflow">Sesi terlalu panjang untuk model ini</string>
+    <string name="server_run_error_invalid_request">Penyedia menolak permintaan</string>
+    <string name="server_run_error_overloaded">Model kelebihan beban</string>
+    <string name="server_run_error_internal">Penyedia mengalami masalah</string>
+    <string name="server_run_error_transport">Koneksi ke model terputus</string>
+    <string name="server_run_error_timeout">Model terlalu lama membalas</string>
+    <string name="server_run_error_invalid_output">Balasan model tidak dapat dibaca</string>
+    <string name="server_run_error_unavailable">Model ini tidak tersedia</string>
+    <string name="server_run_error_unsupported_operation">Model ini tidak bisa melakukannya</string>
+    <string name="server_run_error_tool_execution">Alat gagal dan proses berhenti</string>
+    <string name="server_run_error_other">Proses berhenti karena kesalahan</string>
+    <string name="server_run_retry_in_seconds">%1$s · mencoba ulang dalam %2$d dtk</string>
+    <string name="server_run_retry_now">%1$s · mencoba ulang</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">Tidak dapat menjangkau server OpenCode</string>
+    <string name="server_error_folder_gone">Folder sudah tidak ada</string>
+    <string name="server_error_uploads_unsupported">Server ini tidak mendukung lampiran berkas. Perbarui OpenCode di komputer Anda.</string>
+    <string name="server_error_archiving_unsupported">Server ini tidak mendukung pengarsipan. Perbarui OpenCode di komputer Anda.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode tidak diizinkan mengakses perangkat di jaringan lokal Anda. Aktifkan Perangkat di sekitar untuk OpenCode di Pengaturan, lalu coba lagi.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Sesi tanpa judul</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Shell</string>
+    <string name="server_tool_shell_killed">Shell dihentikan paksa</string>
+    <string name="server_tool_shell_exit_code">Perintah berakhir dengan kode %1$d</string>
+    <string name="server_notice_session_update">Pembaruan sesi</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Koneksi gagal</string>
+    <string name="server_connection_resolved_address_unknown">Alamat hasil pencarian: Tidak diketahui</string>
+    <string name="server_connection_resolved_address">Alamat hasil pencarian (setelah gagal): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">Nama tailnet ini mengarah ke alamat di luar rentang Tailscale, jadi DNS Tailscale mungkin tidak digunakan. Di aplikasi Tailscale, aktifkan Gunakan pengaturan DNS Tailscale, lalu nonaktifkan DNS Pribadi atau profil VPN yang mengubah DNS.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Jaringan lokal</string>
+    <string name="server_connection_route_loopback">Loopback</string>
+    <string name="server_connection_route_internet">Internet</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">bukan alamat web</string>
+    <string name="server_pairing_origin_bad_scheme">tidak diawali dengan http:// atau https://</string>
+    <string name="server_pairing_origin_no_host">tidak memiliki nama host</string>
+    <string name="server_pairing_origin_credentials">memuat nama pengguna atau kata sandi</string>
+    <string name="server_pairing_origin_query">memuat kueri atau fragmen</string>
+    <string name="server_pairing_origin_port">memiliki port di luar rentang 1–65535</string>
+    <string name="server_pairing_origin_path">memuat jalur, padahal server harus berada di akar alamatnya</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Server</string>
+    <string name="server_friendly_name_numbered">Server %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">Koneksi terputus setelah pesan dikirim, jadi pesan mungkin sudah diterima.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Integrasi ini tidak memiliki metode masuk.</string>
+    <string name="server_error_sign_in_url_invalid">Alamat halaman masuk tidak valid.</string>
+    <string name="server_error_load_server_details">Gagal memuat detail server</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">Kode pemasangan ini sudah kedaluwarsa atau sudah digunakan. Jalankan `opencode pair --remote` lagi.</string>
+    <string name="server_error_pairing_unsupported">Server ini tidak mendukung tautan pemasangan. Perbarui OpenCode di komputer Anda, atau masukkan server secara manual.</string>
+    <string name="server_error_notification_previews_need_https">Pratinjau notifikasi terenkripsi memerlukan koneksi server HTTPS.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Masukkan URL server HTTP atau HTTPS yang valid.</string>
+    <string name="server_error_credentials_rejected">Server menolak kredensial ini.</string>
+    <string name="server_error_http_status">Server mengembalikan HTTP %1$d.</string>
+    <string name="server_error_event_stream_http">Aliran event mengembalikan HTTP %1$d.</string>
+    <string name="server_error_event_stream_oversized_frame">Aliran event mengirim bingkai yang terlalu besar.</string>
+    <string name="server_error_event_stream_ended">Aliran event berakhir.</string>
+    <string name="server_error_event_stream_server_failure">Aliran event melaporkan kegagalan server.</string>
+    <string name="server_tool_failed">Alat gagal</string>
+    <string name="server_error_list_folder">Server gagal menampilkan isi folder ini</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Gagal memuat proyek dan sesi</string>
+    <string name="server_error_load_session_family">Gagal memuat keluarga sesi</string>
+    <string name="server_error_update_session">Gagal memperbarui sesi</string>
+    <string name="server_error_load_session_ancestry">Gagal memuat silsilah sesi aktif</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Sudah dijawab di tempat lain</string>
+    <string name="server_request_already_dismissed">Sudah ditutup</string>
+    <string name="server_request_already_answered">Sudah dijawab</string>
+    <string name="server_request_already_dismissed_elsewhere">Sudah ditutup di tempat lain</string>
+    <string name="server_request_no_longer_waiting">Tidak lagi menunggu</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Media tidak tersedia</string>
+    <string name="server_pasted_text_title">Teks yang ditempel</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="other">%1$d baris · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="other">%1$d baris</item>
+    </plurals>
+    <string name="server_file_size_zero">0 KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="other">%1$d bita</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">Proyek</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Berkas</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Selesaikan langkah ini</string>
+    <string name="server_form_required">Wajib diisi</string>
+    <plurals name="server_form_min_length">
+        <item quantity="other">Masukkan minimal %1$d karakter</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="other">Masukkan maksimal %1$d karakter</item>
+    </plurals>
+    <string name="server_form_invalid_format">Format tidak valid</string>
+    <string name="server_form_choose_option">Pilih opsi yang tersedia</string>
+    <string name="server_form_invalid_email">Masukkan email yang valid</string>
+    <string name="server_form_invalid_url">Masukkan URL yang valid</string>
+    <string name="server_form_invalid_date">Masukkan tanggal dalam format YYYY-MM-DD</string>
+    <string name="server_form_invalid_date_time">Masukkan tanggal dan waktu yang valid</string>
+    <string name="server_form_minimum">Harus minimal %1$s</string>
+    <string name="server_form_maximum">Harus maksimal %1$s</string>
+    <string name="server_form_whole_number">Masukkan bilangan bulat</string>
+    <plurals name="server_form_min_items">
+        <item quantity="other">Pilih minimal %1$d</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="other">Pilih maksimal %1$d</item>
+    </plurals>
+    <string name="server_form_invalid_value">Nilai tidak valid</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Sembunyikan yang dipilih</string>
+    <string name="server_model_visibility_only_show">Tampilkan hanya yang dipilih</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Nonaktif</string>
+    <string name="server_model_variant_extra_high">Ekstra tinggi</string>
+    <string name="server_model_variant_max">Maksimal</string>
+    <string name="server_delivery_steering">Mengarahkan</string>
+    <string name="server_delivery_queued">Dalam antrean</string>
+</resources>

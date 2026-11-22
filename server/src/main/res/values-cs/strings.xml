@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Shell</string>
+    <string name="server_notice_source_subagent">Subagent</string>
+    <string name="server_notice_heading_finished">%1$s: dokončeno</string>
+    <string name="server_notice_heading_failed">%1$s: chyba</string>
+    <string name="server_notice_heading_interrupted">%1$s: přerušeno</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$d shell dokončen</item>
+        <item quantity="few">%1$d shelly dokončeny</item>
+        <item quantity="many">%1$d shellu dokončeno</item>
+        <item quantity="other">%1$d shellů dokončeno</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$d shell selhal</item>
+        <item quantity="few">%1$d shelly selhaly</item>
+        <item quantity="many">%1$d shellu selhalo</item>
+        <item quantity="other">%1$d shellů selhalo</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">%1$d shell přerušen</item>
+        <item quantity="few">%1$d shelly přerušeny</item>
+        <item quantity="many">%1$d shellu přerušeno</item>
+        <item quantity="other">%1$d shellů přerušeno</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">Skončil %1$d subagent</item>
+        <item quantity="few">Skončili %1$d subagenti</item>
+        <item quantity="many">Skončilo %1$d subagenta</item>
+        <item quantity="other">Skončilo %1$d subagentů</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">Selhal %1$d subagent</item>
+        <item quantity="few">Selhali %1$d subagenti</item>
+        <item quantity="many">Selhalo %1$d subagenta</item>
+        <item quantity="other">Selhalo %1$d subagentů</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">Přerušen %1$d subagent</item>
+        <item quantity="few">Přerušeni %1$d subagenti</item>
+        <item quantity="many">Přerušeno %1$d subagenta</item>
+        <item quantity="other">Přerušeno %1$d subagentů</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Kompaktní</string>
+    <string name="server_run_error_action_switch_model">Změnit model</string>
+    <string name="server_run_error_aborted">Přerušeno</string>
+    <string name="server_run_error_permission_rejected">Přerušeno po zamítnutí požadavku</string>
+    <string name="server_run_error_content_filter">Bezpečnostní filtr zablokoval odpověď</string>
+    <string name="server_run_error_rate_limit">Dosažen limit požadavků</string>
+    <string name="server_run_error_quota">Dosažen limit využití</string>
+    <string name="server_run_error_auth">Poskytovatel odmítl API klíč</string>
+    <string name="server_run_error_context_overflow">Relace je pro tento model příliš dlouhá</string>
+    <string name="server_run_error_invalid_request">Poskytovatel odmítl požadavek</string>
+    <string name="server_run_error_overloaded">Model je přetížený</string>
+    <string name="server_run_error_internal">U poskytovatele došlo k problému</string>
+    <string name="server_run_error_transport">Spojení s modelem se přerušilo</string>
+    <string name="server_run_error_timeout">Model neodpověděl včas</string>
+    <string name="server_run_error_invalid_output">Odpověď modelu se nepodařilo přečíst</string>
+    <string name="server_run_error_unavailable">Tento model není dostupný</string>
+    <string name="server_run_error_unsupported_operation">Tento model to neumí</string>
+    <string name="server_run_error_tool_execution">Nástroj selhal a běh se zastavil</string>
+    <string name="server_run_error_other">Běh skončil chybou</string>
+    <string name="server_run_retry_in_seconds">%1$s · další pokus za %2$d s</string>
+    <string name="server_run_retry_now">%1$s · opakování pokusu</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">Nepodařilo se spojit se serverem OpenCode</string>
+    <string name="server_error_folder_gone">Složka už neexistuje</string>
+    <string name="server_error_uploads_unsupported">Tento server nepodporuje přílohy souborů. Aktualizujte OpenCode na počítači.</string>
+    <string name="server_error_archiving_unsupported">Tento server nepodporuje archivaci. Aktualizujte OpenCode na svém počítači.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode nemá povolený přístup k zařízením v místní síti. V nastavení povolte pro OpenCode oprávnění Zařízení v okolí a zkuste to znovu.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Relace bez názvu</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Shell</string>
+    <string name="server_tool_shell_killed">Shell byl násilně ukončen</string>
+    <string name="server_tool_shell_exit_code">Příkaz skončil s kódem %1$d</string>
+    <string name="server_notice_session_update">Aktualizace relace</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Připojení se nezdařilo</string>
+    <string name="server_connection_resolved_address_unknown">Zjištěná adresa: neznámá</string>
+    <string name="server_connection_resolved_address">Zjištěná adresa (vyhledaná po selhání): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">Tento název v síti tailnet se přeložil na adresu mimo rozsah Tailscale, takže se možná nepoužívá DNS Tailscale. V aplikaci Tailscale zapněte Používat nastavení DNS Tailscale a vypněte Soukromé DNS nebo jakýkoli profil VPN, který mění DNS.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Místní síť</string>
+    <string name="server_connection_route_loopback">Zpětná smyčka</string>
+    <string name="server_connection_route_internet">Internet</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">není webová adresa</string>
+    <string name="server_pairing_origin_bad_scheme">nezačíná na http:// ani https://</string>
+    <string name="server_pairing_origin_no_host">neobsahuje název hostitele</string>
+    <string name="server_pairing_origin_credentials">obsahuje uživatelské jméno nebo heslo</string>
+    <string name="server_pairing_origin_query">obsahuje dotaz nebo fragment</string>
+    <string name="server_pairing_origin_port">má port mimo rozsah 1–65535</string>
+    <string name="server_pairing_origin_path">obsahuje cestu, ale server musí být v kořeni adresy</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Server</string>
+    <string name="server_friendly_name_numbered">Server %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">Spojení se po odeslání zprávy přerušilo, takže zpráva možná dorazila.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Tato integrace nenabízí žádný způsob přihlášení.</string>
+    <string name="server_error_sign_in_url_invalid">Adresa přihlašovací stránky není platná.</string>
+    <string name="server_error_load_server_details">Nepodařilo se načíst podrobnosti o serveru</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">Platnost tohoto párovacího kódu vypršela nebo už byl použit. Spusťte znovu `opencode pair --remote`.</string>
+    <string name="server_error_pairing_unsupported">Tento server nepodporuje párovací odkazy. Aktualizujte OpenCode na počítači nebo zadejte server ručně.</string>
+    <string name="server_error_notification_previews_need_https">Šifrované náhledy oznámení vyžadují připojení k serveru přes HTTPS.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Zadejte platnou URL serveru s HTTP nebo HTTPS.</string>
+    <string name="server_error_credentials_rejected">Server odmítl tyto přihlašovací údaje.</string>
+    <string name="server_error_http_status">Server vrátil HTTP %1$d.</string>
+    <string name="server_error_event_stream_http">Proud událostí vrátil HTTP %1$d.</string>
+    <string name="server_error_event_stream_oversized_frame">Proud událostí odeslal příliš velký rámec.</string>
+    <string name="server_error_event_stream_ended">Proud událostí byl ukončen.</string>
+    <string name="server_error_event_stream_server_failure">Proud událostí nahlásil chybu serveru.</string>
+    <string name="server_tool_failed">Nástroj selhal</string>
+    <string name="server_error_list_folder">Server nemohl vypsat obsah této složky</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Nepodařilo se načíst projekty a relace</string>
+    <string name="server_error_load_session_family">Nepodařilo se načíst skupinu souvisejících relací</string>
+    <string name="server_error_update_session">Nepodařilo se aktualizovat relaci</string>
+    <string name="server_error_load_session_ancestry">Nepodařilo se načíst nadřazené relace aktivní relace</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Již zodpovězeno jinde</string>
+    <string name="server_request_already_dismissed">Již zamítnuto</string>
+    <string name="server_request_already_answered">Již zodpovězeno</string>
+    <string name="server_request_already_dismissed_elsewhere">Již zamítnuto jinde</string>
+    <string name="server_request_no_longer_waiting">Už nečeká</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Média nejsou dostupná</string>
+    <string name="server_pasted_text_title">Vložený text</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d řádek · %2$s</item>
+        <item quantity="few">%1$d řádky · %2$s</item>
+        <item quantity="many">%1$d řádku · %2$s</item>
+        <item quantity="other">%1$d řádků · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d řádek</item>
+        <item quantity="few">%1$d řádky</item>
+        <item quantity="many">%1$d řádku</item>
+        <item quantity="other">%1$d řádků</item>
+    </plurals>
+    <string name="server_file_size_zero">0 KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d bajt</item>
+        <item quantity="few">%1$d bajty</item>
+        <item quantity="many">%1$d bajtu</item>
+        <item quantity="other">%1$d bajtů</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">Projekt</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Soubor</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Dokončete tento krok</string>
+    <string name="server_form_required">Povinné</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">Zadejte alespoň %1$d znak</item>
+        <item quantity="few">Zadejte alespoň %1$d znaky</item>
+        <item quantity="many">Zadejte alespoň %1$d znaku</item>
+        <item quantity="other">Zadejte alespoň %1$d znaků</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">Zadejte nejvýše %1$d znak</item>
+        <item quantity="few">Zadejte nejvýše %1$d znaky</item>
+        <item quantity="many">Zadejte nejvýše %1$d znaku</item>
+        <item quantity="other">Zadejte nejvýše %1$d znaků</item>
+    </plurals>
+    <string name="server_form_invalid_format">Neplatný formát</string>
+    <string name="server_form_choose_option">Vyberte dostupnou možnost</string>
+    <string name="server_form_invalid_email">Zadejte platný e-mail</string>
+    <string name="server_form_invalid_url">Zadejte platnou URL</string>
+    <string name="server_form_invalid_date">Zadejte datum ve formátu YYYY-MM-DD</string>
+    <string name="server_form_invalid_date_time">Zadejte platné datum a čas</string>
+    <string name="server_form_minimum">Musí být alespoň %1$s</string>
+    <string name="server_form_maximum">Musí být nejvýše %1$s</string>
+    <string name="server_form_whole_number">Zadejte celé číslo</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">Vyberte alespoň %1$d</item>
+        <item quantity="few">Vyberte alespoň %1$d</item>
+        <item quantity="many">Vyberte alespoň %1$d</item>
+        <item quantity="other">Vyberte alespoň %1$d</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">Vyberte nejvýše %1$d</item>
+        <item quantity="few">Vyberte nejvýše %1$d</item>
+        <item quantity="many">Vyberte nejvýše %1$d</item>
+        <item quantity="other">Vyberte nejvýše %1$d</item>
+    </plurals>
+    <string name="server_form_invalid_value">Neplatná hodnota</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Skrýt vybrané</string>
+    <string name="server_model_visibility_only_show">Zobrazit jen vybrané</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Vypnuto</string>
+    <string name="server_model_variant_extra_high">Velmi vysoká</string>
+    <string name="server_model_variant_max">Maximum</string>
+    <string name="server_delivery_steering">Usměrnění</string>
+    <string name="server_delivery_queued">Ve frontě</string>
+</resources>

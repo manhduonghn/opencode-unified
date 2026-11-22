@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Plain HTTP is allowed here because this config can't name address ranges: OpenCode servers on
+     a LAN or tailnet are usually http://<private IP>:4096. The live transport enforces iOS's ATS
+     policy (local networking plus overlay ranges and names) in code: see
+     ai.opencode.server.TransportSecurity, which refuses plain HTTP to public hosts. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

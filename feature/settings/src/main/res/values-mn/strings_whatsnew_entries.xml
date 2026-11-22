@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- What’s New entries, oldest first: one group per file in whatsnew/entries/. -->
+
+    <!-- 2026-10-06-01-voice-messages -->
+    <string name="settings_whatsnew_entry_voice_messages_title">Дуут мессеж</string>
+    <string name="settings_whatsnew_entry_voice_messages_summary">Дуу хоолойн таны өмнөөс сессээс асуусан зүйл долгионы тэмдэгтэй дуут мессеж болж харагдана.</string>
+
+    <!-- 2026-10-07-01-attachment-menu-hold -->
+    <string name="settings_whatsnew_entry_attachment_menu_hold_title">+ товчоор хавсаргах</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_summary">Мессежийн талбараас + цэс дэлгэгдэж, Камер, Зургууд, Файлууд гарна. + товчийг удаан дараад гулсуулж нэг хөдөлгөөнөөр сонгоно.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_1">Зургууд мессежийн талбарын яг дээр нээгдэнэ. Зураг дээр товшиж хавсаргана.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_2">Камер нь линз сонгох товч, чимхэж томруулах, товшиж фокуслах, гэрэл асаах боломжтой.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_example">+ товчийг удаан дараад Зургууд руу дээш гулсуулж тавина уу</string>
+
+    <!-- 2026-10-08-01-voice-webrtc-weak-connection -->
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_title">Тогтвортой дуудлага</string>
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_summary">Холболт муудахад дуудлага хэдэн секунд чимээгүй болохын оронд түр зуур л тасалдана.</string>
+
+    <!-- 2026-10-08-02-mute-sessions -->
+    <string name="settings_whatsnew_entry_mute_sessions_title">Сессийн мэдэгдлийг хаах</string>
+    <string name="settings_whatsnew_entry_mute_sessions_summary">Мэдэгдлийг хаасан сесс жагсаалтад үлдэх ч Шинэ зүйлсийг үзэх хэсэгт орохгүй, уншаагүй цэг харагдахгүй.</string>
+    <string name="settings_whatsnew_entry_mute_sessions_detail_1">Шинэ зүйлсийг үзэх товчийг удаан дарж бүгдийг уншсанд тооцно. Таныг хүлээж буй сессүүд үлдэнэ.</string>
+    <string name="settings_whatsnew_entry_mute_sessions_example">Хажуугийн цэсэнд сессийг удаан дараад Мэдэгдлийг хаах дээр товшино уу</string>
+
+    <!-- 2026-10-08-03-pair-from-anywhere -->
+    <string name="settings_whatsnew_entry_pair_from_anywhere_title">Хаанаас ч хослуулах</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_summary">Компьютер дээрээ opencode pair --remote ажиллуулж, нэг Wi-Fi эсвэл Tailscale ашиглахгүйгээр дурын сүлжээнээс холбогдоорой.</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_detail_1">Гарч ирсэн кодыг сканнердах эсвэл холбоосыг хуулж буулгана уу.</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_example">opencode pair --remote ажиллуулаад утсан дээрээ сервер нэмнэ үү</string>
+
+    <!-- 2026-10-08-04-drawer-peek -->
+    <string name="settings_whatsnew_entry_drawer_peek_title">Сүүлд идэвхтэй байсан үе</string>
+    <string name="settings_whatsnew_entry_drawer_peek_summary">Сессийн жагсаалтыг сесс рүү чирж, тус бүр нь сүүлд хэзээ идэвхтэй байсныг хараарай.</string>
+    <string name="settings_whatsnew_entry_drawer_peek_detail_1">Жагсаалтыг зүүн тийш шударвал хаагдана.</string>
+    <string name="settings_whatsnew_entry_drawer_peek_example">Сессийн жагсаалтыг нээгээд баруун тийш чирнэ үү</string>
+
+    <!-- 2026-10-08-05-dictation-keeps-going -->
+    <string name="settings_whatsnew_entry_dictation_keeps_going_title">Хэлээд илгээх</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_summary">Микрофон дээр товшиж хэлээд, бичлэгийн самбараас шууд илгээнэ. Эсвэл Зогс дээр товшиж эхлээд шалгаарай.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_1">Микрофоныг дарж байгаад ярина. Дээш гулсуулж түгжих, зүүн тийш гулсуулж цуцлах боломжтой.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_2">Аппаас гарсан ч бичлэг үргэлжилнэ. Шууд үйл ажиллагааны самбараас зогсоож болно.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_3">Бичлэгийн дундуур сесс сольбол Илгээх товч дэлгэц дээрх сесс рүү илгээнэ.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_example">Микрофон дээр товшиж, өгүүлбэр хэлээд Илгээх дээр товшино уу</string>
+
+    <!-- 2026-10-08-06-siri-shortcuts-spotlight -->
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_title">Аппын үйлдэл ба товчлолууд</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_summary">Google Assistant-ийн App Actions, аппын товчлол эсвэл Шуурхай тохиргооноос дуудлага, сесс эхлүүлэх, мессеж илгээх боломжтой.</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_detail_1">Аппын дүрсийг удаан дарж сүүлийн сессүүдээ хараарай.</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_example">“Hey Google, OpenCode дээр дуут дуудлага эхлүүл” гэж хэлээрэй</string>
+
+    <!-- 2026-10-09-01-working-orb -->
+    <string name="settings_whatsnew_entry_working_orb_title">Төлөвийн бөмбөлөг</string>
+    <string name="settings_whatsnew_entry_working_orb_summary">Ажиллаж байна гэсэн бичгийн хажууд болон дэд агентын карт дээрх бөмбөлөг агент юу хийж байгааг харуулна. Дуусмагц хуулах товч болно.</string>
+
+    <!-- 2026-10-09-02-shell-glyph -->
+    <string name="settings_whatsnew_entry_shell_glyph_title">Shell-ийн үйл ажиллагаа</string>
+    <string name="settings_whatsnew_entry_shell_glyph_summary">Ажиллаж буй shell-ийн гаралт ирэхэд &gt;_ тэмдэг эргэлдэнэ.</string>
+
+    <!-- 2026-10-09-03-math-and-diagrams -->
+    <string name="settings_whatsnew_entry_math_and_diagrams_title">Томьёо ба диаграмм</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_summary">Хариултад математик томьёог зөв хэлбэрээр үзүүлж, Mermaid диаграмм зурна.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_1">Диаграмм дээр товшиж томруулна. Удаан дарж эхийг нь харна.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_2">Томьёоны хэмжээ текстийн хэмжээг дагана.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_example">Мессеж хэрхэн илгээгддэгийг урсгалын диаграммаар харуулахыг хүсээрэй</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_prompt">Мессеж хэрхэн илгээгддэгийг урсгалын диаграммаар зур</string>
+
+    <!-- 2026-10-09-04-always-notify -->
+    <string name="settings_whatsnew_entry_always_notify_title">Дуусахад мэдэгдэх</string>
+    <string name="settings_whatsnew_entry_always_notify_summary">Энд эхлүүлсэн сессийн ажил дуусахад юу хийснийг товч дүгнэсэн мэдэгдэл ирнэ.</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_1">Сессийн самбарт Үргэлж мэдэгдэхийг асаавал компьютерээс эхлүүлсэн ажлынхыг оролцуулан хариулт бүрд мэдэгдэл ирнэ.</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_2">Мэдэгдэл дээр товшиж сессийг нь нээнэ.</string>
+    <string name="settings_whatsnew_entry_always_notify_example">Мессеж илгээгээд утсаа түгжээрэй</string>
+
+    <!-- 2026-10-09-05-server-switcher -->
+    <string name="settings_whatsnew_entry_server_switcher_title">Сервер солих</string>
+    <string name="settings_whatsnew_entry_server_switcher_summary">Хажуугийн цэсийн гарчигт холбогдсон сервер харагдана. Түүн дээр товшиж өөр сервер рүү шилжих эсвэл сервер нэмнэ.</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_1">Тохиргоонд холболтыг лугшилтаар харуулж, серверийн нэрийн хажууд хүсэлт очоод хариу ирэх хугацааг үзүүлнэ.</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_2">Серверийн нэрийг өөрчилж болно. Шинэ нэр зөвхөн энэ утсанд харагдана.</string>
+    <string name="settings_whatsnew_entry_server_switcher_example">Хажуугийн цэсийг нээгээд серверийн нэр дээр товшиж, өөр компьютерээ нэмээрэй</string>
+
+    <!-- 2026-10-10-01-share-opened-files -->
+    <string name="settings_whatsnew_entry_share_opened_files_title">Зургууд шиг үзэх</string>
+    <string name="settings_whatsnew_entry_share_opened_files_summary">Зураг сессэд бүтнээрээ харагдаж, Зургууд шиг нээгдэнэ: чимхэж томруулах, шударч зураг солих, доош чирж хаах боломжтой.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_1">Агентын дурдсан файл бүр аппд нээгдэнэ.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_2">Хуваалцах товчоор нээсэн бүхнээ, видео болон аудиог ч Зургууд эсвэл Файлууд руу хадгалж болно.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_example">Агентаас хэдэн дэлгэцийн зураг уншихыг хүсээд, нэгийг нь товшиж нээгээд доош чирээрэй</string>
+
+    <!-- 2026-10-10-02-call-voice -->
+    <string name="settings_whatsnew_entry_call_voice_title">Дуут дуудлага</string>
+    <string name="settings_whatsnew_entry_call_voice_summary">Хоосон мессежийн талбар дахь долгион дээр товшоод яриарай. Таныг ярьж байх хооронд Дуу хоолой сессүүдэд тань ажиллаж, дуусахад мэдэгдэнэ.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_1">Дурын сессийг нэрээр нь дуудаарай. Дуу хоолой түүнийг нээж, ажил эхлүүлэх эсвэл чиглүүлнэ.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_2">Яриаг нь таслахын тулд давхар ярих эсвэл ажил хэр явж байгааг асуугаарай.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_3">Яриаг шууд текстээр харахын тулд дуудлагын мөрийг товшино уу.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_4">Дуудлагын мэдэгдлээс микрофоноо хааж, дуудлагаа дуусгана. Түгжээтэй дэлгэцээс ч болно.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_5">Агент ажиллаж байхад залгахын тулд «Зогс»-ыг удаан дарна уу.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_6">Тохиргоо → Дуу хоолой хэсгээс дуу хоолойгоо сонгоно уу.</string>
+    <string name="settings_whatsnew_entry_call_voice_example">Дуудлага эхлүүлээд «байршуулалтын засварын сессийг минь нээгээд тестүүдийг шалга» гэж хэлээрэй</string>
+
+    <!-- 2026-10-10-03-drawer-one-edge -->
+    <string name="settings_whatsnew_entry_drawer_one_edge_title">Цэгцтэй хажуугийн цэс</string>
+    <string name="settings_whatsnew_entry_drawer_one_edge_summary">Мөрүүд нэг захаас эхэлж, төлөвийн цэгүүд мөр бүрийн төгсгөлд байрлана. Хайх товч дээд талд байна.</string>
+
+    <!-- 2026-10-11-01-paste-as-a-card -->
+    <string name="settings_whatsnew_entry_paste_as_a_card_title">Урт текстийг картаар</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_summary">Урт текст буулгахад зургийн хажууд «Буулгасан текст» карт болно. Агент бүгдийг нь уншсан хэвээр.</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_1">Картыг товшиж текстийг бүтнээр нь уншиж, хуулбарлаж, хуваалцаарай.</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_2">Урт мессеж хэдхэн мөр болж хураагдана. «Илүү ихийг харуулах»-аар дэлгэнэ.</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_example">Урт бүртгэл хуулж, мессежийн талбарт буулгаад картыг товшоорой</string>
+
+    <!-- 2026-10-11-02-ride-out-drops -->
+    <string name="settings_whatsnew_entry_ride_out_drops_title">Сүлжээ сул үед ч ажиллана</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_summary">Сүлжээ хэдэн секунд тасрахад алдаа гарахаа болилоо. Илгээлт, сесс, дуудлага холболтыг хүлээгээд үргэлжилнэ.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_1">«Илгээх» үргэлж бэлэн байна. Мессежүүд илгээсэн дарааллаар очно.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_2">Илгээгдээгүй мессеж «Дахин оролдох» товчтойгоор байрандаа үлдэнэ. Дахин оролдоход давхар илгээгдэхгүй.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_3">Сервер офлайн үед хажуугийн цэс дэх нэр нь бүдгэрнэ. Товшоод «Дахин оролдох»-ыг сонгоорой.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_example">Галт тэрэг хонгилд орж байхад сесс нээгээд үзээрэй</string>
+
+    <!-- 2026-10-11-03-new-session-recent-projects -->
+    <string name="settings_whatsnew_entry_new_session_recent_projects_title">Аль ч төсөлд эхлүүлэх</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_summary">«Шинэ сесс» нь сүүлийн төслүүдийг мессежийн талбарын дээр харуулна. «Бүх төсөл»-өөс компьютерынхоо аль ч фолдерыг нээж болно.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_1">Бичиж байх үед сонгосон төсөл мессежийн талбарын дээр хэвээр байна.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_2">Шинэ сессээс эхлүүлсэн дуудлага таны сонгосон төсөлд ажиллана.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_example">«Шинэ сесс», дараа нь «Бүх төсөл», тэгээд «Фолдер сонгоно уу…»-г товшоорой</string>
+
+    <!-- 2026-10-11-04-stop-runs-your-steer -->
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_title">Ажиллаж байхад нь чиглүүлэх</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_summary">Агент ажиллаж байхад мессеж илгээвэл удаан ажиллах тушаалуудыг эхлээд ард ажиллуулаад, дараагийн алхамдаа таны мессежийг уншина.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_1">«Илгээх»-ийг удаан дарж тухайн мессежид «Чиглүүлэх» эсвэл «Дараалалд оруулах»-ыг сонгоорой.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_2">Хүлээж буй мессежийг удаан дарж дараалалд шилжүүлэх эсвэл устгах боломжтой.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_3">«Зогс» шууд «Зогсоож байна…» болж өөрчлөгдөнө. Дараа нь таны илгээсэн чиглүүлэх мессежийг гүйцэтгэнэ.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_example">Удаан ажиллах тушаалын үеэр мессеж илгээгээд тушаал ард ажиллах горимд шилжихийг хараарай</string>
+
+    <!-- 2026-10-12-01-browser-push-in -->
+    <string name="settings_whatsnew_entry_browser_push_in_title">Апп доторх хөтчийн хуудсууд</string>
+    <string name="settings_whatsnew_entry_browser_push_in_summary">«Апп доторх хөтөч» туршилтын тохиргоог асаавал холбоосын хуудас сессийн дээгүүр нээгдэнэ. Буцахын тулд захаас нь шудраарай.</string>
+
+    <!-- 2026-10-12-02-answer-from-the-bar -->
+    <string name="settings_whatsnew_entry_answer_from_the_bar_title">Мессежийн талбараас хариулах</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_summary">Асуулт, зөвшөөрлийн хүсэлт мессежийн талбараас дэлгэгдэнэ. Тэндээс сонголт товшиж, эсвэл хариугаа бичиж, хэлж хариулаарай.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_1">Зөвшөөрөл өгөхөөс өмнө тушаал эсвэл засварыг харуулна.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_2">«Үгүйсгэх»-ийг сонговол таны бичсэнийг оронд нь хийх заавар болгон авч, агент ажлаа үргэлжлүүлнэ.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_3">Хариулсны дараа таны ноорог буцаж гарч ирнэ.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_example">Агент асуулт асуухад микрофоныг удаан дараад хариугаа хэлээрэй</string>
+
+    <!-- 2026-10-12-03-new-messages-divider -->
+    <string name="settings_whatsnew_entry_new_messages_divider_title">Орхисон газраасаа үргэлжлүүлэх</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_summary">Сесс рүү буцаж ороход доод хэсэг нь нээгдэж, таныг байхгүйд ирсэн зүйлс бэлэн байна. Олон шинэ мессежийг «Шинэ» заагаас эхэлж харах бол Тохиргоо › Хурал хэсэгт «Шинэ мессежийн зааг»-ийг асаагаарай.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_1">Хажуугийн цэс нээгдэхэд таны нээх магадлалтай сессүүд шинэчлэгдэж, товшиход бэлэн болно.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_2">Сесс рүү буцаж шилжихэд шинэчлэгдэж байхдаа ч ард ажиллаж буй ажлууд болон контекстийн хэмжүүрийг хэвээр харуулна.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_example">Удаан хийх даалгавар эхлүүлээд өөр сесс рүү шилжиж, хариу ирсний дараа буцаж ороорой</string>
+
+    <!-- 2026-10-12-04-model-list-and-level-meter -->
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_title">Шинэ загвар сонгогч</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_summary">«Загвар» самбараас загвар болон бодолтын түвшнийг сонгоно. Дуртай загварууд дээр нь байна. Мессежийн талбараас дэлгэгдэх жагсаалтыг турших бол Тохиргоо → Туршилтын хэсэгт «Шинэ загвар сонгогч»-ийг асаагаарай.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_1">Загвар түвшний сонголттой бол «Загвар» самбарын «Бодож байна» цэсийг ашиглаарай.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_2">Загварыг шударч «Дуртай» жагсаалтад нэмээрэй.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_3">Загвар эсвэл түвшин сольсон газрыг сесс дотор бүдэг мөрөөр тэмдэглэнэ.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_example">Мессежийн талбар дахь загварыг товшоод бодолтын түвшнийг сонгоорой</string>
+
+    <!-- 2026-10-12-05-run-error-line -->
+    <string name="settings_whatsnew_entry_run_error_line_title">Ажиллуулахад алдаа гарвал</string>
+    <string name="settings_whatsnew_entry_run_error_line_summary">Ажил дуусахаасаа өмнө зогсвол шалтгааныг энгийнээр тайлбарлаж, үргэлжлүүлэх нэг арга санал болгоно: «Засварлах», «Хураангуй», «Загвар солих» эсвэл «Дахин оролдох».</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_1">«Засварлах» нь таны мессежийг буцааж, өөрөөр бичихээр мессежийн талбарт оруулна.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_2">Мөрийг удаан дарж алдааг бүтнээр нь харж, хуулбарлаарай.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_3">Агент өөрөө дахин оролдох үед «Ажиллаж байна» хэсэг дараагийн оролдлого хүртэлх хугацааг тоолно.</string>
+    <string name="settings_whatsnew_entry_run_error_line_example">Хариулт хориглогдвол «Засварлах»-ыг товшиж, мессежээ өөрөөр бичээд дахин илгээгээрэй</string>
+
+    <!-- 2026-10-12-06-transcript-keyboard-space -->
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_title">Гар зай үлдээлгүй хаагдана</string>
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_summary">Гарыг чирж хаахад сүүлийн мессежийн доор хоосон зай үлдэхээ болилоо.</string>
+
+    <!-- 2026-10-12-07-share-sheet-sends -->
+    <string name="settings_whatsnew_entry_share_sheet_sends_title">Хуваалцах цэсээс илгээх</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_summary">Дурын зүйлээ OpenCode руу хуваалцаад, сесс сонгож, мессеж нэмээд аппыг нээлгүй илгээгээрэй.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_1">Сүүлийн сессүүд хуваалцах цэсийн дээд мөрөнд харагдана.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_2">JSON файл болон экспортолсон зүйлс нэрээ хадгалсан файл хэлбэрээр хавсарна.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_3">«OpenCode-д үргэлжлүүлэх» нь хуваалцсан зүйлсийг мессеж бичих талбарт оруулж, сессийг нээнэ.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_4">Илгээж чадахгүй бол «Дараа илгээх» нь аппыг дараагийн удаа нээхэд илгээнэ.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_example">Дэлгэцийн зургаа OpenCode руу хуваалцаж, асуултаа бичээд «Илгээх» дээр товшино уу</string>
+
+    <!-- 2026-10-12-08-app-icon-badge -->
+    <string name="settings_whatsnew_entry_app_icon_badge_title">Аппын дүрс дээрх тоо</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_summary">Аппын дүрс дээр уншаагүй эсвэл таныг хүлээж буй сессийн тоо харагдана. Энэ нь «Шинэ зүйлсийг үзэх» хэсгийн тоотой ижил.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_1">Мэдэгдлийг нь хаасан сессийг тооцохгүй.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_2">Мэдэгдлийг асаасан байх шаардлагатай.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_example">Сессийг асуултын хариу хүлээж байхад нь үлдээгээд үндсэн дэлгэц рүү очно уу</string>
+
+    <!-- 2026-10-12-09-drawer-keeps-keyboard -->
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_title">Гар хажуугийн цэстэй хамт гулсана</string>
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_summary">Бичиж байхдаа сессийн жагсаалтыг нээхэд мессеж бичих талбар идэвхтэй хэвээр үлдэж, гар сесстэй хамт хажуу тийш гулсана.</string>
+
+    <!-- 2026-10-12-10-whats-new-page -->
+    <string name="settings_whatsnew_entry_whats_new_page_title">«Шинэ зүйлс» илүү энгийн боллоо</string>
+    <string name="settings_whatsnew_entry_whats_new_page_summary">«Шинэ зүйлс» нь «Тохиргоо» шиг тусдаа хуудас болж нээгдэнэ. Шинэ боломж бүр өөрийн хуудастай, засварууд ч энд цугларна.</string>
+
+    <!-- 2026-10-12-11-catch-up-returns-to-drawer -->
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_title">«Шинэ зүйлсийг үзэх»-ээс хажуугийн цэс рүү буцна</string>
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_summary">«Шинэ зүйлсийг үзэх»-ээс гарахад сессийн жагсаалт орхисон хэвээр тань нээгдэнэ.</string>
+
+    <!-- 2026-10-12-12-transcript-day-stamps -->
+    <string name="settings_whatsnew_entry_transcript_day_stamps_title">Ярианы бичвэр дэх өдрүүд</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_summary">Олон өдөр үргэлжилсэн сессийн өдөр бүрийн эхний мессежийн дээр «Лхагва 08:24» гэх мэтээр өдөр харагдана. Нэг цаг завсарласны дараах мессежийн дээр цагийг харуулна.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_1">Өдрийг «Өнөөдөр», «Өчигдөр», тухайн долоо хоногийн гарагаар, бусад үед огноогоор харуулна.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_2">Чиглүүлэх болон дараалалд орсон мессежүүд хүлээж байхдаа цагийн тэмдэглэгээгүй байна.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_example">Энэ долоо хоногийн эхээр эхлүүлсэн сессээ нээгээд дээш гүйлгэнэ үү</string>
+
+    <!-- 2026-10-12-13-rich-link-previews -->
+    <string name="settings_whatsnew_entry_rich_link_previews_title">Холбоосыг урьдчилан харах</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_summary">Хариултын доорх холбоосууд тус бүр нэг мөрөөр юу болохоо харуулна: гарчиг, төлөвтэй нэгтгэх хүсэлт эсвэл асуудал, коммит, видео, хуудас.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_1">GitHub-ийн нэгтгэх хүсэлт, асуудал, коммит, репозиторын гарчиг харагдаж, «Нээлттэй», «Нэгтгэсэн», «Хаалттай» төлөвийг өнгөөр ялгана.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_2">X-ийн нийтлэлд хэн юу бичсэнийг, YouTube холбоост гарчгийг нь, бусад хуудсанд холбоосоос авсан нэрийг харуулна.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_3">Гурван холбоос харагдана. Үлдсэнийг харахын тулд «Хуулбарлах»-ын хажуу дахь «Илүү ихийг харуулах» дээр товшоод, дахин товшиж хураана.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_4">Холбоосыг удаан дарж томоор харах, «Холбоосыг хуулах», «Хуваалцах» сонголтыг нээнэ.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_example">Энэ долоо хоногт репозиторт юу өөрчлөгдсөнийг агентаас асуугаарай</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_prompt">Миний ашигладаг GitHub репозиторт энэ долоо хоногт юу өөрчлөгдсөн бэ? Холбоосуудыг нь оруулаарай.</string>
+
+    <!-- 2026-10-13-01-rolling-numbers -->
+    <string name="settings_whatsnew_entry_rolling_numbers_title">Гүйлгэж солигдох тоонууд</string>
+    <string name="settings_whatsnew_entry_rolling_numbers_summary">Ар талын ажлын индикатор, сессийн самбар, «N ашигласан» мөрүүд болон «Шинэ зүйлсийг үзэх» дэх тоонууд цифр бүрээрээ гүйлгэж солигдоно.</string>
+
+    <!-- 2026-10-13-02-grouped-steering -->
+    <string name="settings_whatsnew_entry_grouped_steering_title">Бүлэглэсэн мессежүүд</string>
+    <string name="settings_whatsnew_entry_grouped_steering_summary">Дараалан илгээсэн мессежүүд нэг блок болж, агентыг хүлээж буй чиглүүлэх мессежүүд нэг «Чиглүүлж байна» шошготой харагдана.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_1">Дараалсан мессежийн хүрээнүүд ойрхон байрлаж, нийлсэн хэсгийн булангууд холбогдоно.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_2">Зураг, файлууд блок дотроо дугуй булантай хэвээр байна.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_3">Агент мессеж бүрийг хүлээн авахад тэр нь нэг хөдөлгөөнөөр дээшилж байрандаа орно.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_example">Агентыг ажиллаж байхад гурван мессеж дараалан илгээж, нэгд нь зураг хавсаргаарай</string>
+
+    <!-- 2026-10-13-03-inline-tool-rows -->
+    <string name="settings_whatsnew_entry_inline_tool_rows_title">Хэрэгсэл, асуултын энгийн мөрүүд</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_summary">Хэрэгслийн бүлэг болон хариулсан асуултууд код шиг бүтэн өргөнтэй хэсэгт дэлгэгдэж, дараалсан унших үйлдлүүд нэг мөрт нэгтгэгдэнэ.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_1">Хураасан бүлгүүд «N хэрэгсэл ашигласан» гэж харагдаж, амжилтгүй хэрэгслийн дуудлагыг улаанаар тэмдэглэнэ.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_2">«Ажиллуулах» мөрүүд скриптийн дуудсан хэрэгслүүдийн нэрийг, «Ур чадвар» мөрүүд ур чадварын нэрийг харуулна.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_3">Хариулсан асуултуудад асуултын текст болон бүх сонголт харагдаж, таны сонгосныг тэмдэглэнэ.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_example">Сесс дэх «N хэрэгсэл ашигласан» мөрийг товшиж дэлгэнэ үү</string>
+
+    <!-- 2026-10-13-04-mac-motion-playgrounds -->
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_title">Mac дээрх туршилтын удирдлага</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_summary">Хөгжүүлэгчийн горимыг асаагаад Mac-тайгаа тохируулгыг хослуулж, туршилтын хөдөлгөөнт дүрслэлийг удаашруулан давтаж, авсан кадруудыг шалгаарай.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_1">Mac-ийн тохируулгын хуудсанд туршилтын талбар сонгох, бэлэн тохиргоо, давтан тоглуулах удирдлага байна. Утас дээр зөвхөн туршилтын талбар харагдана.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_2">Авсаархан картууд дэлгэц дээрх удирдлагыг харуулна. Хөдөлгөөн, зайны нэрлэсэн бэлэн тохиргоо болон анхны байдлыг сэргээх «Үндсэн» сонголттой. Тохиргоо бүр бүх утгаа нэг дор шинэчилнэ.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_3">Mac холбогдоход хөвөгч тохируулгын самбар нуугдана. Тохируулгын дохио зангаагаар буцааж гаргаад, гарахын тулд «Туршилтын талбараас гарах»-ыг сонгоно уу.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_4">Бэлдсэн хувилбарууд ижил жишээ сессийг давтан тоглуулж, бүтээлтүүдийн хөдөлгөөнийг харьцуулах боломж олгоно.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_5">Давтан тоглуулах бүр шинээр эхэлж, чиглүүлэх болон дараалалд орсон мессежүүдийг хүлээлгэхгүйгээр дамжуулна.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_6">Mac-ийн хяналтын тоглуулагчаар бичиж авсан байрлал, хэмжээг алхам бүрээр шалгаж, кадр тэмдэглэн, хөдөлгөөнт дүрслэлийн талаар санал илгээж болно.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_example">Тохиргоо → Хөгжүүлэгчийг нээж, Mac-ийн тохируулгын хуудастай хослуулаад, Ярианы бичвэр → Хариултыг урсгалаар харуулахыг 0.25× хурдаар туршаарай</string>
+
+    <!-- 2026-10-13-05-catch-up-flicks -->
+    <string name="settings_whatsnew_entry_catch_up_flicks_title">«Шинэ зүйлсийг үзэх»-д шудрахад хялбар боллоо</string>
+    <string name="settings_whatsnew_entry_catch_up_flicks_summary">«Шинэ зүйлсийг үзэх»-д хурдан шудрах эсвэл богинохон чирэхэд карт буцаж ойхын оронд цааш шилжинэ.</string>
+
+    <!-- 2026-10-14-01-settings-grouped-by-purpose -->
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_title">Илүү ойлгомжтой тохиргоо</string>
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_summary">Туршилтын боломж, хөгжүүлэгчийн хэрэгслүүдийг Тохиргоо → Туршилтын хэсгээс, аппын мэдэгдлүүдийг «Мэдэгдэл»-ээс, дуудлагын түүхийг «Дуу хоолой»-гоос олоорой.</string>
+
+    <!-- 2026-10-14-02-send-ats-recovery -->
+    <string name="settings_whatsnew_entry_send_ats_recovery_title">Найдвартай илгээлт</string>
+    <string name="settings_whatsnew_entry_send_ats_recovery_summary">iOS хэвийн ажиллаж байсан серверийн холболтыг түр татгалзвал мессежийг автоматаар дахин илгээнэ.</string>
+
+    <!-- 2026-10-14-03-keyboard-menus-and-header -->
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_title">Илүү тогтвортой гар, цэс</string>
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_summary">Бичиж байхдаа + дээр товшиж, гарыг буулгахгүй, удирдлагыг хөдөлгөхгүйгээр хавсралтыг нээнэ. Гар хөдлөхөд толгой хэсгийн бүдэгрүүлэлт байрандаа үлдэнэ.</string>
+
+    <!-- 2026-10-14-04-open-links-in-apps -->
+    <string name="settings_whatsnew_entry_open_links_in_apps_title">Холбоосууд тохирох аппдаа нээгдэнэ</string>
+    <string name="settings_whatsnew_entry_open_links_in_apps_summary">Холбоос GitHub эсвэл YouTube зэрэг тохирох аппдаа нээгдэнэ. «Апп доторх хөтөч» туршилтыг асаасан бол холбоосыг удаан дараад «Аппын хөтөч дээр нээх»-ийг сонгоно уу.</string>
+
+    <!-- 2026-10-14-05-session-list-quiet-hierarchy -->
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_title">Сессийн жагсаалтыг харахад хялбар боллоо</string>
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_summary">Бэхэлсэн, Сүүлийн гарчгууд жижиг саарал бичвэртэй болж, уншаагүй болон хүлээж буй сессүүд хагас бүдүүнээр ялгарч, уншсан нь бага зэрэг бүдгэрнэ.</string>
+
+    <!-- 2026-10-14-06-queued-messages-fitted-sheet -->
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_title">Дарааллын мессежүүд цэгцтэй боллоо</string>
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_summary">Дарааллын мессежийн самбар дарааллынхаа хэмжээнд таарсан өндөртэй, дугаарласан мөрүүдтэй, мессежийг одоо илгээх эсвэл цуцлах даруухан товчлууруудтай боллоо.</string>
+
+    <!-- 2026-10-14-07-control-center-sessions -->
+    <string name="settings_whatsnew_entry_control_center_sessions_title">Сессийн шуурхай товчлуурууд</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_summary">Шуурхай тохиргоонд товчлуур нэмээд нэг товшилтоор сесс нээх эсвэл дуудлага эхлүүлээрэй.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_1">Шинэ «Сесс нээх» товчлуур таны сонгосон сессийг нээнэ.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_2">«Дуудлага эхлүүлэх» нь сонгосон эсвэл шинэ сесст дуудлага эхлүүлнэ. Өөрчлөхгүй бол хамгийн сүүлд үзсэн сесст дуудлага хийнэ.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_3">Бэхэлсэн болон сүүлийн сессүүдээсээ сонгоорой. Товчлуур дээр сессийн одоогийн гарчиг харагдана.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_4">Товчлуурууд зөвхөн аппыг нээнэ. Таныг ярих эсвэл бичих хүртэл юу ч илгээхгүй.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_example">Шуурхай тохиргоог нээгээд «Засварлах»-ыг товшиж, OpenCode-ийн «Сесс нээх» товчлуурыг чирж байрлуулаарай</string>
+
+    <!-- 2026-10-15-01-settings-keyboard-down -->
+    <string name="settings_whatsnew_entry_settings_keyboard_down_title">Гар тохиргоог халхлахгүй</string>
+    <string name="settings_whatsnew_entry_settings_keyboard_down_summary">Бичиж байхдаа хажуугийн цэснээс Тохиргоог нээхэд гар тохиргоог халхлахын оронд хураагдана.</string>
+
+    <!-- 2026-10-15-02-session-list-sidebar-grey -->
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_title">Сессийн жагсаалт зайтай боллоо</string>
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_summary">Сессийн жагсаалтын гарчиг томорч, Бэхэлсэн, Сүүлийн гэсэн саарал гарчгууд ч том, дээрээ илүү зайтай боллоо. Хажуугийн цэсийг нээж үзээрэй.</string>
+
+    <!-- 2026-10-15-03-voice-varied-acknowledgements -->
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_title">Дуудлагад «Шалгаж байна» гэж давтах нь багаслаа</string>
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_summary">Дуудлагын үеэр хүсэлт бүрд «Шалгаж байна» гэхийн оронд таны хэлсэнд тохируулан хариулна. Та үргэлжлүүлэн ярьж байхад хүсэлтийг давхар илгээхээ болилоо.</string>
+
+    <!-- 2026-10-15-04-smoother-streaming -->
+    <string name="settings_whatsnew_entry_smoother_streaming_title">Хариулт жигд гарч ирнэ</string>
+    <string name="settings_whatsnew_entry_smoother_streaming_summary">Хариултын шинэ мөр бүдгэрч, анивчихгүйгээр аажмаар гарч ирнэ. Мөрүүд текстээсээ хэтэрч сунаад буцаж агшихгүй. Жагсаалтын мөр, гарчгууд эхлээд зураас эсвэл чагт болж харагдалгүй шууд зөв хэлбэрээрээ гарна.</string>
+
+    <!-- 2026-10-15-05-model-list-sheet -->
+    <string name="settings_whatsnew_entry_model_list_sheet_title">Загварын жагсаалт самбартай боллоо</string>
+    <string name="settings_whatsnew_entry_model_list_sheet_summary">«Шинэ загвар сонгогч» туршилтыг асаавал гар хураагдаж, мессеж бичих хэсэг гарын оронд загварын самбар болж дэлгэгдэнэ. Хэчнээн хурдан нээж хаасан ч жигд хураагдана.</string>
+
+    <!-- 2026-10-15-06-queued-pill-whole-title -->
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_title">Дарааллын тоо бүтнээр харагдана</string>
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_summary">Мессеж бичих хэсгийн дээрх тэмдэглэгээ «2 дараалалд…» гэж тасрахын оронд «2 дараалалд орсон» гэж бүтнээр харагдана. Бусад хөдөлгөөнт тоолуурын тэмдэгтүүд ч тасрахгүй.</string>
+
+    <!-- 2026-10-16-01-plus-menu-photo-sheet -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_title">Гарын оронд зургууд</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_summary">«Шинэ нэмэх цэс» туршилтыг асаавал «Зургууд»-ыг сонгоход + цэс гарын оронд зургийн самбар болж дэлгэгдэнэ. + дээр удаан дарахад сүүлийн зургууд гарна. Нэг зураг руу гулсуулаад тавихад нэмэгдэнэ.</string>
+
+    <!-- 2026-10-16-02-composer-large-text-targets -->
+    <string name="settings_whatsnew_entry_composer_large_text_targets_title">Мессежийн товчлууруудыг товшиход хялбар</string>
+    <string name="settings_whatsnew_entry_composer_large_text_targets_summary">Текстийн хэмжээг томруулсан үед мессеж бичих хэсгийн товчлууруудыг товшиход хялбар боллоо.</string>
+
+    <!-- 2026-10-16-03-project-pick-haptic -->
+    <string name="settings_whatsnew_entry_project_pick_haptic_title">Төсөл солиход зөөлөн чичирнэ</string>
+    <string name="settings_whatsnew_entry_project_pick_haptic_summary">Шинэ сессийн төслийг мессеж бичих хэсгийн дээрээс эсвэл «Бүх төсөл»-өөс солиход зөөлөн чичирнэ.</string>
+
+    <!-- 2026-10-16-04-fork-opens-copy -->
+    <string name="settings_whatsnew_entry_fork_opens_copy_title">Салаалахад хуулбар нь нээгдэнэ</string>
+    <string name="settings_whatsnew_entry_fork_opens_copy_summary">Сессийн дэлгэрэнгүй дэх «Салаалах» үйлдэл хуулбарыг дахин нээдэг боллоо.</string>
+
+    <!-- 2026-10-16-05-transcript-row-targets -->
+    <string name="settings_whatsnew_entry_transcript_row_targets_title">Товшиход хялбар боллоо</string>
+    <string name="settings_whatsnew_entry_transcript_row_targets_summary">Сессийн самбарын гарчгийг товшиход хялбар боллоо. Мөн дуугаар бичүүлэх үед нуугдсан мессежийн товчлууруудыг VoiceOver, Voice Control сонгохоо болилоо.</string>
+
+    <!-- 2026-10-16-06-image-previews -->
+    <string name="settings_whatsnew_entry_image_previews_title">Зургийг урьдчилан үзэх</string>
+    <string name="settings_whatsnew_entry_image_previews_summary">Агентийн дурдсан зургуудыг янз бүрийн хэмжээтэй нүдэнд урьдчилан харуулж, файл байхгүй бол мэдэгдэнэ.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_1">Зургийг дурдсан догол мөрийн доор урьдчилан харуулна.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_2">Зургийг товшиж бүтэн дэлгэцээр нээгээд, шударч хариултын бусад зургийг үзээрэй.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_3">Сессийн фолдероос гаднах зургуудыг зөвхөн таныг товшиход ачаална.</string>
+    <string name="settings_whatsnew_entry_image_previews_example">Төслийнхөө дэлгэцийн зургуудыг харуулахыг агентаас хүсээрэй.</string>
+    <string name="settings_whatsnew_entry_image_previews_prompt">Энэ төслийн дэлгэцийн зургуудыг харуулаарай.</string>
+
+    <!-- 2026-10-16-07-connection-error-details -->
+    <string name="settings_whatsnew_entry_connection_error_details_title">Холболтын алдааны шалтгаан харагдана</string>
+    <string name="settings_whatsnew_entry_connection_error_details_summary">Холболтын алдаанд алдааны код, холбогдохыг оролдсон хаяг, DNS-ийн үр дүн харагдана. tailnet нэр Tailscale-ээс гаднах хаягт заавал тусламж өгнө.</string>
+
+    <!-- 2026-10-16-08-outage-reconnect-delay -->
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_title">Хурдан дахин холбогдоно</string>
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_summary">Тасалдлын дараа сервер эргэн ажиллахад сессүүд илүү хурдан шинэчлэгдэнэ.</string>
+
+    <!-- 2026-10-17-01-every-running-subagent -->
+    <string name="settings_whatsnew_entry_every_running_subagent_title">Ажиллаж буй бүх дэд агент</string>
+    <string name="settings_whatsnew_entry_every_running_subagent_summary">Мессеж бичих хэсгийн дээрх дэд агентын тоонд бусад дэд агентын доторх болон 100-аас олон дэд агенттай сессийнх ч багтаж, TUI-тай ижил тоо харуулна.</string>
+
+    <!-- 2026-10-17-02-session-view-refined-standard -->
+    <string name="settings_whatsnew_entry_session_view_refined_standard_title">Хариултын бичвэр илүү тодорхой боллоо</string>
+    <string name="settings_whatsnew_entry_session_view_refined_standard_summary">3-р түвшний гарчгууд бүдүүн бичвэрээс томорч, энгийн бичвэр бага зэрэг бүдгэрснээр бүдүүн бичвэр илүү ялгарна. Догол мөр, кодын блокуудын зай ч бага зэрэг нэмэгдлээ.</string>
+
+    <!-- 2026-10-17-03-bottom-follow-on-load -->
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_title">Доод хэсэгт хэвээр үлдэнэ</string>
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_summary">Хоцорч ирсэн агуулга ачаалагдах үед сессийн харагдац доод хэсэгтээ хэвээр байна.</string>
+
+    <!-- 2026-10-17-04-drafts-stay-put -->
+    <string name="settings_whatsnew_entry_drafts_stay_put_title">Нооргууд хадгалагдана</string>
+    <string name="settings_whatsnew_entry_drafts_stay_put_summary">Апп цаана ажиллаж байгаад хаагдсан ч ноорог, хавсаргасан зураг, байршил болон илгээхээр хүлээж буй мессежүүд хэвээр үлдэнэ.</string>
+
+    <!-- 2026-10-18-01-themes -->
+    <string name="settings_whatsnew_entry_themes_title">Сэдвүүд</string>
+    <string name="settings_whatsnew_entry_themes_summary">Сессүүддээ Tokyo Night, Catppuccin, Dracula, Rosé Pine эсвэл GitHub зэрэг сэдэв сонгоорой. Сэдвүүдийг үзэх явцдаа шууд туршиж харна.</string>
+    <string name="settings_whatsnew_entry_themes_detail_1">Сэдэв нь ярианы бичвэр, таны мессеж, код, синтакс, ялгаа болон холбоосын өнгийг өөрчилнө.</string>
+    <string name="settings_whatsnew_entry_themes_detail_2">Гадаад төрх дэх Горимоос Гэрэл, Харанхуй эсвэл Системийг сонгоно.</string>
+    <string name="settings_whatsnew_entry_themes_detail_3">Удирдлагын элементүүд бүх сэдэвт үндсэн Liquid Glass төрхөө хадгална.</string>
+    <string name="settings_whatsnew_entry_themes_example">Тохиргоо → Гадаад төрх → Сэдэв рүү ороод Tokyo Night-ийг туршаарай.</string>
+
+    <!-- 2026-10-18-02-return-key-sends -->
+    <string name="settings_whatsnew_entry_return_key_sends_title">Return товчлуурын тохиргоо</string>
+    <string name="settings_whatsnew_entry_return_key_sends_summary">Return дарж шинэ мөр нэмэхийг хүсвэл Тохиргоо дотроос «Return дарж илгээх»-ийг унтраагаарай. Эсвэл биет гар дээр Command-Return, Shift-Return ашиглаарай.</string>
+
+    <!-- 2026-10-18-03-quote-replies -->
+    <string name="settings_whatsnew_entry_quote_replies_title">Хариултаас эшлэх</string>
+    <string name="settings_whatsnew_entry_quote_replies_summary">Туслахын хариултаас текст сонгоод «Эшлэх» дээр товшвол мессежид тань эшлэлийн карт болж нэмэгдэнэ.</string>
+
+    <!-- 2026-10-18-04-launch-bloom -->
+    <string name="settings_whatsnew_entry_launch_bloom_title">Нээх үеийн дэлгэгдэх хөдөлгөөн</string>
+    <string name="settings_whatsnew_entry_launch_bloom_summary">Аппыг шинээр нээхэд OpenCode тэмдэг агшиж, дараа нь дэлгэгдэн таны сессийг нээнэ.</string>
+
+    <!-- 2026-10-18-05-drag-to-pin -->
+    <string name="settings_whatsnew_entry_drag_to_pin_title">Сессийг чирж бэхлэх</string>
+    <string name="settings_whatsnew_entry_drag_to_pin_summary">Сессийг удаан дараад «Бэхэлсэн» хэсэг рүү дээш чирж тухайн байрлалд бэхлээрэй. Бэхэлгээг авахын тулд «Сүүлийн» хэсэг рүү доош чирнэ үү.</string>
+
+    <!-- 2026-10-19-01-call-tray-colour-blend -->
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_title">Дуудлагын товчны зөөлөн шилжилт</string>
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_summary">«Дуудлагын самбар» туршилтыг асаасан үед дуудлага эхлэхэд товч нь арын дэвсгэрээр анивчихгүйгээр улаан «Дуусгах» товч руу зөөлөн шилжиж, дуусахад буцаж хувирна.</string>
+
+    <!-- 2026-10-19-02-optical-insets -->
+    <string name="settings_whatsnew_entry_optical_insets_title">Жигд байрласан товчнууд</string>
+    <string name="settings_whatsnew_entry_optical_insets_summary">Мессеж бичих хэсгийн +, микрофон, ард ажиллаж буй болон дараалалд орсон ажлын тэмдэг, хажуугийн цэсний «Шинэ сесс» тэмдэг нь шилэн хүрээний дугуй үзүүрт харагдах байдлаараа голлолоо. Shell-ийн тэмдэг анивчдаг курсоргүй болж, дэд агентын бөмбөлөг шиг дугуй боллоо. Хоёулаа ажиллаж байвал зэрэгцэн харагдана.</string>
+
+    <!-- 2026-10-19-03-smart-dictation-audio -->
+    <string name="settings_whatsnew_entry_smart_dictation_audio_title">Хөгжимтэй үед саадгүй хэлж бичүүлэх</string>
+    <string name="settings_whatsnew_entry_smart_dictation_audio_summary">Хөгжим сонсонгоо хэлж бичүүлэхэд AirPods дээр стерео дуу хэвээр үргэлжилж, минутын дараа тасалдахгүй. Зөвхөн утас ашиглахад хөгжим чихний чанга яригч руу шилжилгүй, үндсэн чанга яригчаар тоглоно.</string>
+
+    <!-- 2026-10-19-04-interrupted-hand -->
+    <string name="settings_whatsnew_entry_interrupted_hand_title">Тасалдсаныг гарын тэмдгээр харуулах</string>
+    <string name="settings_whatsnew_entry_interrupted_hand_summary">Тасалдсан ажил болон shell одоо өргөсөн гарын тэмдэгтэй харагдана. Таны зогсоосон shell дээр «Зогссон» биш «Тасалдсан» гэж гарна.</string>
+
+    <!-- 2026-10-19-05-autocomplete-fast-scroll -->
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_title">Илүү хурдан автомат гүйцээлт</string>
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_summary">«Мессежийн автомат гүйцээлт» туршилтыг асаасан үед санал болгох үгс бичих хурдыг тань даган шинэчлэгдэнэ. Жагсаалтыг чирэхэд мөр сонгогдохгүй, зөвхөн гүйлгэнэ.</string>
+
+    <!-- 2026-10-19-06-experimental-groups -->
+    <string name="settings_whatsnew_entry_experimental_groups_title">Бүлэглэсэн туршилтууд</string>
+    <string name="settings_whatsnew_entry_experimental_groups_summary">Тохиргоо → Туршилтын хэсгийн туршилтуудыг бүлэглэлээ. Дуудлагын тохиргоог «Дуудлагын хэв маяг» гэсэн нэг сонголтод нэгтгэлээ.</string>
+
+    <!-- 2026-10-19-07-model-picker-standard-sheet -->
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_title">Загвар сонгох стандарт самбар</string>
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_summary">«Шинэ загвар сонгогч» туршилтыг асаавал мессеж бичих хэсгийн загварыг товшиход стандарт самбар нээгдэнэ. Загвар бүр бодолтын түвшин сонгох цэстэй. Өмнөх сонгогч нь Тохиргоо › Туршилтын хэсэгт «Тусгай загвар сонгогч» нэртэй боллоо.</string>
+
+    <!-- 2026-10-19-08-problem-reports-reach-session -->
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_title">Асуудлын мэдээлэл сессэд очно</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_summary">«Асуудал мэдээлэх» нь одоо таны тайлбарыг тухайн сесс рүү мөн илгээнэ. Агент унших боломжтойгоор бүрэн тайланг хавсаргана.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_1">Мессежийн эхэнд асуудлын мэдээлэл гэсэн мөр, таны тайлбар, тайлангийн ID болон байршуулсан мөрдөлтийн холбоос орно.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_2">Төхөөрөмж, аппын хувилбар, дэлгэц, цагийн шугам, аппын бүртгэл нь таны өөрөө хавсаргасан файл шиг хавсралтаар очно.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_3">Гэр хэсгээс илгээвэл хамгийн сүүлийн сессэд тань очно.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_4">Байршуулж чадаагүй ч тайлбар, хураангуй нь очиж, алдааг мэдэгдэнэ. «Дахин оролдох»-ыг товшвол зөвхөн мөрдөлтийн холбоосыг илгээнэ.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_5">Хүрсэн үед «Сесс рүү илгээлээ» гэсэн баталгаа харагдана.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_example">Сессийн цэсийг нээгээд «Асуудал мэдээлэх»-ийг сонгож, тайлбар нэмээд «Илгээх»-ийг товшино уу</string>
+
+    <!-- 2026-10-19-09-team-scrawl-feedback -->
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_title">Scrawl-аар багт санал илгээх</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_summary">Хувийн холбоосоороо «Багийн санал хүсэлт»-д нэгдэж, гурван хуруугаар эхлүүлсэн Scrawl бичлэг болон нууц мэдээллийг халхалсан оношилгоог «Асуудлууд» самбарын нэгдсэн дараалал руу илгээгээрэй.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_1">opencode://team/join холбоосоо нээгээд ямар мэдээлэл цуглуулахыг шалгаж, зөвшөөрнө үү.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_2">Гурван алхамтай интерактив заавар нь гурван хуруугаар удаан дарах, ярьж зурах, туршилтын бичлэгийг шалгах хэсэг рүү илгээхийг заана.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_3">Бичлэг бүрт «Асуудал мэдээлэх»-тэй адил нууц мэдээллийг халхалсан цагийн шугам, аппын бүртгэл, Motion Watch оношилгоо хавсаргана.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_4">Тохиргоо › Хөгжүүлэгч хэсгээс зааврыг дахин үзэх эсвэл «Багийн санал хүсэлт»-ээс хүссэн үедээ гарах боломжтой.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_example">Тохиргоо › Хөгжүүлэгч хэсгийг нээж «Багийн санал хүсэлт»-ийн төлөвөө шалгах эсвэл зааврыг дахин үзээрэй.</string>
+
+    <!-- 2026-10-19-10-scrawl-faster-start -->
+    <string name="settings_whatsnew_entry_scrawl_faster_start_title">Scrawl илүү хурдан эхэлнэ</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_summary">Микрофон болон бичигч асаж байх зуур Scrawl-ийн товчнууд гарч ирнэ.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_1">Бичлэг бэлэн болох зуур «Зурах», «Илгээх», «Хаях»-ыг товшсон үйлдлүүд хадгалагдана.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_2">Гурван хуруугаар удаан дарахад микрофоныг эрт асаахгүйгээр давхаргыг бэлдэнэ.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_3">Дууны оролт, гаралт солигдох үед Scrawl-ийн микрофон дахин асахад апп гацаж хаагддагийг заслаа.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_example">Хослуулсан төхөөрөмж дээр гурван хуруугаар удаан дарж бичлэг эхлүүлээрэй</string>
+
+    <!-- 2026-10-20-01-call-tray-docks-in-drawer -->
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_title">Хажуугийн цэс дэх дуудлагын самбар</string>
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_summary">«Дуудлагын самбар» туршилтыг асаасан үед дуудлагын үеэр хажуугийн цэс нээвэл самбар «Шинэ сесс»-ийн доор шилжинэ. Дууны түвшин, «Дуу хаах», «Дуусгах» товчнууд хамт шилжиж, цэсийг хаахад буцаж ирнэ.</string>
+
+    <!-- 2026-10-20-02-markdown-streams-smoothly -->
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_title">Хариулт илүү жигд гарна</string>
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_summary">Урт хариулт ирэх явцдаа ч хурдан харагдана. Бичигдэж дуусаагүй тод текст, код, холбоос ч түүхий Markdown биш, хэлбэржсэн байдлаар гарна.</string>
+
+    <!-- 2026-10-20-04-return-newline-default -->
+    <string name="settings_whatsnew_entry_return_newline_default_title">Return шинэ мөр нэмнэ</string>
+    <string name="settings_whatsnew_entry_return_newline_default_summary">Return одоо өгөгдмөлөөр шинэ мөр нэмнэ. Return-ээр илгээхийн тулд Тохиргоо › Хурал хэсэгт «Return товчоор илгээх»-ийг асаах эсвэл гадаад гар дээр Ctrl+Enter ашиглаарай.</string>
+
+    <!-- 2026-10-20-05-drawer-session-alignment -->
+    <string name="settings_whatsnew_entry_drawer_session_alignment_title">Хажуугийн цэсний жигд байрлал</string>
+    <string name="settings_whatsnew_entry_drawer_session_alignment_summary">Утас, таблет дээр «Хайх», «Шинэ сесс», «Тохиргоо» нь сессийн толгой хэсэг болон мессеж бичих хэсэгтэй зэрэгцэн байрлана.</string>
+
+    <!-- 2026-10-20-06-call-tray-switch-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_title">Дуудлагын тогтвортой товчнууд</string>
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_summary">Сесс солиход дуудлагын дууны долгион хөдөлсөөр байх бөгөөд сессийн жагсаалтыг нээхэд товчнуудын өндөр өөрчлөгдөхгүй.</string>
+
+    <!-- 2026-10-20-07-voice-delegation-visible-on-admission -->
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_title">Дуут мессеж шууд харагдана</string>
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_summary">Дуу хоолойгоор сесс рүү илгээсэн мессежүүдийг сервер хүлээн авмагц харагдана. Сессийн шинэчлэлт саатсан ч хүлээхгүй.</string>
+
+    <!-- 2026-10-20-08-inline-image-links -->
+    <string name="settings_whatsnew_entry_inline_image_links_title">Зургийн холбоосыг урьдчилан үзэх</string>
+    <string name="settings_whatsnew_entry_inline_image_links_summary">Хариулт дахь холбоостой зургуудыг харахын тулд Тохиргоо › Туршилтын › Ярианы бичвэр хэсэгт «Зургийн холбоосыг урьдчилан үзэх»-ийг асаагаарай. Жижиг зургийг товшиж бүтэн дэлгэцээр нээгээд томруулж болно.</string>
+
+    <!-- 2026-10-20-09-smooth-link-preview-arrival -->
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_title">Холбоосын зөөлөн шилжилт</string>
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_summary">Холбоосын урьдчилсан харагдац ачаалагдахдаа аажмаар тодорно. Гарчгийн өндөр өөрчлөгдөхөд доорх мөрүүд жигд шилжинэ.</string>
+
+    <!-- 2026-10-20-10-subagent-capsule-press -->
+    <string name="settings_whatsnew_entry_subagent_capsule_press_title">Бөөрөнхий үйл ажиллагааны талбар</string>
+    <string name="settings_whatsnew_entry_subagent_capsule_press_summary">Дэд агент болон shell-ийн талбарыг дарахад ч үзүүрүүд нь бөөрөнхий хэвээр байна.</string>
+
+    <!-- 2026-10-20-11-advanced-settings-open -->
+    <string name="settings_whatsnew_entry_advanced_settings_open_title">Илүү энгийн нарийвчилсан тохиргоо</string>
+    <string name="settings_whatsnew_entry_advanced_settings_open_summary">Тохиргоо › Туршилтын хэсгийн бүх бүлэг дэлгээстэй болж, загвар сонгогчдыг «Загвар сонгогч» гэсэн нэг сонголтод нэгтгэлээ. Сонголтыг өөрчлөхдөө мөрийнх нь хаана ч товшиж болно.</string>
+
+    <!-- 2026-10-20-12-revert-to-here -->
+    <string name="settings_whatsnew_entry_revert_to_here_title">Мессежийг буцаах</string>
+    <string name="settings_whatsnew_entry_revert_to_here_summary">Мессежээ удаан дараад «Мессежийг буцаах»-ыг сонгож, тэр үе рүү буцан засварлаарай.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_1">Мессежийн текст, зураг, файлууд бичих талбарт буцаж орно.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_2">Шинэ мессеж илгээх хүртэл «Буцаах»-ыг дарж харилцан яриа болон файлын өөрчлөлтүүдийг сэргээж болно.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_3">Агент ажиллаагүй үед энэ сонголт гарна.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_example">Өмнө илгээсэн мессежээ удаан дараад «Мессежийг буцаах»-ыг сонгоорой.</string>
+
+    <!-- 2026-10-20-13-drag-from-transcript -->
+    <string name="settings_whatsnew_entry_drag_from_transcript_title">Сессээс чирэх</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_summary">Сесс доторх код, зураг, файл, холбоос, мессежийг удаан дараад өөр апп руу чирээрэй.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_1">Кодын блокууд хэлнийхээ тэмдэглэгээтэй текст болж очно.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_2">Агентын үүсгэсэн зураг, файлууд файл хэлбэрээр очно.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_3">Аль нэгийг нь бичих талбарт тавьж хавсаргах эсвэл буулгаж болно.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_4">Гүйлгэх, текст сонгох, цэс ашиглах нь хэвээрээ.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_example">Хариултаас кодын нэг мөрийг сонгоод, сонгосон хэсгээ удаан дарж блокийг Notes руу чирээрэй.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_prompt">Тэмдэгт мөрийг урвуулах богино Swift функц бичээд кодын блокт оруул.</string>
+
+    <!-- 2026-10-20-14-tuning-glass-tap-targets -->
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_title">Тохируулахад илүү хялбар</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_summary">Хураасан тохируулгын товч болон захын табын товших талбай томорлоо.</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_detail_1">Шилэн гадаргуугийн харагдах хэмжээ хэвээрээ.</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_example">Тохируулгын самбарыг хураагаад товч эсвэл табынх нь зах орчимд товшоорой</string>
+
+    <!-- 2026-10-20-15-new-session-project-continuity -->
+    <string name="settings_whatsnew_entry_new_session_project_continuity_title">Төсөл сонгох нь тогтвортой боллоо</string>
+    <string name="settings_whatsnew_entry_new_session_project_continuity_summary">Төсөл сонгоход сүүлийн фолдерууд байраа хадгалж, толгой хэсгийн нэр зөөлөн солигдоно. Төслийн самбарт фолдерын замууд илүү тодорхой харагдана.</string>
+
+    <!-- 2026-10-20-16-simple-session-loading -->
+    <string name="settings_whatsnew_entry_simple_session_loading_title">Сесс ачаалах нь даруухан боллоо</string>
+    <string name="settings_whatsnew_entry_simple_session_loading_summary">Сесс ачаалахад удвал жижиг, хөдөлгөөнгүй лого аажмаар гарч ирээд, мессежүүдээр солигдон бүдгэрч алга болно.</string>
+
+    <!-- 2026-10-20-17-voice-route-consistency -->
+    <string name="settings_whatsnew_entry_voice_route_consistency_title">Дуут холболтын засварууд</string>
+    <string name="settings_whatsnew_entry_voice_route_consistency_summary">Сервер дуудлагыг ажиллуулахад Grok таны xAI түлхүүрийг үргэлжлүүлэн ашиглаж, Gemini өөрийгөө зөв танилцуулна.</string>
+
+    <!-- 2026-10-20-18-call-tray-edge-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_title">Дуудлагын самбарын хөдөлгөөн</string>
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_summary">Дуудлагын самбар нээгдэх, хажуугийн цэс рүү орох эсвэл гарах үед дууны долгион нь дугуйрсан ирмэгээ даган хөдөлнө.</string>
+
+    <!-- 2026-10-21-01-call-tray-keyboard-return -->
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_title">Дуудлагын самбар буцаж харагдах</string>
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_summary">Хажуугийн цэс хаагдаж, гар дахин гарч ирэхэд дуудлагын самбар харагдсаар байна.</string>
+
+    <!-- 2026-10-21-02-drawer-title-fade -->
+    <string name="settings_whatsnew_entry_drawer_title_fade_title">Сессийн гарчиг илүү бүтэн харагдана</string>
+    <string name="settings_whatsnew_entry_drawer_title_fade_summary">Хажуугийн цэсэн дэх урт гарчгууд эрт тасарч цуваа цэгээр төгсөхийн оронд зах хүртэл үргэлжлээд бүдгэрнэ.</string>
+
+    <!-- 2026-10-21-03-call-sounds-from-the-tap -->
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_title">Дуудлагын дуу хурдан эхэлнэ</string>
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_summary">Дуудлага холбогдох дохио товшсоноос хэдэн секундын дараа биш, эхний хөдөлгөөнтэй зэрэг дуугарна.</string>
+
+    <!-- 2026-10-21-04-calm-wireframe-launch -->
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_title">Ачаалалт илүү тайван боллоо</string>
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_summary">Кэшилсэн сесс шууд нээгдэнэ. Ачаалахад удвал лугших мессежийн дүрсүүд гарч, аажмаар таны мессежүүдээр солигдоно.</string>
+
+    <!-- 2026-10-21-05-request-dictation-last-line -->
+    <string name="settings_whatsnew_entry_request_dictation_last_line_title">Дуугаар бичсэн текстийн төгсгөл харагдана</string>
+    <string name="settings_whatsnew_entry_request_dictation_last_line_summary">iOS 26 дээр хүлээгдэж буй хүсэлтийн хариулах талбарт удаан ярьж бичээд зогсооход текстийн дунд хэсэг биш, сүүлийн мөрүүд харагдана.</string>
+
+    <!-- 2026-10-21-06-first-run-pairing-fixes -->
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_title">Анх хослуулах нь илүү ойлгомжтой</string>
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_summary">Түр санах ой хоосон үед буулгахыг оролдвол «Буулгах»-ын хажууд мэдэгдэнэ. Мөн анхны тохиргоонд хагас минутын дотор алсаас хандах боломжтой болно гэж амлахаа болилоо.</string>
+
+    <!-- 2026-10-21-07-welcome-pairing-copy -->
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_title">OpenCode апп дотроос хослуулах</string>
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_summary">Эхлэх дэлгэц компьютерын OpenCode доторх Тохиргоо → Хослуулж байна хэсэг эсвэл терминалын /pair тушаалыг зааж өгнө. OpenCode суулгаагүй бол суулгах тушаал ч бий.</string>
+
+    <!-- 2026-10-21-08-session-id-links -->
+    <string name="settings_whatsnew_entry_session_id_links_title">Сессийн холбоосууд</string>
+    <string name="settings_whatsnew_entry_session_id_links_summary">Хариулт дахь сессийн ID нь тухайн сессийн гарчгаар харагдана. Товшоод сессийг нээгээрэй.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_1">Дэд агентын ID-г товшиход одоогийн сессийн дээр нээгдэнэ. «Буцах»-ыг дарж буцна.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_2">Удаан дарж ID-г нь хуулна.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_3">Энэ серверт байхгүй ID хураангуй харагдана.</string>
+    <string name="settings_whatsnew_entry_session_id_links_example">Өөр сессийг ID-гаар нь дурдахыг агентаас хүсээд гарчгийг нь товшоорой.</string>
+    <string name="settings_whatsnew_entry_session_id_links_prompt">Миний хамгийн сүүлийн таван OpenCode сессийг ID-тай нь жагсаа.</string>
+
+    <!-- 2026-10-21-10-ipad-multiple-windows -->
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_title">Таблет дээр олон цонх</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_summary">Таблет дээр сессүүдийг тусдаа цонхонд нээж, хоёрыг зэрэгцүүлэн ашиглаарай.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_1">Хажуугийн цэсэн дэх сессийг удаан дараад «Шинэ цонхонд нээх»-ийг сонгоорой.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_2">Цонх бүр өөрийн сесс, хажуугийн цэс, бичих талбартай.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_3">Бэхэлсэн болон уншсан сессүүд, серверүүд бүх цонхонд ижил байна.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_4">Цонхнууд өмнө нь харуулж байсан сессээрээ дахин нээгдэнэ.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_example">Хажуугийн цэсэн дэх сессийг удаан дараад «Шинэ цонхонд нээх»-ийг сонгож, эхний цонхны хажууд байрлуулаарай.</string>
+
+    <!-- 2026-10-21-11-plain-launch -->
+    <string name="settings_whatsnew_entry_plain_launch_title">Энгийн эхлэл</string>
+    <string name="settings_whatsnew_entry_plain_launch_summary">OpenCode энгийн дэлгэцээр нээгдэж, сесс бэлэн болмогц шууд шилжинэ. Ачаалах хөдөлгөөнт дүрсгүй.</string>
+
+    <!-- 2026-10-21-12-breath-ping-call-sounds -->
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_title">Дуудлагын дуу зөөлөн боллоо</string>
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_summary">Дуудлага холбогдох, дохио өгөх, тасрах үед ярианд саад болохгүй, амьсгал мэт зөөлөн дуу гарна.</string>
+
+    <!-- 2026-10-21-13-smoother-session-list -->
+    <string name="settings_whatsnew_entry_smoother_session_list_title">Сессийн жагсаалт илүү жигд боллоо</string>
+    <string name="settings_whatsnew_entry_smoother_session_list_summary">Сессүүд ажиллаж байх үед хажуугийн цэсний сессийн жагсаалт жигд гүйнэ. Сессийг удаан дарахад мөрийн хэмжээ өөрчлөгдөхгүйгээр цэс нь нээгдэнэ.</string>
+
+    <!-- 2026-10-22-01-whats-new-actions -->
+    <string name="settings_whatsnew_entry_whats_new_actions_title">Шинэ зүйлсээс нээж, турших</string>
+    <string name="settings_whatsnew_entry_whats_new_actions_summary">Шинэ зүйлсийн хуудас бүрд Сэдвүүд зэрэг холбогдох тохиргоог нээх эсвэл турших промптыг бэлдсэн шинэ сесс эхлүүлэх товч бий.</string>
+
+    <!-- 2026-10-22-02-project-icons-current-discovery -->
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_title">Төслийн дүрсний засвар</string>
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_summary">Төслийн дүрсийг асаасан үед серверийн Icon Composer багцаас олсон дүрсүүд мөн хажуугийн цэсэнд харагдана.</string>
+
+    <!-- 2026-10-22-03-new-divider-off-page -->
+    <string name="settings_whatsnew_entry_new_divider_off_page_title">Хэрэгтэй үед л «Шинэ»</string>
+    <string name="settings_whatsnew_entry_new_divider_off_page_summary">Шинэ мессежийн зааг туршилтыг асаасан үед шинээр ирсэн зүйлс дэлгэцэд багтахгүй байвал л «Шинэ» тэмдэг гарна.</string>
+
+    <!-- 2026-10-22-04-catch-up-all-caught-up-row -->
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_title">Бүгдийг үзлээ</string>
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_summary">Шинэ зүйлсийг үзэх хэсгийн сүүлийн сессийг уншихад хажуугийн цэс рүү шууд буцна. Тэнд Шинэ зүйлсийг үзэх нь «Бүгдийг үзлээ» гэж тэмдэглэгдэнэ.</string>
+
+    <!-- 2026-10-23-01-session-mentions -->
+    <string name="settings_whatsnew_entry_session_mentions_title">Сесс дурдах</string>
+    <string name="settings_whatsnew_entry_session_mentions_summary">Мессеж бичих хэсгийн автомат гүйцээлт туршилтыг асаасан үед компьютер дээрх шиг @ бичээд өөр сессийг гарчгаар нь дурдаж болно.</string>
+
+    <!-- 2026-10-23-02-gpt-live-own-key -->
+    <string name="settings_whatsnew_entry_gpt_live_own_key_title">GPT-Live түлхүүрүүд</string>
+    <string name="settings_whatsnew_entry_gpt_live_own_key_summary">GPT-Live дуудлагад өөрийн OpenAI түлхүүр, серверийн OpenAI түлхүүр эсвэл серверийн OpenCode Console холболтыг ашиглаж болно.</string>
+
+    <!-- 2026-10-23-03-pair-opens-drawer -->
+    <string name="settings_whatsnew_entry_pair_opens_drawer_title">Орхисон газраасаа үргэлжлүүлэх</string>
+    <string name="settings_whatsnew_entry_pair_opens_drawer_summary">Шинэ компьютер хослуулсны дараа хоосон сесс харуулахын оронд хажуугийн цэсэнд тухайн компьютерийн сүүлийн сессүүд нээгдэж, сонгох боломжтой болно.</string>
+
+    <!-- 2026-10-23-04-voice-server-picker -->
+    <string name="settings_whatsnew_entry_voice_server_picker_title">Дуут дуудлагын сервер сонгох</string>
+    <string name="settings_whatsnew_entry_voice_server_picker_summary">Тохиргоо › Дуу хоолой › Дуу хоолойн үйлчилгээ үзүүлэгч хэсгээс дуудлагаа дамжуулах хадгалсан сервер эсвэл энэ утсан дээрх өөрийн OpenAI бүртгэлийг сонгоорой.</string>
+
+    <!-- 2026-10-24-01-living-orb-floats -->
+    <string name="settings_whatsnew_entry_living_orb_floats_title">Амьд бөмбөлөг бүх дэлгэцэд</string>
+    <string name="settings_whatsnew_entry_living_orb_floats_summary">Амьд бөмбөлөг нь одоо Тохиргоо › Туршилтын › Дуудлага хэсгийн хөвөгч Дуудлагын хэв маяг боллоо. Илүү том болж, Тохиргоо болон бүх дэлгэцийн дээр харагдана. Хоёр талын дууг даган хөдөлж, зэрэг ярихад тус бүр өөр өнгөтэй байна. Товшиж карт болгон томруулж, дээш чирж бүтэн дуудлага болон ярианы бичвэрийг хараад, доош чирж буцаан жижигрүүлээрэй. Дуудлагын хэв маягийн доорх Бөмбөлөг хэсгээс харагдах байдлыг нь өөрчилнө.</string>
+
+    <!-- 2026-10-24-02-new-messages-divider-on -->
+    <string name="settings_whatsnew_entry_new_messages_divider_on_title">Шинэ мессежийн зааг</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_summary">Таныг эзгүй байхад ирсэн хариулт дэлгэцээс урт бол сессийг нээхэд хариултын эхэнд «Шинэ» зааг харагдана.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_1">Дэлгэцэд багтах хариулт зааггүйгээр төгсгөлдөө нээгдэнэ.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_2">Таныг харж байхад ирж буй хариултад тэмдэг тавихгүй.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_3">Төгсгөл хүртэл уншихад зааг арилна.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_4">Тохиргоо › Хурал хэсгээс унтрааж болно.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_example">Урт хариулт хүсээд, дуусах хүртэл нь өөр апп руу шилжиж, дараа нь буцаж ирээрэй.</string>
+
+    <!-- 2026-10-24-03-composer-keyboard-morph -->
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_title">Бичих хэсэг гарыг дагана</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_summary">Мессеж бичих хэсгийн товчлуурууд дэлгэцийн гартай хамт нээгдэж, дээш доош чирэхэд нь даган хөдөлнө.</string>
+
+    <!-- 2026-10-24-04-composer-photo-viewer -->
+    <string name="settings_whatsnew_entry_composer_photo_viewer_title">Бичих хэсгийн зургийг бүтэн дэлгэцээр</string>
+    <string name="settings_whatsnew_entry_composer_photo_viewer_summary">Мессеж бичих хэсэгт байгаа зургийг товшиж бүтэн дэлгэцээр харах, шударч бусад зургийг үзэх, илгээхээсээ өмнө арилгах боломжтой.</string>
+
+    <!-- 2026-10-24-05-plus-menu-photo-picker -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_title">Шинэ зураг сонгогч</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_summary">Тохиргоо › Туршилтын › Мессеж бичих хэсэг дэх Шинэ нэмэх цэсийг асаагаарай. + цэснээс сүүлийн 8 хүртэлх зураг сонгож, Бүх зураг хэсгийг үзэх боломжтой. Зургууд бичих хэсэг рүү, дараа нь сесс рүү нисэж орохыг хараарай.</string>
+
+    <!-- 2026-10-24-06-project-icons-lit -->
+    <string name="settings_whatsnew_entry_project_icons_lit_title">Гэрэлтсэн төслийн дүрсүүд</string>
+    <string name="settings_whatsnew_entry_project_icons_lit_summary">Төслийн дүрсийг асаасан үед хажуугийн цэсний дүрсүүд дээрээс тусах зөөлөн гэрэл, нимгэн шилэн ирмэг, бүдэг сүүдэртэй харагдана.</string>
+
+    <!-- 2026-10-24-07-session-live-activity -->
+    <string name="settings_whatsnew_entry_session_live_activity_title">Сессийн шууд шинэчлэлт</string>
+    <string name="settings_whatsnew_entry_session_live_activity_summary">Тохиргоо › Туршилтын › Хажуугийн цэс дэх Сессийн шууд шинэчлэлтийг асаагаарай. Илгээсэн ажлаа дуусах эсвэл таны оролцоо хэрэг болох хүртэл нь шууд мэдэгдлээс, мөн түгжээтэй дэлгэцээс хянах боломжтой.</string>
+
+    <!-- 2026-10-24-08-sign-in-failed-edit-server -->
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_title">Нэвтрэх алдааг засах</string>
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_summary">Сервер нууц үгийг тань хүлээж авахгүй бол хажуугийн цэсний серверийн цэсэнд үр дүнгүй Дахин оролдохын оронд Сервер засах… гарна. Угтах дэлгэц одоо терминалд opencode pair --remote ажиллуулахыг заана.</string>
+
+    <!-- 2026-10-25-01-voice-app-screenshot -->
+    <string name="settings_whatsnew_entry_voice_app_screenshot_title">Дуугаар дэлгэцийн зураг авах</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_summary">Дуут дуудлагын үеэр «үүнийг хараач» гэж хэлэхэд аппын дэлгэцийн зураг таны саналын хамт сесс рүү илгээгдэнэ.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_1">Зөвхөн аппын өөрийн дэлгэцийн зургийг дэлгэцийн нэр, дуудлага болон аппын төлөвийн хамт илгээнэ.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_2">Дуудлагын бүртгэл эсвэл аппын сүүлийн бүртгэлийг хамт илгээхийг хүсэж болно. Хаяг болон нэвтрэх мэдээллийг нууна.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_3">Нэвтрэх дэлгэц эсвэл нууц үгийн талбар харагдаж байвал зураг авахгүй.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_example">Дуут дуудлагын үеэр «дэлгэцийн зураг аваарай, энэ мөрийн байрлал зөрсөн байна» гэж хэлээрэй</string>
+
+    <!-- 2026-10-25-02-voice-background-results -->
+    <string name="settings_whatsnew_entry_voice_background_results_title">Арын ажлын үр дүнг дуудлагаар</string>
+    <string name="settings_whatsnew_entry_voice_background_results_summary">Дуудлагын үеэр даалгасан сесс ард ажиллаж эхэлбэл дуусмагц нь үр дүнг дуудлагаар хэлж өгнө. Та өөр зүйл хийж эхэлсэн ч үр дүнгээ сонсоно.</string>
+
+    <!-- 2026-10-25-03-sound-effects-experiment -->
+    <string name="settings_whatsnew_entry_sound_effects_experiment_title">Дууны эффект</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_summary">Хариулт, хүсэлт, Шинэ зүйлсийг үзэх болон илгээх алдааны үед чичиргээтэй хамт зөөлөн дуу тоглуулах туршилт.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_1">Чимээгүй болон чичиргээний горимд эдгээр дуу хаагдана. Хөгжим үргэлжлэн тоглоно.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_2">Дуудлага хийх, хэлж бичүүлэх, медиа тоглуулах үед болон апп ард ажиллаж байхад дуугарахгүй.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_3">Унтраалгын доор Дууны түвшин болон сонгож асаах Илгээх үеийн дуу бий.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_example">Тохиргоо › Туршилтын хэсэгт Дууны эффектийг асаагаад, өөр сессийн хариултыг хүлээгээрэй</string>
+
+    <!-- 2026-10-25-90-session-title-first-prompt -->
+    <string name="settings_whatsnew_entry_session_title_first_prompt_title">Эхний промптоор гарчиглах</string>
+    <string name="settings_whatsnew_entry_session_title_first_prompt_summary">Гарчиггүй сессүүдийг сервер нэрлэх хүртэл эхний промптыг нь нэг мөрөөр харуулна.</string>
+
+    <!-- 2026-10-26-01-settings-sessions-page -->
+    <string name="settings_whatsnew_entry_settings_sessions_page_title">Хурлын тохиргоо</string>
+    <string name="settings_whatsnew_entry_settings_sessions_page_summary">Тохиргоонд Хурал хуудас нэмэгдлээ. Тэнд Шинэ мессежийн зааг нь Enter товчоор илгээхийн дээр байрлана. Нарийвчилсан хэсэг одоо Туршилтын болон Хөгжүүлэгч гэсэн хоёр мөртэй боллоо.</string>
+
+    <!-- 2026-10-26-02-project-icons-default -->
+    <string name="settings_whatsnew_entry_project_icons_default_title">Төслийн дүрсүүд асаалттай</string>
+    <string name="settings_whatsnew_entry_project_icons_default_summary">Төслийн дүрсүүд одоо сессийн гарчгийн хажууд харагдана. Тохиргоо › Туршилтын хэсгээс унтрааж болно.</string>
+
+    <!-- 2026-10-26-03-plus-menu-over-keyboard -->
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_title">Дэлгэцийн гар дээрх зургууд</string>
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_summary">Шинэ нэмэх цэс асаалттай үед + цэс дэлгэцийн гарын дээгүүр нээгдэнэ. Зургууд хэсэг тэндээс дэлгэцийн зах хүртэл дэлгэгдэж, буцаад хураагдахад дэлгэцийн гар хаагдахгүй.</string>
+
+    <!-- 2026-10-26-04-living-orb-connect-motion -->
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_title">Холбогдох үеийн бөмбөлгийн хөдөлгөөн</string>
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_summary">Амьд бөмбөлөг асаалттай үед дуудлагын товч бөмбөлөг рүү хөөрч, холбогдох зуур эргэлдээд, дуудлага дуусахад буцаж бууна. Шууд дахин залгахад гацахгүй, шинэ дуудлага эхэлнэ.</string>
+
+    <!-- 2026-10-26-05-living-orb-presets -->
+    <string name="settings_whatsnew_entry_living_orb_presets_title">Бөмбөлгийн бэлэн тохиргоо ба гоёмсог загвар</string>
+    <string name="settings_whatsnew_entry_living_orb_presets_summary">Тохиргоо › Туршилтын › Дуудлага дахь Дуудлагын хэв маягийн доорх Бөмбөлөг хэсэг одоо Гоёмсог загвараар нээгдэж, томруулсан шууд харагдац, бэлэн тохиргоонуудыг харуулна. Өөрийн тохиргоог хадгалж, нэрийг нь өөрчилж, хуулах эсвэл буулгаж хуваалцаарай.</string>
+
+    <!-- 2026-10-26-06-send-after-a-pause -->
+    <string name="settings_whatsnew_entry_send_after_a_pause_title">Завсарласны дараа илгээхэд илүү жигд</string>
+    <string name="settings_whatsnew_entry_send_after_a_pause_summary">Завсарласны дараа илгээсэн мессеж одоо цагийн тэмдэглэгээний доогуур бичих хэсэг рүү бууж байснаа хөөрөхийн оронд мессеж бичих хэсгээс шууд дээшилж, бөмбөлөгтөө орно.</string>
+
+    <!-- 2026-10-27-01-steadier-round-trip -->
+    <string name="settings_whatsnew_entry_steadier_round_trip_title">Илүү тогтвортой хариулах хугацаа</string>
+    <string name="settings_whatsnew_entry_steadier_round_trip_summary">Холболтын картын мс утга одоо сүүлийн хэдэн шалгалтын дунджийг харуулна. Нэг удаа удаан хариулахад огцом үсрэхгүй, бага зэрэг өөрчлөгдөнө.</string>
+
+    <!-- 2026-10-27-02-drawer-drag-follows-finger -->
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_title">Хажуугийн цэсэнд чирэхэд хурууг дагана</string>
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_summary">Хажуугийн цэсэнд сессийг чирэхэд яг хурууны доор байж, толгой хэсгийн дээгүүр шилжинэ. Захад хүрэхэд жагсаалт гүйж, хуруугаа салгахад сесс байрандаа очно.</string>
+
+    <!-- 2026-10-27-03-inbox-sidebar-experiment -->
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_title">Ирсэн сессийн хажуугийн цэс</string>
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_summary">Тохиргоо › Туршилтын › Хажуугийн цэс дэх Ирсэн сессийн цэсийг асаавал эхлээд таны оролцоог хүлээж буй, дараа нь уншаагүй сессүүд харагдана. Тус бүр төсөл, сүүлийн хариулттайгаа гарна. Шударч уншсанаар тэмдэглэх эсвэл архивлах боломжтой.</string>
+
+    <!-- 2026-10-28-01-first-pairing-ready-session -->
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_title">Эхний сесс бэлэн</string>
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_summary">Анхны компьютерээ хослуулахад сүүлд ашигласан төсөлд нь шинэ сесс нээгдэж, туршиж асуух хэдэн асуулт гарна. Нэг товшоод холбогдсоноо баталгаажуулна. Шинээр суулгахад Шинэ зүйлсийг мөн уншсан гэж тэмдэглэнэ.</string>
+
+    <!-- 2026-10-28-02-welcome-preview -->
+    <string name="settings_whatsnew_entry_welcome_preview_title">Угтах дэлгэцийг урьдчилан үзэх</string>
+    <string name="settings_whatsnew_entry_welcome_preview_summary">Анх нээхэд шинэ угтах дэлгэц OpenCode зөөврийн компьютер дээр ажиллаж, утаснаас чиглүүлж байгааг үзүүлээд нэг алхмаар хослуулна. Үзэхийн тулд Тохиргоо › Туршилтын › Хажуугийн цэс дэх Угтах дэлгэцийг урьдчилан үзэхийг асааж, Угтах дэлгэцийг харуулахыг товшино уу. Хаахад өмнөх дэлгэц рүү буцна.</string>
+
+    <!-- 2026-10-29-01-composer-text-selection -->
+    <string name="settings_whatsnew_entry_composer_text_selection_title">Бичих хэсэгт текст сонгох</string>
+    <string name="settings_whatsnew_entry_composer_text_selection_summary">Ноорог дахь сонголтын бариул эсвэл томруулагчийг чирэхэд гар хаагдахгүй, мессеж бичих хэсэг дээш доош хөдлөхгүй боллоо.</string>
+
+    <!-- 2026-10-30-01-voice-waits-for-you -->
+    <string name="settings_whatsnew_entry_voice_waits_for_you_title">Дуудлага таныг ярьж дуусахыг хүлээнэ</string>
+    <string name="settings_whatsnew_entry_voice_waits_for_you_summary">Дуут агент таны яриаг таслахаа болилоо. Шинэ мэдээллээ хэлэхээсээ өмнө таныг ярьж дуусахыг хүлээж, таныг ярьж эхлэхэд дуугүй болно.</string>
+
+    <!-- 2026-10-30-02-wisp-call-sounds -->
+    <string name="settings_whatsnew_entry_wisp_call_sounds_title">Дуут дуудлагад Wisp-ийн дууг ашиглана</string>
+    <string name="settings_whatsnew_entry_wisp_call_sounds_summary">Дуудлага намуухан амьсгал, холбогдох үеийн зөөлөн жингэнээгээр эхэлж, холбогдоход хонх дуугарна. Агент юм үзэх, нээх, ажиллуулах үед зөөлөн товшиж, дуусахад санаа алдана. Тохиргоо › Дуу хоолой › Дуудлагын дуу хэсгээс өөр багц сонгоорой.</string>
+
+    <!-- 2026-10-30-03-wisp-orb -->
+    <string name="settings_whatsnew_entry_wisp_orb_title">Дуут бөмбөлөг одоо Wisp боллоо</string>
+    <string name="settings_whatsnew_entry_wisp_orb_summary">Дуудлагын бөмбөлөг одоо Wisp-ийн төрхтэй: хоёр талын дуугаар гэрэлтэх цэгүүдийг шилэн линз бүрхэнэ. Холбогдох, сонсох, ажиллах, ярих, таныг хүлээх бүрд Wisp-ийн төлөвийг харуулна. Энэ нь цорын ганц загвар болсон тул хуучин загварууд болон Бөмбөлгийн тохиргоог хаслаа.</string>
+
+    <!-- 2026-10-31-01-encrypted-notification-previews -->
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_title">Мэдэгдлийн шифрлэсэн урьдчилсан харагдац</string>
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_summary">Мэдэгдлийн шинэчилсэн нэмэлт болон HTTPS холболттой үед сервер гарчиг, мессежийг зөвхөн энэ төхөөрөмжид зориулан шифрлэнэ. Урьдчилсан харагдацыг нээж чадахгүй бол мэдэгдэлд зөвхөн “Шинэ үйлдэл” гэж гарна.</string>
+
+    <!-- 2026-10-31-02-move-session-folder-gone -->
+    <string name="settings_whatsnew_entry_move_session_folder_gone_title">Фолдергүй ч сесс үргэлжилнэ</string>
+    <string name="settings_whatsnew_entry_move_session_folder_gone_summary">Ажлын талбарыг устгасан гэх мэтээр сессийн фолдер байхгүй болсон бол илгээлт амжилтгүй болоход сессийг төслийн фолдер руу зөөгөөд дахин илгээхийг санал болгоно.</string>
+
+    <!-- 2026-10-31-03-notification-plugin-setup -->
+    <string name="settings_whatsnew_entry_notification_plugin_setup_title">OpenCode-оор мэдэгдэл тохируулах</string>
+    <string name="settings_whatsnew_entry_notification_plugin_setup_summary">Тохиргоо → Мэдэгдэл хэсэгт OpenCode-оор тохируулахыг товшоод, дутуу мэдэгдлийн нэмэлтийг суулгах промптыг хянаарай.</string>
+
+    <!-- 2026-11-01-01-call-card-takes-over -->
+    <string name="settings_whatsnew_entry_call_card_takes_over_title">Дуудлагын карт доод хэсгийг эзэлнэ</string>
+    <string name="settings_whatsnew_entry_call_card_takes_over_summary">Амьд бөмбөлгийн дуудлагын карт одоо мессежийн талбарыг халхлан дэлгэцийн доод хэсгийг дүүргэж, эргэн тойрондоо жигд зайтай харагдана. Ингэснээр гар түүнийг шахахгүй. Бичихийн тулд буцааж бөмбөлөг болгоорой.</string>
+
+    <!-- 2026-11-01-01-screenshot-shutter -->
+    <string name="settings_whatsnew_entry_screenshot_shutter_title">Дэлгэцийн зураг авах дохио</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_summary">Апп сессэд зориулж өөрийн дэлгэцийн зургийг авахад дэлгэц гялсхийж, зураг авах чимээ гарна.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_1">Зураг авсны дараа гялсхийх тул зурагт хэзээ ч орохгүй.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_2">Хөдөлгөөн багасгах тохиргоотой үед зөөлөн бүдгэрнэ. Анивчих гэрлийг бүдгэрүүлэх тохиргоо үүнийг унтраана.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_3">Дуудлагын үед зураг авах чимээ дуудлагын аудиогоор тоглох тул агент сонсохгүй.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_example">Дуут дуудлагын үеэр “үүнийг хараарай” гэж хэлээрэй</string>
+
+    <!-- 2026-11-01-01-voice-says-whats-running -->
+    <string name="settings_whatsnew_entry_voice_says_whats_running_title">Дуудлагаар юу ажиллаж байгааг хэлнэ</string>
+    <string name="settings_whatsnew_entry_voice_says_whats_running_summary">Таны хүсэлт удах үед дуут агент дуугүй болохын оронд юу хийж байгаагаа хэлнэ.</string>
+
+    <!-- 2026-11-01-02-living-orb-default -->
+    <string name="settings_whatsnew_entry_living_orb_default_title">Дуудлага бөмбөлөгт хөвнө</string>
+    <string name="settings_whatsnew_entry_living_orb_default_summary">Дуут дуудлага одоо хүн бүрд Амьд бөмбөлөг дотор бүх дэлгэцийн дээгүүр хөвж, мессежийн талбарыг чөлөөтэй үлдээнэ.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_1">Бөмбөлгийг товшиж дуудлагын карт болгоно. Дээш чирвэл бүтэн дуудлага болон ярианы бичвэрийг харуулна.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_2">Бөмбөлгийг хүссэн газраа чирээрэй. Сесс солих, Тохиргоог нээхэд байрандаа үлдэнэ.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_3">Сессийн жагсаалтаас ч Тохиргооны хажуу дахь дуудлагын товчоор дуудлага эхлүүлж болно.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_4">Тавиурыг хаслаа. Үүнийг ашигладаг байсан бол дуудлага мөн бөмбөлөгт хөвнө.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_5">Тохиргоо › Туршилтын › Дуудлага › Амьд бөмбөлөг хэсэгт унтрааж болно.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_example">Дуудлага эхлүүлээд сессийн жагсаалтыг нээгээрэй: бөмбөлөг тантай хамт шилжинэ</string>
+
+    <!-- 2026-11-01-02-quicker-send -->
+    <string name="settings_whatsnew_entry_quicker_send_title">Илүү хурдан илгээх</string>
+    <string name="settings_whatsnew_entry_quicker_send_summary">Илгээсэн мессеж одоо бичих хэсэгт түр хүлээхийн оронд жагсаалттай хамт дээшилж, бөмбөлөгтөө орно.</string>
+
+    <!-- 2026-11-01-02-share-screen-with-agents -->
+    <string name="settings_whatsnew_entry_share_screen_with_agents_title">Агенттай дэлгэцээ хуваалцах</string>
+    <string name="settings_whatsnew_entry_share_screen_with_agents_summary">Тохиргоо › Туршилтын › Дуудлага дахь Агенттай дэлгэцээ хуваалцахыг асаавал дуудлагын үеэр агент аппыг харах хүсэлт гаргаж болно. Зураг илгээхийн тулд Хуваалцах, эсвэл Одоо бишийг товшино уу.</string>
+
+    <!-- 2026-11-01-03-audio-in-calls -->
+    <string name="settings_whatsnew_entry_audio_in_calls_title">Дуудлага дахь аудио</string>
+    <string name="settings_whatsnew_entry_audio_in_calls_summary">Тохиргоо › Туршилтын › Дуудлага дахь Дуудлага дахь аудиог асаавал дуудлагын үеэр агент танд хөгжим эсвэл бичлэг тоглуулж болно. Аль нэг нь ярих үед дуу нь намсана. Мессеж бичих хэсгийн дээрээс түр зогсоох эсвэл зогсоож болно.</string>
+
+    <!-- 2026-11-01-03-open-links-from-calls -->
+    <string name="settings_whatsnew_entry_open_links_from_calls_title">Дуудлагаас холбоос нээх</string>
+    <string name="settings_whatsnew_entry_open_links_from_calls_summary">Тохиргоо › Туршилтын › Дуудлага дахь Дуудлагаас холбоос нээхийг асаавал дуудлагын үеэр агент Uber унаа зэрэг холбоос санал болгож болно. Тухайн аппад нээхийн тулд Нээлттэй, эсвэл Одоо бишийг товшино уу.</string>
+
+    <!-- 2026-11-02-01-fold-questions -->
+    <string name="settings_whatsnew_entry_fold_questions_title">Асуултыг эвхэж зай гаргах</string>
+    <string name="settings_whatsnew_entry_fold_questions_summary">Асуултыг доош чирвэл мессеж бичих хэсгийн дээр жижиг мөр болж эвхэгдэнэ. Товшвол буцаж дэлгэгдэнэ. Хариулт илгээгдээгүй бол одоо Дахин оролдохыг хүлээнэ.</string>
+
+    <!-- 2026-11-02-01-steadier-following -->
+    <string name="settings_whatsnew_entry_steadier_following_title">Илүү тогтвортой дагах</string>
+    <string name="settings_whatsnew_entry_steadier_following_summary">Ирж буй хариулт доод хэсэгт тогтвортой байрлаж, Ажиллаж байна гэсэн төлөв үсчихгүй боллоо. Мессеж бичих хэсгээс дээших хаанаас ч шударч жагсаалтыг гүйлгэж болно.</string>
+
+    <!-- 2026-11-02-40-model-display-names -->
+    <string name="settings_whatsnew_entry_model_display_names_title">Загварын нэр</string>
+    <string name="settings_whatsnew_entry_model_display_names_summary">Загварын жагсаалт ачаалах эсвэл дахин холбогдох үед мессеж бичих хэсэг загварын нэрийг санана.</string>
+
+    <!-- 2026-11-02-41-all-experiments -->
+    <string name="settings_whatsnew_entry_all_experiments_title">Бүх туршилт</string>
+    <string name="settings_whatsnew_entry_all_experiments_summary">Тохиргоо › Туршилтын хэсгийн дээд талын нэг унтраалга бүх туршилтыг, цаашид нэмэгдэх шинэ туршилтуудыг ч асаана.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_1">Ашиглахгүй туршилтаа унтрааж болно. Дараагийн удаа ч унтраалттай хэвээр байна.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_2">Бүх туршилтыг унтраавал өмнөх тохиргоонууд сэргэнэ.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_3">Зөвшөөрөл шаарддаг туршилтууд тусдаа сонголт хэвээр үлдэнэ.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_4">Автоматаар гүйцээх, нэмэх цэсийн зураг сонгох самбар, шинэ сервер сэлгэгч, төслийн дүрс одоо бүгдэд идэвхтэй.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_5">Нэгдсэн сонгогч, Амьд бөмбөлөг нь энгийн унтраалгатай болж, Дуудлагын самбарыг хаслаа.</string>
+    <string name="settings_whatsnew_entry_all_experiments_example">Тохиргоо › Туршилтын хэсгийг нээгээд Бүх туршилтыг асаана уу</string>
+
+    <!-- 2026-11-03-01-search-all-sessions -->
+    <string name="settings_whatsnew_entry_search_all_sessions_title">Хуучин сесс хайх</string>
+    <string name="settings_whatsnew_entry_search_all_sessions_summary">Хажуугийн цэсийн хайлт одоо зөвхөн сүүлийнхээс бус, бүх сессээс хайна. Доош дуустал гүйлгэвэл хуучин сессүүд ачаална.</string>
+
+    <!-- 2026-11-03-01-voice-open-session -->
+    <string name="settings_whatsnew_entry_voice_open_session_title">Дуу хоолойгоор сесс сэлгэх</string>
+    <string name="settings_whatsnew_entry_voice_open_session_summary">Дуут агентаасаа сесс нээхийг хүсэхэд хажуугийн цэс хаагдаж, дуудлага тасрахгүй үргэлжилнэ.</string>
+
+    <!-- 2026-11-03-02-orb-divider-image-links -->
+    <string name="settings_whatsnew_entry_orb_divider_image_links_title">Гурван туршилт үндсэн боломж боллоо</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_summary">Амьд бөмбөлөг, Шинэ зааглагч, зургийн холбоосын урьдчилсан харагдац одоо бүгдэд идэвхтэй, унтраалгагүй боллоо.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_1">Бүх дуудлага Амьд бөмбөлөгт хөвж харагдана. Хуучин дуудлагын мөрийг хаслаа.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_2">Сесс рүү буцаж ороход таныг эзгүйд ирсэн зүйлс дэлгэцэд багтахгүй бол Шинэ зааглагч тэдгээрийн эхлэлийг тэмдэглэнэ.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_3">Зураг руу шууд заасан холбоосын зургийг мессежийн доор харуулна.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_example">Мессеж бичих хэсгээс дуудлага эхлүүлээд бөмбөлөгт хөвж харагдахыг нь үзээрэй</string>
+
+    <!-- 2026-11-04-01-call-links-and-audio -->
+    <string name="settings_whatsnew_entry_call_links_and_audio_title">Дуудлага дахь холбоос ба аудио</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_summary">Дуудлагаас холбоос нээх, Дуудлага дахь аудио одоо бүгдэд идэвхтэй, унтраалгагүй боллоо.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_1">Дуудлагын үеэр агент Uber унаа гэх мэт холбоос санал болгож болно. Аппд нь нээх бол Нээлттэй, эсвэл Одоо биш гэдгийг товшино уу.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_2">Агент дуудлагын үеэр хөгжим эсвэл бичлэг тоглуулж болно. Та хоёрын хэн нэг нь ярихад дуу нь намсана. Мессеж бичих хэсгийн дээрээс түр зогсоох эсвэл зогсоож болно.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_example">Дуудлагын үеэр агентаас хөгжим тоглуулахыг хүсээрэй</string>
+
+    <!-- 2026-11-04-01-composer-editing-caret -->
+    <string name="settings_whatsnew_entry_composer_editing_caret_title">Ноорог засах</string>
+    <string name="settings_whatsnew_entry_composer_editing_caret_summary">Нооргийн дундах үгийг засахад курсор бичиж буй газартаа хэвээр байна.</string>
+
+    <!-- 2026-11-04-01-loading-touch-recovery -->
+    <string name="settings_whatsnew_entry_loading_touch_recovery_title">Ачаалсны дараа гүйлгэх</string>
+    <string name="settings_whatsnew_entry_loading_touch_recovery_summary">Ачаалж байх үед апп руу буцаж ороход ярианы бичвэрийг шууд гүйлгэж болно.</string>
+
+    <!-- 2026-11-05-01-composer-keyboard-width -->
+    <string name="settings_whatsnew_entry_composer_keyboard_width_title">Бичих хэсэг илүү өргөн боллоо</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_width_summary">Гар гарсан үед мессеж бичих хэсэг хоёр талдаа бага, ижил зайтай болж өргөсөх тул урт ноорог цөөн мөрд хуваагдана.</string>
+
+    <!-- 2026-11-05-02-plus-menu-touch-release -->
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_title">Хавсралтын цэсийг хаах</string>
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_summary">Дэлгэцийн байрлал өөрчлөгдөж байсан ч хавсралтын цэсийг хаахад доорх сессийг шууд ашиглаж болно.</string>
+
+    <!-- 2026-11-05-02-quiet-reconnecting-pill -->
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_title">Нээх үеийн харагдац тогтвортой боллоо</string>
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_summary">Апп нээхэд мессеж бичих хэсгийн дээр “Дахин холбогдож байна…” гэж гялс гарч, сессийг хөдөлгөхөө болилоо. Дахин холбогдоход удсан үед л энэ тэмдэглэгээ харагдана.</string>
+
+    <!-- 2026-11-05-03-stuck-touch-recovery -->
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_title">Гүйлгэх боломж өөрөө сэргэнэ</string>
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_summary">Үл харагдах зүйл сессийг секундээс удаан гүйлгэхэд саад болбол апп саадыг өөрөө арилгана.</string>
+
+    <!-- 2026-11-05-04-reply-text-selection -->
+    <string name="settings_whatsnew_entry_reply_text_selection_title">Хариулт дамнуулан сонгох</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_summary">Хариултын нэг үгийг удаан дарах эсвэл хоёр товшоод, сонголтын бариулыг догол мөр, жагсаалт, код, хүснэгт дамнуулан чирээрэй.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_1">Бариулыг толгой хэсгийн яг доор эсвэл мессеж бичих хэсгийн яг дээр барихад хариулт гүйнэ. Ирмэгт ойртох тусам хурдан гүйнэ.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_2">Хуулахад жагсаалтын тэмдэг, дугаар болон хүснэгтийн мөр, багана хадгалагдана. Эшлэхэд сонгосон хэсгийг мессеж бичих хэсэгт нэмж, кодын блокийг хэвээр үлдээнэ.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_example">Урт хариултын эхэн дэх үгийг удаан дараад, төгсгөлийн бариулыг мессеж бичих хэсэг хүртэл доош чирж, тэнд нь бариарай</string>
+
+    <!-- 2026-11-06-01-scrolling-unsticks -->
+    <string name="settings_whatsnew_entry_scrolling_unsticks_title">Гүйлгэх гацалт өөрөө арилна</string>
+    <string name="settings_whatsnew_entry_scrolling_unsticks_summary">Заримдаа өөр сесс рүү шилжихээс нааш гүйлгэж болдоггүй байсан сесс одоо өөрөө хэвийн гүйдэг болно.</string>
+
+    <!-- 2026-11-06-02-server-addresses -->
+    <string name="settings_whatsnew_entry_server_addresses_title">Серверийн холболт тогтвортой боллоо</string>
+    <string name="settings_whatsnew_entry_server_addresses_summary">OpenCode серверийн бүх хаягт зэрэг холбогдож үзээд, эхэлж хариу өгснийг ашиглана. Тиймээс гэрээс гарахад VPN-ээ унтрааж асаахгүйгээр дахин холбогдоно.</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_1">Гэрийн сүлжээнд ажилласан хаягийг бусад сүлжээнд үргэлж эхэлж туршихаа болилоо.</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_2">Холболт түр тасрах, утасны түгжээ тайлах эсвэл Шуурхай тохиргоог доош татахад мэдэгдэл гялс гарахаа болилоо. Хэдэн секундын дараа Дахин холбогдож байна, ойролцоогоор 12 секундын дараа Офлайн гэж гарна. Утас сүлжээгүй бол 4 секундын дараа Офлайн гэж гарна.</string>
+    <string name="settings_whatsnew_entry_server_addresses_example">Tailscale-ээр хослуулсан серверт сесс нээгээд, Wi-Fi-гаа унтраан ажлаа үргэлжлүүлээрэй</string>
+
+    <!-- 2026-11-07-01-server-voice -->
+    <string name="settings_whatsnew_entry_server_voice_title">Серверийн түлхүүрээр дуудлага хийх</string>
+    <string name="settings_whatsnew_entry_server_voice_summary">Серверийн дуу хоолой одоо бүгдэд идэвхтэй, унтраалгагүй боллоо. Дуудлагад OpenCode серверийн түлхүүрийг ашиглаж болох тул энэ утсанд тусдаа OpenAI түлхүүр хэрэггүй.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_1">Автоматаар сонгох асаалттай бол дуудлагад эхлээд одоо холбогдсон серверийг, дараа нь энэ утасны OpenAI түлхүүрийг, эцэст нь хадгалсан, бэлэн өөр серверийг ашиглана.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_2">Энэ утас болон сервер хоёул OpenAI түлхүүртэй бол дуудлагад одоо серверийнхийг ашиглана. Утасныхаа түлхүүрийг үргэлжлүүлэн ашиглах бол Дуу хоолойн үйлчилгээ үзүүлэгч доторх Таны OpenAI бүртгэлийг нээгээд Дуудлагад ашиглах гэдгийг товшино уу.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_3">Gemini түлхүүртэй серверт Gemini Live-ийг мөн үйлчилгээ үзүүлэгчээр сонгож болно.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_4">Дуудлага эхлэхгүй бол шалтгааныг нь тайлбарлаж, засах товчийг харуулна.</string>
+    <string name="settings_whatsnew_entry_server_voice_example">Тохиргоо › Дуу хоолойг нээгээд Дуу хоолойн үйлчилгээ үзүүлэгчийг товшино уу</string>
+
+    <!-- 2026-11-07-02-rename-clear-button -->
+    <string name="settings_whatsnew_entry_rename_clear_button_title">Гарчгийг нэг товшилтоор арилгах</string>
+    <string name="settings_whatsnew_entry_rename_clear_button_summary">Сесс болон серверийн нэр өөрчлөх хэсэг арилгах товчтой боллоо. Хуучин нэрийг нэг нэгээр нь устгалгүй шинэ гарчиг бичиж болно.</string>
+
+    <!-- 2026-11-07-03-one-picker -->
+    <string name="settings_whatsnew_entry_one_picker_title">Шинэ загвар сонгогч</string>
+    <string name="settings_whatsnew_entry_one_picker_summary">Мессеж бичих хэсгийн загварыг товшиход жагсаалт тэндээс дэлгэгдэнэ. Дээд талд Дуртай, Сүүлийн загварууд, доор нь бүх үйлчилгээ үзүүлэгч харагдана.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_1">Жагсаалтаас гаралгүй бодох түвшнийг өөрчлөхийн тулд загварын мөрөн дэх “өндөр” зэрэг түвшнийг товшино уу.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_2">Дуртайд нэмэх эсвэл хасахын тулд мөрийг шудрах юм уу удаан дарна уу.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_3">Хайлт доод хэсэгт бий. “opus high” гэх мэтээр нэрийн ард түвшин бичээд Return дарахад хоёуланг нь сонгоно.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_4">Жагсаалтыг томруулахын тулд бариулыг дээш, хаахын тулд доош чирнэ үү.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_5">Шинэ сонгогч хуучин загвар сонгох самбарыг орлолоо. Тохиргоо › Туршилтын хэсгээс нэгдсэн сонгогчийн унтраалгыг хаслаа.</string>
+    <string name="settings_whatsnew_entry_one_picker_example">Мессежийн талбар дахь загварыг товшоод, мөрийг шударч дуртайд нэмээрэй</string>
+
+    <!-- 2026-11-08-01-connecting-caption-glass -->
+    <string name="settings_whatsnew_entry_connecting_caption_glass_title">“...-аар холбогдож байна” бичвэр тод боллоо</string>
+    <string name="settings_whatsnew_entry_connecting_caption_glass_summary">Дуудлага серверээр холбогдох үед “...-аар холбогдож байна” мөр шилэн дэвсгэртэй болж, арын мессежүүдтэй давхцахаа болилоо.</string>
+
+    <!-- 2026-11-08-02-default-model -->
+    <string name="settings_whatsnew_entry_default_model_title">Шинэ сессүүд өгөгдмөл загварыг ашиглана</string>
+    <string name="settings_whatsnew_entry_default_model_summary">Шинэ сессүүд өмнөх сессийн загварын оронд OpenCode-д өгөгдмөлөөр тохируулсан загвараар, түүнд сүүлд сонгосон бодох түвшнээр эхэлнэ.</string>
+
+    <!-- 2026-11-11-01-streamed-reply-prefix -->
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_title">Ирж буй хариултыг нээж унших</string>
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_summary">Хариулт ирж байх үед сессийг нээвэл үргэлжлэн ирэх зуур нь ирсэн хэсгийг унших боломжтой.</string>
+
+    <!-- 2026-11-13-01-draw-on-images -->
+    <string name="settings_whatsnew_entry_draw_on_images_title">Зураг дээр зурах</string>
+    <string name="settings_whatsnew_entry_draw_on_images_summary">Асуух зүйлээ эхлээд зураг дээр тэмдэглээрэй.</string>
+    <string name="settings_whatsnew_entry_draw_on_images_detail_1">Зургийг бүтэн дэлгэцээр нээгээд үзэгний товчийг товшино уу. Өнгөө сонгон зураад «Нэмэх»-ийг товшиж тэмдэглэгээтэй зургийг мессеждээ хавсаргана. Эх зураг өөрчлөгдөхгүй.</string>
+    <string name="settings_whatsnew_entry_draw_on_images_example">Дэлгэцийн зураг дээр зөөлгөхийг хүссэн удирдлагыг дугуйлаад хаашаа зөөхийг тайлбарлаарай.</string>
+
+    <!-- 2026-11-14-01-fullscreen-viewer -->
+    <string name="settings_whatsnew_entry_fullscreen_viewer_title">Зураг, видео хооронд шударч шилжих</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_summary">Сессийн зураг, видеог хамтад нь үзээрэй.</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_detail_1">Видео руу шударч шилжээд үзэгний товчийг товшин тухайн кадр дээр тэмдэглэгээ хийнэ. «Нэмэх»-ийг товшвол тэмдэглэгээтэй кадрыг илгээлгүйгээр хавсаргана.</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_example">Үзүүлэн видеог өөрчлөх шаардлагатай дэлгэц дээр түр зогсоогоод тухайн хэсгийг дугуйлж, ноорогтоо нэмээрэй.</string>
+
+    <!-- 2026-11-15-01-pairing-link-name -->
+    <string name="settings_whatsnew_entry_pairing_link_name_title">OpenCode Console-оос нэртэй сервер нэмэх</string>
+    <string name="settings_whatsnew_entry_pairing_link_name_summary">OpenCode Console-оос хослуулсан сервер «Anomaly Box» гэх мэт нэртэйгээ нэмэгдэнэ.</string>
+
+    <!-- 2026-11-17-01-session-media -->
+    <string name="settings_whatsnew_entry_session_media_title">Сессийн медиа</string>
+    <string name="settings_whatsnew_entry_session_media_summary">Сессийн зураг, видео, аудио, файл болон нийтэд нээлттэй вэб холбоосуудыг үзэх.</string>
+    <string name="settings_whatsnew_entry_session_media_detail_1">Сессийн ⋮ цэснээс «Сессийн медиа»-г сонгоно уу. «Медиа» хэсэгт зураг, видео, аудиог сараар бүлэглэсэн хавтанцар эсвэл жагсаалтаар харуулна. «Файлууд», «Холбоосууд» хэсэгт баримт бичиг, буулгасан текст, вэб холбоосыг жагсаана.</string>
+    <string name="settings_whatsnew_entry_session_media_example">Бүх сессийг буцааж гүйлгэхгүйгээр өглөө илгээсэн дэлгэцийн зургаа олоорой.</string>
+
+    <!-- 2026-11-18-02-drawer-call-phone -->
+    <string name="settings_whatsnew_entry_drawer_call_phone_title">Хажуугийн цэсэн дэх дуудлагын утасны дүрс</string>
+    <string name="settings_whatsnew_entry_drawer_call_phone_summary">Сессийн жагсаалтын «Тохиргоо»-ны дэргэдэх дуудлагын товч мессежийн талбарынхтай адил утасны дүрстэй боллоо.</string>
+
+    <!-- 2026-11-19-01-background-scripts -->
+    <string name="settings_whatsnew_entry_background_scripts_title">Далд ажиллаж буй скриптүүд</string>
+    <string name="settings_whatsnew_entry_background_scripts_summary">Агентын далд горимд шилжүүлсэн скриптүүд дэд агентууд болон shell-үүдийн хажууд харагдана. Дэд агентын зураг, видео эсвэл скриптүүд ажиллаж байгаа бол дэд агент жагсаалтад хэвээр үлдэнэ. Аль алийг нь жагсаалтаас зогсоож болно.</string>
+</resources>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">Vaizdas</string>
+    <string name="media_image_load_failed">Nepavyko įkelti vaizdo</string>
+    <string name="media_unavailable">Medija nepasiekiama</string>
+    <string name="media_try_again_label">Bandyti dar kartą</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">Medijos peržiūra</string>
+    <string name="media_viewer_save_to_photos_description">Išsaugoti nuotraukose</string>
+    <string name="media_file_viewer_screen_title">Failų peržiūra</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d iš %3$d</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">Piešti ant vaizdo</string>
+    <string name="media_drawing_undo_description">Anuliuoti</string>
+    <string name="media_drawing_add_to_prompt_description">Pridėti prie užklausos</string>
+    <string name="media_drawing_canvas_description">Piešimo drobė</string>
+    <string name="media_drawing_discard_title">Atmesti piešinį?</string>
+    <string name="media_drawing_discard_confirm">Atmesti piešinį</string>
+    <string name="media_drawing_keep">Tęsti piešimą</string>
+    <string name="media_drawing_add_failed_title">Nepavyko pridėti piešinio</string>
+    <string name="media_drawing_flatten_failed">Nepavyko sukurti vaizdo. Bandykite dar kartą.</string>
+    <string name="media_drawing_prompt_unavailable">Šiuo metu prie šio seanso žinutės negalima pridėti priedų.</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">Balta</string>
+    <string name="media_drawing_ink_black">Juoda</string>
+    <string name="media_drawing_ink_red">Raudona</string>
+    <string name="media_drawing_ink_yellow">Geltona</string>
+    <string name="media_drawing_ink_green">Žalia</string>
+    <string name="media_drawing_ink_blue">Mėlyna</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">Padidinta</string>
+    <string name="media_zoom_out_label">Mažinti</string>
+    <string name="media_zoom_in_label">Didinti</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">Pristabdyti</string>
+    <string name="media_player_play">Leisti</string>
+    <string name="media_player_position_description">Atkūrimo vieta</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">Nepavyko paleisti vaizdo įrašo</string>
+    <string name="media_video_position_description">Vaizdo įrašo vieta</string>
+    <string name="media_video_capture_failed_title">Nepavyko užfiksuoti kadro</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">Rodyti peržiūrą</string>
+    <string name="media_file_show_source_description">Rodyti šaltinį</string>
+    <string name="media_file_unwrap_lines_description">Nelaužyti eilučių</string>
+    <string name="media_file_wrap_lines_description">Laužyti eilutes</string>
+    <string name="media_file_start_pip_description">Įjungti vaizdą vaizde</string>
+    <string name="media_file_opening">Atidaroma…</string>
+    <string name="media_file_share_failed_title">Nepavyko bendrinti failo</string>
+    <string name="media_file_share_downloading_description">Atsiunčiama bendrinti</string>
+    <string name="media_file_confirm_large_message">Šio failo dydis – %1$s. Atsisiųsti, kad galėtumėte peržiūrėti šiame įrenginyje?</string>
+    <string name="media_file_download">Atsisiųsti</string>
+    <string name="media_file_open_in_another_app">Atidaryti kita programa</string>
+    <string name="media_file_no_app_message">Jokia šio įrenginio programa negali atidaryti šio failo. Bendrinkite jį, kad išsaugotumėte arba išsiųstumėte kitur.</string>
+    <string name="media_file_pdf_page_description">Puslapis %1$d iš %2$d</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">Failas nerastas</string>
+    <string name="media_file_error_open_failed_title">Nepavyko atidaryti failo</string>
+    <string name="media_file_error_unreadable">Serveris negali nuskaityti šio kelio.</string>
+    <string name="media_file_error_not_found">Jis galėjo būti perkeltas arba ištrintas.</string>
+    <string name="media_file_error_unauthorized">Serveris nepriėmė šio įrenginio slaptažodžio.</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">Serveris negalėjo jo nuskaityti (HTTP %1$d). Tai gali būti aplankas.</string>
+    <string name="media_file_error_timed_out">Baigėsi užklausai skirtas laikas.</string>
+    <string name="media_file_error_unexpected_response">Serveris atsiuntė netikėtą atsakymą.</string>
+    <string name="media_file_error_over_limit">Failas viršija atsisiuntimo dydžio limitą.</string>
+    <string name="media_file_error_size_unknown">Serveris nenurodė priedo dydžio.</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">Atsiunčiama…</string>
+    <string name="media_file_downloading_size">Atsiunčiama %1$s</string>
+    <string name="media_file_downloading_progress">Atsiunčiama %1$s iš %2$s</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">0 KB</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="one">%1$d baitas</item>
+        <item quantity="few">%1$d baitai</item>
+        <item quantity="many">%1$d baito</item>
+        <item quantity="other">%1$d baitų</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s KB</string>
+    <string name="media_file_size_megabytes">%1$s MB</string>
+    <string name="media_file_size_gigabytes">%1$s GB</string>
+    <string name="media_file_size_terabytes">%1$s TB</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">Nerasta</string>
+    <string name="media_image_load_label">Įkelti vaizdą</string>
+    <string name="media_image_loading_state">Įkeliama</string>
+    <string name="media_image_open_label">Atidaryti vaizdą</string>
+    <string name="media_image_tap_to_load">Palieskite, kad įkeltumėte</string>
+    <string name="media_image_outside_project_value">Už projekto ribų</string>
+    <string name="media_image_deferred_low_data_value">Atidėta taupant duomenis</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">Atidaryti %1$s</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">Atgal į seansą</string>
+    <string name="media_browser_ask_description">Paklausti apie šį puslapį</string>
+    <string name="media_browser_forward_description">Pirmyn</string>
+    <string name="media_browser_open_in_browser_description">Atidaryti naršyklėje</string>
+    <string name="media_browser_scroll_to_top_label">Slinkti į puslapio viršų</string>
+    <string name="media_browser_ask_placeholder">Paklauskite apie šį puslapį</string>
+    <string name="media_browser_reply_needs_input">Reikia jūsų atsakymo</string>
+    <string name="media_browser_reply_working">Darbas</string>
+    <string name="media_browser_go_back_to_session_label">Grįžti į seansą</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">Atsakymas paruoštas</string>
+    <string name="media_browser_reply_back_to_read">· Grįžti ir perskaityti</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">Seansas</string>
+    <string name="media_link_open_in_app_browser">Atidaryti programos naršyklėje</string>
+    <string name="media_link_open_in_browser">Atidaryti naršyklėje</string>
+    <string name="media_link_open_in_app">Atidaryti programoje</string>
+    <string name="media_link_copy">Nukopijuoti nuorodą</string>
+    <string name="media_link_share">Bendrinti…</string>
+    <string name="media_link_open_session">Atidaryti seansą</string>
+    <string name="media_link_copy_session_id">Kopijuoti ID</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">Kopijuoti %1$s ID</string>
+    <string name="media_link_open_session_named_description">Atidaryti seansą %1$s</string>
+    <string name="media_link_open_host_in_app_browser_description">Atidaryti %1$s programos naršyklėje</string>
+    <string name="media_link_open_host_in_browser_description">Atidaryti %1$s naršyklėje</string>
+    <string name="media_link_open_host_in_app_description">Atidaryti %1$s programoje</string>
+    <string name="media_link_copy_host_description">Nukopijuoti nuorodą į %1$s</string>
+    <string name="media_link_share_host_description">Bendrinti nuorodą į %1$s</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%1$s svetainėje %2$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s nuoroda %2$d</string>
+    <string name="media_link_more_links_description">Daugiau nuorodų</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">Vaizdo įrašas</string>
+    <string name="media_link_preview_post">Įrašas</string>
+    <string name="media_link_preview_post_unavailable">Įrašas nepasiekiamas</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">Saugykla</string>
+    <string name="media_github_kind_issue">Problema</string>
+    <string name="media_github_kind_pull_request">Pakeitimų užklausa</string>
+    <string name="media_github_kind_commit">Pakeitimų įrašas</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">Atvira</string>
+    <string name="media_github_state_closed">Uždaryta</string>
+    <string name="media_github_state_merged">Sujungta</string>
+    <string name="media_github_state_draft">Juodraštis</string>
+    <string name="media_github_state_completed">Atlikta</string>
+    <string name="media_github_state_not_planned">Neplanuojama</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">Diagrama, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">Diagramų peržiūra</string>
+    <string name="media_mermaid_diagram_description">Diagrama</string>
+    <string name="media_mermaid_loading_state">%1$s, įkeliama</string>
+    <string name="media_mermaid_view_source">Rodyti šaltinį</string>
+    <string name="media_mermaid_source_title">Diagramos šaltinis</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">Struktūrinė schema</string>
+    <string name="media_mermaid_type_sequence">Sekos diagrama</string>
+    <string name="media_mermaid_type_class">Klasių diagrama</string>
+    <string name="media_mermaid_type_state">Būsenų diagrama</string>
+    <string name="media_mermaid_type_entity_relationship">Esybių ryšių diagrama</string>
+    <string name="media_mermaid_type_user_journey">Naudotojo kelias</string>
+    <string name="media_mermaid_type_gantt">Gantt diagrama</string>
+    <string name="media_mermaid_type_pie">Skritulinė diagrama</string>
+    <string name="media_mermaid_type_quadrant">Kvadrantų diagrama</string>
+    <string name="media_mermaid_type_requirement">Reikalavimų diagrama</string>
+    <string name="media_mermaid_type_git_graph">Git grafas</string>
+    <string name="media_mermaid_type_c4">C4 diagrama</string>
+    <string name="media_mermaid_type_mind_map">Minčių žemėlapis</string>
+    <string name="media_mermaid_type_timeline">Laiko juosta</string>
+    <string name="media_mermaid_type_sankey">Sankey diagrama</string>
+    <string name="media_mermaid_type_xy_chart">XY diagrama</string>
+    <string name="media_mermaid_type_block">Blokinė diagrama</string>
+    <string name="media_mermaid_type_packet">Paketo diagrama</string>
+    <string name="media_mermaid_type_kanban">Kanban lenta</string>
+    <string name="media_mermaid_type_architecture">Architektūros diagrama</string>
+    <string name="media_mermaid_type_radar">Radaro diagrama</string>
+    <string name="media_mermaid_type_treemap">Medžio žemėlapis</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

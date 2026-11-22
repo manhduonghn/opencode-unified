@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent activity glyph -->
+    <string name="session_activity_running_description">እየሠራ ነው</string>
+    <!-- Background work panel -->
+    <string name="session_background_work_show_label">እየሠሩ ያሉ ንዑስ ወኪሎችን፣ ስክሪፕቶችንና ሼሎችን አሳይ</string>
+    <string name="session_background_work_collapsed_description">ተሰብስቧል</string>
+    <string name="session_background_work_subagents_title">ንዑስ ወኪሎች</string>
+    <string name="session_background_work_open_subagent_label">የንዑስ ወኪሉን ክፍለ ጊዜ ክፈት</string>
+    <string name="session_background_work_shells_title">ሼሎች</string>
+    <string name="session_background_work_show_shell_label">የሼሉን ውጤት አሳይ</string>
+    <!-- The session's images and videos, paged in the full-screen viewer -->
+    <string name="session_visual_attached_image">የተያያዘ ምስል</string>
+    <string name="session_visual_tool_image">የመሳሪያ ምስል</string>
+    <string name="session_visual_image">ምስል</string>
+    <!-- One image of several: the image's label, then its place, as “Attached image 2 of 3” -->
+    <string name="session_visual_image_page_label">%1$s %2$d ከ%3$d</string>
+    <!-- A diagram's label, read by TalkBack. %1$s is its kind, as “Diagram, Flowchart” -->
+    <string name="session_visual_diagram_label">ንድፍ፣ %1$s</string>
+    <!-- Jump to latest -->
+    <string name="session_scroll_to_latest_description">ወደ የቅርብ ጊዜ ሸብልል</string>
+    <!-- Dictation bar -->
+    <string name="session_dictation_finishing_description">በድምፅ መጻፍን በማጠናቀቅ ላይ</string>
+    <string name="session_dictation_stop_recording_description">መቅዳት አቁም</string>
+    <string name="session_dictation_stop_recording_hint">ቃላቱን ወደ መልእክትዎ አስገባ</string>
+    <string name="session_sending_message_description">መልእክት በመላክ ላይ</string>
+    <string name="session_delivery_steer_label">በቀጣዩ ደረጃ አቅጣጫ ስጥ</string>
+    <string name="session_delivery_queue_label">ከዚህ ምላሽ በኋላ ወረፋ አስይዝ</string>
+    <string name="session_delivery_steer">አቅጣጫ ስጥ</string>
+    <string name="session_delivery_queue">ወረፋ</string>
+    <!-- Draft project picker -->
+    <string name="session_draft_project_choose_label">ክፍለ ጊዜው የሚጀምርበትን ቦታ ምረጥ</string>
+    <string name="session_project_choose_folder">አቃፊ ምረጥ…</string>
+    <string name="session_project_all_projects">ሁሉም ፕሮጀክቶች</string>
+    <string name="session_project_selected_description">ተመርጧል</string>
+    <string name="session_project_picker_title">ፕሮጀክት</string>
+    <!-- Folder browser -->
+    <string name="session_folder_select_description">አቃፊን ምረጥ</string>
+    <string name="session_folder_path_description">ዱካ</string>
+    <string name="session_folder_title">አቃፊ</string>
+    <string name="session_folder_select">ምረጥ</string>
+    <string name="session_folder_open_failed_title">አቃፊውን መክፈት አልተቻለም</string>
+    <string name="session_folder_empty_title">አቃፊዎች የሉም</string>
+    <string name="session_folder_search_empty_title">ለ“%1$s” ምንም ውጤቶች የሉም</string>
+    <string name="session_folder_search_empty_message">አጻጻፉን ያረጋግጡ ወይም አዲስ ፍለጋ ይሞክሩ።</string>
+    <!-- Server connection pill -->
+    <string name="session_server_edit">አገልጋይ አርትዕ…</string>
+    <!-- Starter prompts -->
+    <string name="session_starter_prompts_title">ጠይቀው ይሞክሩ</string>
+    <string name="session_starter_prompt_pick_label">ወደ መልእክቱ አስገባ</string>
+    <!-- Session sheet -->
+    <string name="session_sheet_rename_failed">ስም መቀየር አልተቻለም</string>
+    <string name="session_sheet_status_description">ሁኔታ</string>
+    <string name="session_rename_title">የክፍለ ጊዜውን ስም ቀይር</string>
+    <string name="session_untitled_title">ክፍለ ጊዜ</string>
+    <string name="session_pin">ሰካ</string>
+    <string name="session_pinned">የተሰኩ</string>
+    <string name="session_unread">ያልተነበቡ</string>
+    <string name="session_mute">ድምፅ አጥፋ</string>
+    <string name="session_muted">ድምፀ ከል የተደረገ</string>
+    <string name="session_compact">የታመቀ</string>
+    <string name="session_fork">ቅርንጫፍ ፍጠር</string>
+    <string name="session_toggle_on_description">በርቷል</string>
+    <string name="session_toggle_off_description">ጠፍቷል</string>
+    <string name="session_export">ላክ</string>
+    <string name="session_export_markdown">Markdown</string>
+    <string name="session_export_json">JSON</string>
+    <string name="session_sheet_model">ሞዴል</string>
+    <string name="session_sheet_context">አውድ</string>
+    <string name="session_sheet_unknown_description">ያልታወቀ</string>
+    <string name="session_sheet_context_tokens">%1$s ቶከኖች</string>
+    <string name="session_sheet_cost">ወጪ</string>
+    <string name="session_sheet_media">ሚዲያ</string>
+    <string name="session_sheet_media_value">ፋይሎች እና አገናኞች</string>
+    <string name="session_always_notify">ሁልጊዜ አሳውቅ</string>
+    <string name="session_always_notify_message_phone">ከዚህ ያልተላኩ መልእክቶችንም ጨምሮ፣ ምላሽ ባለቀ ቁጥር በዚህ ስልክ አሳውቅ።</string>
+    <string name="session_always_notify_message_tablet">ከዚህ ያልተላኩ መልእክቶችንም ጨምሮ፣ ምላሽ ባለቀ ቁጥር በዚህ ታብሌት አሳውቅ።</string>
+    <string name="session_delete_session">ክፍለ ጊዜን ሰርዝ</string>
+    <string name="session_rename_placeholder">ርዕስ</string>
+    <string name="session_auto_rename">ራስ-ሰር ስም ቀይር</string>
+    <string name="session_delete_confirm_title">“%1$s” ይሰረዝ?</string>
+    <string name="session_delete_confirm_message">ይህ ክፍለ ጊዜውን ለሁሉም ደንበኛ መተግበሪያዎች ከአገልጋዩ ያስወግዳል።</string>
+    <!-- Transcript -->
+    <string name="session_move_to_background">ወደ ዳራ አንቀሳቅስ</string>
+    <string name="session_move_to_background_hint">ወኪሉ ቀጣዩን መልእክትዎን እንዲያነብ እየተሠራ ያለውን ሥራ በዳራ ያስቀጥሉ</string>
+    <!-- Attachments -->
+    <string name="session_attachment_add_image_failed_title">ምስል ማከል አልተቻለም</string>
+    <string name="session_attachment_upload">ስቀል</string>
+    <string name="session_attachment_remove_image_description">የምስል አባሪ %1$d አስወግድ</string>
+    <string name="session_attachment_remove_description">%1$s አስወግድ</string>
+    <string name="session_attachment_file_description">የፋይል አባሪ %1$s</string>
+    <string name="session_attachment_cancel_upload_description">የ%1$s ስቀላን ሰርዝ</string>
+    <string name="session_attachment_open_photo_label">ፎቶውን በሙሉ ማያ ገጽ ክፈት</string>
+    <string name="session_attachment_image_description">የምስል አባሪ %1$d</string>
+    <string name="session_attachment_video_description">የቪዲዮ አባሪ %1$d</string>
+    <!-- Composer controls -->
+    <string name="session_answer_own_description">የራስዎ መልስ</string>
+    <string name="session_answer_own_type_label">የራስዎን መልስ ይጻፉ ወይም በድምፅ ያስገቡ</string>
+    <string name="session_answer_own_clear_label">የጻፉትን ወደ ጎን ያስቀምጡ</string>
+    <string name="session_answer_own_choose_label">በራስዎ ቃላት ይመልሱ</string>
+    <string name="session_answer_decline_with_words_label">በምትኩ ምን እንዲያደርግ ለወኪሉ ይንገሩ</string>
+    <string name="session_answer_required_description">መልስ ይምረጡ ወይም የራስዎን ይጻፉ</string>
+    <string name="session_dictate_message_description">መልእክት በድምፅ ያስገቡ</string>
+    <string name="session_dictate_message_hint">መልእክትዎን በድምፅ ያስገቡ፣ ወይም ለመቅዳትና ለመላክ ነክተው ይቆዩ</string>
+    <string name="session_send_waiting_for_uploads_description">ስቀላዎች ሲያልቁ ይላካል</string>
+    <string name="session_steer_message_description">በመልእክት አቅጣጫ ስጥ</string>
+    <string name="session_stopping_description">በማቆም ላይ</string>
+    <string name="session_start_voice_call">የድምፅ ጥሪ ጀምር</string>
+    <string name="session_dictation_stop_description">በድምፅ ማስገባት አቁም</string>
+    <!-- Composer -->
+    <string name="session_requests_load_failed_title">ጥያቄዎችን መጫን አልተቻለም</string>
+    <plurals name="session_queued_count">
+        <item quantity="one">%1$d ወረፋ ላይ</item>
+        <item quantity="other">%1$d ወረፋ ላይ</item>
+    </plurals>
+    <string name="session_queued_show_label">ይህ ምላሽ እስኪያልቅ የሚጠብቁ መልእክቶችን አሳይ</string>
+    <plurals name="session_queued_messages_description">
+        <item quantity="one">%1$d መልእክት ወረፋ ላይ</item>
+        <item quantity="other">%1$d መልእክቶች ወረፋ ላይ</item>
+    </plurals>
+    <string name="session_dictation_preparing">በድምፅ ለማስገባት በመዘጋጀት ላይ…</string>
+    <string name="session_message_placeholder">መልእክት</string>
+    <!-- Session header -->
+    <string name="session_back_to_main_description">ወደ ዋናው ክፍለ ጊዜ ተመለስ</string>
+    <string name="session_header_open_from_catch_up_label">ክፍለ ጊዜውን ክፈትና ከ Catch Up ውጣ</string>
+    <string name="session_header_show_details_label">የክፍለ ጊዜውን ዝርዝሮች አሳይ</string>
+    <string name="session_header_idle_description">በመጠባበቅ ላይ</string>
+    <string name="session_header_syncing_description">በማመሳሰል ላይ</string>
+    <string name="session_header_last_known_description">ለመጨረሻ ጊዜ የታወቀ</string>
+    <string name="session_menu_more_description">ተጨማሪ</string>
+    <string name="session_unpin">ከተሰኩት አስወግድ</string>
+    <string name="session_copy_session_id">የክፍለ ጊዜ IDን ቅዳ</string>
+    <string name="session_mark_as_read">እንደተነበበ ምልክት አድርግ</string>
+    <string name="session_mark_as_unread">እንዳልተነበበ ምልክት አድርግ</string>
+    <string name="session_unmute">ድምፅ ክፈት</string>
+    <string name="session_menu_export_expanded_description">ተዘርግቷል</string>
+    <string name="session_menu_export_collapsed_description">ተሰብስቧል</string>
+    <string name="session_info">የክፍለ ጊዜ መረጃ</string>
+    <!-- Session screen -->
+    <string name="session_load_failed_title">ክፍለ ጊዜውን መጫን አልተቻለም</string>
+    <string name="session_location_share_failed_title">አካባቢን ማጋራት አልተቻለም</string>
+    <!-- Shell output -->
+    <string name="session_shell_stop_confirm_title">ይህ ሼል ይቁም?</string>
+    <string name="session_shell_stop_confirm_message">ትዕዛዙ አሁን ይቆማል። እዚህ የሚታየው ውጤት እስኪዘጉት ድረስ ይቆያል።</string>
+    <string name="session_shell_stop">ሼል አቁም</string>
+    <string name="session_shell_copy_output">ውጤቱን ኮፒ አድርግ</string>
+    <string name="session_shell_share_output">ውጤቱን አጋራ</string>
+    <string name="session_shell_earlier_output_hidden">የቀደመው ውጤት ተደብቋል</string>
+    <string name="session_shell_showing_last_output">የመጨረሻውን 4 ሜባ በማሳየት ላይ</string>
+    <string name="session_shell_load_earlier">የቀደመውን ጫን</string>
+    <string name="session_shell_output_unavailable_title">ውጤቱ አይገኝም</string>
+    <string name="session_shell_output_unavailable_message">የዚህ ሼል ውጤት ከእንግዲህ በአገልጋዩ ላይ የለም።</string>
+    <string name="session_shell_no_output_yet_title">ገና ውጤት የለም</string>
+    <string name="session_shell_no_output_title">ውጤት የለም</string>
+    <string name="session_shell_no_output_yet_message">ትዕዛዙ ውጤት ሲያወጣ እዚህ ይታያል።</string>
+    <string name="session_shell_status_stopping">በማቆም ላይ…</string>
+    <string name="session_shell_status_unavailable">አይገኝም</string>
+    <string name="session_shell_status_interrupted">የተቋረጠ</string>
+    <string name="session_shell_status_timed_out">ጊዜው አልፏል</string>
+    <string name="session_shell_status_exited_with_code">በኮድ %1$d ተዘግቷል</string>
+    <string name="session_shell_status_exited">ተዘግቷል</string>
+    <plurals name="session_shell_elapsed_hours">
+        <item quantity="one">%1$d ሰዓት</item>
+        <item quantity="other">%1$d ሰዓት</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_minutes">
+        <item quantity="one">%1$d ደቂቃ</item>
+        <item quantity="other">%1$d ደቂቃ</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_seconds">
+        <item quantity="one">%1$d ሰከንድ</item>
+        <item quantity="other">%1$d ሰከንድ</item>
+    </plurals>
+
+    <!-- Agent activity (glyph labels and titles) -->
+    <string name="session_activity_idle">በመጠባበቅ ላይ</string>
+    <string name="session_activity_starting_up">በመጀመር ላይ</string>
+    <string name="session_activity_thinking">ማሰብ</string>
+    <string name="session_activity_long_work">ረጅም ሥራ</string>
+    <string name="session_activity_tool_burst">ተከታታይ የመሳሪያ አጠቃቀም</string>
+    <string name="session_activity_streaming_output">ውጤት በማስተላለፍ ላይ</string>
+    <string name="session_activity_waiting_for_input">ግቤት በመጠበቅ ላይ</string>
+    <string name="session_activity_handing_off">ሥራን በማስተላለፍ ላይ</string>
+    <string name="session_activity_done">ተጠናቋል</string>
+    <string name="session_activity_failed">አልተሳካም</string>
+    <string name="session_working_stopping">በማቆም ላይ…</string>
+    <string name="session_status_working">በመስራት ላይ</string>
+    <string name="session_status_needs_input">የእርስዎን ግቤት ይፈልጋል</string>
+    <string name="session_status_done">ተጠናቋል</string>
+
+    <!-- Lists: joins two or three phrases -->
+    <string name="session_list_two">%1$s፣ %2$s</string>
+    <string name="session_list_three">%1$s፣ %2$s፣ %3$s</string>
+
+    <!-- Background work panel -->
+    <plurals name="session_background_work_subagent_count">
+        <item quantity="one">%1$d ንዑስ ወኪል</item>
+        <item quantity="other">%1$d ንዑስ ወኪሎች</item>
+    </plurals>
+    <plurals name="session_background_work_shell_count">
+        <item quantity="one">%1$d ሼል</item>
+        <item quantity="other">%1$d ሼሎች</item>
+    </plurals>
+    <plurals name="session_background_work_script_count">
+        <item quantity="one">%1$d ስክሪፕት</item>
+        <item quantity="other">%1$d ስክሪፕቶች</item>
+    </plurals>
+    <string name="session_background_work_summary">%1$s · %2$s</string>
+    <string name="session_background_work_scripts_title">ስክሪፕቶች</string>
+    <string name="session_background_work_stop_script_label">ስክሪፕቱን አቁም</string>
+    <string name="session_background_work_stop_subagent_label">ንዑስ ወኪሉን አቁም</string>
+    <string name="session_background_work_stop_script_failed">ስክሪፕቱን ማቆም አልተቻለም</string>
+    <string name="session_background_work_stop_subagent_failed">ንዑስ ወኪሉን ማቆም አልተቻለም</string>
+
+    <!-- Composer buttons -->
+    <string name="session_send_message_description">መልእክት ላክ</string>
+    <string name="session_stop_description">አቁም</string>
+    <string name="session_start_voice_call_description">የድምፅ ጥሪ ጀምር</string>
+    <string name="session_model_level_default">ነባሪ</string>
+
+    <!-- In-app notice -->
+    <plurals name="session_notice_session_count">
+        <item quantity="one">%1$d ክፍለ ጊዜ</item>
+        <item quantity="other">%1$d ክፍለ ጊዜዎች</item>
+    </plurals>
+    <plurals name="session_notice_needs_input_count">
+        <item quantity="one">%1$d የእርስዎን ግቤት ይፈልጋል</item>
+        <item quantity="other">%1$d የእርስዎን ግቤት ይፈልጋሉ</item>
+    </plurals>
+    <string name="session_notice_announcement">%1$s፣ %2$s</string>
+
+    <!-- Server connection pill -->
+    <string name="session_server_reconnecting">ከ%1$s ጋር እንደገና በመገናኘት ላይ…</string>
+    <string name="session_server_connect_failed">ከ%1$s ጋር መገናኘት አልተቻለም</string>
+    <string name="session_server_sign_in_failed">ወደ %1$s መግባት አልተቻለም</string>
+    <string name="session_server_pair_again">እንደገና አጣምር</string>
+    <string name="session_server_try_again_click_label">እንደገና ሞክር</string>
+    <string name="session_server_pair_again_click_label">እንደገና አጣምር</string>
+
+    <!-- Export -->
+    <string name="session_export_folder_failed">የመላኪያ አቃፊውን መፍጠር አልተቻለም</string>
+    <string name="session_export_save_failed">የተላከውን ማስቀመጥ አልተቻለም</string>
+
+    <!-- Session errors -->
+    <string name="session_agent_fallback_name">ወኪል</string>
+    <string name="session_something_went_wrong">የሆነ ችግር ተፈጥሯል</string>
+    <string name="session_something_went_wrong_sentence">የሆነ ችግር ተፈጥሯል።</string>
+    <string name="session_load_earlier_failed">የቀደሙ መልእክቶችን መጫን አልተቻለም</string>
+    <string name="session_move_to_background_failed">ወደ ዳራ ማንቀሳቀስ አልተቻለም፦ %1$s</string>
+    <string name="session_move_failed_reason">ክፍለ ጊዜውን ማንቀሳቀስ አልተቻለም</string>
+    <string name="session_delivery_waiting_to_send">ለመላክ በመጠባበቅ ላይ</string>
+    <string name="session_create_failed">ክፍለ ጊዜውን መፍጠር አልተቻለም።</string>
+    <string name="session_switch_agent_failed">ወኪሉን መቀየር አልተቻለም፦ %1$s</string>
+    <string name="session_switch_model_failed">ሞዴሉን መቀየር አልተቻለም፦ %1$s</string>
+    <string name="session_pending_send_now_failed_details">በመጠባበቅ ላይ ያለውን መልእክት አሁን መላክ አልተቻለም፦ %1$s</string>
+    <string name="session_pending_cancel_failed_details">በመጠባበቅ ላይ ያለውን መልእክት መሰረዝ አልተቻለም፦ %1$s</string>
+    <string name="session_pending_queue_failed_details">በመጠባበቅ ላይ ያለውን መልእክት ወረፋ ላይ ማስገባት አልተቻለም፦ %1$s</string>
+    <string name="session_stopped_before_sent">ከመላኩ በፊት ተቋርጧል</string>
+    <string name="session_stop_failed">ክፍለ ጊዜውን ማቆም አልተቻለም</string>
+    <string name="session_undo_message_failed">መልእክቱን መቀልበስ አልተቻለም፦ %1$s</string>
+    <string name="session_revert_failed">ወደነበረበት መመለስ አልተቻለም</string>
+    <string name="session_revert_failed_details">ወደነበረበት መመለስ አልተቻለም፦ %1$s</string>
+
+    <!-- Session sheet errors -->
+    <string name="session_sheet_rename_failed_title">የክፍለ ጊዜውን ስም መቀየር አልተቻለም</string>
+    <string name="session_sheet_compact_failed_title">ክፍለ ጊዜውን ማመቅ አልተቻለም</string>
+    <string name="session_sheet_fork_failed_title">ከክፍለ ጊዜው ቅርንጫፍ መፍጠር አልተቻለም</string>
+    <string name="session_sheet_save_export_failed">ወደ ውጭ የተላከውን ማስቀመጥ አልተቻለም</string>
+    <string name="session_sheet_export_failed_title">ክፍለ ጊዜውን ወደ ውጭ መላክ አልተቻለም</string>
+    <string name="session_sheet_notifications_off_message">መጀመሪያ በቅንብሮች ውስጥ ማሳወቂያዎችን ያብሩ።</string>
+    <string name="session_sheet_always_notify_on_failed_title">«ሁልጊዜ አሳውቅ»ን ማብራት አልተቻለም</string>
+    <string name="session_sheet_always_notify_off_failed_title">«ሁልጊዜ አሳውቅ»ን ማጥፋት አልተቻለም</string>
+
+    <!-- Attachments -->
+    <string name="session_attachment_files_unsupported">አገልጋዩ ፋይሎችን አይደግፍም</string>
+    <string name="session_attachment_upload_failed">መስቀል አልተቻለም</string>
+    <string name="session_attachment_file_fallback_name">ፋይል</string>
+    <string name="session_attachment_image_too_large">ከ20 MB ያነሰ ምስል ይምረጡ።</string>
+    <string name="session_attachment_image_load_failed">ይህን ምስል መጫን አልተቻለም። ሌላ ፎቶ ይሞክሩ።</string>
+    <string name="session_attachment_file_add_failed">ይህን ፋይል ማከል አልተቻለም። ሌላ ፋይል ይሞክሩ።</string>
+    <plurals name="session_attachment_files_add_failed">
+        <item quantity="one">%1$d ፋይል ማከል አልተቻለም።</item>
+        <item quantity="other">%1$d ፋይሎችን ማከል አልተቻለም።</item>
+    </plurals>
+    <string name="session_large_upload_title">%1$s ይሰቀል?</string>
+    <string name="session_large_upload_message_one">«%1$s» ትልቅ ፋይል ነው። ወደ አገልጋይዎ መሰቀሉ ሲያልቅ መልእክቱ ይላካል።</string>
+    <plurals name="session_large_upload_message_many">
+        <item quantity="one">%1$d ፋይል ትልቅ ነው። ወደ አገልጋይዎ መሰቀሉ ሲያልቅ መልእክቱ ይላካል።</item>
+        <item quantity="other">%1$d ፋይሎች ትልቅ ናቸው። ወደ አገልጋይዎ መሰቀላቸው ሲያልቅ መልእክቱ ይላካል።</item>
+    </plurals>
+
+    <!-- Header and screens -->
+    <string name="session_new_session_title">አዲስ ክፍለ ጊዜ</string>
+    <string name="session_pasted_text_screen_title">የተለጠፈ ጽሑፍ</string>
+    <string name="session_pasted_text_viewer_screen_title">የተለጠፈ ጽሑፍ መመልከቻ</string>
+    <string name="session_context_summary">ከ%2$s፣ %1$d%%</string>
+    <string name="session_context_accessibility_value">ከ%2$s ቶከኖች %1$d%% ጥቅም ላይ ውሏል</string>
+
+    <!-- Starter prompts (shown, then sent as the person’s message) -->
+    <string name="session_starter_project_purpose">ይህ ፕሮጀክት ምን ይሠራል?</string>
+    <string name="session_starter_code_tour">ኮዱን በአጭሩ አስተዋውቀኝ</string>
+    <string name="session_starter_recent_changes">በቅርቡ እዚህ ምን ተቀየረ?</string>
+
+    <!-- Shell output -->
+    <string name="session_shell_refresh_failed">ውጤቱን ማደስ አልተቻለም</string>
+    <string name="session_shell_load_earlier_failed">የቀደመውን ውጤት መጫን አልተቻለም</string>
+    <string name="session_shell_stop_failed">ሼሉን ማቆም አልተቻለም</string>
+    <string name="session_quote_remove_description">ጥቅሱን አስወግድ</string>
+    <string name="session_quote_comment_placeholder">አማራጭ አስተያየት አክል…</string>
+    <string name="session_media_title">የክፍለ ጊዜ ሚዲያ</string>
+    <string name="session_media_filter_media">ሚዲያ</string>
+    <string name="session_media_filter_files">ፋይሎች</string>
+    <string name="session_media_filter_links">አገናኞች</string>
+    <string name="session_media_layout_description">የሚዲያ አቀማመጥ</string>
+    <string name="session_media_layout_tiles">አቋራጮች</string>
+    <string name="session_media_layout_list">ዝርዝር</string>
+    <string name="session_media_origin_user">በእርስዎ የተላከ</string>
+    <string name="session_media_origin_agent">በወኪሉ የተጋራ</string>
+    <string name="session_media_open_click_label">ክፈት</string>
+    <string name="session_media_open_link_click_label">አገናኝ ክፈት</string>
+    <string name="session_media_empty_media_title">ምንም ሚዲያ የለም</string>
+    <string name="session_media_empty_media_message">በዚህ ክፍለ ጊዜ የተጋሩ ምስሎች፣ ቪዲዮዎች እና ድምጾች እዚህ ይታያሉ።</string>
+    <string name="session_media_empty_files_title">ፋይሎች የሉም</string>
+    <string name="session_media_empty_files_message">ከዚህ ክፍለ ጊዜ የመጡ ሰነዶች እና የተለጠፉ ጽሑፎች እዚህ ይታያሉ።</string>
+    <string name="session_media_empty_links_title">አገናኞች የሉም</string>
+    <string name="session_media_empty_links_message">በዚህ ክፍለ ጊዜ የተጋሩ የድር አገናኞች እዚህ ይታያሉ።</string>
+    <string name="session_media_earlier_note">ቀደም ያሉ መልእክቶች ገና አልተጫኑም።</string>
+    <string name="session_media_load_earlier">ቀደም ያሉ መልእክቶችን ጫን</string>
+    <string name="session_media_loading_earlier">በመጫን ላይ…</string>
+    <string name="session_media_earlier_failed">የቀደሙ መልእክቶችን መጫን አልተቻለም። ግንኙነትዎን ይፈትሹና እንደገና ይሞክሩ።</string>
+    <string name="session_media_earlier_nothing_new">አሁን በተጫኑት መልእክቶች ውስጥ አዲስ ነገር የለም። የቀደሙት ተጨማሪ ሊኖራቸው ይችላል።</string>
+</resources>

@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- What’s New entries, oldest first: one group per file in whatsnew/entries/. -->
+
+    <!-- 2026-10-06-01-voice-messages -->
+    <string name="settings_whatsnew_entry_voice_messages_title">ხმოვანი შეტყობინებები</string>
+    <string name="settings_whatsnew_entry_voice_messages_summary">რასაც ხმა სესიას თქვენ ნაცვლად სთხოვს, ხმოვან შეტყობინებად ჩანს და ტალღის ნიშნით აღინიშნება.</string>
+
+    <!-- 2026-10-07-01-attachment-menu-hold -->
+    <string name="settings_whatsnew_entry_attachment_menu_hold_title">მიმაგრება + ღილაკით</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_summary">+ მენიუ შეტყობინების ველიდან იშლება და გთავაზობთ კამერას, ფოტოებსა და ფაილებს. გეჭიროთ + და არჩევისთვის თითი გაასრიალეთ.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_1">ფოტოები შეტყობინების ველის ზემოთ იხსნება; მისამაგრებლად შეეხეთ ფოტოებს.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_2">კამერას აქვს ობიექტივების ღილაკები, ორი თითით მასშტაბირება, შეხებით ფოკუსირება და განათება.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_example">გეჭიროთ +, გაასრიალეთ ზემოთ ფოტოებამდე და აუშვით</string>
+
+    <!-- 2026-10-08-01-voice-webrtc-weak-connection -->
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_title">უფრო სტაბილური ზარები</string>
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_summary">არასტაბილური კავშირისას ზარში ხანგრძლივ სიჩუმეს მხოლოდ მცირე შეფერხება ცვლის.</string>
+
+    <!-- 2026-10-08-02-mute-sessions -->
+    <string name="settings_whatsnew_entry_mute_sessions_title">სესიების დადუმება</string>
+    <string name="settings_whatsnew_entry_mute_sessions_summary">დადუმებული სესიები სიაში რჩება, მაგრამ სიახლეების გაცნობაში არ ხვდება და წაუკითხავის წერტილიც არ უჩნდება.</string>
+    <string name="settings_whatsnew_entry_mute_sessions_detail_1">ყველაფრის წაკითხულად მოსანიშნად გეჭიროთ „სიახლეების გაცნობა“. სესიები, რომლებიც თქვენს პასუხს ელოდება, დარჩება.</string>
+    <string name="settings_whatsnew_entry_mute_sessions_example">გვერდით პანელში გეჭიროთ სესიაზე და შეეხეთ „დადუმებას“</string>
+
+    <!-- 2026-10-08-03-pair-from-anywhere -->
+    <string name="settings_whatsnew_entry_pair_from_anywhere_title">დაწყვილება ნებისმიერი ადგილიდან</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_summary">კომპიუტერზე გაუშვით opencode pair --remote და დაუკავშირდით ნებისმიერი ქსელიდან, საერთო Wi-Fi-სა თუ Tailscale-ის გარეშე.</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_detail_1">დაასკანირეთ ნაჩვენები კოდი ან ჩასვით გამოტანილი ბმული.</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_example">გაუშვით opencode pair --remote, შემდეგ ტელეფონში დაამატეთ სერვერი</string>
+
+    <!-- 2026-10-08-04-drawer-peek -->
+    <string name="settings_whatsnew_entry_drawer_peek_title">სესიების ბოლო აქტივობა</string>
+    <string name="settings_whatsnew_entry_drawer_peek_summary">სესიების სია სესიისკენ გადმოწიეთ, რომ ნახოთ, ბოლოს როდის იყო თითოეული აქტიური.</string>
+    <string name="settings_whatsnew_entry_drawer_peek_detail_1">სიას მარცხნივ გასმით დახურავთ.</string>
+    <string name="settings_whatsnew_entry_drawer_peek_example">გახსენით სესიების სია და მარჯვნივ გადმოწიეთ</string>
+
+    <!-- 2026-10-08-05-dictation-keeps-going -->
+    <string name="settings_whatsnew_entry_dictation_keeps_going_title">კარნახი და გაგზავნა</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_summary">კარნახისთვის შეეხეთ მიკროფონს და გაგზავნეთ პირდაპირ ჩაწერის ზოლიდან, ან ჯერ გადასახედად შეეხეთ „შეჩერებას“.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_1">საუბრისას გეჭიროთ მიკროფონზე; ჩასაკეტად ასრიალეთ ზემოთ, გასაუქმებლად — მარცხნივ.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_2">აპიდან გასვლისას ჩაწერა გრძელდება; მის შესაჩერებლად გამოიყენეთ Live Activity.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_3">თუ ჩაწერისას სესიას შეცვლით, „გაგზავნა“ ჩანაწერს ეკრანზე გახსნილ სესიაში გაგზავნის.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_example">შეეხეთ მიკროფონს, თქვით წინადადება და შეეხეთ „გაგზავნას“</string>
+
+    <!-- 2026-10-08-06-siri-shortcuts-spotlight -->
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_title">აპის მოქმედებები და მალსახმობები</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_summary">დაიწყეთ ზარი ან სესია, ან გაგზავნეთ შეტყობინება Google Assistant-ის App Actions-იდან, აპის მალსახმობებიდან ან სწრაფი პარამეტრებიდან.</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_detail_1">ბოლო სესიების სანახავად გეჭიროთ აპის ხატულაზე.</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_example">თქვით: „Hey Google, დაიწყე ხმოვანი ზარი OpenCode-ში“</string>
+
+    <!-- 2026-10-09-01-working-orb -->
+    <string name="settings_whatsnew_entry_working_orb_title">სტატუსის სფერო</string>
+    <string name="settings_whatsnew_entry_working_orb_summary">„მუშაობს“ წარწერის გვერდით და ქვეაგენტების ბარათებზე სფერო აგენტის მოქმედებას აჩვენებს, დასრულებისას კი კოპირების ღილაკად იქცევა.</string>
+
+    <!-- 2026-10-09-02-shell-glyph -->
+    <string name="settings_whatsnew_entry_shell_glyph_title">გარსის აქტივობა</string>
+    <string name="settings_whatsnew_entry_shell_glyph_summary">მომუშავე გარსის &gt;_ ნიშანი შედეგების მიღებისას წრიულად მოძრაობს.</string>
+
+    <!-- 2026-10-09-03-math-and-diagrams -->
+    <string name="settings_whatsnew_entry_math_and_diagrams_title">მათემატიკა და დიაგრამები</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_summary">პასუხებში მათემატიკური ფორმულები ფორმატირდება და Mermaid დიაგრამები იხატება.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_1">გასადიდებლად შეეხეთ დიაგრამას, წყაროს სანახავად კი გეჭიროთ მასზე.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_2">ფორმულები ტექსტის ზომას ერგება.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_example">სთხოვეთ შეტყობინების გაგზავნის ბლოკსქემა</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_prompt">დახატე შეტყობინების გაგზავნის ბლოკსქემა</string>
+
+    <!-- 2026-10-09-04-always-notify -->
+    <string name="settings_whatsnew_entry_always_notify_title">შეტყობინება დასრულებისას</string>
+    <string name="settings_whatsnew_entry_always_notify_summary">აქ დაწყებული სესიის მუშაობის დასრულებისას მიიღებთ შეტყობინებას შედეგის მოკლე შეჯამებით.</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_1">სესიის პანელში ჩართეთ „ყოველთვის შემატყობინე“, რომ ყოველი პასუხის შესახებ გაიგოთ, კომპიუტერიდან დაწყებულისაც.</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_2">სესიის გასახსნელად შეეხეთ შეტყობინებას.</string>
+    <string name="settings_whatsnew_entry_always_notify_example">გაგზავნეთ შეტყობინება, შემდეგ დაბლოკეთ ტელეფონი</string>
+
+    <!-- 2026-10-09-05-server-switcher -->
+    <string name="settings_whatsnew_entry_server_switcher_title">სერვერების გადართვა</string>
+    <string name="settings_whatsnew_entry_server_switcher_summary">გვერდითი პანელის სათაური მიმდინარე სერვერის სახელია. შეეხეთ სხვა სერვერზე გადასართავად ან დასამატებლად.</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_1">პარამეტრებში კავშირი ცოცხალი პულსივით ჩანს, სერვერის სახელთან კი — მოთხოვნა-პასუხის დრო.</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_2">გადაარქვით სერვერს სახელი; ეს სახელი მხოლოდ ამ ტელეფონში გამოჩნდება.</string>
+    <string name="settings_whatsnew_entry_server_switcher_example">გახსენით გვერდითი პანელი, შეეხეთ სერვერის სახელს და დაამატეთ სხვა კომპიუტერი</string>
+
+    <!-- 2026-10-10-01-share-opened-files -->
+    <string name="settings_whatsnew_entry_share_opened_files_title">სურათები, როგორც ფოტოები</string>
+    <string name="settings_whatsnew_entry_share_opened_files_summary">სურათები სესიაში სრულად ჩანს და ფოტოებივით იხსნება: ორი თითით შეცვალეთ მასშტაბი, გასმით გადადით სხვაზე, დასახურად კი ჩამოწიეთ.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_1">აგენტის მიერ ნახსენები ყველა ფაილი აპში იხსნება.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_2">„გაზიარებით“ ყველაფერს, რასაც გახსნით, ფოტოებში ან ფაილებში შეინახავთ, ვიდეოსა და აუდიოს ჩათვლით.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_example">სთხოვეთ აგენტს რამდენიმე ეკრანის სურათის წაკითხვა, შემდეგ ერთ-ერთს შეეხეთ და ჩამოწიეთ</string>
+
+    <!-- 2026-10-10-02-call-voice -->
+    <string name="settings_whatsnew_entry_call_voice_title">ხმოვანი ზარები</string>
+    <string name="settings_whatsnew_entry_call_voice_summary">ცარიელ შეტყობინების ველში შეეხეთ ტალღის ნიშანს და ისაუბრეთ. ხმა საუბრისას თქვენს სესიებში მუშაობს და დასრულებას გაცნობებთ.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_1">მოითხოვეთ ნებისმიერი სესია სახელით: ხმა გახსნის მას და იქ მუშაობას დაიწყებს ან მიმართულებას შეუცვლის.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_2">შესაწყვეტად საუბარი დაიწყეთ, ან ჰკითხეთ, როგორ მიდის მუშაობა.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_3">პირდაპირი სუბტიტრებისთვის შეეხეთ ზარის ზოლს.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_4">ზარის შეტყობინებიდან შეგიძლიათ დადუმება და დასრულება, ჩაკეტილ ეკრანზეც.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_5">აგენტის მუშაობისას დასარეკად ხანგრძლივად დააჭირეთ „შეჩერებას“.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_6">აირჩიეთ ხმა: პარამეტრები → ხმა.</string>
+    <string name="settings_whatsnew_entry_call_voice_example">დაიწყეთ ზარი და თქვით: „გახსენი ატვირთვის შესწორებების ჩემი სესია და შეამოწმე ტესტები“</string>
+
+    <!-- 2026-10-10-03-drawer-one-edge -->
+    <string name="settings_whatsnew_entry_drawer_one_edge_title">უფრო მოწესრიგებული გვერდითი პანელი</string>
+    <string name="settings_whatsnew_entry_drawer_one_edge_summary">რიგები ერთ ხაზზე იწყება, სტატუსის წერტილები თითოეული რიგის ბოლოშია, ძებნის ღილაკი კი — ზემოთ.</string>
+
+    <!-- 2026-10-11-01-paste-as-a-card -->
+    <string name="settings_whatsnew_entry_paste_as_a_card_title">გრძელი ტექსტი ბარათად</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_summary">გრძელი ჩასმული ტექსტი სურათების გვერდით „ჩასმული ტექსტის“ ბარათად გამოჩნდება. აგენტი მას მაინც სრულად წაიკითხავს.</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_1">შეეხეთ ბარათს სრული ტექსტის წასაკითხად, ასლის შესაქმნელად ან გასაზიარებლად.</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_2">გრძელი შეტყობინებები რამდენიმე სტრიქონამდე იკეცება. გასაშლელად შეეხეთ „აჩვენე მეტს“.</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_example">დააკოპირეთ გრძელი ჟურნალი, ჩასვით შეტყობინების ველში და შეეხეთ ბარათს</string>
+
+    <!-- 2026-10-11-02-ride-out-drops -->
+    <string name="settings_whatsnew_entry_ride_out_drops_title">მუშაობს სუსტი სიგნალითაც</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_summary">სიგნალის რამდენიმე წამით დაკარგვა აღარაფერს აფერხებს. გაგზავნა, სესიები და ზარები კავშირის აღდგენას ელოდება და გრძელდება.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_1">გაგზავნა ყოველთვის ხელმისაწვდომია. შეტყობინებები თქვენ მიერ გაგზავნილი თანმიმდევრობით მიდის.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_2">ვერგაგზავნილი შეტყობინება ადგილზე რჩება ღილაკით „ხელახლა ცდა“. ხელახლა ცდა მას ორჯერ არასდროს აგზავნის.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_3">როცა სერვერი ქსელგარეშეა, მისი სახელი გვერდით პანელში ფერმკრთალდება. შეეხეთ მას „ხელახლა ცდის“ სანახავად.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_example">გახსენით სესია, როცა თქვენი მატარებელი გვირაბში შედის</string>
+
+    <!-- 2026-10-11-03-new-session-recent-projects -->
+    <string name="settings_whatsnew_entry_new_session_recent_projects_title">დაიწყეთ ნებისმიერ პროექტში</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_summary">„ახალი სესია“ შეტყობინების ველის ზემოთ ბოლო პროექტებს აჩვენებს. „ყველა პროექტიდან“ კი კომპიუტერზე ნებისმიერ საქაღალდეს გახსნით.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_1">აკრეფისას არჩეული პროექტი შეტყობინების ველის ზემოთ რჩება.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_2">ახალი სესიიდან დაწყებული ზარი არჩეულ პროექტში მუშაობს.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_example">შეეხეთ „ახალ სესიას“, შემდეგ „ყველა პროექტს“, შემდეგ კი „აირჩიე საქაღალდე…“</string>
+
+    <!-- 2026-10-11-04-stop-runs-your-steer -->
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_title">მიმართვა მუშაობისას</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_summary">გაუგზავნეთ შეტყობინება მომუშავე აგენტს და ის მას შემდეგ ნაბიჯზე წაიკითხავს, მანამდე კი ხანგრძლივ ბრძანებებს ფონურ რეჟიმში გადაიტანს.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_1">ხანგრძლივად დააჭირეთ „გაგზავნას“, რომ ერთი შეტყობინებისთვის აირჩიოთ „მიმართვა“ ან „რიგში ჩადგომა“.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_2">ხანგრძლივად დააჭირეთ მომლოდინე შეტყობინებას რიგში გადასატანად ან წასაშლელად.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_3">„შეჩერება“ მაშინვე იცვლება წარწერით „ჩერდება…“, შემდეგ კი თქვენ მიერ გაგზავნილი მიმართვა სრულდება.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_example">ხანგრძლივი ბრძანების შესრულებისას გაგზავნეთ შეტყობინება და ნახეთ, როგორ გადადის ბრძანება ფონურ რეჟიმში</string>
+
+    <!-- 2026-10-12-01-browser-push-in -->
+    <string name="settings_whatsnew_entry_browser_push_in_title">გვერდები აპის ბრაუზერში</string>
+    <string name="settings_whatsnew_entry_browser_push_in_summary">თუ ექსპერიმენტული „აპის ბრაუზერი“ ჩართულია, ბმულის გვერდი სესიის ზემოდან იხსნება. უკან დასაბრუნებლად კიდიდან გადაუსვით.</string>
+
+    <!-- 2026-10-12-02-answer-from-the-bar -->
+    <string name="settings_whatsnew_entry_answer_from_the_bar_title">პასუხი შეტყობინების ველიდან</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_summary">კითხვები და ნებართვის მოთხოვნები შეტყობინების ველიდან იშლება. უპასუხეთ იქვე: აირჩიეთ პასუხი, აკრიფეთ ან უკარნახეთ თქვენი.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_1">ნებართვის მიცემამდე ნახავთ ბრძანებას ან შესწორებას.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_2">„უარის“ არჩევისას თქვენ მიერ აკრეფილი ტექსტი ალტერნატიულ მითითებად გამოიყენება და აგენტი მუშაობას აგრძელებს.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_3">პასუხის შემდეგ თქვენი მონახაზი აღდგება.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_example">როცა აგენტი კითხვას დასვამს, ხანგრძლივად დააჭირეთ მიკროფონს და თქვით პასუხი</string>
+
+    <!-- 2026-10-12-03-new-messages-divider -->
+    <string name="settings_whatsnew_entry_new_messages_divider_title">გააგრძელეთ იქიდან, სადაც შეჩერდით</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_summary">სესიაში დაბრუნებისას მისი ბოლო იხსნება, სადაც უკვე ჩანს თქვენს არყოფნაში მიღებული შეტყობინებები. ბევრი წაუკითხავი შეტყობინების შემთხვევაში „ახალი“ გამყოფიდან გასახსნელად ჩართეთ „ახალი შეტყობინებების გამყოფი“: პარამეტრები › სესიები.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_1">სესიები, რომლებსაც სავარაუდოდ გახსნით, გვერდითი პანელის გახსნისთანავე ახლდება, რათა შეხებისას მზად დაგხვდეთ.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_2">სესიაში დაბრუნებისას განახლებამდე მისი ფონური სამუშაო და კონტექსტის მაჩვენებელი შენარჩუნებულია.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_example">დაიწყეთ ხანგრძლივი ამოცანა, გადადით სხვა სესიაზე და პასუხის მიღების შემდეგ დაბრუნდით</string>
+
+    <!-- 2026-10-12-04-model-list-and-level-meter -->
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_title">მოდელის ახალი ასარჩევი</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_summary">„მოდელის“ პანელიდან აირჩიეთ მოდელი და ფიქრის დონე. რჩეულები სიის თავშია. შეტყობინების ველიდან გაშლილი სიის გამოსაცდელად ჩართეთ „მოდელის ახალი ასარჩევი“: პარამეტრები → ექსპერიმენტული.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_1">თუ მოდელს დონეები აქვს, გამოიყენეთ „ფიქრის“ მენიუ „მოდელის“ პანელში.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_2">მოდელის რჩეულებში დასამატებლად გადაუსვით მას.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_3">სესიაში შეუმჩნეველი ხაზი აღნიშნავს, სად შეცვალეთ მოდელი ან დონე.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_example">შეეხეთ მოდელს შეტყობინების ველში და აირჩიეთ ფიქრის დონე</string>
+
+    <!-- 2026-10-12-05-run-error-line -->
+    <string name="settings_whatsnew_entry_run_error_line_title">როცა შესრულება ვერ ხერხდება</string>
+    <string name="settings_whatsnew_entry_run_error_line_summary">თუ შესრულება ნაადრევად შეწყდა, მიზეზი მარტივად აიხსნება და გამოჩნდება შემდეგი ნაბიჯი: რედაქტირება, კომპაქტური, მოდელის შეცვლა ან ხელახლა ცდა.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_1">„რედაქტირება“ აუქმებს თქვენს შეტყობინებას და გადასაწერად შეტყობინების ველში აბრუნებს.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_2">ხანგრძლივად დააჭირეთ სტრიქონს სრული შეცდომის სანახავად და დასაკოპირებლად.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_3">როცა აგენტი თავად აპირებს ხელახლა ცდას, „მუშაობს“ შემდეგ ცდამდე დარჩენილ დროს აჩვენებს.</string>
+    <string name="settings_whatsnew_entry_run_error_line_example">თუ პასუხი დაიბლოკა, შეეხეთ „რედაქტირებას“, გადააკეთეთ შეტყობინება და ხელახლა გაგზავნეთ</string>
+
+    <!-- 2026-10-12-06-transcript-keyboard-space -->
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_title">კლავიატურა სიცარიელეს აღარ ტოვებს</string>
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_summary">კლავიატურის ჩამოსრიალებით დახურვა ბოლო შეტყობინების ქვეშ ცარიელ ადგილს აღარ ტოვებს.</string>
+
+    <!-- 2026-10-12-07-share-sheet-sends -->
+    <string name="settings_whatsnew_entry_share_sheet_sends_title">გაგზავნა გაზიარების პანელიდან</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_summary">გააზიარეთ ნებისმიერი რამ OpenCode-ში, აირჩიეთ სესია, დაამატეთ შეტყობინება და გაგზავნეთ აპის გახსნის გარეშე.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_1">ბოლო სესიები გაზიარების პანელის ზედა რიგში ჩანს.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_2">JSON ფაილები და ექსპორტირებული მონაცემები ფაილებად ერთვის და სახელებს უცვლელად ინარჩუნებს.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_3">„OpenCode-ში გაგრძელება“ ხსნის სესიას და გაზიარებულ მასალას შეტყობინების ველში ათავსებს.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_4">თუ გაგზავნა ვერ ხერხდება, „მოგვიანებით გაგზავნა“ მას აპის შემდეგ გახსნაზე გაგზავნის.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_example">გააზიარეთ ეკრანის სურათი OpenCode-ში, დაწერეთ კითხვა და შეეხეთ „გაგზავნას“</string>
+
+    <!-- 2026-10-12-08-app-icon-badge -->
+    <string name="settings_whatsnew_entry_app_icon_badge_title">მრიცხველი აპის ხატულაზე</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_summary">აპის ხატულა აჩვენებს წაუკითხავი ან თქვენი პასუხის მომლოდინე სესიების რაოდენობას — ისევე, როგორც „სიახლეების გაცნობა“.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_1">დადუმებული სესიები არ ითვლება.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_2">ამისთვის შეტყობინებები ჩართული უნდა იყოს.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_example">დატოვეთ სესიაში კითხვა უპასუხოდ და გადადით მთავარ ეკრანზე</string>
+
+    <!-- 2026-10-12-09-drawer-keeps-keyboard -->
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_title">კლავიატურა პანელს მიჰყვება</string>
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_summary">წერისას სესიების სიის გახსნა შეტყობინების ველს აქტიურს ტოვებს, კლავიატურა კი სესიასთან ერთად გვერდზე იწევა.</string>
+
+    <!-- 2026-10-12-10-whats-new-page -->
+    <string name="settings_whatsnew_entry_whats_new_page_title">„რა არის ახალი“ — უფრო მარტივად</string>
+    <string name="settings_whatsnew_entry_whats_new_page_summary">„რა არის ახალი“ პარამეტრების მსგავს გვერდად იხსნება: თითოეულ ფუნქციას თავისი გვერდი აქვს, შესწორებები კი აქაა თავმოყრილი.</string>
+
+    <!-- 2026-10-12-11-catch-up-returns-to-drawer -->
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_title">სიახლეებიდან გვერდით პანელზე დაბრუნება</string>
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_summary">„სიახლეების გაცნობიდან“ გასვლისას სესიების სია იმავე მდგომარეობაში გხვდებათ, როგორშიც დატოვეთ.</string>
+
+    <!-- 2026-10-12-12-transcript-day-stamps -->
+    <string name="settings_whatsnew_entry_transcript_day_stamps_title">დღეები ტრანსკრიპტში</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_summary">რამდენიმე დღეზე გაწელილ სესიაში ყოველი დღის პირველი შეტყობინების თავზე დღე ჩანს, მაგალითად, „ოთხშაბათი 08:24“, ხოლო ერთსაათიანი პაუზის შემდეგ გაგზავნილის თავზე — დრო.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_1">დღე აღინიშნება როგორც „დღეს“, „გუშინ“ ან, მიმდინარე კვირაში, კვირის დღით; სხვა შემთხვევაში — თარიღით.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_2">მიმართულების მიმცემი და რიგში მყოფი შეტყობინებები ლოდინისას დროის ნიშნულის გარეშე ჩანს.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_example">გახსენით ამ კვირაში ადრე დაწყებული სესია და გადაახვიეთ ზემოთ</string>
+
+    <!-- 2026-10-12-13-rich-link-previews -->
+    <string name="settings_whatsnew_entry_rich_link_previews_title">ბმულების გადახედვა</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_summary">პასუხის ქვეშ თითო ბმული თითო სტრიქონზე აჩვენებს თავის შინაარსს: შერწყმის მოთხოვნას ან საკითხს სათაურითა და სტატუსით, კომიტს, ვიდეოს თუ გვერდს.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_1">GitHub-ის შერწყმის მოთხოვნებს, საკითხებს, კომიტებსა და საცავებს სათაური ახლავს, ხოლო „ღია“, „შერწყმული“ ან „დახურული“ ფერით გამოირჩევა.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_2">X-ის პოსტებში ჩანს ავტორი და ტექსტი; YouTube-ის ბმულებში — სათაური, სხვა გვერდებისთვის კი — ბმულიდან ამოკითხული სახელი.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_3">ჩანს სამი ბმული; დანარჩენებისთვის „ასლის“ გვერდით შეეხეთ „მეტს“, ხელახლა შეხებით კი დამალეთ.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_4">ხანგრძლივად შეეხეთ ბმულს უფრო დიდი გადახედვისთვის, ბმულის კოპირებისა და გაზიარებისთვის.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_example">ჰკითხეთ აგენტს, რა შეიცვალა საცავში ამ კვირაში</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_prompt">რა შეიცვალა ამ კვირაში GitHub-ის საცავში, რომელსაც ვიყენებ? დაურთე ბმულები.</string>
+
+    <!-- 2026-10-13-01-rolling-numbers -->
+    <string name="settings_whatsnew_entry_rolling_numbers_title">მოძრავი ციფრები</string>
+    <string name="settings_whatsnew_entry_rolling_numbers_summary">ფონური მუშაობის ინდიკატორში, სესიის პანელში, „გამოყენებულია N“ სტრიქონებსა და „სიახლეების გაცნობაში“ მრიცხველები ციფრ-ციფრ იცვლება.</string>
+
+    <!-- 2026-10-13-02-grouped-steering -->
+    <string name="settings_whatsnew_entry_grouped_steering_title">დაჯგუფებული შეტყობინებები</string>
+    <string name="settings_whatsnew_entry_grouped_steering_summary">ზედიზედ გაგზავნილი შეტყობინებები ერთ ბლოკში ერთიანდება, აგენტის მომლოდინე მიმართულების მიმცემ შეტყობინებებს კი ერთი წარწერა — „მიმართულების მიცემა“ — აქვთ.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_1">ზედიზედ განლაგებული შეტყობინებების ბუშტები ახლოსაა და შეხების ადგილას კუთხეები ერთმანეთს უერთდება.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_2">ფოტოები და ფაილები ბლოკში საკუთარ მომრგვალებულ ფორმას ინარჩუნებს.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_3">როცა აგენტი შეტყობინებას იღებს, ის ერთი მოძრაობით ადის თავის ადგილას.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_example">აგენტის მუშაობისას სწრაფად გაგზავნეთ სამი შეტყობინება, მათგან ერთი — ფოტოთი</string>
+
+    <!-- 2026-10-13-03-inline-tool-rows -->
+    <string name="settings_whatsnew_entry_inline_tool_rows_title">ხელსაწყოებისა და კითხვების სადა სტრიქონები</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_summary">ხელსაწყოების ჯგუფები და პასუხგაცემული კითხვები კოდის მსგავსად, სრულ სიგანეზე იშლება, ზედიზედ წაკითხვები კი ერთ სტრიქონში ერთიანდება.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_1">ჩაკეცილ ჯგუფებს აწერია „გამოყენებულია N ხელსაწყო“, ხელსაწყოების წარუმატებელი გამოძახებები კი წითლად აღინიშნება.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_2">„შესრულების“ სტრიქონებში ჩანს სკრიპტის მიერ გამოძახებული ხელსაწყოები, „უნარის“ სტრიქონებში კი — უნარის სახელი.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_3">პასუხგაცემულ კითხვებში ჩანს მოთხოვნა და ყველა შემოთავაზებული ვარიანტი, თქვენი არჩევანი კი მონიშნულია.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_example">სესიაში შეეხეთ „გამოყენებულია N ხელსაწყო“ სტრიქონს მის გასაშლელად</string>
+
+    <!-- 2026-10-13-04-mac-motion-playgrounds -->
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_title">საცდელი სივრცის მართვა Mac-ზე</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_summary">დეველოპერის რეჟიმში დააწყვილეთ გამართვის ხელსაწყო თქვენს Mac-თან, რათა საცდელი ანიმაციები შენელებულად გაიმეოროთ და გადაღებული კადრები შეამოწმოთ.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_1">Mac-ის მართვის გვერდზე ირჩევთ საცდელ სივრცეს, მზა პარამეტრებს და მართავთ გამეორებას; ტელეფონზე მხოლოდ საცდელი სივრცე ჩანს.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_2">კომპაქტურ ბარათებში ჩანს ეკრანზე არსებული მართვის ელემენტები, მოძრაობისა და დაშორებების დასახელებული მზა პარამეტრები და „ნაგულისხმევი“ საწყისი იერსახის აღსადგენად; თითოეული ნაკრების მნიშვნელობები ერთდროულად გამოიყენება.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_3">Mac-ის დაკავშირებისას მცურავი გამართვის პანელი იმალება; გამოიძახეთ ის გამართვის ჟესტით და გასასვლელად აირჩიეთ „საცდელი სივრციდან გასვლა“.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_4">წინასწარ მომზადებული სცენარები იმავე საცდელ სესიას იმეორებს, რათა აპის ვერსიებს შორის მოძრაობა შეადაროთ.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_5">გამეორება თავიდან იწყება და მიმართულების მიმცემ თუ რიგში მყოფ შეტყობინებებს ლოდინში დატოვების ნაცვლად აგზავნის.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_6">Mac-ის მიმოხილვის დამკვრელში შეგიძლიათ კადრ-კადრ შეამოწმოთ ჩაწერილი ელემენტების ზომები და მდებარეობა, მონიშნოთ კადრი და გაგზავნოთ შეფასება ანიმაციაზე.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_example">გახსენით პარამეტრები → დეველოპერი, დააწყვილეთ Mac-ის გამართვის გვერდთან და სცადეთ ტრანსკრიპტი → პასუხის ნაკადი 0.25× სიჩქარით</string>
+
+    <!-- 2026-10-13-05-catch-up-flicks -->
+    <string name="settings_whatsnew_entry_catch_up_flicks_title">მარტივი გადაფურცვლა სიახლეებში</string>
+    <string name="settings_whatsnew_entry_catch_up_flicks_summary">„სიახლეების გაცნობაში“ სწრაფი გასმა ან მოკლე გადათრევა ბარათს გადააცილებს და უკან აღარ დააბრუნებს.</string>
+
+    <!-- 2026-10-14-01-settings-grouped-by-purpose -->
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_title">უფრო გასაგები პარამეტრები</string>
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_summary">ექსპერიმენტულ ფუნქციებსა და დეველოპერის ხელსაწყოებს ნახავთ პარამეტრები → ექსპერიმენტულში, აპის ცნობებს — შეტყობინებებში, ზარების ისტორიას კი — ხმაში.</string>
+
+    <!-- 2026-10-14-02-send-ats-recovery -->
+    <string name="settings_whatsnew_entry_send_ats_recovery_title">საიმედო გაგზავნა</string>
+    <string name="settings_whatsnew_entry_send_ats_recovery_summary">შეტყობინებების გაგზავნა ავტომატურად მეორდება, თუ iOS დროებით უარყოფს სერვერთან უკვე მოქმედ კავშირს.</string>
+
+    <!-- 2026-10-14-03-keyboard-menus-and-header -->
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_title">უფრო სტაბილური კლავიატურა და მენიუები</string>
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_summary">წერისას შეეხეთ + ნიშანს დანართების გასახსნელად — კლავიატურა არ დაიმალება და მართვის ელემენტები არ გადაადგილდება; კლავიატურის მოძრაობისას ზედა ზოლის დაბინდვაც ადგილზე რჩება.</string>
+
+    <!-- 2026-10-14-04-open-links-in-apps -->
+    <string name="settings_whatsnew_entry_open_links_in_apps_title">ბმულები შესაბამის აპებში იხსნება</string>
+    <string name="settings_whatsnew_entry_open_links_in_apps_summary">ბმული შესაბამის აპში იხსნება, მაგალითად, GitHub-ში ან YouTube-ში; თუ ჩართულია „შიდა ბრაუზერის“ ექსპერიმენტი, ხანგრძლივად შეეხეთ ბმულს და აირჩიეთ „აპის ბრაუზერში გახსნა“.</string>
+
+    <!-- 2026-10-14-05-session-list-quiet-hierarchy -->
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_title">სესიების უფრო თვალსაჩინო სია</string>
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_summary">„ჩამაგრებული“ და „ბოლო“ პატარა ნაცრისფერი შრიფტით ჩანს, წაუკითხავი და მომლოდინე სესიები საშუალო სისქით გამოიყოფა, წაკითხული კი ოდნავ ფერმკრთალდება.</string>
+
+    <!-- 2026-10-14-06-queued-messages-fitted-sheet -->
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_title">შეტყობინებების მოწესრიგებული რიგი</string>
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_summary">რიგში მყოფი შეტყობინებების პანელის სიმაღლე რიგის ზომას ერგება. სტრიქონები დანომრილია და აქვს სადა ღილაკები ახლავე გასაგზავნად ან გასაუქმებლად.</string>
+
+    <!-- 2026-10-14-07-control-center-sessions -->
+    <string name="settings_whatsnew_entry_control_center_sessions_title">სესიის სწრაფი ღილაკები</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_summary">სწრაფ პარამეტრებში დაამატეთ ღილაკი, რომ ერთი შეხებით გახსნათ სესია ან მასში ზარი დაიწყოთ.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_1">ახალი ღილაკი „სესიის გახსნა“ თქვენ მიერ არჩეულ სესიას ხსნის.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_2">„ზარის დაწყება“ ზარს არჩეულ ან ახალ სესიაში იწყებს. თუ არ შეცვლით, ზარი ბოლოს ნანახ სესიაში დაიწყება.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_3">აირჩიეთ ჩამაგრებული და ბოლო სესიებიდან; ღილაკზე სესიის მიმდინარე სათაური ჩანს.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_4">ღილაკები მხოლოდ აპს ხსნის: არაფერი გაიგზავნება, სანამ არ ისაუბრებთ ან დაწერთ.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_example">გახსენით სწრაფი პარამეტრები, შეეხეთ „რედაქტირებას“ და OpenCode-ის ღილაკი „სესიის გახსნა“ სასურველ ადგილას გადაიტანეთ</string>
+
+    <!-- 2026-10-15-01-settings-keyboard-down -->
+    <string name="settings_whatsnew_entry_settings_keyboard_down_title">პარამეტრები კლავიატურის გარეშე</string>
+    <string name="settings_whatsnew_entry_settings_keyboard_down_summary">თუ წერისას გვერდითი პანელიდან პარამეტრებს გახსნით, კლავიატურა დაიმალება და პარამეტრებს აღარ გადაფარავს.</string>
+
+    <!-- 2026-10-15-02-session-list-sidebar-grey -->
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_title">სესიების უფრო გაშლილი სია</string>
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_summary">სესიების სიის სათაური გაიზარდა, ნაცრისფერი სათაურები „ჩამაგრებული“ და „ბოლო“ უფრო დიდია და მათ ზემოთ მეტი სივრცეა. სანახავად გახსენით გვერდითი პანელი.</string>
+
+    <!-- 2026-10-15-03-voice-varied-acknowledgements -->
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_title">ნაკლები „ვამოწმებ“ ზარებში</string>
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_summary">ზარისას ხმოვანი ასისტენტი თქვენს ნათქვამს ეხმაურება და ყველა მოთხოვნას „ვამოწმებ“-ით აღარ პასუხობს. თუ საუბარს აგრძელებთ, მოთხოვნა ორჯერ აღარ იგზავნება.</string>
+
+    <!-- 2026-10-15-04-smoother-streaming -->
+    <string name="settings_whatsnew_entry_smoother_streaming_title">პასუხების უფრო რბილი გამოჩენა</string>
+    <string name="settings_whatsnew_entry_smoother_streaming_summary">პასუხის ახალი სტრიქონი თანდათან ჩნდება, ჩაბნელებისა და ციმციმის გარეშე. სტრიქონები ტექსტს აღარ სცდება და უკან აღარ ხტება, სიის პუნქტები და სათაურები კი თავიდანვე სწორად ჩანს და არა ცალკე ტირედ ან დიეზად.</string>
+
+    <!-- 2026-10-15-05-model-list-sheet -->
+    <string name="settings_whatsnew_entry_model_list_sheet_title">მოდელების სია პანელად</string>
+    <string name="settings_whatsnew_entry_model_list_sheet_summary">თუ ექსპერიმენტი „მოდელის ახალი ამრჩევი“ ჩართულია, შეტყობინების ველი მოდელების პანელად იშლება კლავიატურის ადგილას. კლავიატურა იმალება და პანელი რბილად იკეცება, რაც უნდა სწრაფად გახსნათ და დახუროთ.</string>
+
+    <!-- 2026-10-15-06-queued-pill-whole-title -->
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_title">რიგის რაოდენობა სრულად</string>
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_summary">შეტყობინების რედაქტორის ზემოთ რიგის მაჩვენებელი სრულად აჩვენებს „2 რიგში“ და აღარ ჭრის ტექსტს „2 რიგ…“-მდე. სხვა მოძრავ მრიცხველებშიც ყველა სიმბოლო ჩანს.</string>
+
+    <!-- 2026-10-16-01-plus-menu-photo-sheet -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_title">ფოტოები კლავიატურის ადგილას</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_summary">თუ ექსპერიმენტი „ახალი + მენიუ“ ჩართულია, „ფოტოები“ + მენიუს ფოტოების პანელად შლის კლავიატურის ადგილას. + ღილაკზე დაჭერითა და დაყოვნებით ბოლო ფოტოები გამოჩნდება: თითი ფოტოზე გააცურეთ და ასწიეთ მის დასამატებლად.</string>
+
+    <!-- 2026-10-16-02-composer-large-text-targets -->
+    <string name="settings_whatsnew_entry_composer_large_text_targets_title">რედაქტორში შეხება გამარტივდა</string>
+    <string name="settings_whatsnew_entry_composer_large_text_targets_summary">ტექსტის დიდი ზომისას შეტყობინების რედაქტორის ღილაკებზე შეხება უფრო მარტივია.</string>
+
+    <!-- 2026-10-16-03-project-pick-haptic -->
+    <string name="settings_whatsnew_entry_project_pick_haptic_title">ვიბრაცია პროექტის არჩევისას</string>
+    <string name="settings_whatsnew_entry_project_pick_haptic_summary">ახალი სესიისთვის სხვა პროექტის არჩევას მსუბუქი ვიბრაცია ახლავს — როგორც შეტყობინების ველის ზემოთ, ისე „ყველა პროექტში“.</string>
+
+    <!-- 2026-10-16-04-fork-opens-copy -->
+    <string name="settings_whatsnew_entry_fork_opens_copy_title">განშტოება ასლს ხსნის</string>
+    <string name="settings_whatsnew_entry_fork_opens_copy_summary">სესიის დეტალებში „განშტოება“ ისევ შექმნილ ასლს ხსნის.</string>
+
+    <!-- 2026-10-16-05-transcript-row-targets -->
+    <string name="settings_whatsnew_entry_transcript_row_targets_title">უფრო მარტივი შეხება</string>
+    <string name="settings_whatsnew_entry_transcript_row_targets_summary">სესიის პანელის სათაურზე შეხება გამარტივდა. კარნახისას დამალული რედაქტორის ღილაკები VoiceOver-ისა და Voice Control-ისთვისაც აღარ არის ხელმისაწვდომი.</string>
+
+    <!-- 2026-10-16-06-image-previews -->
+    <string name="settings_whatsnew_entry_image_previews_title">სურათების გადახედვა</string>
+    <string name="settings_whatsnew_entry_image_previews_summary">აგენტის მიერ ნახსენები სურათები ბლოკებად დალაგებულ გადახედვებში ჩანს. თუ ფაილი აკლია, ესეც მითითებულია.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_1">გადახედვები იმ აბზაცის ქვეშ ჩანს, სადაც სურათებია ნახსენები.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_2">შეეხეთ სურათს სრულ ეკრანზე გასახსნელად და გადაფურცლეთ პასუხის სხვა სურათების სანახავად.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_3">სესიის საქაღალდის გარეთ არსებული სურათები მხოლოდ შეხების შემდეგ იტვირთება.</string>
+    <string name="settings_whatsnew_entry_image_previews_example">სთხოვეთ აგენტს, გაჩვენოთ ეკრანის სურათები თქვენი პროექტიდან.</string>
+    <string name="settings_whatsnew_entry_image_previews_prompt">მაჩვენე ამ პროექტის ეკრანის სურათები.</string>
+
+    <!-- 2026-10-16-07-connection-error-details -->
+    <string name="settings_whatsnew_entry_connection_error_details_title">კავშირის შეცდომის მიზეზი</string>
+    <string name="settings_whatsnew_entry_connection_error_details_summary">კავშირის შეცდომებში ჩანს შეცდომის კოდი, გამოყენებული მისამართი და DNS-ის შედეგი. თუ tailnet-ის სახელი Tailscale-ის გარეთ არსებულ მისამართზე მიუთითებს, დახმარებაც გამოჩნდება.</string>
+
+    <!-- 2026-10-16-08-outage-reconnect-delay -->
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_title">კავშირის უფრო სწრაფი აღდგენა</string>
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_summary">შეფერხების შემდეგ სერვერის დაბრუნებისას სესიები უფრო სწრაფად განახლდება.</string>
+
+    <!-- 2026-10-17-01-every-running-subagent -->
+    <string name="settings_whatsnew_entry_every_running_subagent_title">ყველა მოქმედი ქვეაგენტი</string>
+    <string name="settings_whatsnew_entry_every_running_subagent_summary">შეტყობინების რედაქტორის ზემოთ მრიცხველი სხვა ქვეაგენტებში ჩაშენებულ ქვეაგენტებსაც ითვლის, ასევე სესიებს, სადაც მათი რაოდენობა 100-ს აჭარბებს — როგორც TUI-ში.</string>
+
+    <!-- 2026-10-17-02-session-view-refined-standard -->
+    <string name="settings_whatsnew_entry_session_view_refined_standard_title">პასუხის უფრო მკაფიო ტექსტი</string>
+    <string name="settings_whatsnew_entry_session_view_refined_standard_summary">მე-3 დონის სათაურები გამუქებულ ტექსტზე მეტად გამოირჩევა. ძირითადი ტექსტი ოდნავ ფერმკრთალია, რომ გამუქება უკეთ ჩანდეს, აბზაცებსა და კოდის ბლოკებს შორის კი ცოტა მეტი სივრცეა.</string>
+
+    <!-- 2026-10-17-03-bottom-follow-on-load -->
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_title">დარჩით სიის ბოლოში</string>
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_summary">დაგვიანებული შიგთავსის ჩატვირთვისას სესიები ბოლოში რჩება.</string>
+
+    <!-- 2026-10-17-04-drafts-stay-put -->
+    <string name="settings_whatsnew_entry_drafts_stay_put_title">მონახაზები ინახება</string>
+    <string name="settings_whatsnew_entry_drafts_stay_put_summary">მონახაზები, დართული ფოტოები და მდებარეობები, ასევე გასაგზავნად მომლოდინე შეტყობინებები ინახება, თუ აპი ფონურ რეჟიმში დაიხურება.</string>
+
+    <!-- 2026-10-18-01-themes -->
+    <string name="settings_whatsnew_entry_themes_title">თემები</string>
+    <string name="settings_whatsnew_entry_themes_summary">აირჩიეთ სესიის თემა, მაგალითად Tokyo Night, Catppuccin, Dracula, Rosé Pine ან GitHub, და არჩევისასვე ნახეთ შედეგი.</string>
+    <string name="settings_whatsnew_entry_themes_detail_1">თემები ფერს უცვლის ტრანსკრიპტს, თქვენს შეტყობინებებს, კოდს, სინტაქსს, განსხვავებებსა და ბმულებს.</string>
+    <string name="settings_whatsnew_entry_themes_detail_2">გარეგნობის პარამეტრებში „რეჟიმი“ ირჩევს ღია, მუქ ან სისტემურ იერს.</string>
+    <string name="settings_whatsnew_entry_themes_detail_3">მართვის ელემენტები ყველა თემაში ინარჩუნებს სტანდარტულ Liquid Glass იერს.</string>
+    <string name="settings_whatsnew_entry_themes_example">გახსენით პარამეტრები → გარეგნობა → თემა და სცადეთ Tokyo Night.</string>
+
+    <!-- 2026-10-18-02-return-key-sends -->
+    <string name="settings_whatsnew_entry_return_key_sends_title">Return ღილაკის პარამეტრი</string>
+    <string name="settings_whatsnew_entry_return_key_sends_summary">თუ გსურთ, Return ახალ სტრიქონს ამატებდეს, პარამეტრებში გამორთეთ „Return-ით გაგზავნა“, ან ფიზიკურ კლავიატურაზე გამოიყენეთ Command-Return და Shift-Return.</string>
+
+    <!-- 2026-10-18-03-quote-replies -->
+    <string name="settings_whatsnew_entry_quote_replies_title">პასუხების ციტირება</string>
+    <string name="settings_whatsnew_entry_quote_replies_summary">მონიშნეთ ტექსტი ასისტენტის პასუხში და შეეხეთ „ციტირებას“, რომ თქვენს შეტყობინებაში ციტატის ბარათად დაამატოთ.</string>
+
+    <!-- 2026-10-18-04-launch-bloom -->
+    <string name="settings_whatsnew_entry_launch_bloom_title">გაშლის ანიმაცია გახსნისას</string>
+    <string name="settings_whatsnew_entry_launch_bloom_summary">აპის თავიდან გაშვებისას OpenCode-ის ნიშანი იკუმშება, შემდეგ კი იშლება და თქვენს სესიას აჩენს.</string>
+
+    <!-- 2026-10-18-05-drag-to-pin -->
+    <string name="settings_whatsnew_entry_drag_to_pin_title">გადაათრიეთ სესია ჩასამაგრებლად</string>
+    <string name="settings_whatsnew_entry_drag_to_pin_summary">დააჭირეთ სესიას და გადაათრიეთ ზემოთ, ჩამაგრებულებში, სასურველ ადგილზე ჩასამაგრებლად. ჩამაგრების მოსახსნელად კი სესია ქვემოთ, ბოლო სესიებში გადაიტანეთ.</string>
+
+    <!-- 2026-10-19-01-call-tray-colour-blend -->
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_title">ზარის ღილაკის რბილი გადასვლა</string>
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_summary">თუ „ზარის პანელის“ ექსპერიმენტი ჩართულია, ზარის დაწყებისას ღილაკი პირდაპირ გარდაიქმნება წითელ „დასრულების“ ღილაკად, გათიშვისას კი — პირიქით, ფონზე გაელვების გარეშე.</string>
+
+    <!-- 2026-10-19-02-optical-insets -->
+    <string name="settings_whatsnew_entry_optical_insets_title">თანაბრად განლაგებული მართვის ელემენტები</string>
+    <string name="settings_whatsnew_entry_optical_insets_summary">შეტყობინების რედაქტორის + და მიკროფონი, ფონური მუშაობისა და რიგში მყოფი შეტყობინებების ნიშნები, ასევე გვერდით პანელში „ახალი სესიის“ სიმბოლო ახლა მინისებრი ღილაკების მომრგვალებულ ბოლოებში ვიზუალურად ცენტრშია. გარსის ნიშანი ახლა ქვეაგენტის სფეროს მსგავსად წრეა, მოციმციმე კურსორის გარეშე. როცა ორივე მუშაობს, ისინი გვერდიგვერდ ჩანს.</string>
+
+    <!-- 2026-10-19-03-smart-dictation-audio -->
+    <string name="settings_whatsnew_entry_smart_dictation_audio_title">უკეთესი კარნახი მუსიკის ფონზე</string>
+    <string name="settings_whatsnew_entry_smart_dictation_audio_summary">მუსიკის ფონზე კარნახისას AirPods-ში მუსიკა სტერეო რეჟიმში რჩება და ერთი წუთის შემდეგ აღარ წყდება. მხოლოდ ტელეფონის გამოყენებისას კი ხმა მთავარ დინამიკში რჩება და სასაუბრო დინამიკზე არ გადადის.</string>
+
+    <!-- 2026-10-19-04-interrupted-hand -->
+    <string name="settings_whatsnew_entry_interrupted_hand_title">ხელის ნიშანი შეწყვეტისას</string>
+    <string name="settings_whatsnew_entry_interrupted_hand_summary">შეწყვეტილ მუშაობასა და გარსს ახლა აწეული ხელის ნიშანი აქვს. თქვენ მიერ შეჩერებულ გარსზე კი „შეჩერებულია“ შეიცვალა წარწერით „შეწყვეტილია“.</string>
+
+    <!-- 2026-10-19-05-autocomplete-fast-scroll -->
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_title">უფრო სწრაფი ავტომატური შევსება</string>
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_summary">თუ „შეტყობინების რედაქტორის ავტომატური შევსების“ ექსპერიმენტი ჩართულია, შეთავაზებები აკრეფას ფეხს უწყობს, სიის გადათრევა კი მას გადაახვევს ისე, რომ სტრიქონი არ აირჩეს.</string>
+
+    <!-- 2026-10-19-06-experimental-groups -->
+    <string name="settings_whatsnew_entry_experimental_groups_title">დაჯგუფებული ექსპერიმენტები</string>
+    <string name="settings_whatsnew_entry_experimental_groups_summary">განყოფილებაში პარამეტრები → ექსპერიმენტული ექსპერიმენტები დაჯგუფებულია, ზარებისთვის კი „ზარის სტილის“ ერთი არჩევანია.</string>
+
+    <!-- 2026-10-19-07-model-picker-standard-sheet -->
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_title">მოდელის არჩევის სტანდარტული პანელი</string>
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_summary">თუ „მოდელის ახალი ამრჩევის“ ექსპერიმენტი ჩართულია, შეტყობინების ველში მოდელზე შეხება სტანდარტულ პანელს ხსნის, სადაც თითოეულ მოდელს ფიქრის დონის საკუთარი მენიუ აქვს. წინა ამრჩევს ახლა „მოდელის მორგებული ამრჩევი“ ჰქვია და მდებარეობს აქ: პარამეტრები › ექსპერიმენტული.</string>
+
+    <!-- 2026-10-19-08-problem-reports-reach-session -->
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_title">პრობლემის ანგარიში სესიაშიც იგზავნება</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_summary">„პრობლემის შეტყობინება“ ახლა თქვენს შენიშვნას იმ სესიაშიც აგზავნის, საიდანაც პრობლემა შეატყობინეთ. მას სრული ანგარიშიც ერთვის, რომ აგენტმა წაიკითხოს.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_1">შეტყობინება იწყება პრობლემის ანგარიშის აღნიშვნით, თქვენი შენიშვნით, ანგარიშის ID-ითა და ატვირთული ტრასირების ბმულით.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_2">მოწყობილობის, ანაწყობისა და ეკრანის მონაცემები, დროის ხაზი და აპის ჟურნალი იგზავნება დანართად, ისევე, როგორც თქვენ მიერ მიმაგრებული ფაილი.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_3">მთავარი გვერდიდან ანგარიში თქვენს ბოლო სესიაში იგზავნება.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_4">თუ ატვირთვა ვერ მოხერხდა, შენიშვნა და შეჯამება მაინც იგზავნება, ამ შეფერხების მითითებით. შემდეგ „ხელახლა ცდა“ მხოლოდ ტრასირების ბმულს აგზავნის.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_5">მიღებისას გამოჩნდება დასტური „სესიაში გაიგზავნა“.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_example">გახსენით სესიის მენიუ, აირჩიეთ „პრობლემის შეტყობინება“, დაამატეთ შენიშვნა და შეეხეთ „გაგზავნას“</string>
+
+    <!-- 2026-10-19-09-team-scrawl-feedback -->
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_title">გუნდის უკუკავშირი Scrawl-ით</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_summary">პირადი ბმულით შეუერთდით „გუნდის უკუკავშირს“, რომ სამი თითით დაწყებული Scrawl-ის ჩანაწერები და პირადი მონაცემებისგან გასუფთავებული დიაგნოსტიკა პრობლემების დაფის საერთო რიგში გაგზავნოთ.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_1">გახსენით თქვენი opencode://team/join ბმული, გაეცანით, რა მონაცემები შეგროვდება, და დაეთანხმეთ.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_2">სამნაბიჯიანი ინტერაქტიული გზამკვლევი გასწავლით სამი თითის დაჭერას, საუბარსა და ხატვას, შემდეგ კი საცდელი ჩანაწერის სატესტო სვეტში გაგზავნას.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_3">თითოეულ ჩანაწერს ერთვის პირადი მონაცემებისგან გასუფთავებული დროის ხაზი, აპის ჟურნალი და Motion Watch-ის დიაგნოსტიკა, ისევე, როგორც „პრობლემის შეტყობინებისას“.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_4">გზამკვლევის გამეორება ან „გუნდის უკუკავშირის“ დატოვება ნებისმიერ დროს შეგიძლიათ აქ: პარამეტრები › დეველოპერი.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_example">გახსენით პარამეტრები › დეველოპერი, რომ შეამოწმოთ „გუნდის უკუკავშირის“ სტატუსი ან გაიმეოროთ გზამკვლევი.</string>
+
+    <!-- 2026-10-19-10-scrawl-faster-start -->
+    <string name="settings_whatsnew_entry_scrawl_faster_start_title">Scrawl-ის სწრაფი დაწყება</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_summary">Scrawl-ის მართვის ელემენტები მიკროფონისა და ჩამწერის ჩართვის პროცესშივე ჩნდება.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_1">ჩაწერის მომზადებისას „ხატვაზე“, „გაგზავნაზე“ და „გაუქმებაზე“ შეხება არ იკარგება.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_2">სამი თითის დაჭერა ზედა ფენას ამზადებს ისე, რომ მიკროფონი ნაადრევად არ ჩაირთოს.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_3">გამოსწორდა აპის გათიშვა, რომელიც ხმის არხის შეცვლისას Scrawl-ის მიკროფონის ხელახლა ჩართვას მოჰყვებოდა.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_example">დაწყვილებულ მოწყობილობაზე სამი თითი დააჭირეთ და გააჩერეთ ჩაწერის დასაწყებად</string>
+
+    <!-- 2026-10-20-01-call-tray-docks-in-drawer -->
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_title">ზარის პანელი გვერდით პანელში</string>
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_summary">თუ „ზარის პანელის“ ექსპერიმენტი ჩართულია, ზარისას გვერდითი პანელის გახსნა ზარის პანელს ხმის დონით, „დადუმებითა“ და „დასრულებით“ „ახალი სესიის“ ქვემოთ გადაიტანს, დახურვა კი უკან დააბრუნებს.</string>
+
+    <!-- 2026-10-20-02-markdown-streams-smoothly -->
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_title">პასუხების უფრო რბილი გამოჩენა</string>
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_summary">გრძელი პასუხები შემოსვლისას აღარ ნელდება. დაუსრულებელი გამუქებული ტექსტი, კოდი და ბმულებიც ფორმატირებულად ჩანს და არა Markdown-ის დაუმუშავებელი ნიშნებით.</string>
+
+    <!-- 2026-10-20-04-return-newline-default -->
+    <string name="settings_whatsnew_entry_return_newline_default_title">Return ახალ სტრიქონს ამატებს</string>
+    <string name="settings_whatsnew_entry_return_newline_default_summary">Return ახლა ნაგულისხმევად ახალ სტრიქონს ამატებს. Return-ით გასაგზავნად ჩართეთ „Return-ით გაგზავნა“ აქ: პარამეტრები › სესიები, ან ფიზიკურ კლავიატურაზე გამოიყენეთ Ctrl+Enter.</string>
+
+    <!-- 2026-10-20-05-drawer-session-alignment -->
+    <string name="settings_whatsnew_entry_drawer_session_alignment_title">გასწორებული გვერდითი პანელი</string>
+    <string name="settings_whatsnew_entry_drawer_session_alignment_summary">„ძებნა“, „ახალი სესია“ და „პარამეტრები“ ტელეფონებსა და პლანშეტებზე სესიის სათაურსა და შეტყობინების ველს უსწორდება.</string>
+
+    <!-- 2026-10-20-06-call-tray-switch-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_title">ზარის სტაბილური მართვის ელემენტები</string>
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_summary">სესიების შეცვლისას ზარის ხმის ტალღა მოძრაობას აგრძელებს, სესიების სიის გახსნისას კი მართვის ელემენტები იმავე დონეზე რჩება.</string>
+
+    <!-- 2026-10-20-07-voice-delegation-visible-on-admission -->
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_title">ხმოვანი შეტყობინებები მაშინვე ჩანს</string>
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_summary">ხმის რეჟიმიდან სესიაში გაგზავნილი შეტყობინებები სერვერის მიერ მიღებისთანავე ჩანს, მაშინაც კი, თუ სესიის განახლებები იგვიანებს.</string>
+
+    <!-- 2026-10-20-08-inline-image-links -->
+    <string name="settings_whatsnew_entry_inline_image_links_title">სურათების ბმულების გადახედვა</string>
+    <string name="settings_whatsnew_entry_inline_image_links_summary">ჩართეთ „სურათების ბმულების გადახედვა“ აქ: პარამეტრები › ექსპერიმენტული › ტრანსკრიპტი, რომ პასუხებში ბმულით მითითებული სურათები ნახოთ. შეეხეთ მინიატურას სრულ ეკრანზე გასახსნელად და გასადიდებლად.</string>
+
+    <!-- 2026-10-20-09-smooth-link-preview-arrival -->
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_title">ბმულების რბილი გადახედვა</string>
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_summary">ბმულების გადახედვები ჩატვირთვისას თანდათან ჩნდება. სათაურის სიმაღლის შეცვლისას კი ქვედა სტრიქონები რბილად გადაადგილდება.</string>
+
+    <!-- 2026-10-20-10-subagent-capsule-press -->
+    <string name="settings_whatsnew_entry_subagent_capsule_press_title">აქტივობის მომრგვალებული კაფსულა</string>
+    <string name="settings_whatsnew_entry_subagent_capsule_press_summary">ქვეაგენტისა და გარსის კაფსულა დაჭერისასაც ინარჩუნებს მომრგვალებულ ბოლოებს.</string>
+
+    <!-- 2026-10-20-11-advanced-settings-open -->
+    <string name="settings_whatsnew_entry_advanced_settings_open_title">გამარტივებული გაფართოებული პარამეტრები</string>
+    <string name="settings_whatsnew_entry_advanced_settings_open_summary">პარამეტრები › ექსპერიმენტული განყოფილებაში ყველა ჯგუფი გაშლილია, მოდელის ასარჩევი ვარიანტები ერთ არჩევანში გაერთიანდა, ხოლო არჩევანის შესაცვლელად შეგიძლიათ მის სტრიქონს ნებისმიერ ადგილას შეეხოთ.</string>
+
+    <!-- 2026-10-20-12-revert-to-here -->
+    <string name="settings_whatsnew_entry_revert_to_here_title">წერილის დაბრუნება</string>
+    <string name="settings_whatsnew_entry_revert_to_here_summary">ხანგრძლივად შეეხეთ თქვენს შეტყობინებას და აირჩიეთ „წერილის დაბრუნება“, რომ იმ მომენტს დაუბრუნდეთ და შეტყობინება შეასწოროთ.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_1">შეტყობინების ტექსტი, ფოტოები და ფაილები შეტყობინების ველში ბრუნდება.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_2">„გაუქმება“ მიმოწერასა და ფაილებში შეტანილ ცვლილებებს აღადგენს, სანამ ახალ შეტყობინებას გაგზავნით.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_3">ხელმისაწვდომია მაშინ, როცა აგენტი არ მუშაობს.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_example">ხანგრძლივად შეეხეთ ადრე გაგზავნილ შეტყობინებას და აირჩიეთ „წერილის დაბრუნება“.</string>
+
+    <!-- 2026-10-20-13-drag-from-transcript -->
+    <string name="settings_whatsnew_entry_drag_from_transcript_title">სესიიდან გადათრევა</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_summary">ხანგრძლივი შეხებით გადაათრიეთ სესიიდან სხვა აპებში კოდი, სურათები, ფაილები, ბმულები და შეტყობინებები.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_1">კოდის ბლოკები ტექსტად გადადის, ენის მითითებით.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_2">აგენტის შექმნილი სურათები და ფაილები ფაილებად გადადის.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_3">მათ მისამაგრებლად ან ჩასასმელად ჩამოსვით შეტყობინების ველში.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_4">გადახვევა, ტექსტის მონიშვნა და მენიუები ისევ ისე მუშაობს.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_example">პასუხში მონიშნეთ კოდის სტრიქონი, შემდეგ ხანგრძლივად შეეხეთ მონიშნულს და ბლოკი Notes-ში გადაათრიეთ.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_prompt">დაწერე მოკლე Swift ფუნქცია, რომელიც სტრიქონს შებრუნებულად აბრუნებს, და ჩასვი კოდის ბლოკში.</string>
+
+    <!-- 2026-10-20-14-tuning-glass-tap-targets -->
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_title">გამართვის მარტივი მართვა</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_summary">გამართვის დაკეცილ ღილაკსა და კიდის ჩანართს შეხების უფრო დიდი არე აქვს.</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_detail_1">მათი მინისებრი ზედაპირების ზომა უცვლელია.</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_example">დაკეცეთ გამართვის პანელი, შემდეგ შეეხეთ მისი ღილაკის ან ჩანართის კიდესთან ახლოს</string>
+
+    <!-- 2026-10-20-15-new-session-project-continuity -->
+    <string name="settings_whatsnew_entry_new_session_project_continuity_title">პროექტის უფრო სტაბილური არჩევა</string>
+    <string name="settings_whatsnew_entry_new_session_project_continuity_summary">პროექტის არჩევისას ბოლო საქაღალდეები ადგილებს ინარჩუნებს, სათაურში სახელი რბილად იცვლება, პროექტის პანელში კი საქაღალდეების ბილიკები უფრო მკაფიოა.</string>
+
+    <!-- 2026-10-20-16-simple-session-loading -->
+    <string name="settings_whatsnew_entry_simple_session_loading_title">სესიის მშვიდი ჩატვირთვა</string>
+    <string name="settings_whatsnew_entry_simple_session_loading_summary">პატარა, უძრავი ლოგო თანდათან ჩნდება მხოლოდ მაშინ, როცა სესიის ჩატვირთვას დრო სჭირდება, შემდეგ კი მას შეტყობინებები ცვლის.</string>
+
+    <!-- 2026-10-20-17-voice-route-consistency -->
+    <string name="settings_whatsnew_entry_voice_route_consistency_title">ხმოვანი კავშირის შესწორებები</string>
+    <string name="settings_whatsnew_entry_voice_route_consistency_summary">Grok კვლავ თქვენს xAI გასაღებს იყენებს, როცა ზარებს თქვენი სერვერი მართავს, Gemini კი თავის ვინაობას სწორად ასახელებს.</string>
+
+    <!-- 2026-10-20-18-call-tray-edge-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_title">ზარის პანელის მოძრაობა</string>
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_summary">ზარის პანელის ხმის ტალღა მის მომრგვალებულ კიდეს მიჰყვება გახსნისას და გვერდით პანელში შესვლისა თუ გამოსვლისას.</string>
+
+    <!-- 2026-10-21-01-call-tray-keyboard-return -->
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_title">ზარის პანელის დაბრუნება</string>
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_summary">ზარის პანელი ხილული რჩება, როცა გვერდითი პანელი იხურება და კლავიატურა ბრუნდება.</string>
+
+    <!-- 2026-10-21-02-drawer-title-fade -->
+    <string name="settings_whatsnew_entry_drawer_title_fade_title">სესიების უფრო სრული სათაურები</string>
+    <string name="settings_whatsnew_entry_drawer_title_fade_summary">გვერდით პანელში სესიების გრძელი სათაურები კიდემდე მიდის და თანდათან ქრება, ნაცვლად იმისა, რომ ნაადრევად მრავალწერტილით შეწყდეს.</string>
+
+    <!-- 2026-10-21-03-call-sounds-from-the-tap -->
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_title">ზარის ხმები უფრო სწრაფად</string>
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_summary">ზარის დაკავშირების ხმები პირველივე ანიმაციასთან ერთად იწყება და არა შეხებიდან რამდენიმე წამში.</string>
+
+    <!-- 2026-10-21-04-calm-wireframe-launch -->
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_title">უფრო მშვიდი ჩატვირთვა</string>
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_summary">ქეშში შენახული სესიები მაშინვე იხსნება; თუ ჩატვირთვას დრო სჭირდება, შეტყობინებების პულსირებადი ბუშტები ჩნდება, რომლებსაც თანდათან თქვენი შეტყობინებები ცვლის.</string>
+
+    <!-- 2026-10-21-05-request-dictation-last-line -->
+    <string name="settings_whatsnew_entry_request_dictation_last_line_title">კარნახის ბოლო სტრიქონები</string>
+    <string name="settings_whatsnew_entry_request_dictation_last_line_summary">iOS 26-ზე, მომლოდინე მოთხოვნის პასუხის ველში ხანგრძლივი კარნახის დასრულებისას, ტექსტის შუა ნაწილის ნაცვლად ბოლო სტრიქონები ჩანს.</string>
+
+    <!-- 2026-10-21-06-first-run-pairing-fixes -->
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_title">პირველი დაწყვილება უფრო გასაგებად</string>
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_summary">თუ ბუფერი ცარიელია, ჩასმის მცდელობისას ეს „ჩასმის“ გვერდით ჩანს, გამართვა კი დისტანციურ წვდომას ნახევარ წუთში აღარ გპირდებათ.</string>
+
+    <!-- 2026-10-21-07-welcome-pairing-copy -->
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_title">დაწყვილება OpenCode აპიდან</string>
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_summary">მისალმების ეკრანი კომპიუტერის OpenCode-ში „პარამეტრები → დაწყვილება“ განყოფილებაზე ან ტერმინალში /pair ბრძანებაზე მიგითითებთ. თუ OpenCode ჯერ არ გაქვთ, დაყენების ბრძანებაც მოცემულია.</string>
+
+    <!-- 2026-10-21-08-session-id-links -->
+    <string name="settings_whatsnew_entry_session_id_links_title">სესიების ბმულები</string>
+    <string name="settings_whatsnew_entry_session_id_links_summary">პასუხში სესიის ID ამ სესიის სათაურად ჩანს. სესიის გასახსნელად შეეხეთ მას.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_1">ქვეაგენტის ID მიმდინარე სესიის ზემოთ იხსნება, „უკან“ კი უკან გაბრუნებთ.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_2">ID-ის დასაკოპირებლად ხანგრძლივად შეეხეთ მას.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_3">ამ სერვერისთვის უცნობი ID შემოკლებით ჩანს.</string>
+    <string name="settings_whatsnew_entry_session_id_links_example">სთხოვეთ აგენტს, სხვა სესია მისი ID-ით დაასახელოს, შემდეგ სათაურს შეეხეთ.</string>
+    <string name="settings_whatsnew_entry_session_id_links_prompt">ჩამოთვალე ჩემი ბოლო ხუთი OpenCode სესია მათი სესიის ID-ებით.</string>
+
+    <!-- 2026-10-21-10-ipad-multiple-windows -->
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_title">რამდენიმე ფანჯარა პლანშეტზე</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_summary">პლანშეტზე გახსენით სესიები ცალკე ფანჯრებში და ორი მათგანი გვერდიგვერდ მოათავსეთ.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_1">გვერდით პანელში ხანგრძლივად შეეხეთ სესიას და აირჩიეთ „ახალ ფანჯარაში გახსნა“.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_2">თითოეულ ფანჯარას საკუთარი სესია, გვერდითი პანელი და შეტყობინების ველი აქვს.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_3">ჩამაგრებები, წაკითხული სესიები და თქვენი სერვერები ყველა ფანჯარაში ერთნაირია.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_4">ფანჯრები იმავე სესიით ბრუნდება, რომელსაც აჩვენებდა.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_example">გვერდით პანელში ხანგრძლივად შეეხეთ სესიას, აირჩიეთ „ახალ ფანჯარაში გახსნა“ და პირველი ფანჯრის გვერდით მოათავსეთ.</string>
+
+    <!-- 2026-10-21-11-plain-launch -->
+    <string name="settings_whatsnew_entry_plain_launch_title">მარტივი გაშვება</string>
+    <string name="settings_whatsnew_entry_plain_launch_summary">OpenCode სადა ეკრანით იხსნება და სესიის მზადყოფნისთანავე პირდაპირ მასზე გადადის, ჩატვირთვის ანიმაციის გარეშე.</string>
+
+    <!-- 2026-10-21-12-breath-ping-call-sounds -->
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_title">ზარის უფრო რბილი ხმები</string>
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_summary">ზარის დაკავშირებას, სიგნალებსა და დასრულებას რბილი, სუნთქვის მსგავსი ხმები ახლავს, რომლებიც საუბარს ხელს არ უშლის.</string>
+
+    <!-- 2026-10-21-13-smoother-session-list -->
+    <string name="settings_whatsnew_entry_smoother_session_list_title">სესიების უფრო გლუვი სია</string>
+    <string name="settings_whatsnew_entry_smoother_session_list_summary">გვერდით პანელში სესიების სია მუშაობის დროსაც შეუფერხებლად გადაიხვევა, ხოლო სესიაზე ხანგრძლივი შეხება მის მენიუს ხსნის ისე, რომ მწკრივის ზომა არ იცვლება.</string>
+
+    <!-- 2026-10-22-01-whats-new-actions -->
+    <string name="settings_whatsnew_entry_whats_new_actions_title">გახსენით და სცადეთ სიახლეებიდან</string>
+    <string name="settings_whatsnew_entry_whats_new_actions_summary">„რა არის ახალი“ განყოფილებაში ჩანაწერის გვერდს აქვს ღილაკი, რომელიც შესაბამის პარამეტრს, მაგალითად თემებს, ხსნის ან საცდელად ახალ სესიას იწყებს უკვე ჩაწერილი მოთხოვნით.</string>
+
+    <!-- 2026-10-22-02-project-icons-current-discovery -->
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_title">პროექტის ხატულების შესწორებები</string>
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_summary">როცა პროექტის ხატულები ჩართულია, გვერდით პანელში ის ხატულებიც ჩანს, რომლებსაც სერვერი Icon Composer-ის პაკეტებში პოულობს.</string>
+
+    <!-- 2026-10-22-03-new-divider-off-page -->
+    <string name="settings_whatsnew_entry_new_divider_off_page_title">„ახალი“ მხოლოდ საჭიროებისას</string>
+    <string name="settings_whatsnew_entry_new_divider_off_page_summary">თუ ახალი შეტყობინებების გამყოფის ექსპერიმენტი ჩართულია, „ახალი“ მიღებულ შეტყობინებებს მხოლოდ მაშინ მონიშნავს, როცა ისინი ეკრანზე არ ეტევა.</string>
+
+    <!-- 2026-10-22-04-catch-up-all-caught-up-row -->
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_title">ყველა სიახლე წაკითხულია</string>
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_summary">„სიახლეების გაცნობაში“ ბოლო სესიის წაკითხვის შემდეგ პირდაპირ გვერდით პანელში ბრუნდებით, სადაც ეს პუნქტი მონიშნულია როგორც „ყველა სიახლე წაკითხულია“.</string>
+
+    <!-- 2026-10-23-01-session-mentions -->
+    <string name="settings_whatsnew_entry_session_mentions_title">სესიების ხსენება</string>
+    <string name="settings_whatsnew_entry_session_mentions_summary">თუ შეტყობინების რედაქტორის ავტომატური შევსების ექსპერიმენტი ჩართულია, აკრიფეთ @ სხვა სესიის სათაურით მოსახსენიებლად, ისევე როგორც კომპიუტერზე.</string>
+
+    <!-- 2026-10-23-02-gpt-live-own-key -->
+    <string name="settings_whatsnew_entry_gpt_live_own_key_title">GPT-Live-ის გასაღებები</string>
+    <string name="settings_whatsnew_entry_gpt_live_own_key_summary">GPT-Live ზარებისთვის შეგიძლიათ გამოიყენოთ თქვენი OpenAI გასაღები, სერვერის OpenAI გასაღები ან სერვერის OpenCode Console კავშირი.</string>
+
+    <!-- 2026-10-23-03-pair-opens-drawer -->
+    <string name="settings_whatsnew_entry_pair_opens_drawer_title">გააგრძელეთ იქიდან, სადაც შეჩერდით</string>
+    <string name="settings_whatsnew_entry_pair_opens_drawer_summary">ახალი კომპიუტერის დაწყვილების შემდეგ ცარიელი სესიის ნაცვლად გვერდითი პანელი მისი ბოლო სესიებით იხსნება, რომ ერთ-ერთი აირჩიოთ.</string>
+
+    <!-- 2026-10-23-04-voice-server-picker -->
+    <string name="settings_whatsnew_entry_voice_server_picker_title">ხმოვანი სერვერის არჩევა</string>
+    <string name="settings_whatsnew_entry_voice_server_picker_summary">პარამეტრები › ხმა › ხმის პროვაიდერი — აირჩიეთ, რომელი შენახული სერვერით დარეკავთ, ან გამოიყენეთ თქვენი OpenAI ანგარიში ამ ტელეფონზე.</string>
+
+    <!-- 2026-10-24-01-living-orb-floats -->
+    <string name="settings_whatsnew_entry_living_orb_floats_title">ცოცხალი სფერო ყველა ეკრანზე</string>
+    <string name="settings_whatsnew_entry_living_orb_floats_summary">ცოცხალი სფერო ახლა ზარის მოტივტივე სტილია: პარამეტრები › ექსპერიმენტული › ზარები. ის უფრო დიდია, პარამეტრებსა და ყველა სხვა ეკრანზე ზემოდან ჩანს და ორივე ხმას მიჰყვება — ერთდროულად საუბრისას თითოეულს თავისი ფერი აქვს. შეეხეთ ბარათად გასაშლელად, ასწიეთ ზემოთ სრული ზარისა და ტრანსკრიპტის სანახავად, ჩამოწიეთ ისევ შესამცირებლად. „სფერო“, ზარის სტილის ქვემოთ, მის იერს ცვლის.</string>
+
+    <!-- 2026-10-24-02-new-messages-divider-on -->
+    <string name="settings_whatsnew_entry_new_messages_divider_on_title">ახალი შეტყობინებების გამყოფი</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_summary">თუ თქვენი არყოფნისას მიღებული პასუხი ეკრანზე არ ეტევა, სესია პასუხის დასაწყისში, „ახალი“ გამყოფთან იხსნება.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_1">თუ პასუხი ეკრანზე ეტევა, სესია ბოლოში იხსნება, გამყოფის გარეშე.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_2">პასუხები, რომლებიც თქვენ თვალწინ იწერება, არასდროს ინიშნება.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_3">ბოლომდე წაკითხვის შემდეგ გამყოფი ქრება.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_4">გამორთეთ აქ: პარამეტრები › სესიები.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_example">მოითხოვეთ გრძელი პასუხი, გადადით სხვა აპში მის დასრულებამდე, შემდეგ კი დაბრუნდით.</string>
+
+    <!-- 2026-10-24-03-composer-keyboard-morph -->
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_title">რედაქტორი კლავიატურას მიჰყვება</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_summary">შეტყობინების რედაქტორის ღილაკები კლავიატურასთან ერთად იხსნება და ზემოთ თუ ქვემოთ გადაადგილებისას მას მიჰყვება.</string>
+
+    <!-- 2026-10-24-04-composer-photo-viewer -->
+    <string name="settings_whatsnew_entry_composer_photo_viewer_title">რედაქტორის ფოტოები სრულ ეკრანზე</string>
+    <string name="settings_whatsnew_entry_composer_photo_viewer_summary">შეეხეთ ფოტოს შეტყობინების რედაქტორში სრულ ეკრანზე სანახავად, გადაფურცლეთ ფოტოებს შორის და წაშალეთ არასასურველი გაგზავნამდე.</string>
+
+    <!-- 2026-10-24-05-plus-menu-photo-picker -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_title">ფოტოების ახალი ამრჩევი</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_summary">ჩართეთ ახალი + მენიუ აქ: პარამეტრები › ექსპერიმენტული › შეტყობინების რედაქტორი. აირჩიეთ 8-მდე ბოლო ფოტო პირდაპირ + მენიუდან, დაათვალიერეთ „ყველა ფოტო“ და უყურეთ, როგორ გადადიან ფოტოები რედაქტორში, შემდეგ კი სესიაში.</string>
+
+    <!-- 2026-10-24-06-project-icons-lit -->
+    <string name="settings_whatsnew_entry_project_icons_lit_title">განათებული პროექტის ხატულები</string>
+    <string name="settings_whatsnew_entry_project_icons_lit_summary">როცა პროექტის ხატულები ჩართულია, გვერდით პანელში მათ ემატება ზემოდან ნაზი განათება, თხელი მინის კიდე და მსუბუქი ჩრდილი.</string>
+
+    <!-- 2026-10-24-07-session-live-activity -->
+    <string name="settings_whatsnew_entry_session_live_activity_title">სესიის ცოცხალი განახლებები</string>
+    <string name="settings_whatsnew_entry_session_live_activity_summary">ჩართეთ სესიის ცოცხალი განახლებები აქ: პარამეტრები › ექსპერიმენტული › გვერდითი პანელი. გაგზავნილი დავალების მიმდინარეობას ცოცხალ შეტყობინებაში, ჩაკეტილ ეკრანზეც ადევნებთ თვალს, სანამ დასრულდება ან თქვენი პასუხი დასჭირდება.</string>
+
+    <!-- 2026-10-24-08-sign-in-failed-edit-server -->
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_title">შესვლის პრობლემის მოგვარება</string>
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_summary">თუ სერვერი თქვენს პაროლს არ იღებს, გვერდითი პანელის სერვერის მენიუ უშედეგო „ხელახლა ცდის“ ნაცვლად გთავაზობთ „სერვერის რედაქტირებას…“. საწყისი ეკრანი ახლა ტერმინალში opencode pair --remote ბრძანების გაშვებაზე მიგითითებთ.</string>
+
+    <!-- 2026-10-25-01-voice-app-screenshot -->
+    <string name="settings_whatsnew_entry_voice_app_screenshot_title">ეკრანის სურათები ხმით</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_summary">ხმოვანი ზარისას თქვით „ამას შეხედე“ და აპის ეკრანის სურათი თქვენს კომენტართან ერთად სესიაში გაიგზავნება.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_1">იგზავნება მხოლოდ თავად აპის ეკრანის სურათი, ეკრანის სახელითა და ზარისა და აპის მდგომარეობით.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_2">სთხოვეთ, თან დაურთოს ზარის ჟურნალი ან აპის ბოლო ჟურნალები; მისამართები და შესვლის მონაცემები დაფარულია.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_3">ეკრანის სურათი არ გადაიღება, თუ შესვლის ეკრანი ან პაროლის ველი ჩანს.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_example">ხმოვანი ზარისას თქვით „გადაიღე ეკრანის სურათი, ეს მწკრივი აცდენილია“</string>
+
+    <!-- 2026-10-25-02-voice-background-results -->
+    <string name="settings_whatsnew_entry_voice_background_results_title">ფონური მუშაობის შედეგები ზარში</string>
+    <string name="settings_whatsnew_entry_voice_background_results_summary">როცა ზარისას დავალებულ საქმეს სესია ფონურად ასრულებს, დასრულებისთანავე ზარში გაიგებთ შედეგს, მაშინაც კი, თუ უკვე სხვა საქმეზე გადაერთეთ.</string>
+
+    <!-- 2026-10-25-03-sound-effects-experiment -->
+    <string name="settings_whatsnew_entry_sound_effects_experiment_title">ხმოვანი ეფექტები</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_summary">ექსპერიმენტი, რომელიც ვიბრაციასთან ერთად ნაზ ხმებს უკრავს პასუხების, მოთხოვნების, სიახლეების გაცნობისა და წარუმატებელი გაგზავნისას.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_1">უხმო და ვიბრაციის რეჟიმები ამ ხმებს აჩუმებს, მუსიკა კი დაკვრას აგრძელებს.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_2">ხმები არ იკვრება ზარის, კარნახის, მედიის დაკვრის დროს ან ფონურ რეჟიმში.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_3">გადამრთველის ქვემოთაა ხმის დონე და სურვილისამებრ ჩასართავი გაგზავნის ხმა.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_example">ჩართეთ ხმოვანი ეფექტები აქ: პარამეტრები › ექსპერიმენტული, შემდეგ დაელოდეთ პასუხს სხვა სესიაში</string>
+
+    <!-- 2026-10-25-90-session-title-first-prompt -->
+    <string name="settings_whatsnew_entry_session_title_first_prompt_title">სათაურები პირველი მოთხოვნებიდან</string>
+    <string name="settings_whatsnew_entry_session_title_first_prompt_summary">უსათაურო სესიები ახლა პირველ მოთხოვნას ერთ სტრიქონზე აჩვენებს, სანამ სერვერი მათ სახელს დაარქმევს.</string>
+
+    <!-- 2026-10-26-01-settings-sessions-page -->
+    <string name="settings_whatsnew_entry_settings_sessions_page_title">სესიების პარამეტრები</string>
+    <string name="settings_whatsnew_entry_settings_sessions_page_summary">პარამეტრებს დაემატა „სესიების“ გვერდი, სადაც ახალი შეტყობინებების გამყოფი Enter-ით გაგზავნის ზემოთაა. „გაფართოებული“ კი ახლა ორ პუნქტად იყოფა: „ექსპერიმენტული“ და „დეველოპერი“.</string>
+
+    <!-- 2026-10-26-02-project-icons-default -->
+    <string name="settings_whatsnew_entry_project_icons_default_title">პროექტის ხატულები ჩართულია</string>
+    <string name="settings_whatsnew_entry_project_icons_default_summary">პროექტის ხატულები ახლა სესიების სათაურებთან ჩანს. გამოსართავად: პარამეტრები › ექსპერიმენტული.</string>
+
+    <!-- 2026-10-26-03-plus-menu-over-keyboard -->
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_title">ფოტოები კლავიატურის ზემოთ</string>
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_summary">როცა ახალი + მენიუ ჩართულია, ის კლავიატურის ზემოთ იხსნება, ხოლო „ფოტოები“ მისგან ეკრანის კიდეებამდე იშლება და შემდეგ უკან იკეცება ისე, რომ კლავიატურა არ იმალება.</string>
+
+    <!-- 2026-10-26-04-living-orb-connect-motion -->
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_title">სფეროს დაკავშირების ანიმაცია</string>
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_summary">როცა „ცოცხალი სფერო“ ჩართულია, ზარის ღილაკი სფეროში ადის და დაკავშირებისას ტრიალებს, დასრულებისას კი ღილაკში ბრუნდება. მაშინვე გადარეკვა ახალ ზარს იწყებს და აღარ იჭედება.</string>
+
+    <!-- 2026-10-26-05-living-orb-presets -->
+    <string name="settings_whatsnew_entry_living_orb_presets_title">სფეროს მზა სტილები და გაფორმება</string>
+    <string name="settings_whatsnew_entry_living_orb_presets_summary">პარამეტრები › ექსპერიმენტული › ზარები › ზარის სტილი › სფერო ახლა „გაფორმებული“ სტილით იხსნება, უფრო დიდი ცოცხალი გადახედვითა და მზა სტილების რიგით. შეინახეთ საკუთარი სტილები, გადაარქვით სახელი და გასაზიარებლად დააკოპირეთ ან ჩასვით კონფიგურაცია.</string>
+
+    <!-- 2026-10-26-06-send-after-a-pause -->
+    <string name="settings_whatsnew_entry_send_after_a_pause_title">პაუზის შემდეგ უფრო გლუვი გაგზავნა</string>
+    <string name="settings_whatsnew_entry_send_after_a_pause_summary">პაუზის შემდეგ გაგზავნილი შეტყობინება ახლა რედაქტორიდან პირდაპირ თავის ბუშტში ადის და დროის ნიშნულის ქვეშ ჯერ რედაქტორისკენ აღარ ეშვება.</string>
+
+    <!-- 2026-10-27-01-steadier-round-trip -->
+    <string name="settings_whatsnew_entry_steadier_round_trip_title">პასუხის დროის სტაბილური მაჩვენებელი</string>
+    <string name="settings_whatsnew_entry_steadier_round_trip_summary">კავშირის ბარათზე მილიწამების მაჩვენებელი ახლა ბოლო რამდენიმე შემოწმების საშუალოა, ამიტომ ერთი ნელი პასუხი მას მხოლოდ ოდნავ ცვლის და მკვეთრად აღარ ზრდის.</string>
+
+    <!-- 2026-10-27-02-drawer-drag-follows-finger -->
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_title">გვერდით პანელში სესია თითს მიჰყვება</string>
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_summary">გვერდით პანელში გადათრეული სესია ახლა ზუსტად თითის ქვეშ რჩება, სათაურის ზემოთ მოძრაობს, კიდეებთან სიას გადაახვევს და ხელის გაშვებისას თავის ადგილზე ჯდება.</string>
+
+    <!-- 2026-10-27-03-inbox-sidebar-experiment -->
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_title">შემოსულების გვერდითი პანელი</string>
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_summary">ჩართეთ „შემოსულების გვერდითი პანელი“ აქ: პარამეტრები › ექსპერიმენტული › გვერდითი პანელი. სესიები შემოსულებივით დალაგდება: ჯერ ისინი, რომლებიც თქვენს პასუხს ელიან, შემდეგ წაუკითხავები — თითოეული თავისი პროექტითა და ბოლო პასუხით. გასმით მონიშნეთ წაკითხულად ან გადაიტანეთ არქივში.</string>
+
+    <!-- 2026-10-28-01-first-pairing-ready-session -->
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_title">პირველი სესია მზად არის</string>
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_summary">პირველი კომპიუტერის დაწყვილებისას ახლა მის ბოლო პროექტში ახალი სესია იხსნება, საცდელი კითხვებით. შეხებით დაადასტურებთ, რომ კავშირი დამყარებულია. ახალი ინსტალაციისას „რა არის ახალი“ უკვე წაკითხულადაა მონიშნული.</string>
+
+    <!-- 2026-10-28-02-welcome-preview -->
+    <string name="settings_whatsnew_entry_welcome_preview_title">მისალმების გადახედვა</string>
+    <string name="settings_whatsnew_entry_welcome_preview_summary">პირველი გაშვების ახალი მისალმება აჩვენებს, როგორ მუშაობს OpenCode ლეპტოპზე და როგორ მართავს მას ტელეფონი, შემდეგ კი ერთ ნაბიჯში აწყვილებს მათ. სანახავად ჩართეთ „მისალმების გადახედვა“ აქ: პარამეტრები › ექსპერიმენტული › გვერდითი პანელი და შეეხეთ „მისალმების ჩვენებას“; დახურვისას უკან დაბრუნდებით.</string>
+
+    <!-- 2026-10-29-01-composer-text-selection -->
+    <string name="settings_whatsnew_entry_composer_text_selection_title">ტექსტის მონიშვნა რედაქტორში</string>
+    <string name="settings_whatsnew_entry_composer_text_selection_summary">მონახაზში მონიშვნის სახელურების ან ლუპის გადაადგილება კლავიატურას აღარ მალავს და შეტყობინების რედაქტორს ზემოთ ან ქვემოთ აღარ სწევს.</string>
+
+    <!-- 2026-10-30-01-voice-waits-for-you -->
+    <string name="settings_whatsnew_entry_voice_waits_for_you_title">ზარები საუბრის დასრულებას გაცლიან</string>
+    <string name="settings_whatsnew_entry_voice_waits_for_you_summary">ხმოვანი აგენტი საუბარში აღარ გაწყვეტინებთ: სიახლეების სათქმელად თქვენს დასრულებას ელოდება, ხოლო თუ საუბარს დაიწყებთ, ჩერდება.</string>
+
+    <!-- 2026-10-30-02-wisp-call-sounds -->
+    <string name="settings_whatsnew_entry_wisp_call_sounds_title">ხმოვან ზარებში Wisp-ის ხმებია</string>
+    <string name="settings_whatsnew_entry_wisp_call_sounds_summary">ზარი იწყება რბილი ჩასუნთქვითა და დაკავშირების მშვიდი ჟღერადობით, დაკავშირებისას გაისმის ზარი, აგენტის ძიებას, გახსნასა და გაშვებას ნაზი წკაპუნი ახლავს, დასრულებას კი — ამოსუნთქვა. სხვა ნაკრები აირჩიეთ აქ: პარამეტრები › ხმა › ზარის ხმები.</string>
+
+    <!-- 2026-10-30-03-wisp-orb -->
+    <string name="settings_whatsnew_entry_wisp_orb_title">ხმოვანი სფერო ახლა Wisp-ია</string>
+    <string name="settings_whatsnew_entry_wisp_orb_summary">ზარის სფეროს ახლა Wisp-ის იერი აქვს: შუშის ლინზის ქვეშ მბზინავი წერტილები ორივე ხმაზე ნათდება. Wisp-ის განწყობები ასახავს დაკავშირებას, მოსმენას, მუშაობას, საუბარსა და თქვენს მოლოდინს. ეს სფეროს ერთადერთი სტილია, ამიტომ ძველი სტილები და სფეროს პარამეტრები წაიშალა.</string>
+
+    <!-- 2026-10-31-01-encrypted-notification-previews -->
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_title">შეტყობინებების დაშიფრული გადახედვა</string>
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_summary">განახლებული შეტყობინებების დანამატითა და HTTPS კავშირით სერვერი სათაურსა და ტექსტს ამ მოწყობილობისთვის შიფრავს. თუ გადახედვა ვერ გაიხსნება, შეტყობინებაში მხოლოდ „ახალი აქტივობა“ გამოჩნდება.</string>
+
+    <!-- 2026-10-31-02-move-session-folder-gone -->
+    <string name="settings_whatsnew_entry_move_session_folder_gone_title">სესიები საქაღალდის გარეშეც რჩება</string>
+    <string name="settings_whatsnew_entry_move_session_folder_gone_summary">თუ სესიის საქაღალდე აღარ არსებობს, მაგალითად, სამუშაო სივრცე წაიშალა, წარუმატებელი გაგზავნისას აპი შემოგთავაზებთ სესიის პროექტის საქაღალდეში გადატანას და ხელახლა გაგზავნას.</string>
+
+    <!-- 2026-10-31-03-notification-plugin-setup -->
+    <string name="settings_whatsnew_entry_notification_plugin_setup_title">შეტყობინებების გამართვა OpenCode-ით</string>
+    <string name="settings_whatsnew_entry_notification_plugin_setup_summary">გახსენით პარამეტრები → შეტყობინებები და შეეხეთ „OpenCode-ით გამართვას“, რათა გადახედოთ მოთხოვნას, რომელიც შეტყობინებების საჭირო დანამატს დააყენებს.</string>
+
+    <!-- 2026-11-01-01-call-card-takes-over -->
+    <string name="settings_whatsnew_entry_call_card_takes_over_title">ზარის ბარათი ეკრანის ქვედა ნაწილში</string>
+    <string name="settings_whatsnew_entry_call_card_takes_over_summary">„ცოცხალ სფეროში“ ზარის ბარათი ახლა ეკრანის ქვედა ნაწილს ავსებს, შეტყობინების ველის ზემოდან, ყველა მხარეს თანაბარი დაშორებით, ამიტომ კლავიატურა მას აღარ კუმშავს. ტექსტის შესაყვანად ისევ სფეროდ შეკუმშეთ.</string>
+
+    <!-- 2026-11-01-01-screenshot-shutter -->
+    <string name="settings_whatsnew_entry_screenshot_shutter_title">ეკრანის სურათის გადაღების ეფექტი</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_summary">როცა აპი სესიისთვის საკუთარი ეკრანის სურათს იღებს, ეკრანი გაიელვებს და ჩამკეტის ხმა გაისმის.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_1">გაელვება გადაღების შემდეგ ხდება, ამიტომ სურათში არასდროს ჩანს.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_2">„მოძრაობის შემცირება“ მას მსუბუქი ჩაბნელებით ცვლის, „მოციმციმე განათების შესუსტება“ კი თიშავს.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_3">ზარისას წკაპუნი ზარის აუდიოარხით ისმის, ამიტომ აგენტს არ ესმის.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_example">ხმოვანი ზარისას თქვით: „ამას შეხედე“</string>
+
+    <!-- 2026-11-01-01-voice-says-whats-running -->
+    <string name="settings_whatsnew_entry_voice_says_whats_running_title">ზარისას გაიგებთ, რა მიმდინარეობს</string>
+    <string name="settings_whatsnew_entry_voice_says_whats_running_summary">როცა თქვენს მოთხოვნას დრო სჭირდება, ხმოვანი აგენტი გაჩუმების ნაცვლად გეუბნებათ, რაზე მუშაობს.</string>
+
+    <!-- 2026-11-01-02-living-orb-default -->
+    <string name="settings_whatsnew_entry_living_orb_default_title">ზარები მოტივტივე სფეროში</string>
+    <string name="settings_whatsnew_entry_living_orb_default_summary">ხმოვანი ზარები ახლა ყველასთვის „ცოცხალ სფეროში“ ტივტივებს, ყველა ეკრანის ზემოთ, შეტყობინების ველი კი თავისუფალი რჩება.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_1">შეეხეთ სფეროს ზარის ბარათად გასაშლელად, ხოლო სრული ზარისა და ტრანსკრიპტის სანახავად ზემოთ ასწიეთ.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_2">სფერო ნებისმიერ ადგილას გადაიტანეთ; სესიების გადართვისა თუ პარამეტრების გახსნისას იქვე დარჩება.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_3">ზარი სესიების სიიდანაც დაიწყეთ, პარამეტრების გვერდით მდებარე ზარის ღილაკით.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_4">ქვედა პანელი გაუქმდა: თუ მას იყენებდით, თქვენი ზარებიც სფეროში იტივტივებს.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_5">გამორთეთ აქ: პარამეტრები › ექსპერიმენტული › ზარები › ცოცხალი სფერო.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_example">დაიწყეთ ზარი და გახსენით სესიების სია: სფეროც თან გამოგყვებათ</string>
+
+    <!-- 2026-11-01-02-quicker-send -->
+    <string name="settings_whatsnew_entry_quicker_send_title">უფრო სწრაფი გაგზავნა</string>
+    <string name="settings_whatsnew_entry_quicker_send_summary">გაგზავნილი შეტყობინება ახლა სიასთან ერთად თავის ბუშტში ადის და ჯერ რედაქტორთან აღარ ყოვნდება.</string>
+
+    <!-- 2026-11-01-02-share-screen-with-agents -->
+    <string name="settings_whatsnew_entry_share_screen_with_agents_title">ეკრანის გაზიარება აგენტებთან</string>
+    <string name="settings_whatsnew_entry_share_screen_with_agents_summary">ჩართეთ „ეკრანის გაზიარება აგენტებთან“ აქ: პარამეტრები › ექსპერიმენტული › ზარები. ზარისას აგენტს შეეძლება აპის ნახვა გთხოვოთ: სურათის გასაგზავნად შეეხეთ „გაზიარებას“, უარისთვის კი — „ახლა არა“.</string>
+
+    <!-- 2026-11-01-03-audio-in-calls -->
+    <string name="settings_whatsnew_entry_audio_in_calls_title">აუდიო ზარებში</string>
+    <string name="settings_whatsnew_entry_audio_in_calls_summary">ჩართეთ „აუდიო ზარებში“ აქ: პარამეტრები › ექსპერიმენტული › ზარები. ზარისას აგენტი მუსიკას ან ჩანაწერს დაგიკრავთ. როცა რომელიმე თქვენგანი საუბრობს, ხმა იკლებს; დაკვრა რედაქტორის ზემოთ შეაჩერეთ ან დააპაუზეთ.</string>
+
+    <!-- 2026-11-01-03-open-links-from-calls -->
+    <string name="settings_whatsnew_entry_open_links_from_calls_title">ბმულების გახსნა ზარებიდან</string>
+    <string name="settings_whatsnew_entry_open_links_from_calls_summary">ჩართეთ „ბმულების გახსნა ზარებიდან“ აქ: პარამეტრები › ექსპერიმენტული › ზარები. ზარისას აგენტი ბმულს შემოგთავაზებთ, მაგალითად, Uber-ით მგზავრობისთვის: შესაბამის აპში გასახსნელად შეეხეთ „გახსნას“, უარისთვის კი — „ახლა არა“.</string>
+
+    <!-- 2026-11-02-01-fold-questions -->
+    <string name="settings_whatsnew_entry_fold_questions_title">კითხვების ჩაკეცვა</string>
+    <string name="settings_whatsnew_entry_fold_questions_summary">კითხვა ქვემოთ ჩამოსწიეთ, რომ რედაქტორის ზემოთ პატარა ზოლად ჩაიკეცოს, აღსადგენად კი შეეხეთ. თუ პასუხი ვერ გაიგზავნა, ახლა „ხელახლა ცდას“ ელოდება.</string>
+
+    <!-- 2026-11-02-01-steadier-following -->
+    <string name="settings_whatsnew_entry_steadier_following_title">პასუხის უფრო სტაბილური მიყოლა</string>
+    <string name="settings_whatsnew_entry_steadier_following_summary">თანდათან შემოსული პასუხი ქვედა კიდეს მიჰყვება ისე, რომ „მუშაობს“ აღარ ხტუნავს. სიის გასმა რედაქტორის ზემოთ ნებისმიერი ადგილიდან შეგიძლიათ.</string>
+
+    <!-- 2026-11-02-40-model-display-names -->
+    <string name="settings_whatsnew_entry_model_display_names_title">მოდელების სახელები</string>
+    <string name="settings_whatsnew_entry_model_display_names_summary">შეტყობინების რედაქტორი მოდელების სახელებს ინარჩუნებს, სანამ სია იტვირთება ან კავშირი აღდგება.</string>
+
+    <!-- 2026-11-02-41-all-experiments -->
+    <string name="settings_whatsnew_entry_all_experiments_title">ყველა ექსპერიმენტი</string>
+    <string name="settings_whatsnew_entry_all_experiments_summary">პარამეტრები › ექსპერიმენტული განყოფილების ზედა ჩამრთველი ყველა ექსპერიმენტს რთავს, მათ შორის ახლად დამატებულებსაც.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_1">გამორთეთ ცალკეული ექსპერიმენტი, თუ არ გსურთ მისი გამოყენება; ის შემდეგ ჯერზეც გამორთული დარჩება.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_2">„ყველა ექსპერიმენტის“ გამორთვა ჩამრთველების წინა მდგომარეობას აღადგენს.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_3">ექსპერიმენტები, რომლებსაც ნებართვა სჭირდება, კვლავ ცალკე უნდა აირჩიოთ.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_4">ავტომატური შევსება, პლუსის მენიუს ფოტოპანელი, სერვერის ახალი გადამრთველი და პროექტის ხატულები ახლა ყველასთვის ჩართულია.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_5">ერთიანი ამრჩევი და ცოცხალი სფერო ახლა ჩვეულებრივი ჩამრთველებით იმართება, ზარის პანელი კი ამოღებულია.</string>
+    <string name="settings_whatsnew_entry_all_experiments_example">გახსენით პარამეტრები › ექსპერიმენტული და ჩართეთ „ყველა ექსპერიმენტი“</string>
+
+    <!-- 2026-11-03-01-search-all-sessions -->
+    <string name="settings_whatsnew_entry_search_all_sessions_title">ძველი სესიების მოძებნა</string>
+    <string name="settings_whatsnew_entry_search_all_sessions_summary">გვერდით პანელში ძებნა ახლა ყველა სესიას მოიცავს და არა მხოლოდ ბოლო სესიებს. ბოლომდე ჩასქროლვით კი ძველი სესიები იტვირთება.</string>
+
+    <!-- 2026-11-03-01-voice-open-session -->
+    <string name="settings_whatsnew_entry_voice_open_session_title">სესიების ხმით გადართვა</string>
+    <string name="settings_whatsnew_entry_voice_open_session_summary">როცა ხმოვან აგენტს სესიის გახსნას სთხოვთ, გვერდითი პანელი იხურება, ზარი კი არ წყდება.</string>
+
+    <!-- 2026-11-03-02-orb-divider-image-links -->
+    <string name="settings_whatsnew_entry_orb_divider_image_links_title">სამი ექსპერიმენტი ყველასთვის</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_summary">ცოცხალი სფერო, გამყოფი „ახალი“ და სურათის ბმულების გადახედვა ახლა ყველასთვის ჩართულია, ჩამრთველის გარეშე.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_1">ყველა ზარი ახლა მცურავ ცოცხალ სფეროში ჩანს; ზარის ძველი ზოლი ამოღებულია.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_2">სესიაში დაბრუნებისას გამყოფი „ახალი“ აღნიშნავს თქვენს არყოფნაში მოსულ შეტყობინებებს, თუ ისინი ეკრანზე არ ეტევა.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_3">სურათის პირდაპირი ბმულები სურათს შეტყობინების ქვემოთ აჩვენებს.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_example">დაიწყეთ ზარი შეტყობინების რედაქტორიდან და ნახეთ, როგორ გამოჩნდება ის მცურავ სფეროში</string>
+
+    <!-- 2026-11-04-01-call-links-and-audio -->
+    <string name="settings_whatsnew_entry_call_links_and_audio_title">ბმულები და აუდიო ზარებში</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_summary">ზარებიდან ბმულების გახსნა და ზარებში აუდიო ახლა ყველასთვის ჩართულია, ჩამრთველის გარეშე.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_1">ზარისას აგენტმა შეიძლება ბმული შემოგთავაზოთ, მაგალითად, Uber-ით მგზავრობისთვის: შეეხეთ „გახსნა“-ს შესაბამის აპში გასახსნელად ან აირჩიეთ „ახლა არა“.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_2">აგენტს ზარისას მუსიკის ან კლიპის დაკვრა შეუძლია. ხმა იწევს, როცა რომელიმე თქვენგანი საუბრობს; დაკვრა შეგიძლიათ შეაჩეროთ ან დააპაუზოთ შეტყობინების რედაქტორის ზემოთ.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_example">ზარისას სთხოვეთ აგენტს მუსიკის დაკვრა</string>
+
+    <!-- 2026-11-04-01-composer-editing-caret -->
+    <string name="settings_whatsnew_entry_composer_editing_caret_title">მონახაზების რედაქტირება</string>
+    <string name="settings_whatsnew_entry_composer_editing_caret_summary">მონახაზის შუაში სიტყვის რედაქტირებისას კურსორი იქ რჩება, სადაც წერთ.</string>
+
+    <!-- 2026-11-04-01-loading-touch-recovery -->
+    <string name="settings_whatsnew_entry_loading_touch_recovery_title">ჩატვირთვის შემდეგ სქროლვა</string>
+    <string name="settings_whatsnew_entry_loading_touch_recovery_summary">ჩატვირთვისას აპში დაბრუნება ტრანსკრიპტის სქროლვას მაშინვე აღადგენს.</string>
+
+    <!-- 2026-11-05-01-composer-keyboard-width -->
+    <string name="settings_whatsnew_entry_composer_keyboard_width_title">უფრო განიერი რედაქტორი წერისას</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_width_summary">კლავიატურის გამოჩენისას შეტყობინების რედაქტორი ფართოვდება და კიდეებთან თანაბარ, მცირე დაშორებას ტოვებს, ამიტომ გრძელი მონახაზები ნაკლებ სტრიქონზე გადადის.</string>
+
+    <!-- 2026-11-05-02-plus-menu-touch-release -->
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_title">დანართების მენიუს დახურვა</string>
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_summary">დანართების მენიუს დახურვისას მის ქვეშ სესია შეხებაზე ისევ რეაგირებს, განლაგების ცვლილების დროსაც კი.</string>
+
+    <!-- 2026-11-05-02-quiet-reconnecting-pill -->
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_title">უფრო სტაბილური გაშვება</string>
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_summary">აპის გახსნისას რედაქტორის ზემოთ აღარ ციმციმებს „კავშირი აღდგება…“ და სესია აღარ ინაცვლებს; ეს ნიშანი მხოლოდ მაშინ ჩანს, როცა კავშირის აღდგენას დრო სჭირდება.</string>
+
+    <!-- 2026-11-05-03-stuck-touch-recovery -->
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_title">სქროლვა თავისით აღდგება</string>
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_summary">თუ უხილავი დაბრკოლება სესიის სქროლვას წამზე მეტხანს აფერხებს, აპი მას ხსნის.</string>
+
+    <!-- 2026-11-05-04-reply-text-selection -->
+    <string name="settings_whatsnew_entry_reply_text_selection_title">ტექსტის მონიშვნა მთელ პასუხში</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_summary">პასუხში სიტყვას ხანგრძლივად ან ორჯერ შეეხეთ, შემდეგ მონიშვნის მარკერები აბზაცებზე, სიებზე, კოდსა და ცხრილებზე გადაატარეთ.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_1">მარკერი სათაურის ქვემოთ ან შეტყობინების რედაქტორის ზემოთ გააჩერეთ და პასუხი ასქროლდება — რაც უფრო ახლოსაა კიდესთან, მით უფრო სწრაფად.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_2">„ასლი“ სიის ნიშნებსა და ნომრებს, ასევე ცხრილის სტრიქონებსა და სვეტებს ინარჩუნებს. „ციტირება“ მონიშნულ ტექსტს შეტყობინების რედაქტორში ამატებს და კოდის ბლოკებს უცვლელად ტოვებს.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_example">გრძელი პასუხის დასაწყისში სიტყვას ხანგრძლივად შეეხეთ, შემდეგ ბოლო მარკერი შეტყობინების რედაქტორამდე ჩამოიტანეთ და იქ გააჩერეთ</string>
+
+    <!-- 2026-11-06-01-scrolling-unsticks -->
+    <string name="settings_whatsnew_entry_scrolling_unsticks_title">სქროლვა თავისით განიბლოკება</string>
+    <string name="settings_whatsnew_entry_scrolling_unsticks_summary">სესია, რომელიც ზოგჯერ სხვა სესიაზე გადართვამდე არ ისქროლებოდა, ახლა სქროლვას თავისით აღადგენს.</string>
+
+    <!-- 2026-11-06-02-server-addresses -->
+    <string name="settings_whatsnew_entry_server_addresses_title">უფრო საიმედო კავშირი სერვერებთან</string>
+    <string name="settings_whatsnew_entry_server_addresses_summary">OpenCode სერვერის ყველა მისამართს ერთდროულად ამოწმებს და პირველსავე მოპასუხეს იყენებს. სახლიდან გასვლისას კავშირი VPN-ის გამორთვა-ჩართვის გარეშე აღდგება.</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_1">სახლის ქსელში მომუშავე მისამართი სხვა ქსელებში პირველი აღარ მოწმდება.</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_2">ხანმოკლე წყვეტისას, ტელეფონის განბლოკვისას ან სწრაფი პარამეტრების ჩამოწევისას ბანერი აღარ ციმციმებს. „კავშირი აღდგება“ რამდენიმე წამის შემდეგ ჩნდება, „ქსელგარეშე“ კი დაახლოებით 12 წამში, ან 4 წამში, თუ ტელეფონს ქსელი არ აქვს.</string>
+    <string name="settings_whatsnew_entry_server_addresses_example">Tailscale-ით დაწყვილებულ სერვერზე სესიის გახსნის შემდეგ გამორთეთ Wi-Fi და განაგრძეთ მუშაობა</string>
+
+    <!-- 2026-11-07-01-server-voice -->
+    <string name="settings_whatsnew_entry_server_voice_title">ზარები სერვერის გასაღებებით</string>
+    <string name="settings_whatsnew_entry_server_voice_summary">სერვერის ხმა ახლა ყველასთვის ჩართულია, ჩამრთველის გარეშე. ზარებს თქვენი OpenCode სერვერის გასაღებების გამოყენება შეუძლია, ამიტომ ამ ტელეფონს საკუთარი OpenAI გასაღები აღარ სჭირდება.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_1">თუ „ავტომატური არჩევა“ ჩართულია, ზარები ჯერ მიმდინარე სერვერს იყენებს, შემდეგ ამ ტელეფონზე შენახულ OpenAI გასაღებს, ბოლოს კი სხვა შენახულ, მზადყოფნაში მყოფ სერვერს.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_2">თუ OpenAI გასაღები ტელეფონსაც აქვს და სერვერსაც, ზარები ახლა სერვერისას იყენებს. თქვენის გამოყენების გასაგრძელებლად გახსენით „თქვენი OpenAI ანგარიში“ განყოფილებაში „ხმის პროვაიდერი“ და შეეხეთ „ზარებისთვის გამოყენება“-ს.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_3">Gemini Live ახლა ასევე ხელმისაწვდომია პროვაიდერად სერვერებზე, რომლებსაც Gemini გასაღები აქვს.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_4">თუ ზარი ვერ იწყება, გამოჩნდება მიზეზი და ღილაკი პრობლემის მოსაგვარებლად.</string>
+    <string name="settings_whatsnew_entry_server_voice_example">გახსენით პარამეტრები › ხმა და შეეხეთ „ხმის პროვაიდერი“-ს</string>
+
+    <!-- 2026-11-07-02-rename-clear-button -->
+    <string name="settings_whatsnew_entry_rename_clear_button_title">სათაურის გასუფთავება ერთი შეხებით</string>
+    <string name="settings_whatsnew_entry_rename_clear_button_summary">სესიისა და სერვერის გადარქმევისას ახლა გასუფთავების ღილაკია, რომ ახალი სათაური ძველის ხელით წაშლის გარეშე დაწეროთ.</string>
+
+    <!-- 2026-11-07-03-one-picker -->
+    <string name="settings_whatsnew_entry_one_picker_title">მოდელის ახალი ამრჩევი</string>
+    <string name="settings_whatsnew_entry_one_picker_summary">შეეხეთ მოდელს შეტყობინების ველში და სია იქვე გაიშლება: ზემოთ რჩეულები და ბოლო გამოყენებული მოდელებია, ქვემოთ კი ყველა პროვაიდერი.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_1">შეეხეთ ფიქრის დონეს მოდელის სტრიქონში, მაგალითად, „მაღალი“, რომ ის სიიდან გაუსვლელად შეცვალოთ.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_2">გაუსვით თითი სტრიქონს ან ხანგრძლივად შეეხეთ, რომ რჩეულებში დაამატოთ ან იქიდან ამოიღოთ.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_3">ძებნა ქვემოთაა. თუ სახელის შემდეგ დონესაც ჩაწერთ, მაგალითად, „opus high“, შეყვანის ღილაკით ორივეს აირჩევთ.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_4">სიის გასაზრდელად სახელური ზემოთ ასწიეთ, დასახურად კი — ქვემოთ ჩამოწიეთ.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_5">ახალი ამრჩევი მოდელის ძველ პანელს ცვლის. პარამეტრები › ექსპერიმენტული განყოფილებიდან ერთიანი ამრჩევის გადამრთველი ამოღებულია.</string>
+    <string name="settings_whatsnew_entry_one_picker_example">შეეხეთ მოდელს შეტყობინების ველში, შემდეგ გაუსვით თითი სტრიქონს რჩეულებში დასამატებლად</string>
+
+    <!-- 2026-11-08-01-connecting-caption-glass -->
+    <string name="settings_whatsnew_entry_connecting_caption_glass_title">მკაფიო წარწერა „დაკავშირება …-ის გავლით“</string>
+    <string name="settings_whatsnew_entry_connecting_caption_glass_summary">სერვერის გავლით ზარის დაკავშირებისას წარწერა „დაკავშირება …-ის გავლით“ მინისებრ ფონზე ჩანს და უკან მდებარე შეტყობინებებს აღარ ერწყმის.</string>
+
+    <!-- 2026-11-08-02-default-model -->
+    <string name="settings_whatsnew_entry_default_model_title">ახალი სესიები ნაგულისხმევ მოდელს იყენებს</string>
+    <string name="settings_whatsnew_entry_default_model_summary">ახალი სესიები წინა სესიის მოდელის ნაცვლად OpenCode-ში ნაგულისხმევად დაყენებული მოდელით იწყება, მისთვის ბოლოს არჩეული ფიქრის დონით.</string>
+
+    <!-- 2026-11-11-01-streamed-reply-prefix -->
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_title">პასუხის გახსნა წერის პროცესში</string>
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_summary">თუ სესიას პასუხის წერისას გახსნით, უკვე მიღებულ ნაწილს წაიკითხავთ, სანამ პასუხი გრძელდება.</string>
+
+    <!-- 2026-11-13-01-draw-on-images -->
+    <string name="settings_whatsnew_entry_draw_on_images_title">სურათებზე ხატვა</string>
+    <string name="settings_whatsnew_entry_draw_on_images_summary">მონიშნეთ დეტალი, სანამ მასზე კითხვას დასვამთ.</string>
+    <string name="settings_whatsnew_entry_draw_on_images_detail_1">გახსენით სურათი სრულ ეკრანზე და შეეხეთ კალმის ღილაკს. აირჩიეთ ფერი, დახატეთ და შეეხეთ „დამატებას“, რომ მონიშნული სურათი შეტყობინებას დაურთოთ. ორიგინალი უცვლელი დარჩება.</string>
+    <string name="settings_whatsnew_entry_draw_on_images_example">ეკრანის სურათზე შემოხაზეთ გადასატანი ელემენტი, შემდეგ აღწერეთ, სად უნდა გადავიდეს.</string>
+
+    <!-- 2026-11-14-01-fullscreen-viewer -->
+    <string name="settings_whatsnew_entry_fullscreen_viewer_title">ფოტოებსა და ვიდეოებს შორის გადასმა</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_summary">დაათვალიერეთ სესიის სურათები და ვიდეოები ერთად.</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_detail_1">გადასმით გადადით ვიდეოზე, შემდეგ შეეხეთ კალმის ღილაკს მიმდინარე კადრზე მოსანიშნად. „დამატება“ მონიშნულ კადრს დაურთავს შეტყობინებას გაგზავნის გარეშე.</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_example">შეაჩერეთ დემო შესაცვლელ ეკრანზე, შემოხაზეთ დეტალი და დაამატეთ მონახაზს.</string>
+
+    <!-- 2026-11-15-01-pairing-link-name -->
+    <string name="settings_whatsnew_entry_pairing_link_name_title">სერვერების სახელები OpenCode Console-დან</string>
+    <string name="settings_whatsnew_entry_pairing_link_name_summary">OpenCode Console-დან დაწყვილებულ სერვერს სახელიც მოჰყვება, მაგალითად, „Anomaly Box“.</string>
+
+    <!-- 2026-11-17-01-session-media -->
+    <string name="settings_whatsnew_entry_session_media_title">სესიის მედია</string>
+    <string name="settings_whatsnew_entry_session_media_summary">დაათვალიერე სესიის სურათები, ვიდეოები, აუდიო, ფაილები და საჯარო ვებბმულები.</string>
+    <string name="settings_whatsnew_entry_session_media_detail_1">სესიის ⋮ მენიუში აირჩიეთ „სესიის მედია“. „მედიაში“ სურათები, ვიდეოები და აუდიო ნაჩვენებია თვეების მიხედვით დაჯგუფებულ ფილებად ან სიად, ხოლო „ფაილებსა“ და „ბმულებში“ — დოკუმენტები, ჩასმული ტექსტები და ვებბმულები.</string>
+    <string name="settings_whatsnew_entry_session_media_example">იპოვეთ დილით გაგზავნილი ეკრანის სურათი მთელი სესიის უკან გადახვევის გარეშე.</string>
+
+    <!-- 2026-11-18-02-drawer-call-phone -->
+    <string name="settings_whatsnew_entry_drawer_call_phone_title">ტელეფონის ხატულა გვერდით პანელში</string>
+    <string name="settings_whatsnew_entry_drawer_call_phone_summary">სესიების სიაში, „პარამეტრების“ გვერდით, ზარის ღილაკზე ახლა ტელეფონის ხატულაა, როგორც შეტყობინების ველში.</string>
+
+    <!-- 2026-11-19-01-background-scripts -->
+    <string name="settings_whatsnew_entry_background_scripts_title">სკრიპტები ფონურ სამუშაოებში</string>
+    <string name="settings_whatsnew_entry_background_scripts_summary">აგენტის მიერ ფონზე გადატანილი სკრიპტები ქვეაგენტებისა და გარსების გვერდით ჩანს. ქვეაგენტი სიაში რჩება, სანამ მისი სურათების, ვიდეოების ან სკრიპტების დამუშავება გრძელდება. ორივეს შეჩერება სიიდანვე შეგიძლიათ.</string>
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_new_session">Yangi sessiya</string>
+    <string name="system_start_call">Qo‘ng‘iroqni boshlash</string>
+    <string name="system_open_session">Sessiyani ochish</string>
+    <string name="widget_start_call_description">Siz tanlagan yoki oxirgi ko‘rgan sessiyada ovozli qo‘ng‘iroqni boshlaydi.</string>
+    <string name="widget_open_session_description">Siz tanlagan sessiyani ochadi.</string>
+    <string name="widget_new_session_description">Yangi OpenCode sessiyasini ochadi.</string>
+
+    <!-- Shared across screens -->
+    <string name="system_selected_description">Tanlangan</string>
+    <string name="system_last_viewed_session">Oxirgi ko‘rilgan sessiya</string>
+
+    <!-- Quick actions (launcher shortcuts) -->
+    <string name="system_quick_action_session_fallback">Sessiya</string>
+    <!-- Long label: the session's title, then its project. -->
+    <string name="system_quick_action_long_label">%1$s · %2$s</string>
+
+    <!-- Shortcuts and Ask OpenCode -->
+    <string name="system_session_type_name">Sessiya</string>
+    <string name="system_project_type_name">Loyiha</string>
+    <string name="system_intent_open_session_description">OpenCode’da sessiyani ochadi.</string>
+    <string name="system_intent_new_session_description">OpenCode’da yangi sessiyani boshlaydi.</string>
+    <string name="system_intent_start_voice_call_title">Ovozli qo‘ng‘iroqni boshlash</string>
+    <string name="system_intent_start_voice_call_description">Sessiyada OpenCode bilan ovozli qo‘ng‘iroqni boshlaydi. Sessiya tanlanmasa, qo‘ng‘iroq oxirgi ko‘rgan sessiyangizda boshlanadi.</string>
+    <string name="system_intent_background_call_title">Fonda ovozli qo‘ng‘iroqni boshlash</string>
+    <string name="system_intent_background_call_description">Ilovani ochmasdan OpenCode bilan ovozli qo‘ng‘iroqni boshlaydi. Qo‘ng‘iroq holat satrida va qulflangan ekranda ko‘rinadi.</string>
+    <string name="system_delivery_type_name">Yuborish usuli</string>
+    <string name="system_delivery_steer">Yo‘naltirish</string>
+    <string name="system_delivery_queue">Navbatga qo‘yish</string>
+    <string name="system_ask_title">OpenCode’dan so‘rash</string>
+    <string name="system_ask_description">Ilovani ochmasdan OpenCode sessiyasiga xabar yuboradi.</string>
+    <string name="system_ask_message_title">Xabar</string>
+    <string name="system_ask_message_placeholder">OpenCode nima qilsin?</string>
+    <string name="system_ask_session_title">Sessiya</string>
+    <string name="system_ask_started_new_session">%1$s loyihasida yangi sessiya boshlandi</string>
+    <string name="system_ask_queued_for">“%1$s” uchun navbatga qo‘yildi</string>
+    <string name="system_ask_sent_to">“%1$s”ga yuborildi</string>
+    <string name="system_ask_your_session">sessiyangiz</string>
+    <string name="system_ask_no_server">Avval OpenCode’ni ochib, serverga ulaning.</string>
+    <string name="system_ask_no_project">Avval OpenCode’ni ochib, sessiya boshlang.</string>
+    <string name="system_ask_empty_message">Yuborish uchun hech narsa yo‘q.</string>
+    <!-- The server's error message follows. -->
+    <string name="system_ask_send_failed">OpenCode’ga yuborib bo‘lmadi. %1$s</string>
+
+    <!-- Live Updates: voice call -->
+    <string name="system_call_muted">Ovozi o‘chirilgan</string>
+    <string name="system_call_unmute">Ovozni yoqish</string>
+    <string name="system_call_mute">Ovozni o‘chirish</string>
+    <string name="system_call_end">Qo‘ng‘iroqni tugatish</string>
+    <string name="system_call_connecting">Ulanmoqda…</string>
+    <string name="system_call_reconnecting">Qayta ulanmoqda…</string>
+    <string name="system_call_ended">Qo‘ng‘iroq tugadi</string>
+    <string name="system_call_end_title">Qo‘ng‘iroqni tugatish</string>
+    <string name="system_call_toggle_mute_title">Qo‘ng‘iroq ovozini o‘chirish yoki yoqish</string>
+
+    <!-- Live Updates: hands-free recording -->
+    <string name="system_recording_active">Yozib olinmoqda</string>
+    <string name="system_recording_stopped">Yozib olish to‘xtatildi</string>
+    <string name="system_recording_stop">Yozib olishni to‘xtatish</string>
+    <string name="system_recording_stop_title">Yozib olishni to‘xtatish</string>
+    <string name="system_recording_new_session">Yangi sessiya</string>
+
+    <!-- Live Updates: session run -->
+    <string name="system_session_working">Bajarilmoqda</string>
+    <string name="system_session_last_seen_working">Oxirgi holat: bajarilmoqda</string>
+    <!-- Where the run is (Working), then its current step (a tool name, Thinking or Replying). -->
+    <string name="system_session_status_with_step">%1$s · %2$s</string>
+    <string name="system_session_step_thinking">Fikrlash</string>
+    <string name="system_session_step_replying">Javob yozilmoqda</string>
+    <string name="system_session_needs_input">Javobingiz kerak</string>
+    <string name="system_session_input">Kirish</string>
+    <string name="system_session_done">Tayyor</string>
+    <string name="system_session_failed">Muvaffaqiyatsiz</string>
+
+    <!-- Session notifications -->
+    <string name="system_notification_placeholder_body">Yangi faollik</string>
+
+    <!-- Notification channels -->
+    <string name="system_channel_voice_calls">Ovozli qo‘ng‘iroqlar</string>
+    <string name="system_channel_recording">Yozib olinmoqda</string>
+    <string name="system_channel_session_runs">Sessiya jarayonlari</string>
+    <string name="system_channel_session_updates">Sessiya yangilanishlari</string>
+    <string name="system_channel_shared_items">Ulashilgan elementlar</string>
+
+    <!-- Share sheet: notifications -->
+    <string name="system_share_continue_notification_body">OpenCode’da davom etish uchun bosing</string>
+
+    <!-- Share sheet -->
+    <string name="system_share_your_server">serveringiz</string>
+    <string name="system_share_new_session_in_project">Yangi sessiya · %1$s</string>
+    <string name="system_share_save_failed_message">Qayta urinib ko‘ring. Takrorlansa, bu qurilmada biroz joy bo‘shating.</string>
+    <!-- The session's title, then its project. -->
+    <string name="system_share_session_chip_description">%1$s, %2$s</string>
+    <string name="system_share_problem_unreachable">%1$s bilan bog‘lanib bo‘lmadi</string>
+    <string name="system_share_problem_too_large">Bunday katta fayllarni bu yerdan yuborib bo‘lmadi</string>
+    <string name="system_share_problem_uploads_unsupported">%1$s’ga fayllarni yuklab bo‘lmadi</string>
+    <string name="system_share_problem_sign_in">%1$s’ga kirib bo‘lmadi</string>
+    <string name="system_share_problem_send">%1$s’ga yuborib bo‘lmadi</string>
+    <string name="system_share_problem_no_credentials">Bu yerdan yuborish uchun OpenCode’ni bir marta oching</string>
+    <plurals name="system_share_image_count">
+        <item quantity="one">%d ta rasm</item>
+        <item quantity="other">%d ta rasm</item>
+    </plurals>
+    <plurals name="system_share_file_count">
+        <item quantity="one">%d ta fayl</item>
+        <item quantity="other">%d ta fayl</item>
+    </plurals>
+    <plurals name="system_share_images_skipped">
+        <item quantity="one">%d ta rasmni qo‘shib bo‘lmadi</item>
+        <item quantity="other">%d ta rasmni qo‘shib bo‘lmadi</item>
+    </plurals>
+    <plurals name="system_share_files_skipped">
+        <item quantity="one">%d ta faylni qo‘shib bo‘lmadi</item>
+        <item quantity="other">%d ta faylni qo‘shib bo‘lmadi</item>
+    </plurals>
+    <string name="system_share_save_failed_title">OpenCode uchun saqlab bo‘lmadi</string>
+    <string name="system_share_continue_description">OpenCode’da davom eting</string>
+    <string name="system_share_no_server_title">Avval serverga ulaning</string>
+    <string name="system_share_no_server_message">OpenCode’ni ochib, kompyuteringizga ulaning, keyin qayta ulashing.</string>
+    <string name="system_share_send_later">Keyinroq yuborish</string>
+    <string name="system_share_saved_continue">Saqlandi. Davom etish uchun OpenCode’ni oching</string>
+    <string name="system_share_loading_description">Ulashilgan elementlar yuklanmoqda</string>
+    <string name="system_share_image_description">Rasm</string>
+    <string name="system_share_image_position_description">%2$d ta rasmdan %1$d-si</string>
+    <string name="system_share_search_sessions_description">Qidiruv seanslari</string>
+    <string name="system_share_new_session_in_project_description">%1$s’da yangi sessiya</string>
+    <string name="system_share_choose_project_description">Loyihasini tanlang</string>
+    <string name="system_share_message_placeholder">Xabar</string>
+    <string name="system_share_sent_to">%1$s’ga yuborildi</string>
+    <string name="system_share_sending_description">Yuborilmoqda</string>
+    <string name="system_share_sent_description">Yuborildi</string>
+    <string name="system_share_sessions_title">Seanslar</string>
+    <string name="system_share_pinned_header">Mahkamlangan</string>
+    <string name="system_share_recents_header">Oxirgilar</string>
+
+    <!-- Widget configuration -->
+    <string name="system_widget_choose_session_title">Sessiyani tanlang</string>
+</resources>

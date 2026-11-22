@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Lupina</string>
+    <string name="server_notice_source_subagent">Subagent</string>
+    <string name="server_notice_heading_finished">%1$s: končano</string>
+    <string name="server_notice_heading_failed">%1$s: ni uspelo</string>
+    <string name="server_notice_heading_interrupted">%1$s: prekinjeno</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$d končana lupina</item>
+        <item quantity="two">%1$d končani lupini</item>
+        <item quantity="few">%1$d končane lupine</item>
+        <item quantity="other">%1$d končanih lupin</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$d neuspela lupina</item>
+        <item quantity="two">%1$d neuspeli lupini</item>
+        <item quantity="few">%1$d neuspele lupine</item>
+        <item quantity="other">%1$d neuspelih lupin</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">%1$d prekinjena lupina</item>
+        <item quantity="two">%1$d prekinjeni lupini</item>
+        <item quantity="few">%1$d prekinjene lupine</item>
+        <item quantity="other">%1$d prekinjenih lupin</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">%1$d subagent je končal</item>
+        <item quantity="two">%1$d subagenta sta končala</item>
+        <item quantity="few">%1$d subagenti so končali</item>
+        <item quantity="other">%1$d subagentov je končalo</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">%1$d subagent ni uspel</item>
+        <item quantity="two">%1$d subagenta nista uspela</item>
+        <item quantity="few">%1$d subagenti niso uspeli</item>
+        <item quantity="other">%1$d subagentov ni uspelo</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">%1$d subagent je bil prekinjen</item>
+        <item quantity="two">%1$d subagenta sta bila prekinjena</item>
+        <item quantity="few">%1$d subagenti so bili prekinjeni</item>
+        <item quantity="other">%1$d subagentov je bilo prekinjenih</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Kompakten</string>
+    <string name="server_run_error_action_switch_model">Zamenjaj model</string>
+    <string name="server_run_error_aborted">Prekinjeno</string>
+    <string name="server_run_error_permission_rejected">Prekinjeno po zavrnjeni zahtevi</string>
+    <string name="server_run_error_content_filter">Varnostni filter je blokiral odgovor</string>
+    <string name="server_run_error_rate_limit">Dosežena je omejitev pogostosti zahtev</string>
+    <string name="server_run_error_quota">Dosežena je omejitev uporabe</string>
+    <string name="server_run_error_auth">Ponudnik je zavrnil ključ API</string>
+    <string name="server_run_error_context_overflow">Seja je predolga za ta model</string>
+    <string name="server_run_error_invalid_request">Ponudnik je zavrnil zahtevo</string>
+    <string name="server_run_error_overloaded">Model je preobremenjen</string>
+    <string name="server_run_error_internal">Pri ponudniku je prišlo do težave</string>
+    <string name="server_run_error_transport">Povezava z modelom je bila prekinjena</string>
+    <string name="server_run_error_timeout">Model je predolgo odgovarjal</string>
+    <string name="server_run_error_invalid_output">Odgovora modela ni bilo mogoče prebrati</string>
+    <string name="server_run_error_unavailable">Ta model ni na voljo</string>
+    <string name="server_run_error_unsupported_operation">Ta model tega ne zmore</string>
+    <string name="server_run_error_tool_execution">Orodje ni uspelo, izvajanje se je ustavilo</string>
+    <string name="server_run_error_other">Izvajanje se je ustavilo zaradi napake</string>
+    <string name="server_run_retry_in_seconds">%1$s · ponovni poskus čez %2$d s</string>
+    <string name="server_run_retry_now">%1$s · ponovni poskus</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">Povezava s strežnikom OpenCode ni mogoča</string>
+    <string name="server_error_folder_gone">Mapa ne obstaja več</string>
+    <string name="server_error_uploads_unsupported">Ta strežnik ne podpira datotečnih prilog. Posodobi OpenCode v računalniku.</string>
+    <string name="server_error_archiving_unsupported">Ta strežnik ne podpira arhiviranja. Posodobite OpenCode na svojem računalniku.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode nima dovoljenja za dostop do naprav v lokalnem omrežju. V nastavitvah za OpenCode omogoči Naprave v bližini in poskusi znova.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Seja brez naslova</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Lupina</string>
+    <string name="server_tool_shell_killed">Lupina je bila prisilno ustavljena</string>
+    <string name="server_tool_shell_exit_code">Ukaz se je končal s kodo %1$d</string>
+    <string name="server_notice_session_update">Posodobitev seje</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Povezava ni uspela</string>
+    <string name="server_connection_resolved_address_unknown">Razrešeni naslov: neznano</string>
+    <string name="server_connection_resolved_address">Razrešeni naslov (poizvedba po napaki): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">To ime v omrežju tailnet se je razrešilo v naslov zunaj obsega Tailscale, zato DNS Tailscale morda ni v uporabi. V aplikaciji Tailscale vklopi uporabo nastavitev DNS Tailscale in izklopi zasebni DNS ali profil VPN, ki spreminja DNS.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Lokalno omrežje</string>
+    <string name="server_connection_route_loopback">Povratna zanka</string>
+    <string name="server_connection_route_internet">Internet</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">ni spletni naslov</string>
+    <string name="server_pairing_origin_bad_scheme">se ne začne s http:// ali https://</string>
+    <string name="server_pairing_origin_no_host">nima imena gostitelja</string>
+    <string name="server_pairing_origin_credentials">vsebuje uporabniško ime ali geslo</string>
+    <string name="server_pairing_origin_query">vsebuje poizvedbo ali fragment</string>
+    <string name="server_pairing_origin_port">ima vrata zunaj razpona 1–65535</string>
+    <string name="server_pairing_origin_path">vsebuje pot, strežnik pa mora biti v korenu naslova</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Strežnik</string>
+    <string name="server_friendly_name_numbered">Strežnik %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">Povezava se je prekinila po pošiljanju sporočila, zato je morda prispelo.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Ta integracija nima načina prijave.</string>
+    <string name="server_error_sign_in_url_invalid">Naslov strani za prijavo ni veljaven.</string>
+    <string name="server_error_load_server_details">Podrobnosti strežnika ni bilo mogoče naložiti</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">Ta koda za seznanjanje je potekla ali je že uporabljena. Znova zaženite `opencode pair --remote`.</string>
+    <string name="server_error_pairing_unsupported">Ta strežnik ne podpira povezav za seznanjanje. Posodobite OpenCode v računalniku ali ročno vnesite strežnik.</string>
+    <string name="server_error_notification_previews_need_https">Šifrirani predogledi obvestil zahtevajo povezavo HTTPS s strežnikom.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Vnesite veljaven URL strežnika HTTP ali HTTPS.</string>
+    <string name="server_error_credentials_rejected">Strežnik je zavrnil te prijavne podatke.</string>
+    <string name="server_error_http_status">Strežnik je vrnil HTTP %1$d.</string>
+    <string name="server_error_event_stream_http">Tok dogodkov je vrnil HTTP %1$d.</string>
+    <string name="server_error_event_stream_oversized_frame">Tok dogodkov je poslal prevelik okvir.</string>
+    <string name="server_error_event_stream_ended">Tok dogodkov se je končal.</string>
+    <string name="server_error_event_stream_server_failure">Tok dogodkov je sporočil napako strežnika.</string>
+    <string name="server_tool_failed">Izvajanje orodja ni uspelo</string>
+    <string name="server_error_list_folder">Strežnik ni mogel izpisati vsebine te mape</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Projektov in sej ni bilo mogoče naložiti</string>
+    <string name="server_error_load_session_family">Družine sej ni bilo mogoče naložiti</string>
+    <string name="server_error_update_session">Seje ni bilo mogoče posodobiti</string>
+    <string name="server_error_load_session_ancestry">Predhodnih sej aktivne seje ni bilo mogoče naložiti</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Že odgovorjeno drugje</string>
+    <string name="server_request_already_dismissed">Že zavrnjeno</string>
+    <string name="server_request_already_answered">Že odgovorjeno</string>
+    <string name="server_request_already_dismissed_elsewhere">Že zavrnjeno drugje</string>
+    <string name="server_request_no_longer_waiting">Ne čaka več</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Predstavnost ni na voljo</string>
+    <string name="server_pasted_text_title">Prilepljeno besedilo</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d vrstica · %2$s</item>
+        <item quantity="two">%1$d vrstici · %2$s</item>
+        <item quantity="few">%1$d vrstice · %2$s</item>
+        <item quantity="other">%1$d vrstic · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d vrstica</item>
+        <item quantity="two">%1$d vrstici</item>
+        <item quantity="few">%1$d vrstice</item>
+        <item quantity="other">%1$d vrstic</item>
+    </plurals>
+    <string name="server_file_size_zero">0 KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d bajt</item>
+        <item quantity="two">%1$d bajta</item>
+        <item quantity="few">%1$d bajti</item>
+        <item quantity="other">%1$d bajtov</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">Projekt</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Datoteka</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Dokončajte ta korak</string>
+    <string name="server_form_required">Obvezno</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">Vnesite vsaj %1$d znak</item>
+        <item quantity="two">Vnesite vsaj %1$d znaka</item>
+        <item quantity="few">Vnesite vsaj %1$d znake</item>
+        <item quantity="other">Vnesite vsaj %1$d znakov</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">Vnesite največ %1$d znak</item>
+        <item quantity="two">Vnesite največ %1$d znaka</item>
+        <item quantity="few">Vnesite največ %1$d znake</item>
+        <item quantity="other">Vnesite največ %1$d znakov</item>
+    </plurals>
+    <string name="server_form_invalid_format">Neveljavna oblika</string>
+    <string name="server_form_choose_option">Izberite razpoložljivo možnost</string>
+    <string name="server_form_invalid_email">Vnesite veljaven e-poštni naslov</string>
+    <string name="server_form_invalid_url">Vnesite veljaven URL</string>
+    <string name="server_form_invalid_date">Vnesite datum v obliki YYYY-MM-DD</string>
+    <string name="server_form_invalid_date_time">Vnesite veljaven datum in čas</string>
+    <string name="server_form_minimum">Vrednost mora biti vsaj %1$s</string>
+    <string name="server_form_maximum">Vrednost sme biti največ %1$s</string>
+    <string name="server_form_whole_number">Vnesite celo število</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">Izberite vsaj %1$d možnost</item>
+        <item quantity="two">Izberite vsaj %1$d možnosti</item>
+        <item quantity="few">Izberite vsaj %1$d možnosti</item>
+        <item quantity="other">Izberite vsaj %1$d možnosti</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">Izberite največ %1$d možnost</item>
+        <item quantity="two">Izberite največ %1$d možnosti</item>
+        <item quantity="few">Izberite največ %1$d možnosti</item>
+        <item quantity="other">Izberite največ %1$d možnosti</item>
+    </plurals>
+    <string name="server_form_invalid_value">Neveljavna vrednost</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Skrij izbrane</string>
+    <string name="server_model_visibility_only_show">Pokaži samo izbrane</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Izklopljeno</string>
+    <string name="server_model_variant_extra_high">Izjemno visoko</string>
+    <string name="server_model_variant_max">Največ</string>
+    <string name="server_delivery_steering">Usmerjanje</string>
+    <string name="server_delivery_queued">V čakalni vrsti</string>
+</resources>

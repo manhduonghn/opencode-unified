@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Appearance -->
+    <string name="settings_appearance_title">Внешний вид</string>
+    <string name="settings_appearance_mode_header">Режим</string>
+    <string name="settings_appearance_theme">Тема</string>
+
+    <!-- Appearance › Themes -->
+    <string name="settings_themes_title">Темы</string>
+    <string name="settings_themes_preview_description">Предпросмотр переписки</string>
+    <string name="settings_themes_preview_user_message">Помоги улучшить экран сессии. Покажи, что найдёшь, и объясни изменения.</string>
+    <string name="settings_themes_preview_reply">Проблема с вёрсткой нашлась в %1$s. Переписка и поле ввода делят доступную высоту, поэтому клавиатура помогает проверить вёрстку под нагрузкой.</string>
+
+    <!-- Language -->
+    <string name="settings_language_title">Язык</string>
+    <string name="settings_language_system_default">Системная</string>
+    <string name="settings_language_search_placeholder">Поиск языков</string>
+    <string name="settings_language_suggested_header">Предложено</string>
+    <string name="settings_language_all_header">Все языки</string>
+    <string name="settings_language_no_matches">Подходящих языков нет</string>
+
+    <!-- Experimental -->
+    <string name="settings_experimental_title">Экспериментальный</string>
+    <string name="settings_experimental_all_footer">Также включает новые функции, кроме тех, что видят экран или слушают в фоне.</string>
+    <string name="settings_experimental_all">Все эксперименты</string>
+    <string name="settings_experimental_all_on">Все включены</string>
+    <plurals name="settings_experimental_on_count">
+        <item quantity="one">Включён %d эксперимент</item>
+        <item quantity="few">Включены %d эксперимента</item>
+        <item quantity="many">Включено %d экспериментов</item>
+        <item quantity="other">Включено %d эксперимента</item>
+    </plurals>
+
+    <!-- Models -->
+    <string name="settings_models_title">Модели</string>
+    <string name="settings_models_mode_hide">Скрыть</string>
+    <string name="settings_models_mode_only_show">Показать только</string>
+    <string name="settings_models_mode_hide_footer">Выключите модели, которыми не пользуетесь.</string>
+    <string name="settings_models_mode_only_show_footer">Включите только те модели, которыми пользуетесь.</string>
+    <string name="settings_models_providers_header">Провайдеры</string>
+    <string name="settings_models_stale_header">Больше не доступны</string>
+    <string name="settings_models_forget_unavailable">Забыть недоступные модели</string>
+    <string name="settings_models_show_every_model">Показать все модели</string>
+    <string name="settings_models_load_failed_title">Не удалось загрузить модели</string>
+    <string name="settings_models_summary_hidden">Скрыты</string>
+    <string name="settings_models_summary_all">Все</string>
+    <string name="settings_models_summary_count">%1$d из %2$d</string>
+
+    <!-- Models › Provider -->
+    <string name="settings_models_search_placeholder">Поиск моделей</string>
+    <string name="settings_models_show_provider">Показать %1$s</string>
+
+    <!-- Notifications -->
+    <string name="settings_notifications_title">Уведомления</string>
+    <string name="settings_notifications_device_header">Это устройство: %1$s</string>
+    <string name="settings_notifications_device_footer">Уведомления идут через промежуточный сервер, который ничего не хранит. На это устройство (%1$s) приходят уведомления только о сессиях, запущенных с него.</string>
+    <string name="settings_notifications_allow">Разрешить уведомления</string>
+    <string name="settings_notifications_open_android_settings">Открыть настройки Android</string>
+    <string name="settings_notifications_turn_on">Включить уведомления</string>
+    <string name="settings_notifications_server_header">Сервер</string>
+    <string name="settings_notifications_set_up_footer">Откроет сессию с просьбой к OpenCode установить плагин. Отправьте запрос, затем проверьте снова.</string>
+    <string name="settings_notifications_plugin_needed_footer">На сервере нужен плагин notify для OpenCode.</string>
+    <string name="settings_notifications_notify_plugin">Плагин notify</string>
+    <string name="settings_notifications_plugin_installed">Установлен</string>
+    <string name="settings_notifications_plugin_not_running">Не запущен</string>
+    <string name="settings_notifications_plugin_not_installed">Не установлен</string>
+    <string name="settings_notifications_plugin_check_failed">Не удалось проверить статус</string>
+    <string name="settings_notifications_set_up">Настроить через OpenCode</string>
+    <string name="settings_notifications_check_again">Проверить снова</string>
+    <string name="settings_notifications_in_app_footer">Отображаются на кнопке боковой панели.</string>
+    <string name="settings_notifications_in_app_notices">Уведомления в приложении</string>
+
+    <!-- Sessions -->
+    <string name="settings_sessions_title">Сессии</string>
+    <string name="settings_sessions_composer_header">Поле ввода</string>
+    <string name="settings_sessions_return_key_sends">Отправка клавишей Enter</string>
+    <string name="settings_sessions_new_sessions_header">Новые сессии</string>
+    <string name="settings_sessions_server_default">По умолчанию на сервере</string>
+    <string name="settings_sessions_default_agent">Агент по умолчанию</string>
+
+    <!-- Shared values -->
+    <string name="settings_value_on">Включено</string>
+    <string name="settings_value_off">Выключено</string>
+
+    <!-- Sound Effects -->
+    <string name="settings_sound_effects_volume">Громкость</string>
+    <string name="settings_sound_effects_volume_description">Громкость звуковых эффектов</string>
+    <string name="settings_sound_effects_send_sound">Звук отправки</string>
+
+    <!-- Voice › Delegator -->
+    <string name="settings_delegator_title">Делегатор</string>
+    <string name="settings_delegator_other_server_note">«%1$s» находится на другом сервере. Выберите вариант на этом сервере или смените сервер.</string>
+    <string name="settings_delegator_mode_footer">Встроенный режим работает через OpenAI без сессии. Режим «Сессия OpenCode» работает в сессии на вашем сервере.</string>
+    <string name="settings_delegator_built_in">Встроенный</string>
+    <string name="settings_delegator_opencode_session">Сессия OpenCode</string>
+    <string name="settings_delegator_target_header">Целевая сессия</string>
+    <string name="settings_delegator_target_footer">В режиме «Автоматически» используется сессия «Voice» на этом сервере. В режиме «Открытая сессия» — сессия на экране.</string>
+    <string name="settings_delegator_automatic">Автоматически</string>
+    <string name="settings_delegator_viewed_session">Открытая сессия</string>
+    <string name="settings_delegator_search_placeholder">Поиск сессий</string>
+    <string name="settings_delegator_sessions_header">Выберите сессию</string>
+    <string name="settings_delegator_sessions_footer">Выбранная сессия сохраняет свою модель.</string>
+    <string name="settings_delegator_no_sessions">На этом сервере нет сессий</string>
+    <string name="settings_delegator_no_matching_sessions">Подходящих сессий нет</string>
+    <string name="settings_delegator_new_session">Новая сессия</string>
+    <string name="settings_delegator_direct">Напрямую</string>
+    <string name="settings_delegator_direct_session_unavailable">Напрямую · Сессия недоступна</string>
+    <string name="settings_delegator_another_server">%1$s · Другой сервер</string>
+
+    <!-- Voice › Key Editor -->
+    <string name="settings_voice_key_hide_description">Скрыть ключ</string>
+    <string name="settings_voice_key_show_description">Показать ключ</string>
+    <string name="settings_voice_key_verify">Проверить</string>
+
+    <!-- Voice › Voice Provider -->
+    <string name="settings_voice_provider_title">Голосовой провайдер</string>
+    <string name="settings_voice_provider_place">На %1$s</string>
+    <string name="settings_voice_api_key_title">Ключ API</string>
+    <string name="settings_voice_provider_automatic_footer">Если %1$s недоступен, для звонков используется доступный провайдер.</string>
+    <string name="settings_voice_provider_choose_automatically">Выбирать автоматически</string>
+    <string name="settings_voice_provider_others_header">Другие провайдеры</string>
+    <string name="settings_voice_provider_use_description">Использовать %1$s</string>
+    <string name="settings_voice_provider_use">Использовать</string>
+    <string name="settings_voice_provider_set_up">Настроить</string>
+    <plurals name="settings_voice_provider_not_available_count">
+        <item quantity="one">%d недоступный провайдер</item>
+        <item quantity="few">%d недоступных провайдера</item>
+        <item quantity="many">%d недоступных провайдеров</item>
+        <item quantity="other">%d недоступного провайдера</item>
+    </plurals>
+
+    <!-- Voice › API Key -->
+    <string name="settings_voice_account_title">Ваш аккаунт OpenAI</string>
+    <string name="settings_voice_account_place">На этом телефоне</string>
+    <string name="settings_voice_account_key_footer">Для звонков используется ваш аккаунт OpenAI вместо сервера.</string>
+    <string name="settings_voice_account_use_for_calls">Использовать для звонков</string>
+
+    <!-- Voice -->
+    <string name="settings_voice_title">Голос</string>
+    <string name="settings_voice_call_setup_header">Настройка звонков</string>
+    <string name="settings_voice_calls_header">Звонки</string>
+    <string name="settings_voice_raise_to_talk_hint">Включить или отключить начало звонка через разговорный динамик, когда вы подносите телефон к уху в открытой сессии</string>
+    <string name="settings_voice_enable">Включить голосовой режим</string>
+    <string name="settings_voice_model">Модель</string>
+    <string name="settings_voice_model_description">Голосовая модель</string>
+    <string name="settings_voice_call_voice">Голос</string>
+    <string name="settings_voice_raise_to_talk">Поднести к уху для разговора</string>
+    <string name="settings_voice_call_sounds">Звуки звонков</string>
+    <string name="settings_voice_call_history">История звонков</string>
+    <string name="settings_voice_edit_key_label">Редактировать ключ API %1$s</string>
+    <string name="settings_voice_key_verified">Проверен</string>
+    <string name="settings_voice_key_checking">Проверка…</string>
+    <string name="settings_voice_key_saved">Сохранён</string>
+    <string name="settings_voice_key_missing">Не указан</string>
+    <string name="settings_voice_preview_disabled_hint">Добавьте ключ %1$s, чтобы прослушать голоса</string>
+
+    <!-- Voice › Voice Picker -->
+    <string name="settings_voice_picker_add_key_footer">Добавьте ключ %1$s, чтобы прослушать голоса.</string>
+    <string name="settings_voice_picker_unavailable_footer">%1$s недоступен на %2$s, поэтому для звонков используется %3$s.</string>
+    <string name="settings_voice_stop_preview_description">Остановить прослушивание %1$s</string>
+    <string name="settings_voice_preview_description">Прослушать %1$s</string>
+    <string name="settings_voice_preview_playing">Воспроизведение</string>
+    <string name="settings_voice_call_voice_unavailable">%1$s · %2$s недоступен</string>
+
+    <!-- Settings root -->
+    <string name="settings_whats_new_title">Что нового</string>
+    <string name="settings_developer_title">Для разработчиков</string>
+    <string name="settings_app_version">Версия %1$s (%2$s)</string>
+    <string name="settings_app_version_commit">Версия %1$s (%2$s) · %3$s</string>
+
+    <!-- Connection card -->
+    <string name="settings_connection_show_server_label">Показать сервер</string>
+    <string name="settings_connection_milliseconds">%1$d мс</string>
+    <string name="settings_connection_card_value_description">%1$s, %2$s, %3$s</string>
+    <string name="settings_connection_status_connected">Подключено</string>
+    <string name="settings_connection_status_slow">Медленное соединение</string>
+    <string name="settings_connection_status_unstable">Нестабильное соединение</string>
+    <string name="settings_connection_status_reconnecting">Повторное подключение</string>
+    <string name="settings_connection_status_offline">Не в сети</string>
+    <string name="settings_connection_status_sign_in_failed">Не удалось войти</string>
+    <string name="settings_connection_status_switching">Переключение</string>
+    <string name="settings_connection_status_switching_to">Переключение на %1$s</string>
+    <string name="settings_connection_status_code">%1$s · %2$d</string>
+    <string name="settings_connection_status_http_description">%1$s, HTTP %2$d</string>
+    <plurals name="settings_connection_status_milliseconds_description">
+        <item quantity="one">%1$s, %2$d миллисекунда</item>
+        <item quantity="few">%1$s, %2$d миллисекунды</item>
+        <item quantity="many">%1$s, %2$d миллисекунд</item>
+        <item quantity="other">%1$s, %2$d миллисекунды</item>
+    </plurals>
+
+    <!-- Server page -->
+    <string name="settings_server_title">Сервер</string>
+    <string name="settings_server_address">Адрес</string>
+    <string name="settings_server_connection">Подключение</string>
+    <string name="settings_server_version">Версия</string>
+    <string name="settings_server_edit_server">Редактировать сервер…</string>
+    <string name="settings_server_rename_server_ellipsis">Переименовать сервер…</string>
+    <string name="settings_server_rename_title">Переименовать сервер</string>
+    <string name="settings_server_rename_message">Имя используется только на этом устройстве: %1$s. Оставьте поле пустым, чтобы использовать «%2$s».</string>
+    <string name="settings_server_status">Статус</string>
+    <string name="settings_server_status_milliseconds">%1$s · %2$d мс</string>
+
+    <!-- Servers section -->
+    <string name="settings_servers_header">Серверы</string>
+    <string name="settings_servers_edit_server">Редактировать %1$s…</string>
+    <string name="settings_servers_rename_message">Имя используется только на этом устройстве: %1$s. Оставьте поле пустым, чтобы использовать имя компьютера.</string>
+    <string name="settings_servers_remove_title">Удалить %1$s?</string>
+    <string name="settings_servers_remove_message">Адрес и пароль будут удалены с этого устройства: %1$s. Сессии на сервере сохранятся.</string>
+    <string name="settings_servers_remove_server">Удалить сервер</string>
+    <string name="settings_servers_current_server_state">Текущий сервер, %1$s</string>
+    <string name="settings_servers_switch_label">Переключиться на этот сервер</string>
+    <string name="settings_servers_options_description">Параметры %1$s</string>
+    <string name="settings_servers_rename_menu">Переименовать…</string>
+    <string name="settings_servers_edit_menu">Редактировать…</string>
+    <string name="settings_servers_remove_menu">Удалить…</string>
+    <string name="settings_servers_add_server">Добавить сервер</string>
+    <string name="settings_servers_scan_pairing_code">Сканировать код сопряжения</string>
+    <string name="settings_servers_enter_address">Ввести адрес</string>
+
+    <!-- Pairing scanner -->
+    <string name="settings_pairing_paste">Вставить</string>
+    <string name="settings_pairing_no_camera_title">Камера недоступна</string>
+    <string name="settings_pairing_no_camera_message">Скопируйте ссылку, которую выводит `opencode pair` на компьютере, и вставьте её сюда.</string>
+    <string name="settings_pairing_camera_off_title">Нет доступа к камере</string>
+    <string name="settings_pairing_camera_off_message">Разрешите доступ к камере в настройках, чтобы отсканировать QR-код, или вставьте ссылку, которую выводит `opencode pair`.</string>
+    <string name="settings_pairing_nothing_to_paste_title">Нечего вставлять</string>
+    <string name="settings_pairing_nothing_to_paste_message">В буфере обмена нет ссылки для сопряжения. Скопируйте ссылку, которую выводит opencode pair, и попробуйте снова.</string>
+    <string name="settings_pairing_point_camera">Наведите камеру на QR-код</string>
+    <string name="settings_pairing_paste_link">Вставить ссылку сопряжения</string>
+    <string name="settings_pairing_computer_hint">На компьютере откройте настройки OpenCode → Сопряжение или выполните %1$s в терминале.</string>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Неуспешно добавяне на споделените елементи</string>
+    <string name="app_alert_open_session_failed_title">Неуспешно отваряне на сесията</string>
+    <string name="app_alert_pairing_failed_title">Неуспешно сдвояване със сървъра</string>
+    <string name="app_pairing_confirm">Сдвояване</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Сървъри</string>
+    <string name="app_servers_back_description">Назад към %1$s</string>
+    <string name="app_server_fallback_name">сървър</string>
+    <string name="app_connection_intro_new">Продължете работата по кода от своя %1$s.</string>
+    <string name="app_connection_intro_returning">Продължете оттам, докъдето стигнахте, или сдвоете друг компютър.</string>
+    <string name="app_connection_enter_manually">Ръчно въвеждане на сървър</string>
+    <string name="app_connection_scan_pairing_code">Сканиране на код за сдвояване</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">На компютъра отворете OpenCode и отидете в Настройки → Сдвояване или изпълнете opencode pair --remote в терминал. След това сканирайте кода с този %1$s.</string>
+    <string name="app_setup_install_title">Още нямате OpenCode?</string>
+    <string name="app_setup_other_ways_to_install">Други начини за инсталиране</string>
+    <string name="app_setup_terminal_title">Или изпълнете това в терминал</string>
+    <string name="app_setup_terminal_detail">Работи от всяка мрежа.</string>
+    <string name="app_setup_paste_prompt">Или копирайте изведената връзка, след което</string>
+    <string name="app_setup_paste">Поставяне</string>
+    <string name="app_setup_copy_command_description">Копиране на %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Свързване</string>
+    <string name="app_servers_edit_description">Редактиране на %1$s</string>
+    <string name="app_servers_remove_description">Премахване на %1$s</string>
+    <string name="app_servers_remove_confirm_title">Премахване на %1$s?</string>
+    <string name="app_servers_remove_confirm_message">Адресът и паролата ще бъдат премахнати от този %1$s. Сесиите на сървъра няма да бъдат засегнати.</string>
+    <string name="app_servers_remove_confirm">Премахване на сървър</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Етап: %1$s</string>
+    <string name="app_error_server">Сървър: %1$s</string>
+    <string name="app_error_attempt">Опит: %1$d</string>
+    <string name="app_error_copy_report">Копиране на доклада за грешката</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Нов сървър</string>
+    <string name="app_server_form_edit_title">Редактиране на сървъра</string>
+    <string name="app_server_form_name">Име</string>
+    <string name="app_server_form_address">Адрес на сървъра</string>
+    <string name="app_server_form_username">Потребителско име</string>
+    <string name="app_server_form_password">Парола (по избор)</string>
+    <string name="app_server_form_hide_password_description">Скриване на паролата</string>
+    <string name="app_server_form_show_password_description">Показване на паролата</string>
+    <string name="app_server_form_connect">Свързване</string>
+    <string name="app_server_form_save_and_connect">Запазване и свързване</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Заглавки</string>
+    <string name="app_server_form_header_name">Име</string>
+    <string name="app_server_form_header_name_description">Име на заглавка %1$d</string>
+    <string name="app_server_form_header_value">Стойност</string>
+    <string name="app_server_form_header_value_description">Стойност на заглавка %1$d</string>
+    <string name="app_server_form_header_remove_description">Премахване на заглавка %1$d</string>
+    <string name="app_server_form_header_add">Добавете заглавка</string>
+    <string name="app_server_form_headers_detail">Изпращат се с всяка заявка за прокси пред сървъра, например Cloudflare Access.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">„%1$s“ не е валидно име на заглавка</string>
+    <string name="app_server_form_header_invalid_value">Стойността на %1$s не може да съдържа нов ред</string>
+    <string name="app_server_form_name_placeholder">По избор</string>
+    <string name="app_connection_progress_pairing">Сдвояване</string>
+    <string name="app_connection_progress_connecting">Свързване</string>
+    <string name="app_connection_progress_loading_sessions">Зареждане на сесии</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Сдвояване с %1$s?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode ще опита %1$s и ще превключи към първия адрес, който отговори.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode ще се сдвои с %1$s и ще превключи към него.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode ще опита %1$s и %2$s и ще превключи към първия адрес, който отговори.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode ще опита %1$s и %2$s и ще превключи към първия адрес, който отговори.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Запазените данни за вход за %2$s може да бъдат заменени.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Сдвояване</string>
+    <string name="app_error_phase_connect">Свързване</string>
+    <string name="app_error_phase_load_sessions">Зареждане на сесии</string>
+    <string name="app_error_candidate_detail">Кандидат %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Недостъпен (невалиден адрес)</string>
+    <string name="app_error_title_pair">Неуспешно сдвояване</string>
+    <string name="app_error_title_load_sessions">Неуспешно зареждане на сесиите</string>
+    <string name="app_error_title_connect">Неуспешно свързване с %1$s</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Клипбордът е празен</string>
+    <string name="app_paste_not_a_pairing_link">Това не е връзка за сдвояване</string>
+    <string name="app_server_no_longer_saved">Този сървър вече не е запазен на това устройство (%1$s). Свържете се с него отново, за да отворите сесията.</string>
+    <string name="app_session_no_longer_available">Сесията може да е изтрита или сървърът да е недостъпен.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Свързано с %1$s</string>
+    <string name="app_pairing_invalid_code">Това не е код за сдвояване с OpenCode. Изпълнете opencode pair --remote на компютъра си, след което сканирайте QR кода или поставете изведената връзка.</string>
+    <string name="app_pairing_unusable_address">„%1$s“ от този код за сдвояване не може да се използва: %2$s.</string>
+    <string name="app_pairing_loopback">Този сървър приема връзки само на localhost, затова това устройство (%1$s) няма достъп до него. Вместо това изпълнете opencode pair --remote на компютъра си — така ще имате достъп от всяка мрежа.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Сървърът, към който споделихте, вече не е запазен на това устройство. Свържете се с него отново и споделете пак.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">последно използван</string>
+    <string name="app_server_form_hint_new">За сдвояване поставете връзката, изведена от `opencode pair --remote`, или използвайте адреса и паролата на вашия OpenCode сървър. Потребителското име обикновено е opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Промените се запазват при свързване със сървъра. Този сървър е сдвоен, затова паролата му е токен за сесията. Вместо да я променяте, сканирайте нов код за сдвояване.</string>
+    <string name="app_server_form_hint_edit">Промените се запазват при свързване със сървъра.</string>
+</resources>

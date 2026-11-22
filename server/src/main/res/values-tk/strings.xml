@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Shell</string>
+    <string name="server_notice_source_subagent">Kiçi agent</string>
+    <string name="server_notice_heading_finished">%1$s tamamlandy</string>
+    <string name="server_notice_heading_failed">%1$s şowsuz boldy</string>
+    <string name="server_notice_heading_interrupted">%1$s kesildi</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$d Shell tamamlandy</item>
+        <item quantity="other">%1$d Shell tamamlandy</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$d Shell şowsuz boldy</item>
+        <item quantity="other">%1$d Shell şowsuz boldy</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">%1$d Shell kesildi</item>
+        <item quantity="other">%1$d Shell kesildi</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">%1$d kiçi agent tamamlandy</item>
+        <item quantity="other">%1$d kiçi agent tamamlandy</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">%1$d kiçi agent şowsuz boldy</item>
+        <item quantity="other">%1$d kiçi agent şowsuz boldy</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">%1$d kiçi agent kesildi</item>
+        <item quantity="other">%1$d kiçi agent kesildi</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Ykjam</string>
+    <string name="server_run_error_action_switch_model">Modeli çalyş</string>
+    <string name="server_run_error_aborted">Arakesdi</string>
+    <string name="server_run_error_permission_rejected">Talap ret edilenden soň kesildi</string>
+    <string name="server_run_error_content_filter">Howpsuzlyk süzgüji jogaby petikledi</string>
+    <string name="server_run_error_rate_limit">Talap ýygylygynyň çägine ýetildi</string>
+    <string name="server_run_error_quota">Ulanyş çägine ýetildi</string>
+    <string name="server_run_error_auth">Üpjün ediji açaryny ret etdi</string>
+    <string name="server_run_error_context_overflow">Sessiýa bu model üçin gaty uzyn</string>
+    <string name="server_run_error_invalid_request">Üpjün ediji talaby ret etdi</string>
+    <string name="server_run_error_overloaded">Modeliň ýüki aşa köp</string>
+    <string name="server_run_error_internal">Üpjün edijide mesele ýüze çykdy</string>
+    <string name="server_run_error_transport">Model bilen baglanyşyk kesildi</string>
+    <string name="server_run_error_timeout">Modeliň jogabyna garaşmak wagty gutardy</string>
+    <string name="server_run_error_invalid_output">Modeliň jogabyny okap bolmady</string>
+    <string name="server_run_error_unavailable">Bu model elýeterli däl</string>
+    <string name="server_run_error_unsupported_operation">Bu model muny edip bilmeýär</string>
+    <string name="server_run_error_tool_execution">Gural şowsuz boldy we iş togtady</string>
+    <string name="server_run_error_other">Ýalňyşlyk sebäpli iş togtady</string>
+    <string name="server_run_retry_in_seconds">%1$s · %2$d s soň gaýtadan synanyşylar</string>
+    <string name="server_run_retry_now">%1$s · gaýtadan synanyşmak</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">OpenCode serwerine birigip bolmady</string>
+    <string name="server_error_folder_gone">Papka indi ýok</string>
+    <string name="server_error_uploads_unsupported">Bu serwer faýl goşundylaryny goldamaýar. Kompýuteriňizdäki OpenCode programmasyny täzeläň.</string>
+    <string name="server_error_archiving_unsupported">Bu serwer arhiwlemegi goldamaýar. Kompýuteriňizdäki OpenCode-y täzeläň.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode ýerli toruňyzdaky enjamlara birigip bilmeýär. Sazlamalarda OpenCode üçin Golaýdaky enjamlar rugsadyny açyň we täzeden synanyşyň.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Atsyz sessiýa</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Shell</string>
+    <string name="server_tool_shell_killed">Shell mejbury togtadyldy</string>
+    <string name="server_tool_shell_exit_code">Buýruk %1$d kody bilen tamamlandy</string>
+    <string name="server_notice_session_update">Sessiýa täzelenmesi</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Birikmek başa barmady</string>
+    <string name="server_connection_resolved_address_unknown">Tapylan salgy: Näbelli</string>
+    <string name="server_connection_resolved_address">Tapylan salgy (şowsuzlykdan soň gözlendi): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">Bu tailnet ady Tailscale çäginden daşardaky salga öwrüldi, şonuň üçin Tailscale DNS ulanylmaýan bolmagy mümkin. Tailscale programmasynda Tailscale DNS sazlamalaryny ulanmagy açyň, Hususy DNS ýa-da DNS-i üýtgedýän islendik VPN profilini öçüriň.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Ýerli tor</string>
+    <string name="server_connection_route_loopback">Yza baglanyşyk</string>
+    <string name="server_connection_route_internet">Internet</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">web salgysy däl</string>
+    <string name="server_pairing_origin_bad_scheme">http:// ýa-da https:// bilen başlanmaýar</string>
+    <string name="server_pairing_origin_no_host">host ady ýok</string>
+    <string name="server_pairing_origin_credentials">ulanyjy adyny ýa-da paroly öz içine alýar</string>
+    <string name="server_pairing_origin_query">sorag bölegi ýa-da fragmenti bar</string>
+    <string name="server_pairing_origin_port">porty 1–65535 aralygynda däl</string>
+    <string name="server_pairing_origin_path">ýol bölegi bar, emma serwer salgynyň kökünde bolmaly</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Serwer</string>
+    <string name="server_friendly_name_numbered">Serwer %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">Habar iberilenden soň baglanyşyk kesildi, şonuň üçin habar baryp ýeten bolmagy mümkin.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Bu integrasiýada hasaba giriş usuly ýok.</string>
+    <string name="server_error_sign_in_url_invalid">Hasaba giriş sahypasynyň salgysy nädogry.</string>
+    <string name="server_error_load_server_details">Serwer maglumatlaryny ýükläp bolmady</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">Bu jübütleme kodunyň möhleti gutardy ýa-da ol eýýäm ulanyldy. `opencode pair --remote` buýrugyny täzeden işlediň.</string>
+    <string name="server_error_pairing_unsupported">Bu serwer jübütleme baglanyşyklaryny goldamaýar. Kompýuteriňizdäki OpenCode programmasyny täzeläň ýa-da serweri el bilen giriziň.</string>
+    <string name="server_error_notification_previews_need_https">Şifrlenen bildiriş deslapky synlary üçin HTTPS serwer baglanyşygy gerek.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Dogry HTTP ýa-da HTTPS serwer URL salgysyny giriziň.</string>
+    <string name="server_error_credentials_rejected">Serwer bu giriş maglumatlaryny kabul etmedi.</string>
+    <string name="server_error_http_status">Serwer HTTP %1$d gaýtardy.</string>
+    <string name="server_error_event_stream_http">Wakalar akymy HTTP %1$d gaýtardy.</string>
+    <string name="server_error_event_stream_oversized_frame">Wakalar akymy aşa uly maglumat bölegini iberdi.</string>
+    <string name="server_error_event_stream_ended">Wakalar akymy tamamlandy.</string>
+    <string name="server_error_event_stream_server_failure">Wakalar akymy serwer näsazlygyny habar berdi.</string>
+    <string name="server_tool_failed">Gural şowsuz boldy</string>
+    <string name="server_error_list_folder">Serwer bu papkanyň mazmunyny sanap bilmedi</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Taslamalary we sessiýalary ýükläp bolmady</string>
+    <string name="server_error_load_session_family">Sessiýa toparyny ýükläp bolmady</string>
+    <string name="server_error_update_session">Sessiýany täzeläp bolmady</string>
+    <string name="server_error_load_session_ancestry">Işjeň sessiýanyň gelip çykyş zynjyryny ýükläp bolmady</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Başga ýerde eýýäm jogap berildi</string>
+    <string name="server_request_already_dismissed">Eýýäm ýatyryldy</string>
+    <string name="server_request_already_answered">Eýýäm jogap berildi</string>
+    <string name="server_request_already_dismissed_elsewhere">Başga ýerde eýýäm ýatyryldy</string>
+    <string name="server_request_no_longer_waiting">Indi garaşylmaýar</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Media elýeterli däl</string>
+    <string name="server_pasted_text_title">Goýlan tekst</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d setir · %2$s</item>
+        <item quantity="other">%1$d setir · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d setir</item>
+        <item quantity="other">%1$d setir</item>
+    </plurals>
+    <string name="server_file_size_zero">0 KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d baýt</item>
+        <item quantity="other">%1$d baýt</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">Taslama</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Faýl</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Bu ädimi tamamlaň</string>
+    <string name="server_form_required">Hökmany</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">Iň az %1$d nyşan giriziň</item>
+        <item quantity="other">Iň az %1$d nyşan giriziň</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">Iň köp %1$d nyşan giriziň</item>
+        <item quantity="other">Iň köp %1$d nyşan giriziň</item>
+    </plurals>
+    <string name="server_form_invalid_format">Nädogry format</string>
+    <string name="server_form_choose_option">Elýeterli warianty saýlaň</string>
+    <string name="server_form_invalid_email">Dogry e-poçta salgysyny giriziň</string>
+    <string name="server_form_invalid_url">Dogry URL giriziň</string>
+    <string name="server_form_invalid_date">Senäni YYYY-MM-DD görnüşinde giriziň</string>
+    <string name="server_form_invalid_date_time">Dogry senäni we wagty giriziň</string>
+    <string name="server_form_minimum">Iň az %1$s bolmaly</string>
+    <string name="server_form_maximum">Iň köp %1$s bolmaly</string>
+    <string name="server_form_whole_number">Bitin san giriziň</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">Iň az %1$d sany saýlaň</item>
+        <item quantity="other">Iň az %1$d sany saýlaň</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">Iň köp %1$d sany saýlaň</item>
+        <item quantity="other">Iň köp %1$d sany saýlaň</item>
+    </plurals>
+    <string name="server_form_invalid_value">Nädogry baha</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Saýlananlary gizle</string>
+    <string name="server_model_visibility_only_show">Diňe saýlananlary görkez</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Öçürilen</string>
+    <string name="server_model_variant_extra_high">Örän ýokary</string>
+    <string name="server_model_variant_max">Iň ýokary</string>
+    <string name="server_delivery_steering">Ugrukdyrma</string>
+    <string name="server_delivery_queued">Nobat</string>
+</resources>

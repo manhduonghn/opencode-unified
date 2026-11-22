@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- What’s New entries, oldest first: one group per file in whatsnew/entries/. -->
+
+    <!-- 2026-10-06-01-voice-messages -->
+    <string name="settings_whatsnew_entry_voice_messages_title">Φωνητικά μηνύματα</string>
+    <string name="settings_whatsnew_entry_voice_messages_summary">Όσα ζητά η Φωνή από μια συνεδρία για εσάς εμφανίζονται ως φωνητικά μηνύματα, με μια κυματομορφή.</string>
+
+    <!-- 2026-10-07-01-attachment-menu-hold -->
+    <string name="settings_whatsnew_entry_attachment_menu_hold_title">Επισύναψη με +</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_summary">Το μενού + ανοίγει από το πλαίσιο μηνύματος με Κάμερα, Φωτογραφίες και Αρχεία. Κρατήστε πατημένο το + και σύρετε για επιλογή με μία κίνηση.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_1">Οι Φωτογραφίες ανοίγουν ακριβώς πάνω από το πλαίσιο μηνύματος. Πατήστε φωτογραφίες για επισύναψη.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_2">Η κάμερα διαθέτει κουμπιά φακών, ζουμ με δύο δάχτυλα, εστίαση με πάτημα και φλας.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_example">Κρατήστε πατημένο το +, σύρετε προς τα πάνω στις Φωτογραφίες και αφήστε το</string>
+
+    <!-- 2026-10-08-01-voice-webrtc-weak-connection -->
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_title">Πιο σταθερές κλήσεις</string>
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_summary">Με ασταθή σύνδεση, η κλήση έχει μια μικρή διακοπή αντί για δευτερόλεπτα σιωπής.</string>
+
+    <!-- 2026-10-08-02-mute-sessions -->
+    <string name="settings_whatsnew_entry_mute_sessions_title">Σίγαση συνεδριών</string>
+    <string name="settings_whatsnew_entry_mute_sessions_summary">Οι συνεδρίες σε σίγαση μένουν στη λίστα, αλλά δεν εμφανίζονται στην Ενημέρωση ούτε έχουν κουκκίδα αδιάβαστου.</string>
+    <string name="settings_whatsnew_entry_mute_sessions_detail_1">Κρατήστε πατημένη την Ενημέρωση για να σημειωθούν όλα ως διαβασμένα. Οι συνεδρίες που σας περιμένουν παραμένουν.</string>
+    <string name="settings_whatsnew_entry_mute_sessions_example">Κρατήστε πατημένη μια συνεδρία στο πλαϊνό μενού και πατήστε Σίγαση</string>
+
+    <!-- 2026-10-08-03-pair-from-anywhere -->
+    <string name="settings_whatsnew_entry_pair_from_anywhere_title">Ζευγοποίηση από παντού</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_summary">Εκτελέστε opencode pair --remote στον υπολογιστή σας για σύνδεση από κάθε δίκτυο, χωρίς κοινό Wi-Fi ή Tailscale.</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_detail_1">Σαρώστε τον κωδικό που εμφανίζεται ή επικολλήστε τον σύνδεσμο που δίνει.</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_example">Εκτελέστε opencode pair --remote και προσθέστε τον διακομιστή στο κινητό σας</string>
+
+    <!-- 2026-10-08-04-drawer-peek -->
+    <string name="settings_whatsnew_entry_drawer_peek_title">Τελευταία δραστηριότητα συνεδριών</string>
+    <string name="settings_whatsnew_entry_drawer_peek_summary">Σύρετε τη λίστα συνεδριών προς τη συνεδρία για να δείτε πότε ήταν τελευταία ενεργή η καθεμία.</string>
+    <string name="settings_whatsnew_entry_drawer_peek_detail_1">Σύρετε αριστερά πάνω στη λίστα για να την κλείσετε.</string>
+    <string name="settings_whatsnew_entry_drawer_peek_example">Ανοίξτε τη λίστα συνεδριών και σύρετέ τη δεξιά</string>
+
+    <!-- 2026-10-08-05-dictation-keeps-going -->
+    <string name="settings_whatsnew_entry_dictation_keeps_going_title">Υπαγόρευση και αποστολή</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_summary">Πατήστε το μικρόφωνο για υπαγόρευση και στείλτε απευθείας από τη γραμμή ηχογράφησης ή πατήστε Διακοπή για έλεγχο πρώτα.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_1">Κρατήστε πατημένο το μικρόφωνο για να μιλήσετε, σύρετε πάνω για κλείδωμα ή αριστερά για ακύρωση.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_2">Η ηχογράφηση συνεχίζεται όταν βγαίνετε από την εφαρμογή, με μια ζωντανή δραστηριότητα για να τη σταματήσετε.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_3">Αλλάξτε συνεδρία κατά την ηχογράφηση και η Αποστολή θα γίνει σε αυτή που βλέπετε.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_example">Πατήστε το μικρόφωνο, πείτε μια πρόταση και πατήστε Αποστολή</string>
+
+    <!-- 2026-10-08-06-siri-shortcuts-spotlight -->
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_title">Ενέργειες και συντομεύσεις εφαρμογής</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_summary">Ξεκινήστε κλήση ή συνεδρία ή στείλτε μήνυμα από τις ενέργειες εφαρμογής του Google Assistant, τις συντομεύσεις εφαρμογής ή τις γρήγορες ρυθμίσεις.</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_detail_1">Κρατήστε πατημένο το εικονίδιο της εφαρμογής για τις πρόσφατες συνεδρίες σας.</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_example">Πείτε «Hey Google, ξεκίνα μια φωνητική κλήση στο OpenCode»</string>
+
+    <!-- 2026-10-09-01-working-orb -->
+    <string name="settings_whatsnew_entry_working_orb_title">Σφαίρα κατάστασης</string>
+    <string name="settings_whatsnew_entry_working_orb_summary">Μια σφαίρα δίπλα στην ένδειξη Εργασία και στις κάρτες υποπρακτόρων δείχνει τι κάνει ο πράκτορας και γίνεται κουμπί αντιγραφής όταν τελειώσει.</string>
+
+    <!-- 2026-10-09-02-shell-glyph -->
+    <string name="settings_whatsnew_entry_shell_glyph_title">Δραστηριότητα κελύφους</string>
+    <string name="settings_whatsnew_entry_shell_glyph_summary">Το σύμβολο &gt;_ ενός ενεργού κελύφους κάνει κύκλους καθώς φτάνει η έξοδός του.</string>
+
+    <!-- 2026-10-09-03-math-and-diagrams -->
+    <string name="settings_whatsnew_entry_math_and_diagrams_title">Μαθηματικά και διαγράμματα</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_summary">Οι απαντήσεις εμφανίζουν μορφοποιημένους μαθηματικούς τύπους και διαγράμματα Mermaid.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_1">Πατήστε ένα διάγραμμα για μεγέθυνση ή κρατήστε το πατημένο για να δείτε τον πηγαίο κώδικά του.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_2">Οι μαθηματικοί τύποι ακολουθούν το μέγεθος του κειμένου σας.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_example">Ζητήστε ένα διάγραμμα ροής για το πώς στέλνεται ένα μήνυμα</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_prompt">Σχεδίασε ένα διάγραμμα ροής για το πώς στέλνεται ένα μήνυμα</string>
+
+    <!-- 2026-10-09-04-always-notify -->
+    <string name="settings_whatsnew_entry_always_notify_title">Ειδοποίηση όταν τελειώσει</string>
+    <string name="settings_whatsnew_entry_always_notify_summary">Λάβετε ειδοποίηση όταν ολοκληρωθεί μια συνεδρία που ξεκινήσατε εδώ, με σύντομη σύνοψη του τι έγινε.</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_1">Ενεργοποιήστε την επιλογή «Πάντα ειδοποίηση» στο πλαίσιο της συνεδρίας για ειδοποιήσεις για κάθε απάντηση, ακόμη κι αν ξεκίνησε στον υπολογιστή σας.</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_2">Πατήστε μια ειδοποίηση για να ανοίξετε τη συνεδρία της.</string>
+    <string name="settings_whatsnew_entry_always_notify_example">Στείλτε ένα μήνυμα και κλειδώστε το κινητό σας</string>
+
+    <!-- 2026-10-09-05-server-switcher -->
+    <string name="settings_whatsnew_entry_server_switcher_title">Εναλλαγή διακομιστών</string>
+    <string name="settings_whatsnew_entry_server_switcher_summary">Ο τρέχων διακομιστής εμφανίζεται ως τίτλος στο πλαϊνό μενού. Πατήστε τον για αλλαγή διακομιστή ή προσθήκη νέου.</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_1">Οι Ρυθμίσεις δείχνουν τη σύνδεση ως ζωντανό παλμό, με τον χρόνο απόκρισης δίπλα στο όνομα του διακομιστή.</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_2">Μετονομάστε έναν διακομιστή. Το όνομα ισχύει μόνο σε αυτό το κινητό.</string>
+    <string name="settings_whatsnew_entry_server_switcher_example">Ανοίξτε το πλαϊνό μενού, πατήστε το όνομα του διακομιστή και προσθέστε τον άλλο υπολογιστή σας</string>
+
+    <!-- 2026-10-10-01-share-opened-files -->
+    <string name="settings_whatsnew_entry_share_opened_files_title">Εικόνες όπως οι φωτογραφίες</string>
+    <string name="settings_whatsnew_entry_share_opened_files_summary">Οι εικόνες φαίνονται ολόκληρες στη συνεδρία και ανοίγουν όπως στις Φωτογραφίες: ζουμ με δύο δάχτυλα, σάρωση για εναλλαγή και σύρσιμο κάτω για κλείσιμο.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_1">Κάθε αρχείο που αναφέρει ο πράκτορας ανοίγει στην εφαρμογή.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_2">Με την Κοινοποίηση αποθηκεύετε ό,τι ανοίγετε στις Φωτογραφίες ή στα Αρχεία, ακόμη και βίντεο και ήχο.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_example">Ζητήστε από τον πράκτορα να διαβάσει μερικά στιγμιότυπα οθόνης, μετά πατήστε ένα και σύρετέ το κάτω</string>
+
+    <!-- 2026-10-10-02-call-voice -->
+    <string name="settings_whatsnew_entry_call_voice_title">Φωνητικές κλήσεις</string>
+    <string name="settings_whatsnew_entry_call_voice_summary">Πατήστε την κυματομορφή σε ένα κενό πλαίσιο μηνύματος και μιλήστε. Η Φωνή δουλεύει στις συνεδρίες σας όσο μιλάτε και σας λέει πότε τελειώνει η εργασία.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_1">Ζητήστε οποιαδήποτε συνεδρία με το όνομά της: η Φωνή την ανοίγει και ξεκινά ή καθοδηγεί την εργασία εκεί.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_2">Μιλήστε ενώ μιλά η Φωνή για να τη διακόψετε ή ρωτήστε πώς προχωρά η εργασία.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_3">Πατήστε τη γραμμή κλήσης για ζωντανούς υπότιτλους.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_4">Σίγαση και τερματισμός από την ειδοποίηση της κλήσης, ακόμα και στην οθόνη κλειδώματος.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_5">Πατήστε παρατεταμένα «Διακοπή» για να καλέσετε ενώ ο πράκτορας εργάζεται.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_6">Επιλέξτε φωνή από Ρυθμίσεις → Φωνή.</string>
+    <string name="settings_whatsnew_entry_call_voice_example">Ξεκινήστε μια κλήση και πείτε «άνοιξε τη συνεδρία με τις διορθώσεις μεταφόρτωσης και έλεγξε τις δοκιμές»</string>
+
+    <!-- 2026-10-10-03-drawer-one-edge -->
+    <string name="settings_whatsnew_entry_drawer_one_edge_title">Πιο τακτοποιημένο πλαϊνό μενού</string>
+    <string name="settings_whatsnew_entry_drawer_one_edge_summary">Οι γραμμές ξεκινούν από την ίδια άκρη, οι κουκκίδες κατάστασης βρίσκονται στο τέλος κάθε γραμμής και η αναζήτηση είναι κουμπί στην κορυφή.</string>
+
+    <!-- 2026-10-11-01-paste-as-a-card -->
+    <string name="settings_whatsnew_entry_paste_as_a_card_title">Μεγάλες επικολλήσεις σε κάρτες</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_summary">Οι μεγάλες επικολλήσεις γίνονται κάρτες «Επικολλημένο κείμενο» δίπλα στις εικόνες σας. Ο πράκτορας εξακολουθεί να διαβάζει όλο το κείμενο.</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_1">Πατήστε την κάρτα για να διαβάσετε όλο το κείμενο, με επιλογές «Αντιγραφή» και «Κοινοποίηση».</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_2">Τα μεγάλα μηνύματα συμπτύσσονται σε λίγες γραμμές με την επιλογή «Εμφάνιση περισσότερων».</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_example">Αντιγράψτε ένα μεγάλο αρχείο καταγραφής, επικολλήστε το στο πλαίσιο μηνύματος και πατήστε την κάρτα</string>
+
+    <!-- 2026-10-11-02-ride-out-drops -->
+    <string name="settings_whatsnew_entry_ride_out_drops_title">Λειτουργεί με ασθενές σήμα</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_summary">Λίγα δευτερόλεπτα χωρίς σήμα δεν προκαλούν πια αποτυχίες. Αποστολές, συνεδρίες και κλήσεις περιμένουν τη σύνδεση και συνεχίζουν.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_1">Η «Αποστολή» είναι πάντα διαθέσιμη και τα μηνύματα φεύγουν με τη σειρά που τα στείλατε.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_2">Ένα μήνυμα που δεν στάλθηκε παραμένει στη θέση του με την επιλογή «Επανάληψη», χωρίς κίνδυνο διπλής αποστολής.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_3">Όταν ο διακομιστής σας είναι εκτός σύνδεσης, το όνομά του στο πλαϊνό μενού εμφανίζεται αχνό. Πατήστε το για την επιλογή «Δοκιμάστε ξανά».</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_example">Ανοίξτε μια συνεδρία καθώς το τρένο σας μπαίνει σε σήραγγα</string>
+
+    <!-- 2026-10-11-03-new-session-recent-projects -->
+    <string name="settings_whatsnew_entry_new_session_recent_projects_title">Ξεκινήστε σε οποιοδήποτε έργο</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_summary">Η «Νέα συνεδρία» εμφανίζει τα πρόσφατα έργα σας πάνω από το πλαίσιο μηνύματος. Από το «Όλα τα έργα» μπορείτε να ανοίξετε οποιονδήποτε φάκελο στον υπολογιστή σας.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_1">Το έργο που επιλέξατε παραμένει πάνω από το πλαίσιο μηνύματος όσο γράφετε.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_2">Μια κλήση από νέα συνεδρία λειτουργεί στο έργο που επιλέξατε.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_example">Πατήστε «Νέα συνεδρία», μετά «Όλα τα έργα» και έπειτα «Επιλογή φακέλου…»</string>
+
+    <!-- 2026-10-11-04-stop-runs-your-steer -->
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_title">Καθοδήγηση όσο εργάζεται</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_summary">Στείλτε μήνυμα ενώ ο πράκτορας εργάζεται. Θα το διαβάσει στο επόμενο βήμα, μεταφέροντας πρώτα στο παρασκήνιο τις χρονοβόρες εντολές.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_1">Πατήστε παρατεταμένα «Αποστολή» για να επιλέξετε «Καθοδήγηση» ή «Ουρά» για ένα μήνυμα.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_2">Πατήστε παρατεταμένα ένα μήνυμα σε αναμονή για να το μεταφέρετε στην ουρά ή να το διαγράψετε.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_3">Η «Διακοπή» γίνεται αμέσως «Γίνεται διακοπή…» και ακολουθεί το μήνυμα καθοδήγησης που στείλατε.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_example">Ενώ εκτελείται μια χρονοβόρα εντολή, στείλτε μήνυμα και δείτε την εντολή να μεταφέρεται στο παρασκήνιο</string>
+
+    <!-- 2026-10-12-01-browser-push-in -->
+    <string name="settings_whatsnew_entry_browser_push_in_title">Ιστοσελίδες μέσα στην εφαρμογή</string>
+    <string name="settings_whatsnew_entry_browser_push_in_summary">Με ενεργή την πειραματική λειτουργία «Πρόγραμμα περιήγησης εντός εφαρμογής», οι σύνδεσμοι ανοίγουν πάνω από τη συνεδρία. Σύρετε από την άκρη για επιστροφή.</string>
+
+    <!-- 2026-10-12-02-answer-from-the-bar -->
+    <string name="settings_whatsnew_entry_answer_from_the_bar_title">Απάντηση από το πλαίσιο μηνύματος</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_summary">Οι ερωτήσεις και τα αιτήματα δικαιωμάτων ανοίγουν στο πλαίσιο μηνύματος. Απαντήστε εκεί: πατήστε μια επιλογή, γράψτε ή υπαγορεύστε τη δική σας απάντηση.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_1">Τα αιτήματα δικαιωμάτων δείχνουν την εντολή ή την επεξεργασία πριν την επιτρέψετε.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_2">Η «Απόρριψη» χρησιμοποιεί όσα γράψατε ως εναλλακτικές οδηγίες, ώστε ο πράκτορας να συνεχίσει.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_3">Το πρόχειρό σας επανέρχεται μόλις απαντήσετε.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_example">Όταν ο πράκτορας κάνει μια ερώτηση, κρατήστε πατημένο το μικρόφωνο και πείτε την απάντησή σας</string>
+
+    <!-- 2026-10-12-03-new-messages-divider -->
+    <string name="settings_whatsnew_entry_new_messages_divider_title">Συνεχίστε από εκεί που μείνατε</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_summary">Όταν επιστρέφετε σε μια συνεδρία, ανοίγει στο τέλος, με όσα έφτασαν όσο λείπατε ήδη εκεί. Για να ανοίγει στη γραμμή «Νέο» όταν υπάρχουν πολλά αδιάβαστα, ενεργοποιήστε το «Διαχωριστικό νέων μηνυμάτων» από Ρυθμίσεις › Συνεδρίες.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_1">Οι συνεδρίες που είναι πιθανό να ανοίξετε ενημερώνονται μόλις ανοίξει το πλαϊνό μενού, ώστε να είναι έτοιμες όταν τις πατήσετε.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_2">Όταν επιστρέφετε σε μια συνεδρία, η εργασία στο παρασκήνιο και η ένδειξη πλαισίου διατηρούνται όσο ενημερώνεται.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_example">Ξεκινήστε μια χρονοβόρα εργασία, μεταβείτε σε άλλη συνεδρία και επιστρέψτε μόλις έρθει η απάντηση</string>
+
+    <!-- 2026-10-12-04-model-list-and-level-meter -->
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_title">Νέα επιλογή μοντέλου</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_summary">Επιλέξτε μοντέλο και επίπεδο σκέψης από το πάνελ «Μοντέλο», με τα αγαπημένα σας πρώτα. Για να δοκιμάσετε τη λίστα που ανοίγει από το πλαίσιο μηνύματος, ενεργοποιήστε τη «Νέα επιλογή μοντέλου» από Ρυθμίσεις → Πειραματικό.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_1">Χρησιμοποιήστε το μενού «Σκέψη» στο πάνελ «Μοντέλο» όταν το μοντέλο προσφέρει επίπεδα.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_2">Σύρετε ένα μοντέλο για να το προσθέσετε στα Αγαπημένα.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_3">Μια διακριτική γραμμή στη συνεδρία δείχνει πού αλλάξατε μοντέλο ή επίπεδο.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_example">Πατήστε το μοντέλο στο πλαίσιο μηνύματος και επιλέξτε επίπεδο σκέψης</string>
+
+    <!-- 2026-10-12-05-run-error-line -->
+    <string name="settings_whatsnew_entry_run_error_line_title">Όταν αποτυγχάνει μια εκτέλεση</string>
+    <string name="settings_whatsnew_entry_run_error_line_summary">Αν μια εκτέλεση σταματήσει πρόωρα, εξηγεί απλά το γιατί και προτείνει ένα επόμενο βήμα: «Επεξεργασία», «Συμπαγές», «Αλλαγή μοντέλου» ή «Δοκιμάστε ξανά».</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_1">Η «Επεξεργασία» αναιρεί το μήνυμά σας και το επαναφέρει στο πλαίσιο μηνύματος για να το διατυπώσετε ξανά.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_2">Πατήστε παρατεταμένα τη γραμμή για να δείτε ολόκληρο το σφάλμα και να το αντιγράψετε.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_3">Όταν ο πράκτορας πρόκειται να ξαναδοκιμάσει αυτόματα, η ένδειξη «Εργασία» μετρά αντίστροφα μέχρι την επόμενη προσπάθεια.</string>
+    <string name="settings_whatsnew_entry_run_error_line_example">Όταν μια απάντηση μπλοκάρεται, πατήστε «Επεξεργασία», διατυπώστε ξανά το μήνυμα και στείλτε το πάλι</string>
+
+    <!-- 2026-10-12-06-transcript-keyboard-space -->
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_title">Το πληκτρολόγιο κλείνει χωρίς κενά</string>
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_summary">Όταν σύρετε το πληκτρολόγιο για να κλείσει, δεν μένει πια κενό κάτω από το τελευταίο μήνυμα.</string>
+
+    <!-- 2026-10-12-07-share-sheet-sends -->
+    <string name="settings_whatsnew_entry_share_sheet_sends_title">Αποστολή από το μενού κοινοποίησης</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_summary">Κοινοποιήστε οτιδήποτε στο OpenCode, επιλέξτε συνεδρία, προσθέστε μήνυμα και στείλτε το χωρίς να ανοίξετε την εφαρμογή.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_1">Οι πρόσφατες συνεδρίες σας εμφανίζονται στην πρώτη σειρά του μενού κοινοποίησης.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_2">Τα αρχεία JSON και οι εξαγωγές επισυνάπτονται ως αρχεία, διατηρώντας τα ονόματά τους.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_3">Η «Συνέχεια στο OpenCode» ανοίγει τη συνεδρία με όσα κοινοποιήσατε στο πεδίο μηνύματος.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_4">Αν η αποστολή αποτύχει, η «Αποστολή αργότερα» το στέλνει την επόμενη φορά που θα ανοίξετε την εφαρμογή.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_example">Κοινοποιήστε ένα στιγμιότυπο οθόνης στο OpenCode, γράψτε μια ερώτηση και πατήστε «Αποστολή»</string>
+
+    <!-- 2026-10-12-08-app-icon-badge -->
+    <string name="settings_whatsnew_entry_app_icon_badge_title">Σήμα στο εικονίδιο εφαρμογής</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_summary">Το εικονίδιο της εφαρμογής δείχνει πόσες συνεδρίες είναι αδιάβαστες ή σας περιμένουν, όπως και η «Ενημέρωση».</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_1">Οι συνεδρίες σε σίγαση δεν μετρούν.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_2">Χρειάζεται να είναι ενεργές οι ειδοποιήσεις.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_example">Αφήστε μια συνεδρία να περιμένει απάντηση σε ερώτηση και πηγαίνετε στην αρχική οθόνη</string>
+
+    <!-- 2026-10-12-09-drawer-keeps-keyboard -->
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_title">Το πληκτρολόγιο ακολουθεί το πλαϊνό μενού</string>
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_summary">Όταν ανοίγετε τη λίστα συνεδριών ενώ γράφετε, το πεδίο μηνύματος παραμένει ενεργό και το πληκτρολόγιο σύρεται στο πλάι μαζί με τη συνεδρία.</string>
+
+    <!-- 2026-10-12-10-whats-new-page -->
+    <string name="settings_whatsnew_entry_whats_new_page_title">Πιο απλό «Τι νέο υπάρχει»</string>
+    <string name="settings_whatsnew_entry_whats_new_page_summary">Το «Τι νέο υπάρχει» ανοίγει ως σελίδα όπως οι Ρυθμίσεις, με ξεχωριστή σελίδα για κάθε λειτουργία και τις διορθώσεις συγκεντρωμένες εδώ.</string>
+
+    <!-- 2026-10-12-11-catch-up-returns-to-drawer -->
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_title">Από την Ενημέρωση στο πλαϊνό μενού</string>
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_summary">Βγαίνοντας από την Ενημέρωση, επιστρέφετε στη λίστα συνεδριών όπως την αφήσατε.</string>
+
+    <!-- 2026-10-12-12-transcript-day-stamps -->
+    <string name="settings_whatsnew_entry_transcript_day_stamps_title">Ημέρες στην καταγραφή συνομιλίας</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_summary">Σε συνεδρίες που διαρκούν πολλές ημέρες, η ημέρα εμφανίζεται πάνω από το πρώτο μήνυμα κάθε ημέρας, π.χ. «Τετάρτη 8:24 π.μ.», και η ώρα πάνω από μήνυμα που στάλθηκε μετά από παύση μίας ώρας.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_1">Εμφανίζεται «Σήμερα», «Χθες» ή η ημέρα της εβδομάδας για την τρέχουσα εβδομάδα, αλλιώς η ημερομηνία.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_2">Τα μηνύματα καθοδήγησης και τα μηνύματα σε αναμονή δεν έχουν ένδειξη ώρας όσο περιμένουν.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_example">Ανοίξτε μια συνεδρία που ξεκινήσατε νωρίτερα μέσα στην εβδομάδα και κάντε κύλιση προς τα πάνω</string>
+
+    <!-- 2026-10-12-13-rich-link-previews -->
+    <string name="settings_whatsnew_entry_rich_link_previews_title">Προεπισκοπήσεις συνδέσμων</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_summary">Οι σύνδεσμοι κάτω από μια απάντηση δείχνουν τι περιέχουν, σε μία γραμμή ο καθένας: αίτημα συγχώνευσης ή ζήτημα με τίτλο και κατάσταση, υποβολή, βίντεο ή σελίδα.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_1">Τα αιτήματα συγχώνευσης, τα ζητήματα, οι υποβολές και τα αποθετήρια στο GitHub δείχνουν τον τίτλο τους, με έγχρωμη ένδειξη «Ανοιχτό», «Συγχωνεύτηκε» ή «Κλειστό».</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_2">Οι αναρτήσεις στο X δείχνουν ποιος τις έγραψε και τι είπε, οι σύνδεσμοι YouTube τον τίτλο τους και οι άλλες σελίδες ένα όνομα από τον σύνδεσμο.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_3">Εμφανίζονται τρεις σύνδεσμοι. Πατήστε «περισσότερα» δίπλα στην «Αντιγραφή» για τους υπόλοιπους και ξανά για απόκρυψη.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_4">Πατήστε παρατεταμένα έναν σύνδεσμο για μεγαλύτερη προεπισκόπηση, «Αντιγραφή συνδέσμου» και «Κοινοποίηση».</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_example">Ρωτήστε τον πράκτορα τι άλλαξε σε ένα αποθετήριο αυτή την εβδομάδα</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_prompt">Τι άλλαξε αυτή την εβδομάδα σε ένα αποθετήριο GitHub που χρησιμοποιώ; Πρόσθεσε συνδέσμους.</string>
+
+    <!-- 2026-10-13-01-rolling-numbers -->
+    <string name="settings_whatsnew_entry_rolling_numbers_title">Κυλιόμενοι αριθμοί</string>
+    <string name="settings_whatsnew_entry_rolling_numbers_summary">Οι ζωντανοί μετρητές στην ένδειξη εργασίας παρασκηνίου, στο πλαίσιο «Συνεδρία», στις γραμμές «Χρησιμοποιήθηκαν N» και στην Ενημέρωση κυλούν ψηφίο προς ψηφίο.</string>
+
+    <!-- 2026-10-13-02-grouped-steering -->
+    <string name="settings_whatsnew_entry_grouped_steering_title">Ομαδοποιημένα μηνύματα</string>
+    <string name="settings_whatsnew_entry_grouped_steering_summary">Τα μηνύματα που στέλνετε διαδοχικά εμφανίζονται σε μία ομάδα και τα μηνύματα καθοδήγησης που περιμένουν τον πράκτορα έχουν κοινή ετικέτα «Καθοδήγηση».</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_1">Οι διαδοχικές φυσαλίδες μηνυμάτων είναι κοντά μεταξύ τους και οι γωνίες τους ενώνονται στα σημεία επαφής.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_2">Οι φωτογραφίες και τα αρχεία διατηρούν το στρογγυλεμένο σχήμα τους μέσα στην ομάδα.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_3">Καθώς ο πράκτορας παραλαμβάνει κάθε μήνυμα, αυτό ανεβαίνει στη θέση του με μία κίνηση.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_example">Ενώ ο πράκτορας εργάζεται, στείλτε τρία σύντομα μηνύματα, το ένα με φωτογραφία</string>
+
+    <!-- 2026-10-13-03-inline-tool-rows -->
+    <string name="settings_whatsnew_entry_inline_tool_rows_title">Διακριτικές γραμμές εργαλείων και ερωτήσεων</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_summary">Οι ομάδες εργαλείων και οι απαντημένες ερωτήσεις ανοίγουν σε ζώνη πλήρους πλάτους, όπως ο κώδικας, με τις διαδοχικές αναγνώσεις σε μία γραμμή.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_1">Οι συμπτυγμένες ομάδες γράφουν «Χρησιμοποιήθηκαν N εργαλεία» και επισημαίνουν με κόκκινο τις αποτυχημένες κλήσεις εργαλείων.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_2">Οι γραμμές «Εκτέλεση» αναφέρουν τα εργαλεία που κάλεσε το σενάριό τους και οι γραμμές «Ικανότητα» το όνομα της ικανότητας.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_3">Οι απαντημένες ερωτήσεις δείχνουν την προτροπή και όλες τις διαθέσιμες επιλογές, με τη δική σας σημειωμένη.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_example">Πατήστε μια γραμμή «Χρησιμοποιήθηκαν N εργαλεία» σε μια συνεδρία για να ανοίξετε τη ζώνη της</string>
+
+    <!-- 2026-10-13-04-mac-motion-playgrounds -->
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_title">Χειριστήρια δοκιμών στο Mac</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_summary">Με ενεργή τη λειτουργία προγραμματιστή, συνδέστε τις ρυθμίσεις με το Mac σας για επανάληψη των εφέ κίνησης σε αργή κίνηση και έλεγχο των καταγεγραμμένων καρέ.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_1">Η σελίδα ρυθμίσεων του Mac περιέχει επιλογή περιβάλλοντος δοκιμών, προεπιλογές και χειριστήρια επανάληψης. Το κινητό δείχνει μόνο το περιβάλλον δοκιμών.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_2">Μικρές κάρτες δείχνουν ποια χειριστήρια είναι στην οθόνη, με ονομαστικές προεπιλογές κίνησης και αποστάσεων και την επιλογή «Αρχικό» για επαναφορά της αρχικής αίσθησης. Κάθε προεπιλογή εφαρμόζει όλες τις τιμές της μαζί.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_3">Το αιωρούμενο πλαίσιο ρυθμίσεων κρύβεται όταν συνδέεται το Mac. Εμφανίστε το με τη χειρονομία ρύθμισης και επιλέξτε «Έξοδος από τις δοκιμές» για να φύγετε.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_4">Τα σενάρια με σταθερά αρχικά δεδομένα αναπαράγουν την ίδια ενδεικτική συνεδρία, ώστε να συγκρίνετε την κίνηση μεταξύ εκδόσεων.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_5">Οι επαναλήψεις ξεκινούν από την αρχή και παραδίδουν τα μηνύματα καθοδήγησης και όσα βρίσκονται σε αναμονή, αντί να τα αφήνουν να περιμένουν.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_6">Το εργαλείο αναπαραγωγής επισκόπησης του Mac σάς επιτρέπει να εξετάζετε βήμα προς βήμα την καταγεγραμμένη γεωμετρία, να σημειώνετε καρέ και να στέλνετε σχόλια για την κίνηση.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_example">Ανοίξτε Ρυθμίσεις → Προγραμματιστής, κάντε ζευγοποίηση με τη σελίδα ρυθμίσεων του Mac και δοκιμάστε Καταγραφή συνομιλίας → Σταδιακή απάντηση στο 0.25×</string>
+
+    <!-- 2026-10-13-05-catch-up-flicks -->
+    <string name="settings_whatsnew_entry_catch_up_flicks_title">Ευκολότερες σαρώσεις στην Ενημέρωση</string>
+    <string name="settings_whatsnew_entry_catch_up_flicks_summary">Μια γρήγορη σάρωση ή ένα μικρότερο σύρσιμο στην Ενημέρωση απομακρύνει την κάρτα αντί να την επαναφέρει στη θέση της.</string>
+
+    <!-- 2026-10-14-01-settings-grouped-by-purpose -->
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_title">Πιο ξεκάθαρες ρυθμίσεις</string>
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_summary">Βρείτε πειραματικές λειτουργίες και εργαλεία προγραμματιστή στις Ρυθμίσεις → Πειραματικό, ειδοποιήσεις εντός εφαρμογής στις Ειδοποιήσεις και ιστορικό κλήσεων στη Φωνή.</string>
+
+    <!-- 2026-10-14-02-send-ats-recovery -->
+    <string name="settings_whatsnew_entry_send_ats_recovery_title">Αξιόπιστες αποστολές</string>
+    <string name="settings_whatsnew_entry_send_ats_recovery_summary">Η αποστολή μηνυμάτων επαναλαμβάνεται αυτόματα αν το iOS απορρίψει προσωρινά μια σύνδεση διακομιστή που ήδη λειτουργούσε.</string>
+
+    <!-- 2026-10-14-03-keyboard-menus-and-header -->
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_title">Πιο σταθερό πληκτρολόγιο και μενού</string>
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_summary">Πατήστε + ενώ γράφετε για να ανοίξετε τα συνημμένα χωρίς να κλείσει το πληκτρολόγιο ή να μετακινηθούν τα χειριστήρια. Η θόλωση της κεφαλίδας μένει στη θέση της καθώς κινείται το πληκτρολόγιο.</string>
+
+    <!-- 2026-10-14-04-open-links-in-apps -->
+    <string name="settings_whatsnew_entry_open_links_in_apps_title">Οι σύνδεσμοι ανοίγουν στις εφαρμογές τους</string>
+    <string name="settings_whatsnew_entry_open_links_in_apps_summary">Κάθε σύνδεσμος ανοίγει στην αντίστοιχη εφαρμογή, όπως το GitHub ή το YouTube. Με ενεργό το πείραμα «Πρόγραμμα περιήγησης εντός εφαρμογής», πατήστε παρατεταμένα έναν σύνδεσμο και επιλέξτε «Άνοιγμα στο πρόγραμμα περιήγησης της εφαρμογής».</string>
+
+    <!-- 2026-10-14-05-session-list-quiet-hierarchy -->
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_title">Πιο ευανάγνωστη λίστα συνεδριών</string>
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_summary">Οι επικεφαλίδες «Καρφιτσωμένες» και «Πρόσφατα» γίνονται μικρότερες και γκρι, οι αδιάβαστες συνεδρίες και όσες περιμένουν ξεχωρίζουν με πιο έντονα γράμματα, ενώ οι διαβασμένες ατονούν ελαφρά.</string>
+
+    <!-- 2026-10-14-06-queued-messages-fitted-sheet -->
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_title">Πιο τακτοποιημένα μηνύματα σε αναμονή</string>
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_summary">Το πλαίσιο μηνυμάτων σε αναμονή έχει ύψος ανάλογο με την ουρά σας, με αριθμημένες γραμμές και διακριτικά κουμπιά για άμεση αποστολή ή ακύρωση.</string>
+
+    <!-- 2026-10-14-07-control-center-sessions -->
+    <string name="settings_whatsnew_entry_control_center_sessions_title">Πλακίδια για μια συνεδρία</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_summary">Προσθέστε ένα πλακίδιο στις γρήγορες ρυθμίσεις για να ανοίγετε μια συνεδρία ή να ξεκινάτε κλήση σε αυτή με ένα πάτημα.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_1">Το νέο πλακίδιο «Άνοιγμα συνεδρίας» ανοίγει τη συνεδρία που επιλέγετε.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_2">Η «Έναρξη κλήσης» μπορεί να ξεκινήσει κλήση σε μια συνεδρία που επιλέγετε ή σε μια νέα. Αν δεν το αλλάξετε, καλεί στη συνεδρία που προβάλατε τελευταία.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_3">Επιλέξτε από τις καρφιτσωμένες και τις πρόσφατες συνεδρίες σας. Το πλακίδιο δείχνει τον τρέχοντα τίτλο της συνεδρίας.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_4">Τα πλακίδια απλώς ανοίγουν την εφαρμογή: δεν στέλνεται τίποτα μέχρι να μιλήσετε ή να πληκτρολογήσετε.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_example">Ανοίξτε τις γρήγορες ρυθμίσεις, πατήστε «Επεξεργασία» και σύρετε το πλακίδιο «Άνοιγμα συνεδρίας» του OpenCode στη θέση του</string>
+
+    <!-- 2026-10-15-01-settings-keyboard-down -->
+    <string name="settings_whatsnew_entry_settings_keyboard_down_title">Ρυθμίσεις χωρίς πληκτρολόγιο</string>
+    <string name="settings_whatsnew_entry_settings_keyboard_down_summary">Αν ανοίξετε τις Ρυθμίσεις από το πλαϊνό μενού ενώ πληκτρολογείτε, το πληκτρολόγιο κρύβεται αντί να τις καλύπτει.</string>
+
+    <!-- 2026-10-15-02-session-list-sidebar-grey -->
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_title">Πιο άνετη λίστα συνεδριών</string>
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_summary">Η λίστα συνεδριών έχει μεγαλύτερο τίτλο και μεγαλύτερες γκρι επικεφαλίδες «Καρφιτσωμένες» και «Πρόσφατα», με περισσότερο κενό από πάνω. Ανοίξτε το πλαϊνό μενού για να τη δείτε.</string>
+
+    <!-- 2026-10-15-03-voice-varied-acknowledgements -->
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_title">Λιγότερα «Το ελέγχω» στις κλήσεις</string>
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_summary">Στις κλήσεις, η φωνή ανταποκρίνεται σε όσα είπατε αντί να απαντά σε κάθε αίτημα με «Το ελέγχω». Επίσης, ένα αίτημα δεν στέλνεται πια δύο φορές αν συνεχίσετε να μιλάτε.</string>
+
+    <!-- 2026-10-15-04-smoother-streaming -->
+    <string name="settings_whatsnew_entry_smoother_streaming_title">Πιο ομαλή εμφάνιση απαντήσεων</string>
+    <string name="settings_whatsnew_entry_smoother_streaming_summary">Η νεότερη γραμμή μιας απάντησης που φτάνει σταδιακά εμφανίζεται απαλά, χωρίς να ατονεί ή να αναβοσβήνει. Οι σειρές δεν απλώνονται πια πέρα από το κείμενό τους πριν επανέλθουν, ενώ στοιχεία λίστας και επικεφαλίδες εμφανίζονται απευθείας, αντί για μια μεμονωμένη παύλα ή δίεση.</string>
+
+    <!-- 2026-10-15-05-model-list-sheet -->
+    <string name="settings_whatsnew_entry_model_list_sheet_title">Λίστα μοντέλων σε πλαίσιο</string>
+    <string name="settings_whatsnew_entry_model_list_sheet_summary">Με ενεργή την πειραματική λειτουργία «Νέα επιλογή μοντέλου», το πεδίο μηνύματος μετατρέπεται σε πλαίσιο μοντέλων στη θέση του πληκτρολογίου. Το πληκτρολόγιο κρύβεται και το πλαίσιο κλείνει ομαλά, όσο γρήγορα κι αν το ανοίγετε και το κλείνετε.</string>
+
+    <!-- 2026-10-15-06-queued-pill-whole-title -->
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_title">Ολόκληρη η ένδειξη αναμονής</string>
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_summary">Η ένδειξη πάνω από τη σύνταξη εμφανίζει ολόκληρο το «2 σε αναμονή», αντί να το κόβει σε «2 σε ανα…». Και οι κυλιόμενοι μετρητές αλλού διατηρούν όλους τους χαρακτήρες.</string>
+
+    <!-- 2026-10-16-01-plus-menu-photo-sheet -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_title">Φωτογραφίες αντί για πληκτρολόγιο</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_summary">Με ενεργή την πειραματική λειτουργία «Νέο μενού +», οι «Φωτογραφίες» επεκτείνουν το μενού + σε πλαίσιο φωτογραφιών στη θέση του πληκτρολογίου. Κρατήστε πατημένο το + για τις νεότερες φωτογραφίες σας, σύρετε σε μία και αφήστε το δάχτυλο για να την προσθέσετε.</string>
+
+    <!-- 2026-10-16-02-composer-large-text-targets -->
+    <string name="settings_whatsnew_entry_composer_large_text_targets_title">Ευκολότερα πατήματα στη σύνταξη</string>
+    <string name="settings_whatsnew_entry_composer_large_text_targets_summary">Τα κουμπιά στη σύνταξη πατιούνται πιο εύκολα με μεγάλο μέγεθος κειμένου.</string>
+
+    <!-- 2026-10-16-03-project-pick-haptic -->
+    <string name="settings_whatsnew_entry_project_pick_haptic_title">Μια δόνηση για νέο έργο</string>
+    <string name="settings_whatsnew_entry_project_pick_haptic_summary">Η επιλογή διαφορετικού έργου για νέα συνεδρία, πάνω από το πεδίο μηνύματος ή στα «Όλα τα έργα», δίνει μια ελαφριά δόνηση.</string>
+
+    <!-- 2026-10-16-04-fork-opens-copy -->
+    <string name="settings_whatsnew_entry_fork_opens_copy_title">Η διακλάδωση ανοίγει το αντίγραφο</string>
+    <string name="settings_whatsnew_entry_fork_opens_copy_summary">Η «Διακλάδωση» στις λεπτομέρειες μιας συνεδρίας ανοίγει και πάλι το αντίγραφο.</string>
+
+    <!-- 2026-10-16-05-transcript-row-targets -->
+    <string name="settings_whatsnew_entry_transcript_row_targets_title">Ευκολότερα πατήματα</string>
+    <string name="settings_whatsnew_entry_transcript_row_targets_summary">Ο τίτλος στο πλαίσιο «Συνεδρία» πατιέται πιο εύκολα, ενώ τα VoiceOver και Voice Control δεν εστιάζουν πια σε κουμπιά σύνταξης που κρύβονται κατά την υπαγόρευση.</string>
+
+    <!-- 2026-10-16-06-image-previews -->
+    <string name="settings_whatsnew_entry_image_previews_title">Προεπισκοπήσεις εικόνων</string>
+    <string name="settings_whatsnew_entry_image_previews_summary">Οι εικόνες που αναφέρει ο πράκτορας εμφανίζονται ως προεπισκοπήσεις σε πλέγμα πλακιδίων, με σχετική ένδειξη για όσα αρχεία λείπουν.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_1">Οι προεπισκοπήσεις εμφανίζονται κάτω από την παράγραφο που τις αναφέρει.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_2">Πατήστε μια εικόνα για να ανοίξει σε πλήρη οθόνη και σύρετε για να δείτε τις υπόλοιπες εικόνες της απάντησης.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_3">Οι εικόνες εκτός του φακέλου της συνεδρίας φορτώνονται μόνο αφού τις πατήσετε.</string>
+    <string name="settings_whatsnew_entry_image_previews_example">Ζητήστε από τον πράκτορα να δείξει στιγμιότυπα οθόνης από το έργο σας.</string>
+    <string name="settings_whatsnew_entry_image_previews_prompt">Δείξε μου τα στιγμιότυπα οθόνης σε αυτό το έργο.</string>
+
+    <!-- 2026-10-16-07-connection-error-details -->
+    <string name="settings_whatsnew_entry_connection_error_details_title">Σφάλματα σύνδεσης με εξηγήσεις</string>
+    <string name="settings_whatsnew_entry_connection_error_details_summary">Τα σφάλματα σύνδεσης δείχνουν τον κωδικό σφάλματος, τη διεύθυνση που δοκιμάστηκε και το αποτέλεσμα DNS, με βοήθεια όταν ένα όνομα tailnet αντιστοιχεί σε διεύθυνση εκτός Tailscale.</string>
+
+    <!-- 2026-10-16-08-outage-reconnect-delay -->
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_title">Ταχύτερη επανασύνδεση</string>
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_summary">Οι συνεδρίες ενημερώνονται πιο γρήγορα όταν ο διακομιστής επανέλθει μετά από διακοπή.</string>
+
+    <!-- 2026-10-17-01-every-running-subagent -->
+    <string name="settings_whatsnew_entry_every_running_subagent_title">Όλοι οι ενεργοί υποπράκτορες</string>
+    <string name="settings_whatsnew_entry_every_running_subagent_summary">Ο μετρητής υποπρακτόρων πάνω από τη σύνταξη περιλαμβάνει όσους βρίσκονται κάτω από άλλους υποπράκτορες, καθώς και όσους ανήκουν σε συνεδρίες με πάνω από 100, όπως και στο TUI.</string>
+
+    <!-- 2026-10-17-02-session-view-refined-standard -->
+    <string name="settings_whatsnew_entry_session_view_refined_standard_title">Πιο ευανάγνωστες απαντήσεις</string>
+    <string name="settings_whatsnew_entry_session_view_refined_standard_summary">Οι επικεφαλίδες επιπέδου 3 ξεχωρίζουν περισσότερο από το έντονο κείμενο, το απλό κείμενο γίνεται ελαφρώς πιο απαλό ώστε να τονίζονται τα έντονα, ενώ παράγραφοι και μπλοκ κώδικα αποκτούν λίγο περισσότερο χώρο.</string>
+
+    <!-- 2026-10-17-03-bottom-follow-on-load -->
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_title">Παραμονή στο τέλος</string>
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_summary">Οι συνεδρίες παραμένουν στο τέλος όσο φορτώνεται περιεχόμενο που καθυστερεί.</string>
+
+    <!-- 2026-10-17-04-drafts-stay-put -->
+    <string name="settings_whatsnew_entry_drafts_stay_put_title">Τα πρόχειρα παραμένουν</string>
+    <string name="settings_whatsnew_entry_drafts_stay_put_summary">Τα πρόχειρα, οι συνημμένες φωτογραφίες και τοποθεσίες και τα μηνύματα σε αναμονή αποστολής διατηρούνται αν η εφαρμογή κλείσει στο παρασκήνιο.</string>
+
+    <!-- 2026-10-18-01-themes -->
+    <string name="settings_whatsnew_entry_themes_title">Θέματα</string>
+    <string name="settings_whatsnew_entry_themes_summary">Δώστε στις συνεδρίες ένα θέμα, όπως Tokyo Night, Catppuccin, Dracula, Rosé Pine ή GitHub, με ζωντανή προεπισκόπηση καθώς περιηγείστε.</string>
+    <string name="settings_whatsnew_entry_themes_detail_1">Τα θέματα χρωματίζουν την καταγραφή συνομιλίας, τα μηνύματά σας, τον κώδικα, τη σύνταξη, τις διαφορές και τους συνδέσμους.</string>
+    <string name="settings_whatsnew_entry_themes_detail_2">Η «Λειτουργία» στην «Εμφάνιση» ορίζει «Φωτεινό», «Σκούρο» ή «Σύστημα».</string>
+    <string name="settings_whatsnew_entry_themes_detail_3">Τα χειριστήρια διατηρούν την εγγενή εμφάνιση Liquid Glass σε κάθε θέμα.</string>
+    <string name="settings_whatsnew_entry_themes_example">Ανοίξτε Ρυθμίσεις → Εμφάνιση → Θέμα και δοκιμάστε το Tokyo Night.</string>
+
+    <!-- 2026-10-18-02-return-key-sends -->
+    <string name="settings_whatsnew_entry_return_key_sends_title">Ρύθμιση πλήκτρου Return</string>
+    <string name="settings_whatsnew_entry_return_key_sends_summary">Απενεργοποιήστε την «Αποστολή με Return» στις Ρυθμίσεις αν θέλετε το Return να προσθέτει νέα γραμμή ή χρησιμοποιήστε Command-Return και Shift-Return σε φυσικό πληκτρολόγιο.</string>
+
+    <!-- 2026-10-18-03-quote-replies -->
+    <string name="settings_whatsnew_entry_quote_replies_title">Παράθεση απαντήσεων</string>
+    <string name="settings_whatsnew_entry_quote_replies_summary">Επιλέξτε κείμενο σε μια απάντηση του βοηθού και πατήστε Παράθεση για να το προσθέσετε στο μήνυμά σας ως κάρτα παράθεσης.</string>
+
+    <!-- 2026-10-18-04-launch-bloom -->
+    <string name="settings_whatsnew_entry_launch_bloom_title">Κίνηση εκκίνησης</string>
+    <string name="settings_whatsnew_entry_launch_bloom_summary">Όταν η εφαρμογή ξεκινά από την αρχή, το σήμα του OpenCode συστέλλεται και μετά ανοίγει στη συνεδρία σας.</string>
+
+    <!-- 2026-10-18-05-drag-to-pin -->
+    <string name="settings_whatsnew_entry_drag_to_pin_title">Σύρετε μια συνεδρία για καρφίτσωμα</string>
+    <string name="settings_whatsnew_entry_drag_to_pin_summary">Πατήστε παρατεταμένα μια συνεδρία και σύρετέ την πάνω στις «Καρφιτσωμένες» για να την καρφιτσώσετε εκεί ή σύρετε μια καρφιτσωμένη κάτω στα «Πρόσφατα» για ξεκαρφίτσωμα.</string>
+
+    <!-- 2026-10-19-01-call-tray-colour-blend -->
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_title">Ομαλότερο κουμπί κλήσης</string>
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_summary">Με ενεργό το πείραμα «Πλαίσιο κλήσης», το κουμπί κλήσης μετατρέπεται ομαλά στο κόκκινο κουμπί «Τερματισμός» όταν ξεκινά η κλήση και επανέρχεται όταν κλείνετε, χωρίς να αναβοσβήνει το φόντο.</string>
+
+    <!-- 2026-10-19-02-optical-insets -->
+    <string name="settings_whatsnew_entry_optical_insets_title">Ομοιόμορφη στοίχιση στοιχείων</string>
+    <string name="settings_whatsnew_entry_optical_insets_summary">Το + και το μικρόφωνο στη σύνταξη, τα εικονίδια εργασίας στο παρασκήνιο και ουράς, και το σύμβολο «Νέα συνεδρία» στο πλαϊνό μενού είναι πλέον οπτικά κεντραρισμένα στα στρογγυλεμένα άκρα των γυάλινων πλαισίων τους. Το εικονίδιο κελύφους είναι πλέον κύκλος, όπως η σφαίρα υποπράκτορα, χωρίς τον δρομέα που αναβόσβηνε. Όταν εκτελούνται και τα δύο, εμφανίζονται δίπλα δίπλα.</string>
+
+    <!-- 2026-10-19-03-smart-dictation-audio -->
+    <string name="settings_whatsnew_entry_smart_dictation_audio_title">Ομαλότερη υπαγόρευση με μουσική</string>
+    <string name="settings_whatsnew_entry_smart_dictation_audio_summary">Όταν υπαγορεύετε ενώ παίζει μουσική, αυτή παραμένει στερεοφωνική στα AirPods χωρίς διακοπή ένα λεπτό αργότερα. Αν χρησιμοποιείτε μόνο το κινητό, συνεχίζει από το ηχείο αντί από το ακουστικό.</string>
+
+    <!-- 2026-10-19-04-interrupted-hand -->
+    <string name="settings_whatsnew_entry_interrupted_hand_title">Χέρι για τη διακοπή</string>
+    <string name="settings_whatsnew_entry_interrupted_hand_summary">Οι εκτελέσεις και τα κελύφη που διακόπηκαν δείχνουν πλέον ένα σηκωμένο χέρι. Επίσης, το κέλυφος που σταματάτε γράφει «Διακοπή» αντί για «Σταμάτησε».</string>
+
+    <!-- 2026-10-19-05-autocomplete-fast-scroll -->
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_title">Ταχύτερη αυτόματη συμπλήρωση</string>
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_summary">Με ενεργό το πείραμα «Αυτόματη συμπλήρωση στη σύνταξη», οι προτάσεις ακολουθούν την πληκτρολόγησή σας και το σύρσιμο κυλά τη λίστα χωρίς να επιλέγει κάποια γραμμή.</string>
+
+    <!-- 2026-10-19-06-experimental-groups -->
+    <string name="settings_whatsnew_entry_experimental_groups_title">Ομαδοποιημένα πειράματα</string>
+    <string name="settings_whatsnew_entry_experimental_groups_summary">Τα πειράματα στις Ρυθμίσεις → Πειραματικό είναι ομαδοποιημένα και οι κλήσεις έχουν μία επιλογή «Στυλ κλήσης».</string>
+
+    <!-- 2026-10-19-07-model-picker-standard-sheet -->
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_title">Επιλογή μοντέλου σε τυπικό πλαίσιο</string>
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_summary">Με ενεργό το πείραμα «Νέα επιλογή μοντέλου», το μοντέλο στο πλαίσιο μηνύματος ανοίγει ένα τυπικό πλαίσιο, όπου κάθε μοντέλο έχει δικό του μενού επιπέδου σκέψης. Η προηγούμενη επιλογή βρίσκεται πλέον ως «Προσαρμοσμένη επιλογή μοντέλου» στις Ρυθμίσεις › Πειραματικό.</string>
+
+    <!-- 2026-10-19-08-problem-reports-reach-session -->
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_title">Οι αναφορές φτάνουν στη συνεδρία</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_summary">Η «Αναφορά προβλήματος» στέλνει πλέον τη σημείωσή σας και στη συνεδρία από την οποία κάνατε την αναφορά, με την πλήρη αναφορά συνημμένη για να τη διαβάσει ο πράκτορας.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_1">Το μήνυμα ξεκινά με μια ένδειξη αναφοράς προβλήματος, τη σημείωσή σας, το ID αναφοράς και έναν σύνδεσμο προς τα μεταφορτωμένα δεδομένα ιχνηλάτησης.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_2">Τα στοιχεία συσκευής, έκδοσης και οθόνης, το χρονολόγιο και το αρχείο καταγραφής της εφαρμογής φτάνουν ως συνημμένο αρχείο, όπως αυτά που επισυνάπτετε εσείς.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_3">Από την Αρχική, αποστέλλεται στην πιο πρόσφατη συνεδρία σας.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_4">Αν αποτύχει η μεταφόρτωση, η σημείωση και η σύνοψη φτάνουν κανονικά και το αναφέρουν. Το «Δοκιμάστε ξανά» στέλνει έπειτα μόνο τον σύνδεσμο ιχνηλάτησης.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_5">Μόλις φτάσει, εμφανίζεται η επιβεβαίωση «Στάλθηκε στη συνεδρία».</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_example">Ανοίξτε το μενού μιας συνεδρίας, επιλέξτε «Αναφορά προβλήματος», προσθέστε μια σημείωση και πατήστε «Αποστολή»</string>
+
+    <!-- 2026-10-19-09-team-scrawl-feedback -->
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_title">Σχόλια ομάδας μέσω Scrawl</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_summary">Μπείτε στο Team Feedback με τον προσωπικό σας σύνδεσμο για να στέλνετε καταγραφές Scrawl με τρία δάχτυλα και διαγνωστικά με κρυμμένα ευαίσθητα στοιχεία στην κοινή ουρά του πίνακα προβλημάτων.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_1">Ανοίξτε τον σύνδεσμό σας opencode://team/join για να δείτε ποια στοιχεία συλλέγονται και να αποδεχτείτε.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_2">Ένας διαδραστικός οδηγός τριών βημάτων σάς δείχνει πώς να κρατάτε τρία δάχτυλα πατημένα, να μιλάτε και να σχεδιάζετε και να στέλνετε μια δοκιμαστική καταγραφή στη στήλη δοκιμών.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_3">Κάθε καταγραφή επισυνάπτει το ίδιο χρονολόγιο, αρχείο καταγραφής εφαρμογής και διαγνωστικά Motion Watch με κρυμμένα ευαίσθητα στοιχεία, όπως η «Αναφορά προβλήματος».</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_4">Επαναλάβετε τον οδηγό ή αποχωρήστε από το Team Feedback όποτε θέλετε στις Ρυθμίσεις › Προγραμματιστής.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_example">Ανοίξτε Ρυθμίσεις › Προγραμματιστής για να ελέγξετε την κατάστασή σας στο Team Feedback ή να επαναλάβετε τον οδηγό.</string>
+
+    <!-- 2026-10-19-10-scrawl-faster-start -->
+    <string name="settings_whatsnew_entry_scrawl_faster_start_title">Ταχύτερη εκκίνηση Scrawl</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_summary">Τα στοιχεία ελέγχου του Scrawl εμφανίζονται ενώ ξεκινούν το μικρόφωνο και η καταγραφή.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_1">Τα πατήματα στα «Σχεδίαση», «Αποστολή» και «Απόρριψη» διατηρούνται όσο ετοιμάζεται η καταγραφή.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_2">Το παρατεταμένο πάτημα με τρία δάχτυλα προετοιμάζει το πλαίσιο επικάλυψης χωρίς να ξεκινά πρόωρα το μικρόφωνο.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_3">Διορθώθηκε ένα σφάλμα που έκλεινε την εφαρμογή όταν το μικρόφωνο του Scrawl επανεκκινούσε κατά την αλλαγή συσκευής ήχου.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_example">Σε ζευγοποιημένη συσκευή, κρατήστε τρία δάχτυλα πατημένα για να ξεκινήσετε μια καταγραφή</string>
+
+    <!-- 2026-10-20-01-call-tray-docks-in-drawer -->
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_title">Πλαίσιο κλήσης στο πλαϊνό μενού</string>
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_summary">Με ενεργό το πείραμα «Πλαίσιο κλήσης», το άνοιγμα του πλαϊνού μενού κατά την κλήση μεταφέρει το πλαίσιο κάτω από τη «Νέα συνεδρία», μαζί με τη στάθμη ήχου, τη «Σίγαση» και τον «Τερματισμό». Όταν το κλείνετε, το πλαίσιο επιστρέφει.</string>
+
+    <!-- 2026-10-20-02-markdown-streams-smoothly -->
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_title">Ομαλότερη ροή απαντήσεων</string>
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_summary">Οι μεγάλες απαντήσεις παραμένουν γρήγορες όσο γράφονται και τα ημιτελή έντονα γράμματα, ο κώδικας και οι σύνδεσμοι εμφανίζονται μορφοποιημένα αντί για ακατέργαστο Markdown.</string>
+
+    <!-- 2026-10-20-04-return-newline-default -->
+    <string name="settings_whatsnew_entry_return_newline_default_title">Το Return προσθέτει νέα γραμμή</string>
+    <string name="settings_whatsnew_entry_return_newline_default_summary">Το Return προσθέτει πλέον νέα γραμμή από προεπιλογή. Ενεργοποιήστε την «Αποστολή με Return» στις Ρυθμίσεις › Συνεδρίες για αποστολή με Return ή χρησιμοποιήστε Ctrl+Enter σε φυσικό πληκτρολόγιο.</string>
+
+    <!-- 2026-10-20-05-drawer-session-alignment -->
+    <string name="settings_whatsnew_entry_drawer_session_alignment_title">Στοιχισμένα στοιχεία πλαϊνού μενού</string>
+    <string name="settings_whatsnew_entry_drawer_session_alignment_summary">Η «Αναζήτηση», η «Νέα συνεδρία» και οι «Ρυθμίσεις» ευθυγραμμίζονται με την κεφαλίδα της συνεδρίας και το πλαίσιο μηνύματος σε κινητά και τάμπλετ.</string>
+
+    <!-- 2026-10-20-06-call-tray-switch-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_title">Σταθερότερα στοιχεία κλήσης</string>
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_summary">Η κυματομορφή της κλήσης συνεχίζει να κινείται όταν αλλάζετε συνεδρία και τα στοιχεία ελέγχου μένουν στο ίδιο ύψος όταν ανοίγετε τη λίστα συνεδριών.</string>
+
+    <!-- 2026-10-20-07-voice-delegation-visible-on-admission -->
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_title">Άμεση εμφάνιση φωνητικών μηνυμάτων</string>
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_summary">Τα μηνύματα που στέλνει η «Φωνή» στη συνεδρία εμφανίζονται μόλις τα δεχτεί ο διακομιστής, ακόμη κι αν καθυστερούν οι ενημερώσεις της συνεδρίας.</string>
+
+    <!-- 2026-10-20-08-inline-image-links -->
+    <string name="settings_whatsnew_entry_inline_image_links_title">Προεπισκοπήσεις συνδέσμων εικόνων</string>
+    <string name="settings_whatsnew_entry_inline_image_links_summary">Ενεργοποιήστε τις «Προεπισκοπήσεις συνδέσμων εικόνων» στις Ρυθμίσεις › Πειραματικό › Καταγραφή συνομιλίας για να βλέπετε τις συνδεδεμένες εικόνες στις απαντήσεις. Πατήστε μια μικρογραφία για πλήρη οθόνη και μεγέθυνση.</string>
+
+    <!-- 2026-10-20-09-smooth-link-preview-arrival -->
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_title">Ομαλότερες προεπισκοπήσεις συνδέσμων</string>
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_summary">Οι προεπισκοπήσεις συνδέσμων εμφανίζονται σταδιακά καθώς φορτώνουν και οι γραμμές από κάτω μετακινούνται ομαλά όταν αλλάζει το ύψος ενός τίτλου.</string>
+
+    <!-- 2026-10-20-10-subagent-capsule-press -->
+    <string name="settings_whatsnew_entry_subagent_capsule_press_title">Στρογγυλεμένο πλαίσιο δραστηριότητας</string>
+    <string name="settings_whatsnew_entry_subagent_capsule_press_summary">Το πλαίσιο υποπράκτορα και κελύφους διατηρεί τα στρογγυλεμένα άκρα του όσο το πατάτε.</string>
+
+    <!-- 2026-10-20-11-advanced-settings-open -->
+    <string name="settings_whatsnew_entry_advanced_settings_open_title">Απλούστερες ρυθμίσεις για προχωρημένους</string>
+    <string name="settings_whatsnew_entry_advanced_settings_open_summary">Στις Ρυθμίσεις › Πειραματικό, όλες οι ομάδες είναι ανοιχτές, οι επιλογείς μοντέλου συγκεντρώθηκαν στην «Επιλογή μοντέλου» και μπορείτε να πατήσετε οπουδήποτε στη γραμμή μιας επιλογής για να την αλλάξετε.</string>
+
+    <!-- 2026-10-20-12-revert-to-here -->
+    <string name="settings_whatsnew_entry_revert_to_here_title">Επαναφορά μηνύματος</string>
+    <string name="settings_whatsnew_entry_revert_to_here_summary">Πατήστε παρατεταμένα ένα μήνυμά σας και επιλέξτε «Επαναφορά μηνύματος» για να επιστρέψετε σε εκείνο το σημείο και να το επεξεργαστείτε.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_1">Το κείμενο, οι φωτογραφίες και τα αρχεία του μηνύματος επιστρέφουν στο πεδίο μηνύματος.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_2">Η «Αναίρεση» επαναφέρει τα μηνύματα και τις αλλαγές τους στα αρχεία, μέχρι να στείλετε νέο μήνυμα.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_3">Είναι διαθέσιμη όταν ο πράκτορας δεν εργάζεται.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_example">Πατήστε παρατεταμένα ένα προηγούμενο μήνυμά σας και επιλέξτε «Επαναφορά μηνύματος».</string>
+
+    <!-- 2026-10-20-13-drag-from-transcript -->
+    <string name="settings_whatsnew_entry_drag_from_transcript_title">Σύρσιμο από τη συνεδρία</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_summary">Πατήστε παρατεταμένα και σύρετε κώδικα, εικόνες, αρχεία, συνδέσμους και μηνύματα από μια συνεδρία σε άλλες εφαρμογές.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_1">Τα μπλοκ κώδικα μεταφέρονται ως κείμενο μαζί με τη γλώσσα τους.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_2">Οι εικόνες και τα αρχεία που δημιούργησε ο πράκτορας μεταφέρονται ως αρχεία.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_3">Αφήστε τα στο πεδίο μηνύματος για επισύναψη ή επικόλληση.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_4">Η κύλιση, η επιλογή κειμένου και τα μενού λειτουργούν όπως πριν.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_example">Επιλέξτε μια γραμμή κώδικα σε μια απάντηση, πατήστε παρατεταμένα την επιλογή και σύρετε το μπλοκ στο Notes.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_prompt">Γράψε μια σύντομη συνάρτηση Swift που αντιστρέφει μια συμβολοσειρά, σε μπλοκ κώδικα.</string>
+
+    <!-- 2026-10-20-14-tuning-glass-tap-targets -->
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_title">Ευκολότερη προσαρμογή</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_summary">Το συμπτυγμένο κουμπί προσαρμογής και η πλαϊνή καρτέλα έχουν μεγαλύτερες περιοχές πατήματος.</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_detail_1">Οι γυάλινες επιφάνειές τους διατηρούν το ίδιο μέγεθος.</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_example">Συμπτύξτε τον πίνακα προσαρμογής και πατήστε κοντά στην άκρη του κουμπιού ή της καρτέλας του</string>
+
+    <!-- 2026-10-20-15-new-session-project-continuity -->
+    <string name="settings_whatsnew_entry_new_session_project_continuity_title">Πιο σταθερή επιλογή έργου</string>
+    <string name="settings_whatsnew_entry_new_session_project_continuity_summary">Οι πρόσφατοι φάκελοι κρατούν τη θέση τους καθώς επιλέγετε έργο, το όνομα στην κεφαλίδα αλλάζει ομαλά και το πλαίσιο έργου δείχνει πιο καθαρά τις διαδρομές φακέλων.</string>
+
+    <!-- 2026-10-20-16-simple-session-loading -->
+    <string name="settings_whatsnew_entry_simple_session_loading_title">Πιο διακριτική φόρτωση συνεδρίας</string>
+    <string name="settings_whatsnew_entry_simple_session_loading_summary">Ένα μικρό, στατικό λογότυπο εμφανίζεται σταδιακά μόνο αν η συνεδρία αργεί να φορτώσει και μετά δίνει ομαλά τη θέση του στα μηνύματα.</string>
+
+    <!-- 2026-10-20-17-voice-route-consistency -->
+    <string name="settings_whatsnew_entry_voice_route_consistency_title">Διορθώσεις φωνητικής σύνδεσης</string>
+    <string name="settings_whatsnew_entry_voice_route_consistency_summary">Το Grok συνεχίζει να χρησιμοποιεί το κλειδί xAI σας όταν οι κλήσεις γίνονται μέσω του διακομιστή σας και το Gemini συστήνεται σωστά.</string>
+
+    <!-- 2026-10-20-18-call-tray-edge-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_title">Κίνηση πλαισίου κλήσης</string>
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_summary">Η κυματομορφή του πλαισίου κλήσης ακολουθεί το στρογγυλεμένο περίγραμμά του καθώς ανοίγει και μπαίνει ή βγαίνει από το πλαϊνό μενού.</string>
+
+    <!-- 2026-10-21-01-call-tray-keyboard-return -->
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_title">Επιστροφή πλαισίου κλήσης</string>
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_summary">Το πλαίσιο κλήσης παραμένει ορατό καθώς κλείνει το πλαϊνό μενού και επιστρέφει το πληκτρολόγιο.</string>
+
+    <!-- 2026-10-21-02-drawer-title-fade -->
+    <string name="settings_whatsnew_entry_drawer_title_fade_title">Πιο πλήρεις τίτλοι συνεδριών</string>
+    <string name="settings_whatsnew_entry_drawer_title_fade_summary">Οι μεγάλοι τίτλοι συνεδριών στο πλαϊνό μενού φτάνουν ως την άκρη και σβήνουν σταδιακά, αντί να κόβονται νωρίς με αποσιωπητικά.</string>
+
+    <!-- 2026-10-21-03-call-sounds-from-the-tap -->
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_title">Πιο άμεσοι ήχοι κλήσεων</string>
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_summary">Οι ήχοι σύνδεσης της κλήσης ξεκινούν με την πρώτη κίνηση, αντί για λίγα δευτερόλεπτα μετά το πάτημα.</string>
+
+    <!-- 2026-10-21-04-calm-wireframe-launch -->
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_title">Πιο ήρεμη φόρτωση</string>
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_summary">Οι αποθηκευμένες συνεδρίες ανοίγουν αμέσως. Αν μια συνεδρία αργεί να φορτώσει, εμφανίζονται παλλόμενες φυσαλίδες που δίνουν ομαλά τη θέση τους στα μηνύματά σας.</string>
+
+    <!-- 2026-10-21-05-request-dictation-last-line -->
+    <string name="settings_whatsnew_entry_request_dictation_last_line_title">Ορατό τέλος υπαγόρευσης</string>
+    <string name="settings_whatsnew_entry_request_dictation_last_line_summary">Στο iOS 26, όταν σταματάτε μια μεγάλη υπαγόρευση στο πεδίο απάντησης εκκρεμούς αιτήματος, εμφανίζονται οι τελευταίες γραμμές αντί για κείμενο από τη μέση.</string>
+
+    <!-- 2026-10-21-06-first-run-pairing-fixes -->
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_title">Πιο σαφής πρώτη ζευγοποίηση</string>
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_summary">Αν το πρόχειρο είναι άδειο, εμφανίζεται σχετική ένδειξη δίπλα στην «Επικόλληση». Η αρχική ρύθμιση δεν υπόσχεται πια απομακρυσμένη πρόσβαση σε μισό λεπτό.</string>
+
+    <!-- 2026-10-21-07-welcome-pairing-copy -->
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_title">Ζευγοποίηση από το OpenCode</string>
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_summary">Η οθόνη υποδοχής σάς κατευθύνει στις Ρυθμίσεις → Ζευγοποίηση του OpenCode στον υπολογιστή σας ή στο /pair στο τερματικό και δίνει την εντολή εγκατάστασης αν δεν έχετε ακόμη το OpenCode.</string>
+
+    <!-- 2026-10-21-08-session-id-links -->
+    <string name="settings_whatsnew_entry_session_id_links_title">Σύνδεσμοι συνεδριών</string>
+    <string name="settings_whatsnew_entry_session_id_links_summary">Το ID μιας συνεδρίας σε μια απάντηση εμφανίζεται ως τίτλος της συνεδρίας. Πατήστε τον για να την ανοίξετε.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_1">Το ID ενός υποπράκτορα ανοίγει πάνω από την τρέχουσα συνεδρία και το «Πίσω» σάς επιστρέφει σε αυτήν.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_2">Πατήστε παρατεταμένα έναν σύνδεσμο για να αντιγράψετε το ID του.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_3">Ένα ID άγνωστο στον διακομιστή εμφανίζεται συντομευμένο.</string>
+    <string name="settings_whatsnew_entry_session_id_links_example">Ζητήστε από τον πράκτορα να αναφέρει μια άλλη συνεδρία με το ID της και πατήστε τον τίτλο.</string>
+    <string name="settings_whatsnew_entry_session_id_links_prompt">Δώσε μου τις πέντε πιο πρόσφατες συνεδρίες μου στο OpenCode με τα ID τους.</string>
+
+    <!-- 2026-10-21-10-ipad-multiple-windows -->
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_title">Πολλά παράθυρα σε τάμπλετ</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_summary">Σε τάμπλετ, ανοίξτε συνεδρίες σε ξεχωριστά παράθυρα και κρατήστε δύο δίπλα δίπλα.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_1">Πατήστε παρατεταμένα μια συνεδρία στο πλαϊνό μενού και επιλέξτε «Άνοιγμα σε νέο παράθυρο».</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_2">Κάθε παράθυρο έχει τη δική του συνεδρία, πλαϊνό μενού και πεδίο μηνύματος.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_3">Τα καρφιτσωμένα, οι διαβασμένες συνεδρίες και οι διακομιστές σας είναι κοινά σε όλα τα παράθυρα.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_4">Τα παράθυρα ανοίγουν ξανά στη συνεδρία που έδειχναν.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_example">Πατήστε παρατεταμένα μια συνεδρία στο πλαϊνό μενού, επιλέξτε «Άνοιγμα σε νέο παράθυρο» και τοποθετήστε το δίπλα στο πρώτο.</string>
+
+    <!-- 2026-10-21-11-plain-launch -->
+    <string name="settings_whatsnew_entry_plain_launch_title">Απλή εκκίνηση</string>
+    <string name="settings_whatsnew_entry_plain_launch_summary">Το OpenCode ανοίγει σε μια απλή οθόνη και περνά κατευθείαν στη συνεδρία σας μόλις είναι έτοιμη, χωρίς κίνηση φόρτωσης.</string>
+
+    <!-- 2026-10-21-12-breath-ping-call-sounds -->
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_title">Πιο απαλοί ήχοι κλήσεων</string>
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_summary">Η σύνδεση, οι ειδοποιήσεις και ο τερματισμός κλήσεων έχουν απαλούς, αέρινους ήχους που ακούγονται διακριτικά στο παρασκήνιο της συνομιλίας.</string>
+
+    <!-- 2026-10-21-13-smoother-session-list -->
+    <string name="settings_whatsnew_entry_smoother_session_list_title">Πιο ομαλή λίστα συνεδριών</string>
+    <string name="settings_whatsnew_entry_smoother_session_list_summary">Η λίστα συνεδριών στο πλαϊνό μενού κυλά ομαλά όσο οι συνεδρίες δουλεύουν. Το παρατεταμένο πάτημα ανοίγει το μενού μιας συνεδρίας χωρίς να αλλάζει το μέγεθος της γραμμής.</string>
+
+    <!-- 2026-10-22-01-whats-new-actions -->
+    <string name="settings_whatsnew_entry_whats_new_actions_title">Άνοιγμα και δοκιμή από το «Τι νέο υπάρχει»</string>
+    <string name="settings_whatsnew_entry_whats_new_actions_summary">Κάθε σελίδα στο «Τι νέο υπάρχει» έχει ένα κουμπί που ανοίγει τη σχετική ρύθμιση, όπως τα Θέματα, ή ξεκινά νέα συνεδρία με έτοιμη προτροπή για δοκιμή.</string>
+
+    <!-- 2026-10-22-02-project-icons-current-discovery -->
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_title">Διορθώσεις εικονιδίων έργων</string>
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_summary">Με ενεργά τα Εικονίδια έργων, το πλαϊνό μενού εμφανίζει και όσα εικονίδια βρίσκει ο διακομιστής σας σε πακέτα Icon Composer.</string>
+
+    <!-- 2026-10-22-03-new-divider-off-page -->
+    <string name="settings_whatsnew_entry_new_divider_off_page_title">«Νέο» μόνο όταν χρειάζεται</string>
+    <string name="settings_whatsnew_entry_new_divider_off_page_summary">Με ενεργό το πείραμα Διαχωριστικό νέων μηνυμάτων, η ένδειξη «Νέο» επισημαίνει όσα έφτασαν μόνο αν δεν χωρούν όλα στην οθόνη.</string>
+
+    <!-- 2026-10-22-04-catch-up-all-caught-up-row -->
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_title">Τα διαβάσατε όλα</string>
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_summary">Μόλις διαβάσετε την τελευταία συνεδρία στην Ενημέρωση, επιστρέφετε στο πλαϊνό μενού, όπου η Ενημέρωση εμφανίζει ένα σημάδι επιλογής και την ένδειξη «Τα διαβάσατε όλα».</string>
+
+    <!-- 2026-10-23-01-session-mentions -->
+    <string name="settings_whatsnew_entry_session_mentions_title">Αναφορά συνεδριών</string>
+    <string name="settings_whatsnew_entry_session_mentions_summary">Με ενεργό το πείραμα Αυτόματη συμπλήρωση στη σύνταξη, πληκτρολογήστε @ για να αναφέρετε άλλη συνεδρία με τον τίτλο της, όπως στον υπολογιστή.</string>
+
+    <!-- 2026-10-23-02-gpt-live-own-key -->
+    <string name="settings_whatsnew_entry_gpt_live_own_key_title">Κλειδιά GPT-Live</string>
+    <string name="settings_whatsnew_entry_gpt_live_own_key_summary">Οι κλήσεις GPT-Live μπορούν να χρησιμοποιούν το δικό σας κλειδί OpenAI, το κλειδί OpenAI του διακομιστή σας ή τη σύνδεσή του με το OpenCode Console.</string>
+
+    <!-- 2026-10-23-03-pair-opens-drawer -->
+    <string name="settings_whatsnew_entry_pair_opens_drawer_title">Συνεχίστε από εκεί που μείνατε</string>
+    <string name="settings_whatsnew_entry_pair_opens_drawer_summary">Μετά τη ζευγοποίηση νέου υπολογιστή, το πλαϊνό μενού ανοίγει στις πρόσφατες συνεδρίες του για να επιλέξετε μία, αντί να μένετε σε κενή συνεδρία.</string>
+
+    <!-- 2026-10-23-04-voice-server-picker -->
+    <string name="settings_whatsnew_entry_voice_server_picker_title">Επιλογή διακομιστή φωνής</string>
+    <string name="settings_whatsnew_entry_voice_server_picker_summary">Στις Ρυθμίσεις › Φωνή › Πάροχος φωνής, επιλέξτε από ποιον αποθηκευμένο διακομιστή θα περνούν οι κλήσεις σας ή τον δικό σας λογαριασμό OpenAI σε αυτό το κινητό.</string>
+
+    <!-- 2026-10-24-01-living-orb-floats -->
+    <string name="settings_whatsnew_entry_living_orb_floats_title">Η ζωντανή σφαίρα αιωρείται παντού</string>
+    <string name="settings_whatsnew_entry_living_orb_floats_summary">Η Ζωντανή σφαίρα είναι πλέον το αιωρούμενο Στυλ κλήσης στις Ρυθμίσεις › Πειραματικό › Κλήσεις. Είναι μεγαλύτερη, μένει πάνω από τις Ρυθμίσεις και κάθε οθόνη και κινείται με τις δύο φωνές, καθεμία με δικό της χρώμα όταν μιλάτε ταυτόχρονα. Πατήστε τη για να γίνει κάρτα, σύρετε προς τα πάνω για ολόκληρη την κλήση και την καταγραφή συνομιλίας και προς τα κάτω για να μικρύνει ξανά. Η επιλογή Σφαίρα, κάτω από το Στυλ κλήσης, αλλάζει την εμφάνισή της.</string>
+
+    <!-- 2026-10-24-02-new-messages-divider-on -->
+    <string name="settings_whatsnew_entry_new_messages_divider_on_title">Διαχωριστικό νέων μηνυμάτων</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_summary">Αν μια απάντηση που έφτασε όσο λείπατε δεν χωρά στην οθόνη, η συνεδρία ανοίγει στην αρχή της, με το διαχωριστικό «Νέο».</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_1">Αν η απάντηση χωρά στην οθόνη, ανοίγει στο τέλος της, χωρίς διαχωριστικό.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_2">Οι απαντήσεις που φτάνουν σταδιακά ενώ τις παρακολουθείτε δεν επισημαίνονται ποτέ.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_3">Το διαχωριστικό φεύγει μόλις διαβάσετε ως το τέλος.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_4">Απενεργοποιήστε το στις Ρυθμίσεις › Συνεδρίες.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_example">Ζητήστε μια μεγάλη απάντηση, ανοίξτε άλλη εφαρμογή μέχρι να ολοκληρωθεί και επιστρέψτε.</string>
+
+    <!-- 2026-10-24-03-composer-keyboard-morph -->
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_title">Η σύνταξη ακολουθεί το πληκτρολόγιο</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_summary">Τα στοιχεία ελέγχου της σύνταξης ανοίγουν μαζί με το πληκτρολόγιο και το ακολουθούν καθώς το σύρετε πάνω και κάτω.</string>
+
+    <!-- 2026-10-24-04-composer-photo-viewer -->
+    <string name="settings_whatsnew_entry_composer_photo_viewer_title">Φωτογραφίες σύνταξης σε πλήρη οθόνη</string>
+    <string name="settings_whatsnew_entry_composer_photo_viewer_summary">Πατήστε μια φωτογραφία στη σύνταξη για να τη δείτε σε πλήρη οθόνη, σύρετε για να δείτε τις υπόλοιπες και αφαιρέστε όποια θέλετε πριν την αποστολή.</string>
+
+    <!-- 2026-10-24-05-plus-menu-photo-picker -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_title">Νέα επιλογή φωτογραφιών</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_summary">Ενεργοποιήστε το Νέο μενού + στις Ρυθμίσεις › Πειραματικό › Σύνταξη για να επιλέγετε έως 8 πρόσφατες φωτογραφίες απευθείας από το μενού +, να βλέπετε Όλες τις φωτογραφίες και να τις παρακολουθείτε να μεταφέρονται στη σύνταξη και μετά στη συνεδρία.</string>
+
+    <!-- 2026-10-24-06-project-icons-lit -->
+    <string name="settings_whatsnew_entry_project_icons_lit_title">Φωτισμένα εικονίδια έργων</string>
+    <string name="settings_whatsnew_entry_project_icons_lit_summary">Με ενεργά τα Εικονίδια έργων, τα εικονίδια στο πλαϊνό μενού αποκτούν απαλό φωτισμό από πάνω, λεπτό γυάλινο περίγραμμα και διακριτική σκιά.</string>
+
+    <!-- 2026-10-24-07-session-live-activity -->
+    <string name="settings_whatsnew_entry_session_live_activity_title">Ζωντανές ενημερώσεις συνεδρίας</string>
+    <string name="settings_whatsnew_entry_session_live_activity_summary">Ενεργοποιήστε τις Ζωντανές ενημερώσεις συνεδρίας στις Ρυθμίσεις › Πειραματικό › Πλαϊνό μενού για να παρακολουθείτε την εργασία που ξεκινάτε σε ζωντανή ειδοποίηση, ακόμη και στην οθόνη κλειδώματος, μέχρι να τελειώσει ή να χρειαστεί τη συμβολή σας.</string>
+
+    <!-- 2026-10-24-08-sign-in-failed-edit-server -->
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_title">Διόρθωση αποτυχημένης σύνδεσης</string>
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_summary">Όταν ένας διακομιστής απορρίπτει τον κωδικό πρόσβασής σας, το μενού του στο πλαϊνό μενού προσφέρει «Επεξεργασία διακομιστή…» αντί για μια άσκοπη «Δοκιμάστε ξανά». Η οθόνη υποδοχής σάς παραπέμπει πλέον στο opencode pair --remote στο τερματικό.</string>
+
+    <!-- 2026-10-25-01-voice-app-screenshot -->
+    <string name="settings_whatsnew_entry_voice_app_screenshot_title">Στιγμιότυπα οθόνης με τη φωνή</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_summary">Σε φωνητική κλήση, πείτε «κοίτα αυτό» και η οθόνη της εφαρμογής στέλνεται σε μια συνεδρία μαζί με τα σχόλιά σας.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_1">Στέλνει μόνο την οθόνη της ίδιας της εφαρμογής, με το όνομά της και την κατάσταση της κλήσης και της εφαρμογής.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_2">Ζητήστε να σταλεί μαζί το αρχείο καταγραφής κλήσης ή τα πρόσφατα αρχεία καταγραφής της εφαρμογής. Οι διευθύνσεις και τα στοιχεία πρόσβασης αποκρύπτονται.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_3">Δεν γίνεται λήψη όσο εμφανίζεται οθόνη σύνδεσης ή πεδίο κωδικού πρόσβασης.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_example">Σε φωνητική κλήση, πείτε «βγάλε ένα στιγμιότυπο οθόνης, αυτή η γραμμή δεν είναι σωστά στοιχισμένη»</string>
+
+    <!-- 2026-10-25-02-voice-background-results -->
+    <string name="settings_whatsnew_entry_voice_background_results_title">Αποτελέσματα παρασκηνίου στις κλήσεις</string>
+    <string name="settings_whatsnew_entry_voice_background_results_summary">Όταν μια συνεδρία στην οποία αναθέσατε κάτι σε μια κλήση ξεκινήσει εργασία στο παρασκήνιο, η κλήση σάς ενημερώνει για τα ευρήματα μόλις τελειώσει, ακόμη κι αν έχετε ασχοληθεί με κάτι άλλο.</string>
+
+    <!-- 2026-10-25-03-sound-effects-experiment -->
+    <string name="settings_whatsnew_entry_sound_effects_experiment_title">Ηχητικά εφέ</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_summary">Ένα πείραμα που παίζει απαλούς ήχους μαζί με τις δονήσεις για απαντήσεις, αιτήματα, την Ενημέρωση και αποτυχημένες αποστολές.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_1">Στη σίγαση και στη λειτουργία δόνησης δεν ακούγονται, ενώ η μουσική συνεχίζει να παίζει.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_2">Δεν ακούγονται κατά την κλήση, την υπαγόρευση ή την αναπαραγωγή πολυμέσων, ούτε όταν η εφαρμογή είναι στο παρασκήνιο.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_3">Κάτω από τον διακόπτη θα βρείτε την Ένταση και τον προαιρετικό Ήχο αποστολής.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_example">Ενεργοποιήστε τα Ηχητικά εφέ στις Ρυθμίσεις › Πειραματικό και περιμένετε μια απάντηση σε άλλη συνεδρία</string>
+
+    <!-- 2026-10-25-90-session-title-first-prompt -->
+    <string name="settings_whatsnew_entry_session_title_first_prompt_title">Τίτλοι από την πρώτη προτροπή</string>
+    <string name="settings_whatsnew_entry_session_title_first_prompt_summary">Οι συνεδρίες χωρίς τίτλο εμφανίζουν πλέον την πρώτη τους προτροπή σε μία γραμμή, μέχρι να τις ονομάσει ο διακομιστής.</string>
+
+    <!-- 2026-10-26-01-settings-sessions-page -->
+    <string name="settings_whatsnew_entry_settings_sessions_page_title">Ρυθμίσεις συνεδριών</string>
+    <string name="settings_whatsnew_entry_settings_sessions_page_summary">Οι Ρυθμίσεις έχουν νέα σελίδα Συνεδρίες, με το Διαχωριστικό νέων μηνυμάτων πάνω από την Αποστολή με Enter. Το Προχωρημένο χωρίζεται πλέον σε δύο γραμμές: Πειραματικό και Προγραμματιστής.</string>
+
+    <!-- 2026-10-26-02-project-icons-default -->
+    <string name="settings_whatsnew_entry_project_icons_default_title">Ενεργά εικονίδια έργων</string>
+    <string name="settings_whatsnew_entry_project_icons_default_summary">Τα εικονίδια έργων εμφανίζονται πλέον δίπλα στους τίτλους συνεδριών. Απενεργοποιήστε τα στις Ρυθμίσεις › Πειραματικό.</string>
+
+    <!-- 2026-10-26-03-plus-menu-over-keyboard -->
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_title">Φωτογραφίες πάνω από το πληκτρολόγιο</string>
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_summary">Με ενεργό το Νέο μενού +, το μενού + ανοίγει πάνω από το πληκτρολόγιο. Οι Φωτογραφίες αναπτύσσονται από εκεί σε ένα πλαίσιο ως τις άκρες της οθόνης και μετά συμπτύσσονται ξανά, χωρίς να κλείνει το πληκτρολόγιο.</string>
+
+    <!-- 2026-10-26-04-living-orb-connect-motion -->
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_title">Κίνηση σύνδεσης της σφαίρας</string>
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_summary">Με ενεργή τη Ζωντανή σφαίρα, το κουμπί κλήσης ανεβαίνει στη σφαίρα και περιστρέφεται όσο συνδέεται η κλήση. Όταν τελειώσει, επιστρέφει στο κουμπί. Η άμεση επανάκληση ξεκινά νέα κλήση χωρίς να κολλάει.</string>
+
+    <!-- 2026-10-26-05-living-orb-presets -->
+    <string name="settings_whatsnew_entry_living_orb_presets_title">Προεπιλογές σφαίρας και εντυπωσιακό στιλ</string>
+    <string name="settings_whatsnew_entry_living_orb_presets_summary">Η Σφαίρα, κάτω από το Στιλ κλήσης στις Ρυθμίσεις › Πειραματικό › Κλήσεις, ανοίγει πλέον στο Εντυπωσιακό, με μεγαλύτερη ζωντανή προεπισκόπηση και μια σειρά προεπιλογών. Αποθηκεύστε τις δικές σας, μετονομάστε τις και αντιγράψτε ή επικολλήστε μια διαμόρφωση για να τη μοιραστείτε.</string>
+
+    <!-- 2026-10-26-06-send-after-a-pause -->
+    <string name="settings_whatsnew_entry_send_after_a_pause_title">Ομαλότερη αποστολή μετά από παύση</string>
+    <string name="settings_whatsnew_entry_send_after_a_pause_summary">Το μήνυμα που στέλνετε μετά από παύση ανεβαίνει πλέον κατευθείαν από το πεδίο σύνταξης στο συννεφάκι του, αντί να κατεβαίνει πρώτα προς το πεδίο, κάτω από την ώρα του.</string>
+
+    <!-- 2026-10-27-01-steadier-round-trip -->
+    <string name="settings_whatsnew_entry_steadier_round_trip_title">Σταθερότερος χρόνος απόκρισης</string>
+    <string name="settings_whatsnew_entry_steadier_round_trip_summary">Η τιμή σε ms στην κάρτα σύνδεσης είναι πλέον ο μέσος όρος των τελευταίων ελέγχων. Έτσι, μία αργή απόκριση την αλλάζει λίγο, αντί να την εκτοξεύει.</string>
+
+    <!-- 2026-10-27-02-drawer-drag-follows-finger -->
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_title">Η σύρση ακολουθεί το δάχτυλό σας</string>
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_summary">Η συνεδρία που σύρετε στο πλαϊνό μενού μένει πλέον κάτω από το δάχτυλό σας, περνά πάνω από την κεφαλίδα, κυλά τη λίστα όταν φτάνει στις άκρες και μπαίνει στη θέση της μόλις την αφήσετε.</string>
+
+    <!-- 2026-10-27-03-inbox-sidebar-experiment -->
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_title">Εισερχόμενα στο πλαϊνό μενού</string>
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_summary">Ενεργοποιήστε τα Εισερχόμενα στο πλαϊνό μενού στις Ρυθμίσεις › Πειραματικό › Πλαϊνό μενού για να βλέπετε τις συνεδρίες σαν εισερχόμενα: πρώτα όσες χρειάζονται απάντησή σας, μετά τις αδιάβαστες, καθεμία με το έργο και την τελευταία απάντηση. Σύρετε μια συνεδρία για να τη σημειώσετε ως διαβασμένη ή να την αρχειοθετήσετε.</string>
+
+    <!-- 2026-10-28-01-first-pairing-ready-session -->
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_title">Η πρώτη συνεδρία είναι έτοιμη</string>
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_summary">Η ζευγοποίηση του πρώτου σας υπολογιστή ανοίγει πλέον μια νέα συνεδρία στο πιο πρόσφατο έργο του, με μερικές ερωτήσεις για δοκιμή. Ένα πάτημα επιβεβαιώνει τη σύνδεση. Σε νέα εγκατάσταση, το Τι νέο υπάρχει είναι ήδη σημειωμένο ως διαβασμένο.</string>
+
+    <!-- 2026-10-28-02-welcome-preview -->
+    <string name="settings_whatsnew_entry_welcome_preview_title">Προεπισκόπηση υποδοχής</string>
+    <string name="settings_whatsnew_entry_welcome_preview_summary">Η νέα οθόνη υποδοχής δείχνει το OpenCode να δουλεύει σε φορητό υπολογιστή με καθοδήγηση από κινητό και μετά κάνει ζευγοποίηση σε ένα βήμα. Ενεργοποιήστε την Προεπισκόπηση υποδοχής στις Ρυθμίσεις › Πειραματικό › Πλαϊνό μενού και πατήστε Εμφάνιση υποδοχής για να τη δείτε. Κλείνοντάς την, επιστρέφετε εκεί που ήσασταν.</string>
+
+    <!-- 2026-10-29-01-composer-text-selection -->
+    <string name="settings_whatsnew_entry_composer_text_selection_title">Επιλογή κειμένου στη σύνταξη</string>
+    <string name="settings_whatsnew_entry_composer_text_selection_summary">Όταν σύρετε τις λαβές επιλογής ή τον μεγεθυντικό φακό σε ένα πρόχειρο, το πληκτρολόγιο δεν κλείνει πια και το πεδίο σύνταξης δεν μετακινείται πάνω ή κάτω.</string>
+
+    <!-- 2026-10-30-01-voice-waits-for-you -->
+    <string name="settings_whatsnew_entry_voice_waits_for_you_title">Οι κλήσεις περιμένουν να τελειώσετε</string>
+    <string name="settings_whatsnew_entry_voice_waits_for_you_summary">Ο φωνητικός πράκτορας δεν σας διακόπτει πια: οι ενημερώσεις περιμένουν να τελειώσετε και, αν μιλήσετε ενώ μιλάει, σταματά.</string>
+
+    <!-- 2026-10-30-02-wisp-call-sounds -->
+    <string name="settings_whatsnew_entry_wisp_call_sounds_title">Ήχοι του Wisp στις φωνητικές κλήσεις</string>
+    <string name="settings_whatsnew_entry_wisp_call_sounds_summary">Οι κλήσεις ξεκινούν με μια απαλή ανάσα πάνω από έναν διακριτικό ήχο σύνδεσης. Ακούγεται ένα κουδούνισμα όταν συνδεθούν, απαλά τικ όσο ο πράκτορας εξετάζει, ανοίγει ή εκτελεί κάτι και ένας αναστεναγμός όταν τελειώσουν. Επιλέξτε άλλο σύνολο στις Ρυθμίσεις › Φωνή › Ήχοι κλήσεων.</string>
+
+    <!-- 2026-10-30-03-wisp-orb -->
+    <string name="settings_whatsnew_entry_wisp_orb_title">Η φωνητική σφαίρα είναι πλέον Wisp</string>
+    <string name="settings_whatsnew_entry_wisp_orb_summary">Η σφαίρα κλήσης έχει πλέον την εμφάνιση του Wisp: έναν γυάλινο φακό πάνω από φωτεινές κουκκίδες που ανάβουν και με τις δύο φωνές. Οι εκφράσεις του Wisp δείχνουν πότε συνδέεται, ακούει, εργάζεται, μιλά ή σας περιμένει. Είναι το μόνο στιλ σφαίρας, οπότε τα παλιά στιλ και οι ρυθμίσεις Σφαίρας αφαιρέθηκαν.</string>
+
+    <!-- 2026-10-31-01-encrypted-notification-previews -->
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_title">Κρυπτογραφημένες προεπισκοπήσεις ειδοποιήσεων</string>
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_summary">Με ενημερωμένη την προσθήκη ειδοποιήσεων και σύνδεση HTTPS, ο διακομιστής κρυπτογραφεί τον τίτλο και το μήνυμα για αυτή τη συσκευή. Αν δεν μπορεί να ανοίξει η προεπισκόπηση, η ειδοποίηση γράφει απλώς «Νέα δραστηριότητα».</string>
+
+    <!-- 2026-10-31-02-move-session-folder-gone -->
+    <string name="settings_whatsnew_entry_move_session_folder_gone_title">Συνεδρίες και χωρίς τον φάκελό τους</string>
+    <string name="settings_whatsnew_entry_move_session_folder_gone_summary">Αν ο φάκελος μιας συνεδρίας δεν υπάρχει πια, όπως όταν διαγραφεί ένας χώρος εργασίας, μια αποτυχημένη αποστολή προτείνει τη μεταφορά της στον φάκελο του έργου της και ξαναστέλνει το μήνυμα.</string>
+
+    <!-- 2026-10-31-03-notification-plugin-setup -->
+    <string name="settings_whatsnew_entry_notification_plugin_setup_title">Ρύθμιση ειδοποιήσεων με το OpenCode</string>
+    <string name="settings_whatsnew_entry_notification_plugin_setup_summary">Στις Ρυθμίσεις → Ειδοποιήσεις, πατήστε Ρύθμιση με το OpenCode για να ελέγξετε μια προτροπή που εγκαθιστά την προσθήκη ειδοποιήσεων που λείπει.</string>
+
+    <!-- 2026-11-01-01-call-card-takes-over -->
+    <string name="settings_whatsnew_entry_call_card_takes_over_title">Η κάρτα κλήσης γεμίζει το κάτω μέρος</string>
+    <string name="settings_whatsnew_entry_call_card_takes_over_summary">Στη Ζωντανή σφαίρα, η κάρτα κλήσης γεμίζει πλέον το κάτω μέρος της οθόνης, πάνω από το πεδίο μηνύματος, με ίσα περιθώρια γύρω της. Έτσι, το πληκτρολόγιο δεν τη στριμώχνει πια. Μικρύνετέ τη ξανά σε σφαίρα για να γράψετε.</string>
+
+    <!-- 2026-11-01-01-screenshot-shutter -->
+    <string name="settings_whatsnew_entry_screenshot_shutter_title">Κλείστρο στιγμιότυπου οθόνης</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_summary">Όταν η εφαρμογή τραβά στιγμιότυπο του εαυτού της για μια συνεδρία, η οθόνη αναβοσβήνει και ακούγεται το κλικ του κλείστρου.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_1">Η λάμψη εμφανίζεται μετά τη λήψη, οπότε δεν μπαίνει ποτέ στην εικόνα.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_2">Η Μείωση κίνησης την κάνει ένα απαλό σκοτείνιασμα, ενώ η Μείωση αναλαμπών την απενεργοποιεί.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_3">Σε κλήση, το κλικ ακούγεται μέσα από τον ήχο της κλήσης, ώστε να μην το ακούει ο πράκτορας.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_example">Σε φωνητική κλήση, πείτε «κοίτα αυτό»</string>
+
+    <!-- 2026-11-01-01-voice-says-whats-running -->
+    <string name="settings_whatsnew_entry_voice_says_whats_running_title">Οι κλήσεις λένε τι εκτελείται ακόμη</string>
+    <string name="settings_whatsnew_entry_voice_says_whats_running_summary">Όταν το αίτημά σας αργεί, ο φωνητικός πράκτορας σας λέει τι κάνει αντί να μένει σιωπηλός.</string>
+
+    <!-- 2026-11-01-02-living-orb-default -->
+    <string name="settings_whatsnew_entry_living_orb_default_title">Οι κλήσεις αιωρούνται στη σφαίρα</string>
+    <string name="settings_whatsnew_entry_living_orb_default_summary">Οι φωνητικές κλήσεις αιωρούνται πλέον στη Ζωντανή σφαίρα για όλους, πάνω από κάθε οθόνη, ενώ το πεδίο μηνύματος παραμένει ελεύθερο για εσάς.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_1">Πατήστε τη σφαίρα για να μεγαλώσει σε κάρτα κλήσης και σύρετε προς τα πάνω για ολόκληρη την κλήση και την καταγραφή συνομιλίας.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_2">Σύρετε τη σφαίρα όπου θέλετε. Μένει στη θέση της όταν αλλάζετε συνεδρία ή ανοίγετε τις Ρυθμίσεις.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_3">Ξεκινήστε κλήση και από τη λίστα συνεδριών, με το κουμπί κλήσης δίπλα στις Ρυθμίσεις.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_4">Το Συρτάρι αφαιρέθηκε: αν το χρησιμοποιούσατε, οι κλήσεις σας αιωρούνται κι αυτές στη σφαίρα.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_5">Απενεργοποιήστε τη στις Ρυθμίσεις › Πειραματικό › Κλήσεις › Ζωντανή σφαίρα.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_example">Ξεκινήστε μια κλήση και ανοίξτε τη λίστα συνεδριών: η σφαίρα σάς ακολουθεί</string>
+
+    <!-- 2026-11-01-02-quicker-send -->
+    <string name="settings_whatsnew_entry_quicker_send_title">Ταχύτερη αποστολή</string>
+    <string name="settings_whatsnew_entry_quicker_send_summary">Το μήνυμα που στέλνετε ανεβαίνει πλέον στο συννεφάκι του μαζί με τη λίστα, αντί να περιμένει πρώτα στο πεδίο σύνταξης.</string>
+
+    <!-- 2026-11-01-02-share-screen-with-agents -->
+    <string name="settings_whatsnew_entry_share_screen_with_agents_title">Κοινοποίηση οθόνης σε πράκτορες</string>
+    <string name="settings_whatsnew_entry_share_screen_with_agents_summary">Ενεργοποιήστε την Κοινοποίηση οθόνης σε πράκτορες στις Ρυθμίσεις › Πειραματικό › Κλήσεις. Κατά την κλήση, ένας πράκτορας μπορεί να ζητήσει να δει την εφαρμογή: πατήστε Κοινοποίηση για να του στείλετε μια εικόνα ή Όχι τώρα.</string>
+
+    <!-- 2026-11-01-03-audio-in-calls -->
+    <string name="settings_whatsnew_entry_audio_in_calls_title">Ήχος στις κλήσεις</string>
+    <string name="settings_whatsnew_entry_audio_in_calls_summary">Ενεργοποιήστε τον Ήχο στις κλήσεις στις Ρυθμίσεις › Πειραματικό › Κλήσεις και ο πράκτορας θα μπορεί να παίζει μουσική ή ένα απόσπασμα κατά την κλήση. Η ένταση χαμηλώνει όταν μιλά κάποιος από τους δυο σας. Κάντε παύση ή διακοπή πάνω από το πεδίο σύνταξης.</string>
+
+    <!-- 2026-11-01-03-open-links-from-calls -->
+    <string name="settings_whatsnew_entry_open_links_from_calls_title">Άνοιγμα συνδέσμων από κλήσεις</string>
+    <string name="settings_whatsnew_entry_open_links_from_calls_summary">Ενεργοποιήστε το Άνοιγμα συνδέσμων από κλήσεις στις Ρυθμίσεις › Πειραματικό › Κλήσεις. Κατά την κλήση, ένας πράκτορας μπορεί να προτείνει έναν σύνδεσμο, π.χ. για διαδρομή με Uber: πατήστε Άνοιγμα για να ανοίξει στην εφαρμογή του ή Όχι τώρα.</string>
+
+    <!-- 2026-11-02-01-fold-questions -->
+    <string name="settings_whatsnew_entry_fold_questions_title">Σύμπτυξη ερωτήσεων για περισσότερο χώρο</string>
+    <string name="settings_whatsnew_entry_fold_questions_summary">Σύρετε μια ερώτηση προς τα κάτω για να τη συμπτύξετε σε μια μικρή γραμμή πάνω από το πεδίο σύνταξης και πατήστε τη για να την επαναφέρετε. Αν αποτύχει η αποστολή απάντησης, περιμένει πλέον να πατήσετε Επανάληψη.</string>
+
+    <!-- 2026-11-02-01-steadier-following -->
+    <string name="settings_whatsnew_entry_steadier_following_title">Σταθερότερη παρακολούθηση απαντήσεων</string>
+    <string name="settings_whatsnew_entry_steadier_following_summary">Η απάντηση παραμένει στο κάτω μέρος καθώς γράφεται, χωρίς να αναπηδά η ένδειξη Εργασία. Μπορείτε επίσης να σύρετε τη λίστα από οποιοδήποτε σημείο πάνω από το πεδίο σύνταξης.</string>
+
+    <!-- 2026-11-02-40-model-display-names -->
+    <string name="settings_whatsnew_entry_model_display_names_title">Ονόματα μοντέλων</string>
+    <string name="settings_whatsnew_entry_model_display_names_summary">Η σύνταξη θυμάται τα ονόματα μοντέλων όσο η λίστα μοντέλων φορτώνει ή επανασυνδέεται.</string>
+
+    <!-- 2026-11-02-41-all-experiments -->
+    <string name="settings_whatsnew_entry_all_experiments_title">Όλα τα πειράματα</string>
+    <string name="settings_whatsnew_entry_all_experiments_summary">Ένας διακόπτης στην κορυφή των Ρυθμίσεων › Πειραματικό ενεργοποιεί όλα τα πειράματα, μαζί με όσα προστίθενται.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_1">Απενεργοποιήστε όποιο πείραμα δεν θέλετε· θα μείνει ανενεργό και την επόμενη φορά.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_2">Η απενεργοποίηση της επιλογής «Όλα τα πειράματα» επαναφέρει τους διακόπτες όπως ήταν πριν.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_3">Τα πειράματα που ζητούν άδεια παραμένουν ξεχωριστές επιλογές.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_4">Η αυτόματη συμπλήρωση, το πλαίσιο φωτογραφιών στο μενού «+», ο νέος διακόπτης διακομιστή και τα εικονίδια έργων είναι πλέον ενεργά για όλους.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_5">Η ενιαία επιλογή και η ζωντανή σφαίρα έχουν απλούς διακόπτες, ενώ το πλαίσιο κλήσεων καταργήθηκε.</string>
+    <string name="settings_whatsnew_entry_all_experiments_example">Ανοίξτε Ρυθμίσεις › Πειραματικό και ενεργοποιήστε το «Όλα τα πειράματα»</string>
+
+    <!-- 2026-11-03-01-search-all-sessions -->
+    <string name="settings_whatsnew_entry_search_all_sessions_title">Εύρεση παλαιότερων συνεδριών</string>
+    <string name="settings_whatsnew_entry_search_all_sessions_summary">Η αναζήτηση στο πλαϊνό μενού ψάχνει πλέον όλες τις συνεδρίες, όχι μόνο τις πρόσφατες. Κάντε κύλιση ως το τέλος για να φορτώσετε παλαιότερες.</string>
+
+    <!-- 2026-11-03-01-voice-open-session -->
+    <string name="settings_whatsnew_entry_voice_open_session_title">Αλλαγή συνεδρίας με τη φωνή</string>
+    <string name="settings_whatsnew_entry_voice_open_session_summary">Όταν ζητάτε από τον φωνητικό πράκτορα να ανοίξει μια συνεδρία, το πλαϊνό μενού κλείνει και η κλήση συνεχίζεται.</string>
+
+    <!-- 2026-11-03-02-orb-divider-image-links -->
+    <string name="settings_whatsnew_entry_orb_divider_image_links_title">Τρία πειράματα για όλους</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_summary">Η ζωντανή σφαίρα, το διαχωριστικό «Νέο» και οι προεπισκοπήσεις συνδέσμων εικόνων είναι πλέον ενεργά για όλους, χωρίς διακόπτη.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_1">Κάθε κλήση εμφανίζεται στην αιωρούμενη ζωντανή σφαίρα· η παλιά γραμμή κλήσης καταργήθηκε.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_2">Όταν επιστρέφετε σε μια συνεδρία, το διαχωριστικό «Νέο» επισημαίνει όσα έφτασαν όσο λείπατε, αν δεν χωρούν στην οθόνη.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_3">Οι σύνδεσμοι που οδηγούν απευθείας σε εικόνα την εμφανίζουν κάτω από το μήνυμα.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_example">Ξεκινήστε μια κλήση από τη σύνταξη και δείτε τη να αιωρείται στη σφαίρα</string>
+
+    <!-- 2026-11-04-01-call-links-and-audio -->
+    <string name="settings_whatsnew_entry_call_links_and_audio_title">Σύνδεσμοι και ήχος στις κλήσεις</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_summary">Το άνοιγμα συνδέσμων από κλήσεις και ο ήχος στις κλήσεις είναι πλέον ενεργά για όλους, χωρίς διακόπτη.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_1">Στην κλήση, ο πράκτορας μπορεί να προτείνει έναν σύνδεσμο, π.χ. για διαδρομή με Uber: πατήστε «Άνοιγμα» για να ανοίξει στην εφαρμογή του ή «Όχι τώρα».</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_2">Ο πράκτορας μπορεί να παίξει μουσική ή ένα απόσπασμα στην κλήση. Η ένταση χαμηλώνει όταν μιλά κάποιος από τους δυο σας· κάντε παύση ή διακοπή πάνω από τη σύνταξη.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_example">Σε μια κλήση, ζητήστε από τον πράκτορα να παίξει μουσική</string>
+
+    <!-- 2026-11-04-01-composer-editing-caret -->
+    <string name="settings_whatsnew_entry_composer_editing_caret_title">Επεξεργασία πρόχειρων</string>
+    <string name="settings_whatsnew_entry_composer_editing_caret_summary">Όταν αλλάζετε μια λέξη στη μέση ενός πρόχειρου, ο δρομέας μένει εκεί που πληκτρολογείτε.</string>
+
+    <!-- 2026-11-04-01-loading-touch-recovery -->
+    <string name="settings_whatsnew_entry_loading_touch_recovery_title">Κύλιση μετά τη φόρτωση</string>
+    <string name="settings_whatsnew_entry_loading_touch_recovery_summary">Αν επιστρέψετε στην εφαρμογή ενώ φορτώνει, η κύλιση στην καταγραφή συνομιλίας επανέρχεται αμέσως.</string>
+
+    <!-- 2026-11-05-01-composer-keyboard-width -->
+    <string name="settings_whatsnew_entry_composer_keyboard_width_title">Πιο πλατιά σύνταξη κατά την πληκτρολόγηση</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_width_summary">Με ανοιχτό πληκτρολόγιο, η σύνταξη πλαταίνει αφήνοντας μικρά, ίσα περιθώρια, ώστε τα μεγάλα πρόχειρα να αλλάζουν γραμμή λιγότερο συχνά.</string>
+
+    <!-- 2026-11-05-02-plus-menu-touch-release -->
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_title">Κλείσιμο του μενού συνημμένων</string>
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_summary">Όταν κλείνει το μενού συνημμένων, η συνεδρία από κάτω αποκρίνεται ξανά, ακόμη κι αν αλλάζει η διάταξη.</string>
+
+    <!-- 2026-11-05-02-quiet-reconnecting-pill -->
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_title">Πιο σταθερή εκκίνηση</string>
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_summary">Στο άνοιγμα της εφαρμογής, η ένδειξη «Επανασύνδεση…» δεν αναβοσβήνει πια πάνω από τη σύνταξη ούτε μετακινεί τη συνεδρία· εμφανίζεται μόνο αν η επανασύνδεση αργεί.</string>
+
+    <!-- 2026-11-05-03-stuck-touch-recovery -->
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_title">Η κύλιση επανέρχεται μόνη της</string>
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_summary">Αν κάτι αόρατο μπλοκάρει την κύλιση μιας συνεδρίας για πάνω από ένα δευτερόλεπτο, η εφαρμογή την ξεμπλοκάρει.</string>
+
+    <!-- 2026-11-05-04-reply-text-selection -->
+    <string name="settings_whatsnew_entry_reply_text_selection_title">Επιλογή κειμένου σε όλη την απάντηση</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_summary">Πατήστε παρατεταμένα ή διπλά μια λέξη στην απάντηση και σύρετε τις λαβές επιλογής σε παραγράφους, λίστες, κώδικα και πίνακες.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_1">Κρατήστε μια λαβή λίγο κάτω από την κεφαλίδα ή λίγο πάνω από τη σύνταξη για κύλιση της απάντησης· όσο πλησιάζετε στην άκρη, τόσο πιο γρήγορα κυλά.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_2">Η αντιγραφή διατηρεί τις κουκκίδες και την αρίθμηση λιστών, καθώς και τις γραμμές και στήλες πινάκων. Η παράθεση προσθέτει την επιλογή στη σύνταξη και κρατά τον κώδικα σε μπλοκ.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_example">Πατήστε παρατεταμένα μια λέξη κοντά στην αρχή μιας μεγάλης απάντησης και σύρετε την τελική λαβή ως τη σύνταξη, κρατώντας τη εκεί</string>
+
+    <!-- 2026-11-06-01-scrolling-unsticks -->
+    <string name="settings_whatsnew_entry_scrolling_unsticks_title">Η κύλιση ξεμπλοκάρει μόνη της</string>
+    <string name="settings_whatsnew_entry_scrolling_unsticks_summary">Μια συνεδρία που μερικές φορές δεν επέτρεπε κύλιση ώσπου να αλλάξετε συνεδρία, τώρα ξεμπλοκάρει μόνη της.</string>
+
+    <!-- 2026-11-06-02-server-addresses -->
+    <string name="settings_whatsnew_entry_server_addresses_title">Πιο σταθερές συνδέσεις διακομιστή</string>
+    <string name="settings_whatsnew_entry_server_addresses_summary">Το OpenCode δοκιμάζει ταυτόχρονα όλες τις διευθύνσεις ενός διακομιστή και χρησιμοποιεί όποια απαντήσει πρώτη. Έτσι επανασυνδέεται όταν φεύγετε από το σπίτι, χωρίς να κλείνετε και να ανοίγετε το VPN.</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_1">Μια διεύθυνση που λειτουργούσε στο οικιακό σας δίκτυο δεν δοκιμάζεται πια πρώτη σε όλα τα άλλα δίκτυα.</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_2">Μια σύντομη διακοπή, το ξεκλείδωμα του κινητού ή το άνοιγμα των γρήγορων ρυθμίσεων δεν εμφανίζουν πια στιγμιαία ειδοποίηση. Η «Επανασύνδεση» εμφανίζεται μετά από λίγα δευτερόλεπτα και το «Εκτός σύνδεσης» μετά από περίπου 12, ή 4 αν το κινητό δεν έχει δίκτυο.</string>
+    <string name="settings_whatsnew_entry_server_addresses_example">Με ανοιχτή συνεδρία σε διακομιστή ζευγοποιημένο μέσω Tailscale, κλείστε το Wi-Fi και συνεχίστε την εργασία σας</string>
+
+    <!-- 2026-11-07-01-server-voice -->
+    <string name="settings_whatsnew_entry_server_voice_title">Κλήσεις με τα κλειδιά του διακομιστή</string>
+    <string name="settings_whatsnew_entry_server_voice_summary">Η φωνή μέσω διακομιστή είναι πλέον ενεργή για όλους, χωρίς διακόπτη. Οι κλήσεις μπορούν να χρησιμοποιούν τα κλειδιά του διακομιστή OpenCode, χωρίς ξεχωριστό κλειδί OpenAI στο κινητό.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_1">Με ενεργή την αυτόματη επιλογή, οι κλήσεις χρησιμοποιούν πρώτα τον τρέχοντα διακομιστή, μετά το κλειδί OpenAI στο κινητό και έπειτα άλλον αποθηκευμένο διακομιστή που είναι έτοιμος.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_2">Αν το κινητό και ο διακομιστής έχουν κλειδί OpenAI, οι κλήσεις χρησιμοποιούν πλέον του διακομιστή. Για να συνεχίσετε με του κινητού, ανοίξτε το «Ο λογαριασμός σας OpenAI» στον «Πάροχο φωνής» και πατήστε «Χρήση για κλήσεις».</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_3">Το Gemini Live είναι πλέον διαθέσιμο ως πάροχος σε διακομιστές με κλειδί για Gemini.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_4">Αν μια κλήση δεν μπορεί να ξεκινήσει, εμφανίζεται η αιτία και το κουμπί που λύνει το πρόβλημα.</string>
+    <string name="settings_whatsnew_entry_server_voice_example">Ανοίξτε Ρυθμίσεις › Φωνή και πατήστε «Πάροχος φωνής»</string>
+
+    <!-- 2026-11-07-02-rename-clear-button -->
+    <string name="settings_whatsnew_entry_rename_clear_button_title">Διαγραφή τίτλου με ένα πάτημα</string>
+    <string name="settings_whatsnew_entry_rename_clear_button_summary">Η μετονομασία συνεδρίας και διακομιστή έχει πλέον κουμπί διαγραφής, για να γράφετε νέο τίτλο χωρίς να σβήνετε τον παλιό.</string>
+
+    <!-- 2026-11-07-03-one-picker -->
+    <string name="settings_whatsnew_entry_one_picker_title">Νέα επιλογή μοντέλου</string>
+    <string name="settings_whatsnew_entry_one_picker_summary">Πατήστε το μοντέλο στο πλαίσιο μηνύματος και η λίστα ανοίγει από εκεί, με τα «Αγαπημένα» και τα «Πρόσφατα» στην κορυφή και όλους τους παρόχους από κάτω.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_1">Πατήστε το επίπεδο συλλογιστικής στη γραμμή ενός μοντέλου, π.χ. «high», για να το αλλάξετε χωρίς να φύγετε από τη λίστα.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_2">Σύρετε ή πατήστε παρατεταμένα μια γραμμή για προσθήκη στα Αγαπημένα ή αφαίρεση από αυτά.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_3">Η αναζήτηση είναι στο κάτω μέρος. Γράψτε ένα επίπεδο μετά το όνομα, π.χ. «opus high», και πατήστε Return για να επιλέξετε και τα δύο.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_4">Σύρετε τη λαβή προς τα πάνω για μεγαλύτερη λίστα ή προς τα κάτω για κλείσιμο.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_5">Η νέα ενιαία επιλογή αντικαθιστά το παλιό πλαίσιο μοντέλων και ο διακόπτης της αφαιρέθηκε από τις Ρυθμίσεις › Πειραματικό.</string>
+    <string name="settings_whatsnew_entry_one_picker_example">Πατήστε το μοντέλο στο πλαίσιο μηνύματος και σύρετε μια γραμμή για προσθήκη στα αγαπημένα</string>
+
+    <!-- 2026-11-08-01-connecting-caption-glass -->
+    <string name="settings_whatsnew_entry_connecting_caption_glass_title">Ευανάγνωστο «Σύνδεση μέσω…»</string>
+    <string name="settings_whatsnew_entry_connecting_caption_glass_summary">Όταν μια κλήση συνδέεται μέσω διακομιστή, η ένδειξη «Σύνδεση μέσω…» εμφανίζεται σε γυάλινο φόντο, ώστε να μη μπερδεύεται με τα μηνύματα πίσω της.</string>
+
+    <!-- 2026-11-08-02-default-model -->
+    <string name="settings_whatsnew_entry_default_model_title">Νέες συνεδρίες με το προεπιλεγμένο μοντέλο σας</string>
+    <string name="settings_whatsnew_entry_default_model_summary">Οι νέες συνεδρίες ξεκινούν με το προεπιλεγμένο μοντέλο σας στο OpenCode και το τελευταίο επίπεδο συλλογιστικής που επιλέξατε γι’ αυτό, αντί για το μοντέλο της προηγούμενης συνεδρίας.</string>
+
+    <!-- 2026-11-11-01-streamed-reply-prefix -->
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_title">Άνοιγμα απάντησης ενώ γράφεται</string>
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_summary">Όταν ανοίγετε μια συνεδρία ενώ έρχεται μια απάντηση, μπορείτε να διαβάσετε όσα έχουν ήδη φτάσει καθώς η απάντηση συνεχίζεται.</string>
+
+    <!-- 2026-11-13-01-draw-on-images -->
+    <string name="settings_whatsnew_entry_draw_on_images_title">Σχεδίαση πάνω σε εικόνες</string>
+    <string name="settings_whatsnew_entry_draw_on_images_summary">Επισημάνετε μια λεπτομέρεια πριν ρωτήσετε γι’ αυτή.</string>
+    <string name="settings_whatsnew_entry_draw_on_images_detail_1">Ανοίξτε μια εικόνα σε πλήρη οθόνη και πατήστε το κουμπί με το μολύβι. Επιλέξτε χρώμα, σχεδιάστε και πατήστε Προσθήκη για να επισυνάψετε τη σχολιασμένη εικόνα στο μήνυμά σας. Η αρχική εικόνα παραμένει ανέπαφη.</string>
+    <string name="settings_whatsnew_entry_draw_on_images_example">Κυκλώστε σε ένα στιγμιότυπο οθόνης το στοιχείο που θέλετε να μετακινηθεί και περιγράψτε πού θέλετε να πάει.</string>
+
+    <!-- 2026-11-14-01-fullscreen-viewer -->
+    <string name="settings_whatsnew_entry_fullscreen_viewer_title">Σάρωση μεταξύ φωτογραφιών και βίντεο</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_summary">Περιηγηθείτε στις εικόνες και τα βίντεο μιας συνεδρίας μαζί.</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_detail_1">Σύρετε μέχρι ένα βίντεο και πατήστε το κουμπί με το μολύβι για να σχεδιάσετε πάνω στο τρέχον καρέ. Η Προσθήκη επισυνάπτει το σχολιασμένο καρέ χωρίς να το στείλει.</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_example">Κάντε παύση σε ένα βίντεο επίδειξης στην οθόνη που χρειάζεται αλλαγή, κυκλώστε τη λεπτομέρεια και προσθέστε το καρέ στο πρόχειρό σας.</string>
+
+    <!-- 2026-11-15-01-pairing-link-name -->
+    <string name="settings_whatsnew_entry_pairing_link_name_title">Διακομιστές με όνομα από το OpenCode Console</string>
+    <string name="settings_whatsnew_entry_pairing_link_name_summary">Ένας διακομιστής που ζευγοποιείτε από το OpenCode Console προστίθεται με το όνομά του, όπως «Anomaly Box».</string>
+
+    <!-- 2026-11-17-01-session-media -->
+    <string name="settings_whatsnew_entry_session_media_title">Πολυμέσα συνεδρίας</string>
+    <string name="settings_whatsnew_entry_session_media_summary">Δείτε εικόνες, βίντεο, ήχο, αρχεία και δημόσιους συνδέσμους ιστού μιας συνεδρίας.</string>
+    <string name="settings_whatsnew_entry_session_media_detail_1">Επιλέξτε Πολυμέσα συνεδρίας από το μενού ⋮ μιας συνεδρίας. Τα Πολυμέσα εμφανίζουν εικόνες, βίντεο και ήχο ως πλακίδια ανά μήνα ή ως λίστα. Τα Αρχεία και οι Σύνδεσμοι εμφανίζουν έγγραφα, επικολλήσεις και συνδέσμους ιστού.</string>
+    <string name="settings_whatsnew_entry_session_media_example">Βρείτε το στιγμιότυπο οθόνης που στείλατε το πρωί χωρίς να κάνετε κύλιση σε όλη τη συνεδρία.</string>
+
+    <!-- 2026-11-18-02-drawer-call-phone -->
+    <string name="settings_whatsnew_entry_drawer_call_phone_title">Εικονίδιο τηλεφώνου στο πλαϊνό μενού</string>
+    <string name="settings_whatsnew_entry_drawer_call_phone_summary">Το κουμπί κλήσης δίπλα στις Ρυθμίσεις στη λίστα συνεδριών δείχνει ένα τηλέφωνο, όπως αυτό στο πλαίσιο μηνύματος.</string>
+
+    <!-- 2026-11-19-01-background-scripts -->
+    <string name="settings_whatsnew_entry_background_scripts_title">Σενάρια στο παρασκήνιο</string>
+    <string name="settings_whatsnew_entry_background_scripts_summary">Τα σενάρια που μεταφέρει ο πράκτορας στο παρασκήνιο εμφανίζονται δίπλα στους υποπράκτορες και τα κελύφη. Ένας υποπράκτορας παραμένει στη λίστα όσο εκτελούνται ακόμη εργασίες εικόνας, βίντεο ή σενάριά του. Μπορείτε να διακόψετε σενάρια ή υποπράκτορες από τη λίστα.</string>
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_new_session">Uusi istunto</string>
+    <string name="system_start_call">Aloita puhelu</string>
+    <string name="system_open_session">Avaa istunto</string>
+    <string name="widget_start_call_description">Aloittaa äänipuhelun valitsemassasi tai viimeksi katsomassasi istunnossa.</string>
+    <string name="widget_open_session_description">Avaa valitsemasi istunnon.</string>
+    <string name="widget_new_session_description">Avaa uuden OpenCode-istunnon.</string>
+
+    <!-- Shared across screens -->
+    <string name="system_selected_description">Valittu</string>
+    <string name="system_last_viewed_session">Viimeksi katsottu istunto</string>
+
+    <!-- Quick actions (launcher shortcuts) -->
+    <string name="system_quick_action_session_fallback">Istunto</string>
+    <!-- Long label: the session's title, then its project. -->
+    <string name="system_quick_action_long_label">%1$s · %2$s</string>
+
+    <!-- Shortcuts and Ask OpenCode -->
+    <string name="system_session_type_name">Istunto</string>
+    <string name="system_project_type_name">Projekti</string>
+    <string name="system_intent_open_session_description">Avaa istunnon OpenCodessa.</string>
+    <string name="system_intent_new_session_description">Aloittaa uuden istunnon OpenCodessa.</string>
+    <string name="system_intent_start_voice_call_title">Aloita äänipuhelu</string>
+    <string name="system_intent_start_voice_call_description">Aloittaa äänipuhelun OpenCoden kanssa istunnossa. Jos istuntoa ei ole valittu, puhelu alkaa viimeksi katsomassasi istunnossa.</string>
+    <string name="system_intent_background_call_title">Aloita äänipuhelu taustalla</string>
+    <string name="system_intent_background_call_description">Aloittaa äänipuhelun OpenCoden kanssa avaamatta sovellusta. Puhelu näkyy tilapalkissa ja lukitusnäytöllä.</string>
+    <string name="system_delivery_type_name">Lähetystapa</string>
+    <string name="system_delivery_steer">Ohjaa</string>
+    <string name="system_delivery_queue">Lisää jonoon</string>
+    <string name="system_ask_title">Kysy OpenCodelta</string>
+    <string name="system_ask_description">Lähettää viestin OpenCode-istuntoon avaamatta sovellusta.</string>
+    <string name="system_ask_message_title">Viesti</string>
+    <string name="system_ask_message_placeholder">Mitä OpenCoden pitäisi tehdä?</string>
+    <string name="system_ask_session_title">Istunto</string>
+    <string name="system_ask_started_new_session">Uusi istunto aloitettu projektissa %1$s</string>
+    <string name="system_ask_queued_for">Lisätty istunnon ”%1$s” jonoon</string>
+    <string name="system_ask_sent_to">Lähetetty istuntoon ”%1$s”</string>
+    <string name="system_ask_your_session">istuntosi</string>
+    <string name="system_ask_no_server">Avaa ensin OpenCode ja yhdistä palvelimeen.</string>
+    <string name="system_ask_no_project">Avaa ensin OpenCode ja aloita istunto.</string>
+    <string name="system_ask_empty_message">Ei lähetettävää.</string>
+    <!-- The server's error message follows. -->
+    <string name="system_ask_send_failed">Lähetys OpenCodeen epäonnistui. %1$s</string>
+
+    <!-- Live Updates: voice call -->
+    <string name="system_call_muted">Mykistetty</string>
+    <string name="system_call_unmute">Poista mykistys</string>
+    <string name="system_call_mute">Mykistä</string>
+    <string name="system_call_end">Lopeta puhelu</string>
+    <string name="system_call_connecting">Yhdistetään…</string>
+    <string name="system_call_reconnecting">Yhdistetään uudelleen…</string>
+    <string name="system_call_ended">Puhelu päättynyt</string>
+    <string name="system_call_end_title">Lopeta puhelu</string>
+    <string name="system_call_toggle_mute_title">Mykistä puhelu tai poista mykistys</string>
+
+    <!-- Live Updates: hands-free recording -->
+    <string name="system_recording_active">Äänitetään</string>
+    <string name="system_recording_stopped">Äänitys lopetettu</string>
+    <string name="system_recording_stop">Lopeta äänitys</string>
+    <string name="system_recording_stop_title">Lopeta äänitys</string>
+    <string name="system_recording_new_session">Uusi istunto</string>
+
+    <!-- Live Updates: session run -->
+    <string name="system_session_working">Työskennellään</string>
+    <string name="system_session_last_seen_working">Viimeisin tila: työskennellään</string>
+    <!-- Where the run is (Working), then its current step (a tool name, Thinking or Replying). -->
+    <string name="system_session_status_with_step">%1$s · %2$s</string>
+    <string name="system_session_step_thinking">Ajatellaan</string>
+    <string name="system_session_step_replying">Vastataan</string>
+    <string name="system_session_needs_input">Odottaa vastaustasi</string>
+    <string name="system_session_input">Syöte</string>
+    <string name="system_session_done">Valmis</string>
+    <string name="system_session_failed">Epäonnistui</string>
+
+    <!-- Session notifications -->
+    <string name="system_notification_placeholder_body">Uutta toimintaa</string>
+
+    <!-- Notification channels -->
+    <string name="system_channel_voice_calls">Äänipuhelut</string>
+    <string name="system_channel_recording">Äänitys</string>
+    <string name="system_channel_session_runs">Istuntojen suoritukset</string>
+    <string name="system_channel_session_updates">Istuntojen päivitykset</string>
+    <string name="system_channel_shared_items">Jaetut kohteet</string>
+
+    <!-- Share sheet: notifications -->
+    <string name="system_share_continue_notification_body">Jatka OpenCodessa napauttamalla</string>
+
+    <!-- Share sheet -->
+    <string name="system_share_your_server">palvelimesi</string>
+    <string name="system_share_new_session_in_project">Uusi istunto · %1$s</string>
+    <string name="system_share_save_failed_message">Yritä uudelleen. Jos ongelma jatkuu, vapauta laitteen tallennustilaa.</string>
+    <!-- The session's title, then its project. -->
+    <string name="system_share_session_chip_description">%1$s, %2$s</string>
+    <string name="system_share_problem_unreachable">Yhteys palvelimeen %1$s epäonnistui</string>
+    <string name="system_share_problem_too_large">Näin suuria tiedostoja ei voitu lähettää täältä</string>
+    <string name="system_share_problem_uploads_unsupported">Tiedostoja ei voitu lähettää palvelimelle %1$s</string>
+    <string name="system_share_problem_sign_in">Kirjautuminen palvelimelle %1$s epäonnistui</string>
+    <string name="system_share_problem_send">Lähetys kohteeseen %1$s epäonnistui</string>
+    <string name="system_share_problem_no_credentials">Avaa OpenCode kerran, jotta voit lähettää täältä</string>
+    <plurals name="system_share_image_count">
+        <item quantity="one">%d kuva</item>
+        <item quantity="other">%d kuvaa</item>
+    </plurals>
+    <plurals name="system_share_file_count">
+        <item quantity="one">%d tiedosto</item>
+        <item quantity="other">%d tiedostoa</item>
+    </plurals>
+    <plurals name="system_share_images_skipped">
+        <item quantity="one">%d kuvaa ei voitu lisätä</item>
+        <item quantity="other">%d kuvaa ei voitu lisätä</item>
+    </plurals>
+    <plurals name="system_share_files_skipped">
+        <item quantity="one">%d tiedostoa ei voitu lisätä</item>
+        <item quantity="other">%d tiedostoa ei voitu lisätä</item>
+    </plurals>
+    <string name="system_share_save_failed_title">Tallennus OpenCodea varten epäonnistui</string>
+    <string name="system_share_continue_description">Jatka OpenCodessa</string>
+    <string name="system_share_no_server_title">Yhdistä ensin palvelimeen</string>
+    <string name="system_share_no_server_message">Avaa OpenCode ja yhdistä tietokoneeseesi. Jaa sitten uudelleen.</string>
+    <string name="system_share_send_later">Lähetä myöhemmin</string>
+    <string name="system_share_saved_continue">Tallennettu. Jatka avaamalla OpenCode</string>
+    <string name="system_share_loading_description">Ladataan jaettuja kohteita</string>
+    <string name="system_share_image_description">Kuva</string>
+    <string name="system_share_image_position_description">Kuva %1$d / %2$d</string>
+    <string name="system_share_search_sessions_description">Hae istuntoja</string>
+    <string name="system_share_new_session_in_project_description">Uusi istunto projektissa %1$s</string>
+    <string name="system_share_choose_project_description">Valitse istunnon projekti</string>
+    <string name="system_share_message_placeholder">Viesti</string>
+    <string name="system_share_sent_to">Lähetetty kohteeseen %1$s</string>
+    <string name="system_share_sending_description">Lähetetään</string>
+    <string name="system_share_sent_description">Lähetetty</string>
+    <string name="system_share_sessions_title">Istunnot</string>
+    <string name="system_share_pinned_header">Kiinnitetyt</string>
+    <string name="system_share_recents_header">Viimeaikaiset</string>
+
+    <!-- Widget configuration -->
+    <string name="system_widget_choose_session_title">Valitse istunto</string>
+</resources>

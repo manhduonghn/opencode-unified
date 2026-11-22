@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">Gambar</string>
+    <string name="media_image_load_failed">Gagal memuat gambar</string>
+    <string name="media_unavailable">Media tidak tersedia</string>
+    <string name="media_try_again_label">Coba lagi</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">Penampil media</string>
+    <string name="media_viewer_save_to_photos_description">Simpan ke Foto</string>
+    <string name="media_file_viewer_screen_title">Penampil berkas</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d dari %3$d</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">Gambar di atas gambar</string>
+    <string name="media_drawing_undo_description">Urungkan</string>
+    <string name="media_drawing_add_to_prompt_description">Tambah ke prompt</string>
+    <string name="media_drawing_canvas_description">Kanvas gambar</string>
+    <string name="media_drawing_discard_title">Buang coretan?</string>
+    <string name="media_drawing_discard_confirm">Buang coretan</string>
+    <string name="media_drawing_keep">Lanjut menggambar</string>
+    <string name="media_drawing_add_failed_title">Gagal menambahkan coretan</string>
+    <string name="media_drawing_flatten_failed">Gagal membuat gambar. Coba lagi.</string>
+    <string name="media_drawing_prompt_unavailable">Pesan sesi ini belum bisa menerima lampiran saat ini.</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">Putih</string>
+    <string name="media_drawing_ink_black">Hitam</string>
+    <string name="media_drawing_ink_red">Merah</string>
+    <string name="media_drawing_ink_yellow">Kuning</string>
+    <string name="media_drawing_ink_green">Hijau</string>
+    <string name="media_drawing_ink_blue">Biru</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">Diperbesar</string>
+    <string name="media_zoom_out_label">Perkecil</string>
+    <string name="media_zoom_in_label">Perbesar</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">Jeda</string>
+    <string name="media_player_play">Putar</string>
+    <string name="media_player_position_description">Posisi pemutaran</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">Gagal memutar video</string>
+    <string name="media_video_position_description">Posisi video</string>
+    <string name="media_video_capture_failed_title">Gagal mengambil bingkai</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">Tampilkan pratinjau</string>
+    <string name="media_file_show_source_description">Tampilkan sumber</string>
+    <string name="media_file_unwrap_lines_description">Jangan lipat baris</string>
+    <string name="media_file_wrap_lines_description">Lipat baris</string>
+    <string name="media_file_start_pip_description">Mulai gambar dalam gambar</string>
+    <string name="media_file_opening">Membuka…</string>
+    <string name="media_file_share_failed_title">Gagal membagikan berkas</string>
+    <string name="media_file_share_downloading_description">Mengunduh untuk dibagikan</string>
+    <string name="media_file_confirm_large_message">Ukuran berkas ini %1$s. Unduh untuk melihatnya di perangkat ini?</string>
+    <string name="media_file_download">Unduh</string>
+    <string name="media_file_open_in_another_app">Buka di aplikasi lain</string>
+    <string name="media_file_no_app_message">Tidak ada aplikasi di perangkat ini yang dapat membuka berkas ini. Bagikan untuk menyimpan atau mengirimnya ke tempat lain.</string>
+    <string name="media_file_pdf_page_description">Halaman %1$d dari %2$d</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">Berkas tidak ditemukan</string>
+    <string name="media_file_error_open_failed_title">Gagal membuka berkas</string>
+    <string name="media_file_error_unreadable">Lokasi ini tidak dapat dibaca dari server.</string>
+    <string name="media_file_error_not_found">Berkas mungkin telah dipindahkan atau dihapus.</string>
+    <string name="media_file_error_unauthorized">Server menolak kata sandi perangkat ini.</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">Server gagal membacanya (HTTP %1$d). Ini mungkin folder.</string>
+    <string name="media_file_error_timed_out">Waktu permintaan habis.</string>
+    <string name="media_file_error_unexpected_response">Server mengirim respons yang tidak terduga.</string>
+    <string name="media_file_error_over_limit">Berkas melebihi batas ukuran unduhan.</string>
+    <string name="media_file_error_size_unknown">Server tidak melaporkan ukuran lampiran.</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">Mengunduh…</string>
+    <string name="media_file_downloading_size">Mengunduh %1$s</string>
+    <string name="media_file_downloading_progress">Mengunduh %1$s dari %2$s</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">0 KB</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="other">%1$d byte</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s KB</string>
+    <string name="media_file_size_megabytes">%1$s MB</string>
+    <string name="media_file_size_gigabytes">%1$s GB</string>
+    <string name="media_file_size_terabytes">%1$s TB</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">Tidak ditemukan</string>
+    <string name="media_image_load_label">Muat gambar</string>
+    <string name="media_image_loading_state">Memuat</string>
+    <string name="media_image_open_label">Buka gambar</string>
+    <string name="media_image_tap_to_load">Ketuk untuk memuat</string>
+    <string name="media_image_outside_project_value">Di luar proyek</string>
+    <string name="media_image_deferred_low_data_value">Ditunda karena mode hemat data</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">Buka %1$s</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">Kembali ke sesi</string>
+    <string name="media_browser_ask_description">Tanyakan tentang halaman ini</string>
+    <string name="media_browser_forward_description">Maju</string>
+    <string name="media_browser_open_in_browser_description">Buka di peramban</string>
+    <string name="media_browser_scroll_to_top_label">Gulir ke bagian atas halaman</string>
+    <string name="media_browser_ask_placeholder">Tanyakan tentang halaman ini</string>
+    <string name="media_browser_reply_needs_input">Perlu masukan Anda</string>
+    <string name="media_browser_reply_working">Bekerja</string>
+    <string name="media_browser_go_back_to_session_label">Kembali ke sesi</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">Balasan siap</string>
+    <string name="media_browser_reply_back_to_read">· Kembali untuk membacanya</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">Sesi</string>
+    <string name="media_link_open_in_app_browser">Buka di peramban dalam aplikasi</string>
+    <string name="media_link_open_in_browser">Buka di peramban</string>
+    <string name="media_link_open_in_app">Buka di aplikasi</string>
+    <string name="media_link_copy">Salin tautan</string>
+    <string name="media_link_share">Bagikan…</string>
+    <string name="media_link_open_session">Buka sesi</string>
+    <string name="media_link_copy_session_id">Salin ID</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">Salin ID %1$s</string>
+    <string name="media_link_open_session_named_description">Buka sesi %1$s</string>
+    <string name="media_link_open_host_in_app_browser_description">Buka %1$s di peramban dalam aplikasi</string>
+    <string name="media_link_open_host_in_browser_description">Buka %1$s di peramban</string>
+    <string name="media_link_open_host_in_app_description">Buka %1$s di aplikasi</string>
+    <string name="media_link_copy_host_description">Salin tautan ke %1$s</string>
+    <string name="media_link_share_host_description">Bagikan tautan ke %1$s</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%1$s di %2$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s tautan %2$d</string>
+    <string name="media_link_more_links_description">Tautan lainnya</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">Video</string>
+    <string name="media_link_preview_post">Postingan</string>
+    <string name="media_link_preview_post_unavailable">Postingan tidak tersedia</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">Repositori</string>
+    <string name="media_github_kind_issue">Isu</string>
+    <string name="media_github_kind_pull_request">Permintaan pull</string>
+    <string name="media_github_kind_commit">Commit</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">Terbuka</string>
+    <string name="media_github_state_closed">Ditutup</string>
+    <string name="media_github_state_merged">Digabungkan</string>
+    <string name="media_github_state_draft">Draf</string>
+    <string name="media_github_state_completed">Selesai</string>
+    <string name="media_github_state_not_planned">Tidak direncanakan</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">Diagram, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">Penampil diagram</string>
+    <string name="media_mermaid_diagram_description">Diagram</string>
+    <string name="media_mermaid_loading_state">%1$s, memuat</string>
+    <string name="media_mermaid_view_source">Lihat sumber</string>
+    <string name="media_mermaid_source_title">Sumber diagram</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">Diagram alir</string>
+    <string name="media_mermaid_type_sequence">Diagram urutan</string>
+    <string name="media_mermaid_type_class">Diagram kelas</string>
+    <string name="media_mermaid_type_state">Diagram keadaan</string>
+    <string name="media_mermaid_type_entity_relationship">Diagram relasi entitas</string>
+    <string name="media_mermaid_type_user_journey">Perjalanan pengguna</string>
+    <string name="media_mermaid_type_gantt">Bagan Gantt</string>
+    <string name="media_mermaid_type_pie">Diagram lingkaran</string>
+    <string name="media_mermaid_type_quadrant">Diagram kuadran</string>
+    <string name="media_mermaid_type_requirement">Diagram kebutuhan</string>
+    <string name="media_mermaid_type_git_graph">Graf Git</string>
+    <string name="media_mermaid_type_c4">Diagram C4</string>
+    <string name="media_mermaid_type_mind_map">Peta pikiran</string>
+    <string name="media_mermaid_type_timeline">Garis waktu</string>
+    <string name="media_mermaid_type_sankey">Diagram Sankey</string>
+    <string name="media_mermaid_type_xy_chart">Grafik XY</string>
+    <string name="media_mermaid_type_block">Diagram blok</string>
+    <string name="media_mermaid_type_packet">Diagram paket</string>
+    <string name="media_mermaid_type_kanban">Papan Kanban</string>
+    <string name="media_mermaid_type_architecture">Diagram arsitektur</string>
+    <string name="media_mermaid_type_radar">Grafik radar</string>
+    <string name="media_mermaid_type_treemap">Peta pohon</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

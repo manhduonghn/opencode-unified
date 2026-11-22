@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Appearance -->
+    <string name="settings_appearance_title">Ulkonäkö</string>
+    <string name="settings_appearance_mode_header">Tila</string>
+    <string name="settings_appearance_theme">Teema</string>
+
+    <!-- Appearance › Themes -->
+    <string name="settings_themes_title">Teemat</string>
+    <string name="settings_themes_preview_description">Keskustelulokin esikatselu</string>
+    <string name="settings_themes_preview_user_message">Auta parantamaan istuntonäkymää. Näytä, mitä löydät, ja selitä muutokset.</string>
+    <string name="settings_themes_preview_reply">Löysin asetteluongelman tiedostosta %1$s. Keskusteluloki ja viestikenttä jakavat käytettävissä olevan korkeuden, joten näppäimistö on hyvä rasitustesti.</string>
+
+    <!-- Language -->
+    <string name="settings_language_title">Kieli</string>
+    <string name="settings_language_system_default">Järjestelmän oletus</string>
+    <string name="settings_language_search_placeholder">Hae kieliä</string>
+    <string name="settings_language_suggested_header">Ehdotetut</string>
+    <string name="settings_language_all_header">Kaikki kielet</string>
+    <string name="settings_language_no_matches">Ei vastaavia kieliä</string>
+
+    <!-- Experimental -->
+    <string name="settings_experimental_title">Kokeellinen</string>
+    <string name="settings_experimental_all_footer">Ottaa käyttöön myös uudet kokeilut, paitsi ne, jotka näkevät näyttösi tai kuuntelevat taustalla.</string>
+    <string name="settings_experimental_all">Kaikki kokeilut</string>
+    <string name="settings_experimental_all_on">Kaikki käytössä</string>
+    <plurals name="settings_experimental_on_count">
+        <item quantity="one">%d käytössä</item>
+        <item quantity="other">%d käytössä</item>
+    </plurals>
+
+    <!-- Models -->
+    <string name="settings_models_title">Mallit</string>
+    <string name="settings_models_mode_hide">Piilota</string>
+    <string name="settings_models_mode_only_show">Näytä vain</string>
+    <string name="settings_models_mode_hide_footer">Poista käytöstä mallit, joita et käytä.</string>
+    <string name="settings_models_mode_only_show_footer">Ota käyttöön vain käyttämäsi mallit.</string>
+    <string name="settings_models_providers_header">Palveluntarjoajat</string>
+    <string name="settings_models_stale_header">Ei enää saatavilla</string>
+    <string name="settings_models_forget_unavailable">Unohda poistuneet mallit</string>
+    <string name="settings_models_show_every_model">Näytä kaikki mallit</string>
+    <string name="settings_models_load_failed_title">Mallien lataus epäonnistui</string>
+    <string name="settings_models_summary_hidden">Piilotettu</string>
+    <string name="settings_models_summary_all">Kaikki</string>
+    <string name="settings_models_summary_count">%1$d / %2$d</string>
+
+    <!-- Models › Provider -->
+    <string name="settings_models_search_placeholder">Hae malleja</string>
+    <string name="settings_models_show_provider">Näytä %1$s</string>
+
+    <!-- Notifications -->
+    <string name="settings_notifications_title">Ilmoitukset</string>
+    <string name="settings_notifications_device_header">Tämä %1$s</string>
+    <string name="settings_notifications_device_footer">Ilmoitukset kulkevat välityspalvelun kautta, joka ei tallenna mitään. Vain tällä %1$s-laitteella aloitetut istunnot lähettävät sille ilmoituksia.</string>
+    <string name="settings_notifications_allow">Salli ilmoitukset</string>
+    <string name="settings_notifications_open_android_settings">Avaa Android-asetukset</string>
+    <string name="settings_notifications_turn_on">Ota ilmoitukset käyttöön</string>
+    <string name="settings_notifications_server_header">Palvelin</string>
+    <string name="settings_notifications_set_up_footer">Avaa istunnon, jossa OpenCodea pyydetään asentamaan laajennus. Lähetä pyyntö ja tarkista uudelleen.</string>
+    <string name="settings_notifications_plugin_needed_footer">Palvelin tarvitsee OpenCode-ilmoituslaajennuksen.</string>
+    <string name="settings_notifications_notify_plugin">Ilmoituslaajennus</string>
+    <string name="settings_notifications_plugin_installed">Asennettu</string>
+    <string name="settings_notifications_plugin_not_running">Ei käynnissä</string>
+    <string name="settings_notifications_plugin_not_installed">Ei asennettu</string>
+    <string name="settings_notifications_plugin_check_failed">Tilan tarkistus epäonnistui</string>
+    <string name="settings_notifications_set_up">Ota käyttöön OpenCodella</string>
+    <string name="settings_notifications_check_again">Tarkista uudelleen</string>
+    <string name="settings_notifications_in_app_footer">Näkyvät sivuvalikon painikkeessa.</string>
+    <string name="settings_notifications_in_app_notices">Sovelluksen sisäiset ilmoitukset</string>
+
+    <!-- Sessions -->
+    <string name="settings_sessions_title">Istunnot</string>
+    <string name="settings_sessions_composer_header">Viestikenttä</string>
+    <string name="settings_sessions_return_key_sends">Lähetä Enterillä</string>
+    <string name="settings_sessions_new_sessions_header">Uudet istunnot</string>
+    <string name="settings_sessions_server_default">Palvelimen oletus</string>
+    <string name="settings_sessions_default_agent">Oletusagentti</string>
+
+    <!-- Shared values -->
+    <string name="settings_value_on">Käytössä</string>
+    <string name="settings_value_off">Pois käytöstä</string>
+
+    <!-- Sound Effects -->
+    <string name="settings_sound_effects_volume">Äänenvoimakkuus</string>
+    <string name="settings_sound_effects_volume_description">Äänitehosteiden voimakkuus</string>
+    <string name="settings_sound_effects_send_sound">Lähetysääni</string>
+
+    <!-- Voice › Delegator -->
+    <string name="settings_delegator_title">Delegoija</string>
+    <string name="settings_delegator_other_server_note">”%1$s” on toisella palvelimella. Valitse tältä palvelimelta tai vaihda palvelinta.</string>
+    <string name="settings_delegator_mode_footer">Sisäinen käyttää OpenAI-palvelua ilman istuntoa. OpenCode-istunto toimii palvelimellasi olevassa istunnossa.</string>
+    <string name="settings_delegator_built_in">Sisäinen</string>
+    <string name="settings_delegator_opencode_session">OpenCode-istunto</string>
+    <string name="settings_delegator_target_header">Kohdeistunto</string>
+    <string name="settings_delegator_target_footer">Automaattinen käyttää tämän palvelimen ”Ääni”-istuntoa. Näkyvä istunto käyttää näytöllä olevaa istuntoa.</string>
+    <string name="settings_delegator_automatic">Automaattinen</string>
+    <string name="settings_delegator_viewed_session">Näkyvä istunto</string>
+    <string name="settings_delegator_search_placeholder">Hae istuntoja</string>
+    <string name="settings_delegator_sessions_header">Valitse istunto</string>
+    <string name="settings_delegator_sessions_footer">Valittu istunto säilyttää mallinsa.</string>
+    <string name="settings_delegator_no_sessions">Ei istuntoja tällä palvelimella</string>
+    <string name="settings_delegator_no_matching_sessions">Ei vastaavia istuntoja</string>
+    <string name="settings_delegator_new_session">Uusi istunto</string>
+    <string name="settings_delegator_direct">Suora</string>
+    <string name="settings_delegator_direct_session_unavailable">Suora · Istunto ei ole saatavilla</string>
+    <string name="settings_delegator_another_server">%1$s · Toinen palvelin</string>
+
+    <!-- Voice › Key Editor -->
+    <string name="settings_voice_key_hide_description">Piilota avain</string>
+    <string name="settings_voice_key_show_description">Näytä avain</string>
+    <string name="settings_voice_key_verify">Vahvista</string>
+
+    <!-- Voice › Voice Provider -->
+    <string name="settings_voice_provider_title">Äänipalveluntarjoaja</string>
+    <string name="settings_voice_provider_place">Kohteessa %1$s</string>
+    <string name="settings_voice_api_key_title">API-avain</string>
+    <string name="settings_voice_provider_automatic_footer">Jos %1$s ei ole käytettävissä, puhelut käyttävät toista palveluntarjoajaa.</string>
+    <string name="settings_voice_provider_choose_automatically">Valitse automaattisesti</string>
+    <string name="settings_voice_provider_others_header">Muut palveluntarjoajat</string>
+    <string name="settings_voice_provider_use_description">Käytä: %1$s</string>
+    <string name="settings_voice_provider_use">Käytä</string>
+    <string name="settings_voice_provider_set_up">Ota käyttöön</string>
+    <plurals name="settings_voice_provider_not_available_count">
+        <item quantity="one">%d ei saatavilla</item>
+        <item quantity="other">%d ei saatavilla</item>
+    </plurals>
+
+    <!-- Voice › API Key -->
+    <string name="settings_voice_account_title">OpenAI-tilisi</string>
+    <string name="settings_voice_account_place">Tässä puhelimessa</string>
+    <string name="settings_voice_account_key_footer">Puhelut käyttävät OpenAI-tiliäsi palvelimen sijaan.</string>
+    <string name="settings_voice_account_use_for_calls">Käytä puheluissa</string>
+
+    <!-- Voice -->
+    <string name="settings_voice_title">Ääni</string>
+    <string name="settings_voice_call_setup_header">Puheluasetukset</string>
+    <string name="settings_voice_calls_header">Puhelut</string>
+    <string name="settings_voice_raise_to_talk_hint">Aloita puhelu kuulokkeen kautta nostamalla puhelin korvalle istunnossa. Ota toiminto käyttöön tai poista se käytöstä.</string>
+    <string name="settings_voice_enable">Ota ääni käyttöön</string>
+    <string name="settings_voice_model">Malli</string>
+    <string name="settings_voice_model_description">Äänimalli</string>
+    <string name="settings_voice_call_voice">Ääni</string>
+    <string name="settings_voice_raise_to_talk">Nosta ja puhu</string>
+    <string name="settings_voice_call_sounds">Puheluäänet</string>
+    <string name="settings_voice_call_history">Puheluhistoria</string>
+    <string name="settings_voice_edit_key_label">Muokkaa %1$s-API-avaintasi</string>
+    <string name="settings_voice_key_verified">Vahvistettu</string>
+    <string name="settings_voice_key_checking">Tarkistetaan…</string>
+    <string name="settings_voice_key_saved">Tallennettu</string>
+    <string name="settings_voice_key_missing">Puuttuu</string>
+    <string name="settings_voice_preview_disabled_hint">Lisää %1$s-avaimesi, niin voit kuunnella ääninäytteitä</string>
+
+    <!-- Voice › Voice Picker -->
+    <string name="settings_voice_picker_add_key_footer">Lisää %1$s-avaimesi, niin voit kuunnella ääninäytteitä.</string>
+    <string name="settings_voice_picker_unavailable_footer">%1$s ei ole saatavilla kohteessa %2$s, joten puheluissa on käytössä %3$s.</string>
+    <string name="settings_voice_stop_preview_description">Pysäytä ääninäyte: %1$s</string>
+    <string name="settings_voice_preview_description">Kuuntele ääninäyte: %1$s</string>
+    <string name="settings_voice_preview_playing">Toistetaan</string>
+    <string name="settings_voice_call_voice_unavailable">%1$s · %2$s ei saatavilla</string>
+
+    <!-- Settings root -->
+    <string name="settings_whats_new_title">Uutta</string>
+    <string name="settings_developer_title">Kehittäjä</string>
+    <string name="settings_app_version">Versio %1$s (%2$s)</string>
+    <string name="settings_app_version_commit">Versio %1$s (%2$s) · %3$s</string>
+
+    <!-- Connection card -->
+    <string name="settings_connection_show_server_label">Näytä palvelin</string>
+    <string name="settings_connection_milliseconds">%1$d ms</string>
+    <string name="settings_connection_card_value_description">%1$s, %2$s, %3$s</string>
+    <string name="settings_connection_status_connected">Yhdistetty</string>
+    <string name="settings_connection_status_slow">Hidas</string>
+    <string name="settings_connection_status_unstable">Epävakaa</string>
+    <string name="settings_connection_status_reconnecting">Yhdistetään uudelleen</string>
+    <string name="settings_connection_status_offline">Ei yhteyttä</string>
+    <string name="settings_connection_status_sign_in_failed">Kirjautuminen epäonnistui</string>
+    <string name="settings_connection_status_switching">Vaihdetaan</string>
+    <string name="settings_connection_status_switching_to">Vaihdetaan palvelimeen %1$s</string>
+    <string name="settings_connection_status_code">%1$s · %2$d</string>
+    <string name="settings_connection_status_http_description">%1$s, HTTP %2$d</string>
+    <plurals name="settings_connection_status_milliseconds_description">
+        <item quantity="one">%1$s, %2$d millisekunti</item>
+        <item quantity="other">%1$s, %2$d millisekuntia</item>
+    </plurals>
+
+    <!-- Server page -->
+    <string name="settings_server_title">Palvelin</string>
+    <string name="settings_server_address">Osoite</string>
+    <string name="settings_server_connection">Yhteys</string>
+    <string name="settings_server_version">Versio</string>
+    <string name="settings_server_edit_server">Muokkaa palvelinta…</string>
+    <string name="settings_server_rename_server_ellipsis">Nimeä palvelin uudelleen…</string>
+    <string name="settings_server_rename_title">Nimeä palvelin uudelleen</string>
+    <string name="settings_server_rename_message">Vain tämä %1$s käyttää nimeä. Jätä tyhjäksi, niin käytetään nimeä ”%2$s”.</string>
+    <string name="settings_server_status">Tila</string>
+    <string name="settings_server_status_milliseconds">%1$s · %2$d ms</string>
+
+    <!-- Servers section -->
+    <string name="settings_servers_header">Palvelimet</string>
+    <string name="settings_servers_edit_server">Muokkaa: %1$s…</string>
+    <string name="settings_servers_rename_message">Vain tämä %1$s käyttää nimeä. Jätä tyhjäksi, niin käytetään tietokoneen nimeä.</string>
+    <string name="settings_servers_remove_title">Poistetaanko %1$s?</string>
+    <string name="settings_servers_remove_message">Osoite ja salasana poistetaan tästä laitteesta (%1$s). Tämä ei vaikuta palvelimen istuntoihin.</string>
+    <string name="settings_servers_remove_server">Poista palvelin</string>
+    <string name="settings_servers_current_server_state">Nykyinen palvelin, %1$s</string>
+    <string name="settings_servers_switch_label">Vaihda tähän palvelimeen</string>
+    <string name="settings_servers_options_description">%1$s: vaihtoehdot</string>
+    <string name="settings_servers_rename_menu">Nimeä uudelleen…</string>
+    <string name="settings_servers_edit_menu">Muokkaa…</string>
+    <string name="settings_servers_remove_menu">Poista…</string>
+    <string name="settings_servers_add_server">Lisää palvelin</string>
+    <string name="settings_servers_scan_pairing_code">Skannaa pariliitoskoodi</string>
+    <string name="settings_servers_enter_address">Anna osoite</string>
+
+    <!-- Pairing scanner -->
+    <string name="settings_pairing_paste">Liitä</string>
+    <string name="settings_pairing_no_camera_title">Kameraa ei ole käytettävissä</string>
+    <string name="settings_pairing_no_camera_message">Kopioi tietokoneella komennon `opencode pair` tulostama linkki ja liitä se tähän.</string>
+    <string name="settings_pairing_camera_off_title">Kameran käyttö on estetty</string>
+    <string name="settings_pairing_camera_off_message">Salli kameran käyttö asetuksissa QR-koodin skannaamista varten tai liitä komennon `opencode pair` tulostama linkki.</string>
+    <string name="settings_pairing_nothing_to_paste_title">Ei liitettävää</string>
+    <string name="settings_pairing_nothing_to_paste_message">Leikepöydällä ei ole pariliitoslinkkiä. Kopioi komennon opencode pair tulostama linkki ja yritä uudelleen.</string>
+    <string name="settings_pairing_point_camera">Suuntaa kamera QR-koodiin</string>
+    <string name="settings_pairing_paste_link">Liitä pariliitoslinkki</string>
+    <string name="settings_pairing_computer_hint">Avaa tietokoneella OpenCode ja valitse Asetukset → Laiteparin muodostus tai suorita %1$s terminaalissa.</string>
+</resources>

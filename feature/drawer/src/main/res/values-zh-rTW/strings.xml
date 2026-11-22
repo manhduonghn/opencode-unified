@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Catch Up -->
+    <plurals name="drawer_catch_up_remaining">
+        <item quantity="other">剩下 %1$d 個</item>
+    </plurals>
+    <string name="drawer_catch_up_leave_description">離開補看動態</string>
+    <string name="drawer_catch_up_keep_unread">保持未讀</string>
+    <string name="drawer_catch_up_undo">復原</string>
+    <string name="drawer_catch_up_title">補看動態</string>
+    <string name="drawer_catch_up_all_caught_up">已全部看完</string>
+    <string name="drawer_catch_up_swipe_mark_read">標示為\n已讀</string>
+    <string name="drawer_catch_up_swipe_keep_unread">保持\n未讀</string>
+
+    <!-- Drawer container -->
+    <string name="drawer_close_description">關閉工作階段清單</string>
+
+    <!-- Drawer footer and delete confirmation -->
+    <string name="drawer_delete_session_title">刪除「%1$s」？</string>
+    <string name="drawer_delete_session_message">這會從伺服器刪除此工作階段，所有用戶端都將無法存取。</string>
+    <string name="drawer_new_session">新增工作階段</string>
+    <string name="drawer_start_voice_call_description">開始語音通話</string>
+
+    <!-- Archived page -->
+    <string name="drawer_archived">已封存</string>
+    <string name="drawer_archived_search_placeholder">搜尋已封存項目</string>
+    <string name="drawer_archived_empty">沒有已封存的工作階段</string>
+    <string name="drawer_no_results">無結果</string>
+
+    <!-- Session row actions -->
+    <string name="drawer_row_selected">已選取</string>
+    <string name="drawer_row_not_selected">未選取</string>
+    <string name="drawer_row_select_action">選取</string>
+    <string name="drawer_pin">釘選</string>
+    <string name="drawer_unpin">取消釘選</string>
+    <string name="drawer_mark_as_read">標示為已讀</string>
+    <string name="drawer_mark_as_unread">標示為未讀</string>
+    <string name="drawer_mute">靜音</string>
+    <string name="drawer_unmute">取消靜音</string>
+    <string name="drawer_hide">隱藏</string>
+    <string name="drawer_unhide">取消隱藏</string>
+    <string name="drawer_move_up">上移</string>
+    <string name="drawer_move_down">下移</string>
+
+    <!-- Section headers, shortcut rows and list footer -->
+    <string name="drawer_section_pinned">已釘選</string>
+    <string name="drawer_section_recents">最近使用</string>
+    <plurals name="drawer_catch_up_session_count">
+        <item quantity="other">%1$d 個工作階段</item>
+    </plurals>
+    <string name="drawer_catch_up_open_action">滑動瀏覽未讀和等待回應的工作階段</string>
+    <string name="drawer_mark_all_read">全部標示為已讀</string>
+    <string name="drawer_whats_new">最新消息</string>
+    <string name="drawer_whats_new_hide">隱藏</string>
+    <string name="drawer_empty_title">沒有工作階段</string>
+    <string name="drawer_empty_message">點選「新增工作階段」開始。</string>
+    <string name="drawer_search_no_results_title">找不到「%1$s」的結果</string>
+    <string name="drawer_search_no_results_message">檢查拼字或換個關鍵字搜尋。</string>
+    <string name="drawer_load_more_description">正在載入更多工作階段</string>
+    <string name="drawer_load_more_failed">無法載入更多工作階段</string>
+
+    <!-- Selection bar -->
+    <string name="drawer_selection_cancel_description">取消選取</string>
+    <plurals name="drawer_selection_count">
+        <item quantity="other">已選取 %1$d 個</item>
+    </plurals>
+    <string name="drawer_selection_more_options_description">更多選項</string>
+    <plurals name="drawer_delete_sessions_title">
+        <item quantity="other">刪除 %1$d 個工作階段？</item>
+    </plurals>
+    <string name="drawer_delete_sessions_message">這會從伺服器刪除這些工作階段，所有用戶端都將無法存取。</string>
+
+    <!-- Inbox Sidebar -->
+    <string name="drawer_inbox_needs_input">需要你回應</string>
+    <string name="drawer_inbox_working">工作中</string>
+    <string name="drawer_inbox_unread">未讀</string>
+
+    <!-- Drawer button -->
+    <string name="drawer_button_open_sessions_description">開啟工作階段清單</string>
+    <string name="drawer_button_attention_state">有工作階段需要你回應</string>
+    <string name="drawer_button_unread_state">有未讀工作階段</string>
+    <string name="drawer_notice_open_sessions_action">開啟工作階段清單</string>
+    <string name="drawer_notice_open_session_action">開啟此工作階段</string>
+
+    <!-- Search pill -->
+    <string name="drawer_search_description">搜尋工作階段</string>
+    <string name="drawer_search_cancel_description">取消搜尋</string>
+
+    <!-- Pin drop zone -->
+    <string name="drawer_drop_to_pin">放開以釘選</string>
+
+    <!-- Server title -->
+    <string name="drawer_server_connecting_state">連線中</string>
+    <string name="drawer_server_edit">編輯伺服器…</string>
+    <string name="drawer_server_manage">管理伺服器…</string>
+    <string name="drawer_server_reconnecting_state">重新連線中</string>
+    <string name="drawer_server_sign_in_failed">登入失敗</string>
+    <string name="drawer_server_offline">離線</string>
+    <string name="drawer_server_connecting_to_state">正在連線至 %1$s</string>
+    <string name="drawer_server_show_servers_hint">顯示你的伺服器</string>
+    <string name="drawer_server_offer_edit_hint">提供編輯伺服器的選項</string>
+    <string name="drawer_server_offer_try_again_hint">提供再試一次的選項</string>
+
+    <!-- Server flow: switch-back note and server menu status -->
+    <string name="drawer_server_switched_back_title">已切回 %1$s</string>
+    <string name="drawer_server_timed_out_detail">%1$s 在 %2$s 秒內未回應</string>
+    <string name="drawer_server_unreachable_detail">無法連線至 %1$s</string>
+    <string name="drawer_server_sign_in_failed_detail">無法登入 %1$s</string>
+    <string name="drawer_server_pair_again">重新配對</string>
+    <string name="drawer_server_menu_connected">已連線</string>
+    <string name="drawer_server_menu_connecting">連線中…</string>
+    <string name="drawer_server_menu_unreachable">無法連線</string>
+
+    <!-- Row selection menu -->
+    <string name="drawer_archive">封存</string>
+    <string name="drawer_unarchive">取消封存</string>
+    <string name="drawer_open_in_new_window">在新視窗開啟</string>
+
+    <!-- Session row state for TalkBack -->
+    <string name="drawer_row_pinned_state">已釘選</string>
+    <string name="drawer_row_muted_state">已靜音</string>
+    <string name="drawer_row_hidden_state">已隱藏</string>
+    <string name="drawer_row_needs_input_state">需要你回應</string>
+    <string name="drawer_row_working_state">工作中</string>
+    <string name="drawer_row_unread_state">未讀</string>
+    <string name="drawer_row_unsent_failed_state">無法傳送</string>
+    <string name="drawer_row_unsent_sending_state">傳送中</string>
+
+    <!-- Errors -->
+    <string name="drawer_notifications_request_error">無法要求權限，請再試一次。</string>
+    <string name="drawer_notifications_open_settings_error">無法開啟設定。請開啟 Android 設定，選擇「通知」→「OpenCode」。</string>
+    <string name="drawer_delete_session_error">無法刪除「%1$s」</string>
+    <plurals name="drawer_delete_sessions_error">
+        <item quantity="other">無法刪除 %1$d 個工作階段</item>
+    </plurals>
+    <string name="drawer_archive_error">無法封存「%1$s」</string>
+    <plurals name="drawer_archive_sessions_error">
+        <item quantity="other">無法封存 %1$d 個工作階段</item>
+    </plurals>
+    <string name="drawer_unarchive_error">無法取消封存「%1$s」</string>
+    <plurals name="drawer_unarchive_sessions_error">
+        <item quantity="other">無法取消封存 %1$d 個工作階段</item>
+    </plurals>
+
+    <!-- Session activity notification -->
+    <string name="drawer_session_activity_new_session">新增工作階段</string>
+
+    <!-- Inbox ages and row dates -->
+    <string name="drawer_age_now">剛剛</string>
+    <plurals name="drawer_age_minutes">
+        <item quantity="other">%1$d 分鐘</item>
+    </plurals>
+    <plurals name="drawer_age_hours">
+        <item quantity="other">%1$d 小時</item>
+    </plurals>
+    <plurals name="drawer_age_days">
+        <item quantity="other">%1$d 天</item>
+    </plurals>
+    <string name="drawer_date_yesterday">昨天</string>
+
+    <!-- Appearance settings transcript preview -->
+    <string name="drawer_appearance_preview_user_text">幫我改善工作階段畫面。讓我看看你發現了什麼，並說明修改內容。</string>
+    <string name="drawer_appearance_preview_assistant_text">我在 `SessionView.swift` 找到了版面配置問題。對話紀錄和輸入區共用可用高度，所以可以用鍵盤來測試版面能否正常運作。</string>
+</resources>

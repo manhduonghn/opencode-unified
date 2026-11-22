@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent activity glyph -->
+    <string name="session_activity_running_description">চলছে</string>
+    <!-- Background work panel -->
+    <string name="session_background_work_show_label">চলমান সাবএজেন্ট, স্ক্রিপ্ট ও শেল দেখান</string>
+    <string name="session_background_work_collapsed_description">সঙ্কুচিত</string>
+    <string name="session_background_work_subagents_title">সাবএজেন্ট</string>
+    <string name="session_background_work_open_subagent_label">সাবএজেন্টের সেশন খুলুন</string>
+    <string name="session_background_work_shells_title">শেল</string>
+    <string name="session_background_work_show_shell_label">শেলের আউটপুট দেখান</string>
+    <!-- The session's images and videos, paged in the full-screen viewer -->
+    <string name="session_visual_attached_image">সংযুক্ত ছবি</string>
+    <string name="session_visual_tool_image">টুলের ছবি</string>
+    <string name="session_visual_image">ছবি</string>
+    <!-- One image of several: the image's label, then its place, as “Attached image 2 of 3” -->
+    <string name="session_visual_image_page_label">%1$s, %3$dটির মধ্যে %2$d নম্বর</string>
+    <!-- A diagram's label, read by TalkBack. %1$s is its kind, as “Diagram, Flowchart” -->
+    <string name="session_visual_diagram_label">ডায়াগ্রাম, %1$s</string>
+    <!-- Jump to latest -->
+    <string name="session_scroll_to_latest_description">সর্বশেষে স্ক্রল করুন</string>
+    <!-- Dictation bar -->
+    <string name="session_dictation_finishing_description">শ্রুতিলিখন শেষ হচ্ছে</string>
+    <string name="session_dictation_stop_recording_description">রেকর্ডিং বন্ধ করুন</string>
+    <string name="session_dictation_stop_recording_hint">কথাগুলো আপনার বার্তায় যোগ করুন</string>
+    <string name="session_sending_message_description">বার্তা পাঠানো হচ্ছে</string>
+    <string name="session_delivery_steer_label">পরবর্তী ধাপে দিকনির্দেশ দিন</string>
+    <string name="session_delivery_queue_label">এই প্রতিক্রিয়ার পরে সারিতে রাখুন</string>
+    <string name="session_delivery_steer">দিকনির্দেশ দিন</string>
+    <string name="session_delivery_queue">সারিতে রাখুন</string>
+    <!-- Draft project picker -->
+    <string name="session_draft_project_choose_label">সেশন কোথায় শুরু হবে বেছে নিন</string>
+    <string name="session_project_choose_folder">ফোল্ডার নির্বাচন করুন…</string>
+    <string name="session_project_all_projects">সব প্রকল্প</string>
+    <string name="session_project_selected_description">নির্বাচিত</string>
+    <string name="session_project_picker_title">প্রকল্প</string>
+    <!-- Folder browser -->
+    <string name="session_folder_select_description">ফোল্ডার নির্বাচন করুন</string>
+    <string name="session_folder_path_description">পাথ</string>
+    <string name="session_folder_title">ফোল্ডার</string>
+    <string name="session_folder_select">নির্বাচন করুন</string>
+    <string name="session_folder_open_failed_title">ফোল্ডার খোলা যায়নি</string>
+    <string name="session_folder_empty_title">কোনো ফোল্ডার নেই</string>
+    <string name="session_folder_search_empty_title">“%1$s”-এর জন্য কোনো ফলাফল নেই</string>
+    <string name="session_folder_search_empty_message">বানান দেখুন বা নতুন করে অনুসন্ধান করুন।</string>
+    <!-- Server connection pill -->
+    <string name="session_server_edit">সার্ভার সম্পাদনা করুন…</string>
+    <!-- Starter prompts -->
+    <string name="session_starter_prompts_title">জিজ্ঞেস করে দেখুন</string>
+    <string name="session_starter_prompt_pick_label">এটি বার্তায় লিখুন</string>
+    <!-- Session sheet -->
+    <string name="session_sheet_rename_failed">নাম পরিবর্তন করা যায়নি</string>
+    <string name="session_sheet_status_description">অবস্থা</string>
+    <string name="session_rename_title">সেশনের নাম পরিবর্তন করুন</string>
+    <string name="session_untitled_title">সেশন</string>
+    <string name="session_pin">পিন করুন</string>
+    <string name="session_pinned">পিন করা</string>
+    <string name="session_unread">অপঠিত</string>
+    <string name="session_mute">মিউট করুন</string>
+    <string name="session_muted">মিউট করা</string>
+    <string name="session_compact">সংক্ষিপ্ত</string>
+    <string name="session_fork">ফর্ক</string>
+    <string name="session_toggle_on_description">চালু</string>
+    <string name="session_toggle_off_description">বন্ধ</string>
+    <string name="session_export">রপ্তানি</string>
+    <string name="session_export_markdown">Markdown</string>
+    <string name="session_export_json">JSON</string>
+    <string name="session_sheet_model">মডেল</string>
+    <string name="session_sheet_context">প্রসঙ্গ</string>
+    <string name="session_sheet_unknown_description">অজানা</string>
+    <string name="session_sheet_context_tokens">%1$s টোকেন</string>
+    <string name="session_sheet_cost">খরচ</string>
+    <string name="session_sheet_media">মিডিয়া</string>
+    <string name="session_sheet_media_value">ফাইল ও লিঙ্ক</string>
+    <string name="session_always_notify">সবসময় জানান</string>
+    <string name="session_always_notify_message_phone">প্রতিটি জবাব শেষ হলে এই ফোনে জানান, এমনকি বার্তা এখান থেকে না পাঠালেও।</string>
+    <string name="session_always_notify_message_tablet">প্রতিটি জবাব শেষ হলে এই ট্যাবলেটে জানান, এমনকি বার্তা এখান থেকে না পাঠালেও।</string>
+    <string name="session_delete_session">সেশন মুছুন</string>
+    <string name="session_rename_placeholder">শিরোনাম</string>
+    <string name="session_auto_rename">স্বয়ংক্রিয় নাম পরিবর্তন</string>
+    <string name="session_delete_confirm_title">“%1$s” মুছবেন?</string>
+    <string name="session_delete_confirm_message">এতে সব ক্লায়েন্টের জন্য সার্ভার থেকে সেশনটি মুছে যাবে।</string>
+    <!-- Transcript -->
+    <string name="session_move_to_background">ব্যাকগ্রাউন্ডে সরান</string>
+    <string name="session_move_to_background_hint">চলমান কাজ ব্যাকগ্রাউন্ডে চালিয়ে যান, যাতে এজেন্ট আপনার পরের বার্তা পড়তে পারে</string>
+    <!-- Attachments -->
+    <string name="session_attachment_add_image_failed_title">ছবি যোগ করা যায়নি</string>
+    <string name="session_attachment_upload">আপলোড</string>
+    <string name="session_attachment_remove_image_description">ছবির সংযুক্তি %1$d সরান</string>
+    <string name="session_attachment_remove_description">%1$s সরান</string>
+    <string name="session_attachment_file_description">ফাইল সংযুক্তি %1$s</string>
+    <string name="session_attachment_cancel_upload_description">%1$s-এর আপলোড বাতিল করুন</string>
+    <string name="session_attachment_open_photo_label">ছবিটি পুরো পর্দায় খুলুন</string>
+    <string name="session_attachment_image_description">ছবির সংযুক্তি %1$d</string>
+    <string name="session_attachment_video_description">ভিডিও সংযুক্তি %1$d</string>
+    <!-- Composer controls -->
+    <string name="session_answer_own_description">আপনার নিজের উত্তর</string>
+    <string name="session_answer_own_type_label">নিজের উত্তর লিখুন বা মুখে বলুন</string>
+    <string name="session_answer_own_clear_label">আপনার লেখা সরিয়ে রাখুন</string>
+    <string name="session_answer_own_choose_label">নিজের ভাষায় উত্তর দিন</string>
+    <string name="session_answer_decline_with_words_label">এর বদলে কী করতে হবে এজেন্টকে বলুন</string>
+    <string name="session_answer_required_description">একটি উত্তর বেছে নিন বা নিজে লিখুন</string>
+    <string name="session_dictate_message_description">মুখে বলে বার্তা লিখুন</string>
+    <string name="session_dictate_message_hint">মুখে বলে বার্তা লিখুন, অথবা রেকর্ড করে পাঠাতে চেপে ধরে রাখুন</string>
+    <string name="session_send_waiting_for_uploads_description">আপলোড শেষ হলে পাঠানো হবে</string>
+    <string name="session_steer_message_description">বার্তা দিয়ে দিকনির্দেশ দিন</string>
+    <string name="session_stopping_description">থামানো হচ্ছে</string>
+    <string name="session_start_voice_call">ভয়েস কল শুরু করুন</string>
+    <string name="session_dictation_stop_description">মুখে বলে লেখা বন্ধ করুন</string>
+    <!-- Composer -->
+    <string name="session_requests_load_failed_title">অনুরোধ লোড করা যায়নি</string>
+    <plurals name="session_queued_count">
+        <item quantity="one">%1$dটি সারিবদ্ধ</item>
+        <item quantity="other">%1$dটি সারিবদ্ধ</item>
+    </plurals>
+    <string name="session_queued_show_label">এই প্রতিক্রিয়া শেষ হওয়ার অপেক্ষায় থাকা বার্তাগুলো দেখান</string>
+    <plurals name="session_queued_messages_description">
+        <item quantity="one">%1$dটি সারিবদ্ধ বার্তা</item>
+        <item quantity="other">%1$dটি সারিবদ্ধ বার্তা</item>
+    </plurals>
+    <string name="session_dictation_preparing">মুখে বলে লেখার প্রস্তুতি চলছে…</string>
+    <string name="session_message_placeholder">বার্তা</string>
+    <!-- Session header -->
+    <string name="session_back_to_main_description">মূল সেশনে ফিরে যান</string>
+    <string name="session_header_open_from_catch_up_label">সেশন খুলে আপডেট দেখা থেকে বের হন</string>
+    <string name="session_header_show_details_label">সেশনের বিস্তারিত দেখান</string>
+    <string name="session_header_idle_description">নিষ্ক্রিয়</string>
+    <string name="session_header_syncing_description">সিঙ্ক হচ্ছে</string>
+    <string name="session_header_last_known_description">সর্বশেষ জানা</string>
+    <string name="session_menu_more_description">আরও</string>
+    <string name="session_unpin">পিন সরান</string>
+    <string name="session_copy_session_id">সেশনের ID কপি করুন</string>
+    <string name="session_mark_as_read">পঠিত হিসেবে চিহ্নিত করুন</string>
+    <string name="session_mark_as_unread">অপঠিত হিসেবে চিহ্নিত করুন</string>
+    <string name="session_unmute">আনমিউট করুন</string>
+    <string name="session_menu_export_expanded_description">প্রসারিত</string>
+    <string name="session_menu_export_collapsed_description">সঙ্কুচিত</string>
+    <string name="session_info">সেশনের তথ্য</string>
+    <!-- Session screen -->
+    <string name="session_load_failed_title">সেশন লোড করা যায়নি</string>
+    <string name="session_location_share_failed_title">অবস্থান শেয়ার করা যায়নি</string>
+    <!-- Shell output -->
+    <string name="session_shell_stop_confirm_title">এই শেল বন্ধ করবেন?</string>
+    <string name="session_shell_stop_confirm_message">কমান্ডটি এখনই শেষ হবে। এটি বন্ধ না করা পর্যন্ত এখানে দেখানো আউটপুট থাকবে।</string>
+    <string name="session_shell_stop">শেল বন্ধ করুন</string>
+    <string name="session_shell_copy_output">আউটপুট কপি করুন</string>
+    <string name="session_shell_share_output">আউটপুট শেয়ার করুন</string>
+    <string name="session_shell_earlier_output_hidden">আগের আউটপুট লুকানো আছে</string>
+    <string name="session_shell_showing_last_output">শেষ 4 MB দেখানো হচ্ছে</string>
+    <string name="session_shell_load_earlier">আগের আউটপুট লোড করুন</string>
+    <string name="session_shell_output_unavailable_title">আউটপুট পাওয়া যাচ্ছে না</string>
+    <string name="session_shell_output_unavailable_message">এই শেলের আউটপুট সার্ভারে আর নেই।</string>
+    <string name="session_shell_no_output_yet_title">এখনও আউটপুট নেই</string>
+    <string name="session_shell_no_output_title">আউটপুট নেই</string>
+    <string name="session_shell_no_output_yet_message">কমান্ড আউটপুট লিখলে তা এখানে দেখা যাবে।</string>
+    <string name="session_shell_status_stopping">থামানো হচ্ছে…</string>
+    <string name="session_shell_status_unavailable">উপলব্ধ নয়</string>
+    <string name="session_shell_status_interrupted">বাধাপ্রাপ্ত</string>
+    <string name="session_shell_status_timed_out">সময়সীমা শেষ হয়েছে</string>
+    <string name="session_shell_status_exited_with_code">%1$d কোড দিয়ে শেষ হয়েছে</string>
+    <string name="session_shell_status_exited">শেষ হয়েছে</string>
+    <plurals name="session_shell_elapsed_hours">
+        <item quantity="one">%1$d ঘণ্টা</item>
+        <item quantity="other">%1$d ঘণ্টা</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_minutes">
+        <item quantity="one">%1$d মিনিট</item>
+        <item quantity="other">%1$d মিনিট</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_seconds">
+        <item quantity="one">%1$d সেকেন্ড</item>
+        <item quantity="other">%1$d সেকেন্ড</item>
+    </plurals>
+
+    <!-- Agent activity (glyph labels and titles) -->
+    <string name="session_activity_idle">নিষ্ক্রিয়</string>
+    <string name="session_activity_starting_up">শুরু হচ্ছে</string>
+    <string name="session_activity_thinking">ভাবছেন</string>
+    <string name="session_activity_long_work">দীর্ঘ সময়ের কাজ</string>
+    <string name="session_activity_tool_burst">টানা টুল ব্যবহার</string>
+    <string name="session_activity_streaming_output">আউটপুট আসছে</string>
+    <string name="session_activity_waiting_for_input">ইনপুটের অপেক্ষায়</string>
+    <string name="session_activity_handing_off">কাজ অর্পণ করা হচ্ছে</string>
+    <string name="session_activity_done">হয়ে গেছে</string>
+    <string name="session_activity_failed">ব্যর্থ হয়েছে</string>
+    <string name="session_working_stopping">থামানো হচ্ছে…</string>
+    <string name="session_status_working">কাজ চলছে</string>
+    <string name="session_status_needs_input">আপনার ইনপুট প্রয়োজন</string>
+    <string name="session_status_done">হয়ে গেছে</string>
+
+    <!-- Lists: joins two or three phrases -->
+    <string name="session_list_two">%1$s, %2$s</string>
+    <string name="session_list_three">%1$s, %2$s, %3$s</string>
+
+    <!-- Background work panel -->
+    <plurals name="session_background_work_subagent_count">
+        <item quantity="one">%1$dটি সাবএজেন্ট</item>
+        <item quantity="other">%1$dটি সাবএজেন্ট</item>
+    </plurals>
+    <plurals name="session_background_work_shell_count">
+        <item quantity="one">%1$dটি শেল</item>
+        <item quantity="other">%1$dটি শেল</item>
+    </plurals>
+    <plurals name="session_background_work_script_count">
+        <item quantity="one">%1$dটি স্ক্রিপ্ট</item>
+        <item quantity="other">%1$dটি স্ক্রিপ্ট</item>
+    </plurals>
+    <string name="session_background_work_summary">%1$s · %2$s</string>
+    <string name="session_background_work_scripts_title">স্ক্রিপ্ট</string>
+    <string name="session_background_work_stop_script_label">স্ক্রিপ্ট থামান</string>
+    <string name="session_background_work_stop_subagent_label">সাবএজেন্ট থামান</string>
+    <string name="session_background_work_stop_script_failed">স্ক্রিপ্ট থামানো যায়নি</string>
+    <string name="session_background_work_stop_subagent_failed">সাবএজেন্ট থামানো যায়নি</string>
+
+    <!-- Composer buttons -->
+    <string name="session_send_message_description">বার্তা পাঠান</string>
+    <string name="session_stop_description">থামো</string>
+    <string name="session_start_voice_call_description">ভয়েস কল শুরু করুন</string>
+    <string name="session_model_level_default">ডিফল্ট</string>
+
+    <!-- In-app notice -->
+    <plurals name="session_notice_session_count">
+        <item quantity="one">%1$dটি সেশন</item>
+        <item quantity="other">%1$dটি সেশন</item>
+    </plurals>
+    <plurals name="session_notice_needs_input_count">
+        <item quantity="one">%1$dটিতে আপনার ইনপুট প্রয়োজন</item>
+        <item quantity="other">%1$dটিতে আপনার ইনপুট প্রয়োজন</item>
+    </plurals>
+    <string name="session_notice_announcement">%1$s, %2$s</string>
+
+    <!-- Server connection pill -->
+    <string name="session_server_reconnecting">%1$s-এর সাথে আবার সংযোগ করা হচ্ছে…</string>
+    <string name="session_server_connect_failed">%1$s-এর সাথে সংযোগ করা যায়নি</string>
+    <string name="session_server_sign_in_failed">%1$s-এ সাইন-ইন করা যায়নি</string>
+    <string name="session_server_pair_again">আবার পেয়ার করুন</string>
+    <string name="session_server_try_again_click_label">আবার চেষ্টা করুন</string>
+    <string name="session_server_pair_again_click_label">আবার পেয়ার করুন</string>
+
+    <!-- Export -->
+    <string name="session_export_folder_failed">রপ্তানির ফোল্ডার তৈরি করা যায়নি</string>
+    <string name="session_export_save_failed">রপ্তানি সংরক্ষণ করা যায়নি</string>
+
+    <!-- Session errors -->
+    <string name="session_agent_fallback_name">এজেন্ট</string>
+    <string name="session_something_went_wrong">কিছু ভুল হয়েছে</string>
+    <string name="session_something_went_wrong_sentence">কিছু ভুল হয়েছে।</string>
+    <string name="session_load_earlier_failed">আগের বার্তাগুলো লোড করা যায়নি</string>
+    <string name="session_move_to_background_failed">ব্যাকগ্রাউন্ডে নেওয়া যায়নি: %1$s</string>
+    <string name="session_move_failed_reason">সেশন সরানো যায়নি</string>
+    <string name="session_delivery_waiting_to_send">পাঠানোর অপেক্ষায়</string>
+    <string name="session_create_failed">সেশনটি তৈরি করা যায়নি।</string>
+    <string name="session_switch_agent_failed">এজেন্ট বদলানো যায়নি: %1$s</string>
+    <string name="session_switch_model_failed">মডেল বদলানো যায়নি: %1$s</string>
+    <string name="session_pending_send_now_failed_details">অপেক্ষমাণ বার্তাটি এখনই পাঠানো যায়নি: %1$s</string>
+    <string name="session_pending_cancel_failed_details">অপেক্ষমাণ বার্তাটি বাতিল করা যায়নি: %1$s</string>
+    <string name="session_pending_queue_failed_details">অপেক্ষমাণ বার্তাটি সারিতে রাখা যায়নি: %1$s</string>
+    <string name="session_stopped_before_sent">পাঠানোর আগেই বাধাপ্রাপ্ত হয়েছে</string>
+    <string name="session_stop_failed">সেশন থামানো যায়নি</string>
+    <string name="session_undo_message_failed">বার্তাটি পূর্বাবস্থায় ফেরানো যায়নি: %1$s</string>
+    <string name="session_revert_failed">পূর্বাবস্থায় ফেরানো যায়নি</string>
+    <string name="session_revert_failed_details">পূর্বাবস্থায় ফেরানো যায়নি: %1$s</string>
+
+    <!-- Session sheet errors -->
+    <string name="session_sheet_rename_failed_title">সেশনের নাম পরিবর্তন করা যায়নি</string>
+    <string name="session_sheet_compact_failed_title">সেশন সংক্ষিপ্ত করা যায়নি</string>
+    <string name="session_sheet_fork_failed_title">সেশন ফর্ক করা যায়নি</string>
+    <string name="session_sheet_save_export_failed">রপ্তানি সংরক্ষণ করা যায়নি</string>
+    <string name="session_sheet_export_failed_title">সেশন রপ্তানি করা যায়নি</string>
+    <string name="session_sheet_notifications_off_message">আগে সেটিংসে বিজ্ঞপ্তি চালু করুন।</string>
+    <string name="session_sheet_always_notify_on_failed_title">‘সবসময় জানান’ চালু করা যায়নি</string>
+    <string name="session_sheet_always_notify_off_failed_title">‘সবসময় জানান’ বন্ধ করা যায়নি</string>
+
+    <!-- Attachments -->
+    <string name="session_attachment_files_unsupported">সার্ভার ফাইল সমর্থন করে না</string>
+    <string name="session_attachment_upload_failed">আপলোড করা যায়নি</string>
+    <string name="session_attachment_file_fallback_name">ফাইল</string>
+    <string name="session_attachment_image_too_large">20 MB-এর চেয়ে ছোট একটি ছবি বেছে নিন।</string>
+    <string name="session_attachment_image_load_failed">এই ছবিটি লোড করা যায়নি। অন্য ছবি দিয়ে চেষ্টা করুন।</string>
+    <string name="session_attachment_file_add_failed">এই ফাইলটি যোগ করা যায়নি। অন্য ফাইল দিয়ে চেষ্টা করুন।</string>
+    <plurals name="session_attachment_files_add_failed">
+        <item quantity="one">%1$dটি ফাইল যোগ করা যায়নি।</item>
+        <item quantity="other">%1$dটি ফাইল যোগ করা যায়নি।</item>
+    </plurals>
+    <string name="session_large_upload_title">%1$s আপলোড করবেন?</string>
+    <string name="session_large_upload_message_one">“%1$s” একটি বড় ফাইল। আপনার সার্ভারে আপলোড শেষ হলে বার্তাটি পাঠানো হবে।</string>
+    <plurals name="session_large_upload_message_many">
+        <item quantity="one">%1$dটি ফাইল বড়। আপনার সার্ভারে আপলোড শেষ হলে বার্তাটি পাঠানো হবে।</item>
+        <item quantity="other">%1$dটি ফাইল বড়। আপনার সার্ভারে আপলোড শেষ হলে বার্তাটি পাঠানো হবে।</item>
+    </plurals>
+
+    <!-- Header and screens -->
+    <string name="session_new_session_title">নতুন সেশন</string>
+    <string name="session_pasted_text_screen_title">পেস্ট করা পাঠ্য</string>
+    <string name="session_pasted_text_viewer_screen_title">পেস্ট করা পাঠ্যের ভিউয়ার</string>
+    <string name="session_context_summary">%2$s-এর %1$d%%</string>
+    <string name="session_context_accessibility_value">%2$s টোকেনের %1$d%% ব্যবহৃত</string>
+
+    <!-- Starter prompts (shown, then sent as the person’s message) -->
+    <string name="session_starter_project_purpose">এই প্রকল্প কী কাজ করে?</string>
+    <string name="session_starter_code_tour">কোডটা সংক্ষেপে বুঝিয়ে দিন</string>
+    <string name="session_starter_recent_changes">এখানে সম্প্রতি কী বদলেছে?</string>
+
+    <!-- Shell output -->
+    <string name="session_shell_refresh_failed">আউটপুট রিফ্রেশ করা যায়নি</string>
+    <string name="session_shell_load_earlier_failed">আগের আউটপুট লোড করা যায়নি</string>
+    <string name="session_shell_stop_failed">শেল বন্ধ করা যায়নি</string>
+    <string name="session_quote_remove_description">উদ্ধৃতি সরান</string>
+    <string name="session_quote_comment_placeholder">চাইলে মন্তব্য যোগ করুন…</string>
+    <string name="session_media_title">সেশনের মিডিয়া</string>
+    <string name="session_media_filter_media">মিডিয়া</string>
+    <string name="session_media_filter_files">ফাইল</string>
+    <string name="session_media_filter_links">লিঙ্ক</string>
+    <string name="session_media_layout_description">মিডিয়া লেআউট</string>
+    <string name="session_media_layout_tiles">টাইল</string>
+    <string name="session_media_layout_list">তালিকা</string>
+    <string name="session_media_origin_user">আপনি পাঠিয়েছেন</string>
+    <string name="session_media_origin_agent">এজেন্ট শেয়ার করেছে</string>
+    <string name="session_media_open_click_label">খুলুন</string>
+    <string name="session_media_open_link_click_label">লিঙ্ক খুলুন</string>
+    <string name="session_media_empty_media_title">কোনো মিডিয়া নেই</string>
+    <string name="session_media_empty_media_message">এই সেশনে শেয়ার করা ছবি, ভিডিও ও অডিও এখানে দেখা যাবে।</string>
+    <string name="session_media_empty_files_title">কোনো ফাইল নেই</string>
+    <string name="session_media_empty_files_message">এই সেশনের ডকুমেন্ট ও পেস্ট করা পাঠ্য এখানে দেখা যাবে।</string>
+    <string name="session_media_empty_links_title">কোনো লিঙ্ক নেই</string>
+    <string name="session_media_empty_links_message">এই সেশনে শেয়ার করা ওয়েব লিঙ্ক এখানে দেখা যাবে।</string>
+    <string name="session_media_earlier_note">আগের বার্তাগুলো এখনও লোড করা হয়নি।</string>
+    <string name="session_media_load_earlier">আগের বার্তা লোড করুন</string>
+    <string name="session_media_loading_earlier">লোড হচ্ছে…</string>
+    <string name="session_media_earlier_failed">আগের বার্তাগুলো লোড করা যায়নি। আপনার সংযোগ পরীক্ষা করে আবার চেষ্টা করুন।</string>
+    <string name="session_media_earlier_nothing_new">এইমাত্র লোড হওয়া বার্তাগুলোতে নতুন কিছু নেই। আরও আগের বার্তায় কিছু থাকতে পারে।</string>
+</resources>

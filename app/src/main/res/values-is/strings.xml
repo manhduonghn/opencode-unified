@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Ekki tókst að bæta við deildu efni</string>
+    <string name="app_alert_open_session_failed_title">Ekki tókst að opna setu</string>
+    <string name="app_alert_pairing_failed_title">Ekki tókst að para við netþjón</string>
+    <string name="app_pairing_confirm">Para</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Netþjónar</string>
+    <string name="app_servers_back_description">Til baka í %1$s</string>
+    <string name="app_server_fallback_name">netþjónn</string>
+    <string name="app_connection_intro_new">Haltu áfram að kóða með %1$s.</string>
+    <string name="app_connection_intro_returning">Haltu áfram þar sem frá var horfið eða paraðu aðra tölvu.</string>
+    <string name="app_connection_enter_manually">Slá inn netþjón handvirkt</string>
+    <string name="app_connection_scan_pairing_code">Skanna pörunarkóða</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Opnaðu OpenCode á tölvunni og farðu í Stillingar → Pörun, eða keyrðu opencode pair --remote í skel. Skannaðu svo kóðann með þessu tæki: %1$s.</string>
+    <string name="app_setup_install_title">Ertu ekki með OpenCode enn?</string>
+    <string name="app_setup_other_ways_to_install">Aðrar uppsetningarleiðir</string>
+    <string name="app_setup_terminal_title">Eða keyrðu þetta í skel</string>
+    <string name="app_setup_terminal_detail">Þetta virkar á hvaða neti sem er.</string>
+    <string name="app_setup_paste_prompt">Eða afritaðu tengilinn sem birtist og veldu svo</string>
+    <string name="app_setup_paste">Líma</string>
+    <string name="app_setup_copy_command_description">Afrita %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Tengist</string>
+    <string name="app_servers_edit_description">Breyta %1$s</string>
+    <string name="app_servers_remove_description">Fjarlægja %1$s</string>
+    <string name="app_servers_remove_confirm_title">Fjarlægja %1$s?</string>
+    <string name="app_servers_remove_confirm_message">Þetta eyðir vistuðu vistfangi og lykilorði á þessu tæki: %1$s. Fundir á netþjóninum haldast óbreyttir.</string>
+    <string name="app_servers_remove_confirm">Fjarlægja netþjón</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Skref: %1$s</string>
+    <string name="app_error_server">Netþjónn: %1$s</string>
+    <string name="app_error_attempt">Tilraun: %1$d</string>
+    <string name="app_error_copy_report">Afrita villuskýrslu</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Nýr netþjónn</string>
+    <string name="app_server_form_edit_title">Breyta miðlara</string>
+    <string name="app_server_form_name">Nafn</string>
+    <string name="app_server_form_address">Heimilisfang netþjóns</string>
+    <string name="app_server_form_username">Notandanafn</string>
+    <string name="app_server_form_password">Lykilorð (valfrjálst)</string>
+    <string name="app_server_form_hide_password_description">Fela lykilorð</string>
+    <string name="app_server_form_show_password_description">Sýna lykilorð</string>
+    <string name="app_server_form_connect">Tengdu</string>
+    <string name="app_server_form_save_and_connect">Vista og tengjast</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Hausar</string>
+    <string name="app_server_form_header_name">Nafn</string>
+    <string name="app_server_form_header_name_description">Nafn hauss %1$d</string>
+    <string name="app_server_form_header_value">Gildi</string>
+    <string name="app_server_form_header_value_description">Gildi hauss %1$d</string>
+    <string name="app_server_form_header_remove_description">Fjarlægja haus %1$d</string>
+    <string name="app_server_form_header_add">Bæta við haus</string>
+    <string name="app_server_form_headers_detail">Sendir með hverri beiðni, fyrir milliþjón á borð við Cloudflare Access sem er fyrir framan netþjóninn.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">„%1$s“ er ekki gilt heiti á haus</string>
+    <string name="app_server_form_header_invalid_value">Gildið fyrir %1$s má ekki innihalda línuskil</string>
+    <string name="app_server_form_name_placeholder">Valfrjálst</string>
+    <string name="app_connection_progress_pairing">Parar</string>
+    <string name="app_connection_progress_connecting">Tengist</string>
+    <string name="app_connection_progress_loading_sessions">Hleður fundum</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Para við %1$s?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode prófar %1$s og skiptir yfir á fyrsta vistfangið sem svarar.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode parast við %1$s og skiptir yfir á það.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode prófar %1$s og %2$s og skiptir yfir á það fyrsta sem svarar.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode prófar %1$s og %2$s og skiptir yfir á það fyrsta sem svarar.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Vistuðum innskráningarupplýsingum fyrir %2$s gæti verið skipt út.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Pörun</string>
+    <string name="app_error_phase_connect">Tengdu</string>
+    <string name="app_error_phase_load_sessions">Hlaða fundum</string>
+    <string name="app_error_candidate_detail">Valkostur %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Ekki tiltækt (ógilt vistfang)</string>
+    <string name="app_error_title_pair">Ekki tókst að para</string>
+    <string name="app_error_title_load_sessions">Ekki tókst að hlaða fundum</string>
+    <string name="app_error_title_connect">Ekki tókst að tengjast %1$s</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Klemmuspjaldið er tómt</string>
+    <string name="app_paste_not_a_pairing_link">Þetta er ekki pörunartengill</string>
+    <string name="app_server_no_longer_saved">Þessi netþjónn er ekki lengur vistaður á þessu tæki (%1$s). Tengstu honum aftur til að opna setuna.</string>
+    <string name="app_session_no_longer_available">Henni kann að hafa verið eytt eða netþjónninn er ekki tiltækur.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Tengt við %1$s</string>
+    <string name="app_pairing_invalid_code">Þetta er ekki OpenCode pörunarkóði. Keyrðu opencode pair --remote á tölvunni þinni og skannaðu svo QR kóðann eða límdu tengilinn sem birtist.</string>
+    <string name="app_pairing_unusable_address">Ekki tókst að nota „%1$s“ úr þessum pörunarkóða: það %2$s.</string>
+    <string name="app_pairing_loopback">Þessi netþjónn hlustar aðeins á localhost, svo þetta tæki (%1$s) nær ekki sambandi við hann. Keyrðu frekar opencode pair --remote á tölvunni þinni. Það virkar á hvaða neti sem er.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Netþjónninn sem þú deildir með er ekki lengur vistaður á þessu tæki. Tengstu honum aftur og deildu svo aftur.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">síðast notað</string>
+    <string name="app_server_form_hint_new">Límdu tengilinn sem `opencode pair --remote` birtir til að para, eða notaðu vistfang og lykilorð OpenCode netþjónsins þíns. Notandanafnið er yfirleitt opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Breytingar vistast þegar tenging næst við þennan netþjón. Hann var paraður, svo lykilorðið er setutóki. Skannaðu nýjan pörunarkóða í stað þess að breyta því.</string>
+    <string name="app_server_form_hint_edit">Breytingar vistast þegar tenging næst við þennan netþjón.</string>
+</resources>

@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- What’s New entries, oldest first: one group per file in whatsnew/entries/. -->
+
+    <!-- 2026-10-06-01-voice-messages -->
+    <string name="settings_whatsnew_entry_voice_messages_title">Гласови съобщения</string>
+    <string name="settings_whatsnew_entry_voice_messages_summary">Заявките, които Глас изпраща към сесия вместо вас, се показват като гласови съобщения с икона на звукова вълна.</string>
+
+    <!-- 2026-10-07-01-attachment-menu-hold -->
+    <string name="settings_whatsnew_entry_attachment_menu_hold_title">Прикачване с +</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_summary">Менюто + се разгъва от полето за съобщение с Камера, Снимки и Файлове. Задръжте + и плъзнете, за да изберете с едно движение.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_1">Снимки се отваря точно над полето за съобщение; докоснете снимки, за да ги прикачите.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_2">Камерата има бутони за обективите, мащабиране с два пръста, фокусиране с докосване и светкавица.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_example">Задръжте +, плъзнете нагоре до Снимки и отпуснете</string>
+
+    <!-- 2026-10-08-01-voice-webrtc-weak-connection -->
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_title">По-стабилни обаждания</string>
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_summary">При нестабилна връзка вече има само кратко смущение вместо секунди тишина.</string>
+
+    <!-- 2026-10-08-02-mute-sessions -->
+    <string name="settings_whatsnew_entry_mute_sessions_title">Заглушаване на сесии</string>
+    <string name="settings_whatsnew_entry_mute_sessions_summary">Заглушените сесии остават в списъка, но не се включват в Наваксване и нямат точка за непрочетено.</string>
+    <string name="settings_whatsnew_entry_mute_sessions_detail_1">Задръжте Наваксване, за да маркирате всичко като прочетено. Сесиите, които чакат действие от вас, остават.</string>
+    <string name="settings_whatsnew_entry_mute_sessions_example">Задръжте сесия в страничното меню и докоснете Заглушаване</string>
+
+    <!-- 2026-10-08-03-pair-from-anywhere -->
+    <string name="settings_whatsnew_entry_pair_from_anywhere_title">Сдвояване отвсякъде</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_summary">Изпълнете opencode pair --remote на компютъра си, за да се свържете от всяка мрежа, без обща Wi-Fi мрежа или Tailscale.</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_detail_1">Сканирайте показания код или поставете изведената връзка.</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_example">Изпълнете opencode pair --remote, после добавете сървъра на телефона си</string>
+
+    <!-- 2026-10-08-04-drawer-peek -->
+    <string name="settings_whatsnew_entry_drawer_peek_title">Кога сесиите са били активни</string>
+    <string name="settings_whatsnew_entry_drawer_peek_summary">Плъзнете списъка със сесии към сесията, за да видите кога всяка е била активна за последно.</string>
+    <string name="settings_whatsnew_entry_drawer_peek_detail_1">Плъзнете наляво по списъка, за да го затворите.</string>
+    <string name="settings_whatsnew_entry_drawer_peek_example">Отворете списъка със сесии и го плъзнете надясно</string>
+
+    <!-- 2026-10-08-05-dictation-keeps-going -->
+    <string name="settings_whatsnew_entry_dictation_keeps_going_title">Диктуване и изпращане</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_summary">Докоснете микрофона, за да диктувате, после изпратете направо от лентата за запис или докоснете Спрете, за да прегледате първо.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_1">Задръжте микрофона, за да говорите, плъзнете нагоре за заключване или наляво за отказ.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_2">Записът продължава и извън приложението, а от Live Activity можете да го спрете.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_3">Ако смените сесията по време на запис, Изпрати го изпраща в сесията на екрана.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_example">Докоснете микрофона, кажете изречение и докоснете Изпрати</string>
+
+    <!-- 2026-10-08-06-siri-shortcuts-spotlight -->
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_title">Действия и преки пътища</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_summary">Започнете обаждане или сесия, или изпратете съобщение чрез App Actions на Google Assistant, преките пътища на приложението или бързите настройки.</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_detail_1">Задръжте иконата на приложението, за да видите последните си сесии.</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_example">Кажете „Hey Google, start a voice call in OpenCode“</string>
+
+    <!-- 2026-10-09-01-working-orb -->
+    <string name="settings_whatsnew_entry_working_orb_title">Индикатор за състоянието</string>
+    <string name="settings_whatsnew_entry_working_orb_summary">Кълбо до Работи и в картите на субагентите показва какво прави агентът, а когато приключи, се превръща в бутон за копиране.</string>
+
+    <!-- 2026-10-09-02-shell-glyph -->
+    <string name="settings_whatsnew_entry_shell_glyph_title">Активност на черупката</string>
+    <string name="settings_whatsnew_entry_shell_glyph_summary">Символът &gt;_ на работеща черупка се анимира, докато пристига изходът ѝ.</string>
+
+    <!-- 2026-10-09-03-math-and-diagrams -->
+    <string name="settings_whatsnew_entry_math_and_diagrams_title">Формули и диаграми</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_summary">Отговорите показват форматирани математически изрази и Mermaid диаграми.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_1">Докоснете диаграма, за да я увеличите, или я задръжте, за да видите изходния ѝ код.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_2">Формулите следват размера на текста ви.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_example">Поискайте блок-схема за изпращането на съобщение</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_prompt">Начертай блок-схема за изпращането на съобщение</string>
+
+    <!-- 2026-10-09-04-always-notify -->
+    <string name="settings_whatsnew_entry_always_notify_title">Известие при приключване</string>
+    <string name="settings_whatsnew_entry_always_notify_summary">Получавайте известие с кратко обобщение, когато сесия, стартирана тук, приключи работа.</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_1">Включете Винаги известявай в панела на сесията, за да получавате известия за всеки отговор, дори на заявки от компютъра.</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_2">Докоснете известие, за да отворите съответната сесия.</string>
+    <string name="settings_whatsnew_entry_always_notify_example">Изпратете съобщение, после заключете телефона си</string>
+
+    <!-- 2026-10-09-05-server-switcher -->
+    <string name="settings_whatsnew_entry_server_switcher_title">Смяна на сървъри</string>
+    <string name="settings_whatsnew_entry_server_switcher_summary">Текущият сървър е заглавието на страничното меню. Докоснете го, за да смените сървъра или да добавите нов.</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_1">В Настройки връзката се показва като пулс, а до името на сървъра е времето за отиване и връщане на заявка.</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_2">Преименувайте сървър; името се използва само на този телефон.</string>
+    <string name="settings_whatsnew_entry_server_switcher_example">Отворете страничното меню, докоснете името на сървъра и добавете другия си компютър</string>
+
+    <!-- 2026-10-10-01-share-opened-files -->
+    <string name="settings_whatsnew_entry_share_opened_files_title">Изображения като снимки</string>
+    <string name="settings_whatsnew_entry_share_opened_files_summary">Изображенията се виждат цели в сесията и се отварят като в Снимки: увеличавайте с два пръста, прелиствайте с плъзгане и затваряйте с плъзгане надолу.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_1">Всеки файл, споменат от агента, се отваря в приложението.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_2">Чрез Споделяне можете да запазите всичко отворено в Снимки или Файлове, включително видео и аудио.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_example">Помолете агента да прочете няколко екранни снимки, после докоснете една и я плъзнете надолу</string>
+
+    <!-- 2026-10-10-02-call-voice -->
+    <string name="settings_whatsnew_entry_call_voice_title">Гласови обаждания</string>
+    <string name="settings_whatsnew_entry_call_voice_summary">Докоснете звуковата вълна в празното поле за съобщение и говорете. Глас работи по сесиите ви, докато говорите, и ви казва, когато работата приключи.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_1">Назовете сесия: Глас я отваря и започва или насочва работата в нея.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_2">Заговорете, за да прекъснете Глас, или попитайте как върви работата.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_3">Докоснете лентата на обаждането за субтитри на живо.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_4">Заглушавайте и приключвайте обаждането от известието, дори на заключен екран.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_5">Задръжте „Спрете“, за да се обадите, докато агентът работи.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_6">Изберете глас в Настройки → Глас.</string>
+    <string name="settings_whatsnew_entry_call_voice_example">Започнете обаждане и кажете „отвори сесията ми с поправките по качването и провери тестовете“</string>
+
+    <!-- 2026-10-10-03-drawer-one-edge -->
+    <string name="settings_whatsnew_entry_drawer_one_edge_title">По-подредено странично меню</string>
+    <string name="settings_whatsnew_entry_drawer_one_edge_summary">Редовете са подравнени отляво, точките за състояние са в края на всеки ред, а търсенето е бутон най-горе.</string>
+
+    <!-- 2026-10-11-01-paste-as-a-card -->
+    <string name="settings_whatsnew_entry_paste_as_a_card_title">Дълъг поставен текст в карти</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_summary">Дългият поставен текст става карта „Поставен текст“ до изображенията ви, а агентът продължава да го чете целия.</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_1">Докоснете картата, за да прочетете целия текст, с опции „Копие“ и „Споделяне“.</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_2">Дългите съобщения се свиват до няколко реда с „Покажи повече“.</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_example">Копирайте дълъг дневник, поставете го в полето за съобщения и докоснете картата</string>
+
+    <!-- 2026-10-11-02-ride-out-drops -->
+    <string name="settings_whatsnew_entry_ride_out_drops_title">Работи при слаб сигнал</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_summary">Няколко секунди без сигнал вече не водят до грешки. Изпращането, сесиите и обажданията изчакват връзката и продължават.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_1">„Изпрати“ е винаги на разположение, а съобщенията се изпращат по ред.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_2">Неизпратеното съобщение остава на място с „Повторен опит“, без риск да се изпрати два пъти.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_3">Когато сървърът е офлайн, името му в страничното меню избледнява. Докоснете го за „Опитайте отново“.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_example">Отворете сесия, докато влакът ви влиза в тунел</string>
+
+    <!-- 2026-10-11-03-new-session-recent-projects -->
+    <string name="settings_whatsnew_entry_new_session_recent_projects_title">Започнете във всеки проект</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_summary">„Нова сесия“ показва последните ви проекти над полето за съобщения, а „Всички проекти“ отваря всяка папка на компютъра ви.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_1">Избраният проект остава над полето за съобщения, докато пишете.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_2">Обаждане от нова сесия работи в избрания от вас проект.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_example">Докоснете „Нова сесия“, после „Всички проекти“ и „Изберете папка…“</string>
+
+    <!-- 2026-10-11-04-stop-runs-your-steer -->
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_title">Насочвайте, докато работи</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_summary">Изпратете, докато агентът работи, и той ще прочете съобщението при следващата си стъпка, като първо премести продължителните команди на заден план.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_1">Задръжте „Изпрати“, за да изберете „Насочи“ или „Постави на опашка“ за едно съобщение.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_2">Задръжте чакащо съобщение, за да го преместите в опашката или да го изтриете.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_3">„Спрете“ веднага става „Спиране…“, а изпратеното съобщение за насочване се изпълнява след това.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_example">Докато се изпълнява продължителна команда, изпратете съобщение и вижте как командата преминава на заден план</string>
+
+    <!-- 2026-10-12-01-browser-push-in -->
+    <string name="settings_whatsnew_entry_browser_push_in_title">Уеб страници в приложението</string>
+    <string name="settings_whatsnew_entry_browser_push_in_summary">При включен експеримент „Вграден браузър“ връзките отварят страници върху сесията. Плъзнете от ръба, за да се върнете.</string>
+
+    <!-- 2026-10-12-02-answer-from-the-bar -->
+    <string name="settings_whatsnew_entry_answer_from_the_bar_title">Отговор от полето за съобщения</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_summary">Въпросите и заявките за разрешения се показват над полето за съобщения. Отговорете направо там: изберете опция или напишете или продиктувайте свой отговор.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_1">Заявките за разрешения показват командата или редакцията, преди да я разрешите.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_2">„Откажи“ използва написаното от вас като алтернативни указания, за да продължи агентът.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_3">Черновата ви се връща, след като отговорите.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_example">Когато агентът зададе въпрос, задръжте микрофона и кажете отговора си</string>
+
+    <!-- 2026-10-12-03-new-messages-divider -->
+    <string name="settings_whatsnew_entry_new_messages_divider_title">Продължете оттам, докъдето стигнахте</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_summary">Когато се върнете в сесия, тя се отваря в края с всички съобщения, получени във ваше отсъствие. За да отваряте дълга поредица от непрочетени съобщения при разделителя „Ново“, включете „Разделител за нови съобщения“ в Настройки › Сесии.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_1">Сесиите, които вероятно ще отворите, се обновяват при отваряне на страничното меню, за да са готови при докосване.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_2">При връщане към сесия фоновата ѝ работа и индикаторът за контекст се запазват, докато тя се обновява.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_example">Започнете продължителна задача, преминете към друга сесия и се върнете, след като получите отговор</string>
+
+    <!-- 2026-10-12-04-model-list-and-level-meter -->
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_title">Нов избор на модел</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_summary">Изберете модел и ниво на мислене от панела „Модел“, с любимите ви най-горе. За да пробвате списъка над полето за съобщения, включете „Нов избор на модел“ в Настройки → Експериментален.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_1">Използвайте менюто „Мислене“ в панела „Модел“, когато моделът предлага нива.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_2">Плъзнете модел, за да го добавите в „Любими“.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_3">Ненатрапчив ред в сесията отбелязва къде сте сменили модела или нивото.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_example">Докоснете модела в полето за съобщения и изберете ниво на мислене</string>
+
+    <!-- 2026-10-12-05-run-error-line -->
+    <string name="settings_whatsnew_entry_run_error_line_title">При неуспешно изпълнение</string>
+    <string name="settings_whatsnew_entry_run_error_line_summary">Когато изпълнението спре преждевременно, причината е обяснена ясно, с една следваща стъпка: „Редактиране“, „Компактен“, „Смяна на модел“ или „Опитайте отново“.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_1">„Редактиране“ отменя съобщението ви и го връща в полето за съобщения, за да го преформулирате.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_2">Задръжте реда, за да видите цялата грешка и да я копирате.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_3">Когато агентът ще опита отново автоматично, „Работи“ отброява времето до следващия опит.</string>
+    <string name="settings_whatsnew_entry_run_error_line_example">Когато отговорът е блокиран, докоснете „Редактиране“, преформулирайте съобщението и го изпратете отново</string>
+
+    <!-- 2026-10-12-06-transcript-keyboard-space -->
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_title">Клавиатурата се скрива без празнини</string>
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_summary">Скриването на клавиатурата с плъзгане вече не оставя празно място под последното съобщение.</string>
+
+    <!-- 2026-10-12-07-share-sheet-sends -->
+    <string name="settings_whatsnew_entry_share_sheet_sends_title">Изпращане от менюто за споделяне</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_summary">Споделете съдържание към OpenCode, изберете сесия, добавете съобщение и го изпратете, без да отваряте приложението.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_1">Последните ви сесии се показват на най-горния ред в менюто за споделяне.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_2">JSON файловете и експортираните данни се прикачват като файлове със запазени имена.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_3">„Продължи в OpenCode“ отваря сесията със споделеното в полето за съобщение.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_4">Ако изпращането не успее, „Изпрати по-късно“ го изпраща при следващото отваряне на приложението.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_example">Споделете екранна снимка с OpenCode, напишете въпрос и докоснете „Изпрати“</string>
+
+    <!-- 2026-10-12-08-app-icon-badge -->
+    <string name="settings_whatsnew_entry_app_icon_badge_title">Значка върху иконата на приложението</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_summary">Иконата на приложението показва броя на непрочетените сесии и тези, които ви чакат — същия като в „Наваксване“.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_1">Заглушените сесии не се броят.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_2">Известията трябва да са включени.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_example">Оставете сесия да чака отговор на въпрос и отидете на началния екран</string>
+
+    <!-- 2026-10-12-09-drawer-keeps-keyboard -->
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_title">Клавиатурата се плъзга с менюто</string>
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_summary">Когато отворите списъка със сесии, докато пишете, фокусът остава в съобщението, а клавиатурата се плъзга настрани заедно със сесията.</string>
+
+    <!-- 2026-10-12-10-whats-new-page -->
+    <string name="settings_whatsnew_entry_whats_new_page_title">По-опростено „Какво ново“</string>
+    <string name="settings_whatsnew_entry_whats_new_page_summary">„Какво ново“ се отваря като страница, подобно на „Настройки“, с отделна страница за всяка функция и събрани тук поправки.</string>
+
+    <!-- 2026-10-12-11-catch-up-returns-to-drawer -->
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_title">От „Наваксване“ обратно в менюто</string>
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_summary">При излизане от „Наваксване“ се връщате към списъка със сесии, както сте го оставили.</string>
+
+    <!-- 2026-10-12-12-transcript-day-stamps -->
+    <string name="settings_whatsnew_entry_transcript_day_stamps_title">Дни в преписа</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_summary">В сесия, продължаваща няколко дни, над първото съобщение за деня се показва денят, например „Сряда 8:24“, а над съобщение след час пауза — часът.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_1">Показва се „Днес“, „Вчера“ или денят от седмицата за текущата седмица, а иначе — датата.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_2">Съобщенията за насочване и тези на опашка нямат дата и час, докато чакат.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_example">Отворете сесия, започната по-рано през седмицата, и превъртете нагоре</string>
+
+    <!-- 2026-10-12-13-rich-link-previews -->
+    <string name="settings_whatsnew_entry_rich_link_previews_title">Визуализации на връзки</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_summary">Връзките под отговора показват към какво водят, всяка на отделен ред: заявка за сливане или проблем със заглавие и състояние, комит, видео, страница.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_1">Заявките за сливане, проблемите, комитите и хранилищата в GitHub показват заглавието си, а „Отворено“, „Слято“ или „Затворено“ са в цвят.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_2">Публикациите в X показват автора и текста; връзките към YouTube — заглавието, а другите страници — име, извлечено от връзката.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_3">Показват се три връзки; докоснете „още“ до „Копие“ за останалите и отново, за да ги скриете.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_4">Задръжте връзка за по-голяма визуализация, „Копиране на връзката“ и „Споделяне“.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_example">Попитайте агента какво се е променило в хранилище тази седмица</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_prompt">Какво се промени тази седмица в хранилище в GitHub, което използвам? Добави връзки.</string>
+
+    <!-- 2026-10-13-01-rolling-numbers -->
+    <string name="settings_whatsnew_entry_rolling_numbers_title">Превъртащи се цифри</string>
+    <string name="settings_whatsnew_entry_rolling_numbers_summary">Броячите в индикатора за работа във фонов режим, панела „Сесия“, редовете „Използвани N“ и „Наваксване“ се обновяват с превъртане на всяка цифра.</string>
+
+    <!-- 2026-10-13-02-grouped-steering -->
+    <string name="settings_whatsnew_entry_grouped_steering_title">Групирани съобщения</string>
+    <string name="settings_whatsnew_entry_grouped_steering_summary">Последователно изпратените съобщения се събират в един блок, а съобщенията за насочване, които чакат агента, имат общ етикет „Насочване“.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_1">Последователните балончета стоят близо, а ъглите им се съединяват там, където се допират.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_2">Снимките и файловете запазват заоблената си форма в блока.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_3">Когато агентът приеме съобщение, то се премества нагоре на мястото си с едно движение.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_example">Докато агентът работи, изпратете бързо три съобщения, едното със снимка</string>
+
+    <!-- 2026-10-13-03-inline-tool-rows -->
+    <string name="settings_whatsnew_entry_inline_tool_rows_title">Изчистени редове за инструменти и въпроси</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_summary">Групите инструменти и отговорените въпроси се разгъват в лента по цялата ширина като кода, а последователните прочитания се обединяват в един ред.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_1">Свити, групите показват „Използвани N инструмента“ и отбелязват неуспешните извиквания в червено.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_2">Редовете „Изпълни“ показват инструментите, извикани от скрипта, а редовете „Умение“ — името на умението.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_3">Отговорените въпроси показват подканата и всички предложени отговори, като избраният от вас е отметнат.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_example">Докоснете ред „Използвани N инструмента“ в сесия, за да разгънете лентата му</string>
+
+    <!-- 2026-10-13-04-mac-motion-playgrounds -->
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_title">Управление на тестовата среда от Mac</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_summary">В режим за разработчици свържете настройването с вашия Mac, за да възпроизвеждате тестовите анимации забавено и да преглеждате заснети кадри.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_1">Страницата с контроли на Mac съдържа избор на тестова среда, готови настройки и управление на възпроизвеждането; телефонът показва само тестовата среда.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_2">Компактни карти показват кои контроли са на екрана, с именувани настройки за движение и разстояния и „Стандартно“ за връщане на оригиналния вид; всеки набор прилага всичките си стойности наведнъж.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_3">Плаващият панел за настройване се скрива при свързване с Mac; покажете го с жеста за настройване и изберете „Изход от тестовата среда“, за да излезете.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_4">Предварително зададените сценарии възпроизвеждат една и съща примерна сесия, за да сравнявате анимациите между версии.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_5">Повторенията започват отначало и доставят съобщенията за насочване и тези на опашка, вместо да ги оставят да чакат.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_6">Плейърът за преглед на Mac ви позволява да разглеждате заснетата геометрия стъпка по стъпка, да отбелязвате кадър и да изпращате отзиви за анимацията.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_example">Отворете „Настройки“ → „За разработчици“, сдвоете със страницата за настройване на Mac и пробвайте „Препис“ → „Поточен отговор“ при 0.25×</string>
+
+    <!-- 2026-10-13-05-catch-up-flicks -->
+    <string name="settings_whatsnew_entry_catch_up_flicks_title">По-лесно плъзгане в „Наваксване“</string>
+    <string name="settings_whatsnew_entry_catch_up_flicks_summary">Бързо плъзгане или по-кратко издърпване в „Наваксване“ вече отпраща картата, вместо да я връща обратно.</string>
+
+    <!-- 2026-10-14-01-settings-grouped-by-purpose -->
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_title">По-ясни настройки</string>
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_summary">Експерименталните функции и инструментите за разработчици са в „Настройки“ → „Експериментален“, известията в приложението — в „Известия“, а историята на обажданията — в „Глас“.</string>
+
+    <!-- 2026-10-14-02-send-ats-recovery -->
+    <string name="settings_whatsnew_entry_send_ats_recovery_title">Надеждно изпращане</string>
+    <string name="settings_whatsnew_entry_send_ats_recovery_summary">Изпращането се повтаря автоматично, ако iOS за кратко отхвърли вече работеща връзка със сървъра.</string>
+
+    <!-- 2026-10-14-03-keyboard-menus-and-header -->
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_title">По-стабилни клавиатура и менюта</string>
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_summary">Докоснете +, докато пишете, за да отворите прикачените файлове, без да скривате клавиатурата или да местите контролите; замъгляването на заглавната лента остава на място при движение на клавиатурата.</string>
+
+    <!-- 2026-10-14-04-open-links-in-apps -->
+    <string name="settings_whatsnew_entry_open_links_in_apps_title">Връзките се отварят в приложенията си</string>
+    <string name="settings_whatsnew_entry_open_links_in_apps_summary">Връзките се отварят в съответното приложение, например GitHub или YouTube; при включен експеримент „Вграден браузър“ задръжте връзка и изберете „Отворете във вградения браузър“.</string>
+
+    <!-- 2026-10-14-05-session-list-quiet-hierarchy -->
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_title">По-прегледен списък със сесии</string>
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_summary">„Закачени“ и „Последни“ са с по-дребен сив шрифт, непрочетените и чакащите сесии изпъкват с леко удебелен текст, а прочетените са малко по-бледи.</string>
+
+    <!-- 2026-10-14-06-queued-messages-fitted-sheet -->
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_title">По-подредени съобщения на опашка</string>
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_summary">Панелът със съобщения на опашка е висок колкото самата опашка, с номерирани редове и ненатрапчиви бутони за изпращане веднага или отказ.</string>
+
+    <!-- 2026-10-14-07-control-center-sessions -->
+    <string name="settings_whatsnew_entry_control_center_sessions_title">Плочки за сесия</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_summary">Добавете плочка в бързите настройки, за да отваряте сесия или да започвате обаждане в нея с едно докосване.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_1">Новата плочка „Отваряне на сесия“ отваря избрана от вас сесия.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_2">„Започване на обаждане“ може да започне обаждане в избрана или нова сесия. По подразбиране използва последно разглежданата сесия.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_3">Изберете от закачените и последните си сесии. Плочката показва текущото заглавие на сесията.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_4">Плочките само отварят приложението: нищо не се изпраща, докато не заговорите или не въведете текст.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_example">Отворете бързите настройки, докоснете „Редактиране“ и плъзнете плочката „Отваряне на сесия“ на OpenCode на желаното място</string>
+
+    <!-- 2026-10-15-01-settings-keyboard-down -->
+    <string name="settings_whatsnew_entry_settings_keyboard_down_title">Клавиатурата не закрива настройките</string>
+    <string name="settings_whatsnew_entry_settings_keyboard_down_summary">Ако отворите „Настройки“ от страничното меню, докато пишете, клавиатурата се скрива, вместо да закрива настройките.</string>
+
+    <!-- 2026-10-15-02-session-list-sidebar-grey -->
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_title">По-просторен списък със сесии</string>
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_summary">Списъкът със сесии е с по-голямо заглавие и по-едри сиви заглавки „Закачени“ и „Последни“, с повече място над тях. Отворете страничното меню, за да го видите.</string>
+
+    <!-- 2026-10-15-03-voice-varied-acknowledgements -->
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_title">По-малко „Проверявам“ в обажданията</string>
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_summary">При обаждане гласът реагира на казаното, вместо да отговаря на всяка заявка с „Проверявам“. Заявката вече не се изпраща два пъти, ако продължите да говорите.</string>
+
+    <!-- 2026-10-15-04-smoother-streaming -->
+    <string name="settings_whatsnew_entry_smoother_streaming_title">По-плавно появяване на отговорите</string>
+    <string name="settings_whatsnew_entry_smoother_streaming_summary">Най-новият ред на отговора се появява плавно, без избледняване или премигване. Редовете вече не се разтягат отвъд текста и не се свиват обратно, а списъците и заглавията се показват направо, вместо първо да се появява самотно тире или диез.</string>
+
+    <!-- 2026-10-15-05-model-list-sheet -->
+    <string name="settings_whatsnew_entry_model_list_sheet_title">Списък с модели в панел</string>
+    <string name="settings_whatsnew_entry_model_list_sheet_summary">С включен експеримент „Нов избор на модел“ полето за съобщение се превръща в панел с модели на мястото на клавиатурата. Клавиатурата се скрива, а панелът се прибира плавно, независимо колко бързо го отваряте и затваряте.</string>
+
+    <!-- 2026-10-15-06-queued-pill-whole-title -->
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_title">Пълен текст за броя на опашката</string>
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_summary">Индикаторът над редактора на съобщения показва „2 на опашка“ изцяло, вместо „2 на опа…“. Анимираните броячи на други места също запазват всички знаци.</string>
+
+    <!-- 2026-10-16-01-plus-menu-photo-sheet -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_title">Снимки на мястото на клавиатурата</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_summary">С включен експеримент „Ново меню +“ опцията „Снимки“ разгръща менюто + в панел със снимки на мястото на клавиатурата. Задръжте +, за да видите най-новите снимки, плъзнете до някоя и отпуснете, за да я добавите.</string>
+
+    <!-- 2026-10-16-02-composer-large-text-targets -->
+    <string name="settings_whatsnew_entry_composer_large_text_targets_title">По-лесно докосване в редактора</string>
+    <string name="settings_whatsnew_entry_composer_large_text_targets_summary">Бутоните в редактора на съобщения се докосват по-лесно при едър текст.</string>
+
+    <!-- 2026-10-16-03-project-pick-haptic -->
+    <string name="settings_whatsnew_entry_project_pick_haptic_title">Лека вибрация при смяна на проект</string>
+    <string name="settings_whatsnew_entry_project_pick_haptic_summary">Изборът на друг проект за нова сесия, над полето за съобщение или във „Всички проекти“, вече се потвърждава с лека вибрация.</string>
+
+    <!-- 2026-10-16-04-fork-opens-copy -->
+    <string name="settings_whatsnew_entry_fork_opens_copy_title">Разклоняването отваря копието</string>
+    <string name="settings_whatsnew_entry_fork_opens_copy_summary">„Разклоняване“ в подробностите за сесията отново отваря копието.</string>
+
+    <!-- 2026-10-16-05-transcript-row-targets -->
+    <string name="settings_whatsnew_entry_transcript_row_targets_title">По-лесно докосване</string>
+    <string name="settings_whatsnew_entry_transcript_row_targets_summary">Заглавието в панела „Сесия“ се докосва по-лесно, а VoiceOver и Voice Control вече не достигат до бутоните на редактора, скрити по време на диктуване.</string>
+
+    <!-- 2026-10-16-06-image-previews -->
+    <string name="settings_whatsnew_entry_image_previews_title">Преглед на изображения</string>
+    <string name="settings_whatsnew_entry_image_previews_summary">Изображенията, които агентът споменава, се показват като прегледи в мрежа от плочки, а липсващите файлове са обозначени.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_1">Прегледите се показват под абзаца, който ги споменава.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_2">Докоснете изображение, за да го отворите на цял екран, и плъзгайте, за да разгледате изображенията в отговора.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_3">Изображенията извън папката на сесията се зареждат едва след докосване.</string>
+    <string name="settings_whatsnew_entry_image_previews_example">Помолете агента да покаже екранни снимки от проекта ви.</string>
+    <string name="settings_whatsnew_entry_image_previews_prompt">Покажи ми екранните снимки в този проект.</string>
+
+    <!-- 2026-10-16-07-connection-error-details -->
+    <string name="settings_whatsnew_entry_connection_error_details_title">По-ясни грешки при свързване</string>
+    <string name="settings_whatsnew_entry_connection_error_details_summary">Грешките при свързване показват кода на грешката, използвания адрес и резултата от DNS проверката, с помощ, когато име от мрежата на Tailscale се преобразува в адрес извън нея.</string>
+
+    <!-- 2026-10-16-08-outage-reconnect-delay -->
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_title">По-бързо повторно свързване</string>
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_summary">Сесиите наваксват по-бързо, когато сървърът заработи отново след прекъсване.</string>
+
+    <!-- 2026-10-17-01-every-running-subagent -->
+    <string name="settings_whatsnew_entry_every_running_subagent_title">Всички работещи субагенти</string>
+    <string name="settings_whatsnew_entry_every_running_subagent_summary">Броячът на субагенти над редактора на съобщения включва и вложените под други субагенти, както и тези в сесии с над 100 субагента, също като в TUI.</string>
+
+    <!-- 2026-10-17-02-session-view-refined-standard -->
+    <string name="settings_whatsnew_entry_session_view_refined_standard_title">По-четлив текст на отговорите</string>
+    <string name="settings_whatsnew_entry_session_view_refined_standard_summary">Заглавията от трето ниво изпъкват над удебеления текст, обикновеният текст е малко по-блед, за да подчертае удебеляването, а абзаците и блоковете с код имат малко повече пространство.</string>
+
+    <!-- 2026-10-17-03-bottom-follow-on-load -->
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_title">Изгледът остава в края</string>
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_summary">Изгледът на сесията остава в края, докато се зарежда забавено съдържание.</string>
+
+    <!-- 2026-10-17-04-drafts-stay-put -->
+    <string name="settings_whatsnew_entry_drafts_stay_put_title">Черновите се запазват</string>
+    <string name="settings_whatsnew_entry_drafts_stay_put_summary">Черновите, прикачените снимки и местоположения и чакащите за изпращане съобщения се запазват, ако приложението се затвори във фонов режим.</string>
+
+    <!-- 2026-10-18-01-themes -->
+    <string name="settings_whatsnew_entry_themes_title">Теми</string>
+    <string name="settings_whatsnew_entry_themes_summary">Изберете тема за сесиите, като Tokyo Night, Catppuccin, Dracula, Rosé Pine или GitHub, с незабавен преглед, докато разглеждате.</string>
+    <string name="settings_whatsnew_entry_themes_detail_1">Темите оцветяват преписа, съобщенията ви, кода, синтаксиса, разликите и връзките.</string>
+    <string name="settings_whatsnew_entry_themes_detail_2">„Режим“ във „Външен вид“ задава „Светлина“, „Тъмно“ или „Система“.</string>
+    <string name="settings_whatsnew_entry_themes_detail_3">Контролите запазват стандартния си облик Liquid Glass във всяка тема.</string>
+    <string name="settings_whatsnew_entry_themes_example">Отворете Настройки → Външен вид → Тема и опитайте Tokyo Night.</string>
+
+    <!-- 2026-10-18-02-return-key-sends -->
+    <string name="settings_whatsnew_entry_return_key_sends_title">Настройка на клавиша Return</string>
+    <string name="settings_whatsnew_entry_return_key_sends_summary">Изключете „Изпращане с Return“ в настройките, ако искате Return да добавя нов ред, или използвайте Command-Return и Shift-Return на физическа клавиатура.</string>
+
+    <!-- 2026-10-18-03-quote-replies -->
+    <string name="settings_whatsnew_entry_quote_replies_title">Цитиране на отговори</string>
+    <string name="settings_whatsnew_entry_quote_replies_summary">Изберете текст от отговор на асистента и докоснете „Цитиране“, за да го добавите към съобщението си като карта с цитат.</string>
+
+    <!-- 2026-10-18-04-launch-bloom -->
+    <string name="settings_whatsnew_entry_launch_bloom_title">Разгръщане при стартиране</string>
+    <string name="settings_whatsnew_entry_launch_bloom_summary">При първоначално стартиране логото на OpenCode се свива, после се разгръща и разкрива сесията ви.</string>
+
+    <!-- 2026-10-18-05-drag-to-pin -->
+    <string name="settings_whatsnew_entry_drag_to_pin_title">Плъзнете сесия, за да я закачите</string>
+    <string name="settings_whatsnew_entry_drag_to_pin_summary">Задръжте и плъзнете сесия нагоре в „Закачени“, за да я закачите на това място, или плъзнете закачена сесия надолу в „Последни“, за да я откачите.</string>
+
+    <!-- 2026-10-19-01-call-tray-colour-blend -->
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_title">По-плавен бутон за обаждане</string>
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_summary">С включен експеримент „Панел за обаждания“ бутонът за обаждане плавно преминава в червения бутон „Край“ при започване на обаждане и обратно при затваряне, без да проблясва фонът.</string>
+
+    <!-- 2026-10-19-02-optical-insets -->
+    <string name="settings_whatsnew_entry_optical_insets_title">Равномерно подравнени контроли</string>
+    <string name="settings_whatsnew_entry_optical_insets_summary">Знакът + и микрофонът в редактора на съобщения, иконите за фонова работа и опашката, както и символът за „Нова сесия“ в страничното меню вече са визуално центрирани в заоблените краища на стъклените си бутони. Иконата на черупката вече е кръг като индикатора на субагента, без мигащ курсор. Когато и двете работят, се показват една до друга.</string>
+
+    <!-- 2026-10-19-03-smart-dictation-audio -->
+    <string name="settings_whatsnew_entry_smart_dictation_audio_title">По-плавно диктуване с музика</string>
+    <string name="settings_whatsnew_entry_smart_dictation_audio_summary">Когато диктувате с пусната музика, тя остава в стерео на AirPods и не прекъсва след минута. Ако използвате само телефона, музиката остава на високоговорителя, а не на слушалката.</string>
+
+    <!-- 2026-10-19-04-interrupted-hand -->
+    <string name="settings_whatsnew_entry_interrupted_hand_title">Ръка при прекъсване</string>
+    <string name="settings_whatsnew_entry_interrupted_hand_summary">Прекъснатото изпълнение и прекъснатата черупка вече се обозначават с вдигната ръка, а спряната от вас черупка показва „Прекъснат“ вместо „Спрян“.</string>
+
+    <!-- 2026-10-19-05-autocomplete-fast-scroll -->
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_title">По-бързо автодовършване</string>
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_summary">С включен експеримент „Автодовършване в редактора на съобщения“ предложенията следват темпото ви на писане, а плъзгането превърта списъка, без да избира ред.</string>
+
+    <!-- 2026-10-19-06-experimental-groups -->
+    <string name="settings_whatsnew_entry_experimental_groups_title">Групирани експерименти</string>
+    <string name="settings_whatsnew_entry_experimental_groups_summary">Експериментите в Настройки → Експериментален са групирани, а за обажданията има единна настройка „Стил на обаждане“.</string>
+
+    <!-- 2026-10-19-07-model-picker-standard-sheet -->
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_title">Избор на модел в стандартен панел</string>
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_summary">С включен експеримент „Нов избор на модел“ докосването на модела в полето за съобщение отваря стандартен панел, в който всеки модел има меню за нивото на мислене. Предишният интерфейс вече е „Персонализиран избор на модел“ в Настройки › Експериментален.</string>
+
+    <!-- 2026-10-19-08-problem-reports-reach-session -->
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_title">Докладите стигат до сесията</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_summary">„Докладване за проблем“ вече изпраща бележката ви и в сесията, от която докладвате, с прикачен пълен доклад, който агентът да прочете.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_1">Съобщението започва с ред за докладвания проблем, бележката ви, идентификатора на доклада и връзка към качения запис за проследяване.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_2">Данните за устройството, компилацията, екрана, хронологията и регистрационният файл на приложението пристигат като прикачен файл, както ако го прикачите сами.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_3">От „Начало“ докладът се изпраща в последната ви сесия.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_4">Ако качването е неуспешно, бележката и обобщението все пак пристигат с указание за това. След това „Опитайте отново“ изпраща само връзката към записа за проследяване.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_5">При получаване се показва потвърждение „Изпратено в сесията“.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_example">Отворете менюто на сесията, изберете „Докладване за проблем“, добавете бележка и докоснете „Изпрати“</string>
+
+    <!-- 2026-10-19-09-team-scrawl-feedback -->
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_title">Екипна обратна връзка със Scrawl</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_summary">Присъединете се към Team Feedback с личната си връзка, за да изпращате записи от Scrawl с жест с три пръста и диагностика със скрити лични данни към общата опашка в таблото „Проблеми“.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_1">Отворете връзката си opencode://team/join, за да прегледате какви данни се събират и да дадете съгласие.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_2">Интерактивно ръководство в три стъпки показва как да задържите три пръста, да говорите и рисувате и да изпратите пробен клип в тестовата секция.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_3">Към всеки запис се прикачват същите хронология, регистрационен файл на приложението и диагностика от Motion Watch със скрити лични данни, както при „Докладване за проблем“.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_4">Повторете ръководството или напуснете Team Feedback по всяко време от Настройки › За разработчици.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_example">Отворете Настройки › За разработчици, за да проверите състоянието си в Team Feedback или да повторите ръководството.</string>
+
+    <!-- 2026-10-19-10-scrawl-faster-start -->
+    <string name="settings_whatsnew_entry_scrawl_faster_start_title">По-бързо стартиране на Scrawl</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_summary">Контролите на Scrawl се появяват, докато микрофонът и записът се стартират.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_1">Докосванията на „Рисуване“, „Изпрати“ и „Отхвърляне“ се запазват, докато записът се подготвя.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_2">Задържането с три пръста подготвя наслагвания панел, без да включва микрофона предварително.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_3">Отстранен е срив при рестартиране на микрофона на Scrawl по време на смяна на аудиоустройството.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_example">На сдвоено устройство задръжте три пръста, за да започнете запис</string>
+
+    <!-- 2026-10-20-01-call-tray-docks-in-drawer -->
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_title">Панел за обаждания в страничното меню</string>
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_summary">С включен експеримент „Панел за обаждания“ отварянето на страничното меню по време на обаждане премества панела под „Нова сесия“ заедно с индикатора за ниво, „Заглушаване“ и „Край“. Затварянето на менюто го връща обратно.</string>
+
+    <!-- 2026-10-20-02-markdown-streams-smoothly -->
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_title">По-плавно появяване на отговорите</string>
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_summary">Дългите отговори се показват без забавяне, докато пристигат, а недовършените удебелен текст, код и връзки са форматирани, вместо да се виждат като необработен Markdown.</string>
+
+    <!-- 2026-10-20-04-return-newline-default -->
+    <string name="settings_whatsnew_entry_return_newline_default_title">Return добавя нов ред</string>
+    <string name="settings_whatsnew_entry_return_newline_default_summary">Return вече добавя нов ред по подразбиране. Включете „Изпращане с Return“ в Настройки › Сесии, за да изпращате с Return, или използвайте Ctrl+Enter на физическа клавиатура.</string>
+
+    <!-- 2026-10-20-05-drawer-session-alignment -->
+    <string name="settings_whatsnew_entry_drawer_session_alignment_title">Подравнени контроли в страничното меню</string>
+    <string name="settings_whatsnew_entry_drawer_session_alignment_summary">„Търсене“, „Нова сесия“ и „Настройки“ са подравнени със заглавната част на сесията и полето за съобщение на телефони и таблети.</string>
+
+    <!-- 2026-10-20-06-call-tray-switch-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_title">По-стабилни контроли за обаждания</string>
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_summary">Звуковата вълна на обаждането продължава да се движи при смяна на сесии, а контролите остават на същото ниво при отваряне на списъка със сесии.</string>
+
+    <!-- 2026-10-20-07-voice-delegation-visible-on-admission -->
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_title">Гласовите съобщения се появяват веднага</string>
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_summary">Съобщенията, изпратени от „Глас“ в сесията, се появяват веднага щом сървърът ги приеме, дори когато актуализациите на сесията се бавят.</string>
+
+    <!-- 2026-10-20-08-inline-image-links -->
+    <string name="settings_whatsnew_entry_inline_image_links_title">Преглед на изображения от връзки</string>
+    <string name="settings_whatsnew_entry_inline_image_links_summary">Включете „Преглед на изображения от връзки“ в Настройки › Експериментален › Препис, за да виждате изображенията от връзки в отговорите. Докоснете миниатюра, за да я отворите на цял екран и да я увеличите.</string>
+
+    <!-- 2026-10-20-09-smooth-link-preview-arrival -->
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_title">По-плавен преглед на връзки</string>
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_summary">Визуализациите на връзки се появяват постепенно при зареждане, а редовете под тях се преместват плавно, когато височината на заглавието се промени.</string>
+
+    <!-- 2026-10-20-10-subagent-capsule-press -->
+    <string name="settings_whatsnew_entry_subagent_capsule_press_title">Заоблен панел за активност</string>
+    <string name="settings_whatsnew_entry_subagent_capsule_press_summary">Панелът за субагента и черупката запазва заоблените си краища, докато го натискате.</string>
+
+    <!-- 2026-10-20-11-advanced-settings-open -->
+    <string name="settings_whatsnew_entry_advanced_settings_open_title">По-лесни разширени настройки</string>
+    <string name="settings_whatsnew_entry_advanced_settings_open_summary">Експериментите в Настройки › Експериментален са в разгънати групи, изборът на модел е обединен в една настройка и можете да докоснете навсякъде по реда на опция, за да я промените.</string>
+
+    <!-- 2026-10-20-12-revert-to-here -->
+    <string name="settings_whatsnew_entry_revert_to_here_title">Възстановяване на съобщението</string>
+    <string name="settings_whatsnew_entry_revert_to_here_summary">Задръжте свое съобщение и изберете „Възстановяване на съобщението“, за да се върнете до него и да го редактирате.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_1">Текстът, снимките и файловете от съобщението се връщат в полето за съобщение.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_2">„Отмяна“ връща репликите и промените им по файловете, докато не изпратите ново съобщение.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_3">Опцията е налична, когато агентът не работи.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_example">Задръжте по-рано изпратено съобщение и изберете „Възстановяване на съобщението“.</string>
+
+    <!-- 2026-10-20-13-drag-from-transcript -->
+    <string name="settings_whatsnew_entry_drag_from_transcript_title">Плъзгане от сесията</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_summary">Задръжте и плъзнете код, изображения, файлове, връзки и съобщения от сесията в други приложения.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_1">Блоковете с код се прехвърлят като текст с посочен език.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_2">Изображенията и файловете, създадени от агента, се прехвърлят като файлове.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_3">Пуснете ги в полето за съобщение, за да ги прикачите или поставите.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_4">Превъртането, избирането на текст и менютата работят както преди.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_example">Изберете ред код в отговор, после задръжте избраното и плъзнете блока в Notes.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_prompt">Напишете кратка функция на Swift, която обръща низ, в блок с код.</string>
+
+    <!-- 2026-10-20-14-tuning-glass-tap-targets -->
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_title">По-лесно настройване</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_summary">Свитият бутон за настройване и страничното езиче имат по-големи зони за докосване.</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_detail_1">Стъклените им повърхности запазват размера си.</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_example">Свийте панела за настройване, после докоснете близо до ръба на бутона или езичето му</string>
+
+    <!-- 2026-10-20-15-new-session-project-continuity -->
+    <string name="settings_whatsnew_entry_new_session_project_continuity_title">По-стабилен избор на проект</string>
+    <string name="settings_whatsnew_entry_new_session_project_continuity_summary">Последните папки запазват местата си при избор на проект, името в заглавката се сменя плавно, а панелът „Проект“ показва по-ясни пътища до папките.</string>
+
+    <!-- 2026-10-20-16-simple-session-loading -->
+    <string name="settings_whatsnew_entry_simple_session_loading_title">По-ненатрапчиво зареждане на сесии</string>
+    <string name="settings_whatsnew_entry_simple_session_loading_summary">Малко неподвижно лого се появява плавно само ако зареждането на сесията се забави, след което отстъпва място на съобщенията.</string>
+
+    <!-- 2026-10-20-17-voice-route-consistency -->
+    <string name="settings_whatsnew_entry_voice_route_consistency_title">Поправки в гласовата връзка</string>
+    <string name="settings_whatsnew_entry_voice_route_consistency_summary">Grok продължава да използва вашия xAI ключ, когато сървърът ви обработва обажданията, а Gemini се представя правилно.</string>
+
+    <!-- 2026-10-20-18-call-tray-edge-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_title">Движение на панела за обаждания</string>
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_summary">Звуковата вълна в панела за обаждания следва заобления му ръб при отваряне и преместване във или извън страничното меню.</string>
+
+    <!-- 2026-10-21-01-call-tray-keyboard-return -->
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_title">Връщане на панела за обаждания</string>
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_summary">Панелът за обаждания остава видим, когато страничното меню се затваря и клавиатурата се връща.</string>
+
+    <!-- 2026-10-21-02-drawer-title-fade -->
+    <string name="settings_whatsnew_entry_drawer_title_fade_title">По-пълни заглавия на сесии</string>
+    <string name="settings_whatsnew_entry_drawer_title_fade_summary">Дългите заглавия на сесии в страничното меню стигат до ръба и избледняват, вместо да се съкращават с многоточие.</string>
+
+    <!-- 2026-10-21-03-call-sounds-from-the-tap -->
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_title">По-бързи звуци при обаждане</string>
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_summary">Сигналите за свързване започват с първото движение на анимацията, вместо няколко секунди след докосването.</string>
+
+    <!-- 2026-10-21-04-calm-wireframe-launch -->
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_title">По-спокойно зареждане</string>
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_summary">Кешираните сесии се отварят веднага. При по-бавно зареждане се показват пулсиращи балончета, които плавно отстъпват място на съобщенията ви.</string>
+
+    <!-- 2026-10-21-05-request-dictation-last-line -->
+    <string name="settings_whatsnew_entry_request_dictation_last_line_title">Вижте края на диктовката</string>
+    <string name="settings_whatsnew_entry_request_dictation_last_line_summary">В iOS 26 след спиране на дълга диктовка в полето за отговор на чакаща заявка се виждат последните редове, а не текст от средата.</string>
+
+    <!-- 2026-10-21-06-first-run-pairing-fixes -->
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_title">По-ясно първо сдвояване</string>
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_summary">При поставяне от празен клипборд се появява съобщение до „Поставяне“, а настройката вече не обещава отдалечен достъп за половин минута.</string>
+
+    <!-- 2026-10-21-07-welcome-pairing-copy -->
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_title">Сдвояване от приложението OpenCode</string>
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_summary">Началният екран ви насочва към Настройки → Сдвояване в OpenCode на компютъра или към /pair в терминала и показва командата за инсталиране, ако още нямате OpenCode.</string>
+
+    <!-- 2026-10-21-08-session-id-links -->
+    <string name="settings_whatsnew_entry_session_id_links_title">Връзки към сесии</string>
+    <string name="settings_whatsnew_entry_session_id_links_summary">Идентификаторът на сесия в отговор се показва като нейното заглавие. Докоснете го, за да отворите сесията.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_1">Идентификаторът на субагент отваря сесията му върху текущата, а „Назад“ ви връща.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_2">Задръжте заглавието, за да копирате идентификатора.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_3">Идентификатор, непознат за този сървър, се показва съкратено.</string>
+    <string name="settings_whatsnew_entry_session_id_links_example">Помолете агента да посочи друга сесия по идентификатора ѝ, после докоснете заглавието.</string>
+    <string name="settings_whatsnew_entry_session_id_links_prompt">Избройте петте ми последни сесии в OpenCode с техните идентификатори.</string>
+
+    <!-- 2026-10-21-10-ipad-multiple-windows -->
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_title">Няколко прозореца на таблет</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_summary">На таблет можете да отваряте сесии в отделни прозорци и да държите два един до друг.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_1">Задръжте сесия в страничното меню и изберете „Отваряне в нов прозорец“.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_2">Всеки прозорец има своя сесия, странично меню и поле за съобщение.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_3">Закачените и прочетените сесии и сървърите ви са едни и същи във всички прозорци.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_4">Прозорците се отварят отново със същата сесия.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_example">Задръжте сесия в страничното меню, изберете „Отваряне в нов прозорец“ и го поставете до първия.</string>
+
+    <!-- 2026-10-21-11-plain-launch -->
+    <string name="settings_whatsnew_entry_plain_launch_title">Изчистено стартиране</string>
+    <string name="settings_whatsnew_entry_plain_launch_summary">OpenCode се отваря с изчистен екран и преминава направо към сесията ви, щом е готова, без анимация за зареждане.</string>
+
+    <!-- 2026-10-21-12-breath-ping-call-sounds -->
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_title">По-меки звуци при обаждане</string>
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_summary">Свързването, сигналите и краят на обажданията звучат с меки, ефирни тонове, които не пречат на разговора.</string>
+
+    <!-- 2026-10-21-13-smoother-session-list -->
+    <string name="settings_whatsnew_entry_smoother_session_list_title">По-плавен списък със сесии</string>
+    <string name="settings_whatsnew_entry_smoother_session_list_summary">Списъкът със сесии в страничното меню се превърта плавно, докато сесиите работят. Задържането върху сесия отваря менюто ѝ, без да променя размера на реда.</string>
+
+    <!-- 2026-10-22-01-whats-new-actions -->
+    <string name="settings_whatsnew_entry_whats_new_actions_title">Отваряне и пробване от „Какво ново“</string>
+    <string name="settings_whatsnew_entry_whats_new_actions_summary">Всяка страница в „Какво ново“ има бутон, който отваря съответната настройка, например „Теми“, или започва нова сесия с готова подкана за проба.</string>
+
+    <!-- 2026-10-22-02-project-icons-current-discovery -->
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_title">Поправки на иконите на проекти</string>
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_summary">При включени икони на проекти страничното меню показва и иконите, които сървърът намира в пакети на Icon Composer.</string>
+
+    <!-- 2026-10-22-03-new-divider-off-page -->
+    <string name="settings_whatsnew_entry_new_divider_off_page_title">„Ново“ само когато е нужно</string>
+    <string name="settings_whatsnew_entry_new_divider_off_page_summary">При включен експеримент „Разделител за нови съобщения“ маркерът „Ново“ обозначава полученото само когато то не се побира на екрана.</string>
+
+    <!-- 2026-10-22-04-catch-up-all-caught-up-row -->
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_title">Всичко е прочетено</string>
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_summary">След прочитане на последната сесия в „Наваксване“ се връщате направо в страничното меню, където „Наваксване“ се отбелязва като „Всичко е прочетено“.</string>
+
+    <!-- 2026-10-23-01-session-mentions -->
+    <string name="settings_whatsnew_entry_session_mentions_title">Споменаване на сесии</string>
+    <string name="settings_whatsnew_entry_session_mentions_summary">При включен експеримент „Автодовършване в редактора на съобщения“ въведете @, за да споменете друга сесия по заглавие, както в настолното приложение.</string>
+
+    <!-- 2026-10-23-02-gpt-live-own-key -->
+    <string name="settings_whatsnew_entry_gpt_live_own_key_title">Ключове за GPT-Live</string>
+    <string name="settings_whatsnew_entry_gpt_live_own_key_summary">Обажданията с GPT-Live могат да използват вашия OpenAI ключ, OpenAI ключа на сървъра или връзката му с OpenCode Console.</string>
+
+    <!-- 2026-10-23-03-pair-opens-drawer -->
+    <string name="settings_whatsnew_entry_pair_opens_drawer_title">Продължете оттам, докъдето стигнахте</string>
+    <string name="settings_whatsnew_entry_pair_opens_drawer_summary">След сдвояване с нов компютър страничното меню показва последните му сесии, за да изберете една, вместо да оставате в празна сесия.</string>
+
+    <!-- 2026-10-23-04-voice-server-picker -->
+    <string name="settings_whatsnew_entry_voice_server_picker_title">Изберете гласов сървър</string>
+    <string name="settings_whatsnew_entry_voice_server_picker_summary">В Настройки › Глас › Гласов доставчик изберете през кой запазен сървър да минават обажданията или използвайте своя OpenAI акаунт на този телефон.</string>
+
+    <!-- 2026-10-24-01-living-orb-floats -->
+    <string name="settings_whatsnew_entry_living_orb_floats_title">Living Orb плава над всеки екран</string>
+    <string name="settings_whatsnew_entry_living_orb_floats_summary">Living Orb вече е плаващият стил на обаждане в Настройки › Експериментален › Обаждания. Сферата е по-голяма, стои над настройките и всеки друг екран и се движи с двата гласа — всеки в свой цвят, когато говорите едновременно. Докоснете я, за да се разгъне в карта, плъзнете нагоре за цялото обаждане и преписа му и надолу, за да я свиете. „Сфера“ под „Стил на обаждане“ променя вида ѝ.</string>
+
+    <!-- 2026-10-24-02-new-messages-divider-on -->
+    <string name="settings_whatsnew_entry_new_messages_divider_on_title">Разделител за нови съобщения</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_summary">Когато отговор, получен във ваше отсъствие, е по-дълъг от екрана, сесията се отваря при разделителя „Ново“ в началото му.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_1">Ако отговорът се побира на екрана, сесията се отваря в края му, без разделител.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_2">Отговорите, които се изписват, докато ги гледате, никога не се маркират.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_3">Прочитането до края премахва разделителя.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_4">Изключете го в Настройки › Сесии.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_example">Поискайте дълъг отговор, преминете в друго приложение, докато завърши, и се върнете.</string>
+
+    <!-- 2026-10-24-03-composer-keyboard-morph -->
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_title">Редакторът следва клавиатурата</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_summary">Контролите на редактора на съобщения се отварят с клавиатурата и я следват, докато я плъзгате нагоре и надолу.</string>
+
+    <!-- 2026-10-24-04-composer-photo-viewer -->
+    <string name="settings_whatsnew_entry_composer_photo_viewer_title">Снимки от редактора на цял екран</string>
+    <string name="settings_whatsnew_entry_composer_photo_viewer_summary">Докоснете снимка в редактора на съобщения, за да я видите на цял екран. Плъзгайте между снимките и премахвайте ненужните преди изпращане.</string>
+
+    <!-- 2026-10-24-05-plus-menu-photo-picker -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_title">Нов избор на снимки</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_summary">Включете „Ново меню +“ в Настройки › Експериментален › Редактор на съобщения, за да избирате до 8 последни снимки направо от менюто +, да разглеждате „Всички снимки“ и да ги виждате как прелитат в редактора, а после в сесията.</string>
+
+    <!-- 2026-10-24-06-project-icons-lit -->
+    <string name="settings_whatsnew_entry_project_icons_lit_title">Осветени икони на проекти</string>
+    <string name="settings_whatsnew_entry_project_icons_lit_summary">При включени икони на проекти иконите в страничното меню улавят светлината: мек отблясък отгоре, фин стъклен ръб и нежна сянка.</string>
+
+    <!-- 2026-10-24-07-session-live-activity -->
+    <string name="settings_whatsnew_entry_session_live_activity_title">Сесии с обновяване на живо</string>
+    <string name="settings_whatsnew_entry_session_live_activity_summary">Включете „Сесии с обновяване на живо“ в Настройки › Експериментален › Странично меню, за да следите изпратена задача в обновяващо се известие, дори на заключения екран, докато приключи или се наложи да отговорите.</string>
+
+    <!-- 2026-10-24-08-sign-in-failed-edit-server -->
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_title">Помощ при отказан вход</string>
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_summary">Когато сървърът отхвърли паролата ви, менюто му в страничното меню предлага „Редактиране на сървъра…“ вместо безполезното „Опитайте отново“. Началният екран вече насочва към opencode pair --remote в терминала.</string>
+
+    <!-- 2026-10-25-01-voice-app-screenshot -->
+    <string name="settings_whatsnew_entry_voice_app_screenshot_title">Екранни снимки с глас</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_summary">По време на гласово обаждане кажете „виж това“ и екранна снимка на приложението се изпраща в сесия заедно с коментара ви.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_1">Изпраща се само екранът на самото приложение, заедно с името му и състоянието на обаждането и приложението.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_2">Поискайте да се добавят и регистрационните файлове на обаждането или последните от приложението; адресите и данните за вход се скриват.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_3">Не се прави снимка, докато се вижда екран за вход или поле за парола.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_example">В гласово обаждане кажете „направи екранна снимка, този ред не е подравнен“</string>
+
+    <!-- 2026-10-25-02-voice-background-results -->
+    <string name="settings_whatsnew_entry_voice_background_results_title">Резултати от фонови задачи в обаждания</string>
+    <string name="settings_whatsnew_entry_voice_background_results_summary">Когато сесия, на която сте възложили задача по време на обаждане, започне работа на заден план, ще чуете резултата веднага щом е готов, дори вече да сте преминали към друго.</string>
+
+    <!-- 2026-10-25-03-sound-effects-experiment -->
+    <string name="settings_whatsnew_entry_sound_effects_experiment_title">Звукови ефекти</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_summary">Експеримент, който добавя тихи звуци към вибрациите за отговори, заявки, „Наваксване“ и неуспешно изпращане.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_1">В безшумен режим и режим на вибрация звуците са заглушени, а музиката продължава да свири.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_2">Не звучат по време на обаждане, диктовка или възпроизвеждане на медия, нито когато приложението е на заден план.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_3">Под превключвателя са „Сила на звука“ и незадължителният „Звук при изпращане“.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_example">Включете „Звукови ефекти“ в Настройки › Експериментален и изчакайте отговор в друга сесия</string>
+
+    <!-- 2026-10-25-90-session-title-first-prompt -->
+    <string name="settings_whatsnew_entry_session_title_first_prompt_title">Заглавия от първата подкана</string>
+    <string name="settings_whatsnew_entry_session_title_first_prompt_summary">Сесиите без заглавие вече показват първата си подкана на един ред, докато сървърът им даде име.</string>
+
+    <!-- 2026-10-26-01-settings-sessions-page -->
+    <string name="settings_whatsnew_entry_settings_sessions_page_title">Настройки на сесиите</string>
+    <string name="settings_whatsnew_entry_settings_sessions_page_summary">В настройките има нова страница „Сесии“, където „Разделител за нови съобщения“ е над „Изпращане с клавиша за нов ред“, а „Разширено“ вече е разделено на два реда: „Експериментален“ и „За разработчици“.</string>
+
+    <!-- 2026-10-26-02-project-icons-default -->
+    <string name="settings_whatsnew_entry_project_icons_default_title">Иконите на проекти са включени</string>
+    <string name="settings_whatsnew_entry_project_icons_default_summary">Иконите на проектите вече се показват до заглавията на сесиите. Изключете ги в Настройки › Експериментален.</string>
+
+    <!-- 2026-10-26-03-plus-menu-over-keyboard -->
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_title">Снимки над клавиатурата</string>
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_summary">При включено „Ново меню +“ менюто + се отваря над клавиатурата, а „Снимки“ се разгъва от него в панел до краищата на екрана и после се свива обратно, без да скрива клавиатурата.</string>
+
+    <!-- 2026-10-26-04-living-orb-connect-motion -->
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_title">Анимация на сферата при свързване</string>
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_summary">Когато „Жива сфера“ е включена, бутонът за обаждане се издига в сферата и се завърта при свързване, а след края се връща на мястото си. Незабавното повторно набиране започва ново обаждане, без да засяда.</string>
+
+    <!-- 2026-10-26-05-living-orb-presets -->
+    <string name="settings_whatsnew_entry_living_orb_presets_title">Готови стилове и „Изискан“ за сферата</string>
+    <string name="settings_whatsnew_entry_living_orb_presets_summary">„Сфера“ под „Стил на обаждането“ в Настройки › Експериментален › Обаждания вече се отваря със стил „Изискан“, по-голям преглед на живо и ред с готови стилове. Запазвайте свои, преименувайте ги и копирайте или поставяйте настройки за споделяне.</string>
+
+    <!-- 2026-10-26-06-send-after-a-pause -->
+    <string name="settings_whatsnew_entry_send_after_a_pause_title">По-плавно изпращане след пауза</string>
+    <string name="settings_whatsnew_entry_send_after_a_pause_summary">Съобщение, изпратено след пауза, вече се издига направо от редактора на съобщения в балончето си, без първо да се спуска към редактора под часа си.</string>
+
+    <!-- 2026-10-27-01-steadier-round-trip -->
+    <string name="settings_whatsnew_entry_steadier_round_trip_title">По-стабилно време за отговор</string>
+    <string name="settings_whatsnew_entry_steadier_round_trip_summary">Стойността в ms в картата на връзката вече е средна от последните няколко проверки, така че един бавен отговор я променя леко, вместо рязко.</string>
+
+    <!-- 2026-10-27-02-drawer-drag-follows-finger -->
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_title">Плъзгането в менюто следва пръста</string>
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_summary">Сесията, която плъзгате в страничното меню, вече стои точно под пръста ви, минава над заглавката, превърта списъка при краищата му и се намества, когато я пуснете.</string>
+
+    <!-- 2026-10-27-03-inbox-sidebar-experiment -->
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_title">Входяща кутия в страничното меню</string>
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_summary">Включете „Входяща кутия“ в Настройки › Експериментален › Странично меню, за да виждате сесиите като входяща поща: първо тези, които чакат отговор от вас, после непрочетените, всяка с проекта и последния отговор. Плъзнете сесия, за да я отбележите като прочетена или да я архивирате.</string>
+
+    <!-- 2026-10-28-01-first-pairing-ready-session -->
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_title">Готова първа сесия</string>
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_summary">Сдвояването с първия ви компютър вече отваря нова сесия в последния му проект с няколко въпроса, които да опитате. Едно докосване потвърждава връзката. При нова инсталация „Какво ново“ е отбелязано като прочетено.</string>
+
+    <!-- 2026-10-28-02-welcome-preview -->
+    <string name="settings_whatsnew_entry_welcome_preview_title">Преглед на началното представяне</string>
+    <string name="settings_whatsnew_entry_welcome_preview_summary">Новото представяне при първо стартиране показва как OpenCode работи на лаптоп, управляван от телефон, и след това ги сдвоява в една стъпка. Включете „Преглед на началното представяне“ в Настройки › Експериментален › Странично меню и докоснете „Показване на представянето“. Затварянето ви връща обратно.</string>
+
+    <!-- 2026-10-29-01-composer-text-selection -->
+    <string name="settings_whatsnew_entry_composer_text_selection_title">Избор на текст в редактора</string>
+    <string name="settings_whatsnew_entry_composer_text_selection_summary">Плъзгането на маркерите за избор или лупата в чернова вече не скрива клавиатурата и не мести редактора на съобщения нагоре или надолу.</string>
+
+    <!-- 2026-10-30-01-voice-waits-for-you -->
+    <string name="settings_whatsnew_entry_voice_waits_for_you_title">Обажданията изчакват да приключите</string>
+    <string name="settings_whatsnew_entry_voice_waits_for_you_summary">Гласовият агент вече не ви прекъсва: изчаква да приключите, преди да съобщи новостите, и спира да говори, ако го прекъснете.</string>
+
+    <!-- 2026-10-30-02-wisp-call-sounds -->
+    <string name="settings_whatsnew_entry_wisp_call_sounds_title">Обаждания със звуците на Wisp</string>
+    <string name="settings_whatsnew_entry_wisp_call_sounds_summary">Обажданията започват с лек дъх на фона на тих трептящ звук при свързване, прозвъняват при връзка, потракват леко, когато агентът преглежда, отваря или изпълнява нещо, и завършват с въздишка. Изберете друг набор в Настройки › Глас › Звуци на обажданията.</string>
+
+    <!-- 2026-10-30-03-wisp-orb -->
+    <string name="settings_whatsnew_entry_wisp_orb_title">Гласовата сфера вече е Wisp</string>
+    <string name="settings_whatsnew_entry_wisp_orb_summary">Сферата на обаждането вече изглежда като Wisp: стъклена леща над светещи точки, които реагират на двата гласа, със състоянията на Wisp за свързване, слушане, работа, говорене и изчакване на вас. Това е единственият стил, затова старите стилове и настройките за сферата са премахнати.</string>
+
+    <!-- 2026-10-31-01-encrypted-notification-previews -->
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_title">Шифровани прегледи на известията</string>
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_summary">С обновения плъгин за известия и HTTPS връзка сървърът шифрова заглавието и съобщението за това устройство. Ако прегледът не може да се отвори, известието показва само „Нова активност“.</string>
+
+    <!-- 2026-10-31-02-move-session-folder-gone -->
+    <string name="settings_whatsnew_entry_move_session_folder_gone_title">Сесиите остават и без папката си</string>
+    <string name="settings_whatsnew_entry_move_session_folder_gone_summary">Когато папката на сесия липсва, например след премахване на работно пространство, при неуспешно изпращане приложението предлага да я премести в папката на проекта и да изпрати отново.</string>
+
+    <!-- 2026-10-31-03-notification-plugin-setup -->
+    <string name="settings_whatsnew_entry_notification_plugin_setup_title">Настройване на известия с OpenCode</string>
+    <string name="settings_whatsnew_entry_notification_plugin_setup_summary">В Настройки → Известия докоснете „Настройване с OpenCode“, за да прегледате подкана за инсталиране на липсващия плъгин за известия.</string>
+
+    <!-- 2026-11-01-01-call-card-takes-over -->
+    <string name="settings_whatsnew_entry_call_card_takes_over_title">Картата на обаждането заема долната част</string>
+    <string name="settings_whatsnew_entry_call_card_takes_over_summary">В „Жива сфера“ картата на обаждането вече запълва долната част на екрана над полето за съобщения, с равни отстояния отвсякъде, така че клавиатурата не я притиска. Свийте я обратно до сфера, за да пишете.</string>
+
+    <!-- 2026-11-01-01-screenshot-shutter -->
+    <string name="settings_whatsnew_entry_screenshot_shutter_title">Затвор при екранна снимка</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_summary">Когато приложението прави своя екранна снимка за сесия, екранът проблясва и се чува щракване на затвор.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_1">Проблясъкът е след заснемането, така че никога не попада в снимката.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_2">„Намаляване на движението“ го заменя с леко затъмняване, а „Приглушаване на мигащите светлини“ го изключва.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_3">По време на обаждане щракването се възпроизвежда през него, така че агентът не го чува.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_example">В гласово обаждане кажете „виж това“</string>
+
+    <!-- 2026-11-01-01-voice-says-whats-running -->
+    <string name="settings_whatsnew_entry_voice_says_whats_running_title">Обажданията съобщават какво още се изпълнява</string>
+    <string name="settings_whatsnew_entry_voice_says_whats_running_summary">Когато заявката ви отнема повече време, гласовият агент казва по какво работи, вместо да мълчи.</string>
+
+    <!-- 2026-11-01-02-living-orb-default -->
+    <string name="settings_whatsnew_entry_living_orb_default_title">Обажданията плават в сферата</string>
+    <string name="settings_whatsnew_entry_living_orb_default_summary">Гласовите обаждания вече плават в „Жива сфера“ за всички, над всеки екран, а полето за съобщения остава свободно за вас.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_1">Докоснете сферата, за да я разгънете в карта на обаждането, и плъзнете нагоре за целия изглед на обаждането и преписа му.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_2">Преместете сферата където искате — тя остава на място при смяна на сесии или отваряне на настройките.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_3">Започвайте обаждане и от списъка със сесии чрез бутона до настройките.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_4">„Панел“ е премахнат: ако сте го използвали, обажданията ви също вече плават в сферата.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_5">Изключете я в Настройки › Експериментален › Обаждания › Жива сфера.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_example">Започнете обаждане, после отворете списъка със сесии: сферата ви следва</string>
+
+    <!-- 2026-11-01-02-quicker-send -->
+    <string name="settings_whatsnew_entry_quicker_send_title">По-бързо изпращане</string>
+    <string name="settings_whatsnew_entry_quicker_send_summary">Изпратеното съобщение вече се издига в балончето си заедно със списъка, вместо първо да изчаква в редактора.</string>
+
+    <!-- 2026-11-01-02-share-screen-with-agents -->
+    <string name="settings_whatsnew_entry_share_screen_with_agents_title">Споделяне на екрана с агенти</string>
+    <string name="settings_whatsnew_entry_share_screen_with_agents_summary">Включете „Споделяне на екрана с агенти“ в Настройки › Експериментален › Обаждания и по време на обаждане агентът може да поиска да види приложението. Докоснете „Споделяне“, за да му изпратите снимка, или „Не сега“.</string>
+
+    <!-- 2026-11-01-03-audio-in-calls -->
+    <string name="settings_whatsnew_entry_audio_in_calls_title">Аудио в обажданията</string>
+    <string name="settings_whatsnew_entry_audio_in_calls_summary">Включете „Аудио в обажданията“ в Настройки › Експериментален › Обаждания и по време на обаждане агентът може да ви пуска музика или клип. Звукът се намалява, когато някой от вас говори. Можете да го поставите на пауза или да го спрете над редактора на съобщения.</string>
+
+    <!-- 2026-11-01-03-open-links-from-calls -->
+    <string name="settings_whatsnew_entry_open_links_from_calls_title">Отваряне на връзки от обаждания</string>
+    <string name="settings_whatsnew_entry_open_links_from_calls_summary">Включете „Отваряне на връзки от обаждания“ в Настройки › Експериментален › Обаждания и по време на обаждане агентът може да предложи връзка, например за пътуване с Uber. Докоснете „Отворете“, за да я отворите в съответното приложение, или „Не сега“.</string>
+
+    <!-- 2026-11-02-01-fold-questions -->
+    <string name="settings_whatsnew_entry_fold_questions_title">Свиване на въпросите настрана</string>
+    <string name="settings_whatsnew_entry_fold_questions_summary">Плъзнете въпрос надолу, за да го свиете в малка лента над редактора на съобщения, и я докоснете, за да го върнете. При неуспешно изпращане на отговор вече се изчаква да изберете „Повторен опит“.</string>
+
+    <!-- 2026-11-02-01-steadier-following -->
+    <string name="settings_whatsnew_entry_steadier_following_title">По-стабилно следване на отговора</string>
+    <string name="settings_whatsnew_entry_steadier_following_summary">Постъпващият отговор остава закрепен долу, без „Работи“ да подскача, и можете да плъзгате списъка отвсякъде над редактора на съобщения.</string>
+
+    <!-- 2026-11-02-40-model-display-names -->
+    <string name="settings_whatsnew_entry_model_display_names_title">Имена на моделите</string>
+    <string name="settings_whatsnew_entry_model_display_names_summary">Редакторът на съобщения запазва имената на моделите, докато списъкът се зарежда или връзката се възстановява.</string>
+
+    <!-- 2026-11-02-41-all-experiments -->
+    <string name="settings_whatsnew_entry_all_experiments_title">Всички експерименти</string>
+    <string name="settings_whatsnew_entry_all_experiments_summary">Един превключвател най-горе в Настройки › Експериментален включва всички експерименти, включително новите, щом се появят.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_1">Изключете отделен експеримент, ако не го искате. Той ще остане изключен и занапред.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_2">Изключването на „Всички експерименти“ връща предишните настройки на превключвателите.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_3">Експериментите, които изискват разрешение, се включват отделно.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_4">Автодовършването, панелът за снимки в менюто „+“, новото превключване между сървъри и иконите на проектите вече са включени за всички.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_5">„Единен избор“ и „Жив индикатор“ вече са обикновени превключватели, а „Панел за обаждания“ е премахнат.</string>
+    <string name="settings_whatsnew_entry_all_experiments_example">Отворете Настройки › Експериментален и включете „Всички експерименти“</string>
+
+    <!-- 2026-11-03-01-search-all-sessions -->
+    <string name="settings_whatsnew_entry_search_all_sessions_title">Намерете по-стари сесии</string>
+    <string name="settings_whatsnew_entry_search_all_sessions_summary">Търсенето в страничното меню вече обхваща всички сесии, не само последните. Превъртането до края зарежда по-стари сесии.</string>
+
+    <!-- 2026-11-03-01-voice-open-session -->
+    <string name="settings_whatsnew_entry_voice_open_session_title">Смяна на сесии с глас</string>
+    <string name="settings_whatsnew_entry_voice_open_session_summary">Когато помолите гласовия агент да отвори сесия, страничното меню вече се затваря, а обаждането продължава.</string>
+
+    <!-- 2026-11-03-02-orb-divider-image-links -->
+    <string name="settings_whatsnew_entry_orb_divider_image_links_title">Три експеримента вече за всички</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_summary">Живият индикатор, разделителят „Ново“ и прегледът на връзки към изображения вече са включени за всички, без превключвател.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_1">Всяко обаждане се показва в плаващия жив индикатор. Старата лента за обаждания е премахната.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_2">Когато се върнете в сесия, разделителят „Ново“ отбелязва полученото във ваше отсъствие, ако то не се побира на екрана.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_3">При пряка връзка към изображение то се показва под съобщението.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_example">Започнете обаждане от редактора на съобщения и го вижте в плаващия индикатор</string>
+
+    <!-- 2026-11-04-01-call-links-and-audio -->
+    <string name="settings_whatsnew_entry_call_links_and_audio_title">Връзки и аудио в обаждания</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_summary">Отварянето на връзки и аудиото в обаждания вече са включени за всички, без превключвател.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_1">По време на обаждане агентът може да предложи връзка, например за пътуване с Uber. Докоснете „Отворете“, за да я отворите в съответното приложение, или „Не сега“.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_2">Агентът може да пуска музика или клип по време на обаждането. Звукът се намалява, когато някой от вас говори. Можете да го поставите на пауза или да го спрете над редактора на съобщения.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_example">По време на обаждане помолете агента да пусне музика</string>
+
+    <!-- 2026-11-04-01-composer-editing-caret -->
+    <string name="settings_whatsnew_entry_composer_editing_caret_title">Редактиране на чернови</string>
+    <string name="settings_whatsnew_entry_composer_editing_caret_summary">Когато редактирате дума в средата на чернова, курсорът остава там, където пишете.</string>
+
+    <!-- 2026-11-04-01-loading-touch-recovery -->
+    <string name="settings_whatsnew_entry_loading_touch_recovery_title">Превъртане след зареждане</string>
+    <string name="settings_whatsnew_entry_loading_touch_recovery_summary">Ако се върнете в приложението по време на зареждане, превъртането на преписа се възстановява веднага.</string>
+
+    <!-- 2026-11-05-01-composer-keyboard-width -->
+    <string name="settings_whatsnew_entry_composer_keyboard_width_title">По-широк редактор при писане</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_width_summary">При отворена клавиатура редакторът на съобщения се разширява с малки, равни полета отстрани, така че дългите чернови заемат по-малко редове.</string>
+
+    <!-- 2026-11-05-02-plus-menu-touch-release -->
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_title">Затваряне на менюто за прикачване</string>
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_summary">След затваряне на менюто за прикачване сесията под него отново реагира на докосване дори при промяна на оформлението.</string>
+
+    <!-- 2026-11-05-02-quiet-reconnecting-pill -->
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_title">По-плавно стартиране</string>
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_summary">При отваряне на приложението вече не премигва „Повторно свързване…“ над редактора и сесията не подскача. Индикаторът се появява само ако свързването се забави.</string>
+
+    <!-- 2026-11-05-03-stuck-touch-recovery -->
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_title">Превъртането се възстановява само</string>
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_summary">Ако невидим елемент блокира превъртането на сесия за повече от секунда, приложението го освобождава.</string>
+
+    <!-- 2026-11-05-04-reply-text-selection -->
+    <string name="settings_whatsnew_entry_reply_text_selection_title">Избор на текст в целия отговор</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_summary">Задръжте върху дума в отговора или я докоснете два пъти, после плъзнете маркерите през абзаци, списъци, код и таблици.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_1">Задръжте маркер точно под заглавната лента или над редактора на съобщения, за да превъртите отговора. Колкото по-близо е до ръба, толкова по-бързо се превърта.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_2">Копирането запазва водещите символи и номерата на списъците, както и редовете и колоните на таблиците. Цитирането добавя избрания текст в редактора и запазва кода в кодови блокове.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_example">Задръжте върху дума близо до началото на дълъг отговор, после плъзнете крайния маркер до редактора на съобщения и го задръжте там</string>
+
+    <!-- 2026-11-06-01-scrolling-unsticks -->
+    <string name="settings_whatsnew_entry_scrolling_unsticks_title">Превъртането се отблокира само</string>
+    <string name="settings_whatsnew_entry_scrolling_unsticks_summary">Сесия, която понякога не се превърташе, докато не отворите друга, вече възстановява превъртането сама.</string>
+
+    <!-- 2026-11-06-02-server-addresses -->
+    <string name="settings_whatsnew_entry_server_addresses_title">По-стабилни връзки със сървъри</string>
+    <string name="settings_whatsnew_entry_server_addresses_summary">OpenCode пробва всички адреси на сървъра едновременно и използва първия, който отговори. Така връзката се възстановява, когато излезете от дома, без да изключвате и включвате VPN.</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_1">Адрес, който е работил в домашната ви мрежа, вече не се пробва първи навсякъде другаде.</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_2">Кратко прекъсване, отключване на телефона или отваряне на бързите настройки вече не показва банер за миг. „Повторно свързване“ се появява след няколко секунди, а „Офлайн“ — след около 12 или след 4, ако телефонът няма мрежа.</string>
+    <string name="settings_whatsnew_entry_server_addresses_example">При отворена сесия на сървър, сдвоен чрез Tailscale, изключете Wi-Fi и продължете да работите</string>
+
+    <!-- 2026-11-07-01-server-voice -->
+    <string name="settings_whatsnew_entry_server_voice_title">Обаждания с ключовете на сървъра</string>
+    <string name="settings_whatsnew_entry_server_voice_summary">Гласът през сървъра вече е включен за всички, без превключвател. Обажданията могат да използват ключовете на вашия OpenCode сървър, така че телефонът не се нуждае от собствен OpenAI ключ.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_1">При включен „Автоматичен избор“ обажданията използват текущия сървър, после OpenAI ключа на телефона, а след това друг запазен сървър, който е готов.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_2">Ако и телефонът, и сървърът имат OpenAI ключ, обажданията вече използват този на сървъра. За да продължите с ключа на телефона, отворете „Вашият OpenAI акаунт“ в „Гласов доставчик“ и докоснете „Използване за обаждания“.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_3">Gemini Live вече също е доставчик за сървъри с ключ за Gemini.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_4">Ако обаждането не може да започне, ще видите причината и бутон за отстраняване на проблема.</string>
+    <string name="settings_whatsnew_entry_server_voice_example">Отворете Настройки › Глас и докоснете „Гласов доставчик“</string>
+
+    <!-- 2026-11-07-02-rename-clear-button -->
+    <string name="settings_whatsnew_entry_rename_clear_button_title">Изчистване на заглавие с докосване</string>
+    <string name="settings_whatsnew_entry_rename_clear_button_summary">„Преименуване на сесия“ и „Преименуване на сървър“ вече имат бутон за изчистване, за да въведете ново заглавие, без да триете старото ръчно.</string>
+
+    <!-- 2026-11-07-03-one-picker -->
+    <string name="settings_whatsnew_entry_one_picker_title">Нов избор на модел</string>
+    <string name="settings_whatsnew_entry_one_picker_summary">Докоснете модела в полето за съобщения и от него ще се разгъне списък с „Любими“ и „Последни“ най-горе и всички доставчици отдолу.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_1">Докоснете нивото на мислене в реда на модела, например „високо“, за да го промените, без да напускате списъка.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_2">Плъзнете или задръжте ред, за да добавите модела в любими или да го премахнете оттам.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_3">Търсенето е долу. Въведете ниво след името, например „opus high“, и натиснете Return, за да изберете и двете.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_4">Издърпайте дръжката нагоре за по-дълъг списък или надолу, за да го затворите.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_5">Новият панел за избор заменя стария панел „Модел“, а превключвателят „Единен избор“ е премахнат от Настройки › Експериментален.</string>
+    <string name="settings_whatsnew_entry_one_picker_example">Докоснете модела в полето за съобщение, после плъзнете реда му, за да го добавите в любими</string>
+
+    <!-- 2026-11-08-01-connecting-caption-glass -->
+    <string name="settings_whatsnew_entry_connecting_caption_glass_title">Четливо „Свързване чрез…“</string>
+    <string name="settings_whatsnew_entry_connecting_caption_glass_summary">Докато обаждането се свързва чрез сървър, надписът „Свързване чрез…“ вече е на полупрозрачен фон и не се слива със съобщенията зад него.</string>
+
+    <!-- 2026-11-08-02-default-model -->
+    <string name="settings_whatsnew_entry_default_model_title">Новите сесии използват модела по подразбиране</string>
+    <string name="settings_whatsnew_entry_default_model_summary">Новите сесии започват с модела по подразбиране в OpenCode и последното избрано за него ниво на мислене, вместо с модела от последната сесия.</string>
+
+    <!-- 2026-11-11-01-streamed-reply-prefix -->
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_title">Отворете отговор, докато се получава</string>
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_summary">Когато отворите сесия, докато се получава отговор, можете да прочетете вече полученото, без да чакате края.</string>
+
+    <!-- 2026-11-13-01-draw-on-images -->
+    <string name="settings_whatsnew_entry_draw_on_images_title">Рисувайте върху изображения</string>
+    <string name="settings_whatsnew_entry_draw_on_images_summary">Отбележете детайл, преди да попитате за него.</string>
+    <string name="settings_whatsnew_entry_draw_on_images_detail_1">Отворете изображение на цял екран и докоснете бутона с писалка. Изберете цвят, рисувайте и докоснете „Добавете“, за да прикачите изображението с бележките към съобщението си. Оригиналът остава непроменен.</string>
+    <string name="settings_whatsnew_entry_draw_on_images_example">Оградете елемента, който искате да преместите в екранна снимка, и опишете къде да бъде.</string>
+
+    <!-- 2026-11-14-01-fullscreen-viewer -->
+    <string name="settings_whatsnew_entry_fullscreen_viewer_title">Плъзгайте между снимки и видеоклипове</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_summary">Разглеждайте заедно изображенията и видеоклиповете в сесията.</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_detail_1">Плъзнете до видеоклип и докоснете бутона с писалка, за да отбележите нещо върху текущия кадър. „Добавете“ прикачва кадъра с бележките, без да го изпраща.</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_example">Спрете демонстрацията на пауза на екрана, който се нуждае от промяна, оградете детайла и добавете кадъра към черновата си.</string>
+
+    <!-- 2026-11-15-01-pairing-link-name -->
+    <string name="settings_whatsnew_entry_pairing_link_name_title">Сървъри с имена от OpenCode Console</string>
+    <string name="settings_whatsnew_entry_pairing_link_name_summary">Сървърът, който сдвоите чрез OpenCode Console, се добавя с името си, например „Anomaly Box“.</string>
+
+    <!-- 2026-11-17-01-session-media -->
+    <string name="settings_whatsnew_entry_session_media_title">Медия в сесията</string>
+    <string name="settings_whatsnew_entry_session_media_summary">Разглеждайте изображенията, видеата, аудиото, файловете и публичните уеб връзки в сесията.</string>
+    <string name="settings_whatsnew_entry_session_media_detail_1">Изберете „Медия в сесията“ от менюто ⋮ на сесията. „Медия“ показва изображенията, видеоклиповете и аудиото като плочки, групирани по месеци, или като списък, а „Файлове“ и „Връзки“ показват документите, поставения текст и уеб връзките.</string>
+    <string name="settings_whatsnew_entry_session_media_example">Намерете екранната снимка, която изпратихте тази сутрин, без да превъртате назад през цялата сесия.</string>
+
+    <!-- 2026-11-18-02-drawer-call-phone -->
+    <string name="settings_whatsnew_entry_drawer_call_phone_title">Телефонна икона за обаждания в страничното меню</string>
+    <string name="settings_whatsnew_entry_drawer_call_phone_summary">Бутонът за обаждане до „Настройки“ в списъка със сесии показва телефон, както този в полето за съобщения.</string>
+
+    <!-- 2026-11-19-01-background-scripts -->
+    <string name="settings_whatsnew_entry_background_scripts_title">Скриптове във фоновата работа</string>
+    <string name="settings_whatsnew_entry_background_scripts_summary">Скриптовете, които агентът премества на заден план, се показват до субагентите и shell процесите. Субагентът остава в списъка, докато изображенията, видеоклиповете или скриптовете му се обработват. Можете да спрете скрипт или субагент от списъка.</string>
+</resources>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent activity glyph -->
+    <string name="session_activity_running_description">მიმდინარეობს</string>
+    <!-- Background work panel -->
+    <string name="session_background_work_show_label">მოქმედი ქვეაგენტების, სკრიპტებისა და გარსების ჩვენება</string>
+    <string name="session_background_work_collapsed_description">ჩაკეცილი</string>
+    <string name="session_background_work_subagents_title">ქვეაგენტები</string>
+    <string name="session_background_work_open_subagent_label">ქვეაგენტის სესიის გახსნა</string>
+    <string name="session_background_work_shells_title">გარსები</string>
+    <string name="session_background_work_show_shell_label">გარსის შედეგის ჩვენება</string>
+    <!-- The session's images and videos, paged in the full-screen viewer -->
+    <string name="session_visual_attached_image">თანდართული სურათი</string>
+    <string name="session_visual_tool_image">ხელსაწყოს სურათი</string>
+    <string name="session_visual_image">სურათი</string>
+    <!-- One image of several: the image's label, then its place, as “Attached image 2 of 3” -->
+    <string name="session_visual_image_page_label">%1$s %2$d / %3$d</string>
+    <!-- A diagram's label, read by TalkBack. %1$s is its kind, as “Diagram, Flowchart” -->
+    <string name="session_visual_diagram_label">დიაგრამა, %1$s</string>
+    <!-- Jump to latest -->
+    <string name="session_scroll_to_latest_description">გადადით უახლესზე</string>
+    <!-- Dictation bar -->
+    <string name="session_dictation_finishing_description">კარნახი სრულდება</string>
+    <string name="session_dictation_stop_recording_description">ჩაწერის შეჩერება</string>
+    <string name="session_dictation_stop_recording_hint">ნაკარნახევის შეტყობინებაში ჩასმა</string>
+    <string name="session_sending_message_description">შეტყობინება იგზავნება</string>
+    <string name="session_delivery_steer_label">შემდეგ ნაბიჯზე მიმართვა</string>
+    <string name="session_delivery_queue_label">ამ პასუხის შემდეგ რიგში ჩადგომა</string>
+    <string name="session_delivery_steer">მიმართვა</string>
+    <string name="session_delivery_queue">რიგში ჩადგომა</string>
+    <!-- Draft project picker -->
+    <string name="session_draft_project_choose_label">აირჩიეთ, სად დაიწყოს სესია</string>
+    <string name="session_project_choose_folder">აირჩიე საქაღალდე…</string>
+    <string name="session_project_all_projects">ყველა პროექტი</string>
+    <string name="session_project_selected_description">არჩეულია</string>
+    <string name="session_project_picker_title">პროექტი</string>
+    <!-- Folder browser -->
+    <string name="session_folder_select_description">აირჩიე საქაღალდე</string>
+    <string name="session_folder_path_description">ბილიკი</string>
+    <string name="session_folder_title">საქაღალდე</string>
+    <string name="session_folder_select">არჩევა</string>
+    <string name="session_folder_open_failed_title">საქაღალდე ვერ გაიხსნა</string>
+    <string name="session_folder_empty_title">საქაღალდეები არ არის</string>
+    <string name="session_folder_search_empty_title">„%1$s“ — შედეგები არ არის</string>
+    <string name="session_folder_search_empty_message">შეამოწმეთ მართლწერა ან სცადეთ სხვა საძიებო სიტყვა.</string>
+    <!-- Server connection pill -->
+    <string name="session_server_edit">სერვერის რედაქტირება…</string>
+    <!-- Starter prompts -->
+    <string name="session_starter_prompts_title">სცადეთ, ჰკითხოთ</string>
+    <string name="session_starter_prompt_pick_label">შეტყობინებაში ჩასმა</string>
+    <!-- Session sheet -->
+    <string name="session_sheet_rename_failed">გადარქმევა ვერ მოხერხდა</string>
+    <string name="session_sheet_status_description">სტატუსი</string>
+    <string name="session_rename_title">სესიის გადარქმევა</string>
+    <string name="session_untitled_title">სესია</string>
+    <string name="session_pin">ჩამაგრება</string>
+    <string name="session_pinned">ჩამაგრებული</string>
+    <string name="session_unread">წაუკითხავი</string>
+    <string name="session_mute">დადუმება</string>
+    <string name="session_muted">დადუმებული</string>
+    <string name="session_compact">კომპაქტური</string>
+    <string name="session_fork">განშტოება</string>
+    <string name="session_toggle_on_description">ჩართული</string>
+    <string name="session_toggle_off_description">გამორთული</string>
+    <string name="session_export">ექსპორტი</string>
+    <string name="session_export_markdown">Markdown</string>
+    <string name="session_export_json">JSON</string>
+    <string name="session_sheet_model">მოდელი</string>
+    <string name="session_sheet_context">კონტექსტი</string>
+    <string name="session_sheet_unknown_description">უცნობი</string>
+    <string name="session_sheet_context_tokens">%1$s ტოკენი</string>
+    <string name="session_sheet_cost">ღირებულება</string>
+    <string name="session_sheet_media">მედია</string>
+    <string name="session_sheet_media_value">ფაილები და ბმულები</string>
+    <string name="session_always_notify">ყოველთვის შემატყობინე</string>
+    <string name="session_always_notify_message_phone">ამ ტელეფონზე შემატყობინე ყოველი პასუხის დასრულება, მაშინაც, თუ შეტყობინება აქედან არ გამიგზავნია.</string>
+    <string name="session_always_notify_message_tablet">ამ პლანშეტზე შემატყობინე ყოველი პასუხის დასრულება, მაშინაც, თუ შეტყობინება აქედან არ გამიგზავნია.</string>
+    <string name="session_delete_session">სესიის წაშლა</string>
+    <string name="session_rename_placeholder">სათაური</string>
+    <string name="session_auto_rename">ავტომატური გადარქმევა</string>
+    <string name="session_delete_confirm_title">წაიშალოს „%1$s“?</string>
+    <string name="session_delete_confirm_message">სესია სერვერიდან ყველა კლიენტისთვის წაიშლება.</string>
+    <!-- Transcript -->
+    <string name="session_move_to_background">ფონზე გადატანა</string>
+    <string name="session_move_to_background_hint">გააგრძელეთ მიმდინარე სამუშაო ფონზე, რომ აგენტმა თქვენი შემდეგი შეტყობინება წაიკითხოს</string>
+    <!-- Attachments -->
+    <string name="session_attachment_add_image_failed_title">სურათის დამატება ვერ მოხერხდა</string>
+    <string name="session_attachment_upload">ატვირთვა</string>
+    <string name="session_attachment_remove_image_description">სურათის დანართის %1$d წაშლა</string>
+    <string name="session_attachment_remove_description">%1$s-ის წაშლა</string>
+    <string name="session_attachment_file_description">ფაილის დანართი %1$s</string>
+    <string name="session_attachment_cancel_upload_description">%1$s-ის ატვირთვის გაუქმება</string>
+    <string name="session_attachment_open_photo_label">ფოტოს სრულ ეკრანზე გახსნა</string>
+    <string name="session_attachment_image_description">სურათის დანართი %1$d</string>
+    <string name="session_attachment_video_description">ვიდეოს დანართი %1$d</string>
+    <!-- Composer controls -->
+    <string name="session_answer_own_description">თქვენი პასუხი</string>
+    <string name="session_answer_own_type_label">აკრიფეთ ან უკარნახეთ თქვენი პასუხი</string>
+    <string name="session_answer_own_clear_label">თქვენი პასუხის გადადება</string>
+    <string name="session_answer_own_choose_label">თქვენი სიტყვებით პასუხი</string>
+    <string name="session_answer_decline_with_words_label">უთხარით აგენტს, რა გააკეთოს ამის ნაცვლად</string>
+    <string name="session_answer_required_description">აირჩიეთ პასუხი ან დაწერეთ თქვენი</string>
+    <string name="session_dictate_message_description">შეტყობინების კარნახი</string>
+    <string name="session_dictate_message_hint">უკარნახეთ შეტყობინება ან ხანგრძლივად შეეხეთ ჩასაწერად და გასაგზავნად</string>
+    <string name="session_send_waiting_for_uploads_description">გაიგზავნება ატვირთვების დასრულების შემდეგ</string>
+    <string name="session_steer_message_description">შეტყობინებით მიმართვა</string>
+    <string name="session_stopping_description">ჩერდება</string>
+    <string name="session_start_voice_call">ხმოვანი ზარის დაწყება</string>
+    <string name="session_dictation_stop_description">კარნახის შეჩერება</string>
+    <!-- Composer -->
+    <string name="session_requests_load_failed_title">მოთხოვნების ჩატვირთვა ვერ მოხერხდა</string>
+    <plurals name="session_queued_count">
+        <item quantity="one">%1$d რიგში</item>
+        <item quantity="other">%1$d რიგში</item>
+    </plurals>
+    <string name="session_queued_show_label">ამ პასუხის დასრულების მომლოდინე შეტყობინებების ჩვენება</string>
+    <plurals name="session_queued_messages_description">
+        <item quantity="one">%1$d შეტყობინება რიგში</item>
+        <item quantity="other">%1$d შეტყობინება რიგში</item>
+    </plurals>
+    <string name="session_dictation_preparing">კარნახი მზადდება…</string>
+    <string name="session_message_placeholder">შეტყობინება</string>
+    <!-- Session header -->
+    <string name="session_back_to_main_description">მთავარ სესიაზე დაბრუნება</string>
+    <string name="session_header_open_from_catch_up_label">სესიის გახსნა და სიახლეების გაცნობიდან გასვლა</string>
+    <string name="session_header_show_details_label">სესიის დეტალების ჩვენება</string>
+    <string name="session_header_idle_description">უმოქმედოა</string>
+    <string name="session_header_syncing_description">სინქრონდება</string>
+    <string name="session_header_last_known_description">ბოლო ცნობილი</string>
+    <string name="session_menu_more_description">მეტი</string>
+    <string name="session_unpin">ჩამაგრების მოხსნა</string>
+    <string name="session_copy_session_id">სესიის ID-ის კოპირება</string>
+    <string name="session_mark_as_read">წაკითხულად მონიშვნა</string>
+    <string name="session_mark_as_unread">წაუკითხავად მონიშვნა</string>
+    <string name="session_unmute">დადუმების გაუქმება</string>
+    <string name="session_menu_export_expanded_description">გაშლილი</string>
+    <string name="session_menu_export_collapsed_description">ჩაკეცილი</string>
+    <string name="session_info">სესიის ინფორმაცია</string>
+    <!-- Session screen -->
+    <string name="session_load_failed_title">სესიის ჩატვირთვა ვერ მოხერხდა</string>
+    <string name="session_location_share_failed_title">მდებარეობის გაზიარება ვერ მოხერხდა</string>
+    <!-- Shell output -->
+    <string name="session_shell_stop_confirm_title">შეჩერდეს ეს გარსი?</string>
+    <string name="session_shell_stop_confirm_message">ბრძანება ახლავე დასრულდება. აქ ნაჩვენები შედეგი დახურვამდე დარჩება.</string>
+    <string name="session_shell_stop">გარსის შეჩერება</string>
+    <string name="session_shell_copy_output">შედეგის კოპირება</string>
+    <string name="session_shell_share_output">შედეგის გაზიარება</string>
+    <string name="session_shell_earlier_output_hidden">წინა შედეგი დამალულია</string>
+    <string name="session_shell_showing_last_output">ნაჩვენებია ბოლო 4 მბ</string>
+    <string name="session_shell_load_earlier">წინა შედეგის ჩატვირთვა</string>
+    <string name="session_shell_output_unavailable_title">შედეგი მიუწვდომელია</string>
+    <string name="session_shell_output_unavailable_message">სერვერზე ამ გარსის შედეგი აღარ არის.</string>
+    <string name="session_shell_no_output_yet_title">შედეგი ჯერ არ არის</string>
+    <string name="session_shell_no_output_title">შედეგი არ არის</string>
+    <string name="session_shell_no_output_yet_message">ბრძანების შედეგი აქ გამოჩნდება შესრულებისას.</string>
+    <string name="session_shell_status_stopping">ჩერდება…</string>
+    <string name="session_shell_status_unavailable">მიუწვდომელია</string>
+    <string name="session_shell_status_interrupted">შეწყვეტილია</string>
+    <string name="session_shell_status_timed_out">დრო ამოიწურა</string>
+    <string name="session_shell_status_exited_with_code">დასრულდა კოდით %1$d</string>
+    <string name="session_shell_status_exited">დასრულდა</string>
+    <plurals name="session_shell_elapsed_hours">
+        <item quantity="one">%1$d საათი</item>
+        <item quantity="other">%1$d საათი</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_minutes">
+        <item quantity="one">%1$d წუთი</item>
+        <item quantity="other">%1$d წუთი</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_seconds">
+        <item quantity="one">%1$d წამი</item>
+        <item quantity="other">%1$d წამი</item>
+    </plurals>
+
+    <!-- Agent activity (glyph labels and titles) -->
+    <string name="session_activity_idle">უმოქმედოა</string>
+    <string name="session_activity_starting_up">იწყება</string>
+    <string name="session_activity_thinking">ფიქრი</string>
+    <string name="session_activity_long_work">ხანგრძლივი მუშაობა</string>
+    <string name="session_activity_tool_burst">ხელსაწყოების აქტიური გამოყენება</string>
+    <string name="session_activity_streaming_output">შედეგის უწყვეტი გამოტანა</string>
+    <string name="session_activity_waiting_for_input">პასუხის მოლოდინში</string>
+    <string name="session_activity_handing_off">სამუშაოს გადაცემა</string>
+    <string name="session_activity_done">დასრულება</string>
+    <string name="session_activity_failed">ვერ შედგა</string>
+    <string name="session_working_stopping">ჩერდება…</string>
+    <string name="session_status_working">მუშაობს</string>
+    <string name="session_status_needs_input">საჭიროა თქვენი პასუხი</string>
+    <string name="session_status_done">დასრულება</string>
+
+    <!-- Lists: joins two or three phrases -->
+    <string name="session_list_two">%1$s, %2$s</string>
+    <string name="session_list_three">%1$s, %2$s, %3$s</string>
+
+    <!-- Background work panel -->
+    <plurals name="session_background_work_subagent_count">
+        <item quantity="one">%1$d ქვეაგენტი</item>
+        <item quantity="other">%1$d ქვეაგენტი</item>
+    </plurals>
+    <plurals name="session_background_work_shell_count">
+        <item quantity="one">%1$d გარსი</item>
+        <item quantity="other">%1$d გარსი</item>
+    </plurals>
+    <plurals name="session_background_work_script_count">
+        <item quantity="one">%1$d სკრიპტი</item>
+        <item quantity="other">%1$d სკრიპტი</item>
+    </plurals>
+    <string name="session_background_work_summary">%1$s · %2$s</string>
+    <string name="session_background_work_scripts_title">სკრიპტები</string>
+    <string name="session_background_work_stop_script_label">სკრიპტის შეჩერება</string>
+    <string name="session_background_work_stop_subagent_label">ქვეაგენტის შეჩერება</string>
+    <string name="session_background_work_stop_script_failed">სკრიპტის შეჩერება ვერ მოხერხდა</string>
+    <string name="session_background_work_stop_subagent_failed">ქვეაგენტის შეჩერება ვერ მოხერხდა</string>
+
+    <!-- Composer buttons -->
+    <string name="session_send_message_description">შეტყობინების გაგზავნა</string>
+    <string name="session_stop_description">შეჩერება</string>
+    <string name="session_start_voice_call_description">ხმოვანი ზარის დაწყება</string>
+    <string name="session_model_level_default">ნაგულისხმევი</string>
+
+    <!-- In-app notice -->
+    <plurals name="session_notice_session_count">
+        <item quantity="one">%1$d სესია</item>
+        <item quantity="other">%1$d სესია</item>
+    </plurals>
+    <plurals name="session_notice_needs_input_count">
+        <item quantity="one">%1$d სესიას სჭირდება თქვენი პასუხი</item>
+        <item quantity="other">%1$d სესიას სჭირდება თქვენი პასუხი</item>
+    </plurals>
+    <string name="session_notice_announcement">%1$s, %2$s</string>
+
+    <!-- Server connection pill -->
+    <string name="session_server_reconnecting">ხელახლა უკავშირდება %1$s-ს…</string>
+    <string name="session_server_connect_failed">%1$s-სთან დაკავშირება ვერ მოხერხდა</string>
+    <string name="session_server_sign_in_failed">%1$s-ში შესვლა ვერ მოხერხდა</string>
+    <string name="session_server_pair_again">ხელახლა დაწყვილება</string>
+    <string name="session_server_try_again_click_label">ხელახლა ცდა</string>
+    <string name="session_server_pair_again_click_label">ხელახლა დაწყვილება</string>
+
+    <!-- Export -->
+    <string name="session_export_folder_failed">ექსპორტის საქაღალდის შექმნა ვერ მოხერხდა</string>
+    <string name="session_export_save_failed">ექსპორტის შენახვა ვერ მოხერხდა</string>
+
+    <!-- Session errors -->
+    <string name="session_agent_fallback_name">აგენტი</string>
+    <string name="session_something_went_wrong">რაღაც შეცდომა მოხდა</string>
+    <string name="session_something_went_wrong_sentence">რაღაც შეცდომა მოხდა.</string>
+    <string name="session_load_earlier_failed">წინა შეტყობინებების ჩატვირთვა ვერ მოხერხდა</string>
+    <string name="session_move_to_background_failed">ფონურ რეჟიმში გადატანა ვერ მოხერხდა: %1$s</string>
+    <string name="session_move_failed_reason">სესიის გადატანა ვერ მოხერხდა</string>
+    <string name="session_delivery_waiting_to_send">გაგზავნის მოლოდინში</string>
+    <string name="session_create_failed">სესიის შექმნა ვერ მოხერხდა.</string>
+    <string name="session_switch_agent_failed">აგენტის შეცვლა ვერ მოხერხდა: %1$s</string>
+    <string name="session_switch_model_failed">მოდელის შეცვლა ვერ მოხერხდა: %1$s</string>
+    <string name="session_pending_send_now_failed_details">მომლოდინე შეტყობინების ახლავე გაგზავნა ვერ მოხერხდა: %1$s</string>
+    <string name="session_pending_cancel_failed_details">მომლოდინე შეტყობინების გაუქმება ვერ მოხერხდა: %1$s</string>
+    <string name="session_pending_queue_failed_details">მომლოდინე შეტყობინების რიგში ჩადგომა ვერ მოხერხდა: %1$s</string>
+    <string name="session_stopped_before_sent">გაგზავნამდე შეწყდა</string>
+    <string name="session_stop_failed">სესიის შეჩერება ვერ მოხერხდა</string>
+    <string name="session_undo_message_failed">შეტყობინების გაუქმება ვერ მოხერხდა: %1$s</string>
+    <string name="session_revert_failed">დაბრუნება ვერ მოხერხდა</string>
+    <string name="session_revert_failed_details">დაბრუნება ვერ მოხერხდა: %1$s</string>
+
+    <!-- Session sheet errors -->
+    <string name="session_sheet_rename_failed_title">სესიის გადარქმევა ვერ მოხერხდა</string>
+    <string name="session_sheet_compact_failed_title">სესიის შეკუმშვა ვერ მოხერხდა</string>
+    <string name="session_sheet_fork_failed_title">სესიის განშტოება ვერ მოხერხდა</string>
+    <string name="session_sheet_save_export_failed">ექსპორტის შენახვა ვერ მოხერხდა</string>
+    <string name="session_sheet_export_failed_title">სესიის ექსპორტი ვერ მოხერხდა</string>
+    <string name="session_sheet_notifications_off_message">ჯერ პარამეტრებში ჩართეთ შეტყობინებები.</string>
+    <string name="session_sheet_always_notify_on_failed_title">„ყოველთვის შემატყობინე“ ვერ ჩაირთო</string>
+    <string name="session_sheet_always_notify_off_failed_title">„ყოველთვის შემატყობინე“ ვერ გამოირთო</string>
+
+    <!-- Attachments -->
+    <string name="session_attachment_files_unsupported">სერვერს ფაილების მხარდაჭერა არ აქვს</string>
+    <string name="session_attachment_upload_failed">ატვირთვა ვერ მოხერხდა</string>
+    <string name="session_attachment_file_fallback_name">ფაილი</string>
+    <string name="session_attachment_image_too_large">აირჩიეთ 20 მბ-ზე პატარა სურათი.</string>
+    <string name="session_attachment_image_load_failed">ეს სურათი ვერ ჩაიტვირთა. სცადეთ სხვა ფოტო.</string>
+    <string name="session_attachment_file_add_failed">ეს ფაილი ვერ დაემატა. სცადეთ სხვა ფაილი.</string>
+    <plurals name="session_attachment_files_add_failed">
+        <item quantity="one">%1$d ფაილი ვერ დაემატა.</item>
+        <item quantity="other">%1$d ფაილი ვერ დაემატა.</item>
+    </plurals>
+    <string name="session_large_upload_title">აიტვირთოს %1$s?</string>
+    <string name="session_large_upload_message_one">„%1$s“ დიდი ფაილია. შეტყობინება თქვენს სერვერზე ატვირთვის დასრულების შემდეგ გაიგზავნება.</string>
+    <plurals name="session_large_upload_message_many">
+        <item quantity="one">%1$d ფაილი დიდია. შეტყობინება თქვენს სერვერზე ატვირთვის დასრულების შემდეგ გაიგზავნება.</item>
+        <item quantity="other">%1$d ფაილი დიდია. შეტყობინება თქვენს სერვერზე ატვირთვის დასრულების შემდეგ გაიგზავნება.</item>
+    </plurals>
+
+    <!-- Header and screens -->
+    <string name="session_new_session_title">ახალი სესია</string>
+    <string name="session_pasted_text_screen_title">ჩასმული ტექსტი</string>
+    <string name="session_pasted_text_viewer_screen_title">ჩასმული ტექსტის მნახველი</string>
+    <string name="session_context_summary">%2$s-ის %1$d%%</string>
+    <string name="session_context_accessibility_value">%2$s ტოკენიდან გამოყენებულია %1$d%%</string>
+
+    <!-- Starter prompts (shown, then sent as the person’s message) -->
+    <string name="session_starter_project_purpose">რას აკეთებს ეს პროექტი?</string>
+    <string name="session_starter_code_tour">მოკლედ გამაცანი კოდი</string>
+    <string name="session_starter_recent_changes">რა შეიცვალა აქ ბოლო დროს?</string>
+
+    <!-- Shell output -->
+    <string name="session_shell_refresh_failed">შედეგის განახლება ვერ მოხერხდა</string>
+    <string name="session_shell_load_earlier_failed">წინა შედეგის ჩატვირთვა ვერ მოხერხდა</string>
+    <string name="session_shell_stop_failed">გარსის შეჩერება ვერ მოხერხდა</string>
+    <string name="session_quote_remove_description">ციტატის წაშლა</string>
+    <string name="session_quote_comment_placeholder">დაამატეთ კომენტარი (არასავალდებულო)…</string>
+    <string name="session_media_title">სესიის მედია</string>
+    <string name="session_media_filter_media">მედია</string>
+    <string name="session_media_filter_files">ფაილები</string>
+    <string name="session_media_filter_links">ბმულები</string>
+    <string name="session_media_layout_description">მედიის განლაგება</string>
+    <string name="session_media_layout_tiles">ფილები</string>
+    <string name="session_media_layout_list">სია</string>
+    <string name="session_media_origin_user">გაგზავნილია თქვენ მიერ</string>
+    <string name="session_media_origin_agent">გააზიარა აგენტმა</string>
+    <string name="session_media_open_click_label">გახსნა</string>
+    <string name="session_media_open_link_click_label">ბმულის გახსნა</string>
+    <string name="session_media_empty_media_title">მედია არ არის</string>
+    <string name="session_media_empty_media_message">ამ სესიაში გაზიარებული სურათები, ვიდეოები და აუდიო აქ გამოჩნდება.</string>
+    <string name="session_media_empty_files_title">ფაილები არ არის</string>
+    <string name="session_media_empty_files_message">ამ სესიის დოკუმენტები და ჩასმული ტექსტი აქ გამოჩნდება.</string>
+    <string name="session_media_empty_links_title">ბმულები არ არის</string>
+    <string name="session_media_empty_links_message">ამ სესიაში გაზიარებული ვებ ბმულები აქ გამოჩნდება.</string>
+    <string name="session_media_earlier_note">წინა შეტყობინებები ჯერ არ ჩატვირთულა.</string>
+    <string name="session_media_load_earlier">წინა შეტყობინებების ჩატვირთვა</string>
+    <string name="session_media_loading_earlier">იტვირთება…</string>
+    <string name="session_media_earlier_failed">წინა შეტყობინებების ჩატვირთვა ვერ მოხერხდა. შეამოწმეთ კავშირი და სცადეთ ხელახლა.</string>
+    <string name="session_media_earlier_nothing_new">ახლახან ჩატვირთულ შეტყობინებებში ახალი არაფერია. შესაძლოა, უფრო ძველებში მეტი იყოს.</string>
+</resources>

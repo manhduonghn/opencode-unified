@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">Görsel</string>
+    <string name="media_image_load_failed">Görsel yüklenemedi</string>
+    <string name="media_unavailable">Medya mevcut değil</string>
+    <string name="media_try_again_label">Tekrar dene</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">Medya görüntüleyici</string>
+    <string name="media_viewer_save_to_photos_description">Fotoğraflara kaydet</string>
+    <string name="media_file_viewer_screen_title">Dosya görüntüleyici</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d / %3$d</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">Görsel üzerine çiz</string>
+    <string name="media_drawing_undo_description">Geri al</string>
+    <string name="media_drawing_add_to_prompt_description">İsteme ekle</string>
+    <string name="media_drawing_canvas_description">Çizim tuvali</string>
+    <string name="media_drawing_discard_title">Çizim silinsin mi?</string>
+    <string name="media_drawing_discard_confirm">Çizimi sil</string>
+    <string name="media_drawing_keep">Çizime devam et</string>
+    <string name="media_drawing_add_failed_title">Çizim eklenemedi</string>
+    <string name="media_drawing_flatten_failed">Görsel oluşturulamadı. Tekrar deneyin.</string>
+    <string name="media_drawing_prompt_unavailable">Bu oturumun mesajına şu anda ek eklenemiyor.</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">Beyaz</string>
+    <string name="media_drawing_ink_black">Siyah</string>
+    <string name="media_drawing_ink_red">Kırmızı</string>
+    <string name="media_drawing_ink_yellow">Sarı</string>
+    <string name="media_drawing_ink_green">Yeşil</string>
+    <string name="media_drawing_ink_blue">Mavi</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">Yakınlaştırıldı</string>
+    <string name="media_zoom_out_label">Uzaklaştır</string>
+    <string name="media_zoom_in_label">Yakınlaştır</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">Duraklat</string>
+    <string name="media_player_play">Oynat</string>
+    <string name="media_player_position_description">Oynatma konumu</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">Video oynatılamadı</string>
+    <string name="media_video_position_description">Video konumu</string>
+    <string name="media_video_capture_failed_title">Kare yakalanamadı</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">Önizlemeyi göster</string>
+    <string name="media_file_show_source_description">Kaynağı göster</string>
+    <string name="media_file_unwrap_lines_description">Satırları kaydırma</string>
+    <string name="media_file_wrap_lines_description">Satırları kaydır</string>
+    <string name="media_file_start_pip_description">Resim içinde resmi başlat</string>
+    <string name="media_file_opening">Açılıyor…</string>
+    <string name="media_file_share_failed_title">Dosya paylaşılamadı</string>
+    <string name="media_file_share_downloading_description">Paylaşmak için indiriliyor</string>
+    <string name="media_file_confirm_large_message">Bu dosyanın boyutu %1$s. Bu cihazda görüntülemek için indirilsin mi?</string>
+    <string name="media_file_download">İndir</string>
+    <string name="media_file_open_in_another_app">Başka uygulamada aç</string>
+    <string name="media_file_no_app_message">Bu cihazda bu dosyayı açabilecek bir uygulama yok. Kaydetmek veya başka bir yere göndermek için paylaşın.</string>
+    <string name="media_file_pdf_page_description">Sayfa %1$d / %2$d</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">Dosya bulunamadı</string>
+    <string name="media_file_error_open_failed_title">Dosya açılamadı</string>
+    <string name="media_file_error_unreadable">Bu yol sunucudan okunamıyor.</string>
+    <string name="media_file_error_not_found">Taşınmış veya silinmiş olabilir.</string>
+    <string name="media_file_error_unauthorized">Sunucu bu cihazın parolasını kabul etmedi.</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">Sunucu dosyayı okuyamadı (HTTP %1$d). Bir klasör olabilir.</string>
+    <string name="media_file_error_timed_out">İstek zaman aşımına uğradı.</string>
+    <string name="media_file_error_unexpected_response">Sunucu beklenmeyen bir yanıt gönderdi.</string>
+    <string name="media_file_error_over_limit">Dosya, indirme boyutu sınırını aşıyor.</string>
+    <string name="media_file_error_size_unknown">Sunucu ekin boyutunu bildirmedi.</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">İndiriliyor…</string>
+    <string name="media_file_downloading_size">%1$s indiriliyor</string>
+    <string name="media_file_downloading_progress">%1$s / %2$s indiriliyor</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">0 KB</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="one">%1$d bayt</item>
+        <item quantity="other">%1$d bayt</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s KB</string>
+    <string name="media_file_size_megabytes">%1$s MB</string>
+    <string name="media_file_size_gigabytes">%1$s GB</string>
+    <string name="media_file_size_terabytes">%1$s TB</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">Bulunamadı</string>
+    <string name="media_image_load_label">Görseli yükle</string>
+    <string name="media_image_loading_state">Yükleniyor</string>
+    <string name="media_image_open_label">Görseli aç</string>
+    <string name="media_image_tap_to_load">Yüklemek için dokunun</string>
+    <string name="media_image_outside_project_value">Proje dışında</string>
+    <string name="media_image_deferred_low_data_value">Düşük veri modu nedeniyle ertelendi</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">%1$s dosyasını aç</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">Oturuma dön</string>
+    <string name="media_browser_ask_description">Bu sayfa hakkında sor</string>
+    <string name="media_browser_forward_description">İleri</string>
+    <string name="media_browser_open_in_browser_description">Tarayıcıda aç</string>
+    <string name="media_browser_scroll_to_top_label">Sayfanın başına kaydır</string>
+    <string name="media_browser_ask_placeholder">Bu sayfa hakkında sorun</string>
+    <string name="media_browser_reply_needs_input">Yanıtınız gerekiyor</string>
+    <string name="media_browser_reply_working">Çalışma</string>
+    <string name="media_browser_go_back_to_session_label">Oturuma dön</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">Yanıt hazır</string>
+    <string name="media_browser_reply_back_to_read">· Okumak için geri dön</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">Oturum</string>
+    <string name="media_link_open_in_app_browser">Uygulama içi tarayıcıda aç</string>
+    <string name="media_link_open_in_browser">Tarayıcıda aç</string>
+    <string name="media_link_open_in_app">Uygulamada aç</string>
+    <string name="media_link_copy">Bağlantıyı kopyala</string>
+    <string name="media_link_share">Paylaş…</string>
+    <string name="media_link_open_session">Oturumu aç</string>
+    <string name="media_link_copy_session_id">Kimliği kopyala</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">%1$s kimliğini kopyala</string>
+    <string name="media_link_open_session_named_description">%1$s oturumunu aç</string>
+    <string name="media_link_open_host_in_app_browser_description">%1$s bağlantısını uygulama içi tarayıcıda aç</string>
+    <string name="media_link_open_host_in_browser_description">%1$s bağlantısını tarayıcıda aç</string>
+    <string name="media_link_open_host_in_app_description">%1$s bağlantısını uygulamada aç</string>
+    <string name="media_link_copy_host_description">%1$s bağlantısını kopyala</string>
+    <string name="media_link_share_host_description">%1$s bağlantısını paylaş</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%2$s sitesinde %1$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s bağlantı %2$d</string>
+    <string name="media_link_more_links_description">Daha fazla bağlantı</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">Video</string>
+    <string name="media_link_preview_post">Gönderi</string>
+    <string name="media_link_preview_post_unavailable">Gönderi mevcut değil</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">Depo</string>
+    <string name="media_github_kind_issue">Sorun</string>
+    <string name="media_github_kind_pull_request">Birleştirme isteği</string>
+    <string name="media_github_kind_commit">Commit</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">Açık</string>
+    <string name="media_github_state_closed">Kapalı</string>
+    <string name="media_github_state_merged">Birleştirildi</string>
+    <string name="media_github_state_draft">Taslak</string>
+    <string name="media_github_state_completed">Tamamlandı</string>
+    <string name="media_github_state_not_planned">Planlanmadı</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">Diyagram, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">Diyagram görüntüleyici</string>
+    <string name="media_mermaid_diagram_description">Diyagram</string>
+    <string name="media_mermaid_loading_state">%1$s, yükleniyor</string>
+    <string name="media_mermaid_view_source">Kaynağı göster</string>
+    <string name="media_mermaid_source_title">Diyagram kaynağı</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">Akış şeması</string>
+    <string name="media_mermaid_type_sequence">Sıralama diyagramı</string>
+    <string name="media_mermaid_type_class">Sınıf diyagramı</string>
+    <string name="media_mermaid_type_state">Durum diyagramı</string>
+    <string name="media_mermaid_type_entity_relationship">Varlık ilişki diyagramı</string>
+    <string name="media_mermaid_type_user_journey">Kullanıcı yolculuğu</string>
+    <string name="media_mermaid_type_gantt">Gantt şeması</string>
+    <string name="media_mermaid_type_pie">Pasta grafiği</string>
+    <string name="media_mermaid_type_quadrant">Dört bölmeli grafik</string>
+    <string name="media_mermaid_type_requirement">Gereksinim diyagramı</string>
+    <string name="media_mermaid_type_git_graph">Git grafiği</string>
+    <string name="media_mermaid_type_c4">C4 diyagramı</string>
+    <string name="media_mermaid_type_mind_map">Zihin haritası</string>
+    <string name="media_mermaid_type_timeline">Zaman çizelgesi</string>
+    <string name="media_mermaid_type_sankey">Sankey diyagramı</string>
+    <string name="media_mermaid_type_xy_chart">XY grafiği</string>
+    <string name="media_mermaid_type_block">Blok diyagramı</string>
+    <string name="media_mermaid_type_packet">Paket diyagramı</string>
+    <string name="media_mermaid_type_kanban">Kanban panosu</string>
+    <string name="media_mermaid_type_architecture">Mimari diyagram</string>
+    <string name="media_mermaid_type_radar">Radar grafiği</string>
+    <string name="media_mermaid_type_treemap">Ağaç haritası</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

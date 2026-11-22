@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Call ended and failure cards -->
+    <string name="voice_call_ended_title">Poziv je završen</string>
+    <string name="voice_call_ended_rejoin">Ponovno se pridruži</string>
+    <string name="voice_failure_title">Glasovno povezivanje nije uspjelo</string>
+    <string name="voice_failure_check_api_key">Provjeri ključ API</string>
+    <string name="voice_failure_start_title">Pokretanje poziva nije uspjelo</string>
+
+    <!-- Floating call -->
+    <string name="voice_floating_expand">Proširi</string>
+    <string name="voice_floating_orb_description">Glasovni poziv</string>
+    <string name="voice_floating_orb_show_controls">Prikaži kontrole poziva</string>
+    <string name="voice_floating_end_description">Završi glasovni poziv</string>
+    <string name="voice_floating_control_placeholder_state">Nije dostupno u ovom prototipu</string>
+    <string name="voice_floating_duration_description">Trajanje poziva</string>
+
+    <!-- Floating call stage -->
+    <string name="voice_stage_talking_in">Razgovor u</string>
+    <string name="voice_stage_minimize_description">Smanji</string>
+    <string name="voice_mute">Utišaj</string>
+    <string name="voice_unmute">Uključi zvuk</string>
+    <string name="voice_stage_pause">Pauziraj</string>
+    <string name="voice_stage_camera">Kamera</string>
+    <string name="voice_transcript_empty">Recite nešto svojoj sesiji.</string>
+    <string name="voice_transcript_you">Vi</string>
+    <string name="voice_transcript_user_line_description">Vi: %1$s</string>
+
+    <!-- Call rows: screen request -->
+    <string name="voice_screen_request_detail">Glas želi vidjeti vaš zaslon</string>
+    <string name="voice_screen_request_spoken">Potreban je vaš unos. Glas želi vidjeti vaš zaslon</string>
+    <string name="voice_screen_request_spoken_with_reason">Potreban je vaš unos. Glas želi vidjeti vaš zaslon. %1$s</string>
+    <string name="voice_screen_request_title">Podijeliti zaslon?</string>
+
+    <!-- Call rows: open link -->
+    <string name="voice_open_link_spoken">Potreban je vaš unos. %1$s</string>
+    <string name="voice_open_link_spoken_with_host">Potreban je vaš unos. %1$s %2$s</string>
+    <string name="voice_open_link_open">Otvoriti</string>
+
+    <!-- Call rows: audio on the call -->
+    <string name="voice_audio_paused">Pauzirano</string>
+    <string name="voice_audio_playing">Reprodukcija u pozivu</string>
+    <string name="voice_audio_play">Reproduciraj zvuk</string>
+    <string name="voice_audio_pause">Pauziraj zvuk</string>
+    <string name="voice_audio_stop">Zaustavi zvuk</string>
+
+    <!-- Call history -->
+    <string name="voice_call_history_title">Povijest poziva</string>
+    <string name="voice_call_history_options_description">Opcije povijesti</string>
+    <string name="voice_call_history_delete_all">Izbriši sve</string>
+    <string name="voice_call_history_empty_title">Još nema glasovnih poziva</string>
+    <string name="voice_call_history_empty_message">Pozivi se spremaju na ovaj telefon kako biste ih mogli ponovno slušati.</string>
+    <string name="voice_call_history_delete_all_confirm_title">Izbrisati sve glasovne pozive?</string>
+
+    <!-- Call replay -->
+    <string name="voice_replay_timeline_description">Vremenska linija poziva</string>
+    <string name="voice_replay_timeline_state">%1$s od %2$s</string>
+    <string name="voice_replay_pause">Pauziraj</string>
+    <string name="voice_replay_play">Reproduciraj</string>
+    <string name="voice_replay_position_description">Položaj</string>
+    <string name="voice_replay_speed_description">Brzina reprodukcije</string>
+    <string name="voice_replay_empty">Pritisnite reprodukciju za ponovno slušanje poziva.</string>
+
+    <!-- Call notification -->
+    <string name="voice_notification_channel_name">Pozivi</string>
+    <string name="voice_notification_channel_description">OpenCode pozivi u tijeku</string>
+    <string name="voice_notification_connecting">Povezivanje…</string>
+    <string name="voice_notification_reconnecting">Ponovno povezivanje…</string>
+    <string name="voice_notification_call_ended">Poziv je završen</string>
+    <string name="voice_notification_end">Završi</string>
+    <!-- Call status caption -->
+    <string name="voice_status_connecting_via">Povezivanje putem %1$s…</string>
+    <string name="voice_status_weak_connection">Slaba veza</string>
+    <string name="voice_status_paused">Pauzirano</string>
+    <string name="voice_status_needs_input">Potreban je vaš unos</string>
+    <string name="voice_status_working">U tijeku</string>
+    <string name="voice_status_speaking">Govori</string>
+    <string name="voice_status_muted">Utišano</string>
+    <string name="voice_status_listening">Sluša</string>
+    <string name="voice_status_ending">Završavanje…</string>
+    <string name="voice_status_ended">Završeno</string>
+    <string name="voice_session_new_title">Nova sesija</string>
+    <string name="voice_call_note_builtin_fallback">Za ovaj se poziv koristi ugrađeni delegator</string>
+
+    <!-- Floating call tag and spoken length -->
+    <string name="voice_floating_now_talking_in">Sada razgovarate u %1$s</string>
+    <string name="voice_floating_spoken_duration">%1$s, %2$s</string>
+    <plurals name="voice_floating_spoken_minutes">
+        <item quantity="one">%1$d minuta</item>
+        <item quantity="few">%1$d minute</item>
+        <item quantity="other">%1$d minuta</item>
+    </plurals>
+    <plurals name="voice_floating_spoken_seconds">
+        <item quantity="one">%1$d sekunda</item>
+        <item quantity="few">%1$d sekunde</item>
+        <item quantity="other">%1$d sekundi</item>
+    </plurals>
+
+    <!-- Voice providers -->
+    <string name="voice_provider_state_ready">Spremno</string>
+    <string name="voice_provider_state_no_key">Nema ključa</string>
+    <string name="voice_provider_state_needs_update">Ažuriraj OpenCode</string>
+    <string name="voice_provider_state_offline">Izvan mreže</string>
+    <string name="voice_provider_place_phone">Ovaj telefon</string>
+    <string name="voice_provider_brand_openai_account">Vaš OpenAI račun</string>
+    <string name="voice_provider_name">%1$s na %2$s</string>
+    <string name="voice_provider_subtitle">Na %1$s</string>
+    <string name="voice_provider_key_row_title">Ključ za %1$s</string>
+    <string name="voice_provider_key_placeholder">Ključ API za %1$s</string>
+
+    <!-- Voice key source -->
+    <string name="voice_key_source_server_row_title">Ključ na vašem poslužitelju</string>
+    <string name="voice_key_source_phone_footer">Pozivi koriste vaš ključ za OpenAI ili xAI.</string>
+    <string name="voice_key_source_server_footer">Pozivi koriste ključ za %1$s s vašeg poslužitelja.</string>
+    <string name="voice_key_source_opencode_footer">Pozivi se naplaćuju vašem radnom prostoru u OpenCode Console.</string>
+
+    <!-- Call failure fixes and diagnosis -->
+    <string name="voice_fix_set_up_on_phone">Postavi na ovom telefonu</string>
+    <string name="voice_fix_choose_provider">Odaberite pružatelja usluga</string>
+    <string name="voice_fix_update_opencode">Ažuriraj OpenCode</string>
+    <string name="voice_diagnosis_needs_update">%1$s treba noviji OpenCode za glasovne pozive.</string>
+    <string name="voice_diagnosis_your_server_needs_update">Vaš poslužitelj treba noviji OpenCode za glasovne pozive.</string>
+    <string name="voice_diagnosis_no_key">%1$s nema ključ za glasovne pozive.</string>
+    <string name="voice_diagnosis_your_server_no_key">Vaš poslužitelj nema ključ za glasovne pozive.</string>
+    <string name="voice_diagnosis_unreachable">Nije moguće povezati se s %1$s.</string>
+    <string name="voice_diagnosis_your_server_unreachable">Nije moguće povezati se s vašim poslužiteljem.</string>
+    <string name="voice_diagnosis_failed">%1$s nije uspio pokrenuti poziv.</string>
+    <string name="voice_diagnosis_your_server_failed">Vaš poslužitelj nije uspio pokrenuti poziv.</string>
+    <string name="voice_diagnosis_key_rejected">OpenAI nije prihvatio ključ na ovom telefonu.</string>
+    <string name="voice_diagnosis_missing_phone_key">Dodajte svoj ključ API za %1$s za pozive s ovog telefona.</string>
+
+    <!-- Call errors -->
+    <string name="voice_error_microphone_denied">Dopustite pristup mikrofonu u postavkama za razgovor sa svojom sesijom.</string>
+    <string name="voice_error_audio_format_unavailable">Zvučni format uređaja nije podržan.</string>
+    <string name="voice_error_audio_engine_rejected">Nije moguće pokrenuti zvuk poziva. Pokušajte ponovno za trenutak.</string>
+    <string name="voice_error_server_unsupported">Ovaj poslužitelj treba noviji OpenCode za glasovne pozive</string>
+    <string name="voice_error_invalid_server_url">Nije moguće pokrenuti glasovni razgovor: unesite valjani HTTP ili HTTPS URL poslužitelja.</string>
+    <string name="voice_error_invalid_response">Nije moguće pokrenuti glasovni razgovor: poslužitelj je vratio nevažeći odgovor.</string>
+    <string name="voice_error_start_voice_detail">Nije moguće pokrenuti glasovni razgovor: %1$s</string>
+    <string name="voice_error_start_voice_http">Nije moguće pokrenuti glasovni razgovor (HTTP %1$d).</string>
+    <string name="voice_error_openai_rejected_key">OpenAI je odbio ključ API.</string>
+    <string name="voice_error_openai_verify_http">OpenAI nije mogao provjeriti ovaj ključ (HTTP %1$d).</string>
+    <string name="voice_error_no_connection">Nema veze.</string>
+    <string name="voice_error_model_address_invalid">Adresa glasovnog modela nije valjana.</string>
+    <string name="voice_error_xai_rejected_key">xAI je odbio ključ API.</string>
+    <string name="voice_error_xai_verify_http">xAI nije mogao provjeriti ovaj ključ (HTTP %1$d).</string>
+    <string name="voice_error_xai_key_disabled">Ovaj ključ API za xAI je onemogućen.</string>
+    <string name="voice_error_xai_key_blocked">Ovaj ključ API za xAI je blokiran.</string>
+    <string name="voice_error_service_address_invalid">Adresa glasovne usluge nije valjana.</string>
+    <string name="voice_error_connection_lost">Glasovna veza je izgubljena.</string>
+    <string name="voice_error_connection_closed">Glasovna veza je zatvorena.</string>
+    <string name="voice_error_connection_setup">Nije moguće uspostaviti glasovnu vezu.</string>
+    <string name="voice_error_safety_filter">Sigurnosni filtar prekinuo je glasovni poziv.</string>
+    <string name="voice_error_audio_reset">Sustav je resetirao zvuk. Ponovno pokrenite poziv.</string>
+    <string name="voice_error_missing_phone_key">Dodajte svoj ključ API za %1$s u postavkama za korištenje glasa.</string>
+
+    <!-- Voice accents -->
+    <string name="voice_accent_australian_english">Australski engleski</string>
+    <string name="voice_accent_british_english">Britanski engleski</string>
+    <string name="voice_accent_irish_english">Irski engleski</string>
+    <string name="voice_accent_north_american_english">Sjevernoamerički engleski</string>
+    <string name="voice_accent_brazilian_portuguese">Brazilski portugalski</string>
+    <string name="voice_accent_filipino_english">Filipinski engleski</string>
+    <string name="voice_accent_southern_us_english">Južnjački američki engleski</string>
+    <string name="voice_accent_indian_english">Indijski engleski</string>
+    <string name="voice_preview_error">Nije moguće reproducirati pregled</string>
+
+    <!-- Call sound packs -->
+    <string name="voice_sound_pack_breath_ping">Prozračni ton</string>
+    <string name="voice_sound_pack_crystal_glass">Kristalno staklo</string>
+    <string name="voice_sound_pack_warm_analog">Topli analogni zvuk</string>
+    <string name="voice_sound_pack_aurora_pulse">Puls aurore</string>
+    <string name="voice_sound_pack_velvet_bell">Baršunasto zvono</string>
+    <string name="voice_sound_pack_silent">Bez zvuka</string>
+
+    <!-- Open link card -->
+    <string name="voice_open_link_card_title_untitled">Otvoriti vezu?</string>
+    <string name="voice_open_link_card_title">Otvoriti %1$s?</string>
+
+    <!-- Delegator choice -->
+    <string name="voice_delegator_session_fallback">Sesija</string>
+    <string name="voice_delegator_unavailable_gemini">Gemini Live prenosi zadatke izravno sesiji na zaslonu. Odaberite OpenAI kao pružatelja glasovnih usluga da biste koristili OpenCode sesiju.</string>
+    <string name="voice_delegator_unavailable_engine">%1$s prenosi zadatke izravno sesiji na zaslonu. Promijenite glasovni model na GPT-Live da biste koristili OpenCode sesiju.</string>
+
+    <!-- Call log list and replay -->
+    <string name="voice_call_log_duration_seconds">%1$d s</string>
+    <string name="voice_call_log_duration_minutes">%1$d min %2$d s</string>
+    <string name="voice_replay_to_delegator">→ Delegator</string>
+    <string name="voice_replay_to_voice">→ Glas</string>
+    <string name="voice_replay_audio">Zvuk</string>
+    <string name="voice_replay_track_user">Vi</string>
+    <string name="voice_replay_track_voice">Glas</string>
+    <string name="voice_replay_track_delegator">Delegator</string>
+    <string name="voice_replay_track_tools">Alati</string>
+</resources>

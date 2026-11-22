@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">Зураг</string>
+    <string name="media_image_load_failed">Зургийг ачаалж чадсангүй</string>
+    <string name="media_unavailable">Медиа ашиглах боломжгүй</string>
+    <string name="media_try_again_label">Дахин оролдох</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">Медиа үзэгч</string>
+    <string name="media_viewer_save_to_photos_description">Зургууд руу хадгалах</string>
+    <string name="media_file_viewer_screen_title">Файл үзэгч</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d / %3$d</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">Зураг дээр зурах</string>
+    <string name="media_drawing_undo_description">Буцаах</string>
+    <string name="media_drawing_add_to_prompt_description">Промптод нэмэх</string>
+    <string name="media_drawing_canvas_description">Зургийн самбар</string>
+    <string name="media_drawing_discard_title">Зургийг хаях уу?</string>
+    <string name="media_drawing_discard_confirm">Зургийг хаях</string>
+    <string name="media_drawing_keep">Үргэлжлүүлэн зурах</string>
+    <string name="media_drawing_add_failed_title">Зураг нэмж чадсангүй</string>
+    <string name="media_drawing_flatten_failed">Зургийг үүсгэж чадсангүй. Дахин оролдоно уу.</string>
+    <string name="media_drawing_prompt_unavailable">Энэ сессийн мессежид одоогоор хавсралт нэмэх боломжгүй байна.</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">Цагаан</string>
+    <string name="media_drawing_ink_black">Хар</string>
+    <string name="media_drawing_ink_red">Улаан</string>
+    <string name="media_drawing_ink_yellow">Шар</string>
+    <string name="media_drawing_ink_green">Ногоон</string>
+    <string name="media_drawing_ink_blue">Цэнхэр</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">Томруулсан</string>
+    <string name="media_zoom_out_label">Жижигрүүлэх</string>
+    <string name="media_zoom_in_label">Томруулах</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">Түр зогсоох</string>
+    <string name="media_player_play">Тоглуулах</string>
+    <string name="media_player_position_description">Тоглуулах байрлал</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">Видео тоглуулж чадсангүй</string>
+    <string name="media_video_position_description">Видеоны байрлал</string>
+    <string name="media_video_capture_failed_title">Кадр авч чадсангүй</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">Урьдчилан харах</string>
+    <string name="media_file_show_source_description">Эхийг харуулах</string>
+    <string name="media_file_unwrap_lines_description">Мөр шилжүүлэхгүй</string>
+    <string name="media_file_wrap_lines_description">Мөр шилжүүлэх</string>
+    <string name="media_file_start_pip_description">Зураг дотор зураг горимыг эхлүүлэх</string>
+    <string name="media_file_opening">Нээж байна…</string>
+    <string name="media_file_share_failed_title">Файлыг хуваалцаж чадсангүй</string>
+    <string name="media_file_share_downloading_description">Хуваалцахын тулд татаж байна</string>
+    <string name="media_file_confirm_large_message">Энэ файл %1$s хэмжээтэй. Энэ төхөөрөмж дээр үзэхийн тулд татах уу?</string>
+    <string name="media_file_download">Татах</string>
+    <string name="media_file_open_in_another_app">Өөр аппд нээх</string>
+    <string name="media_file_no_app_message">Энэ файлыг нээх апп төхөөрөмж дээр алга. Хадгалах эсвэл өөр газар илгээхийн тулд хуваалцана уу.</string>
+    <string name="media_file_pdf_page_description">%2$d хуудасны %1$d</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">Файл олдсонгүй</string>
+    <string name="media_file_error_open_failed_title">Файлыг нээж чадсангүй</string>
+    <string name="media_file_error_unreadable">Энэ замыг серверээс унших боломжгүй.</string>
+    <string name="media_file_error_not_found">Зөөсөн эсвэл устгасан байж магадгүй.</string>
+    <string name="media_file_error_unauthorized">Сервер энэ төхөөрөмжийн нууц үгийг хүлээн авсангүй.</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">Сервер үүнийг уншиж чадсангүй (HTTP %1$d). Хавтас байж магадгүй.</string>
+    <string name="media_file_error_timed_out">Хүсэлтийн хугацаа дууслаа.</string>
+    <string name="media_file_error_unexpected_response">Серверээс гэнэтийн хариу ирлээ.</string>
+    <string name="media_file_error_over_limit">Файл татах хэмжээний хязгаараас хэтэрсэн байна.</string>
+    <string name="media_file_error_size_unknown">Сервер хавсралтын хэмжээг мэдээлсэнгүй.</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">Татаж байна…</string>
+    <string name="media_file_downloading_size">%1$s татаж байна</string>
+    <string name="media_file_downloading_progress">%2$s-аас %1$s татаж байна</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">Тэг KB</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="one">%1$d байт</item>
+        <item quantity="other">%1$d байт</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s KB</string>
+    <string name="media_file_size_megabytes">%1$s MB</string>
+    <string name="media_file_size_gigabytes">%1$s GB</string>
+    <string name="media_file_size_terabytes">%1$s TB</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">Олдсонгүй</string>
+    <string name="media_image_load_label">Зургийг ачаалах</string>
+    <string name="media_image_loading_state">Ачааж байна</string>
+    <string name="media_image_open_label">Зургийг нээх</string>
+    <string name="media_image_tap_to_load">Ачаалахын тулд товшино уу</string>
+    <string name="media_image_outside_project_value">Төслийн гадна</string>
+    <string name="media_image_deferred_low_data_value">Дата хэмнэх горимд хойшлуулсан</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">%1$s нээх</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">Сесс рүү буцах</string>
+    <string name="media_browser_ask_description">Энэ хуудасны талаар асуух</string>
+    <string name="media_browser_forward_description">Урагш</string>
+    <string name="media_browser_open_in_browser_description">Хөтөч дээр нээх</string>
+    <string name="media_browser_scroll_to_top_label">Хуудасны эхэнд очих</string>
+    <string name="media_browser_ask_placeholder">Энэ хуудасны талаар асуух</string>
+    <string name="media_browser_reply_needs_input">Таны оролцоо хэрэгтэй</string>
+    <string name="media_browser_reply_working">Ажиллаж байна</string>
+    <string name="media_browser_go_back_to_session_label">Сесс рүү буцах</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">Хариулт бэлэн</string>
+    <string name="media_browser_reply_back_to_read">· Буцаж унших</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">Сесс</string>
+    <string name="media_link_open_in_app_browser">Апп доторх хөтөч дээр нээх</string>
+    <string name="media_link_open_in_browser">Хөтөч дээр нээх</string>
+    <string name="media_link_open_in_app">Аппд нээх</string>
+    <string name="media_link_copy">Холбоосыг хуулах</string>
+    <string name="media_link_share">Хуваалцах…</string>
+    <string name="media_link_open_session">Сессийг нээх</string>
+    <string name="media_link_copy_session_id">ID-г хуулах</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">%1$s-ийн ID-г хуулах</string>
+    <string name="media_link_open_session_named_description">%1$s сессийг нээх</string>
+    <string name="media_link_open_host_in_app_browser_description">%1$s-г апп доторх хөтөч дээр нээх</string>
+    <string name="media_link_open_host_in_browser_description">%1$s-г хөтөч дээр нээх</string>
+    <string name="media_link_open_host_in_app_description">%1$s-г аппд нээх</string>
+    <string name="media_link_copy_host_description">%1$s рүү заах холбоосыг хуулах</string>
+    <string name="media_link_share_host_description">%1$s рүү заах холбоосыг хуваалцах</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%2$s дээрх %1$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s, %2$d дугаар холбоос</string>
+    <string name="media_link_more_links_description">Бусад холбоос</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">Видео</string>
+    <string name="media_link_preview_post">Нийтлэл</string>
+    <string name="media_link_preview_post_unavailable">Нийтлэл ашиглах боломжгүй</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">Репозитор</string>
+    <string name="media_github_kind_issue">Асуудал</string>
+    <string name="media_github_kind_pull_request">Нэгтгэх хүсэлт</string>
+    <string name="media_github_kind_commit">Коммит</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">Нээлттэй</string>
+    <string name="media_github_state_closed">Хаалттай</string>
+    <string name="media_github_state_merged">Нэгтгэсэн</string>
+    <string name="media_github_state_draft">Ноорог</string>
+    <string name="media_github_state_completed">Дууссан</string>
+    <string name="media_github_state_not_planned">Төлөвлөөгүй</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">Диаграмм, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">Диаграмм үзэгч</string>
+    <string name="media_mermaid_diagram_description">Диаграмм</string>
+    <string name="media_mermaid_loading_state">%1$s, ачааж байна</string>
+    <string name="media_mermaid_view_source">Эхийг харах</string>
+    <string name="media_mermaid_source_title">Диаграммын эх</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">Урсгалын диаграмм</string>
+    <string name="media_mermaid_type_sequence">Дарааллын диаграмм</string>
+    <string name="media_mermaid_type_class">Классын диаграмм</string>
+    <string name="media_mermaid_type_state">Төлөвийн диаграмм</string>
+    <string name="media_mermaid_type_entity_relationship">Объектын холбоосын диаграмм</string>
+    <string name="media_mermaid_type_user_journey">Хэрэглэгчийн замнал</string>
+    <string name="media_mermaid_type_gantt">Гантын график</string>
+    <string name="media_mermaid_type_pie">Дугуй диаграмм</string>
+    <string name="media_mermaid_type_quadrant">Дөрвөн хэсэгт диаграмм</string>
+    <string name="media_mermaid_type_requirement">Шаардлагын диаграмм</string>
+    <string name="media_mermaid_type_git_graph">Git график</string>
+    <string name="media_mermaid_type_c4">C4 диаграмм</string>
+    <string name="media_mermaid_type_mind_map">Оюуны зураглал</string>
+    <string name="media_mermaid_type_timeline">Цагийн шугам</string>
+    <string name="media_mermaid_type_sankey">Санкейн диаграмм</string>
+    <string name="media_mermaid_type_xy_chart">XY график</string>
+    <string name="media_mermaid_type_block">Блок диаграмм</string>
+    <string name="media_mermaid_type_packet">Пакетын диаграмм</string>
+    <string name="media_mermaid_type_kanban">Канбан самбар</string>
+    <string name="media_mermaid_type_architecture">Архитектурын диаграмм</string>
+    <string name="media_mermaid_type_radar">Радар диаграмм</string>
+    <string name="media_mermaid_type_treemap">Модон зураглал</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

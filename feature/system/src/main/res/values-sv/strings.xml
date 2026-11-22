@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_new_session">Ny session</string>
+    <string name="system_start_call">Starta samtal</string>
+    <string name="system_open_session">Öppna sessionen</string>
+    <string name="widget_start_call_description">Startar ett röstsamtal i en session du väljer, eller den du senast visade.</string>
+    <string name="widget_open_session_description">Öppnar en session du väljer.</string>
+    <string name="widget_new_session_description">Öppnar en ny OpenCode-session.</string>
+
+    <!-- Shared across screens -->
+    <string name="system_selected_description">Vald</string>
+    <string name="system_last_viewed_session">Senast visade session</string>
+
+    <!-- Quick actions (launcher shortcuts) -->
+    <string name="system_quick_action_session_fallback">Session</string>
+    <!-- Long label: the session's title, then its project. -->
+    <string name="system_quick_action_long_label">%1$s · %2$s</string>
+
+    <!-- Shortcuts and Ask OpenCode -->
+    <string name="system_session_type_name">Session</string>
+    <string name="system_project_type_name">Projekt</string>
+    <string name="system_intent_open_session_description">Öppnar en session i OpenCode.</string>
+    <string name="system_intent_new_session_description">Startar en ny session i OpenCode.</string>
+    <string name="system_intent_start_voice_call_title">Starta röstsamtal</string>
+    <string name="system_intent_start_voice_call_description">Startar ett röstsamtal med OpenCode i en session. Om ingen session anges startar samtalet i den du senast visade.</string>
+    <string name="system_intent_background_call_title">Starta röstsamtal i bakgrunden</string>
+    <string name="system_intent_background_call_description">Startar ett röstsamtal med OpenCode utan att öppna appen. Samtalet visas i statusfältet och på låsskärmen.</string>
+    <string name="system_delivery_type_name">Leverans</string>
+    <string name="system_delivery_steer">Styr</string>
+    <string name="system_delivery_queue">Lägg i kö</string>
+    <string name="system_ask_title">Fråga OpenCode</string>
+    <string name="system_ask_description">Skickar ett meddelande till en OpenCode-session utan att öppna appen.</string>
+    <string name="system_ask_message_title">Meddelande</string>
+    <string name="system_ask_message_placeholder">Vad ska OpenCode göra?</string>
+    <string name="system_ask_session_title">Session</string>
+    <string name="system_ask_started_new_session">Startade en ny session i %1$s</string>
+    <string name="system_ask_queued_for">Lades i kö för ”%1$s”</string>
+    <string name="system_ask_sent_to">Skickat till ”%1$s”</string>
+    <string name="system_ask_your_session">din session</string>
+    <string name="system_ask_no_server">Öppna OpenCode och anslut till en server först.</string>
+    <string name="system_ask_no_project">Öppna OpenCode och starta en session först.</string>
+    <string name="system_ask_empty_message">Det finns inget att skicka.</string>
+    <!-- The server's error message follows. -->
+    <string name="system_ask_send_failed">Kunde inte skicka till OpenCode. %1$s</string>
+
+    <!-- Live Updates: voice call -->
+    <string name="system_call_muted">Tystad</string>
+    <string name="system_call_unmute">Slå på ljudet</string>
+    <string name="system_call_mute">Tysta</string>
+    <string name="system_call_end">Avsluta samtal</string>
+    <string name="system_call_connecting">Ansluter…</string>
+    <string name="system_call_reconnecting">Återansluter…</string>
+    <string name="system_call_ended">Samtalet avslutades</string>
+    <string name="system_call_end_title">Avsluta samtal</string>
+    <string name="system_call_toggle_mute_title">Slå av eller på mikrofonen</string>
+
+    <!-- Live Updates: hands-free recording -->
+    <string name="system_recording_active">Spelar in</string>
+    <string name="system_recording_stopped">Inspelningen stoppades</string>
+    <string name="system_recording_stop">Stoppa inspelning</string>
+    <string name="system_recording_stop_title">Stoppa inspelning</string>
+    <string name="system_recording_new_session">Ny session</string>
+
+    <!-- Live Updates: session run -->
+    <string name="system_session_working">Arbetar</string>
+    <string name="system_session_last_seen_working">Arbetade vid senaste kontrollen</string>
+    <!-- Where the run is (Working), then its current step (a tool name, Thinking or Replying). -->
+    <string name="system_session_status_with_step">%1$s · %2$s</string>
+    <string name="system_session_step_thinking">Tänker</string>
+    <string name="system_session_step_replying">Svarar</string>
+    <string name="system_session_needs_input">Behöver ditt svar</string>
+    <string name="system_session_input">Indata</string>
+    <string name="system_session_done">Klart</string>
+    <string name="system_session_failed">Misslyckades</string>
+
+    <!-- Session notifications -->
+    <string name="system_notification_placeholder_body">Ny aktivitet</string>
+
+    <!-- Notification channels -->
+    <string name="system_channel_voice_calls">Röstsamtal</string>
+    <string name="system_channel_recording">Spelar in</string>
+    <string name="system_channel_session_runs">Sessionskörningar</string>
+    <string name="system_channel_session_updates">Sessionsuppdateringar</string>
+    <string name="system_channel_shared_items">Delade objekt</string>
+
+    <!-- Share sheet: notifications -->
+    <string name="system_share_continue_notification_body">Tryck för att fortsätta i OpenCode</string>
+
+    <!-- Share sheet -->
+    <string name="system_share_your_server">din server</string>
+    <string name="system_share_new_session_in_project">Ny session · %1$s</string>
+    <string name="system_share_save_failed_message">Försök igen. Frigör lagringsutrymme på enheten om problemet kvarstår.</string>
+    <!-- The session's title, then its project. -->
+    <string name="system_share_session_chip_description">%1$s, %2$s</string>
+    <string name="system_share_problem_unreachable">Kunde inte nå %1$s</string>
+    <string name="system_share_problem_too_large">Kunde inte skicka så stora filer härifrån</string>
+    <string name="system_share_problem_uploads_unsupported">Kunde inte ladda upp filer till %1$s</string>
+    <string name="system_share_problem_sign_in">Kunde inte logga in på %1$s</string>
+    <string name="system_share_problem_send">Kunde inte skicka till %1$s</string>
+    <string name="system_share_problem_no_credentials">Öppna OpenCode en gång för att kunna skicka härifrån</string>
+    <plurals name="system_share_image_count">
+        <item quantity="one">%d bild</item>
+        <item quantity="other">%d bilder</item>
+    </plurals>
+    <plurals name="system_share_file_count">
+        <item quantity="one">%d fil</item>
+        <item quantity="other">%d filer</item>
+    </plurals>
+    <plurals name="system_share_images_skipped">
+        <item quantity="one">%d bild kunde inte läggas till</item>
+        <item quantity="other">%d bilder kunde inte läggas till</item>
+    </plurals>
+    <plurals name="system_share_files_skipped">
+        <item quantity="one">%d fil kunde inte läggas till</item>
+        <item quantity="other">%d filer kunde inte läggas till</item>
+    </plurals>
+    <string name="system_share_save_failed_title">Kunde inte spara för OpenCode</string>
+    <string name="system_share_continue_description">Fortsätt i OpenCode</string>
+    <string name="system_share_no_server_title">Anslut till en server först</string>
+    <string name="system_share_no_server_message">Öppna OpenCode och anslut till din dator. Försök sedan dela igen.</string>
+    <string name="system_share_send_later">Skicka senare</string>
+    <string name="system_share_saved_continue">Sparat. Öppna OpenCode för att fortsätta</string>
+    <string name="system_share_loading_description">Laddar delade objekt</string>
+    <string name="system_share_image_description">Bild</string>
+    <string name="system_share_image_position_description">Bild %1$d av %2$d</string>
+    <string name="system_share_search_sessions_description">Sök sessioner</string>
+    <string name="system_share_new_session_in_project_description">Ny session i %1$s</string>
+    <string name="system_share_choose_project_description">Välj projekt för sessionen</string>
+    <string name="system_share_message_placeholder">Meddelande</string>
+    <string name="system_share_sent_to">Skickat till %1$s</string>
+    <string name="system_share_sending_description">Skickar</string>
+    <string name="system_share_sent_description">Skickat</string>
+    <string name="system_share_sessions_title">Sessioner</string>
+    <string name="system_share_pinned_header">Fästa</string>
+    <string name="system_share_recents_header">Senaste</string>
+
+    <!-- Widget configuration -->
+    <string name="system_widget_choose_session_title">Välj session</string>
+</resources>

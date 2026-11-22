@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Call ended and failure cards -->
+    <string name="voice_call_ended_title">Zəng bitdi</string>
+    <string name="voice_call_ended_rejoin">Yenidən qoşul</string>
+    <string name="voice_failure_title">Səsə qoşulmaq mümkün olmadı</string>
+    <string name="voice_failure_check_api_key">API açarını yoxla</string>
+    <string name="voice_failure_start_title">Zəngi başlatmaq mümkün olmadı</string>
+
+    <!-- Floating call -->
+    <string name="voice_floating_expand">Genişlət</string>
+    <string name="voice_floating_orb_description">Səsli zəng</string>
+    <string name="voice_floating_orb_show_controls">Zəngin idarəetmə düymələrini göstər</string>
+    <string name="voice_floating_end_description">Səsli zəngi bitir</string>
+    <string name="voice_floating_control_placeholder_state">Bu prototipdə mövcud deyil</string>
+    <string name="voice_floating_duration_description">Zəngin müddəti</string>
+
+    <!-- Floating call stage -->
+    <string name="voice_stage_talking_in">Danışılan sessiya</string>
+    <string name="voice_stage_minimize_description">Kiçilt</string>
+    <string name="voice_mute">Səssizə al</string>
+    <string name="voice_unmute">Səsi aç</string>
+    <string name="voice_stage_pause">Fasilə ver</string>
+    <string name="voice_stage_camera">Kamera</string>
+    <string name="voice_transcript_empty">Sessiyanıza bir şey deyin.</string>
+    <string name="voice_transcript_you">Siz</string>
+    <string name="voice_transcript_user_line_description">Siz: %1$s</string>
+
+    <!-- Call rows: screen request -->
+    <string name="voice_screen_request_detail">Səs ekranınızı görmək istəyir</string>
+    <string name="voice_screen_request_spoken">Cavabınız lazımdır. Səs ekranınızı görmək istəyir</string>
+    <string name="voice_screen_request_spoken_with_reason">Cavabınız lazımdır. Səs ekranınızı görmək istəyir. %1$s</string>
+    <string name="voice_screen_request_title">Ekran paylaşılsın?</string>
+
+    <!-- Call rows: open link -->
+    <string name="voice_open_link_spoken">Cavabınız lazımdır. %1$s</string>
+    <string name="voice_open_link_spoken_with_host">Cavabınız lazımdır. %1$s %2$s</string>
+    <string name="voice_open_link_open">Aç</string>
+
+    <!-- Call rows: audio on the call -->
+    <string name="voice_audio_paused">Fasilə verilib</string>
+    <string name="voice_audio_playing">Zəngdə səsləndirilir</string>
+    <string name="voice_audio_play">Səsi oynat</string>
+    <string name="voice_audio_pause">Səsə fasilə ver</string>
+    <string name="voice_audio_stop">Səsi dayandır</string>
+
+    <!-- Call history -->
+    <string name="voice_call_history_title">Zəng tarixçəsi</string>
+    <string name="voice_call_history_options_description">Tarixçə seçimləri</string>
+    <string name="voice_call_history_delete_all">Hamısını sil</string>
+    <string name="voice_call_history_empty_title">Hələ səsli zəng yoxdur</string>
+    <string name="voice_call_history_empty_message">Zənglər bu telefonda saxlanılır ki, onları yenidən dinləyə biləsiniz.</string>
+    <string name="voice_call_history_delete_all_confirm_title">Bütün səsli zənglər silinsin?</string>
+
+    <!-- Call replay -->
+    <string name="voice_replay_timeline_description">Zəngin zaman xətti</string>
+    <string name="voice_replay_timeline_state">%1$s / %2$s</string>
+    <string name="voice_replay_pause">Fasilə ver</string>
+    <string name="voice_replay_play">Oynat</string>
+    <string name="voice_replay_position_description">Mövqe</string>
+    <string name="voice_replay_speed_description">Oynatma sürəti</string>
+    <string name="voice_replay_empty">Zəngi yenidən dinləmək üçün oynat düyməsinə basın.</string>
+
+    <!-- Call notification -->
+    <string name="voice_notification_channel_name">Zənglər</string>
+    <string name="voice_notification_channel_description">Davam edən OpenCode zəngləri</string>
+    <string name="voice_notification_connecting">Qoşulur…</string>
+    <string name="voice_notification_reconnecting">Yenidən qoşulur…</string>
+    <string name="voice_notification_call_ended">Zəng bitdi</string>
+    <string name="voice_notification_end">Son</string>
+    <!-- Call status caption -->
+    <string name="voice_status_connecting_via">%1$s vasitəsilə qoşulur…</string>
+    <string name="voice_status_weak_connection">Zəif əlaqə</string>
+    <string name="voice_status_paused">Fasilə verilib</string>
+    <string name="voice_status_needs_input">Cavabınız lazımdır</string>
+    <string name="voice_status_working">İşləyir</string>
+    <string name="voice_status_speaking">Danışır</string>
+    <string name="voice_status_muted">Səssizə alınmış</string>
+    <string name="voice_status_listening">Dinləyir</string>
+    <string name="voice_status_ending">Bitir…</string>
+    <string name="voice_status_ended">Bitdi</string>
+    <string name="voice_session_new_title">Yeni sessiya</string>
+    <string name="voice_call_note_builtin_fallback">Bu zəng üçün daxili həvaləçi istifadə olunur</string>
+
+    <!-- Floating call tag and spoken length -->
+    <string name="voice_floating_now_talking_in">İndi %1$s sessiyasında danışılır</string>
+    <string name="voice_floating_spoken_duration">%1$s, %2$s</string>
+    <plurals name="voice_floating_spoken_minutes">
+        <item quantity="one">%1$d dəqiqə</item>
+        <item quantity="other">%1$d dəqiqə</item>
+    </plurals>
+    <plurals name="voice_floating_spoken_seconds">
+        <item quantity="one">%1$d saniyə</item>
+        <item quantity="other">%1$d saniyə</item>
+    </plurals>
+
+    <!-- Voice providers -->
+    <string name="voice_provider_state_ready">Hazırdır</string>
+    <string name="voice_provider_state_no_key">Açar yoxdur</string>
+    <string name="voice_provider_state_needs_update">OpenCode-u yenilə</string>
+    <string name="voice_provider_state_offline">Oflayn</string>
+    <string name="voice_provider_place_phone">Bu telefon</string>
+    <string name="voice_provider_brand_openai_account">OpenAI hesabınız</string>
+    <string name="voice_provider_name">%2$s üzərində %1$s</string>
+    <string name="voice_provider_subtitle">%1$s üzərində</string>
+    <string name="voice_provider_key_row_title">%1$s açarı</string>
+    <string name="voice_provider_key_placeholder">%1$s API açarı</string>
+
+    <!-- Voice key source -->
+    <string name="voice_key_source_server_row_title">Serverinizdəki açar</string>
+    <string name="voice_key_source_phone_footer">Zənglərdə öz OpenAI və ya xAI açarınız istifadə olunur.</string>
+    <string name="voice_key_source_server_footer">Zənglərdə serverinizin %1$s açarı istifadə olunur.</string>
+    <string name="voice_key_source_opencode_footer">Zənglərin haqqı OpenCode Console iş sahənizin hesabından tutulur.</string>
+
+    <!-- Call failure fixes and diagnosis -->
+    <string name="voice_fix_set_up_on_phone">Bu telefonda quraşdır</string>
+    <string name="voice_fix_choose_provider">Provayder seç</string>
+    <string name="voice_fix_update_opencode">OpenCode-u yenilə</string>
+    <string name="voice_diagnosis_needs_update">%1$s üçün səsli zənglərə daha yeni OpenCode lazımdır.</string>
+    <string name="voice_diagnosis_your_server_needs_update">Səsli zənglər üçün serverinizə daha yeni OpenCode lazımdır.</string>
+    <string name="voice_diagnosis_no_key">%1$s üçün səsli zəng açarı yoxdur.</string>
+    <string name="voice_diagnosis_your_server_no_key">Serverinizdə səsli zənglər üçün açar yoxdur.</string>
+    <string name="voice_diagnosis_unreachable">%1$s ilə əlaqə qurmaq mümkün olmadı.</string>
+    <string name="voice_diagnosis_your_server_unreachable">Serverinizlə əlaqə qurmaq mümkün olmadı.</string>
+    <string name="voice_diagnosis_failed">%1$s zəngi başlada bilmədi.</string>
+    <string name="voice_diagnosis_your_server_failed">Serveriniz zəngi başlada bilmədi.</string>
+    <string name="voice_diagnosis_key_rejected">OpenAI bu telefondakı açarı qəbul etmədi.</string>
+    <string name="voice_diagnosis_missing_phone_key">Bu telefondan zəng etmək üçün %1$s API açarınızı əlavə edin.</string>
+
+    <!-- Call errors -->
+    <string name="voice_error_microphone_denied">Sessiyanızla danışmaq üçün Tənzimləmələrdə mikrofona girişə icazə verin.</string>
+    <string name="voice_error_audio_format_unavailable">Səs avadanlığının formatı dəstəklənmir.</string>
+    <string name="voice_error_audio_engine_rejected">Zəngin səsini başlatmaq mümkün olmadı. Bir az sonra yenidən cəhd edin.</string>
+    <string name="voice_error_server_unsupported">Səsli zənglər üçün bu serverə daha yeni OpenCode lazımdır</string>
+    <string name="voice_error_invalid_server_url">Səsi başlatmaq mümkün olmadı: düzgün HTTP və ya HTTPS server URL-i daxil edin.</string>
+    <string name="voice_error_invalid_response">Səsi başlatmaq mümkün olmadı: server yanlış cavab qaytardı.</string>
+    <string name="voice_error_start_voice_detail">Səsi başlatmaq mümkün olmadı: %1$s</string>
+    <string name="voice_error_start_voice_http">Səsi başlatmaq mümkün olmadı (HTTP %1$d).</string>
+    <string name="voice_error_openai_rejected_key">OpenAI API açarını rədd etdi.</string>
+    <string name="voice_error_openai_verify_http">OpenAI bu açarı yoxlaya bilmədi (HTTP %1$d).</string>
+    <string name="voice_error_no_connection">Əlaqə yoxdur.</string>
+    <string name="voice_error_model_address_invalid">Səs modelinin ünvanı yanlışdır.</string>
+    <string name="voice_error_xai_rejected_key">xAI API açarını rədd etdi.</string>
+    <string name="voice_error_xai_verify_http">xAI bu açarı yoxlaya bilmədi (HTTP %1$d).</string>
+    <string name="voice_error_xai_key_disabled">Bu xAI API açarı deaktivdir.</string>
+    <string name="voice_error_xai_key_blocked">Bu xAI API açarı bloklanıb.</string>
+    <string name="voice_error_service_address_invalid">Səs xidmətinin ünvanı yanlışdır.</string>
+    <string name="voice_error_connection_lost">Səs əlaqəsi kəsildi.</string>
+    <string name="voice_error_connection_closed">Səs əlaqəsi bağlıdır.</string>
+    <string name="voice_error_connection_setup">Səs əlaqəsini qurmaq mümkün olmadı.</string>
+    <string name="voice_error_safety_filter">Təhlükəsizlik filtri səsli zəngi bitirdi.</string>
+    <string name="voice_error_audio_reset">Səs sistem tərəfindən sıfırlandı. Zəngi yenidən başladın.</string>
+    <string name="voice_error_missing_phone_key">Səsdən istifadə etmək üçün Tənzimləmələrdə %1$s API açarınızı əlavə edin.</string>
+
+    <!-- Voice accents -->
+    <string name="voice_accent_australian_english">Avstraliya ingiliscəsi</string>
+    <string name="voice_accent_british_english">Britaniya ingiliscəsi</string>
+    <string name="voice_accent_irish_english">İrlandiya ingiliscəsi</string>
+    <string name="voice_accent_north_american_english">Şimali Amerika ingiliscəsi</string>
+    <string name="voice_accent_brazilian_portuguese">Braziliya portuqalcası</string>
+    <string name="voice_accent_filipino_english">Filippin ingiliscəsi</string>
+    <string name="voice_accent_southern_us_english">ABŞ-nin cənub ingiliscəsi</string>
+    <string name="voice_accent_indian_english">Hindistan ingiliscəsi</string>
+    <string name="voice_preview_error">Sınaq səsini oynatmaq mümkün olmadı</string>
+
+    <!-- Call sound packs -->
+    <string name="voice_sound_pack_breath_ping">Nəfəs siqnalı</string>
+    <string name="voice_sound_pack_crystal_glass">Kristal şüşə</string>
+    <string name="voice_sound_pack_warm_analog">İsti analoq</string>
+    <string name="voice_sound_pack_aurora_pulse">Qütb işığı ritmi</string>
+    <string name="voice_sound_pack_velvet_bell">Məxməri zəng</string>
+    <string name="voice_sound_pack_silent">Səssiz</string>
+
+    <!-- Open link card -->
+    <string name="voice_open_link_card_title_untitled">Link açılsın?</string>
+    <string name="voice_open_link_card_title">%1$s açılsın?</string>
+
+    <!-- Delegator choice -->
+    <string name="voice_delegator_session_fallback">Sessiya</string>
+    <string name="voice_delegator_unavailable_gemini">Gemini Live tapşırıqları birbaşa ekrandakı sessiyaya həvalə edir. OpenCode sessiyasından istifadə etmək üçün OpenAI səs provayderini seçin.</string>
+    <string name="voice_delegator_unavailable_engine">%1$s tapşırıqları birbaşa ekrandakı sessiyaya həvalə edir. OpenCode sessiyasından istifadə etmək üçün səs modelini GPT-Live ilə dəyişin.</string>
+
+    <!-- Call log list and replay -->
+    <string name="voice_call_log_duration_seconds">%1$d san</string>
+    <string name="voice_call_log_duration_minutes">%1$d dəq %2$d san</string>
+    <string name="voice_replay_to_delegator">→ Həvaləçi</string>
+    <string name="voice_replay_to_voice">→ Səs</string>
+    <string name="voice_replay_audio">Səs</string>
+    <string name="voice_replay_track_user">Siz</string>
+    <string name="voice_replay_track_voice">Səs</string>
+    <string name="voice_replay_track_delegator">Həvaləçi</string>
+    <string name="voice_replay_track_tools">Alətlər</string>
+</resources>

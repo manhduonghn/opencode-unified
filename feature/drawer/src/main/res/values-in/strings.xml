@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Catch Up -->
+    <plurals name="drawer_catch_up_remaining">
+        <item quantity="other">%1$d tersisa</item>
+    </plurals>
+    <string name="drawer_catch_up_leave_description">Keluar dari tinjauan pembaruan</string>
+    <string name="drawer_catch_up_keep_unread">Tetap belum dibaca</string>
+    <string name="drawer_catch_up_undo">Urungkan</string>
+    <string name="drawer_catch_up_title">Tinjau pembaruan</string>
+    <string name="drawer_catch_up_all_caught_up">Semua sudah ditinjau</string>
+    <string name="drawer_catch_up_swipe_mark_read">Tandai sudah\ndibaca</string>
+    <string name="drawer_catch_up_swipe_keep_unread">Tetap\nbelum dibaca</string>
+
+    <!-- Drawer container -->
+    <string name="drawer_close_description">Tutup daftar sesi</string>
+
+    <!-- Drawer footer and delete confirmation -->
+    <string name="drawer_delete_session_title">Hapus “%1$s”?</string>
+    <string name="drawer_delete_session_message">Sesi ini akan dihapus dari server untuk semua klien.</string>
+    <string name="drawer_new_session">Sesi baru</string>
+    <string name="drawer_start_voice_call_description">Mulai panggilan suara</string>
+
+    <!-- Archived page -->
+    <string name="drawer_archived">Diarsipkan</string>
+    <string name="drawer_archived_search_placeholder">Cari arsip</string>
+    <string name="drawer_archived_empty">Tidak ada sesi yang diarsipkan</string>
+    <string name="drawer_no_results">Tidak ada hasil</string>
+
+    <!-- Session row actions -->
+    <string name="drawer_row_selected">Dipilih</string>
+    <string name="drawer_row_not_selected">Tidak dipilih</string>
+    <string name="drawer_row_select_action">Pilih</string>
+    <string name="drawer_pin">Sematkan</string>
+    <string name="drawer_unpin">Lepas sematan</string>
+    <string name="drawer_mark_as_read">Tandai sudah dibaca</string>
+    <string name="drawer_mark_as_unread">Tandai belum dibaca</string>
+    <string name="drawer_mute">Bisukan</string>
+    <string name="drawer_unmute">Bunyikan</string>
+    <string name="drawer_hide">Sembunyikan</string>
+    <string name="drawer_unhide">Tampilkan lagi</string>
+    <string name="drawer_move_up">Pindahkan ke atas</string>
+    <string name="drawer_move_down">Pindahkan ke bawah</string>
+
+    <!-- Section headers, shortcut rows and list footer -->
+    <string name="drawer_section_pinned">Disematkan</string>
+    <string name="drawer_section_recents">Terbaru</string>
+    <plurals name="drawer_catch_up_session_count">
+        <item quantity="other">%1$d sesi</item>
+    </plurals>
+    <string name="drawer_catch_up_open_action">Geser untuk meninjau sesi yang belum dibaca dan sedang menunggu</string>
+    <string name="drawer_mark_all_read">Tandai semua sudah dibaca</string>
+    <string name="drawer_whats_new">Yang baru</string>
+    <string name="drawer_whats_new_hide">Sembunyikan</string>
+    <string name="drawer_empty_title">Tidak ada sesi</string>
+    <string name="drawer_empty_message">Mulai dengan Sesi baru.</string>
+    <string name="drawer_search_no_results_title">Tidak ada hasil untuk “%1$s”</string>
+    <string name="drawer_search_no_results_message">Periksa ejaan atau coba pencarian lain.</string>
+    <string name="drawer_load_more_description">Memuat sesi lainnya</string>
+    <string name="drawer_load_more_failed">Gagal memuat sesi lainnya</string>
+
+    <!-- Selection bar -->
+    <string name="drawer_selection_cancel_description">Batalkan pilihan</string>
+    <plurals name="drawer_selection_count">
+        <item quantity="other">%1$d dipilih</item>
+    </plurals>
+    <string name="drawer_selection_more_options_description">Opsi lainnya</string>
+    <plurals name="drawer_delete_sessions_title">
+        <item quantity="other">Hapus %1$d sesi?</item>
+    </plurals>
+    <string name="drawer_delete_sessions_message">Sesi-sesi ini akan dihapus dari server untuk semua klien.</string>
+
+    <!-- Inbox Sidebar -->
+    <string name="drawer_inbox_needs_input">Perlu masukan Anda</string>
+    <string name="drawer_inbox_working">Bekerja</string>
+    <string name="drawer_inbox_unread">Belum dibaca</string>
+
+    <!-- Drawer button -->
+    <string name="drawer_button_open_sessions_description">Buka sesi</string>
+    <string name="drawer_button_attention_state">Ada sesi yang perlu masukan Anda</string>
+    <string name="drawer_button_unread_state">Sesi belum dibaca</string>
+    <string name="drawer_notice_open_sessions_action">Buka sesi</string>
+    <string name="drawer_notice_open_session_action">Buka sesi</string>
+
+    <!-- Search pill -->
+    <string name="drawer_search_description">Cari sesi</string>
+    <string name="drawer_search_cancel_description">Batalkan pencarian</string>
+
+    <!-- Pin drop zone -->
+    <string name="drawer_drop_to_pin">Lepas untuk menyematkan</string>
+
+    <!-- Server title -->
+    <string name="drawer_server_connecting_state">Menghubungkan</string>
+    <string name="drawer_server_edit">Sunting server…</string>
+    <string name="drawer_server_manage">Kelola server…</string>
+    <string name="drawer_server_reconnecting_state">Menghubungkan kembali</string>
+    <string name="drawer_server_sign_in_failed">Gagal masuk</string>
+    <string name="drawer_server_offline">Luring</string>
+    <string name="drawer_server_connecting_to_state">Menghubungkan ke %1$s</string>
+    <string name="drawer_server_show_servers_hint">Tampilkan server Anda</string>
+    <string name="drawer_server_offer_edit_hint">Tawarkan untuk menyunting server</string>
+    <string name="drawer_server_offer_try_again_hint">Tawarkan untuk mencoba lagi</string>
+
+    <!-- Server flow: switch-back note and server menu status -->
+    <string name="drawer_server_switched_back_title">Beralih kembali ke %1$s</string>
+    <string name="drawer_server_timed_out_detail">%1$s tidak merespons dalam %2$s dtk</string>
+    <string name="drawer_server_unreachable_detail">Gagal terhubung ke %1$s</string>
+    <string name="drawer_server_sign_in_failed_detail">Gagal masuk ke %1$s</string>
+    <string name="drawer_server_pair_again">Pasangkan lagi</string>
+    <string name="drawer_server_menu_connected">Terhubung</string>
+    <string name="drawer_server_menu_connecting">Menghubungkan…</string>
+    <string name="drawer_server_menu_unreachable">Tidak dapat dijangkau</string>
+
+    <!-- Row selection menu -->
+    <string name="drawer_archive">Arsipkan</string>
+    <string name="drawer_unarchive">Keluarkan dari arsip</string>
+    <string name="drawer_open_in_new_window">Buka di jendela baru</string>
+
+    <!-- Session row state for TalkBack -->
+    <string name="drawer_row_pinned_state">Disematkan</string>
+    <string name="drawer_row_muted_state">Dibisukan</string>
+    <string name="drawer_row_hidden_state">Disembunyikan</string>
+    <string name="drawer_row_needs_input_state">Perlu masukan Anda</string>
+    <string name="drawer_row_working_state">Bekerja</string>
+    <string name="drawer_row_unread_state">Belum dibaca</string>
+    <string name="drawer_row_unsent_failed_state">Gagal mengirim</string>
+    <string name="drawer_row_unsent_sending_state">Mengirim</string>
+
+    <!-- Errors -->
+    <string name="drawer_notifications_request_error">Gagal meminta izin. Coba lagi.</string>
+    <string name="drawer_notifications_open_settings_error">Gagal membuka pengaturan. Buka pengaturan Android dan pilih Notifikasi → OpenCode.</string>
+    <string name="drawer_delete_session_error">Gagal menghapus “%1$s”</string>
+    <plurals name="drawer_delete_sessions_error">
+        <item quantity="other">Gagal menghapus %1$d sesi</item>
+    </plurals>
+    <string name="drawer_archive_error">Gagal mengarsipkan “%1$s”</string>
+    <plurals name="drawer_archive_sessions_error">
+        <item quantity="other">Gagal mengarsipkan %1$d sesi</item>
+    </plurals>
+    <string name="drawer_unarchive_error">Gagal mengeluarkan “%1$s” dari arsip</string>
+    <plurals name="drawer_unarchive_sessions_error">
+        <item quantity="other">Gagal mengeluarkan %1$d sesi dari arsip</item>
+    </plurals>
+
+    <!-- Session activity notification -->
+    <string name="drawer_session_activity_new_session">Sesi baru</string>
+
+    <!-- Inbox ages and row dates -->
+    <string name="drawer_age_now">sekarang</string>
+    <plurals name="drawer_age_minutes">
+        <item quantity="other">%1$d mnt</item>
+    </plurals>
+    <plurals name="drawer_age_hours">
+        <item quantity="other">%1$d jam</item>
+    </plurals>
+    <plurals name="drawer_age_days">
+        <item quantity="other">%1$d hari</item>
+    </plurals>
+    <string name="drawer_date_yesterday">Kemarin</string>
+
+    <!-- Appearance settings transcript preview -->
+    <string name="drawer_appearance_preview_user_text">Bantu saya memperbaiki layar sesi. Tunjukkan temuan Anda dan jelaskan perubahannya.</string>
+    <string name="drawer_appearance_preview_assistant_text">Saya menemukan masalah tata letak di `SessionView.swift`. Transkrip dan kolom pesan berbagi ruang vertikal yang tersedia, jadi keyboard berguna untuk menguji batas tata letaknya.</string>
+</resources>

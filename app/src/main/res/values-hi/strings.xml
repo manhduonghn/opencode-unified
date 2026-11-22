@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">शेयर किए गए आइटम नहीं जुड़ सके</string>
+    <string name="app_alert_open_session_failed_title">सेशन नहीं खुल सका</string>
+    <string name="app_alert_pairing_failed_title">सर्वर से पेयर नहीं हो सका</string>
+    <string name="app_pairing_confirm">पेयर करें</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">सर्वर</string>
+    <string name="app_servers_back_description">%1$s पर वापस जाएँ</string>
+    <string name="app_server_fallback_name">सर्वर</string>
+    <string name="app_connection_intro_new">अपने %1$s से कोडिंग सेशन जारी रखें।</string>
+    <string name="app_connection_intro_returning">जहाँ छोड़ा था, वहीं से जारी रखें या दूसरा कंप्यूटर पेयर करें।</string>
+    <string name="app_connection_enter_manually">सर्वर का पता खुद दर्ज करें</string>
+    <string name="app_connection_scan_pairing_code">पेयरिंग कोड स्कैन करें</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">अपने कंप्यूटर पर OpenCode खोलें और सेटिंग्स → पेयरिंग पर जाएँ या टर्मिनल में opencode pair --remote चलाएँ। फिर इस %1$s से कोड स्कैन करें।</string>
+    <string name="app_setup_install_title">अभी तक OpenCode नहीं है?</string>
+    <string name="app_setup_other_ways_to_install">इंस्टॉल करने के अन्य तरीके</string>
+    <string name="app_setup_terminal_title">या टर्मिनल में यह चलाएँ</string>
+    <string name="app_setup_terminal_detail">यह किसी भी नेटवर्क से काम करता है।</string>
+    <string name="app_setup_paste_prompt">या इससे मिला लिंक कॉपी करें, फिर</string>
+    <string name="app_setup_paste">पेस्ट करें</string>
+    <string name="app_setup_copy_command_description">%1$s कॉपी करें</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">कनेक्ट हो रहा है</string>
+    <string name="app_servers_edit_description">%1$s संपादित करें</string>
+    <string name="app_servers_remove_description">%1$s हटाएँ</string>
+    <string name="app_servers_remove_confirm_title">%1$s हटाएँ?</string>
+    <string name="app_servers_remove_confirm_message">इस %1$s से सहेजा गया पता और पासवर्ड हट जाएगा। सर्वर पर मौजूद सेशन पर कोई असर नहीं पड़ेगा।</string>
+    <string name="app_servers_remove_confirm">सर्वर हटाएँ</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">चरण: %1$s</string>
+    <string name="app_error_server">सर्वर: %1$s</string>
+    <string name="app_error_attempt">प्रयास: %1$d</string>
+    <string name="app_error_copy_report">त्रुटि रिपोर्ट कॉपी करें</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">नया सर्वर</string>
+    <string name="app_server_form_edit_title">सर्वर संपादित करें</string>
+    <string name="app_server_form_name">नाम</string>
+    <string name="app_server_form_address">सर्वर पता</string>
+    <string name="app_server_form_username">उपयोगकर्ता नाम</string>
+    <string name="app_server_form_password">पासवर्ड (वैकल्पिक)</string>
+    <string name="app_server_form_hide_password_description">पासवर्ड छिपाएँ</string>
+    <string name="app_server_form_show_password_description">पासवर्ड दिखाएँ</string>
+    <string name="app_server_form_connect">कनेक्ट करें</string>
+    <string name="app_server_form_save_and_connect">सहेजें और कनेक्ट करें</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">हेडर</string>
+    <string name="app_server_form_header_name">नाम</string>
+    <string name="app_server_form_header_name_description">हेडर %1$d का नाम</string>
+    <string name="app_server_form_header_value">मान</string>
+    <string name="app_server_form_header_value_description">हेडर %1$d का मान</string>
+    <string name="app_server_form_header_remove_description">हेडर %1$d हटाएँ</string>
+    <string name="app_server_form_header_add">हेडर जोड़ें</string>
+    <string name="app_server_form_headers_detail">हर अनुरोध के साथ भेजे जाते हैं, सर्वर के आगे मौजूद Cloudflare Access जैसी प्रॉक्सी के लिए।</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">“%1$s” मान्य हेडर नाम नहीं है</string>
+    <string name="app_server_form_header_invalid_value">%1$s के मान में लाइन ब्रेक नहीं हो सकता</string>
+    <string name="app_server_form_name_placeholder">वैकल्पिक</string>
+    <string name="app_connection_progress_pairing">पेयर हो रहा है</string>
+    <string name="app_connection_progress_connecting">कनेक्ट हो रहा है</string>
+    <string name="app_connection_progress_loading_sessions">सेशन लोड हो रहे हैं</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">%1$s से पेयर करें?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode %1$s से कनेक्ट करने की कोशिश करेगा और सबसे पहले जवाब देने वाले पते पर स्विच करेगा।</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode %1$s से पेयर होकर उस पर स्विच करेगा।</string>
+    <string name="app_pairing_confirm_try_two">OpenCode %1$s और %2$s से कनेक्ट करने की कोशिश करेगा और सबसे पहले जवाब देने वाले पते पर स्विच करेगा।</string>
+    <string name="app_pairing_confirm_try_many">OpenCode %1$s और %2$s से कनेक्ट करने की कोशिश करेगा और सबसे पहले जवाब देने वाले पते पर स्विच करेगा।</string>
+    <string name="app_pairing_confirm_replaces">%1$s %2$s के लिए सहेजी गई लॉगिन जानकारी बदली जा सकती है।</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">पेयरिंग</string>
+    <string name="app_error_phase_connect">कनेक्ट करें</string>
+    <string name="app_error_phase_load_sessions">सेशन लोड करें</string>
+    <string name="app_error_candidate_detail">विकल्प %1$d: %2$s</string>
+    <string name="app_error_invalid_address">उपलब्ध नहीं (अमान्य पता)</string>
+    <string name="app_error_title_pair">पेयर नहीं हो सका</string>
+    <string name="app_error_title_load_sessions">सेशन लोड नहीं हो सके</string>
+    <string name="app_error_title_connect">%1$s से कनेक्ट नहीं हो सका</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">आपका क्लिपबोर्ड खाली है</string>
+    <string name="app_paste_not_a_pairing_link">यह पेयरिंग लिंक नहीं है</string>
+    <string name="app_server_no_longer_saved">यह सर्वर अब इस %1$s पर सहेजा हुआ नहीं है। सेशन खोलने के लिए इससे फिर कनेक्ट करें।</string>
+    <string name="app_session_no_longer_available">शायद इसे हटा दिया गया है या सर्वर उपलब्ध नहीं है।</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">%1$s से कनेक्ट हो गया</string>
+    <string name="app_pairing_invalid_code">यह OpenCode पेयरिंग कोड नहीं है। अपने कंप्यूटर पर opencode pair --remote चलाएँ, फिर उसका QR कोड स्कैन करें या उससे मिला लिंक पेस्ट करें।</string>
+    <string name="app_pairing_unusable_address">इस पेयरिंग कोड का “%1$s” इस्तेमाल नहीं हो सका: %2$s।</string>
+    <string name="app_pairing_loopback">यह सर्वर केवल localhost पर कनेक्शन लेता है, इसलिए यह %1$s उससे कनेक्ट नहीं हो सकता। इसके बजाय अपने कंप्यूटर पर opencode pair --remote चलाएँ, जो किसी भी नेटवर्क से काम करता है।</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">जिस सर्वर पर आपने शेयर किया था, वह अब इस डिवाइस पर सहेजा हुआ नहीं है। उससे फिर कनेक्ट करें, फिर दोबारा शेयर करें।</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">पिछली बार इस्तेमाल</string>
+    <string name="app_server_form_hint_new">पेयर करने के लिए `opencode pair --remote` से मिला लिंक पेस्ट करें या अपने OpenCode सर्वर का पता और पासवर्ड इस्तेमाल करें। उपयोगकर्ता नाम आम तौर पर opencode होता है।</string>
+    <string name="app_server_form_hint_edit_paired">इस सर्वर से कनेक्ट होते ही बदलाव सहेजे जाएँगे। यह सर्वर पेयर किया गया था, इसलिए इसका पासवर्ड एक सेशन टोकन है; इसे बदलने के बजाय नया पेयरिंग कोड स्कैन करें।</string>
+    <string name="app_server_form_hint_edit">इस सर्वर से कनेक्ट होते ही बदलाव सहेजे जाएँगे।</string>
+</resources>

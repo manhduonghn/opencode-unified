@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Gedeelde items toevoegen mislukt</string>
+    <string name="app_alert_open_session_failed_title">Sessie openen mislukt</string>
+    <string name="app_alert_pairing_failed_title">Koppelen met server mislukt</string>
+    <string name="app_pairing_confirm">Koppelen</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Servers</string>
+    <string name="app_servers_back_description">Terug naar %1$s</string>
+    <string name="app_server_fallback_name">server</string>
+    <string name="app_connection_intro_new">Werk verder aan je codeersessies vanaf je %1$s.</string>
+    <string name="app_connection_intro_returning">Ga verder waar je was gebleven, of koppel een andere computer.</string>
+    <string name="app_connection_enter_manually">Server handmatig invoeren</string>
+    <string name="app_connection_scan_pairing_code">Koppelcode scannen</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Open OpenCode op je computer en ga naar Instellingen → Koppelen, of voer opencode pair --remote uit in een terminal. Scan daarna de code met deze %1$s.</string>
+    <string name="app_setup_install_title">Heb je OpenCode nog niet?</string>
+    <string name="app_setup_other_ways_to_install">Andere manieren om te installeren</string>
+    <string name="app_setup_terminal_title">Of voer dit uit in een terminal</string>
+    <string name="app_setup_terminal_detail">Dit werkt vanaf elk netwerk.</string>
+    <string name="app_setup_paste_prompt">Of kopieer de getoonde link en kies</string>
+    <string name="app_setup_paste">Plakken</string>
+    <string name="app_setup_copy_command_description">%1$s kopiëren</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Verbinding maken</string>
+    <string name="app_servers_edit_description">%1$s bewerken</string>
+    <string name="app_servers_remove_description">%1$s verwijderen</string>
+    <string name="app_servers_remove_confirm_title">%1$s verwijderen?</string>
+    <string name="app_servers_remove_confirm_message">Hiermee verwijder je het opgeslagen adres en wachtwoord op deze %1$s. Sessies op de server blijven ongewijzigd.</string>
+    <string name="app_servers_remove_confirm">Server verwijderen</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Fase: %1$s</string>
+    <string name="app_error_server">Server: %1$s</string>
+    <string name="app_error_attempt">Poging: %1$d</string>
+    <string name="app_error_copy_report">Foutrapport kopiëren</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Nieuwe server</string>
+    <string name="app_server_form_edit_title">Server bewerken</string>
+    <string name="app_server_form_name">Naam</string>
+    <string name="app_server_form_address">Serveradres</string>
+    <string name="app_server_form_username">Gebruikersnaam</string>
+    <string name="app_server_form_password">Wachtwoord (optioneel)</string>
+    <string name="app_server_form_hide_password_description">Wachtwoord verbergen</string>
+    <string name="app_server_form_show_password_description">Toon wachtwoord</string>
+    <string name="app_server_form_connect">Verbinden</string>
+    <string name="app_server_form_save_and_connect">Opslaan en verbinden</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Headers</string>
+    <string name="app_server_form_header_name">Naam</string>
+    <string name="app_server_form_header_name_description">Naam van header %1$d</string>
+    <string name="app_server_form_header_value">Waarde</string>
+    <string name="app_server_form_header_value_description">Waarde van header %1$d</string>
+    <string name="app_server_form_header_remove_description">Header %1$d verwijderen</string>
+    <string name="app_server_form_header_add">Header toevoegen</string>
+    <string name="app_server_form_headers_detail">Worden bij elk verzoek meegestuurd, voor een proxy vóór de server zoals Cloudflare Access.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">“%1$s” is geen geldige headernaam</string>
+    <string name="app_server_form_header_invalid_value">De waarde van %1$s mag geen regeleinde bevatten</string>
+    <string name="app_server_form_name_placeholder">Optioneel</string>
+    <string name="app_connection_progress_pairing">Koppelen</string>
+    <string name="app_connection_progress_connecting">Verbinding maken</string>
+    <string name="app_connection_progress_loading_sessions">Sessies laden</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Koppelen met %1$s?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode probeert %1$s en schakelt over naar het eerste adres dat reageert.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode koppelt met %1$s en schakelt ernaar over.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode probeert %1$s en %2$s en schakelt over naar het eerste adres dat reageert.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode probeert %1$s en %2$s en schakelt over naar het eerste adres dat reageert.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Opgeslagen inloggegevens voor %2$s worden mogelijk vervangen.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Koppelen</string>
+    <string name="app_error_phase_connect">Verbinden</string>
+    <string name="app_error_phase_load_sessions">Sessies laden</string>
+    <string name="app_error_candidate_detail">Kandidaat %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Niet beschikbaar (ongeldig adres)</string>
+    <string name="app_error_title_pair">Koppelen mislukt</string>
+    <string name="app_error_title_load_sessions">Sessies laden mislukt</string>
+    <string name="app_error_title_connect">Verbinden met %1$s mislukt</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Je klembord is leeg</string>
+    <string name="app_paste_not_a_pairing_link">Dat is geen koppellink</string>
+    <string name="app_server_no_longer_saved">Deze server is niet meer opgeslagen op deze %1$s. Maak opnieuw verbinding om de sessie te openen.</string>
+    <string name="app_session_no_longer_available">De sessie is mogelijk verwijderd of de server is niet beschikbaar.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Verbonden met %1$s</string>
+    <string name="app_pairing_invalid_code">Dat is geen OpenCode-koppelcode. Voer opencode pair --remote uit op je computer en scan de QR-code of plak de link die verschijnt.</string>
+    <string name="app_pairing_unusable_address">‘%1$s’ uit deze koppelcode kan niet worden gebruikt: het %2$s.</string>
+    <string name="app_pairing_loopback">Die server luistert alleen op localhost, dus deze %1$s kan hem niet bereiken. Voer in plaats daarvan opencode pair --remote uit op je computer. Dat werkt via elk netwerk.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">De server waarmee je hebt gedeeld, is niet meer opgeslagen op dit apparaat. Maak opnieuw verbinding en deel daarna opnieuw.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">laatst gebruikt</string>
+    <string name="app_server_form_hint_new">Plak de link die `opencode pair --remote` toont om te koppelen, of gebruik het adres en wachtwoord van je OpenCode-server. De gebruikersnaam is meestal opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Wijzigingen worden opgeslagen zodra deze server verbinding maakt. Deze server is gekoppeld, dus het wachtwoord is een sessietoken. Scan een nieuwe koppelcode in plaats van het te wijzigen.</string>
+    <string name="app_server_form_hint_edit">Wijzigingen worden opgeslagen zodra deze server verbinding maakt.</string>
+</resources>

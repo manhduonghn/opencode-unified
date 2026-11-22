@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent activity glyph -->
+    <string name="session_activity_running_description">Çalışıyor</string>
+    <!-- Background work panel -->
+    <string name="session_background_work_show_label">Çalışan alt temsilcileri, betikleri ve kabukları göster</string>
+    <string name="session_background_work_collapsed_description">Daraltıldı</string>
+    <string name="session_background_work_subagents_title">Alt temsilciler</string>
+    <string name="session_background_work_open_subagent_label">Alt temsilcinin oturumunu aç</string>
+    <string name="session_background_work_shells_title">Kabuklar</string>
+    <string name="session_background_work_show_shell_label">Kabuğun çıktısını göster</string>
+    <!-- The session's images and videos, paged in the full-screen viewer -->
+    <string name="session_visual_attached_image">Ekli görsel</string>
+    <string name="session_visual_tool_image">Araç görseli</string>
+    <string name="session_visual_image">Görsel</string>
+    <!-- One image of several: the image's label, then its place, as “Attached image 2 of 3” -->
+    <string name="session_visual_image_page_label">%1$s, %2$d/%3$d</string>
+    <!-- A diagram's label, read by TalkBack. %1$s is its kind, as “Diagram, Flowchart” -->
+    <string name="session_visual_diagram_label">Diyagram, %1$s</string>
+    <!-- Jump to latest -->
+    <string name="session_scroll_to_latest_description">En sona atla</string>
+    <!-- Dictation bar -->
+    <string name="session_dictation_finishing_description">Dikte tamamlanıyor</string>
+    <string name="session_dictation_stop_recording_description">Kaydı durdur</string>
+    <string name="session_dictation_stop_recording_hint">Söylediklerinizi mesaja ekleyin</string>
+    <string name="session_sending_message_description">Mesaj gönderiliyor</string>
+    <string name="session_delivery_steer_label">Sonraki adımda yönlendir</string>
+    <string name="session_delivery_queue_label">Bu yanıttan sonrası için sıraya al</string>
+    <string name="session_delivery_steer">Yönlendir</string>
+    <string name="session_delivery_queue">Sıraya al</string>
+    <!-- Draft project picker -->
+    <string name="session_draft_project_choose_label">Oturumun nerede başlayacağını seçin</string>
+    <string name="session_project_choose_folder">Klasör seç…</string>
+    <string name="session_project_all_projects">Tüm projeler</string>
+    <string name="session_project_selected_description">Seçili</string>
+    <string name="session_project_picker_title">Proje</string>
+    <!-- Folder browser -->
+    <string name="session_folder_select_description">Klasör seç</string>
+    <string name="session_folder_path_description">Yol</string>
+    <string name="session_folder_title">Klasör</string>
+    <string name="session_folder_select">Seç</string>
+    <string name="session_folder_open_failed_title">Klasör açılamadı</string>
+    <string name="session_folder_empty_title">Klasör yok</string>
+    <string name="session_folder_search_empty_title">“%1$s” için sonuç bulunamadı</string>
+    <string name="session_folder_search_empty_message">Yazımı kontrol edin veya başka bir arama yapın.</string>
+    <!-- Server connection pill -->
+    <string name="session_server_edit">Sunucuyu düzenle…</string>
+    <!-- Starter prompts -->
+    <string name="session_starter_prompts_title">Şunları sorabilirsiniz</string>
+    <string name="session_starter_prompt_pick_label">Mesaja ekle</string>
+    <!-- Session sheet -->
+    <string name="session_sheet_rename_failed">Yeniden adlandırılamadı</string>
+    <string name="session_sheet_status_description">Durum</string>
+    <string name="session_rename_title">Oturumu yeniden adlandır</string>
+    <string name="session_untitled_title">Oturum</string>
+    <string name="session_pin">Sabitle</string>
+    <string name="session_pinned">Sabitlendi</string>
+    <string name="session_unread">Okunmamış</string>
+    <string name="session_mute">Sessize al</string>
+    <string name="session_muted">Sessize alındı</string>
+    <string name="session_compact">Kompakt</string>
+    <string name="session_fork">Dallandır</string>
+    <string name="session_toggle_on_description">Açık</string>
+    <string name="session_toggle_off_description">Kapalı</string>
+    <string name="session_export">Dışa aktar</string>
+    <string name="session_export_markdown">Markdown</string>
+    <string name="session_export_json">JSON</string>
+    <string name="session_sheet_model">Model</string>
+    <string name="session_sheet_context">Bağlam</string>
+    <string name="session_sheet_unknown_description">Bilinmiyor</string>
+    <string name="session_sheet_context_tokens">%1$s token</string>
+    <string name="session_sheet_cost">Maliyet</string>
+    <string name="session_sheet_media">Medya</string>
+    <string name="session_sheet_media_value">Dosyalar ve bağlantılar</string>
+    <string name="session_always_notify">Her zaman bildir</string>
+    <string name="session_always_notify_message_phone">Başka yerden gönderdiğiniz mesajlar dahil, her yanıt tamamlandığında bu telefona bildirim gönder.</string>
+    <string name="session_always_notify_message_tablet">Başka yerden gönderdiğiniz mesajlar dahil, her yanıt tamamlandığında bu tablete bildirim gönder.</string>
+    <string name="session_delete_session">Oturumu sil</string>
+    <string name="session_rename_placeholder">Başlık</string>
+    <string name="session_auto_rename">Otomatik adlandır</string>
+    <string name="session_delete_confirm_title">“%1$s” silinsin mi?</string>
+    <string name="session_delete_confirm_message">Bu işlem, oturumu tüm istemciler için sunucudan kaldırır.</string>
+    <!-- Transcript -->
+    <string name="session_move_to_background">Arka plana taşı</string>
+    <string name="session_move_to_background_hint">Ajanın sonraki mesajınızı okuyabilmesi için devam eden işi arka planda sürdürün</string>
+    <!-- Attachments -->
+    <string name="session_attachment_add_image_failed_title">Görsel eklenemedi</string>
+    <string name="session_attachment_upload">Yükle</string>
+    <string name="session_attachment_remove_image_description">%1$d numaralı görsel ekini kaldır</string>
+    <string name="session_attachment_remove_description">%1$s ekini kaldır</string>
+    <string name="session_attachment_file_description">Dosya eki: %1$s</string>
+    <string name="session_attachment_cancel_upload_description">%1$s yüklemesini iptal et</string>
+    <string name="session_attachment_open_photo_label">Fotoğrafı tam ekran aç</string>
+    <string name="session_attachment_image_description">Görsel eki %1$d</string>
+    <string name="session_attachment_video_description">Video eki %1$d</string>
+    <!-- Composer controls -->
+    <string name="session_answer_own_description">Kendi yanıtınız</string>
+    <string name="session_answer_own_type_label">Kendi yanıtınızı yazın veya söyleyin</string>
+    <string name="session_answer_own_clear_label">Yanıtınızı bir kenara bırakın</string>
+    <string name="session_answer_own_choose_label">Kendi sözlerinizle yanıtlayın</string>
+    <string name="session_answer_decline_with_words_label">Ajana bunun yerine ne yapacağını söyleyin</string>
+    <string name="session_answer_required_description">Bir yanıt seçin veya kendi yanıtınızı yazın</string>
+    <string name="session_dictate_message_description">Mesajı sesle yaz</string>
+    <string name="session_dictate_message_hint">Mesajınızı söyleyerek yazın veya kaydedip göndermek için basılı tutun</string>
+    <string name="session_send_waiting_for_uploads_description">Yüklemeler bitince gönderilecek</string>
+    <string name="session_steer_message_description">Mesajla yönlendir</string>
+    <string name="session_stopping_description">Durduruluyor</string>
+    <string name="session_start_voice_call">Sesli arama başlat</string>
+    <string name="session_dictation_stop_description">Sesle yazmayı durdur</string>
+    <!-- Composer -->
+    <string name="session_requests_load_failed_title">İstekler yüklenemedi</string>
+    <plurals name="session_queued_count">
+        <item quantity="one">%1$d sırada</item>
+        <item quantity="other">%1$d sırada</item>
+    </plurals>
+    <string name="session_queued_show_label">Bu yanıtın bitmesini bekleyen mesajları göster</string>
+    <plurals name="session_queued_messages_description">
+        <item quantity="one">Sırada %1$d mesaj</item>
+        <item quantity="other">Sırada %1$d mesaj</item>
+    </plurals>
+    <string name="session_dictation_preparing">Sesle yazma hazırlanıyor…</string>
+    <string name="session_message_placeholder">Mesaj</string>
+    <!-- Session header -->
+    <string name="session_back_to_main_description">Ana oturuma dön</string>
+    <string name="session_header_open_from_catch_up_label">Oturumu aç ve gözden geçirmeyi kapat</string>
+    <string name="session_header_show_details_label">Oturum ayrıntılarını göster</string>
+    <string name="session_header_idle_description">Boşta</string>
+    <string name="session_header_syncing_description">Eşitleniyor</string>
+    <string name="session_header_last_known_description">Son bilinen</string>
+    <string name="session_menu_more_description">Daha fazla</string>
+    <string name="session_unpin">Sabitlemeyi kaldır</string>
+    <string name="session_copy_session_id">Oturum kimliğini kopyala</string>
+    <string name="session_mark_as_read">Okundu olarak işaretle</string>
+    <string name="session_mark_as_unread">Okunmadı olarak işaretle</string>
+    <string name="session_unmute">Sessizden çıkar</string>
+    <string name="session_menu_export_expanded_description">Genişletildi</string>
+    <string name="session_menu_export_collapsed_description">Daraltıldı</string>
+    <string name="session_info">Oturum bilgileri</string>
+    <!-- Session screen -->
+    <string name="session_load_failed_title">Oturum yüklenemedi</string>
+    <string name="session_location_share_failed_title">Konum paylaşılamadı</string>
+    <!-- Shell output -->
+    <string name="session_shell_stop_confirm_title">Bu kabuk durdurulsun mu?</string>
+    <string name="session_shell_stop_confirm_message">Komut hemen sonlanır. Buradaki çıktı, siz kapatana kadar kalır.</string>
+    <string name="session_shell_stop">Kabuğu durdur</string>
+    <string name="session_shell_copy_output">Çıktıyı kopyala</string>
+    <string name="session_shell_share_output">Çıktıyı paylaş</string>
+    <string name="session_shell_earlier_output_hidden">Önceki çıktı gizlendi</string>
+    <string name="session_shell_showing_last_output">Son 4 MB gösteriliyor</string>
+    <string name="session_shell_load_earlier">Öncekileri yükle</string>
+    <string name="session_shell_output_unavailable_title">Çıktı kullanılamıyor</string>
+    <string name="session_shell_output_unavailable_message">Bu kabuğun çıktısı artık sunucuda yok.</string>
+    <string name="session_shell_no_output_yet_title">Henüz çıktı yok</string>
+    <string name="session_shell_no_output_title">Çıktı yok</string>
+    <string name="session_shell_no_output_yet_message">Komut çıktı ürettikçe burada görünür.</string>
+    <string name="session_shell_status_stopping">Durduruluyor…</string>
+    <string name="session_shell_status_unavailable">Mevcut değil</string>
+    <string name="session_shell_status_interrupted">Kesildi</string>
+    <string name="session_shell_status_timed_out">Zaman aşımına uğradı</string>
+    <string name="session_shell_status_exited_with_code">%1$d koduyla sonlandı</string>
+    <string name="session_shell_status_exited">Sonlandı</string>
+    <plurals name="session_shell_elapsed_hours">
+        <item quantity="one">%1$d saat</item>
+        <item quantity="other">%1$d saat</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_minutes">
+        <item quantity="one">%1$d dakika</item>
+        <item quantity="other">%1$d dakika</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_seconds">
+        <item quantity="one">%1$d saniye</item>
+        <item quantity="other">%1$d saniye</item>
+    </plurals>
+
+    <!-- Agent activity (glyph labels and titles) -->
+    <string name="session_activity_idle">Boşta</string>
+    <string name="session_activity_starting_up">Başlatılıyor</string>
+    <string name="session_activity_thinking">Düşünüyor</string>
+    <string name="session_activity_long_work">Uzun süren çalışma</string>
+    <string name="session_activity_tool_burst">Yoğun araç kullanımı</string>
+    <string name="session_activity_streaming_output">Çıktı aktarılıyor</string>
+    <string name="session_activity_waiting_for_input">Girdi bekleniyor</string>
+    <string name="session_activity_handing_off">Görev devrediliyor</string>
+    <string name="session_activity_done">Bitti</string>
+    <string name="session_activity_failed">Başarısız</string>
+    <string name="session_working_stopping">Durduruluyor…</string>
+    <string name="session_status_working">Çalışma</string>
+    <string name="session_status_needs_input">Yanıtınız gerekiyor</string>
+    <string name="session_status_done">Bitti</string>
+
+    <!-- Lists: joins two or three phrases -->
+    <string name="session_list_two">%1$s, %2$s</string>
+    <string name="session_list_three">%1$s, %2$s, %3$s</string>
+
+    <!-- Background work panel -->
+    <plurals name="session_background_work_subagent_count">
+        <item quantity="one">%1$d alt temsilci</item>
+        <item quantity="other">%1$d alt temsilci</item>
+    </plurals>
+    <plurals name="session_background_work_shell_count">
+        <item quantity="one">%1$d kabuk</item>
+        <item quantity="other">%1$d kabuk</item>
+    </plurals>
+    <plurals name="session_background_work_script_count">
+        <item quantity="one">%1$d betik</item>
+        <item quantity="other">%1$d betik</item>
+    </plurals>
+    <string name="session_background_work_summary">%1$s · %2$s</string>
+    <string name="session_background_work_scripts_title">Betikler</string>
+    <string name="session_background_work_stop_script_label">Betiği durdur</string>
+    <string name="session_background_work_stop_subagent_label">Alt temsilciyi durdur</string>
+    <string name="session_background_work_stop_script_failed">Betik durdurulamadı</string>
+    <string name="session_background_work_stop_subagent_failed">Alt temsilci durdurulamadı</string>
+
+    <!-- Composer buttons -->
+    <string name="session_send_message_description">Mesaj gönder</string>
+    <string name="session_stop_description">Durdur</string>
+    <string name="session_start_voice_call_description">Sesli arama başlat</string>
+    <string name="session_model_level_default">Varsayılan</string>
+
+    <!-- In-app notice -->
+    <plurals name="session_notice_session_count">
+        <item quantity="one">%1$d oturum</item>
+        <item quantity="other">%1$d oturum</item>
+    </plurals>
+    <plurals name="session_notice_needs_input_count">
+        <item quantity="one">%1$d oturum yanıtınızı bekliyor</item>
+        <item quantity="other">%1$d oturum yanıtınızı bekliyor</item>
+    </plurals>
+    <string name="session_notice_announcement">%1$s, %2$s</string>
+
+    <!-- Server connection pill -->
+    <string name="session_server_reconnecting">%1$s sunucusuna yeniden bağlanılıyor…</string>
+    <string name="session_server_connect_failed">%1$s sunucusuna bağlanılamadı</string>
+    <string name="session_server_sign_in_failed">%1$s sunucusunda oturum açılamadı</string>
+    <string name="session_server_pair_again">Yeniden eşleştir</string>
+    <string name="session_server_try_again_click_label">tekrar dene</string>
+    <string name="session_server_pair_again_click_label">yeniden eşleştir</string>
+
+    <!-- Export -->
+    <string name="session_export_folder_failed">Dışa aktarma klasörü oluşturulamadı</string>
+    <string name="session_export_save_failed">Dışa aktarılan dosya kaydedilemedi</string>
+
+    <!-- Session errors -->
+    <string name="session_agent_fallback_name">Ajan</string>
+    <string name="session_something_went_wrong">Bir şeyler yanlış gitti</string>
+    <string name="session_something_went_wrong_sentence">Bir şeyler yanlış gitti.</string>
+    <string name="session_load_earlier_failed">Önceki mesajlar yüklenemedi</string>
+    <string name="session_move_to_background_failed">Arka plana taşınamadı: %1$s</string>
+    <string name="session_move_failed_reason">Oturum taşınamadı</string>
+    <string name="session_delivery_waiting_to_send">Gönderilmeyi bekliyor</string>
+    <string name="session_create_failed">Oturum oluşturulamadı.</string>
+    <string name="session_switch_agent_failed">Ajan değiştirilemedi: %1$s</string>
+    <string name="session_switch_model_failed">Model değiştirilemedi: %1$s</string>
+    <string name="session_pending_send_now_failed_details">Bekleyen mesaj şimdi gönderilemedi: %1$s</string>
+    <string name="session_pending_cancel_failed_details">Bekleyen mesaj iptal edilemedi: %1$s</string>
+    <string name="session_pending_queue_failed_details">Bekleyen mesaj sıraya alınamadı: %1$s</string>
+    <string name="session_stopped_before_sent">Gönderilmeden önce kesildi</string>
+    <string name="session_stop_failed">Oturum durdurulamadı</string>
+    <string name="session_undo_message_failed">Mesaj geri alınamadı: %1$s</string>
+    <string name="session_revert_failed">Bu noktaya sıfırlanamadı</string>
+    <string name="session_revert_failed_details">Bu noktaya sıfırlanamadı: %1$s</string>
+
+    <!-- Session sheet errors -->
+    <string name="session_sheet_rename_failed_title">Oturum yeniden adlandırılamadı</string>
+    <string name="session_sheet_compact_failed_title">Oturum sıkıştırılamadı</string>
+    <string name="session_sheet_fork_failed_title">Oturum dallandırılamadı</string>
+    <string name="session_sheet_save_export_failed">Dışa aktarılan dosya kaydedilemedi</string>
+    <string name="session_sheet_export_failed_title">Oturum dışa aktarılamadı</string>
+    <string name="session_sheet_notifications_off_message">Önce Ayarlar\'dan bildirimleri açın.</string>
+    <string name="session_sheet_always_notify_on_failed_title">Her zaman bildir açılamadı</string>
+    <string name="session_sheet_always_notify_off_failed_title">Her zaman bildir kapatılamadı</string>
+
+    <!-- Attachments -->
+    <string name="session_attachment_files_unsupported">Sunucu dosyaları desteklemiyor</string>
+    <string name="session_attachment_upload_failed">Yüklenemedi</string>
+    <string name="session_attachment_file_fallback_name">Dosya</string>
+    <string name="session_attachment_image_too_large">20 MB\'tan küçük bir görsel seçin.</string>
+    <string name="session_attachment_image_load_failed">Bu görsel yüklenemedi. Başka bir fotoğraf deneyin.</string>
+    <string name="session_attachment_file_add_failed">Bu dosya eklenemedi. Başka bir dosya deneyin.</string>
+    <plurals name="session_attachment_files_add_failed">
+        <item quantity="one">%1$d dosya eklenemedi.</item>
+        <item quantity="other">%1$d dosya eklenemedi.</item>
+    </plurals>
+    <string name="session_large_upload_title">%1$s yüklensin mi?</string>
+    <string name="session_large_upload_message_one">“%1$s” büyük bir dosya. Sunucunuza yükleme tamamlanınca mesaj gönderilir.</string>
+    <plurals name="session_large_upload_message_many">
+        <item quantity="one">%1$d dosya büyük. Sunucunuza yükleme tamamlanınca mesaj gönderilir.</item>
+        <item quantity="other">%1$d dosya büyük. Sunucunuza yükleme tamamlanınca mesaj gönderilir.</item>
+    </plurals>
+
+    <!-- Header and screens -->
+    <string name="session_new_session_title">Yeni oturum</string>
+    <string name="session_pasted_text_screen_title">Yapıştırılan metin</string>
+    <string name="session_pasted_text_viewer_screen_title">Yapıştırılan metin görüntüleyici</string>
+    <string name="session_context_summary">%2$s kapasitenin %%%1$d kadarı</string>
+    <string name="session_context_accessibility_value">%2$s tokenın %%%1$d kadarı kullanıldı</string>
+
+    <!-- Starter prompts (shown, then sent as the person’s message) -->
+    <string name="session_starter_project_purpose">Bu proje ne işe yarıyor?</string>
+    <string name="session_starter_code_tour">Kodu bana kısaca tanıt</string>
+    <string name="session_starter_recent_changes">Burada son zamanlarda neler değişti?</string>
+
+    <!-- Shell output -->
+    <string name="session_shell_refresh_failed">Çıktı yenilenemedi</string>
+    <string name="session_shell_load_earlier_failed">Önceki çıktı yüklenemedi</string>
+    <string name="session_shell_stop_failed">Kabuk durdurulamadı</string>
+    <string name="session_quote_remove_description">Alıntıyı kaldır</string>
+    <string name="session_quote_comment_placeholder">İsteğe bağlı bir yorum ekleyin…</string>
+    <string name="session_media_title">Oturum medyası</string>
+    <string name="session_media_filter_media">Medya</string>
+    <string name="session_media_filter_files">Dosyalar</string>
+    <string name="session_media_filter_links">Bağlantılar</string>
+    <string name="session_media_layout_description">Medya düzeni</string>
+    <string name="session_media_layout_tiles">Kutucuklar</string>
+    <string name="session_media_layout_list">Liste</string>
+    <string name="session_media_origin_user">Siz gönderdiniz</string>
+    <string name="session_media_origin_agent">Ajan paylaştı</string>
+    <string name="session_media_open_click_label">Aç</string>
+    <string name="session_media_open_link_click_label">Bağlantıyı aç</string>
+    <string name="session_media_empty_media_title">Medya yok</string>
+    <string name="session_media_empty_media_message">Bu oturumda paylaşılan görseller, videolar ve sesler burada görünür.</string>
+    <string name="session_media_empty_files_title">Dosya yok</string>
+    <string name="session_media_empty_files_message">Bu oturumdaki belgeler ve yapıştırılan metinler burada görünür.</string>
+    <string name="session_media_empty_links_title">Bağlantı yok</string>
+    <string name="session_media_empty_links_message">Bu oturumda paylaşılan web bağlantıları burada görünür.</string>
+    <string name="session_media_earlier_note">Önceki mesajlar henüz yüklenmedi.</string>
+    <string name="session_media_load_earlier">Önceki mesajları yükle</string>
+    <string name="session_media_loading_earlier">Yükleniyor…</string>
+    <string name="session_media_earlier_failed">Önceki mesajlar yüklenemedi. Bağlantınızı kontrol edip tekrar deneyin.</string>
+    <string name="session_media_earlier_nothing_new">Yeni yüklenen mesajlarda yeni bir şey yok. Daha eskilerde olabilir.</string>
+</resources>

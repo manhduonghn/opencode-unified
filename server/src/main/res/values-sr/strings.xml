@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Shell</string>
+    <string name="server_notice_source_subagent">Субагент</string>
+    <string name="server_notice_heading_finished">%1$s је завршио</string>
+    <string name="server_notice_heading_failed">%1$s није успео</string>
+    <string name="server_notice_heading_interrupted">%1$s је прекинут</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$d shell је завршио</item>
+        <item quantity="few">%1$d shell-а су завршила</item>
+        <item quantity="other">%1$d shell-ова је завршило</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$d shell није успео</item>
+        <item quantity="few">%1$d shell-а нису успела</item>
+        <item quantity="other">%1$d shell-ова није успело</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">%1$d shell је прекинут</item>
+        <item quantity="few">%1$d shell-а су прекинута</item>
+        <item quantity="other">%1$d shell-ова је прекинуто</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">%1$d субагент је завршио</item>
+        <item quantity="few">%1$d субагента су завршила</item>
+        <item quantity="other">%1$d субагената је завршило</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">%1$d субагент није успео</item>
+        <item quantity="few">%1$d субагента нису успела</item>
+        <item quantity="other">%1$d субагената није успело</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">%1$d субагент је прекинут</item>
+        <item quantity="few">%1$d субагента су прекинута</item>
+        <item quantity="other">%1$d субагената је прекинуто</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Цомпацт</string>
+    <string name="server_run_error_action_switch_model">Промени модел</string>
+    <string name="server_run_error_aborted">Прекинут</string>
+    <string name="server_run_error_permission_rejected">Прекинуто након одбијеног захтева</string>
+    <string name="server_run_error_content_filter">Безбедносни филтер је блокирао одговор</string>
+    <string name="server_run_error_rate_limit">Достигнуто је ограничење учесталости захтева</string>
+    <string name="server_run_error_quota">Достигнуто је ограничење употребе</string>
+    <string name="server_run_error_auth">Добављач је одбио API кључ</string>
+    <string name="server_run_error_context_overflow">Сесија је предуга за овај модел</string>
+    <string name="server_run_error_invalid_request">Добављач је одбио захтев</string>
+    <string name="server_run_error_overloaded">Модел је преоптерећен</string>
+    <string name="server_run_error_internal">Дошло је до проблема код добављача</string>
+    <string name="server_run_error_transport">Веза са моделом је прекинута</string>
+    <string name="server_run_error_timeout">Моделу је требало предуго да одговори</string>
+    <string name="server_run_error_invalid_output">Није могуће прочитати одговор модела</string>
+    <string name="server_run_error_unavailable">Овај модел није доступан</string>
+    <string name="server_run_error_unsupported_operation">Овај модел то не може</string>
+    <string name="server_run_error_tool_execution">Алат није успео, па је извршавање заустављено</string>
+    <string name="server_run_error_other">Извршавање је заустављено због грешке</string>
+    <string name="server_run_retry_in_seconds">%1$s · поновни покушај за %2$d с</string>
+    <string name="server_run_retry_now">%1$s · поновни покушај</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">Није могуће приступити OpenCode серверу</string>
+    <string name="server_error_folder_gone">Фасцикла више не постоји</string>
+    <string name="server_error_uploads_unsupported">Овај сервер не подржава прилагање датотека. Ажурирајте OpenCode на рачунару.</string>
+    <string name="server_error_archiving_unsupported">Овај сервер не подржава архивирање. Ажурирајте OpenCode на свом рачунару.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode нема дозволу за приступ уређајима на локалној мрежи. У подешавањима укључите дозволу „Уређаји у близини“ за OpenCode, па покушајте поново.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Сесија без наслова</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Shell</string>
+    <string name="server_tool_shell_killed">Shell је принудно заустављен</string>
+    <string name="server_tool_shell_exit_code">Команда је завршена са кодом %1$d</string>
+    <string name="server_notice_session_update">Ажурирање сесије</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Повезивање није успело</string>
+    <string name="server_connection_resolved_address_unknown">Разрешена адреса: непозната</string>
+    <string name="server_connection_resolved_address">Разрешена адреса (провера након неуспеха): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">Ово име tailnet мреже разрешено је у адресу ван Tailscale опсега, па се Tailscale DNS можда не користи. У апликацији Tailscale укључите коришћење Tailscale DNS подешавања, а искључите приватни DNS и све VPN профиле који мењају DNS.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Локална мрежа</string>
+    <string name="server_connection_route_loopback">Повратна веза</string>
+    <string name="server_connection_route_internet">Интернет</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">није веб адреса</string>
+    <string name="server_pairing_origin_bad_scheme">не почиње са http:// или https://</string>
+    <string name="server_pairing_origin_no_host">нема назив хоста</string>
+    <string name="server_pairing_origin_credentials">садржи корисничко име или лозинку</string>
+    <string name="server_pairing_origin_query">садржи упит или фрагмент</string>
+    <string name="server_pairing_origin_port">има порт ван опсега 1–65535</string>
+    <string name="server_pairing_origin_path">садржи путању, а сервер мора бити у корену адресе</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Сервер</string>
+    <string name="server_friendly_name_numbered">Сервер %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">Веза је прекинута након слања поруке, па је порука можда стигла.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Ова интеграција нема начин пријављивања.</string>
+    <string name="server_error_sign_in_url_invalid">Адреса странице за пријављивање није исправна.</string>
+    <string name="server_error_load_server_details">Није могуће учитати детаље сервера</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">Овај код за упаривање је истекао или је већ искоришћен. Поново покрените `opencode pair --remote`.</string>
+    <string name="server_error_pairing_unsupported">Овај сервер не подржава везе за упаривање. Ажурирајте OpenCode на рачунару или ручно унесите сервер.</string>
+    <string name="server_error_notification_previews_need_https">За шифроване прегледе обавештења потребна је HTTPS веза са сервером.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Унесите важећи HTTP или HTTPS URL сервера.</string>
+    <string name="server_error_credentials_rejected">Сервер је одбио ове податке за пријаву.</string>
+    <string name="server_error_http_status">Сервер је вратио HTTP %1$d.</string>
+    <string name="server_error_event_stream_http">Ток догађаја је вратио HTTP %1$d.</string>
+    <string name="server_error_event_stream_oversized_frame">Ток догађаја је послао превелик оквир.</string>
+    <string name="server_error_event_stream_ended">Ток догађаја је завршен.</string>
+    <string name="server_error_event_stream_server_failure">Ток догађаја је пријавио грешку сервера.</string>
+    <string name="server_tool_failed">Алат није успео</string>
+    <string name="server_error_list_folder">Сервер није могао да прикаже садржај ове фасцикле</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Није могуће учитати пројекте и сесије</string>
+    <string name="server_error_load_session_family">Није могуће учитати повезане сесије</string>
+    <string name="server_error_update_session">Није могуће ажурирати сесију</string>
+    <string name="server_error_load_session_ancestry">Није могуће учитати надређене сесије активне сесије</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Већ је одговорено на другом месту</string>
+    <string name="server_request_already_dismissed">Већ је одбачено</string>
+    <string name="server_request_already_answered">Већ је одговорено</string>
+    <string name="server_request_already_dismissed_elsewhere">Већ је одбачено на другом месту</string>
+    <string name="server_request_no_longer_waiting">Више се не чека</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Медијски садржај није доступан</string>
+    <string name="server_pasted_text_title">Налепљени текст</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d ред · %2$s</item>
+        <item quantity="few">%1$d реда · %2$s</item>
+        <item quantity="other">%1$d редова · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d ред</item>
+        <item quantity="few">%1$d реда</item>
+        <item quantity="other">%1$d редова</item>
+    </plurals>
+    <string name="server_file_size_zero">Нула KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d бајт</item>
+        <item quantity="few">%1$d бајта</item>
+        <item quantity="other">%1$d бајтова</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">Пројекат</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Датотека</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Довршите овај корак</string>
+    <string name="server_form_required">Обавезно</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">Унесите најмање %1$d знак</item>
+        <item quantity="few">Унесите најмање %1$d знака</item>
+        <item quantity="other">Унесите најмање %1$d знакова</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">Унесите највише %1$d знак</item>
+        <item quantity="few">Унесите највише %1$d знака</item>
+        <item quantity="other">Унесите највише %1$d знакова</item>
+    </plurals>
+    <string name="server_form_invalid_format">Неважећи формат</string>
+    <string name="server_form_choose_option">Изаберите доступну опцију</string>
+    <string name="server_form_invalid_email">Унесите важећу адресу е-поште</string>
+    <string name="server_form_invalid_url">Унесите важећи URL</string>
+    <string name="server_form_invalid_date">Унесите датум у облику YYYY-MM-DD</string>
+    <string name="server_form_invalid_date_time">Унесите важећи датум и време</string>
+    <string name="server_form_minimum">Мора бити најмање %1$s</string>
+    <string name="server_form_maximum">Мора бити највише %1$s</string>
+    <string name="server_form_whole_number">Унесите цео број</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">Изаберите најмање %1$d</item>
+        <item quantity="few">Изаберите најмање %1$d</item>
+        <item quantity="other">Изаберите најмање %1$d</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">Изаберите највише %1$d</item>
+        <item quantity="few">Изаберите највише %1$d</item>
+        <item quantity="other">Изаберите највише %1$d</item>
+    </plurals>
+    <string name="server_form_invalid_value">Неважећа вредност</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Сакриј изабране</string>
+    <string name="server_model_visibility_only_show">Прикажи само изабране</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Искључено</string>
+    <string name="server_model_variant_extra_high">Изузетно високо</string>
+    <string name="server_model_variant_max">Максимално</string>
+    <string name="server_delivery_steering">Усмеравање</string>
+    <string name="server_delivery_queued">У реду чекања</string>
+</resources>

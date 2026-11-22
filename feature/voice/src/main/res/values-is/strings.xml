@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Call ended and failure cards -->
+    <string name="voice_call_ended_title">Símtali lokið</string>
+    <string name="voice_call_ended_rejoin">Tengjast aftur</string>
+    <string name="voice_failure_title">Ekki tókst að tengja raddsamtal</string>
+    <string name="voice_failure_check_api_key">Athuga API lykil</string>
+    <string name="voice_failure_start_title">Ekki tókst að hefja símtal</string>
+
+    <!-- Floating call -->
+    <string name="voice_floating_expand">Stækka</string>
+    <string name="voice_floating_orb_description">Raddsímtal</string>
+    <string name="voice_floating_orb_show_controls">Sýna stjórntæki símtals</string>
+    <string name="voice_floating_end_description">Ljúka raddsímtali</string>
+    <string name="voice_floating_control_placeholder_state">Ekki tiltækt í þessari frumgerð</string>
+    <string name="voice_floating_duration_description">Lengd símtals</string>
+
+    <!-- Floating call stage -->
+    <string name="voice_stage_talking_in">Talað í</string>
+    <string name="voice_stage_minimize_description">Lágmarka</string>
+    <string name="voice_mute">Þagga</string>
+    <string name="voice_unmute">Hætta að þagga</string>
+    <string name="voice_stage_pause">Gera hlé</string>
+    <string name="voice_stage_camera">Myndavél</string>
+    <string name="voice_transcript_empty">Segðu eitthvað við setuna þína.</string>
+    <string name="voice_transcript_you">Þú</string>
+    <string name="voice_transcript_user_line_description">Þú: %1$s</string>
+
+    <!-- Call rows: screen request -->
+    <string name="voice_screen_request_detail">Röddin vill sjá skjáinn þinn</string>
+    <string name="voice_screen_request_spoken">Þarf svar frá þér. Röddin vill sjá skjáinn þinn</string>
+    <string name="voice_screen_request_spoken_with_reason">Þarf svar frá þér. Röddin vill sjá skjáinn þinn. %1$s</string>
+    <string name="voice_screen_request_title">Deila skjá?</string>
+
+    <!-- Call rows: open link -->
+    <string name="voice_open_link_spoken">Þarf svar frá þér. %1$s</string>
+    <string name="voice_open_link_spoken_with_host">Þarf svar frá þér. %1$s %2$s</string>
+    <string name="voice_open_link_open">Opið</string>
+
+    <!-- Call rows: audio on the call -->
+    <string name="voice_audio_paused">Í hléi</string>
+    <string name="voice_audio_playing">Spilar í símtalinu</string>
+    <string name="voice_audio_play">Spila hljóð</string>
+    <string name="voice_audio_pause">Gera hlé á hljóði</string>
+    <string name="voice_audio_stop">Stöðva hljóð</string>
+
+    <!-- Call history -->
+    <string name="voice_call_history_title">Símtalaferill</string>
+    <string name="voice_call_history_options_description">Valkostir ferils</string>
+    <string name="voice_call_history_delete_all">Eyða öllu</string>
+    <string name="voice_call_history_empty_title">Engin raddsímtöl enn</string>
+    <string name="voice_call_history_empty_message">Símtöl eru vistuð á þessum síma svo þú getir hlustað á þau aftur.</string>
+    <string name="voice_call_history_delete_all_confirm_title">Eyða öllum raddsímtölum?</string>
+
+    <!-- Call replay -->
+    <string name="voice_replay_timeline_description">Tímalína símtals</string>
+    <string name="voice_replay_timeline_state">%1$s af %2$s</string>
+    <string name="voice_replay_pause">Gera hlé</string>
+    <string name="voice_replay_play">Spila</string>
+    <string name="voice_replay_position_description">Staðsetning</string>
+    <string name="voice_replay_speed_description">Spilunarhraði</string>
+    <string name="voice_replay_empty">Ýttu á spila til að hlusta á símtalið aftur.</string>
+
+    <!-- Call notification -->
+    <string name="voice_notification_channel_name">Símtöl</string>
+    <string name="voice_notification_channel_description">OpenCode-símtöl í gangi</string>
+    <string name="voice_notification_connecting">Tengist…</string>
+    <string name="voice_notification_reconnecting">Tengist aftur…</string>
+    <string name="voice_notification_call_ended">Símtali lokið</string>
+    <string name="voice_notification_end">Ljúka</string>
+    <!-- Call status caption -->
+    <string name="voice_status_connecting_via">Tengist um %1$s…</string>
+    <string name="voice_status_weak_connection">Veik tenging</string>
+    <string name="voice_status_paused">Í hléi</string>
+    <string name="voice_status_needs_input">Þarf svar frá þér</string>
+    <string name="voice_status_working">Að vinna</string>
+    <string name="voice_status_speaking">Talar</string>
+    <string name="voice_status_muted">Þögguð</string>
+    <string name="voice_status_listening">Hlustar</string>
+    <string name="voice_status_ending">Lýkur símtali…</string>
+    <string name="voice_status_ended">Lokið</string>
+    <string name="voice_session_new_title">Ný seta</string>
+    <string name="voice_call_note_builtin_fallback">Innbyggður verkúthlutari notaður í þessu símtali</string>
+
+    <!-- Floating call tag and spoken length -->
+    <string name="voice_floating_now_talking_in">Núna talað í %1$s</string>
+    <string name="voice_floating_spoken_duration">%1$s, %2$s</string>
+    <plurals name="voice_floating_spoken_minutes">
+        <item quantity="one">%1$d mínúta</item>
+        <item quantity="other">%1$d mínútur</item>
+    </plurals>
+    <plurals name="voice_floating_spoken_seconds">
+        <item quantity="one">%1$d sekúnda</item>
+        <item quantity="other">%1$d sekúndur</item>
+    </plurals>
+
+    <!-- Voice providers -->
+    <string name="voice_provider_state_ready">Tilbúið</string>
+    <string name="voice_provider_state_no_key">Enginn lykill</string>
+    <string name="voice_provider_state_needs_update">Uppfæra OpenCode</string>
+    <string name="voice_provider_state_offline">Ótengdur</string>
+    <string name="voice_provider_place_phone">Þessi sími</string>
+    <string name="voice_provider_brand_openai_account">OpenAI reikningurinn þinn</string>
+    <string name="voice_provider_name">%1$s á %2$s</string>
+    <string name="voice_provider_subtitle">Á %1$s</string>
+    <string name="voice_provider_key_row_title">%1$s-lykill</string>
+    <string name="voice_provider_key_placeholder">%1$s API lykill</string>
+
+    <!-- Voice key source -->
+    <string name="voice_key_source_server_row_title">Lykill á netþjóninum þínum</string>
+    <string name="voice_key_source_phone_footer">Símtöl nota þinn eigin OpenAI eða xAI lykil.</string>
+    <string name="voice_key_source_server_footer">Símtöl nota %1$s-lykilinn á netþjóninum þínum.</string>
+    <string name="voice_key_source_opencode_footer">Símtöl eru gjaldfærð á vinnusvæðið þitt í OpenCode Console.</string>
+
+    <!-- Call failure fixes and diagnosis -->
+    <string name="voice_fix_set_up_on_phone">Setja upp á þessum síma</string>
+    <string name="voice_fix_choose_provider">Veldu þjónustuveitu</string>
+    <string name="voice_fix_update_opencode">Uppfæra OpenCode</string>
+    <string name="voice_diagnosis_needs_update">%1$s þarf nýrri útgáfu af OpenCode fyrir raddsímtöl.</string>
+    <string name="voice_diagnosis_your_server_needs_update">Netþjónninn þinn þarf nýrri útgáfu af OpenCode fyrir raddsímtöl.</string>
+    <string name="voice_diagnosis_no_key">%1$s er ekki með lykil fyrir raddsímtöl.</string>
+    <string name="voice_diagnosis_your_server_no_key">Netþjónninn þinn er ekki með lykil fyrir raddsímtöl.</string>
+    <string name="voice_diagnosis_unreachable">Ekki náðist samband við %1$s.</string>
+    <string name="voice_diagnosis_your_server_unreachable">Ekki náðist samband við netþjóninn þinn.</string>
+    <string name="voice_diagnosis_failed">%1$s gat ekki hafið símtalið.</string>
+    <string name="voice_diagnosis_your_server_failed">Netþjónninn þinn gat ekki hafið símtalið.</string>
+    <string name="voice_diagnosis_key_rejected">OpenAI samþykkti ekki lykilinn á þessum síma.</string>
+    <string name="voice_diagnosis_missing_phone_key">Bættu við %1$s API lyklinum þínum til að hringja úr þessum síma.</string>
+
+    <!-- Call errors -->
+    <string name="voice_error_microphone_denied">Leyfðu aðgang að hljóðnema í stillingum til að tala við setuna þína.</string>
+    <string name="voice_error_audio_format_unavailable">Hljóðsnið tækisins er ekki stutt.</string>
+    <string name="voice_error_audio_engine_rejected">Ekki tókst að ræsa símtalshljóð. Reyndu aftur eftir smástund.</string>
+    <string name="voice_error_server_unsupported">Þessi netþjónn þarf nýrri útgáfu af OpenCode fyrir raddsímtöl</string>
+    <string name="voice_error_invalid_server_url">Ekki tókst að hefja raddsamtal: Sláðu inn gilt HTTP eða HTTPS URL fyrir netþjóninn.</string>
+    <string name="voice_error_invalid_response">Ekki tókst að hefja raddsamtal: Netþjónninn skilaði ógildu svari.</string>
+    <string name="voice_error_start_voice_detail">Ekki tókst að hefja raddsamtal: %1$s</string>
+    <string name="voice_error_start_voice_http">Ekki tókst að hefja raddsamtal (HTTP %1$d).</string>
+    <string name="voice_error_openai_rejected_key">OpenAI hafnaði API lyklinum.</string>
+    <string name="voice_error_openai_verify_http">OpenAI gat ekki staðfest þennan lykil (HTTP %1$d).</string>
+    <string name="voice_error_no_connection">Engin tenging.</string>
+    <string name="voice_error_model_address_invalid">Heimilisfang raddlíkansins er ógilt.</string>
+    <string name="voice_error_xai_rejected_key">xAI hafnaði API lyklinum.</string>
+    <string name="voice_error_xai_verify_http">xAI gat ekki staðfest þennan lykil (HTTP %1$d).</string>
+    <string name="voice_error_xai_key_disabled">Þessi xAI API lykill er óvirkur.</string>
+    <string name="voice_error_xai_key_blocked">Lokað hefur verið á þennan xAI API lykil.</string>
+    <string name="voice_error_service_address_invalid">Heimilisfang raddþjónustunnar er ógilt.</string>
+    <string name="voice_error_connection_lost">Raddtengingin rofnaði.</string>
+    <string name="voice_error_connection_closed">Raddtengingin er lokuð.</string>
+    <string name="voice_error_connection_setup">Ekki tókst að koma á raddtengingu.</string>
+    <string name="voice_error_safety_filter">Öryggissía lauk raddsímtalinu.</string>
+    <string name="voice_error_audio_reset">Kerfið endurstillti hljóðið. Byrjaðu símtalið aftur.</string>
+    <string name="voice_error_missing_phone_key">Bættu við %1$s API lyklinum þínum í stillingum til að nota raddsamtöl.</string>
+
+    <!-- Voice accents -->
+    <string name="voice_accent_australian_english">Áströlsk enska</string>
+    <string name="voice_accent_british_english">Bresk enska</string>
+    <string name="voice_accent_irish_english">Írsk enska</string>
+    <string name="voice_accent_north_american_english">Norðuramerísk enska</string>
+    <string name="voice_accent_brazilian_portuguese">Brasilísk portúgalska</string>
+    <string name="voice_accent_filipino_english">Filippseysk enska</string>
+    <string name="voice_accent_southern_us_english">Enska Suðurríkjanna</string>
+    <string name="voice_accent_indian_english">Indversk enska</string>
+    <string name="voice_preview_error">Ekki tókst að spila prufu</string>
+
+    <!-- Call sound packs -->
+    <string name="voice_sound_pack_breath_ping">Andardráttartónn</string>
+    <string name="voice_sound_pack_crystal_glass">Kristalsgler</string>
+    <string name="voice_sound_pack_warm_analog">Hlýr hliðrænn tónn</string>
+    <string name="voice_sound_pack_aurora_pulse">Norðurljósapúls</string>
+    <string name="voice_sound_pack_velvet_bell">Flauelsbjalla</string>
+    <string name="voice_sound_pack_silent">Hljóðlaust</string>
+
+    <!-- Open link card -->
+    <string name="voice_open_link_card_title_untitled">Opna tengil?</string>
+    <string name="voice_open_link_card_title">Opna %1$s?</string>
+
+    <!-- Delegator choice -->
+    <string name="voice_delegator_session_fallback">Seta</string>
+    <string name="voice_delegator_unavailable_gemini">Gemini Live felur setunni á skjánum verkefni beint. Veldu OpenAI sem raddþjónustuveitu til að nota OpenCode-setu.</string>
+    <string name="voice_delegator_unavailable_engine">%1$s felur setunni á skjánum verkefni beint. Skiptu yfir í GPT-Live sem raddlíkan til að nota OpenCode-setu.</string>
+
+    <!-- Call log list and replay -->
+    <string name="voice_call_log_duration_seconds">%1$d s</string>
+    <string name="voice_call_log_duration_minutes">%1$d mín. %2$d s</string>
+    <string name="voice_replay_to_delegator">→ Verkúthlutari</string>
+    <string name="voice_replay_to_voice">→ Rödd</string>
+    <string name="voice_replay_audio">Hljóð</string>
+    <string name="voice_replay_track_user">Þú</string>
+    <string name="voice_replay_track_voice">Rödd</string>
+    <string name="voice_replay_track_delegator">Verkúthlutari</string>
+    <string name="voice_replay_track_tools">Verkfæri</string>
+</resources>

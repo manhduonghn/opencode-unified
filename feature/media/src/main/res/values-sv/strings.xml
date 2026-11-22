@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">Bild</string>
+    <string name="media_image_load_failed">Kunde inte ladda bilden</string>
+    <string name="media_unavailable">Media är inte tillgängliga</string>
+    <string name="media_try_again_label">Försök igen</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">Medievisare</string>
+    <string name="media_viewer_save_to_photos_description">Spara i Foton</string>
+    <string name="media_file_viewer_screen_title">Filvisare</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d av %3$d</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">Rita på bild</string>
+    <string name="media_drawing_undo_description">Ångra</string>
+    <string name="media_drawing_add_to_prompt_description">Lägg till i prompten</string>
+    <string name="media_drawing_canvas_description">Rityta</string>
+    <string name="media_drawing_discard_title">Släng teckningen?</string>
+    <string name="media_drawing_discard_confirm">Släng teckningen</string>
+    <string name="media_drawing_keep">Fortsätt rita</string>
+    <string name="media_drawing_add_failed_title">Kunde inte lägga till teckningen</string>
+    <string name="media_drawing_flatten_failed">Kunde inte skapa bilden. Försök igen.</string>
+    <string name="media_drawing_prompt_unavailable">Den här sessionens meddelande kan inte ta emot bilagor just nu.</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">Vit</string>
+    <string name="media_drawing_ink_black">Svart</string>
+    <string name="media_drawing_ink_red">Röd</string>
+    <string name="media_drawing_ink_yellow">Gul</string>
+    <string name="media_drawing_ink_green">Grön</string>
+    <string name="media_drawing_ink_blue">Blå</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">Inzoomad</string>
+    <string name="media_zoom_out_label">Zooma ut</string>
+    <string name="media_zoom_in_label">Zooma in</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">Pausa</string>
+    <string name="media_player_play">Spela upp</string>
+    <string name="media_player_position_description">Uppspelningsposition</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">Kunde inte spela upp videon</string>
+    <string name="media_video_position_description">Videoposition</string>
+    <string name="media_video_capture_failed_title">Kunde inte ta bildruta</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">Visa förhandsgranskning</string>
+    <string name="media_file_show_source_description">Visa källkod</string>
+    <string name="media_file_unwrap_lines_description">Bryt inte rader</string>
+    <string name="media_file_wrap_lines_description">Bryt rader</string>
+    <string name="media_file_start_pip_description">Starta bild i bild</string>
+    <string name="media_file_opening">Öppnar…</string>
+    <string name="media_file_share_failed_title">Kunde inte dela filen</string>
+    <string name="media_file_share_downloading_description">Laddar ner för att dela</string>
+    <string name="media_file_confirm_large_message">Filen är %1$s. Vill du ladda ner den för att visa den på den här enheten?</string>
+    <string name="media_file_download">Ladda ner</string>
+    <string name="media_file_open_in_another_app">Öppna i en annan app</string>
+    <string name="media_file_no_app_message">Ingen app på den här enheten kan öppna filen. Dela den för att spara den eller skicka den någon annanstans.</string>
+    <string name="media_file_pdf_page_description">Sida %1$d av %2$d</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">Filen hittades inte</string>
+    <string name="media_file_error_open_failed_title">Kunde inte öppna filen</string>
+    <string name="media_file_error_unreadable">Den här sökvägen kan inte läsas från servern.</string>
+    <string name="media_file_error_not_found">Den kan ha flyttats eller raderats.</string>
+    <string name="media_file_error_unauthorized">Servern godkände inte enhetens lösenord.</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">Servern kunde inte läsa filen (HTTP %1$d). Det kan vara en mapp.</string>
+    <string name="media_file_error_timed_out">Tidsgränsen för begäran överskreds.</string>
+    <string name="media_file_error_unexpected_response">Servern skickade ett oväntat svar.</string>
+    <string name="media_file_error_over_limit">Filen överskrider gränsen för nedladdningsstorlek.</string>
+    <string name="media_file_error_size_unknown">Servern angav inte bilagans storlek.</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">Laddar ner…</string>
+    <string name="media_file_downloading_size">Laddar ner %1$s</string>
+    <string name="media_file_downloading_progress">Laddar ner %1$s av %2$s</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">0 KB</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="one">%1$d byte</item>
+        <item quantity="other">%1$d byte</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s KB</string>
+    <string name="media_file_size_megabytes">%1$s MB</string>
+    <string name="media_file_size_gigabytes">%1$s GB</string>
+    <string name="media_file_size_terabytes">%1$s TB</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">Hittades inte</string>
+    <string name="media_image_load_label">Ladda bilden</string>
+    <string name="media_image_loading_state">Laddar</string>
+    <string name="media_image_open_label">Öppna bilden</string>
+    <string name="media_image_tap_to_load">Tryck för att ladda</string>
+    <string name="media_image_outside_project_value">Utanför projektet</string>
+    <string name="media_image_deferred_low_data_value">Uppskjutet i datasparläge</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">Öppna %1$s</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">Tillbaka till sessionen</string>
+    <string name="media_browser_ask_description">Fråga om den här sidan</string>
+    <string name="media_browser_forward_description">Framåt</string>
+    <string name="media_browser_open_in_browser_description">Öppna i webbläsare</string>
+    <string name="media_browser_scroll_to_top_label">Rulla till sidans början</string>
+    <string name="media_browser_ask_placeholder">Fråga om den här sidan</string>
+    <string name="media_browser_reply_needs_input">Behöver ditt svar</string>
+    <string name="media_browser_reply_working">Arbetar</string>
+    <string name="media_browser_go_back_to_session_label">Tillbaka till sessionen</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">Svar redo</string>
+    <string name="media_browser_reply_back_to_read">· Tillbaka för att läsa det</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">Session</string>
+    <string name="media_link_open_in_app_browser">Öppna i appens webbläsare</string>
+    <string name="media_link_open_in_browser">Öppna i webbläsare</string>
+    <string name="media_link_open_in_app">Öppna i app</string>
+    <string name="media_link_copy">Kopiera länk</string>
+    <string name="media_link_share">Dela…</string>
+    <string name="media_link_open_session">Öppna sessionen</string>
+    <string name="media_link_copy_session_id">Kopiera ID</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">Kopiera ID för %1$s</string>
+    <string name="media_link_open_session_named_description">Öppna session %1$s</string>
+    <string name="media_link_open_host_in_app_browser_description">Öppna %1$s i appens webbläsare</string>
+    <string name="media_link_open_host_in_browser_description">Öppna %1$s i webbläsare</string>
+    <string name="media_link_open_host_in_app_description">Öppna %1$s i app</string>
+    <string name="media_link_copy_host_description">Kopiera länk till %1$s</string>
+    <string name="media_link_share_host_description">Dela länk till %1$s</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%1$s på %2$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s länk %2$d</string>
+    <string name="media_link_more_links_description">Fler länkar</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">Video</string>
+    <string name="media_link_preview_post">Inlägg</string>
+    <string name="media_link_preview_post_unavailable">Inlägget är inte tillgängligt</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">Arkiv</string>
+    <string name="media_github_kind_issue">Ärende</string>
+    <string name="media_github_kind_pull_request">Pull request</string>
+    <string name="media_github_kind_commit">Commit</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">Öppen</string>
+    <string name="media_github_state_closed">Stängd</string>
+    <string name="media_github_state_merged">Sammanslagen</string>
+    <string name="media_github_state_draft">Utkast</string>
+    <string name="media_github_state_completed">Klart</string>
+    <string name="media_github_state_not_planned">Inte planerat</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">Diagram, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">Diagramvisare</string>
+    <string name="media_mermaid_diagram_description">Diagram</string>
+    <string name="media_mermaid_loading_state">%1$s, laddar</string>
+    <string name="media_mermaid_view_source">Visa källkod</string>
+    <string name="media_mermaid_source_title">Diagrammets källkod</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">Flödesschema</string>
+    <string name="media_mermaid_type_sequence">Sekvensdiagram</string>
+    <string name="media_mermaid_type_class">Klassdiagram</string>
+    <string name="media_mermaid_type_state">Tillståndsdiagram</string>
+    <string name="media_mermaid_type_entity_relationship">ER-diagram</string>
+    <string name="media_mermaid_type_user_journey">Användarresa</string>
+    <string name="media_mermaid_type_gantt">Gantt-schema</string>
+    <string name="media_mermaid_type_pie">Cirkeldiagram</string>
+    <string name="media_mermaid_type_quadrant">Kvadrantdiagram</string>
+    <string name="media_mermaid_type_requirement">Kravdiagram</string>
+    <string name="media_mermaid_type_git_graph">Git-graf</string>
+    <string name="media_mermaid_type_c4">C4-diagram</string>
+    <string name="media_mermaid_type_mind_map">Tankekarta</string>
+    <string name="media_mermaid_type_timeline">Tidslinje</string>
+    <string name="media_mermaid_type_sankey">Sankeydiagram</string>
+    <string name="media_mermaid_type_xy_chart">XY-diagram</string>
+    <string name="media_mermaid_type_block">Blockdiagram</string>
+    <string name="media_mermaid_type_packet">Paketdiagram</string>
+    <string name="media_mermaid_type_kanban">Kanbantavla</string>
+    <string name="media_mermaid_type_architecture">Arkitekturdiagram</string>
+    <string name="media_mermaid_type_radar">Radardiagram</string>
+    <string name="media_mermaid_type_treemap">Trädkarta</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

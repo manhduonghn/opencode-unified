@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent activity glyph -->
+    <string name="session_activity_running_description">Se execută</string>
+    <!-- Background work panel -->
+    <string name="session_background_work_show_label">Arată subagenții, scripturile și shell-urile în execuție</string>
+    <string name="session_background_work_collapsed_description">Restrâns</string>
+    <string name="session_background_work_subagents_title">Subagenți</string>
+    <string name="session_background_work_open_subagent_label">Deschide sesiunea subagentului</string>
+    <string name="session_background_work_shells_title">Shell-uri</string>
+    <string name="session_background_work_show_shell_label">Arată rezultatul shell-ului</string>
+    <!-- The session's images and videos, paged in the full-screen viewer -->
+    <string name="session_visual_attached_image">Imagine atașată</string>
+    <string name="session_visual_tool_image">Imagine de la instrument</string>
+    <string name="session_visual_image">Imagine</string>
+    <!-- One image of several: the image's label, then its place, as “Attached image 2 of 3” -->
+    <string name="session_visual_image_page_label">%1$s %2$d din %3$d</string>
+    <!-- A diagram's label, read by TalkBack. %1$s is its kind, as “Diagram, Flowchart” -->
+    <string name="session_visual_diagram_label">Diagramă, %1$s</string>
+    <!-- Jump to latest -->
+    <string name="session_scroll_to_latest_description">Sari la cele mai recente</string>
+    <!-- Dictation bar -->
+    <string name="session_dictation_finishing_description">Se finalizează dictarea</string>
+    <string name="session_dictation_stop_recording_description">Oprește înregistrarea</string>
+    <string name="session_dictation_stop_recording_hint">Adaugă cuvintele în mesaj</string>
+    <string name="session_sending_message_description">Se trimite mesajul</string>
+    <string name="session_delivery_steer_label">Ghidează la pasul următor</string>
+    <string name="session_delivery_queue_label">Pune în coadă după acest răspuns</string>
+    <string name="session_delivery_steer">Ghidează</string>
+    <string name="session_delivery_queue">Pune în coadă</string>
+    <!-- Draft project picker -->
+    <string name="session_draft_project_choose_label">Alege unde începe sesiunea</string>
+    <string name="session_project_choose_folder">Alege folderul…</string>
+    <string name="session_project_all_projects">Toate proiectele</string>
+    <string name="session_project_selected_description">Selectat</string>
+    <string name="session_project_picker_title">Proiect</string>
+    <!-- Folder browser -->
+    <string name="session_folder_select_description">Selectează folder</string>
+    <string name="session_folder_path_description">Cale</string>
+    <string name="session_folder_title">Folder</string>
+    <string name="session_folder_select">Selectează</string>
+    <string name="session_folder_open_failed_title">Nu s-a putut deschide folderul</string>
+    <string name="session_folder_empty_title">Niciun folder</string>
+    <string name="session_folder_search_empty_title">Niciun rezultat pentru „%1$s”</string>
+    <string name="session_folder_search_empty_message">Verifică ortografia sau încearcă o nouă căutare.</string>
+    <!-- Server connection pill -->
+    <string name="session_server_edit">Editează server…</string>
+    <!-- Starter prompts -->
+    <string name="session_starter_prompts_title">Încearcă să întrebi</string>
+    <string name="session_starter_prompt_pick_label">Introdu textul în mesaj</string>
+    <!-- Session sheet -->
+    <string name="session_sheet_rename_failed">Redenumirea nu a reușit</string>
+    <string name="session_sheet_status_description">Stare</string>
+    <string name="session_rename_title">Redenumește sesiunea</string>
+    <string name="session_untitled_title">Sesiune</string>
+    <string name="session_pin">Fixează</string>
+    <string name="session_pinned">Fixată</string>
+    <string name="session_unread">Necitită</string>
+    <string name="session_mute">Dezactivează notificările</string>
+    <string name="session_muted">Cu notificările oprite</string>
+    <string name="session_compact">Compactează</string>
+    <string name="session_fork">Derivează</string>
+    <string name="session_toggle_on_description">Activat</string>
+    <string name="session_toggle_off_description">Dezactivat</string>
+    <string name="session_export">Exportă</string>
+    <string name="session_export_markdown">Markdown</string>
+    <string name="session_export_json">JSON</string>
+    <string name="session_sheet_model">Model</string>
+    <string name="session_sheet_context">Context</string>
+    <string name="session_sheet_unknown_description">Necunoscut</string>
+    <string name="session_sheet_context_tokens">%1$s tokeni</string>
+    <string name="session_sheet_cost">Cost</string>
+    <string name="session_sheet_media">Media</string>
+    <string name="session_sheet_media_value">Fișiere și linkuri</string>
+    <string name="session_always_notify">Notifică mereu</string>
+    <string name="session_always_notify_message_phone">Primește notificări pe acest telefon când un răspuns e gata, chiar și pentru mesajele trimise de pe alt dispozitiv.</string>
+    <string name="session_always_notify_message_tablet">Primește notificări pe această tabletă când un răspuns e gata, chiar și pentru mesajele trimise de pe alt dispozitiv.</string>
+    <string name="session_delete_session">Șterge sesiunea</string>
+    <string name="session_rename_placeholder">Titlu</string>
+    <string name="session_auto_rename">Redenumește automat</string>
+    <string name="session_delete_confirm_title">Ștergi „%1$s”?</string>
+    <string name="session_delete_confirm_message">Sesiunea va fi eliminată de pe server pentru toți clienții.</string>
+    <!-- Transcript -->
+    <string name="session_move_to_background">Mută în fundal</string>
+    <string name="session_move_to_background_hint">Lasă lucrul să continue în fundal, ca agentul să poată citi următorul tău mesaj</string>
+    <!-- Attachments -->
+    <string name="session_attachment_add_image_failed_title">Imaginea nu a putut fi adăugată</string>
+    <string name="session_attachment_upload">Încarcă</string>
+    <string name="session_attachment_remove_image_description">Elimină imaginea atașată %1$d</string>
+    <string name="session_attachment_remove_description">Elimină %1$s</string>
+    <string name="session_attachment_file_description">Fișier atașat %1$s</string>
+    <string name="session_attachment_cancel_upload_description">Anulează încărcarea fișierului %1$s</string>
+    <string name="session_attachment_open_photo_label">Deschide fotografia pe tot ecranul</string>
+    <string name="session_attachment_image_description">Imagine atașată %1$d</string>
+    <string name="session_attachment_video_description">Video atașat %1$d</string>
+    <!-- Composer controls -->
+    <string name="session_answer_own_description">Răspunsul tău propriu</string>
+    <string name="session_answer_own_type_label">Scrie sau dictează propriul răspuns</string>
+    <string name="session_answer_own_clear_label">Renunță la propriul răspuns</string>
+    <string name="session_answer_own_choose_label">Răspunde cu propriile cuvinte</string>
+    <string name="session_answer_decline_with_words_label">Spune-i agentului ce să facă în schimb</string>
+    <string name="session_answer_required_description">Alege un răspuns sau scrie unul propriu</string>
+    <string name="session_dictate_message_description">Dictează mesajul</string>
+    <string name="session_dictate_message_hint">Dictează mesajul sau ține apăsat pentru a înregistra și trimite</string>
+    <string name="session_send_waiting_for_uploads_description">Se trimite după finalizarea încărcărilor</string>
+    <string name="session_steer_message_description">Ghidează prin mesaj</string>
+    <string name="session_stopping_description">Se oprește</string>
+    <string name="session_start_voice_call">Pornește un apel vocal</string>
+    <string name="session_dictation_stop_description">Oprește dictarea</string>
+    <!-- Composer -->
+    <string name="session_requests_load_failed_title">Solicitările nu au putut fi încărcate</string>
+    <plurals name="session_queued_count">
+        <item quantity="one">%1$d în așteptare</item>
+        <item quantity="few">%1$d în așteptare</item>
+        <item quantity="other">%1$d în așteptare</item>
+    </plurals>
+    <string name="session_queued_show_label">Arată mesajele care așteaptă încheierea acestui răspuns</string>
+    <plurals name="session_queued_messages_description">
+        <item quantity="one">%1$d mesaj în așteptare</item>
+        <item quantity="few">%1$d mesaje în așteptare</item>
+        <item quantity="other">%1$d de mesaje în așteptare</item>
+    </plurals>
+    <string name="session_dictation_preparing">Se pregătește dictarea…</string>
+    <string name="session_message_placeholder">Mesaj</string>
+    <!-- Session header -->
+    <string name="session_back_to_main_description">Înapoi la sesiunea principală</string>
+    <string name="session_header_open_from_catch_up_label">Deschide sesiunea și închide „La zi”</string>
+    <string name="session_header_show_details_label">Arată detaliile sesiunii</string>
+    <string name="session_header_idle_description">Inactivă</string>
+    <string name="session_header_syncing_description">Se sincronizează</string>
+    <string name="session_header_last_known_description">Ultima stare cunoscută</string>
+    <string name="session_menu_more_description">Mai multe</string>
+    <string name="session_unpin">Anulează fixarea</string>
+    <string name="session_copy_session_id">Copiază ID-ul sesiunii</string>
+    <string name="session_mark_as_read">Marchează ca citită</string>
+    <string name="session_mark_as_unread">Marchează ca necitită</string>
+    <string name="session_unmute">Activează notificările</string>
+    <string name="session_menu_export_expanded_description">Extins</string>
+    <string name="session_menu_export_collapsed_description">Restrâns</string>
+    <string name="session_info">Informații despre sesiune</string>
+    <!-- Session screen -->
+    <string name="session_load_failed_title">Sesiunea nu a putut fi încărcată</string>
+    <string name="session_location_share_failed_title">Locația nu a putut fi distribuită</string>
+    <!-- Shell output -->
+    <string name="session_shell_stop_confirm_title">Oprești acest shell?</string>
+    <string name="session_shell_stop_confirm_message">Comanda se oprește acum. Rezultatul afișat aici rămâne până când închizi panoul.</string>
+    <string name="session_shell_stop">Oprește shell-ul</string>
+    <string name="session_shell_copy_output">Copiază rezultatul</string>
+    <string name="session_shell_share_output">Distribuie rezultatul</string>
+    <string name="session_shell_earlier_output_hidden">Rezultatele anterioare sunt ascunse</string>
+    <string name="session_shell_showing_last_output">Se afișează ultimii 4 MB</string>
+    <string name="session_shell_load_earlier">Încarcă rezultate anterioare</string>
+    <string name="session_shell_output_unavailable_title">Rezultat indisponibil</string>
+    <string name="session_shell_output_unavailable_message">Serverul nu mai are rezultatul acestui shell.</string>
+    <string name="session_shell_no_output_yet_title">Încă niciun rezultat</string>
+    <string name="session_shell_no_output_title">Niciun rezultat</string>
+    <string name="session_shell_no_output_yet_message">Rezultatul apare aici pe măsură ce comanda îl scrie.</string>
+    <string name="session_shell_status_stopping">Se oprește…</string>
+    <string name="session_shell_status_unavailable">Indisponibil</string>
+    <string name="session_shell_status_interrupted">Întrerupt</string>
+    <string name="session_shell_status_timed_out">Timpul a expirat</string>
+    <string name="session_shell_status_exited_with_code">Încheiat cu codul %1$d</string>
+    <string name="session_shell_status_exited">Încheiat</string>
+    <plurals name="session_shell_elapsed_hours">
+        <item quantity="one">%1$d oră</item>
+        <item quantity="few">%1$d ore</item>
+        <item quantity="other">%1$d de ore</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_minutes">
+        <item quantity="one">%1$d minut</item>
+        <item quantity="few">%1$d minute</item>
+        <item quantity="other">%1$d de minute</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_seconds">
+        <item quantity="one">%1$d secundă</item>
+        <item quantity="few">%1$d secunde</item>
+        <item quantity="other">%1$d de secunde</item>
+    </plurals>
+
+    <!-- Agent activity (glyph labels and titles) -->
+    <string name="session_activity_idle">Inactivă</string>
+    <string name="session_activity_starting_up">Se pornește</string>
+    <string name="session_activity_thinking">Se gândește</string>
+    <string name="session_activity_long_work">Lucru de durată</string>
+    <string name="session_activity_tool_burst">Apeluri rapide de instrumente</string>
+    <string name="session_activity_streaming_output">Se transmite rezultatul</string>
+    <string name="session_activity_waiting_for_input">Se așteaptă un răspuns</string>
+    <string name="session_activity_handing_off">Se deleagă sarcina</string>
+    <string name="session_activity_done">Gata</string>
+    <string name="session_activity_failed">Eroare</string>
+    <string name="session_working_stopping">Se oprește…</string>
+    <string name="session_status_working">De lucru</string>
+    <string name="session_status_needs_input">E nevoie de tine</string>
+    <string name="session_status_done">Gata</string>
+
+    <!-- Lists: joins two or three phrases -->
+    <string name="session_list_two">%1$s, %2$s</string>
+    <string name="session_list_three">%1$s, %2$s, %3$s</string>
+
+    <!-- Background work panel -->
+    <plurals name="session_background_work_subagent_count">
+        <item quantity="one">%1$d subagent</item>
+        <item quantity="few">%1$d subagenți</item>
+        <item quantity="other">%1$d de subagenți</item>
+    </plurals>
+    <plurals name="session_background_work_shell_count">
+        <item quantity="one">%1$d shell</item>
+        <item quantity="few">%1$d shell-uri</item>
+        <item quantity="other">%1$d de shell-uri</item>
+    </plurals>
+    <plurals name="session_background_work_script_count">
+        <item quantity="one">%1$d script</item>
+        <item quantity="few">%1$d scripturi</item>
+        <item quantity="other">%1$d de scripturi</item>
+    </plurals>
+    <string name="session_background_work_summary">%1$s · %2$s</string>
+    <string name="session_background_work_scripts_title">Scripturi</string>
+    <string name="session_background_work_stop_script_label">Oprește scriptul</string>
+    <string name="session_background_work_stop_subagent_label">Oprește subagentul</string>
+    <string name="session_background_work_stop_script_failed">Nu s-a putut opri scriptul</string>
+    <string name="session_background_work_stop_subagent_failed">Nu s-a putut opri subagentul</string>
+
+    <!-- Composer buttons -->
+    <string name="session_send_message_description">Trimite mesajul</string>
+    <string name="session_stop_description">Oprește</string>
+    <string name="session_start_voice_call_description">Pornește un apel vocal</string>
+    <string name="session_model_level_default">Implicit</string>
+
+    <!-- In-app notice -->
+    <plurals name="session_notice_session_count">
+        <item quantity="one">%1$d sesiune</item>
+        <item quantity="few">%1$d sesiuni</item>
+        <item quantity="other">%1$d de sesiuni</item>
+    </plurals>
+    <plurals name="session_notice_needs_input_count">
+        <item quantity="one">%1$d are nevoie de tine</item>
+        <item quantity="few">%1$d au nevoie de tine</item>
+        <item quantity="other">%1$d au nevoie de tine</item>
+    </plurals>
+    <string name="session_notice_announcement">%1$s, %2$s</string>
+
+    <!-- Server connection pill -->
+    <string name="session_server_reconnecting">Se reconectează la %1$s…</string>
+    <string name="session_server_connect_failed">Conectarea la %1$s nu a reușit</string>
+    <string name="session_server_sign_in_failed">Autentificarea la %1$s nu a reușit</string>
+    <string name="session_server_pair_again">Asociază din nou</string>
+    <string name="session_server_try_again_click_label">încearcă din nou</string>
+    <string name="session_server_pair_again_click_label">asociază din nou</string>
+
+    <!-- Export -->
+    <string name="session_export_folder_failed">Nu s-a putut crea folderul de export</string>
+    <string name="session_export_save_failed">Nu s-a putut salva exportul</string>
+
+    <!-- Session errors -->
+    <string name="session_agent_fallback_name">Agent</string>
+    <string name="session_something_went_wrong">Ceva nu a funcționat</string>
+    <string name="session_something_went_wrong_sentence">Ceva nu a funcționat.</string>
+    <string name="session_load_earlier_failed">Nu s-au putut încărca mesajele anterioare</string>
+    <string name="session_move_to_background_failed">Nu s-a putut muta în fundal: %1$s</string>
+    <string name="session_move_failed_reason">Nu s-a putut muta sesiunea</string>
+    <string name="session_delivery_waiting_to_send">În așteptarea trimiterii</string>
+    <string name="session_create_failed">Nu s-a putut crea sesiunea.</string>
+    <string name="session_switch_agent_failed">Nu s-a putut schimba agentul: %1$s</string>
+    <string name="session_switch_model_failed">Nu s-a putut schimba modelul: %1$s</string>
+    <string name="session_pending_send_now_failed_details">Nu s-a putut trimite acum mesajul în așteptare: %1$s</string>
+    <string name="session_pending_cancel_failed_details">Nu s-a putut anula mesajul în așteptare: %1$s</string>
+    <string name="session_pending_queue_failed_details">Nu s-a putut pune în coadă mesajul în așteptare: %1$s</string>
+    <string name="session_stopped_before_sent">Întrerupt înainte de trimitere</string>
+    <string name="session_stop_failed">Nu s-a putut opri sesiunea</string>
+    <string name="session_undo_message_failed">Nu s-a putut anula mesajul: %1$s</string>
+    <string name="session_revert_failed">Nu s-a putut reveni</string>
+    <string name="session_revert_failed_details">Nu s-a putut reveni: %1$s</string>
+
+    <!-- Session sheet errors -->
+    <string name="session_sheet_rename_failed_title">Nu s-a putut redenumi sesiunea</string>
+    <string name="session_sheet_compact_failed_title">Nu s-a putut compacta sesiunea</string>
+    <string name="session_sheet_fork_failed_title">Nu s-a putut deriva sesiunea</string>
+    <string name="session_sheet_save_export_failed">Nu s-a putut salva exportul</string>
+    <string name="session_sheet_export_failed_title">Nu s-a putut exporta sesiunea</string>
+    <string name="session_sheet_notifications_off_message">Activează mai întâi notificările în Setări.</string>
+    <string name="session_sheet_always_notify_on_failed_title">Nu s-a putut activa „Notifică mereu”</string>
+    <string name="session_sheet_always_notify_off_failed_title">Nu s-a putut dezactiva „Notifică mereu”</string>
+
+    <!-- Attachments -->
+    <string name="session_attachment_files_unsupported">Serverul nu acceptă fișiere</string>
+    <string name="session_attachment_upload_failed">Nu s-a putut încărca</string>
+    <string name="session_attachment_file_fallback_name">Fișier</string>
+    <string name="session_attachment_image_too_large">Alege o imagine mai mică de 20 MB.</string>
+    <string name="session_attachment_image_load_failed">Nu s-a putut încărca această imagine. Încearcă altă fotografie.</string>
+    <string name="session_attachment_file_add_failed">Nu s-a putut adăuga acest fișier. Încearcă alt fișier.</string>
+    <plurals name="session_attachment_files_add_failed">
+        <item quantity="one">%1$d fișier nu a putut fi adăugat.</item>
+        <item quantity="few">%1$d fișiere nu au putut fi adăugate.</item>
+        <item quantity="other">%1$d de fișiere nu au putut fi adăugate.</item>
+    </plurals>
+    <string name="session_large_upload_title">Încarci %1$s?</string>
+    <string name="session_large_upload_message_one">„%1$s” este un fișier mare. Mesajul se trimite după ce se termină încărcarea pe serverul tău.</string>
+    <plurals name="session_large_upload_message_many">
+        <item quantity="one">%1$d fișier este mare. Mesajul se trimite după ce se termină încărcarea pe serverul tău.</item>
+        <item quantity="few">%1$d fișiere sunt mari. Mesajul se trimite după ce se termină încărcarea pe serverul tău.</item>
+        <item quantity="other">%1$d de fișiere sunt mari. Mesajul se trimite după ce se termină încărcarea pe serverul tău.</item>
+    </plurals>
+
+    <!-- Header and screens -->
+    <string name="session_new_session_title">Sesiune nouă</string>
+    <string name="session_pasted_text_screen_title">Text lipit</string>
+    <string name="session_pasted_text_viewer_screen_title">Vizualizator de text lipit</string>
+    <string name="session_context_summary">%1$d%% din %2$s</string>
+    <string name="session_context_accessibility_value">%1$d%% folosit din %2$s tokeni</string>
+
+    <!-- Starter prompts (shown, then sent as the person’s message) -->
+    <string name="session_starter_project_purpose">Ce face acest proiect?</string>
+    <string name="session_starter_code_tour">Prezintă-mi pe scurt codul</string>
+    <string name="session_starter_recent_changes">Ce s-a schimbat aici recent?</string>
+
+    <!-- Shell output -->
+    <string name="session_shell_refresh_failed">Nu s-a putut actualiza rezultatul</string>
+    <string name="session_shell_load_earlier_failed">Nu s-au putut încărca rezultatele anterioare</string>
+    <string name="session_shell_stop_failed">Nu s-a putut opri shell-ul</string>
+    <string name="session_quote_remove_description">Elimină citatul</string>
+    <string name="session_quote_comment_placeholder">Adaugă un comentariu opțional…</string>
+    <string name="session_media_title">Media din sesiune</string>
+    <string name="session_media_filter_media">Media</string>
+    <string name="session_media_filter_files">Fișiere</string>
+    <string name="session_media_filter_links">Linkuri</string>
+    <string name="session_media_layout_description">Aspectul conținutului media</string>
+    <string name="session_media_layout_tiles">Butoane rapide</string>
+    <string name="session_media_layout_list">Listă</string>
+    <string name="session_media_origin_user">Trimis de tine</string>
+    <string name="session_media_origin_agent">Distribuit de agent</string>
+    <string name="session_media_open_click_label">Deschide</string>
+    <string name="session_media_open_link_click_label">Deschide linkul</string>
+    <string name="session_media_empty_media_title">Niciun conținut media</string>
+    <string name="session_media_empty_media_message">Imaginile, videoclipurile și fișierele audio distribuite în această sesiune apar aici.</string>
+    <string name="session_media_empty_files_title">Niciun fișier</string>
+    <string name="session_media_empty_files_message">Documentele și textul lipit din această sesiune apar aici.</string>
+    <string name="session_media_empty_links_title">Niciun link</string>
+    <string name="session_media_empty_links_message">Linkurile web distribuite în această sesiune apar aici.</string>
+    <string name="session_media_earlier_note">Mesajele anterioare nu sunt încărcate încă.</string>
+    <string name="session_media_load_earlier">Încarcă mesajele anterioare</string>
+    <string name="session_media_loading_earlier">Se încarcă…</string>
+    <string name="session_media_earlier_failed">Mesajele anterioare nu s-au putut încărca. Verifică conexiunea și încearcă din nou.</string>
+    <string name="session_media_earlier_nothing_new">Nimic nou în mesajele tocmai încărcate. Cele anterioare ar putea avea mai mult.</string>
+</resources>

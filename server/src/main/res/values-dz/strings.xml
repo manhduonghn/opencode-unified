@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Shell</string>
+    <string name="server_notice_source_subagent">ཡན་ལག་ལས་ཚབ།</string>
+    <string name="server_notice_heading_finished">%1$s མཇུག་བསྡུ་ཡོདཔ།</string>
+    <string name="server_notice_heading_failed">%1$s མཐར་མ་འཁྱོལ་བ།</string>
+    <string name="server_notice_heading_interrupted">%1$s བར་ཆད་བྱུང་ཡོདཔ།</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="other">ཤལ་ %1$d མཇུག་བསྡུ་ཡོདཔ།</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="other">ཤལ་ %1$d མཐར་མ་འཁྱོལ་བ།</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="other">ཤལ་ %1$d བར་ཆད་བྱུང་ཡོདཔ།</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="other">ཡན་ལག་ལས་ཚབ་ %1$d མཇུག་བསྡུ་ཡོདཔ།</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="other">ཡན་ལག་ལས་ཚབ་ %1$d མཐར་མ་འཁྱོལ་བ།</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="other">ཡན་ལག་ལས་ཚབ་ %1$d ལུ་བར་ཆད་བྱུང་ཡོདཔ།</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">བསྡུ་སྒྲིག།</string>
+    <string name="server_run_error_action_switch_model">དཔེ་ཚད་སོར།</string>
+    <string name="server_run_error_aborted">བར་ཆད་ཅན།</string>
+    <string name="server_run_error_permission_rejected">ཞུ་བ་ཅིག་ངོས་ལེན་མ་འབད་བའི་ཤུལ་ལས་བར་ཆད་བྱུང་ཡོདཔ།</string>
+    <string name="server_run_error_content_filter">ཉེན་སྲུང་ཚགས་མ་གིས་ལན་བཀག་ཡོདཔ།</string>
+    <string name="server_run_error_rate_limit">ཞུ་བའི་མགྱོགས་ཚད་ཀྱི་ཚད་ལུ་ལྷོད་ཡོདཔ།</string>
+    <string name="server_run_error_quota">ལག་ལེན་གྱི་ཚད་ལུ་ལྷོད་ཡོདཔ།</string>
+    <string name="server_run_error_auth">བྱིན་མི་གིས་ APIལྡེ་མིག་ངོས་ལེན་མ་འབད་བས།</string>
+    <string name="server_run_error_context_overflow">དཔེ་ཚད་འདི་གི་དོན་ལུ་ལཱ་ཡུན་རིང་དྲགས་པས།</string>
+    <string name="server_run_error_invalid_request">བྱིན་མི་གིས་ཞུ་བ་ངོས་ལེན་མ་འབད་བས།</string>
+    <string name="server_run_error_overloaded">དཔེ་ཚད་ལུ་ལཱ་མང་དྲགས་པས།</string>
+    <string name="server_run_error_internal">བྱིན་མི་ལུ་དཀའ་ངལ་བྱུང་ཡོདཔ།</string>
+    <string name="server_run_error_transport">དཔེ་ཚད་དང་མཐུད་ལམ་ཆད་ཡོདཔ།</string>
+    <string name="server_run_error_timeout">དཔེ་ཚད་ཀྱིས་ལན་བྱིན་ནི་ལུ་དུས་ཚོད་འགོར་དྲགས་པས།</string>
+    <string name="server_run_error_invalid_output">དཔེ་ཚད་ཀྱི་ལན་ལྷག་མ་ཚུགས།</string>
+    <string name="server_run_error_unavailable">དཔེ་ཚད་འདི་འཐོབ་མི་ཚུགས།</string>
+    <string name="server_run_error_unsupported_operation">དཔེ་ཚད་འདི་གིས་དེ་འབད་མི་ཚུགས།</string>
+    <string name="server_run_error_tool_execution">ལག་ཆ་ཅིག་མཐར་མ་འཁྱོལཝ་ལས་ལཱ་བཀག་ཡོདཔ།</string>
+    <string name="server_run_error_other">འཛོལ་བ་ཅིག་ལས་ལཱ་བཀག་ཡོདཔ།</string>
+    <string name="server_run_retry_in_seconds">%1$s · སྐར་ཆ་ %2$d གི་ཤུལ་ལས་ལོག་འབད་རྩོལ་བསྐྱེད་ནི།</string>
+    <string name="server_run_retry_now">%1$s · ལོག་འབད་རྩོལ་བསྐྱེད་དོ།</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">OpenCode སར་བར་ལུ་མཐུད་མ་ཚུགས།</string>
+    <string name="server_error_folder_gone">སྣོད་འཛིན་འདི་མེདཔ་ཐལ་ནུག།</string>
+    <string name="server_error_uploads_unsupported">སར་བར་འདི་གིས་ཡིག་སྣོད་མཉམ་སྦྲགས་ལུ་རྒྱབ་སྐྱོར་མི་འབད། ཁྱོད་རའི་གློག་རིག་གུ་ OpenCode དུས་མཐུན་བཟོ།</string>
+    <string name="server_error_archiving_unsupported">སར་བར་འདི་གིས་གཏན་མཛོད་ནང་བཞག་ནི་ལུ་རྒྱབ་སྐྱོར་མི་འབད། ཁྱོད་ཀྱི་གློག་རིག་གུ་ OpenCode དུས་མཐུན་བཟོ།</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode ལུ་ཁྱོད་ཀྱི་ས་གནས་ཡོངས་འབྲེལ་ནང་གི་ཐབས་འཕྲུལ་ཚུ་ལུ་མཐུད་ནིའི་གནང་བ་མིན་འདུག། སྒྲིག་སྟངས་ཚུ་ནང་ OpenCode གི་དོན་ལུ་ཉེ་འདབས་ཀྱི་ཐབས་འཕྲུལ་ཚུ་ཨོན་འབད་ཞིནམ་ལས་ བསྐྱར་དུ་ཚོད་ལྟ།</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">མགོ་མིང་མེད་པའི་ལཱ་ཡུན།</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Shell</string>
+    <string name="server_tool_shell_killed">Shell བཙན་ཤེད་ཀྱིས་བཀག་ཡོདཔ།</string>
+    <string name="server_tool_shell_exit_code">བརྡ་བཀོད་འདི་ཕྱིར་ཐོན་ཨང་ %1$d དང་བཅས་མཇུག་བསྡུ་ཡོདཔ།</string>
+    <string name="server_notice_session_update">ལཱ་ཡུན་གྱི་དུས་མཐུན།</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">མཐུད་ལམ་མཐར་མ་འཁྱོལ་བ།</string>
+    <string name="server_connection_resolved_address_unknown">འཚོལ་ཐོབ་པའི་ཁ་བྱང་། མ་ཤེསཔ།</string>
+    <string name="server_connection_resolved_address">འཚོལ་ཐོབ་པའི་ཁ་བྱང་ (མཐར་མ་འཁྱོལ་བའི་ཤུལ་ལས་འཚོལ་ཡོདཔ)། %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">tailnet མིང་འདི་གི་ཁ་བྱང་འདི་ Tailscale གི་ཁྱབ་ཚད་ཀྱི་ཕྱི་ཁར་ཨིནམ་ལས་ Tailscale DNS ལག་ལེན་འཐབ་མ་འཐབ་འོང་། Tailscale གློག་རིམ་ནང་ Tailscale DNS སྒྲིག་སྟངས་ལག་ལེན་འཐབ་ནི་ཨོན་འབད། སྒེར་གྱི་ DNS ཡང་ན་ DNS སོར་མི་ VPN སྒྲིག་སྟངས་ཚུ་ཨོཕ་འབད།</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">ས་གནས་ཡོངས་འབྲེལ།</string>
+    <string name="server_connection_route_loopback">རང་ལུ་ལོག་མཐུད།</string>
+    <string name="server_connection_route_internet">ཨིན་ཊར་ནེཊ།</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">ཝེབ་ཁ་བྱང་མེན་པས།</string>
+    <string name="server_pairing_origin_bad_scheme">http:// ཡང་ན་ https:// གིས་འགོ་མི་བཙུགས་པས།</string>
+    <string name="server_pairing_origin_no_host">ཧོསཊ་མིང་མིན་འདུག།</string>
+    <string name="server_pairing_origin_credentials">ལག་ལེན་པའི་མིང་ཡང་ན་གསང་ཨང་ཚུད་ནུག།</string>
+    <string name="server_pairing_origin_query">འདྲི་ཞིབ་ཡང་ན་ཆ་ཤས་ཚུད་ནུག།</string>
+    <string name="server_pairing_origin_port">པོརཊ་ཨང་འདི་ 1–65535 གི་ཕྱི་ཁར་ཨིན་པས།</string>
+    <string name="server_pairing_origin_path">འགྲུལ་ལམ་ཅིག་ཚུད་ནུག། སར་བར་འདི་ཁ་བྱང་གི་ར་ཏོག་ལུ་འོང་དགོ།</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">སར་བར།</string>
+    <string name="server_friendly_name_numbered">སར་བར་ %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">འཕྲིན་དོན་བཏང་བའི་ཤུལ་ལས་མཐུད་ལམ་ཆད་སོངམ་ལས་ འཕྲིན་དོན་ལྷོད་ཡོདཔ་འོང་།</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">མཉམ་མཐུད་འདི་ལུ་ནང་བསྐྱོད་འབད་ཐངས་མིན་འདུག།</string>
+    <string name="server_error_sign_in_url_invalid">ནང་བསྐྱོད་ཤོག་ངོས་ཀྱི་ཁ་བྱང་འདི་ནུས་མེད་ཨིན་པས།</string>
+    <string name="server_error_load_server_details">སར་བར་གྱི་ཁ་གསལ་མངོན་གསལ་འབད་མ་ཚུགས།</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">ཆ་སྒྲིག་ཨང་རྟགས་འདི་དུས་ཡོལ་སོང་ནུག་ ཡང་ན་ ཧེ་མ་ལས་ལག་ལེན་འཐབ་ནུག། `opencode pair --remote` ལོག་གཡོག་བཀོལ།</string>
+    <string name="server_error_pairing_unsupported">སར་བར་འདི་གིས་ཆ་སྒྲིག་འབྲེལ་མཐུད་ལུ་རྒྱབ་སྐྱོར་མི་འབད། ཁྱོད་རའི་གློག་རིག་ནང་ OpenCode དུས་མཐུན་བཟོ་ ཡང་ན་ སར་བར་ལག་ཐོག་ལས་བཙུགས།</string>
+    <string name="server_error_notification_previews_need_https">གསང་སྒྱུར་འབད་ཡོད་པའི་བརྡ་བསྐུལ་སྔོན་ལྟ་ལུ་ HTTPS སར་བར་མཐུད་ལམ་དགོ།</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">ནུས་ཅན་གྱི་ HTTP ཡང་ན་ HTTPS སར་བར་ URL བཙུགས།</string>
+    <string name="server_error_credentials_rejected">སར་བར་གྱིས་ངོ་སྦྱོར་གནས་སྡུད་འདི་ཚུ་དང་ལེན་མ་འབད།</string>
+    <string name="server_error_http_status">སར་བར་གྱིས་ HTTP %1$d ལོག་བཏང་ནུག།</string>
+    <string name="server_error_event_stream_http">བྱུང་ལས་རྒྱུན་གྱིས་ HTTP %1$d ལོག་བཏང་ནུག།</string>
+    <string name="server_error_event_stream_oversized_frame">བྱུང་ལས་རྒྱུན་གྱིས་གནས་སྡུད་ཆ་ཚན་སྦོམ་དྲགས་ཅིག་བཏང་ནུག།</string>
+    <string name="server_error_event_stream_ended">བྱུང་ལས་རྒྱུན་མཇུག་བསྡུ་ནུག།</string>
+    <string name="server_error_event_stream_server_failure">བྱུང་ལས་རྒྱུན་གྱིས་སར་བར་མཐར་མ་འཁྱོལ་བའི་སྙན་ཞུ་འབད་ནུག།</string>
+    <string name="server_tool_failed">ལག་ཆ་མཐར་མ་འཁྱོལ་བ།</string>
+    <string name="server_error_list_folder">སར་བར་གྱིས་སྣོད་འཛིན་འདིའི་ཐོ་སྟོན་མ་ཚུགས།</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">ལས་གཞི་དང་ལཱ་ཡུན་ཚུ་མངོན་གསལ་འབད་མ་ཚུགས།</string>
+    <string name="server_error_load_session_family">འབྲེལ་ཡོད་ལཱ་ཡུན་སྡེ་ཚན་མངོན་གསལ་འབད་མ་ཚུགས།</string>
+    <string name="server_error_update_session">ལཱ་ཡུན་དུས་མཐུན་བཟོ་མ་ཚུགས།</string>
+    <string name="server_error_load_session_ancestry">ཤུགས་ལྡན་ལཱ་ཡུན་གྱི་བརྒྱུད་རིམ་མངོན་གསལ་འབད་མ་ཚུགས།</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">ཧེ་མ་ལས་ས་གནས་གཞན་ཁར་ལན་བཏབ་ནུག།</string>
+    <string name="server_request_already_dismissed">ཧེ་མ་ལས་ཕྱིར་འབུད་འབད་ནུག།</string>
+    <string name="server_request_already_answered">ཧེ་མ་ལས་ལན་བཏབ་ནུག།</string>
+    <string name="server_request_already_dismissed_elsewhere">ཧེ་མ་ལས་ས་གནས་གཞན་ཁར་ཕྱིར་འབུད་འབད་ནུག།</string>
+    <string name="server_request_no_longer_waiting">ད་སྒུག་སྟེ་མེད།</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">བརྡ་བརྒྱུད་འཐོབ་མི་ཚུགས།</string>
+    <string name="server_pasted_text_title">སྦྱར་ཡོད་པའི་ཡིག་གུ།</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="other">གྲལ་ཐིག་ %1$d · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="other">གྲལ་ཐིག་ %1$d</item>
+    </plurals>
+    <string name="server_file_size_zero">༠ KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="other">བཱའིཊ་ %1$d</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">ལས༌འགུལ</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">ཡིག༌སྣོད</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">གོམ་པ་འདི་མཇུག་བསྡུ།</string>
+    <string name="server_form_required">དགོཔ།</string>
+    <plurals name="server_form_min_length">
+        <item quantity="other">ཉུང་མཐའ་ཡིག་འབྲུ་ %1$d བཙུགས།</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="other">ཡིག་འབྲུ་ %1$d ལས་ལྷག་སྟེ་མ་བཙུགས།</item>
+    </plurals>
+    <string name="server_form_invalid_format">རྩ་སྒྲིག་ནུས་མེད།</string>
+    <string name="server_form_choose_option">འཐོབ་ཚུགས་པའི་གདམ་ཁ་ཅིག་གདམ།</string>
+    <string name="server_form_invalid_email">ནུས་ཅན་གྱི་གློག་འཕྲིན་ཁ་བྱང་བཙུགས།</string>
+    <string name="server_form_invalid_url">ནུས་ཅན་གྱི་ URL བཙུགས།</string>
+    <string name="server_form_invalid_date">ཚེས་གྲངས་ YYYY-MM-DD སྦེ་བཙུགས།</string>
+    <string name="server_form_invalid_date_time">ནུས་ཅན་གྱི་ཚེས་གྲངས་དང་དུས་ཚོད་བཙུགས།</string>
+    <string name="server_form_minimum">ཉུང་མཐའ་ %1$s འོང་དགོ།</string>
+    <string name="server_form_maximum">%1$s ལས་ལྷག་ནི་མི་འོང་།</string>
+    <string name="server_form_whole_number">ཧྲིལ་གྲངས་ཅིག་བཙུགས།</string>
+    <plurals name="server_form_min_items">
+        <item quantity="other">ཉུང་མཐའ་ %1$d གདམ།</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="other">%1$d ལས་ལྷག་སྟེ་མ་གདམ།</item>
+    </plurals>
+    <string name="server_form_invalid_value">གནས་གོང་ནུས་མེད།</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">སེལ་འཐུ་འབད་མི་ཚུ་སྦ་བཞག</string>
+    <string name="server_model_visibility_only_show">སེལ་འཐུ་འབད་མི་ཚུ་རྐྱངམ་ཅིག་སྟོན།</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">ཨོཕ།</string>
+    <string name="server_model_variant_extra_high">ཧ་ཅང་མཐོ་བ།</string>
+    <string name="server_model_variant_max">མཐོ་ཤོས།</string>
+    <string name="server_delivery_steering">ཁ་ཕྱོགས་སྟོན་དོ།</string>
+    <string name="server_delivery_queued">གྱལ་བསྒྲིགས།</string>
+</resources>

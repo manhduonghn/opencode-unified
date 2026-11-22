@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Jaettujen kohteiden lisäys epäonnistui</string>
+    <string name="app_alert_open_session_failed_title">Istunnon avaaminen epäonnistui</string>
+    <string name="app_alert_pairing_failed_title">Laiteparin muodostus palvelimen kanssa epäonnistui</string>
+    <string name="app_pairing_confirm">Muodosta laitepari</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Palvelimet</string>
+    <string name="app_servers_back_description">Takaisin: %1$s</string>
+    <string name="app_server_fallback_name">palvelin</string>
+    <string name="app_connection_intro_new">Jatka koodausistuntoja %1$s-laitteellasi.</string>
+    <string name="app_connection_intro_returning">Jatka siitä, mihin jäit, tai muodosta laitepari toisen tietokoneen kanssa.</string>
+    <string name="app_connection_enter_manually">Anna palvelimen tiedot käsin</string>
+    <string name="app_connection_scan_pairing_code">Skannaa pariliitoskoodi</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Avaa tietokoneella OpenCode ja valitse Asetukset → Laiteparin muodostus tai suorita terminaalissa opencode pair --remote. Skannaa sitten koodi tällä %1$s-laitteella.</string>
+    <string name="app_setup_install_title">Eikö sinulla ole vielä OpenCodea?</string>
+    <string name="app_setup_other_ways_to_install">Muut asennustavat</string>
+    <string name="app_setup_terminal_title">Tai suorita tämä terminaalissa</string>
+    <string name="app_setup_terminal_detail">Toimii missä tahansa verkossa.</string>
+    <string name="app_setup_paste_prompt">Tai kopioi tulostettu linkki ja valitse</string>
+    <string name="app_setup_paste">Liitä</string>
+    <string name="app_setup_copy_command_description">Kopioi %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Yhdistetään</string>
+    <string name="app_servers_edit_description">Muokkaa: %1$s</string>
+    <string name="app_servers_remove_description">Poista %1$s</string>
+    <string name="app_servers_remove_confirm_title">Poistetaanko %1$s?</string>
+    <string name="app_servers_remove_confirm_message">Osoite ja salasana poistetaan tältä %1$s-laitteelta. Tämä ei vaikuta palvelimen istuntoihin.</string>
+    <string name="app_servers_remove_confirm">Poista palvelin</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Vaihe: %1$s</string>
+    <string name="app_error_server">Palvelin: %1$s</string>
+    <string name="app_error_attempt">Yritys: %1$d</string>
+    <string name="app_error_copy_report">Kopioi virheraportti</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Uusi palvelin</string>
+    <string name="app_server_form_edit_title">Muokkaa palvelinta</string>
+    <string name="app_server_form_name">Nimi</string>
+    <string name="app_server_form_address">Palvelimen osoite</string>
+    <string name="app_server_form_username">Käyttäjätunnus</string>
+    <string name="app_server_form_password">Salasana (valinnainen)</string>
+    <string name="app_server_form_hide_password_description">Piilota salasana</string>
+    <string name="app_server_form_show_password_description">Näytä salasana</string>
+    <string name="app_server_form_connect">Yhdistä</string>
+    <string name="app_server_form_save_and_connect">Tallenna ja yhdistä</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Otsakkeet</string>
+    <string name="app_server_form_header_name">Nimi</string>
+    <string name="app_server_form_header_name_description">Otsakkeen %1$d nimi</string>
+    <string name="app_server_form_header_value">Arvo</string>
+    <string name="app_server_form_header_value_description">Otsakkeen %1$d arvo</string>
+    <string name="app_server_form_header_remove_description">Poista otsake %1$d</string>
+    <string name="app_server_form_header_add">Lisää otsake</string>
+    <string name="app_server_form_headers_detail">Lähetetään jokaisen pyynnön mukana palvelimen edessä olevalle välityspalvelimelle, kuten Cloudflare Accessille.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">”%1$s” ei ole kelvollinen otsakkeen nimi</string>
+    <string name="app_server_form_header_invalid_value">Otsakkeen %1$s arvo ei saa sisältää rivinvaihtoa</string>
+    <string name="app_server_form_name_placeholder">Valinnainen</string>
+    <string name="app_connection_progress_pairing">Muodostetaan laiteparia</string>
+    <string name="app_connection_progress_connecting">Yhdistetään</string>
+    <string name="app_connection_progress_loading_sessions">Ladataan istuntoja</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Muodostetaanko laitepari palvelimen %1$s kanssa?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode kokeilee osoitetta %1$s ja siirtyy ensimmäiseen vastaavaan osoitteeseen.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode muodostaa laiteparin palvelimen %1$s kanssa ja siirtyy siihen.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode kokeilee osoitteita %1$s ja %2$s ja siirtyy ensimmäiseen vastaavaan osoitteeseen.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode kokeilee osoitteita %1$s ja %2$s ja siirtyy ensimmäiseen vastaavaan osoitteeseen.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Palvelimen %2$s tallennetut tunnistetiedot saatetaan korvata.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Laiteparin muodostus</string>
+    <string name="app_error_phase_connect">Yhdistä</string>
+    <string name="app_error_phase_load_sessions">Lataa istunnot</string>
+    <string name="app_error_candidate_detail">Vaihtoehto %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Ei käytettävissä (virheellinen osoite)</string>
+    <string name="app_error_title_pair">Laiteparin muodostus epäonnistui</string>
+    <string name="app_error_title_load_sessions">Istuntojen lataus epäonnistui</string>
+    <string name="app_error_title_connect">Yhdistäminen palvelimeen %1$s epäonnistui</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Leikepöytä on tyhjä</string>
+    <string name="app_paste_not_a_pairing_link">Tämä ei ole pariliitoslinkki</string>
+    <string name="app_server_no_longer_saved">Tätä palvelinta ei enää ole tallennettu laitteelle %1$s. Avaa istunto yhdistämällä palvelimeen uudelleen.</string>
+    <string name="app_session_no_longer_available">Istunto on ehkä poistettu tai palvelin ei ole käytettävissä.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Yhdistetty palvelimeen %1$s</string>
+    <string name="app_pairing_invalid_code">Tämä ei ole OpenCoden pariliitoskoodi. Suorita tietokoneellasi opencode pair --remote ja skannaa sen QR-koodi tai liitä sen tulostama linkki.</string>
+    <string name="app_pairing_unusable_address">Pariliitoskoodin osoitetta ”%1$s” ei voitu käyttää: se %2$s.</string>
+    <string name="app_pairing_loopback">Palvelin kuuntelee vain localhost-osoitetta, joten laite %1$s ei saa siihen yhteyttä. Suorita tietokoneellasi sen sijaan opencode pair --remote, joka toimii mistä tahansa verkosta.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Palvelinta, jolle jaoit, ei enää ole tallennettu tälle laitteelle. Yhdistä siihen uudelleen ja yritä jakamista uudestaan.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">viimeksi käytetty</string>
+    <string name="app_server_form_hint_new">Muodosta laitepari liittämällä komennon `opencode pair --remote` tulostama linkki tai käytä OpenCode-palvelimesi osoitetta ja salasanaa. Käyttäjätunnus on yleensä opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Muutokset tallennetaan, kun yhteys palvelimeen muodostuu. Palvelimeen on muodostettu laitepari, joten sen salasana on istuntotunniste. Skannaa uusi pariliitoskoodi salasanan muuttamisen sijaan.</string>
+    <string name="app_server_form_hint_edit">Muutokset tallennetaan, kun yhteys palvelimeen muodostuu.</string>
+</resources>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Call ended and failure cards -->
+    <string name="voice_call_ended_title">通话已结束</string>
+    <string name="voice_call_ended_rejoin">重新加入</string>
+    <string name="voice_failure_title">无法连接语音</string>
+    <string name="voice_failure_check_api_key">检查 API 密钥</string>
+    <string name="voice_failure_start_title">无法发起通话</string>
+
+    <!-- Floating call -->
+    <string name="voice_floating_expand">展开</string>
+    <string name="voice_floating_orb_description">语音通话</string>
+    <string name="voice_floating_orb_show_controls">显示通话控件</string>
+    <string name="voice_floating_end_description">结束语音通话</string>
+    <string name="voice_floating_control_placeholder_state">此原型暂不支持</string>
+    <string name="voice_floating_duration_description">通话时长</string>
+
+    <!-- Floating call stage -->
+    <string name="voice_stage_talking_in">通话所在会话</string>
+    <string name="voice_stage_minimize_description">最小化</string>
+    <string name="voice_mute">静音</string>
+    <string name="voice_unmute">取消静音</string>
+    <string name="voice_stage_pause">暂停</string>
+    <string name="voice_stage_camera">相机</string>
+    <string name="voice_transcript_empty">对你的会话说点什么吧。</string>
+    <string name="voice_transcript_you">你</string>
+    <string name="voice_transcript_user_line_description">你：%1$s</string>
+
+    <!-- Call rows: screen request -->
+    <string name="voice_screen_request_detail">语音助手想查看你的屏幕</string>
+    <string name="voice_screen_request_spoken">需要你回应。语音助手想查看你的屏幕</string>
+    <string name="voice_screen_request_spoken_with_reason">需要你回应。语音助手想查看你的屏幕。%1$s</string>
+    <string name="voice_screen_request_title">分享屏幕？</string>
+
+    <!-- Call rows: open link -->
+    <string name="voice_open_link_spoken">需要你回应。%1$s</string>
+    <string name="voice_open_link_spoken_with_host">需要你回应。%1$s %2$s</string>
+    <string name="voice_open_link_open">打开</string>
+
+    <!-- Call rows: audio on the call -->
+    <string name="voice_audio_paused">已暂停</string>
+    <string name="voice_audio_playing">正在通话中播放</string>
+    <string name="voice_audio_play">播放音频</string>
+    <string name="voice_audio_pause">暂停音频</string>
+    <string name="voice_audio_stop">停止音频</string>
+
+    <!-- Call history -->
+    <string name="voice_call_history_title">通话记录</string>
+    <string name="voice_call_history_options_description">通话记录选项</string>
+    <string name="voice_call_history_delete_all">全部删除</string>
+    <string name="voice_call_history_empty_title">暂无语音通话</string>
+    <string name="voice_call_history_empty_message">通话会保存在此手机上，方便你回放。</string>
+    <string name="voice_call_history_delete_all_confirm_title">删除所有语音通话？</string>
+
+    <!-- Call replay -->
+    <string name="voice_replay_timeline_description">通话时间表</string>
+    <string name="voice_replay_timeline_state">%1$s，共 %2$s</string>
+    <string name="voice_replay_pause">暂停</string>
+    <string name="voice_replay_play">播放</string>
+    <string name="voice_replay_position_description">播放位置</string>
+    <string name="voice_replay_speed_description">播放速度</string>
+    <string name="voice_replay_empty">点按播放即可回放通话。</string>
+
+    <!-- Call notification -->
+    <string name="voice_notification_channel_name">通话</string>
+    <string name="voice_notification_channel_description">正在进行的 OpenCode 通话</string>
+    <string name="voice_notification_connecting">正在连接…</string>
+    <string name="voice_notification_reconnecting">正在重新连接…</string>
+    <string name="voice_notification_call_ended">通话已结束</string>
+    <string name="voice_notification_end">结束</string>
+    <!-- Call status caption -->
+    <string name="voice_status_connecting_via">正在通过 %1$s 连接…</string>
+    <string name="voice_status_weak_connection">连接不稳定</string>
+    <string name="voice_status_paused">已暂停</string>
+    <string name="voice_status_needs_input">需要你回应</string>
+    <string name="voice_status_working">工作中</string>
+    <string name="voice_status_speaking">正在说话</string>
+    <string name="voice_status_muted">已静音</string>
+    <string name="voice_status_listening">正在聆听</string>
+    <string name="voice_status_ending">正在结束…</string>
+    <string name="voice_status_ended">已结束</string>
+    <string name="voice_session_new_title">新建会话</string>
+    <string name="voice_call_note_builtin_fallback">本次通话使用内置委派器</string>
+
+    <!-- Floating call tag and spoken length -->
+    <string name="voice_floating_now_talking_in">正在 %1$s 中通话</string>
+    <string name="voice_floating_spoken_duration">%1$s，%2$s</string>
+    <plurals name="voice_floating_spoken_minutes">
+        <item quantity="other">%1$d 分钟</item>
+    </plurals>
+    <plurals name="voice_floating_spoken_seconds">
+        <item quantity="other">%1$d 秒</item>
+    </plurals>
+
+    <!-- Voice providers -->
+    <string name="voice_provider_state_ready">已就绪</string>
+    <string name="voice_provider_state_no_key">无密钥</string>
+    <string name="voice_provider_state_needs_update">更新 OpenCode</string>
+    <string name="voice_provider_state_offline">离线</string>
+    <string name="voice_provider_place_phone">此手机</string>
+    <string name="voice_provider_brand_openai_account">你的 OpenAI 账户</string>
+    <string name="voice_provider_name">%2$s 上的 %1$s</string>
+    <string name="voice_provider_subtitle">在 %1$s 上</string>
+    <string name="voice_provider_key_row_title">%1$s 密钥</string>
+    <string name="voice_provider_key_placeholder">%1$s API 密钥</string>
+
+    <!-- Voice key source -->
+    <string name="voice_key_source_server_row_title">服务器上的密钥</string>
+    <string name="voice_key_source_phone_footer">通话使用你自己的 OpenAI 或 xAI 密钥。</string>
+    <string name="voice_key_source_server_footer">通话使用你服务器上的 %1$s 密钥。</string>
+    <string name="voice_key_source_opencode_footer">通话费用计入你的 OpenCode Console 工作区。</string>
+
+    <!-- Call failure fixes and diagnosis -->
+    <string name="voice_fix_set_up_on_phone">在此手机上设置</string>
+    <string name="voice_fix_choose_provider">选择提供商</string>
+    <string name="voice_fix_update_opencode">更新 OpenCode</string>
+    <string name="voice_diagnosis_needs_update">%1$s 需要更新 OpenCode 才能进行语音通话。</string>
+    <string name="voice_diagnosis_your_server_needs_update">你的服务器需要更新 OpenCode 才能进行语音通话。</string>
+    <string name="voice_diagnosis_no_key">%1$s 未配置语音通话密钥。</string>
+    <string name="voice_diagnosis_your_server_no_key">你的服务器未配置语音通话密钥。</string>
+    <string name="voice_diagnosis_unreachable">无法连接到 %1$s。</string>
+    <string name="voice_diagnosis_your_server_unreachable">无法连接到你的服务器。</string>
+    <string name="voice_diagnosis_failed">%1$s 无法发起通话。</string>
+    <string name="voice_diagnosis_your_server_failed">你的服务器无法发起通话。</string>
+    <string name="voice_diagnosis_key_rejected">OpenAI 拒绝了此手机上的密钥。</string>
+    <string name="voice_diagnosis_missing_phone_key">添加你的 %1$s API 密钥，即可从此手机发起通话。</string>
+
+    <!-- Call errors -->
+    <string name="voice_error_microphone_denied">请在设置中允许访问麦克风，即可与会话进行语音交流。</string>
+    <string name="voice_error_audio_format_unavailable">不支持此音频硬件格式。</string>
+    <string name="voice_error_audio_engine_rejected">无法启动通话音频，请稍后再试。</string>
+    <string name="voice_error_server_unsupported">此服务器需要更新 OpenCode 才能进行语音通话</string>
+    <string name="voice_error_invalid_server_url">无法启动语音：请输入有效的 HTTP 或 HTTPS 服务器 URL。</string>
+    <string name="voice_error_invalid_response">无法启动语音：服务器返回了无效回复。</string>
+    <string name="voice_error_start_voice_detail">无法启动语音：%1$s</string>
+    <string name="voice_error_start_voice_http">无法启动语音（HTTP %1$d）。</string>
+    <string name="voice_error_openai_rejected_key">OpenAI 拒绝了此 API 密钥。</string>
+    <string name="voice_error_openai_verify_http">OpenAI 无法验证此密钥（HTTP %1$d）。</string>
+    <string name="voice_error_no_connection">未连接。</string>
+    <string name="voice_error_model_address_invalid">语音模型地址无效。</string>
+    <string name="voice_error_xai_rejected_key">xAI 拒绝了此 API 密钥。</string>
+    <string name="voice_error_xai_verify_http">xAI 无法验证此密钥（HTTP %1$d）。</string>
+    <string name="voice_error_xai_key_disabled">此 xAI API 密钥已禁用。</string>
+    <string name="voice_error_xai_key_blocked">此 xAI API 密钥已被封禁。</string>
+    <string name="voice_error_service_address_invalid">语音服务地址无效。</string>
+    <string name="voice_error_connection_lost">语音连接已断开。</string>
+    <string name="voice_error_connection_closed">语音连接已关闭。</string>
+    <string name="voice_error_connection_setup">无法建立语音连接。</string>
+    <string name="voice_error_safety_filter">语音通话因安全过滤而结束。</string>
+    <string name="voice_error_audio_reset">系统已重置音频，请重新发起通话。</string>
+    <string name="voice_error_missing_phone_key">请在设置中添加你的 %1$s API 密钥，以使用语音功能。</string>
+
+    <!-- Voice accents -->
+    <string name="voice_accent_australian_english">澳大利亚英语</string>
+    <string name="voice_accent_british_english">英式英语</string>
+    <string name="voice_accent_irish_english">爱尔兰英语</string>
+    <string name="voice_accent_north_american_english">北美英语</string>
+    <string name="voice_accent_brazilian_portuguese">巴西葡萄牙语</string>
+    <string name="voice_accent_filipino_english">菲律宾英语</string>
+    <string name="voice_accent_southern_us_english">美国南部英语</string>
+    <string name="voice_accent_indian_english">印度英语</string>
+    <string name="voice_preview_error">无法试听</string>
+
+    <!-- Call sound packs -->
+    <string name="voice_sound_pack_breath_ping">轻息叮咚</string>
+    <string name="voice_sound_pack_crystal_glass">水晶玻璃</string>
+    <string name="voice_sound_pack_warm_analog">温暖模拟音</string>
+    <string name="voice_sound_pack_aurora_pulse">极光脉冲</string>
+    <string name="voice_sound_pack_velvet_bell">丝绒铃声</string>
+    <string name="voice_sound_pack_silent">静音</string>
+
+    <!-- Open link card -->
+    <string name="voice_open_link_card_title_untitled">打开链接？</string>
+    <string name="voice_open_link_card_title">打开 %1$s？</string>
+
+    <!-- Delegator choice -->
+    <string name="voice_delegator_session_fallback">会话</string>
+    <string name="voice_delegator_unavailable_gemini">Gemini Live 会直接将任务委派给屏幕上的会话。选择 OpenAI 语音提供商即可使用 OpenCode 会话。</string>
+    <string name="voice_delegator_unavailable_engine">%1$s 会直接将任务委派给屏幕上的会话。将语音模型切换为 GPT-Live 即可使用 OpenCode 会话。</string>
+
+    <!-- Call log list and replay -->
+    <string name="voice_call_log_duration_seconds">%1$d秒</string>
+    <string name="voice_call_log_duration_minutes">%1$d分 %2$d秒</string>
+    <string name="voice_replay_to_delegator">→ 委派器</string>
+    <string name="voice_replay_to_voice">→ 语音</string>
+    <string name="voice_replay_audio">音频</string>
+    <string name="voice_replay_track_user">你</string>
+    <string name="voice_replay_track_voice">语音</string>
+    <string name="voice_replay_track_delegator">委派器</string>
+    <string name="voice_replay_track_tools">工具</string>
+</resources>

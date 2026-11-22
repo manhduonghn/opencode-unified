@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Call ended and failure cards -->
+    <string name="voice_call_ended_title">Apel încheiat</string>
+    <string name="voice_call_ended_rejoin">Revino în apel</string>
+    <string name="voice_failure_title">Conectarea vocală nu a reușit</string>
+    <string name="voice_failure_check_api_key">Verifică cheia API</string>
+    <string name="voice_failure_start_title">Apelul nu a putut fi pornit</string>
+
+    <!-- Floating call -->
+    <string name="voice_floating_expand">Extinde</string>
+    <string name="voice_floating_orb_description">Apel vocal</string>
+    <string name="voice_floating_orb_show_controls">Arată comenzile apelului</string>
+    <string name="voice_floating_end_description">Încheie apelul vocal</string>
+    <string name="voice_floating_control_placeholder_state">Indisponibil în acest prototip</string>
+    <string name="voice_floating_duration_description">Durata apelului</string>
+
+    <!-- Floating call stage -->
+    <string name="voice_stage_talking_in">Vorbești în</string>
+    <string name="voice_stage_minimize_description">Minimizează</string>
+    <string name="voice_mute">Dezactivează microfonul</string>
+    <string name="voice_unmute">Activează microfonul</string>
+    <string name="voice_stage_pause">Pauză</string>
+    <string name="voice_stage_camera">Cameră</string>
+    <string name="voice_transcript_empty">Spune ceva în sesiunea ta.</string>
+    <string name="voice_transcript_you">Tu</string>
+    <string name="voice_transcript_user_line_description">Tu: %1$s</string>
+
+    <!-- Call rows: screen request -->
+    <string name="voice_screen_request_detail">Vocea vrea să vadă ecranul tău</string>
+    <string name="voice_screen_request_spoken">E nevoie de intervenția ta. Vocea vrea să vadă ecranul tău</string>
+    <string name="voice_screen_request_spoken_with_reason">E nevoie de intervenția ta. Vocea vrea să vadă ecranul tău. %1$s</string>
+    <string name="voice_screen_request_title">Partajezi ecranul?</string>
+
+    <!-- Call rows: open link -->
+    <string name="voice_open_link_spoken">E nevoie de intervenția ta. %1$s</string>
+    <string name="voice_open_link_spoken_with_host">E nevoie de intervenția ta. %1$s %2$s</string>
+    <string name="voice_open_link_open">Deschide</string>
+
+    <!-- Call rows: audio on the call -->
+    <string name="voice_audio_paused">În pauză</string>
+    <string name="voice_audio_playing">Se redă în apel</string>
+    <string name="voice_audio_play">Redă sunetul</string>
+    <string name="voice_audio_pause">Pune sunetul pe pauză</string>
+    <string name="voice_audio_stop">Oprește sunetul</string>
+
+    <!-- Call history -->
+    <string name="voice_call_history_title">Istoric apeluri</string>
+    <string name="voice_call_history_options_description">Opțiuni pentru istoric</string>
+    <string name="voice_call_history_delete_all">Șterge tot</string>
+    <string name="voice_call_history_empty_title">Încă niciun apel vocal</string>
+    <string name="voice_call_history_empty_message">Apelurile sunt salvate pe acest telefon ca să le poți reasculta.</string>
+    <string name="voice_call_history_delete_all_confirm_title">Ștergi toate apelurile vocale?</string>
+
+    <!-- Call replay -->
+    <string name="voice_replay_timeline_description">Cronologia apelului</string>
+    <string name="voice_replay_timeline_state">%1$s din %2$s</string>
+    <string name="voice_replay_pause">Pauză</string>
+    <string name="voice_replay_play">Redă</string>
+    <string name="voice_replay_position_description">Poziție</string>
+    <string name="voice_replay_speed_description">Viteză de redare</string>
+    <string name="voice_replay_empty">Apasă pe Redă ca să reasculți apelul.</string>
+
+    <!-- Call notification -->
+    <string name="voice_notification_channel_name">Apeluri</string>
+    <string name="voice_notification_channel_description">Apeluri OpenCode în desfășurare</string>
+    <string name="voice_notification_connecting">Se conectează…</string>
+    <string name="voice_notification_reconnecting">Se reconectează…</string>
+    <string name="voice_notification_call_ended">Apel încheiat</string>
+    <string name="voice_notification_end">Încheie</string>
+    <!-- Call status caption -->
+    <string name="voice_status_connecting_via">Se conectează prin %1$s…</string>
+    <string name="voice_status_weak_connection">Conexiune slabă</string>
+    <string name="voice_status_paused">În pauză</string>
+    <string name="voice_status_needs_input">E nevoie de intervenția ta</string>
+    <string name="voice_status_working">De lucru</string>
+    <string name="voice_status_speaking">Vorbește</string>
+    <string name="voice_status_muted">Microfon oprit</string>
+    <string name="voice_status_listening">Ascultă</string>
+    <string name="voice_status_ending">Se încheie…</string>
+    <string name="voice_status_ended">Încheiat</string>
+    <string name="voice_session_new_title">Sesiune nouă</string>
+    <string name="voice_call_note_builtin_fallback">Se folosește delegatorul integrat pentru acest apel</string>
+
+    <!-- Floating call tag and spoken length -->
+    <string name="voice_floating_now_talking_in">Acum vorbești în %1$s</string>
+    <string name="voice_floating_spoken_duration">%1$s, %2$s</string>
+    <plurals name="voice_floating_spoken_minutes">
+        <item quantity="one">%1$d minut</item>
+        <item quantity="few">%1$d minute</item>
+        <item quantity="other">%1$d de minute</item>
+    </plurals>
+    <plurals name="voice_floating_spoken_seconds">
+        <item quantity="one">%1$d secundă</item>
+        <item quantity="few">%1$d secunde</item>
+        <item quantity="other">%1$d de secunde</item>
+    </plurals>
+
+    <!-- Voice providers -->
+    <string name="voice_provider_state_ready">Pregătit</string>
+    <string name="voice_provider_state_no_key">Fără cheie</string>
+    <string name="voice_provider_state_needs_update">Actualizează OpenCode</string>
+    <string name="voice_provider_state_offline">Offline</string>
+    <string name="voice_provider_place_phone">Acest telefon</string>
+    <string name="voice_provider_brand_openai_account">Contul tău OpenAI</string>
+    <string name="voice_provider_name">%1$s pe %2$s</string>
+    <string name="voice_provider_subtitle">Pe %1$s</string>
+    <string name="voice_provider_key_row_title">Cheie %1$s</string>
+    <string name="voice_provider_key_placeholder">Cheie API %1$s</string>
+
+    <!-- Voice key source -->
+    <string name="voice_key_source_server_row_title">Cheie pe serverul tău</string>
+    <string name="voice_key_source_phone_footer">Apelurile folosesc cheia ta OpenAI sau xAI.</string>
+    <string name="voice_key_source_server_footer">Apelurile folosesc cheia %1$s de pe serverul tău.</string>
+    <string name="voice_key_source_opencode_footer">Apelurile sunt facturate în spațiul tău de lucru OpenCode Console.</string>
+
+    <!-- Call failure fixes and diagnosis -->
+    <string name="voice_fix_set_up_on_phone">Configurează pe acest telefon</string>
+    <string name="voice_fix_choose_provider">Alege furnizorul</string>
+    <string name="voice_fix_update_opencode">Actualizează OpenCode</string>
+    <string name="voice_diagnosis_needs_update">%1$s are nevoie de o versiune mai nouă de OpenCode pentru apeluri vocale.</string>
+    <string name="voice_diagnosis_your_server_needs_update">Serverul tău are nevoie de o versiune mai nouă de OpenCode pentru apeluri vocale.</string>
+    <string name="voice_diagnosis_no_key">%1$s nu are o cheie pentru apeluri vocale.</string>
+    <string name="voice_diagnosis_your_server_no_key">Serverul tău nu are o cheie pentru apeluri vocale.</string>
+    <string name="voice_diagnosis_unreachable">Conectarea la %1$s nu a reușit.</string>
+    <string name="voice_diagnosis_your_server_unreachable">Conectarea la serverul tău nu a reușit.</string>
+    <string name="voice_diagnosis_failed">%1$s nu a putut porni apelul.</string>
+    <string name="voice_diagnosis_your_server_failed">Serverul tău nu a putut porni apelul.</string>
+    <string name="voice_diagnosis_key_rejected">OpenAI nu a acceptat cheia de pe acest telefon.</string>
+    <string name="voice_diagnosis_missing_phone_key">Adaugă cheia ta API %1$s pentru a apela de pe acest telefon.</string>
+
+    <!-- Call errors -->
+    <string name="voice_error_microphone_denied">Permite accesul la microfon în Setări pentru a vorbi cu sesiunea ta.</string>
+    <string name="voice_error_audio_format_unavailable">Formatul audio al dispozitivului nu este acceptat.</string>
+    <string name="voice_error_audio_engine_rejected">Sunetul apelului nu a putut fi pornit. Încearcă din nou în câteva clipe.</string>
+    <string name="voice_error_server_unsupported">Acest server are nevoie de o versiune mai nouă de OpenCode pentru apeluri vocale</string>
+    <string name="voice_error_invalid_server_url">Apelul vocal nu a putut fi pornit: introdu un URL de server HTTP sau HTTPS valid.</string>
+    <string name="voice_error_invalid_response">Apelul vocal nu a putut fi pornit: serverul a returnat un răspuns invalid.</string>
+    <string name="voice_error_start_voice_detail">Apelul vocal nu a putut fi pornit: %1$s</string>
+    <string name="voice_error_start_voice_http">Apelul vocal nu a putut fi pornit (HTTP %1$d).</string>
+    <string name="voice_error_openai_rejected_key">OpenAI a respins cheia API.</string>
+    <string name="voice_error_openai_verify_http">OpenAI nu a putut verifica această cheie (HTTP %1$d).</string>
+    <string name="voice_error_no_connection">Fără conexiune.</string>
+    <string name="voice_error_model_address_invalid">Adresa modelului vocal este invalidă.</string>
+    <string name="voice_error_xai_rejected_key">xAI a respins cheia API.</string>
+    <string name="voice_error_xai_verify_http">xAI nu a putut verifica această cheie (HTTP %1$d).</string>
+    <string name="voice_error_xai_key_disabled">Această cheie API xAI este dezactivată.</string>
+    <string name="voice_error_xai_key_blocked">Această cheie API xAI este blocată.</string>
+    <string name="voice_error_service_address_invalid">Adresa serviciului vocal este invalidă.</string>
+    <string name="voice_error_connection_lost">Conexiunea vocală s-a pierdut.</string>
+    <string name="voice_error_connection_closed">Conexiunea vocală este închisă.</string>
+    <string name="voice_error_connection_setup">Conexiunea vocală nu a putut fi stabilită.</string>
+    <string name="voice_error_safety_filter">Un filtru de siguranță a încheiat apelul vocal.</string>
+    <string name="voice_error_audio_reset">Sistemul a resetat sunetul. Pornește din nou apelul.</string>
+    <string name="voice_error_missing_phone_key">Adaugă cheia ta API %1$s în Setări pentru a folosi vocea.</string>
+
+    <!-- Voice accents -->
+    <string name="voice_accent_australian_english">Engleză australiană</string>
+    <string name="voice_accent_british_english">Engleză britanică</string>
+    <string name="voice_accent_irish_english">Engleză irlandeză</string>
+    <string name="voice_accent_north_american_english">Engleză nord-americană</string>
+    <string name="voice_accent_brazilian_portuguese">Portugheză braziliană</string>
+    <string name="voice_accent_filipino_english">Engleză filipineză</string>
+    <string name="voice_accent_southern_us_english">Engleză din sudul SUA</string>
+    <string name="voice_accent_indian_english">Engleză indiană</string>
+    <string name="voice_preview_error">Nu s-a putut reda previzualizarea</string>
+
+    <!-- Call sound packs -->
+    <string name="voice_sound_pack_breath_ping">Clinchet diafan</string>
+    <string name="voice_sound_pack_crystal_glass">Sticlă de cristal</string>
+    <string name="voice_sound_pack_warm_analog">Analogic cald</string>
+    <string name="voice_sound_pack_aurora_pulse">Puls de auroră</string>
+    <string name="voice_sound_pack_velvet_bell">Clopoțel catifelat</string>
+    <string name="voice_sound_pack_silent">Silențios</string>
+
+    <!-- Open link card -->
+    <string name="voice_open_link_card_title_untitled">Deschizi linkul?</string>
+    <string name="voice_open_link_card_title">Deschizi %1$s?</string>
+
+    <!-- Delegator choice -->
+    <string name="voice_delegator_session_fallback">Sesiune</string>
+    <string name="voice_delegator_unavailable_gemini">Gemini Live deleagă direct sesiunii de pe ecran. Alege OpenAI ca furnizor de voce pentru a folosi o sesiune OpenCode.</string>
+    <string name="voice_delegator_unavailable_engine">%1$s deleagă direct sesiunii de pe ecran. Schimbă modelul vocal la GPT-Live pentru a folosi o sesiune OpenCode.</string>
+
+    <!-- Call log list and replay -->
+    <string name="voice_call_log_duration_seconds">%1$d s</string>
+    <string name="voice_call_log_duration_minutes">%1$d min %2$d s</string>
+    <string name="voice_replay_to_delegator">→ Delegator</string>
+    <string name="voice_replay_to_voice">→ Voce</string>
+    <string name="voice_replay_audio">Audio</string>
+    <string name="voice_replay_track_user">Tu</string>
+    <string name="voice_replay_track_voice">Voce</string>
+    <string name="voice_replay_track_delegator">Delegator</string>
+    <string name="voice_replay_track_tools">Instrumente</string>
+</resources>

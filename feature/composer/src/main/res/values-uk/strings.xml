@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent picker -->
+    <string name="composer_agent_choose_description">Вибрати агента</string>
+    <string name="composer_agent_loading">Завантаження агентів…</string>
+    <string name="composer_agent_server_default">За замовчуванням на сервері</string>
+    <string name="composer_agent_default_title">Агент за замовчуванням</string>
+    <string name="composer_agent_default_footer">Нові сесії починаються з цим агентом. Кожна сесія запам’ятовує ваш вибір.</string>
+
+    <!-- Camera -->
+    <string name="composer_camera_viewfinder_description">Видошукач</string>
+    <string name="composer_camera_flash_description">Спалах</string>
+    <string name="composer_camera_focus_lock">Фіксація експозиції та фокуса</string>
+    <string name="composer_camera_close_description">Закрити камеру</string>
+    <string name="composer_camera_take_photo_description">Зробити фото</string>
+    <string name="composer_camera_switch_description">Перемкнути камеру</string>
+
+    <!-- Plus button -->
+    <string name="composer_plus_cancel_dictation_description">Скасувати диктування</string>
+    <string name="composer_plus_adding_attachment_description">Додавання вкладення</string>
+    <string name="composer_plus_add_attachment_description">Додати вкладення</string>
+
+    <!-- Autocomplete -->
+    <string name="composer_autocomplete_suggestions_description">Підказки автодоповнення</string>
+
+    <!-- Composer -->
+    <string name="composer_message_placeholder">Повідомлення</string>
+
+    <!-- Dictation notification -->
+    <string name="composer_dictation_channel_name">Запис</string>
+    <string name="composer_dictation_notification_text">Запис</string>
+
+    <!-- File attachment chip -->
+    <string name="composer_file_retry_description">Повторити завантаження %1$s</string>
+    <string name="composer_file_attachment_description">Вкладений файл %1$s</string>
+    <string name="composer_file_uploading_progress">Завантаження %1$s</string>
+
+    <!-- Pasted text -->
+    <string name="composer_pasted_text_open_action">Відкрити текст</string>
+    <string name="composer_pasted_text_unwrap_description">Не переносити рядки</string>
+    <string name="composer_pasted_text_wrap_description">Переносити рядки</string>
+
+    <!-- Permission request -->
+    <string name="composer_request_scope_title">Більше не запитувати для</string>
+    <string name="composer_request_always_allow">Дозволяти завжди</string>
+
+    <!-- Queued messages -->
+    <string name="composer_queued_title">Повідомлення в черзі</string>
+    <string name="composer_queued_empty">Немає повідомлень у черзі</string>
+    <string name="composer_queued_image">Зображення</string>
+    <plurals name="composer_queued_images">
+        <item quantity="one">%1$d зображення</item>
+        <item quantity="few">%1$d зображення</item>
+        <item quantity="many">%1$d зображень</item>
+        <item quantity="other">%1$d зображення</item>
+    </plurals>
+    <string name="composer_queued_position">Повідомлення в черзі %1$d із %2$d</string>
+    <string name="composer_queued_send_now">Надіслати зараз</string>
+    <string name="composer_queued_cancel_message">Скасувати повідомлення</string>
+    <string name="composer_queued_show_less">Показати менше</string>
+    <string name="composer_queued_show_more">Показати більше</string>
+    <string name="composer_queued_media_unavailable">%1$s · Медіафайл недоступний</string>
+
+    <!-- Request dock -->
+    <string name="composer_request_needs_input_description">Потрібна ваша відповідь, %1$s</string>
+    <string name="composer_request_page_progress">%1$d із %2$d</string>
+    <string name="composer_request_page_progress_description">Запитання %1$d із %2$d</string>
+    <string name="composer_request_dismiss_action">Натомість напишіть відповідь агенту</string>
+    <string name="composer_request_pending_description">Запити в очікуванні</string>
+    <string name="composer_request_question">Запитання</string>
+    <string name="composer_request_collapse_action">Згорнути</string>
+    <plurals name="composer_request_questions_left">
+        <item quantity="one">Залишилося %1$d запитання</item>
+        <item quantity="few">Залишилося %1$d запитання</item>
+        <item quantity="many">Залишилося %1$d запитань</item>
+        <item quantity="other">Залишилося %1$d запитання</item>
+    </plurals>
+    <string name="composer_request_expand_action">Показати запитання</string>
+    <string name="composer_request_choose_multiple">Виберіть один або кілька варіантів</string>
+    <string name="composer_request_form">Форма</string>
+    <string name="composer_request_review">Перегляд</string>
+    <string name="composer_request_summary_expanded">Розгорнуто</string>
+    <string name="composer_request_summary_collapsed">Згорнуто</string>
+    <string name="composer_request_summary_hide_action">Приховати деталі</string>
+    <string name="composer_request_summary_show_command_action">Показати повну команду</string>
+    <string name="composer_request_summary_show_details_action">Показати всі деталі</string>
+    <string name="composer_request_show_scope_action">Показати, для чого більше не запитуватимемо</string>
+    <string name="composer_request_allow_once">Дозволити один раз</string>
+    <string name="composer_request_sending_description">Надсилання</string>
+
+    <!-- Request review sheet -->
+    <string name="composer_review_requested_by">Ініціатор запиту: %1$s</string>
+    <string name="composer_review_open_step">Відкрити крок</string>
+    <string name="composer_review_completed">Завершено</string>
+    <string name="composer_review_add_own_placeholder">Додайте свій варіант</string>
+    <string name="composer_review_own_words_placeholder">Дайте відповідь своїми словами</string>
+    <string name="composer_review_answer_placeholder">Ваша відповідь</string>
+    <string name="composer_review_answer_description">Ваша відповідь</string>
+
+    <!-- Shared location -->
+    <string name="composer_location_shared_title">Надіслане розташування</string>
+    <string name="composer_location_card_with_address_description">Розташування: %1$s, %2$s</string>
+    <string name="composer_location_card_description">Розташування: %1$s</string>
+    <string name="composer_location_open_in_maps_action">Відкрити на карті</string>
+    <string name="composer_location_remove_description">Видалити розташування</string>
+    <string name="composer_location_cancel_description">Скасувати визначення розташування</string>
+    <string name="composer_location_finding">Визначаємо розташування…</string>
+    <string name="composer_location_current_coordinates">Поточні координати</string>
+
+    <!-- Model picker -->
+    <string name="composer_model_no_results_title">Немає результатів для «%1$s»</string>
+    <string name="composer_model_no_results_message">Перевірте написання або змініть запит.</string>
+    <string name="composer_model_load_failed_title">Не вдалося завантажити моделі</string>
+    <string name="composer_model_empty_title">Немає моделей</string>
+    <string name="composer_model_empty_message">Підключіть провайдера в OpenCode на комп’ютері та спробуйте ще раз.</string>
+    <string name="composer_model_unfavorite">Видалити з обраного</string>
+    <string name="composer_model_favorite">Додати до обраного</string>
+    <string name="composer_model_choose_description">Вибрати модель</string>
+    <string name="composer_model_remove_favorite_action">Видалити з обраного</string>
+    <string name="composer_model_add_favorite_action">Додати до обраного</string>
+    <string name="composer_model_level_description">Рівень мислення: %1$s</string>
+    <string name="composer_model_level_higher_action">Підвищити рівень мислення</string>
+    <string name="composer_model_level_lower_action">Знизити рівень мислення</string>
+    <string name="composer_model_show_fewer">Показати менше моделей</string>
+    <string name="composer_model_show_all">Показати всі моделі</string>
+    <plurals name="composer_model_hidden_count">
+        <item quantity="one">%1$d прихована модель</item>
+        <item quantity="few">%1$d приховані моделі</item>
+        <item quantity="many">%1$d прихованих моделей</item>
+        <item quantity="other">%1$d прихованої моделі</item>
+    </plurals>
+    <string name="composer_sheet_grabber_description">Маркер перетягування панелі</string>
+    <string name="composer_model_grabber_compact_action">Зменшити панель вибору</string>
+    <string name="composer_model_grabber_expand_action">Розгорнути панель вибору</string>
+    <string name="composer_model_search_placeholder">Пошук моделей</string>
+    <string name="composer_model_clear_search_description">Очистити пошук</string>
+    <string name="composer_model_hide_keyboard_description">Приховати клавіатуру</string>
+
+    <!-- Plus menu -->
+
+    <!-- Camera lenses and flash (AttachmentCameraLenses) -->
+    <string name="composer_camera_lens_ultra_wide_description">Надширококутний</string>
+    <string name="composer_camera_lens_wide_description">Ширококутний</string>
+    <string name="composer_camera_lens_wide_zoom_description">Ширококутний %1$s×</string>
+    <string name="composer_camera_lens_telephoto_description">Телеоб’єктив %1$s×</string>
+    <string name="composer_camera_flash_off">Вимкнено</string>
+    <string name="composer_camera_flash_auto">Автоматично</string>
+    <string name="composer_camera_flash_on">Увімкнено</string>
+    <!-- Camera messages (AttachmentCameraView) -->
+    <string name="composer_camera_opening">Відкриваємо камеру…</string>
+    <string name="composer_camera_access_restricted">Доступ до камери обмежено.</string>
+    <string name="composer_camera_access_needed">Дозвольте доступ до камери в налаштуваннях, щоб зробити фото.</string>
+    <string name="composer_camera_open_failed">Не вдалося відкрити камеру.</string>
+    <string name="composer_camera_none_available">На цьому пристрої немає доступної камери.</string>
+    <string name="composer_camera_unavailable">Камера недоступна.</string>
+    <string name="composer_camera_temporarily_unavailable">Камера тимчасово недоступна.</string>
+    <string name="composer_camera_capture_failed">Не вдалося зробити фото. Спробуйте ще раз.</string>
+    <string name="composer_camera_switch_failed">Не вдалося перемкнути камеру.</string>
+    <string name="composer_camera_interrupted">Роботу камери перервано. Вона відновиться, коли камера стане доступною.</string>
+    <string name="composer_camera_stopped">Камера зупинилася. Спробуйте ще раз.</string>
+    <!-- Attachment menu (AttachmentPicker) -->
+    <string name="composer_attachment_menu_camera">Камера</string>
+    <string name="composer_attachment_menu_photos">Фото</string>
+    <string name="composer_attachment_menu_files">Файли</string>
+    <string name="composer_attachment_menu_location">Розташування</string>
+    <string name="composer_attachment_menu_paste">Вставити</string>
+    <!-- Autocomplete items (AutocompleteModels) -->
+    <string name="composer_autocomplete_new_session">Нова сесія</string>
+    <string name="composer_autocomplete_skill">Навичка</string>
+    <string name="composer_autocomplete_subagent">Субагент</string>
+    <string name="composer_autocomplete_command">Команда</string>
+    <string name="composer_autocomplete_no_matches">Немає збігів для «%1$s»</string>
+    <string name="composer_autocomplete_skill_description">Навичка, %1$s</string>
+    <string name="composer_autocomplete_subagent_description">Субагент, %1$s</string>
+    <string name="composer_autocomplete_file_description">Файл, %1$s, %2$s</string>
+    <string name="composer_autocomplete_session_description">Сесія, %1$s, %2$s</string>
+    <string name="composer_autocomplete_command_description">Команда, %1$s</string>
+    <string name="composer_autocomplete_command_with_label_description">Команда, %1$s, %2$s</string>
+    <!-- Send and upload failures -->
+    <string name="composer_send_failed_with_reason">Не вдалося надіслати повідомлення: %1$s</string>
+    <string name="composer_send_failed">Не вдалося надіслати повідомлення</string>
+    <string name="composer_upload_failed">Не вдалося завантажити</string>
+
+    <!-- Photo viewer -->
+    <string name="composer_photo_viewer_image_label">Вкладене зображення %1$d з %2$d</string>
+    <string name="composer_photo_viewer_image_format">Зображення</string>
+    <!-- Dictation errors -->
+    <string name="composer_dictation_microphone_denied">Доступ до мікрофона для OpenCode вимкнено. Увімкніть його в налаштуваннях.</string>
+    <string name="composer_dictation_locale_unsupported">Диктування вашою мовою поки недоступне.</string>
+    <string name="composer_dictation_audio_unavailable">Не вдалося почати аудіосесію для диктування.</string>
+    <string name="composer_dictation_recognizer_failed">Не вдалося розпізнати диктування (помилка %1$d)</string>
+
+    <!-- File attachments -->
+    <string name="composer_file_uploading_description">Завантаження, %1$s</string>
+    <!-- Diff preview -->
+    <string name="composer_diff_added_description">Додано: %1$s</string>
+    <string name="composer_diff_removed_description">Видалено: %1$s</string>
+    <!-- Request dock -->
+    <string name="composer_request_dismiss_failed">Не вдалося відхилити запит</string>
+    <string name="composer_request_answer_failed">Не вдалося надіслати відповідь</string>
+    <string name="composer_request_reply_failed">Не вдалося надіслати відповідь</string>
+    <string name="composer_request_deny">Заборонити</string>
+    <string name="composer_request_decline_placeholder">Вкажіть, що зробити натомість</string>
+    <string name="composer_request_reason_description">Причина</string>
+    <string name="composer_request_failed">Запит не виконано</string>
+    <!-- Location -->
+    <string name="composer_location_denied">Доступ до розташування для OpenCode вимкнено. Увімкніть його в налаштуваннях.</string>
+    <string name="composer_location_unavailable">Не вдалося визначити ваше розташування.</string>
+    <string name="composer_request_yes">Так</string>
+    <string name="composer_request_no">Ні</string>
+    <!-- Model picker -->
+    <string name="composer_model_level_default">За замовчуванням</string>
+    <string name="composer_model_section_favorites">Обране</string>
+    <string name="composer_model_section_recent">Нещодавні</string>
+    <string name="composer_model_section_all_models">Усі моделі</string>
+    <string name="composer_model_placeholder">Модель</string>
+    <string name="composer_model_list_full_description">На весь екран</string>
+    <string name="composer_model_list_half_description">На пів екрана</string>
+    <string name="composer_model_favorite_description">Додати до обраного</string>
+</resources>

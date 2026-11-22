@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shared -->
+    <string name="transcript_open_named">Ava %1$s</string>
+
+    <!-- Link previews -->
+    <string name="transcript_link_preview_show_fewer">Näita vähem linke</string>
+    <string name="transcript_link_preview_show_all">Näita kõiki linke</string>
+    <plurals name="transcript_link_preview_shown">
+        <item quantity="one">Kuvatud %1$d link %2$d-st</item>
+        <item quantity="other">Kuvatud %1$d linki %2$d-st</item>
+    </plurals>
+    <string name="transcript_link_preview_more">Veel %1$d</string>
+
+    <!-- Transcript list -->
+    <string name="transcript_scroll_to_top">Keri algusesse</string>
+    <string name="transcript_working">Töötab</string>
+
+    <!-- Transcript list rows -->
+    <string name="transcript_history_loading_description">Varasemate sõnumite laadimine</string>
+    <string name="transcript_empty_loading_description">Seansi laadimine</string>
+    <string name="transcript_empty_title">Sõnumeid veel pole</string>
+    <string name="transcript_empty_subtitle">Alusta seanssi allpool</string>
+    <string name="transcript_compaction_queued">Tihendamine järjekorras</string>
+
+    <!-- Code blocks -->
+    <string name="transcript_code_copy_description">Kopeeri kood</string>
+
+    <!-- Markdown task lists -->
+    <string name="transcript_task_done_description">Valmis</string>
+    <string name="transcript_task_not_done_description">Tegemata</string>
+
+    <!-- Markdown images -->
+    <string name="transcript_image">Pilt</string>
+    <string name="transcript_image_open_description">Ava pilt</string>
+    <string name="transcript_image_load_failed">Pildi laadimine ebaõnnestus</string>
+    <string name="transcript_image_retry_click_label">Proovi uuesti</string>
+    <string name="transcript_image_open">Avatud</string>
+
+    <!-- Math -->
+    <string name="transcript_equation_description">Võrrand</string>
+
+    <!-- Selection -->
+    <string name="transcript_quote">Tsiteeri</string>
+    <string name="transcript_quote_description">Tsitaat: %1$s</string>
+    <string name="transcript_quote_show">Näita kogu tsitaati</string>
+    <string name="transcript_quote_comment_description">Tsitaat: %1$s. Kommentaar: %2$s</string>
+    <string name="transcript_quote_add_comment">Lisa kommentaar</string>
+    <string name="transcript_quote_edit_comment">Muuda kommentaari</string>
+
+    <!-- Reply actions -->
+    <string name="transcript_reply_copy_description">Kopeeri vastus</string>
+
+    <!-- Run errors and undo -->
+    <string name="transcript_run_error_copy">Kopeerimise viga</string>
+    <string name="transcript_undone_undo_hint">Tagasivõtmine on võimalik uue sõnumi saatmiseni</string>
+    <string name="transcript_undone_title">Siit alates tagasi pööratud</string>
+    <string name="transcript_undone_undo_click_label">Taasta tagasipööratud sõnumid ja failid enne uue sõnumi saatmist</string>
+    <string name="transcript_undone_undo">Võta tagasi</string>
+
+    <!-- Tool rows -->
+    <string name="transcript_tool_failed">Ebaõnnestunud</string>
+    <string name="transcript_tool_running">Töös</string>
+    <string name="transcript_tool_completed">Valmis</string>
+    <string name="transcript_subagent_open_click_label">Ava alamagendi seanss</string>
+    <string name="transcript_tool_group_failed_count">%1$d ebaõnnestus</string>
+    <string name="transcript_expanded">Laiendatud</string>
+    <string name="transcript_collapsed">Ahendatud</string>
+    <string name="transcript_tool_image">Tööriista pilt</string>
+    <string name="transcript_tool_hide_click_label">Peida tööriista sisend ja väljund</string>
+    <string name="transcript_tool_show_click_label">Näita tööriista sisendit ja väljundit</string>
+    <string name="transcript_tool_denied">Keelatud</string>
+    <string name="transcript_show_less">Näita vähem</string>
+    <plurals name="transcript_tool_output_show_all">
+        <item quantity="one">Kuva %1$d rida</item>
+        <item quantity="other">Kuva kõik %1$d rida</item>
+    </plurals>
+    <string name="transcript_question_hide_click_label">Peida küsimus</string>
+    <string name="transcript_question_show_click_label">Näita küsimust ja sinu vastust</string>
+    <string name="transcript_question_chosen_description">Valitud</string>
+
+    <!-- Compaction -->
+    <string name="transcript_compaction_running">Konteksti tihendamine</string>
+    <string name="transcript_compaction_provider">Pakkujapoolne tihendamine</string>
+    <string name="transcript_compaction_completed">Kontekst tihendatud</string>
+    <string name="transcript_compaction_cancelled">Tihendamine tühistati</string>
+    <string name="transcript_compaction_failed">Tihendamine ebaõnnestus</string>
+    <string name="transcript_compaction_usage">%1$s sisse · %2$s välja</string>
+    <string name="transcript_compaction_show_summary_click_label">Näita tihendamise kokkuvõtet</string>
+
+    <!-- New messages rule -->
+    <string name="transcript_new_messages_description">Uued sõnumid</string>
+    <string name="transcript_new_messages_label">Uus</string>
+
+    <!-- Media tiles -->
+    <string name="transcript_attached_image_open_description">Ava lisatud pilt</string>
+    <string name="transcript_attached_image_open_numbered_description">Ava lisatud pilt %1$d/%2$d</string>
+    <string name="transcript_attached_image">Lisatud pilt</string>
+    <string name="transcript_tool_image_open_numbered_description">Ava tööriista pilt %1$d/%2$d</string>
+    <string name="transcript_media_unavailable">Meedia pole saadaval</string>
+    <string name="transcript_attached_file_description">Lisatud fail %1$s</string>
+
+    <!-- Message menus -->
+    <string name="transcript_message_select">Vali</string>
+    <string name="transcript_pending_send_now">Saada kohe</string>
+    <string name="transcript_pending_move_to_queue">Pane järjekorda</string>
+    <string name="transcript_message_revert_to_here">Taasta sõnum</string>
+    <string name="transcript_show_more">Näita rohkem</string>
+
+    <!-- Voice messages -->
+    <string name="transcript_voice_call_log_attached">Kõnelogi lisatud</string>
+    <string name="transcript_voice_copy_full_message">Kopeeri kogu sõnum</string>
+    <string name="transcript_voice_message_description">Häälsõnum</string>
+    <string name="transcript_voice_label">Hääl</string>
+
+    <!-- Attachments -->
+    <string name="transcript_file_open_click_label">Ava fail</string>
+    <string name="transcript_pasted_text_open_click_label">Ava tekst</string>
+    <string name="transcript_location_shared">Jagatud asukoht</string>
+    <string name="transcript_location_open_in_maps">Ava kaardil</string>
+    <string name="transcript_location_description">Asukoht: %1$s</string>
+    <string name="transcript_location_description_with_address">Asukoht: %1$s, %2$s</string>
+
+    <!-- Shared phrasing -->
+    <string name="transcript_quoted">„%1$s“</string>
+    <string name="transcript_spoken_pair">%1$s, %2$s</string>
+    <string name="transcript_list_two">%1$s ja %2$s</string>
+    <string name="transcript_list_many">%1$s ja %2$s</string>
+
+    <!-- Tool rows -->
+    <string name="transcript_tool_read">Lugege</string>
+    <string name="transcript_tool_search">otsi %1$s</string>
+    <string name="transcript_tool_search_quoted">otsi „%1$s“</string>
+    <string name="transcript_tool_group_updates">Uuendused</string>
+    <plurals name="transcript_tool_group_used">
+        <item quantity="one">Kasutatud %1$d tööriist</item>
+        <item quantity="other">Kasutatud %1$d tööriista</item>
+    </plurals>
+
+    <!-- Question rows -->
+    <string name="transcript_question">Küsimus</string>
+    <string name="transcript_question_no_answer">Pole vastust</string>
+    <string name="transcript_question_dismissed">Tagasi lükatud</string>
+    <plurals name="transcript_question_answered_count">
+        <item quantity="one">Vastatud %1$d küsimusele</item>
+        <item quantity="other">Vastatud %1$d küsimusele</item>
+    </plurals>
+    <plurals name="transcript_question_count">
+        <item quantity="one">%1$d küsimus</item>
+        <item quantity="other">%1$d küsimust</item>
+    </plurals>
+
+    <!-- Model switch -->
+    <string name="transcript_model_switch_title">Valitud mudel: %1$s</string>
+    <string name="transcript_model_switch_default">Vaikimisi</string>
+    <string name="transcript_model_switch_thinking_description">%1$s, mõtlemine: %2$s</string>
+    <string name="transcript_model_switch_thinking_off_description">%1$s, mõtlemine väljas</string>
+
+    <!-- Run errors and failed sends -->
+    <string name="transcript_run_error_edit_last_message">Muuda viimast sõnumit</string>
+    <string name="transcript_failed_send_status">Saatmine ebaõnnestus</string>
+    <string name="transcript_failed_send_moving">Teisaldamine…</string>
+    <string name="transcript_failed_send_move_to">Teisalda: %1$s</string>
+
+    <!-- Links -->
+    <string name="transcript_session_link_new_session">Uus seanss</string>
+    <string name="transcript_links_to_description">Viitab: %1$s</string>
+    <string name="transcript_link_preview_video">Video</string>
+    <string name="transcript_link_preview_post">Postitus</string>
+    <string name="transcript_link_preview_post_unavailable">Postitus pole saadaval</string>
+    <plurals name="transcript_link_preview_comments">
+        <item quantity="one">%1$s kommentaar</item>
+        <item quantity="other">%1$s kommentaari</item>
+    </plurals>
+</resources>

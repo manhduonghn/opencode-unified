@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">Պատկեր</string>
+    <string name="media_image_load_failed">Չհաջողվեց բեռնել պատկերը</string>
+    <string name="media_unavailable">Մեդիան հասանելի չէ</string>
+    <string name="media_try_again_label">Կրկին փորձել</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">Մեդիայի դիտարկիչ</string>
+    <string name="media_viewer_save_to_photos_description">Պահել լուսանկարներում</string>
+    <string name="media_file_viewer_screen_title">Ֆայլերի դիտարկիչ</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d՝ %3$d-ից</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">Նկարել պատկերի վրա</string>
+    <string name="media_drawing_undo_description">Հետարկել</string>
+    <string name="media_drawing_add_to_prompt_description">Ավելացնել հուշմանը</string>
+    <string name="media_drawing_canvas_description">Նկարչական կտավ</string>
+    <string name="media_drawing_discard_title">Չեղարկե՞լ նկարը</string>
+    <string name="media_drawing_discard_confirm">Չեղարկել նկարը</string>
+    <string name="media_drawing_keep">Շարունակել նկարել</string>
+    <string name="media_drawing_add_failed_title">Չհաջողվեց ավելացնել նկարը</string>
+    <string name="media_drawing_flatten_failed">Չհաջողվեց ստեղծել պատկերը։ Կրկին փորձեք։</string>
+    <string name="media_drawing_prompt_unavailable">Այս նիստի հաղորդագրությանը հիմա հնարավոր չէ կցորդներ ավելացնել։</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">Սպիտակ</string>
+    <string name="media_drawing_ink_black">Սև</string>
+    <string name="media_drawing_ink_red">Կարմիր</string>
+    <string name="media_drawing_ink_yellow">Դեղին</string>
+    <string name="media_drawing_ink_green">Կանաչ</string>
+    <string name="media_drawing_ink_blue">Կապույտ</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">Խոշորացված է</string>
+    <string name="media_zoom_out_label">Փոքրացնել</string>
+    <string name="media_zoom_in_label">Խոշորացնել</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">Դադարեցնել</string>
+    <string name="media_player_play">Նվագարկել</string>
+    <string name="media_player_position_description">Նվագարկման դիրք</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">Չհաջողվեց նվագարկել տեսանյութը</string>
+    <string name="media_video_position_description">Տեսանյութի դիրք</string>
+    <string name="media_video_capture_failed_title">Չհաջողվեց պահել կադրը</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">Ցույց տալ նախադիտումը</string>
+    <string name="media_file_show_source_description">Ցույց տալ սկզբնաղբյուրը</string>
+    <string name="media_file_unwrap_lines_description">Չտողադարձել</string>
+    <string name="media_file_wrap_lines_description">Տողադարձել</string>
+    <string name="media_file_start_pip_description">Միացնել «պատկեր՝ պատկերի մեջ» ռեժիմը</string>
+    <string name="media_file_opening">Բացվում է…</string>
+    <string name="media_file_share_failed_title">Չհաջողվեց կիսվել ֆայլով</string>
+    <string name="media_file_share_downloading_description">Ներբեռնվում է՝ կիսվելու համար</string>
+    <string name="media_file_confirm_large_message">Ֆայլի չափը %1$s է։ Ներբեռնե՞լ՝ այս սարքում դիտելու համար։</string>
+    <string name="media_file_download">Ներբեռնել</string>
+    <string name="media_file_open_in_another_app">Բացել այլ հավելվածում</string>
+    <string name="media_file_no_app_message">Այս սարքում չկա այս ֆայլը բացող հավելված։ Կիսվեք ֆայլով՝ այն պահելու կամ այլ տեղ ուղարկելու համար։</string>
+    <string name="media_file_pdf_page_description">Էջ %1$d՝ %2$d-ից</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">Ֆայլը չի գտնվել</string>
+    <string name="media_file_error_open_failed_title">Չհաջողվեց բացել ֆայլը</string>
+    <string name="media_file_error_unreadable">Այս ուղին հնարավոր չէ կարդալ սերվերից։</string>
+    <string name="media_file_error_not_found">Այն գուցե տեղափոխվել կամ ջնջվել է։</string>
+    <string name="media_file_error_unauthorized">Սերվերը չընդունեց այս սարքի գաղտնաբառը։</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">Սերվերը չկարողացավ կարդալ այն (HTTP %1$d)։ Գուցե այն թղթապանակ է։</string>
+    <string name="media_file_error_timed_out">Հարցման ժամանակը սպառվել է։</string>
+    <string name="media_file_error_unexpected_response">Սերվերն անսպասելի պատասխան ուղարկեց։</string>
+    <string name="media_file_error_over_limit">Ֆայլը գերազանցում է ներբեռնման չափի սահմանաչափը։</string>
+    <string name="media_file_error_size_unknown">Սերվերը չհայտնեց կցորդի չափը։</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">Ներբեռնվում է…</string>
+    <string name="media_file_downloading_size">Ներբեռնվում է %1$s</string>
+    <string name="media_file_downloading_progress">Ներբեռնվում է %1$s՝ %2$s-ից</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">0 ԿԲ</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="one">%1$d բայթ</item>
+        <item quantity="other">%1$d բայթ</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s ԿԲ</string>
+    <string name="media_file_size_megabytes">%1$s ՄԲ</string>
+    <string name="media_file_size_gigabytes">%1$s ԳԲ</string>
+    <string name="media_file_size_terabytes">%1$s ՏԲ</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">Չի գտնվել</string>
+    <string name="media_image_load_label">Բեռնել պատկերը</string>
+    <string name="media_image_loading_state">Բեռնվում</string>
+    <string name="media_image_open_label">Բացել պատկերը</string>
+    <string name="media_image_tap_to_load">Հպեք՝ բեռնելու համար</string>
+    <string name="media_image_outside_project_value">Նախագծից դուրս</string>
+    <string name="media_image_deferred_low_data_value">Հետաձգված է տվյալների խնայման ռեժիմի պատճառով</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">Բացել %1$s</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">Վերադառնալ նիստին</string>
+    <string name="media_browser_ask_description">Հարցնել այս էջի մասին</string>
+    <string name="media_browser_forward_description">Առաջ</string>
+    <string name="media_browser_open_in_browser_description">Բացել բրաուզերում</string>
+    <string name="media_browser_scroll_to_top_label">Ոլորել էջի սկիզբ</string>
+    <string name="media_browser_ask_placeholder">Հարցրեք այս էջի մասին</string>
+    <string name="media_browser_reply_needs_input">Ձեր արձագանքն է պետք</string>
+    <string name="media_browser_reply_working">Աշխատում է</string>
+    <string name="media_browser_go_back_to_session_label">Վերադառնալ նիստին</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">Պատասխանը պատրաստ է</string>
+    <string name="media_browser_reply_back_to_read">· Հետ՝ կարդալու</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">Նիստ</string>
+    <string name="media_link_open_in_app_browser">Բացել ներհավելվածային բրաուզերում</string>
+    <string name="media_link_open_in_browser">Բացել բրաուզերում</string>
+    <string name="media_link_open_in_app">Բացել հավելվածում</string>
+    <string name="media_link_copy">Պատճենել հղումը</string>
+    <string name="media_link_share">Կիսվել…</string>
+    <string name="media_link_open_session">Բացել նիստը</string>
+    <string name="media_link_copy_session_id">Պատճենել ID-ն</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">Պատճենել %1$s-ի ID-ն</string>
+    <string name="media_link_open_session_named_description">Բացել %1$s նիստը</string>
+    <string name="media_link_open_host_in_app_browser_description">Բացել %1$s ներհավելվածային բրաուզերում</string>
+    <string name="media_link_open_host_in_browser_description">Բացել %1$s բրաուզերում</string>
+    <string name="media_link_open_host_in_app_description">Բացել %1$s հավելվածում</string>
+    <string name="media_link_copy_host_description">Պատճենել %1$s-ի հղումը</string>
+    <string name="media_link_share_host_description">Կիսվել %1$s-ի հղումով</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%1$s՝ %2$s-ում</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s՝ հղում %2$d</string>
+    <string name="media_link_more_links_description">Այլ հղումներ</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">Տեսանյութ</string>
+    <string name="media_link_preview_post">Գրառում</string>
+    <string name="media_link_preview_post_unavailable">Գրառումը հասանելի չէ</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">Պահոց</string>
+    <string name="media_github_kind_issue">Խնդիր</string>
+    <string name="media_github_kind_pull_request">Միավորման հարցում</string>
+    <string name="media_github_kind_commit">Քոմիթ</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">Բաց</string>
+    <string name="media_github_state_closed">Փակ</string>
+    <string name="media_github_state_merged">Միավորված</string>
+    <string name="media_github_state_draft">Սևագիր</string>
+    <string name="media_github_state_completed">Ավարտված</string>
+    <string name="media_github_state_not_planned">Չի նախատեսվում</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">Դիագրամ, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">Դիագրամների դիտարկիչ</string>
+    <string name="media_mermaid_diagram_description">Դիագրամ</string>
+    <string name="media_mermaid_loading_state">%1$s, բեռնվում է</string>
+    <string name="media_mermaid_view_source">Դիտել սկզբնաղբյուրը</string>
+    <string name="media_mermaid_source_title">Դիագրամի սկզբնաղբյուր</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">Բլոկ-սխեմա</string>
+    <string name="media_mermaid_type_sequence">Հաջորդականության դիագրամ</string>
+    <string name="media_mermaid_type_class">Դասերի դիագրամ</string>
+    <string name="media_mermaid_type_state">Վիճակների դիագրամ</string>
+    <string name="media_mermaid_type_entity_relationship">Էությունների կապերի դիագրամ</string>
+    <string name="media_mermaid_type_user_journey">Օգտատիրոջ ուղի</string>
+    <string name="media_mermaid_type_gantt">Gantt-ի դիագրամ</string>
+    <string name="media_mermaid_type_pie">Շրջանաձև դիագրամ</string>
+    <string name="media_mermaid_type_quadrant">Քառամաս դիագրամ</string>
+    <string name="media_mermaid_type_requirement">Պահանջների դիագրամ</string>
+    <string name="media_mermaid_type_git_graph">Git գրաֆ</string>
+    <string name="media_mermaid_type_c4">C4 դիագրամ</string>
+    <string name="media_mermaid_type_mind_map">Մտքերի քարտեզ</string>
+    <string name="media_mermaid_type_timeline">Ժամանակագիծ</string>
+    <string name="media_mermaid_type_sankey">Sankey-ի դիագրամ</string>
+    <string name="media_mermaid_type_xy_chart">XY դիագրամ</string>
+    <string name="media_mermaid_type_block">Բլոկային դիագրամ</string>
+    <string name="media_mermaid_type_packet">Փաթեթի դիագրամ</string>
+    <string name="media_mermaid_type_kanban">Kanban տախտակ</string>
+    <string name="media_mermaid_type_architecture">Ճարտարապետության դիագրամ</string>
+    <string name="media_mermaid_type_radar">Ռադարային դիագրամ</string>
+    <string name="media_mermaid_type_treemap">Ծառաձև քարտեզ</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

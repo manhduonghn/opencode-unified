@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_new_session">Nova sessió</string>
+    <string name="system_start_call">Inicia una trucada</string>
+    <string name="system_open_session">Obre la sessió</string>
+    <string name="widget_start_call_description">Inicia una trucada de veu a la sessió que triïs o a l\'última que has vist.</string>
+    <string name="widget_open_session_description">Obre la sessió que triïs.</string>
+    <string name="widget_new_session_description">Obre una nova sessió d\'OpenCode.</string>
+
+    <!-- Shared across screens -->
+    <string name="system_selected_description">Seleccionada</string>
+    <string name="system_last_viewed_session">Última sessió vista</string>
+
+    <!-- Quick actions (launcher shortcuts) -->
+    <string name="system_quick_action_session_fallback">Sessió</string>
+    <!-- Long label: the session's title, then its project. -->
+    <string name="system_quick_action_long_label">%1$s · %2$s</string>
+
+    <!-- Shortcuts and Ask OpenCode -->
+    <string name="system_session_type_name">Sessió</string>
+    <string name="system_project_type_name">Projecte</string>
+    <string name="system_intent_open_session_description">Obre una sessió a OpenCode.</string>
+    <string name="system_intent_new_session_description">Inicia una nova sessió a OpenCode.</string>
+    <string name="system_intent_start_voice_call_title">Inicia una trucada de veu</string>
+    <string name="system_intent_start_voice_call_description">Inicia una trucada de veu amb OpenCode en una sessió. Si no en tries cap, la trucada s\'inicia a l\'última que has vist.</string>
+    <string name="system_intent_background_call_title">Inicia una trucada de veu en segon pla</string>
+    <string name="system_intent_background_call_description">Inicia una trucada de veu amb OpenCode sense obrir l\'aplicació. La trucada es mostra a la barra d\'estat i a la pantalla de bloqueig.</string>
+    <string name="system_delivery_type_name">Enviament</string>
+    <string name="system_delivery_steer">Redirigeix</string>
+    <string name="system_delivery_queue">Posa a la cua</string>
+    <string name="system_ask_title">Pregunta a OpenCode</string>
+    <string name="system_ask_description">Envia un missatge a una sessió d\'OpenCode sense obrir l\'aplicació.</string>
+    <string name="system_ask_message_title">Missatge</string>
+    <string name="system_ask_message_placeholder">Què vols que faci OpenCode?</string>
+    <string name="system_ask_session_title">Sessió</string>
+    <string name="system_ask_started_new_session">S\'ha iniciat una nova sessió a %1$s</string>
+    <string name="system_ask_queued_for">En cua per a «%1$s»</string>
+    <string name="system_ask_sent_to">Enviat a «%1$s»</string>
+    <string name="system_ask_your_session">la teva sessió</string>
+    <string name="system_ask_no_server">Primer obre OpenCode i connecta\'t a un servidor.</string>
+    <string name="system_ask_no_project">Primer obre OpenCode i inicia una sessió.</string>
+    <string name="system_ask_empty_message">No hi ha res per enviar.</string>
+    <!-- The server's error message follows. -->
+    <string name="system_ask_send_failed">No s\'ha pogut enviar a OpenCode. %1$s</string>
+
+    <!-- Live Updates: voice call -->
+    <string name="system_call_muted">Silenciada</string>
+    <string name="system_call_unmute">Deixa de silenciar</string>
+    <string name="system_call_mute">Silencia</string>
+    <string name="system_call_end">Finalitza la trucada</string>
+    <string name="system_call_connecting">S\'està connectant…</string>
+    <string name="system_call_reconnecting">S\'està reconnectant…</string>
+    <string name="system_call_ended">Trucada finalitzada</string>
+    <string name="system_call_end_title">Finalitza la trucada</string>
+    <string name="system_call_toggle_mute_title">Silencia o deixa de silenciar la trucada</string>
+
+    <!-- Live Updates: hands-free recording -->
+    <string name="system_recording_active">S\'està enregistrant</string>
+    <string name="system_recording_stopped">Enregistrament aturat</string>
+    <string name="system_recording_stop">Atura l\'enregistrament</string>
+    <string name="system_recording_stop_title">Atura l\'enregistrament</string>
+    <string name="system_recording_new_session">Nova sessió</string>
+
+    <!-- Live Updates: session run -->
+    <string name="system_session_working">Treballant</string>
+    <string name="system_session_last_seen_working">Últim estat conegut: treballant</string>
+    <!-- Where the run is (Working), then its current step (a tool name, Thinking or Replying). -->
+    <string name="system_session_status_with_step">%1$s · %2$s</string>
+    <string name="system_session_step_thinking">Pensant</string>
+    <string name="system_session_step_replying">Responent</string>
+    <string name="system_session_needs_input">Cal la teva resposta</string>
+    <string name="system_session_input">Entrada</string>
+    <string name="system_session_done">Fet</string>
+    <string name="system_session_failed">Ha fallat</string>
+
+    <!-- Session notifications -->
+    <string name="system_notification_placeholder_body">Nova activitat</string>
+
+    <!-- Notification channels -->
+    <string name="system_channel_voice_calls">Trucades de veu</string>
+    <string name="system_channel_recording">Enregistrament</string>
+    <string name="system_channel_session_runs">Execucions de sessions</string>
+    <string name="system_channel_session_updates">Actualitzacions de sessions</string>
+    <string name="system_channel_shared_items">Elements compartits</string>
+
+    <!-- Share sheet: notifications -->
+    <string name="system_share_continue_notification_body">Toca per continuar a OpenCode</string>
+
+    <!-- Share sheet -->
+    <string name="system_share_your_server">el teu servidor</string>
+    <string name="system_share_new_session_in_project">Nova sessió · %1$s</string>
+    <string name="system_share_save_failed_message">Torna-ho a provar. Si continua passant, allibera espai en aquest dispositiu.</string>
+    <!-- The session's title, then its project. -->
+    <string name="system_share_session_chip_description">%1$s, %2$s</string>
+    <string name="system_share_problem_unreachable">No s\'ha pogut connectar amb %1$s</string>
+    <string name="system_share_problem_too_large">No s\'han pogut enviar fitxers tan grans des d\'aquí</string>
+    <string name="system_share_problem_uploads_unsupported">No s\'han pogut pujar fitxers a %1$s</string>
+    <string name="system_share_problem_sign_in">No s\'ha pogut iniciar la sessió a %1$s</string>
+    <string name="system_share_problem_send">No s\'ha pogut enviar a %1$s</string>
+    <string name="system_share_problem_no_credentials">Obre OpenCode una vegada per enviar des d\'aquí</string>
+    <plurals name="system_share_image_count">
+        <item quantity="one">%d imatge</item>
+        <item quantity="many">%d imatges</item>
+        <item quantity="other">%d imatges</item>
+    </plurals>
+    <plurals name="system_share_file_count">
+        <item quantity="one">%d fitxer</item>
+        <item quantity="many">%d fitxers</item>
+        <item quantity="other">%d fitxers</item>
+    </plurals>
+    <plurals name="system_share_images_skipped">
+        <item quantity="one">No s\'ha pogut afegir %d imatge</item>
+        <item quantity="many">No s\'han pogut afegir %d imatges</item>
+        <item quantity="other">No s\'han pogut afegir %d imatges</item>
+    </plurals>
+    <plurals name="system_share_files_skipped">
+        <item quantity="one">No s\'ha pogut afegir %d fitxer</item>
+        <item quantity="many">No s\'han pogut afegir %d fitxers</item>
+        <item quantity="other">No s\'han pogut afegir %d fitxers</item>
+    </plurals>
+    <string name="system_share_save_failed_title">No s\'ha pogut desar per a OpenCode</string>
+    <string name="system_share_continue_description">Continua a OpenCode</string>
+    <string name="system_share_no_server_title">Connecta primer a un servidor</string>
+    <string name="system_share_no_server_message">Obre OpenCode i connecta amb el teu ordinador. Després, torna a compartir.</string>
+    <string name="system_share_send_later">Envia més tard</string>
+    <string name="system_share_saved_continue">Desat. Obre OpenCode per continuar</string>
+    <string name="system_share_loading_description">S\'estan carregant els elements compartits</string>
+    <string name="system_share_image_description">Imatge</string>
+    <string name="system_share_image_position_description">Imatge %1$d de %2$d</string>
+    <string name="system_share_search_sessions_description">Sessions de cerca</string>
+    <string name="system_share_new_session_in_project_description">Nova sessió a %1$s</string>
+    <string name="system_share_choose_project_description">Tria el projecte</string>
+    <string name="system_share_message_placeholder">Missatge</string>
+    <string name="system_share_sent_to">Enviat a %1$s</string>
+    <string name="system_share_sending_description">S\'està enviant</string>
+    <string name="system_share_sent_description">Enviat</string>
+    <string name="system_share_sessions_title">Sessions</string>
+    <string name="system_share_pinned_header">Fixades</string>
+    <string name="system_share_recents_header">Recents</string>
+
+    <!-- Widget configuration -->
+    <string name="system_widget_choose_session_title">Tria una sessió</string>
+</resources>

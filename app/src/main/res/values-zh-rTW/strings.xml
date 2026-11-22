@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">無法新增分享的項目</string>
+    <string name="app_alert_open_session_failed_title">無法開啟工作階段</string>
+    <string name="app_alert_pairing_failed_title">無法與伺服器配對</string>
+    <string name="app_pairing_confirm">配對</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">伺服器</string>
+    <string name="app_servers_back_description">返回 %1$s</string>
+    <string name="app_server_fallback_name">伺服器</string>
+    <string name="app_connection_intro_new">用你的 %1$s 繼續編寫程式。</string>
+    <string name="app_connection_intro_returning">接續上次的工作，或配對另一台電腦。</string>
+    <string name="app_connection_enter_manually">手動輸入伺服器</string>
+    <string name="app_connection_scan_pairing_code">掃描配對碼</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">在電腦上開啟 OpenCode，前往設定 → 配對，或在終端機執行 opencode pair --remote。接著用這台 %1$s 掃描配對碼。</string>
+    <string name="app_setup_install_title">還沒有 OpenCode 嗎？</string>
+    <string name="app_setup_other_ways_to_install">其他安裝方式</string>
+    <string name="app_setup_terminal_title">或在終端機執行此命令</string>
+    <string name="app_setup_terminal_detail">任何網路都能使用。</string>
+    <string name="app_setup_paste_prompt">或複製顯示的連結，然後</string>
+    <string name="app_setup_paste">貼上</string>
+    <string name="app_setup_copy_command_description">複製 %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">連線中</string>
+    <string name="app_servers_edit_description">編輯 %1$s</string>
+    <string name="app_servers_remove_description">移除 %1$s</string>
+    <string name="app_servers_remove_confirm_title">移除 %1$s？</string>
+    <string name="app_servers_remove_confirm_message">這會清除這台 %1$s 上儲存的位址和密碼，不會影響伺服器上的工作階段。</string>
+    <string name="app_servers_remove_confirm">移除伺服器</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">階段：%1$s</string>
+    <string name="app_error_server">伺服器：%1$s</string>
+    <string name="app_error_attempt">嘗試次數：%1$d</string>
+    <string name="app_error_copy_report">複製錯誤報告</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">新增伺服器</string>
+    <string name="app_server_form_edit_title">編輯伺服器</string>
+    <string name="app_server_form_name">名稱</string>
+    <string name="app_server_form_address">伺服器 URL</string>
+    <string name="app_server_form_username">使用者名稱</string>
+    <string name="app_server_form_password">密碼（選填）</string>
+    <string name="app_server_form_hide_password_description">隱藏密碼</string>
+    <string name="app_server_form_show_password_description">顯示密碼</string>
+    <string name="app_server_form_connect">連線</string>
+    <string name="app_server_form_save_and_connect">儲存並連線</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">標頭</string>
+    <string name="app_server_form_header_name">名稱</string>
+    <string name="app_server_form_header_name_description">標頭 %1$d 的名稱</string>
+    <string name="app_server_form_header_value">值</string>
+    <string name="app_server_form_header_value_description">標頭 %1$d 的值</string>
+    <string name="app_server_form_header_remove_description">移除標頭 %1$d</string>
+    <string name="app_server_form_header_add">新增標頭</string>
+    <string name="app_server_form_headers_detail">隨每個要求傳送，供伺服器前端的代理服務（如 Cloudflare Access）使用。</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">「%1$s」不是有效的標頭名稱</string>
+    <string name="app_server_form_header_invalid_value">%1$s 的值不能包含換行</string>
+    <string name="app_server_form_name_placeholder">選填</string>
+    <string name="app_connection_progress_pairing">配對中</string>
+    <string name="app_connection_progress_connecting">連線中</string>
+    <string name="app_connection_progress_loading_sessions">正在載入工作階段</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">與 %1$s 配對？</string>
+    <string name="app_pairing_confirm_try_one">OpenCode 會嘗試連線至 %1$s，並切換至最先回應的位址。</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode 會與 %1$s 配對並切換至該伺服器。</string>
+    <string name="app_pairing_confirm_try_two">OpenCode 會嘗試連線至 %1$s 和 %2$s，並切換至最先回應的位址。</string>
+    <string name="app_pairing_confirm_try_many">OpenCode 會嘗試連線至 %1$s 及 %2$s，並切換至最先回應的位址。</string>
+    <string name="app_pairing_confirm_replaces">%1$s 已儲存的 %2$s 認證資訊可能會被取代。</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">配對</string>
+    <string name="app_error_phase_connect">連線</string>
+    <string name="app_error_phase_load_sessions">載入工作階段</string>
+    <string name="app_error_candidate_detail">候選項目 %1$d：%2$s</string>
+    <string name="app_error_invalid_address">無法使用（位址無效）</string>
+    <string name="app_error_title_pair">無法配對</string>
+    <string name="app_error_title_load_sessions">無法載入工作階段</string>
+    <string name="app_error_title_connect">無法連線至 %1$s</string>
+    <string name="app_error_announcement">%1$s。%2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">剪貼簿是空的</string>
+    <string name="app_paste_not_a_pairing_link">這不是配對連結</string>
+    <string name="app_server_no_longer_saved">這台 %1$s 已不再儲存此伺服器。請重新連線以開啟工作階段。</string>
+    <string name="app_session_no_longer_available">工作階段可能已刪除，或伺服器目前無法使用。</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">已連線至 %1$s</string>
+    <string name="app_pairing_invalid_code">這不是 OpenCode 配對碼。請在電腦上執行 opencode pair --remote，再掃描產生的 QR 碼或貼上輸出的連結。</string>
+    <string name="app_pairing_unusable_address">無法使用此配對碼中的「%1$s」：該位址%2$s。</string>
+    <string name="app_pairing_loopback">該伺服器只監聽 localhost，因此這台 %1$s 無法連線。請改在電腦上執行 opencode pair --remote，即可從任何網路連線。</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">此裝置已不再儲存你分享內容的目標伺服器。請重新連線後再分享一次。</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">上次使用</string>
+    <string name="app_server_form_hint_new">貼上 `opencode pair --remote` 輸出的連結來配對，或使用 OpenCode 伺服器的位址和密碼。使用者名稱通常是 opencode。</string>
+    <string name="app_server_form_hint_edit_paired">連線至此伺服器後才會儲存變更。此伺服器已配對，密碼是工作階段權杖；請掃描新的配對碼，不要直接修改密碼。</string>
+    <string name="app_server_form_hint_edit">連線至此伺服器後才會儲存變更。</string>
+</resources>

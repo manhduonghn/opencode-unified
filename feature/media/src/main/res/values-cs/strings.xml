@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">Obrázek</string>
+    <string name="media_image_load_failed">Nepodařilo se načíst obrázek</string>
+    <string name="media_unavailable">Média nejsou dostupná</string>
+    <string name="media_try_again_label">Zkusit znovu</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">Prohlížeč médií</string>
+    <string name="media_viewer_save_to_photos_description">Uložit do fotografií</string>
+    <string name="media_file_viewer_screen_title">Prohlížeč souborů</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d z %3$d</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">Kreslit do obrázku</string>
+    <string name="media_drawing_undo_description">Vrátit zpět</string>
+    <string name="media_drawing_add_to_prompt_description">Přidat do zadání</string>
+    <string name="media_drawing_canvas_description">Plátno pro kreslení</string>
+    <string name="media_drawing_discard_title">Zahodit kresbu?</string>
+    <string name="media_drawing_discard_confirm">Zahodit kresbu</string>
+    <string name="media_drawing_keep">Pokračovat v kreslení</string>
+    <string name="media_drawing_add_failed_title">Nepodařilo se přidat kresbu</string>
+    <string name="media_drawing_flatten_failed">Obrázek se nepodařilo vytvořit. Zkuste to znovu.</string>
+    <string name="media_drawing_prompt_unavailable">Ke zprávě v této relaci teď nelze přidávat přílohy.</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">Bílá</string>
+    <string name="media_drawing_ink_black">Černá</string>
+    <string name="media_drawing_ink_red">Červená</string>
+    <string name="media_drawing_ink_yellow">Žlutá</string>
+    <string name="media_drawing_ink_green">Zelená</string>
+    <string name="media_drawing_ink_blue">Modrá</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">Přiblíženo</string>
+    <string name="media_zoom_out_label">Oddálit</string>
+    <string name="media_zoom_in_label">Přiblížit</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">Pozastavit</string>
+    <string name="media_player_play">Přehrát</string>
+    <string name="media_player_position_description">Pozice přehrávání</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">Video se nepodařilo přehrát</string>
+    <string name="media_video_position_description">Pozice videa</string>
+    <string name="media_video_capture_failed_title">Nepodařilo se zachytit snímek</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">Zobrazit náhled</string>
+    <string name="media_file_show_source_description">Zobrazit zdroj</string>
+    <string name="media_file_unwrap_lines_description">Nezalamovat řádky</string>
+    <string name="media_file_wrap_lines_description">Zalamovat řádky</string>
+    <string name="media_file_start_pip_description">Spustit obraz v obraze</string>
+    <string name="media_file_opening">Otevírání…</string>
+    <string name="media_file_share_failed_title">Nepodařilo se sdílet soubor</string>
+    <string name="media_file_share_downloading_description">Stahování pro sdílení</string>
+    <string name="media_file_confirm_large_message">Tento soubor má %1$s. Stáhnout ho pro zobrazení na tomto zařízení?</string>
+    <string name="media_file_download">Stáhnout</string>
+    <string name="media_file_open_in_another_app">Otevřít v jiné aplikaci</string>
+    <string name="media_file_no_app_message">Žádná aplikace na tomto zařízení neumí tento soubor otevřít. Pomocí sdílení ho můžete uložit nebo odeslat jinam.</string>
+    <string name="media_file_pdf_page_description">Stránka %1$d z %2$d</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">Soubor nenalezen</string>
+    <string name="media_file_error_open_failed_title">Nepodařilo se otevřít soubor</string>
+    <string name="media_file_error_unreadable">Z této cesty na serveru nelze číst.</string>
+    <string name="media_file_error_not_found">Možná byl přesunut nebo odstraněn.</string>
+    <string name="media_file_error_unauthorized">Server nepřijal heslo tohoto zařízení.</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">Server ho nemohl přečíst (HTTP %1$d). Možná jde o složku.</string>
+    <string name="media_file_error_timed_out">Vypršel časový limit požadavku.</string>
+    <string name="media_file_error_unexpected_response">Server odeslal neočekávanou odpověď.</string>
+    <string name="media_file_error_over_limit">Soubor překračuje limit velikosti pro stažení.</string>
+    <string name="media_file_error_size_unknown">Server neuvedl velikost přílohy.</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">Stahování…</string>
+    <string name="media_file_downloading_size">Stahování %1$s</string>
+    <string name="media_file_downloading_progress">Stahování %1$s z %2$s</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">0 KB</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="one">%1$d bajt</item>
+        <item quantity="few">%1$d bajty</item>
+        <item quantity="many">%1$d bajtu</item>
+        <item quantity="other">%1$d bajtů</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s KB</string>
+    <string name="media_file_size_megabytes">%1$s MB</string>
+    <string name="media_file_size_gigabytes">%1$s GB</string>
+    <string name="media_file_size_terabytes">%1$s TB</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">Nenalezeno</string>
+    <string name="media_image_load_label">Načíst obrázek</string>
+    <string name="media_image_loading_state">Načítání</string>
+    <string name="media_image_open_label">Otevřít obrázek</string>
+    <string name="media_image_tap_to_load">Klepnutím načtete</string>
+    <string name="media_image_outside_project_value">Mimo projekt</string>
+    <string name="media_image_deferred_low_data_value">Odloženo kvůli úspoře dat</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">Otevřít %1$s</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">Zpět k relaci</string>
+    <string name="media_browser_ask_description">Zeptat se na tuto stránku</string>
+    <string name="media_browser_forward_description">Vpřed</string>
+    <string name="media_browser_open_in_browser_description">Otevřít v prohlížeči</string>
+    <string name="media_browser_scroll_to_top_label">Přejít na začátek stránky</string>
+    <string name="media_browser_ask_placeholder">Zeptejte se na tuto stránku</string>
+    <string name="media_browser_reply_needs_input">Je potřeba vaše reakce</string>
+    <string name="media_browser_reply_working">Pracuje</string>
+    <string name="media_browser_go_back_to_session_label">Zpět k relaci</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">Odpověď připravena</string>
+    <string name="media_browser_reply_back_to_read">· Zpět k přečtení</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">Relace</string>
+    <string name="media_link_open_in_app_browser">Otevřít v prohlížeči aplikace</string>
+    <string name="media_link_open_in_browser">Otevřít v prohlížeči</string>
+    <string name="media_link_open_in_app">Otevřít v aplikaci</string>
+    <string name="media_link_copy">Zkopírujte odkaz</string>
+    <string name="media_link_share">Sdílet…</string>
+    <string name="media_link_open_session">Otevřít relaci</string>
+    <string name="media_link_copy_session_id">Kopírovat ID</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">Kopírovat ID %1$s</string>
+    <string name="media_link_open_session_named_description">Otevřít relaci %1$s</string>
+    <string name="media_link_open_host_in_app_browser_description">Otevřít %1$s v prohlížeči aplikace</string>
+    <string name="media_link_open_host_in_browser_description">Otevřít %1$s v prohlížeči</string>
+    <string name="media_link_open_host_in_app_description">Otevřít %1$s v aplikaci</string>
+    <string name="media_link_copy_host_description">Zkopírujte odkaz na %1$s</string>
+    <string name="media_link_share_host_description">Sdílet odkaz na %1$s</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%1$s na %2$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s, odkaz %2$d</string>
+    <string name="media_link_more_links_description">Další odkazy</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">Video</string>
+    <string name="media_link_preview_post">Příspěvek</string>
+    <string name="media_link_preview_post_unavailable">Příspěvek není dostupný</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">Úložiště</string>
+    <string name="media_github_kind_issue">Hlášení</string>
+    <string name="media_github_kind_pull_request">Žádost o začlenění</string>
+    <string name="media_github_kind_commit">Commit</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">Otevřeno</string>
+    <string name="media_github_state_closed">Uzavřeno</string>
+    <string name="media_github_state_merged">Sloučeno</string>
+    <string name="media_github_state_draft">Koncept</string>
+    <string name="media_github_state_completed">Dokončeno</string>
+    <string name="media_github_state_not_planned">Neplánováno</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">Diagram, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">Prohlížeč diagramů</string>
+    <string name="media_mermaid_diagram_description">Diagram</string>
+    <string name="media_mermaid_loading_state">%1$s, načítání</string>
+    <string name="media_mermaid_view_source">Zobrazit zdroj</string>
+    <string name="media_mermaid_source_title">Zdroj diagramu</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">Vývojový diagram</string>
+    <string name="media_mermaid_type_sequence">Sekvenční diagram</string>
+    <string name="media_mermaid_type_class">Diagram tříd</string>
+    <string name="media_mermaid_type_state">Stavový diagram</string>
+    <string name="media_mermaid_type_entity_relationship">Diagram vztahů mezi entitami</string>
+    <string name="media_mermaid_type_user_journey">Cesta uživatele</string>
+    <string name="media_mermaid_type_gantt">Ganttův diagram</string>
+    <string name="media_mermaid_type_pie">Koláčový graf</string>
+    <string name="media_mermaid_type_quadrant">Kvadrantový graf</string>
+    <string name="media_mermaid_type_requirement">Diagram požadavků</string>
+    <string name="media_mermaid_type_git_graph">Graf Git</string>
+    <string name="media_mermaid_type_c4">Diagram C4</string>
+    <string name="media_mermaid_type_mind_map">Myšlenková mapa</string>
+    <string name="media_mermaid_type_timeline">Časová osa</string>
+    <string name="media_mermaid_type_sankey">Sankeyův diagram</string>
+    <string name="media_mermaid_type_xy_chart">Graf XY</string>
+    <string name="media_mermaid_type_block">Blokový diagram</string>
+    <string name="media_mermaid_type_packet">Diagram paketů</string>
+    <string name="media_mermaid_type_kanban">Kanbanová tabule</string>
+    <string name="media_mermaid_type_architecture">Diagram architektury</string>
+    <string name="media_mermaid_type_radar">Paprskový graf</string>
+    <string name="media_mermaid_type_treemap">Stromová mapa</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

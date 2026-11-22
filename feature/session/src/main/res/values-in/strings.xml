@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent activity glyph -->
+    <string name="session_activity_running_description">Berjalan</string>
+    <!-- Background work panel -->
+    <string name="session_background_work_show_label">Tampilkan subagen, skrip, dan shell yang berjalan</string>
+    <string name="session_background_work_collapsed_description">Diciutkan</string>
+    <string name="session_background_work_subagents_title">Subagen</string>
+    <string name="session_background_work_open_subagent_label">Buka sesi subagen</string>
+    <string name="session_background_work_shells_title">Shell</string>
+    <string name="session_background_work_show_shell_label">Tampilkan keluaran shell</string>
+    <!-- The session's images and videos, paged in the full-screen viewer -->
+    <string name="session_visual_attached_image">Gambar terlampir</string>
+    <string name="session_visual_tool_image">Gambar alat</string>
+    <string name="session_visual_image">Gambar</string>
+    <!-- One image of several: the image's label, then its place, as “Attached image 2 of 3” -->
+    <string name="session_visual_image_page_label">%1$s %2$d dari %3$d</string>
+    <!-- A diagram's label, read by TalkBack. %1$s is its kind, as “Diagram, Flowchart” -->
+    <string name="session_visual_diagram_label">Diagram, %1$s</string>
+    <!-- Jump to latest -->
+    <string name="session_scroll_to_latest_description">Gulir ke pesan terbaru</string>
+    <!-- Dictation bar -->
+    <string name="session_dictation_finishing_description">Menyelesaikan dikte</string>
+    <string name="session_dictation_stop_recording_description">Hentikan rekaman</string>
+    <string name="session_dictation_stop_recording_hint">Masukkan hasil dikte ke pesan Anda</string>
+    <string name="session_sending_message_description">Mengirim pesan</string>
+    <string name="session_delivery_steer_label">Arahkan pada langkah berikutnya</string>
+    <string name="session_delivery_queue_label">Antrekan setelah respons ini</string>
+    <string name="session_delivery_steer">Arahkan</string>
+    <string name="session_delivery_queue">Antrekan</string>
+    <!-- Draft project picker -->
+    <string name="session_draft_project_choose_label">Pilih tempat memulai sesi</string>
+    <string name="session_project_choose_folder">Pilih folder…</string>
+    <string name="session_project_all_projects">Semua proyek</string>
+    <string name="session_project_selected_description">Dipilih</string>
+    <string name="session_project_picker_title">Proyek</string>
+    <!-- Folder browser -->
+    <string name="session_folder_select_description">Pilih folder</string>
+    <string name="session_folder_path_description">Jalur</string>
+    <string name="session_folder_title">Folder</string>
+    <string name="session_folder_select">Pilih</string>
+    <string name="session_folder_open_failed_title">Gagal membuka folder</string>
+    <string name="session_folder_empty_title">Tidak ada folder</string>
+    <string name="session_folder_search_empty_title">Tidak ada hasil untuk “%1$s”</string>
+    <string name="session_folder_search_empty_message">Periksa ejaan atau coba pencarian baru.</string>
+    <!-- Server connection pill -->
+    <string name="session_server_edit">Sunting server…</string>
+    <!-- Starter prompts -->
+    <string name="session_starter_prompts_title">Coba tanyakan</string>
+    <string name="session_starter_prompt_pick_label">Masukkan ke pesan</string>
+    <!-- Session sheet -->
+    <string name="session_sheet_rename_failed">Gagal mengganti nama</string>
+    <string name="session_sheet_status_description">Status</string>
+    <string name="session_rename_title">Ganti nama sesi</string>
+    <string name="session_untitled_title">Sesi</string>
+    <string name="session_pin">Sematkan</string>
+    <string name="session_pinned">Disematkan</string>
+    <string name="session_unread">Belum dibaca</string>
+    <string name="session_mute">Bisukan</string>
+    <string name="session_muted">Dibisukan</string>
+    <string name="session_compact">Kompak</string>
+    <string name="session_fork">Cabangkan</string>
+    <string name="session_toggle_on_description">Aktif</string>
+    <string name="session_toggle_off_description">Nonaktif</string>
+    <string name="session_export">Ekspor</string>
+    <string name="session_export_markdown">Markdown</string>
+    <string name="session_export_json">JSON</string>
+    <string name="session_sheet_model">Model</string>
+    <string name="session_sheet_context">Konteks</string>
+    <string name="session_sheet_unknown_description">Tidak diketahui</string>
+    <string name="session_sheet_context_tokens">%1$s token</string>
+    <string name="session_sheet_cost">Biaya</string>
+    <string name="session_sheet_media">Media</string>
+    <string name="session_sheet_media_value">Berkas dan tautan</string>
+    <string name="session_always_notify">Selalu beri notifikasi</string>
+    <string name="session_always_notify_message_phone">Beri notifikasi di ponsel ini setiap balasan selesai, meski pesannya tidak dikirim dari sini.</string>
+    <string name="session_always_notify_message_tablet">Beri notifikasi di tablet ini setiap balasan selesai, meski pesannya tidak dikirim dari sini.</string>
+    <string name="session_delete_session">Hapus sesi</string>
+    <string name="session_rename_placeholder">Judul</string>
+    <string name="session_auto_rename">Ganti nama otomatis</string>
+    <string name="session_delete_confirm_title">Hapus “%1$s”?</string>
+    <string name="session_delete_confirm_message">Sesi ini akan dihapus dari server untuk semua klien.</string>
+    <!-- Transcript -->
+    <string name="session_move_to_background">Pindahkan ke latar belakang</string>
+    <string name="session_move_to_background_hint">Lanjutkan pekerjaan di latar belakang agar agen membaca pesan Anda berikutnya</string>
+    <!-- Attachments -->
+    <string name="session_attachment_add_image_failed_title">Gagal menambahkan gambar</string>
+    <string name="session_attachment_upload">Unggah</string>
+    <string name="session_attachment_remove_image_description">Hapus lampiran gambar %1$d</string>
+    <string name="session_attachment_remove_description">Hapus %1$s</string>
+    <string name="session_attachment_file_description">Lampiran berkas %1$s</string>
+    <string name="session_attachment_cancel_upload_description">Batalkan pengunggahan %1$s</string>
+    <string name="session_attachment_open_photo_label">Buka foto dalam layar penuh</string>
+    <string name="session_attachment_image_description">Lampiran gambar %1$d</string>
+    <string name="session_attachment_video_description">Lampiran video %1$d</string>
+    <!-- Composer controls -->
+    <string name="session_answer_own_description">Jawaban Anda sendiri</string>
+    <string name="session_answer_own_type_label">Ketik atau diktekan jawaban Anda sendiri</string>
+    <string name="session_answer_own_clear_label">Sisihkan jawaban Anda</string>
+    <string name="session_answer_own_choose_label">Jawab dengan kata-kata sendiri</string>
+    <string name="session_answer_decline_with_words_label">Beri tahu agen apa yang harus dilakukan sebagai gantinya</string>
+    <string name="session_answer_required_description">Pilih jawaban atau ketik jawaban sendiri</string>
+    <string name="session_dictate_message_description">Diktekan pesan</string>
+    <string name="session_dictate_message_hint">Diktekan pesan, atau sentuh dan tahan untuk merekam dan mengirim</string>
+    <string name="session_send_waiting_for_uploads_description">Mengirim setelah unggahan selesai</string>
+    <string name="session_steer_message_description">Arahkan pesan</string>
+    <string name="session_stopping_description">Menghentikan</string>
+    <string name="session_start_voice_call">Mulai panggilan suara</string>
+    <string name="session_dictation_stop_description">Hentikan dikte</string>
+    <!-- Composer -->
+    <string name="session_requests_load_failed_title">Gagal memuat permintaan</string>
+    <plurals name="session_queued_count">
+        <item quantity="other">%1$d dalam antrean</item>
+    </plurals>
+    <string name="session_queued_show_label">Tampilkan pesan yang menunggu respons ini selesai</string>
+    <plurals name="session_queued_messages_description">
+        <item quantity="other">%1$d pesan dalam antrean</item>
+    </plurals>
+    <string name="session_dictation_preparing">Menyiapkan dikte…</string>
+    <string name="session_message_placeholder">Pesan</string>
+    <!-- Session header -->
+    <string name="session_back_to_main_description">Kembali ke sesi utama</string>
+    <string name="session_header_open_from_catch_up_label">Buka sesi dan keluar dari tinjauan pembaruan</string>
+    <string name="session_header_show_details_label">Tampilkan detail sesi</string>
+    <string name="session_header_idle_description">Siaga</string>
+    <string name="session_header_syncing_description">Menyinkronkan</string>
+    <string name="session_header_last_known_description">Terakhir diketahui</string>
+    <string name="session_menu_more_description">Lainnya</string>
+    <string name="session_unpin">Lepas sematan</string>
+    <string name="session_copy_session_id">Salin ID sesi</string>
+    <string name="session_mark_as_read">Tandai sudah dibaca</string>
+    <string name="session_mark_as_unread">Tandai belum dibaca</string>
+    <string name="session_unmute">Bunyikan</string>
+    <string name="session_menu_export_expanded_description">Dibentangkan</string>
+    <string name="session_menu_export_collapsed_description">Diciutkan</string>
+    <string name="session_info">Info sesi</string>
+    <!-- Session screen -->
+    <string name="session_load_failed_title">Gagal memuat sesi</string>
+    <string name="session_location_share_failed_title">Gagal membagikan lokasi</string>
+    <!-- Shell output -->
+    <string name="session_shell_stop_confirm_title">Hentikan shell ini?</string>
+    <string name="session_shell_stop_confirm_message">Perintah akan langsung dihentikan. Keluaran di sini tetap ada hingga Anda menutupnya.</string>
+    <string name="session_shell_stop">Hentikan shell</string>
+    <string name="session_shell_copy_output">Salin keluaran</string>
+    <string name="session_shell_share_output">Bagikan keluaran</string>
+    <string name="session_shell_earlier_output_hidden">Keluaran sebelumnya disembunyikan</string>
+    <string name="session_shell_showing_last_output">Menampilkan 4 MB terakhir</string>
+    <string name="session_shell_load_earlier">Muat sebelumnya</string>
+    <string name="session_shell_output_unavailable_title">Keluaran tidak tersedia</string>
+    <string name="session_shell_output_unavailable_message">Server tidak lagi menyimpan keluaran shell ini.</string>
+    <string name="session_shell_no_output_yet_title">Belum ada keluaran</string>
+    <string name="session_shell_no_output_title">Tidak ada keluaran</string>
+    <string name="session_shell_no_output_yet_message">Keluaran muncul di sini saat dihasilkan oleh perintah.</string>
+    <string name="session_shell_status_stopping">Menghentikan…</string>
+    <string name="session_shell_status_unavailable">Tidak tersedia</string>
+    <string name="session_shell_status_interrupted">Dihentikan</string>
+    <string name="session_shell_status_timed_out">Waktu habis</string>
+    <string name="session_shell_status_exited_with_code">Berakhir dengan kode %1$d</string>
+    <string name="session_shell_status_exited">Berakhir</string>
+    <plurals name="session_shell_elapsed_hours">
+        <item quantity="other">%1$d jam</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_minutes">
+        <item quantity="other">%1$d menit</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_seconds">
+        <item quantity="other">%1$d detik</item>
+    </plurals>
+
+    <!-- Agent activity (glyph labels and titles) -->
+    <string name="session_activity_idle">Siaga</string>
+    <string name="session_activity_starting_up">Memulai</string>
+    <string name="session_activity_thinking">Berpikir</string>
+    <string name="session_activity_long_work">Bekerja lama</string>
+    <string name="session_activity_tool_burst">Menjalankan banyak alat</string>
+    <string name="session_activity_streaming_output">Mengalirkan keluaran</string>
+    <string name="session_activity_waiting_for_input">Menunggu masukan</string>
+    <string name="session_activity_handing_off">Mengalihkan tugas</string>
+    <string name="session_activity_done">Selesai</string>
+    <string name="session_activity_failed">Gagal</string>
+    <string name="session_working_stopping">Menghentikan…</string>
+    <string name="session_status_working">Bekerja</string>
+    <string name="session_status_needs_input">Perlu masukan Anda</string>
+    <string name="session_status_done">Selesai</string>
+
+    <!-- Lists: joins two or three phrases -->
+    <string name="session_list_two">%1$s, %2$s</string>
+    <string name="session_list_three">%1$s, %2$s, %3$s</string>
+
+    <!-- Background work panel -->
+    <plurals name="session_background_work_subagent_count">
+        <item quantity="other">%1$d subagen</item>
+    </plurals>
+    <plurals name="session_background_work_shell_count">
+        <item quantity="other">%1$d shell</item>
+    </plurals>
+    <plurals name="session_background_work_script_count">
+        <item quantity="other">%1$d skrip</item>
+    </plurals>
+    <string name="session_background_work_summary">%1$s · %2$s</string>
+    <string name="session_background_work_scripts_title">Skrip</string>
+    <string name="session_background_work_stop_script_label">Hentikan skrip</string>
+    <string name="session_background_work_stop_subagent_label">Hentikan subagen</string>
+    <string name="session_background_work_stop_script_failed">Gagal menghentikan skrip</string>
+    <string name="session_background_work_stop_subagent_failed">Gagal menghentikan subagen</string>
+
+    <!-- Composer buttons -->
+    <string name="session_send_message_description">Kirim pesan</string>
+    <string name="session_stop_description">Hentikan</string>
+    <string name="session_start_voice_call_description">Mulai panggilan suara</string>
+    <string name="session_model_level_default">Bawaan</string>
+
+    <!-- In-app notice -->
+    <plurals name="session_notice_session_count">
+        <item quantity="other">%1$d sesi</item>
+    </plurals>
+    <plurals name="session_notice_needs_input_count">
+        <item quantity="other">%1$d perlu masukan Anda</item>
+    </plurals>
+    <string name="session_notice_announcement">%1$s, %2$s</string>
+
+    <!-- Server connection pill -->
+    <string name="session_server_reconnecting">Menghubungkan kembali ke %1$s…</string>
+    <string name="session_server_connect_failed">Gagal terhubung ke %1$s</string>
+    <string name="session_server_sign_in_failed">Gagal masuk ke %1$s</string>
+    <string name="session_server_pair_again">Pasangkan lagi</string>
+    <string name="session_server_try_again_click_label">coba lagi</string>
+    <string name="session_server_pair_again_click_label">pasangkan lagi</string>
+
+    <!-- Export -->
+    <string name="session_export_folder_failed">Gagal membuat folder ekspor</string>
+    <string name="session_export_save_failed">Gagal menyimpan hasil ekspor</string>
+
+    <!-- Session errors -->
+    <string name="session_agent_fallback_name">Agen</string>
+    <string name="session_something_went_wrong">Terjadi kesalahan</string>
+    <string name="session_something_went_wrong_sentence">Terjadi kesalahan.</string>
+    <string name="session_load_earlier_failed">Gagal memuat pesan sebelumnya</string>
+    <string name="session_move_to_background_failed">Gagal memindahkan ke latar belakang: %1$s</string>
+    <string name="session_move_failed_reason">Gagal memindahkan sesi</string>
+    <string name="session_delivery_waiting_to_send">Menunggu untuk dikirim</string>
+    <string name="session_create_failed">Gagal membuat sesi.</string>
+    <string name="session_switch_agent_failed">Gagal mengganti agen: %1$s</string>
+    <string name="session_switch_model_failed">Gagal mengganti model: %1$s</string>
+    <string name="session_pending_send_now_failed_details">Gagal mengirim pesan tertunda sekarang: %1$s</string>
+    <string name="session_pending_cancel_failed_details">Gagal membatalkan pesan tertunda: %1$s</string>
+    <string name="session_pending_queue_failed_details">Gagal mengantrekan pesan tertunda: %1$s</string>
+    <string name="session_stopped_before_sent">Dihentikan sebelum dikirim</string>
+    <string name="session_stop_failed">Gagal menghentikan sesi</string>
+    <string name="session_undo_message_failed">Gagal mengurungkan pesan: %1$s</string>
+    <string name="session_revert_failed">Gagal mengurungkan</string>
+    <string name="session_revert_failed_details">Gagal mengurungkan: %1$s</string>
+
+    <!-- Session sheet errors -->
+    <string name="session_sheet_rename_failed_title">Gagal mengganti nama sesi</string>
+    <string name="session_sheet_compact_failed_title">Gagal meringkas sesi</string>
+    <string name="session_sheet_fork_failed_title">Gagal mencabangkan sesi</string>
+    <string name="session_sheet_save_export_failed">Gagal menyimpan hasil ekspor</string>
+    <string name="session_sheet_export_failed_title">Gagal mengekspor sesi</string>
+    <string name="session_sheet_notifications_off_message">Aktifkan notifikasi di Pengaturan terlebih dahulu.</string>
+    <string name="session_sheet_always_notify_on_failed_title">Gagal mengaktifkan Selalu beri notifikasi</string>
+    <string name="session_sheet_always_notify_off_failed_title">Gagal menonaktifkan Selalu beri notifikasi</string>
+
+    <!-- Attachments -->
+    <string name="session_attachment_files_unsupported">Server tidak mendukung berkas</string>
+    <string name="session_attachment_upload_failed">Gagal mengunggah</string>
+    <string name="session_attachment_file_fallback_name">Berkas</string>
+    <string name="session_attachment_image_too_large">Pilih gambar berukuran kurang dari 20 MB.</string>
+    <string name="session_attachment_image_load_failed">Gambar ini gagal dimuat. Coba foto lain.</string>
+    <string name="session_attachment_file_add_failed">Berkas ini gagal ditambahkan. Coba berkas lain.</string>
+    <plurals name="session_attachment_files_add_failed">
+        <item quantity="other">%1$d berkas gagal ditambahkan.</item>
+    </plurals>
+    <string name="session_large_upload_title">Unggah %1$s?</string>
+    <string name="session_large_upload_message_one">“%1$s” berukuran besar. Pesan akan dikirim setelah unggahan ke server Anda selesai.</string>
+    <plurals name="session_large_upload_message_many">
+        <item quantity="other">%1$d berkas berukuran besar. Pesan akan dikirim setelah unggahan ke server Anda selesai.</item>
+    </plurals>
+
+    <!-- Header and screens -->
+    <string name="session_new_session_title">Sesi baru</string>
+    <string name="session_pasted_text_screen_title">Teks yang ditempel</string>
+    <string name="session_pasted_text_viewer_screen_title">Penampil teks yang ditempel</string>
+    <string name="session_context_summary">%1$d%% dari %2$s</string>
+    <string name="session_context_accessibility_value">%1$d%% dari %2$s token terpakai</string>
+
+    <!-- Starter prompts (shown, then sent as the person’s message) -->
+    <string name="session_starter_project_purpose">Apa fungsi proyek ini?</string>
+    <string name="session_starter_code_tour">Jelaskan kode ini secara singkat</string>
+    <string name="session_starter_recent_changes">Apa yang baru berubah di sini?</string>
+
+    <!-- Shell output -->
+    <string name="session_shell_refresh_failed">Gagal menyegarkan keluaran</string>
+    <string name="session_shell_load_earlier_failed">Gagal memuat keluaran sebelumnya</string>
+    <string name="session_shell_stop_failed">Gagal menghentikan kerang</string>
+    <string name="session_quote_remove_description">Hapus kutipan</string>
+    <string name="session_quote_comment_placeholder">Tambah komentar opsional…</string>
+    <string name="session_media_title">Media sesi</string>
+    <string name="session_media_filter_media">Media</string>
+    <string name="session_media_filter_files">Berkas</string>
+    <string name="session_media_filter_links">Tautan</string>
+    <string name="session_media_layout_description">Tata letak media</string>
+    <string name="session_media_layout_tiles">Ubin</string>
+    <string name="session_media_layout_list">Daftar</string>
+    <string name="session_media_origin_user">Dikirim oleh Anda</string>
+    <string name="session_media_origin_agent">Dibagikan oleh agen</string>
+    <string name="session_media_open_click_label">Buka</string>
+    <string name="session_media_open_link_click_label">Buka tautan</string>
+    <string name="session_media_empty_media_title">Belum ada media</string>
+    <string name="session_media_empty_media_message">Gambar, video, dan audio yang dibagikan di sesi ini akan muncul di sini.</string>
+    <string name="session_media_empty_files_title">Tidak ada berkas</string>
+    <string name="session_media_empty_files_message">Dokumen dan teks yang ditempel dari sesi ini akan muncul di sini.</string>
+    <string name="session_media_empty_links_title">Tidak ada tautan</string>
+    <string name="session_media_empty_links_message">Tautan web yang dibagikan di sesi ini akan muncul di sini.</string>
+    <string name="session_media_earlier_note">Pesan sebelumnya belum dimuat.</string>
+    <string name="session_media_load_earlier">Muat pesan sebelumnya</string>
+    <string name="session_media_loading_earlier">Memuat…</string>
+    <string name="session_media_earlier_failed">Gagal memuat pesan sebelumnya. Periksa koneksi Anda lalu coba lagi.</string>
+    <string name="session_media_earlier_nothing_new">Tidak ada yang baru di pesan yang baru dimuat. Pesan sebelumnya mungkin masih ada isinya.</string>
+</resources>

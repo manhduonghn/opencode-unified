@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent picker -->
+    <string name="composer_agent_choose_description">এজেন্ট নির্বাচন করুন</string>
+    <string name="composer_agent_loading">এজেন্ট লোড হচ্ছে…</string>
+    <string name="composer_agent_server_default">সার্ভারের ডিফল্ট</string>
+    <string name="composer_agent_default_title">ডিফল্ট এজেন্ট</string>
+    <string name="composer_agent_default_footer">নতুন সেশন এই এজেন্ট দিয়ে শুরু হয়। প্রতিটি সেশনে আপনার বেছে নেওয়া এজেন্ট মনে রাখা হয়।</string>
+
+    <!-- Camera -->
+    <string name="composer_camera_viewfinder_description">ভিউফাইন্ডার</string>
+    <string name="composer_camera_flash_description">ফ্ল্যাশ</string>
+    <string name="composer_camera_focus_lock">AE/AF লক</string>
+    <string name="composer_camera_close_description">ক্যামেরা বন্ধ করুন</string>
+    <string name="composer_camera_take_photo_description">ছবি তুলুন</string>
+    <string name="composer_camera_switch_description">ক্যামেরা বদলান</string>
+
+    <!-- Plus button -->
+    <string name="composer_plus_cancel_dictation_description">শ্রুতিলিখন বাতিল করুন</string>
+    <string name="composer_plus_adding_attachment_description">সংযুক্তি যোগ হচ্ছে</string>
+    <string name="composer_plus_add_attachment_description">সংযুক্তি যোগ করুন</string>
+
+    <!-- Autocomplete -->
+    <string name="composer_autocomplete_suggestions_description">স্বয়ংসম্পূর্ণ করার পরামর্শ</string>
+
+    <!-- Composer -->
+    <string name="composer_message_placeholder">বার্তা</string>
+
+    <!-- Dictation notification -->
+    <string name="composer_dictation_channel_name">রেকর্ডিং</string>
+    <string name="composer_dictation_notification_text">রেকর্ডিং</string>
+
+    <!-- File attachment chip -->
+    <string name="composer_file_retry_description">%1$s আবার আপলোড করুন</string>
+    <string name="composer_file_attachment_description">ফাইল সংযুক্তি %1$s</string>
+    <string name="composer_file_uploading_progress">%1$s আপলোড হচ্ছে</string>
+
+    <!-- Pasted text -->
+    <string name="composer_pasted_text_open_action">পাঠ্য খুলুন</string>
+    <string name="composer_pasted_text_unwrap_description">লাইন মোড়াবেন না</string>
+    <string name="composer_pasted_text_wrap_description">লাইন মোড়ান</string>
+
+    <!-- Permission request -->
+    <string name="composer_request_scope_title">যার জন্য আর জিজ্ঞেস করা হবে না</string>
+    <string name="composer_request_always_allow">সর্বদা অনুমতি দিন</string>
+
+    <!-- Queued messages -->
+    <string name="composer_queued_title">সারিবদ্ধ বার্তা</string>
+    <string name="composer_queued_empty">কোনো সারিবদ্ধ বার্তা নেই</string>
+    <string name="composer_queued_image">ছবি</string>
+    <plurals name="composer_queued_images">
+        <item quantity="one">%1$dটি ছবি</item>
+        <item quantity="other">%1$dটি ছবি</item>
+    </plurals>
+    <string name="composer_queued_position">সারিবদ্ধ বার্তা %2$dটির মধ্যে %1$d</string>
+    <string name="composer_queued_send_now">এখনই পাঠান</string>
+    <string name="composer_queued_cancel_message">বার্তা বাতিল করুন</string>
+    <string name="composer_queued_show_less">কম দেখান</string>
+    <string name="composer_queued_show_more">আরও দেখান</string>
+    <string name="composer_queued_media_unavailable">%1$s · মিডিয়া উপলব্ধ নয়</string>
+
+    <!-- Request dock -->
+    <string name="composer_request_needs_input_description">আপনার ইনপুট প্রয়োজন, %1$s</string>
+    <string name="composer_request_page_progress">%2$dটির মধ্যে %1$d</string>
+    <string name="composer_request_page_progress_description">প্রশ্ন %2$dটির মধ্যে %1$d</string>
+    <string name="composer_request_dismiss_action">এর বদলে আপনার উত্তর এজেন্টকে লিখে জানান</string>
+    <string name="composer_request_pending_description">অপেক্ষমাণ অনুরোধ</string>
+    <string name="composer_request_question">প্রশ্ন</string>
+    <string name="composer_request_collapse_action">সঙ্কুচিত</string>
+    <plurals name="composer_request_questions_left">
+        <item quantity="one">%1$dটি প্রশ্ন বাকি</item>
+        <item quantity="other">%1$dটি প্রশ্ন বাকি</item>
+    </plurals>
+    <string name="composer_request_expand_action">প্রশ্নটি দেখান</string>
+    <string name="composer_request_choose_multiple">এক বা একাধিক বেছে নিন</string>
+    <string name="composer_request_form">ফর্ম</string>
+    <string name="composer_request_review">পর্যালোচনা</string>
+    <string name="composer_request_summary_expanded">প্রসারিত</string>
+    <string name="composer_request_summary_collapsed">সঙ্কুচিত</string>
+    <string name="composer_request_summary_hide_action">বিস্তারিত লুকান</string>
+    <string name="composer_request_summary_show_command_action">পুরো কমান্ড দেখান</string>
+    <string name="composer_request_summary_show_details_action">পুরো বিস্তারিত দেখান</string>
+    <string name="composer_request_show_scope_action">কিসের জন্য আর জিজ্ঞেস করা হবে না তা দেখান</string>
+    <string name="composer_request_allow_once">একবার অনুমতি দিন</string>
+    <string name="composer_request_sending_description">পাঠানো হচ্ছে</string>
+
+    <!-- Request review sheet -->
+    <string name="composer_review_requested_by">%1$s অনুরোধ করেছেন</string>
+    <string name="composer_review_open_step">পদক্ষেপ খুলুন</string>
+    <string name="composer_review_completed">সম্পন্ন</string>
+    <string name="composer_review_add_own_placeholder">নিজের উত্তর যোগ করুন</string>
+    <string name="composer_review_own_words_placeholder">নিজের ভাষায় উত্তর দিন</string>
+    <string name="composer_review_answer_placeholder">আপনার উত্তর</string>
+    <string name="composer_review_answer_description">আপনার উত্তর</string>
+
+    <!-- Shared location -->
+    <string name="composer_location_shared_title">শেয়ার করা অবস্থান</string>
+    <string name="composer_location_card_with_address_description">অবস্থান: %1$s, %2$s</string>
+    <string name="composer_location_card_description">অবস্থান: %1$s</string>
+    <string name="composer_location_open_in_maps_action">মানচিত্রে খুলুন</string>
+    <string name="composer_location_remove_description">অবস্থান সরান</string>
+    <string name="composer_location_cancel_description">অবস্থান বাতিল করুন</string>
+    <string name="composer_location_finding">অবস্থান খোঁজা হচ্ছে…</string>
+    <string name="composer_location_current_coordinates">বর্তমান স্থানাঙ্ক</string>
+
+    <!-- Model picker -->
+    <string name="composer_model_no_results_title">“%1$s”-এর জন্য কোন ফলাফল নেই</string>
+    <string name="composer_model_no_results_message">বানান দেখুন বা নতুন করে অনুসন্ধান করুন।</string>
+    <string name="composer_model_load_failed_title">মডেল লোড করা যায়নি</string>
+    <string name="composer_model_empty_title">কোন মডেল নেই</string>
+    <string name="composer_model_empty_message">কম্পিউটারে OpenCode-এ একটি প্রদানকারী সংযোগ করুন, তারপর আবার চেষ্টা করুন।</string>
+    <string name="composer_model_unfavorite">পছন্দের তালিকা থেকে সরান</string>
+    <string name="composer_model_favorite">পছন্দের তালিকায় যোগ করুন</string>
+    <string name="composer_model_choose_description">মডেল নির্বাচন করুন</string>
+    <string name="composer_model_remove_favorite_action">পছন্দের তালিকা থেকে সরান</string>
+    <string name="composer_model_add_favorite_action">পছন্দের তালিকায় যোগ করুন</string>
+    <string name="composer_model_level_description">চিন্তার স্তর: %1$s</string>
+    <string name="composer_model_level_higher_action">চিন্তার স্তর বাড়ান</string>
+    <string name="composer_model_level_lower_action">চিন্তার স্তর কমান</string>
+    <string name="composer_model_show_fewer">কম মডেল দেখান</string>
+    <string name="composer_model_show_all">সব মডেল দেখান</string>
+    <plurals name="composer_model_hidden_count">
+        <item quantity="one">%1$dটি লুকানো</item>
+        <item quantity="other">%1$dটি লুকানো</item>
+    </plurals>
+    <string name="composer_sheet_grabber_description">শিট টানার হাতল</string>
+    <string name="composer_model_grabber_compact_action">নির্বাচক সংক্ষিপ্ত করুন</string>
+    <string name="composer_model_grabber_expand_action">নির্বাচক প্রসারিত করুন</string>
+    <string name="composer_model_search_placeholder">মডেল অনুসন্ধান করুন</string>
+    <string name="composer_model_clear_search_description">অনুসন্ধান পরিষ্কার করুন</string>
+    <string name="composer_model_hide_keyboard_description">কীবোর্ড লুকান</string>
+
+    <!-- Plus menu -->
+
+    <!-- Camera lenses and flash (AttachmentCameraLenses) -->
+    <string name="composer_camera_lens_ultra_wide_description">আল্ট্রা ওয়াইড</string>
+    <string name="composer_camera_lens_wide_description">ওয়াইড</string>
+    <string name="composer_camera_lens_wide_zoom_description">ওয়াইড %1$s×</string>
+    <string name="composer_camera_lens_telephoto_description">টেলিফটো %1$s×</string>
+    <string name="composer_camera_flash_off">বন্ধ</string>
+    <string name="composer_camera_flash_auto">স্বয়ংক্রিয়</string>
+    <string name="composer_camera_flash_on">চালু</string>
+    <!-- Camera messages (AttachmentCameraView) -->
+    <string name="composer_camera_opening">ক্যামেরা খোলা হচ্ছে...</string>
+    <string name="composer_camera_access_restricted">ক্যামেরা ব্যবহারে বিধিনিষেধ রয়েছে।</string>
+    <string name="composer_camera_access_needed">ছবি তুলতে সেটিংসে ক্যামেরা ব্যবহারের অনুমতি দিন।</string>
+    <string name="composer_camera_open_failed">ক্যামেরা খোলা যায়নি।</string>
+    <string name="composer_camera_none_available">এই ডিভাইসে কোনো ক্যামেরা নেই।</string>
+    <string name="composer_camera_unavailable">ক্যামেরা উপলব্ধ নয়।</string>
+    <string name="composer_camera_temporarily_unavailable">ক্যামেরা সাময়িকভাবে উপলব্ধ নয়।</string>
+    <string name="composer_camera_capture_failed">ছবি তোলা যায়নি। আবার চেষ্টা করুন।</string>
+    <string name="composer_camera_switch_failed">ক্যামেরা বদলানো যায়নি।</string>
+    <string name="composer_camera_interrupted">ক্যামেরা বাধাপ্রাপ্ত হয়েছে। উপলব্ধ হলে আবার চালু হবে।</string>
+    <string name="composer_camera_stopped">ক্যামেরা বন্ধ হয়ে গেছে। আবার চেষ্টা করুন।</string>
+    <!-- Attachment menu (AttachmentPicker) -->
+    <string name="composer_attachment_menu_camera">ক্যামেরা</string>
+    <string name="composer_attachment_menu_photos">ছবি</string>
+    <string name="composer_attachment_menu_files">ফাইল</string>
+    <string name="composer_attachment_menu_location">অবস্থান</string>
+    <string name="composer_attachment_menu_paste">পেস্ট করুন</string>
+    <!-- Autocomplete items (AutocompleteModels) -->
+    <string name="composer_autocomplete_new_session">নতুন সেশন</string>
+    <string name="composer_autocomplete_skill">দক্ষতা</string>
+    <string name="composer_autocomplete_subagent">সাবএজেন্ট</string>
+    <string name="composer_autocomplete_command">কমান্ড</string>
+    <string name="composer_autocomplete_no_matches">“%1$s”-এর সাথে কোনো মিল নেই</string>
+    <string name="composer_autocomplete_skill_description">দক্ষতা, %1$s</string>
+    <string name="composer_autocomplete_subagent_description">সাবএজেন্ট, %1$s</string>
+    <string name="composer_autocomplete_file_description">ফাইল, %1$s, %2$s</string>
+    <string name="composer_autocomplete_session_description">সেশন, %1$s, %2$s</string>
+    <string name="composer_autocomplete_command_description">কমান্ড, %1$s</string>
+    <string name="composer_autocomplete_command_with_label_description">কমান্ড, %1$s, %2$s</string>
+    <!-- Send and upload failures -->
+    <string name="composer_send_failed_with_reason">বার্তা পাঠানো যায়নি: %1$s</string>
+    <string name="composer_send_failed">বার্তা পাঠানো যায়নি</string>
+    <string name="composer_upload_failed">আপলোড করা যায়নি</string>
+
+    <!-- Photo viewer -->
+    <string name="composer_photo_viewer_image_label">%2$dটির মধ্যে %1$d নম্বর ছবি সংযুক্তি</string>
+    <string name="composer_photo_viewer_image_format">ছবি</string>
+    <!-- Dictation errors -->
+    <string name="composer_dictation_microphone_denied">OpenCode-এর মাইক্রোফোন ব্যবহারের অনুমতি বন্ধ। সেটিংসে চালু করুন।</string>
+    <string name="composer_dictation_locale_unsupported">আপনার ভাষায় শ্রুতিলিখন এখনও উপলব্ধ নয়।</string>
+    <string name="composer_dictation_audio_unavailable">শ্রুতিলিখনের জন্য অডিও সেশন শুরু করা যায়নি।</string>
+    <string name="composer_dictation_recognizer_failed">শ্রুতিলিখনকে লেখায় রূপান্তর করা যায়নি (ত্রুটি %1$d)</string>
+
+    <!-- File attachments -->
+    <string name="composer_file_uploading_description">আপলোড হচ্ছে, %1$s</string>
+    <!-- Diff preview -->
+    <string name="composer_diff_added_description">যোগ করা হয়েছে: %1$s</string>
+    <string name="composer_diff_removed_description">সরানো হয়েছে: %1$s</string>
+    <!-- Request dock -->
+    <string name="composer_request_dismiss_failed">অনুরোধ খারিজ করা যায়নি</string>
+    <string name="composer_request_answer_failed">উত্তর পাঠানো যায়নি</string>
+    <string name="composer_request_reply_failed">জবাব পাঠানো যায়নি</string>
+    <string name="composer_request_deny">অস্বীকার করুন</string>
+    <string name="composer_request_decline_placeholder">এর বদলে কী করতে হবে বলুন</string>
+    <string name="composer_request_reason_description">কারণ</string>
+    <string name="composer_request_failed">অনুরোধ ব্যর্থ হয়েছে</string>
+    <!-- Location -->
+    <string name="composer_location_denied">OpenCode-এর অবস্থান ব্যবহারের অনুমতি বন্ধ। সেটিংসে চালু করুন।</string>
+    <string name="composer_location_unavailable">আপনার অবস্থান খুঁজে পাওয়া যায়নি।</string>
+    <string name="composer_request_yes">হ্যাঁ</string>
+    <string name="composer_request_no">না</string>
+    <!-- Model picker -->
+    <string name="composer_model_level_default">ডিফল্ট</string>
+    <string name="composer_model_section_favorites">পছন্দের</string>
+    <string name="composer_model_section_recent">সাম্প্রতিক</string>
+    <string name="composer_model_section_all_models">সব মডেল</string>
+    <string name="composer_model_placeholder">মডেল</string>
+    <string name="composer_model_list_full_description">পুরো</string>
+    <string name="composer_model_list_half_description">অর্ধেক</string>
+    <string name="composer_model_favorite_description">পছন্দের তালিকায় যোগ করুন</string>
+</resources>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent activity glyph -->
+    <string name="session_activity_running_description">Σε εξέλιξη</string>
+    <!-- Background work panel -->
+    <string name="session_background_work_show_label">Εμφάνιση ενεργών υποπρακτόρων, σεναρίων και κελυφών</string>
+    <string name="session_background_work_collapsed_description">Συμπτυγμένο</string>
+    <string name="session_background_work_subagents_title">Υποπράκτορες</string>
+    <string name="session_background_work_open_subagent_label">Άνοιγμα συνεδρίας του υποπράκτορα</string>
+    <string name="session_background_work_shells_title">Κελύφη</string>
+    <string name="session_background_work_show_shell_label">Εμφάνιση εξόδου του κελύφους</string>
+    <!-- The session's images and videos, paged in the full-screen viewer -->
+    <string name="session_visual_attached_image">Συνημμένη εικόνα</string>
+    <string name="session_visual_tool_image">Εικόνα εργαλείου</string>
+    <string name="session_visual_image">Εικόνα</string>
+    <!-- One image of several: the image's label, then its place, as “Attached image 2 of 3” -->
+    <string name="session_visual_image_page_label">%1$s %2$d από %3$d</string>
+    <!-- A diagram's label, read by TalkBack. %1$s is its kind, as “Diagram, Flowchart” -->
+    <string name="session_visual_diagram_label">Διάγραμμα, %1$s</string>
+    <!-- Jump to latest -->
+    <string name="session_scroll_to_latest_description">Κύλιση στο πιο πρόσφατο</string>
+    <!-- Dictation bar -->
+    <string name="session_dictation_finishing_description">Ολοκλήρωση υπαγόρευσης</string>
+    <string name="session_dictation_stop_recording_description">Διακοπή ηχογράφησης</string>
+    <string name="session_dictation_stop_recording_hint">Προσθήκη των λέξεων στο μήνυμά σας</string>
+    <string name="session_sending_message_description">Αποστολή μηνύματος</string>
+    <string name="session_delivery_steer_label">Καθοδήγηση στο επόμενο βήμα</string>
+    <string name="session_delivery_queue_label">Στην ουρά μετά από αυτή την απάντηση</string>
+    <string name="session_delivery_steer">Καθοδήγηση</string>
+    <string name="session_delivery_queue">Ουρά</string>
+    <!-- Draft project picker -->
+    <string name="session_draft_project_choose_label">Επιλέξτε πού ξεκινά η συνεδρία</string>
+    <string name="session_project_choose_folder">Επιλογή φακέλου…</string>
+    <string name="session_project_all_projects">Όλα τα έργα</string>
+    <string name="session_project_selected_description">Επιλεγμένο</string>
+    <string name="session_project_picker_title">Έργο</string>
+    <!-- Folder browser -->
+    <string name="session_folder_select_description">Επιλογή φακέλου</string>
+    <string name="session_folder_path_description">Διαδρομή</string>
+    <string name="session_folder_title">Φάκελος</string>
+    <string name="session_folder_select">Επιλογή</string>
+    <string name="session_folder_open_failed_title">Αδυναμία ανοίγματος φακέλου</string>
+    <string name="session_folder_empty_title">Δεν υπάρχουν φάκελοι</string>
+    <string name="session_folder_search_empty_title">Δεν υπάρχουν αποτελέσματα για «%1$s»</string>
+    <string name="session_folder_search_empty_message">Ελέγξτε την ορθογραφία ή δοκιμάστε νέα αναζήτηση.</string>
+    <!-- Server connection pill -->
+    <string name="session_server_edit">Επεξεργασία διακομιστή…</string>
+    <!-- Starter prompts -->
+    <string name="session_starter_prompts_title">Δοκιμάστε να ρωτήσετε</string>
+    <string name="session_starter_prompt_pick_label">Εισαγωγή στο μήνυμα</string>
+    <!-- Session sheet -->
+    <string name="session_sheet_rename_failed">Αδυναμία μετονομασίας</string>
+    <string name="session_sheet_status_description">Κατάσταση</string>
+    <string name="session_rename_title">Μετονομασία συνεδρίας</string>
+    <string name="session_untitled_title">Συνεδρία</string>
+    <string name="session_pin">Καρφίτσωμα</string>
+    <string name="session_pinned">Καρφιτσωμένη</string>
+    <string name="session_unread">Αδιάβαστη</string>
+    <string name="session_mute">Σίγαση</string>
+    <string name="session_muted">Σε σίγαση</string>
+    <string name="session_compact">Συμπαγές</string>
+    <string name="session_fork">Διακλάδωση</string>
+    <string name="session_toggle_on_description">Ενεργό</string>
+    <string name="session_toggle_off_description">Ανενεργό</string>
+    <string name="session_export">Εξαγωγή</string>
+    <string name="session_export_markdown">Markdown</string>
+    <string name="session_export_json">JSON</string>
+    <string name="session_sheet_model">Μοντέλο</string>
+    <string name="session_sheet_context">Πλαίσιο</string>
+    <string name="session_sheet_unknown_description">Άγνωστο</string>
+    <string name="session_sheet_context_tokens">%1$s διακριτικά</string>
+    <string name="session_sheet_cost">Κόστος</string>
+    <string name="session_sheet_media">Πολυμέσα</string>
+    <string name="session_sheet_media_value">Αρχεία και σύνδεσμοι</string>
+    <string name="session_always_notify">Ειδοποίηση πάντα</string>
+    <string name="session_always_notify_message_phone">Ειδοποίηση σε αυτό το κινητό όταν ολοκληρώνεται μια απάντηση, ακόμα κι αν το μήνυμα στάλθηκε από αλλού.</string>
+    <string name="session_always_notify_message_tablet">Ειδοποίηση σε αυτό το τάμπλετ όταν ολοκληρώνεται μια απάντηση, ακόμα κι αν το μήνυμα στάλθηκε από αλλού.</string>
+    <string name="session_delete_session">Διαγραφή συνεδρίας</string>
+    <string name="session_rename_placeholder">Τίτλος</string>
+    <string name="session_auto_rename">Αυτόματη μετονομασία</string>
+    <string name="session_delete_confirm_title">Διαγραφή «%1$s»;</string>
+    <string name="session_delete_confirm_message">Η συνεδρία αφαιρείται από τον διακομιστή για όλες τις εφαρμογές-πελάτες.</string>
+    <!-- Transcript -->
+    <string name="session_move_to_background">Μεταφορά στο παρασκήνιο</string>
+    <string name="session_move_to_background_hint">Συνεχίστε την εργασία στο παρασκήνιο ώστε ο πράκτορας να διαβάσει το επόμενο μήνυμά σας</string>
+    <!-- Attachments -->
+    <string name="session_attachment_add_image_failed_title">Αδυναμία προσθήκης εικόνας</string>
+    <string name="session_attachment_upload">Μεταφόρτωση</string>
+    <string name="session_attachment_remove_image_description">Αφαίρεση συνημμένης εικόνας %1$d</string>
+    <string name="session_attachment_remove_description">Αφαίρεση %1$s</string>
+    <string name="session_attachment_file_description">Συνημμένο αρχείο %1$s</string>
+    <string name="session_attachment_cancel_upload_description">Ακύρωση μεταφόρτωσης του %1$s</string>
+    <string name="session_attachment_open_photo_label">Άνοιγμα φωτογραφίας σε πλήρη οθόνη</string>
+    <string name="session_attachment_image_description">Συνημμένη εικόνα %1$d</string>
+    <string name="session_attachment_video_description">Συνημμένο βίντεο %1$d</string>
+    <!-- Composer controls -->
+    <string name="session_answer_own_description">Η δική σας απάντηση</string>
+    <string name="session_answer_own_type_label">Γράψτε ή υπαγορεύστε τη δική σας απάντηση</string>
+    <string name="session_answer_own_clear_label">Αφήστε στην άκρη τη δική σας απάντηση</string>
+    <string name="session_answer_own_choose_label">Απαντήστε με δικά σας λόγια</string>
+    <string name="session_answer_decline_with_words_label">Πείτε στον πράκτορα τι να κάνει αντί γι’ αυτό</string>
+    <string name="session_answer_required_description">Επιλέξτε απάντηση ή γράψτε τη δική σας</string>
+    <string name="session_dictate_message_description">Υπαγόρευση μηνύματος</string>
+    <string name="session_dictate_message_hint">Υπαγορεύστε το μήνυμά σας ή πατήστε παρατεταμένα για ηχογράφηση και αποστολή</string>
+    <string name="session_send_waiting_for_uploads_description">Αποστολή μόλις ολοκληρωθούν οι μεταφορτώσεις</string>
+    <string name="session_steer_message_description">Καθοδήγηση με μήνυμα</string>
+    <string name="session_stopping_description">Γίνεται διακοπή</string>
+    <string name="session_start_voice_call">Έναρξη φωνητικής κλήσης</string>
+    <string name="session_dictation_stop_description">Διακοπή υπαγόρευσης</string>
+    <!-- Composer -->
+    <string name="session_requests_load_failed_title">Αδυναμία φόρτωσης αιτημάτων</string>
+    <plurals name="session_queued_count">
+        <item quantity="one">%1$d σε αναμονή</item>
+        <item quantity="other">%1$d σε αναμονή</item>
+    </plurals>
+    <string name="session_queued_show_label">Εμφάνιση μηνυμάτων που περιμένουν να ολοκληρωθεί αυτή η απάντηση</string>
+    <plurals name="session_queued_messages_description">
+        <item quantity="one">%1$d μήνυμα σε αναμονή</item>
+        <item quantity="other">%1$d μηνύματα σε αναμονή</item>
+    </plurals>
+    <string name="session_dictation_preparing">Προετοιμασία υπαγόρευσης…</string>
+    <string name="session_message_placeholder">Μήνυμα</string>
+    <!-- Session header -->
+    <string name="session_back_to_main_description">Επιστροφή στην κύρια συνεδρία</string>
+    <string name="session_header_open_from_catch_up_label">Άνοιγμα συνεδρίας και έξοδος από την ενημέρωση</string>
+    <string name="session_header_show_details_label">Εμφάνιση λεπτομερειών συνεδρίας</string>
+    <string name="session_header_idle_description">Σε αδράνεια</string>
+    <string name="session_header_syncing_description">Συγχρονισμός</string>
+    <string name="session_header_last_known_description">Τελευταία γνωστή κατάσταση</string>
+    <string name="session_menu_more_description">Περισσότερα</string>
+    <string name="session_unpin">Ξεκαρφίτσωμα</string>
+    <string name="session_copy_session_id">Αντιγραφή ID συνεδρίας</string>
+    <string name="session_mark_as_read">Σήμανση ως αναγνωσμένης</string>
+    <string name="session_mark_as_unread">Σήμανση ως αδιάβαστης</string>
+    <string name="session_unmute">Άρση σίγασης</string>
+    <string name="session_menu_export_expanded_description">Αναπτυγμένο</string>
+    <string name="session_menu_export_collapsed_description">Συμπτυγμένο</string>
+    <string name="session_info">Πληροφορίες συνεδρίας</string>
+    <!-- Session screen -->
+    <string name="session_load_failed_title">Αδυναμία φόρτωσης συνεδρίας</string>
+    <string name="session_location_share_failed_title">Αδυναμία κοινοποίησης τοποθεσίας</string>
+    <!-- Shell output -->
+    <string name="session_shell_stop_confirm_title">Διακοπή αυτού του κελύφους;</string>
+    <string name="session_shell_stop_confirm_message">Η εντολή τερματίζεται τώρα. Η έξοδος που εμφανίζεται εδώ παραμένει μέχρι να την κλείσετε.</string>
+    <string name="session_shell_stop">Διακοπή κελύφους</string>
+    <string name="session_shell_copy_output">Αντιγραφή εξόδου</string>
+    <string name="session_shell_share_output">Κοινοποίηση εξόδου</string>
+    <string name="session_shell_earlier_output_hidden">Η προηγούμενη έξοδος είναι κρυμμένη</string>
+    <string name="session_shell_showing_last_output">Εμφανίζονται τα τελευταία 4 MB</string>
+    <string name="session_shell_load_earlier">Φόρτωση προηγούμενων</string>
+    <string name="session_shell_output_unavailable_title">Η έξοδος δεν είναι διαθέσιμη</string>
+    <string name="session_shell_output_unavailable_message">Ο διακομιστής δεν έχει πλέον την έξοδο αυτού του κελύφους.</string>
+    <string name="session_shell_no_output_yet_title">Δεν υπάρχει έξοδος ακόμη</string>
+    <string name="session_shell_no_output_title">Δεν υπάρχει έξοδος</string>
+    <string name="session_shell_no_output_yet_message">Η έξοδος εμφανίζεται εδώ καθώς την παράγει η εντολή.</string>
+    <string name="session_shell_status_stopping">Γίνεται διακοπή…</string>
+    <string name="session_shell_status_unavailable">Μη διαθέσιμο</string>
+    <string name="session_shell_status_interrupted">Διακοπή</string>
+    <string name="session_shell_status_timed_out">Έληξε το χρονικό όριο</string>
+    <string name="session_shell_status_exited_with_code">Τερματίστηκε με κωδικό %1$d</string>
+    <string name="session_shell_status_exited">Τερματίστηκε</string>
+    <plurals name="session_shell_elapsed_hours">
+        <item quantity="one">%1$d ώρα</item>
+        <item quantity="other">%1$d ώρες</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_minutes">
+        <item quantity="one">%1$d λεπτό</item>
+        <item quantity="other">%1$d λεπτά</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_seconds">
+        <item quantity="one">%1$d δευτερόλεπτο</item>
+        <item quantity="other">%1$d δευτερόλεπτα</item>
+    </plurals>
+
+    <!-- Agent activity (glyph labels and titles) -->
+    <string name="session_activity_idle">Σε αδράνεια</string>
+    <string name="session_activity_starting_up">Εκκίνηση</string>
+    <string name="session_activity_thinking">Σκέψη</string>
+    <string name="session_activity_long_work">Παρατεταμένη εργασία</string>
+    <string name="session_activity_tool_burst">Διαδοχικές κλήσεις εργαλείων</string>
+    <string name="session_activity_streaming_output">Ροή εξόδου</string>
+    <string name="session_activity_waiting_for_input">Αναμονή για είσοδο</string>
+    <string name="session_activity_handing_off">Ανάθεση εργασίας</string>
+    <string name="session_activity_done">Τέλος</string>
+    <string name="session_activity_failed">Απέτυχε</string>
+    <string name="session_working_stopping">Γίνεται διακοπή…</string>
+    <string name="session_status_working">Εργασία</string>
+    <string name="session_status_needs_input">Χρειάζεται η συμβολή σας</string>
+    <string name="session_status_done">Τέλος</string>
+
+    <!-- Lists: joins two or three phrases -->
+    <string name="session_list_two">%1$s, %2$s</string>
+    <string name="session_list_three">%1$s, %2$s, %3$s</string>
+
+    <!-- Background work panel -->
+    <plurals name="session_background_work_subagent_count">
+        <item quantity="one">%1$d υποπράκτορας</item>
+        <item quantity="other">%1$d υποπράκτορες</item>
+    </plurals>
+    <plurals name="session_background_work_shell_count">
+        <item quantity="one">%1$d κέλυφος</item>
+        <item quantity="other">%1$d κελύφη</item>
+    </plurals>
+    <plurals name="session_background_work_script_count">
+        <item quantity="one">%1$d σενάριο</item>
+        <item quantity="other">%1$d σενάρια</item>
+    </plurals>
+    <string name="session_background_work_summary">%1$s · %2$s</string>
+    <string name="session_background_work_scripts_title">Σενάρια</string>
+    <string name="session_background_work_stop_script_label">Διακοπή σεναρίου</string>
+    <string name="session_background_work_stop_subagent_label">Διακοπή υποπράκτορα</string>
+    <string name="session_background_work_stop_script_failed">Αδυναμία διακοπής σεναρίου</string>
+    <string name="session_background_work_stop_subagent_failed">Αδυναμία διακοπής υποπράκτορα</string>
+
+    <!-- Composer buttons -->
+    <string name="session_send_message_description">Αποστολή μηνύματος</string>
+    <string name="session_stop_description">Διακοπή</string>
+    <string name="session_start_voice_call_description">Έναρξη φωνητικής κλήσης</string>
+    <string name="session_model_level_default">Προεπιλογή</string>
+
+    <!-- In-app notice -->
+    <plurals name="session_notice_session_count">
+        <item quantity="one">%1$d συνεδρία</item>
+        <item quantity="other">%1$d συνεδρίες</item>
+    </plurals>
+    <plurals name="session_notice_needs_input_count">
+        <item quantity="one">%1$d χρειάζεται τη συμβολή σας</item>
+        <item quantity="other">%1$d χρειάζονται τη συμβολή σας</item>
+    </plurals>
+    <string name="session_notice_announcement">%1$s, %2$s</string>
+
+    <!-- Server connection pill -->
+    <string name="session_server_reconnecting">Επανασύνδεση με %1$s…</string>
+    <string name="session_server_connect_failed">Αδυναμία σύνδεσης με %1$s</string>
+    <string name="session_server_sign_in_failed">Αδυναμία εισόδου σε %1$s</string>
+    <string name="session_server_pair_again">Νέα ζευγοποίηση</string>
+    <string name="session_server_try_again_click_label">δοκιμάστε ξανά</string>
+    <string name="session_server_pair_again_click_label">νέα ζευγοποίηση</string>
+
+    <!-- Export -->
+    <string name="session_export_folder_failed">Αδυναμία δημιουργίας φακέλου εξαγωγής</string>
+    <string name="session_export_save_failed">Αδυναμία αποθήκευσης της εξαγωγής</string>
+
+    <!-- Session errors -->
+    <string name="session_agent_fallback_name">Πράκτορας</string>
+    <string name="session_something_went_wrong">Κάτι πήγε στραβά</string>
+    <string name="session_something_went_wrong_sentence">Κάτι πήγε στραβά.</string>
+    <string name="session_load_earlier_failed">Αδυναμία φόρτωσης προηγούμενων μηνυμάτων</string>
+    <string name="session_move_to_background_failed">Αδυναμία μετακίνησης στο παρασκήνιο: %1$s</string>
+    <string name="session_move_failed_reason">Αδυναμία μετακίνησης συνεδρίας</string>
+    <string name="session_delivery_waiting_to_send">Αναμονή για αποστολή</string>
+    <string name="session_create_failed">Αδυναμία δημιουργίας συνεδρίας.</string>
+    <string name="session_switch_agent_failed">Αδυναμία αλλαγής πράκτορα: %1$s</string>
+    <string name="session_switch_model_failed">Αδυναμία αλλαγής μοντέλου: %1$s</string>
+    <string name="session_pending_send_now_failed_details">Αδυναμία άμεσης αποστολής του εκκρεμούς μηνύματος: %1$s</string>
+    <string name="session_pending_cancel_failed_details">Αδυναμία ακύρωσης του εκκρεμούς μηνύματος: %1$s</string>
+    <string name="session_pending_queue_failed_details">Αδυναμία προσθήκης του εκκρεμούς μηνύματος στην ουρά: %1$s</string>
+    <string name="session_stopped_before_sent">Διακόπηκε πριν σταλεί</string>
+    <string name="session_stop_failed">Αδυναμία διακοπής συνεδρίας</string>
+    <string name="session_undo_message_failed">Αδυναμία αναίρεσης μηνύματος: %1$s</string>
+    <string name="session_revert_failed">Αδυναμία επαναφοράς</string>
+    <string name="session_revert_failed_details">Αδυναμία επαναφοράς: %1$s</string>
+
+    <!-- Session sheet errors -->
+    <string name="session_sheet_rename_failed_title">Αδυναμία μετονομασίας συνεδρίας</string>
+    <string name="session_sheet_compact_failed_title">Αδυναμία συμπίεσης συνεδρίας</string>
+    <string name="session_sheet_fork_failed_title">Αδυναμία διακλάδωσης συνεδρίας</string>
+    <string name="session_sheet_save_export_failed">Αδυναμία αποθήκευσης εξαγωγής</string>
+    <string name="session_sheet_export_failed_title">Αδυναμία εξαγωγής συνεδρίας</string>
+    <string name="session_sheet_notifications_off_message">Ενεργοποιήστε πρώτα τις ειδοποιήσεις στις Ρυθμίσεις.</string>
+    <string name="session_sheet_always_notify_on_failed_title">Αδυναμία ενεργοποίησης της επιλογής «Ειδοποίηση πάντα»</string>
+    <string name="session_sheet_always_notify_off_failed_title">Αδυναμία απενεργοποίησης της επιλογής «Ειδοποίηση πάντα»</string>
+
+    <!-- Attachments -->
+    <string name="session_attachment_files_unsupported">Ο διακομιστής δεν υποστηρίζει αρχεία</string>
+    <string name="session_attachment_upload_failed">Αδυναμία μεταφόρτωσης</string>
+    <string name="session_attachment_file_fallback_name">Αρχείο</string>
+    <string name="session_attachment_image_too_large">Επιλέξτε εικόνα μικρότερη από 20 MB.</string>
+    <string name="session_attachment_image_load_failed">Δεν ήταν δυνατή η φόρτωση της εικόνας. Δοκιμάστε άλλη φωτογραφία.</string>
+    <string name="session_attachment_file_add_failed">Δεν ήταν δυνατή η προσθήκη του αρχείου. Δοκιμάστε άλλο αρχείο.</string>
+    <plurals name="session_attachment_files_add_failed">
+        <item quantity="one">Δεν ήταν δυνατή η προσθήκη %1$d αρχείου.</item>
+        <item quantity="other">Δεν ήταν δυνατή η προσθήκη %1$d αρχείων.</item>
+    </plurals>
+    <string name="session_large_upload_title">Μεταφόρτωση %1$s;</string>
+    <string name="session_large_upload_message_one">Το «%1$s» είναι μεγάλο αρχείο. Το μήνυμα θα σταλεί μόλις ολοκληρωθεί η μεταφόρτωση στον διακομιστή σας.</string>
+    <plurals name="session_large_upload_message_many">
+        <item quantity="one">%1$d αρχείο είναι μεγάλο. Το μήνυμα θα σταλεί μόλις ολοκληρωθεί η μεταφόρτωση στον διακομιστή σας.</item>
+        <item quantity="other">%1$d αρχεία είναι μεγάλα. Το μήνυμα θα σταλεί μόλις ολοκληρωθεί η μεταφόρτωση στον διακομιστή σας.</item>
+    </plurals>
+
+    <!-- Header and screens -->
+    <string name="session_new_session_title">Νέα συνεδρία</string>
+    <string name="session_pasted_text_screen_title">Επικολλημένο κείμενο</string>
+    <string name="session_pasted_text_viewer_screen_title">Προβολή επικολλημένου κειμένου</string>
+    <string name="session_context_summary">%1$d%% από %2$s</string>
+    <string name="session_context_accessibility_value">Χρήση %1$d%% από %2$s διακριτικά</string>
+
+    <!-- Starter prompts (shown, then sent as the person’s message) -->
+    <string name="session_starter_project_purpose">Τι κάνει αυτό το έργο;</string>
+    <string name="session_starter_code_tour">Δώσε μου μια σύντομη περιήγηση στον κώδικα</string>
+    <string name="session_starter_recent_changes">Τι άλλαξε εδώ πρόσφατα;</string>
+
+    <!-- Shell output -->
+    <string name="session_shell_refresh_failed">Αδυναμία ανανέωσης εξόδου</string>
+    <string name="session_shell_load_earlier_failed">Αδυναμία φόρτωσης προηγούμενης εξόδου</string>
+    <string name="session_shell_stop_failed">Αδυναμία διακοπής κελύφους</string>
+    <string name="session_quote_remove_description">Αφαίρεση παράθεσης</string>
+    <string name="session_quote_comment_placeholder">Προσθέστε ένα προαιρετικό σχόλιο…</string>
+    <string name="session_media_title">Πολυμέσα συνεδρίας</string>
+    <string name="session_media_filter_media">Πολυμέσα</string>
+    <string name="session_media_filter_files">Αρχεία</string>
+    <string name="session_media_filter_links">Σύνδεσμοι</string>
+    <string name="session_media_layout_description">Διάταξη πολυμέσων</string>
+    <string name="session_media_layout_tiles">Πλακίδια</string>
+    <string name="session_media_layout_list">Λίστα</string>
+    <string name="session_media_origin_user">Στάλθηκε από εσάς</string>
+    <string name="session_media_origin_agent">Κοινοποιήθηκε από τον πράκτορα</string>
+    <string name="session_media_open_click_label">Άνοιγμα</string>
+    <string name="session_media_open_link_click_label">Άνοιγμα συνδέσμου</string>
+    <string name="session_media_empty_media_title">Κανένα πολυμέσο</string>
+    <string name="session_media_empty_media_message">Οι εικόνες, τα βίντεο και οι ήχοι που κοινοποιούνται σε αυτή τη συνεδρία εμφανίζονται εδώ.</string>
+    <string name="session_media_empty_files_title">Δεν υπάρχουν αρχεία</string>
+    <string name="session_media_empty_files_message">Τα έγγραφα και το επικολλημένο κείμενο από αυτή τη συνεδρία εμφανίζονται εδώ.</string>
+    <string name="session_media_empty_links_title">Δεν υπάρχουν σύνδεσμοι</string>
+    <string name="session_media_empty_links_message">Οι σύνδεσμοι ιστού που κοινοποιούνται σε αυτή τη συνεδρία εμφανίζονται εδώ.</string>
+    <string name="session_media_earlier_note">Τα προηγούμενα μηνύματα δεν έχουν φορτωθεί ακόμη.</string>
+    <string name="session_media_load_earlier">Φόρτωση προηγούμενων μηνυμάτων</string>
+    <string name="session_media_loading_earlier">Φόρτωση…</string>
+    <string name="session_media_earlier_failed">Αδυναμία φόρτωσης προηγούμενων μηνυμάτων. Ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά.</string>
+    <string name="session_media_earlier_nothing_new">Δεν υπάρχει κάτι νέο στα μηνύματα που μόλις φορτώθηκαν. Τα προηγούμενα μπορεί να έχουν περισσότερα.</string>
+</resources>

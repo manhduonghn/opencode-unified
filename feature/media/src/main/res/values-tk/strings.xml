@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">Surat</string>
+    <string name="media_image_load_failed">Suraty ýükläp bolmady</string>
+    <string name="media_unavailable">Media elýeterli däl</string>
+    <string name="media_try_again_label">Täzeden synanyş</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">Media görüjisi</string>
+    <string name="media_viewer_save_to_photos_description">Suratlara saklaň</string>
+    <string name="media_file_viewer_screen_title">Faýl görüjisi</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d / %3$d</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">Suratyň üstünde çyz</string>
+    <string name="media_drawing_undo_description">Yza gaýtar</string>
+    <string name="media_drawing_add_to_prompt_description">Prompta goş</string>
+    <string name="media_drawing_canvas_description">Çyzgy meýdançasy</string>
+    <string name="media_drawing_discard_title">Çyzgy taşlansynmy?</string>
+    <string name="media_drawing_discard_confirm">Çyzgyny taşla</string>
+    <string name="media_drawing_keep">Çyzmagy dowam et</string>
+    <string name="media_drawing_add_failed_title">Çyzgyny goşup bolmady</string>
+    <string name="media_drawing_flatten_failed">Suraty döredip bolmady. Täzeden synanyş.</string>
+    <string name="media_drawing_prompt_unavailable">Bu sessiýanyň habaryna häzir goşundy goşup bolmaýar.</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">Ak</string>
+    <string name="media_drawing_ink_black">Gara</string>
+    <string name="media_drawing_ink_red">Gyzyl</string>
+    <string name="media_drawing_ink_yellow">Sary</string>
+    <string name="media_drawing_ink_green">Ýaşyl</string>
+    <string name="media_drawing_ink_blue">Gök</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">Ulaldyldy</string>
+    <string name="media_zoom_out_label">Kiçelt</string>
+    <string name="media_zoom_in_label">Ulalt</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">Sägin</string>
+    <string name="media_player_play">Aýtdyr</string>
+    <string name="media_player_position_description">Aýtdyryş ýeri</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">Wideony aýtdyryp bolmady</string>
+    <string name="media_video_position_description">Wideonyň ýeri</string>
+    <string name="media_video_capture_failed_title">Kadry alyp bolmady</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">Deslapky syny görkez</string>
+    <string name="media_file_show_source_description">Çeşmäni görkez</string>
+    <string name="media_file_unwrap_lines_description">Setirleri bölme</string>
+    <string name="media_file_wrap_lines_description">Setirleri böl</string>
+    <string name="media_file_start_pip_description">Surat içinde suraty başlat</string>
+    <string name="media_file_opening">Açylýar…</string>
+    <string name="media_file_share_failed_title">Faýly paýlaşyp bolmady</string>
+    <string name="media_file_share_downloading_description">Paýlaşmak üçin ýüklenýär</string>
+    <string name="media_file_confirm_large_message">Bu faýlyň ölçegi %1$s. Ony bu enjamda görmek üçin ýükläp almalymy?</string>
+    <string name="media_file_download">Ýükläp al</string>
+    <string name="media_file_open_in_another_app">Başga programmada açyň</string>
+    <string name="media_file_no_app_message">Bu enjamda bu faýly açyp bilýän programma ýok. Saklamak ýa-da başga ýere ibermek üçin paýlaşyň.</string>
+    <string name="media_file_pdf_page_description">Sahypa %1$d / %2$d</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">Faýl tapylmady</string>
+    <string name="media_file_error_open_failed_title">Faýly açyp bolmady</string>
+    <string name="media_file_error_unreadable">Bu ýoldaky maglumaty serwerden okap bolmaýar.</string>
+    <string name="media_file_error_not_found">Ol göçürilen ýa-da öçürilen bolup biler.</string>
+    <string name="media_file_error_unauthorized">Serwer bu enjamyň parolyny kabul etmedi.</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">Serwer ony okap bilmedi (HTTP %1$d). Ol papka bolup biler.</string>
+    <string name="media_file_error_timed_out">Talabyň wagty gutardy.</string>
+    <string name="media_file_error_unexpected_response">Serwer garaşylmadyk jogap iberdi.</string>
+    <string name="media_file_error_over_limit">Faýl ýükläp almagyň ölçeg çäginden uly.</string>
+    <string name="media_file_error_size_unknown">Serwer goşundynyň ölçegini habar bermedi.</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">Ýüklenýär…</string>
+    <string name="media_file_downloading_size">%1$s ýüklenýär</string>
+    <string name="media_file_downloading_progress">%1$s / %2$s ýüklenýär</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">0 KB</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="one">%1$d baýt</item>
+        <item quantity="other">%1$d baýt</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s KB</string>
+    <string name="media_file_size_megabytes">%1$s MB</string>
+    <string name="media_file_size_gigabytes">%1$s GB</string>
+    <string name="media_file_size_terabytes">%1$s TB</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">Tapylmady</string>
+    <string name="media_image_load_label">Suraty ýükle</string>
+    <string name="media_image_loading_state">Adingüklemek</string>
+    <string name="media_image_open_label">Suraty açyň</string>
+    <string name="media_image_tap_to_load">Ýüklemek üçin basyň</string>
+    <string name="media_image_outside_project_value">Taslamanyň daşynda</string>
+    <string name="media_image_deferred_low_data_value">Maglumat tygşytlaýyş tertibi sebäpli soňa goýuldy</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">%1$s açyň</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">Sessiýa dolan</string>
+    <string name="media_browser_ask_description">Bu sahypa barada sora</string>
+    <string name="media_browser_forward_description">Öňe</string>
+    <string name="media_browser_open_in_browser_description">Brauzerde açyň</string>
+    <string name="media_browser_scroll_to_top_label">Sahypanyň başyna geçiň</string>
+    <string name="media_browser_ask_placeholder">Bu sahypa barada soraň</string>
+    <string name="media_browser_reply_needs_input">Jogabyňyz gerek</string>
+    <string name="media_browser_reply_working">Işleýär</string>
+    <string name="media_browser_go_back_to_session_label">Sessiýa dolan</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">Jogap taýýar</string>
+    <string name="media_browser_reply_back_to_read">· Okamak üçin dolan</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">Sessiýa</string>
+    <string name="media_link_open_in_app_browser">Programmadaky brauzerde açyň</string>
+    <string name="media_link_open_in_browser">Brauzerde açyň</string>
+    <string name="media_link_open_in_app">Programmada açyň</string>
+    <string name="media_link_copy">Baglanyşygy göçüriň</string>
+    <string name="media_link_share">Paýlaş…</string>
+    <string name="media_link_open_session">Sessiýany açyň</string>
+    <string name="media_link_copy_session_id">ID-ni göçüriň</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">%1$s ID-sini göçüriň</string>
+    <string name="media_link_open_session_named_description">%1$s sessiýasyny açyň</string>
+    <string name="media_link_open_host_in_app_browser_description">%1$s programmadaky brauzerde açyň</string>
+    <string name="media_link_open_host_in_browser_description">%1$s brauzerde açyň</string>
+    <string name="media_link_open_host_in_app_description">%1$s programmada açyň</string>
+    <string name="media_link_copy_host_description">%1$s baglanyşygyny göçüriň</string>
+    <string name="media_link_share_host_description">%1$s baglanyşygyny paýlaş</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%2$s saýtyndaky %1$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s, %2$d-nji baglanyşyk</string>
+    <string name="media_link_more_links_description">Has köp baglanyşyk</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">Wideo</string>
+    <string name="media_link_preview_post">Ýazgy</string>
+    <string name="media_link_preview_post_unavailable">Ýazgy elýeterli däl</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">Ammar</string>
+    <string name="media_github_kind_issue">Mesele</string>
+    <string name="media_github_kind_pull_request">Birleşdirme talaby</string>
+    <string name="media_github_kind_commit">Üýtgeşme ýazgysy</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">Açyk</string>
+    <string name="media_github_state_closed">Ýapyk</string>
+    <string name="media_github_state_merged">Birleşdirildi</string>
+    <string name="media_github_state_draft">Garalama</string>
+    <string name="media_github_state_completed">Tamamlandy</string>
+    <string name="media_github_state_not_planned">Meýilleşdirilmedik</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">Diagramma, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">Diagramma görüjisi</string>
+    <string name="media_mermaid_diagram_description">Diagramma</string>
+    <string name="media_mermaid_loading_state">%1$s, ýüklenýär</string>
+    <string name="media_mermaid_view_source">Çeşmäni görkez</string>
+    <string name="media_mermaid_source_title">Diagrammanyň çeşmesi</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">Akym diagrammasy</string>
+    <string name="media_mermaid_type_sequence">Yzygiderlilik diagrammasy</string>
+    <string name="media_mermaid_type_class">Klas diagrammasy</string>
+    <string name="media_mermaid_type_state">Ýagdaý diagrammasy</string>
+    <string name="media_mermaid_type_entity_relationship">Obýektleriň baglanyşyk diagrammasy</string>
+    <string name="media_mermaid_type_user_journey">Ulanyjynyň ýoly</string>
+    <string name="media_mermaid_type_gantt">Gantt diagrammasy</string>
+    <string name="media_mermaid_type_pie">Tegelek diagramma</string>
+    <string name="media_mermaid_type_quadrant">Kwadrant diagrammasy</string>
+    <string name="media_mermaid_type_requirement">Talaplar diagrammasy</string>
+    <string name="media_mermaid_type_git_graph">Git grafigi</string>
+    <string name="media_mermaid_type_c4">C4 diagrammasy</string>
+    <string name="media_mermaid_type_mind_map">Pikir kartasy</string>
+    <string name="media_mermaid_type_timeline">Wagt çyzgysy</string>
+    <string name="media_mermaid_type_sankey">Sankey diagrammasy</string>
+    <string name="media_mermaid_type_xy_chart">XY diagrammasy</string>
+    <string name="media_mermaid_type_block">Blok diagrammasy</string>
+    <string name="media_mermaid_type_packet">Paket diagrammasy</string>
+    <string name="media_mermaid_type_kanban">Kanban tagtasy</string>
+    <string name="media_mermaid_type_architecture">Arhitektura diagrammasy</string>
+    <string name="media_mermaid_type_radar">Radar diagrammasy</string>
+    <string name="media_mermaid_type_treemap">Agaç kartasy</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

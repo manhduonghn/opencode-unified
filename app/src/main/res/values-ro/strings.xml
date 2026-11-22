@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Nu s-au putut adăuga elementele partajate</string>
+    <string name="app_alert_open_session_failed_title">Nu s-a putut deschide sesiunea</string>
+    <string name="app_alert_pairing_failed_title">Nu s-a putut asocia cu serverul</string>
+    <string name="app_pairing_confirm">Asociază</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Servere</string>
+    <string name="app_servers_back_description">Înapoi la %1$s</string>
+    <string name="app_server_fallback_name">server</string>
+    <string name="app_connection_intro_new">Continuă sesiunile de programare de pe %1$s.</string>
+    <string name="app_connection_intro_returning">Continuă de unde ai rămas sau asociază alt computer.</string>
+    <string name="app_connection_enter_manually">Introdu un server manual</string>
+    <string name="app_connection_scan_pairing_code">Scanează codul de asociere</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Pe computer, deschide OpenCode și mergi la Setări → Asociere sau rulează opencode pair --remote într-un terminal. Apoi scanează codul cu acest %1$s.</string>
+    <string name="app_setup_install_title">Nu ai încă OpenCode?</string>
+    <string name="app_setup_other_ways_to_install">Alte metode de instalare</string>
+    <string name="app_setup_terminal_title">Sau rulează asta într-un terminal</string>
+    <string name="app_setup_terminal_detail">Funcționează din orice rețea.</string>
+    <string name="app_setup_paste_prompt">Sau copiază linkul afișat, apoi</string>
+    <string name="app_setup_paste">Lipește</string>
+    <string name="app_setup_copy_command_description">Copiază %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Se conectează</string>
+    <string name="app_servers_edit_description">Editează %1$s</string>
+    <string name="app_servers_remove_description">Elimină %1$s</string>
+    <string name="app_servers_remove_confirm_title">Elimini %1$s?</string>
+    <string name="app_servers_remove_confirm_message">Adresa și parola vor fi șterse de pe acest %1$s. Sesiunile de pe server nu sunt afectate.</string>
+    <string name="app_servers_remove_confirm">Elimină serverul</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Etapă: %1$s</string>
+    <string name="app_error_server">Server: %1$s</string>
+    <string name="app_error_attempt">Încercare: %1$d</string>
+    <string name="app_error_copy_report">Copiază raportul de eroare</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Server nou</string>
+    <string name="app_server_form_edit_title">Editează server</string>
+    <string name="app_server_form_name">Nume</string>
+    <string name="app_server_form_address">Adresă server</string>
+    <string name="app_server_form_username">Nume de utilizator</string>
+    <string name="app_server_form_password">Parolă (opțional)</string>
+    <string name="app_server_form_hide_password_description">Ascunde parola</string>
+    <string name="app_server_form_show_password_description">Arată parola</string>
+    <string name="app_server_form_connect">Conectează</string>
+    <string name="app_server_form_save_and_connect">Salvează și conectează</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Antete</string>
+    <string name="app_server_form_header_name">Nume</string>
+    <string name="app_server_form_header_name_description">Numele antetului %1$d</string>
+    <string name="app_server_form_header_value">Valoare</string>
+    <string name="app_server_form_header_value_description">Valoarea antetului %1$d</string>
+    <string name="app_server_form_header_remove_description">Elimină antetul %1$d</string>
+    <string name="app_server_form_header_add">Adaugă antet</string>
+    <string name="app_server_form_headers_detail">Trimise cu fiecare solicitare, pentru un proxy din fața serverului, precum Cloudflare Access.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">„%1$s” nu este un nume valid de antet</string>
+    <string name="app_server_form_header_invalid_value">Valoarea pentru %1$s nu poate conține un rând nou</string>
+    <string name="app_server_form_name_placeholder">Opțional</string>
+    <string name="app_connection_progress_pairing">Se asociază</string>
+    <string name="app_connection_progress_connecting">Se conectează</string>
+    <string name="app_connection_progress_loading_sessions">Se încarcă sesiunile</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Asociezi cu %1$s?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode va încerca %1$s și va trece la prima adresă care răspunde.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode se va asocia cu %1$s și va trece la acesta.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode va încerca %1$s și %2$s și va trece la prima adresă care răspunde.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode va încerca %1$s și %2$s și va trece la prima adresă care răspunde.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Datele de autentificare salvate pentru %2$s pot fi înlocuite.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Asociere</string>
+    <string name="app_error_phase_connect">Conectează</string>
+    <string name="app_error_phase_load_sessions">Încarcă sesiunile</string>
+    <string name="app_error_candidate_detail">Candidat %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Indisponibil (adresă invalidă)</string>
+    <string name="app_error_title_pair">Asocierea nu a reușit</string>
+    <string name="app_error_title_load_sessions">Nu s-au putut încărca sesiunile</string>
+    <string name="app_error_title_connect">Nu s-a putut conecta la %1$s</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Clipboardul este gol</string>
+    <string name="app_paste_not_a_pairing_link">Acesta nu este un link de asociere</string>
+    <string name="app_server_no_longer_saved">Acest server nu mai este salvat pe acest %1$s. Conectează-te din nou la el pentru a deschide sesiunea.</string>
+    <string name="app_session_no_longer_available">Este posibil ca sesiunea să fi fost ștearsă sau serverul să fie indisponibil.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Conectat la %1$s</string>
+    <string name="app_pairing_invalid_code">Acesta nu este un cod de asociere OpenCode. Rulează opencode pair --remote pe computer, apoi scanează codul QR sau lipește linkul afișat.</string>
+    <string name="app_pairing_unusable_address">Nu s-a putut folosi adresa „%1$s” din acest cod de asociere: %2$s.</string>
+    <string name="app_pairing_loopback">Serverul acceptă conexiuni doar pe localhost, deci acest %1$s nu îl poate accesa. Rulează în schimb opencode pair --remote pe computer, pentru a te conecta din orice rețea.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Serverul către care ai distribuit nu mai este salvat pe acest dispozitiv. Conectează-te din nou la el, apoi distribuie din nou.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">folosit ultima dată</string>
+    <string name="app_server_form_hint_new">Pentru asociere, lipește linkul afișat de `opencode pair --remote` sau folosește adresa și parola serverului OpenCode. Numele de utilizator este de obicei opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Modificările se salvează când serverul se conectează. Acest server a fost asociat, deci parola sa este un token de sesiune; scanează un cod de asociere nou în loc să o schimbi.</string>
+    <string name="app_server_form_hint_edit">Modificările se salvează când serverul se conectează.</string>
+</resources>

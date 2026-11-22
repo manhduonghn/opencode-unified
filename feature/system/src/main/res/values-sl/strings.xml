@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_new_session">Nova seja</string>
+    <string name="system_start_call">Začni klic</string>
+    <string name="system_open_session">Odpri sejo</string>
+    <string name="widget_start_call_description">Začne glasovni klic v izbrani ali nazadnje prikazani seji.</string>
+    <string name="widget_open_session_description">Odpre izbrano sejo.</string>
+    <string name="widget_new_session_description">Odpre novo sejo OpenCode.</string>
+
+    <!-- Shared across screens -->
+    <string name="system_selected_description">Izbrana</string>
+    <string name="system_last_viewed_session">Nazadnje prikazana seja</string>
+
+    <!-- Quick actions (launcher shortcuts) -->
+    <string name="system_quick_action_session_fallback">Seja</string>
+    <!-- Long label: the session's title, then its project. -->
+    <string name="system_quick_action_long_label">%1$s · %2$s</string>
+
+    <!-- Shortcuts and Ask OpenCode -->
+    <string name="system_session_type_name">Seja</string>
+    <string name="system_project_type_name">Projekt</string>
+    <string name="system_intent_open_session_description">Odpre sejo v OpenCode.</string>
+    <string name="system_intent_new_session_description">Začne novo sejo v OpenCode.</string>
+    <string name="system_intent_start_voice_call_title">Začni glasovni klic</string>
+    <string name="system_intent_start_voice_call_description">Začne glasovni klic z OpenCode v seji. Če seja ni izbrana, se klic začne v nazadnje prikazani seji.</string>
+    <string name="system_intent_background_call_title">Začni glasovni klic v ozadju</string>
+    <string name="system_intent_background_call_description">Začne glasovni klic z OpenCode, ne da bi odprl aplikacijo. Klic je prikazan v vrstici stanja in na zaklenjenem zaslonu.</string>
+    <string name="system_delivery_type_name">Način pošiljanja</string>
+    <string name="system_delivery_steer">Usmeri</string>
+    <string name="system_delivery_queue">Dodaj v čakalno vrsto</string>
+    <string name="system_ask_title">Vprašaj OpenCode</string>
+    <string name="system_ask_description">Pošlje sporočilo v sejo OpenCode, ne da bi odprl aplikacijo.</string>
+    <string name="system_ask_message_title">Sporočilo</string>
+    <string name="system_ask_message_placeholder">Kaj naj OpenCode naredi?</string>
+    <string name="system_ask_session_title">Seja</string>
+    <string name="system_ask_started_new_session">Nova seja začeta v %1$s</string>
+    <string name="system_ask_queued_for">Dodano v čakalno vrsto za »%1$s«</string>
+    <string name="system_ask_sent_to">Poslano v »%1$s«</string>
+    <string name="system_ask_your_session">vašo sejo</string>
+    <string name="system_ask_no_server">Najprej odprite OpenCode in se povežite s strežnikom.</string>
+    <string name="system_ask_no_project">Najprej odprite OpenCode in začnite sejo.</string>
+    <string name="system_ask_empty_message">Ni ničesar za pošiljanje.</string>
+    <!-- The server's error message follows. -->
+    <string name="system_ask_send_failed">Pošiljanje v OpenCode ni uspelo. %1$s</string>
+
+    <!-- Live Updates: voice call -->
+    <string name="system_call_muted">Utišano</string>
+    <string name="system_call_unmute">Vklopi mikrofon</string>
+    <string name="system_call_mute">Utišaj</string>
+    <string name="system_call_end">Končaj klic</string>
+    <string name="system_call_connecting">Povezovanje…</string>
+    <string name="system_call_reconnecting">Ponovno povezovanje…</string>
+    <string name="system_call_ended">Klic končan</string>
+    <string name="system_call_end_title">Končaj klic</string>
+    <string name="system_call_toggle_mute_title">Utišaj ali vklopi mikrofon</string>
+
+    <!-- Live Updates: hands-free recording -->
+    <string name="system_recording_active">Snemanje</string>
+    <string name="system_recording_stopped">Snemanje ustavljeno</string>
+    <string name="system_recording_stop">Ustavi snemanje</string>
+    <string name="system_recording_stop_title">Ustavi snemanje</string>
+    <string name="system_recording_new_session">Nova seja</string>
+
+    <!-- Live Updates: session run -->
+    <string name="system_session_working">Deluje</string>
+    <string name="system_session_last_seen_working">Zadnje znano stanje: deluje</string>
+    <!-- Where the run is (Working), then its current step (a tool name, Thinking or Replying). -->
+    <string name="system_session_status_with_step">%1$s · %2$s</string>
+    <string name="system_session_step_thinking">Razmišljanje</string>
+    <string name="system_session_step_replying">Odgovarjanje</string>
+    <string name="system_session_needs_input">Potreben je vaš vnos</string>
+    <string name="system_session_input">Vnos</string>
+    <string name="system_session_done">Končano</string>
+    <string name="system_session_failed">Ni uspelo</string>
+
+    <!-- Session notifications -->
+    <string name="system_notification_placeholder_body">Nova dejavnost</string>
+
+    <!-- Notification channels -->
+    <string name="system_channel_voice_calls">Glasovni klici</string>
+    <string name="system_channel_recording">Snemanje</string>
+    <string name="system_channel_session_runs">Izvajanja sej</string>
+    <string name="system_channel_session_updates">Posodobitve sej</string>
+    <string name="system_channel_shared_items">Deljeni elementi</string>
+
+    <!-- Share sheet: notifications -->
+    <string name="system_share_continue_notification_body">Tapni za nadaljevanje v OpenCode</string>
+
+    <!-- Share sheet -->
+    <string name="system_share_your_server">vaš strežnik</string>
+    <string name="system_share_new_session_in_project">Nova seja · %1$s</string>
+    <string name="system_share_save_failed_message">Poskusi znova. Če se težava ponavlja, sprosti nekaj prostora v napravi.</string>
+    <!-- The session's title, then its project. -->
+    <string name="system_share_session_chip_description">%1$s, %2$s</string>
+    <string name="system_share_problem_unreachable">Povezava s strežnikom %1$s ni uspela</string>
+    <string name="system_share_problem_too_large">Tako velikih datotek od tu ni bilo mogoče poslati</string>
+    <string name="system_share_problem_uploads_unsupported">Nalaganje datotek na %1$s ni uspelo</string>
+    <string name="system_share_problem_sign_in">Prijava v %1$s ni uspela</string>
+    <string name="system_share_problem_send">Pošiljanje v %1$s ni uspelo</string>
+    <string name="system_share_problem_no_credentials">Za pošiljanje od tu najprej odpri OpenCode</string>
+    <plurals name="system_share_image_count">
+        <item quantity="one">%d slika</item>
+        <item quantity="two">%d sliki</item>
+        <item quantity="few">%d slike</item>
+        <item quantity="other">%d slik</item>
+    </plurals>
+    <plurals name="system_share_file_count">
+        <item quantity="one">%d datoteka</item>
+        <item quantity="two">%d datoteki</item>
+        <item quantity="few">%d datoteke</item>
+        <item quantity="other">%d datotek</item>
+    </plurals>
+    <plurals name="system_share_images_skipped">
+        <item quantity="one">%d slika ni bila dodana</item>
+        <item quantity="two">%d sliki nista bili dodani</item>
+        <item quantity="few">%d slike niso bile dodane</item>
+        <item quantity="other">%d slik ni bilo dodanih</item>
+    </plurals>
+    <plurals name="system_share_files_skipped">
+        <item quantity="one">%d datoteka ni bila dodana</item>
+        <item quantity="two">%d datoteki nista bili dodani</item>
+        <item quantity="few">%d datoteke niso bile dodane</item>
+        <item quantity="other">%d datotek ni bilo dodanih</item>
+    </plurals>
+    <string name="system_share_save_failed_title">Shranjevanje za OpenCode ni uspelo</string>
+    <string name="system_share_continue_description">Nadaljuj v OpenCode</string>
+    <string name="system_share_no_server_title">Najprej se poveži s strežnikom</string>
+    <string name="system_share_no_server_message">Odpri OpenCode in se poveži z računalnikom, nato poskusi znova deliti.</string>
+    <string name="system_share_send_later">Pošlji pozneje</string>
+    <string name="system_share_saved_continue">Shranjeno. Za nadaljevanje odpri OpenCode</string>
+    <string name="system_share_loading_description">Nalaganje deljenih elementov</string>
+    <string name="system_share_image_description">Slika</string>
+    <string name="system_share_image_position_description">Slika %1$d od %2$d</string>
+    <string name="system_share_search_sessions_description">Seje iskanja</string>
+    <string name="system_share_new_session_in_project_description">Nova seja v %1$s</string>
+    <string name="system_share_choose_project_description">Izberite projekt zanjo</string>
+    <string name="system_share_message_placeholder">Sporočilo</string>
+    <string name="system_share_sent_to">Poslano v %1$s</string>
+    <string name="system_share_sending_description">Pošiljanje</string>
+    <string name="system_share_sent_description">Poslano</string>
+    <string name="system_share_sessions_title">Seje</string>
+    <string name="system_share_pinned_header">Pripete</string>
+    <string name="system_share_recents_header">Nedavne</string>
+
+    <!-- Widget configuration -->
+    <string name="system_widget_choose_session_title">Izberite sejo</string>
+</resources>

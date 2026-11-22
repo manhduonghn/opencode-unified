@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">shell</string>
+    <string name="server_notice_source_subagent">အေးဂျင့်ခွဲ</string>
+    <string name="server_notice_heading_finished">%1$s ပြီးဆုံးပြီ</string>
+    <string name="server_notice_heading_failed">%1$s မအောင်မြင်ပါ</string>
+    <string name="server_notice_heading_interrupted">%1$s ပြတ်တောက်သွားသည်</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="other">shell %1$d ခု ပြီးဆုံးပြီ</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="other">shell %1$d ခု မအောင်မြင်ပါ</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="other">shell %1$d ခု ပြတ်တောက်သွားသည်</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="other">အေးဂျင့်ခွဲ %1$d ခု ပြီးဆုံးပြီ</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="other">အေးဂျင့်ခွဲ %1$d ခု မအောင်မြင်ပါ</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="other">အေးဂျင့်ခွဲ %1$d ခု ပြတ်တောက်သွားသည်</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">ကျစ်လျစ်သော</string>
+    <string name="server_run_error_action_switch_model">မော်ဒယ်ပြောင်းရန်</string>
+    <string name="server_run_error_aborted">ပြတ်တောက်သွားသည်။</string>
+    <string name="server_run_error_permission_rejected">တောင်းဆိုမှုကို ငြင်းပယ်ပြီးနောက် ပြတ်တောက်သွားသည်</string>
+    <string name="server_run_error_content_filter">ဘေးကင်းရေး စစ်ထုတ်မှုက အဖြေကို ပိတ်ဆို့ထားသည်</string>
+    <string name="server_run_error_rate_limit">တောင်းဆိုမှုနှုန်း ကန့်သတ်ချက် ပြည့်သွားပြီ</string>
+    <string name="server_run_error_quota">အသုံးပြုမှု ကန့်သတ်ချက် ပြည့်သွားပြီ</string>
+    <string name="server_run_error_auth">ပံ့ပိုးပေးသူက API သော့ကို လက်မခံပါ</string>
+    <string name="server_run_error_context_overflow">ဒီမော်ဒယ်အတွက် စက်ရှင် ရှည်လွန်းသည်</string>
+    <string name="server_run_error_invalid_request">ပံ့ပိုးပေးသူက တောင်းဆိုမှုကို ငြင်းပယ်လိုက်သည်</string>
+    <string name="server_run_error_overloaded">မော်ဒယ်တွင် ဝန်ပိနေသည်</string>
+    <string name="server_run_error_internal">ပံ့ပိုးပေးသူဘက်တွင် ပြဿနာဖြစ်နေသည်</string>
+    <string name="server_run_error_transport">မော်ဒယ်နှင့် ချိတ်ဆက်မှု ပြတ်သွားသည်</string>
+    <string name="server_run_error_timeout">မော်ဒယ် အဖြေပေးရန် အချိန်ကြာလွန်းသည်</string>
+    <string name="server_run_error_invalid_output">မော်ဒယ်၏ အဖြေကို ဖတ်မရပါ</string>
+    <string name="server_run_error_unavailable">ဒီမော်ဒယ်ကို မရရှိနိုင်ပါ</string>
+    <string name="server_run_error_unsupported_operation">ဒီမော်ဒယ်က အဲဒါကို မလုပ်နိုင်ပါ</string>
+    <string name="server_run_error_tool_execution">ကိရိယာတစ်ခု မအောင်မြင်သဖြင့် လုပ်ဆောင်မှု ရပ်သွားသည်</string>
+    <string name="server_run_error_other">အမှားတစ်ခုကြောင့် လုပ်ဆောင်မှု ရပ်သွားသည်</string>
+    <string name="server_run_retry_in_seconds">%1$s · %2$d စက္ကန့်အကြာတွင် ထပ်မံကြိုးစားမည်</string>
+    <string name="server_run_retry_now">%1$s · ထပ်မံကြိုးစားနေသည်</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">OpenCode ဆာဗာကို မချိတ်ဆက်နိုင်ပါ</string>
+    <string name="server_error_folder_gone">ဖိုင်တွဲ မရှိတော့ပါ</string>
+    <string name="server_error_uploads_unsupported">ဒီဆာဗာက ဖိုင်ပူးတွဲခြင်းကို မပံ့ပိုးပါ။ ကွန်ပျူတာရှိ OpenCode ကို အပ်ဒိတ်လုပ်ပါ။</string>
+    <string name="server_error_archiving_unsupported">ဤဆာဗာက မှတ်တမ်းသိမ်းခြင်းကို မပံ့ပိုးပါ။ သင့်ကွန်ပျူတာရှိ OpenCode ကို အပ်ဒိတ်လုပ်ပါ။</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode သည် သင့်စက်တွင်းကွန်ရက်ရှိ စက်များကို ချိတ်ဆက်ခွင့် မရှိပါ။ ဆက်တင်များတွင် OpenCode အတွက် အနီးအနားရှိစက်များ ခွင့်ပြုချက်ကို ဖွင့်ပြီး ပြန်ကြိုးစားပါ။</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">အမည်မပေးရသေးသော စက်ရှင်</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">shell</string>
+    <string name="server_tool_shell_killed">shell ကို အတင်းရပ်တန့်လိုက်သည်</string>
+    <string name="server_tool_shell_exit_code">အမိန့်သည် ကုဒ် %1$d ဖြင့် ပြီးဆုံးသွားသည်</string>
+    <string name="server_notice_session_update">စက်ရှင် အပ်ဒိတ်</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">ချိတ်ဆက်မှု မအောင်မြင်ပါ</string>
+    <string name="server_connection_resolved_address_unknown">ရှာတွေ့သည့်လိပ်စာ: အမည်မသိ</string>
+    <string name="server_connection_resolved_address">ရှာတွေ့သည့်လိပ်စာ (မအောင်မြင်ပြီးနောက် ရှာဖွေမှု): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">ဒီ tailnet အမည်အတွက် ရှာတွေ့သည့်လိပ်စာသည် Tailscale ၏ လိပ်စာအပိုင်းအခြားပြင်ပတွင် ရှိနေသဖြင့် Tailscale DNS ကို အသုံးပြုနေခြင်း မရှိနိုင်ပါ။ Tailscale အက်ပ်တွင် Tailscale DNS ဆက်တင်များ အသုံးပြုရန်ကို ဖွင့်ပြီး သီးသန့် DNS သို့မဟုတ် DNS ပြောင်းလဲသည့် VPN ပရိုဖိုင်ကို ပိတ်ပါ။</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">စက်တွင်းကွန်ရက်</string>
+    <string name="server_connection_route_loopback">မိမိစက်သို့ ပြန်ချိတ်ဆက်မှု</string>
+    <string name="server_connection_route_internet">အင်တာနက်</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">ဝဘ်လိပ်စာ မဟုတ်ပါ</string>
+    <string name="server_pairing_origin_bad_scheme">http:// သို့မဟုတ် https:// ဖြင့် မစပါ</string>
+    <string name="server_pairing_origin_no_host">ဟို့စ်အမည် မပါပါ</string>
+    <string name="server_pairing_origin_credentials">အသုံးပြုသူအမည် သို့မဟုတ် စကားဝှက် ပါဝင်နေသည်</string>
+    <string name="server_pairing_origin_query">မေးမြန်းချက် သို့မဟုတ် အပိုင်းညွှန်း ပါဝင်နေသည်</string>
+    <string name="server_pairing_origin_port">ပေါက်နံပါတ်သည် 1–65535 အတွင်း မရှိပါ</string>
+    <string name="server_pairing_origin_path">လမ်းကြောင်း ပါဝင်နေပြီး ဆာဗာသည် ၎င်း၏လိပ်စာ အမြစ်တွင် ရှိရပါမည်</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">ဆာဗာ</string>
+    <string name="server_friendly_name_numbered">ဆာဗာ %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">မက်ဆေ့ဂျ်ပို့ပြီးနောက် ချိတ်ဆက်မှု ပြတ်သွားသဖြင့် မက်ဆေ့ဂျ် ရောက်ပြီးသား ဖြစ်နိုင်သည်။</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">ဒီပေါင်းစည်းမှုတွင် အကောင့်ဝင်နည်း မရှိပါ။</string>
+    <string name="server_error_sign_in_url_invalid">အကောင့်ဝင်ရန် စာမျက်နှာလိပ်စာ မမှန်ပါ။</string>
+    <string name="server_error_load_server_details">ဆာဗာအသေးစိတ်ကို မတင်နိုင်ပါ</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">ဒီချိတ်ဆက်ကုဒ် သက်တမ်းကုန်သွားပြီ သို့မဟုတ် သုံးပြီးသားဖြစ်နေသည်။ `opencode pair --remote` ကို ပြန်လုပ်ပါ။</string>
+    <string name="server_error_pairing_unsupported">ဒီဆာဗာက ချိတ်ဆက်လင့်ခ်များကို မပံ့ပိုးပါ။ ကွန်ပျူတာပေါ်ရှိ OpenCode ကို အပ်ဒိတ်လုပ်ပါ၊ သို့မဟုတ် ဆာဗာကို ကိုယ်တိုင်ထည့်ပါ။</string>
+    <string name="server_error_notification_previews_need_https">ကုဒ်ဝှက်ထားသော အကြောင်းကြားချက်အကြိုမြင်ကွင်းများအတွက် HTTPS ဆာဗာချိတ်ဆက်မှု လိုအပ်သည်။</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">မှန်ကန်သော HTTP သို့မဟုတ် HTTPS ဆာဗာ URL ကို ထည့်ပါ။</string>
+    <string name="server_error_credentials_rejected">ဆာဗာက ဒီဝင်ရောက်ခွင့်အချက်အလက်များကို ငြင်းပယ်လိုက်သည်။</string>
+    <string name="server_error_http_status">ဆာဗာက HTTP %1$d ပြန်ပို့သည်။</string>
+    <string name="server_error_event_stream_http">ဖြစ်ရပ်ဒေတာစီးကြောင်းက HTTP %1$d ပြန်ပို့သည်။</string>
+    <string name="server_error_event_stream_oversized_frame">ဖြစ်ရပ်ဒေတာစီးကြောင်းက အရွယ်အစားကြီးလွန်းသော ဒေတာအပိုင်း ပို့လိုက်သည်။</string>
+    <string name="server_error_event_stream_ended">ဖြစ်ရပ်ဒေတာစီးကြောင်း ပြီးဆုံးသွားသည်။</string>
+    <string name="server_error_event_stream_server_failure">ဖြစ်ရပ်ဒေတာစီးကြောင်းက ဆာဗာချို့ယွင်းမှုကို သတင်းပို့သည်။</string>
+    <string name="server_tool_failed">ကိရိယာ လုပ်ဆောင်မှု မအောင်မြင်ပါ</string>
+    <string name="server_error_list_folder">ဆာဗာက ဒီဖိုင်တွဲရှိ အရာများကို စာရင်းမပြနိုင်ပါ</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">ပရောဂျက်များနှင့် စက်ရှင်များကို မတင်နိုင်ပါ</string>
+    <string name="server_error_load_session_family">ဆက်စပ်စက်ရှင်အစုကို မတင်နိုင်ပါ</string>
+    <string name="server_error_update_session">စက်ရှင်ကို အပ်ဒိတ်မလုပ်နိုင်ပါ</string>
+    <string name="server_error_load_session_ancestry">လက်ရှိစက်ရှင်၏ မူလစက်ရှင်အဆက်ဆက်ကို မတင်နိုင်ပါ</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">အခြားနေရာတွင် ဖြေပြီးပါပြီ</string>
+    <string name="server_request_already_dismissed">ပယ်ပြီးပါပြီ</string>
+    <string name="server_request_already_answered">ဖြေပြီးပါပြီ</string>
+    <string name="server_request_already_dismissed_elsewhere">အခြားနေရာတွင် ပယ်ပြီးပါပြီ</string>
+    <string name="server_request_no_longer_waiting">မစောင့်တော့ပါ</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">မီဒီယာ မရရှိနိုင်ပါ</string>
+    <string name="server_pasted_text_title">ကူးထည့်ထားသော စာသား</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="other">%1$d လိုင်း · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="other">%1$d လိုင်း</item>
+    </plurals>
+    <string name="server_file_size_zero">၀ KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="other">%1$d ဘိုက်</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">ပရောဂျက်</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">ဖိုင်</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">ဒီအဆင့်ကို အပြီးလုပ်ပါ</string>
+    <string name="server_form_required">ဖြည့်ရန်လိုအပ်သည်</string>
+    <plurals name="server_form_min_length">
+        <item quantity="other">အနည်းဆုံး စာလုံး %1$d လုံး ထည့်ပါ</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="other">စာလုံး %1$d လုံးထက် မပိုစေပါနှင့်</item>
+    </plurals>
+    <string name="server_form_invalid_format">ပုံစံ မမှန်ပါ</string>
+    <string name="server_form_choose_option">ရရှိနိုင်သော ရွေးချယ်စရာတစ်ခုကို ရွေးပါ</string>
+    <string name="server_form_invalid_email">မှန်ကန်သော အီးမေးလ်လိပ်စာ ထည့်ပါ</string>
+    <string name="server_form_invalid_url">မှန်ကန်သော URL ထည့်ပါ</string>
+    <string name="server_form_invalid_date">ရက်စွဲကို YYYY-MM-DD ပုံစံဖြင့် ထည့်ပါ</string>
+    <string name="server_form_invalid_date_time">မှန်ကန်သော ရက်စွဲနှင့် အချိန် ထည့်ပါ</string>
+    <string name="server_form_minimum">အနည်းဆုံး %1$s ဖြစ်ရမည်</string>
+    <string name="server_form_maximum">အများဆုံး %1$s ဖြစ်ရမည်</string>
+    <string name="server_form_whole_number">ကိန်းပြည့်တစ်ခု ထည့်ပါ</string>
+    <plurals name="server_form_min_items">
+        <item quantity="other">အနည်းဆုံး %1$d ခု ရွေးပါ</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="other">%1$d ခုထက် ပိုမရွေးပါနှင့်</item>
+    </plurals>
+    <string name="server_form_invalid_value">တန်ဖိုး မမှန်ပါ</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">ရွေးထားသည်များကို ဖျောက်ရန်</string>
+    <string name="server_model_visibility_only_show">ရွေးထားသည်များကိုသာ ပြရန်</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">ပိတ်</string>
+    <string name="server_model_variant_extra_high">အလွန်မြင့်</string>
+    <string name="server_model_variant_max">အမြင့်ဆုံး</string>
+    <string name="server_delivery_steering">လမ်းညွှန်ခြင်း</string>
+    <string name="server_delivery_queued">တန်းစီထားသည်။</string>
+</resources>

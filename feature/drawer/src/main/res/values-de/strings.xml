@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Catch Up -->
+    <plurals name="drawer_catch_up_remaining">
+        <item quantity="one">%1$d übrig</item>
+        <item quantity="other">%1$d übrig</item>
+    </plurals>
+    <string name="drawer_catch_up_leave_description">Nachlesen beenden</string>
+    <string name="drawer_catch_up_keep_unread">Ungelesen lassen</string>
+    <string name="drawer_catch_up_undo">Rückgängig</string>
+    <string name="drawer_catch_up_title">Nachlesen</string>
+    <string name="drawer_catch_up_all_caught_up">Alles gelesen</string>
+    <string name="drawer_catch_up_swipe_mark_read">Als gelesen\nmarkieren</string>
+    <string name="drawer_catch_up_swipe_keep_unread">Ungelesen\nlassen</string>
+
+    <!-- Drawer container -->
+    <string name="drawer_close_description">Sitzungsliste schließen</string>
+
+    <!-- Drawer footer and delete confirmation -->
+    <string name="drawer_delete_session_title">„%1$s“ löschen?</string>
+    <string name="drawer_delete_session_message">Die Sitzung wird für alle Clients vom Server entfernt.</string>
+    <string name="drawer_new_session">Neue Sitzung</string>
+    <string name="drawer_start_voice_call_description">Sprachanruf starten</string>
+
+    <!-- Archived page -->
+    <string name="drawer_archived">Archiviert</string>
+    <string name="drawer_archived_search_placeholder">Archiv durchsuchen</string>
+    <string name="drawer_archived_empty">Keine archivierten Sitzungen</string>
+    <string name="drawer_no_results">Keine Ergebnisse</string>
+
+    <!-- Session row actions -->
+    <string name="drawer_row_selected">Ausgewählt</string>
+    <string name="drawer_row_not_selected">Nicht ausgewählt</string>
+    <string name="drawer_row_select_action">Auswählen</string>
+    <string name="drawer_pin">Anheften</string>
+    <string name="drawer_unpin">Loslösen</string>
+    <string name="drawer_mark_as_read">Als gelesen markieren</string>
+    <string name="drawer_mark_as_unread">Als ungelesen markieren</string>
+    <string name="drawer_mute">Stummschalten</string>
+    <string name="drawer_unmute">Stummschaltung aufheben</string>
+    <string name="drawer_hide">Verstecken</string>
+    <string name="drawer_unhide">Einblenden</string>
+    <string name="drawer_move_up">Nach oben</string>
+    <string name="drawer_move_down">Nach unten</string>
+
+    <!-- Section headers, shortcut rows and list footer -->
+    <string name="drawer_section_pinned">Angeheftet</string>
+    <string name="drawer_section_recents">Zuletzt verwendet</string>
+    <plurals name="drawer_catch_up_session_count">
+        <item quantity="one">%1$d Sitzung</item>
+        <item quantity="other">%1$d Sitzungen</item>
+    </plurals>
+    <string name="drawer_catch_up_open_action">Durch ungelesene und wartende Sitzungen wischen</string>
+    <string name="drawer_mark_all_read">Alle als gelesen markieren</string>
+    <string name="drawer_whats_new">Was ist neu</string>
+    <string name="drawer_whats_new_hide">Verstecken</string>
+    <string name="drawer_empty_title">Keine Sitzungen</string>
+    <string name="drawer_empty_message">Starte eine mit „Neue Sitzung“.</string>
+    <string name="drawer_search_no_results_title">Keine Ergebnisse für „%1$s“</string>
+    <string name="drawer_search_no_results_message">Prüfe die Schreibweise oder suche nach etwas anderem.</string>
+    <string name="drawer_load_more_description">Weitere Sitzungen werden geladen</string>
+    <string name="drawer_load_more_failed">Weitere Sitzungen konnten nicht geladen werden</string>
+
+    <!-- Selection bar -->
+    <string name="drawer_selection_cancel_description">Auswahl abbrechen</string>
+    <plurals name="drawer_selection_count">
+        <item quantity="one">%1$d ausgewählt</item>
+        <item quantity="other">%1$d ausgewählt</item>
+    </plurals>
+    <string name="drawer_selection_more_options_description">Weitere Optionen</string>
+    <plurals name="drawer_delete_sessions_title">
+        <item quantity="one">%1$d Sitzung löschen?</item>
+        <item quantity="other">%1$d Sitzungen löschen?</item>
+    </plurals>
+    <string name="drawer_delete_sessions_message">Die Sitzungen werden für alle Clients vom Server entfernt.</string>
+
+    <!-- Inbox Sidebar -->
+    <string name="drawer_inbox_needs_input">Deine Eingabe ist nötig</string>
+    <string name="drawer_inbox_working">In Arbeit</string>
+    <string name="drawer_inbox_unread">Ungelesen</string>
+
+    <!-- Drawer button -->
+    <string name="drawer_button_open_sessions_description">Sitzungen öffnen</string>
+    <string name="drawer_button_attention_state">Eine Sitzung benötigt deine Eingabe</string>
+    <string name="drawer_button_unread_state">Ungelesene Sitzungen</string>
+    <string name="drawer_notice_open_sessions_action">Sitzungen öffnen</string>
+    <string name="drawer_notice_open_session_action">Sitzung öffnen</string>
+
+    <!-- Search pill -->
+    <string name="drawer_search_description">Sitzungen durchsuchen</string>
+    <string name="drawer_search_cancel_description">Suche abbrechen</string>
+
+    <!-- Pin drop zone -->
+    <string name="drawer_drop_to_pin">Zum Anheften ablegen</string>
+
+    <!-- Server title -->
+    <string name="drawer_server_connecting_state">Verbindung wird hergestellt</string>
+    <string name="drawer_server_edit">Server bearbeiten…</string>
+    <string name="drawer_server_manage">Server verwalten…</string>
+    <string name="drawer_server_reconnecting_state">Verbindung wird wiederhergestellt</string>
+    <string name="drawer_server_sign_in_failed">Anmeldung fehlgeschlagen</string>
+    <string name="drawer_server_offline">Offline</string>
+    <string name="drawer_server_connecting_to_state">Verbindung mit %1$s wird hergestellt</string>
+    <string name="drawer_server_show_servers_hint">Deine Server anzeigen</string>
+    <string name="drawer_server_offer_edit_hint">Bearbeiten des Servers anbieten</string>
+    <string name="drawer_server_offer_try_again_hint">Erneuten Versuch anbieten</string>
+
+    <!-- Server flow: switch-back note and server menu status -->
+    <string name="drawer_server_switched_back_title">Zurück zu %1$s gewechselt</string>
+    <string name="drawer_server_timed_out_detail">%1$s hat nicht innerhalb von %2$s s geantwortet</string>
+    <string name="drawer_server_unreachable_detail">Verbindung mit %1$s fehlgeschlagen</string>
+    <string name="drawer_server_sign_in_failed_detail">Anmeldung bei %1$s fehlgeschlagen</string>
+    <string name="drawer_server_pair_again">Erneut koppeln</string>
+    <string name="drawer_server_menu_connected">Verbunden</string>
+    <string name="drawer_server_menu_connecting">Verbindung wird hergestellt…</string>
+    <string name="drawer_server_menu_unreachable">Nicht erreichbar</string>
+
+    <!-- Row selection menu -->
+    <string name="drawer_archive">Archivieren</string>
+    <string name="drawer_unarchive">Aus dem Archiv holen</string>
+    <string name="drawer_open_in_new_window">In neuem Fenster öffnen</string>
+
+    <!-- Session row state for TalkBack -->
+    <string name="drawer_row_pinned_state">Angeheftet</string>
+    <string name="drawer_row_muted_state">Stummgeschaltet</string>
+    <string name="drawer_row_hidden_state">Versteckt</string>
+    <string name="drawer_row_needs_input_state">Deine Eingabe ist nötig</string>
+    <string name="drawer_row_working_state">In Arbeit</string>
+    <string name="drawer_row_unread_state">Ungelesen</string>
+    <string name="drawer_row_unsent_failed_state">Senden fehlgeschlagen</string>
+    <string name="drawer_row_unsent_sending_state">Wird gesendet</string>
+
+    <!-- Errors -->
+    <string name="drawer_notifications_request_error">Berechtigung konnte nicht angefragt werden. Versuche es erneut.</string>
+    <string name="drawer_notifications_open_settings_error">Einstellungen konnten nicht geöffnet werden. Öffne die Android-Einstellungen und wähle Benachrichtigungen → OpenCode.</string>
+    <string name="drawer_delete_session_error">„%1$s“ konnte nicht gelöscht werden</string>
+    <plurals name="drawer_delete_sessions_error">
+        <item quantity="one">%1$d Sitzung konnte nicht gelöscht werden</item>
+        <item quantity="other">%1$d Sitzungen konnten nicht gelöscht werden</item>
+    </plurals>
+    <string name="drawer_archive_error">„%1$s“ konnte nicht archiviert werden</string>
+    <plurals name="drawer_archive_sessions_error">
+        <item quantity="one">%1$d Sitzung konnte nicht archiviert werden</item>
+        <item quantity="other">%1$d Sitzungen konnten nicht archiviert werden</item>
+    </plurals>
+    <string name="drawer_unarchive_error">„%1$s“ konnte nicht aus dem Archiv geholt werden</string>
+    <plurals name="drawer_unarchive_sessions_error">
+        <item quantity="one">%1$d Sitzung konnte nicht aus dem Archiv geholt werden</item>
+        <item quantity="other">%1$d Sitzungen konnten nicht aus dem Archiv geholt werden</item>
+    </plurals>
+
+    <!-- Session activity notification -->
+    <string name="drawer_session_activity_new_session">Neue Sitzung</string>
+
+    <!-- Inbox ages and row dates -->
+    <string name="drawer_age_now">jetzt</string>
+    <plurals name="drawer_age_minutes">
+        <item quantity="one">%1$d Min.</item>
+        <item quantity="other">%1$d Min.</item>
+    </plurals>
+    <plurals name="drawer_age_hours">
+        <item quantity="one">%1$d Std.</item>
+        <item quantity="other">%1$d Std.</item>
+    </plurals>
+    <plurals name="drawer_age_days">
+        <item quantity="one">%1$d T.</item>
+        <item quantity="other">%1$d T.</item>
+    </plurals>
+    <string name="drawer_date_yesterday">Gestern</string>
+
+    <!-- Appearance settings transcript preview -->
+    <string name="drawer_appearance_preview_user_text">Hilf mir, die Sitzungsansicht zu verbessern. Zeig mir, was du findest, und erkläre die Änderungen.</string>
+    <string name="drawer_appearance_preview_assistant_text">Ich habe das Layoutproblem in `SessionView.swift` gefunden. Transkript und Nachrichteneingabe teilen sich die verfügbare Höhe. Die Tastatur ist daher ein guter Belastungstest.</string>
+</resources>

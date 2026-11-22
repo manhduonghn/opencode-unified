@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">图片</string>
+    <string name="media_image_load_failed">无法加载图片</string>
+    <string name="media_unavailable">媒体不可用</string>
+    <string name="media_try_again_label">再试一次</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">媒体查看器</string>
+    <string name="media_viewer_save_to_photos_description">保存到照片</string>
+    <string name="media_file_viewer_screen_title">文件查看器</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s，第 %2$d 张，共 %3$d 张</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">在图片上绘制</string>
+    <string name="media_drawing_undo_description">撤销</string>
+    <string name="media_drawing_add_to_prompt_description">添加到提示词</string>
+    <string name="media_drawing_canvas_description">绘图画布</string>
+    <string name="media_drawing_discard_title">放弃绘图？</string>
+    <string name="media_drawing_discard_confirm">放弃绘图</string>
+    <string name="media_drawing_keep">继续绘图</string>
+    <string name="media_drawing_add_failed_title">无法添加绘图</string>
+    <string name="media_drawing_flatten_failed">无法生成图片，请重试。</string>
+    <string name="media_drawing_prompt_unavailable">此会话的消息暂时无法添加附件。</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">白色</string>
+    <string name="media_drawing_ink_black">黑色</string>
+    <string name="media_drawing_ink_red">红色</string>
+    <string name="media_drawing_ink_yellow">黄色</string>
+    <string name="media_drawing_ink_green">绿色</string>
+    <string name="media_drawing_ink_blue">蓝色</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">已放大</string>
+    <string name="media_zoom_out_label">缩小</string>
+    <string name="media_zoom_in_label">放大</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">暂停</string>
+    <string name="media_player_play">播放</string>
+    <string name="media_player_position_description">播放进度</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">无法播放视频</string>
+    <string name="media_video_position_description">视频播放进度</string>
+    <string name="media_video_capture_failed_title">无法截取画面</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">显示预览</string>
+    <string name="media_file_show_source_description">显示源文件</string>
+    <string name="media_file_unwrap_lines_description">不自动换行</string>
+    <string name="media_file_wrap_lines_description">自动换行</string>
+    <string name="media_file_start_pip_description">开启画中画</string>
+    <string name="media_file_opening">正在打开…</string>
+    <string name="media_file_share_failed_title">无法分享文件</string>
+    <string name="media_file_share_downloading_description">正在下载以便分享</string>
+    <string name="media_file_confirm_large_message">此文件大小为 %1$s。要下载到此设备上查看吗？</string>
+    <string name="media_file_download">下载</string>
+    <string name="media_file_open_in_another_app">用其他应用打开</string>
+    <string name="media_file_no_app_message">此设备上没有能打开此文件的应用。你可以通过分享来保存文件或发送到其他地方。</string>
+    <string name="media_file_pdf_page_description">第 %1$d 页，共 %2$d 页</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">未找到文件</string>
+    <string name="media_file_error_open_failed_title">无法打开文件</string>
+    <string name="media_file_error_unreadable">无法从服务器读取此路径。</string>
+    <string name="media_file_error_not_found">文件可能已移动或删除。</string>
+    <string name="media_file_error_unauthorized">服务器未接受此设备的密码。</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">服务器无法读取此文件（HTTP %1$d）。它可能是文件夹。</string>
+    <string name="media_file_error_timed_out">请求超时。</string>
+    <string name="media_file_error_unexpected_response">服务器返回了意外的响应。</string>
+    <string name="media_file_error_over_limit">文件超出下载大小上限。</string>
+    <string name="media_file_error_size_unknown">服务器未提供附件大小。</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">正在下载…</string>
+    <string name="media_file_downloading_size">正在下载 %1$s</string>
+    <string name="media_file_downloading_progress">正在下载 %1$s，共 %2$s</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">零 KB</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="other">%1$d 字节</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s KB</string>
+    <string name="media_file_size_megabytes">%1$s MB</string>
+    <string name="media_file_size_gigabytes">%1$s GB</string>
+    <string name="media_file_size_terabytes">%1$s TB</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">未找到</string>
+    <string name="media_image_load_label">加载图片</string>
+    <string name="media_image_loading_state">加载中</string>
+    <string name="media_image_open_label">打开图片</string>
+    <string name="media_image_tap_to_load">点击加载</string>
+    <string name="media_image_outside_project_value">位于项目外</string>
+    <string name="media_image_deferred_low_data_value">低数据模式下已延后加载</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">打开 %1$s</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">返回会话</string>
+    <string name="media_browser_ask_description">就此页面提问</string>
+    <string name="media_browser_forward_description">前进</string>
+    <string name="media_browser_open_in_browser_description">在浏览器中打开</string>
+    <string name="media_browser_scroll_to_top_label">滚动到页面顶部</string>
+    <string name="media_browser_ask_placeholder">就此页面提问</string>
+    <string name="media_browser_reply_needs_input">需要你输入</string>
+    <string name="media_browser_reply_working">工作中</string>
+    <string name="media_browser_go_back_to_session_label">返回会话</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">回复已就绪</string>
+    <string name="media_browser_reply_back_to_read">· 返回查看</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">会话</string>
+    <string name="media_link_open_in_app_browser">在应用内浏览器中打开</string>
+    <string name="media_link_open_in_browser">在浏览器中打开</string>
+    <string name="media_link_open_in_app">在应用中打开</string>
+    <string name="media_link_copy">复制链接</string>
+    <string name="media_link_share">分享…</string>
+    <string name="media_link_open_session">打开会话</string>
+    <string name="media_link_copy_session_id">复制 ID</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">复制 %1$s 的 ID</string>
+    <string name="media_link_open_session_named_description">打开会话 %1$s</string>
+    <string name="media_link_open_host_in_app_browser_description">在应用内浏览器中打开 %1$s</string>
+    <string name="media_link_open_host_in_browser_description">在浏览器中打开 %1$s</string>
+    <string name="media_link_open_host_in_app_description">在应用中打开 %1$s</string>
+    <string name="media_link_copy_host_description">复制 %1$s 的链接</string>
+    <string name="media_link_share_host_description">分享 %1$s 的链接</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%2$s 上的 %1$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s，第 %2$d 个链接</string>
+    <string name="media_link_more_links_description">更多链接</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">视频</string>
+    <string name="media_link_preview_post">帖子</string>
+    <string name="media_link_preview_post_unavailable">帖子不可用</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">仓库</string>
+    <string name="media_github_kind_issue">议题</string>
+    <string name="media_github_kind_pull_request">拉取请求</string>
+    <string name="media_github_kind_commit">提交</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">打开</string>
+    <string name="media_github_state_closed">已关闭</string>
+    <string name="media_github_state_merged">已合并</string>
+    <string name="media_github_state_draft">草稿</string>
+    <string name="media_github_state_completed">已完成</string>
+    <string name="media_github_state_not_planned">不计划处理</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">图表，%1$s</string>
+    <string name="media_mermaid_viewer_screen_title">图表查看器</string>
+    <string name="media_mermaid_diagram_description">图表</string>
+    <string name="media_mermaid_loading_state">%1$s，加载中</string>
+    <string name="media_mermaid_view_source">查看源代码</string>
+    <string name="media_mermaid_source_title">图表源代码</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">流程图</string>
+    <string name="media_mermaid_type_sequence">时序图</string>
+    <string name="media_mermaid_type_class">类图</string>
+    <string name="media_mermaid_type_state">状态图</string>
+    <string name="media_mermaid_type_entity_relationship">实体关系图</string>
+    <string name="media_mermaid_type_user_journey">用户旅程</string>
+    <string name="media_mermaid_type_gantt">甘特图</string>
+    <string name="media_mermaid_type_pie">饼图</string>
+    <string name="media_mermaid_type_quadrant">象限图</string>
+    <string name="media_mermaid_type_requirement">需求图</string>
+    <string name="media_mermaid_type_git_graph">Git 图</string>
+    <string name="media_mermaid_type_c4">C4 图</string>
+    <string name="media_mermaid_type_mind_map">思维导图</string>
+    <string name="media_mermaid_type_timeline">时间表</string>
+    <string name="media_mermaid_type_sankey">桑基图</string>
+    <string name="media_mermaid_type_xy_chart">XY 图</string>
+    <string name="media_mermaid_type_block">方块图</string>
+    <string name="media_mermaid_type_packet">数据包图</string>
+    <string name="media_mermaid_type_kanban">看板</string>
+    <string name="media_mermaid_type_architecture">架构图</string>
+    <string name="media_mermaid_type_radar">雷达图</string>
+    <string name="media_mermaid_type_treemap">矩形树图</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

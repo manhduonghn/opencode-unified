@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent picker -->
+    <string name="composer_agent_choose_description">Wybierz agenta</string>
+    <string name="composer_agent_loading">Ładowanie agentów…</string>
+    <string name="composer_agent_server_default">Domyślny serwera</string>
+    <string name="composer_agent_default_title">Domyślny agent</string>
+    <string name="composer_agent_default_footer">Nowe sesje zaczynają się z tym agentem. Każda sesja zapamiętuje twój wybór.</string>
+
+    <!-- Camera -->
+    <string name="composer_camera_viewfinder_description">Wizjer</string>
+    <string name="composer_camera_flash_description">Lampa błyskowa</string>
+    <string name="composer_camera_focus_lock">Blokada AE/AF</string>
+    <string name="composer_camera_close_description">Zamknij aparat</string>
+    <string name="composer_camera_take_photo_description">Zrób zdjęcie</string>
+    <string name="composer_camera_switch_description">Przełącz aparat</string>
+
+    <!-- Plus button -->
+    <string name="composer_plus_cancel_dictation_description">Anuluj dyktowanie</string>
+    <string name="composer_plus_adding_attachment_description">Dodawanie załącznika</string>
+    <string name="composer_plus_add_attachment_description">Dodaj załącznik</string>
+
+    <!-- Autocomplete -->
+    <string name="composer_autocomplete_suggestions_description">Podpowiedzi autouzupełniania</string>
+
+    <!-- Composer -->
+    <string name="composer_message_placeholder">Wiadomość</string>
+
+    <!-- Dictation notification -->
+    <string name="composer_dictation_channel_name">Nagrywanie</string>
+    <string name="composer_dictation_notification_text">Nagrywanie</string>
+
+    <!-- File attachment chip -->
+    <string name="composer_file_retry_description">Ponów przesyłanie %1$s</string>
+    <string name="composer_file_attachment_description">Załączony plik %1$s</string>
+    <string name="composer_file_uploading_progress">Przesyłanie %1$s</string>
+
+    <!-- Pasted text -->
+    <string name="composer_pasted_text_open_action">Otwórz tekst</string>
+    <string name="composer_pasted_text_unwrap_description">Nie zawijaj wierszy</string>
+    <string name="composer_pasted_text_wrap_description">Zawijaj wiersze</string>
+
+    <!-- Permission request -->
+    <string name="composer_request_scope_title">Nie pytaj ponownie o</string>
+    <string name="composer_request_always_allow">Zezwalaj zawsze</string>
+
+    <!-- Queued messages -->
+    <string name="composer_queued_title">Wiadomości w kolejce</string>
+    <string name="composer_queued_empty">Brak wiadomości w kolejce</string>
+    <string name="composer_queued_image">Obraz</string>
+    <plurals name="composer_queued_images">
+        <item quantity="one">%1$d obraz</item>
+        <item quantity="few">%1$d obrazy</item>
+        <item quantity="many">%1$d obrazów</item>
+        <item quantity="other">%1$d obrazu</item>
+    </plurals>
+    <string name="composer_queued_position">Wiadomość %1$d z %2$d w kolejce</string>
+    <string name="composer_queued_send_now">Wyślij teraz</string>
+    <string name="composer_queued_cancel_message">Anuluj wiadomość</string>
+    <string name="composer_queued_show_less">Pokaż mniej</string>
+    <string name="composer_queued_show_more">Pokaż więcej</string>
+    <string name="composer_queued_media_unavailable">%1$s · Multimedia niedostępne</string>
+
+    <!-- Request dock -->
+    <string name="composer_request_needs_input_description">Potrzebna jest twoja odpowiedź, %1$s</string>
+    <string name="composer_request_page_progress">%1$d z %2$d</string>
+    <string name="composer_request_page_progress_description">Pytanie %1$d z %2$d</string>
+    <string name="composer_request_dismiss_action">Zamiast tego przekaż agentowi swoją odpowiedź</string>
+    <string name="composer_request_pending_description">Oczekujące prośby</string>
+    <string name="composer_request_question">Pytanie</string>
+    <string name="composer_request_collapse_action">Zwiń</string>
+    <plurals name="composer_request_questions_left">
+        <item quantity="one">Pozostało %1$d pytanie</item>
+        <item quantity="few">Pozostały %1$d pytania</item>
+        <item quantity="many">Pozostało %1$d pytań</item>
+        <item quantity="other">Pozostało %1$d pytania</item>
+    </plurals>
+    <string name="composer_request_expand_action">Pokaż pytanie</string>
+    <string name="composer_request_choose_multiple">Wybierz jedną lub więcej opcji</string>
+    <string name="composer_request_form">Formularz</string>
+    <string name="composer_request_review">Przegląd</string>
+    <string name="composer_request_summary_expanded">Rozwinięte</string>
+    <string name="composer_request_summary_collapsed">Zwinięte</string>
+    <string name="composer_request_summary_hide_action">Ukryj szczegóły</string>
+    <string name="composer_request_summary_show_command_action">Pokaż całe polecenie</string>
+    <string name="composer_request_summary_show_details_action">Pokaż wszystkie szczegóły</string>
+    <string name="composer_request_show_scope_action">Pokaż, o co nie zapyta ponownie</string>
+    <string name="composer_request_allow_once">Zezwól raz</string>
+    <string name="composer_request_sending_description">Wysyłanie</string>
+
+    <!-- Request review sheet -->
+    <string name="composer_review_requested_by">Na prośbę %1$s</string>
+    <string name="composer_review_open_step">Otwórz krok</string>
+    <string name="composer_review_completed">Ukończono</string>
+    <string name="composer_review_add_own_placeholder">Dodaj własną odpowiedź</string>
+    <string name="composer_review_own_words_placeholder">Odpowiedz własnymi słowami</string>
+    <string name="composer_review_answer_placeholder">Twoja odpowiedź</string>
+    <string name="composer_review_answer_description">Twoja odpowiedź</string>
+
+    <!-- Shared location -->
+    <string name="composer_location_shared_title">Udostępniona lokalizacja</string>
+    <string name="composer_location_card_with_address_description">Lokalizacja: %1$s, %2$s</string>
+    <string name="composer_location_card_description">Lokalizacja: %1$s</string>
+    <string name="composer_location_open_in_maps_action">Otwórz w Mapach</string>
+    <string name="composer_location_remove_description">Usuń lokalizację</string>
+    <string name="composer_location_cancel_description">Anuluj lokalizowanie</string>
+    <string name="composer_location_finding">Ustalanie lokalizacji…</string>
+    <string name="composer_location_current_coordinates">Bieżące współrzędne</string>
+
+    <!-- Model picker -->
+    <string name="composer_model_no_results_title">Brak wyników dla „%1$s”</string>
+    <string name="composer_model_no_results_message">Sprawdź pisownię lub poszukaj czegoś innego.</string>
+    <string name="composer_model_load_failed_title">Nie udało się wczytać modeli</string>
+    <string name="composer_model_empty_title">Brak modeli</string>
+    <string name="composer_model_empty_message">Połącz dostawcę w OpenCode na komputerze i spróbuj ponownie.</string>
+    <string name="composer_model_unfavorite">Usuń z ulubionych</string>
+    <string name="composer_model_favorite">Dodaj do ulubionych</string>
+    <string name="composer_model_choose_description">Wybierz model</string>
+    <string name="composer_model_remove_favorite_action">Usuń z ulubionych</string>
+    <string name="composer_model_add_favorite_action">Dodaj do ulubionych</string>
+    <string name="composer_model_level_description">Poziom myślenia: %1$s</string>
+    <string name="composer_model_level_higher_action">Wyższy poziom myślenia</string>
+    <string name="composer_model_level_lower_action">Niższy poziom myślenia</string>
+    <string name="composer_model_show_fewer">Pokaż mniej modeli</string>
+    <string name="composer_model_show_all">Pokaż wszystkie modele</string>
+    <plurals name="composer_model_hidden_count">
+        <item quantity="one">%1$d ukryty</item>
+        <item quantity="few">%1$d ukryte</item>
+        <item quantity="many">%1$d ukrytych</item>
+        <item quantity="other">%1$d ukrytego</item>
+    </plurals>
+    <string name="composer_sheet_grabber_description">Uchwyt panelu</string>
+    <string name="composer_model_grabber_compact_action">Zmniejsz panel wyboru</string>
+    <string name="composer_model_grabber_expand_action">Rozwiń panel wyboru</string>
+    <string name="composer_model_search_placeholder">Szukaj modeli</string>
+    <string name="composer_model_clear_search_description">Wyczyść wyszukiwanie</string>
+    <string name="composer_model_hide_keyboard_description">Ukryj klawiaturę</string>
+
+    <!-- Plus menu -->
+
+    <!-- Camera lenses and flash (AttachmentCameraLenses) -->
+    <string name="composer_camera_lens_ultra_wide_description">Ultraszerokokątny</string>
+    <string name="composer_camera_lens_wide_description">Szerokokątny</string>
+    <string name="composer_camera_lens_wide_zoom_description">Szerokokątny %1$s×</string>
+    <string name="composer_camera_lens_telephoto_description">Teleobiektyw %1$s×</string>
+    <string name="composer_camera_flash_off">Wyłączone</string>
+    <string name="composer_camera_flash_auto">Automatycznie</string>
+    <string name="composer_camera_flash_on">Włączone</string>
+    <!-- Camera messages (AttachmentCameraView) -->
+    <string name="composer_camera_opening">Otwieranie kamery…</string>
+    <string name="composer_camera_access_restricted">Dostęp do aparatu jest ograniczony.</string>
+    <string name="composer_camera_access_needed">Zezwól na dostęp do aparatu w ustawieniach, aby zrobić zdjęcie.</string>
+    <string name="composer_camera_open_failed">Nie udało się otworzyć aparatu.</string>
+    <string name="composer_camera_none_available">Na tym urządzeniu nie ma dostępnego aparatu.</string>
+    <string name="composer_camera_unavailable">Aparat jest niedostępny.</string>
+    <string name="composer_camera_temporarily_unavailable">Aparat jest chwilowo niedostępny.</string>
+    <string name="composer_camera_capture_failed">Nie udało się zrobić zdjęcia. Spróbuj ponownie.</string>
+    <string name="composer_camera_switch_failed">Nie udało się przełączyć aparatu.</string>
+    <string name="composer_camera_interrupted">Przerwano działanie aparatu. Wznowi się, gdy aparat będzie dostępny.</string>
+    <string name="composer_camera_stopped">Aparat przestał działać. Spróbuj ponownie.</string>
+    <!-- Attachment menu (AttachmentPicker) -->
+    <string name="composer_attachment_menu_camera">Aparat</string>
+    <string name="composer_attachment_menu_photos">Zdjęcia</string>
+    <string name="composer_attachment_menu_files">Pliki</string>
+    <string name="composer_attachment_menu_location">Lokalizacja</string>
+    <string name="composer_attachment_menu_paste">Wklej</string>
+    <!-- Autocomplete items (AutocompleteModels) -->
+    <string name="composer_autocomplete_new_session">Nowa sesja</string>
+    <string name="composer_autocomplete_skill">Umiejętność</string>
+    <string name="composer_autocomplete_subagent">Podagent</string>
+    <string name="composer_autocomplete_command">Polecenie</string>
+    <string name="composer_autocomplete_no_matches">Brak dopasowań dla „%1$s”</string>
+    <string name="composer_autocomplete_skill_description">Umiejętność, %1$s</string>
+    <string name="composer_autocomplete_subagent_description">Podagent, %1$s</string>
+    <string name="composer_autocomplete_file_description">Plik, %1$s, %2$s</string>
+    <string name="composer_autocomplete_session_description">Sesja, %1$s, %2$s</string>
+    <string name="composer_autocomplete_command_description">Polecenie, %1$s</string>
+    <string name="composer_autocomplete_command_with_label_description">Polecenie, %1$s, %2$s</string>
+    <!-- Send and upload failures -->
+    <string name="composer_send_failed_with_reason">Nie udało się wysłać wiadomości: %1$s</string>
+    <string name="composer_send_failed">Nie udało się wysłać wiadomości</string>
+    <string name="composer_upload_failed">Nie udało się przesłać</string>
+
+    <!-- Photo viewer -->
+    <string name="composer_photo_viewer_image_label">Załączony obraz %1$d z %2$d</string>
+    <string name="composer_photo_viewer_image_format">Obraz</string>
+    <!-- Dictation errors -->
+    <string name="composer_dictation_microphone_denied">Dostęp do mikrofonu dla OpenCode jest wyłączony. Włącz go w ustawieniach.</string>
+    <string name="composer_dictation_locale_unsupported">Dyktowanie nie jest jeszcze dostępne w twoim języku.</string>
+    <string name="composer_dictation_audio_unavailable">Nie udało się rozpocząć sesji audio do dyktowania.</string>
+    <string name="composer_dictation_recognizer_failed">Nie udało się zapisać dyktowanego tekstu (błąd %1$d)</string>
+
+    <!-- File attachments -->
+    <string name="composer_file_uploading_description">Przesyłanie, %1$s</string>
+    <!-- Diff preview -->
+    <string name="composer_diff_added_description">Dodano: %1$s</string>
+    <string name="composer_diff_removed_description">Usunięto: %1$s</string>
+    <!-- Request dock -->
+    <string name="composer_request_dismiss_failed">Nie udało się odrzucić prośby</string>
+    <string name="composer_request_answer_failed">Nie udało się wysłać odpowiedzi</string>
+    <string name="composer_request_reply_failed">Nie udało się wysłać odpowiedzi</string>
+    <string name="composer_request_deny">Odmów</string>
+    <string name="composer_request_decline_placeholder">Napisz, co zrobić zamiast tego</string>
+    <string name="composer_request_reason_description">Powód</string>
+    <string name="composer_request_failed">Żądanie nie powiodło się</string>
+    <!-- Location -->
+    <string name="composer_location_denied">Dostęp do lokalizacji dla OpenCode jest wyłączony. Włącz go w ustawieniach.</string>
+    <string name="composer_location_unavailable">Nie udało się ustalić twojej lokalizacji.</string>
+    <string name="composer_request_yes">Tak</string>
+    <string name="composer_request_no">Nie</string>
+    <!-- Model picker -->
+    <string name="composer_model_level_default">Domyślny</string>
+    <string name="composer_model_section_favorites">Ulubione</string>
+    <string name="composer_model_section_recent">Ostatnie</string>
+    <string name="composer_model_section_all_models">Wszystkie modele</string>
+    <string name="composer_model_placeholder">Model</string>
+    <string name="composer_model_list_full_description">Pełny ekran</string>
+    <string name="composer_model_list_half_description">Połowa ekranu</string>
+    <string name="composer_model_favorite_description">Dodaj do ulubionych</string>
+</resources>

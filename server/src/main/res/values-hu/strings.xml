@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Shell</string>
+    <string name="server_notice_source_subagent">Alügynök</string>
+    <string name="server_notice_heading_finished">%1$s: befejezve</string>
+    <string name="server_notice_heading_failed">%1$s: sikertelen</string>
+    <string name="server_notice_heading_interrupted">%1$s: megszakított</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$d shell befejeződött</item>
+        <item quantity="other">%1$d shell befejeződött</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$d shell futtatása sikertelen</item>
+        <item quantity="other">%1$d shell futtatása sikertelen</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">%1$d shell megszakítva</item>
+        <item quantity="other">%1$d shell megszakítva</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">%1$d alügynök végzett</item>
+        <item quantity="other">%1$d alügynök végzett</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">%1$d alügynök sikertelen</item>
+        <item quantity="other">%1$d alügynök sikertelen</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">%1$d alügynök megszakítva</item>
+        <item quantity="other">%1$d alügynök megszakítva</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Kompakt</string>
+    <string name="server_run_error_action_switch_model">Modellváltás</string>
+    <string name="server_run_error_aborted">Megszakított</string>
+    <string name="server_run_error_permission_rejected">Megszakítva egy kérés elutasítása után</string>
+    <string name="server_run_error_content_filter">A biztonsági szűrő blokkolta a választ</string>
+    <string name="server_run_error_rate_limit">Elérte a kérésgyakorisági korlátot</string>
+    <string name="server_run_error_quota">Elérte a használati korlátot</string>
+    <string name="server_run_error_auth">A szolgáltató elutasította az API kulcsot</string>
+    <string name="server_run_error_context_overflow">A munkamenet túl hosszú ehhez a modellhez</string>
+    <string name="server_run_error_invalid_request">A szolgáltató elutasította a kérést</string>
+    <string name="server_run_error_overloaded">A modell túlterhelt</string>
+    <string name="server_run_error_internal">Hiba történt a szolgáltatónál</string>
+    <string name="server_run_error_transport">Megszakadt a kapcsolat a modellel</string>
+    <string name="server_run_error_timeout">A modell nem válaszolt időben</string>
+    <string name="server_run_error_invalid_output">A modell válasza nem olvasható</string>
+    <string name="server_run_error_unavailable">Ez a modell nem érhető el</string>
+    <string name="server_run_error_unsupported_operation">Ez a modell erre nem képes</string>
+    <string name="server_run_error_tool_execution">Egy eszköz hibája miatt leállt a futás</string>
+    <string name="server_run_error_other">A futás hibával leállt</string>
+    <string name="server_run_retry_in_seconds">%1$s · újrapróbálkozás %2$d s múlva</string>
+    <string name="server_run_retry_now">%1$s · újrapróbálkozás</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">Az OpenCode-kiszolgáló nem érhető el</string>
+    <string name="server_error_folder_gone">A mappa már nem létezik</string>
+    <string name="server_error_uploads_unsupported">Ez a kiszolgáló nem támogatja a fájlmellékleteket. Frissítse az OpenCode-ot a számítógépén.</string>
+    <string name="server_error_archiving_unsupported">Ez a kiszolgáló nem támogatja az archiválást. Frissítse az OpenCode-ot a számítógépén.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">Az OpenCode nem férhet hozzá a helyi hálózat eszközeihez. Engedélyezze a Közeli eszközök hozzáférést az OpenCode számára a Beállításokban, majd próbálja újra.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Névtelen munkamenet</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Shell</string>
+    <string name="server_tool_shell_killed">A shell leállítva</string>
+    <string name="server_tool_shell_exit_code">A parancs %1$d kóddal lépett ki</string>
+    <string name="server_notice_session_update">Munkamenet frissítése</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Sikertelen csatlakozás</string>
+    <string name="server_connection_resolved_address_unknown">Feloldott cím: ismeretlen</string>
+    <string name="server_connection_resolved_address">Feloldott cím (a hiba után lekérdezve): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">Ez a tailnet-név a Tailscale tartományán kívüli címre oldódott fel, így lehet, hogy nem a Tailscale DNS van használatban. A Tailscale alkalmazásban kapcsolja be a Tailscale DNS-beállításainak használatát, és kapcsolja ki a Privát DNS-t vagy a DNS-t módosító VPN-profilt.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Helyi hálózat</string>
+    <string name="server_connection_route_loopback">Visszacsatolás</string>
+    <string name="server_connection_route_internet">Internet</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">nem webcím</string>
+    <string name="server_pairing_origin_bad_scheme">nem http:// vagy https:// kezdetű</string>
+    <string name="server_pairing_origin_no_host">nem tartalmaz gépnevet</string>
+    <string name="server_pairing_origin_credentials">felhasználónevet vagy jelszót tartalmaz</string>
+    <string name="server_pairing_origin_query">lekérdezést vagy töredékazonosítót tartalmaz</string>
+    <string name="server_pairing_origin_port">portszáma kívül esik az 1–65535 tartományon</string>
+    <string name="server_pairing_origin_path">útvonalat tartalmaz, pedig a kiszolgálónak a cím gyökerében kell lennie</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Kiszolgáló</string>
+    <string name="server_friendly_name_numbered">Kiszolgáló %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">Az üzenet elküldése után megszakadt a kapcsolat, így az üzenet megérkezhetett.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Ehhez az integrációhoz nincs bejelentkezési mód.</string>
+    <string name="server_error_sign_in_url_invalid">A bejelentkezési oldal címe érvénytelen.</string>
+    <string name="server_error_load_server_details">Nem sikerült betölteni a kiszolgáló adatait</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">Ez a párosítási kód lejárt, vagy már felhasználták. Futtassa újra az `opencode pair --remote` parancsot.</string>
+    <string name="server_error_pairing_unsupported">Ez a kiszolgáló nem támogatja a párosítási linkeket. Frissítse az OpenCode alkalmazást a számítógépén, vagy adja meg kézzel a kiszolgálót.</string>
+    <string name="server_error_notification_previews_need_https">A titkosított értesítési előnézetekhez HTTPS-kapcsolat szükséges a kiszolgálóval.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Adjon meg egy érvényes HTTP vagy HTTPS kiszolgáló-URL-t.</string>
+    <string name="server_error_credentials_rejected">A kiszolgáló elutasította ezeket a hitelesítő adatokat.</string>
+    <string name="server_error_http_status">A kiszolgáló HTTP %1$d kódot adott vissza.</string>
+    <string name="server_error_event_stream_http">Az eseményfolyam HTTP %1$d kódot adott vissza.</string>
+    <string name="server_error_event_stream_oversized_frame">Az eseményfolyam túl nagy keretet küldött.</string>
+    <string name="server_error_event_stream_ended">Az eseményfolyam véget ért.</string>
+    <string name="server_error_event_stream_server_failure">Az eseményfolyam kiszolgálóhibát jelzett.</string>
+    <string name="server_tool_failed">Az eszköz futtatása sikertelen</string>
+    <string name="server_error_list_folder">A kiszolgáló nem tudta listázni a mappa tartalmát</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Nem sikerült betölteni a projekteket és a munkameneteket</string>
+    <string name="server_error_load_session_family">Nem sikerült betölteni a munkamenetcsaládot</string>
+    <string name="server_error_update_session">Nem sikerült frissíteni a munkamenetet</string>
+    <string name="server_error_load_session_ancestry">Nem sikerült betölteni az aktív munkamenet elődeit</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Máshol már megválaszolva</string>
+    <string name="server_request_already_dismissed">Már elutasítva</string>
+    <string name="server_request_already_answered">Már megválaszolva</string>
+    <string name="server_request_already_dismissed_elsewhere">Máshol már elutasítva</string>
+    <string name="server_request_no_longer_waiting">Már nem vár válaszra</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">A média nem érhető el</string>
+    <string name="server_pasted_text_title">Beillesztett szöveg</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d sor · %2$s</item>
+        <item quantity="other">%1$d sor · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d sor</item>
+        <item quantity="other">%1$d sor</item>
+    </plurals>
+    <string name="server_file_size_zero">0 KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d bájt</item>
+        <item quantity="other">%1$d bájt</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">Projekt</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Fájl</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Végezze el ezt a lépést</string>
+    <string name="server_form_required">Kötelező</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">Adjon meg legalább %1$d karaktert</item>
+        <item quantity="other">Adjon meg legalább %1$d karaktert</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">Legfeljebb %1$d karaktert adjon meg</item>
+        <item quantity="other">Legfeljebb %1$d karaktert adjon meg</item>
+    </plurals>
+    <string name="server_form_invalid_format">Érvénytelen formátum</string>
+    <string name="server_form_choose_option">Válasszon egy elérhető lehetőséget</string>
+    <string name="server_form_invalid_email">Adjon meg egy érvényes e-mail-címet</string>
+    <string name="server_form_invalid_url">Adjon meg egy érvényes URL-t</string>
+    <string name="server_form_invalid_date">Adjon meg egy dátumot YYYY-MM-DD formátumban</string>
+    <string name="server_form_invalid_date_time">Adjon meg érvényes dátumot és időt</string>
+    <string name="server_form_minimum">Legalább %1$s legyen</string>
+    <string name="server_form_maximum">Legfeljebb %1$s lehet</string>
+    <string name="server_form_whole_number">Adjon meg egy egész számot</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">Válasszon legalább %1$d elemet</item>
+        <item quantity="other">Válasszon legalább %1$d elemet</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">Legfeljebb %1$d elemet válasszon</item>
+        <item quantity="other">Legfeljebb %1$d elemet válasszon</item>
+    </plurals>
+    <string name="server_form_invalid_value">Érvénytelen érték</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Kijelöltek elrejtése</string>
+    <string name="server_model_visibility_only_show">Csak a kijelöltek megjelenítése</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Kikapcsolva</string>
+    <string name="server_model_variant_extra_high">Nagyon magas</string>
+    <string name="server_model_variant_max">Max</string>
+    <string name="server_delivery_steering">Irányítás</string>
+    <string name="server_delivery_queued">Sorban</string>
+</resources>

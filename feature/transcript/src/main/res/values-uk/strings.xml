@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shared -->
+    <string name="transcript_open_named">Відкрити %1$s</string>
+
+    <!-- Link previews -->
+    <string name="transcript_link_preview_show_fewer">Показати менше посилань</string>
+    <string name="transcript_link_preview_show_all">Показати всі посилання</string>
+    <plurals name="transcript_link_preview_shown">
+        <item quantity="one">Показано посилань: %1$d із %2$d</item>
+        <item quantity="few">Показано посилань: %1$d із %2$d</item>
+        <item quantity="many">Показано посилань: %1$d із %2$d</item>
+        <item quantity="other">Показано посилань: %1$d із %2$d</item>
+    </plurals>
+    <string name="transcript_link_preview_more">Ще %1$d</string>
+
+    <!-- Transcript list -->
+    <string name="transcript_scroll_to_top">Прокрутити вгору</string>
+    <string name="transcript_working">Працює</string>
+
+    <!-- Transcript list rows -->
+    <string name="transcript_history_loading_description">Завантаження попередніх повідомлень</string>
+    <string name="transcript_empty_loading_description">Завантаження сесії</string>
+    <string name="transcript_empty_title">Повідомлень ще немає</string>
+    <string name="transcript_empty_subtitle">Почніть сесію нижче</string>
+    <string name="transcript_compaction_queued">Компактування в черзі</string>
+
+    <!-- Code blocks -->
+    <string name="transcript_code_copy_description">Копіювати код</string>
+
+    <!-- Markdown task lists -->
+    <string name="transcript_task_done_description">Готово</string>
+    <string name="transcript_task_not_done_description">Не виконано</string>
+
+    <!-- Markdown images -->
+    <string name="transcript_image">Зображення</string>
+    <string name="transcript_image_open_description">Відкрити зображення</string>
+    <string name="transcript_image_load_failed">Не вдалося завантажити зображення</string>
+    <string name="transcript_image_retry_click_label">Спробувати ще раз</string>
+    <string name="transcript_image_open">Відкрити</string>
+
+    <!-- Math -->
+    <string name="transcript_equation_description">Рівняння</string>
+
+    <!-- Selection -->
+    <string name="transcript_quote">Цитувати</string>
+    <string name="transcript_quote_description">Цитата: %1$s</string>
+    <string name="transcript_quote_show">Показати всю цитату</string>
+    <string name="transcript_quote_comment_description">Цитата: %1$s. Коментар: %2$s</string>
+    <string name="transcript_quote_add_comment">Додати коментар</string>
+    <string name="transcript_quote_edit_comment">Редагувати коментар</string>
+
+    <!-- Reply actions -->
+    <string name="transcript_reply_copy_description">Копіювати відповідь</string>
+
+    <!-- Run errors and undo -->
+    <string name="transcript_run_error_copy">Копіювати помилку</string>
+    <string name="transcript_undone_undo_hint">Скасування доступне, доки ви не надішлете нове повідомлення</string>
+    <string name="transcript_undone_title">Зміни звідси скинуто</string>
+    <string name="transcript_undone_undo_click_label">Відновити скинуті повідомлення й файли, доки ви не надішлете нове повідомлення</string>
+    <string name="transcript_undone_undo">Скасувати</string>
+
+    <!-- Tool rows -->
+    <string name="transcript_tool_failed">Помилка</string>
+    <string name="transcript_tool_running">Виконується</string>
+    <string name="transcript_tool_completed">Завершено</string>
+    <string name="transcript_subagent_open_click_label">Відкрити сесію субагента</string>
+    <string name="transcript_tool_group_failed_count">З помилкою: %1$d</string>
+    <string name="transcript_expanded">Розгорнуто</string>
+    <string name="transcript_collapsed">Згорнуто</string>
+    <string name="transcript_tool_image">Зображення інструмента</string>
+    <string name="transcript_tool_hide_click_label">Приховати вхідні дані й вивід інструмента</string>
+    <string name="transcript_tool_show_click_label">Показати вхідні дані й вивід інструмента</string>
+    <string name="transcript_tool_denied">Відхилено</string>
+    <string name="transcript_show_less">Показати менше</string>
+    <plurals name="transcript_tool_output_show_all">
+        <item quantity="one">Показати весь %1$d рядок</item>
+        <item quantity="few">Показати всі %1$d рядки</item>
+        <item quantity="many">Показати всі %1$d рядків</item>
+        <item quantity="other">Показати всі %1$d рядка</item>
+    </plurals>
+    <string name="transcript_question_hide_click_label">Приховати запитання</string>
+    <string name="transcript_question_show_click_label">Показати запитання й вашу відповідь</string>
+    <string name="transcript_question_chosen_description">Вибрано</string>
+
+    <!-- Compaction -->
+    <string name="transcript_compaction_running">Компактування контексту</string>
+    <string name="transcript_compaction_provider">Компактування провайдером</string>
+    <string name="transcript_compaction_completed">Контекст стиснуто</string>
+    <string name="transcript_compaction_cancelled">Компактування скасовано</string>
+    <string name="transcript_compaction_failed">Не вдалося стиснути контекст</string>
+    <string name="transcript_compaction_usage">%1$s на вході · %2$s на виході</string>
+    <string name="transcript_compaction_show_summary_click_label">Показати підсумок компактування</string>
+
+    <!-- New messages rule -->
+    <string name="transcript_new_messages_description">Нові повідомлення</string>
+    <string name="transcript_new_messages_label">Нове</string>
+
+    <!-- Media tiles -->
+    <string name="transcript_attached_image_open_description">Відкрити прикріплене зображення</string>
+    <string name="transcript_attached_image_open_numbered_description">Відкрити прикріплене зображення %1$d із %2$d</string>
+    <string name="transcript_attached_image">Прикріплене зображення</string>
+    <string name="transcript_tool_image_open_numbered_description">Відкрити зображення інструмента %1$d із %2$d</string>
+    <string name="transcript_media_unavailable">Медіа недоступні</string>
+    <string name="transcript_attached_file_description">Прикріплений файл %1$s</string>
+
+    <!-- Message menus -->
+    <string name="transcript_message_select">Вибрати</string>
+    <string name="transcript_pending_send_now">Надіслати зараз</string>
+    <string name="transcript_pending_move_to_queue">Перемістити в чергу</string>
+    <string name="transcript_message_revert_to_here">Скинути до цього моменту</string>
+    <string name="transcript_show_more">Показати більше</string>
+
+    <!-- Voice messages -->
+    <string name="transcript_voice_call_log_attached">Журнал дзвінка додано</string>
+    <string name="transcript_voice_copy_full_message">Копіювати все повідомлення</string>
+    <string name="transcript_voice_message_description">Голосове повідомлення</string>
+    <string name="transcript_voice_label">Голос</string>
+
+    <!-- Attachments -->
+    <string name="transcript_file_open_click_label">Відкрити файл</string>
+    <string name="transcript_pasted_text_open_click_label">Відкрити текст</string>
+    <string name="transcript_location_shared">Надіслане розташування</string>
+    <string name="transcript_location_open_in_maps">Відкрити на карті</string>
+    <string name="transcript_location_description">Розташування: %1$s</string>
+    <string name="transcript_location_description_with_address">Розташування: %1$s, %2$s</string>
+
+    <!-- Shared phrasing -->
+    <string name="transcript_quoted">«%1$s»</string>
+    <string name="transcript_spoken_pair">%1$s, %2$s</string>
+    <string name="transcript_list_two">%1$s і %2$s</string>
+    <string name="transcript_list_many">%1$s і %2$s</string>
+
+    <!-- Tool rows -->
+    <string name="transcript_tool_read">Читання</string>
+    <string name="transcript_tool_search">пошук %1$s</string>
+    <string name="transcript_tool_search_quoted">пошук «%1$s»</string>
+    <string name="transcript_tool_group_updates">Оновлення</string>
+    <plurals name="transcript_tool_group_used">
+        <item quantity="one">Використано %1$d інструмент</item>
+        <item quantity="few">Використано %1$d інструменти</item>
+        <item quantity="many">Використано %1$d інструментів</item>
+        <item quantity="other">Використано %1$d інструмента</item>
+    </plurals>
+
+    <!-- Question rows -->
+    <string name="transcript_question">Запитання</string>
+    <string name="transcript_question_no_answer">Немає відповіді</string>
+    <string name="transcript_question_dismissed">Відхилено</string>
+    <plurals name="transcript_question_answered_count">
+        <item quantity="one">Надано відповідь на %1$d запитання</item>
+        <item quantity="few">Надано відповіді на %1$d запитання</item>
+        <item quantity="many">Надано відповіді на %1$d запитань</item>
+        <item quantity="other">Надано відповіді на %1$d запитання</item>
+    </plurals>
+    <plurals name="transcript_question_count">
+        <item quantity="one">%1$d запитання</item>
+        <item quantity="few">%1$d запитання</item>
+        <item quantity="many">%1$d запитань</item>
+        <item quantity="other">%1$d запитання</item>
+    </plurals>
+
+    <!-- Model switch -->
+    <string name="transcript_model_switch_title">Перемкнуто на %1$s</string>
+    <string name="transcript_model_switch_default">За замовчуванням</string>
+    <string name="transcript_model_switch_thinking_description">%1$s, міркування: %2$s</string>
+    <string name="transcript_model_switch_thinking_off_description">%1$s, міркування вимкнено</string>
+
+    <!-- Run errors and failed sends -->
+    <string name="transcript_run_error_edit_last_message">Редагувати останнє повідомлення</string>
+    <string name="transcript_failed_send_status">Не вдалося надіслати</string>
+    <string name="transcript_failed_send_moving">Переміщення…</string>
+    <string name="transcript_failed_send_move_to">Перемістити до %1$s</string>
+
+    <!-- Links -->
+    <string name="transcript_session_link_new_session">Нова сесія</string>
+    <string name="transcript_links_to_description">Посилання на %1$s</string>
+    <string name="transcript_link_preview_video">Відео</string>
+    <string name="transcript_link_preview_post">Допис</string>
+    <string name="transcript_link_preview_post_unavailable">Допис недоступний</string>
+    <plurals name="transcript_link_preview_comments">
+        <item quantity="one">%1$s коментар</item>
+        <item quantity="few">%1$s коментарі</item>
+        <item quantity="many">%1$s коментарів</item>
+        <item quantity="other">%1$s коментаря</item>
+    </plurals>
+</resources>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent activity glyph -->
+    <string name="session_activity_running_description">Виконується</string>
+    <!-- Background work panel -->
+    <string name="session_background_work_show_label">Показати активні субагенти, скрипти й команди</string>
+    <string name="session_background_work_collapsed_description">Згорнуто</string>
+    <string name="session_background_work_subagents_title">Субагенти</string>
+    <string name="session_background_work_open_subagent_label">Відкрити сесію субагента</string>
+    <string name="session_background_work_shells_title">Команди</string>
+    <string name="session_background_work_show_shell_label">Показати вивід команди</string>
+    <!-- The session's images and videos, paged in the full-screen viewer -->
+    <string name="session_visual_attached_image">Прикріплене зображення</string>
+    <string name="session_visual_tool_image">Зображення інструмента</string>
+    <string name="session_visual_image">Зображення</string>
+    <!-- One image of several: the image's label, then its place, as “Attached image 2 of 3” -->
+    <string name="session_visual_image_page_label">%1$s %2$d з %3$d</string>
+    <!-- A diagram's label, read by TalkBack. %1$s is its kind, as “Diagram, Flowchart” -->
+    <string name="session_visual_diagram_label">Діаграма, %1$s</string>
+    <!-- Jump to latest -->
+    <string name="session_scroll_to_latest_description">Перейти до останніх</string>
+    <!-- Dictation bar -->
+    <string name="session_dictation_finishing_description">Завершення диктування</string>
+    <string name="session_dictation_stop_recording_description">Зупинити запис</string>
+    <string name="session_dictation_stop_recording_hint">Додати текст до повідомлення</string>
+    <string name="session_sending_message_description">Надсилання повідомлення</string>
+    <string name="session_delivery_steer_label">Спрямувати на наступному кроці</string>
+    <string name="session_delivery_queue_label">Поставити в чергу після цієї відповіді</string>
+    <string name="session_delivery_steer">Спрямувати</string>
+    <string name="session_delivery_queue">Поставити в чергу</string>
+    <!-- Draft project picker -->
+    <string name="session_draft_project_choose_label">Вибрати, де почати сесію</string>
+    <string name="session_project_choose_folder">Вибрати папку…</string>
+    <string name="session_project_all_projects">Всі проекти</string>
+    <string name="session_project_selected_description">Вибрано</string>
+    <string name="session_project_picker_title">Проєкт</string>
+    <!-- Folder browser -->
+    <string name="session_folder_select_description">Вибрати папку</string>
+    <string name="session_folder_path_description">Шлях</string>
+    <string name="session_folder_title">Папка</string>
+    <string name="session_folder_select">Вибрати</string>
+    <string name="session_folder_open_failed_title">Не вдалося відкрити папку</string>
+    <string name="session_folder_empty_title">Немає папок</string>
+    <string name="session_folder_search_empty_title">Немає результатів для «%1$s»</string>
+    <string name="session_folder_search_empty_message">Перевірте написання або змініть пошуковий запит.</string>
+    <!-- Server connection pill -->
+    <string name="session_server_edit">Редагувати сервер…</string>
+    <!-- Starter prompts -->
+    <string name="session_starter_prompts_title">Спробуйте запитати</string>
+    <string name="session_starter_prompt_pick_label">Вставити в повідомлення</string>
+    <!-- Session sheet -->
+    <string name="session_sheet_rename_failed">Не вдалося перейменувати</string>
+    <string name="session_sheet_status_description">Стан</string>
+    <string name="session_rename_title">Перейменувати сесію</string>
+    <string name="session_untitled_title">Сесія</string>
+    <string name="session_pin">Закріпити</string>
+    <string name="session_pinned">Закріплені</string>
+    <string name="session_unread">Непрочитані</string>
+    <string name="session_mute">Вимкнути сповіщення</string>
+    <string name="session_muted">Сповіщення вимкнено</string>
+    <string name="session_compact">Стиснути</string>
+    <string name="session_fork">Відгалузити</string>
+    <string name="session_toggle_on_description">Увімкнено</string>
+    <string name="session_toggle_off_description">Вимкнено</string>
+    <string name="session_export">Експортувати</string>
+    <string name="session_export_markdown">Markdown</string>
+    <string name="session_export_json">JSON</string>
+    <string name="session_sheet_model">Модель</string>
+    <string name="session_sheet_context">Контекст</string>
+    <string name="session_sheet_unknown_description">Невідомо</string>
+    <string name="session_sheet_context_tokens">%1$s токенів</string>
+    <string name="session_sheet_cost">Вартість</string>
+    <string name="session_sheet_media">Медіа</string>
+    <string name="session_sheet_media_value">Файли й посилання</string>
+    <string name="session_always_notify">Завжди сповіщати</string>
+    <string name="session_always_notify_message_phone">Сповіщати на цьому телефоні про кожну готову відповідь, навіть на запити з інших пристроїв.</string>
+    <string name="session_always_notify_message_tablet">Сповіщати на цьому планшеті про кожну готову відповідь, навіть на запити з інших пристроїв.</string>
+    <string name="session_delete_session">Видалити сесію</string>
+    <string name="session_rename_placeholder">Назва</string>
+    <string name="session_auto_rename">Перейменувати автоматично</string>
+    <string name="session_delete_confirm_title">Видалити «%1$s»?</string>
+    <string name="session_delete_confirm_message">Сесію буде видалено із сервера для всіх клієнтів.</string>
+    <!-- Transcript -->
+    <string name="session_move_to_background">Перевести у фоновий режим</string>
+    <string name="session_move_to_background_hint">Продовжити роботу у фоні, щоб агент прочитав ваше наступне повідомлення</string>
+    <!-- Attachments -->
+    <string name="session_attachment_add_image_failed_title">Не вдалося додати зображення</string>
+    <string name="session_attachment_upload">Завантажити</string>
+    <string name="session_attachment_remove_image_description">Видалити вкладене зображення %1$d</string>
+    <string name="session_attachment_remove_description">Видалити %1$s</string>
+    <string name="session_attachment_file_description">Вкладений файл %1$s</string>
+    <string name="session_attachment_cancel_upload_description">Скасувати завантаження %1$s</string>
+    <string name="session_attachment_open_photo_label">Відкрити фото на весь екран</string>
+    <string name="session_attachment_image_description">Вкладене зображення %1$d</string>
+    <string name="session_attachment_video_description">Вкладене відео %1$d</string>
+    <!-- Composer controls -->
+    <string name="session_answer_own_description">Ваша власна відповідь</string>
+    <string name="session_answer_own_type_label">Введіть або продиктуйте власну відповідь</string>
+    <string name="session_answer_own_clear_label">Відкласти власну відповідь</string>
+    <string name="session_answer_own_choose_label">Відповісти своїми словами</string>
+    <string name="session_answer_decline_with_words_label">Скажіть агенту, що зробити натомість</string>
+    <string name="session_answer_required_description">Виберіть відповідь або введіть власну</string>
+    <string name="session_dictate_message_description">Продиктувати повідомлення</string>
+    <string name="session_dictate_message_hint">Диктуйте текст повідомлення або натисніть і утримуйте, щоб записати й надіслати</string>
+    <string name="session_send_waiting_for_uploads_description">Надсилання після завершення завантажень</string>
+    <string name="session_steer_message_description">Спрямувати повідомлення</string>
+    <string name="session_stopping_description">Зупинення</string>
+    <string name="session_start_voice_call">Почати голосовий дзвінок</string>
+    <string name="session_dictation_stop_description">Зупинити диктування</string>
+    <!-- Composer -->
+    <string name="session_requests_load_failed_title">Не вдалося завантажити запити</string>
+    <plurals name="session_queued_count">
+        <item quantity="one">%1$d у черзі</item>
+        <item quantity="few">%1$d у черзі</item>
+        <item quantity="many">%1$d у черзі</item>
+        <item quantity="other">%1$d у черзі</item>
+    </plurals>
+    <string name="session_queued_show_label">Показати повідомлення, що чекають завершення цієї відповіді</string>
+    <plurals name="session_queued_messages_description">
+        <item quantity="one">%1$d повідомлення в черзі</item>
+        <item quantity="few">%1$d повідомлення в черзі</item>
+        <item quantity="many">%1$d повідомлень у черзі</item>
+        <item quantity="other">%1$d повідомлення в черзі</item>
+    </plurals>
+    <string name="session_dictation_preparing">Підготовка до диктування…</string>
+    <string name="session_message_placeholder">Повідомлення</string>
+    <!-- Session header -->
+    <string name="session_back_to_main_description">Назад до основної сесії</string>
+    <string name="session_header_open_from_catch_up_label">Відкрити сесію й вийти з перегляду нового</string>
+    <string name="session_header_show_details_label">Показати деталі сесії</string>
+    <string name="session_header_idle_description">Неактивна</string>
+    <string name="session_header_syncing_description">Синхронізація</string>
+    <string name="session_header_last_known_description">Останній відомий стан</string>
+    <string name="session_menu_more_description">Більше</string>
+    <string name="session_unpin">Відкріпити</string>
+    <string name="session_copy_session_id">Копіювати ідентифікатор сеансу</string>
+    <string name="session_mark_as_read">Позначити як прочитану</string>
+    <string name="session_mark_as_unread">Позначити як непрочитану</string>
+    <string name="session_unmute">Увімкнути сповіщення</string>
+    <string name="session_menu_export_expanded_description">Розгорнуто</string>
+    <string name="session_menu_export_collapsed_description">Згорнуто</string>
+    <string name="session_info">Інформація про сесію</string>
+    <!-- Session screen -->
+    <string name="session_load_failed_title">Не вдалося завантажити сесію</string>
+    <string name="session_location_share_failed_title">Не вдалося поділитися розташуванням</string>
+    <!-- Shell output -->
+    <string name="session_shell_stop_confirm_title">Зупинити цю команду?</string>
+    <string name="session_shell_stop_confirm_message">Виконання команди завершиться зараз. Вивід залишиться тут, доки ви його не закриєте.</string>
+    <string name="session_shell_stop">Зупинити команду</string>
+    <string name="session_shell_copy_output">Копіювати вивід</string>
+    <string name="session_shell_share_output">Поділитися виводом</string>
+    <string name="session_shell_earlier_output_hidden">Попередній вивід приховано</string>
+    <string name="session_shell_showing_last_output">Показано останні 4 МБ</string>
+    <string name="session_shell_load_earlier">Завантажити попередній вивід</string>
+    <string name="session_shell_output_unavailable_title">Вивід недоступний</string>
+    <string name="session_shell_output_unavailable_message">На сервері більше немає виводу цієї команди.</string>
+    <string name="session_shell_no_output_yet_title">Виводу ще немає</string>
+    <string name="session_shell_no_output_title">Немає виводу</string>
+    <string name="session_shell_no_output_yet_message">Вивід з’являтиметься тут під час виконання команди.</string>
+    <string name="session_shell_status_stopping">Зупинення…</string>
+    <string name="session_shell_status_unavailable">Недоступно</string>
+    <string name="session_shell_status_interrupted">Перервано</string>
+    <string name="session_shell_status_timed_out">Час виконання минув</string>
+    <string name="session_shell_status_exited_with_code">Завершено з кодом %1$d</string>
+    <string name="session_shell_status_exited">Завершено</string>
+    <plurals name="session_shell_elapsed_hours">
+        <item quantity="one">%1$d година</item>
+        <item quantity="few">%1$d години</item>
+        <item quantity="many">%1$d годин</item>
+        <item quantity="other">%1$d години</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_minutes">
+        <item quantity="one">%1$d хвилина</item>
+        <item quantity="few">%1$d хвилини</item>
+        <item quantity="many">%1$d хвилин</item>
+        <item quantity="other">%1$d хвилини</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_seconds">
+        <item quantity="one">%1$d секунда</item>
+        <item quantity="few">%1$d секунди</item>
+        <item quantity="many">%1$d секунд</item>
+        <item quantity="other">%1$d секунди</item>
+    </plurals>
+
+    <!-- Agent activity (glyph labels and titles) -->
+    <string name="session_activity_idle">Неактивна</string>
+    <string name="session_activity_starting_up">Запуск</string>
+    <string name="session_activity_thinking">Міркування</string>
+    <string name="session_activity_long_work">Тривала робота</string>
+    <string name="session_activity_tool_burst">Серія викликів інструментів</string>
+    <string name="session_activity_streaming_output">Потоковий вивід</string>
+    <string name="session_activity_waiting_for_input">Очікування відповіді</string>
+    <string name="session_activity_handing_off">Передавання роботи</string>
+    <string name="session_activity_done">Готово</string>
+    <string name="session_activity_failed">Помилка</string>
+    <string name="session_working_stopping">Зупинення…</string>
+    <string name="session_status_working">Працює</string>
+    <string name="session_status_needs_input">Потрібна ваша відповідь</string>
+    <string name="session_status_done">Готово</string>
+
+    <!-- Lists: joins two or three phrases -->
+    <string name="session_list_two">%1$s, %2$s</string>
+    <string name="session_list_three">%1$s, %2$s, %3$s</string>
+
+    <!-- Background work panel -->
+    <plurals name="session_background_work_subagent_count">
+        <item quantity="one">%1$d субагент</item>
+        <item quantity="few">%1$d субагенти</item>
+        <item quantity="many">%1$d субагентів</item>
+        <item quantity="other">%1$d субагента</item>
+    </plurals>
+    <plurals name="session_background_work_shell_count">
+        <item quantity="one">%1$d команда</item>
+        <item quantity="few">%1$d команди</item>
+        <item quantity="many">%1$d команд</item>
+        <item quantity="other">%1$d команди</item>
+    </plurals>
+    <plurals name="session_background_work_script_count">
+        <item quantity="one">%1$d скрипт</item>
+        <item quantity="few">%1$d скрипти</item>
+        <item quantity="many">%1$d скриптів</item>
+        <item quantity="other">%1$d скрипту</item>
+    </plurals>
+    <string name="session_background_work_summary">%1$s · %2$s</string>
+    <string name="session_background_work_scripts_title">Скрипти</string>
+    <string name="session_background_work_stop_script_label">Зупинити скрипт</string>
+    <string name="session_background_work_stop_subagent_label">Зупинити субагента</string>
+    <string name="session_background_work_stop_script_failed">Не вдалося зупинити скрипт</string>
+    <string name="session_background_work_stop_subagent_failed">Не вдалося зупинити субагента</string>
+
+    <!-- Composer buttons -->
+    <string name="session_send_message_description">Надіслати повідомлення</string>
+    <string name="session_stop_description">Зупинити</string>
+    <string name="session_start_voice_call_description">Почати голосовий дзвінок</string>
+    <string name="session_model_level_default">За замовчуванням</string>
+
+    <!-- In-app notice -->
+    <plurals name="session_notice_session_count">
+        <item quantity="one">%1$d сесія</item>
+        <item quantity="few">%1$d сесії</item>
+        <item quantity="many">%1$d сесій</item>
+        <item quantity="other">%1$d сесії</item>
+    </plurals>
+    <plurals name="session_notice_needs_input_count">
+        <item quantity="one">%1$d потребує вашої відповіді</item>
+        <item quantity="few">%1$d потребують вашої відповіді</item>
+        <item quantity="many">%1$d потребують вашої відповіді</item>
+        <item quantity="other">%1$d потребує вашої відповіді</item>
+    </plurals>
+    <string name="session_notice_announcement">%1$s, %2$s</string>
+
+    <!-- Server connection pill -->
+    <string name="session_server_reconnecting">Повторне підключення до %1$s…</string>
+    <string name="session_server_connect_failed">Не вдалося підключитися до %1$s</string>
+    <string name="session_server_sign_in_failed">Не вдалося ввійти на %1$s</string>
+    <string name="session_server_pair_again">Сполучити знову</string>
+    <string name="session_server_try_again_click_label">спробувати ще раз</string>
+    <string name="session_server_pair_again_click_label">сполучити знову</string>
+
+    <!-- Export -->
+    <string name="session_export_folder_failed">Не вдалося створити папку для експорту</string>
+    <string name="session_export_save_failed">Не вдалося зберегти експорт</string>
+
+    <!-- Session errors -->
+    <string name="session_agent_fallback_name">Агент</string>
+    <string name="session_something_went_wrong">Щось пішло не так</string>
+    <string name="session_something_went_wrong_sentence">Щось пішло не так.</string>
+    <string name="session_load_earlier_failed">Не вдалося завантажити попередні повідомлення</string>
+    <string name="session_move_to_background_failed">Не вдалося перевести у фон: %1$s</string>
+    <string name="session_move_failed_reason">Не вдалося перемістити сесію</string>
+    <string name="session_delivery_waiting_to_send">Очікування надсилання</string>
+    <string name="session_create_failed">Не вдалося створити сесію.</string>
+    <string name="session_switch_agent_failed">Не вдалося змінити агента: %1$s</string>
+    <string name="session_switch_model_failed">Не вдалося змінити модель: %1$s</string>
+    <string name="session_pending_send_now_failed_details">Не вдалося надіслати повідомлення в очікуванні зараз: %1$s</string>
+    <string name="session_pending_cancel_failed_details">Не вдалося скасувати повідомлення в очікуванні: %1$s</string>
+    <string name="session_pending_queue_failed_details">Не вдалося поставити повідомлення в очікуванні в чергу: %1$s</string>
+    <string name="session_stopped_before_sent">Перервано до надсилання</string>
+    <string name="session_stop_failed">Не вдалося зупинити сесію</string>
+    <string name="session_undo_message_failed">Не вдалося скасувати повідомлення: %1$s</string>
+    <string name="session_revert_failed">Не вдалося скинути зміни</string>
+    <string name="session_revert_failed_details">Не вдалося скинути зміни: %1$s</string>
+
+    <!-- Session sheet errors -->
+    <string name="session_sheet_rename_failed_title">Не вдалося перейменувати сесію</string>
+    <string name="session_sheet_compact_failed_title">Не вдалося стиснути сесію</string>
+    <string name="session_sheet_fork_failed_title">Не вдалося відгалузити сесію</string>
+    <string name="session_sheet_save_export_failed">Не вдалося зберегти експорт</string>
+    <string name="session_sheet_export_failed_title">Не вдалося експортувати сесію</string>
+    <string name="session_sheet_notifications_off_message">Спершу увімкніть сповіщення в налаштуваннях.</string>
+    <string name="session_sheet_always_notify_on_failed_title">Не вдалося ввімкнути «Завжди сповіщати»</string>
+    <string name="session_sheet_always_notify_off_failed_title">Не вдалося вимкнути «Завжди сповіщати»</string>
+
+    <!-- Attachments -->
+    <string name="session_attachment_files_unsupported">Сервер не підтримує файли</string>
+    <string name="session_attachment_upload_failed">Не вдалося завантажити</string>
+    <string name="session_attachment_file_fallback_name">Файл</string>
+    <string name="session_attachment_image_too_large">Виберіть зображення розміром до 20 МБ.</string>
+    <string name="session_attachment_image_load_failed">Не вдалося завантажити це зображення. Спробуйте інше фото.</string>
+    <string name="session_attachment_file_add_failed">Не вдалося додати цей файл. Спробуйте інший файл.</string>
+    <plurals name="session_attachment_files_add_failed">
+        <item quantity="one">Не вдалося додати %1$d файл.</item>
+        <item quantity="few">Не вдалося додати %1$d файли.</item>
+        <item quantity="many">Не вдалося додати %1$d файлів.</item>
+        <item quantity="other">Не вдалося додати %1$d файлу.</item>
+    </plurals>
+    <string name="session_large_upload_title">Завантажити %1$s?</string>
+    <string name="session_large_upload_message_one">«%1$s» — великий файл. Повідомлення буде надіслано після завершення завантаження на ваш сервер.</string>
+    <plurals name="session_large_upload_message_many">
+        <item quantity="one">%1$d файл великого розміру. Повідомлення буде надіслано після завершення завантаження на ваш сервер.</item>
+        <item quantity="few">%1$d файли великого розміру. Повідомлення буде надіслано після завершення завантаження на ваш сервер.</item>
+        <item quantity="many">%1$d файлів великого розміру. Повідомлення буде надіслано після завершення завантаження на ваш сервер.</item>
+        <item quantity="other">%1$d файлу великого розміру. Повідомлення буде надіслано після завершення завантаження на ваш сервер.</item>
+    </plurals>
+
+    <!-- Header and screens -->
+    <string name="session_new_session_title">Нова сесія</string>
+    <string name="session_pasted_text_screen_title">Вставлений текст</string>
+    <string name="session_pasted_text_viewer_screen_title">Перегляд вставленого тексту</string>
+    <string name="session_context_summary">%1$d%% із %2$s</string>
+    <string name="session_context_accessibility_value">Використано %1$d%% із %2$s токенів</string>
+
+    <!-- Starter prompts (shown, then sent as the person’s message) -->
+    <string name="session_starter_project_purpose">Що робить цей проєкт?</string>
+    <string name="session_starter_code_tour">Коротко ознайом мене з кодом</string>
+    <string name="session_starter_recent_changes">Що тут змінилося останнім часом?</string>
+
+    <!-- Shell output -->
+    <string name="session_shell_refresh_failed">Не вдалося оновити вивід</string>
+    <string name="session_shell_load_earlier_failed">Не вдалося завантажити попередній вивід</string>
+    <string name="session_shell_stop_failed">Не вдалося зупинити команду</string>
+    <string name="session_quote_remove_description">Видалити цитату</string>
+    <string name="session_quote_comment_placeholder">Додайте коментар за бажанням…</string>
+    <string name="session_media_title">Медіа сесії</string>
+    <string name="session_media_filter_media">Медіа</string>
+    <string name="session_media_filter_files">Файли</string>
+    <string name="session_media_filter_links">Посилання</string>
+    <string name="session_media_layout_description">Макет медіа</string>
+    <string name="session_media_layout_tiles">Плитки</string>
+    <string name="session_media_layout_list">Список</string>
+    <string name="session_media_origin_user">Надіслано вами</string>
+    <string name="session_media_origin_agent">Надіслано агентом</string>
+    <string name="session_media_open_click_label">Відкрити</string>
+    <string name="session_media_open_link_click_label">Відкрити посилання</string>
+    <string name="session_media_empty_media_title">Немає медіа</string>
+    <string name="session_media_empty_media_message">Тут з’являтимуться зображення, відео й аудіо, надіслані в цій сесії.</string>
+    <string name="session_media_empty_files_title">Немає файлів</string>
+    <string name="session_media_empty_files_message">Тут з’являтимуться документи та вставлений текст із цієї сесії.</string>
+    <string name="session_media_empty_links_title">Немає посилань</string>
+    <string name="session_media_empty_links_message">Вебпосилання з цієї сесії з’являться тут.</string>
+    <string name="session_media_earlier_note">Раніші повідомлення ще не завантажено.</string>
+    <string name="session_media_load_earlier">Завантажити раніші повідомлення</string>
+    <string name="session_media_loading_earlier">Завантаження…</string>
+    <string name="session_media_earlier_failed">Не вдалося завантажити попередні повідомлення. Перевірте підключення й спробуйте ще раз.</string>
+    <string name="session_media_earlier_nothing_new">У щойно завантажених повідомленнях нічого нового. Можливо, у попередніх є більше.</string>
+</resources>

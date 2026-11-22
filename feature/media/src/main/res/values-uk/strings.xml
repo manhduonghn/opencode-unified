@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">Зображення</string>
+    <string name="media_image_load_failed">Не вдалося завантажити зображення</string>
+    <string name="media_unavailable">Медіафайл недоступний</string>
+    <string name="media_try_again_label">Спробувати ще раз</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">Перегляд медіа</string>
+    <string name="media_viewer_save_to_photos_description">Зберегти у «Фото»</string>
+    <string name="media_file_viewer_screen_title">Перегляд файлів</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d з %3$d</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">Малювати на зображенні</string>
+    <string name="media_drawing_undo_description">Скасувати</string>
+    <string name="media_drawing_add_to_prompt_description">Додати до запиту</string>
+    <string name="media_drawing_canvas_description">Полотно для малювання</string>
+    <string name="media_drawing_discard_title">Відхилити малюнок?</string>
+    <string name="media_drawing_discard_confirm">Відхилити малюнок</string>
+    <string name="media_drawing_keep">Продовжити малювати</string>
+    <string name="media_drawing_add_failed_title">Не вдалося додати малюнок</string>
+    <string name="media_drawing_flatten_failed">Не вдалося створити зображення. Спробуйте ще раз.</string>
+    <string name="media_drawing_prompt_unavailable">Зараз до повідомлення цієї сесії не можна додати вкладення.</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">Білий</string>
+    <string name="media_drawing_ink_black">Чорний</string>
+    <string name="media_drawing_ink_red">Червоний</string>
+    <string name="media_drawing_ink_yellow">Жовтий</string>
+    <string name="media_drawing_ink_green">Зелений</string>
+    <string name="media_drawing_ink_blue">Синій</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">Збільшено</string>
+    <string name="media_zoom_out_label">Зменшити</string>
+    <string name="media_zoom_in_label">Збільшити</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">Пауза</string>
+    <string name="media_player_play">Відтворити</string>
+    <string name="media_player_position_description">Позиція відтворення</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">Не вдалося відтворити відео</string>
+    <string name="media_video_position_description">Позиція відео</string>
+    <string name="media_video_capture_failed_title">Не вдалося захопити кадр</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">Показати попередній перегляд</string>
+    <string name="media_file_show_source_description">Показати вихідний код</string>
+    <string name="media_file_unwrap_lines_description">Не переносити рядки</string>
+    <string name="media_file_wrap_lines_description">Переносити рядки</string>
+    <string name="media_file_start_pip_description">Увімкнути «Картинка в картинці»</string>
+    <string name="media_file_opening">Відкриваємо…</string>
+    <string name="media_file_share_failed_title">Не вдалося поділитися файлом</string>
+    <string name="media_file_share_downloading_description">Завантаження для поширення</string>
+    <string name="media_file_confirm_large_message">Розмір файлу — %1$s. Завантажити його для перегляду на цьому пристрої?</string>
+    <string name="media_file_download">Завантажити</string>
+    <string name="media_file_open_in_another_app">Відкрити в іншому застосунку</string>
+    <string name="media_file_no_app_message">Жоден застосунок на цьому пристрої не може відкрити цей файл. Натисніть «Поділитися», щоб зберегти його або надіслати деінде.</string>
+    <string name="media_file_pdf_page_description">Сторінка %1$d з %2$d</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">Файл не знайдено</string>
+    <string name="media_file_error_open_failed_title">Не вдалося відкрити файл</string>
+    <string name="media_file_error_unreadable">Не вдалося прочитати дані за цим шляхом на сервері.</string>
+    <string name="media_file_error_not_found">Можливо, його переміщено або видалено.</string>
+    <string name="media_file_error_unauthorized">Сервер не прийняв пароль цього пристрою.</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">Сервер не зміг прочитати файл (HTTP %1$d). Можливо, це папка.</string>
+    <string name="media_file_error_timed_out">Час очікування запиту минув.</string>
+    <string name="media_file_error_unexpected_response">Сервер надіслав неочікувану відповідь.</string>
+    <string name="media_file_error_over_limit">Файл перевищує ліміт розміру для завантаження.</string>
+    <string name="media_file_error_size_unknown">Сервер не повідомив розмір вкладення.</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">Завантаження…</string>
+    <string name="media_file_downloading_size">Завантаження %1$s</string>
+    <string name="media_file_downloading_progress">Завантаження %1$s з %2$s</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">0 КБ</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="one">%1$d байт</item>
+        <item quantity="few">%1$d байти</item>
+        <item quantity="many">%1$d байтів</item>
+        <item quantity="other">%1$d байта</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s КБ</string>
+    <string name="media_file_size_megabytes">%1$s МБ</string>
+    <string name="media_file_size_gigabytes">%1$s ГБ</string>
+    <string name="media_file_size_terabytes">%1$s ТБ</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">Не знайдено</string>
+    <string name="media_image_load_label">Завантажити зображення</string>
+    <string name="media_image_loading_state">Завантаження</string>
+    <string name="media_image_open_label">Відкрити зображення</string>
+    <string name="media_image_tap_to_load">Торкніться, щоб завантажити</string>
+    <string name="media_image_outside_project_value">Поза проєктом</string>
+    <string name="media_image_deferred_low_data_value">Відкладено через економію трафіку</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">Відкрити %1$s</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">Назад до сесії</string>
+    <string name="media_browser_ask_description">Запитати про цю сторінку</string>
+    <string name="media_browser_forward_description">Вперед</string>
+    <string name="media_browser_open_in_browser_description">Відкрити у веббраузері</string>
+    <string name="media_browser_scroll_to_top_label">Прокрутити на початок сторінки</string>
+    <string name="media_browser_ask_placeholder">Запитайте про цю сторінку</string>
+    <string name="media_browser_reply_needs_input">Потрібна ваша відповідь</string>
+    <string name="media_browser_reply_working">Працює</string>
+    <string name="media_browser_go_back_to_session_label">Повернутися до сесії</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">Відповідь готова</string>
+    <string name="media_browser_reply_back_to_read">· Назад, щоб прочитати</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">Сесія</string>
+    <string name="media_link_open_in_app_browser">Відкрити у вбудованому веббраузері</string>
+    <string name="media_link_open_in_browser">Відкрити у веббраузері</string>
+    <string name="media_link_open_in_app">Відкрити в застосунку</string>
+    <string name="media_link_copy">Копіювати посилання</string>
+    <string name="media_link_share">Поділитися…</string>
+    <string name="media_link_open_session">Відкрити сесію</string>
+    <string name="media_link_copy_session_id">Копіювати ID</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">Копіювати ID %1$s</string>
+    <string name="media_link_open_session_named_description">Відкрити сесію %1$s</string>
+    <string name="media_link_open_host_in_app_browser_description">Відкрити %1$s у вбудованому веббраузері</string>
+    <string name="media_link_open_host_in_browser_description">Відкрити %1$s у веббраузері</string>
+    <string name="media_link_open_host_in_app_description">Відкрити %1$s у застосунку</string>
+    <string name="media_link_copy_host_description">Копіювати посилання на %1$s</string>
+    <string name="media_link_share_host_description">Поділитися посиланням на %1$s</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%1$s на %2$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s, посилання %2$d</string>
+    <string name="media_link_more_links_description">Інші посилання</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">Відео</string>
+    <string name="media_link_preview_post">Допис</string>
+    <string name="media_link_preview_post_unavailable">Допис недоступний</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">Репозиторій</string>
+    <string name="media_github_kind_issue">Завдання</string>
+    <string name="media_github_kind_pull_request">Запит на злиття</string>
+    <string name="media_github_kind_commit">Коміт</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">Відкрито</string>
+    <string name="media_github_state_closed">Закрито</string>
+    <string name="media_github_state_merged">Злито</string>
+    <string name="media_github_state_draft">Чернетка</string>
+    <string name="media_github_state_completed">Завершено</string>
+    <string name="media_github_state_not_planned">Не заплановано</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">Діаграма, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">Перегляд діаграм</string>
+    <string name="media_mermaid_diagram_description">Діаграма</string>
+    <string name="media_mermaid_loading_state">%1$s, завантаження</string>
+    <string name="media_mermaid_view_source">Показати вихідний код</string>
+    <string name="media_mermaid_source_title">Вихідний код діаграми</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">Блок-схема</string>
+    <string name="media_mermaid_type_sequence">Діаграма послідовності</string>
+    <string name="media_mermaid_type_class">Діаграма класів</string>
+    <string name="media_mermaid_type_state">Діаграма станів</string>
+    <string name="media_mermaid_type_entity_relationship">Діаграма «сутність — зв’язок»</string>
+    <string name="media_mermaid_type_user_journey">Шлях користувача</string>
+    <string name="media_mermaid_type_gantt">Діаграма Ганта</string>
+    <string name="media_mermaid_type_pie">Кругова діаграма</string>
+    <string name="media_mermaid_type_quadrant">Квадрантна діаграма</string>
+    <string name="media_mermaid_type_requirement">Діаграма вимог</string>
+    <string name="media_mermaid_type_git_graph">Граф Git</string>
+    <string name="media_mermaid_type_c4">Діаграма C4</string>
+    <string name="media_mermaid_type_mind_map">Карта думок</string>
+    <string name="media_mermaid_type_timeline">Хронологія</string>
+    <string name="media_mermaid_type_sankey">Діаграма Санкі</string>
+    <string name="media_mermaid_type_xy_chart">Діаграма XY</string>
+    <string name="media_mermaid_type_block">Блокова діаграма</string>
+    <string name="media_mermaid_type_packet">Діаграма пакета</string>
+    <string name="media_mermaid_type_kanban">Канбан-дошка</string>
+    <string name="media_mermaid_type_architecture">Діаграма архітектури</string>
+    <string name="media_mermaid_type_radar">Пелюсткова діаграма</string>
+    <string name="media_mermaid_type_treemap">Деревоподібна карта</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

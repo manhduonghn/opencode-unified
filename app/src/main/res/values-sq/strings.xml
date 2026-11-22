@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Nuk u shtuan dot artikujt e ndarë</string>
+    <string name="app_alert_open_session_failed_title">Nuk u hap dot sesioni</string>
+    <string name="app_alert_pairing_failed_title">Nuk u çiftua dot me serverin</string>
+    <string name="app_pairing_confirm">Çifto</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Serverët</string>
+    <string name="app_servers_back_description">Kthehu te %1$s</string>
+    <string name="app_server_fallback_name">server</string>
+    <string name="app_connection_intro_new">Vazhdo sesionet e kodimit nga %1$s yt.</string>
+    <string name="app_connection_intro_returning">Vazhdo aty ku e le ose çifto një kompjuter tjetër.</string>
+    <string name="app_connection_enter_manually">Shto një server manualisht</string>
+    <string name="app_connection_scan_pairing_code">Skano kodin e çiftimit</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Në kompjuter, hap OpenCode dhe shko te Cilësimet → Çiftimi, ose ekzekuto opencode pair --remote në një terminal. Pastaj skano kodin me këtë %1$s.</string>
+    <string name="app_setup_install_title">Nuk e ke ende OpenCode?</string>
+    <string name="app_setup_other_ways_to_install">Mënyra të tjera instalimi</string>
+    <string name="app_setup_terminal_title">Ose ekzekuto këtë në një terminal</string>
+    <string name="app_setup_terminal_detail">Funksionon nga çdo rrjet.</string>
+    <string name="app_setup_paste_prompt">Ose kopjo lidhjen që shfaqet, pastaj</string>
+    <string name="app_setup_paste">Ngjit</string>
+    <string name="app_setup_copy_command_description">Kopjo %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Po lidhet</string>
+    <string name="app_servers_edit_description">Redakto %1$s</string>
+    <string name="app_servers_remove_description">Hiq %1$s</string>
+    <string name="app_servers_remove_confirm_title">Të hiqet %1$s?</string>
+    <string name="app_servers_remove_confirm_message">Kjo heq adresën dhe fjalëkalimin e ruajtur në këtë %1$s. Sesionet në server nuk preken.</string>
+    <string name="app_servers_remove_confirm">Hiq serverin</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Faza: %1$s</string>
+    <string name="app_error_server">Serveri: %1$s</string>
+    <string name="app_error_attempt">Përpjekja: %1$d</string>
+    <string name="app_error_copy_report">Kopjo raportin e gabimit</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Server i ri</string>
+    <string name="app_server_form_edit_title">Redakto serverin</string>
+    <string name="app_server_form_name">Emri</string>
+    <string name="app_server_form_address">Adresa e serverit</string>
+    <string name="app_server_form_username">Emri i përdoruesit</string>
+    <string name="app_server_form_password">Fjalëkalimi (opsionale)</string>
+    <string name="app_server_form_hide_password_description">Fshih fjalëkalimin</string>
+    <string name="app_server_form_show_password_description">Trego fjalëkalimin</string>
+    <string name="app_server_form_connect">Lidhu</string>
+    <string name="app_server_form_save_and_connect">Ruaj dhe lidhu</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Kryefushat</string>
+    <string name="app_server_form_header_name">Emri</string>
+    <string name="app_server_form_header_name_description">Emri i kryefushës %1$d</string>
+    <string name="app_server_form_header_value">Vlera</string>
+    <string name="app_server_form_header_value_description">Vlera e kryefushës %1$d</string>
+    <string name="app_server_form_header_remove_description">Hiq kryefushën %1$d</string>
+    <string name="app_server_form_header_add">Shto kryefushë</string>
+    <string name="app_server_form_headers_detail">Dërgohen me çdo kërkesë, për një ndërmjetës përpara serverit, si Cloudflare Access.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">“%1$s” nuk është emër i vlefshëm kryefushe</string>
+    <string name="app_server_form_header_invalid_value">Vlera e %1$s nuk mund të përmbajë kalim në rresht të ri</string>
+    <string name="app_server_form_name_placeholder">Opsionale</string>
+    <string name="app_connection_progress_pairing">Po çiftohet</string>
+    <string name="app_connection_progress_connecting">Po lidhet</string>
+    <string name="app_connection_progress_loading_sessions">Po ngarkohen sesionet</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Të çiftohet me %1$s?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode do të provojë %1$s dhe do të kalojë tek adresa e parë që përgjigjet.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode do të çiftohet me %1$s dhe do të kalojë tek ai.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode do të provojë %1$s dhe %2$s dhe do të kalojë tek adresa e parë që përgjigjet.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode do të provojë %1$s dhe %2$s dhe do të kalojë tek adresa e parë që përgjigjet.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Të dhënat e ruajtura të hyrjes për %2$s mund të zëvendësohen.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Çiftimi</string>
+    <string name="app_error_phase_connect">Lidhu</string>
+    <string name="app_error_phase_load_sessions">Ngarko sesionet</string>
+    <string name="app_error_candidate_detail">Kandidati %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Nuk disponohet (adresë e pavlefshme)</string>
+    <string name="app_error_title_pair">Nuk u çiftua dot</string>
+    <string name="app_error_title_load_sessions">Nuk u ngarkuan dot sesionet</string>
+    <string name="app_error_title_connect">Nuk u lidh dot me %1$s</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Kujtesa e fragmenteve është bosh</string>
+    <string name="app_paste_not_a_pairing_link">Kjo nuk është lidhje çiftimi</string>
+    <string name="app_server_no_longer_saved">Ky server nuk është më i ruajtur në këtë %1$s. Lidhu sërish me të për të hapur sesionin.</string>
+    <string name="app_session_no_longer_available">Mund të jetë fshirë, ose serveri mund të mos jetë i disponueshëm.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">U lidh me %1$s</string>
+    <string name="app_pairing_invalid_code">Ky nuk është kod çiftimi i OpenCode. Ekzekuto opencode pair --remote në kompjuter, pastaj skano kodin QR ose ngjit lidhjen që shfaqet.</string>
+    <string name="app_pairing_unusable_address">Nuk u përdor dot adresa “%1$s” nga ky kod çiftimi: ajo %2$s.</string>
+    <string name="app_pairing_loopback">Ky server pranon lidhje vetëm në localhost, ndaj ky %1$s nuk mund të lidhet me të. Ekzekuto opencode pair --remote në kompjuter, që të mund të lidhesh nga çdo rrjet.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Serveri ku ndave artikujt nuk është më i ruajtur në këtë pajisje. Lidhu sërish me të, pastaj ndaji përsëri.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">përdorur së fundi</string>
+    <string name="app_server_form_hint_new">Për çiftim, ngjit lidhjen që shfaq `opencode pair --remote`, ose përdor adresën dhe fjalëkalimin e serverit tënd OpenCode. Emri i përdoruesit zakonisht është opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Ndryshimet ruhen sapo të lidhet ky server. Ky server është çiftuar, ndaj fjalëkalimi i tij është një token sesioni; skano një kod të ri çiftimi në vend që ta ndryshosh.</string>
+    <string name="app_server_form_hint_edit">Ndryshimet ruhen sapo të lidhet ky server.</string>
+</resources>

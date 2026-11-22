@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent activity glyph -->
+    <string name="session_activity_running_description">En execució</string>
+    <!-- Background work panel -->
+    <string name="session_background_work_show_label">Mostra els subagents, scripts i intèrprets d\'ordres en execució</string>
+    <string name="session_background_work_collapsed_description">Replegat</string>
+    <string name="session_background_work_subagents_title">Subagents</string>
+    <string name="session_background_work_open_subagent_label">Obre la sessió del subagent</string>
+    <string name="session_background_work_shells_title">Intèrprets d\'ordres</string>
+    <string name="session_background_work_show_shell_label">Mostra la sortida de l\'intèrpret d\'ordres</string>
+    <!-- The session's images and videos, paged in the full-screen viewer -->
+    <string name="session_visual_attached_image">Imatge adjunta</string>
+    <string name="session_visual_tool_image">Imatge de l\'eina</string>
+    <string name="session_visual_image">Imatge</string>
+    <!-- One image of several: the image's label, then its place, as “Attached image 2 of 3” -->
+    <string name="session_visual_image_page_label">%1$s %2$d de %3$d</string>
+    <!-- A diagram's label, read by TalkBack. %1$s is its kind, as “Diagram, Flowchart” -->
+    <string name="session_visual_diagram_label">Diagrama, %1$s</string>
+    <!-- Jump to latest -->
+    <string name="session_scroll_to_latest_description">Ves a l\'últim</string>
+    <!-- Dictation bar -->
+    <string name="session_dictation_finishing_description">S\'està acabant el dictat</string>
+    <string name="session_dictation_stop_recording_description">Atura l\'enregistrament</string>
+    <string name="session_dictation_stop_recording_hint">Afegeix el text al missatge</string>
+    <string name="session_sending_message_description">S\'està enviant el missatge</string>
+    <string name="session_delivery_steer_label">Redirigeix al pas següent</string>
+    <string name="session_delivery_queue_label">Posa a la cua després d\'aquesta resposta</string>
+    <string name="session_delivery_steer">Redirigeix</string>
+    <string name="session_delivery_queue">Posa a la cua</string>
+    <!-- Draft project picker -->
+    <string name="session_draft_project_choose_label">Tria on comença la sessió</string>
+    <string name="session_project_choose_folder">Tria una carpeta…</string>
+    <string name="session_project_all_projects">Tots els projectes</string>
+    <string name="session_project_selected_description">Seleccionada</string>
+    <string name="session_project_picker_title">Projecte</string>
+    <!-- Folder browser -->
+    <string name="session_folder_select_description">Seleccioneu la carpeta</string>
+    <string name="session_folder_path_description">Camí</string>
+    <string name="session_folder_title">Carpeta</string>
+    <string name="session_folder_select">Selecciona</string>
+    <string name="session_folder_open_failed_title">No s\'ha pogut obrir la carpeta</string>
+    <string name="session_folder_empty_title">No hi ha carpetes</string>
+    <string name="session_folder_search_empty_title">No hi ha resultats per a «%1$s»</string>
+    <string name="session_folder_search_empty_message">Comprova l\'ortografia o prova una altra cerca.</string>
+    <!-- Server connection pill -->
+    <string name="session_server_edit">Edita el servidor…</string>
+    <!-- Starter prompts -->
+    <string name="session_starter_prompts_title">Prova de preguntar</string>
+    <string name="session_starter_prompt_pick_label">Escriu-ho al missatge</string>
+    <!-- Session sheet -->
+    <string name="session_sheet_rename_failed">No s\'ha pogut canviar el nom</string>
+    <string name="session_sheet_status_description">Estat</string>
+    <string name="session_rename_title">Canvia el nom de la sessió</string>
+    <string name="session_untitled_title">Sessió</string>
+    <string name="session_pin">Fixa</string>
+    <string name="session_pinned">Fixada</string>
+    <string name="session_unread">Sense llegir</string>
+    <string name="session_mute">Silencia</string>
+    <string name="session_muted">Silenciada</string>
+    <string name="session_compact">Compacte</string>
+    <string name="session_fork">Bifurca</string>
+    <string name="session_toggle_on_description">Activat</string>
+    <string name="session_toggle_off_description">Desactivat</string>
+    <string name="session_export">Exporta</string>
+    <string name="session_export_markdown">Markdown</string>
+    <string name="session_export_json">JSON</string>
+    <string name="session_sheet_model">Model</string>
+    <string name="session_sheet_context">Context</string>
+    <string name="session_sheet_unknown_description">Desconegut</string>
+    <string name="session_sheet_context_tokens">%1$s tokens</string>
+    <string name="session_sheet_cost">Cost</string>
+    <string name="session_sheet_media">Multimèdia</string>
+    <string name="session_sheet_media_value">Fitxers i enllaços</string>
+    <string name="session_always_notify">Notifica sempre</string>
+    <string name="session_always_notify_message_phone">Notifica en aquest mòbil quan s\'acabi una resposta, encara que no l\'hagis demanat des d\'aquí.</string>
+    <string name="session_always_notify_message_tablet">Notifica en aquesta tauleta quan s\'acabi una resposta, encara que no l\'hagis demanat des d\'aquí.</string>
+    <string name="session_delete_session">Suprimeix la sessió</string>
+    <string name="session_rename_placeholder">Títol</string>
+    <string name="session_auto_rename">Canvia el nom automàticament</string>
+    <string name="session_delete_confirm_title">Vols suprimir «%1$s»?</string>
+    <string name="session_delete_confirm_message">Això elimina la sessió del servidor per a tots els clients.</string>
+    <!-- Transcript -->
+    <string name="session_move_to_background">Mou al segon pla</string>
+    <string name="session_move_to_background_hint">Mantén la feina en curs en segon pla perquè l\'agent llegeixi el teu pròxim missatge</string>
+    <!-- Attachments -->
+    <string name="session_attachment_add_image_failed_title">No s\'ha pogut afegir la imatge</string>
+    <string name="session_attachment_upload">Puja</string>
+    <string name="session_attachment_remove_image_description">Elimina la imatge adjunta %1$d</string>
+    <string name="session_attachment_remove_description">Elimina %1$s</string>
+    <string name="session_attachment_file_description">Fitxer adjunt %1$s</string>
+    <string name="session_attachment_cancel_upload_description">Cancel·la la pujada de %1$s</string>
+    <string name="session_attachment_open_photo_label">Obre la foto a pantalla completa</string>
+    <string name="session_attachment_image_description">Imatge adjunta %1$d</string>
+    <string name="session_attachment_video_description">Vídeo adjunt %1$d</string>
+    <!-- Composer controls -->
+    <string name="session_answer_own_description">La teva pròpia resposta</string>
+    <string name="session_answer_own_type_label">Escriu o dicta la teva pròpia resposta</string>
+    <string name="session_answer_own_clear_label">Deixa de banda la teva resposta</string>
+    <string name="session_answer_own_choose_label">Respon amb les teves paraules</string>
+    <string name="session_answer_decline_with_words_label">Digues a l\'agent què ha de fer en lloc d\'això</string>
+    <string name="session_answer_required_description">Tria una resposta o escriu-ne una</string>
+    <string name="session_dictate_message_description">Dicta un missatge</string>
+    <string name="session_dictate_message_hint">Dicta el missatge o mantén premut per enregistrar-lo i enviar-lo</string>
+    <string name="session_send_waiting_for_uploads_description">S\'enviarà quan acabin les pujades</string>
+    <string name="session_steer_message_description">Redirigeix el missatge</string>
+    <string name="session_stopping_description">S\'està aturant</string>
+    <string name="session_start_voice_call">Inicia una trucada de veu</string>
+    <string name="session_dictation_stop_description">Atura el dictat</string>
+    <!-- Composer -->
+    <string name="session_requests_load_failed_title">No s\'han pogut carregar les sol·licituds</string>
+    <plurals name="session_queued_count">
+        <item quantity="one">%1$d en cua</item>
+        <item quantity="many">%1$d en cua</item>
+        <item quantity="other">%1$d en cua</item>
+    </plurals>
+    <string name="session_queued_show_label">Mostra els missatges que esperen que acabi aquesta resposta</string>
+    <plurals name="session_queued_messages_description">
+        <item quantity="one">%1$d missatge en cua</item>
+        <item quantity="many">%1$d missatges en cua</item>
+        <item quantity="other">%1$d missatges en cua</item>
+    </plurals>
+    <string name="session_dictation_preparing">S\'està preparant el dictat…</string>
+    <string name="session_message_placeholder">Missatge</string>
+    <!-- Session header -->
+    <string name="session_back_to_main_description">Torna a la sessió principal</string>
+    <string name="session_header_open_from_catch_up_label">Obre la sessió i surt de «Posa\'t al dia»</string>
+    <string name="session_header_show_details_label">Mostra els detalls de la sessió</string>
+    <string name="session_header_idle_description">Inactiu</string>
+    <string name="session_header_syncing_description">S\'està sincronitzant</string>
+    <string name="session_header_last_known_description">Últim estat conegut</string>
+    <string name="session_menu_more_description">Més</string>
+    <string name="session_unpin">Desfixa</string>
+    <string name="session_copy_session_id">Copia l\'ID de la sessió</string>
+    <string name="session_mark_as_read">Marca com a llegida</string>
+    <string name="session_mark_as_unread">Marca com a no llegida</string>
+    <string name="session_unmute">Deixa de silenciar</string>
+    <string name="session_menu_export_expanded_description">Desplegat</string>
+    <string name="session_menu_export_collapsed_description">Replegat</string>
+    <string name="session_info">Informació de la sessió</string>
+    <!-- Session screen -->
+    <string name="session_load_failed_title">No s\'ha pogut carregar la sessió</string>
+    <string name="session_location_share_failed_title">No s\'ha pogut compartir la ubicació</string>
+    <!-- Shell output -->
+    <string name="session_shell_stop_confirm_title">Vols aturar aquest intèrpret d\'ordres?</string>
+    <string name="session_shell_stop_confirm_message">L\'ordre s\'atura ara. La sortida es manté aquí fins que la tanquis.</string>
+    <string name="session_shell_stop">Atura l\'intèrpret d\'ordres</string>
+    <string name="session_shell_copy_output">Copia la sortida</string>
+    <string name="session_shell_share_output">Comparteix la sortida</string>
+    <string name="session_shell_earlier_output_hidden">Sortida anterior oculta</string>
+    <string name="session_shell_showing_last_output">Es mostren els últims 4 MB</string>
+    <string name="session_shell_load_earlier">Carrega la sortida anterior</string>
+    <string name="session_shell_output_unavailable_title">Sortida no disponible</string>
+    <string name="session_shell_output_unavailable_message">El servidor ja no té la sortida d\'aquest intèrpret d\'ordres.</string>
+    <string name="session_shell_no_output_yet_title">Encara no hi ha sortida</string>
+    <string name="session_shell_no_output_title">No hi ha sortida</string>
+    <string name="session_shell_no_output_yet_message">La sortida apareix aquí a mesura que l\'ordre l\'escriu.</string>
+    <string name="session_shell_status_stopping">S\'està aturant…</string>
+    <string name="session_shell_status_unavailable">No disponible</string>
+    <string name="session_shell_status_interrupted">Interromput</string>
+    <string name="session_shell_status_timed_out">Temps d\'espera esgotat</string>
+    <string name="session_shell_status_exited_with_code">Ha finalitzat amb el codi %1$d</string>
+    <string name="session_shell_status_exited">Ha finalitzat</string>
+    <plurals name="session_shell_elapsed_hours">
+        <item quantity="one">%1$d hora</item>
+        <item quantity="many">%1$d hores</item>
+        <item quantity="other">%1$d hores</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_minutes">
+        <item quantity="one">%1$d minut</item>
+        <item quantity="many">%1$d minuts</item>
+        <item quantity="other">%1$d minuts</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_seconds">
+        <item quantity="one">%1$d segon</item>
+        <item quantity="many">%1$d segons</item>
+        <item quantity="other">%1$d segons</item>
+    </plurals>
+
+    <!-- Agent activity (glyph labels and titles) -->
+    <string name="session_activity_idle">Inactiu</string>
+    <string name="session_activity_starting_up">S\'està iniciant</string>
+    <string name="session_activity_thinking">Pensant</string>
+    <string name="session_activity_long_work">Tasca llarga</string>
+    <string name="session_activity_tool_burst">Ràfega d\'eines</string>
+    <string name="session_activity_streaming_output">Emetent la sortida</string>
+    <string name="session_activity_waiting_for_input">Esperant la teva resposta</string>
+    <string name="session_activity_handing_off">Delegant</string>
+    <string name="session_activity_done">Fet</string>
+    <string name="session_activity_failed">Ha fallat</string>
+    <string name="session_working_stopping">S\'està aturant…</string>
+    <string name="session_status_working">Treballant</string>
+    <string name="session_status_needs_input">Cal la teva resposta</string>
+    <string name="session_status_done">Fet</string>
+
+    <!-- Lists: joins two or three phrases -->
+    <string name="session_list_two">%1$s, %2$s</string>
+    <string name="session_list_three">%1$s, %2$s, %3$s</string>
+
+    <!-- Background work panel -->
+    <plurals name="session_background_work_subagent_count">
+        <item quantity="one">%1$d subagent</item>
+        <item quantity="many">%1$d subagents</item>
+        <item quantity="other">%1$d subagents</item>
+    </plurals>
+    <plurals name="session_background_work_shell_count">
+        <item quantity="one">%1$d intèrpret d\'ordres</item>
+        <item quantity="many">%1$d intèrprets d\'ordres</item>
+        <item quantity="other">%1$d intèrprets d\'ordres</item>
+    </plurals>
+    <plurals name="session_background_work_script_count">
+        <item quantity="one">%1$d script</item>
+        <item quantity="many">%1$d scripts</item>
+        <item quantity="other">%1$d scripts</item>
+    </plurals>
+    <string name="session_background_work_summary">%1$s · %2$s</string>
+    <string name="session_background_work_scripts_title">Scripts</string>
+    <string name="session_background_work_stop_script_label">Atura l\'script</string>
+    <string name="session_background_work_stop_subagent_label">Atura el subagent</string>
+    <string name="session_background_work_stop_script_failed">No s\'ha pogut aturar l\'script</string>
+    <string name="session_background_work_stop_subagent_failed">No s\'ha pogut aturar el subagent</string>
+
+    <!-- Composer buttons -->
+    <string name="session_send_message_description">Envia el missatge</string>
+    <string name="session_stop_description">Atureu-vos</string>
+    <string name="session_start_voice_call_description">Inicia una trucada de veu</string>
+    <string name="session_model_level_default">Per defecte</string>
+
+    <!-- In-app notice -->
+    <plurals name="session_notice_session_count">
+        <item quantity="one">%1$d sessió</item>
+        <item quantity="many">%1$d sessions</item>
+        <item quantity="other">%1$d sessions</item>
+    </plurals>
+    <plurals name="session_notice_needs_input_count">
+        <item quantity="one">%1$d necessita la teva resposta</item>
+        <item quantity="many">%1$d necessiten la teva resposta</item>
+        <item quantity="other">%1$d necessiten la teva resposta</item>
+    </plurals>
+    <string name="session_notice_announcement">%1$s, %2$s</string>
+
+    <!-- Server connection pill -->
+    <string name="session_server_reconnecting">S\'està reconnectant a %1$s…</string>
+    <string name="session_server_connect_failed">No s\'ha pogut connectar a %1$s</string>
+    <string name="session_server_sign_in_failed">No s\'ha pogut iniciar sessió a %1$s</string>
+    <string name="session_server_pair_again">Torna a aparellar</string>
+    <string name="session_server_try_again_click_label">torna-ho a provar</string>
+    <string name="session_server_pair_again_click_label">torna a aparellar</string>
+
+    <!-- Export -->
+    <string name="session_export_folder_failed">No s\'ha pogut crear la carpeta d\'exportació</string>
+    <string name="session_export_save_failed">No s\'ha pogut desar l\'exportació</string>
+
+    <!-- Session errors -->
+    <string name="session_agent_fallback_name">Agent</string>
+    <string name="session_something_went_wrong">Alguna cosa ha anat malament</string>
+    <string name="session_something_went_wrong_sentence">Alguna cosa ha anat malament.</string>
+    <string name="session_load_earlier_failed">No s\'han pogut carregar els missatges anteriors</string>
+    <string name="session_move_to_background_failed">No s\'ha pogut moure al segon pla: %1$s</string>
+    <string name="session_move_failed_reason">No s\'ha pogut moure la sessió</string>
+    <string name="session_delivery_waiting_to_send">Pendent d\'enviament</string>
+    <string name="session_create_failed">No s\'ha pogut crear la sessió.</string>
+    <string name="session_switch_agent_failed">No s\'ha pogut canviar d\'agent: %1$s</string>
+    <string name="session_switch_model_failed">No s\'ha pogut canviar de model: %1$s</string>
+    <string name="session_pending_send_now_failed_details">No s\'ha pogut enviar ara el missatge pendent: %1$s</string>
+    <string name="session_pending_cancel_failed_details">No s\'ha pogut cancel·lar el missatge pendent: %1$s</string>
+    <string name="session_pending_queue_failed_details">No s\'ha pogut posar a la cua el missatge pendent: %1$s</string>
+    <string name="session_stopped_before_sent">Interromput abans d\'enviar-se</string>
+    <string name="session_stop_failed">No s\'ha pogut aturar la sessió</string>
+    <string name="session_undo_message_failed">No s\'ha pogut desfer el missatge: %1$s</string>
+    <string name="session_revert_failed">No s\'ha pogut revertir</string>
+    <string name="session_revert_failed_details">No s\'ha pogut revertir: %1$s</string>
+
+    <!-- Session sheet errors -->
+    <string name="session_sheet_rename_failed_title">No s\'ha pogut canviar el nom de la sessió</string>
+    <string name="session_sheet_compact_failed_title">No s\'ha pogut compactar la sessió</string>
+    <string name="session_sheet_fork_failed_title">No s\'ha pogut bifurcar la sessió</string>
+    <string name="session_sheet_save_export_failed">No s\'ha pogut desar l\'exportació</string>
+    <string name="session_sheet_export_failed_title">No s\'ha pogut exportar la sessió</string>
+    <string name="session_sheet_notifications_off_message">Activa primer les notificacions a Configuració.</string>
+    <string name="session_sheet_always_notify_on_failed_title">No s\'ha pogut activar «Notifica sempre»</string>
+    <string name="session_sheet_always_notify_off_failed_title">No s\'ha pogut desactivar «Notifica sempre»</string>
+
+    <!-- Attachments -->
+    <string name="session_attachment_files_unsupported">El servidor no admet fitxers</string>
+    <string name="session_attachment_upload_failed">No s\'ha pogut pujar</string>
+    <string name="session_attachment_file_fallback_name">Fitxer</string>
+    <string name="session_attachment_image_too_large">Tria una imatge de menys de 20 MB.</string>
+    <string name="session_attachment_image_load_failed">No s\'ha pogut carregar aquesta imatge. Prova amb una altra foto.</string>
+    <string name="session_attachment_file_add_failed">No s\'ha pogut afegir aquest fitxer. Prova amb un altre fitxer.</string>
+    <plurals name="session_attachment_files_add_failed">
+        <item quantity="one">No s\'ha pogut afegir %1$d fitxer.</item>
+        <item quantity="many">No s\'han pogut afegir %1$d fitxers.</item>
+        <item quantity="other">No s\'han pogut afegir %1$d fitxers.</item>
+    </plurals>
+    <string name="session_large_upload_title">Vols pujar %1$s?</string>
+    <string name="session_large_upload_message_one">«%1$s» és un fitxer gran. El missatge s\'enviarà quan s\'acabi de pujar al teu servidor.</string>
+    <plurals name="session_large_upload_message_many">
+        <item quantity="one">%1$d fitxer és gran. El missatge s\'enviarà quan s\'acabi de pujar al teu servidor.</item>
+        <item quantity="many">%1$d fitxers són grans. El missatge s\'enviarà quan s\'acabin de pujar al teu servidor.</item>
+        <item quantity="other">%1$d fitxers són grans. El missatge s\'enviarà quan s\'acabin de pujar al teu servidor.</item>
+    </plurals>
+
+    <!-- Header and screens -->
+    <string name="session_new_session_title">Nova sessió</string>
+    <string name="session_pasted_text_screen_title">Text enganxat</string>
+    <string name="session_pasted_text_viewer_screen_title">Visor de text enganxat</string>
+    <string name="session_context_summary">%1$d%% de %2$s</string>
+    <string name="session_context_accessibility_value">S\'ha utilitzat el %1$d%% de %2$s tokens</string>
+
+    <!-- Starter prompts (shown, then sent as the person’s message) -->
+    <string name="session_starter_project_purpose">Què fa aquest projecte?</string>
+    <string name="session_starter_code_tour">Fes-me una visita ràpida pel codi</string>
+    <string name="session_starter_recent_changes">Què ha canviat aquí últimament?</string>
+
+    <!-- Shell output -->
+    <string name="session_shell_refresh_failed">No s\'ha pogut actualitzar la sortida</string>
+    <string name="session_shell_load_earlier_failed">No s\'ha pogut carregar la sortida anterior</string>
+    <string name="session_shell_stop_failed">No s\'ha pogut aturar l\'intèrpret d\'ordres</string>
+    <string name="session_quote_remove_description">Elimina la cita</string>
+    <string name="session_quote_comment_placeholder">Afegeix un comentari opcional…</string>
+    <string name="session_media_title">Multimèdia de la sessió</string>
+    <string name="session_media_filter_media">Multimèdia</string>
+    <string name="session_media_filter_files">Fitxers</string>
+    <string name="session_media_filter_links">Enllaços</string>
+    <string name="session_media_layout_description">Disposició del contingut multimèdia</string>
+    <string name="session_media_layout_tiles">Mosaics</string>
+    <string name="session_media_layout_list">Llista</string>
+    <string name="session_media_origin_user">Enviat per tu</string>
+    <string name="session_media_origin_agent">Compartit per l\'agent</string>
+    <string name="session_media_open_click_label">Obre</string>
+    <string name="session_media_open_link_click_label">Obre l\'enllaç</string>
+    <string name="session_media_empty_media_title">No hi ha contingut multimèdia</string>
+    <string name="session_media_empty_media_message">Les imatges, els vídeos i l\'àudio compartits en aquesta sessió apareixeran aquí.</string>
+    <string name="session_media_empty_files_title">No hi ha fitxers</string>
+    <string name="session_media_empty_files_message">Els documents i el text enganxat d\'aquesta sessió apareixeran aquí.</string>
+    <string name="session_media_empty_links_title">No hi ha enllaços</string>
+    <string name="session_media_empty_links_message">Els enllaços web compartits en aquesta sessió apareixeran aquí.</string>
+    <string name="session_media_earlier_note">Els missatges anteriors encara no s\'han carregat.</string>
+    <string name="session_media_load_earlier">Carrega els missatges anteriors</string>
+    <string name="session_media_loading_earlier">Carregant…</string>
+    <string name="session_media_earlier_failed">No s\'han pogut carregar els missatges anteriors. Comprova la connexió i torna-ho a provar.</string>
+    <string name="session_media_earlier_nothing_new">Als missatges que s\'acaben de carregar no hi ha res de nou. Els anteriors potser en tenen més.</string>
+</resources>

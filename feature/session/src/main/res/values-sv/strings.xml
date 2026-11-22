@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent activity glyph -->
+    <string name="session_activity_running_description">Körs</string>
+    <!-- Background work panel -->
+    <string name="session_background_work_show_label">Visa underagenter, skript och skal som körs</string>
+    <string name="session_background_work_collapsed_description">Hopfälld</string>
+    <string name="session_background_work_subagents_title">Underagenter</string>
+    <string name="session_background_work_open_subagent_label">Öppna underagentens session</string>
+    <string name="session_background_work_shells_title">Skal</string>
+    <string name="session_background_work_show_shell_label">Visa skalets utdata</string>
+    <!-- The session's images and videos, paged in the full-screen viewer -->
+    <string name="session_visual_attached_image">Bifogad bild</string>
+    <string name="session_visual_tool_image">Verktygsbild</string>
+    <string name="session_visual_image">Bild</string>
+    <!-- One image of several: the image's label, then its place, as “Attached image 2 of 3” -->
+    <string name="session_visual_image_page_label">%1$s %2$d av %3$d</string>
+    <!-- A diagram's label, read by TalkBack. %1$s is its kind, as “Diagram, Flowchart” -->
+    <string name="session_visual_diagram_label">Diagram, %1$s</string>
+    <!-- Jump to latest -->
+    <string name="session_scroll_to_latest_description">Rulla till senaste</string>
+    <!-- Dictation bar -->
+    <string name="session_dictation_finishing_description">Avslutar diktering</string>
+    <string name="session_dictation_stop_recording_description">Stoppa inspelning</string>
+    <string name="session_dictation_stop_recording_hint">Infoga orden i ditt meddelande</string>
+    <string name="session_sending_message_description">Skickar meddelande</string>
+    <string name="session_delivery_steer_label">Styr vid nästa steg</string>
+    <string name="session_delivery_queue_label">Lägg i kö efter detta svar</string>
+    <string name="session_delivery_steer">Styr</string>
+    <string name="session_delivery_queue">Lägg i kö</string>
+    <!-- Draft project picker -->
+    <string name="session_draft_project_choose_label">Välj var sessionen ska starta</string>
+    <string name="session_project_choose_folder">Välj mapp…</string>
+    <string name="session_project_all_projects">Alla projekt</string>
+    <string name="session_project_selected_description">Vald</string>
+    <string name="session_project_picker_title">Projekt</string>
+    <!-- Folder browser -->
+    <string name="session_folder_select_description">Välj mapp</string>
+    <string name="session_folder_path_description">Sökväg</string>
+    <string name="session_folder_title">Mapp</string>
+    <string name="session_folder_select">Välj</string>
+    <string name="session_folder_open_failed_title">Kunde inte öppna mappen</string>
+    <string name="session_folder_empty_title">Inga mappar</string>
+    <string name="session_folder_search_empty_title">Inga resultat för ”%1$s”</string>
+    <string name="session_folder_search_empty_message">Kontrollera stavningen eller prova en ny sökning.</string>
+    <!-- Server connection pill -->
+    <string name="session_server_edit">Redigera server…</string>
+    <!-- Starter prompts -->
+    <string name="session_starter_prompts_title">Prova att fråga</string>
+    <string name="session_starter_prompt_pick_label">Infoga i meddelandet</string>
+    <!-- Session sheet -->
+    <string name="session_sheet_rename_failed">Kunde inte byta namn</string>
+    <string name="session_sheet_status_description">Status</string>
+    <string name="session_rename_title">Byt namn på sessionen</string>
+    <string name="session_untitled_title">Session</string>
+    <string name="session_pin">Fäst</string>
+    <string name="session_pinned">Fäst</string>
+    <string name="session_unread">Oläst</string>
+    <string name="session_mute">Tysta</string>
+    <string name="session_muted">Tystad</string>
+    <string name="session_compact">Kompakt</string>
+    <string name="session_fork">Förgrena</string>
+    <string name="session_toggle_on_description">På</string>
+    <string name="session_toggle_off_description">Av</string>
+    <string name="session_export">Exportera</string>
+    <string name="session_export_markdown">Markdown</string>
+    <string name="session_export_json">JSON</string>
+    <string name="session_sheet_model">Modell</string>
+    <string name="session_sheet_context">Kontext</string>
+    <string name="session_sheet_unknown_description">okänd</string>
+    <string name="session_sheet_context_tokens">%1$s token</string>
+    <string name="session_sheet_cost">Kostnad</string>
+    <string name="session_sheet_media">Media</string>
+    <string name="session_sheet_media_value">Filer och länkar</string>
+    <string name="session_always_notify">Meddela alltid</string>
+    <string name="session_always_notify_message_phone">Meddela den här telefonen när ett svar är klart, även om meddelandet skickades från en annan enhet.</string>
+    <string name="session_always_notify_message_tablet">Meddela den här surfplattan när ett svar är klart, även om meddelandet skickades från en annan enhet.</string>
+    <string name="session_delete_session">Ta bort session</string>
+    <string name="session_rename_placeholder">Titel</string>
+    <string name="session_auto_rename">Byt namn automatiskt</string>
+    <string name="session_delete_confirm_title">Radera ”%1$s”?</string>
+    <string name="session_delete_confirm_message">Sessionen tas bort från servern för alla klienter.</string>
+    <!-- Transcript -->
+    <string name="session_move_to_background">Flytta till bakgrunden</string>
+    <string name="session_move_to_background_hint">Låt arbetet fortsätta i bakgrunden så att agenten kan läsa ditt nästa meddelande</string>
+    <!-- Attachments -->
+    <string name="session_attachment_add_image_failed_title">Kunde inte lägga till bilden</string>
+    <string name="session_attachment_upload">Ladda upp</string>
+    <string name="session_attachment_remove_image_description">Ta bort bildbilaga %1$d</string>
+    <string name="session_attachment_remove_description">Ta bort %1$s</string>
+    <string name="session_attachment_file_description">Filbilaga %1$s</string>
+    <string name="session_attachment_cancel_upload_description">Avbryt uppladdning av %1$s</string>
+    <string name="session_attachment_open_photo_label">Öppna fotot i helskärm</string>
+    <string name="session_attachment_image_description">Bildbilaga %1$d</string>
+    <string name="session_attachment_video_description">Videobilaga %1$d</string>
+    <!-- Composer controls -->
+    <string name="session_answer_own_description">Ditt eget svar</string>
+    <string name="session_answer_own_type_label">Skriv eller diktera ditt eget svar</string>
+    <string name="session_answer_own_clear_label">Lägg ditt svar åt sidan</string>
+    <string name="session_answer_own_choose_label">Svara med egna ord</string>
+    <string name="session_answer_decline_with_words_label">Säg vad agenten ska göra i stället</string>
+    <string name="session_answer_required_description">Välj ett svar eller skriv ett eget</string>
+    <string name="session_dictate_message_description">Diktera meddelande</string>
+    <string name="session_dictate_message_hint">Diktera ditt meddelande, eller tryck och håll för att spela in och skicka</string>
+    <string name="session_send_waiting_for_uploads_description">Skickas när uppladdningarna är klara</string>
+    <string name="session_steer_message_description">Styr meddelande</string>
+    <string name="session_stopping_description">Stoppar</string>
+    <string name="session_start_voice_call">Starta röstsamtal</string>
+    <string name="session_dictation_stop_description">Stoppa diktering</string>
+    <!-- Composer -->
+    <string name="session_requests_load_failed_title">Kunde inte ladda förfrågningar</string>
+    <plurals name="session_queued_count">
+        <item quantity="one">%1$d i kö</item>
+        <item quantity="other">%1$d i kö</item>
+    </plurals>
+    <string name="session_queued_show_label">Visa meddelanden som väntar på att svaret ska bli klart</string>
+    <plurals name="session_queued_messages_description">
+        <item quantity="one">%1$d meddelande i kö</item>
+        <item quantity="other">%1$d meddelanden i kö</item>
+    </plurals>
+    <string name="session_dictation_preparing">Förbereder diktering…</string>
+    <string name="session_message_placeholder">Meddelande</string>
+    <!-- Session header -->
+    <string name="session_back_to_main_description">Tillbaka till huvudsessionen</string>
+    <string name="session_header_open_from_catch_up_label">Öppna sessionen och avsluta Läs ikapp</string>
+    <string name="session_header_show_details_label">Visa sessionsdetaljer</string>
+    <string name="session_header_idle_description">Inaktiv</string>
+    <string name="session_header_syncing_description">Synkroniserar</string>
+    <string name="session_header_last_known_description">Senast kända</string>
+    <string name="session_menu_more_description">Mer</string>
+    <string name="session_unpin">Lossa</string>
+    <string name="session_copy_session_id">Kopiera sessions-ID</string>
+    <string name="session_mark_as_read">Markera som läst</string>
+    <string name="session_mark_as_unread">Markera som oläst</string>
+    <string name="session_unmute">Slå på aviseringar</string>
+    <string name="session_menu_export_expanded_description">Utfälld</string>
+    <string name="session_menu_export_collapsed_description">Hopfälld</string>
+    <string name="session_info">Sessionsinfo</string>
+    <!-- Session screen -->
+    <string name="session_load_failed_title">Kunde inte ladda sessionen</string>
+    <string name="session_location_share_failed_title">Kunde inte dela platsen</string>
+    <!-- Shell output -->
+    <string name="session_shell_stop_confirm_title">Stoppa det här skalet?</string>
+    <string name="session_shell_stop_confirm_message">Kommandot avslutas nu. Det som visas här finns kvar tills du stänger skalet.</string>
+    <string name="session_shell_stop">Stoppa skal</string>
+    <string name="session_shell_copy_output">Kopiera utdata</string>
+    <string name="session_shell_share_output">Dela utdata</string>
+    <string name="session_shell_earlier_output_hidden">Tidigare utdata dolda</string>
+    <string name="session_shell_showing_last_output">Visar de sista 4 MB</string>
+    <string name="session_shell_load_earlier">Ladda tidigare</string>
+    <string name="session_shell_output_unavailable_title">Utdata saknas</string>
+    <string name="session_shell_output_unavailable_message">Servern har inte längre kvar skalets utdata.</string>
+    <string name="session_shell_no_output_yet_title">Inga utdata än</string>
+    <string name="session_shell_no_output_title">Inga utdata</string>
+    <string name="session_shell_no_output_yet_message">Utdata visas här när kommandot skriver dem.</string>
+    <string name="session_shell_status_stopping">Stoppar…</string>
+    <string name="session_shell_status_unavailable">Inte tillgänglig</string>
+    <string name="session_shell_status_interrupted">Avbruten</string>
+    <string name="session_shell_status_timed_out">Tidsgränsen överskreds</string>
+    <string name="session_shell_status_exited_with_code">Avslutades med kod %1$d</string>
+    <string name="session_shell_status_exited">Avslutad</string>
+    <plurals name="session_shell_elapsed_hours">
+        <item quantity="one">%1$d timme</item>
+        <item quantity="other">%1$d timmar</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_minutes">
+        <item quantity="one">%1$d minut</item>
+        <item quantity="other">%1$d minuter</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_seconds">
+        <item quantity="one">%1$d sekund</item>
+        <item quantity="other">%1$d sekunder</item>
+    </plurals>
+
+    <!-- Agent activity (glyph labels and titles) -->
+    <string name="session_activity_idle">Inaktiv</string>
+    <string name="session_activity_starting_up">Startar</string>
+    <string name="session_activity_thinking">Tänker</string>
+    <string name="session_activity_long_work">Långvarigt arbete</string>
+    <string name="session_activity_tool_burst">Täta verktygsanrop</string>
+    <string name="session_activity_streaming_output">Strömmar utdata</string>
+    <string name="session_activity_waiting_for_input">Väntar på svar</string>
+    <string name="session_activity_handing_off">Lämnar över</string>
+    <string name="session_activity_done">Klart</string>
+    <string name="session_activity_failed">Misslyckades</string>
+    <string name="session_working_stopping">Stoppar…</string>
+    <string name="session_status_working">Arbetar</string>
+    <string name="session_status_needs_input">Behöver ditt svar</string>
+    <string name="session_status_done">Klart</string>
+
+    <!-- Lists: joins two or three phrases -->
+    <string name="session_list_two">%1$s, %2$s</string>
+    <string name="session_list_three">%1$s, %2$s, %3$s</string>
+
+    <!-- Background work panel -->
+    <plurals name="session_background_work_subagent_count">
+        <item quantity="one">%1$d underagent</item>
+        <item quantity="other">%1$d underagenter</item>
+    </plurals>
+    <plurals name="session_background_work_shell_count">
+        <item quantity="one">%1$d skal</item>
+        <item quantity="other">%1$d skal</item>
+    </plurals>
+    <plurals name="session_background_work_script_count">
+        <item quantity="one">%1$d skript</item>
+        <item quantity="other">%1$d skript</item>
+    </plurals>
+    <string name="session_background_work_summary">%1$s · %2$s</string>
+    <string name="session_background_work_scripts_title">Skript</string>
+    <string name="session_background_work_stop_script_label">Stoppa skript</string>
+    <string name="session_background_work_stop_subagent_label">Stoppa underagent</string>
+    <string name="session_background_work_stop_script_failed">Kunde inte stoppa skriptet</string>
+    <string name="session_background_work_stop_subagent_failed">Kunde inte stoppa underagenten</string>
+
+    <!-- Composer buttons -->
+    <string name="session_send_message_description">Skicka meddelande</string>
+    <string name="session_stop_description">Stoppa</string>
+    <string name="session_start_voice_call_description">Starta röstsamtal</string>
+    <string name="session_model_level_default">Standard</string>
+
+    <!-- In-app notice -->
+    <plurals name="session_notice_session_count">
+        <item quantity="one">%1$d session</item>
+        <item quantity="other">%1$d sessioner</item>
+    </plurals>
+    <plurals name="session_notice_needs_input_count">
+        <item quantity="one">%1$d behöver ditt svar</item>
+        <item quantity="other">%1$d behöver ditt svar</item>
+    </plurals>
+    <string name="session_notice_announcement">%1$s, %2$s</string>
+
+    <!-- Server connection pill -->
+    <string name="session_server_reconnecting">Återansluter till %1$s…</string>
+    <string name="session_server_connect_failed">Kunde inte ansluta till %1$s</string>
+    <string name="session_server_sign_in_failed">Kunde inte logga in på %1$s</string>
+    <string name="session_server_pair_again">Para ihop igen</string>
+    <string name="session_server_try_again_click_label">försök igen</string>
+    <string name="session_server_pair_again_click_label">para ihop igen</string>
+
+    <!-- Export -->
+    <string name="session_export_folder_failed">Kunde inte skapa exportmappen</string>
+    <string name="session_export_save_failed">Kunde inte spara exporten</string>
+
+    <!-- Session errors -->
+    <string name="session_agent_fallback_name">Agent</string>
+    <string name="session_something_went_wrong">Något gick fel</string>
+    <string name="session_something_went_wrong_sentence">Något gick fel.</string>
+    <string name="session_load_earlier_failed">Kunde inte ladda tidigare meddelanden</string>
+    <string name="session_move_to_background_failed">Kunde inte flytta till bakgrunden: %1$s</string>
+    <string name="session_move_failed_reason">Kunde inte flytta sessionen</string>
+    <string name="session_delivery_waiting_to_send">Väntar på att skickas</string>
+    <string name="session_create_failed">Kunde inte skapa sessionen.</string>
+    <string name="session_switch_agent_failed">Kunde inte byta agent: %1$s</string>
+    <string name="session_switch_model_failed">Kunde inte byta modell: %1$s</string>
+    <string name="session_pending_send_now_failed_details">Kunde inte skicka det väntande meddelandet nu: %1$s</string>
+    <string name="session_pending_cancel_failed_details">Kunde inte avbryta det väntande meddelandet: %1$s</string>
+    <string name="session_pending_queue_failed_details">Kunde inte lägga det väntande meddelandet i kö: %1$s</string>
+    <string name="session_stopped_before_sent">Avbröts innan det skickades</string>
+    <string name="session_stop_failed">Kunde inte stoppa sessionen</string>
+    <string name="session_undo_message_failed">Kunde inte ångra meddelandet: %1$s</string>
+    <string name="session_revert_failed">Kunde inte återställa</string>
+    <string name="session_revert_failed_details">Kunde inte återställa: %1$s</string>
+
+    <!-- Session sheet errors -->
+    <string name="session_sheet_rename_failed_title">Kunde inte byta namn på sessionen</string>
+    <string name="session_sheet_compact_failed_title">Kunde inte komprimera sessionen</string>
+    <string name="session_sheet_fork_failed_title">Kunde inte förgrena sessionen</string>
+    <string name="session_sheet_save_export_failed">Kunde inte spara exporten</string>
+    <string name="session_sheet_export_failed_title">Kunde inte exportera sessionen</string>
+    <string name="session_sheet_notifications_off_message">Slå först på aviseringar i inställningarna.</string>
+    <string name="session_sheet_always_notify_on_failed_title">Kunde inte slå på Meddela alltid</string>
+    <string name="session_sheet_always_notify_off_failed_title">Kunde inte slå av Meddela alltid</string>
+
+    <!-- Attachments -->
+    <string name="session_attachment_files_unsupported">Servern stöder inte filer</string>
+    <string name="session_attachment_upload_failed">Kunde inte ladda upp</string>
+    <string name="session_attachment_file_fallback_name">Fil</string>
+    <string name="session_attachment_image_too_large">Välj en bild som är mindre än 20 MB.</string>
+    <string name="session_attachment_image_load_failed">Kunde inte ladda bilden. Prova ett annat foto.</string>
+    <string name="session_attachment_file_add_failed">Kunde inte lägga till filen. Prova en annan fil.</string>
+    <plurals name="session_attachment_files_add_failed">
+        <item quantity="one">%1$d fil kunde inte läggas till.</item>
+        <item quantity="other">%1$d filer kunde inte läggas till.</item>
+    </plurals>
+    <string name="session_large_upload_title">Ladda upp %1$s?</string>
+    <string name="session_large_upload_message_one">”%1$s” är en stor fil. Meddelandet skickas när uppladdningen till din server är klar.</string>
+    <plurals name="session_large_upload_message_many">
+        <item quantity="one">%1$d fil är stor. Meddelandet skickas när uppladdningen till din server är klar.</item>
+        <item quantity="other">%1$d filer är stora. Meddelandet skickas när uppladdningen till din server är klar.</item>
+    </plurals>
+
+    <!-- Header and screens -->
+    <string name="session_new_session_title">Ny session</string>
+    <string name="session_pasted_text_screen_title">Inklistrad text</string>
+    <string name="session_pasted_text_viewer_screen_title">Visare för inklistrad text</string>
+    <string name="session_context_summary">%1$d%% av %2$s</string>
+    <string name="session_context_accessibility_value">%1$d%% av %2$s token används</string>
+
+    <!-- Starter prompts (shown, then sent as the person’s message) -->
+    <string name="session_starter_project_purpose">Vad gör det här projektet?</string>
+    <string name="session_starter_code_tour">Ge mig en snabb genomgång av koden</string>
+    <string name="session_starter_recent_changes">Vad har ändrats här på sistone?</string>
+
+    <!-- Shell output -->
+    <string name="session_shell_refresh_failed">Kunde inte uppdatera utdata</string>
+    <string name="session_shell_load_earlier_failed">Kunde inte ladda tidigare utdata</string>
+    <string name="session_shell_stop_failed">Kunde inte stoppa skalet</string>
+    <string name="session_quote_remove_description">Ta bort citat</string>
+    <string name="session_quote_comment_placeholder">Lägg till en kommentar (valfritt)…</string>
+    <string name="session_media_title">Sessionsmedia</string>
+    <string name="session_media_filter_media">Media</string>
+    <string name="session_media_filter_files">Filer</string>
+    <string name="session_media_filter_links">Länkar</string>
+    <string name="session_media_layout_description">Medielayout</string>
+    <string name="session_media_layout_tiles">Rutor</string>
+    <string name="session_media_layout_list">Lista</string>
+    <string name="session_media_origin_user">Skickat av dig</string>
+    <string name="session_media_origin_agent">Delat av agenten</string>
+    <string name="session_media_open_click_label">Öppna</string>
+    <string name="session_media_open_link_click_label">Öppna länk</string>
+    <string name="session_media_empty_media_title">Inga media</string>
+    <string name="session_media_empty_media_message">Bilder, videor och ljud som delas i den här sessionen visas här.</string>
+    <string name="session_media_empty_files_title">Inga filer</string>
+    <string name="session_media_empty_files_message">Dokument och inklistrad text från den här sessionen visas här.</string>
+    <string name="session_media_empty_links_title">Inga länkar</string>
+    <string name="session_media_empty_links_message">Webblänkar som delas i den här sessionen visas här.</string>
+    <string name="session_media_earlier_note">Tidigare meddelanden har inte lästs in ännu.</string>
+    <string name="session_media_load_earlier">Ladda tidigare meddelanden</string>
+    <string name="session_media_loading_earlier">Laddar…</string>
+    <string name="session_media_earlier_failed">Kunde inte ladda tidigare meddelanden. Kontrollera anslutningen och försök igen.</string>
+    <string name="session_media_earlier_nothing_new">Inget nytt bland de meddelanden som just laddades. Tidigare meddelanden kan innehålla mer.</string>
+</resources>

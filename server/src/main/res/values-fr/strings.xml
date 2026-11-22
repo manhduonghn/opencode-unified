@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Shell</string>
+    <string name="server_notice_source_subagent">Sous-agent</string>
+    <string name="server_notice_heading_finished">%1$s terminé</string>
+    <string name="server_notice_heading_failed">%1$s en échec</string>
+    <string name="server_notice_heading_interrupted">%1$s interrompu</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$d shell terminé</item>
+        <item quantity="many">%1$d shells terminés</item>
+        <item quantity="other">%1$d shells terminés</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$d shell en échec</item>
+        <item quantity="many">%1$d shells en échec</item>
+        <item quantity="other">%1$d shells en échec</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">%1$d shell interrompu</item>
+        <item quantity="many">%1$d shells interrompus</item>
+        <item quantity="other">%1$d shells interrompus</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">%1$d sous-agent terminé</item>
+        <item quantity="many">%1$d sous-agents terminés</item>
+        <item quantity="other">%1$d sous-agents terminés</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">%1$d sous-agent en échec</item>
+        <item quantity="many">%1$d sous-agents en échec</item>
+        <item quantity="other">%1$d sous-agents en échec</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">%1$d sous-agent interrompu</item>
+        <item quantity="many">%1$d sous-agents interrompus</item>
+        <item quantity="other">%1$d sous-agents interrompus</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Compacter</string>
+    <string name="server_run_error_action_switch_model">Changer de modèle</string>
+    <string name="server_run_error_aborted">Interrompu</string>
+    <string name="server_run_error_permission_rejected">Interrompu après une demande refusée</string>
+    <string name="server_run_error_content_filter">Le filtre de sécurité a bloqué la réponse</string>
+    <string name="server_run_error_rate_limit">Limite de requêtes atteinte</string>
+    <string name="server_run_error_quota">Limite d’utilisation atteinte</string>
+    <string name="server_run_error_auth">Le fournisseur a rejeté sa clé</string>
+    <string name="server_run_error_context_overflow">Session trop longue pour ce modèle</string>
+    <string name="server_run_error_invalid_request">Le fournisseur a rejeté la demande</string>
+    <string name="server_run_error_overloaded">Le modèle est surchargé</string>
+    <string name="server_run_error_internal">Le fournisseur a rencontré un problème</string>
+    <string name="server_run_error_transport">Connexion au modèle interrompue</string>
+    <string name="server_run_error_timeout">Le modèle a mis trop de temps à répondre</string>
+    <string name="server_run_error_invalid_output">Impossible de lire la réponse du modèle</string>
+    <string name="server_run_error_unavailable">Ce modèle n’est pas disponible</string>
+    <string name="server_run_error_unsupported_operation">Ce modèle ne peut pas faire cela</string>
+    <string name="server_run_error_tool_execution">L’échec d’un outil a arrêté l’exécution</string>
+    <string name="server_run_error_other">L’exécution s’est arrêtée sur une erreur</string>
+    <string name="server_run_retry_in_seconds">%1$s · nouvelle tentative dans %2$d s</string>
+    <string name="server_run_retry_now">%1$s · nouvelle tentative</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">Impossible de joindre le serveur OpenCode</string>
+    <string name="server_error_folder_gone">Le dossier n’existe plus</string>
+    <string name="server_error_uploads_unsupported">Ce serveur ne prend pas en charge les pièces jointes. Mettez à jour OpenCode sur votre ordinateur.</string>
+    <string name="server_error_archiving_unsupported">Ce serveur ne prend pas en charge l’archivage. Mettez à jour OpenCode sur votre ordinateur.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode n’a pas l’autorisation d’accéder aux appareils de votre réseau local. Activez « Appareils à proximité » pour OpenCode dans les paramètres, puis réessayez.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Session sans titre</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Shell</string>
+    <string name="server_tool_shell_killed">Le shell a été arrêté de force</string>
+    <string name="server_tool_shell_exit_code">Commande terminée avec le code %1$d</string>
+    <string name="server_notice_session_update">Mise à jour de la session</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Échec de la connexion</string>
+    <string name="server_connection_resolved_address_unknown">Adresse résolue : inconnue</string>
+    <string name="server_connection_resolved_address">Adresse résolue (recherche après l’échec) : %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">Ce nom tailnet a été résolu en une adresse hors de la plage Tailscale. Le DNS Tailscale n’est donc peut-être pas utilisé. Dans l’application Tailscale, activez « Utiliser les paramètres DNS Tailscale » et désactivez le DNS privé ou tout profil VPN modifiant le DNS.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Réseau local</string>
+    <string name="server_connection_route_loopback">Boucle locale</string>
+    <string name="server_connection_route_internet">Internet</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">n’est pas une adresse web</string>
+    <string name="server_pairing_origin_bad_scheme">ne commence pas par http:// ou https://</string>
+    <string name="server_pairing_origin_no_host">n’a pas de nom d’hôte</string>
+    <string name="server_pairing_origin_credentials">contient un nom d’utilisateur ou un mot de passe</string>
+    <string name="server_pairing_origin_query">contient une requête ou un fragment</string>
+    <string name="server_pairing_origin_port">contient un port hors de la plage 1–65535</string>
+    <string name="server_pairing_origin_path">contient un chemin, alors que le serveur doit être à la racine de son adresse</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Serveur</string>
+    <string name="server_friendly_name_numbered">Serveur %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">La connexion a été interrompue après l’envoi du message. Il a peut-être été reçu.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Cette intégration ne propose aucune méthode de connexion.</string>
+    <string name="server_error_sign_in_url_invalid">L’adresse de la page de connexion n’est pas valide.</string>
+    <string name="server_error_load_server_details">Impossible de charger les détails du serveur</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">Ce code de couplage a expiré ou a déjà été utilisé. Relancez `opencode pair --remote`.</string>
+    <string name="server_error_pairing_unsupported">Ce serveur ne prend pas en charge les liens de couplage. Mettez à jour OpenCode sur votre ordinateur ou ajoutez le serveur manuellement.</string>
+    <string name="server_error_notification_previews_need_https">Les aperçus de notifications chiffrés nécessitent une connexion HTTPS au serveur.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Entrez une URL de serveur HTTP ou HTTPS valide.</string>
+    <string name="server_error_credentials_rejected">Le serveur a refusé ces identifiants.</string>
+    <string name="server_error_http_status">Le serveur a renvoyé le code HTTP %1$d.</string>
+    <string name="server_error_event_stream_http">Le flux d’événements a renvoyé le code HTTP %1$d.</string>
+    <string name="server_error_event_stream_oversized_frame">Le flux d’événements a envoyé une trame trop volumineuse.</string>
+    <string name="server_error_event_stream_ended">Le flux d’événements s’est terminé.</string>
+    <string name="server_error_event_stream_server_failure">Le flux d’événements a signalé une défaillance du serveur.</string>
+    <string name="server_tool_failed">Échec de l’outil</string>
+    <string name="server_error_list_folder">Le serveur n’a pas pu lister ce dossier</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Impossible de charger les projets et les sessions</string>
+    <string name="server_error_load_session_family">Impossible de charger la famille de sessions</string>
+    <string name="server_error_update_session">Impossible de mettre à jour la session</string>
+    <string name="server_error_load_session_ancestry">Impossible de charger les sessions parentes de la session active</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Réponse déjà donnée ailleurs</string>
+    <string name="server_request_already_dismissed">Déjà ignorée</string>
+    <string name="server_request_already_answered">Réponse déjà donnée</string>
+    <string name="server_request_already_dismissed_elsewhere">Déjà ignorée ailleurs</string>
+    <string name="server_request_no_longer_waiting">Plus de réponse attendue</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Média indisponible</string>
+    <string name="server_pasted_text_title">Texte collé</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d ligne · %2$s</item>
+        <item quantity="many">%1$d lignes · %2$s</item>
+        <item quantity="other">%1$d lignes · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d ligne</item>
+        <item quantity="many">%1$d lignes</item>
+        <item quantity="other">%1$d lignes</item>
+    </plurals>
+    <string name="server_file_size_zero">Zéro Ko</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d octet</item>
+        <item quantity="many">%1$d octets</item>
+        <item quantity="other">%1$d octets</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s Ko</string>
+    <string name="server_file_size_megabytes">%1$s Mo</string>
+    <string name="server_file_size_gigabytes">%1$s Go</string>
+    <string name="server_file_size_terabytes">%1$s To</string>
+    <string name="server_autocomplete_folder_project">Projet</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Fichier</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Complétez cette étape</string>
+    <string name="server_form_required">Obligatoire</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">Entrez au moins %1$d caractère</item>
+        <item quantity="many">Entrez au moins %1$d caractères</item>
+        <item quantity="other">Entrez au moins %1$d caractères</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">Entrez au maximum %1$d caractère</item>
+        <item quantity="many">Entrez au maximum %1$d caractères</item>
+        <item quantity="other">Entrez au maximum %1$d caractères</item>
+    </plurals>
+    <string name="server_form_invalid_format">Format invalide</string>
+    <string name="server_form_choose_option">Choisissez une option disponible</string>
+    <string name="server_form_invalid_email">Entrez une adresse e-mail valide</string>
+    <string name="server_form_invalid_url">Entrez une URL valide</string>
+    <string name="server_form_invalid_date">Entrez une date au format YYYY-MM-DD</string>
+    <string name="server_form_invalid_date_time">Entrez une date et une heure valides</string>
+    <string name="server_form_minimum">La valeur doit être d’au moins %1$s</string>
+    <string name="server_form_maximum">La valeur doit être d’au plus %1$s</string>
+    <string name="server_form_whole_number">Entrez un nombre entier</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">Choisissez-en au moins %1$d</item>
+        <item quantity="many">Choisissez-en au moins %1$d</item>
+        <item quantity="other">Choisissez-en au moins %1$d</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">Choisissez-en au maximum %1$d</item>
+        <item quantity="many">Choisissez-en au maximum %1$d</item>
+        <item quantity="other">Choisissez-en au maximum %1$d</item>
+    </plurals>
+    <string name="server_form_invalid_value">Valeur invalide</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Masquer la sélection</string>
+    <string name="server_model_visibility_only_show">Afficher uniquement la sélection</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Désactivé</string>
+    <string name="server_model_variant_extra_high">Très élevé</string>
+    <string name="server_model_variant_max">Max</string>
+    <string name="server_delivery_steering">Orientation</string>
+    <string name="server_delivery_queued">En file d’attente</string>
+</resources>

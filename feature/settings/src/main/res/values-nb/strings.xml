@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Appearance -->
+    <string name="settings_appearance_title">Utseende</string>
+    <string name="settings_appearance_mode_header">Modus</string>
+    <string name="settings_appearance_theme">Tema</string>
+
+    <!-- Appearance › Themes -->
+    <string name="settings_themes_title">Temaer</string>
+    <string name="settings_themes_preview_description">Forhåndsvisning av samtalelogg</string>
+    <string name="settings_themes_preview_user_message">Hjelp meg å forbedre sesjonsskjermen. Vis meg hva du finner, og forklar endringene.</string>
+    <string name="settings_themes_preview_reply">Jeg fant layoutproblemet i %1$s. Samtaleloggen og skrivefeltet deler den tilgjengelige høyden, så tastaturet er en nyttig stresstest.</string>
+
+    <!-- Language -->
+    <string name="settings_language_title">Språk</string>
+    <string name="settings_language_system_default">Systemstandard</string>
+    <string name="settings_language_search_placeholder">Søk etter språk</string>
+    <string name="settings_language_suggested_header">Foreslått</string>
+    <string name="settings_language_all_header">Alle språk</string>
+    <string name="settings_language_no_matches">Ingen språk funnet</string>
+
+    <!-- Experimental -->
+    <string name="settings_experimental_title">Eksperimentell</string>
+    <string name="settings_experimental_all_footer">Slår også på nye, unntatt de som ser skjermen din eller lytter i bakgrunnen.</string>
+    <string name="settings_experimental_all">Alle eksperimenter</string>
+    <string name="settings_experimental_all_on">Alle på</string>
+    <plurals name="settings_experimental_on_count">
+        <item quantity="one">%d på</item>
+        <item quantity="other">%d på</item>
+    </plurals>
+
+    <!-- Models -->
+    <string name="settings_models_title">Modeller</string>
+    <string name="settings_models_mode_hide">Skjul</string>
+    <string name="settings_models_mode_only_show">Vis bare</string>
+    <string name="settings_models_mode_hide_footer">Slå av modellene du ikke bruker.</string>
+    <string name="settings_models_mode_only_show_footer">Slå bare på modellene du bruker.</string>
+    <string name="settings_models_providers_header">Leverandører</string>
+    <string name="settings_models_stale_header">Tilbys ikke lenger</string>
+    <string name="settings_models_forget_unavailable">Glem utilgjengelige modeller</string>
+    <string name="settings_models_show_every_model">Vis alle modeller</string>
+    <string name="settings_models_load_failed_title">Kunne ikke laste inn modeller</string>
+    <string name="settings_models_summary_hidden">Skjult</string>
+    <string name="settings_models_summary_all">Alle</string>
+    <string name="settings_models_summary_count">%1$d av %2$d</string>
+
+    <!-- Models › Provider -->
+    <string name="settings_models_search_placeholder">Søk etter modeller</string>
+    <string name="settings_models_show_provider">Vis %1$s</string>
+
+    <!-- Notifications -->
+    <string name="settings_notifications_title">Varsler</string>
+    <string name="settings_notifications_device_header">Denne enheten (%1$s)</string>
+    <string name="settings_notifications_device_footer">Varsler går via en mellomtjener som ikke lagrer noe. Bare sesjoner startet på denne enheten (%1$s) sender varsler hit.</string>
+    <string name="settings_notifications_allow">Tillat varsler</string>
+    <string name="settings_notifications_open_android_settings">Åpne Android-innstillinger</string>
+    <string name="settings_notifications_turn_on">Slå på varsler</string>
+    <string name="settings_notifications_server_header">Server</string>
+    <string name="settings_notifications_set_up_footer">Åpner en sesjon med en melding som ber OpenCode installere programtillegget. Send meldingen, og sjekk igjen.</string>
+    <string name="settings_notifications_plugin_needed_footer">Serveren trenger varslingsprogramtillegget til OpenCode.</string>
+    <string name="settings_notifications_notify_plugin">Varslingsprogramtillegg</string>
+    <string name="settings_notifications_plugin_installed">Installert</string>
+    <string name="settings_notifications_plugin_not_running">Kjører ikke</string>
+    <string name="settings_notifications_plugin_not_installed">Ikke installert</string>
+    <string name="settings_notifications_plugin_check_failed">Kunne ikke sjekke status</string>
+    <string name="settings_notifications_set_up">Sett opp med OpenCode</string>
+    <string name="settings_notifications_check_again">Sjekk igjen</string>
+    <string name="settings_notifications_in_app_footer">Vises på knappen til sidepanelet.</string>
+    <string name="settings_notifications_in_app_notices">Merknader i appen</string>
+
+    <!-- Sessions -->
+    <string name="settings_sessions_title">Sesjoner</string>
+    <string name="settings_sessions_composer_header">Skrivefelt</string>
+    <string name="settings_sessions_return_key_sends">Enter-tasten sender</string>
+    <string name="settings_sessions_new_sessions_header">Nye sesjoner</string>
+    <string name="settings_sessions_server_default">Serverens standard</string>
+    <string name="settings_sessions_default_agent">Standardagent</string>
+
+    <!-- Shared values -->
+    <string name="settings_value_on">På</string>
+    <string name="settings_value_off">Av</string>
+
+    <!-- Sound Effects -->
+    <string name="settings_sound_effects_volume">Volum</string>
+    <string name="settings_sound_effects_volume_description">Volum for lydeffekter</string>
+    <string name="settings_sound_effects_send_sound">Sendelyd</string>
+
+    <!-- Voice › Delegator -->
+    <string name="settings_delegator_title">Delegering</string>
+    <string name="settings_delegator_other_server_note">«%1$s» er på en annen server. Velg en på denne serveren, eller bytt server.</string>
+    <string name="settings_delegator_mode_footer">Innebygd kjører på OpenAI, uten en sesjon. OpenCode-sesjon bruker en sesjon på serveren din.</string>
+    <string name="settings_delegator_built_in">Innebygd</string>
+    <string name="settings_delegator_opencode_session">OpenCode-sesjon</string>
+    <string name="settings_delegator_target_header">Målsesjon</string>
+    <string name="settings_delegator_target_footer">Automatisk bruker en «Voice»-sesjon på denne serveren. Vist sesjon bruker den på skjermen.</string>
+    <string name="settings_delegator_automatic">Automatisk</string>
+    <string name="settings_delegator_viewed_session">Vist sesjon</string>
+    <string name="settings_delegator_search_placeholder">Søk etter sesjoner</string>
+    <string name="settings_delegator_sessions_header">Velg en sesjon</string>
+    <string name="settings_delegator_sessions_footer">En valgt sesjon beholder modellen sin.</string>
+    <string name="settings_delegator_no_sessions">Ingen sesjoner på denne serveren</string>
+    <string name="settings_delegator_no_matching_sessions">Ingen sesjoner funnet</string>
+    <string name="settings_delegator_new_session">Ny sesjon</string>
+    <string name="settings_delegator_direct">Direkte</string>
+    <string name="settings_delegator_direct_session_unavailable">Direkte · Sesjonen er utilgjengelig</string>
+    <string name="settings_delegator_another_server">%1$s · Annen server</string>
+
+    <!-- Voice › Key Editor -->
+    <string name="settings_voice_key_hide_description">Skjul nøkkel</string>
+    <string name="settings_voice_key_show_description">Vis nøkkel</string>
+    <string name="settings_voice_key_verify">Verifiser</string>
+
+    <!-- Voice › Voice Provider -->
+    <string name="settings_voice_provider_title">Taleleverandør</string>
+    <string name="settings_voice_provider_place">På %1$s</string>
+    <string name="settings_voice_api_key_title">API-nøkkel</string>
+    <string name="settings_voice_provider_automatic_footer">Når %1$s ikke er klar, bruker samtaler en som er klar.</string>
+    <string name="settings_voice_provider_choose_automatically">Velg automatisk</string>
+    <string name="settings_voice_provider_others_header">Andre leverandører</string>
+    <string name="settings_voice_provider_use_description">Bruk %1$s</string>
+    <string name="settings_voice_provider_use">Bruk</string>
+    <string name="settings_voice_provider_set_up">Sett opp</string>
+    <plurals name="settings_voice_provider_not_available_count">
+        <item quantity="one">%d utilgjengelig</item>
+        <item quantity="other">%d utilgjengelige</item>
+    </plurals>
+
+    <!-- Voice › API Key -->
+    <string name="settings_voice_account_title">OpenAI-kontoen din</string>
+    <string name="settings_voice_account_place">På denne telefonen</string>
+    <string name="settings_voice_account_key_footer">Samtaler bruker OpenAI-kontoen din i stedet for en server.</string>
+    <string name="settings_voice_account_use_for_calls">Bruk til samtaler</string>
+
+    <!-- Voice -->
+    <string name="settings_voice_title">Tale</string>
+    <string name="settings_voice_call_setup_header">Samtaleoppsett</string>
+    <string name="settings_voice_calls_header">Samtaler</string>
+    <string name="settings_voice_raise_to_talk_hint">Slå av eller på samtalestart via ørehøyttaleren når du løfter telefonen til øret i en sesjon</string>
+    <string name="settings_voice_enable">Aktiver tale</string>
+    <string name="settings_voice_model">Modell</string>
+    <string name="settings_voice_model_description">Talemodell</string>
+    <string name="settings_voice_call_voice">Stemme</string>
+    <string name="settings_voice_raise_to_talk">Løft for å snakke</string>
+    <string name="settings_voice_call_sounds">Samtalelyder</string>
+    <string name="settings_voice_call_history">Samtalehistorikk</string>
+    <string name="settings_voice_edit_key_label">Rediger API-nøkkelen din for %1$s</string>
+    <string name="settings_voice_key_verified">Verifisert</string>
+    <string name="settings_voice_key_checking">Sjekker…</string>
+    <string name="settings_voice_key_saved">Lagret</string>
+    <string name="settings_voice_key_missing">Mangler</string>
+    <string name="settings_voice_preview_disabled_hint">Legg til nøkkelen din for %1$s for å prøvelytte til stemmer</string>
+
+    <!-- Voice › Voice Picker -->
+    <string name="settings_voice_picker_add_key_footer">Legg til nøkkelen din for %1$s for å prøvelytte til stemmer.</string>
+    <string name="settings_voice_picker_unavailable_footer">%1$s er ikke tilgjengelig på %2$s, så samtaler bruker %3$s.</string>
+    <string name="settings_voice_stop_preview_description">Stopp prøvelytting til %1$s</string>
+    <string name="settings_voice_preview_description">Prøvelytt til %1$s</string>
+    <string name="settings_voice_preview_playing">Spiller av</string>
+    <string name="settings_voice_call_voice_unavailable">%1$s · %2$s er utilgjengelig</string>
+
+    <!-- Settings root -->
+    <string name="settings_whats_new_title">Nyheter</string>
+    <string name="settings_developer_title">Utvikler</string>
+    <string name="settings_app_version">Versjon %1$s (%2$s)</string>
+    <string name="settings_app_version_commit">Versjon %1$s (%2$s) · %3$s</string>
+
+    <!-- Connection card -->
+    <string name="settings_connection_show_server_label">Vis serveren</string>
+    <string name="settings_connection_milliseconds">%1$d ms</string>
+    <string name="settings_connection_card_value_description">%1$s, %2$s, %3$s</string>
+    <string name="settings_connection_status_connected">Tilkoblet</string>
+    <string name="settings_connection_status_slow">Treg</string>
+    <string name="settings_connection_status_unstable">Ustabil</string>
+    <string name="settings_connection_status_reconnecting">Kobler til på nytt</string>
+    <string name="settings_connection_status_offline">Frakoblet</string>
+    <string name="settings_connection_status_sign_in_failed">Innlogging mislyktes</string>
+    <string name="settings_connection_status_switching">Bytter</string>
+    <string name="settings_connection_status_switching_to">Bytter til %1$s</string>
+    <string name="settings_connection_status_code">%1$s · %2$d</string>
+    <string name="settings_connection_status_http_description">%1$s, HTTP %2$d</string>
+    <plurals name="settings_connection_status_milliseconds_description">
+        <item quantity="one">%1$s, %2$d millisekund</item>
+        <item quantity="other">%1$s, %2$d millisekunder</item>
+    </plurals>
+
+    <!-- Server page -->
+    <string name="settings_server_title">Server</string>
+    <string name="settings_server_address">Adresse</string>
+    <string name="settings_server_connection">Tilkobling</string>
+    <string name="settings_server_version">Versjon</string>
+    <string name="settings_server_edit_server">Rediger server…</string>
+    <string name="settings_server_rename_server_ellipsis">Gi serveren nytt navn…</string>
+    <string name="settings_server_rename_title">Gi serveren nytt navn</string>
+    <string name="settings_server_rename_message">Bare denne enheten (%1$s) bruker navnet. La feltet stå tomt for å bruke «%2$s».</string>
+    <string name="settings_server_status">Status</string>
+    <string name="settings_server_status_milliseconds">%1$s · %2$d ms</string>
+
+    <!-- Servers section -->
+    <string name="settings_servers_header">Servere</string>
+    <string name="settings_servers_edit_server">Rediger %1$s…</string>
+    <string name="settings_servers_rename_message">Bare denne enheten (%1$s) bruker navnet. La feltet stå tomt for å bruke datamaskinens navn.</string>
+    <string name="settings_servers_remove_title">Fjerne %1$s?</string>
+    <string name="settings_servers_remove_message">Dette fjerner adressen og passordet fra denne enheten (%1$s). Sesjonene på serveren påvirkes ikke.</string>
+    <string name="settings_servers_remove_server">Fjern server</string>
+    <string name="settings_servers_current_server_state">Gjeldende server, %1$s</string>
+    <string name="settings_servers_switch_label">Bytt til denne serveren</string>
+    <string name="settings_servers_options_description">Alternativer for %1$s</string>
+    <string name="settings_servers_rename_menu">Gi nytt navn…</string>
+    <string name="settings_servers_edit_menu">Rediger…</string>
+    <string name="settings_servers_remove_menu">Fjern…</string>
+    <string name="settings_servers_add_server">Legg til server</string>
+    <string name="settings_servers_scan_pairing_code">Skann sammenkoblingskode</string>
+    <string name="settings_servers_enter_address">Skriv inn adresse</string>
+
+    <!-- Pairing scanner -->
+    <string name="settings_pairing_paste">Lim inn</string>
+    <string name="settings_pairing_no_camera_title">Ikke noe kamera tilgjengelig</string>
+    <string name="settings_pairing_no_camera_message">Kopier lenken som `opencode pair` skriver ut på datamaskinen, og lim den inn her.</string>
+    <string name="settings_pairing_camera_off_title">Kameratilgang er av</string>
+    <string name="settings_pairing_camera_off_message">Tillat kameratilgang i Innstillinger for å skanne QR-koden, eller lim inn lenken som `opencode pair` skriver ut.</string>
+    <string name="settings_pairing_nothing_to_paste_title">Ingenting å lime inn</string>
+    <string name="settings_pairing_nothing_to_paste_message">Utklippstavlen har ingen sammenkoblingslenke. Kopier lenken som opencode pair skriver ut, og prøv igjen.</string>
+    <string name="settings_pairing_point_camera">Rett kameraet mot QR-koden</string>
+    <string name="settings_pairing_paste_link">Lim inn sammenkoblingslenke</string>
+    <string name="settings_pairing_computer_hint">Åpne Innstillinger → Sammenkobling i OpenCode på datamaskinen, eller kjør %1$s i en terminal.</string>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">බෙදාගත් අයිතම එකතු කිරීමට නොහැකි විය</string>
+    <string name="app_alert_open_session_failed_title">සැසිය විවෘත කිරීමට නොහැකි විය</string>
+    <string name="app_alert_pairing_failed_title">සේවාදායකය සමඟ යුගල කිරීමට නොහැකි විය</string>
+    <string name="app_pairing_confirm">යුගල කරන්න</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">සේවාදායකයන්</string>
+    <string name="app_servers_back_description">%1$s වෙත ආපසු</string>
+    <string name="app_server_fallback_name">සේවාදායකය</string>
+    <string name="app_connection_intro_new">ඔබේ %1$s එකෙන් කේත ලිවීමේ සැසි දිගටම කරගෙන යන්න.</string>
+    <string name="app_connection_intro_returning">නැවැත්වූ තැනින් දිගටම කරගෙන යන්න, නැත්නම් වෙනත් පරිගණකයක් යුගල කරන්න.</string>
+    <string name="app_connection_enter_manually">සේවාදායකයක් අතින් ඇතුළත් කරන්න</string>
+    <string name="app_connection_scan_pairing_code">යුගල කිරීමේ කේතය පරිලෝකනය කරන්න</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">ඔබේ පරිගණකයේ OpenCode විවෘත කර සැකසීම් → යුගල කිරීම වෙත යන්න, නැත්නම් පර්යන්තයක opencode pair --remote ධාවනය කරන්න. ඉන්පසු මෙම %1$s එකෙන් කේතය පරිලෝකනය කරන්න.</string>
+    <string name="app_setup_install_title">තවම OpenCode නැද්ද?</string>
+    <string name="app_setup_other_ways_to_install">ස්ථාපනය කළ හැකි වෙනත් ක්‍රම</string>
+    <string name="app_setup_terminal_title">නැත්නම් මෙය පර්යන්තයක ධාවනය කරන්න</string>
+    <string name="app_setup_terminal_detail">එය ඕනෑම ජාලයකින් ක්‍රියා කරයි.</string>
+    <string name="app_setup_paste_prompt">නැත්නම් එයින් පෙන්වන සබැඳිය පිටපත් කර, ඉන්පසු</string>
+    <string name="app_setup_paste">අලවන්න</string>
+    <string name="app_setup_copy_command_description">%1$s පිටපත් කරන්න</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">සම්බන්ධ වෙමින්</string>
+    <string name="app_servers_edit_description">%1$s සංස්කරණය කරන්න</string>
+    <string name="app_servers_remove_description">%1$s ඉවත් කරන්න</string>
+    <string name="app_servers_remove_confirm_title">%1$s ඉවත් කරන්නද?</string>
+    <string name="app_servers_remove_confirm_message">මෙම %1$s එකේ සුරැකි ලිපිනය සහ මුරපදය ඉවත් වේ. සේවාදායකයේ සැසිවලට බලපෑමක් නැත.</string>
+    <string name="app_servers_remove_confirm">සේවාදායකය ඉවත් කරන්න</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">අදියර: %1$s</string>
+    <string name="app_error_server">සේවාදායකය: %1$s</string>
+    <string name="app_error_attempt">උත්සාහය: %1$d</string>
+    <string name="app_error_copy_report">දෝෂ වාර්තාව පිටපත් කරන්න</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">නව සේවාදායකය</string>
+    <string name="app_server_form_edit_title">සේවාදායකය සංස්කරණය කරන්න</string>
+    <string name="app_server_form_name">නම</string>
+    <string name="app_server_form_address">සේවාදායක ලිපිනය</string>
+    <string name="app_server_form_username">පරිශීලක නම</string>
+    <string name="app_server_form_password">මුරපදය (විකල්ප)</string>
+    <string name="app_server_form_hide_password_description">මුරපදය සඟවන්න</string>
+    <string name="app_server_form_show_password_description">මුරපදය පෙන්වන්න</string>
+    <string name="app_server_form_connect">සම්බන්ධ කරන්න</string>
+    <string name="app_server_form_save_and_connect">සුරකින්න සහ සම්බන්ධ කරන්න</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">ශීර්ෂ</string>
+    <string name="app_server_form_header_name">නම</string>
+    <string name="app_server_form_header_name_description">%1$d වන ශීර්ෂයේ නම</string>
+    <string name="app_server_form_header_value">අගය</string>
+    <string name="app_server_form_header_value_description">%1$d වන ශීර්ෂයේ අගය</string>
+    <string name="app_server_form_header_remove_description">%1$d වන ශීර්ෂය ඉවත් කරන්න</string>
+    <string name="app_server_form_header_add">ශීර්ෂයක් එකතු කරන්න</string>
+    <string name="app_server_form_headers_detail">සේවාදායකය ඉදිරියේ ඇති Cloudflare Access වැනි ප්‍රොක්සියක් සඳහා සෑම ඉල්ලීමක් සමඟම යවයි.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">“%1$s” වලංගු ශීර්ෂ නමක් නොවේ</string>
+    <string name="app_server_form_header_invalid_value">%1$s හි අගයට පේළි බිඳීමක් ඇතුළත් කළ නොහැකියි</string>
+    <string name="app_server_form_name_placeholder">විකල්ප</string>
+    <string name="app_connection_progress_pairing">යුගල කරමින්</string>
+    <string name="app_connection_progress_connecting">සම්බන්ධ වෙමින්</string>
+    <string name="app_connection_progress_loading_sessions">සැසි පූරණය කරමින්</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">%1$s සමඟ යුගල කරන්නද?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode %1$s වෙත සම්බන්ධ වීමට උත්සාහ කර මුලින්ම ප්‍රතිචාර දෙන ලිපිනයට මාරු වේ.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode %1$s සමඟ යුගල වී එයට මාරු වේ.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode %1$s සහ %2$s වෙත සම්බන්ධ වීමට උත්සාහ කර මුලින්ම ප්‍රතිචාර දෙන ලිපිනයට මාරු වේ.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode %1$s සහ %2$s වෙත සම්බන්ධ වීමට උත්සාහ කර මුලින්ම ප්‍රතිචාර දෙන ලිපිනයට මාරු වේ.</string>
+    <string name="app_pairing_confirm_replaces">%1$s %2$s සඳහා සුරැකි පිවිසුම් තොරතුරු ප්‍රතිස්ථාපනය විය හැකියි.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">යුගල කිරීම</string>
+    <string name="app_error_phase_connect">සම්බන්ධ කරන්න</string>
+    <string name="app_error_phase_load_sessions">සැසි පූරණය කරන්න</string>
+    <string name="app_error_candidate_detail">විකල්පය %1$d: %2$s</string>
+    <string name="app_error_invalid_address">ලබාගත නොහැකියි (වලංගු නොවන ලිපිනයක්)</string>
+    <string name="app_error_title_pair">යුගල කිරීමට නොහැකි විය</string>
+    <string name="app_error_title_load_sessions">සැසි පූරණය කිරීමට නොහැකි විය</string>
+    <string name="app_error_title_connect">%1$s වෙත සම්බන්ධ වීමට නොහැකි විය</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">ඔබේ පසුරු පුවරුව හිස්</string>
+    <string name="app_paste_not_a_pairing_link">එය යුගල කිරීමේ සබැඳියක් නොවේ</string>
+    <string name="app_server_no_longer_saved">මෙම සේවාදායකය තවදුරටත් මේ %1$s මත සුරැකී නැහැ. සැසිය විවෘත කිරීමට නැවත එයට සම්බන්ධ වන්න.</string>
+    <string name="app_session_no_longer_available">එය මකා දමා තිබිය හැකියි, නැත්නම් සේවාදායකය ලබාගත නොහැකි විය හැකියි.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">%1$s වෙත සම්බන්ධ වුණා</string>
+    <string name="app_pairing_invalid_code">එය OpenCode යුගල කිරීමේ කේතයක් නොවේ. ඔබේ පරිගණකයේ opencode pair --remote ක්‍රියාත්මක කර, එහි QR කේතය පරිලෝකනය කරන්න හෝ එය පෙන්වන සබැඳිය අලවන්න.</string>
+    <string name="app_pairing_unusable_address">මෙම යුගල කිරීමේ කේතයේ “%1$s” භාවිත කිරීමට නොහැකි විය: එය %2$s.</string>
+    <string name="app_pairing_loopback">එම සේවාදායකය සම්බන්ධතා භාරගන්නේ localhost හරහා පමණක් නිසා මේ %1$s වෙතින් එයට සම්බන්ධ විය නොහැකියි. ඒ වෙනුවට ඔබේ පරිගණකයේ opencode pair --remote ක්‍රියාත්මක කරන්න. එය ඕනෑම ජාලයකින් ක්‍රියා කරයි.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">ඔබ බෙදාගත් සේවාදායකය තවදුරටත් මෙම උපාංගයේ සුරැකී නැහැ. නැවත එයට සම්බන්ධ වී, යළි බෙදාගන්න.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">අවසන් වරට භාවිත කළ</string>
+    <string name="app_server_form_hint_new">යුගල කිරීමට `opencode pair --remote` පෙන්වන සබැඳිය අලවන්න, නැත්නම් ඔබේ OpenCode සේවාදායකයේ ලිපිනය සහ මුරපදය භාවිත කරන්න. පරිශීලක නම සාමාන්‍යයෙන් opencode වේ.</string>
+    <string name="app_server_form_hint_edit_paired">මෙම සේවාදායකයට සම්බන්ධ වූ විට වෙනස්කම් සුරැකේ. මෙය යුගල කළ සේවාදායකයක් නිසා එහි මුරපදය සැසි ටෝකනයකි; එය වෙනස් කරනවා වෙනුවට නව යුගල කිරීමේ කේතයක් පරිලෝකනය කරන්න.</string>
+    <string name="app_server_form_hint_edit">මෙම සේවාදායකයට සම්බන්ධ වූ විට වෙනස්කම් සුරැකේ.</string>
+</resources>

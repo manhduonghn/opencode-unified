@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Չհաջողվեց ավելացնել կիսված տարրերը</string>
+    <string name="app_alert_open_session_failed_title">Չհաջողվեց բացել նիստը</string>
+    <string name="app_alert_pairing_failed_title">Չհաջողվեց զուգակցել սերվերի հետ</string>
+    <string name="app_pairing_confirm">Զուգակցել</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Սերվերներ</string>
+    <string name="app_servers_back_description">Հետ դեպի %1$s</string>
+    <string name="app_server_fallback_name">սերվեր</string>
+    <string name="app_connection_intro_new">Շարունակեք ծրագրավորման նիստերը ձեր %1$s-ից։</string>
+    <string name="app_connection_intro_returning">Շարունակեք այնտեղից, որտեղ կանգ եք առել, կամ զուգակցեք մեկ այլ համակարգիչ։</string>
+    <string name="app_connection_enter_manually">Ձեռքով մուտքագրել սերվերը</string>
+    <string name="app_connection_scan_pairing_code">Սկանավորել զուգակցման կոդը</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Համակարգչում բացեք OpenCode-ը և անցեք Կարգավորումներ → Զուգակցում կամ տերմինալում գործարկեք opencode pair --remote։ Ապա սկանավորեք կոդը այս %1$s-ով։</string>
+    <string name="app_setup_install_title">Դեռ չունե՞ք OpenCode։</string>
+    <string name="app_setup_other_ways_to_install">Տեղադրման այլ եղանակներ</string>
+    <string name="app_setup_terminal_title">Կամ գործարկեք սա տերմինալում</string>
+    <string name="app_setup_terminal_detail">Աշխատում է ցանկացած ցանցից։</string>
+    <string name="app_setup_paste_prompt">Կամ պատճենեք ցուցադրված հղումը, ապա</string>
+    <string name="app_setup_paste">Տեղադրել</string>
+    <string name="app_setup_copy_command_description">Պատճենել %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Կապ է հաստատվում</string>
+    <string name="app_servers_edit_description">Խմբագրել %1$s</string>
+    <string name="app_servers_remove_description">Հեռացնել %1$s</string>
+    <string name="app_servers_remove_confirm_title">Հեռացնե՞լ %1$s-ը։</string>
+    <string name="app_servers_remove_confirm_message">Այս %1$s-ից կհեռացվեն պահպանված հասցեն և գաղտնաբառը։ Սերվերի նիստերը չեն փոխվի։</string>
+    <string name="app_servers_remove_confirm">Հեռացնել սերվերը</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Փուլ՝ %1$s</string>
+    <string name="app_error_server">Սերվեր՝ %1$s</string>
+    <string name="app_error_attempt">Փորձ՝ %1$d</string>
+    <string name="app_error_copy_report">Պատճենել սխալի զեկույցը</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Նոր սերվեր</string>
+    <string name="app_server_form_edit_title">Խմբագրել սերվերը</string>
+    <string name="app_server_form_name">Անուն</string>
+    <string name="app_server_form_address">Սերվերի հասցեն</string>
+    <string name="app_server_form_username">Օգտանուն</string>
+    <string name="app_server_form_password">Գաղտնաբառ (ըստ ցանկության)</string>
+    <string name="app_server_form_hide_password_description">Թաքցնել գաղտնաբառը</string>
+    <string name="app_server_form_show_password_description">Ցույց տալ գաղտնաբառը</string>
+    <string name="app_server_form_connect">Կապվել</string>
+    <string name="app_server_form_save_and_connect">Պահել և կապվել</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Վերնագրեր</string>
+    <string name="app_server_form_header_name">Անուն</string>
+    <string name="app_server_form_header_name_description">Վերնագիր %1$d-ի անունը</string>
+    <string name="app_server_form_header_value">Արժեք</string>
+    <string name="app_server_form_header_value_description">Վերնագիր %1$d-ի արժեքը</string>
+    <string name="app_server_form_header_remove_description">Հեռացնել վերնագիր %1$d-ը</string>
+    <string name="app_server_form_header_add">Ավելացնել վերնագիր</string>
+    <string name="app_server_form_headers_detail">Ուղարկվում են ամեն հարցման հետ՝ սերվերի առջև գործող միջնորդի համար, օրինակ՝ Cloudflare Access։</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">«%1$s»-ը վերնագրի վավեր անուն չէ</string>
+    <string name="app_server_form_header_invalid_value">%1$s-ի արժեքը չի կարող պարունակել տողադարձ</string>
+    <string name="app_server_form_name_placeholder">Ըստ ցանկության</string>
+    <string name="app_connection_progress_pairing">Զուգակցվում է</string>
+    <string name="app_connection_progress_connecting">Կապ է հաստատվում</string>
+    <string name="app_connection_progress_loading_sessions">Նիստերը բեռնվում են</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Զուգակցե՞լ %1$s-ի հետ։</string>
+    <string name="app_pairing_confirm_try_one">OpenCode-ը կփորձի %1$s-ը և կանցնի առաջին պատասխանող հասցեին։</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode-ը կզուգակցվի %1$s-ի հետ և կանցնի դրան։</string>
+    <string name="app_pairing_confirm_try_two">OpenCode-ը կփորձի %1$s-ը և %2$s-ը ու կանցնի առաջին պատասխանողին։</string>
+    <string name="app_pairing_confirm_try_many">OpenCode-ը կփորձի %1$s և %2$s ու կանցնի առաջին պատասխանողին։</string>
+    <string name="app_pairing_confirm_replaces">%1$s %2$s-ի պահպանված մուտքային տվյալները կարող են փոխարինվել։</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Զուգակցում</string>
+    <string name="app_error_phase_connect">Կապվել</string>
+    <string name="app_error_phase_load_sessions">Բեռնել նիստերը</string>
+    <string name="app_error_candidate_detail">Տարբերակ %1$d՝ %2$s</string>
+    <string name="app_error_invalid_address">Հասանելի չէ (անվավեր հասցե)</string>
+    <string name="app_error_title_pair">Չհաջողվեց զուգակցել</string>
+    <string name="app_error_title_load_sessions">Չհաջողվեց բեռնել նիստերը</string>
+    <string name="app_error_title_connect">Չհաջողվեց կապվել %1$s-ի հետ</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Սեղմատախտակը դատարկ է</string>
+    <string name="app_paste_not_a_pairing_link">Սա զուգակցման հղում չէ</string>
+    <string name="app_server_no_longer_saved">Այս սերվերն այլևս պահված չէ այս %1$s-ում։ Նիստը բացելու համար կրկին կապվեք սերվերին։</string>
+    <string name="app_session_no_longer_available">Հնարավոր է՝ այն ջնջվել է, կամ սերվերը հասանելի չէ։</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Կապվել է %1$s-ի հետ</string>
+    <string name="app_pairing_invalid_code">Սա OpenCode-ի զուգակցման կոդ չէ։ Համակարգչում գործարկեք opencode pair --remote, ապա սկանավորեք դրա QR կոդը կամ տեղադրեք ստացված հղումը։</string>
+    <string name="app_pairing_unusable_address">Չհաջողվեց օգտագործել այս զուգակցման կոդի «%1$s» հասցեն․ այն %2$s։</string>
+    <string name="app_pairing_loopback">Այդ սերվերը կապեր է ընդունում միայն localhost-ով, ուստի այս %1$s-ը չի կարող կապվել դրան։ Փոխարենը համակարգչում գործարկեք opencode pair --remote, որն աշխատում է ցանկացած ցանցից։</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Սերվերը, որի հետ կիսվել եք, այլևս պահված չէ այս սարքում։ Կրկին կապվեք դրան, ապա նորից կիսվեք։</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">վերջին օգտագործումը</string>
+    <string name="app_server_form_hint_new">Զուգակցելու համար տեղադրեք `opencode pair --remote` հրամանի տված հղումը կամ օգտագործեք ձեր OpenCode սերվերի հասցեն ու գաղտնաբառը։ Օգտանունը սովորաբար opencode է։</string>
+    <string name="app_server_form_hint_edit_paired">Փոփոխությունները կպահվեն սերվերին կապվելուց հետո։ Այս սերվերը զուգակցված է, ուստի դրա գաղտնաբառը նիստի թոքեն է․ այն փոխելու փոխարեն սկանավորեք նոր զուգակցման կոդ։</string>
+    <string name="app_server_form_hint_edit">Փոփոխությունները կպահվեն սերվերին կապվելուց հետո։</string>
+</resources>

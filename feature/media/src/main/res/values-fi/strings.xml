@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">Kuva</string>
+    <string name="media_image_load_failed">Kuvan lataus epäonnistui</string>
+    <string name="media_unavailable">Media ei ole saatavilla</string>
+    <string name="media_try_again_label">Yritä uudelleen</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">Median katselu</string>
+    <string name="media_viewer_save_to_photos_description">Tallenna valokuviin</string>
+    <string name="media_file_viewer_screen_title">Tiedoston katselu</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d / %3$d</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">Piirrä kuvaan</string>
+    <string name="media_drawing_undo_description">Kumoa</string>
+    <string name="media_drawing_add_to_prompt_description">Lisää kehotteeseen</string>
+    <string name="media_drawing_canvas_description">Piirtoalue</string>
+    <string name="media_drawing_discard_title">Hylätäänkö piirros?</string>
+    <string name="media_drawing_discard_confirm">Hylkää piirros</string>
+    <string name="media_drawing_keep">Jatka piirtämistä</string>
+    <string name="media_drawing_add_failed_title">Piirroksen lisääminen epäonnistui</string>
+    <string name="media_drawing_flatten_failed">Kuvan luominen epäonnistui. Yritä uudelleen.</string>
+    <string name="media_drawing_prompt_unavailable">Tämän istunnon viestiin ei voi juuri nyt lisätä liitteitä.</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">Valkoinen</string>
+    <string name="media_drawing_ink_black">Musta</string>
+    <string name="media_drawing_ink_red">Punainen</string>
+    <string name="media_drawing_ink_yellow">Keltainen</string>
+    <string name="media_drawing_ink_green">Vihreä</string>
+    <string name="media_drawing_ink_blue">Sininen</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">Lähennetty</string>
+    <string name="media_zoom_out_label">Loitonna</string>
+    <string name="media_zoom_in_label">Lähennä</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">Keskeytä</string>
+    <string name="media_player_play">Toista</string>
+    <string name="media_player_position_description">Toistokohta</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">Videon toisto epäonnistui</string>
+    <string name="media_video_position_description">Videon toistokohta</string>
+    <string name="media_video_capture_failed_title">Kuvan kaappaus epäonnistui</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">Näytä esikatselu</string>
+    <string name="media_file_show_source_description">Näytä lähde</string>
+    <string name="media_file_unwrap_lines_description">Älä rivitä</string>
+    <string name="media_file_wrap_lines_description">Rivitä</string>
+    <string name="media_file_start_pip_description">Aloita kuva kuvassa</string>
+    <string name="media_file_opening">Avataan…</string>
+    <string name="media_file_share_failed_title">Tiedoston jakaminen epäonnistui</string>
+    <string name="media_file_share_downloading_description">Ladataan jakamista varten</string>
+    <string name="media_file_confirm_large_message">Tiedoston koko on %1$s. Ladataanko se katseltavaksi tällä laitteella?</string>
+    <string name="media_file_download">Lataa</string>
+    <string name="media_file_open_in_another_app">Avaa toisessa sovelluksessa</string>
+    <string name="media_file_no_app_message">Mikään tämän laitteen sovellus ei voi avata tätä tiedostoa. Voit tallentaa sen tai lähettää sen muualle jakamalla.</string>
+    <string name="media_file_pdf_page_description">Sivu %1$d / %2$d</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">Tiedostoa ei löytynyt</string>
+    <string name="media_file_error_open_failed_title">Tiedoston avaaminen epäonnistui</string>
+    <string name="media_file_error_unreadable">Tätä polkua ei voi lukea palvelimelta.</string>
+    <string name="media_file_error_not_found">Se on ehkä siirretty tai poistettu.</string>
+    <string name="media_file_error_unauthorized">Palvelin ei hyväksynyt tämän laitteen salasanaa.</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">Palvelin ei voinut lukea sitä (HTTP %1$d). Se voi olla kansio.</string>
+    <string name="media_file_error_timed_out">Pyyntö aikakatkaistiin.</string>
+    <string name="media_file_error_unexpected_response">Palvelin lähetti odottamattoman vastauksen.</string>
+    <string name="media_file_error_over_limit">Tiedosto ylittää latauksen kokorajan.</string>
+    <string name="media_file_error_size_unknown">Palvelin ei ilmoittanut liitteen kokoa.</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">Ladataan…</string>
+    <string name="media_file_downloading_size">Ladataan %1$s</string>
+    <string name="media_file_downloading_progress">Ladataan %1$s / %2$s</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">0 kt</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="one">%1$d tavu</item>
+        <item quantity="other">%1$d tavua</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s kt</string>
+    <string name="media_file_size_megabytes">%1$s Mt</string>
+    <string name="media_file_size_gigabytes">%1$s Gt</string>
+    <string name="media_file_size_terabytes">%1$s Tt</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">Ei löytynyt</string>
+    <string name="media_image_load_label">Lataa kuva</string>
+    <string name="media_image_loading_state">Ladataan</string>
+    <string name="media_image_open_label">Avaa kuva</string>
+    <string name="media_image_tap_to_load">Lataa napauttamalla</string>
+    <string name="media_image_outside_project_value">Projektin ulkopuolella</string>
+    <string name="media_image_deferred_low_data_value">Lykätty datansäästötilan vuoksi</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">Avaa %1$s</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">Takaisin istuntoon</string>
+    <string name="media_browser_ask_description">Kysy tästä sivusta</string>
+    <string name="media_browser_forward_description">Eteenpäin</string>
+    <string name="media_browser_open_in_browser_description">Avaa selaimessa</string>
+    <string name="media_browser_scroll_to_top_label">Vieritä sivun alkuun</string>
+    <string name="media_browser_ask_placeholder">Kysy tästä sivusta</string>
+    <string name="media_browser_reply_needs_input">Sinua tarvitaan</string>
+    <string name="media_browser_reply_working">Työskennellään</string>
+    <string name="media_browser_go_back_to_session_label">Palaa istuntoon</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">Vastaus valmiina</string>
+    <string name="media_browser_reply_back_to_read">· Palaa lukemaan</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">Istunto</string>
+    <string name="media_link_open_in_app_browser">Avaa sovelluksen selaimessa</string>
+    <string name="media_link_open_in_browser">Avaa selaimessa</string>
+    <string name="media_link_open_in_app">Avaa sovelluksessa</string>
+    <string name="media_link_copy">Kopioi linkki</string>
+    <string name="media_link_share">Jaa…</string>
+    <string name="media_link_open_session">Avaa istunto</string>
+    <string name="media_link_copy_session_id">Kopioi tunnus</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">Kopioi kohteen %1$s tunnus</string>
+    <string name="media_link_open_session_named_description">Avaa istunto %1$s</string>
+    <string name="media_link_open_host_in_app_browser_description">Avaa %1$s sovelluksen selaimessa</string>
+    <string name="media_link_open_host_in_browser_description">Avaa %1$s selaimessa</string>
+    <string name="media_link_open_host_in_app_description">Avaa %1$s sovelluksessa</string>
+    <string name="media_link_copy_host_description">Kopioi linkki: %1$s</string>
+    <string name="media_link_share_host_description">Jaa linkki: %1$s</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%1$s sivustolla %2$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s, linkki %2$d</string>
+    <string name="media_link_more_links_description">Lisää linkkejä</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">Video</string>
+    <string name="media_link_preview_post">Julkaisu</string>
+    <string name="media_link_preview_post_unavailable">Julkaisu ei ole saatavilla</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">Säilö</string>
+    <string name="media_github_kind_issue">Ongelma</string>
+    <string name="media_github_kind_pull_request">Muutospyyntö</string>
+    <string name="media_github_kind_commit">Muutos</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">Avoin</string>
+    <string name="media_github_state_closed">Suljettu</string>
+    <string name="media_github_state_merged">Yhdistetty</string>
+    <string name="media_github_state_draft">Luonnos</string>
+    <string name="media_github_state_completed">Valmis</string>
+    <string name="media_github_state_not_planned">Ei suunnitteilla</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">Kaavio, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">Kaavion katselu</string>
+    <string name="media_mermaid_diagram_description">Kaavio</string>
+    <string name="media_mermaid_loading_state">%1$s, ladataan</string>
+    <string name="media_mermaid_view_source">Näytä lähde</string>
+    <string name="media_mermaid_source_title">Kaavion lähde</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">Vuokaavio</string>
+    <string name="media_mermaid_type_sequence">Sekvenssikaavio</string>
+    <string name="media_mermaid_type_class">Luokkakaavio</string>
+    <string name="media_mermaid_type_state">Tilakaavio</string>
+    <string name="media_mermaid_type_entity_relationship">Käsitekaavio</string>
+    <string name="media_mermaid_type_user_journey">Käyttäjäpolku</string>
+    <string name="media_mermaid_type_gantt">Gantt-kaavio</string>
+    <string name="media_mermaid_type_pie">Ympyräkaavio</string>
+    <string name="media_mermaid_type_quadrant">Nelikenttä</string>
+    <string name="media_mermaid_type_requirement">Vaatimuskaavio</string>
+    <string name="media_mermaid_type_git_graph">Git-kaavio</string>
+    <string name="media_mermaid_type_c4">C4-kaavio</string>
+    <string name="media_mermaid_type_mind_map">Ajatuskartta</string>
+    <string name="media_mermaid_type_timeline">Aikajana</string>
+    <string name="media_mermaid_type_sankey">Sankey-kaavio</string>
+    <string name="media_mermaid_type_xy_chart">XY-kaavio</string>
+    <string name="media_mermaid_type_block">Lohkokaavio</string>
+    <string name="media_mermaid_type_packet">Pakettikaavio</string>
+    <string name="media_mermaid_type_kanban">Kanban-taulu</string>
+    <string name="media_mermaid_type_architecture">Arkkitehtuurikaavio</string>
+    <string name="media_mermaid_type_radar">Tutkakaavio</string>
+    <string name="media_mermaid_type_treemap">Puukartta</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

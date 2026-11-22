@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Shell</string>
+    <string name="server_notice_source_subagent">Alamagent</string>
+    <string name="server_notice_heading_finished">%1$s lõpetas töö</string>
+    <string name="server_notice_heading_failed">%1$s lõpetas veaga</string>
+    <string name="server_notice_heading_interrupted">%1$s katkestati</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$d shell lõpetas töö</item>
+        <item quantity="other">%1$d shelli lõpetas töö</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$d shell lõpetas veaga</item>
+        <item quantity="other">%1$d shelli lõpetas veaga</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">%1$d shell katkestati</item>
+        <item quantity="other">%1$d shelli katkestati</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">%1$d alamagent lõpetas töö</item>
+        <item quantity="other">%1$d alamagenti lõpetas töö</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">%1$d alamagent lõpetas veaga</item>
+        <item quantity="other">%1$d alamagenti lõpetas veaga</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">%1$d alamagent katkestati</item>
+        <item quantity="other">%1$d alamagenti katkestati</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Kompaktne</string>
+    <string name="server_run_error_action_switch_model">Vaheta mudelit</string>
+    <string name="server_run_error_aborted">Katkestatud</string>
+    <string name="server_run_error_permission_rejected">Katkestatud pärast loa andmisest keeldumist</string>
+    <string name="server_run_error_content_filter">Turvafilter blokeeris vastuse</string>
+    <string name="server_run_error_rate_limit">Päringusageduse piirang on täis</string>
+    <string name="server_run_error_quota">Kasutuslimiit on täis</string>
+    <string name="server_run_error_auth">Pakkuja lükkas võtme tagasi</string>
+    <string name="server_run_error_context_overflow">Seanss on selle mudeli jaoks liiga pikk</string>
+    <string name="server_run_error_invalid_request">Pakkuja lükkas päringu tagasi</string>
+    <string name="server_run_error_overloaded">Mudel on ülekoormatud</string>
+    <string name="server_run_error_internal">Pakkujal tekkis probleem</string>
+    <string name="server_run_error_transport">Ühendus mudeliga katkes</string>
+    <string name="server_run_error_timeout">Mudeli vastus viibis liiga kaua</string>
+    <string name="server_run_error_invalid_output">Mudeli vastust ei saanud lugeda</string>
+    <string name="server_run_error_unavailable">See mudel pole saadaval</string>
+    <string name="server_run_error_unsupported_operation">See mudel ei saa seda teha</string>
+    <string name="server_run_error_tool_execution">Tööriista viga peatas töö</string>
+    <string name="server_run_error_other">Töö peatus vea tõttu</string>
+    <string name="server_run_retry_in_seconds">%1$s · uus katse %2$d s pärast</string>
+    <string name="server_run_retry_now">%1$s · uuesti proovimine</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">OpenCode\'i serveriga ei saanud ühendust</string>
+    <string name="server_error_folder_gone">Kausta pole enam</string>
+    <string name="server_error_uploads_unsupported">See server ei toeta failimanuseid. Uuenda arvutis OpenCode\'i.</string>
+    <string name="server_error_archiving_unsupported">See server ei toeta arhiveerimist. Uuenda OpenCode\'i oma arvutis.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode\'il pole luba kohaliku võrgu seadmetega ühendust luua. Luba seadetes OpenCode\'ile juurdepääs läheduses olevatele seadmetele ja proovi uuesti.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Pealkirjata seanss</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Shell</string>
+    <string name="server_tool_shell_killed">Shell sundpeatati</string>
+    <string name="server_tool_shell_exit_code">Käsk lõppes koodiga %1$d</string>
+    <string name="server_notice_session_update">Seansi uuendus</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Ühenduse loomine ebaõnnestus</string>
+    <string name="server_connection_resolved_address_unknown">Lahendatud aadress: teadmata</string>
+    <string name="server_connection_resolved_address">Lahendatud aadress (päring pärast tõrget): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">See tailneti nimi lahendati aadressiks väljaspool Tailscale\'i aadressivahemikku, seega ei pruugi Tailscale\'i DNS kasutusel olla. Lülita Tailscale\'i rakenduses sisse Tailscale\'i DNS-i seadete kasutamine ning lülita välja privaatne DNS ja kõik DNS-i muutvad VPN-profiilid.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Kohalik võrk</string>
+    <string name="server_connection_route_loopback">Tagasisilmus</string>
+    <string name="server_connection_route_internet">Internet</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">pole veebiaadress</string>
+    <string name="server_pairing_origin_bad_scheme">ei alga kujul http:// ega https://</string>
+    <string name="server_pairing_origin_no_host">ei sisalda hostinime</string>
+    <string name="server_pairing_origin_credentials">sisaldab kasutajanime või parooli</string>
+    <string name="server_pairing_origin_query">sisaldab päringut või fragmenti</string>
+    <string name="server_pairing_origin_port">sisaldab porti väljaspool vahemikku 1–65535</string>
+    <string name="server_pairing_origin_path">sisaldab teed, kuid server peab asuma aadressi juurel</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Server</string>
+    <string name="server_friendly_name_numbered">Server %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">Ühendus katkes pärast sõnumi saatmist, seega võis sõnum kohale jõuda.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Sellel integratsioonil pole sisselogimisviisi.</string>
+    <string name="server_error_sign_in_url_invalid">Sisselogimislehe aadress ei kehti.</string>
+    <string name="server_error_load_server_details">Serveri üksikasjade laadimine ebaõnnestus</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">See sidumiskood on aegunud või juba kasutatud. Käivita uuesti `opencode pair --remote`.</string>
+    <string name="server_error_pairing_unsupported">See server ei toeta sidumislinke. Uuenda arvutis OpenCode\'i või sisesta server käsitsi.</string>
+    <string name="server_error_notification_previews_need_https">Krüpteeritud teavituste eelvaated vajavad HTTPS-ühendust serveriga.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Sisesta kehtiv serveri HTTP- või HTTPS-URL.</string>
+    <string name="server_error_credentials_rejected">Server lükkas need sisselogimisandmed tagasi.</string>
+    <string name="server_error_http_status">Server tagastas HTTP %1$d.</string>
+    <string name="server_error_event_stream_http">Sündmuste voog tagastas HTTP %1$d.</string>
+    <string name="server_error_event_stream_oversized_frame">Sündmuste voog saatis liiga suure kaadri.</string>
+    <string name="server_error_event_stream_ended">Sündmuste voog lõppes.</string>
+    <string name="server_error_event_stream_server_failure">Sündmuste voog teatas serveri tõrkest.</string>
+    <string name="server_tool_failed">Tööriist lõpetas veaga</string>
+    <string name="server_error_list_folder">Server ei saanud selle kausta sisu loetleda</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Projektide ja seansside laadimine ebaõnnestus</string>
+    <string name="server_error_load_session_family">Seansipere laadimine ebaõnnestus</string>
+    <string name="server_error_update_session">Seansi uuendamine ebaõnnestus</string>
+    <string name="server_error_load_session_ancestry">Aktiivse seansi eellaste laadimine ebaõnnestus</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Juba mujal vastatud</string>
+    <string name="server_request_already_dismissed">Juba tagasi lükatud</string>
+    <string name="server_request_already_answered">Juba vastatud</string>
+    <string name="server_request_already_dismissed_elsewhere">Juba mujal tagasi lükatud</string>
+    <string name="server_request_no_longer_waiting">Ei oota enam</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Meedia pole saadaval</string>
+    <string name="server_pasted_text_title">Kleebitud tekst</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d rida · %2$s</item>
+        <item quantity="other">%1$d rida · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d rida</item>
+        <item quantity="other">%1$d rida</item>
+    </plurals>
+    <string name="server_file_size_zero">0 KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d bait</item>
+        <item quantity="other">%1$d baiti</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">Projekt</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Fail</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Lõpeta see samm</string>
+    <string name="server_form_required">Kohustuslik</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">Sisesta vähemalt %1$d märk</item>
+        <item quantity="other">Sisesta vähemalt %1$d märki</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">Sisesta kuni %1$d märk</item>
+        <item quantity="other">Sisesta kuni %1$d märki</item>
+    </plurals>
+    <string name="server_form_invalid_format">Vigane vorming</string>
+    <string name="server_form_choose_option">Vali saadaolev valik</string>
+    <string name="server_form_invalid_email">Sisesta kehtiv e-posti aadress</string>
+    <string name="server_form_invalid_url">Sisesta kehtiv URL</string>
+    <string name="server_form_invalid_date">Sisesta kuupäev kujul YYYY-MM-DD</string>
+    <string name="server_form_invalid_date_time">Sisesta kehtiv kuupäev ja kellaaeg</string>
+    <string name="server_form_minimum">Peab olema vähemalt %1$s</string>
+    <string name="server_form_maximum">Peab olema kuni %1$s</string>
+    <string name="server_form_whole_number">Sisesta täisarv</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">Vali vähemalt %1$d</item>
+        <item quantity="other">Vali vähemalt %1$d</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">Vali kuni %1$d</item>
+        <item quantity="other">Vali kuni %1$d</item>
+    </plurals>
+    <string name="server_form_invalid_value">Vigane väärtus</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Peida valitud</string>
+    <string name="server_model_visibility_only_show">Näita ainult valitud</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Väljas</string>
+    <string name="server_model_variant_extra_high">Eriti kõrge</string>
+    <string name="server_model_variant_max">Maksimaalne</string>
+    <string name="server_delivery_steering">Suunamine</string>
+    <string name="server_delivery_queued">Järjekorras</string>
+</resources>

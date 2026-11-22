@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Appearance -->
+    <string name="settings_appearance_title">Изглед</string>
+    <string name="settings_appearance_mode_header">Режим</string>
+    <string name="settings_appearance_theme">Тема</string>
+
+    <!-- Appearance › Themes -->
+    <string name="settings_themes_title">Теме</string>
+    <string name="settings_themes_preview_description">Преглед транскрипта</string>
+    <string name="settings_themes_preview_user_message">Помози ми да побољшам екран сесије. Покажи шта пронађеш и објасни промене.</string>
+    <string name="settings_themes_preview_reply">Пронашао сам проблем са распоредом у %1$s. Транскрипт и унос поруке деле доступну висину, па је тастатура добар тест за скучен простор.</string>
+
+    <!-- Language -->
+    <string name="settings_language_title">Језик</string>
+    <string name="settings_language_system_default">Подразумевано у систему</string>
+    <string name="settings_language_search_placeholder">Претражи језике</string>
+    <string name="settings_language_suggested_header">Предложено</string>
+    <string name="settings_language_all_header">Сви језици</string>
+    <string name="settings_language_no_matches">Нема одговарајућих језика</string>
+
+    <!-- Experimental -->
+    <string name="settings_experimental_title">Експериментално</string>
+    <string name="settings_experimental_all_footer">Укључује и нове експерименте, осим оних који виде екран или слушају у позадини.</string>
+    <string name="settings_experimental_all">Сви експерименти</string>
+    <string name="settings_experimental_all_on">Сви укључени</string>
+    <plurals name="settings_experimental_on_count">
+        <item quantity="one">%d укључен</item>
+        <item quantity="few">%d укључена</item>
+        <item quantity="other">%d укључених</item>
+    </plurals>
+
+    <!-- Models -->
+    <string name="settings_models_title">Модели</string>
+    <string name="settings_models_mode_hide">Сакриј</string>
+    <string name="settings_models_mode_only_show">Прикажи само</string>
+    <string name="settings_models_mode_hide_footer">Искључите моделе које не користите.</string>
+    <string name="settings_models_mode_only_show_footer">Укључите само моделе које користите.</string>
+    <string name="settings_models_providers_header">Добављачи</string>
+    <string name="settings_models_stale_header">Више нису у понуди</string>
+    <string name="settings_models_forget_unavailable">Заборави недоступне моделе</string>
+    <string name="settings_models_show_every_model">Прикажи све моделе</string>
+    <string name="settings_models_load_failed_title">Учитавање модела није успело</string>
+    <string name="settings_models_summary_hidden">Скривено</string>
+    <string name="settings_models_summary_all">Сви</string>
+    <string name="settings_models_summary_count">%1$d од %2$d</string>
+
+    <!-- Models › Provider -->
+    <string name="settings_models_search_placeholder">Претражите моделе</string>
+    <string name="settings_models_show_provider">Прикажи %1$s</string>
+
+    <!-- Notifications -->
+    <string name="settings_notifications_title">Обавештења</string>
+    <string name="settings_notifications_device_header">Овај %1$s</string>
+    <string name="settings_notifications_device_footer">Обавештења иду преко посредничког сервера који ништа не чува. Овај %1$s добија обавештења само за сесије покренуте на њему.</string>
+    <string name="settings_notifications_allow">Дозволи обавештења</string>
+    <string name="settings_notifications_open_android_settings">Отвори Android подешавања</string>
+    <string name="settings_notifications_turn_on">Укључи обавештења</string>
+    <string name="settings_notifications_server_header">Сервер</string>
+    <string name="settings_notifications_set_up_footer">Отвара сесију са захтевом да OpenCode инсталира додатак. Пошаљите захтев, па проверите поново.</string>
+    <string name="settings_notifications_plugin_needed_footer">Серверу је потребан OpenCode додатак notify.</string>
+    <string name="settings_notifications_notify_plugin">Додатак notify</string>
+    <string name="settings_notifications_plugin_installed">Инсталиран</string>
+    <string name="settings_notifications_plugin_not_running">Није покренут</string>
+    <string name="settings_notifications_plugin_not_installed">Није инсталиран</string>
+    <string name="settings_notifications_plugin_check_failed">Провера статуса није успела</string>
+    <string name="settings_notifications_set_up">Подеси уз OpenCode</string>
+    <string name="settings_notifications_check_again">Провери поново</string>
+    <string name="settings_notifications_in_app_footer">Приказују се на дугмету бочног панела.</string>
+    <string name="settings_notifications_in_app_notices">Обавештења у апликацији</string>
+
+    <!-- Sessions -->
+    <string name="settings_sessions_title">Сесије</string>
+    <string name="settings_sessions_composer_header">Унос поруке</string>
+    <string name="settings_sessions_return_key_sends">Тастер Enter шаље поруку</string>
+    <string name="settings_sessions_new_sessions_header">Нове сесије</string>
+    <string name="settings_sessions_server_default">Подразумевано на серверу</string>
+    <string name="settings_sessions_default_agent">Подразумевани агент</string>
+
+    <!-- Shared values -->
+    <string name="settings_value_on">Укључено</string>
+    <string name="settings_value_off">Искључено</string>
+
+    <!-- Sound Effects -->
+    <string name="settings_sound_effects_volume">Јачина звука</string>
+    <string name="settings_sound_effects_volume_description">Јачина звучних ефеката</string>
+    <string name="settings_sound_effects_send_sound">Звук слања</string>
+
+    <!-- Voice › Delegator -->
+    <string name="settings_delegator_title">Делегатор</string>
+    <string name="settings_delegator_other_server_note">„%1$s“ је на другом серверу. Изаберите сесију на овом серверу или промените сервер.</string>
+    <string name="settings_delegator_mode_footer">Уграђени режим користи OpenAI, без сесије. Режим OpenCode сесије ради у сесији на вашем серверу.</string>
+    <string name="settings_delegator_built_in">Уграђени</string>
+    <string name="settings_delegator_opencode_session">OpenCode сесија</string>
+    <string name="settings_delegator_target_header">Циљна сесија</string>
+    <string name="settings_delegator_target_footer">Аутоматски користи сесију „Глас“ на овом серверу. Приказана сесија користи ону на екрану.</string>
+    <string name="settings_delegator_automatic">Аутоматски</string>
+    <string name="settings_delegator_viewed_session">Приказана сесија</string>
+    <string name="settings_delegator_search_placeholder">Сесије претраге</string>
+    <string name="settings_delegator_sessions_header">Изаберите сесију</string>
+    <string name="settings_delegator_sessions_footer">Изабрана сесија задржава свој модел.</string>
+    <string name="settings_delegator_no_sessions">Нема сесија на овом серверу</string>
+    <string name="settings_delegator_no_matching_sessions">Нема одговарајућих сесија</string>
+    <string name="settings_delegator_new_session">Нова сесија</string>
+    <string name="settings_delegator_direct">Директно</string>
+    <string name="settings_delegator_direct_session_unavailable">Директно · Сесија није доступна</string>
+    <string name="settings_delegator_another_server">%1$s · Други сервер</string>
+
+    <!-- Voice › Key Editor -->
+    <string name="settings_voice_key_hide_description">Сакриј кључ</string>
+    <string name="settings_voice_key_show_description">Прикажи кључ</string>
+    <string name="settings_voice_key_verify">Провери</string>
+
+    <!-- Voice › Voice Provider -->
+    <string name="settings_voice_provider_title">Добављач гласа</string>
+    <string name="settings_voice_provider_place">На %1$s</string>
+    <string name="settings_voice_api_key_title">API кључ</string>
+    <string name="settings_voice_provider_automatic_footer">Када %1$s није спреман, позиви користе доступног добављача.</string>
+    <string name="settings_voice_provider_choose_automatically">Изабери аутоматски</string>
+    <string name="settings_voice_provider_others_header">Други добављачи</string>
+    <string name="settings_voice_provider_use_description">Користи %1$s</string>
+    <string name="settings_voice_provider_use">Користи</string>
+    <string name="settings_voice_provider_set_up">Подеси</string>
+    <plurals name="settings_voice_provider_not_available_count">
+        <item quantity="one">%d добављач није доступан</item>
+        <item quantity="few">%d добављача нису доступна</item>
+        <item quantity="other">%d добављача није доступно</item>
+    </plurals>
+
+    <!-- Voice › API Key -->
+    <string name="settings_voice_account_title">Ваш OpenAI налог</string>
+    <string name="settings_voice_account_place">На овом телефону</string>
+    <string name="settings_voice_account_key_footer">Позиви користе ваш OpenAI налог уместо сервера.</string>
+    <string name="settings_voice_account_use_for_calls">Користи за позиве</string>
+
+    <!-- Voice -->
+    <string name="settings_voice_title">Глас</string>
+    <string name="settings_voice_call_setup_header">Подешавање позива</string>
+    <string name="settings_voice_calls_header">Позиви</string>
+    <string name="settings_voice_raise_to_talk_hint">Укључи или искључи покретање позива преко слушалице када у сесији принесете телефон уху</string>
+    <string name="settings_voice_enable">Омогући глас</string>
+    <string name="settings_voice_model">Модел</string>
+    <string name="settings_voice_model_description">Гласовни модел</string>
+    <string name="settings_voice_call_voice">Глас</string>
+    <string name="settings_voice_raise_to_talk">Принеси за разговор</string>
+    <string name="settings_voice_call_sounds">Звуци позива</string>
+    <string name="settings_voice_call_history">Историја позива</string>
+    <string name="settings_voice_edit_key_label">Уреди свој API кључ за %1$s</string>
+    <string name="settings_voice_key_verified">Проверен</string>
+    <string name="settings_voice_key_checking">Проверавам…</string>
+    <string name="settings_voice_key_saved">Сачуван</string>
+    <string name="settings_voice_key_missing">Недостаје</string>
+    <string name="settings_voice_preview_disabled_hint">Додајте свој кључ за %1$s да преслушате гласове</string>
+
+    <!-- Voice › Voice Picker -->
+    <string name="settings_voice_picker_add_key_footer">Додајте свој кључ за %1$s да преслушате гласове.</string>
+    <string name="settings_voice_picker_unavailable_footer">%1$s није доступан на %2$s, па позиви користе %3$s.</string>
+    <string name="settings_voice_stop_preview_description">Заустави преслушавање гласа %1$s</string>
+    <string name="settings_voice_preview_description">Преслушај %1$s</string>
+    <string name="settings_voice_preview_playing">Репродукција</string>
+    <string name="settings_voice_call_voice_unavailable">%1$s · %2$s није доступан</string>
+
+    <!-- Settings root -->
+    <string name="settings_whats_new_title">Шта је ново</string>
+    <string name="settings_developer_title">За програмере</string>
+    <string name="settings_app_version">Верзија %1$s (%2$s)</string>
+    <string name="settings_app_version_commit">Верзија %1$s (%2$s) · %3$s</string>
+
+    <!-- Connection card -->
+    <string name="settings_connection_show_server_label">Прикажи сервер</string>
+    <string name="settings_connection_milliseconds">%1$d ms</string>
+    <string name="settings_connection_card_value_description">%1$s, %2$s, %3$s</string>
+    <string name="settings_connection_status_connected">Повезано</string>
+    <string name="settings_connection_status_slow">Успорено</string>
+    <string name="settings_connection_status_unstable">Нестабилно</string>
+    <string name="settings_connection_status_reconnecting">Поновно повезивање</string>
+    <string name="settings_connection_status_offline">Ван мреже</string>
+    <string name="settings_connection_status_sign_in_failed">Пријава није успела</string>
+    <string name="settings_connection_status_switching">Пребацивање</string>
+    <string name="settings_connection_status_switching_to">Пребацивање на %1$s</string>
+    <string name="settings_connection_status_code">%1$s · %2$d</string>
+    <string name="settings_connection_status_http_description">%1$s, HTTP %2$d</string>
+    <plurals name="settings_connection_status_milliseconds_description">
+        <item quantity="one">%1$s, %2$d милисекунда</item>
+        <item quantity="few">%1$s, %2$d милисекунде</item>
+        <item quantity="other">%1$s, %2$d милисекунди</item>
+    </plurals>
+
+    <!-- Server page -->
+    <string name="settings_server_title">Сервер</string>
+    <string name="settings_server_address">Адреса</string>
+    <string name="settings_server_connection">Веза</string>
+    <string name="settings_server_version">Верзија</string>
+    <string name="settings_server_edit_server">Уреди сервер…</string>
+    <string name="settings_server_rename_server_ellipsis">Преименуј сервер…</string>
+    <string name="settings_server_rename_title">Преименуј сервер</string>
+    <string name="settings_server_rename_message">Само овај %1$s користи овај назив. Оставите празно за „%2$s“.</string>
+    <string name="settings_server_status">Статус</string>
+    <string name="settings_server_status_milliseconds">%1$s · %2$d ms</string>
+
+    <!-- Servers section -->
+    <string name="settings_servers_header">Сервери</string>
+    <string name="settings_servers_edit_server">Уреди %1$s…</string>
+    <string name="settings_servers_rename_message">Само овај %1$s користи овај назив. Оставите празно за назив рачунара.</string>
+    <string name="settings_servers_remove_title">Уклонити %1$s?</string>
+    <string name="settings_servers_remove_message">Овим се бришу адреса и лозинка на овом %1$s. Сесије на серверу остају непромењене.</string>
+    <string name="settings_servers_remove_server">Уклони сервер</string>
+    <string name="settings_servers_current_server_state">Тренутни сервер, %1$s</string>
+    <string name="settings_servers_switch_label">Пређи на овај сервер</string>
+    <string name="settings_servers_options_description">Опције за %1$s</string>
+    <string name="settings_servers_rename_menu">Преименуј…</string>
+    <string name="settings_servers_edit_menu">Уреди…</string>
+    <string name="settings_servers_remove_menu">Уклони…</string>
+    <string name="settings_servers_add_server">Додај сервер</string>
+    <string name="settings_servers_scan_pairing_code">Скенирај код за упаривање</string>
+    <string name="settings_servers_enter_address">Унеси адресу</string>
+
+    <!-- Pairing scanner -->
+    <string name="settings_pairing_paste">Налепи</string>
+    <string name="settings_pairing_no_camera_title">Камера није доступна</string>
+    <string name="settings_pairing_no_camera_message">Копирајте везу коју `opencode pair` испише на рачунару, па је налепите овде.</string>
+    <string name="settings_pairing_camera_off_title">Приступ камери је искључен</string>
+    <string name="settings_pairing_camera_off_message">Дозволите приступ камери у подешавањима да скенирате QR код или налепите везу коју испише `opencode pair`.</string>
+    <string name="settings_pairing_nothing_to_paste_title">Нема ничега за лепљење</string>
+    <string name="settings_pairing_nothing_to_paste_message">У међуспремнику нема везе за упаривање. Копирајте везу коју испише opencode pair, па покушајте поново.</string>
+    <string name="settings_pairing_point_camera">Усмерите камеру ка QR коду</string>
+    <string name="settings_pairing_paste_link">Налепи везу за упаривање</string>
+    <string name="settings_pairing_computer_hint">На рачунару отворите Подешавања → Упаривање у OpenCode или покрените %1$s у терминалу.</string>
+</resources>

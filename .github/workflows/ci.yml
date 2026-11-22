@@ -1,0 +1,104 @@
+# Checks every pull request and push to dev with scripts/check.sh (translations, assemble, lint,
+# unit tests). Nothing here holds a secret or an OIDC token. A push to dev also publishes the
+# debug APK as the rolling `dev-latest` pre-release for sideloading. Releases are release.yml.
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [dev]
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    env:
+      OC_VERSION_CODE: ${{ github.run_number }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+
+      - name: Stamp the build
+        run: echo "OC_VERSION_SUFFIX=$(git rev-parse --short=7 HEAD)" >> "$GITHUB_ENV"
+
+      - uses: actions/setup-java@cf277c60eb25467037889841efdb72551f06f6c3 # v4.9.1
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - uses: android-actions/setup-android@9fc6c4e9069bf8d3d10b2204b1fb8f6ef7065407 # v3.2.2
+        with:
+          packages: platform-tools
+
+      - name: Install the SDK platform, build tools and NDK
+        run: yes | sdkmanager "platforms;android-37.0" "build-tools;37.0.0" "ndk;29.0.14206865" > /dev/null
+
+      - uses: gradle/actions/setup-gradle@ed408507eac070d1f99cc633dbcf757c94c7933a # v4.4.3
+        with:
+          # Only dev writes the cache, so pull requests can't evict or poison it.
+          cache-read-only: ${{ github.ref != 'refs/heads/dev' }}
+
+      - name: Prefer Google's Maven Central mirror
+        run: install -Dm644 .github/gradle/maven-mirror.init.gradle.kts "${GRADLE_USER_HOME:-$HOME/.gradle}/init.d/maven-mirror.init.gradle.kts"
+
+      - name: Check (translations, assemble, lint, unit tests)
+        run: scripts/check.sh
+
+      - name: Name the APK
+        run: cp app/build/outputs/apk/debug/app-debug.apk "opencode-android-${OC_VERSION_SUFFIX}.apk"
+
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: opencode-android-${{ env.OC_VERSION_SUFFIX }}
+          path: opencode-android-${{ env.OC_VERSION_SUFFIX }}.apk
+          retention-days: 30
+
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        if: failure()
+        with:
+          name: reports-${{ env.OC_VERSION_SUFFIX }}
+          path: |
+            **/build/reports/
+            **/build/test-results/
+          retention-days: 7
+
+  dev-latest:
+    needs: check
+    if: github.ref == 'refs/heads/dev' && github.event_name == 'push'
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    concurrency:
+      group: publish-dev-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - name: Short SHA
+        run: echo "SHORT=${GITHUB_SHA::7}" >> "$GITHUB_ENV"
+
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: opencode-android-${{ env.SHORT }}
+
+      - name: Update the dev-latest pre-release
+        run: |
+          cp "opencode-android-${SHORT}.apk" opencode-android.apk
+          title="dev-latest · ${SHORT}"
+          notes="Debug build of dev at ${GITHUB_SHA} (version 0.1.0-${SHORT}, code ${GITHUB_RUN_NUMBER}). Install steps: see the README's \"Try it on Android\"."
+          if gh release view dev-latest > /dev/null 2>&1; then
+            gh api -X PATCH "repos/${GH_REPO}/git/refs/tags/dev-latest" -f sha="${GITHUB_SHA}" -F force=true > /dev/null
+            gh release edit dev-latest --title "$title" --notes "$notes" --prerelease
+            gh release upload dev-latest opencode-android.apk --clobber
+          else
+            gh release create dev-latest opencode-android.apk --prerelease --latest=false --target "${GITHUB_SHA}" --title "$title" --notes "$notes"
+          fi

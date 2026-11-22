@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Kunde inte lägga till delade objekt</string>
+    <string name="app_alert_open_session_failed_title">Kunde inte öppna sessionen</string>
+    <string name="app_alert_pairing_failed_title">Kunde inte para ihop med servern</string>
+    <string name="app_pairing_confirm">Para ihop</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Servrar</string>
+    <string name="app_servers_back_description">Tillbaka till %1$s</string>
+    <string name="app_server_fallback_name">server</string>
+    <string name="app_connection_intro_new">Fortsätt koda från din %1$s.</string>
+    <string name="app_connection_intro_returning">Fortsätt där du slutade eller para ihop en annan dator.</string>
+    <string name="app_connection_enter_manually">Ange en server manuellt</string>
+    <string name="app_connection_scan_pairing_code">Skanna parkopplingskod</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Öppna OpenCode på datorn och gå till Inställningar → Parkoppling, eller kör opencode pair --remote i en terminal. Skanna sedan koden med din %1$s.</string>
+    <string name="app_setup_install_title">Har du inte OpenCode än?</string>
+    <string name="app_setup_other_ways_to_install">Andra sätt att installera</string>
+    <string name="app_setup_terminal_title">Eller kör detta i en terminal</string>
+    <string name="app_setup_terminal_detail">Det fungerar från alla nätverk.</string>
+    <string name="app_setup_paste_prompt">Eller kopiera länken som visas och välj sedan</string>
+    <string name="app_setup_paste">Klistra in</string>
+    <string name="app_setup_copy_command_description">Kopiera %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Ansluter</string>
+    <string name="app_servers_edit_description">Redigera %1$s</string>
+    <string name="app_servers_remove_description">Ta bort %1$s</string>
+    <string name="app_servers_remove_confirm_title">Ta bort %1$s?</string>
+    <string name="app_servers_remove_confirm_message">Adressen och lösenordet tas bort från din %1$s. Sessionerna på servern påverkas inte.</string>
+    <string name="app_servers_remove_confirm">Ta bort server</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Fas: %1$s</string>
+    <string name="app_error_server">Server: %1$s</string>
+    <string name="app_error_attempt">Försök: %1$d</string>
+    <string name="app_error_copy_report">Kopiera felrapport</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Ny server</string>
+    <string name="app_server_form_edit_title">Redigera server</string>
+    <string name="app_server_form_name">Namn</string>
+    <string name="app_server_form_address">Serveradress</string>
+    <string name="app_server_form_username">Användarnamn</string>
+    <string name="app_server_form_password">Lösenord (valfritt)</string>
+    <string name="app_server_form_hide_password_description">Göm lösenord</string>
+    <string name="app_server_form_show_password_description">Visa lösenord</string>
+    <string name="app_server_form_connect">Anslut</string>
+    <string name="app_server_form_save_and_connect">Spara och anslut</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">HTTP-huvuden</string>
+    <string name="app_server_form_header_name">Namn</string>
+    <string name="app_server_form_header_name_description">Namn på HTTP-huvud %1$d</string>
+    <string name="app_server_form_header_value">Värde</string>
+    <string name="app_server_form_header_value_description">Värde för HTTP-huvud %1$d</string>
+    <string name="app_server_form_header_remove_description">Ta bort HTTP-huvud %1$d</string>
+    <string name="app_server_form_header_add">Lägg till HTTP-huvud</string>
+    <string name="app_server_form_headers_detail">Skickas med varje begäran, för en proxy framför servern, till exempel Cloudflare Access.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">”%1$s” är inte ett giltigt namn på ett HTTP-huvud</string>
+    <string name="app_server_form_header_invalid_value">Värdet för %1$s får inte innehålla radbrytningar</string>
+    <string name="app_server_form_name_placeholder">Valfritt</string>
+    <string name="app_connection_progress_pairing">Parar ihop</string>
+    <string name="app_connection_progress_connecting">Ansluter</string>
+    <string name="app_connection_progress_loading_sessions">Laddar sessioner</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Para ihop med %1$s?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode provar %1$s och växlar till den första adressen som svarar.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode parar ihop med %1$s och växlar dit.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode provar %1$s och %2$s och växlar till den första som svarar.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode provar %1$s och %2$s och växlar till den första som svarar.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Sparade inloggningsuppgifter för %2$s kan ersättas.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Parkoppling</string>
+    <string name="app_error_phase_connect">Anslut</string>
+    <string name="app_error_phase_load_sessions">Ladda sessioner</string>
+    <string name="app_error_candidate_detail">Kandidat %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Inte tillgänglig (ogiltig adress)</string>
+    <string name="app_error_title_pair">Kunde inte para ihop</string>
+    <string name="app_error_title_load_sessions">Kunde inte ladda sessioner</string>
+    <string name="app_error_title_connect">Kunde inte ansluta till %1$s</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Urklipp är tomt</string>
+    <string name="app_paste_not_a_pairing_link">Det är ingen parkopplingslänk</string>
+    <string name="app_server_no_longer_saved">Servern är inte längre sparad på denna %1$s. Anslut till den igen för att öppna sessionen.</string>
+    <string name="app_session_no_longer_available">Sessionen kan ha raderats, eller så är servern inte tillgänglig.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Ansluten till %1$s</string>
+    <string name="app_pairing_invalid_code">Det är ingen parkopplingskod för OpenCode. Kör opencode pair --remote på datorn och skanna sedan QR-koden eller klistra in länken som visas.</string>
+    <string name="app_pairing_unusable_address">Kunde inte använda ”%1$s” från parkopplingskoden eftersom den %2$s.</string>
+    <string name="app_pairing_loopback">Servern lyssnar bara på localhost, så denna %1$s kan inte nå den. Kör i stället opencode pair --remote på datorn. Det fungerar från alla nätverk.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Servern du delade till är inte längre sparad på den här enheten. Anslut till den igen och dela sedan på nytt.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">senast använd</string>
+    <string name="app_server_form_hint_new">Klistra in länken som `opencode pair --remote` visar för att para ihop, eller använd adressen och lösenordet för din OpenCode-server. Användarnamnet är oftast opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Ändringarna sparas när servern ansluter. Servern har parkopplats, så lösenordet är en sessionstoken. Skanna en ny parkopplingskod i stället för att ändra det.</string>
+    <string name="app_server_form_hint_edit">Ändringarna sparas när servern ansluter.</string>
+</resources>

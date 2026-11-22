@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shared -->
+    <string name="transcript_open_named">%1$sを開く</string>
+
+    <!-- Link previews -->
+    <string name="transcript_link_preview_show_fewer">リンクを一部のみ表示</string>
+    <string name="transcript_link_preview_show_all">すべてのリンクを表示</string>
+    <plurals name="transcript_link_preview_shown">
+        <item quantity="other">%2$d件中%1$d件のリンクを表示</item>
+    </plurals>
+    <string name="transcript_link_preview_more">ほか%1$d件</string>
+
+    <!-- Transcript list -->
+    <string name="transcript_scroll_to_top">先頭にスクロール</string>
+    <string name="transcript_working">作業中</string>
+
+    <!-- Transcript list rows -->
+    <string name="transcript_history_loading_description">以前のメッセージを読み込み中</string>
+    <string name="transcript_empty_loading_description">セッションを読み込み中</string>
+    <string name="transcript_empty_title">まだメッセージはありません</string>
+    <string name="transcript_empty_subtitle">下からセッションを始めましょう</string>
+    <string name="transcript_compaction_queued">圧縮待機中</string>
+
+    <!-- Code blocks -->
+    <string name="transcript_code_copy_description">コードをコピー</string>
+
+    <!-- Markdown task lists -->
+    <string name="transcript_task_done_description">完了</string>
+    <string name="transcript_task_not_done_description">未完了</string>
+
+    <!-- Markdown images -->
+    <string name="transcript_image">画像</string>
+    <string name="transcript_image_open_description">画像を開く</string>
+    <string name="transcript_image_load_failed">画像を読み込めませんでした</string>
+    <string name="transcript_image_retry_click_label">もう一度試す</string>
+    <string name="transcript_image_open">開く</string>
+
+    <!-- Math -->
+    <string name="transcript_equation_description">数式</string>
+
+    <!-- Selection -->
+    <string name="transcript_quote">引用</string>
+    <string name="transcript_quote_description">引用: %1$s</string>
+    <string name="transcript_quote_show">引用全文を表示</string>
+    <string name="transcript_quote_comment_description">引用: %1$s。コメント: %2$s</string>
+    <string name="transcript_quote_add_comment">コメントを追加</string>
+    <string name="transcript_quote_edit_comment">コメントを編集</string>
+
+    <!-- Reply actions -->
+    <string name="transcript_reply_copy_description">返信をコピー</string>
+
+    <!-- Run errors and undo -->
+    <string name="transcript_run_error_copy">エラーをコピー</string>
+    <string name="transcript_undone_undo_hint">新しいメッセージを送信するまでは元に戻せます</string>
+    <string name="transcript_undone_title">ここから先をリセットしました</string>
+    <string name="transcript_undone_undo_click_label">新しいメッセージを送信する前に、リセットしたメッセージとファイルを復元</string>
+    <string name="transcript_undone_undo">元に戻す</string>
+
+    <!-- Tool rows -->
+    <string name="transcript_tool_failed">失敗</string>
+    <string name="transcript_tool_running">実行中</string>
+    <string name="transcript_tool_completed">完了</string>
+    <string name="transcript_subagent_open_click_label">サブエージェントのセッションを開く</string>
+    <string name="transcript_tool_group_failed_count">%1$d件失敗</string>
+    <string name="transcript_expanded">展開済み</string>
+    <string name="transcript_collapsed">折りたたみ済み</string>
+    <string name="transcript_tool_image">ツールの画像</string>
+    <string name="transcript_tool_hide_click_label">ツールの入出力を非表示</string>
+    <string name="transcript_tool_show_click_label">ツールの入出力を表示</string>
+    <string name="transcript_tool_denied">拒否</string>
+    <string name="transcript_show_less">一部のみ表示</string>
+    <plurals name="transcript_tool_output_show_all">
+        <item quantity="other">全%1$d行を表示</item>
+    </plurals>
+    <string name="transcript_question_hide_click_label">質問を非表示</string>
+    <string name="transcript_question_show_click_label">質問と回答を表示</string>
+    <string name="transcript_question_chosen_description">選択済み</string>
+
+    <!-- Compaction -->
+    <string name="transcript_compaction_running">コンテキストを圧縮中</string>
+    <string name="transcript_compaction_provider">プロバイダーによる圧縮</string>
+    <string name="transcript_compaction_completed">コンテキストを圧縮しました</string>
+    <string name="transcript_compaction_cancelled">圧縮をキャンセルしました</string>
+    <string name="transcript_compaction_failed">圧縮に失敗しました</string>
+    <string name="transcript_compaction_usage">入力 %1$s · 出力 %2$s</string>
+    <string name="transcript_compaction_show_summary_click_label">圧縮の要約を表示</string>
+
+    <!-- New messages rule -->
+    <string name="transcript_new_messages_description">新しいメッセージ</string>
+    <string name="transcript_new_messages_label">新着</string>
+
+    <!-- Media tiles -->
+    <string name="transcript_attached_image_open_description">添付画像を開く</string>
+    <string name="transcript_attached_image_open_numbered_description">添付画像を開く（%2$d枚中%1$d枚目）</string>
+    <string name="transcript_attached_image">添付画像</string>
+    <string name="transcript_tool_image_open_numbered_description">ツールの画像を開く（%2$d枚中%1$d枚目）</string>
+    <string name="transcript_media_unavailable">メディアを利用できません</string>
+    <string name="transcript_attached_file_description">添付ファイル %1$s</string>
+
+    <!-- Message menus -->
+    <string name="transcript_message_select">選択</string>
+    <string name="transcript_pending_send_now">今すぐ送信</string>
+    <string name="transcript_pending_move_to_queue">キューに移動</string>
+    <string name="transcript_message_revert_to_here">この時点までリセット</string>
+    <string name="transcript_show_more">さらに表示</string>
+
+    <!-- Voice messages -->
+    <string name="transcript_voice_call_log_attached">通話ログを添付しました</string>
+    <string name="transcript_voice_copy_full_message">メッセージ全文をコピー</string>
+    <string name="transcript_voice_message_description">音声メッセージ</string>
+    <string name="transcript_voice_label">声</string>
+
+    <!-- Attachments -->
+    <string name="transcript_file_open_click_label">ファイルを開く</string>
+    <string name="transcript_pasted_text_open_click_label">テキストを開く</string>
+    <string name="transcript_location_shared">共有された場所</string>
+    <string name="transcript_location_open_in_maps">マップで開く</string>
+    <string name="transcript_location_description">場所: %1$s</string>
+    <string name="transcript_location_description_with_address">場所: %1$s、%2$s</string>
+
+    <!-- Shared phrasing -->
+    <string name="transcript_quoted">「%1$s」</string>
+    <string name="transcript_spoken_pair">%1$s、%2$s</string>
+    <string name="transcript_list_two">%1$sと%2$s</string>
+    <string name="transcript_list_many">%1$sと%2$s</string>
+
+    <!-- Tool rows -->
+    <string name="transcript_tool_read">読み込み</string>
+    <string name="transcript_tool_search">%1$sを検索</string>
+    <string name="transcript_tool_search_quoted">「%1$s」を検索</string>
+    <string name="transcript_tool_group_updates">更新</string>
+    <plurals name="transcript_tool_group_used">
+        <item quantity="other">%1$d個のツールを使用</item>
+    </plurals>
+
+    <!-- Question rows -->
+    <string name="transcript_question">質問</string>
+    <string name="transcript_question_no_answer">回答なし</string>
+    <string name="transcript_question_dismissed">スキップ済み</string>
+    <plurals name="transcript_question_answered_count">
+        <item quantity="other">%1$d件の質問に回答済み</item>
+    </plurals>
+    <plurals name="transcript_question_count">
+        <item quantity="other">%1$d件の質問</item>
+    </plurals>
+
+    <!-- Model switch -->
+    <string name="transcript_model_switch_title">%1$sに切り替えました</string>
+    <string name="transcript_model_switch_default">デフォルト</string>
+    <string name="transcript_model_switch_thinking_description">%1$s、思考: %2$s</string>
+    <string name="transcript_model_switch_thinking_off_description">%1$s、思考オフ</string>
+
+    <!-- Run errors and failed sends -->
+    <string name="transcript_run_error_edit_last_message">最後のメッセージを編集</string>
+    <string name="transcript_failed_send_status">送信できませんでした</string>
+    <string name="transcript_failed_send_moving">移動中…</string>
+    <string name="transcript_failed_send_move_to">%1$sに移動</string>
+
+    <!-- Links -->
+    <string name="transcript_session_link_new_session">新しいセッション</string>
+    <string name="transcript_links_to_description">%1$sへのリンク</string>
+    <string name="transcript_link_preview_video">動画</string>
+    <string name="transcript_link_preview_post">投稿</string>
+    <string name="transcript_link_preview_post_unavailable">投稿を表示できません</string>
+    <plurals name="transcript_link_preview_comments">
+        <item quantity="other">%1$s件のコメント</item>
+    </plurals>
+</resources>

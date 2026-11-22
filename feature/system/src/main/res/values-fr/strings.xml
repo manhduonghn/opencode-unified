@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_new_session">Nouvelle session</string>
+    <string name="system_start_call">Démarrer un appel</string>
+    <string name="system_open_session">Ouvrir la session</string>
+    <string name="widget_start_call_description">Démarre un appel vocal dans la session choisie ou la dernière consultée.</string>
+    <string name="widget_open_session_description">Ouvre la session choisie.</string>
+    <string name="widget_new_session_description">Ouvre une nouvelle session OpenCode.</string>
+
+    <!-- Shared across screens -->
+    <string name="system_selected_description">Sélectionnée</string>
+    <string name="system_last_viewed_session">Dernière session consultée</string>
+
+    <!-- Quick actions (launcher shortcuts) -->
+    <string name="system_quick_action_session_fallback">Session</string>
+    <!-- Long label: the session's title, then its project. -->
+    <string name="system_quick_action_long_label">%1$s · %2$s</string>
+
+    <!-- Shortcuts and Ask OpenCode -->
+    <string name="system_session_type_name">Session</string>
+    <string name="system_project_type_name">Projet</string>
+    <string name="system_intent_open_session_description">Ouvre une session dans OpenCode.</string>
+    <string name="system_intent_new_session_description">Démarre une nouvelle session dans OpenCode.</string>
+    <string name="system_intent_start_voice_call_title">Démarrer un appel vocal</string>
+    <string name="system_intent_start_voice_call_description">Démarre un appel vocal avec OpenCode dans une session. Sans session précisée, l’appel démarre dans la dernière consultée.</string>
+    <string name="system_intent_background_call_title">Démarrer un appel vocal en arrière-plan</string>
+    <string name="system_intent_background_call_description">Démarre un appel vocal avec OpenCode sans ouvrir l’application. L’appel s’affiche dans la barre d’état et sur l’écran verrouillé.</string>
+    <string name="system_delivery_type_name">Mode d’envoi</string>
+    <string name="system_delivery_steer">Orienter</string>
+    <string name="system_delivery_queue">Mettre en attente</string>
+    <string name="system_ask_title">Demander à OpenCode</string>
+    <string name="system_ask_description">Envoie un message à une session OpenCode sans ouvrir l’application.</string>
+    <string name="system_ask_message_title">Message</string>
+    <string name="system_ask_message_placeholder">Que doit faire OpenCode ?</string>
+    <string name="system_ask_session_title">Session</string>
+    <string name="system_ask_started_new_session">Nouvelle session démarrée dans %1$s</string>
+    <string name="system_ask_queued_for">En file d’attente pour « %1$s »</string>
+    <string name="system_ask_sent_to">Envoyé à « %1$s »</string>
+    <string name="system_ask_your_session">votre session</string>
+    <string name="system_ask_no_server">Ouvrez d’abord OpenCode et connectez-vous à un serveur.</string>
+    <string name="system_ask_no_project">Ouvrez d’abord OpenCode et démarrez une session.</string>
+    <string name="system_ask_empty_message">Il n’y a rien à envoyer.</string>
+    <!-- The server's error message follows. -->
+    <string name="system_ask_send_failed">Impossible d’envoyer à OpenCode. %1$s</string>
+
+    <!-- Live Updates: voice call -->
+    <string name="system_call_muted">En sourdine</string>
+    <string name="system_call_unmute">Réactiver le micro</string>
+    <string name="system_call_mute">Mettre en sourdine</string>
+    <string name="system_call_end">Terminer l’appel</string>
+    <string name="system_call_connecting">Connexion en cours…</string>
+    <string name="system_call_reconnecting">Reconnexion en cours…</string>
+    <string name="system_call_ended">Appel terminé</string>
+    <string name="system_call_end_title">Terminer l’appel</string>
+    <string name="system_call_toggle_mute_title">Couper ou réactiver le micro</string>
+
+    <!-- Live Updates: hands-free recording -->
+    <string name="system_recording_active">Enregistrement</string>
+    <string name="system_recording_stopped">Enregistrement arrêté</string>
+    <string name="system_recording_stop">Arrêter l’enregistrement</string>
+    <string name="system_recording_stop_title">Arrêter l’enregistrement</string>
+    <string name="system_recording_new_session">Nouvelle session</string>
+
+    <!-- Live Updates: session run -->
+    <string name="system_session_working">En cours</string>
+    <string name="system_session_last_seen_working">Dernier état : en cours</string>
+    <!-- Where the run is (Working), then its current step (a tool name, Thinking or Replying). -->
+    <string name="system_session_status_with_step">%1$s · %2$s</string>
+    <string name="system_session_step_thinking">Réflexion</string>
+    <string name="system_session_step_replying">Réponse en cours</string>
+    <string name="system_session_needs_input">Votre réponse est attendue</string>
+    <string name="system_session_input">Entrée</string>
+    <string name="system_session_done">Terminé</string>
+    <string name="system_session_failed">Échec</string>
+
+    <!-- Session notifications -->
+    <string name="system_notification_placeholder_body">Nouvelle activité</string>
+
+    <!-- Notification channels -->
+    <string name="system_channel_voice_calls">Appels vocaux</string>
+    <string name="system_channel_recording">Enregistrement</string>
+    <string name="system_channel_session_runs">Exécution des sessions</string>
+    <string name="system_channel_session_updates">Mises à jour des sessions</string>
+    <string name="system_channel_shared_items">Éléments partagés</string>
+
+    <!-- Share sheet: notifications -->
+    <string name="system_share_continue_notification_body">Appuyez pour continuer dans OpenCode</string>
+
+    <!-- Share sheet -->
+    <string name="system_share_your_server">votre serveur</string>
+    <string name="system_share_new_session_in_project">Nouvelle session · %1$s</string>
+    <string name="system_share_save_failed_message">Réessayez. Si le problème persiste, libérez de l’espace sur cet appareil.</string>
+    <!-- The session's title, then its project. -->
+    <string name="system_share_session_chip_description">%1$s, %2$s</string>
+    <string name="system_share_problem_unreachable">Impossible de joindre %1$s</string>
+    <string name="system_share_problem_too_large">Impossible d’envoyer des fichiers aussi volumineux d’ici</string>
+    <string name="system_share_problem_uploads_unsupported">Impossible de téléverser des fichiers vers %1$s</string>
+    <string name="system_share_problem_sign_in">Impossible de se connecter à %1$s</string>
+    <string name="system_share_problem_send">Impossible d’envoyer à %1$s</string>
+    <string name="system_share_problem_no_credentials">Ouvrez OpenCode une fois pour envoyer d’ici</string>
+    <plurals name="system_share_image_count">
+        <item quantity="one">%d image</item>
+        <item quantity="many">%d images</item>
+        <item quantity="other">%d images</item>
+    </plurals>
+    <plurals name="system_share_file_count">
+        <item quantity="one">%d fichier</item>
+        <item quantity="many">%d fichiers</item>
+        <item quantity="other">%d fichiers</item>
+    </plurals>
+    <plurals name="system_share_images_skipped">
+        <item quantity="one">%d image n’a pas pu être ajoutée</item>
+        <item quantity="many">%d images n’ont pas pu être ajoutées</item>
+        <item quantity="other">%d images n’ont pas pu être ajoutées</item>
+    </plurals>
+    <plurals name="system_share_files_skipped">
+        <item quantity="one">%d fichier n’a pas pu être ajouté</item>
+        <item quantity="many">%d fichiers n’ont pas pu être ajoutés</item>
+        <item quantity="other">%d fichiers n’ont pas pu être ajoutés</item>
+    </plurals>
+    <string name="system_share_save_failed_title">Impossible d’enregistrer pour OpenCode</string>
+    <string name="system_share_continue_description">Continuer dans OpenCode</string>
+    <string name="system_share_no_server_title">Connectez-vous d’abord à un serveur</string>
+    <string name="system_share_no_server_message">Ouvrez OpenCode et connectez-vous à votre ordinateur, puis partagez à nouveau.</string>
+    <string name="system_share_send_later">Envoyer plus tard</string>
+    <string name="system_share_saved_continue">Enregistré. Ouvrez OpenCode pour continuer</string>
+    <string name="system_share_loading_description">Chargement des éléments partagés</string>
+    <string name="system_share_image_description">Image</string>
+    <string name="system_share_image_position_description">Image %1$d sur %2$d</string>
+    <string name="system_share_search_sessions_description">Rechercher des sessions</string>
+    <string name="system_share_new_session_in_project_description">Nouvelle session dans %1$s</string>
+    <string name="system_share_choose_project_description">Choisir son projet</string>
+    <string name="system_share_message_placeholder">Message</string>
+    <string name="system_share_sent_to">Envoyé à %1$s</string>
+    <string name="system_share_sending_description">Envoi en cours</string>
+    <string name="system_share_sent_description">Envoyé</string>
+    <string name="system_share_sessions_title">Sessions</string>
+    <string name="system_share_pinned_header">Épinglés</string>
+    <string name="system_share_recents_header">Récents</string>
+
+    <!-- Widget configuration -->
+    <string name="system_widget_choose_session_title">Choisir une session</string>
+</resources>

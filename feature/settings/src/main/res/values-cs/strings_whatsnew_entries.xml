@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- What’s New entries, oldest first: one group per file in whatsnew/entries/. -->
+
+    <!-- 2026-10-06-01-voice-messages -->
+    <string name="settings_whatsnew_entry_voice_messages_title">Hlasové zprávy</string>
+    <string name="settings_whatsnew_entry_voice_messages_summary">Dotazy, které za vás Hlas posílá do relace, se zobrazují jako hlasové zprávy označené zvukovou vlnou.</string>
+
+    <!-- 2026-10-07-01-attachment-menu-hold -->
+    <string name="settings_whatsnew_entry_attachment_menu_hold_title">Přílohy přes +</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_summary">Z pole zprávy se vysune nabídka + s položkami Fotoaparát, Fotografie a Soubory. Podržte + a tažením vyberte jedním pohybem.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_1">Fotografie se otevřou přímo nad polem zprávy. Klepnutím je přiložíte.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_2">Fotoaparát nabízí přepínání objektivů, přiblížení prsty, zaostření klepnutím a blesk.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_example">Podržte +, přetáhněte nahoru na Fotografie a pusťte</string>
+
+    <!-- 2026-10-08-01-voice-webrtc-weak-connection -->
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_title">Stabilnější hovory</string>
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_summary">Při slabém připojení hovor jen krátce zadrhne místo několika sekund ticha.</string>
+
+    <!-- 2026-10-08-02-mute-sessions -->
+    <string name="settings_whatsnew_entry_mute_sessions_title">Ztlumení relací</string>
+    <string name="settings_whatsnew_entry_mute_sessions_summary">Ztlumené relace zůstávají v seznamu, ale nezobrazují se v přehledu novinek ani nemají tečku nepřečtených zpráv.</string>
+    <string name="settings_whatsnew_entry_mute_sessions_detail_1">Podržením přehledu novinek označíte vše jako přečtené. Relace, které na vás čekají, zůstanou.</string>
+    <string name="settings_whatsnew_entry_mute_sessions_example">Podržte relaci ve výsuvném panelu a klepněte na Ztlumit</string>
+
+    <!-- 2026-10-08-03-pair-from-anywhere -->
+    <string name="settings_whatsnew_entry_pair_from_anywhere_title">Párování odkudkoli</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_summary">Spusťte na počítači opencode pair --remote a připojte se z libovolné sítě, bez společné Wi-Fi nebo Tailscale.</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_detail_1">Naskenujte zobrazený kód nebo vložte vypsaný odkaz.</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_example">Spusťte opencode pair --remote a pak přidejte server v telefonu</string>
+
+    <!-- 2026-10-08-04-drawer-peek -->
+    <string name="settings_whatsnew_entry_drawer_peek_title">Poslední aktivita relací</string>
+    <string name="settings_whatsnew_entry_drawer_peek_summary">Přetáhněte seznam relací směrem k relaci a uvidíte, kdy byla každá z nich naposledy aktivní.</string>
+    <string name="settings_whatsnew_entry_drawer_peek_detail_1">Přejetím doleva přes seznam ho zavřete.</string>
+    <string name="settings_whatsnew_entry_drawer_peek_example">Otevřete seznam relací a přetáhněte ho doprava</string>
+
+    <!-- 2026-10-08-05-dictation-keeps-going -->
+    <string name="settings_whatsnew_entry_dictation_keeps_going_title">Diktovat a odeslat</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_summary">Klepněte na mikrofon a diktujte. Zprávu odešlete přímo z lišty nahrávání, nebo ji nejdřív zkontrolujte klepnutím na Zastavit.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_1">Podržte mikrofon a mluvte. Tažením nahoru nahrávání uzamknete, tažením doleva zrušíte.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_2">Nahrávání pokračuje i po opuštění aplikace. Zastavit ho můžete v živé aktivitě.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_3">Když během nahrávání přepnete relaci, tlačítko Odeslat pošle zprávu do právě zobrazené relace.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_example">Klepněte na mikrofon, řekněte větu a klepněte na Odeslat</string>
+
+    <!-- 2026-10-08-06-siri-shortcuts-spotlight -->
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_title">Akce aplikace a zkratky</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_summary">Zahajte hovor či relaci nebo odešlete zprávu pomocí akcí aplikace v Asistentovi Google, zkratek aplikace nebo rychlého nastavení.</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_detail_1">Podržením ikony aplikace zobrazíte nedávné relace.</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_example">Řekněte „Hey Google, zahaj hlasový hovor v OpenCode“</string>
+
+    <!-- 2026-10-09-01-working-orb -->
+    <string name="settings_whatsnew_entry_working_orb_title">Stavová koule</string>
+    <string name="settings_whatsnew_entry_working_orb_summary">Koule vedle stavu Pracuje a na kartách subagentů ukazuje, co agent dělá. Po dokončení se změní na tlačítko kopírování.</string>
+
+    <!-- 2026-10-09-02-shell-glyph -->
+    <string name="settings_whatsnew_entry_shell_glyph_title">Aktivita shellu</string>
+    <string name="settings_whatsnew_entry_shell_glyph_summary">Symbol &gt;_ běžícího shellu se při příchodu výstupu animuje v cyklu.</string>
+
+    <!-- 2026-10-09-03-math-and-diagrams -->
+    <string name="settings_whatsnew_entry_math_and_diagrams_title">Matematika a diagramy</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_summary">Odpovědi zobrazují matematickou sazbu a vykreslují diagramy Mermaid.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_1">Klepnutím diagram přiblížíte, podržením zobrazíte jeho zdroj.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_2">Matematické výrazy se přizpůsobí velikosti textu.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_example">Požádejte o vývojový diagram odesílání zprávy</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_prompt">Nakresli vývojový diagram odesílání zprávy</string>
+
+    <!-- 2026-10-09-04-always-notify -->
+    <string name="settings_whatsnew_entry_always_notify_title">Oznámení po dokončení</string>
+    <string name="settings_whatsnew_entry_always_notify_summary">Po dokončení relace, kterou zde spustíte, dostanete oznámení s krátkým shrnutím průběhu.</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_1">V panelu relace zapněte Vždy upozornit a dostanete oznámení o každé odpovědi, i na zprávy odeslané z počítače.</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_2">Klepnutím na oznámení otevřete příslušnou relaci.</string>
+    <string name="settings_whatsnew_entry_always_notify_example">Odešlete zprávu a zamkněte telefon</string>
+
+    <!-- 2026-10-09-05-server-switcher -->
+    <string name="settings_whatsnew_entry_server_switcher_title">Přepínání serverů</string>
+    <string name="settings_whatsnew_entry_server_switcher_summary">Název aktuálního serveru je v záhlaví výsuvného panelu. Klepnutím přepnete na jiný server nebo přidáte nový.</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_1">Nastavení ukazuje připojení jako živý pulz a vedle názvu serveru zobrazuje dobu odezvy.</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_2">Server můžete přejmenovat. Název se použije jen v tomto telefonu.</string>
+    <string name="settings_whatsnew_entry_server_switcher_example">Otevřete výsuvný panel, klepněte na název serveru a přidejte další počítač</string>
+
+    <!-- 2026-10-10-01-share-opened-files -->
+    <string name="settings_whatsnew_entry_share_opened_files_title">Obrázky jako fotografie</string>
+    <string name="settings_whatsnew_entry_share_opened_files_summary">Obrázky se v relaci zobrazují celé a otevírají se jako fotografie: prsty je přiblížíte, přejetím mezi nimi přepnete a tažením dolů je zavřete.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_1">Každý soubor, který agent zmíní, lze otevřít v aplikaci.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_2">Přes Sdílet uložíte vše, co otevřete, do Fotografií nebo Souborů, včetně videa a zvuku.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_example">Požádejte agenta o přečtení několika snímků obrazovky, pak na jeden klepněte a přetáhněte ho dolů</string>
+
+    <!-- 2026-10-10-02-call-voice -->
+    <string name="settings_whatsnew_entry_call_voice_title">Hlasové hovory</string>
+    <string name="settings_whatsnew_entry_call_voice_summary">Klepněte na zvukovou vlnu v prázdném poli zprávy a mluvte. Hlas mezitím pracuje ve vašich relacích a oznámí vám dokončení práce.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_1">Stačí říct název relace: Hlas ji otevře a zahájí nebo usměrní práci.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_2">Přerušte ho tím, že začnete mluvit, nebo se zeptejte, jak práce pokračuje.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_3">Klepnutím na lištu hovoru zobrazíte živé titulky.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_4">Hovor můžete ztlumit a ukončit z oznámení, i na zamčené obrazovce.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_5">Podržením tlačítka Zastavit zahájíte hovor, i když agent pracuje.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_6">Hlas vyberete v Nastavení → Hlas.</string>
+    <string name="settings_whatsnew_entry_call_voice_example">Zahajte hovor a řekněte „otevři mou relaci s opravami nahrávání a zkontroluj testy“</string>
+
+    <!-- 2026-10-10-03-drawer-one-edge -->
+    <string name="settings_whatsnew_entry_drawer_one_edge_title">Přehlednější výsuvný panel</string>
+    <string name="settings_whatsnew_entry_drawer_one_edge_summary">Řádky mají zarovnané začátky, stavové tečky jsou na jejich konci a tlačítko hledání je nahoře.</string>
+
+    <!-- 2026-10-11-01-paste-as-a-card -->
+    <string name="settings_whatsnew_entry_paste_as_a_card_title">Dlouhý vložený text jako karta</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_summary">Dlouhý vložený text se zobrazí jako karta Vložený text vedle obrázků. Agent ho stále přečte celý.</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_1">Klepnutím na kartu přečtete celý text. Najdete tu i volby Kopírovat a Sdílet.</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_2">Dlouhé zprávy se sbalí na pár řádků s volbou Zobrazit více.</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_example">Zkopírujte dlouhý protokol, vložte ho do pole zprávy a klepněte na kartu</string>
+
+    <!-- 2026-10-11-02-ride-out-drops -->
+    <string name="settings_whatsnew_entry_ride_out_drops_title">Funguje i se slabým signálem</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_summary">Pár sekund bez signálu už nic nepřeruší. Odesílání, relace i hovory počkají na připojení a pak pokračují.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_1">Tlačítko Odeslat je vždy dostupné a zprávy se odešlou v původním pořadí.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_2">Neodeslaná zpráva zůstane na místě s volbou Zkusit znovu. Opakovaný pokus ji nikdy neodešle dvakrát.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_3">Když je server bez připojení, jeho název ve výsuvném panelu zešedne. Klepnutím zobrazíte volbu Zkusit znovu.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_example">Otevřete relaci, když vlak vjíždí do tunelu</string>
+
+    <!-- 2026-10-11-03-new-session-recent-projects -->
+    <string name="settings_whatsnew_entry_new_session_recent_projects_title">Začněte v libovolném projektu</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_summary">Nová relace zobrazí nedávné projekty nad polem zprávy. Přes Všechny projekty otevřete libovolnou složku v počítači.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_1">Vybraný projekt zůstává při psaní nad polem zprávy.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_2">Hovor zahájený z nové relace pracuje ve vybraném projektu.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_example">Klepněte na Nová relace, pak na Všechny projekty a nakonec na Vyberte složku…</string>
+
+    <!-- 2026-10-11-04-stop-runs-your-steer -->
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_title">Usměrněte agenta při práci</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_summary">Pošlete zprávu během práce agenta. Přečte si ji v dalším kroku a nejprve přesune dlouho běžící příkazy na pozadí.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_1">Podržením tlačítka Odeslat vyberete pro jednu zprávu Usměrnit nebo Zařadit do fronty.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_2">Podržením čekající zprávy ji můžete přesunout do fronty nebo odstranit.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_3">Zastavit se hned změní na Zastavování… a odeslaná usměrňující zpráva přijde na řadu jako další.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_example">Během dlouho běžícího příkazu pošlete zprávu a sledujte, jak se příkaz přesune na pozadí</string>
+
+    <!-- 2026-10-12-01-browser-push-in -->
+    <string name="settings_whatsnew_entry_browser_push_in_title">Stránky v prohlížeči v aplikaci</string>
+    <string name="settings_whatsnew_entry_browser_push_in_summary">Se zapnutým experimentem Prohlížeč v aplikaci se stránka odkazu vysune přes relaci. Přejetím od okraje se vrátíte zpět.</string>
+
+    <!-- 2026-10-12-02-answer-from-the-bar -->
+    <string name="settings_whatsnew_entry_answer_from_the_bar_title">Odpovídejte z pole zprávy</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_summary">Otázky a žádosti o oprávnění se rozbalí z pole zprávy. Odpovíte přímo tam: klepnutím na možnost nebo napsáním či nadiktováním vlastní odpovědi.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_1">Žádost o oprávnění ukáže příkaz nebo úpravu ještě před povolením.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_2">Volba Odmítnout předá napsaný text agentovi jako pokyn, co má udělat místo toho, aby mohl pokračovat.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_3">Po odpovědi se váš koncept vrátí.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_example">Když se agent na něco zeptá, podržte mikrofon a řekněte odpověď</string>
+
+    <!-- 2026-10-12-03-new-messages-divider -->
+    <string name="settings_whatsnew_entry_new_messages_divider_title">Pokračujte tam, kde jste skončili</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_summary">Po návratu se relace otevře dole a už obsahuje vše, co mezitím přišlo. Chcete-li delší nepřečtenou část otevřít u čáry Nové, zapněte Oddělovač nových zpráv v Nastavení › Relace.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_1">Relace, které nejspíš otevřete, se aktualizují při otevření výsuvného panelu, takže jsou po klepnutí připravené.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_2">Po návratu do relace zůstává během aktualizace zachovaná práce na pozadí i ukazatel kontextu.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_example">Spusťte dlouhý úkol, přepněte do jiné relace a vraťte se, až dorazí odpověď</string>
+
+    <!-- 2026-10-12-04-model-list-and-level-meter -->
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_title">Nový výběr modelu</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_summary">V panelu Model vyberete model i úroveň myšlení. Oblíbené máte nahoře. Chcete-li vyzkoušet seznam rozbalovaný z pole zprávy, zapněte Nový výběr modelu v Nastavení → Experimentální.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_1">Pokud model nabízí úrovně myšlení, vyberete je v nabídce Myšlení v panelu Model.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_2">Přejetím po modelu ho přidáte do oblíbených.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_3">Nenápadný řádek v relaci označuje místo změny modelu nebo úrovně.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_example">Klepněte na model v poli zprávy a vyberte úroveň myšlení</string>
+
+    <!-- 2026-10-12-05-run-error-line -->
+    <string name="settings_whatsnew_entry_run_error_line_title">Když se práce nezdaří</string>
+    <string name="settings_whatsnew_entry_run_error_line_summary">Při předčasném ukončení se zobrazí srozumitelný důvod a jedna možnost, jak dál: Upravit, Kompaktní, Změnit model nebo Zkusit znovu.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_1">Volba Upravit vrátí odeslání zprávy zpět a vloží ji do pole zprávy, kde ji můžete přeformulovat.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_2">Podržením řádku zobrazíte celou chybu a můžete ji zkopírovat.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_3">Když agent pokus zopakuje sám, stav Pracuje odpočítává čas do dalšího pokusu.</string>
+    <string name="settings_whatsnew_entry_run_error_line_example">Když je odpověď zablokovaná, klepněte na Upravit, přeformulujte zprávu a odešlete ji znovu</string>
+
+    <!-- 2026-10-12-06-transcript-keyboard-space -->
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_title">Klávesnice se skryje bez mezery</string>
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_summary">Po skrytí klávesnice tažením už pod poslední zprávou nezůstává mezera.</string>
+
+    <!-- 2026-10-12-07-share-sheet-sends -->
+    <string name="settings_whatsnew_entry_share_sheet_sends_title">Odesílání z nabídky sdílení</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_summary">Sdílejte cokoli do OpenCode, vyberte relaci, přidejte zprávu a odešlete ji bez otevření aplikace.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_1">Nedávné relace se zobrazují v horním řádku nabídky sdílení.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_2">Soubory JSON a exporty se přiloží jako soubory s původními názvy.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_3">Volba Pokračovat v OpenCode otevře relaci se sdíleným obsahem v poli zprávy.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_4">Pokud se odeslání nezdaří, volba Odeslat později zprávu odešle při příštím otevření aplikace.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_example">Sdílejte snímek obrazovky do OpenCode, napište otázku a klepněte na Odeslat</string>
+
+    <!-- 2026-10-12-08-app-icon-badge -->
+    <string name="settings_whatsnew_entry_app_icon_badge_title">Odznak na ikoně aplikace</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_summary">Ikona aplikace ukazuje počet nepřečtených relací nebo relací čekajících na vás, stejně jako Přehled novinek.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_1">Ztlumené relace se nepočítají.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_2">Vyžaduje zapnutá oznámení.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_example">Nechte v relaci nezodpovězenou otázku a přejděte na plochu</string>
+
+    <!-- 2026-10-12-09-drawer-keeps-keyboard -->
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_title">Klávesnice se posouvá s panelem</string>
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_summary">Když při psaní otevřete seznam relací, pole zprávy zůstane aktivní a klávesnice se odsune stranou spolu s relací.</string>
+
+    <!-- 2026-10-12-10-whats-new-page -->
+    <string name="settings_whatsnew_entry_whats_new_page_title">Jednodušší Co je nového</string>
+    <string name="settings_whatsnew_entry_whats_new_page_summary">Co je nového se otevírá jako stránka podobně jako Nastavení. Každá funkce má vlastní stránku a opravy najdete pohromadě zde.</string>
+
+    <!-- 2026-10-12-11-catch-up-returns-to-drawer -->
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_title">Z přehledu zpět na seznam relací</string>
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_summary">Po opuštění Přehledu novinek se vrátíte do seznamu relací přesně tam, kde jste skončili.</string>
+
+    <!-- 2026-10-12-12-transcript-day-stamps -->
+    <string name="settings_whatsnew_entry_transcript_day_stamps_title">Dny v přepisu</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_summary">V relaci trvající více dní se nad první zprávou každého dne zobrazí den, například „středa 8:24“, a nad zprávou po hodinové pauze čas.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_1">Zobrazí se dnes, včera nebo den v týdnu, pokud jde o tento týden. Jinak se zobrazí datum.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_2">Zprávy pro usměrnění a zprávy ve frontě během čekání nemají časový údaj.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_example">Otevřete relaci zahájenou dříve tento týden a posuňte se nahoru</string>
+
+    <!-- 2026-10-12-13-rich-link-previews -->
+    <string name="settings_whatsnew_entry_rich_link_previews_title">Náhledy odkazů</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_summary">Odkazy pod odpovědí ukazují na jednom řádku, kam vedou: pull request nebo hlášení s názvem a stavem, commit, video či stránka.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_1">Pull requesty, hlášení, commity a úložiště na GitHub zobrazují název a barevně odlišený stav Otevřeno, Sloučeno nebo Uzavřeno.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_2">Příspěvky na X ukazují autora a text, odkazy na YouTube název videa a ostatní stránky název odvozený z odkazu.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_3">Zobrazují se tři odkazy. Klepnutím na „více“ vedle Kopírovat zobrazíte ostatní, dalším klepnutím je opět skryjete.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_4">Podržením odkazu zobrazíte větší náhled a volby Zkopírujte odkaz a Sdílet.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_example">Zeptejte se agenta, co se tento týden změnilo v úložišti</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_prompt">Co se tento týden změnilo v úložišti na GitHub, které používám? Přidej odkazy.</string>
+
+    <!-- 2026-10-13-01-rolling-numbers -->
+    <string name="settings_whatsnew_entry_rolling_numbers_title">Přetáčející se čísla</string>
+    <string name="settings_whatsnew_entry_rolling_numbers_summary">Průběžné počty v indikátoru práce na pozadí, panelu Relace, řádcích „Použito N“ a Přehledu novinek se přetáčejí číslici po číslici.</string>
+
+    <!-- 2026-10-13-02-grouped-steering -->
+    <string name="settings_whatsnew_entry_grouped_steering_title">Seskupené zprávy</string>
+    <string name="settings_whatsnew_entry_grouped_steering_summary">Zprávy odeslané za sebou tvoří jeden blok. Zprávy pro usměrnění čekající na agenta sdílejí jeden štítek Usměrnění.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_1">Bubliny po sobě jdoucích zpráv jsou blízko u sebe a v místě dotyku mají spojené rohy.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_2">Fotografie a soubory si uvnitř bloku zachovávají vlastní zaoblení.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_3">Jakmile agent zprávu převezme, plynule se posune nahoru na své místo.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_example">Zatímco agent pracuje, pošlete rychle za sebou tři zprávy, jednu s fotografií</string>
+
+    <!-- 2026-10-13-03-inline-tool-rows -->
+    <string name="settings_whatsnew_entry_inline_tool_rows_title">Nenápadné řádky nástrojů a otázek</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_summary">Skupiny nástrojů a zodpovězené otázky se rozbalují do pásu přes celou šířku jako kód. Čtení za sebou se slučují do jednoho řádku.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_1">Sbalené skupiny zobrazují „Použito N nástrojů“ a neúspěšná volání nástrojů označují červeně.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_2">Řádky Spustit uvádějí názvy nástrojů volaných skriptem a řádky Dovednost název dovednosti.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_3">Zodpovězené otázky ukazují zadání i všechny nabízené možnosti a vaše volba je zaškrtnutá.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_example">Klepnutím na řádek „Použito N nástrojů“ v relaci rozbalíte jeho obsah</string>
+
+    <!-- 2026-10-13-04-mac-motion-playgrounds -->
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_title">Ovládání testovacího prostředí na Macu</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_summary">Se zapnutým režimem pro vývojáře spárujte ladění s Macem. Můžete pak zpomaleně přehrávat testovací animace a prohlížet zachycené snímky.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_1">Stránka ovládání na Macu nabízí výběr testovacího prostředí, předvolby a ovládání přehrávání. Telefon zobrazuje jen testovací prostředí.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_2">Kompaktní karty ukazují ovládací prvky na obrazovce a nabízejí pojmenované předvolby pohybu a rozestupů. Volba Nativní obnoví výchozí vzhled a chování. Každá předvolba použije všechny své hodnoty najednou.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_3">Po připojení Macu se plovoucí panel ladění skryje. Vyvoláte ho gestem pro ladění a odejdete volbou Opustit testovací prostředí.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_4">Předpřipravené scénáře přehrávají stejnou ukázkovou relaci, abyste mohli porovnat animace mezi sestaveními.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_5">Přehrávání začíná vždy od začátku a doručí i zprávy pro usměrnění a zprávy ve frontě, místo aby zůstaly čekat.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_6">Přehrávač recenzí na Macu umožňuje krokovat zachycenou geometrii, označit snímek a odeslat zpětnou vazbu k animaci.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_example">Otevřete Nastavení → Pro vývojáře, spárujte se stránkou ladění na Macu a vyzkoušejte Přepis → Průběžná odpověď při rychlosti 0,25×</string>
+
+    <!-- 2026-10-13-05-catch-up-flicks -->
+    <string name="settings_whatsnew_entry_catch_up_flicks_title">Snazší gesta v Přehledu novinek</string>
+    <string name="settings_whatsnew_entry_catch_up_flicks_summary">Rychlé švihnutí nebo kratší tažení v Přehledu novinek odsune kartu pryč, místo aby se vrátila zpět.</string>
+
+    <!-- 2026-10-14-01-settings-grouped-by-purpose -->
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_title">Přehlednější nastavení</string>
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_summary">Experimentální funkce a nástroje pro vývojáře najdete v Nastavení → Experimentální, upozornění aplikace v Oznámení a historii hovorů v Hlas.</string>
+
+    <!-- 2026-10-14-02-send-ats-recovery -->
+    <string name="settings_whatsnew_entry_send_ats_recovery_title">Spolehlivé odesílání</string>
+    <string name="settings_whatsnew_entry_send_ats_recovery_summary">Pokud iOS krátce odmítne dosud funkční připojení k serveru, odeslání zpráv se automaticky zopakuje.</string>
+
+    <!-- 2026-10-14-03-keyboard-menus-and-header -->
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_title">Stabilnější klávesnice a nabídky</string>
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_summary">Klepnutím na + při psaní otevřete přílohy bez skrytí klávesnice či posunu ovládacích prvků. Rozostření záhlaví zůstává na místě i při pohybu klávesnice.</string>
+
+    <!-- 2026-10-14-04-open-links-in-apps -->
+    <string name="settings_whatsnew_entry_open_links_in_apps_title">Odkazy se otevírají ve svých aplikacích</string>
+    <string name="settings_whatsnew_entry_open_links_in_apps_summary">Odkaz se otevře v příslušné aplikaci, například GitHub nebo YouTube. Se zapnutým experimentem Prohlížeč v aplikaci podržte odkaz a zvolte Otevřít v prohlížeči aplikace.</string>
+
+    <!-- 2026-10-14-05-session-list-quiet-hierarchy -->
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_title">Přehlednější seznam relací</string>
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_summary">Nadpisy Připnuté a Nedávné ustupují do pozadí menším šedým písmem, nepřečtené a čekající relace vynikají polotučným písmem a přečtené jsou mírně tlumené.</string>
+
+    <!-- 2026-10-14-06-queued-messages-fitted-sheet -->
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_title">Upravenější fronta zpráv</string>
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_summary">Panel zpráv ve frontě je vysoký jen podle délky fronty. Má číslované řádky a nenápadná tlačítka pro okamžité odeslání nebo zrušení zprávy.</string>
+
+    <!-- 2026-10-14-07-control-center-sessions -->
+    <string name="settings_whatsnew_entry_control_center_sessions_title">Dlaždice pro relaci</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_summary">Přidejte si dlaždici do rychlého nastavení a jedním klepnutím otevřete relaci nebo v ní zahajte hovor.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_1">Nová dlaždice Otevřít relaci otevře vámi vybranou relaci.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_2">Dlaždice Zahájit hovor spustí hovor ve vybrané nebo nové relaci. Pokud nastavení nezměníte, použije naposledy zobrazenou relaci.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_3">Vybírejte z připnutých a nedávných relací. Dlaždice zobrazuje aktuální název relace.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_4">Dlaždice jen otevřou aplikaci. Nic se neodešle, dokud nezačnete mluvit nebo psát.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_example">Otevřete rychlé nastavení, klepněte na Upravit a přetáhněte dlaždici Otevřít relaci od OpenCode na požadované místo</string>
+
+    <!-- 2026-10-15-01-settings-keyboard-down -->
+    <string name="settings_whatsnew_entry_settings_keyboard_down_title">Nastavení bez klávesnice</string>
+    <string name="settings_whatsnew_entry_settings_keyboard_down_summary">Když při psaní otevřete Nastavení z výsuvného panelu, klávesnice se skryje a nebude Nastavení překrývat.</string>
+
+    <!-- 2026-10-15-02-session-list-sidebar-grey -->
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_title">Vzdušnější seznam relací</string>
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_summary">Seznam relací má větší název a větší šedé nadpisy Připnuté a Nedávné s větší mezerou nad nimi. Podívejte se do výsuvného panelu.</string>
+
+    <!-- 2026-10-15-03-voice-varied-acknowledgements -->
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_title">Méně „Ověřuji“ při hovorech</string>
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_summary">Při hovoru hlas reaguje na to, co říkáte, místo aby na každý požadavek odpovídal „Ověřuji“. A když dál mluvíte, požadavek se už neodešle dvakrát.</string>
+
+    <!-- 2026-10-15-04-smoother-streaming -->
+    <string name="settings_whatsnew_entry_smoother_streaming_title">Plynulejší zobrazování odpovědí</string>
+    <string name="settings_whatsnew_entry_smoother_streaming_summary">Nový řádek průběžné odpovědi se objevuje plynule, bez ztmavnutí či bliknutí. Řádky se už zbytečně neroztahují a nesmršťují a položky seznamů i nadpisy se rovnou zobrazují správně, ne nejprve jako osamocená pomlčka či mřížka.</string>
+
+    <!-- 2026-10-15-05-model-list-sheet -->
+    <string name="settings_whatsnew_entry_model_list_sheet_title">Seznam modelů v panelu</string>
+    <string name="settings_whatsnew_entry_model_list_sheet_summary">Se zapnutým experimentem Nový výběr modelu se pole zprávy promění v panel modelů na místě klávesnice. Klávesnice se skryje a panel se plynule složí zpět, i když ho rychle otevíráte a zavíráte.</string>
+
+    <!-- 2026-10-15-06-queued-pill-whole-title -->
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_title">Celý počet zpráv ve frontě</string>
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_summary">Štítek nad editorem zpráv zobrazuje celé „2 ve frontě“ místo zkráceného „2 ve fro…“. Ani animované počty jinde už neořezávají znaky.</string>
+
+    <!-- 2026-10-16-01-plus-menu-photo-sheet -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_title">Fotografie místo klávesnice</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_summary">Se zapnutým experimentem Nová nabídka + rozbalí volba Fotografie nabídku + do panelu fotek na místě klávesnice. Podržením + zobrazíte nejnovější fotky. Posuňte prst na fotku a uvolněním ji přidejte.</string>
+
+    <!-- 2026-10-16-02-composer-large-text-targets -->
+    <string name="settings_whatsnew_entry_composer_large_text_targets_title">Snazší klepání v editoru zpráv</string>
+    <string name="settings_whatsnew_entry_composer_large_text_targets_summary">Na tlačítka v editoru zpráv se při velkém písmu snáze klepá.</string>
+
+    <!-- 2026-10-16-03-project-pick-haptic -->
+    <string name="settings_whatsnew_entry_project_pick_haptic_title">Zavibrování při změně projektu</string>
+    <string name="settings_whatsnew_entry_project_pick_haptic_summary">Výběr jiného projektu pro novou relaci nad polem zprávy nebo ve Všech projektech doprovází jemné zavibrování.</string>
+
+    <!-- 2026-10-16-04-fork-opens-copy -->
+    <string name="settings_whatsnew_entry_fork_opens_copy_title">Vytvoření větve otevře kopii</string>
+    <string name="settings_whatsnew_entry_fork_opens_copy_summary">Volba Vytvořit větev v podrobnostech relace opět otevře vytvořenou kopii.</string>
+
+    <!-- 2026-10-16-05-transcript-row-targets -->
+    <string name="settings_whatsnew_entry_transcript_row_targets_title">Snazší klepání</string>
+    <string name="settings_whatsnew_entry_transcript_row_targets_summary">Na název v panelu Relace se snáze klepá. VoiceOver a Voice Control už při diktování nezpřístupňují skrytá tlačítka editoru zpráv.</string>
+
+    <!-- 2026-10-16-06-image-previews -->
+    <string name="settings_whatsnew_entry_image_previews_title">Náhledy obrázků</string>
+    <string name="settings_whatsnew_entry_image_previews_summary">Obrázky, které agent zmíní, se zobrazují jako náhledy v dlaždicové mřížce. U chybějících souborů se zobrazí upozornění.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_1">Náhledy jsou pod odstavcem, který obrázky zmiňuje.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_2">Klepnutím otevřete obrázek na celou obrazovku a přejetím procházejte obrázky z odpovědi.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_3">Obrázky mimo složku relace se načtou až po klepnutí.</string>
+    <string name="settings_whatsnew_entry_image_previews_example">Požádejte agenta o zobrazení snímků obrazovky z vašeho projektu.</string>
+    <string name="settings_whatsnew_entry_image_previews_prompt">Ukaž mi snímky obrazovky v tomto projektu.</string>
+
+    <!-- 2026-10-16-07-connection-error-details -->
+    <string name="settings_whatsnew_entry_connection_error_details_title">Chyby připojení s podrobnostmi</string>
+    <string name="settings_whatsnew_entry_connection_error_details_summary">Chyby připojení ukazují kód chyby, zkoušenou adresu a výsledek DNS. Pokud se název v síti tailnet přeloží na adresu mimo Tailscale, zobrazí se nápověda.</string>
+
+    <!-- 2026-10-16-08-outage-reconnect-delay -->
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_title">Rychlejší obnovení připojení</string>
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_summary">Po obnovení serveru po výpadku se relace rychleji aktualizují.</string>
+
+    <!-- 2026-10-17-01-every-running-subagent -->
+    <string name="settings_whatsnew_entry_every_running_subagent_title">Všichni běžící subagenti</string>
+    <string name="settings_whatsnew_entry_every_running_subagent_summary">Počet subagentů nad editorem zpráv zahrnuje i vnořené subagenty a všechny subagenty v relacích, kde jich je přes 100, stejně jako v TUI.</string>
+
+    <!-- 2026-10-17-02-session-view-refined-standard -->
+    <string name="settings_whatsnew_entry_session_view_refined_standard_title">Čitelnější písmo odpovědí</string>
+    <string name="settings_whatsnew_entry_session_view_refined_standard_summary">Nadpisy třetí úrovně jsou výraznější než tučný text. Běžný text je mírně tlumený, aby tučný lépe vynikl, a odstavce i bloky kódu mají o něco více prostoru.</string>
+
+    <!-- 2026-10-17-03-bottom-follow-on-load -->
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_title">Zůstaňte na konci</string>
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_summary">Při načítání opožděného obsahu zůstávají relace posunuté na konec.</string>
+
+    <!-- 2026-10-17-04-drafts-stay-put -->
+    <string name="settings_whatsnew_entry_drafts_stay_put_title">Koncepty zůstávají</string>
+    <string name="settings_whatsnew_entry_drafts_stay_put_summary">Koncepty, přiložené fotografie a polohy i zprávy čekající na odeslání zůstanou zachované, i když se aplikace na pozadí ukončí.</string>
+
+    <!-- 2026-10-18-01-themes -->
+    <string name="settings_whatsnew_entry_themes_title">Témata</string>
+    <string name="settings_whatsnew_entry_themes_summary">Vyberte si pro relace téma, třeba Tokyo Night, Catppuccin, Dracula, Rosé Pine nebo GitHub. Při procházení hned uvidíte náhled.</string>
+    <string name="settings_whatsnew_entry_themes_detail_1">Témata mění barvy přepisu, vašich zpráv, kódu, zvýraznění syntaxe, rozdílů a odkazů.</string>
+    <string name="settings_whatsnew_entry_themes_detail_2">Volba Režim v nastavení Vzhled nabízí možnosti Světlo, Tmavý a Systém.</string>
+    <string name="settings_whatsnew_entry_themes_detail_3">Ovládací prvky si v každém tématu zachovávají nativní vzhled Liquid Glass.</string>
+    <string name="settings_whatsnew_entry_themes_example">Otevřete Nastavení → Vzhled → Téma a vyzkoušejte Tokyo Night.</string>
+
+    <!-- 2026-10-18-02-return-key-sends -->
+    <string name="settings_whatsnew_entry_return_key_sends_title">Nastavení klávesy Enter</string>
+    <string name="settings_whatsnew_entry_return_key_sends_summary">Pokud chcete klávesou Enter vložit nový řádek, vypněte v Nastavení volbu Enter odesílá. Na fyzické klávesnici můžete také použít Command-Return a Shift-Return.</string>
+
+    <!-- 2026-10-18-03-quote-replies -->
+    <string name="settings_whatsnew_entry_quote_replies_title">Citování odpovědí</string>
+    <string name="settings_whatsnew_entry_quote_replies_summary">Vyberte text v odpovědi asistenta a klepněte na Citovat. Text se přidá do vaší zprávy jako karta s citací.</string>
+
+    <!-- 2026-10-18-04-launch-bloom -->
+    <string name="settings_whatsnew_entry_launch_bloom_title">Animace při spuštění</string>
+    <string name="settings_whatsnew_entry_launch_bloom_summary">Při spuštění vypnuté aplikace se logo OpenCode stáhne a pak rozvine do vaší relace.</string>
+
+    <!-- 2026-10-18-05-drag-to-pin -->
+    <string name="settings_whatsnew_entry_drag_to_pin_title">Připnutí relace přetažením</string>
+    <string name="settings_whatsnew_entry_drag_to_pin_summary">Podržte relaci a přetáhněte ji nahoru do části Připnuté, kde zůstane na daném místě. Přetažením dolů do části Nedávné ji odepnete.</string>
+
+    <!-- 2026-10-19-01-call-tray-colour-blend -->
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_title">Plynulejší tlačítko hovoru</string>
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_summary">Se zapnutým experimentem Panel hovoru přechází tlačítko hovoru při zahájení plynule do červeného tlačítka Ukončit a při zavěšení zpět, bez probliknutí pozadí.</string>
+
+    <!-- 2026-10-19-02-optical-insets -->
+    <string name="settings_whatsnew_entry_optical_insets_title">Rovnoměrné odsazení ovládání</string>
+    <string name="settings_whatsnew_entry_optical_insets_summary">Ikony + a mikrofonu v editoru zpráv, ikony práce na pozadí a fronty i symbol Nová relace v postranním panelu jsou nyní opticky vystředěné v zaoblených koncích skleněných prvků. Ikona shellu je teď kruhová jako koule subagenta a nemá blikající kurzor. Když běží oba, zobrazí se vedle sebe.</string>
+
+    <!-- 2026-10-19-03-smart-dictation-audio -->
+    <string name="settings_whatsnew_entry_smart_dictation_audio_title">Plynulejší diktování při hudbě</string>
+    <string name="settings_whatsnew_entry_smart_dictation_audio_summary">Při diktování zůstává hudba v AirPods ve stereu a po minutě nevypadne. Na samotném telefonu dál hraje z reproduktoru místo sluchátka.</string>
+
+    <!-- 2026-10-19-04-interrupted-hand -->
+    <string name="settings_whatsnew_entry_interrupted_hand_title">Ruka pro přerušení</string>
+    <string name="settings_whatsnew_entry_interrupted_hand_summary">Přerušený běh i shell teď označuje zvednutá ruka. Shell, který zastavíte, má stav Přerušeno místo Zastaveno.</string>
+
+    <!-- 2026-10-19-05-autocomplete-fast-scroll -->
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_title">Svižnější automatické doplňování</string>
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_summary">Se zapnutým experimentem Automatické doplňování v editoru zpráv drží návrhy krok s psaním. Tažením seznam posunete, aniž byste vybrali řádek.</string>
+
+    <!-- 2026-10-19-06-experimental-groups -->
+    <string name="settings_whatsnew_entry_experimental_groups_title">Experimenty ve skupinách</string>
+    <string name="settings_whatsnew_entry_experimental_groups_summary">Experimenty v Nastavení → Experimentální jsou rozdělené do skupin a hovory mají jedinou volbu Styl hovoru.</string>
+
+    <!-- 2026-10-19-07-model-picker-standard-sheet -->
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_title">Výběr modelu v běžném panelu</string>
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_summary">Se zapnutým experimentem Nový výběr modelu otevře klepnutí na model v poli zprávy běžný panel, kde má každý model vlastní nabídku úrovně myšlení. Původní výběr je teď v Nastavení › Experimentální jako Vlastní výběr modelu.</string>
+
+    <!-- 2026-10-19-08-problem-reports-reach-session -->
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_title">Hlášení dorazí i do relace</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_summary">Nahlásit problém teď odešle vaši poznámku i do relace, ze které problém hlásíte. Přiloží také celé hlášení, aby si ho agent mohl přečíst.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_1">Zpráva začíná řádkem o nahlášení problému, vaší poznámkou, ID hlášení a odkazem na nahraný diagnostický záznam.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_2">Údaje o zařízení, sestavení a obrazovce, časová osa a protokol aplikace dorazí jako příloha, stejně jako soubor, který přiložíte sami.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_3">Z obrazovky Domů se odešle do vaší poslední relace.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_4">Pokud nahrávání selže, poznámka a shrnutí přesto dorazí s upozorněním na chybu. Zkusit znovu pak odešle jen odkaz na diagnostický záznam.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_5">Po doručení se zobrazí potvrzení „Odesláno do relace“.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_example">Otevřete nabídku relace, vyberte Nahlásit problém, přidejte poznámku a klepněte na Odeslat</string>
+
+    <!-- 2026-10-19-09-team-scrawl-feedback -->
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_title">Týmová zpětná vazba přes Scrawl</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_summary">Připojte se přes osobní odkaz k Team Feedback a posílejte záznamy Scrawl pořízené gestem tří prstů i diagnostiku bez citlivých údajů do sdílené fronty na nástěnce Problémy.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_1">Otevřete svůj odkaz opencode://team/join, prohlédněte si, co se shromažďuje, a potvrďte souhlas.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_2">Interaktivní průvodce ve třech krocích ukáže podržení tří prstů, mluvení a kreslení i odeslání zkušebního záznamu do testovací fronty.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_3">Ke každému záznamu se připojí stejná časová osa, protokol aplikace a diagnostika Motion Watch bez citlivých údajů jako při volbě Nahlásit problém.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_4">V Nastavení › Pro vývojáře si můžete průvodce kdykoli zopakovat nebo Team Feedback opustit.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_example">V Nastavení › Pro vývojáře zkontrolujte svůj stav v Team Feedback nebo si zopakujte průvodce.</string>
+
+    <!-- 2026-10-19-10-scrawl-faster-start -->
+    <string name="settings_whatsnew_entry_scrawl_faster_start_title">Rychlejší spuštění Scrawl</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_summary">Ovládání Scrawl se zobrazí už při spouštění mikrofonu a nahrávání.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_1">Klepnutí na Kreslit, Odeslat a Zahodit se během přípravy nahrávání uchovají.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_2">Podržení tří prstů připraví překryvnou vrstvu, aniž by předčasně zapnulo mikrofon.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_3">Opraven pád při restartu mikrofonu Scrawl během změny zvukového vstupu nebo výstupu.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_example">Na spárovaném zařízení podržte tři prsty a spusťte nahrávání</string>
+
+    <!-- 2026-10-20-01-call-tray-docks-in-drawer -->
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_title">Panel hovoru ve výsuvném panelu</string>
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_summary">Se zapnutým experimentem Panel hovoru se při otevření výsuvného panelu během hovoru přesune ovládání pod položku Nová relace, včetně úrovně zvuku a tlačítek Ztlumit a Ukončit. Po zavření se vrátí zpět.</string>
+
+    <!-- 2026-10-20-02-markdown-streams-smoothly -->
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_title">Plynulejší průběžné odpovědi</string>
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_summary">I dlouhé odpovědi se při postupném načítání zobrazují svižně. Rozepsané tučné písmo, kód a odkazy už se zobrazují formátované, ne jako prostý Markdown.</string>
+
+    <!-- 2026-10-20-04-return-newline-default -->
+    <string name="settings_whatsnew_entry_return_newline_default_title">Return přidá nový řádek</string>
+    <string name="settings_whatsnew_entry_return_newline_default_summary">Return teď ve výchozím nastavení přidá nový řádek. Pro odesílání klávesou Return zapněte v Nastavení › Relace volbu Odesílat klávesou Return, nebo na fyzické klávesnici použijte Ctrl+Enter.</string>
+
+    <!-- 2026-10-20-05-drawer-session-alignment -->
+    <string name="settings_whatsnew_entry_drawer_session_alignment_title">Zarovnané ovládání výsuvného panelu</string>
+    <string name="settings_whatsnew_entry_drawer_session_alignment_summary">Hledat, Nová relace a Nastavení jsou na telefonech i tabletech zarovnané se záhlavím relace a polem zprávy.</string>
+
+    <!-- 2026-10-20-06-call-tray-switch-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_title">Stabilnější ovládání hovoru</string>
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_summary">Zvuková vlna hovoru se při přepínání relací dál pohybuje a ovládání při otevření seznamu relací zůstává ve stejné výšce.</string>
+
+    <!-- 2026-10-20-07-voice-delegation-visible-on-admission -->
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_title">Hlasové zprávy se zobrazí hned</string>
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_summary">Zprávy, které Hlas posílá do relace, se zobrazí hned po přijetí serverem, i když mají aktualizace relace zpoždění.</string>
+
+    <!-- 2026-10-20-08-inline-image-links -->
+    <string name="settings_whatsnew_entry_inline_image_links_title">Náhledy odkazů na obrázky</string>
+    <string name="settings_whatsnew_entry_inline_image_links_summary">Zapněte Náhledy odkazů na obrázky v Nastavení › Experimentální › Přepis a zobrazujte náhledy odkazovaných obrázků v odpovědích. Klepnutím na miniaturu otevřete obrázek na celou obrazovku a můžete ho přiblížit.</string>
+
+    <!-- 2026-10-20-09-smooth-link-preview-arrival -->
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_title">Plynulejší náhledy odkazů</string>
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_summary">Náhledy odkazů se při načtení plynule objeví a řádky pod nimi se při změně výšky nadpisu plynule posunou.</string>
+
+    <!-- 2026-10-20-10-subagent-capsule-press -->
+    <string name="settings_whatsnew_entry_subagent_capsule_press_title">Zaoblený ukazatel aktivity</string>
+    <string name="settings_whatsnew_entry_subagent_capsule_press_summary">Ukazatel subagenta a shellu si zachovává zaoblené konce i při stisknutí.</string>
+
+    <!-- 2026-10-20-11-advanced-settings-open -->
+    <string name="settings_whatsnew_entry_advanced_settings_open_title">Jednodušší pokročilé nastavení</string>
+    <string name="settings_whatsnew_entry_advanced_settings_open_summary">Experimenty v Nastavení › Experimentální jsou všechny v rozbalených skupinách, výběry modelu jsou sloučené do jedné volby Výběr modelu a volbu změníte klepnutím kamkoli na její řádek.</string>
+
+    <!-- 2026-10-20-12-revert-to-here -->
+    <string name="settings_whatsnew_entry_revert_to_here_title">Vrátit zprávu</string>
+    <string name="settings_whatsnew_entry_revert_to_here_summary">Podržte některou ze svých zpráv a zvolte Vrátit zprávu. Vrátíte se do tohoto bodu a můžete zprávu upravit.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_1">Text, fotografie a soubory ze zprávy se vrátí do pole zprávy.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_2">Volba Vrátit zpět obnoví zprávy i jejich změny souborů, dokud neodešlete novou zprávu.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_3">Volba je dostupná, když agent nepracuje.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_example">Podržte dříve odeslanou zprávu a zvolte Vrátit zprávu.</string>
+
+    <!-- 2026-10-20-13-drag-from-transcript -->
+    <string name="settings_whatsnew_entry_drag_from_transcript_title">Přetahování z relace</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_summary">Podržením přetáhnete kód, obrázky, soubory, odkazy a zprávy z relace do jiných aplikací.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_1">Bloky kódu se přenesou jako text s označením jazyka.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_2">Obrázky a soubory vytvořené agentem se přenesou jako soubory.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_3">Puštěním do pole zprávy je přiložíte nebo vložíte.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_4">Posouvání, výběr textu a nabídky fungují jako dřív.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_example">Vyberte řádek kódu v odpovědi, podržte výběr a přetáhněte blok do Poznámek.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_prompt">Napiš krátkou funkci v jazyce Swift, která obrátí řetězec, a vlož ji do bloku kódu.</string>
+
+    <!-- 2026-10-20-14-tuning-glass-tap-targets -->
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_title">Snazší ovládání ladění</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_summary">Sbalené ovládání ladění i ouško na okraji mají větší plochy pro klepnutí.</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_detail_1">Jejich skleněné plochy zůstávají stejně velké.</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_example">Sbalte panel ladění a klepněte poblíž okraje jeho oválného tlačítka nebo ouška</string>
+
+    <!-- 2026-10-20-15-new-session-project-continuity -->
+    <string name="settings_whatsnew_entry_new_session_project_continuity_title">Stabilnější výběr projektu</string>
+    <string name="settings_whatsnew_entry_new_session_project_continuity_summary">Nedávné složky při výběru projektu nemění pořadí, název v záhlaví se mění plynule a panel Projekt zobrazuje přehlednější cesty ke složkám.</string>
+
+    <!-- 2026-10-20-16-simple-session-loading -->
+    <string name="settings_whatsnew_entry_simple_session_loading_title">Klidnější načítání relace</string>
+    <string name="settings_whatsnew_entry_simple_session_loading_summary">Malé nehybné logo se pozvolna objeví, jen když načítání relace chvíli trvá, a pak ho plynule nahradí zprávy.</string>
+
+    <!-- 2026-10-20-17-voice-route-consistency -->
+    <string name="settings_whatsnew_entry_voice_route_consistency_title">Opravy hlasového připojení</string>
+    <string name="settings_whatsnew_entry_voice_route_consistency_summary">Grok dál používá váš klíč xAI, když hovory zajišťuje server, a Gemini se správně představuje.</string>
+
+    <!-- 2026-10-20-18-call-tray-edge-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_title">Pohyb panelu hovoru</string>
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_summary">Zvuková vlna panelu hovoru sleduje jeho zaoblený okraj při otevírání i přesunu do výsuvného panelu a zpět.</string>
+
+    <!-- 2026-10-21-01-call-tray-keyboard-return -->
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_title">Návrat panelu hovoru</string>
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_summary">Panel hovoru zůstává viditelný při zavírání výsuvného panelu a návratu klávesnice.</string>
+
+    <!-- 2026-10-21-02-drawer-title-fade -->
+    <string name="settings_whatsnew_entry_drawer_title_fade_title">Delší názvy relací</string>
+    <string name="settings_whatsnew_entry_drawer_title_fade_summary">Dlouhé názvy relací v postranním panelu sahají až k okraji a postupně mizí, místo aby je předčasně ukončila výpustka.</string>
+
+    <!-- 2026-10-21-03-call-sounds-from-the-tap -->
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_title">Rychlejší zvuky hovorů</string>
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_summary">Tóny připojování hovoru zazní už při prvním průchodu animace, ne až pár sekund po klepnutí.</string>
+
+    <!-- 2026-10-21-04-calm-wireframe-launch -->
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_title">Klidnější načítání</string>
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_summary">Relace z mezipaměti se otevřou hned. Pokud načítání chvíli trvá, zobrazí se pulzující bubliny, které plynule přejdou ve zprávy.</string>
+
+    <!-- 2026-10-21-05-request-dictation-last-line -->
+    <string name="settings_whatsnew_entry_request_dictation_last_line_title">Viditelný konec diktování</string>
+    <string name="settings_whatsnew_entry_request_dictation_last_line_summary">V iOS 26 se po ukončení dlouhého diktování do pole odpovědi na čekající požadavek zobrazí poslední řádky místo textu zprostředka.</string>
+
+    <!-- 2026-10-21-06-first-run-pairing-fixes -->
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_title">Jasnější první párování</string>
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_summary">Při vkládání z prázdné schránky se vedle volby Vložit objeví upozornění. Nastavení už neslibuje vzdálený přístup za půl minuty.</string>
+
+    <!-- 2026-10-21-07-welcome-pairing-copy -->
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_title">Párování z aplikace OpenCode</string>
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_summary">Úvodní obrazovka vás navede do Nastavení → Párování v OpenCode na počítači nebo na /pair v terminálu. Kdo OpenCode ještě nemá, najde tu i instalační příkaz.</string>
+
+    <!-- 2026-10-21-08-session-id-links -->
+    <string name="settings_whatsnew_entry_session_id_links_title">Odkazy na relace</string>
+    <string name="settings_whatsnew_entry_session_id_links_summary">ID relace se v odpovědi zobrazí jako její název. Klepnutím relaci otevřete.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_1">ID subagenta otevře jeho relaci nad tou aktuální. Volbou Zpět se vrátíte.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_2">Podržením odkazu zkopírujete ID.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_3">ID, které tento server nezná, se zobrazí zkráceně.</string>
+    <string name="settings_whatsnew_entry_session_id_links_example">Požádejte agenta, aby zmínil jinou relaci pomocí jejího ID, a pak klepněte na název.</string>
+    <string name="settings_whatsnew_entry_session_id_links_prompt">Vypiš mých pět nejnovějších relací OpenCode včetně jejich ID.</string>
+
+    <!-- 2026-10-21-10-ipad-multiple-windows -->
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_title">Více oken na tabletech</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_summary">Na tabletu můžete otevírat relace v samostatných oknech a mít dvě vedle sebe.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_1">Podržte relaci v postranním panelu a zvolte Otevřít v novém okně.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_2">Každé okno má vlastní relaci, postranní panel a pole zprávy.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_3">Připnuté položky, stav přečtení relací a servery jsou ve všech oknech stejné.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_4">Okna se znovu otevřou se stejnou relací.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_example">Podržte relaci v postranním panelu, zvolte Otevřít v novém okně a umístěte je vedle prvního.</string>
+
+    <!-- 2026-10-21-11-plain-launch -->
+    <string name="settings_whatsnew_entry_plain_launch_title">Jednoduché spuštění</string>
+    <string name="settings_whatsnew_entry_plain_launch_summary">OpenCode se otevře na prosté obrazovce a hned po načtení přejde do relace, bez animace načítání.</string>
+
+    <!-- 2026-10-21-12-breath-ping-call-sounds -->
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_title">Jemnější zvuky hovorů</string>
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_summary">Připojení, upozornění i ukončení hovoru provázejí jemné, vzdušné tóny, které neruší konverzaci.</string>
+
+    <!-- 2026-10-21-13-smoother-session-list -->
+    <string name="settings_whatsnew_entry_smoother_session_list_title">Plynulejší seznam relací</string>
+    <string name="settings_whatsnew_entry_smoother_session_list_summary">Seznam relací v postranním panelu se posouvá plynule i během jejich práce. Podržením relace otevřete její nabídku, aniž by se změnila velikost řádku.</string>
+
+    <!-- 2026-10-22-01-whats-new-actions -->
+    <string name="settings_whatsnew_entry_whats_new_actions_title">Otevřít a vyzkoušet z novinek</string>
+    <string name="settings_whatsnew_entry_whats_new_actions_summary">Stránka novinky v sekci Co je nového má tlačítko, které otevře příslušné nastavení, třeba Témata, nebo spustí novou relaci s předvyplněným zadáním k vyzkoušení.</string>
+
+    <!-- 2026-10-22-02-project-icons-current-discovery -->
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_title">Opravy ikon projektů</string>
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_summary">Se zapnutými ikonami projektů zobrazuje postranní panel i ikony, které server najde v balíčcích Icon Composer.</string>
+
+    <!-- 2026-10-22-03-new-divider-off-page -->
+    <string name="settings_whatsnew_entry_new_divider_off_page_title">Nové jen v případě potřeby</string>
+    <string name="settings_whatsnew_entry_new_divider_off_page_summary">Se zapnutým experimentem Oddělovač nových zpráv označuje štítek Nové příchozí obsah jen tehdy, když se nevejde na obrazovku.</string>
+
+    <!-- 2026-10-22-04-catch-up-all-caught-up-row -->
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_title">Vše přečteno</string>
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_summary">Po přečtení poslední relace v Přehledu novinek se vrátíte rovnou do postranního panelu, kde se Přehled novinek odškrtne jako Vše přečteno.</string>
+
+    <!-- 2026-10-23-01-session-mentions -->
+    <string name="settings_whatsnew_entry_session_mentions_title">Odkazy na relace</string>
+    <string name="settings_whatsnew_entry_session_mentions_summary">Se zapnutým experimentem Automatické doplňování v editoru zpráv můžete napsat @ a odkázat na jinou relaci podle názvu, stejně jako na počítači.</string>
+
+    <!-- 2026-10-23-02-gpt-live-own-key -->
+    <string name="settings_whatsnew_entry_gpt_live_own_key_title">Klíče pro GPT-Live</string>
+    <string name="settings_whatsnew_entry_gpt_live_own_key_summary">Hovory GPT-Live mohou používat váš vlastní klíč OpenAI, klíč OpenAI ze serveru nebo jeho připojení k OpenCode Console.</string>
+
+    <!-- 2026-10-23-03-pair-opens-drawer -->
+    <string name="settings_whatsnew_entry_pair_opens_drawer_title">Pokračujte, kde jste skončili</string>
+    <string name="settings_whatsnew_entry_pair_opens_drawer_summary">Po spárování nového počítače se otevře postranní panel s jeho nedávnými relacemi, abyste si mohli některou vybrat místo prázdné relace.</string>
+
+    <!-- 2026-10-23-04-voice-server-picker -->
+    <string name="settings_whatsnew_entry_voice_server_picker_title">Vyberte server pro hovory</string>
+    <string name="settings_whatsnew_entry_voice_server_picker_summary">V Nastavení › Hlas › Poskytovatel hlasu vyberte uložený server pro hovory nebo svůj vlastní účet OpenAI v tomto telefonu.</string>
+
+    <!-- 2026-10-24-01-living-orb-floats -->
+    <string name="settings_whatsnew_entry_living_orb_floats_title">Živá koule pluje všude</string>
+    <string name="settings_whatsnew_entry_living_orb_floats_summary">Živá koule je nyní plovoucí styl hovoru v Nastavení › Experimentální › Hovory. Je větší, zůstává nad nastavením i všemi obrazovkami a reaguje na oba hlasy. Když mluvíte současně, má každý svou barvu. Klepnutím ji rozbalíte na kartu, tažením nahoru zobrazíte celý hovor i přepis a tažením dolů ji zase zmenšíte. Její vzhled změníte položkou Koule pod stylem hovoru.</string>
+
+    <!-- 2026-10-24-02-new-messages-divider-on -->
+    <string name="settings_whatsnew_entry_new_messages_divider_on_title">Oddělovač nových zpráv</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_summary">Pokud odpověď přijatá ve vaší nepřítomnosti přesahuje obrazovku, relace se otevře na jejím začátku u oddělovače Nové.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_1">Odpověď, která se vejde na obrazovku, se otevře na konci, bez oddělovače.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_2">Odpovědi, které přibývají, zatímco je sledujete, se nikdy neoznačují.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_3">Po dočtení až na konec oddělovač zmizí.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_4">Vypnete ho v Nastavení › Relace.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_example">Požádejte o dlouhou odpověď, přepněte do jiné aplikace a po jejím dokončení se vraťte.</string>
+
+    <!-- 2026-10-24-03-composer-keyboard-morph -->
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_title">Editor zpráv sleduje klávesnici</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_summary">Ovládací prvky editoru zpráv se zobrazí spolu s klávesnicí a pohybují se s ní, když ji táhnete nahoru a dolů.</string>
+
+    <!-- 2026-10-24-04-composer-photo-viewer -->
+    <string name="settings_whatsnew_entry_composer_photo_viewer_title">Fotografie na celou obrazovku</string>
+    <string name="settings_whatsnew_entry_composer_photo_viewer_summary">Klepnutím na fotografii v editoru zpráv ji zobrazíte na celou obrazovku. Přejetím můžete procházet fotografie a před odesláním některou odebrat.</string>
+
+    <!-- 2026-10-24-05-plus-menu-photo-picker -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_title">Nový výběr fotografií</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_summary">Zapněte Novou nabídku + v Nastavení › Experimentální › Editor zpráv. Přímo z nabídky + pak vyberete až 8 nedávných fotografií, prohlédnete si Všechny fotografie a uvidíte, jak přelétnou do editoru zpráv a pak do relace.</string>
+
+    <!-- 2026-10-24-06-project-icons-lit -->
+    <string name="settings_whatsnew_entry_project_icons_lit_title">Nasvícené ikony projektů</string>
+    <string name="settings_whatsnew_entry_project_icons_lit_summary">Se zapnutými ikonami projektů se na ikonách v postranním panelu odráží světlo: jemný odlesk shora, tenký skleněný okraj a lehký stín.</string>
+
+    <!-- 2026-10-24-07-session-live-activity -->
+    <string name="settings_whatsnew_entry_session_live_activity_title">Průběžné aktualizace relace</string>
+    <string name="settings_whatsnew_entry_session_live_activity_summary">Zapněte Průběžné aktualizace relace v Nastavení › Experimentální › Výsuvný panel. Odeslanou úlohu pak můžete sledovat v průběžném oznámení i na zamčené obrazovce, dokud neskončí nebo nepotřebuje váš vstup.</string>
+
+    <!-- 2026-10-24-08-sign-in-failed-edit-server -->
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_title">Náprava odmítnutého přihlášení</string>
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_summary">Když server odmítne heslo, jeho nabídka v postranním panelu nabídne Upravit server… místo neúčinného Zkusit znovu. Úvodní obrazovka nyní odkazuje na příkaz opencode pair --remote v terminálu.</string>
+
+    <!-- 2026-10-25-01-voice-app-screenshot -->
+    <string name="settings_whatsnew_entry_voice_app_screenshot_title">Snímky obrazovky hlasem</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_summary">Při hlasovém hovoru řekněte „podívej se na tohle“ a snímek obrazovky aplikace se odešle do relace s vaší připomínkou.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_1">Odešle se jen obrazovka samotné aplikace spolu s jejím názvem a stavem hovoru i aplikace.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_2">Můžete požádat i o přiložení protokolu hovoru nebo nedávných protokolů aplikace. Adresy a přihlašovací údaje jsou skryté.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_3">Snímek se nepořídí, pokud je zobrazená přihlašovací obrazovka nebo pole pro heslo.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_example">Při hlasovém hovoru řekněte „udělej snímek obrazovky, tenhle řádek je špatně zarovnaný“</string>
+
+    <!-- 2026-10-25-02-voice-background-results -->
+    <string name="settings_whatsnew_entry_voice_background_results_title">Výsledky z pozadí v hovorech</string>
+    <string name="settings_whatsnew_entry_voice_background_results_summary">Když relace, které během hovoru zadáte úkol, začne pracovat na pozadí, po dokončení vám v hovoru sdělí výsledky, i když už se věnujete něčemu jinému.</string>
+
+    <!-- 2026-10-25-03-sound-effects-experiment -->
+    <string name="settings_whatsnew_entry_sound_effects_experiment_title">Zvukové efekty</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_summary">Experiment, který doprovází vibrace jemnými zvuky u odpovědí, požadavků, Přehledu novinek a neúspěšných odeslání.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_1">Tichý režim a režim vibrací je ztlumí. Hudba hraje dál.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_2">Během hovoru, diktování či přehrávání médií a na pozadí se neozývají.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_3">Pod přepínačem najdete Hlasitost a volitelný Zvuk odeslání.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_example">Zapněte Zvukové efekty v Nastavení › Experimentální a počkejte na odpověď v jiné relaci</string>
+
+    <!-- 2026-10-25-90-session-title-first-prompt -->
+    <string name="settings_whatsnew_entry_session_title_first_prompt_title">Názvy z prvního zadání</string>
+    <string name="settings_whatsnew_entry_session_title_first_prompt_summary">Relace bez názvu nyní zobrazují své první zadání na jednom řádku, dokud je server nepojmenuje.</string>
+
+    <!-- 2026-10-26-01-settings-sessions-page -->
+    <string name="settings_whatsnew_entry_settings_sessions_page_title">Nastavení relací</string>
+    <string name="settings_whatsnew_entry_settings_sessions_page_summary">V nastavení je nová stránka Relace, kde je Oddělovač nových zpráv nad volbou Odesílat Enterem. Pokročilé nyní tvoří dva řádky: Experimentální a Pro vývojáře.</string>
+
+    <!-- 2026-10-26-02-project-icons-default -->
+    <string name="settings_whatsnew_entry_project_icons_default_title">Ikony projektů zapnuté</string>
+    <string name="settings_whatsnew_entry_project_icons_default_summary">Vedle názvů relací se nyní zobrazují ikony projektů. Vypnete je v Nastavení › Experimentální.</string>
+
+    <!-- 2026-10-26-03-plus-menu-over-keyboard -->
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_title">Fotografie nad klávesnicí</string>
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_summary">Se zapnutou Novou nabídkou + se nabídka + otevře nad klávesnicí. Fotografie se z ní rozbalí do panelu až k okrajům obrazovky a pak se zase sbalí, aniž by se klávesnice skryla.</string>
+
+    <!-- 2026-10-26-04-living-orb-connect-motion -->
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_title">Animace koule při připojování</string>
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_summary">Se zapnutou Živou koulí se tlačítko hovoru zvedne do koule a při připojování se roztočí. Po skončení hovoru se vrátí zpět. Okamžité opakované volání zahájí nový hovor a už se nezasekne.</string>
+
+    <!-- 2026-10-26-05-living-orb-presets -->
+    <string name="settings_whatsnew_entry_living_orb_presets_title">Předvolby koule a efektní styl</string>
+    <string name="settings_whatsnew_entry_living_orb_presets_summary">Volba Koule pod Stylem hovoru v Nastavení › Experimentální › Hovory se teď otevírá s efektním stylem, větším živým náhledem a řadou předvoleb. Vlastní předvolby můžete ukládat, přejmenovat a sdílet zkopírováním či vložením nastavení.</string>
+
+    <!-- 2026-10-26-06-send-after-a-pause -->
+    <string name="settings_whatsnew_entry_send_after_a_pause_title">Plynulejší odeslání po pauze</string>
+    <string name="settings_whatsnew_entry_send_after_a_pause_summary">Zpráva odeslaná po pauze teď stoupá z editoru zpráv přímo do své bubliny, místo aby nejprve pod časovým údajem klesla směrem k editoru.</string>
+
+    <!-- 2026-10-27-01-steadier-round-trip -->
+    <string name="settings_whatsnew_entry_steadier_round_trip_title">Stabilnější údaj o odezvě</string>
+    <string name="settings_whatsnew_entry_steadier_round_trip_summary">Údaj v ms na kartě připojení je teď klouzavým průměrem několika posledních kontrol. Jedna pomalá odpověď ho tak jen mírně změní, místo aby prudce vyskočil.</string>
+
+    <!-- 2026-10-27-02-drawer-drag-follows-finger -->
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_title">Přetahování v panelu sleduje prst</string>
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_summary">Relace přetahovaná v postranním panelu teď zůstává přímo pod prstem, pohybuje se nad záhlavím, u okrajů posouvá seznam a po puštění zapadne na místo.</string>
+
+    <!-- 2026-10-27-03-inbox-sidebar-experiment -->
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_title">Postranní panel jako schránka</string>
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_summary">V Nastavení › Experimentální › Výsuvný panel zapněte Panel jako schránka. Relace se zobrazí jako doručená pošta: nejprve ty, které čekají na vás, pak nepřečtené, vždy s projektem a poslední odpovědí. Přejetím relaci označíte jako přečtenou nebo archivujete.</string>
+
+    <!-- 2026-10-28-01-first-pairing-ready-session -->
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_title">První relace je připravená</string>
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_summary">Po spárování prvního počítače se teď otevře nová relace v jeho posledním projektu s několika otázkami na vyzkoušení. Klepnutím si ověříte připojení. Po nové instalaci je také přehled Co je nového už označený jako přečtený.</string>
+
+    <!-- 2026-10-28-02-welcome-preview -->
+    <string name="settings_whatsnew_entry_welcome_preview_title">Náhled uvítání</string>
+    <string name="settings_whatsnew_entry_welcome_preview_summary">Nové úvodní uvítání ukazuje OpenCode při práci na notebooku, který ovládáte telefonem, a pak vás v jednom kroku provede párováním. Zapněte Náhled uvítání v Nastavení › Experimentální › Výsuvný panel a klepněte na Zobrazit uvítání. Po zavření se vrátíte zpět.</string>
+
+    <!-- 2026-10-29-01-composer-text-selection -->
+    <string name="settings_whatsnew_entry_composer_text_selection_title">Výběr textu v editoru zpráv</string>
+    <string name="settings_whatsnew_entry_composer_text_selection_summary">Přetahování úchytů výběru nebo lupy v konceptu už neschovává klávesnici ani neposouvá editor zpráv nahoru či dolů.</string>
+
+    <!-- 2026-10-30-01-voice-waits-for-you -->
+    <string name="settings_whatsnew_entry_voice_waits_for_you_title">Hovory počkají, až domluvíte</string>
+    <string name="settings_whatsnew_entry_voice_waits_for_you_summary">Hlasový agent vám už neskáče do řeči: s novinkami počká, až domluvíte, a když mu skočíte do řeči vy, přestane mluvit.</string>
+
+    <!-- 2026-10-30-02-wisp-call-sounds -->
+    <string name="settings_whatsnew_entry_wisp_call_sounds_title">Hlasové hovory se zvuky Wisp</string>
+    <string name="settings_whatsnew_entry_wisp_call_sounds_summary">Hovory začínají jemným nádechem s tichým třpytivým zvukem připojování. Po spojení zazní tón, při hledání, otevírání nebo spouštění se ozývá jemné tikání a na konci povzdech. Jinou sadu vyberete v Nastavení › Hlas › Zvuky hovorů.</string>
+
+    <!-- 2026-10-30-03-wisp-orb -->
+    <string name="settings_whatsnew_entry_wisp_orb_title">Hlasová koule má teď vzhled Wisp</string>
+    <string name="settings_whatsnew_entry_wisp_orb_summary">Koule hovoru má teď vzhled Wisp: skleněnou čočku nad zářícími body, které rozsvěcují oba hlasy, a nálady Wisp pro připojování, poslech, práci, mluvení i čekání na vás. Je to jediný styl koule, takže staré styly i nastavení Koule zmizely.</string>
+
+    <!-- 2026-10-31-01-encrypted-notification-previews -->
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_title">Šifrované náhledy oznámení</string>
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_summary">S aktualizovaným pluginem pro oznámení a připojením HTTPS server šifruje název i zprávu pro toto zařízení. Pokud náhled nelze otevřít, oznámení zobrazí jen „Nová aktivita“.</string>
+
+    <!-- 2026-10-31-02-move-session-folder-gone -->
+    <string name="settings_whatsnew_entry_move_session_folder_gone_title">Relace přežijí svou složku</string>
+    <string name="settings_whatsnew_entry_move_session_folder_gone_summary">Když složka relace zmizí, třeba po odstranění pracovního prostoru, neúspěšné odeslání nabídne přesun relace do složky jejího projektu a zopakuje odeslání.</string>
+
+    <!-- 2026-10-31-03-notification-plugin-setup -->
+    <string name="settings_whatsnew_entry_notification_plugin_setup_title">Nastavení oznámení s OpenCode</string>
+    <string name="settings_whatsnew_entry_notification_plugin_setup_summary">V Nastavení → Oznámení klepněte na Nastavit s OpenCode. Zobrazí se zadání k instalaci chybějícího pluginu pro oznámení, které si můžete zkontrolovat.</string>
+
+    <!-- 2026-11-01-01-call-card-takes-over -->
+    <string name="settings_whatsnew_entry_call_card_takes_over_title">Karta hovoru zabere spodní část</string>
+    <string name="settings_whatsnew_entry_call_card_takes_over_summary">V Živé kouli teď karta hovoru vyplňuje spodní část obrazovky přes pole zprávy, se stejnými okraji po všech stranách. Klávesnice ji tak už nemačká. Pro psaní ji zmenšete zpět na kouli.</string>
+
+    <!-- 2026-11-01-01-screenshot-shutter -->
+    <string name="settings_whatsnew_entry_screenshot_shutter_title">Spoušť snímku obrazovky</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_summary">Když aplikace pro relaci pořídí snímek vlastní obrazovky, obrazovka blikne a ozve se cvaknutí spouště.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_1">Záblesk přijde až po pořízení snímku, takže na něm nikdy není.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_2">Volba Omezit pohyb ho změní na jemné ztlumení, volba Ztlumit blikající světla ho vypne.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_3">Při hovoru se cvaknutí přehraje přes zvuk hovoru, takže ho agent neslyší.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_example">Při hlasovém hovoru řekněte „podívej se na tohle“</string>
+
+    <!-- 2026-11-01-01-voice-says-whats-running -->
+    <string name="settings_whatsnew_entry_voice_says_whats_running_title">V hovoru uslyšíte, co ještě běží</string>
+    <string name="settings_whatsnew_entry_voice_says_whats_running_summary">Když váš požadavek trvá déle, hlasový agent vám řekne, na čem pracuje, místo aby ztichl.</string>
+
+    <!-- 2026-11-01-02-living-orb-default -->
+    <string name="settings_whatsnew_entry_living_orb_default_title">Hovory v plovoucí kouli</string>
+    <string name="settings_whatsnew_entry_living_orb_default_summary">Hlasové hovory teď všem plují v Živé kouli nad každou obrazovkou a pole zprávy zůstává volné pro vás.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_1">Klepnutím na kouli rozbalíte kartu hovoru a tažením nahoru zobrazíte celý hovor i jeho přepis.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_2">Přetáhněte kouli kamkoli. Při přepínání relací i otevření Nastavení zůstane na místě.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_3">Hovor můžete zahájit i ze seznamu relací tlačítkem vedle Nastavení.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_4">Spodní panel už není k dispozici. Pokud jste ho používali, i vaše hovory teď plují v kouli.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_5">Vypnete ji v Nastavení › Experimentální › Hovory › Živá koule.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_example">Zahajte hovor a otevřete seznam relací: koule vás následuje</string>
+
+    <!-- 2026-11-01-02-quicker-send -->
+    <string name="settings_whatsnew_entry_quicker_send_title">Rychlejší odesílání</string>
+    <string name="settings_whatsnew_entry_quicker_send_summary">Odeslaná zpráva teď stoupá do své bubliny spolu se seznamem, místo aby nejprve čekala u editoru zpráv.</string>
+
+    <!-- 2026-11-01-02-share-screen-with-agents -->
+    <string name="settings_whatsnew_entry_share_screen_with_agents_title">Sdílení obrazovky s agenty</string>
+    <string name="settings_whatsnew_entry_share_screen_with_agents_summary">Zapněte Sdílení obrazovky s agenty v Nastavení › Experimentální › Hovory. Agent pak může při hovoru požádat o pohled na aplikaci. Klepnutím na Sdílet mu pošlete snímek, nebo zvolte Teď ne.</string>
+
+    <!-- 2026-11-01-03-audio-in-calls -->
+    <string name="settings_whatsnew_entry_audio_in_calls_title">Zvuk v hovorech</string>
+    <string name="settings_whatsnew_entry_audio_in_calls_summary">Zapněte Zvuk v hovorech v Nastavení › Experimentální › Hovory. Agent vám pak může při hovoru přehrát hudbu nebo nahrávku. Když někdo z vás mluví, zvuk se ztlumí. Nad editorem zpráv ho můžete pozastavit nebo zastavit.</string>
+
+    <!-- 2026-11-01-03-open-links-from-calls -->
+    <string name="settings_whatsnew_entry_open_links_from_calls_title">Otevírání odkazů z hovorů</string>
+    <string name="settings_whatsnew_entry_open_links_from_calls_summary">Zapněte Otevírání odkazů z hovorů v Nastavení › Experimentální › Hovory. Agent pak může při hovoru nabídnout odkaz, třeba na jízdu s Uber. Klepnutím na Otevřít ho otevřete v příslušné aplikaci, nebo zvolte Teď ne.</string>
+
+    <!-- 2026-11-02-01-fold-questions -->
+    <string name="settings_whatsnew_entry_fold_questions_title">Sbalte otázky, ať nepřekážejí</string>
+    <string name="settings_whatsnew_entry_fold_questions_summary">Tažením dolů sbalíte otázku do malé lišty nad editorem zpráv. Klepnutím ji zase rozbalíte. Neodeslaná odpověď teď počká, až klepnete na Zkusit znovu.</string>
+
+    <!-- 2026-11-02-01-steadier-following -->
+    <string name="settings_whatsnew_entry_steadier_following_title">Plynulejší sledování odpovědi</string>
+    <string name="settings_whatsnew_entry_steadier_following_summary">Průběžně zobrazovaná odpověď zůstává u spodního okraje a stav Pracuje už neposkakuje. Seznam můžete posouvat přejetím kdekoli nad editorem zpráv.</string>
+
+    <!-- 2026-11-02-40-model-display-names -->
+    <string name="settings_whatsnew_entry_model_display_names_title">Názvy modelů</string>
+    <string name="settings_whatsnew_entry_model_display_names_summary">Editor zpráv si pamatuje názvy modelů i během načítání seznamu nebo obnovování připojení.</string>
+
+    <!-- 2026-11-02-41-all-experiments -->
+    <string name="settings_whatsnew_entry_all_experiments_title">Všechny experimenty</string>
+    <string name="settings_whatsnew_entry_all_experiments_summary">Jeden přepínač nahoře v Nastavení › Experimentální zapne všechny experimenty včetně těch, které přibudou později.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_1">Pokud některý experiment nechcete, vypněte ho. Zůstane vypnutý i příště.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_2">Vypnutím volby Všechny experimenty obnovíte předchozí nastavení přepínačů.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_3">Experimenty vyžadující oprávnění se dál zapínají samostatně.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_4">Automatické doplňování, panel fotografií v nabídce plus, nový přepínač serverů a ikony projektů jsou teď zapnuté pro všechny.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_5">Jednotný výběr a Živá koule mají běžné přepínače a Panel hovorů byl odstraněn.</string>
+    <string name="settings_whatsnew_entry_all_experiments_example">Otevřete Nastavení › Experimentální a zapněte Všechny experimenty</string>
+
+    <!-- 2026-11-03-01-search-all-sessions -->
+    <string name="settings_whatsnew_entry_search_all_sessions_title">Najít starší relace</string>
+    <string name="settings_whatsnew_entry_search_all_sessions_summary">Hledání v postranním panelu teď prohledává všechny relace, nejen ty nedávné. Posunutím na konec načtete starší relace.</string>
+
+    <!-- 2026-11-03-01-voice-open-session -->
+    <string name="settings_whatsnew_entry_voice_open_session_title">Přepínání relací hlasem</string>
+    <string name="settings_whatsnew_entry_voice_open_session_summary">Když hlasového agenta požádáte o otevření relace, výsuvný panel se zavře a hovor zůstane připojený.</string>
+
+    <!-- 2026-11-03-02-orb-divider-image-links -->
+    <string name="settings_whatsnew_entry_orb_divider_image_links_title">Tři experimenty pro všechny</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_summary">Živá koule, oddělovač Nové a náhledy odkazů na obrázky jsou teď zapnuté pro všechny, bez přepínače.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_1">Každý hovor se zobrazuje v plovoucí Živé kouli. Původní lišta hovorů byla odstraněna.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_2">Po návratu do relace oddělovač Nové označí, co přibylo za vaší nepřítomnosti, pokud se to nevejde na obrazovku.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_3">Přímé odkazy na obrázky zobrazí obrázek pod zprávou.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_example">Zahajte hovor z editoru zpráv a sledujte ho v plovoucí kouli</string>
+
+    <!-- 2026-11-04-01-call-links-and-audio -->
+    <string name="settings_whatsnew_entry_call_links_and_audio_title">Odkazy a zvuk v hovorech</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_summary">Otevírání odkazů z hovorů a zvuk v hovorech jsou teď zapnuté pro všechny, bez přepínače.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_1">Agent může během hovoru nabídnout odkaz, třeba na jízdu přes Uber. Klepnutím na Otevřít ho otevřete v příslušné aplikaci, nebo zvolte Teď ne.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_2">Agent může během hovoru přehrát hudbu nebo klip. Zvuk se ztlumí, když někdo z vás mluví. Nad editorem zpráv ho můžete pozastavit nebo zastavit.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_example">Během hovoru požádejte agenta, ať přehraje nějakou hudbu</string>
+
+    <!-- 2026-11-04-01-composer-editing-caret -->
+    <string name="settings_whatsnew_entry_composer_editing_caret_title">Úpravy konceptů</string>
+    <string name="settings_whatsnew_entry_composer_editing_caret_summary">Při úpravě slova uprostřed konceptu zůstává kurzor tam, kde píšete.</string>
+
+    <!-- 2026-11-04-01-loading-touch-recovery -->
+    <string name="settings_whatsnew_entry_loading_touch_recovery_title">Posouvání po načtení</string>
+    <string name="settings_whatsnew_entry_loading_touch_recovery_summary">Po návratu do aplikace během načítání lze přepis okamžitě znovu posouvat.</string>
+
+    <!-- 2026-11-05-01-composer-keyboard-width -->
+    <string name="settings_whatsnew_entry_composer_keyboard_width_title">Širší editor při psaní</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_width_summary">Se zobrazenou klávesnicí se editor zpráv rozšíří a ponechá jen malé, stejné okraje, takže se dlouhé koncepty méně zalamují.</string>
+
+    <!-- 2026-11-05-02-plus-menu-touch-release -->
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_title">Zavírání nabídky příloh</string>
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_summary">Po zavření nabídky příloh lze relaci pod ní znovu ovládat i při změně rozložení.</string>
+
+    <!-- 2026-11-05-02-quiet-reconnecting-pill -->
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_title">Klidnější spuštění</string>
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_summary">Při otevření aplikace už nad editorem zpráv neproblikne „Obnovování připojení…“ ani neposkočí obsah relace. Štítek se zobrazí, jen když obnova připojení chvíli trvá.</string>
+
+    <!-- 2026-11-05-03-stuck-touch-recovery -->
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_title">Posouvání se samo obnoví</string>
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_summary">Pokud něco neviditelného brání posouvání relace déle než sekundu, aplikace ji odblokuje.</string>
+
+    <!-- 2026-11-05-04-reply-text-selection -->
+    <string name="settings_whatsnew_entry_reply_text_selection_title">Výběr napříč odpovědí</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_summary">Podržte slovo v odpovědi nebo na něj dvakrát klepněte. Pak táhněte úchyty výběru přes odstavce, seznamy, kód i tabulky.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_1">Podržte úchyt těsně pod záhlavím nebo nad editorem zpráv a odpověď se začne posouvat. Čím blíž k okraji, tím rychleji.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_2">Kopírování zachová odrážky a číslování seznamů i řádky a sloupce tabulek. Citovat vloží výběr do editoru zpráv a zachová ohraničení bloků kódu.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_example">Podržte slovo na začátku dlouhé odpovědi, pak přetáhněte koncový úchyt dolů k editoru zpráv a podržte ho tam</string>
+
+    <!-- 2026-11-06-01-scrolling-unsticks -->
+    <string name="settings_whatsnew_entry_scrolling_unsticks_title">Posouvání se samo odblokuje</string>
+    <string name="settings_whatsnew_entry_scrolling_unsticks_summary">Relace, kterou někdy nešlo posouvat bez přepnutí do jiné relace, se teď sama odblokuje.</string>
+
+    <!-- 2026-11-06-02-server-addresses -->
+    <string name="settings_whatsnew_entry_server_addresses_title">Spolehlivější připojení k serverům</string>
+    <string name="settings_whatsnew_entry_server_addresses_summary">OpenCode zkouší všechny adresy serveru najednou a použije tu, která odpoví první. Po odchodu z domova se tak znovu připojí bez vypínání a zapínání VPN.</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_1">Adresa, která fungovala v domácí síti, už jinde nemá při připojování přednost.</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_2">Krátký výpadek, odemknutí telefonu ani stažení rychlého nastavení už nezpůsobí probliknutí oznámení. Obnovování připojení se zobrazí po pár sekundách a Bez připojení asi po 12, nebo po 4, pokud telefon nemá síť.</string>
+    <string name="settings_whatsnew_entry_server_addresses_example">V otevřené relaci na serveru spárovaném přes Tailscale vypněte Wi-Fi a pokračujte v práci</string>
+
+    <!-- 2026-11-07-01-server-voice -->
+    <string name="settings_whatsnew_entry_server_voice_title">Hovory s klíči serveru</string>
+    <string name="settings_whatsnew_entry_server_voice_summary">Hlas přes server je teď zapnutý pro všechny, bez přepínače. Hovory mohou používat klíče vašeho serveru OpenCode, takže telefon nepotřebuje vlastní klíč OpenAI.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_1">Při zapnuté volbě Vybrat automaticky hovory použijí aktuální server, pak váš klíč OpenAI v telefonu a nakonec jiný připravený uložený server.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_2">Pokud mají telefon i server klíč OpenAI, hovory teď používají ten ze serveru. Chcete-li dál používat svůj, otevřete Váš účet OpenAI v nabídce Poskytovatel hlasu a klepněte na Použít pro hovory.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_3">Na serverech s klíčem pro Gemini je teď mezi poskytovateli i Gemini Live.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_4">Pokud hovor nejde zahájit, zobrazí se důvod a tlačítko pro nápravu.</string>
+    <string name="settings_whatsnew_entry_server_voice_example">Otevřete Nastavení › Hlas a klepněte na Poskytovatel hlasu</string>
+
+    <!-- 2026-11-07-02-rename-clear-button -->
+    <string name="settings_whatsnew_entry_rename_clear_button_title">Vymazání názvu klepnutím</string>
+    <string name="settings_whatsnew_entry_rename_clear_button_summary">Dialogy Přejmenovat relaci a Přejmenovat server teď mají tlačítko pro vymazání, takže můžete zadat nový název bez ručního mazání starého.</string>
+
+    <!-- 2026-11-07-03-one-picker -->
+    <string name="settings_whatsnew_entry_one_picker_title">Nový výběr modelu</string>
+    <string name="settings_whatsnew_entry_one_picker_summary">Klepněte na model v poli zprávy a rozbalí se z něj seznam. Nahoře jsou Oblíbené a Nedávné, pod nimi všichni poskytovatelé.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_1">Klepnutím na úroveň myšlení v řádku modelu, třeba „high“, ji změníte přímo v seznamu.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_2">Přejetím po řádku nebo jeho podržením přidáte model do oblíbených nebo ho odeberete.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_3">Hledání je dole. Když za název napíšete úroveň, třeba „opus high“, stisknutím Enter vyberete obojí.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_4">Potažením úchytu nahoru zvětšíte seznam, dolů ho zavřete.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_5">Nový výběr nahrazuje původní panel Model a přepínač Jednotný výběr už v Nastavení › Experimentální nenajdete.</string>
+    <string name="settings_whatsnew_entry_one_picker_example">Klepněte na model v poli zprávy a přejetím po řádku ho přidejte do oblíbených</string>
+
+    <!-- 2026-11-08-01-connecting-caption-glass -->
+    <string name="settings_whatsnew_entry_connecting_caption_glass_title">Čitelnější „Připojování přes…“</string>
+    <string name="settings_whatsnew_entry_connecting_caption_glass_summary">Při připojování hovoru přes server má řádek „Připojování přes…“ průsvitné pozadí, takže už nesplývá se zprávami za ním.</string>
+
+    <!-- 2026-11-08-02-default-model -->
+    <string name="settings_whatsnew_entry_default_model_title">Nové relace používají výchozí model</string>
+    <string name="settings_whatsnew_entry_default_model_summary">Nové relace začínají s výchozím modelem nastaveným v OpenCode a s úrovní myšlení, kterou jste pro něj naposledy vybrali, místo modelu z poslední relace.</string>
+
+    <!-- 2026-11-11-01-streamed-reply-prefix -->
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_title">Otevření rozepsané odpovědi</string>
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_summary">Když otevřete relaci během psaní odpovědi, můžete si přečíst už přijatou část, zatímco odpověď dál přibývá.</string>
+
+    <!-- 2026-11-13-01-draw-on-images -->
+    <string name="settings_whatsnew_entry_draw_on_images_title">Kreslení do obrázků</string>
+    <string name="settings_whatsnew_entry_draw_on_images_summary">Označte detail, než se na něj zeptáte.</string>
+    <string name="settings_whatsnew_entry_draw_on_images_detail_1">Otevřete obrázek na celou obrazovku a klepněte na tlačítko pera. Vyberte barvu, kreslete a pak klepnutím na Přidat přiložte označený obrázek ke zprávě. Originál zůstane beze změny.</string>
+    <string name="settings_whatsnew_entry_draw_on_images_example">Na snímku obrazovky zakroužkujte ovládací prvek, který chcete přesunout, a popište, kam má přijít.</string>
+
+    <!-- 2026-11-14-01-fullscreen-viewer -->
+    <string name="settings_whatsnew_entry_fullscreen_viewer_title">Přejíždění mezi fotkami a videi</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_summary">Prohlížejte si obrázky a videa z relace společně.</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_detail_1">Přejeďte na video a klepnutím na tlačítko pera označte aktuální snímek. Tlačítko Přidat přiloží označený snímek, ale neodešle ho.</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_example">Pozastavte ukázku na obrazovce, kterou je třeba změnit, zakroužkujte detail a přidejte snímek do konceptu.</string>
+
+    <!-- 2026-11-15-01-pairing-link-name -->
+    <string name="settings_whatsnew_entry_pairing_link_name_title">Pojmenované servery z OpenCode Console</string>
+    <string name="settings_whatsnew_entry_pairing_link_name_summary">Server spárovaný přes OpenCode Console se přidá i se svým názvem, například „Anomaly Box“.</string>
+
+    <!-- 2026-11-17-01-session-media -->
+    <string name="settings_whatsnew_entry_session_media_title">Média relace</string>
+    <string name="settings_whatsnew_entry_session_media_summary">Procházejte obrázky, videa, zvuk, soubory a veřejné webové odkazy v relaci.</string>
+    <string name="settings_whatsnew_entry_session_media_detail_1">V nabídce ⋮ relace vyberte Média relace. V části Média najdete obrázky, videa a zvuk jako dlaždice seskupené podle měsíců nebo jako seznam. Části Soubory a Odkazy obsahují dokumenty, vložené texty a webové odkazy.</string>
+    <string name="settings_whatsnew_entry_session_media_example">Najděte snímek obrazovky odeslaný dnes ráno bez procházení celé relace.</string>
+
+    <!-- 2026-11-18-02-drawer-call-phone -->
+    <string name="settings_whatsnew_entry_drawer_call_phone_title">Ikona telefonu pro hovory ve výsuvném panelu</string>
+    <string name="settings_whatsnew_entry_drawer_call_phone_summary">Tlačítko hovoru vedle Nastavení v seznamu relací má ikonu telefonu, stejně jako tlačítko v poli pro zprávu.</string>
+
+    <!-- 2026-11-19-01-background-scripts -->
+    <string name="settings_whatsnew_entry_background_scripts_title">Skripty mezi úlohami na pozadí</string>
+    <string name="settings_whatsnew_entry_background_scripts_summary">Skripty, které agent přesune na pozadí, se zobrazují vedle subagentů a shellů. Subagent zůstává v seznamu, dokud probíhá práce s jeho obrázky či videi nebo běží jeho skripty. Skripty i subagenty můžete zastavit přímo ze seznamu.</string>
+</resources>

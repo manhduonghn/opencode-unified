@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Не вдалося додати надіслані елементи</string>
+    <string name="app_alert_open_session_failed_title">Не вдалося відкрити сесію</string>
+    <string name="app_alert_pairing_failed_title">Не вдалося сполучити із сервером</string>
+    <string name="app_pairing_confirm">Сполучити</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Сервери</string>
+    <string name="app_servers_back_description">Назад до %1$s</string>
+    <string name="app_server_fallback_name">сервер</string>
+    <string name="app_connection_intro_new">Продовжуйте роботу над кодом на %1$s.</string>
+    <string name="app_connection_intro_returning">Продовжуйте з того ж місця або сполучіть інший комп’ютер.</string>
+    <string name="app_connection_enter_manually">Ввести сервер вручну</string>
+    <string name="app_connection_scan_pairing_code">Сканувати код сполучення</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">На комп’ютері відкрийте OpenCode і перейдіть у Налаштування → Сполучення або виконайте opencode pair --remote у терміналі. Потім скануйте код цим пристроєм (%1$s).</string>
+    <string name="app_setup_install_title">Ще не маєте OpenCode?</string>
+    <string name="app_setup_other_ways_to_install">Інші способи встановлення</string>
+    <string name="app_setup_terminal_title">Або виконайте це в терміналі</string>
+    <string name="app_setup_terminal_detail">Працює з будь-якої мережі.</string>
+    <string name="app_setup_paste_prompt">Або скопіюйте виведене посилання, а потім</string>
+    <string name="app_setup_paste">Вставити</string>
+    <string name="app_setup_copy_command_description">Копіювати %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Підключення</string>
+    <string name="app_servers_edit_description">Редагувати %1$s</string>
+    <string name="app_servers_remove_description">Видалити %1$s</string>
+    <string name="app_servers_remove_confirm_title">Видалити %1$s?</string>
+    <string name="app_servers_remove_confirm_message">Адресу й пароль буде видалено з цього пристрою (%1$s). Сесії на сервері залишаться без змін.</string>
+    <string name="app_servers_remove_confirm">Видалити сервер</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Етап: %1$s</string>
+    <string name="app_error_server">Сервер: %1$s</string>
+    <string name="app_error_attempt">Спроба: %1$d</string>
+    <string name="app_error_copy_report">Копіювати звіт про помилку</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Новий сервер</string>
+    <string name="app_server_form_edit_title">Редагувати сервер</string>
+    <string name="app_server_form_name">Назва</string>
+    <string name="app_server_form_address">Адреса сервера</string>
+    <string name="app_server_form_username">Ім’я користувача</string>
+    <string name="app_server_form_password">Пароль (необов\'язково)</string>
+    <string name="app_server_form_hide_password_description">Приховати пароль</string>
+    <string name="app_server_form_show_password_description">Показати пароль</string>
+    <string name="app_server_form_connect">Підключитися</string>
+    <string name="app_server_form_save_and_connect">Зберегти й підключитися</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Заголовки</string>
+    <string name="app_server_form_header_name">Назва</string>
+    <string name="app_server_form_header_name_description">Назва заголовка %1$d</string>
+    <string name="app_server_form_header_value">Значення</string>
+    <string name="app_server_form_header_value_description">Значення заголовка %1$d</string>
+    <string name="app_server_form_header_remove_description">Видалити заголовок %1$d</string>
+    <string name="app_server_form_header_add">Додати заголовок</string>
+    <string name="app_server_form_headers_detail">Надсилаються з кожним запитом для проксі перед сервером, як-от Cloudflare Access.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">«%1$s» — некоректна назва заголовка</string>
+    <string name="app_server_form_header_invalid_value">Значення %1$s не може містити перенесення рядка</string>
+    <string name="app_server_form_name_placeholder">Необов’язково</string>
+    <string name="app_connection_progress_pairing">Сполучення</string>
+    <string name="app_connection_progress_connecting">Підключення</string>
+    <string name="app_connection_progress_loading_sessions">Завантаження сесій</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Сполучити з %1$s?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode перевірить %1$s і перейде на першу адресу, що відповість.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode сполучиться з %1$s і перейде до нього.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode перевірить %1$s і %2$s та перейде на першу адресу, що відповість.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode перевірить %1$s і %2$s та перейде на першу адресу, що відповість.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Збережені облікові дані для %2$s може бути замінено.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Сполучення</string>
+    <string name="app_error_phase_connect">Підключитися</string>
+    <string name="app_error_phase_load_sessions">Завантажити сесії</string>
+    <string name="app_error_candidate_detail">Варіант %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Недоступно (некоректна адреса)</string>
+    <string name="app_error_title_pair">Не вдалося сполучити</string>
+    <string name="app_error_title_load_sessions">Не вдалося завантажити сесії</string>
+    <string name="app_error_title_connect">Не вдалося підключитися до %1$s</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Буфер обміну порожній</string>
+    <string name="app_paste_not_a_pairing_link">Це не посилання для сполучення</string>
+    <string name="app_server_no_longer_saved">Цей сервер більше не збережено на цьому пристрої (%1$s). Підключіться до нього знову, щоб відкрити сесію.</string>
+    <string name="app_session_no_longer_available">Можливо, її видалено або сервер недоступний.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Підключено до %1$s</string>
+    <string name="app_pairing_invalid_code">Це не код сполучення OpenCode. Виконайте opencode pair --remote на комп’ютері, а потім відскануйте QR-код або вставте посилання, яке виведе команда.</string>
+    <string name="app_pairing_unusable_address">Не вдалося використати адресу «%1$s» із цього коду сполучення: вона %2$s.</string>
+    <string name="app_pairing_loopback">Цей сервер приймає підключення лише через localhost, тому цей пристрій (%1$s) не може до нього підключитися. Натомість виконайте opencode pair --remote на комп’ютері — це дає змогу підключатися з будь-якої мережі.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Сервер, на який ви надсилали дані, більше не збережено на цьому пристрої. Підключіться до нього знову й повторіть надсилання.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">востаннє використано</string>
+    <string name="app_server_form_hint_new">Для сполучення вставте посилання, яке виведе `opencode pair --remote`, або вкажіть адресу й пароль вашого сервера OpenCode. Ім’я користувача зазвичай opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Зміни збережуться після підключення до цього сервера. Його додано через сполучення, тому пароль — це токен сесії. Замість зміни пароля відскануйте новий код сполучення.</string>
+    <string name="app_server_form_hint_edit">Зміни збережуться після підключення до цього сервера.</string>
+</resources>

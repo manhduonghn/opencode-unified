@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Catch Up -->
+    <plurals name="drawer_catch_up_remaining">
+        <item quantity="one">%1$d jäljellä</item>
+        <item quantity="other">%1$d jäljellä</item>
+    </plurals>
+    <string name="drawer_catch_up_leave_description">Lopeta läpikäynti</string>
+    <string name="drawer_catch_up_keep_unread">Pidä lukemattomana</string>
+    <string name="drawer_catch_up_undo">Kumoa</string>
+    <string name="drawer_catch_up_title">Käy läpi</string>
+    <string name="drawer_catch_up_all_caught_up">Kaikki käyty läpi</string>
+    <string name="drawer_catch_up_swipe_mark_read">Merkitse\nluetuksi</string>
+    <string name="drawer_catch_up_swipe_keep_unread">Pidä\nlukemattomana</string>
+
+    <!-- Drawer container -->
+    <string name="drawer_close_description">Sulje istuntoluettelo</string>
+
+    <!-- Drawer footer and delete confirmation -->
+    <string name="drawer_delete_session_title">Poistetaanko ”%1$s”?</string>
+    <string name="drawer_delete_session_message">Istunto poistetaan palvelimelta kaikilta asiakkailta.</string>
+    <string name="drawer_new_session">Uusi istunto</string>
+    <string name="drawer_start_voice_call_description">Aloita äänipuhelu</string>
+
+    <!-- Archived page -->
+    <string name="drawer_archived">Arkistoidut</string>
+    <string name="drawer_archived_search_placeholder">Hae arkistoiduista</string>
+    <string name="drawer_archived_empty">Ei arkistoituja istuntoja</string>
+    <string name="drawer_no_results">Ei tuloksia</string>
+
+    <!-- Session row actions -->
+    <string name="drawer_row_selected">Valittu</string>
+    <string name="drawer_row_not_selected">Ei valittu</string>
+    <string name="drawer_row_select_action">Valitse</string>
+    <string name="drawer_pin">Kiinnitä</string>
+    <string name="drawer_unpin">Irrota</string>
+    <string name="drawer_mark_as_read">Merkitse luetuksi</string>
+    <string name="drawer_mark_as_unread">Merkitse lukemattomaksi</string>
+    <string name="drawer_mute">Mykistä</string>
+    <string name="drawer_unmute">Poista mykistys</string>
+    <string name="drawer_hide">Piilota</string>
+    <string name="drawer_unhide">Näytä</string>
+    <string name="drawer_move_up">Siirrä ylös</string>
+    <string name="drawer_move_down">Siirrä alas</string>
+
+    <!-- Section headers, shortcut rows and list footer -->
+    <string name="drawer_section_pinned">Kiinnitetyt</string>
+    <string name="drawer_section_recents">Viimeaikaiset</string>
+    <plurals name="drawer_catch_up_session_count">
+        <item quantity="one">%1$d istunto</item>
+        <item quantity="other">%1$d istuntoa</item>
+    </plurals>
+    <string name="drawer_catch_up_open_action">Selaa lukemattomia ja odottavia istuntoja pyyhkäisemällä</string>
+    <string name="drawer_mark_all_read">Merkitse kaikki luetuiksi</string>
+    <string name="drawer_whats_new">Uutta</string>
+    <string name="drawer_whats_new_hide">Piilota</string>
+    <string name="drawer_empty_title">Ei istuntoja</string>
+    <string name="drawer_empty_message">Aloita valitsemalla Uusi istunto.</string>
+    <string name="drawer_search_no_results_title">Ei tuloksia haulle ”%1$s”</string>
+    <string name="drawer_search_no_results_message">Tarkista oikeinkirjoitus tai kokeile uutta hakua.</string>
+    <string name="drawer_load_more_description">Ladataan lisää istuntoja</string>
+    <string name="drawer_load_more_failed">Lisäistuntojen lataus epäonnistui</string>
+
+    <!-- Selection bar -->
+    <string name="drawer_selection_cancel_description">Peruuta valinta</string>
+    <plurals name="drawer_selection_count">
+        <item quantity="one">%1$d valittu</item>
+        <item quantity="other">%1$d valittu</item>
+    </plurals>
+    <string name="drawer_selection_more_options_description">Lisää vaihtoehtoja</string>
+    <plurals name="drawer_delete_sessions_title">
+        <item quantity="one">Poistetaanko %1$d istunto?</item>
+        <item quantity="other">Poistetaanko %1$d istuntoa?</item>
+    </plurals>
+    <string name="drawer_delete_sessions_message">Istunnot poistetaan palvelimelta kaikilta asiakkailta.</string>
+
+    <!-- Inbox Sidebar -->
+    <string name="drawer_inbox_needs_input">Sinua tarvitaan</string>
+    <string name="drawer_inbox_working">Työskennellään</string>
+    <string name="drawer_inbox_unread">Lukemattomat</string>
+
+    <!-- Drawer button -->
+    <string name="drawer_button_open_sessions_description">Avaa istunnot</string>
+    <string name="drawer_button_attention_state">Istunnossa tarvitaan sinua</string>
+    <string name="drawer_button_unread_state">Lukemattomia istuntoja</string>
+    <string name="drawer_notice_open_sessions_action">Avaa istunnot</string>
+    <string name="drawer_notice_open_session_action">Avaa istunto</string>
+
+    <!-- Search pill -->
+    <string name="drawer_search_description">Hae istuntoja</string>
+    <string name="drawer_search_cancel_description">Peruuta haku</string>
+
+    <!-- Pin drop zone -->
+    <string name="drawer_drop_to_pin">Kiinnitä pudottamalla</string>
+
+    <!-- Server title -->
+    <string name="drawer_server_connecting_state">Yhdistetään</string>
+    <string name="drawer_server_edit">Muokkaa palvelinta…</string>
+    <string name="drawer_server_manage">Hallitse palvelimia…</string>
+    <string name="drawer_server_reconnecting_state">Yhdistetään uudelleen</string>
+    <string name="drawer_server_sign_in_failed">Kirjautuminen epäonnistui</string>
+    <string name="drawer_server_offline">Ei yhteyttä</string>
+    <string name="drawer_server_connecting_to_state">Yhdistetään palvelimeen %1$s</string>
+    <string name="drawer_server_show_servers_hint">Näytä palvelimesi</string>
+    <string name="drawer_server_offer_edit_hint">Tarjoa palvelimen muokkausta</string>
+    <string name="drawer_server_offer_try_again_hint">Tarjoa uutta yritystä</string>
+
+    <!-- Server flow: switch-back note and server menu status -->
+    <string name="drawer_server_switched_back_title">Vaihdettu takaisin palvelimeen %1$s</string>
+    <string name="drawer_server_timed_out_detail">%1$s ei vastannut %2$s sekunnissa</string>
+    <string name="drawer_server_unreachable_detail">Yhdistäminen palvelimeen %1$s epäonnistui</string>
+    <string name="drawer_server_sign_in_failed_detail">Kirjautuminen palvelimeen %1$s epäonnistui</string>
+    <string name="drawer_server_pair_again">Muodosta laitepari uudelleen</string>
+    <string name="drawer_server_menu_connected">Yhdistetty</string>
+    <string name="drawer_server_menu_connecting">Yhdistetään…</string>
+    <string name="drawer_server_menu_unreachable">Ei tavoitettavissa</string>
+
+    <!-- Row selection menu -->
+    <string name="drawer_archive">Arkistoi</string>
+    <string name="drawer_unarchive">Palauta arkistosta</string>
+    <string name="drawer_open_in_new_window">Avaa uudessa ikkunassa</string>
+
+    <!-- Session row state for TalkBack -->
+    <string name="drawer_row_pinned_state">Kiinnitetty</string>
+    <string name="drawer_row_muted_state">Mykistetty</string>
+    <string name="drawer_row_hidden_state">Piilotettu</string>
+    <string name="drawer_row_needs_input_state">Sinua tarvitaan</string>
+    <string name="drawer_row_working_state">Työskennellään</string>
+    <string name="drawer_row_unread_state">Lukematon</string>
+    <string name="drawer_row_unsent_failed_state">Lähetys epäonnistui</string>
+    <string name="drawer_row_unsent_sending_state">Lähetetään</string>
+
+    <!-- Errors -->
+    <string name="drawer_notifications_request_error">Luvan pyytäminen epäonnistui. Yritä uudelleen.</string>
+    <string name="drawer_notifications_open_settings_error">Asetusten avaaminen epäonnistui. Avaa Androidin asetukset ja valitse Ilmoitukset → OpenCode.</string>
+    <string name="drawer_delete_session_error">Istunnon ”%1$s” poistaminen epäonnistui.</string>
+    <plurals name="drawer_delete_sessions_error">
+        <item quantity="one">%1$d istunnon poistaminen epäonnistui</item>
+        <item quantity="other">%1$d istunnon poistaminen epäonnistui</item>
+    </plurals>
+    <string name="drawer_archive_error">Istunnon ”%1$s” arkistointi epäonnistui.</string>
+    <plurals name="drawer_archive_sessions_error">
+        <item quantity="one">%1$d istunnon arkistointi epäonnistui</item>
+        <item quantity="other">%1$d istunnon arkistointi epäonnistui</item>
+    </plurals>
+    <string name="drawer_unarchive_error">Istunnon ”%1$s” palautus arkistosta epäonnistui.</string>
+    <plurals name="drawer_unarchive_sessions_error">
+        <item quantity="one">%1$d istunnon palautus arkistosta epäonnistui</item>
+        <item quantity="other">%1$d istunnon palautus arkistosta epäonnistui</item>
+    </plurals>
+
+    <!-- Session activity notification -->
+    <string name="drawer_session_activity_new_session">Uusi istunto</string>
+
+    <!-- Inbox ages and row dates -->
+    <string name="drawer_age_now">nyt</string>
+    <plurals name="drawer_age_minutes">
+        <item quantity="one">%1$d min</item>
+        <item quantity="other">%1$d min</item>
+    </plurals>
+    <plurals name="drawer_age_hours">
+        <item quantity="one">%1$d t</item>
+        <item quantity="other">%1$d t</item>
+    </plurals>
+    <plurals name="drawer_age_days">
+        <item quantity="one">%1$d pv</item>
+        <item quantity="other">%1$d pv</item>
+    </plurals>
+    <string name="drawer_date_yesterday">Eilen</string>
+
+    <!-- Appearance settings transcript preview -->
+    <string name="drawer_appearance_preview_user_text">Auta minua parantamaan istuntonäkymää. Näytä, mitä löydät, ja selitä muutokset.</string>
+    <string name="drawer_appearance_preview_assistant_text">Löysin asetteluongelman tiedostosta `SessionView.swift`. Keskusteluloki ja viestikenttä jakavat käytettävissä olevan korkeuden, joten näppäimistö on hyvä rasitustesti.</string>
+</resources>

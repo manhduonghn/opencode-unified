@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Nepodarilo sa pridať zdieľané položky</string>
+    <string name="app_alert_open_session_failed_title">Nepodarilo sa otvoriť reláciu</string>
+    <string name="app_alert_pairing_failed_title">Nepodarilo sa spárovať so serverom</string>
+    <string name="app_pairing_confirm">Spárovať</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Servery</string>
+    <string name="app_servers_back_description">Späť na %1$s</string>
+    <string name="app_server_fallback_name">server</string>
+    <string name="app_connection_intro_new">Pokračujte v programovaní zo zariadenia %1$s.</string>
+    <string name="app_connection_intro_returning">Pokračujte tam, kde ste skončili, alebo spárujte ďalší počítač.</string>
+    <string name="app_connection_enter_manually">Zadať server ručne</string>
+    <string name="app_connection_scan_pairing_code">Naskenovať párovací kód</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Na počítači otvorte OpenCode a prejdite do Nastavenia → Párovanie alebo v termináli spustite opencode pair --remote. Potom naskenujte kód týmto zariadením (%1$s).</string>
+    <string name="app_setup_install_title">Ešte nemáte OpenCode?</string>
+    <string name="app_setup_other_ways_to_install">Ďalšie možnosti inštalácie</string>
+    <string name="app_setup_terminal_title">Alebo spustite toto v termináli</string>
+    <string name="app_setup_terminal_detail">Funguje to z akejkoľvek siete.</string>
+    <string name="app_setup_paste_prompt">Alebo skopírujte vypísaný odkaz a potom</string>
+    <string name="app_setup_paste">Prilepiť</string>
+    <string name="app_setup_copy_command_description">Kopírovať %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Pripájanie</string>
+    <string name="app_servers_edit_description">Upraviť %1$s</string>
+    <string name="app_servers_remove_description">Odstrániť %1$s</string>
+    <string name="app_servers_remove_confirm_title">Odstrániť %1$s?</string>
+    <string name="app_servers_remove_confirm_message">Zo zariadenia %1$s sa odstráni uložená adresa a heslo. Relácie na serveri zostanú nezmenené.</string>
+    <string name="app_servers_remove_confirm">Odstrániť server</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Fáza: %1$s</string>
+    <string name="app_error_server">Server: %1$s</string>
+    <string name="app_error_attempt">Pokus: %1$d</string>
+    <string name="app_error_copy_report">Kopírovať hlásenie o chybe</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Nový server</string>
+    <string name="app_server_form_edit_title">Upraviť server</string>
+    <string name="app_server_form_name">Názov</string>
+    <string name="app_server_form_address">Adresa servera</string>
+    <string name="app_server_form_username">Používateľské meno</string>
+    <string name="app_server_form_password">Heslo (voliteľné)</string>
+    <string name="app_server_form_hide_password_description">Skryť heslo</string>
+    <string name="app_server_form_show_password_description">Zobraziť heslo</string>
+    <string name="app_server_form_connect">Pripojiť sa</string>
+    <string name="app_server_form_save_and_connect">Uložiť a pripojiť sa</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Hlavičky</string>
+    <string name="app_server_form_header_name">Názov</string>
+    <string name="app_server_form_header_name_description">Názov hlavičky %1$d</string>
+    <string name="app_server_form_header_value">Hodnota</string>
+    <string name="app_server_form_header_value_description">Hodnota hlavičky %1$d</string>
+    <string name="app_server_form_header_remove_description">Odstrániť hlavičku %1$d</string>
+    <string name="app_server_form_header_add">Pridať hlavičku</string>
+    <string name="app_server_form_headers_detail">Odosielajú sa s každou požiadavkou pre proxy pred serverom, napríklad Cloudflare Access.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">„%1$s“ nie je platný názov hlavičky</string>
+    <string name="app_server_form_header_invalid_value">Hodnota %1$s nesmie obsahovať zalomenie riadka</string>
+    <string name="app_server_form_name_placeholder">Voliteľné</string>
+    <string name="app_connection_progress_pairing">Párovanie</string>
+    <string name="app_connection_progress_connecting">Pripájanie</string>
+    <string name="app_connection_progress_loading_sessions">Načítavanie relácií</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Spárovať s %1$s?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode vyskúša %1$s a prepne na prvú adresu, ktorá odpovie.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode sa spáruje s %1$s a prepne na tento server.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode vyskúša %1$s a %2$s a prepne na prvú adresu, ktorá odpovie.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode vyskúša %1$s a %2$s a prepne na prvú adresu, ktorá odpovie.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Uložené prihlasovacie údaje pre %2$s sa môžu nahradiť.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Párovanie</string>
+    <string name="app_error_phase_connect">Pripojiť sa</string>
+    <string name="app_error_phase_load_sessions">Načítať relácie</string>
+    <string name="app_error_candidate_detail">Kandidát %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Nedostupné (neplatná adresa)</string>
+    <string name="app_error_title_pair">Nepodarilo sa spárovať</string>
+    <string name="app_error_title_load_sessions">Nepodarilo sa načítať relácie</string>
+    <string name="app_error_title_connect">Nepodarilo sa pripojiť k %1$s</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Schránka je prázdna</string>
+    <string name="app_paste_not_a_pairing_link">Toto nie je párovací odkaz</string>
+    <string name="app_server_no_longer_saved">Tento server už nie je uložený na zariadení %1$s. Ak chcete otvoriť reláciu, znova sa k nemu pripojte.</string>
+    <string name="app_session_no_longer_available">Možno bola odstránená alebo server nie je dostupný.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Pripojené k %1$s</string>
+    <string name="app_pairing_invalid_code">Toto nie je párovací kód OpenCode. Spustite na počítači opencode pair --remote a potom naskenujte QR kód alebo prilepte vypísaný odkaz.</string>
+    <string name="app_pairing_unusable_address">Nepodarilo sa použiť „%1$s“ z tohto párovacieho kódu: %2$s.</string>
+    <string name="app_pairing_loopback">Tento server prijíma pripojenia len cez localhost, takže zariadenie %1$s sa k nemu nedostane. Namiesto toho spustite na počítači opencode pair --remote, čo funguje z akejkoľvek siete.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Server, na ktorý ste zdieľali, už nie je uložený na tomto zariadení. Znova sa k nemu pripojte a skúste zdieľať znova.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">naposledy použité</string>
+    <string name="app_server_form_hint_new">Na spárovanie prilepte odkaz vypísaný príkazom `opencode pair --remote` alebo použite adresu a heslo svojho servera OpenCode. Používateľské meno je zvyčajne opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Zmeny sa uložia po pripojení k tomuto serveru. Server bol spárovaný, takže jeho heslo je token relácie. Namiesto zmeny hesla naskenujte nový párovací kód.</string>
+    <string name="app_server_form_hint_edit">Zmeny sa uložia po pripojení k tomuto serveru.</string>
+</resources>

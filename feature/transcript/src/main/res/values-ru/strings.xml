@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shared -->
+    <string name="transcript_open_named">Открыть %1$s</string>
+
+    <!-- Link previews -->
+    <string name="transcript_link_preview_show_fewer">Показать меньше ссылок</string>
+    <string name="transcript_link_preview_show_all">Показать все ссылки</string>
+    <plurals name="transcript_link_preview_shown">
+        <item quantity="one">Показана %1$d ссылка из %2$d</item>
+        <item quantity="few">Показаны %1$d ссылки из %2$d</item>
+        <item quantity="many">Показано %1$d ссылок из %2$d</item>
+        <item quantity="other">Показано %1$d ссылки из %2$d</item>
+    </plurals>
+    <string name="transcript_link_preview_more">Ещё %1$d</string>
+
+    <!-- Transcript list -->
+    <string name="transcript_scroll_to_top">В начало</string>
+    <string name="transcript_working">Работает</string>
+
+    <!-- Transcript list rows -->
+    <string name="transcript_history_loading_description">Загрузка предыдущих сообщений</string>
+    <string name="transcript_empty_loading_description">Загрузка сессии</string>
+    <string name="transcript_empty_title">Сообщений пока нет</string>
+    <string name="transcript_empty_subtitle">Начните сессию ниже</string>
+    <string name="transcript_compaction_queued">Компактизация в очереди</string>
+
+    <!-- Code blocks -->
+    <string name="transcript_code_copy_description">Копировать код</string>
+
+    <!-- Markdown task lists -->
+    <string name="transcript_task_done_description">Готово</string>
+    <string name="transcript_task_not_done_description">Не готово</string>
+
+    <!-- Markdown images -->
+    <string name="transcript_image">Изображение</string>
+    <string name="transcript_image_open_description">Открыть изображение</string>
+    <string name="transcript_image_load_failed">Не удалось загрузить изображение</string>
+    <string name="transcript_image_retry_click_label">Попробовать снова</string>
+    <string name="transcript_image_open">Открыть</string>
+
+    <!-- Math -->
+    <string name="transcript_equation_description">Уравнение</string>
+
+    <!-- Selection -->
+    <string name="transcript_quote">Цитировать</string>
+    <string name="transcript_quote_description">Цитата: %1$s</string>
+    <string name="transcript_quote_show">Показать цитату целиком</string>
+    <string name="transcript_quote_comment_description">Цитата: %1$s. Комментарий: %2$s</string>
+    <string name="transcript_quote_add_comment">Добавить комментарий</string>
+    <string name="transcript_quote_edit_comment">Редактировать комментарий</string>
+
+    <!-- Reply actions -->
+    <string name="transcript_reply_copy_description">Копировать ответ</string>
+
+    <!-- Run errors and undo -->
+    <string name="transcript_run_error_copy">Скопировать ошибку</string>
+    <string name="transcript_undone_undo_hint">Отмена доступна до отправки нового сообщения</string>
+    <string name="transcript_undone_title">Изменения отсюда сброшены</string>
+    <string name="transcript_undone_undo_click_label">Восстановить сброшенные сообщения и файлы до отправки нового сообщения</string>
+    <string name="transcript_undone_undo">Отменить</string>
+
+    <!-- Tool rows -->
+    <string name="transcript_tool_failed">Ошибка</string>
+    <string name="transcript_tool_running">Выполняется</string>
+    <string name="transcript_tool_completed">Готово</string>
+    <string name="transcript_subagent_open_click_label">Открыть сессию субагента</string>
+    <string name="transcript_tool_group_failed_count">С ошибкой: %1$d</string>
+    <string name="transcript_expanded">Развёрнуто</string>
+    <string name="transcript_collapsed">Свёрнуто</string>
+    <string name="transcript_tool_image">Изображение инструмента</string>
+    <string name="transcript_tool_hide_click_label">Скрыть ввод и вывод инструмента</string>
+    <string name="transcript_tool_show_click_label">Показать ввод и вывод инструмента</string>
+    <string name="transcript_tool_denied">Отклонено</string>
+    <string name="transcript_show_less">Показать меньше</string>
+    <plurals name="transcript_tool_output_show_all">
+        <item quantity="one">Показать %1$d строку</item>
+        <item quantity="few">Показать все %1$d строки</item>
+        <item quantity="many">Показать все %1$d строк</item>
+        <item quantity="other">Показать все %1$d строки</item>
+    </plurals>
+    <string name="transcript_question_hide_click_label">Скрыть вопрос</string>
+    <string name="transcript_question_show_click_label">Показать вопрос и ваш ответ</string>
+    <string name="transcript_question_chosen_description">Выбрано</string>
+
+    <!-- Compaction -->
+    <string name="transcript_compaction_running">Компактизация контекста</string>
+    <string name="transcript_compaction_provider">Компактизация провайдером</string>
+    <string name="transcript_compaction_completed">Контекст сжат</string>
+    <string name="transcript_compaction_cancelled">Компактизация отменена</string>
+    <string name="transcript_compaction_failed">Ошибка компактизации</string>
+    <string name="transcript_compaction_usage">%1$s на входе · %2$s на выходе</string>
+    <string name="transcript_compaction_show_summary_click_label">Показать сводку компактизации</string>
+
+    <!-- New messages rule -->
+    <string name="transcript_new_messages_description">Новые сообщения</string>
+    <string name="transcript_new_messages_label">Новое</string>
+
+    <!-- Media tiles -->
+    <string name="transcript_attached_image_open_description">Открыть прикреплённое изображение</string>
+    <string name="transcript_attached_image_open_numbered_description">Открыть прикреплённое изображение %1$d из %2$d</string>
+    <string name="transcript_attached_image">Прикреплённое изображение</string>
+    <string name="transcript_tool_image_open_numbered_description">Открыть изображение инструмента %1$d из %2$d</string>
+    <string name="transcript_media_unavailable">Медиа недоступно</string>
+    <string name="transcript_attached_file_description">Прикреплённый файл %1$s</string>
+
+    <!-- Message menus -->
+    <string name="transcript_message_select">Выбрать</string>
+    <string name="transcript_pending_send_now">Отправить сейчас</string>
+    <string name="transcript_pending_move_to_queue">Переместить в очередь</string>
+    <string name="transcript_message_revert_to_here">Сбросить до этого момента</string>
+    <string name="transcript_show_more">Показать ещё</string>
+
+    <!-- Voice messages -->
+    <string name="transcript_voice_call_log_attached">Журнал звонка прикреплён</string>
+    <string name="transcript_voice_copy_full_message">Копировать всё сообщение</string>
+    <string name="transcript_voice_message_description">Голосовое сообщение</string>
+    <string name="transcript_voice_label">Голос</string>
+
+    <!-- Attachments -->
+    <string name="transcript_file_open_click_label">Открыть файл</string>
+    <string name="transcript_pasted_text_open_click_label">Открыть текст</string>
+    <string name="transcript_location_shared">Отправленное местоположение</string>
+    <string name="transcript_location_open_in_maps">Открыть на карте</string>
+    <string name="transcript_location_description">Местоположение: %1$s</string>
+    <string name="transcript_location_description_with_address">Местоположение: %1$s, %2$s</string>
+
+    <!-- Shared phrasing -->
+    <string name="transcript_quoted">«%1$s»</string>
+    <string name="transcript_spoken_pair">%1$s, %2$s</string>
+    <string name="transcript_list_two">%1$s и %2$s</string>
+    <string name="transcript_list_many">%1$s и %2$s</string>
+
+    <!-- Tool rows -->
+    <string name="transcript_tool_read">Чтение</string>
+    <string name="transcript_tool_search">поиск %1$s</string>
+    <string name="transcript_tool_search_quoted">поиск «%1$s»</string>
+    <string name="transcript_tool_group_updates">Обновления</string>
+    <plurals name="transcript_tool_group_used">
+        <item quantity="one">Использован %1$d инструмент</item>
+        <item quantity="few">Использовано %1$d инструмента</item>
+        <item quantity="many">Использовано %1$d инструментов</item>
+        <item quantity="other">Использовано %1$d инструмента</item>
+    </plurals>
+
+    <!-- Question rows -->
+    <string name="transcript_question">Вопрос</string>
+    <string name="transcript_question_no_answer">Нет ответа</string>
+    <string name="transcript_question_dismissed">Отклонён</string>
+    <plurals name="transcript_question_answered_count">
+        <item quantity="one">Дан ответ на %1$d вопрос</item>
+        <item quantity="few">Даны ответы на %1$d вопроса</item>
+        <item quantity="many">Даны ответы на %1$d вопросов</item>
+        <item quantity="other">Даны ответы на %1$d вопроса</item>
+    </plurals>
+    <plurals name="transcript_question_count">
+        <item quantity="one">%1$d вопрос</item>
+        <item quantity="few">%1$d вопроса</item>
+        <item quantity="many">%1$d вопросов</item>
+        <item quantity="other">%1$d вопроса</item>
+    </plurals>
+
+    <!-- Model switch -->
+    <string name="transcript_model_switch_title">Переключено на %1$s</string>
+    <string name="transcript_model_switch_default">По умолчанию</string>
+    <string name="transcript_model_switch_thinking_description">%1$s, размышление: %2$s</string>
+    <string name="transcript_model_switch_thinking_off_description">%1$s, размышление выключено</string>
+
+    <!-- Run errors and failed sends -->
+    <string name="transcript_run_error_edit_last_message">Редактировать последнее сообщение</string>
+    <string name="transcript_failed_send_status">Не удалось отправить</string>
+    <string name="transcript_failed_send_moving">Перемещение…</string>
+    <string name="transcript_failed_send_move_to">Переместить в %1$s</string>
+
+    <!-- Links -->
+    <string name="transcript_session_link_new_session">Новая сессия</string>
+    <string name="transcript_links_to_description">Ссылка на %1$s</string>
+    <string name="transcript_link_preview_video">Видео</string>
+    <string name="transcript_link_preview_post">Публикация</string>
+    <string name="transcript_link_preview_post_unavailable">Публикация недоступна</string>
+    <plurals name="transcript_link_preview_comments">
+        <item quantity="one">%1$s комментарий</item>
+        <item quantity="few">%1$s комментария</item>
+        <item quantity="many">%1$s комментариев</item>
+        <item quantity="other">%1$s комментария</item>
+    </plurals>
+</resources>

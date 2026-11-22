@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Call ended and failure cards -->
+    <string name="voice_call_ended_title">Skambutis baigtas</string>
+    <string name="voice_call_ended_rejoin">Prisijungti iš naujo</string>
+    <string name="voice_failure_title">Nepavyko prijungti balso</string>
+    <string name="voice_failure_check_api_key">Patikrinti API raktą</string>
+    <string name="voice_failure_start_title">Nepavyko pradėti skambučio</string>
+
+    <!-- Floating call -->
+    <string name="voice_floating_expand">Išskleisti</string>
+    <string name="voice_floating_orb_description">Balso skambutis</string>
+    <string name="voice_floating_orb_show_controls">Rodyti skambučio valdiklius</string>
+    <string name="voice_floating_end_description">Baigti balso skambutį</string>
+    <string name="voice_floating_control_placeholder_state">Šiame prototipe nepasiekiama</string>
+    <string name="voice_floating_duration_description">Skambučio trukmė</string>
+
+    <!-- Floating call stage -->
+    <string name="voice_stage_talking_in">Kalbamasi seanse</string>
+    <string name="voice_stage_minimize_description">Sumažinti</string>
+    <string name="voice_mute">Nutildyti</string>
+    <string name="voice_unmute">Įjungti garsą</string>
+    <string name="voice_stage_pause">Pristabdyti</string>
+    <string name="voice_stage_camera">Kamera</string>
+    <string name="voice_transcript_empty">Pasakykite ką nors savo seanse.</string>
+    <string name="voice_transcript_you">Jūs</string>
+    <string name="voice_transcript_user_line_description">Jūs: %1$s</string>
+
+    <!-- Call rows: screen request -->
+    <string name="voice_screen_request_detail">Balso asistentas nori matyti jūsų ekraną</string>
+    <string name="voice_screen_request_spoken">Reikia jūsų atsakymo. Balso asistentas nori matyti jūsų ekraną</string>
+    <string name="voice_screen_request_spoken_with_reason">Reikia jūsų atsakymo. Balso asistentas nori matyti jūsų ekraną. %1$s</string>
+    <string name="voice_screen_request_title">Bendrinti ekraną?</string>
+
+    <!-- Call rows: open link -->
+    <string name="voice_open_link_spoken">Reikia jūsų atsakymo. %1$s</string>
+    <string name="voice_open_link_spoken_with_host">Reikia jūsų atsakymo. %1$s %2$s</string>
+    <string name="voice_open_link_open">Atidaryti</string>
+
+    <!-- Call rows: audio on the call -->
+    <string name="voice_audio_paused">Pristabdyta</string>
+    <string name="voice_audio_playing">Grojama skambučio metu</string>
+    <string name="voice_audio_play">Leisti garsą</string>
+    <string name="voice_audio_pause">Pristabdyti garsą</string>
+    <string name="voice_audio_stop">Stabdyti garsą</string>
+
+    <!-- Call history -->
+    <string name="voice_call_history_title">Skambučių istorija</string>
+    <string name="voice_call_history_options_description">Istorijos parinktys</string>
+    <string name="voice_call_history_delete_all">Ištrinti viską</string>
+    <string name="voice_call_history_empty_title">Balso skambučių dar nėra</string>
+    <string name="voice_call_history_empty_message">Skambučiai išsaugomi šiame telefone, kad galėtumėte juos perklausyti.</string>
+    <string name="voice_call_history_delete_all_confirm_title">Ištrinti visus balso skambučius?</string>
+
+    <!-- Call replay -->
+    <string name="voice_replay_timeline_description">Skambučio laiko juosta</string>
+    <string name="voice_replay_timeline_state">%1$s iš %2$s</string>
+    <string name="voice_replay_pause">Pristabdyti</string>
+    <string name="voice_replay_play">Leisti</string>
+    <string name="voice_replay_position_description">Padėtis</string>
+    <string name="voice_replay_speed_description">Atkūrimo greitis</string>
+    <string name="voice_replay_empty">Paspauskite leisti, kad perklausytumėte skambutį.</string>
+
+    <!-- Call notification -->
+    <string name="voice_notification_channel_name">Skambučiai</string>
+    <string name="voice_notification_channel_description">Vykstantys OpenCode skambučiai</string>
+    <string name="voice_notification_connecting">Jungiamasi…</string>
+    <string name="voice_notification_reconnecting">Jungiamasi iš naujo…</string>
+    <string name="voice_notification_call_ended">Skambutis baigtas</string>
+    <string name="voice_notification_end">Baigti</string>
+    <!-- Call status caption -->
+    <string name="voice_status_connecting_via">Jungiamasi per %1$s…</string>
+    <string name="voice_status_weak_connection">Silpnas ryšys</string>
+    <string name="voice_status_paused">Pristabdyta</string>
+    <string name="voice_status_needs_input">Reikia jūsų atsakymo</string>
+    <string name="voice_status_working">Darbas</string>
+    <string name="voice_status_speaking">Kalba</string>
+    <string name="voice_status_muted">Nutildytas</string>
+    <string name="voice_status_listening">Klausosi</string>
+    <string name="voice_status_ending">Baigiama…</string>
+    <string name="voice_status_ended">Baigta</string>
+    <string name="voice_session_new_title">Naujas seansas</string>
+    <string name="voice_call_note_builtin_fallback">Šiam skambučiui naudojamas integruotas deleguotojas</string>
+
+    <!-- Floating call tag and spoken length -->
+    <string name="voice_floating_now_talking_in">Dabar kalbamasi seanse %1$s</string>
+    <string name="voice_floating_spoken_duration">%1$s, %2$s</string>
+    <plurals name="voice_floating_spoken_minutes">
+        <item quantity="one">%1$d minutė</item>
+        <item quantity="few">%1$d minutės</item>
+        <item quantity="many">%1$d minutės</item>
+        <item quantity="other">%1$d minučių</item>
+    </plurals>
+    <plurals name="voice_floating_spoken_seconds">
+        <item quantity="one">%1$d sekundė</item>
+        <item quantity="few">%1$d sekundės</item>
+        <item quantity="many">%1$d sekundės</item>
+        <item quantity="other">%1$d sekundžių</item>
+    </plurals>
+
+    <!-- Voice providers -->
+    <string name="voice_provider_state_ready">Paruošta</string>
+    <string name="voice_provider_state_no_key">Nėra rakto</string>
+    <string name="voice_provider_state_needs_update">Atnaujinti OpenCode</string>
+    <string name="voice_provider_state_offline">Neprisijungęs</string>
+    <string name="voice_provider_place_phone">Šis telefonas</string>
+    <string name="voice_provider_brand_openai_account">Jūsų OpenAI paskyra</string>
+    <string name="voice_provider_name">%1$s (%2$s)</string>
+    <string name="voice_provider_subtitle">Vieta: %1$s</string>
+    <string name="voice_provider_key_row_title">%1$s raktas</string>
+    <string name="voice_provider_key_placeholder">%1$s API raktas</string>
+
+    <!-- Voice key source -->
+    <string name="voice_key_source_server_row_title">Raktas jūsų serveryje</string>
+    <string name="voice_key_source_phone_footer">Skambučiams naudojamas jūsų OpenAI arba xAI raktas.</string>
+    <string name="voice_key_source_server_footer">Skambučiams naudojamas jūsų serverio %1$s raktas.</string>
+    <string name="voice_key_source_opencode_footer">Skambučių mokesčiai priskiriami jūsų OpenCode Console darbo sričiai.</string>
+
+    <!-- Call failure fixes and diagnosis -->
+    <string name="voice_fix_set_up_on_phone">Nustatyti šiame telefone</string>
+    <string name="voice_fix_choose_provider">Pasirinkite teikėją</string>
+    <string name="voice_fix_update_opencode">Atnaujinti OpenCode</string>
+    <string name="voice_diagnosis_needs_update">Balso skambučiams per %1$s reikia naujesnės OpenCode versijos.</string>
+    <string name="voice_diagnosis_your_server_needs_update">Balso skambučiams jūsų serveryje reikia naujesnės OpenCode versijos.</string>
+    <string name="voice_diagnosis_no_key">%1$s neturi rakto balso skambučiams.</string>
+    <string name="voice_diagnosis_your_server_no_key">Jūsų serveryje nėra rakto balso skambučiams.</string>
+    <string name="voice_diagnosis_unreachable">Nepavyko pasiekti %1$s.</string>
+    <string name="voice_diagnosis_your_server_unreachable">Nepavyko pasiekti jūsų serverio.</string>
+    <string name="voice_diagnosis_failed">%1$s nepavyko pradėti skambučio.</string>
+    <string name="voice_diagnosis_your_server_failed">Jūsų serveriui nepavyko pradėti skambučio.</string>
+    <string name="voice_diagnosis_key_rejected">OpenAI nepriėmė šiame telefone esančio rakto.</string>
+    <string name="voice_diagnosis_missing_phone_key">Pridėkite savo %1$s API raktą, kad galėtumėte skambinti iš šio telefono.</string>
+
+    <!-- Call errors -->
+    <string name="voice_error_microphone_denied">Nustatymuose suteikite prieigą prie mikrofono, kad galėtumėte kalbėtis su savo seansu.</string>
+    <string name="voice_error_audio_format_unavailable">Garso įrangos formatas nepalaikomas.</string>
+    <string name="voice_error_audio_engine_rejected">Nepavyko įjungti skambučio garso. Netrukus bandykite dar kartą.</string>
+    <string name="voice_error_server_unsupported">Balso skambučiams šiame serveryje reikia naujesnės OpenCode versijos</string>
+    <string name="voice_error_invalid_server_url">Nepavyko įjungti balso funkcijos: įveskite tinkamą HTTP arba HTTPS serverio URL.</string>
+    <string name="voice_error_invalid_response">Nepavyko įjungti balso funkcijos: serveris grąžino netinkamą atsakymą.</string>
+    <string name="voice_error_start_voice_detail">Nepavyko įjungti balso funkcijos: %1$s</string>
+    <string name="voice_error_start_voice_http">Nepavyko įjungti balso funkcijos (HTTP %1$d).</string>
+    <string name="voice_error_openai_rejected_key">OpenAI atmetė API raktą.</string>
+    <string name="voice_error_openai_verify_http">OpenAI nepavyko patikrinti šio rakto (HTTP %1$d).</string>
+    <string name="voice_error_no_connection">Nėra ryšio.</string>
+    <string name="voice_error_model_address_invalid">Netinkamas balso modelio adresas.</string>
+    <string name="voice_error_xai_rejected_key">xAI atmetė API raktą.</string>
+    <string name="voice_error_xai_verify_http">xAI nepavyko patikrinti šio rakto (HTTP %1$d).</string>
+    <string name="voice_error_xai_key_disabled">Šis xAI API raktas išjungtas.</string>
+    <string name="voice_error_xai_key_blocked">Šis xAI API raktas užblokuotas.</string>
+    <string name="voice_error_service_address_invalid">Netinkamas balso paslaugos adresas.</string>
+    <string name="voice_error_connection_lost">Balso ryšys nutrūko.</string>
+    <string name="voice_error_connection_closed">Balso ryšys uždarytas.</string>
+    <string name="voice_error_connection_setup">Nepavyko užmegzti balso ryšio.</string>
+    <string name="voice_error_safety_filter">Saugos filtras nutraukė balso skambutį.</string>
+    <string name="voice_error_audio_reset">Sistema iš naujo nustatė garsą. Pradėkite skambutį dar kartą.</string>
+    <string name="voice_error_missing_phone_key">Nustatymuose pridėkite savo %1$s API raktą, kad galėtumėte naudoti balso funkciją.</string>
+
+    <!-- Voice accents -->
+    <string name="voice_accent_australian_english">Australijos anglų</string>
+    <string name="voice_accent_british_english">Didžiosios Britanijos anglų</string>
+    <string name="voice_accent_irish_english">Airijos anglų</string>
+    <string name="voice_accent_north_american_english">Šiaurės Amerikos anglų</string>
+    <string name="voice_accent_brazilian_portuguese">Brazilijos portugalų</string>
+    <string name="voice_accent_filipino_english">Filipinų anglų</string>
+    <string name="voice_accent_southern_us_english">Pietų JAV anglų</string>
+    <string name="voice_accent_indian_english">Indijos anglų</string>
+    <string name="voice_preview_error">Nepavyko paleisti perklausos</string>
+
+    <!-- Call sound packs -->
+    <string name="voice_sound_pack_breath_ping">Kvėpavimo skambesys</string>
+    <string name="voice_sound_pack_crystal_glass">Krištolinis stiklas</string>
+    <string name="voice_sound_pack_warm_analog">Šiltas analoginis garsas</string>
+    <string name="voice_sound_pack_aurora_pulse">Pašvaistės pulsas</string>
+    <string name="voice_sound_pack_velvet_bell">Aksominis varpelis</string>
+    <string name="voice_sound_pack_silent">Be garso</string>
+
+    <!-- Open link card -->
+    <string name="voice_open_link_card_title_untitled">Atidaryti nuorodą?</string>
+    <string name="voice_open_link_card_title">Atidaryti %1$s?</string>
+
+    <!-- Delegator choice -->
+    <string name="voice_delegator_session_fallback">Seansas</string>
+    <string name="voice_delegator_unavailable_gemini">Gemini Live perduoda užduotis tiesiai ekrane rodomam seansui. Norėdami naudoti OpenCode seansą, pasirinkite OpenAI balso teikėją.</string>
+    <string name="voice_delegator_unavailable_engine">%1$s perduoda užduotis tiesiai ekrane rodomam seansui. Norėdami naudoti OpenCode seansą, pakeiskite balso modelį į GPT-Live.</string>
+
+    <!-- Call log list and replay -->
+    <string name="voice_call_log_duration_seconds">%1$d s</string>
+    <string name="voice_call_log_duration_minutes">%1$d min %2$d s</string>
+    <string name="voice_replay_to_delegator">→ Deleguotojui</string>
+    <string name="voice_replay_to_voice">→ Balsui</string>
+    <string name="voice_replay_audio">Garsas</string>
+    <string name="voice_replay_track_user">Jūs</string>
+    <string name="voice_replay_track_voice">Balsas</string>
+    <string name="voice_replay_track_delegator">Deleguotojas</string>
+    <string name="voice_replay_track_tools">Įrankiai</string>
+</resources>

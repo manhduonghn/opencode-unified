@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_new_session">เซสชันใหม่</string>
+    <string name="system_start_call">เริ่มโทร</string>
+    <string name="system_open_session">เปิดเซสชัน</string>
+    <string name="widget_start_call_description">เริ่มโทรด้วยเสียงในเซสชันที่เลือก หรือเซสชันที่คุณดูล่าสุด</string>
+    <string name="widget_open_session_description">เปิดเซสชันที่คุณเลือก</string>
+    <string name="widget_new_session_description">เปิดเซสชัน OpenCode ใหม่</string>
+
+    <!-- Shared across screens -->
+    <string name="system_selected_description">เลือกแล้ว</string>
+    <string name="system_last_viewed_session">เซสชันที่ดูล่าสุด</string>
+
+    <!-- Quick actions (launcher shortcuts) -->
+    <string name="system_quick_action_session_fallback">เซสชัน</string>
+    <!-- Long label: the session's title, then its project. -->
+    <string name="system_quick_action_long_label">%1$s · %2$s</string>
+
+    <!-- Shortcuts and Ask OpenCode -->
+    <string name="system_session_type_name">เซสชัน</string>
+    <string name="system_project_type_name">โปรเจกต์</string>
+    <string name="system_intent_open_session_description">เปิดเซสชันใน OpenCode</string>
+    <string name="system_intent_new_session_description">เริ่มเซสชันใหม่ใน OpenCode</string>
+    <string name="system_intent_start_voice_call_title">เริ่มโทรด้วยเสียง</string>
+    <string name="system_intent_start_voice_call_description">เริ่มโทรด้วยเสียงกับ OpenCode ในเซสชัน หากไม่ได้เลือกเซสชัน จะใช้เซสชันที่คุณดูล่าสุด</string>
+    <string name="system_intent_background_call_title">เริ่มโทรด้วยเสียงเบื้องหลัง</string>
+    <string name="system_intent_background_call_description">เริ่มโทรด้วยเสียงกับ OpenCode โดยไม่เปิดแอป การโทรจะแสดงในแถบสถานะและหน้าจอล็อก</string>
+    <string name="system_delivery_type_name">วิธีส่ง</string>
+    <string name="system_delivery_steer">ชี้นำ</string>
+    <string name="system_delivery_queue">เข้าคิว</string>
+    <string name="system_ask_title">ถาม OpenCode</string>
+    <string name="system_ask_description">ส่งข้อความไปยังเซสชัน OpenCode โดยไม่เปิดแอป</string>
+    <string name="system_ask_message_title">ข้อความ</string>
+    <string name="system_ask_message_placeholder">อยากให้ OpenCode ทำอะไร?</string>
+    <string name="system_ask_session_title">เซสชัน</string>
+    <string name="system_ask_started_new_session">เริ่มเซสชันใหม่ใน %1$s แล้ว</string>
+    <string name="system_ask_queued_for">เข้าคิวสำหรับ “%1$s” แล้ว</string>
+    <string name="system_ask_sent_to">ส่งไปยัง “%1$s” แล้ว</string>
+    <string name="system_ask_your_session">เซสชันของคุณ</string>
+    <string name="system_ask_no_server">เปิด OpenCode แล้วเชื่อมต่อกับเซิร์ฟเวอร์ก่อน</string>
+    <string name="system_ask_no_project">เปิด OpenCode แล้วเริ่มเซสชันก่อน</string>
+    <string name="system_ask_empty_message">ไม่มีข้อความที่จะส่ง</string>
+    <!-- The server's error message follows. -->
+    <string name="system_ask_send_failed">ส่งไปยัง OpenCode ไม่ได้ %1$s</string>
+
+    <!-- Live Updates: voice call -->
+    <string name="system_call_muted">ปิดเสียงแล้ว</string>
+    <string name="system_call_unmute">เปิดเสียง</string>
+    <string name="system_call_mute">ปิดเสียง</string>
+    <string name="system_call_end">วางสาย</string>
+    <string name="system_call_connecting">กำลังเชื่อมต่อ…</string>
+    <string name="system_call_reconnecting">กำลังเชื่อมต่อใหม่…</string>
+    <string name="system_call_ended">การโทรสิ้นสุดแล้ว</string>
+    <string name="system_call_end_title">วางสาย</string>
+    <string name="system_call_toggle_mute_title">ปิดหรือเปิดเสียงการโทร</string>
+
+    <!-- Live Updates: hands-free recording -->
+    <string name="system_recording_active">กำลังบันทึกเสียง</string>
+    <string name="system_recording_stopped">หยุดบันทึกเสียงแล้ว</string>
+    <string name="system_recording_stop">หยุดบันทึกเสียง</string>
+    <string name="system_recording_stop_title">หยุดบันทึกเสียง</string>
+    <string name="system_recording_new_session">เซสชันใหม่</string>
+
+    <!-- Live Updates: session run -->
+    <string name="system_session_working">การทำงาน</string>
+    <string name="system_session_last_seen_working">สถานะล่าสุด: กำลังทำงาน</string>
+    <!-- Where the run is (Working), then its current step (a tool name, Thinking or Replying). -->
+    <string name="system_session_status_with_step">%1$s · %2$s</string>
+    <string name="system_session_step_thinking">กำลังคิด</string>
+    <string name="system_session_step_replying">กำลังตอบ</string>
+    <string name="system_session_needs_input">รอข้อมูลจากคุณ</string>
+    <string name="system_session_input">ข้อมูลนำเข้า</string>
+    <string name="system_session_done">เสร็จสิ้น</string>
+    <string name="system_session_failed">ล้มเหลว</string>
+
+    <!-- Session notifications -->
+    <string name="system_notification_placeholder_body">กิจกรรมใหม่</string>
+
+    <!-- Notification channels -->
+    <string name="system_channel_voice_calls">โทรด้วยเสียง</string>
+    <string name="system_channel_recording">กำลังบันทึกเสียง</string>
+    <string name="system_channel_session_runs">การทำงานของเซสชัน</string>
+    <string name="system_channel_session_updates">การอัปเดตเซสชัน</string>
+    <string name="system_channel_shared_items">รายการที่แชร์</string>
+
+    <!-- Share sheet: notifications -->
+    <string name="system_share_continue_notification_body">แตะเพื่อดำเนินการต่อใน OpenCode</string>
+
+    <!-- Share sheet -->
+    <string name="system_share_your_server">เซิร์ฟเวอร์ของคุณ</string>
+    <string name="system_share_new_session_in_project">เซสชันใหม่ · %1$s</string>
+    <string name="system_share_save_failed_message">ลองอีกครั้ง หากยังเกิดปัญหา ให้เพิ่มพื้นที่ว่างในอุปกรณ์นี้</string>
+    <!-- The session's title, then its project. -->
+    <string name="system_share_session_chip_description">%1$s, %2$s</string>
+    <string name="system_share_problem_unreachable">เชื่อมต่อกับ %1$s ไม่ได้</string>
+    <string name="system_share_problem_too_large">ส่งไฟล์ขนาดใหญ่เท่านี้จากที่นี่ไม่ได้</string>
+    <string name="system_share_problem_uploads_unsupported">อัปโหลดไฟล์ไปยัง %1$s ไม่ได้</string>
+    <string name="system_share_problem_sign_in">ลงชื่อเข้าใช้ %1$s ไม่ได้</string>
+    <string name="system_share_problem_send">ส่งไปยัง %1$s ไม่ได้</string>
+    <string name="system_share_problem_no_credentials">เปิด OpenCode สักครั้งเพื่อส่งจากที่นี่</string>
+    <plurals name="system_share_image_count">
+        <item quantity="other">รูปภาพ %d รูป</item>
+    </plurals>
+    <plurals name="system_share_file_count">
+        <item quantity="other">ไฟล์ %d ไฟล์</item>
+    </plurals>
+    <plurals name="system_share_images_skipped">
+        <item quantity="other">เพิ่มรูปภาพ %d รูปไม่ได้</item>
+    </plurals>
+    <plurals name="system_share_files_skipped">
+        <item quantity="other">เพิ่มไฟล์ %d ไฟล์ไม่ได้</item>
+    </plurals>
+    <string name="system_share_save_failed_title">บันทึกไว้สำหรับ OpenCode ไม่ได้</string>
+    <string name="system_share_continue_description">ดำเนินการต่อใน OpenCode</string>
+    <string name="system_share_no_server_title">เชื่อมต่อเซิร์ฟเวอร์ก่อน</string>
+    <string name="system_share_no_server_message">เปิด OpenCode แล้วเชื่อมต่อกับคอมพิวเตอร์ของคุณ จากนั้นแชร์อีกครั้ง</string>
+    <string name="system_share_send_later">ส่งภายหลัง</string>
+    <string name="system_share_saved_continue">บันทึกแล้ว เปิด OpenCode เพื่อดำเนินการต่อ</string>
+    <string name="system_share_loading_description">กำลังโหลดรายการที่แชร์</string>
+    <string name="system_share_image_description">รูปภาพ</string>
+    <string name="system_share_image_position_description">รูปภาพ %1$d จาก %2$d</string>
+    <string name="system_share_search_sessions_description">ค้นหาเซสชัน</string>
+    <string name="system_share_new_session_in_project_description">เซสชันใหม่ใน %1$s</string>
+    <string name="system_share_choose_project_description">เลือกโปรเจกต์ของเซสชัน</string>
+    <string name="system_share_message_placeholder">ข้อความ</string>
+    <string name="system_share_sent_to">ส่งไปยัง %1$s แล้ว</string>
+    <string name="system_share_sending_description">กำลังส่ง</string>
+    <string name="system_share_sent_description">ส่งแล้ว</string>
+    <string name="system_share_sessions_title">เซสชัน</string>
+    <string name="system_share_pinned_header">ปักหมุดแล้ว</string>
+    <string name="system_share_recents_header">ล่าสุด</string>
+
+    <!-- Widget configuration -->
+    <string name="system_widget_choose_session_title">เลือกเซสชัน</string>
+</resources>

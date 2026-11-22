@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_new_session">Sesi baru</string>
+    <string name="system_start_call">Mulai panggilan</string>
+    <string name="system_open_session">Buka sesi</string>
+    <string name="widget_start_call_description">Memulai panggilan suara di sesi pilihan Anda atau sesi yang terakhir dilihat.</string>
+    <string name="widget_open_session_description">Membuka sesi pilihan Anda.</string>
+    <string name="widget_new_session_description">Membuka sesi OpenCode baru.</string>
+
+    <!-- Shared across screens -->
+    <string name="system_selected_description">Dipilih</string>
+    <string name="system_last_viewed_session">Sesi yang terakhir dilihat</string>
+
+    <!-- Quick actions (launcher shortcuts) -->
+    <string name="system_quick_action_session_fallback">Sesi</string>
+    <!-- Long label: the session's title, then its project. -->
+    <string name="system_quick_action_long_label">%1$s · %2$s</string>
+
+    <!-- Shortcuts and Ask OpenCode -->
+    <string name="system_session_type_name">Sesi</string>
+    <string name="system_project_type_name">Proyek</string>
+    <string name="system_intent_open_session_description">Membuka sesi di OpenCode.</string>
+    <string name="system_intent_new_session_description">Memulai sesi baru di OpenCode.</string>
+    <string name="system_intent_start_voice_call_title">Mulai panggilan suara</string>
+    <string name="system_intent_start_voice_call_description">Memulai panggilan suara dengan OpenCode dalam sesi. Jika sesi tidak dipilih, panggilan dimulai di sesi yang terakhir dilihat.</string>
+    <string name="system_intent_background_call_title">Mulai panggilan suara di latar belakang</string>
+    <string name="system_intent_background_call_description">Memulai panggilan suara dengan OpenCode tanpa membuka aplikasi. Panggilan muncul di bilah status dan layar kunci.</string>
+    <string name="system_delivery_type_name">Pengiriman</string>
+    <string name="system_delivery_steer">Arahkan</string>
+    <string name="system_delivery_queue">Antrekan</string>
+    <string name="system_ask_title">Tanya OpenCode</string>
+    <string name="system_ask_description">Mengirim pesan ke sesi OpenCode tanpa membuka aplikasi.</string>
+    <string name="system_ask_message_title">Pesan</string>
+    <string name="system_ask_message_placeholder">Apa yang perlu OpenCode lakukan?</string>
+    <string name="system_ask_session_title">Sesi</string>
+    <string name="system_ask_started_new_session">Sesi baru dimulai di %1$s</string>
+    <string name="system_ask_queued_for">Diantrekan untuk “%1$s”</string>
+    <string name="system_ask_sent_to">Terkirim ke “%1$s”</string>
+    <string name="system_ask_your_session">sesi Anda</string>
+    <string name="system_ask_no_server">Buka OpenCode dan hubungkan ke server terlebih dahulu.</string>
+    <string name="system_ask_no_project">Buka OpenCode dan mulai sesi terlebih dahulu.</string>
+    <string name="system_ask_empty_message">Tidak ada yang bisa dikirim.</string>
+    <!-- The server's error message follows. -->
+    <string name="system_ask_send_failed">Gagal mengirim ke OpenCode. %1$s</string>
+
+    <!-- Live Updates: voice call -->
+    <string name="system_call_muted">Dibisukan</string>
+    <string name="system_call_unmute">Bunyikan</string>
+    <string name="system_call_mute">Bisukan</string>
+    <string name="system_call_end">Akhiri panggilan</string>
+    <string name="system_call_connecting">Menghubungkan…</string>
+    <string name="system_call_reconnecting">Menghubungkan kembali…</string>
+    <string name="system_call_ended">Panggilan berakhir</string>
+    <string name="system_call_end_title">Akhiri panggilan</string>
+    <string name="system_call_toggle_mute_title">Bisukan atau bunyikan panggilan</string>
+
+    <!-- Live Updates: hands-free recording -->
+    <string name="system_recording_active">Merekam</string>
+    <string name="system_recording_stopped">Rekaman dihentikan</string>
+    <string name="system_recording_stop">Hentikan rekaman</string>
+    <string name="system_recording_stop_title">Hentikan rekaman</string>
+    <string name="system_recording_new_session">Sesi baru</string>
+
+    <!-- Live Updates: session run -->
+    <string name="system_session_working">Bekerja</string>
+    <string name="system_session_last_seen_working">Terakhir terlihat bekerja</string>
+    <!-- Where the run is (Working), then its current step (a tool name, Thinking or Replying). -->
+    <string name="system_session_status_with_step">%1$s · %2$s</string>
+    <string name="system_session_step_thinking">Berpikir</string>
+    <string name="system_session_step_replying">Membalas</string>
+    <string name="system_session_needs_input">Perlu masukan Anda</string>
+    <string name="system_session_input">Masukan</string>
+    <string name="system_session_done">Selesai</string>
+    <string name="system_session_failed">Gagal</string>
+
+    <!-- Session notifications -->
+    <string name="system_notification_placeholder_body">Aktivitas baru</string>
+
+    <!-- Notification channels -->
+    <string name="system_channel_voice_calls">Panggilan suara</string>
+    <string name="system_channel_recording">Merekam</string>
+    <string name="system_channel_session_runs">Sesi berjalan</string>
+    <string name="system_channel_session_updates">Pembaruan sesi</string>
+    <string name="system_channel_shared_items">Item yang dibagikan</string>
+
+    <!-- Share sheet: notifications -->
+    <string name="system_share_continue_notification_body">Ketuk untuk melanjutkan di OpenCode</string>
+
+    <!-- Share sheet -->
+    <string name="system_share_your_server">server Anda</string>
+    <string name="system_share_new_session_in_project">Sesi baru · %1$s</string>
+    <string name="system_share_save_failed_message">Coba lagi. Jika terus terjadi, kosongkan sebagian ruang penyimpanan di perangkat ini.</string>
+    <!-- The session's title, then its project. -->
+    <string name="system_share_session_chip_description">%1$s, %2$s</string>
+    <string name="system_share_problem_unreachable">Tidak dapat terhubung ke %1$s</string>
+    <string name="system_share_problem_too_large">Berkas sebesar ini tidak dapat dikirim dari sini</string>
+    <string name="system_share_problem_uploads_unsupported">Gagal mengunggah berkas ke %1$s</string>
+    <string name="system_share_problem_sign_in">Gagal masuk ke %1$s</string>
+    <string name="system_share_problem_send">Gagal mengirim ke %1$s</string>
+    <string name="system_share_problem_no_credentials">Buka OpenCode sekali untuk mengirim dari sini</string>
+    <plurals name="system_share_image_count">
+        <item quantity="other">%d gambar</item>
+    </plurals>
+    <plurals name="system_share_file_count">
+        <item quantity="other">%d berkas</item>
+    </plurals>
+    <plurals name="system_share_images_skipped">
+        <item quantity="other">%d gambar gagal ditambahkan</item>
+    </plurals>
+    <plurals name="system_share_files_skipped">
+        <item quantity="other">%d berkas gagal ditambahkan</item>
+    </plurals>
+    <string name="system_share_save_failed_title">Gagal menyimpan untuk OpenCode</string>
+    <string name="system_share_continue_description">Lanjutkan di OpenCode</string>
+    <string name="system_share_no_server_title">Hubungkan ke server dulu</string>
+    <string name="system_share_no_server_message">Buka OpenCode dan hubungkan ke komputer Anda, lalu bagikan lagi.</string>
+    <string name="system_share_send_later">Kirim nanti</string>
+    <string name="system_share_saved_continue">Tersimpan. Buka OpenCode untuk melanjutkan</string>
+    <string name="system_share_loading_description">Memuat item yang dibagikan</string>
+    <string name="system_share_image_description">Gambar</string>
+    <string name="system_share_image_position_description">Gambar %1$d dari %2$d</string>
+    <string name="system_share_search_sessions_description">Cari sesi</string>
+    <string name="system_share_new_session_in_project_description">Sesi baru di %1$s</string>
+    <string name="system_share_choose_project_description">Pilih proyeknya</string>
+    <string name="system_share_message_placeholder">Pesan</string>
+    <string name="system_share_sent_to">Terkirim ke %1$s</string>
+    <string name="system_share_sending_description">Mengirim</string>
+    <string name="system_share_sent_description">Terkirim</string>
+    <string name="system_share_sessions_title">Sesi</string>
+    <string name="system_share_pinned_header">Disematkan</string>
+    <string name="system_share_recents_header">Terbaru</string>
+
+    <!-- Widget configuration -->
+    <string name="system_widget_choose_session_title">Pilih sesi</string>
+</resources>

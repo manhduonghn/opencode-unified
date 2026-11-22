@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Shell</string>
+    <string name="server_notice_source_subagent">Ենթագործակալ</string>
+    <string name="server_notice_heading_finished">%1$s ավարտվել է</string>
+    <string name="server_notice_heading_failed">%1$s ձախողվել է</string>
+    <string name="server_notice_heading_interrupted">%1$s ընդհատվել է</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$d Shell ավարտվել է</item>
+        <item quantity="other">%1$d Shell ավարտվել է</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$d Shell ձախողվել է</item>
+        <item quantity="other">%1$d Shell ձախողվել է</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">%1$d Shell ընդհատվել է</item>
+        <item quantity="other">%1$d Shell ընդհատվել է</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">%1$d ենթագործակալ ավարտել է</item>
+        <item quantity="other">%1$d ենթագործակալ ավարտել է</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">%1$d ենթագործակալ ձախողվել է</item>
+        <item quantity="other">%1$d ենթագործակալ ձախողվել է</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">%1$d ենթագործակալ ընդհատվել է</item>
+        <item quantity="other">%1$d ենթագործակալ ընդհատվել է</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Կոմպակտ</string>
+    <string name="server_run_error_action_switch_model">Փոխել մոդելը</string>
+    <string name="server_run_error_aborted">Ընդհատված</string>
+    <string name="server_run_error_permission_rejected">Ընդհատվել է հարցումը մերժելուց հետո</string>
+    <string name="server_run_error_content_filter">Անվտանգության զտիչն արգելափակել է պատասխանը</string>
+    <string name="server_run_error_rate_limit">Հարցումների հաճախության սահմանաչափը լրացել է</string>
+    <string name="server_run_error_quota">Օգտագործման սահմանաչափը լրացել է</string>
+    <string name="server_run_error_auth">Մատակարարը մերժել է իր բանալին</string>
+    <string name="server_run_error_context_overflow">Նիստը չափազանց երկար է այս մոդելի համար</string>
+    <string name="server_run_error_invalid_request">Մատակարարը մերժել է հարցումը</string>
+    <string name="server_run_error_overloaded">Մոդելը գերբեռնված է</string>
+    <string name="server_run_error_internal">Մատակարարի մոտ խնդիր է առաջացել</string>
+    <string name="server_run_error_transport">Մոդելի հետ կապն ընդհատվել է</string>
+    <string name="server_run_error_timeout">Մոդելը ժամանակին չի պատասխանել</string>
+    <string name="server_run_error_invalid_output">Չհաջողվեց կարդալ մոդելի պատասխանը</string>
+    <string name="server_run_error_unavailable">Այս մոդելը հասանելի չէ</string>
+    <string name="server_run_error_unsupported_operation">Այս մոդելը չի կարող դա անել</string>
+    <string name="server_run_error_tool_execution">Գործիքը ձախողվել է, և աշխատանքը դադարել է</string>
+    <string name="server_run_error_other">Աշխատանքը դադարել է սխալի պատճառով</string>
+    <string name="server_run_retry_in_seconds">%1$s · կրկին փորձում է %2$d վ անց</string>
+    <string name="server_run_retry_now">%1$s · կրկին փորձում</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">Չհաջողվեց կապվել OpenCode սերվերին</string>
+    <string name="server_error_folder_gone">Թղթապանակն այլևս չկա</string>
+    <string name="server_error_uploads_unsupported">Այս սերվերը չի աջակցում ֆայլեր կցելուն։ Թարմացրեք OpenCode-ը ձեր համակարգչում։</string>
+    <string name="server_error_archiving_unsupported">Այս սերվերը չի աջակցում արխիվացմանը։ Թարմացրեք OpenCode-ը ձեր համակարգչում։</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode-ին թույլատրված չէ կապվել ձեր տեղական ցանցի սարքերին։ Կարգավորումներում OpenCode-ի համար միացրեք «Մոտակա սարքեր» թույլտվությունը և կրկին փորձեք։</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Անանուն նիստ</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Shell</string>
+    <string name="server_tool_shell_killed">Shell-ը հարկադրաբար դադարեցվել է</string>
+    <string name="server_tool_shell_exit_code">Հրամանն ավարտվել է %1$d կոդով</string>
+    <string name="server_notice_session_update">Նիստի թարմացում</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Միացումը չհաջողվեց</string>
+    <string name="server_connection_resolved_address_unknown">Որոշված հասցե՝ անհայտ</string>
+    <string name="server_connection_resolved_address">Որոշված հասցե (որոնում ձախողումից հետո)՝ %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">Այս tailnet անվան համար որոշված հասցեն Tailscale-ի տիրույթից դուրս է, ուստի Tailscale DNS-ը գուցե չի օգտագործվում։ Tailscale հավելվածում միացրեք «Օգտագործել Tailscale DNS կարգավորումները» և անջատեք «Մասնավոր DNS»-ը կամ DNS-ը փոխող ցանկացած VPN պրոֆիլ։</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Տեղական ցանց</string>
+    <string name="server_connection_route_loopback">Հետադարձ կապ</string>
+    <string name="server_connection_route_internet">Համացանց</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">վեբ հասցե չէ</string>
+    <string name="server_pairing_origin_bad_scheme">չի սկսվում http:// կամ https://-ով</string>
+    <string name="server_pairing_origin_no_host">չունի հոսթի անուն</string>
+    <string name="server_pairing_origin_credentials">պարունակում է օգտանուն կամ գաղտնաբառ</string>
+    <string name="server_pairing_origin_query">պարունակում է հարցում կամ հատված</string>
+    <string name="server_pairing_origin_port">ունի 1–65535 միջակայքից դուրս պորտ</string>
+    <string name="server_pairing_origin_path">պարունակում է ուղի, իսկ սերվերը պետք է լինի իր հասցեի արմատում</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Սերվեր</string>
+    <string name="server_friendly_name_numbered">Սերվեր %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">Հաղորդագրությունն ուղարկելուց հետո կապն ընդհատվել է, ուստի այն գուցե հասել է։</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Այս ինտեգրումը մուտք գործելու եղանակ չունի։</string>
+    <string name="server_error_sign_in_url_invalid">Մուտքի էջի հասցեն անվավեր է։</string>
+    <string name="server_error_load_server_details">Չհաջողվեց բեռնել սերվերի մանրամասները</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">Զույգագրման այս կոդը ժամկետանց է կամ արդեն օգտագործվել է։ Կրկին գործարկեք `opencode pair --remote`։</string>
+    <string name="server_error_pairing_unsupported">Այս սերվերը չի աջակցում զույգագրման հղումներին։ Թարմացրեք OpenCode-ը համակարգչում կամ ձեռքով մուտքագրեք սերվերը։</string>
+    <string name="server_error_notification_previews_need_https">Ծանուցումների գաղտնագրված նախադիտումների համար պետք է HTTPS կապ սերվերի հետ։</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Մուտքագրեք սերվերի վավեր HTTP կամ HTTPS URL։</string>
+    <string name="server_error_credentials_rejected">Սերվերը մերժեց մուտքի այս տվյալները։</string>
+    <string name="server_error_http_status">Սերվերը վերադարձրեց HTTP %1$d։</string>
+    <string name="server_error_event_stream_http">Իրադարձությունների հոսքը վերադարձրեց HTTP %1$d։</string>
+    <string name="server_error_event_stream_oversized_frame">Իրադարձությունների հոսքն ուղարկեց չափազանց մեծ տվյալների բլոկ։</string>
+    <string name="server_error_event_stream_ended">Իրադարձությունների հոսքն ավարտվեց։</string>
+    <string name="server_error_event_stream_server_failure">Իրադարձությունների հոսքը հաղորդեց սերվերի խափանման մասին։</string>
+    <string name="server_tool_failed">Գործիքի աշխատանքը ձախողվեց</string>
+    <string name="server_error_list_folder">Սերվերը չկարողացավ ցուցադրել այս թղթապանակի բովանդակությունը</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Չհաջողվեց բեռնել նախագծերն ու նիստերը</string>
+    <string name="server_error_load_session_family">Չհաջողվեց բեռնել փոխկապակցված նիստերը</string>
+    <string name="server_error_update_session">Չհաջողվեց թարմացնել նիստը</string>
+    <string name="server_error_load_session_ancestry">Չհաջողվեց բեռնել ակտիվ նիստի վերադաս նիստերը</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Արդեն պատասխանվել է այլ տեղ</string>
+    <string name="server_request_already_dismissed">Արդեն մերժվել է</string>
+    <string name="server_request_already_answered">Արդեն պատասխանվել է</string>
+    <string name="server_request_already_dismissed_elsewhere">Արդեն մերժվել է այլ տեղ</string>
+    <string name="server_request_no_longer_waiting">Այլևս պատասխանի չի սպասում</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Մեդիան հասանելի չէ</string>
+    <string name="server_pasted_text_title">Տեղադրված տեքստ</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d տող · %2$s</item>
+        <item quantity="other">%1$d տող · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d տող</item>
+        <item quantity="other">%1$d տող</item>
+    </plurals>
+    <string name="server_file_size_zero">0 ԿԲ</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d բայթ</item>
+        <item quantity="other">%1$d բայթ</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s ԿԲ</string>
+    <string name="server_file_size_megabytes">%1$s ՄԲ</string>
+    <string name="server_file_size_gigabytes">%1$s ԳԲ</string>
+    <string name="server_file_size_terabytes">%1$s ՏԲ</string>
+    <string name="server_autocomplete_folder_project">Նախագիծ</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Ֆայլ</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Ավարտեք այս քայլը</string>
+    <string name="server_form_required">Պարտադիր է</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">Մուտքագրեք առնվազն %1$d նիշ</item>
+        <item quantity="other">Մուտքագրեք առնվազն %1$d նիշ</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">Մուտքագրեք առավելագույնը %1$d նիշ</item>
+        <item quantity="other">Մուտքագրեք առավելագույնը %1$d նիշ</item>
+    </plurals>
+    <string name="server_form_invalid_format">Անվավեր ձևաչափ</string>
+    <string name="server_form_choose_option">Ընտրեք հասանելի տարբերակ</string>
+    <string name="server_form_invalid_email">Մուտքագրեք վավեր էլ․ հասցե</string>
+    <string name="server_form_invalid_url">Մուտքագրեք վավեր URL</string>
+    <string name="server_form_invalid_date">Մուտքագրեք ամսաթիվը YYYY-MM-DD ձևաչափով</string>
+    <string name="server_form_invalid_date_time">Մուտքագրեք վավեր ամսաթիվ և ժամ</string>
+    <string name="server_form_minimum">Պետք է լինի առնվազն %1$s</string>
+    <string name="server_form_maximum">Պետք է լինի առավելագույնը %1$s</string>
+    <string name="server_form_whole_number">Մուտքագրեք ամբողջ թիվ</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">Ընտրեք առնվազն %1$d</item>
+        <item quantity="other">Ընտրեք առնվազն %1$d</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">Ընտրեք առավելագույնը %1$d</item>
+        <item quantity="other">Ընտրեք առավելագույնը %1$d</item>
+    </plurals>
+    <string name="server_form_invalid_value">Անվավեր արժեք</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Թաքցնել ընտրվածները</string>
+    <string name="server_model_visibility_only_show">Ցույց տալ միայն ընտրվածները</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Անջատված</string>
+    <string name="server_model_variant_extra_high">Շատ բարձր</string>
+    <string name="server_model_variant_max">Առավելագույն</string>
+    <string name="server_delivery_steering">Ուղղորդում</string>
+    <string name="server_delivery_queued">Հերթում</string>
+</resources>

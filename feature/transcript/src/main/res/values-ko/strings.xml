@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shared -->
+    <string name="transcript_open_named">%1$s 열기</string>
+
+    <!-- Link previews -->
+    <string name="transcript_link_preview_show_fewer">링크 간략히 표시</string>
+    <string name="transcript_link_preview_show_all">모든 링크 표시</string>
+    <plurals name="transcript_link_preview_shown">
+        <item quantity="other">링크 %2$d개 중 %1$d개 표시</item>
+    </plurals>
+    <string name="transcript_link_preview_more">%1$d개 더 보기</string>
+
+    <!-- Transcript list -->
+    <string name="transcript_scroll_to_top">맨 위로 이동</string>
+    <string name="transcript_working">일하고 있는</string>
+
+    <!-- Transcript list rows -->
+    <string name="transcript_history_loading_description">이전 메시지 로딩 중</string>
+    <string name="transcript_empty_loading_description">세션 로딩 중</string>
+    <string name="transcript_empty_title">아직 메시지가 없어요</string>
+    <string name="transcript_empty_subtitle">아래에서 세션을 시작하세요</string>
+    <string name="transcript_compaction_queued">압축이 대기열에 추가됨</string>
+
+    <!-- Code blocks -->
+    <string name="transcript_code_copy_description">코드 복사</string>
+
+    <!-- Markdown task lists -->
+    <string name="transcript_task_done_description">완료</string>
+    <string name="transcript_task_not_done_description">미완료</string>
+
+    <!-- Markdown images -->
+    <string name="transcript_image">이미지</string>
+    <string name="transcript_image_open_description">이미지 열기</string>
+    <string name="transcript_image_load_failed">이미지를 불러올 수 없어요</string>
+    <string name="transcript_image_retry_click_label">다시 시도</string>
+    <string name="transcript_image_open">열기</string>
+
+    <!-- Math -->
+    <string name="transcript_equation_description">수식</string>
+
+    <!-- Selection -->
+    <string name="transcript_quote">인용</string>
+    <string name="transcript_quote_description">인용: %1$s</string>
+    <string name="transcript_quote_show">전체 인용 보기</string>
+    <string name="transcript_quote_comment_description">인용: %1$s. 댓글: %2$s</string>
+    <string name="transcript_quote_add_comment">댓글 추가</string>
+    <string name="transcript_quote_edit_comment">댓글 편집</string>
+
+    <!-- Reply actions -->
+    <string name="transcript_reply_copy_description">응답 복사</string>
+
+    <!-- Run errors and undo -->
+    <string name="transcript_run_error_copy">오류 복사</string>
+    <string name="transcript_undone_undo_hint">새 메시지를 보내기 전까지 실행 취소할 수 있어요</string>
+    <string name="transcript_undone_title">여기서부터 되돌림</string>
+    <string name="transcript_undone_undo_click_label">새 메시지를 보내기 전에 되돌린 메시지와 파일 복원</string>
+    <string name="transcript_undone_undo">실행 취소</string>
+
+    <!-- Tool rows -->
+    <string name="transcript_tool_failed">실패</string>
+    <string name="transcript_tool_running">실행 중</string>
+    <string name="transcript_tool_completed">완료</string>
+    <string name="transcript_subagent_open_click_label">하위 에이전트의 세션 열기</string>
+    <string name="transcript_tool_group_failed_count">%1$d개 실패</string>
+    <string name="transcript_expanded">펼쳐짐</string>
+    <string name="transcript_collapsed">접힘</string>
+    <string name="transcript_tool_image">도구 이미지</string>
+    <string name="transcript_tool_hide_click_label">도구 입력 및 출력 숨기기</string>
+    <string name="transcript_tool_show_click_label">도구 입력 및 출력 표시</string>
+    <string name="transcript_tool_denied">거부됨</string>
+    <string name="transcript_show_less">간략히 표시</string>
+    <plurals name="transcript_tool_output_show_all">
+        <item quantity="other">%1$d줄 모두 표시</item>
+    </plurals>
+    <string name="transcript_question_hide_click_label">질문 숨기기</string>
+    <string name="transcript_question_show_click_label">질문과 답변 표시</string>
+    <string name="transcript_question_chosen_description">선택됨</string>
+
+    <!-- Compaction -->
+    <string name="transcript_compaction_running">컨텍스트 압축 중</string>
+    <string name="transcript_compaction_provider">공급자 압축</string>
+    <string name="transcript_compaction_completed">컨텍스트 압축됨</string>
+    <string name="transcript_compaction_cancelled">압축 취소됨</string>
+    <string name="transcript_compaction_failed">압축 실패</string>
+    <string name="transcript_compaction_usage">입력 %1$s · 출력 %2$s</string>
+    <string name="transcript_compaction_show_summary_click_label">압축 요약 표시</string>
+
+    <!-- New messages rule -->
+    <string name="transcript_new_messages_description">새 메시지</string>
+    <string name="transcript_new_messages_label">새 메시지</string>
+
+    <!-- Media tiles -->
+    <string name="transcript_attached_image_open_description">첨부 이미지 열기</string>
+    <string name="transcript_attached_image_open_numbered_description">첨부 이미지 %2$d개 중 %1$d번째 열기</string>
+    <string name="transcript_attached_image">첨부 이미지</string>
+    <string name="transcript_tool_image_open_numbered_description">도구 이미지 %2$d개 중 %1$d번째 열기</string>
+    <string name="transcript_media_unavailable">미디어 사용 불가</string>
+    <string name="transcript_attached_file_description">첨부 파일 %1$s</string>
+
+    <!-- Message menus -->
+    <string name="transcript_message_select">선택</string>
+    <string name="transcript_pending_send_now">지금 보내기</string>
+    <string name="transcript_pending_move_to_queue">대기열로 이동</string>
+    <string name="transcript_message_revert_to_here">메시지 되돌리기</string>
+    <string name="transcript_show_more">더 보기</string>
+
+    <!-- Voice messages -->
+    <string name="transcript_voice_call_log_attached">통화 기록 첨부됨</string>
+    <string name="transcript_voice_copy_full_message">전체 메시지 복사</string>
+    <string name="transcript_voice_message_description">음성 메시지</string>
+    <string name="transcript_voice_label">음성</string>
+
+    <!-- Attachments -->
+    <string name="transcript_file_open_click_label">파일 열기</string>
+    <string name="transcript_pasted_text_open_click_label">텍스트 열기</string>
+    <string name="transcript_location_shared">공유 위치</string>
+    <string name="transcript_location_open_in_maps">지도에서 열기</string>
+    <string name="transcript_location_description">위치: %1$s</string>
+    <string name="transcript_location_description_with_address">위치: %1$s, %2$s</string>
+
+    <!-- Shared phrasing -->
+    <string name="transcript_quoted">“%1$s”</string>
+    <string name="transcript_spoken_pair">%1$s, %2$s</string>
+    <string name="transcript_list_two">%1$s 및 %2$s</string>
+    <string name="transcript_list_many">%1$s 및 %2$s</string>
+
+    <!-- Tool rows -->
+    <string name="transcript_tool_read">읽기</string>
+    <string name="transcript_tool_search">%1$s 검색</string>
+    <string name="transcript_tool_search_quoted">“%1$s” 검색</string>
+    <string name="transcript_tool_group_updates">업데이트</string>
+    <plurals name="transcript_tool_group_used">
+        <item quantity="other">도구 %1$d개 사용</item>
+    </plurals>
+
+    <!-- Question rows -->
+    <string name="transcript_question">질문</string>
+    <string name="transcript_question_no_answer">답변 없음</string>
+    <string name="transcript_question_dismissed">무시됨</string>
+    <plurals name="transcript_question_answered_count">
+        <item quantity="other">질문 %1$d개에 답변함</item>
+    </plurals>
+    <plurals name="transcript_question_count">
+        <item quantity="other">질문 %1$d개</item>
+    </plurals>
+
+    <!-- Model switch -->
+    <string name="transcript_model_switch_title">%1$s 모델로 전환됨</string>
+    <string name="transcript_model_switch_default">기본값</string>
+    <string name="transcript_model_switch_thinking_description">%1$s, 생각 수준 %2$s</string>
+    <string name="transcript_model_switch_thinking_off_description">%1$s, 생각 끄기</string>
+
+    <!-- Run errors and failed sends -->
+    <string name="transcript_run_error_edit_last_message">마지막 메시지 편집</string>
+    <string name="transcript_failed_send_status">보낼 수 없어요</string>
+    <string name="transcript_failed_send_moving">이동 중…</string>
+    <string name="transcript_failed_send_move_to">%1$s(으)로 이동</string>
+
+    <!-- Links -->
+    <string name="transcript_session_link_new_session">새 세션</string>
+    <string name="transcript_links_to_description">%1$s 링크</string>
+    <string name="transcript_link_preview_video">비디오</string>
+    <string name="transcript_link_preview_post">게시물</string>
+    <string name="transcript_link_preview_post_unavailable">게시물을 볼 수 없어요</string>
+    <plurals name="transcript_link_preview_comments">
+        <item quantity="other">댓글 %1$s개</item>
+    </plurals>
+</resources>

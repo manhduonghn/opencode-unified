@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Ulashilganlarni qo\'shib bo\'lmadi</string>
+    <string name="app_alert_open_session_failed_title">Sessiyani ochib bo\'lmadi</string>
+    <string name="app_alert_pairing_failed_title">Server bilan juftlab bo\'lmadi</string>
+    <string name="app_pairing_confirm">Juftlash</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Serverlar</string>
+    <string name="app_servers_back_description">%1$s ga qaytish</string>
+    <string name="app_server_fallback_name">server</string>
+    <string name="app_connection_intro_new">%1$s orqali kod yozish sessiyalarini davom ettiring.</string>
+    <string name="app_connection_intro_returning">Qolgan joyingizdan davom eting yoki boshqa kompyuterni juftlang.</string>
+    <string name="app_connection_enter_manually">Serverni qo\'lda kiritish</string>
+    <string name="app_connection_scan_pairing_code">Juftlash kodini skanerlash</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Kompyuteringizda OpenCode ilovasini ochib, Sozlamalar → Juftlash bo\'limiga o\'ting yoki terminalda opencode pair --remote buyrug\'ini bajaring. So\'ng bu %1$s orqali kodni skanerlang.</string>
+    <string name="app_setup_install_title">Hali OpenCode yo\'qmi?</string>
+    <string name="app_setup_other_ways_to_install">O\'rnatishning boshqa usullari</string>
+    <string name="app_setup_terminal_title">Yoki buni terminalda bajaring</string>
+    <string name="app_setup_terminal_detail">Istalgan tarmoqda ishlaydi.</string>
+    <string name="app_setup_paste_prompt">Yoki chiqarilgan havolani nusxalang, so\'ng</string>
+    <string name="app_setup_paste">Joylashtirish</string>
+    <string name="app_setup_copy_command_description">%1$s ni nusxalash</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Ulanmoqda</string>
+    <string name="app_servers_edit_description">%1$s ni tahrirlash</string>
+    <string name="app_servers_remove_description">%1$s ni olib tashlash</string>
+    <string name="app_servers_remove_confirm_title">%1$s olib tashlansinmi?</string>
+    <string name="app_servers_remove_confirm_message">Bu %1$s qurilmasida saqlangan manzil va parol o\'chiriladi. Serverdagi sessiyalarga ta\'sir qilmaydi.</string>
+    <string name="app_servers_remove_confirm">Serverni olib tashlash</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Bosqich: %1$s</string>
+    <string name="app_error_server">Server: %1$s</string>
+    <string name="app_error_attempt">Urinish: %1$d</string>
+    <string name="app_error_copy_report">Xato hisobotini nusxalash</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Yangi server</string>
+    <string name="app_server_form_edit_title">Serverni tahrirlash</string>
+    <string name="app_server_form_name">Nomi</string>
+    <string name="app_server_form_address">Server manzili</string>
+    <string name="app_server_form_username">Foydalanuvchi nomi</string>
+    <string name="app_server_form_password">Parol (ixtiyoriy)</string>
+    <string name="app_server_form_hide_password_description">Parolni yashirish</string>
+    <string name="app_server_form_show_password_description">Parolni ko\'rsatish</string>
+    <string name="app_server_form_connect">Ulanish</string>
+    <string name="app_server_form_save_and_connect">Saqlash va ulanish</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Sarlavhalar</string>
+    <string name="app_server_form_header_name">Nomi</string>
+    <string name="app_server_form_header_name_description">%1$d-sarlavha nomi</string>
+    <string name="app_server_form_header_value">Qiymat</string>
+    <string name="app_server_form_header_value_description">%1$d-sarlavha qiymati</string>
+    <string name="app_server_form_header_remove_description">%1$d-sarlavhani olib tashlash</string>
+    <string name="app_server_form_header_add">Sarlavha qo\'shish</string>
+    <string name="app_server_form_headers_detail">Cloudflare Access kabi server oldidagi proksi uchun har bir so\'rov bilan yuboriladi.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">“%1$s” yaroqli sarlavha nomi emas</string>
+    <string name="app_server_form_header_invalid_value">%1$s qiymatida yangi qator belgisi bo\'lishi mumkin emas</string>
+    <string name="app_server_form_name_placeholder">Ixtiyoriy</string>
+    <string name="app_connection_progress_pairing">Juftlanmoqda</string>
+    <string name="app_connection_progress_connecting">Ulanmoqda</string>
+    <string name="app_connection_progress_loading_sessions">Sessiyalar yuklanmoqda</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">%1$s bilan juftlansinmi?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode %1$s manzilini sinab ko\'radi va birinchi javob bergan manzilga o\'tadi.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode %1$s bilan juftlanadi va unga o\'tadi.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode %1$s va %2$s manzillarini sinab ko\'radi va birinchi javob berganiga o\'tadi.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode %1$s va %2$s manzillarini sinab ko\'radi va birinchi javob berganiga o\'tadi.</string>
+    <string name="app_pairing_confirm_replaces">%1$s %2$s uchun saqlangan kirish ma\'lumotlari almashtirilishi mumkin.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Juftlash</string>
+    <string name="app_error_phase_connect">Ulanish</string>
+    <string name="app_error_phase_load_sessions">Sessiyalarni yuklash</string>
+    <string name="app_error_candidate_detail">Nomzod %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Mavjud emas (manzil yaroqsiz)</string>
+    <string name="app_error_title_pair">Juftlab bo‘lmadi</string>
+    <string name="app_error_title_load_sessions">Sessiyalarni yuklab bo‘lmadi</string>
+    <string name="app_error_title_connect">%1$sga ulanib bo‘lmadi</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Bufer bo‘sh</string>
+    <string name="app_paste_not_a_pairing_link">Bu juftlash havolasi emas</string>
+    <string name="app_server_no_longer_saved">Bu server endi bu %1$s qurilmasida saqlanmagan. Sessiyani ochish uchun unga qayta ulaning.</string>
+    <string name="app_session_no_longer_available">U o‘chirilgan yoki server mavjud bo‘lmasligi mumkin.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">%1$sga ulandi</string>
+    <string name="app_pairing_invalid_code">Bu OpenCode juftlash kodi emas. Kompyuteringizda opencode pair --remote buyrug‘ini ishga tushiring, so‘ng QR kodini skanerlang yoki chiqqan havolani joylashtiring.</string>
+    <string name="app_pairing_unusable_address">Bu juftlash kodidagi “%1$s” manzilidan foydalanib bo‘lmadi: u %2$s.</string>
+    <string name="app_pairing_loopback">Bu server faqat localhost orqali ulanishni qabul qiladi, shuning uchun bu %1$s unga ulana olmaydi. Kompyuteringizda opencode pair --remote buyrug‘ini ishga tushiring — u istalgan tarmoqdan ishlaydi.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Siz ulashgan server endi bu qurilmada saqlanmagan. Unga qayta ulaning, so‘ng yana ulashing.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">oxirgi foydalanilgan</string>
+    <string name="app_server_form_hint_new">Juftlash uchun `opencode pair --remote` chiqargan havolani joylashtiring yoki OpenCode serveringizning manzili va parolini kiriting. Foydalanuvchi nomi odatda opencode.</string>
+    <string name="app_server_form_hint_edit_paired">O‘zgarishlar serverga ulangach saqlanadi. Bu server juftlangan, shuning uchun uning paroli sessiya tokenidir; uni o‘zgartirish o‘rniga yangi juftlash kodini skanerlang.</string>
+    <string name="app_server_form_hint_edit">O‘zgarishlar serverga ulangach saqlanadi.</string>
+</resources>

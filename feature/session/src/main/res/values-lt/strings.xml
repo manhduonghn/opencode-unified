@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent activity glyph -->
+    <string name="session_activity_running_description">Vykdoma</string>
+    <!-- Background work panel -->
+    <string name="session_background_work_show_label">Rodyti veikiančius subagentus, scenarijus ir apvalkalus</string>
+    <string name="session_background_work_collapsed_description">Sutraukta</string>
+    <string name="session_background_work_subagents_title">Subagentai</string>
+    <string name="session_background_work_open_subagent_label">Atidaryti subagento seansą</string>
+    <string name="session_background_work_shells_title">Apvalkalai</string>
+    <string name="session_background_work_show_shell_label">Rodyti apvalkalo išvestį</string>
+    <!-- The session's images and videos, paged in the full-screen viewer -->
+    <string name="session_visual_attached_image">Pridėtas vaizdas</string>
+    <string name="session_visual_tool_image">Įrankio vaizdas</string>
+    <string name="session_visual_image">Vaizdas</string>
+    <!-- One image of several: the image's label, then its place, as “Attached image 2 of 3” -->
+    <string name="session_visual_image_page_label">%1$s %2$d iš %3$d</string>
+    <!-- A diagram's label, read by TalkBack. %1$s is its kind, as “Diagram, Flowchart” -->
+    <string name="session_visual_diagram_label">Diagrama, %1$s</string>
+    <!-- Jump to latest -->
+    <string name="session_scroll_to_latest_description">Pereiti prie naujausio</string>
+    <!-- Dictation bar -->
+    <string name="session_dictation_finishing_description">Baigiamas diktavimas</string>
+    <string name="session_dictation_stop_recording_description">Stabdyti įrašymą</string>
+    <string name="session_dictation_stop_recording_hint">Įterpti žodžius į žinutę</string>
+    <string name="session_sending_message_description">Siunčiama žinutė</string>
+    <string name="session_delivery_steer_label">Nukreipti kitame žingsnyje</string>
+    <string name="session_delivery_queue_label">Įtraukti į eilę po šio atsakymo</string>
+    <string name="session_delivery_steer">Nukreipti</string>
+    <string name="session_delivery_queue">Įtraukti į eilę</string>
+    <!-- Draft project picker -->
+    <string name="session_draft_project_choose_label">Pasirinkite, kur pradėti seansą</string>
+    <string name="session_project_choose_folder">Pasirinkite aplanką…</string>
+    <string name="session_project_all_projects">Visi projektai</string>
+    <string name="session_project_selected_description">Pasirinktas</string>
+    <string name="session_project_picker_title">Projektas</string>
+    <!-- Folder browser -->
+    <string name="session_folder_select_description">Pasirinkite aplanką</string>
+    <string name="session_folder_path_description">Kelias</string>
+    <string name="session_folder_title">Aplankas</string>
+    <string name="session_folder_select">Pasirinkti</string>
+    <string name="session_folder_open_failed_title">Nepavyko atidaryti aplanko</string>
+    <string name="session_folder_empty_title">Aplankų nėra</string>
+    <string name="session_folder_search_empty_title">Nėra rezultatų pagal „%1$s“</string>
+    <string name="session_folder_search_empty_message">Patikrinkite rašybą arba ieškokite kitaip.</string>
+    <!-- Server connection pill -->
+    <string name="session_server_edit">Redaguoti serverį…</string>
+    <!-- Starter prompts -->
+    <string name="session_starter_prompts_title">Pabandykite paklausti</string>
+    <string name="session_starter_prompt_pick_label">Įrašyti į žinutę</string>
+    <!-- Session sheet -->
+    <string name="session_sheet_rename_failed">Nepavyko pervardyti</string>
+    <string name="session_sheet_status_description">Būsena</string>
+    <string name="session_rename_title">Pervardyti seansą</string>
+    <string name="session_untitled_title">Seansas</string>
+    <string name="session_pin">Prisegti</string>
+    <string name="session_pinned">Prisegtas</string>
+    <string name="session_unread">Neperskaitytas</string>
+    <string name="session_mute">Nutildyti</string>
+    <string name="session_muted">Nutildytas</string>
+    <string name="session_compact">Glaudinti seansą</string>
+    <string name="session_fork">Atskirti į naują seansą</string>
+    <string name="session_toggle_on_description">Įjungta</string>
+    <string name="session_toggle_off_description">Išjungta</string>
+    <string name="session_export">Eksportuoti</string>
+    <string name="session_export_markdown">Markdown</string>
+    <string name="session_export_json">JSON</string>
+    <string name="session_sheet_model">Modelis</string>
+    <string name="session_sheet_context">Kontekstas</string>
+    <string name="session_sheet_unknown_description">Nežinomas</string>
+    <string name="session_sheet_context_tokens">%1$s žetonų</string>
+    <string name="session_sheet_cost">Kaina</string>
+    <string name="session_sheet_media">Medija</string>
+    <string name="session_sheet_media_value">Failai ir nuorodos</string>
+    <string name="session_always_notify">Visada pranešti</string>
+    <string name="session_always_notify_message_phone">Pranešti šiame telefone, kai atsakymas paruoštas, net jei užklausa siųsta ne iš čia.</string>
+    <string name="session_always_notify_message_tablet">Pranešti šioje planšetėje, kai atsakymas paruoštas, net jei užklausa siųsta ne iš čia.</string>
+    <string name="session_delete_session">Ištrinti seansą</string>
+    <string name="session_rename_placeholder">Pavadinimas</string>
+    <string name="session_auto_rename">Pervardyti automatiškai</string>
+    <string name="session_delete_confirm_title">Ištrinti „%1$s“?</string>
+    <string name="session_delete_confirm_message">Seansas bus pašalintas iš serverio visiems klientams.</string>
+    <!-- Transcript -->
+    <string name="session_move_to_background">Perkelti į foną</string>
+    <string name="session_move_to_background_hint">Tęsti vykdomą darbą fone, kad agentas perskaitytų kitą jūsų žinutę</string>
+    <!-- Attachments -->
+    <string name="session_attachment_add_image_failed_title">Nepavyko pridėti vaizdo</string>
+    <string name="session_attachment_upload">Įkelti</string>
+    <string name="session_attachment_remove_image_description">Pašalinti vaizdo priedą %1$d</string>
+    <string name="session_attachment_remove_description">Pašalinti %1$s</string>
+    <string name="session_attachment_file_description">Failo priedas %1$s</string>
+    <string name="session_attachment_cancel_upload_description">Atšaukti %1$s įkėlimą</string>
+    <string name="session_attachment_open_photo_label">Atidaryti nuotrauką visame ekrane</string>
+    <string name="session_attachment_image_description">Vaizdo priedas %1$d</string>
+    <string name="session_attachment_video_description">Vaizdo įrašo priedas %1$d</string>
+    <!-- Composer controls -->
+    <string name="session_answer_own_description">Jūsų atsakymas</string>
+    <string name="session_answer_own_type_label">Įveskite arba padiktuokite savo atsakymą</string>
+    <string name="session_answer_own_clear_label">Atidėti savo atsakymą</string>
+    <string name="session_answer_own_choose_label">Atsakyti savais žodžiais</string>
+    <string name="session_answer_decline_with_words_label">Pasakykite agentui, ką daryti vietoj to</string>
+    <string name="session_answer_required_description">Pasirinkite atsakymą arba įveskite savo</string>
+    <string name="session_dictate_message_description">Diktuoti žinutę</string>
+    <string name="session_dictate_message_hint">Diktuokite žinutę arba palaikykite nuspaudę, kad įrašytumėte ir išsiųstumėte</string>
+    <string name="session_send_waiting_for_uploads_description">Bus išsiųsta baigus įkelti</string>
+    <string name="session_steer_message_description">Nukreipti žinutę</string>
+    <string name="session_stopping_description">Stabdoma</string>
+    <string name="session_start_voice_call">Pradėti balso skambutį</string>
+    <string name="session_dictation_stop_description">Stabdyti diktavimą</string>
+    <!-- Composer -->
+    <string name="session_requests_load_failed_title">Nepavyko įkelti užklausų</string>
+    <plurals name="session_queued_count">
+        <item quantity="one">%1$d eilėje</item>
+        <item quantity="few">%1$d eilėje</item>
+        <item quantity="many">%1$d eilėje</item>
+        <item quantity="other">%1$d eilėje</item>
+    </plurals>
+    <string name="session_queued_show_label">Rodyti žinutes, laukiančias šio atsakymo pabaigos</string>
+    <plurals name="session_queued_messages_description">
+        <item quantity="one">%1$d žinutė eilėje</item>
+        <item quantity="few">%1$d žinutės eilėje</item>
+        <item quantity="many">%1$d žinutės eilėje</item>
+        <item quantity="other">%1$d žinučių eilėje</item>
+    </plurals>
+    <string name="session_dictation_preparing">Ruošiamasi diktavimui…</string>
+    <string name="session_message_placeholder">Žinutė</string>
+    <!-- Session header -->
+    <string name="session_back_to_main_description">Grįžti į pagrindinį seansą</string>
+    <string name="session_header_open_from_catch_up_label">Atidaryti seansą ir baigti naujienų peržiūrą</string>
+    <string name="session_header_show_details_label">Rodyti seanso informaciją</string>
+    <string name="session_header_idle_description">Neaktyvus</string>
+    <string name="session_header_syncing_description">Sinchronizuojama</string>
+    <string name="session_header_last_known_description">Paskutinė žinoma būsena</string>
+    <string name="session_menu_more_description">Daugiau</string>
+    <string name="session_unpin">Atsegti</string>
+    <string name="session_copy_session_id">Kopijuoti seanso ID</string>
+    <string name="session_mark_as_read">Pažymėti kaip perskaitytą</string>
+    <string name="session_mark_as_unread">Pažymėti kaip neperskaitytą</string>
+    <string name="session_unmute">Įjungti garsą</string>
+    <string name="session_menu_export_expanded_description">Išskleista</string>
+    <string name="session_menu_export_collapsed_description">Sutraukta</string>
+    <string name="session_info">Seanso informacija</string>
+    <!-- Session screen -->
+    <string name="session_load_failed_title">Nepavyko įkelti seanso</string>
+    <string name="session_location_share_failed_title">Nepavyko bendrinti vietos</string>
+    <!-- Shell output -->
+    <string name="session_shell_stop_confirm_title">Stabdyti šį apvalkalą?</string>
+    <string name="session_shell_stop_confirm_message">Komanda bus nutraukta dabar. Čia rodoma išvestis liks, kol uždarysite apvalkalą.</string>
+    <string name="session_shell_stop">Stabdyti apvalkalą</string>
+    <string name="session_shell_copy_output">Kopijuoti išvestį</string>
+    <string name="session_shell_share_output">Bendrinti išvestį</string>
+    <string name="session_shell_earlier_output_hidden">Ankstesnė išvestis paslėpta</string>
+    <string name="session_shell_showing_last_output">Rodomi paskutiniai 4 MB</string>
+    <string name="session_shell_load_earlier">Įkelti ankstesnę išvestį</string>
+    <string name="session_shell_output_unavailable_title">Išvestis nepasiekiama</string>
+    <string name="session_shell_output_unavailable_message">Serveryje šio apvalkalo išvesties nebėra.</string>
+    <string name="session_shell_no_output_yet_title">Išvesties dar nėra</string>
+    <string name="session_shell_no_output_title">Išvesties nėra</string>
+    <string name="session_shell_no_output_yet_message">Čia rodoma komandos kuriama išvestis.</string>
+    <string name="session_shell_status_stopping">Stabdoma…</string>
+    <string name="session_shell_status_unavailable">Nepasiekiama</string>
+    <string name="session_shell_status_interrupted">Pertraukė</string>
+    <string name="session_shell_status_timed_out">Baigėsi skirtas laikas</string>
+    <string name="session_shell_status_exited_with_code">Baigta su kodu %1$d</string>
+    <string name="session_shell_status_exited">Baigta</string>
+    <plurals name="session_shell_elapsed_hours">
+        <item quantity="one">%1$d valanda</item>
+        <item quantity="few">%1$d valandos</item>
+        <item quantity="many">%1$d valandos</item>
+        <item quantity="other">%1$d valandų</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_minutes">
+        <item quantity="one">%1$d minutė</item>
+        <item quantity="few">%1$d minutės</item>
+        <item quantity="many">%1$d minutės</item>
+        <item quantity="other">%1$d minučių</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_seconds">
+        <item quantity="one">%1$d sekundė</item>
+        <item quantity="few">%1$d sekundės</item>
+        <item quantity="many">%1$d sekundės</item>
+        <item quantity="other">%1$d sekundžių</item>
+    </plurals>
+
+    <!-- Agent activity (glyph labels and titles) -->
+    <string name="session_activity_idle">Neaktyvus</string>
+    <string name="session_activity_starting_up">Paleidžiama</string>
+    <string name="session_activity_thinking">Mąstymas</string>
+    <string name="session_activity_long_work">Ilgas darbas</string>
+    <string name="session_activity_tool_burst">Įrankių vykdymas</string>
+    <string name="session_activity_streaming_output">Siunčiama išvestis</string>
+    <string name="session_activity_waiting_for_input">Laukiama atsakymo</string>
+    <string name="session_activity_handing_off">Perduodamas darbas</string>
+    <string name="session_activity_done">Atlikta</string>
+    <string name="session_activity_failed">Nepavyko</string>
+    <string name="session_working_stopping">Stabdoma…</string>
+    <string name="session_status_working">Darbas</string>
+    <string name="session_status_needs_input">Reikia jūsų atsakymo</string>
+    <string name="session_status_done">Atlikta</string>
+
+    <!-- Lists: joins two or three phrases -->
+    <string name="session_list_two">%1$s, %2$s</string>
+    <string name="session_list_three">%1$s, %2$s, %3$s</string>
+
+    <!-- Background work panel -->
+    <plurals name="session_background_work_subagent_count">
+        <item quantity="one">%1$d subagentas</item>
+        <item quantity="few">%1$d subagentai</item>
+        <item quantity="many">%1$d subagento</item>
+        <item quantity="other">%1$d subagentų</item>
+    </plurals>
+    <plurals name="session_background_work_shell_count">
+        <item quantity="one">%1$d apvalkalas</item>
+        <item quantity="few">%1$d apvalkalai</item>
+        <item quantity="many">%1$d apvalkalo</item>
+        <item quantity="other">%1$d apvalkalų</item>
+    </plurals>
+    <plurals name="session_background_work_script_count">
+        <item quantity="one">%1$d scenarijus</item>
+        <item quantity="few">%1$d scenarijai</item>
+        <item quantity="many">%1$d scenarijaus</item>
+        <item quantity="other">%1$d scenarijų</item>
+    </plurals>
+    <string name="session_background_work_summary">%1$s · %2$s</string>
+    <string name="session_background_work_scripts_title">Scenarijai</string>
+    <string name="session_background_work_stop_script_label">Stabdyti scenarijų</string>
+    <string name="session_background_work_stop_subagent_label">Stabdyti subagentą</string>
+    <string name="session_background_work_stop_script_failed">Nepavyko sustabdyti scenarijaus</string>
+    <string name="session_background_work_stop_subagent_failed">Nepavyko sustabdyti subagento</string>
+
+    <!-- Composer buttons -->
+    <string name="session_send_message_description">Siųsti žinutę</string>
+    <string name="session_stop_description">Stabdyti</string>
+    <string name="session_start_voice_call_description">Pradėti balso skambutį</string>
+    <string name="session_model_level_default">Numatytoji</string>
+
+    <!-- In-app notice -->
+    <plurals name="session_notice_session_count">
+        <item quantity="one">%1$d seansas</item>
+        <item quantity="few">%1$d seansai</item>
+        <item quantity="many">%1$d seanso</item>
+        <item quantity="other">%1$d seansų</item>
+    </plurals>
+    <plurals name="session_notice_needs_input_count">
+        <item quantity="one">Jūsų atsakymo laukia %1$d</item>
+        <item quantity="few">Jūsų atsakymo laukia %1$d</item>
+        <item quantity="many">Jūsų atsakymo laukia %1$d</item>
+        <item quantity="other">Jūsų atsakymo laukia %1$d</item>
+    </plurals>
+    <string name="session_notice_announcement">%1$s, %2$s</string>
+
+    <!-- Server connection pill -->
+    <string name="session_server_reconnecting">Iš naujo jungiamasi prie %1$s…</string>
+    <string name="session_server_connect_failed">Nepavyko prisijungti prie %1$s</string>
+    <string name="session_server_sign_in_failed">Nepavyko prisijungti prie %1$s paskyros</string>
+    <string name="session_server_pair_again">Susieti iš naujo</string>
+    <string name="session_server_try_again_click_label">bandyti dar kartą</string>
+    <string name="session_server_pair_again_click_label">susieti iš naujo</string>
+
+    <!-- Export -->
+    <string name="session_export_folder_failed">Nepavyko sukurti eksporto aplanko</string>
+    <string name="session_export_save_failed">Nepavyko išsaugoti eksporto</string>
+
+    <!-- Session errors -->
+    <string name="session_agent_fallback_name">Agentas</string>
+    <string name="session_something_went_wrong">Kažkas nutiko</string>
+    <string name="session_something_went_wrong_sentence">Kažkas nutiko.</string>
+    <string name="session_load_earlier_failed">Nepavyko įkelti ankstesnių žinučių</string>
+    <string name="session_move_to_background_failed">Nepavyko perkelti į foną: %1$s</string>
+    <string name="session_move_failed_reason">Nepavyko perkelti seanso</string>
+    <string name="session_delivery_waiting_to_send">Laukiama siuntimo</string>
+    <string name="session_create_failed">Nepavyko sukurti seanso.</string>
+    <string name="session_switch_agent_failed">Nepavyko pakeisti agento: %1$s</string>
+    <string name="session_switch_model_failed">Nepavyko pakeisti modelio: %1$s</string>
+    <string name="session_pending_send_now_failed_details">Nepavyko dabar išsiųsti laukiančios žinutės: %1$s</string>
+    <string name="session_pending_cancel_failed_details">Nepavyko atšaukti laukiančios žinutės: %1$s</string>
+    <string name="session_pending_queue_failed_details">Nepavyko įtraukti laukiančios žinutės į eilę: %1$s</string>
+    <string name="session_stopped_before_sent">Pertraukta dar neišsiuntus</string>
+    <string name="session_stop_failed">Nepavyko sustabdyti seanso</string>
+    <string name="session_undo_message_failed">Nepavyko anuliuoti žinutės: %1$s</string>
+    <string name="session_revert_failed">Nepavyko grąžinti</string>
+    <string name="session_revert_failed_details">Nepavyko grąžinti: %1$s</string>
+
+    <!-- Session sheet errors -->
+    <string name="session_sheet_rename_failed_title">Nepavyko pervardyti seanso</string>
+    <string name="session_sheet_compact_failed_title">Nepavyko suglaudinti seanso</string>
+    <string name="session_sheet_fork_failed_title">Nepavyko atskirti į naują seansą</string>
+    <string name="session_sheet_save_export_failed">Nepavyko išsaugoti eksporto</string>
+    <string name="session_sheet_export_failed_title">Nepavyko eksportuoti seanso</string>
+    <string name="session_sheet_notifications_off_message">Pirmiausia nustatymuose įjunkite pranešimus.</string>
+    <string name="session_sheet_always_notify_on_failed_title">Nepavyko įjungti „Visada pranešti“</string>
+    <string name="session_sheet_always_notify_off_failed_title">Nepavyko išjungti „Visada pranešti“</string>
+
+    <!-- Attachments -->
+    <string name="session_attachment_files_unsupported">Serveris nepalaiko failų</string>
+    <string name="session_attachment_upload_failed">Įkelti nepavyko</string>
+    <string name="session_attachment_file_fallback_name">Failas</string>
+    <string name="session_attachment_image_too_large">Pasirinkite mažesnį nei 20 MB vaizdą.</string>
+    <string name="session_attachment_image_load_failed">Nepavyko įkelti šio vaizdo. Pabandykite kitą nuotrauką.</string>
+    <string name="session_attachment_file_add_failed">Nepavyko pridėti šio failo. Pabandykite kitą failą.</string>
+    <plurals name="session_attachment_files_add_failed">
+        <item quantity="one">Nepavyko pridėti %1$d failo.</item>
+        <item quantity="few">Nepavyko pridėti %1$d failų.</item>
+        <item quantity="many">Nepavyko pridėti %1$d failo.</item>
+        <item quantity="other">Nepavyko pridėti %1$d failų.</item>
+    </plurals>
+    <string name="session_large_upload_title">Įkelti %1$s?</string>
+    <string name="session_large_upload_message_one">„%1$s“ yra didelis failas. Žinutė bus išsiųsta baigus įkelti į jūsų serverį.</string>
+    <plurals name="session_large_upload_message_many">
+        <item quantity="one">%1$d failas yra didelis. Žinutė bus išsiųsta baigus įkelti į jūsų serverį.</item>
+        <item quantity="few">%1$d failai yra dideli. Žinutė bus išsiųsta baigus įkelti į jūsų serverį.</item>
+        <item quantity="many">%1$d failo yra didelės apimties. Žinutė bus išsiųsta baigus įkelti į jūsų serverį.</item>
+        <item quantity="other">%1$d failų yra dideli. Žinutė bus išsiųsta baigus įkelti į jūsų serverį.</item>
+    </plurals>
+
+    <!-- Header and screens -->
+    <string name="session_new_session_title">Naujas seansas</string>
+    <string name="session_pasted_text_screen_title">Įklijuotas tekstas</string>
+    <string name="session_pasted_text_viewer_screen_title">Įklijuoto teksto peržiūra</string>
+    <string name="session_context_summary">%1$d%% iš %2$s</string>
+    <string name="session_context_accessibility_value">Panaudota %1$d%% iš %2$s žetonų</string>
+
+    <!-- Starter prompts (shown, then sent as the person’s message) -->
+    <string name="session_starter_project_purpose">Kam skirtas šis projektas?</string>
+    <string name="session_starter_code_tour">Trumpai supažindink su kodu</string>
+    <string name="session_starter_recent_changes">Kas čia neseniai pasikeitė?</string>
+
+    <!-- Shell output -->
+    <string name="session_shell_refresh_failed">Nepavyko atnaujinti išvesties</string>
+    <string name="session_shell_load_earlier_failed">Nepavyko įkelti ankstesnės išvesties</string>
+    <string name="session_shell_stop_failed">Nepavyko sustabdyti apvalkalo</string>
+    <string name="session_quote_remove_description">Pašalinti citatą</string>
+    <string name="session_quote_comment_placeholder">Pridėkite komentarą (neprivaloma)…</string>
+    <string name="session_media_title">Seanso medija</string>
+    <string name="session_media_filter_media">Medija</string>
+    <string name="session_media_filter_files">Failai</string>
+    <string name="session_media_filter_links">Nuorodos</string>
+    <string name="session_media_layout_description">Medijos išdėstymas</string>
+    <string name="session_media_layout_tiles">Plytelės</string>
+    <string name="session_media_layout_list">Sąrašas</string>
+    <string name="session_media_origin_user">Išsiuntėte jūs</string>
+    <string name="session_media_origin_agent">Bendrino agentas</string>
+    <string name="session_media_open_click_label">Atidaryti</string>
+    <string name="session_media_open_link_click_label">Atverti nuorodą</string>
+    <string name="session_media_empty_media_title">Medijos nėra</string>
+    <string name="session_media_empty_media_message">Čia rodomi šiame seanse bendrinti vaizdai, vaizdo įrašai ir garso failai.</string>
+    <string name="session_media_empty_files_title">Failų nėra</string>
+    <string name="session_media_empty_files_message">Čia rodomi šio seanso dokumentai ir įklijuotas tekstas.</string>
+    <string name="session_media_empty_links_title">Nuorodų nėra</string>
+    <string name="session_media_empty_links_message">Čia rodomos šiame seanse bendrinamos interneto nuorodos.</string>
+    <string name="session_media_earlier_note">Ankstesnės žinutės dar neįkeltos.</string>
+    <string name="session_media_load_earlier">Įkelti ankstesnes žinutes</string>
+    <string name="session_media_loading_earlier">Įkeliama…</string>
+    <string name="session_media_earlier_failed">Nepavyko įkelti ankstesnių žinučių. Patikrinkite ryšį ir bandykite dar kartą.</string>
+    <string name="session_media_earlier_nothing_new">Ką tik įkeltose žinutėse nieko naujo. Ankstesnėse gali būti daugiau.</string>
+</resources>

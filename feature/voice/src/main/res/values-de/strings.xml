@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Call ended and failure cards -->
+    <string name="voice_call_ended_title">Anruf beendet</string>
+    <string name="voice_call_ended_rejoin">Erneut beitreten</string>
+    <string name="voice_failure_title">Sprachverbindung fehlgeschlagen</string>
+    <string name="voice_failure_check_api_key">API-Schlüssel prüfen</string>
+    <string name="voice_failure_start_title">Anrufstart fehlgeschlagen</string>
+
+    <!-- Floating call -->
+    <string name="voice_floating_expand">Ausklappen</string>
+    <string name="voice_floating_orb_description">Sprachanruf</string>
+    <string name="voice_floating_orb_show_controls">Anrufsteuerung anzeigen</string>
+    <string name="voice_floating_end_description">Sprachanruf beenden</string>
+    <string name="voice_floating_control_placeholder_state">In diesem Prototyp nicht verfügbar</string>
+    <string name="voice_floating_duration_description">Anrufdauer</string>
+
+    <!-- Floating call stage -->
+    <string name="voice_stage_talking_in">Gespräch in</string>
+    <string name="voice_stage_minimize_description">Minimieren</string>
+    <string name="voice_mute">Stummschalten</string>
+    <string name="voice_unmute">Stummschaltung aufheben</string>
+    <string name="voice_stage_pause">Pause</string>
+    <string name="voice_stage_camera">Kamera</string>
+    <string name="voice_transcript_empty">Sag etwas zu deiner Sitzung.</string>
+    <string name="voice_transcript_you">Du</string>
+    <string name="voice_transcript_user_line_description">Du: %1$s</string>
+
+    <!-- Call rows: screen request -->
+    <string name="voice_screen_request_detail">Die Sprachfunktion möchte deinen Bildschirm sehen</string>
+    <string name="voice_screen_request_spoken">Deine Eingabe ist nötig. Die Sprachfunktion möchte deinen Bildschirm sehen</string>
+    <string name="voice_screen_request_spoken_with_reason">Deine Eingabe ist nötig. Die Sprachfunktion möchte deinen Bildschirm sehen. %1$s</string>
+    <string name="voice_screen_request_title">Bildschirm teilen?</string>
+
+    <!-- Call rows: open link -->
+    <string name="voice_open_link_spoken">Deine Eingabe ist nötig. %1$s</string>
+    <string name="voice_open_link_spoken_with_host">Deine Eingabe ist nötig. %1$s %2$s</string>
+    <string name="voice_open_link_open">Öffnen</string>
+
+    <!-- Call rows: audio on the call -->
+    <string name="voice_audio_paused">Pausiert</string>
+    <string name="voice_audio_playing">Wird im Anruf abgespielt</string>
+    <string name="voice_audio_play">Audio abspielen</string>
+    <string name="voice_audio_pause">Audio pausieren</string>
+    <string name="voice_audio_stop">Audio stoppen</string>
+
+    <!-- Call history -->
+    <string name="voice_call_history_title">Anrufverlauf</string>
+    <string name="voice_call_history_options_description">Verlaufsoptionen</string>
+    <string name="voice_call_history_delete_all">Alle löschen</string>
+    <string name="voice_call_history_empty_title">Noch keine Sprachanrufe</string>
+    <string name="voice_call_history_empty_message">Anrufe werden auf diesem Handy gespeichert, damit du sie erneut abspielen kannst.</string>
+    <string name="voice_call_history_delete_all_confirm_title">Alle Sprachanrufe löschen?</string>
+
+    <!-- Call replay -->
+    <string name="voice_replay_timeline_description">Anrufzeitachse</string>
+    <string name="voice_replay_timeline_state">%1$s von %2$s</string>
+    <string name="voice_replay_pause">Pause</string>
+    <string name="voice_replay_play">Abspielen</string>
+    <string name="voice_replay_position_description">Position</string>
+    <string name="voice_replay_speed_description">Wiedergabegeschwindigkeit</string>
+    <string name="voice_replay_empty">Tippe auf Abspielen, um den Anruf erneut anzuhören.</string>
+
+    <!-- Call notification -->
+    <string name="voice_notification_channel_name">Anrufe</string>
+    <string name="voice_notification_channel_description">Laufende OpenCode-Anrufe</string>
+    <string name="voice_notification_connecting">Verbindung wird hergestellt…</string>
+    <string name="voice_notification_reconnecting">Verbindung wird wiederhergestellt…</string>
+    <string name="voice_notification_call_ended">Anruf beendet</string>
+    <string name="voice_notification_end">Ende</string>
+    <!-- Call status caption -->
+    <string name="voice_status_connecting_via">Verbindung über %1$s wird hergestellt…</string>
+    <string name="voice_status_weak_connection">Schwache Verbindung</string>
+    <string name="voice_status_paused">Pausiert</string>
+    <string name="voice_status_needs_input">Deine Eingabe ist nötig</string>
+    <string name="voice_status_working">In Arbeit</string>
+    <string name="voice_status_speaking">Spricht</string>
+    <string name="voice_status_muted">Stummgeschaltet</string>
+    <string name="voice_status_listening">Hört zu</string>
+    <string name="voice_status_ending">Wird beendet…</string>
+    <string name="voice_status_ended">Beendet</string>
+    <string name="voice_session_new_title">Neue Sitzung</string>
+    <string name="voice_call_note_builtin_fallback">Integrierter Delegator wird für diesen Anruf verwendet</string>
+
+    <!-- Floating call tag and spoken length -->
+    <string name="voice_floating_now_talking_in">Jetzt im Gespräch in %1$s</string>
+    <string name="voice_floating_spoken_duration">%1$s, %2$s</string>
+    <plurals name="voice_floating_spoken_minutes">
+        <item quantity="one">%1$d Minute</item>
+        <item quantity="other">%1$d Minuten</item>
+    </plurals>
+    <plurals name="voice_floating_spoken_seconds">
+        <item quantity="one">%1$d Sekunde</item>
+        <item quantity="other">%1$d Sekunden</item>
+    </plurals>
+
+    <!-- Voice providers -->
+    <string name="voice_provider_state_ready">Bereit</string>
+    <string name="voice_provider_state_no_key">Kein Schlüssel</string>
+    <string name="voice_provider_state_needs_update">OpenCode aktualisieren</string>
+    <string name="voice_provider_state_offline">Offline</string>
+    <string name="voice_provider_place_phone">Dieses Handy</string>
+    <string name="voice_provider_brand_openai_account">Dein OpenAI-Konto</string>
+    <string name="voice_provider_name">%1$s auf %2$s</string>
+    <string name="voice_provider_subtitle">Auf %1$s</string>
+    <string name="voice_provider_key_row_title">%1$s-Schlüssel</string>
+    <string name="voice_provider_key_placeholder">%1$s-API-Schlüssel</string>
+
+    <!-- Voice key source -->
+    <string name="voice_key_source_server_row_title">Schlüssel auf deinem Server</string>
+    <string name="voice_key_source_phone_footer">Anrufe verwenden deinen eigenen OpenAI- oder xAI-Schlüssel.</string>
+    <string name="voice_key_source_server_footer">Anrufe verwenden den %1$s-Schlüssel auf deinem Server.</string>
+    <string name="voice_key_source_opencode_footer">Anrufe werden über deinen OpenCode Console-Arbeitsbereich abgerechnet.</string>
+
+    <!-- Call failure fixes and diagnosis -->
+    <string name="voice_fix_set_up_on_phone">Auf diesem Handy einrichten</string>
+    <string name="voice_fix_choose_provider">Anbieter auswählen</string>
+    <string name="voice_fix_update_opencode">OpenCode aktualisieren</string>
+    <string name="voice_diagnosis_needs_update">%1$s braucht eine neuere OpenCode-Version für Sprachanrufe.</string>
+    <string name="voice_diagnosis_your_server_needs_update">Dein Server braucht eine neuere OpenCode-Version für Sprachanrufe.</string>
+    <string name="voice_diagnosis_no_key">%1$s hat keinen Schlüssel für Sprachanrufe.</string>
+    <string name="voice_diagnosis_your_server_no_key">Dein Server hat keinen Schlüssel für Sprachanrufe.</string>
+    <string name="voice_diagnosis_unreachable">%1$s ist nicht erreichbar.</string>
+    <string name="voice_diagnosis_your_server_unreachable">Dein Server ist nicht erreichbar.</string>
+    <string name="voice_diagnosis_failed">%1$s konnte den Anruf nicht starten.</string>
+    <string name="voice_diagnosis_your_server_failed">Dein Server konnte den Anruf nicht starten.</string>
+    <string name="voice_diagnosis_key_rejected">OpenAI hat den Schlüssel auf diesem Handy nicht akzeptiert.</string>
+    <string name="voice_diagnosis_missing_phone_key">Füge deinen %1$s-API-Schlüssel hinzu, um von diesem Handy anzurufen.</string>
+
+    <!-- Call errors -->
+    <string name="voice_error_microphone_denied">Erlaube den Mikrofonzugriff in den Einstellungen, um mit deiner Sitzung zu sprechen.</string>
+    <string name="voice_error_audio_format_unavailable">Das Audioformat der Hardware wird nicht unterstützt.</string>
+    <string name="voice_error_audio_engine_rejected">Anruf-Audio konnte nicht gestartet werden. Versuch es gleich noch einmal.</string>
+    <string name="voice_error_server_unsupported">Dieser Server braucht eine neuere OpenCode-Version für Sprachanrufe</string>
+    <string name="voice_error_invalid_server_url">Sprachfunktion konnte nicht gestartet werden: Gib eine gültige HTTP- oder HTTPS-Server-URL ein.</string>
+    <string name="voice_error_invalid_response">Sprachfunktion konnte nicht gestartet werden: Die Serverantwort ist ungültig.</string>
+    <string name="voice_error_start_voice_detail">Sprachfunktion konnte nicht gestartet werden: %1$s</string>
+    <string name="voice_error_start_voice_http">Sprachfunktion konnte nicht gestartet werden (HTTP %1$d).</string>
+    <string name="voice_error_openai_rejected_key">OpenAI hat den API-Schlüssel abgelehnt.</string>
+    <string name="voice_error_openai_verify_http">OpenAI konnte diesen Schlüssel nicht überprüfen (HTTP %1$d).</string>
+    <string name="voice_error_no_connection">Keine Verbindung.</string>
+    <string name="voice_error_model_address_invalid">Die Adresse des Sprachmodells ist ungültig.</string>
+    <string name="voice_error_xai_rejected_key">xAI hat den API-Schlüssel abgelehnt.</string>
+    <string name="voice_error_xai_verify_http">xAI konnte diesen Schlüssel nicht überprüfen (HTTP %1$d).</string>
+    <string name="voice_error_xai_key_disabled">Dieser xAI-API-Schlüssel ist deaktiviert.</string>
+    <string name="voice_error_xai_key_blocked">Dieser xAI-API-Schlüssel ist gesperrt.</string>
+    <string name="voice_error_service_address_invalid">Die Adresse des Sprachdienstes ist ungültig.</string>
+    <string name="voice_error_connection_lost">Die Sprachverbindung wurde unterbrochen.</string>
+    <string name="voice_error_connection_closed">Die Sprachverbindung ist geschlossen.</string>
+    <string name="voice_error_connection_setup">Die Sprachverbindung konnte nicht hergestellt werden.</string>
+    <string name="voice_error_safety_filter">Ein Sicherheitsfilter hat den Sprachanruf beendet.</string>
+    <string name="voice_error_audio_reset">Audio wurde vom System zurückgesetzt. Starte den Anruf erneut.</string>
+    <string name="voice_error_missing_phone_key">Füge deinen %1$s-API-Schlüssel in den Einstellungen hinzu, um die Sprachfunktion zu nutzen.</string>
+
+    <!-- Voice accents -->
+    <string name="voice_accent_australian_english">Australisches Englisch</string>
+    <string name="voice_accent_british_english">Britisches Englisch</string>
+    <string name="voice_accent_irish_english">Irisches Englisch</string>
+    <string name="voice_accent_north_american_english">Nordamerikanisches Englisch</string>
+    <string name="voice_accent_brazilian_portuguese">Brasilianisches Portugiesisch</string>
+    <string name="voice_accent_filipino_english">Philippinisches Englisch</string>
+    <string name="voice_accent_southern_us_english">Englisch der US-Südstaaten</string>
+    <string name="voice_accent_indian_english">Indisches Englisch</string>
+    <string name="voice_preview_error">Vorschau konnte nicht abgespielt werden</string>
+
+    <!-- Call sound packs -->
+    <string name="voice_sound_pack_breath_ping">Atem-Ping</string>
+    <string name="voice_sound_pack_crystal_glass">Kristallglas</string>
+    <string name="voice_sound_pack_warm_analog">Warmer Analogklang</string>
+    <string name="voice_sound_pack_aurora_pulse">Aurora-Puls</string>
+    <string name="voice_sound_pack_velvet_bell">Samtglocke</string>
+    <string name="voice_sound_pack_silent">Lautlos</string>
+
+    <!-- Open link card -->
+    <string name="voice_open_link_card_title_untitled">Link öffnen?</string>
+    <string name="voice_open_link_card_title">%1$s öffnen?</string>
+
+    <!-- Delegator choice -->
+    <string name="voice_delegator_session_fallback">Sitzung</string>
+    <string name="voice_delegator_unavailable_gemini">Gemini Live delegiert direkt an die angezeigte Sitzung. Wähle OpenAI als Sprachanbieter, um eine OpenCode-Sitzung zu verwenden.</string>
+    <string name="voice_delegator_unavailable_engine">%1$s delegiert direkt an die angezeigte Sitzung. Wechsle das Sprachmodell zu GPT-Live, um eine OpenCode-Sitzung zu verwenden.</string>
+
+    <!-- Call log list and replay -->
+    <string name="voice_call_log_duration_seconds">%1$d s</string>
+    <string name="voice_call_log_duration_minutes">%1$d min %2$d s</string>
+    <string name="voice_replay_to_delegator">→ Delegator</string>
+    <string name="voice_replay_to_voice">→ Stimme</string>
+    <string name="voice_replay_audio">Audio</string>
+    <string name="voice_replay_track_user">Du</string>
+    <string name="voice_replay_track_voice">Stimme</string>
+    <string name="voice_replay_track_delegator">Delegator</string>
+    <string name="voice_replay_track_tools">Tools</string>
+</resources>

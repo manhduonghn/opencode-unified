@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Nepodařilo se přidat sdílené položky</string>
+    <string name="app_alert_open_session_failed_title">Nepodařilo se otevřít relaci</string>
+    <string name="app_alert_pairing_failed_title">Nepodařilo se spárovat se serverem</string>
+    <string name="app_pairing_confirm">Spárovat</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Servery</string>
+    <string name="app_servers_back_description">Zpět na %1$s</string>
+    <string name="app_server_fallback_name">server</string>
+    <string name="app_connection_intro_new">Pokračujte v programování ze zařízení %1$s.</string>
+    <string name="app_connection_intro_returning">Pokračujte tam, kde jste skončili, nebo spárujte další počítač.</string>
+    <string name="app_connection_enter_manually">Zadat server ručně</string>
+    <string name="app_connection_scan_pairing_code">Naskenovat párovací kód</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Na počítači otevřete OpenCode a přejděte do Nastavení → Párování nebo v terminálu spusťte opencode pair --remote. Pak naskenujte kód tímto zařízením: %1$s.</string>
+    <string name="app_setup_install_title">Ještě nemáte OpenCode?</string>
+    <string name="app_setup_other_ways_to_install">Další možnosti instalace</string>
+    <string name="app_setup_terminal_title">Nebo spusťte v terminálu</string>
+    <string name="app_setup_terminal_detail">Funguje z jakékoli sítě.</string>
+    <string name="app_setup_paste_prompt">Nebo zkopírujte vypsaný odkaz a pak zvolte</string>
+    <string name="app_setup_paste">Vložit</string>
+    <string name="app_setup_copy_command_description">Kopírovat %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Připojování</string>
+    <string name="app_servers_edit_description">Upravit %1$s</string>
+    <string name="app_servers_remove_description">Odebrat %1$s</string>
+    <string name="app_servers_remove_confirm_title">Odebrat %1$s?</string>
+    <string name="app_servers_remove_confirm_message">Ze zařízení %1$s se odstraní uložená adresa a heslo. Relace na serveru zůstanou beze změny.</string>
+    <string name="app_servers_remove_confirm">Odebrat server</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Fáze: %1$s</string>
+    <string name="app_error_server">Server: %1$s</string>
+    <string name="app_error_attempt">Pokus: %1$d</string>
+    <string name="app_error_copy_report">Kopírovat hlášení o chybě</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Nový server</string>
+    <string name="app_server_form_edit_title">Upravit server</string>
+    <string name="app_server_form_name">Název</string>
+    <string name="app_server_form_address">Adresa serveru</string>
+    <string name="app_server_form_username">Uživatelské jméno</string>
+    <string name="app_server_form_password">Heslo (volitelné)</string>
+    <string name="app_server_form_hide_password_description">Skrýt heslo</string>
+    <string name="app_server_form_show_password_description">Zobrazit heslo</string>
+    <string name="app_server_form_connect">Připojit</string>
+    <string name="app_server_form_save_and_connect">Uložit a připojit</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Hlavičky</string>
+    <string name="app_server_form_header_name">Název</string>
+    <string name="app_server_form_header_name_description">Název hlavičky %1$d</string>
+    <string name="app_server_form_header_value">Hodnota</string>
+    <string name="app_server_form_header_value_description">Hodnota hlavičky %1$d</string>
+    <string name="app_server_form_header_remove_description">Odebrat hlavičku %1$d</string>
+    <string name="app_server_form_header_add">Přidat hlavičku</string>
+    <string name="app_server_form_headers_detail">Odesílají se s každým požadavkem pro proxy před serverem, například Cloudflare Access.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">„%1$s“ není platný název hlavičky</string>
+    <string name="app_server_form_header_invalid_value">Hodnota %1$s nesmí obsahovat zalomení řádku</string>
+    <string name="app_server_form_name_placeholder">Volitelné</string>
+    <string name="app_connection_progress_pairing">Párování</string>
+    <string name="app_connection_progress_connecting">Připojování</string>
+    <string name="app_connection_progress_loading_sessions">Načítání relací</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Spárovat se serverem %1$s?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode vyzkouší %1$s a přepne na první adresu, která odpoví.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode se spáruje se serverem %1$s a přepne na něj.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode vyzkouší %1$s a %2$s a přepne na první adresu, která odpoví.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode vyzkouší %1$s a %2$s a přepne na první adresu, která odpoví.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Uložené přihlašovací údaje pro %2$s mohou být nahrazeny.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Párování</string>
+    <string name="app_error_phase_connect">Připojit</string>
+    <string name="app_error_phase_load_sessions">Načíst relace</string>
+    <string name="app_error_candidate_detail">Kandidát %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Nedostupné (neplatná adresa)</string>
+    <string name="app_error_title_pair">Nepodařilo se spárovat</string>
+    <string name="app_error_title_load_sessions">Nepodařilo se načíst relace</string>
+    <string name="app_error_title_connect">Nepodařilo se připojit k %1$s</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Schránka je prázdná</string>
+    <string name="app_paste_not_a_pairing_link">Toto není párovací odkaz</string>
+    <string name="app_server_no_longer_saved">Tento server už není uložený v zařízení %1$s. Pro otevření relace se k němu znovu připojte.</string>
+    <string name="app_session_no_longer_available">Relace možná byla odstraněna nebo server není dostupný.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Připojeno k %1$s</string>
+    <string name="app_pairing_invalid_code">Toto není párovací kód OpenCode. Spusťte na počítači opencode pair --remote a pak naskenujte QR kód nebo vložte vypsaný odkaz.</string>
+    <string name="app_pairing_unusable_address">Adresu „%1$s“ z tohoto párovacího kódu nelze použít: %2$s.</string>
+    <string name="app_pairing_loopback">Tento server naslouchá jen na localhost, takže ze zařízení %1$s není dostupný. Spusťte na počítači raději opencode pair --remote, který funguje z jakékoli sítě.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Server, na který jste sdíleli, už není v tomto zařízení uložený. Znovu se k němu připojte a sdílení zopakujte.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">naposledy použitý</string>
+    <string name="app_server_form_hint_new">Pro spárování vložte odkaz vypsaný příkazem `opencode pair --remote` nebo použijte adresu a heslo svého serveru OpenCode. Uživatelské jméno je obvykle opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Změny se uloží po připojení k serveru. Tento server byl spárován, takže jeho heslo je token relace. Místo změny hesla naskenujte nový párovací kód.</string>
+    <string name="app_server_form_hint_edit">Změny se uloží po připojení k serveru.</string>
+</resources>

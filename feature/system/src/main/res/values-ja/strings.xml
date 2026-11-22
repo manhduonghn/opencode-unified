@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_new_session">新しいセッション</string>
+    <string name="system_start_call">通話を開始</string>
+    <string name="system_open_session">セッションを開く</string>
+    <string name="widget_start_call_description">選択したセッションか、最後に表示したセッションで音声通話を開始します。</string>
+    <string name="widget_open_session_description">選択したセッションを開きます。</string>
+    <string name="widget_new_session_description">新しいOpenCodeセッションを開きます。</string>
+
+    <!-- Shared across screens -->
+    <string name="system_selected_description">選択済み</string>
+    <string name="system_last_viewed_session">最後に表示したセッション</string>
+
+    <!-- Quick actions (launcher shortcuts) -->
+    <string name="system_quick_action_session_fallback">セッション</string>
+    <!-- Long label: the session's title, then its project. -->
+    <string name="system_quick_action_long_label">%1$s · %2$s</string>
+
+    <!-- Shortcuts and Ask OpenCode -->
+    <string name="system_session_type_name">セッション</string>
+    <string name="system_project_type_name">プロジェクト</string>
+    <string name="system_intent_open_session_description">OpenCodeでセッションを開きます。</string>
+    <string name="system_intent_new_session_description">OpenCodeで新しいセッションを開始します。</string>
+    <string name="system_intent_start_voice_call_title">音声通話を開始</string>
+    <string name="system_intent_start_voice_call_description">セッションでOpenCodeとの音声通話を開始します。セッションを指定しない場合は、最後に表示したセッションで開始します。</string>
+    <string name="system_intent_background_call_title">バックグラウンドで音声通話を開始</string>
+    <string name="system_intent_background_call_description">アプリを開かずにOpenCodeとの音声通話を開始します。通話はステータスバーとロック画面に表示されます。</string>
+    <string name="system_delivery_type_name">送信方法</string>
+    <string name="system_delivery_steer">方向を指示</string>
+    <string name="system_delivery_queue">キューに追加</string>
+    <string name="system_ask_title">OpenCodeに依頼</string>
+    <string name="system_ask_description">アプリを開かずにOpenCodeのセッションにメッセージを送信します。</string>
+    <string name="system_ask_message_title">メッセージ</string>
+    <string name="system_ask_message_placeholder">OpenCodeに何をしてもらいますか？</string>
+    <string name="system_ask_session_title">セッション</string>
+    <string name="system_ask_started_new_session">%1$sで新しいセッションを開始しました</string>
+    <string name="system_ask_queued_for">「%1$s」のキューに追加しました</string>
+    <string name="system_ask_sent_to">「%1$s」に送信しました</string>
+    <string name="system_ask_your_session">あなたのセッション</string>
+    <string name="system_ask_no_server">まずOpenCodeを開いてサーバーに接続してください。</string>
+    <string name="system_ask_no_project">まずOpenCodeを開いてセッションを開始してください。</string>
+    <string name="system_ask_empty_message">送信する内容がありません。</string>
+    <!-- The server's error message follows. -->
+    <string name="system_ask_send_failed">OpenCodeに送信できませんでした。%1$s</string>
+
+    <!-- Live Updates: voice call -->
+    <string name="system_call_muted">ミュート中</string>
+    <string name="system_call_unmute">ミュートを解除</string>
+    <string name="system_call_mute">ミュート</string>
+    <string name="system_call_end">通話を終了</string>
+    <string name="system_call_connecting">接続中…</string>
+    <string name="system_call_reconnecting">再接続中…</string>
+    <string name="system_call_ended">通話が終了しました</string>
+    <string name="system_call_end_title">通話を終了</string>
+    <string name="system_call_toggle_mute_title">通話のミュート切り替え</string>
+
+    <!-- Live Updates: hands-free recording -->
+    <string name="system_recording_active">録音中</string>
+    <string name="system_recording_stopped">録音を停止しました</string>
+    <string name="system_recording_stop">録音を停止</string>
+    <string name="system_recording_stop_title">録音を停止</string>
+    <string name="system_recording_new_session">新しいセッション</string>
+
+    <!-- Live Updates: session run -->
+    <string name="system_session_working">作業中</string>
+    <string name="system_session_last_seen_working">前回確認時は作業中</string>
+    <!-- Where the run is (Working), then its current step (a tool name, Thinking or Replying). -->
+    <string name="system_session_status_with_step">%1$s · %2$s</string>
+    <string name="system_session_step_thinking">思考中</string>
+    <string name="system_session_step_replying">返信中</string>
+    <string name="system_session_needs_input">入力待ち</string>
+    <string name="system_session_input">入力</string>
+    <string name="system_session_done">完了</string>
+    <string name="system_session_failed">失敗</string>
+
+    <!-- Session notifications -->
+    <string name="system_notification_placeholder_body">新しいアクティビティ</string>
+
+    <!-- Notification channels -->
+    <string name="system_channel_voice_calls">音声通話</string>
+    <string name="system_channel_recording">録音中</string>
+    <string name="system_channel_session_runs">セッションの実行</string>
+    <string name="system_channel_session_updates">セッションの更新</string>
+    <string name="system_channel_shared_items">共有アイテム</string>
+
+    <!-- Share sheet: notifications -->
+    <string name="system_share_continue_notification_body">タップしてOpenCodeで続行</string>
+
+    <!-- Share sheet -->
+    <string name="system_share_your_server">あなたのサーバー</string>
+    <string name="system_share_new_session_in_project">新しいセッション · %1$s</string>
+    <string name="system_share_save_failed_message">もう一度試してください。繰り返す場合は、このデバイスの空き容量を増やしてください。</string>
+    <!-- The session's title, then its project. -->
+    <string name="system_share_session_chip_description">%1$s、%2$s</string>
+    <string name="system_share_problem_unreachable">%1$sに接続できませんでした</string>
+    <string name="system_share_problem_too_large">このサイズのファイルはここから送信できませんでした</string>
+    <string name="system_share_problem_uploads_unsupported">%1$sにファイルをアップロードできませんでした</string>
+    <string name="system_share_problem_sign_in">%1$sにサインインできませんでした</string>
+    <string name="system_share_problem_send">%1$sに送信できませんでした</string>
+    <string name="system_share_problem_no_credentials">ここから送信するには、一度OpenCodeを開いてください</string>
+    <plurals name="system_share_image_count">
+        <item quantity="other">画像%d枚</item>
+    </plurals>
+    <plurals name="system_share_file_count">
+        <item quantity="other">ファイル%d個</item>
+    </plurals>
+    <plurals name="system_share_images_skipped">
+        <item quantity="other">画像%d枚を追加できませんでした</item>
+    </plurals>
+    <plurals name="system_share_files_skipped">
+        <item quantity="other">ファイル%d個を追加できませんでした</item>
+    </plurals>
+    <string name="system_share_save_failed_title">OpenCode用に保存できませんでした</string>
+    <string name="system_share_continue_description">OpenCodeで続行</string>
+    <string name="system_share_no_server_title">まずサーバーに接続</string>
+    <string name="system_share_no_server_message">OpenCodeを開いてパソコンに接続してから、もう一度共有してください。</string>
+    <string name="system_share_send_later">あとで送信</string>
+    <string name="system_share_saved_continue">保存しました。OpenCodeを開いて続行してください</string>
+    <string name="system_share_loading_description">共有アイテムを読み込み中</string>
+    <string name="system_share_image_description">画像</string>
+    <string name="system_share_image_position_description">画像%2$d枚中%1$d枚目</string>
+    <string name="system_share_search_sessions_description">セッションを検索</string>
+    <string name="system_share_new_session_in_project_description">%1$sで新しいセッション</string>
+    <string name="system_share_choose_project_description">プロジェクトを選択</string>
+    <string name="system_share_message_placeholder">メッセージ</string>
+    <string name="system_share_sent_to">%1$sに送信しました</string>
+    <string name="system_share_sending_description">送信中</string>
+    <string name="system_share_sent_description">送信済み</string>
+    <string name="system_share_sessions_title">セッション</string>
+    <string name="system_share_pinned_header">ピン留め済み</string>
+    <string name="system_share_recents_header">最近使用</string>
+
+    <!-- Widget configuration -->
+    <string name="system_widget_choose_session_title">セッションを選択</string>
+</resources>

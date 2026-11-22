@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Call ended and failure cards -->
+    <string name="voice_call_ended_title">Trucada finalitzada</string>
+    <string name="voice_call_ended_rejoin">Torna a unir-t\'hi</string>
+    <string name="voice_failure_title">No s\'ha pogut connectar la veu</string>
+    <string name="voice_failure_check_api_key">Comprova la tecla API</string>
+    <string name="voice_failure_start_title">No s\'ha pogut iniciar la trucada</string>
+
+    <!-- Floating call -->
+    <string name="voice_floating_expand">Amplia</string>
+    <string name="voice_floating_orb_description">Trucada de veu</string>
+    <string name="voice_floating_orb_show_controls">Mostra els controls de la trucada</string>
+    <string name="voice_floating_end_description">Finalitza la trucada de veu</string>
+    <string name="voice_floating_control_placeholder_state">No disponible en aquest prototip</string>
+    <string name="voice_floating_duration_description">Durada de la trucada</string>
+
+    <!-- Floating call stage -->
+    <string name="voice_stage_talking_in">Parlant a</string>
+    <string name="voice_stage_minimize_description">Minimitza</string>
+    <string name="voice_mute">Silencia</string>
+    <string name="voice_unmute">Deixa de silenciar</string>
+    <string name="voice_stage_pause">Pausa</string>
+    <string name="voice_stage_camera">Càmera</string>
+    <string name="voice_transcript_empty">Digues alguna cosa a la teva sessió.</string>
+    <string name="voice_transcript_you">Tu</string>
+    <string name="voice_transcript_user_line_description">Tu: %1$s</string>
+
+    <!-- Call rows: screen request -->
+    <string name="voice_screen_request_detail">La veu vol veure la teva pantalla</string>
+    <string name="voice_screen_request_spoken">Cal que responguis. La veu vol veure la teva pantalla</string>
+    <string name="voice_screen_request_spoken_with_reason">Cal que responguis. La veu vol veure la teva pantalla. %1$s</string>
+    <string name="voice_screen_request_title">Vols compartir la pantalla?</string>
+
+    <!-- Call rows: open link -->
+    <string name="voice_open_link_spoken">Cal que responguis. %1$s</string>
+    <string name="voice_open_link_spoken_with_host">Cal que responguis. %1$s %2$s</string>
+    <string name="voice_open_link_open">Obert</string>
+
+    <!-- Call rows: audio on the call -->
+    <string name="voice_audio_paused">En pausa</string>
+    <string name="voice_audio_playing">S\'està reproduint a la trucada</string>
+    <string name="voice_audio_play">Reprodueix l\'àudio</string>
+    <string name="voice_audio_pause">Posa l\'àudio en pausa</string>
+    <string name="voice_audio_stop">Atura l\'àudio</string>
+
+    <!-- Call history -->
+    <string name="voice_call_history_title">Historial de trucades</string>
+    <string name="voice_call_history_options_description">Opcions de l\'historial</string>
+    <string name="voice_call_history_delete_all">Suprimeix-ho tot</string>
+    <string name="voice_call_history_empty_title">Encara no hi ha trucades de veu</string>
+    <string name="voice_call_history_empty_message">Les trucades es desen en aquest mòbil perquè les puguis tornar a escoltar.</string>
+    <string name="voice_call_history_delete_all_confirm_title">Vols suprimir totes les trucades de veu?</string>
+
+    <!-- Call replay -->
+    <string name="voice_replay_timeline_description">Cronologia de la trucada</string>
+    <string name="voice_replay_timeline_state">%1$s de %2$s</string>
+    <string name="voice_replay_pause">Pausa</string>
+    <string name="voice_replay_play">Reprodueix</string>
+    <string name="voice_replay_position_description">Posició</string>
+    <string name="voice_replay_speed_description">Velocitat de reproducció</string>
+    <string name="voice_replay_empty">Prem Reprodueix per tornar a escoltar la trucada.</string>
+
+    <!-- Call notification -->
+    <string name="voice_notification_channel_name">Trucades</string>
+    <string name="voice_notification_channel_description">Trucades d\'OpenCode en curs</string>
+    <string name="voice_notification_connecting">S\'està connectant…</string>
+    <string name="voice_notification_reconnecting">S\'està reconnectant…</string>
+    <string name="voice_notification_call_ended">Trucada finalitzada</string>
+    <string name="voice_notification_end">Finalitza</string>
+    <!-- Call status caption -->
+    <string name="voice_status_connecting_via">S\'està connectant a través de %1$s…</string>
+    <string name="voice_status_weak_connection">Connexió feble</string>
+    <string name="voice_status_paused">En pausa</string>
+    <string name="voice_status_needs_input">Cal que responguis</string>
+    <string name="voice_status_working">Treballant</string>
+    <string name="voice_status_speaking">Parlant</string>
+    <string name="voice_status_muted">Silenciada</string>
+    <string name="voice_status_listening">Escoltant</string>
+    <string name="voice_status_ending">S\'està finalitzant…</string>
+    <string name="voice_status_ended">Finalitzada</string>
+    <string name="voice_session_new_title">Nova sessió</string>
+    <string name="voice_call_note_builtin_fallback">Es fa servir el delegador integrat per a aquesta trucada</string>
+
+    <!-- Floating call tag and spoken length -->
+    <string name="voice_floating_now_talking_in">Ara parlant a %1$s</string>
+    <string name="voice_floating_spoken_duration">%1$s, %2$s</string>
+    <plurals name="voice_floating_spoken_minutes">
+        <item quantity="one">%1$d minut</item>
+        <item quantity="many">%1$d minuts</item>
+        <item quantity="other">%1$d minuts</item>
+    </plurals>
+    <plurals name="voice_floating_spoken_seconds">
+        <item quantity="one">%1$d segon</item>
+        <item quantity="many">%1$d segons</item>
+        <item quantity="other">%1$d segons</item>
+    </plurals>
+
+    <!-- Voice providers -->
+    <string name="voice_provider_state_ready">A punt</string>
+    <string name="voice_provider_state_no_key">Sense tecla</string>
+    <string name="voice_provider_state_needs_update">Actualitza OpenCode</string>
+    <string name="voice_provider_state_offline">Sense connexió</string>
+    <string name="voice_provider_place_phone">Aquest mòbil</string>
+    <string name="voice_provider_brand_openai_account">El teu compte d\'OpenAI</string>
+    <string name="voice_provider_name">%1$s a %2$s</string>
+    <string name="voice_provider_subtitle">A %1$s</string>
+    <string name="voice_provider_key_row_title">Tecla de %1$s</string>
+    <string name="voice_provider_key_placeholder">Tecla API de %1$s</string>
+
+    <!-- Voice key source -->
+    <string name="voice_key_source_server_row_title">Tecla al teu servidor</string>
+    <string name="voice_key_source_phone_footer">Les trucades fan servir la teva tecla d\'OpenAI o xAI.</string>
+    <string name="voice_key_source_server_footer">Les trucades fan servir la tecla de %1$s del teu servidor.</string>
+    <string name="voice_key_source_opencode_footer">Les trucades es facturen al teu espai de treball d\'OpenCode Console.</string>
+
+    <!-- Call failure fixes and diagnosis -->
+    <string name="voice_fix_set_up_on_phone">Configura en aquest mòbil</string>
+    <string name="voice_fix_choose_provider">Tria el proveïdor</string>
+    <string name="voice_fix_update_opencode">Actualitza OpenCode</string>
+    <string name="voice_diagnosis_needs_update">%1$s necessita una versió més recent d\'OpenCode per a les trucades de veu.</string>
+    <string name="voice_diagnosis_your_server_needs_update">El teu servidor necessita una versió més recent d\'OpenCode per a les trucades de veu.</string>
+    <string name="voice_diagnosis_no_key">%1$s no té cap tecla per a les trucades de veu.</string>
+    <string name="voice_diagnosis_your_server_no_key">El teu servidor no té cap tecla per a les trucades de veu.</string>
+    <string name="voice_diagnosis_unreachable">No s\'ha pogut connectar amb %1$s.</string>
+    <string name="voice_diagnosis_your_server_unreachable">No s\'ha pogut connectar amb el teu servidor.</string>
+    <string name="voice_diagnosis_failed">%1$s no ha pogut iniciar la trucada.</string>
+    <string name="voice_diagnosis_your_server_failed">El teu servidor no ha pogut iniciar la trucada.</string>
+    <string name="voice_diagnosis_key_rejected">OpenAI no ha acceptat la tecla d\'aquest mòbil.</string>
+    <string name="voice_diagnosis_missing_phone_key">Afegeix la teva tecla API de %1$s per trucar des d\'aquest mòbil.</string>
+
+    <!-- Call errors -->
+    <string name="voice_error_microphone_denied">Permet l\'accés al micròfon a Configuració per parlar amb la teva sessió.</string>
+    <string name="voice_error_audio_format_unavailable">El format d\'àudio del dispositiu no és compatible.</string>
+    <string name="voice_error_audio_engine_rejected">No s\'ha pogut iniciar l\'àudio de la trucada. Torna-ho a provar d\'aquí a un moment.</string>
+    <string name="voice_error_server_unsupported">Aquest servidor necessita una versió més recent d\'OpenCode per a les trucades de veu</string>
+    <string name="voice_error_invalid_server_url">No s\'ha pogut iniciar la veu: introdueix un URL de servidor HTTP o HTTPS vàlid.</string>
+    <string name="voice_error_invalid_response">No s\'ha pogut iniciar la veu: el servidor ha retornat una resposta no vàlida.</string>
+    <string name="voice_error_start_voice_detail">No s\'ha pogut iniciar la veu: %1$s</string>
+    <string name="voice_error_start_voice_http">No s\'ha pogut iniciar la veu (HTTP %1$d).</string>
+    <string name="voice_error_openai_rejected_key">OpenAI ha rebutjat la tecla API.</string>
+    <string name="voice_error_openai_verify_http">OpenAI no ha pogut verificar aquesta tecla (HTTP %1$d).</string>
+    <string name="voice_error_no_connection">Sense connexió.</string>
+    <string name="voice_error_model_address_invalid">L\'adreça del model de veu no és vàlida.</string>
+    <string name="voice_error_xai_rejected_key">xAI ha rebutjat la tecla API.</string>
+    <string name="voice_error_xai_verify_http">xAI no ha pogut verificar aquesta tecla (HTTP %1$d).</string>
+    <string name="voice_error_xai_key_disabled">Aquesta tecla API de xAI està desactivada.</string>
+    <string name="voice_error_xai_key_blocked">Aquesta tecla API de xAI està bloquejada.</string>
+    <string name="voice_error_service_address_invalid">L\'adreça del servei de veu no és vàlida.</string>
+    <string name="voice_error_connection_lost">S\'ha perdut la connexió de veu.</string>
+    <string name="voice_error_connection_closed">La connexió de veu està tancada.</string>
+    <string name="voice_error_connection_setup">No s\'ha pogut establir la connexió de veu.</string>
+    <string name="voice_error_safety_filter">Un filtre de seguretat ha finalitzat la trucada de veu.</string>
+    <string name="voice_error_audio_reset">El sistema ha restablert l\'àudio. Torna a iniciar la trucada.</string>
+    <string name="voice_error_missing_phone_key">Afegeix la teva tecla API de %1$s a Configuració per fer servir la veu.</string>
+
+    <!-- Voice accents -->
+    <string name="voice_accent_australian_english">Anglès australià</string>
+    <string name="voice_accent_british_english">Anglès britànic</string>
+    <string name="voice_accent_irish_english">Anglès irlandès</string>
+    <string name="voice_accent_north_american_english">Anglès nord-americà</string>
+    <string name="voice_accent_brazilian_portuguese">Portuguès del Brasil</string>
+    <string name="voice_accent_filipino_english">Anglès de les Filipines</string>
+    <string name="voice_accent_southern_us_english">Anglès del sud dels EUA</string>
+    <string name="voice_accent_indian_english">Anglès de l\'Índia</string>
+    <string name="voice_preview_error">No s\'ha pogut reproduir la mostra</string>
+
+    <!-- Call sound packs -->
+    <string name="voice_sound_pack_breath_ping">Toc d\'alè</string>
+    <string name="voice_sound_pack_crystal_glass">Cristall</string>
+    <string name="voice_sound_pack_warm_analog">Analògic càlid</string>
+    <string name="voice_sound_pack_aurora_pulse">Pols d\'aurora</string>
+    <string name="voice_sound_pack_velvet_bell">Campana de vellut</string>
+    <string name="voice_sound_pack_silent">Silenci</string>
+
+    <!-- Open link card -->
+    <string name="voice_open_link_card_title_untitled">Vols obrir l\'enllaç?</string>
+    <string name="voice_open_link_card_title">Vols obrir %1$s?</string>
+
+    <!-- Delegator choice -->
+    <string name="voice_delegator_session_fallback">Sessió</string>
+    <string name="voice_delegator_unavailable_gemini">Gemini Live delega directament a la sessió en pantalla. Tria un proveïdor de veu d\'OpenAI per fer servir una sessió d\'OpenCode.</string>
+    <string name="voice_delegator_unavailable_engine">%1$s delega directament a la sessió en pantalla. Canvia el model de veu a GPT-Live per fer servir una sessió d\'OpenCode.</string>
+
+    <!-- Call log list and replay -->
+    <string name="voice_call_log_duration_seconds">%1$ds</string>
+    <string name="voice_call_log_duration_minutes">%1$dm %2$ds</string>
+    <string name="voice_replay_to_delegator">→ Delegador</string>
+    <string name="voice_replay_to_voice">→ Veu</string>
+    <string name="voice_replay_audio">Àudio</string>
+    <string name="voice_replay_track_user">Tu</string>
+    <string name="voice_replay_track_voice">Veu</string>
+    <string name="voice_replay_track_delegator">Delegador</string>
+    <string name="voice_replay_track_tools">Eines</string>
+</resources>

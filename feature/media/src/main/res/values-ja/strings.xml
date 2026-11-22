@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">画像</string>
+    <string name="media_image_load_failed">画像を読み込めませんでした</string>
+    <string name="media_unavailable">メディアを利用できません</string>
+    <string name="media_try_again_label">もう一度試す</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">メディアビューアー</string>
+    <string name="media_viewer_save_to_photos_description">写真に保存</string>
+    <string name="media_file_viewer_screen_title">ファイルビューアー</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %3$d枚中%2$d枚目</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">画像に描き込む</string>
+    <string name="media_drawing_undo_description">元に戻す</string>
+    <string name="media_drawing_add_to_prompt_description">プロンプトに追加</string>
+    <string name="media_drawing_canvas_description">描画キャンバス</string>
+    <string name="media_drawing_discard_title">描き込みを破棄しますか？</string>
+    <string name="media_drawing_discard_confirm">描き込みを破棄</string>
+    <string name="media_drawing_keep">描き込みを続ける</string>
+    <string name="media_drawing_add_failed_title">描き込みを追加できませんでした</string>
+    <string name="media_drawing_flatten_failed">画像を作成できませんでした。もう一度試してください。</string>
+    <string name="media_drawing_prompt_unavailable">このセッションのメッセージには、今は添付ファイルを追加できません。</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">白</string>
+    <string name="media_drawing_ink_black">黒</string>
+    <string name="media_drawing_ink_red">赤</string>
+    <string name="media_drawing_ink_yellow">黄色</string>
+    <string name="media_drawing_ink_green">緑</string>
+    <string name="media_drawing_ink_blue">青</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">拡大中</string>
+    <string name="media_zoom_out_label">縮小</string>
+    <string name="media_zoom_in_label">拡大</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">一時停止</string>
+    <string name="media_player_play">再生</string>
+    <string name="media_player_position_description">再生位置</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">動画を再生できませんでした</string>
+    <string name="media_video_position_description">動画の再生位置</string>
+    <string name="media_video_capture_failed_title">フレームをキャプチャできませんでした</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">プレビューを表示</string>
+    <string name="media_file_show_source_description">ソースを表示</string>
+    <string name="media_file_unwrap_lines_description">行を折り返さない</string>
+    <string name="media_file_wrap_lines_description">行を折り返す</string>
+    <string name="media_file_start_pip_description">ピクチャーインピクチャーを開始</string>
+    <string name="media_file_opening">開いています…</string>
+    <string name="media_file_share_failed_title">ファイルを共有できませんでした</string>
+    <string name="media_file_share_downloading_description">共有用にダウンロード中</string>
+    <string name="media_file_confirm_large_message">このファイルのサイズは%1$sです。ダウンロードしてこの端末で表示しますか？</string>
+    <string name="media_file_download">ダウンロード</string>
+    <string name="media_file_open_in_another_app">別のアプリで開く</string>
+    <string name="media_file_no_app_message">このファイルを開けるアプリが端末にありません。共有して保存するか、別の場所に送信してください。</string>
+    <string name="media_file_pdf_page_description">%2$dページ中%1$dページ目</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">ファイルが見つかりません</string>
+    <string name="media_file_error_open_failed_title">ファイルを開けませんでした</string>
+    <string name="media_file_error_unreadable">サーバーからこのパスを読み込めません。</string>
+    <string name="media_file_error_not_found">移動または削除された可能性があります。</string>
+    <string name="media_file_error_unauthorized">この端末のパスワードがサーバーに拒否されました。</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">サーバーで読み込めませんでした（HTTP %1$d）。フォルダの可能性があります。</string>
+    <string name="media_file_error_timed_out">リクエストがタイムアウトしました。</string>
+    <string name="media_file_error_unexpected_response">サーバーから予期しない応答がありました。</string>
+    <string name="media_file_error_over_limit">ファイルがダウンロードサイズの上限を超えています。</string>
+    <string name="media_file_error_size_unknown">サーバーから添付ファイルのサイズが返されませんでした。</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">ダウンロード中…</string>
+    <string name="media_file_downloading_size">%1$sダウンロード中</string>
+    <string name="media_file_downloading_progress">%2$s中%1$sダウンロード中</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">0 KB</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="other">%1$dバイト</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s KB</string>
+    <string name="media_file_size_megabytes">%1$s MB</string>
+    <string name="media_file_size_gigabytes">%1$s GB</string>
+    <string name="media_file_size_terabytes">%1$s TB</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">見つかりません</string>
+    <string name="media_image_load_label">画像を読み込む</string>
+    <string name="media_image_loading_state">読み込み中</string>
+    <string name="media_image_open_label">画像を開く</string>
+    <string name="media_image_tap_to_load">タップして読み込む</string>
+    <string name="media_image_outside_project_value">プロジェクト外</string>
+    <string name="media_image_deferred_low_data_value">省データモードのため保留中</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">%1$sを開く</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">セッションに戻る</string>
+    <string name="media_browser_ask_description">このページについて質問</string>
+    <string name="media_browser_forward_description">進む</string>
+    <string name="media_browser_open_in_browser_description">ブラウザーで開く</string>
+    <string name="media_browser_scroll_to_top_label">ページの先頭にスクロール</string>
+    <string name="media_browser_ask_placeholder">このページについて質問</string>
+    <string name="media_browser_reply_needs_input">入力が必要です</string>
+    <string name="media_browser_reply_working">作業中</string>
+    <string name="media_browser_go_back_to_session_label">セッションに戻る</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">応答の準備ができました</string>
+    <string name="media_browser_reply_back_to_read">· 戻って読む</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">セッション</string>
+    <string name="media_link_open_in_app_browser">アプリ内ブラウザーで開く</string>
+    <string name="media_link_open_in_browser">ブラウザーで開く</string>
+    <string name="media_link_open_in_app">アプリで開く</string>
+    <string name="media_link_copy">リンクをコピー</string>
+    <string name="media_link_share">共有…</string>
+    <string name="media_link_open_session">セッションを開く</string>
+    <string name="media_link_copy_session_id">IDをコピー</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">%1$sのIDをコピー</string>
+    <string name="media_link_open_session_named_description">セッション%1$sを開く</string>
+    <string name="media_link_open_host_in_app_browser_description">%1$sをアプリ内ブラウザーで開く</string>
+    <string name="media_link_open_host_in_browser_description">%1$sをブラウザーで開く</string>
+    <string name="media_link_open_host_in_app_description">%1$sをアプリで開く</string>
+    <string name="media_link_copy_host_description">%1$sへのリンクをコピー</string>
+    <string name="media_link_share_host_description">%1$sへのリンクを共有</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%2$sの%1$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s、リンク%2$d</string>
+    <string name="media_link_more_links_description">その他のリンク</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">動画</string>
+    <string name="media_link_preview_post">投稿</string>
+    <string name="media_link_preview_post_unavailable">投稿を利用できません</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">リポジトリ</string>
+    <string name="media_github_kind_issue">イシュー</string>
+    <string name="media_github_kind_pull_request">プルリクエスト</string>
+    <string name="media_github_kind_commit">コミット</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">オープン</string>
+    <string name="media_github_state_closed">クローズ</string>
+    <string name="media_github_state_merged">マージ済み</string>
+    <string name="media_github_state_draft">下書き</string>
+    <string name="media_github_state_completed">完了</string>
+    <string name="media_github_state_not_planned">対応予定なし</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">図、%1$s</string>
+    <string name="media_mermaid_viewer_screen_title">図ビューアー</string>
+    <string name="media_mermaid_diagram_description">図</string>
+    <string name="media_mermaid_loading_state">%1$s、読み込み中</string>
+    <string name="media_mermaid_view_source">ソースを表示</string>
+    <string name="media_mermaid_source_title">図のソース</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">フローチャート</string>
+    <string name="media_mermaid_type_sequence">シーケンス図</string>
+    <string name="media_mermaid_type_class">クラス図</string>
+    <string name="media_mermaid_type_state">状態遷移図</string>
+    <string name="media_mermaid_type_entity_relationship">実体関連図</string>
+    <string name="media_mermaid_type_user_journey">ユーザージャーニー</string>
+    <string name="media_mermaid_type_gantt">ガントチャート</string>
+    <string name="media_mermaid_type_pie">円グラフ</string>
+    <string name="media_mermaid_type_quadrant">四象限図</string>
+    <string name="media_mermaid_type_requirement">要求図</string>
+    <string name="media_mermaid_type_git_graph">Gitグラフ</string>
+    <string name="media_mermaid_type_c4">C4図</string>
+    <string name="media_mermaid_type_mind_map">マインドマップ</string>
+    <string name="media_mermaid_type_timeline">タイムライン</string>
+    <string name="media_mermaid_type_sankey">サンキー図</string>
+    <string name="media_mermaid_type_xy_chart">XYチャート</string>
+    <string name="media_mermaid_type_block">ブロック図</string>
+    <string name="media_mermaid_type_packet">パケット図</string>
+    <string name="media_mermaid_type_kanban">カンバンボード</string>
+    <string name="media_mermaid_type_architecture">アーキテクチャ図</string>
+    <string name="media_mermaid_type_radar">レーダーチャート</string>
+    <string name="media_mermaid_type_treemap">ツリーマップ</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

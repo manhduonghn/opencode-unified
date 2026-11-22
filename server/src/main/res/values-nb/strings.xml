@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Skall</string>
+    <string name="server_notice_source_subagent">Underagent</string>
+    <string name="server_notice_heading_finished">%1$s fullført</string>
+    <string name="server_notice_heading_failed">%1$s mislyktes</string>
+    <string name="server_notice_heading_interrupted">%1$s avbrutt</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$d skall fullført</item>
+        <item quantity="other">%1$d skall fullført</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$d skall mislyktes</item>
+        <item quantity="other">%1$d skall mislyktes</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">%1$d skall avbrutt</item>
+        <item quantity="other">%1$d skall avbrutt</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">%1$d underagent fullført</item>
+        <item quantity="other">%1$d underagenter fullført</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">%1$d underagent mislyktes</item>
+        <item quantity="other">%1$d underagenter mislyktes</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">%1$d underagent avbrutt</item>
+        <item quantity="other">%1$d underagenter avbrutt</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Komprimer</string>
+    <string name="server_run_error_action_switch_model">Bytt modell</string>
+    <string name="server_run_error_aborted">Avbrutt</string>
+    <string name="server_run_error_permission_rejected">Avbrutt etter en avvist forespørsel</string>
+    <string name="server_run_error_content_filter">Sikkerhetsfilteret blokkerte svaret</string>
+    <string name="server_run_error_rate_limit">Forespørselsgrensen er nådd</string>
+    <string name="server_run_error_quota">Bruksgrensen er nådd</string>
+    <string name="server_run_error_auth">Leverandøren avviste API-nøkkelen</string>
+    <string name="server_run_error_context_overflow">Sesjonen er for lang for denne modellen</string>
+    <string name="server_run_error_invalid_request">Leverandøren avviste forespørselen</string>
+    <string name="server_run_error_overloaded">Modellen er overbelastet</string>
+    <string name="server_run_error_internal">Det oppstod et problem hos leverandøren</string>
+    <string name="server_run_error_transport">Tilkoblingen til modellen ble brutt</string>
+    <string name="server_run_error_timeout">Modellen brukte for lang tid på å svare</string>
+    <string name="server_run_error_invalid_output">Kunne ikke lese modellens svar</string>
+    <string name="server_run_error_unavailable">Denne modellen er ikke tilgjengelig</string>
+    <string name="server_run_error_unsupported_operation">Denne modellen kan ikke gjøre det</string>
+    <string name="server_run_error_tool_execution">Et verktøy feilet, og kjøringen stoppet</string>
+    <string name="server_run_error_other">Kjøringen stoppet med en feil</string>
+    <string name="server_run_retry_in_seconds">%1$s · prøver på nytt om %2$d s</string>
+    <string name="server_run_retry_now">%1$s · prøver på nytt</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">Kunne ikke nå OpenCode-serveren</string>
+    <string name="server_error_folder_gone">Mappen finnes ikke lenger</string>
+    <string name="server_error_uploads_unsupported">Denne serveren støtter ikke filvedlegg. Oppdater OpenCode på datamaskinen.</string>
+    <string name="server_error_archiving_unsupported">Denne serveren støtter ikke arkivering. Oppdater OpenCode på datamaskinen din.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode har ikke tilgang til enheter på lokalnettverket ditt. Slå på Enheter i nærheten for OpenCode i Innstillinger, og prøv igjen.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Sesjon uten tittel</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Skall</string>
+    <string name="server_tool_shell_killed">Skallet ble tvangsavsluttet</string>
+    <string name="server_tool_shell_exit_code">Kommandoen ble avsluttet med kode %1$d</string>
+    <string name="server_notice_session_update">Sesjonsoppdatering</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Tilkobling mislyktes</string>
+    <string name="server_connection_resolved_address_unknown">Oppslått adresse: ukjent</string>
+    <string name="server_connection_resolved_address">Oppslått adresse (oppslag etter feil): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">Dette tailnet-navnet ble slått opp til en adresse utenfor Tailscales adresseområde, så Tailscale DNS er kanskje ikke i bruk. Slå på Bruk Tailscale DNS-innstillinger i Tailscale-appen, og slå av Privat DNS eller VPN-profiler som endrer DNS.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Lokalnettverk</string>
+    <string name="server_connection_route_loopback">Loopback</string>
+    <string name="server_connection_route_internet">Internett</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">er ikke en nettadresse</string>
+    <string name="server_pairing_origin_bad_scheme">begynner ikke med http:// eller https://</string>
+    <string name="server_pairing_origin_no_host">mangler vertsnavn</string>
+    <string name="server_pairing_origin_credentials">inneholder brukernavn eller passord</string>
+    <string name="server_pairing_origin_query">inneholder en spørring eller et fragment</string>
+    <string name="server_pairing_origin_port">har en port utenfor området 1–65535</string>
+    <string name="server_pairing_origin_path">har en sti, og serveren må ligge på roten av adressen</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Server</string>
+    <string name="server_friendly_name_numbered">Server %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">Tilkoblingen ble brutt etter at meldingen ble sendt, så den kan ha kommet frem.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Denne integrasjonen har ingen innloggingsmetode.</string>
+    <string name="server_error_sign_in_url_invalid">Adressen til innloggingssiden er ugyldig.</string>
+    <string name="server_error_load_server_details">Kunne ikke laste inn serverdetaljer</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">Denne sammenkoblingskoden er utløpt eller allerede brukt. Kjør `opencode pair --remote` på nytt.</string>
+    <string name="server_error_pairing_unsupported">Denne serveren støtter ikke sammenkoblingslenker. Oppdater OpenCode på datamaskinen, eller legg til serveren manuelt.</string>
+    <string name="server_error_notification_previews_need_https">Krypterte varselforhåndsvisninger krever en HTTPS-tilkobling til serveren.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Skriv inn en gyldig HTTP- eller HTTPS-URL til serveren.</string>
+    <string name="server_error_credentials_rejected">Serveren avviste disse påloggingsopplysningene.</string>
+    <string name="server_error_http_status">Serveren returnerte HTTP %1$d.</string>
+    <string name="server_error_event_stream_http">Hendelsesstrømmen returnerte HTTP %1$d.</string>
+    <string name="server_error_event_stream_oversized_frame">Hendelsesstrømmen sendte en for stor dataramme.</string>
+    <string name="server_error_event_stream_ended">Hendelsesstrømmen ble avsluttet.</string>
+    <string name="server_error_event_stream_server_failure">Hendelsesstrømmen rapporterte en serverfeil.</string>
+    <string name="server_tool_failed">Verktøyet mislyktes</string>
+    <string name="server_error_list_folder">Serveren kunne ikke vise innholdet i denne mappen</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Kunne ikke laste inn prosjekter og sesjoner</string>
+    <string name="server_error_load_session_family">Kunne ikke laste inn sesjonsfamilien</string>
+    <string name="server_error_update_session">Kunne ikke oppdatere sesjonen</string>
+    <string name="server_error_load_session_ancestry">Kunne ikke laste inn overordnede sesjoner til den aktive sesjonen</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Allerede besvart et annet sted</string>
+    <string name="server_request_already_dismissed">Allerede avvist</string>
+    <string name="server_request_already_answered">Allerede besvart</string>
+    <string name="server_request_already_dismissed_elsewhere">Allerede avvist et annet sted</string>
+    <string name="server_request_no_longer_waiting">Venter ikke lenger</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Medier er ikke tilgjengelige</string>
+    <string name="server_pasted_text_title">Innlimt tekst</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d linje · %2$s</item>
+        <item quantity="other">%1$d linjer · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d linje</item>
+        <item quantity="other">%1$d linjer</item>
+    </plurals>
+    <string name="server_file_size_zero">Null KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d byte</item>
+        <item quantity="other">%1$d byte</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">Prosjekt</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Fil</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Fullfør dette trinnet</string>
+    <string name="server_form_required">Påkrevd</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">Skriv inn minst %1$d tegn</item>
+        <item quantity="other">Skriv inn minst %1$d tegn</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">Skriv inn høyst %1$d tegn</item>
+        <item quantity="other">Skriv inn høyst %1$d tegn</item>
+    </plurals>
+    <string name="server_form_invalid_format">Ugyldig format</string>
+    <string name="server_form_choose_option">Velg et tilgjengelig alternativ</string>
+    <string name="server_form_invalid_email">Skriv inn en gyldig e-postadresse</string>
+    <string name="server_form_invalid_url">Skriv inn en gyldig URL</string>
+    <string name="server_form_invalid_date">Skriv inn en dato som YYYY-MM-DD</string>
+    <string name="server_form_invalid_date_time">Skriv inn gyldig dato og klokkeslett</string>
+    <string name="server_form_minimum">Må være minst %1$s</string>
+    <string name="server_form_maximum">Må være høyst %1$s</string>
+    <string name="server_form_whole_number">Skriv inn et heltall</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">Velg minst %1$d</item>
+        <item quantity="other">Velg minst %1$d</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">Velg høyst %1$d</item>
+        <item quantity="other">Velg høyst %1$d</item>
+    </plurals>
+    <string name="server_form_invalid_value">Ugyldig verdi</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Skjul valgte</string>
+    <string name="server_model_visibility_only_show">Vis bare valgte</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Av</string>
+    <string name="server_model_variant_extra_high">Ekstra høy</string>
+    <string name="server_model_variant_max">Maks</string>
+    <string name="server_delivery_steering">Styring</string>
+    <string name="server_delivery_queued">I kø</string>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Paylaşılan elementlər əlavə edilə bilmədi</string>
+    <string name="app_alert_open_session_failed_title">Sessiya açıla bilmədi</string>
+    <string name="app_alert_pairing_failed_title">Serverlə cütləşdirmək mümkün olmadı</string>
+    <string name="app_pairing_confirm">Cütləşdir</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Serverlər</string>
+    <string name="app_servers_back_description">%1$s bölməsinə qayıt</string>
+    <string name="app_server_fallback_name">server</string>
+    <string name="app_connection_intro_new">%1$s ilə kod sessiyalarınıza davam edin.</string>
+    <string name="app_connection_intro_returning">Qaldığınız yerdən davam edin və ya başqa kompüteri cütləşdirin.</string>
+    <string name="app_connection_enter_manually">Serveri əl ilə daxil et</string>
+    <string name="app_connection_scan_pairing_code">Cütləşdirmə kodunu skan et</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Kompüterinizdə OpenCode açıb Tənzimləmələr → Cütləşdirmə bölməsinə keçin və ya terminalda opencode pair --remote əmrini işlədin. Sonra bu %1$s ilə kodu skan edin.</string>
+    <string name="app_setup_install_title">Hələ OpenCode yoxdur?</string>
+    <string name="app_setup_other_ways_to_install">Digər quraşdırma yolları</string>
+    <string name="app_setup_terminal_title">Və ya bunu terminalda işlədin</string>
+    <string name="app_setup_terminal_detail">İstənilən şəbəkədə işləyir.</string>
+    <string name="app_setup_paste_prompt">Və ya göstərilən linki kopyalayın, sonra</string>
+    <string name="app_setup_paste">Yapışdır</string>
+    <string name="app_setup_copy_command_description">%1$s kopyala</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Qoşulur</string>
+    <string name="app_servers_edit_description">%1$s redaktə et</string>
+    <string name="app_servers_remove_description">%1$s sil</string>
+    <string name="app_servers_remove_confirm_title">%1$s silinsin?</string>
+    <string name="app_servers_remove_confirm_message">Bu %1$s üzərində saxlanmış ünvan və parol silinəcək. Serverdəki sessiyalara təsir etməyəcək.</string>
+    <string name="app_servers_remove_confirm">Serveri sil</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Mərhələ: %1$s</string>
+    <string name="app_error_server">Server: %1$s</string>
+    <string name="app_error_attempt">Cəhd: %1$d</string>
+    <string name="app_error_copy_report">Xəta hesabatını kopyala</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Yeni server</string>
+    <string name="app_server_form_edit_title">Serveri redaktə et</string>
+    <string name="app_server_form_name">Ad</string>
+    <string name="app_server_form_address">Server ünvanı</string>
+    <string name="app_server_form_username">İstifadəçi adı</string>
+    <string name="app_server_form_password">Şifrə (istəyə bağlı)</string>
+    <string name="app_server_form_hide_password_description">Şifrəni gizlət</string>
+    <string name="app_server_form_show_password_description">Şifrəni göstər</string>
+    <string name="app_server_form_connect">Qoş</string>
+    <string name="app_server_form_save_and_connect">Saxla və qoş</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Başlıqlar</string>
+    <string name="app_server_form_header_name">Ad</string>
+    <string name="app_server_form_header_name_description">%1$d nömrəli başlığın adı</string>
+    <string name="app_server_form_header_value">Dəyər</string>
+    <string name="app_server_form_header_value_description">%1$d nömrəli başlığın dəyəri</string>
+    <string name="app_server_form_header_remove_description">%1$d nömrəli başlığı sil</string>
+    <string name="app_server_form_header_add">Başlıq əlavə et</string>
+    <string name="app_server_form_headers_detail">Cloudflare Access kimi serverin qarşısında işləyən proksi üçün hər sorğu ilə göndərilir.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">“%1$s” düzgün başlıq adı deyil</string>
+    <string name="app_server_form_header_invalid_value">%1$s dəyərində sətir keçidi ola bilməz</string>
+    <string name="app_server_form_name_placeholder">İstəyə bağlı</string>
+    <string name="app_connection_progress_pairing">Cütləşdirilir</string>
+    <string name="app_connection_progress_connecting">Qoşulur</string>
+    <string name="app_connection_progress_loading_sessions">Sessiyalar yüklənir</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">%1$s ilə cütləşdirilsin?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode %1$s ünvanını yoxlayacaq və ilk cavab verən ünvana keçəcək.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode %1$s ilə cütləşəcək və ona keçəcək.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode %1$s və %2$s ünvanlarını yoxlayacaq və ilk cavab verənə keçəcək.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode %1$s və %2$s ünvanlarını yoxlayacaq və ilk cavab verənə keçəcək.</string>
+    <string name="app_pairing_confirm_replaces">%1$s %2$s üçün saxlanmış giriş məlumatları əvəz oluna bilər.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Cütləşdirmə</string>
+    <string name="app_error_phase_connect">Qoş</string>
+    <string name="app_error_phase_load_sessions">Sessiyaları yüklə</string>
+    <string name="app_error_candidate_detail">Namizəd %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Əlçatan deyil (yanlış ünvan)</string>
+    <string name="app_error_title_pair">Cütləşdirmək mümkün olmadı</string>
+    <string name="app_error_title_load_sessions">Sessiyalar yüklənə bilmədi</string>
+    <string name="app_error_title_connect">%1$s ilə bağlantı qurula bilmədi</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Buferiniz boşdur</string>
+    <string name="app_paste_not_a_pairing_link">Bu, cütləşdirmə linki deyil</string>
+    <string name="app_server_no_longer_saved">Bu server artıq bu %1$s cihazında saxlanılmır. Sessiyanı açmaq üçün serverə yenidən qoşulun.</string>
+    <string name="app_session_no_longer_available">Sessiya silinmiş və ya server əlçatmaz ola bilər.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">%1$s ilə bağlantı quruldu</string>
+    <string name="app_pairing_invalid_code">Bu, OpenCode cütləşdirmə kodu deyil. Kompüterinizdə opencode pair --remote əmrini işlədin, sonra QR kodunu skan edin və ya göstərilən linki yapışdırın.</string>
+    <string name="app_pairing_unusable_address">Bu cütləşdirmə kodundakı “%1$s” istifadə edilə bilmədi: bu ünvan %2$s.</string>
+    <string name="app_pairing_loopback">Bu server yalnız localhost üzərindən bağlantı qəbul edir, ona görə də bu %1$s ona qoşula bilmir. Əvəzində kompüterinizdə opencode pair --remote əmrini işlədin. Bu üsul istənilən şəbəkədən işləyir.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Paylaşdığınız server artıq bu cihazda saxlanılmır. Ona yenidən qoşulun, sonra yenidən paylaşın.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">son istifadə</string>
+    <string name="app_server_form_hint_new">Cütləşdirmək üçün `opencode pair --remote` əmrinin göstərdiyi linki yapışdırın və ya OpenCode serverinizin ünvanını və parolunu daxil edin. İstifadəçi adı adətən opencode olur.</string>
+    <string name="app_server_form_hint_edit_paired">Dəyişikliklər serverə qoşulduqda saxlanılır. Bu server cütləşdirilib, ona görə də parolu sessiya tokenidir; onu dəyişmək əvəzinə yeni cütləşdirmə kodunu skan edin.</string>
+    <string name="app_server_form_hint_edit">Dəyişikliklər serverə qoşulduqda saxlanılır.</string>
+</resources>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Shell</string>
+    <string name="server_notice_source_subagent">Зер-агент</string>
+    <string name="server_notice_heading_finished">%1$s анҷом ёфт</string>
+    <string name="server_notice_heading_failed">%1$s ноком шуд</string>
+    <string name="server_notice_heading_interrupted">%1$s қатъ карда шуд</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$d shell анҷом ёфт</item>
+        <item quantity="other">%1$d shell анҷом ёфт</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$d shell ноком шуд</item>
+        <item quantity="other">%1$d shell ноком шуд</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">%1$d shell қатъ карда шуд</item>
+        <item quantity="other">%1$d shell қатъ карда шуд</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">%1$d зер-агент анҷом ёфт</item>
+        <item quantity="other">%1$d зер-агент анҷом ёфт</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">%1$d зер-агент ноком шуд</item>
+        <item quantity="other">%1$d зер-агент ноком шуд</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">%1$d зер-агент қатъ карда шуд</item>
+        <item quantity="other">%1$d зер-агент қатъ карда шуд</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Фишурда</string>
+    <string name="server_run_error_action_switch_model">Моделро иваз кунед</string>
+    <string name="server_run_error_aborted">Қатъ карда шуд</string>
+    <string name="server_run_error_permission_rejected">Пас аз рад шудани дархост қатъ шуд</string>
+    <string name="server_run_error_content_filter">Филтри бехатарӣ посухро манъ кард</string>
+    <string name="server_run_error_rate_limit">Ба ҳадди басомади дархостҳо расид</string>
+    <string name="server_run_error_quota">Ба ҳадди истифода расид</string>
+    <string name="server_run_error_auth">Таъминкунанда калиди худро рад кард</string>
+    <string name="server_run_error_context_overflow">Сессия барои ин модел хеле дароз аст</string>
+    <string name="server_run_error_invalid_request">Таъминкунанда дархостро рад кард</string>
+    <string name="server_run_error_overloaded">Модел аз ҳад зиёд банд аст</string>
+    <string name="server_run_error_internal">Дар таъминкунанда мушкил пеш омад</string>
+    <string name="server_run_error_transport">Пайвастшавӣ ба модел канда шуд</string>
+    <string name="server_run_error_timeout">Модел барои посух вақти зиёд гирифт</string>
+    <string name="server_run_error_invalid_output">Посухи моделро хондан нашуд</string>
+    <string name="server_run_error_unavailable">Ин модел дастрас нест</string>
+    <string name="server_run_error_unsupported_operation">Ин модел ин корро карда наметавонад</string>
+    <string name="server_run_error_tool_execution">Абзор ноком шуд ва иҷро қатъ гардид</string>
+    <string name="server_run_error_other">Иҷро бо хатогӣ қатъ шуд</string>
+    <string name="server_run_retry_in_seconds">%1$s · кӯшиши дубора пас аз %2$d с</string>
+    <string name="server_run_retry_now">%1$s · дубора кӯшиш кардан</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">Ба сервери OpenCode пайваст шудан нашуд</string>
+    <string name="server_error_folder_gone">Папка дигар вуҷуд надорад</string>
+    <string name="server_error_uploads_unsupported">Ин сервер замимаи файлҳоро дастгирӣ намекунад. OpenCode-ро дар компютератон навсозӣ кунед.</string>
+    <string name="server_error_archiving_unsupported">Ин сервер архивкуниро дастгирӣ намекунад. OpenCode-ро дар компютери худ навсозӣ кунед.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode барои дастрасӣ ба дастгоҳҳои шабакаи маҳаллии шумо иҷозат надорад. Дар танзимотҳо «Дастгоҳҳои наздик»-ро барои OpenCode фаъол кунед ва аз нав кӯшиш кунед.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Сессияи беном</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Shell</string>
+    <string name="server_tool_shell_killed">Shell маҷбуран қатъ шуд</string>
+    <string name="server_tool_shell_exit_code">Фармон бо рамзи %1$d анҷом ёфт</string>
+    <string name="server_notice_session_update">Навсозии сессия</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Пайвастшавӣ ноком шуд</string>
+    <string name="server_connection_resolved_address_unknown">Суроғаи муайяншуда: номаълум</string>
+    <string name="server_connection_resolved_address">Суроғаи муайяншуда (ҷустуҷӯ пас аз нокомӣ): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">Ин номи tailnet ба суроғае берун аз доираи Tailscale табдил ёфт, пас шояд DNS-и Tailscale истифода намешавад. Дар барномаи Tailscale «Истифодаи танзимоти DNS-и Tailscale»-ро фаъол кунед ва DNS-и хусусӣ ё профили VPN-и тағйирдиҳандаи DNS-ро хомӯш кунед.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Шабакаи маҳаллӣ</string>
+    <string name="server_connection_route_loopback">Пайвастшавӣ ба худ</string>
+    <string name="server_connection_route_internet">Интернет</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">суроғаи веб нест</string>
+    <string name="server_pairing_origin_bad_scheme">бо http:// ё https:// оғоз намешавад</string>
+    <string name="server_pairing_origin_no_host">номи мизбон надорад</string>
+    <string name="server_pairing_origin_credentials">номи корбар ё парол дорад</string>
+    <string name="server_pairing_origin_query">дархост ё порча дорад</string>
+    <string name="server_pairing_origin_port">порти берун аз доираи 1–65535 дорад</string>
+    <string name="server_pairing_origin_path">роҳ дорад, вале сервер бояд дар решаи суроғааш бошад</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Сервер</string>
+    <string name="server_friendly_name_numbered">Сервер %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">Пайвастшавӣ пас аз фиристодани паём канда шуд, пас шояд паём расида бошад.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Ин ҳамгироӣ усули воридшавӣ надорад.</string>
+    <string name="server_error_sign_in_url_invalid">Суроғаи саҳифаи воридшавӣ нодуруст аст.</string>
+    <string name="server_error_load_server_details">Бор кардани тафсилоти сервер нашуд</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">Муҳлати ин рамзи ҷуфткунӣ гузаштааст ё он аллакай истифода шудааст. `opencode pair --remote`-ро аз нав иҷро кунед.</string>
+    <string name="server_error_pairing_unsupported">Ин сервер истинодҳои ҷуфткуниро дастгирӣ намекунад. OpenCode-ро дар компютери худ навсозӣ кунед ё серверро дастӣ ворид кунед.</string>
+    <string name="server_error_notification_previews_need_https">Пешнамоишҳои рамзгузоришудаи огоҳиҳо пайвасти HTTPS ба серверро талаб мекунанд.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">URL-и дурусти HTTP ё HTTPS-и серверро ворид кунед.</string>
+    <string name="server_error_credentials_rejected">Сервер ин маълумоти вурудро рад кард.</string>
+    <string name="server_error_http_status">Сервер HTTP %1$d баргардонд.</string>
+    <string name="server_error_event_stream_http">Ҷараёни рӯйдодҳо HTTP %1$d баргардонд.</string>
+    <string name="server_error_event_stream_oversized_frame">Ҷараёни рӯйдодҳо чорчӯбаи аз ҳад калон фиристод.</string>
+    <string name="server_error_event_stream_ended">Ҷараёни рӯйдодҳо анҷом ёфт.</string>
+    <string name="server_error_event_stream_server_failure">Ҷараёни рӯйдодҳо аз хатои сервер хабар дод.</string>
+    <string name="server_tool_failed">Абзор ноком шуд</string>
+    <string name="server_error_list_folder">Сервер натавонист муҳтавои ин папкаро рӯйхат кунад</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Бор кардани лоиҳаҳо ва сессияҳо нашуд</string>
+    <string name="server_error_load_session_family">Бор кардани гурӯҳи сессияҳои вобаста нашуд</string>
+    <string name="server_error_update_session">Навсозии сессия нашуд</string>
+    <string name="server_error_load_session_ancestry">Бор кардани занҷираи сессияҳои волидайни сессияи фаъол нашуд</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Аллакай дар ҷои дигар ҷавоб дода шудааст</string>
+    <string name="server_request_already_dismissed">Аллакай рад шудааст</string>
+    <string name="server_request_already_answered">Аллакай ҷавоб дода шудааст</string>
+    <string name="server_request_already_dismissed_elsewhere">Аллакай дар ҷои дигар рад шудааст</string>
+    <string name="server_request_no_longer_waiting">Дигар мунтазир нест</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Медиа дастрас нест</string>
+    <string name="server_pasted_text_title">Матни часпондашуда</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d сатр · %2$s</item>
+        <item quantity="other">%1$d сатр · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d сатр</item>
+        <item quantity="other">%1$d сатр</item>
+    </plurals>
+    <string name="server_file_size_zero">0 КБ</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d байт</item>
+        <item quantity="other">%1$d байт</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s КБ</string>
+    <string name="server_file_size_megabytes">%1$s МБ</string>
+    <string name="server_file_size_gigabytes">%1$s ГБ</string>
+    <string name="server_file_size_terabytes">%1$s ТБ</string>
+    <string name="server_autocomplete_folder_project">Лоиҳа</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Файл</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Ин қадамро анҷом диҳед</string>
+    <string name="server_form_required">Ҳатмӣ</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">Камаш %1$d аломат ворид кунед</item>
+        <item quantity="other">Камаш %1$d аломат ворид кунед</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">На бештар аз %1$d аломат ворид кунед</item>
+        <item quantity="other">На бештар аз %1$d аломат ворид кунед</item>
+    </plurals>
+    <string name="server_form_invalid_format">Формати нодуруст</string>
+    <string name="server_form_choose_option">Варианти дастрасро интихоб кунед</string>
+    <string name="server_form_invalid_email">Суроғаи дурусти почтаи электрониро ворид кунед</string>
+    <string name="server_form_invalid_url">URL-и дурустро ворид кунед</string>
+    <string name="server_form_invalid_date">Санаро ба шакли YYYY-MM-DD ворид кунед</string>
+    <string name="server_form_invalid_date_time">Сана ва вақти дурустро ворид кунед</string>
+    <string name="server_form_minimum">Бояд на камтар аз %1$s бошад</string>
+    <string name="server_form_maximum">Бояд на бештар аз %1$s бошад</string>
+    <string name="server_form_whole_number">Адади бутун ворид кунед</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">Камаш %1$d интихоб кунед</item>
+        <item quantity="other">Камаш %1$d интихоб кунед</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">На бештар аз %1$d интихоб кунед</item>
+        <item quantity="other">На бештар аз %1$d интихоб кунед</item>
+    </plurals>
+    <string name="server_form_invalid_value">Қимати нодуруст</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Пинҳон кардани интихобшудаҳо</string>
+    <string name="server_model_visibility_only_show">Танҳо интихобшудаҳоро нишон диҳед</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Хомӯш</string>
+    <string name="server_model_variant_extra_high">Хеле баланд</string>
+    <string name="server_model_variant_max">Ҳадди аксар</string>
+    <string name="server_delivery_steering">Роҳнамоӣ</string>
+    <string name="server_delivery_queued">Дар навбат</string>
+</resources>

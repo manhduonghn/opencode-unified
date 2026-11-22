@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">শেয়ার করা আইটেম যোগ করা যায়নি</string>
+    <string name="app_alert_open_session_failed_title">সেশন খোলা যায়নি</string>
+    <string name="app_alert_pairing_failed_title">সার্ভারের সাথে পেয়ার করা যায়নি</string>
+    <string name="app_pairing_confirm">পেয়ার করুন</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">সার্ভার</string>
+    <string name="app_servers_back_description">%1$s-এ ফিরে যান</string>
+    <string name="app_server_fallback_name">সার্ভার</string>
+    <string name="app_connection_intro_new">আপনার %1$s থেকে কোডিং সেশন চালিয়ে যান।</string>
+    <string name="app_connection_intro_returning">যেখানে থেমেছিলেন সেখান থেকে শুরু করুন, বা অন্য কম্পিউটার পেয়ার করুন।</string>
+    <string name="app_connection_enter_manually">সার্ভারের তথ্য নিজে লিখুন</string>
+    <string name="app_connection_scan_pairing_code">পেয়ারিং কোড স্ক্যান করুন</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">কম্পিউটারে OpenCode খুলে সেটিংস → পেয়ারিং-এ যান, বা টার্মিনালে opencode pair --remote চালান। তারপর এই %1$s দিয়ে কোডটি স্ক্যান করুন।</string>
+    <string name="app_setup_install_title">এখনও OpenCode নেই?</string>
+    <string name="app_setup_other_ways_to_install">ইনস্টল করার অন্য উপায়</string>
+    <string name="app_setup_terminal_title">অথবা টার্মিনালে এটি চালান</string>
+    <string name="app_setup_terminal_detail">এটি যেকোনো নেটওয়ার্ক থেকে কাজ করে।</string>
+    <string name="app_setup_paste_prompt">অথবা দেখানো লিঙ্কটি কপি করুন, তারপর</string>
+    <string name="app_setup_paste">পেস্ট করুন</string>
+    <string name="app_setup_copy_command_description">%1$s কপি করুন</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">সংযোগ করা হচ্ছে</string>
+    <string name="app_servers_edit_description">%1$s সম্পাদনা করুন</string>
+    <string name="app_servers_remove_description">%1$s সরান</string>
+    <string name="app_servers_remove_confirm_title">%1$s সরাবেন?</string>
+    <string name="app_servers_remove_confirm_message">এই %1$s থেকে ঠিকানা ও পাসওয়ার্ড মুছে যাবে। সার্ভারের সেশনগুলোতে কোনো প্রভাব পড়বে না।</string>
+    <string name="app_servers_remove_confirm">সার্ভার সরান</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">ধাপ: %1$s</string>
+    <string name="app_error_server">সার্ভার: %1$s</string>
+    <string name="app_error_attempt">চেষ্টা: %1$d</string>
+    <string name="app_error_copy_report">ত্রুটির রিপোর্ট কপি করুন</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">নতুন সার্ভার</string>
+    <string name="app_server_form_edit_title">সার্ভার সম্পাদনা করুন</string>
+    <string name="app_server_form_name">নাম</string>
+    <string name="app_server_form_address">সার্ভার ঠিকানা</string>
+    <string name="app_server_form_username">ব্যবহারকারীর নাম</string>
+    <string name="app_server_form_password">পাসওয়ার্ড (ঐচ্ছিক)</string>
+    <string name="app_server_form_hide_password_description">পাসওয়ার্ড লুকান</string>
+    <string name="app_server_form_show_password_description">পাসওয়ার্ড দেখান</string>
+    <string name="app_server_form_connect">সংযোগ করুন</string>
+    <string name="app_server_form_save_and_connect">সংরক্ষণ করে সংযোগ করুন</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">হেডার</string>
+    <string name="app_server_form_header_name">নাম</string>
+    <string name="app_server_form_header_name_description">হেডার %1$d-এর নাম</string>
+    <string name="app_server_form_header_value">মান</string>
+    <string name="app_server_form_header_value_description">হেডার %1$d-এর মান</string>
+    <string name="app_server_form_header_remove_description">হেডার %1$d সরান</string>
+    <string name="app_server_form_header_add">হেডার যোগ করুন</string>
+    <string name="app_server_form_headers_detail">সার্ভারের সামনে থাকা Cloudflare Access-এর মতো প্রক্সির জন্য প্রতিটি অনুরোধের সাথে পাঠানো হয়।</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">“%1$s” বৈধ হেডারের নাম নয়</string>
+    <string name="app_server_form_header_invalid_value">%1$s-এর মানে লাইন বিরতি থাকতে পারবে না</string>
+    <string name="app_server_form_name_placeholder">ঐচ্ছিক</string>
+    <string name="app_connection_progress_pairing">পেয়ার করা হচ্ছে</string>
+    <string name="app_connection_progress_connecting">সংযোগ করা হচ্ছে</string>
+    <string name="app_connection_progress_loading_sessions">সেশন লোড হচ্ছে</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">%1$s-এর সাথে পেয়ার করবেন?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode %1$s-এ সংযোগের চেষ্টা করবে এবং প্রথম সাড়া দেওয়া ঠিকানায় স্যুইচ করবে।</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode %1$s-এর সাথে পেয়ার করে সেটিতে স্যুইচ করবে।</string>
+    <string name="app_pairing_confirm_try_two">OpenCode %1$s ও %2$s-এ সংযোগের চেষ্টা করবে এবং যেটি আগে সাড়া দেবে সেটিতে স্যুইচ করবে।</string>
+    <string name="app_pairing_confirm_try_many">OpenCode %1$s ও %2$s-এ সংযোগের চেষ্টা করবে এবং যেটি আগে সাড়া দেবে সেটিতে স্যুইচ করবে।</string>
+    <string name="app_pairing_confirm_replaces">%1$s %2$s-এর সংরক্ষিত লগইন তথ্য বদলে যেতে পারে।</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">পেয়ার</string>
+    <string name="app_error_phase_connect">সংযোগ করুন</string>
+    <string name="app_error_phase_load_sessions">সেশন লোড করুন</string>
+    <string name="app_error_candidate_detail">বিকল্প %1$d: %2$s</string>
+    <string name="app_error_invalid_address">উপলব্ধ নয় (অবৈধ ঠিকানা)</string>
+    <string name="app_error_title_pair">পেয়ার করা যায়নি</string>
+    <string name="app_error_title_load_sessions">সেশন লোড করা যায়নি</string>
+    <string name="app_error_title_connect">%1$s-এর সাথে সংযোগ করা যায়নি</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">আপনার ক্লিপবোর্ড খালি</string>
+    <string name="app_paste_not_a_pairing_link">এটি পেয়ারিং লিঙ্ক নয়</string>
+    <string name="app_server_no_longer_saved">এই %1$s-এ সার্ভারটি আর সংরক্ষিত নেই। সেশন খুলতে আবার সংযোগ করুন।</string>
+    <string name="app_session_no_longer_available">এটি মুছে ফেলা হয়ে থাকতে পারে, অথবা সার্ভারটি উপলব্ধ নেই।</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">%1$s-এর সাথে সংযুক্ত হয়েছে</string>
+    <string name="app_pairing_invalid_code">এটি OpenCode পেয়ারিং কোড নয়। কম্পিউটারে opencode pair --remote চালান, তারপর এর QR কোড স্ক্যান করুন বা দেখানো লিঙ্ক পেস্ট করুন।</string>
+    <string name="app_pairing_unusable_address">এই পেয়ারিং কোডের “%1$s” ব্যবহার করা যায়নি: %2$s।</string>
+    <string name="app_pairing_loopback">সার্ভারটি শুধু localhost-এ সংযোগ গ্রহণ করে, তাই এই %1$s থেকে এতে সংযোগ করা যায় না। এর বদলে কম্পিউটারে opencode pair --remote চালান, যা যেকোনো নেটওয়ার্ক থেকে কাজ করে।</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">যে সার্ভারে শেয়ার করেছেন, সেটি এই ডিভাইসে আর সংরক্ষিত নেই। আবার সংযোগ করে শেয়ার করুন।</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">শেষ ব্যবহার</string>
+    <string name="app_server_form_hint_new">পেয়ার করতে `opencode pair --remote` চালিয়ে পাওয়া লিঙ্ক পেস্ট করুন, অথবা আপনার OpenCode সার্ভারের ঠিকানা ও পাসওয়ার্ড ব্যবহার করুন। ব্যবহারকারীর নাম সাধারণত opencode।</string>
+    <string name="app_server_form_hint_edit_paired">এই সার্ভারে সংযোগ হলেই পরিবর্তন সংরক্ষিত হবে। সার্ভারটি পেয়ার করা হয়েছিল, তাই এর পাসওয়ার্ড একটি সেশন টোকেন; এটি না বদলে নতুন পেয়ারিং কোড স্ক্যান করুন।</string>
+    <string name="app_server_form_hint_edit">এই সার্ভারে সংযোগ হলেই পরিবর্তন সংরক্ষিত হবে।</string>
+</resources>

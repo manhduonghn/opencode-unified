@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">รูปภาพ</string>
+    <string name="media_image_load_failed">โหลดรูปภาพไม่ได้</string>
+    <string name="media_unavailable">สื่อไม่พร้อมใช้งาน</string>
+    <string name="media_try_again_label">ลองอีกครั้ง</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">ตัวดูสื่อ</string>
+    <string name="media_viewer_save_to_photos_description">บันทึกลงในรูปถ่าย</string>
+    <string name="media_file_viewer_screen_title">ตัวดูไฟล์</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d จาก %3$d</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">วาดบนรูปภาพ</string>
+    <string name="media_drawing_undo_description">เลิกทำ</string>
+    <string name="media_drawing_add_to_prompt_description">เพิ่มในพรอมต์</string>
+    <string name="media_drawing_canvas_description">พื้นที่วาดภาพ</string>
+    <string name="media_drawing_discard_title">ทิ้งภาพวาดไหม?</string>
+    <string name="media_drawing_discard_confirm">ทิ้งภาพวาด</string>
+    <string name="media_drawing_keep">วาดต่อ</string>
+    <string name="media_drawing_add_failed_title">เพิ่มภาพวาดไม่ได้</string>
+    <string name="media_drawing_flatten_failed">สร้างรูปภาพไม่ได้ ลองอีกครั้ง</string>
+    <string name="media_drawing_prompt_unavailable">ตอนนี้ข้อความของเซสชันนี้ยังเพิ่มไฟล์แนบไม่ได้</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">ขาว</string>
+    <string name="media_drawing_ink_black">ดำ</string>
+    <string name="media_drawing_ink_red">แดง</string>
+    <string name="media_drawing_ink_yellow">เหลือง</string>
+    <string name="media_drawing_ink_green">เขียว</string>
+    <string name="media_drawing_ink_blue">น้ำเงิน</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">ซูมเข้าแล้ว</string>
+    <string name="media_zoom_out_label">ซูมออก</string>
+    <string name="media_zoom_in_label">ซูมเข้า</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">หยุดชั่วคราว</string>
+    <string name="media_player_play">เล่น</string>
+    <string name="media_player_position_description">ตำแหน่งการเล่น</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">เล่นวิดีโอไม่ได้</string>
+    <string name="media_video_position_description">ตำแหน่งวิดีโอ</string>
+    <string name="media_video_capture_failed_title">จับภาพเฟรมไม่ได้</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">แสดงตัวอย่าง</string>
+    <string name="media_file_show_source_description">แสดงต้นฉบับ</string>
+    <string name="media_file_unwrap_lines_description">ไม่ตัดบรรทัด</string>
+    <string name="media_file_wrap_lines_description">ตัดบรรทัด</string>
+    <string name="media_file_start_pip_description">เริ่มแสดงภาพซ้อนภาพ</string>
+    <string name="media_file_opening">กำลังเปิด…</string>
+    <string name="media_file_share_failed_title">แชร์ไฟล์ไม่ได้</string>
+    <string name="media_file_share_downloading_description">กำลังดาวน์โหลดเพื่อแชร์</string>
+    <string name="media_file_confirm_large_message">ไฟล์นี้มีขนาด %1$s ต้องการดาวน์โหลดเพื่อดูบนอุปกรณ์นี้ไหม?</string>
+    <string name="media_file_download">ดาวน์โหลด</string>
+    <string name="media_file_open_in_another_app">เปิดในแอปอื่น</string>
+    <string name="media_file_no_app_message">ไม่มีแอปบนอุปกรณ์นี้ที่เปิดไฟล์นี้ได้ แชร์ไฟล์เพื่อบันทึกหรือส่งไปที่อื่น</string>
+    <string name="media_file_pdf_page_description">หน้า %1$d จาก %2$d</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">ไม่พบไฟล์</string>
+    <string name="media_file_error_open_failed_title">เปิดไฟล์ไม่ได้</string>
+    <string name="media_file_error_unreadable">อ่านพาธนี้จากเซิร์ฟเวอร์ไม่ได้</string>
+    <string name="media_file_error_not_found">ไฟล์อาจถูกย้ายหรือลบไปแล้ว</string>
+    <string name="media_file_error_unauthorized">เซิร์ฟเวอร์ไม่ยอมรับรหัสผ่านของอุปกรณ์นี้</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">เซิร์ฟเวอร์อ่านไม่ได้ (HTTP %1$d) รายการนี้อาจเป็นโฟลเดอร์</string>
+    <string name="media_file_error_timed_out">คำขอหมดเวลา</string>
+    <string name="media_file_error_unexpected_response">เซิร์ฟเวอร์ส่งคำตอบที่ไม่คาดคิด</string>
+    <string name="media_file_error_over_limit">ไฟล์มีขนาดเกินขีดจำกัดการดาวน์โหลด</string>
+    <string name="media_file_error_size_unknown">เซิร์ฟเวอร์ไม่ได้แจ้งขนาดไฟล์แนบ</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">กำลังดาวน์โหลด…</string>
+    <string name="media_file_downloading_size">กำลังดาวน์โหลด %1$s</string>
+    <string name="media_file_downloading_progress">กำลังดาวน์โหลด %1$s จาก %2$s</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">ศูนย์ KB</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="other">%1$d ไบต์</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s KB</string>
+    <string name="media_file_size_megabytes">%1$s MB</string>
+    <string name="media_file_size_gigabytes">%1$s GB</string>
+    <string name="media_file_size_terabytes">%1$s TB</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">ไม่พบ</string>
+    <string name="media_image_load_label">โหลดรูปภาพ</string>
+    <string name="media_image_loading_state">กำลังโหลด</string>
+    <string name="media_image_open_label">เปิดรูปภาพ</string>
+    <string name="media_image_tap_to_load">แตะเพื่อโหลด</string>
+    <string name="media_image_outside_project_value">อยู่นอกโปรเจกต์</string>
+    <string name="media_image_deferred_low_data_value">เลื่อนการโหลดไว้เพราะเปิดโหมดประหยัดข้อมูล</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">เปิด %1$s</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">กลับไปที่เซสชัน</string>
+    <string name="media_browser_ask_description">ถามเกี่ยวกับหน้านี้</string>
+    <string name="media_browser_forward_description">ไปข้างหน้า</string>
+    <string name="media_browser_open_in_browser_description">เปิดในเบราว์เซอร์</string>
+    <string name="media_browser_scroll_to_top_label">เลื่อนไปด้านบนของหน้า</string>
+    <string name="media_browser_ask_placeholder">ถามเกี่ยวกับหน้านี้</string>
+    <string name="media_browser_reply_needs_input">ต้องการคำตอบจากคุณ</string>
+    <string name="media_browser_reply_working">การทำงาน</string>
+    <string name="media_browser_go_back_to_session_label">กลับไปที่เซสชัน</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">คำตอบพร้อมแล้ว</string>
+    <string name="media_browser_reply_back_to_read">· กลับไปอ่าน</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">เซสชัน</string>
+    <string name="media_link_open_in_app_browser">เปิดในเบราว์เซอร์ในแอป</string>
+    <string name="media_link_open_in_browser">เปิดในเบราว์เซอร์</string>
+    <string name="media_link_open_in_app">เปิดในแอป</string>
+    <string name="media_link_copy">คัดลอกลิงก์</string>
+    <string name="media_link_share">แชร์…</string>
+    <string name="media_link_open_session">เปิดเซสชัน</string>
+    <string name="media_link_copy_session_id">คัดลอก ID</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">คัดลอก ID ของ %1$s</string>
+    <string name="media_link_open_session_named_description">เปิดเซสชัน %1$s</string>
+    <string name="media_link_open_host_in_app_browser_description">เปิด %1$s ในเบราว์เซอร์ในแอป</string>
+    <string name="media_link_open_host_in_browser_description">เปิด %1$s ในเบราว์เซอร์</string>
+    <string name="media_link_open_host_in_app_description">เปิด %1$s ในแอป</string>
+    <string name="media_link_copy_host_description">คัดลอกลิงก์ไปยัง %1$s</string>
+    <string name="media_link_share_host_description">แชร์ลิงก์ไปยัง %1$s</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%1$s บน %2$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s ลิงก์ที่ %2$d</string>
+    <string name="media_link_more_links_description">ลิงก์เพิ่มเติม</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">วิดีโอ</string>
+    <string name="media_link_preview_post">โพสต์</string>
+    <string name="media_link_preview_post_unavailable">โพสต์ไม่พร้อมใช้งาน</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">รีโพซิทอรี</string>
+    <string name="media_github_kind_issue">อิสซู</string>
+    <string name="media_github_kind_pull_request">พูลรีเควสต์</string>
+    <string name="media_github_kind_commit">คอมมิต</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">เปิด</string>
+    <string name="media_github_state_closed">ปิดแล้ว</string>
+    <string name="media_github_state_merged">รวมแล้ว</string>
+    <string name="media_github_state_draft">ฉบับร่าง</string>
+    <string name="media_github_state_completed">เสร็จแล้ว</string>
+    <string name="media_github_state_not_planned">ไม่มีแผนดำเนินการ</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">แผนภาพ, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">ตัวดูแผนภาพ</string>
+    <string name="media_mermaid_diagram_description">แผนภาพ</string>
+    <string name="media_mermaid_loading_state">%1$s, กำลังโหลด</string>
+    <string name="media_mermaid_view_source">แสดงต้นฉบับ</string>
+    <string name="media_mermaid_source_title">ต้นฉบับแผนภาพ</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">ผังงาน</string>
+    <string name="media_mermaid_type_sequence">แผนภาพลำดับ</string>
+    <string name="media_mermaid_type_class">แผนภาพคลาส</string>
+    <string name="media_mermaid_type_state">แผนภาพสถานะ</string>
+    <string name="media_mermaid_type_entity_relationship">แผนภาพความสัมพันธ์ระหว่างเอนทิตี</string>
+    <string name="media_mermaid_type_user_journey">เส้นทางผู้ใช้</string>
+    <string name="media_mermaid_type_gantt">แผนภูมิแกนต์</string>
+    <string name="media_mermaid_type_pie">แผนภูมิวงกลม</string>
+    <string name="media_mermaid_type_quadrant">แผนภูมิสี่ส่วน</string>
+    <string name="media_mermaid_type_requirement">แผนภาพข้อกำหนด</string>
+    <string name="media_mermaid_type_git_graph">กราฟ Git</string>
+    <string name="media_mermaid_type_c4">แผนภาพ C4</string>
+    <string name="media_mermaid_type_mind_map">แผนผังความคิด</string>
+    <string name="media_mermaid_type_timeline">ไทม์ไลน์</string>
+    <string name="media_mermaid_type_sankey">แผนภาพแซงกี</string>
+    <string name="media_mermaid_type_xy_chart">แผนภูมิ XY</string>
+    <string name="media_mermaid_type_block">แผนภาพบล็อก</string>
+    <string name="media_mermaid_type_packet">แผนภาพแพ็กเก็ต</string>
+    <string name="media_mermaid_type_kanban">บอร์ดคัมบัง</string>
+    <string name="media_mermaid_type_architecture">แผนภาพสถาปัตยกรรม</string>
+    <string name="media_mermaid_type_radar">แผนภูมิเรดาร์</string>
+    <string name="media_mermaid_type_treemap">แผนภูมิทรีแมป</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

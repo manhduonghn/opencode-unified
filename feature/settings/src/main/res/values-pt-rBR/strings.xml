@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Appearance -->
+    <string name="settings_appearance_title">Aparência</string>
+    <string name="settings_appearance_mode_header">Modo</string>
+    <string name="settings_appearance_theme">Tema</string>
+
+    <!-- Appearance › Themes -->
+    <string name="settings_themes_title">Temas</string>
+    <string name="settings_themes_preview_description">Prévia da transcrição</string>
+    <string name="settings_themes_preview_user_message">Me ajude a melhorar a tela da sessão. Mostre o que encontrar e explique as mudanças.</string>
+    <string name="settings_themes_preview_reply">Encontrei o problema de layout em %1$s. A transcrição e o editor de mensagens dividem a altura disponível, então o teclado é um bom teste de limite.</string>
+
+    <!-- Language -->
+    <string name="settings_language_title">Idioma</string>
+    <string name="settings_language_system_default">Padrão do sistema</string>
+    <string name="settings_language_search_placeholder">Buscar idiomas</string>
+    <string name="settings_language_suggested_header">Sugerido</string>
+    <string name="settings_language_all_header">Todos os idiomas</string>
+    <string name="settings_language_no_matches">Nenhum idioma correspondente</string>
+
+    <!-- Experimental -->
+    <string name="settings_experimental_title">Experimental</string>
+    <string name="settings_experimental_all_footer">Também ativa novos experimentos, exceto os que veem sua tela ou escutam em segundo plano.</string>
+    <string name="settings_experimental_all">Todos os experimentos</string>
+    <string name="settings_experimental_all_on">Todos ativados</string>
+    <plurals name="settings_experimental_on_count">
+        <item quantity="one">%d ativado</item>
+        <item quantity="many">%d ativados</item>
+        <item quantity="other">%d ativados</item>
+    </plurals>
+
+    <!-- Models -->
+    <string name="settings_models_title">Modelos</string>
+    <string name="settings_models_mode_hide">Esconder</string>
+    <string name="settings_models_mode_only_show">Mostrar apenas</string>
+    <string name="settings_models_mode_hide_footer">Desative os modelos que você não usa.</string>
+    <string name="settings_models_mode_only_show_footer">Ative apenas os modelos que você usa.</string>
+    <string name="settings_models_providers_header">Provedores</string>
+    <string name="settings_models_stale_header">Não mais oferecidos</string>
+    <string name="settings_models_forget_unavailable">Esquecer modelos indisponíveis</string>
+    <string name="settings_models_show_every_model">Mostrar todos os modelos</string>
+    <string name="settings_models_load_failed_title">Não foi possível carregar os modelos</string>
+    <string name="settings_models_summary_hidden">Escondidos</string>
+    <string name="settings_models_summary_all">Todos</string>
+    <string name="settings_models_summary_count">%1$d de %2$d</string>
+
+    <!-- Models › Provider -->
+    <string name="settings_models_search_placeholder">Buscar modelos</string>
+    <string name="settings_models_show_provider">Mostrar %1$s</string>
+
+    <!-- Notifications -->
+    <string name="settings_notifications_title">Notificações</string>
+    <string name="settings_notifications_device_header">Este %1$s</string>
+    <string name="settings_notifications_device_footer">As notificações passam por um intermediário que não armazena nada. Só sessões iniciadas neste %1$s enviam notificações para ele.</string>
+    <string name="settings_notifications_allow">Permitir notificações</string>
+    <string name="settings_notifications_open_android_settings">Abrir configurações do Android</string>
+    <string name="settings_notifications_turn_on">Ativar notificações</string>
+    <string name="settings_notifications_server_header">Servidor</string>
+    <string name="settings_notifications_set_up_footer">Abre uma sessão com um pedido para o OpenCode instalar o plugin. Envie o pedido e verifique novamente.</string>
+    <string name="settings_notifications_plugin_needed_footer">O servidor precisa do plugin notify do OpenCode.</string>
+    <string name="settings_notifications_notify_plugin">Plugin notify</string>
+    <string name="settings_notifications_plugin_installed">Instalado</string>
+    <string name="settings_notifications_plugin_not_running">Não está em execução</string>
+    <string name="settings_notifications_plugin_not_installed">Não instalado</string>
+    <string name="settings_notifications_plugin_check_failed">Não foi possível verificar o status</string>
+    <string name="settings_notifications_set_up">Configurar com o OpenCode</string>
+    <string name="settings_notifications_check_again">Verificar novamente</string>
+    <string name="settings_notifications_in_app_footer">Exibidos no botão do painel lateral.</string>
+    <string name="settings_notifications_in_app_notices">Avisos no app</string>
+
+    <!-- Sessions -->
+    <string name="settings_sessions_title">Sessões</string>
+    <string name="settings_sessions_composer_header">Editor de mensagens</string>
+    <string name="settings_sessions_return_key_sends">Enviar com a tecla Enter</string>
+    <string name="settings_sessions_new_sessions_header">Novas sessões</string>
+    <string name="settings_sessions_server_default">Padrão do servidor</string>
+    <string name="settings_sessions_default_agent">Agente padrão</string>
+
+    <!-- Shared values -->
+    <string name="settings_value_on">Ativado</string>
+    <string name="settings_value_off">Desativado</string>
+
+    <!-- Sound Effects -->
+    <string name="settings_sound_effects_volume">Volume</string>
+    <string name="settings_sound_effects_volume_description">Volume dos efeitos sonoros</string>
+    <string name="settings_sound_effects_send_sound">Som de envio</string>
+
+    <!-- Voice › Delegator -->
+    <string name="settings_delegator_title">Delegador</string>
+    <string name="settings_delegator_other_server_note">“%1$s” está em outro servidor. Escolha uma opção neste servidor ou troque de servidor.</string>
+    <string name="settings_delegator_mode_footer">O modo integrado usa a OpenAI, sem uma sessão. O modo Sessão do OpenCode funciona em uma sessão no seu servidor.</string>
+    <string name="settings_delegator_built_in">Integrado</string>
+    <string name="settings_delegator_opencode_session">Sessão do OpenCode</string>
+    <string name="settings_delegator_target_header">Sessão de destino</string>
+    <string name="settings_delegator_target_footer">Automático usa uma sessão “Voz” neste servidor. Sessão em exibição usa a que está na tela.</string>
+    <string name="settings_delegator_automatic">Automático</string>
+    <string name="settings_delegator_viewed_session">Sessão em exibição</string>
+    <string name="settings_delegator_search_placeholder">Buscar sessões</string>
+    <string name="settings_delegator_sessions_header">Escolha uma sessão</string>
+    <string name="settings_delegator_sessions_footer">A sessão escolhida mantém seu modelo.</string>
+    <string name="settings_delegator_no_sessions">Nenhuma sessão neste servidor</string>
+    <string name="settings_delegator_no_matching_sessions">Nenhuma sessão correspondente</string>
+    <string name="settings_delegator_new_session">Nova sessão</string>
+    <string name="settings_delegator_direct">Direto</string>
+    <string name="settings_delegator_direct_session_unavailable">Direto · Sessão indisponível</string>
+    <string name="settings_delegator_another_server">%1$s · Outro servidor</string>
+
+    <!-- Voice › Key Editor -->
+    <string name="settings_voice_key_hide_description">Esconder chave</string>
+    <string name="settings_voice_key_show_description">Mostrar chave</string>
+    <string name="settings_voice_key_verify">Verificar</string>
+
+    <!-- Voice › Voice Provider -->
+    <string name="settings_voice_provider_title">Provedor de voz</string>
+    <string name="settings_voice_provider_place">Em %1$s</string>
+    <string name="settings_voice_api_key_title">Chave de API</string>
+    <string name="settings_voice_provider_automatic_footer">Quando %1$s não está pronto, as chamadas usam um provedor disponível.</string>
+    <string name="settings_voice_provider_choose_automatically">Escolher automaticamente</string>
+    <string name="settings_voice_provider_others_header">Outros provedores</string>
+    <string name="settings_voice_provider_use_description">Usar %1$s</string>
+    <string name="settings_voice_provider_use">Usar</string>
+    <string name="settings_voice_provider_set_up">Configurar</string>
+    <plurals name="settings_voice_provider_not_available_count">
+        <item quantity="one">%d indisponível</item>
+        <item quantity="many">%d indisponíveis</item>
+        <item quantity="other">%d indisponíveis</item>
+    </plurals>
+
+    <!-- Voice › API Key -->
+    <string name="settings_voice_account_title">Sua conta OpenAI</string>
+    <string name="settings_voice_account_place">Neste celular</string>
+    <string name="settings_voice_account_key_footer">As chamadas usam sua conta OpenAI em vez de um servidor.</string>
+    <string name="settings_voice_account_use_for_calls">Usar nas chamadas</string>
+
+    <!-- Voice -->
+    <string name="settings_voice_title">Voz</string>
+    <string name="settings_voice_call_setup_header">Configuração de chamadas</string>
+    <string name="settings_voice_calls_header">Chamadas</string>
+    <string name="settings_voice_raise_to_talk_hint">Ative ou desative o início de chamadas pelo auricular ao levar o celular à orelha durante uma sessão</string>
+    <string name="settings_voice_enable">Ativar voz</string>
+    <string name="settings_voice_model">Modelo</string>
+    <string name="settings_voice_model_description">Modelo de voz</string>
+    <string name="settings_voice_call_voice">Voz</string>
+    <string name="settings_voice_raise_to_talk">Elevar para falar</string>
+    <string name="settings_voice_call_sounds">Sons de chamada</string>
+    <string name="settings_voice_call_history">Histórico de chamadas</string>
+    <string name="settings_voice_edit_key_label">Editar sua chave de API de %1$s</string>
+    <string name="settings_voice_key_verified">Verificada</string>
+    <string name="settings_voice_key_checking">Verificando…</string>
+    <string name="settings_voice_key_saved">Salva</string>
+    <string name="settings_voice_key_missing">Ausente</string>
+    <string name="settings_voice_preview_disabled_hint">Adicione sua chave de %1$s para ouvir as vozes</string>
+
+    <!-- Voice › Voice Picker -->
+    <string name="settings_voice_picker_add_key_footer">Adicione sua chave de %1$s para ouvir as vozes.</string>
+    <string name="settings_voice_picker_unavailable_footer">%1$s não está disponível em %2$s, então as chamadas usam %3$s.</string>
+    <string name="settings_voice_stop_preview_description">Parar prévia de %1$s</string>
+    <string name="settings_voice_preview_description">Ouvir %1$s</string>
+    <string name="settings_voice_preview_playing">Reproduzindo</string>
+    <string name="settings_voice_call_voice_unavailable">%1$s · %2$s indisponível</string>
+
+    <!-- Settings root -->
+    <string name="settings_whats_new_title">Novidades</string>
+    <string name="settings_developer_title">Desenvolvedor</string>
+    <string name="settings_app_version">Versão %1$s (%2$s)</string>
+    <string name="settings_app_version_commit">Versão %1$s (%2$s) · %3$s</string>
+
+    <!-- Connection card -->
+    <string name="settings_connection_show_server_label">Mostrar o servidor</string>
+    <string name="settings_connection_milliseconds">%1$d ms</string>
+    <string name="settings_connection_card_value_description">%1$s, %2$s, %3$s</string>
+    <string name="settings_connection_status_connected">Conectado</string>
+    <string name="settings_connection_status_slow">Lento</string>
+    <string name="settings_connection_status_unstable">Instável</string>
+    <string name="settings_connection_status_reconnecting">Reconectando</string>
+    <string name="settings_connection_status_offline">Sem conexão</string>
+    <string name="settings_connection_status_sign_in_failed">Falha ao entrar</string>
+    <string name="settings_connection_status_switching">Alternando</string>
+    <string name="settings_connection_status_switching_to">Alternando para %1$s</string>
+    <string name="settings_connection_status_code">%1$s · %2$d</string>
+    <string name="settings_connection_status_http_description">%1$s, HTTP %2$d</string>
+    <plurals name="settings_connection_status_milliseconds_description">
+        <item quantity="one">%1$s, %2$d milissegundo</item>
+        <item quantity="many">%1$s, %2$d milissegundos</item>
+        <item quantity="other">%1$s, %2$d milissegundos</item>
+    </plurals>
+
+    <!-- Server page -->
+    <string name="settings_server_title">Servidor</string>
+    <string name="settings_server_address">Endereço</string>
+    <string name="settings_server_connection">Conexão</string>
+    <string name="settings_server_version">Versão</string>
+    <string name="settings_server_edit_server">Editar servidor…</string>
+    <string name="settings_server_rename_server_ellipsis">Renomear servidor…</string>
+    <string name="settings_server_rename_title">Renomear servidor</string>
+    <string name="settings_server_rename_message">Só este %1$s usa o nome. Deixe em branco para usar “%2$s”.</string>
+    <string name="settings_server_status">Status</string>
+    <string name="settings_server_status_milliseconds">%1$s · %2$d ms</string>
+
+    <!-- Servers section -->
+    <string name="settings_servers_header">Servidores</string>
+    <string name="settings_servers_edit_server">Editar %1$s…</string>
+    <string name="settings_servers_rename_message">Só este %1$s usa o nome. Deixe em branco para usar o nome do computador.</string>
+    <string name="settings_servers_remove_title">Remover %1$s?</string>
+    <string name="settings_servers_remove_message">Isso apaga o endereço e a senha neste %1$s. As sessões no servidor não são afetadas.</string>
+    <string name="settings_servers_remove_server">Remover servidor</string>
+    <string name="settings_servers_current_server_state">Servidor atual, %1$s</string>
+    <string name="settings_servers_switch_label">Alternar para este servidor</string>
+    <string name="settings_servers_options_description">Opções de %1$s</string>
+    <string name="settings_servers_rename_menu">Renomear…</string>
+    <string name="settings_servers_edit_menu">Editar…</string>
+    <string name="settings_servers_remove_menu">Remover…</string>
+    <string name="settings_servers_add_server">Adicionar servidor</string>
+    <string name="settings_servers_scan_pairing_code">Digitalizar código de emparelhamento</string>
+    <string name="settings_servers_enter_address">Digitar endereço</string>
+
+    <!-- Pairing scanner -->
+    <string name="settings_pairing_paste">Colar</string>
+    <string name="settings_pairing_no_camera_title">Nenhuma câmera disponível</string>
+    <string name="settings_pairing_no_camera_message">Copie o link que `opencode pair` exibe no computador e cole aqui.</string>
+    <string name="settings_pairing_camera_off_title">Acesso à câmera desativado</string>
+    <string name="settings_pairing_camera_off_message">Permita o acesso à câmera nas configurações para digitalizar o código QR ou cole o link que `opencode pair` exibe.</string>
+    <string name="settings_pairing_nothing_to_paste_title">Nada para colar</string>
+    <string name="settings_pairing_nothing_to_paste_message">Não há link de emparelhamento na área de transferência. Copie o link que opencode pair exibe e tente novamente.</string>
+    <string name="settings_pairing_point_camera">Aponte a câmera para o código QR</string>
+    <string name="settings_pairing_paste_link">Colar link de emparelhamento</string>
+    <string name="settings_pairing_computer_hint">No computador, abra Configurações → Emparelhamento no OpenCode ou execute %1$s em um terminal.</string>
+</resources>

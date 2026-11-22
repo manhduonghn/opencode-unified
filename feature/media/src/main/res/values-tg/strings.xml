@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">Тасвир</string>
+    <string name="media_image_load_failed">Бор кардани тасвир нашуд</string>
+    <string name="media_unavailable">Медиа дастрас нест</string>
+    <string name="media_try_again_label">Аз нав кӯшиш кунед</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">Намоишгари медиа</string>
+    <string name="media_viewer_save_to_photos_description">Дар аксҳо захира кунед</string>
+    <string name="media_file_viewer_screen_title">Намоишгари файл</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d аз %3$d</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">Расм кашидан дар тасвир</string>
+    <string name="media_drawing_undo_description">Бекор кардан</string>
+    <string name="media_drawing_add_to_prompt_description">Ба промпт илова кунед</string>
+    <string name="media_drawing_canvas_description">Майдони расмкашӣ</string>
+    <string name="media_drawing_discard_title">Расмро бекор мекунед?</string>
+    <string name="media_drawing_discard_confirm">Бекор кардани расм</string>
+    <string name="media_drawing_keep">Расмкаширо идома диҳед</string>
+    <string name="media_drawing_add_failed_title">Расм илова нашуд</string>
+    <string name="media_drawing_flatten_failed">Тасвир сохта нашуд. Аз нав кӯшиш кунед.</string>
+    <string name="media_drawing_prompt_unavailable">Ба паёми ин сессия ҳоло замима илова кардан мумкин нест.</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">Сафед</string>
+    <string name="media_drawing_ink_black">Сиёҳ</string>
+    <string name="media_drawing_ink_red">Сурх</string>
+    <string name="media_drawing_ink_yellow">Зард</string>
+    <string name="media_drawing_ink_green">Сабз</string>
+    <string name="media_drawing_ink_blue">Кабуд</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">Калон карда шудааст</string>
+    <string name="media_zoom_out_label">Хурд кунед</string>
+    <string name="media_zoom_in_label">Калон кунед</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">Таваққуф</string>
+    <string name="media_player_play">Пахш кунед</string>
+    <string name="media_player_position_description">Мавқеи пахш</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">Видео пахш нашуд</string>
+    <string name="media_video_position_description">Мавқеи видео</string>
+    <string name="media_video_capture_failed_title">Кадр гирифта нашуд</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">Пешнамоишро нишон диҳед</string>
+    <string name="media_file_show_source_description">Матни аслиро нишон диҳед</string>
+    <string name="media_file_unwrap_lines_description">Сатрҳоро нашиканед</string>
+    <string name="media_file_wrap_lines_description">Сатрҳоро шиканед</string>
+    <string name="media_file_start_pip_description">Тасвир дар тасвирро оғоз кунед</string>
+    <string name="media_file_opening">Кушода мешавад…</string>
+    <string name="media_file_share_failed_title">Мубодилаи файл нашуд</string>
+    <string name="media_file_share_downloading_description">Барои мубодила боргирӣ мешавад</string>
+    <string name="media_file_confirm_large_message">Ҳаҷми ин файл %1$s аст. Барои дидан дар ин дастгоҳ боргирӣ мекунед?</string>
+    <string name="media_file_download">Боргирӣ кунед</string>
+    <string name="media_file_open_in_another_app">Дар барномаи дигар кушоед</string>
+    <string name="media_file_no_app_message">Ҳеҷ барнома дар ин дастгоҳ ин файлро кушода наметавонад. Барои захира кардан ё ба ҷои дигар фиристодан, онро мубодила кунед.</string>
+    <string name="media_file_pdf_page_description">Саҳифаи %1$d аз %2$d</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">Файл ёфт нашуд</string>
+    <string name="media_file_error_open_failed_title">Кушодани файл нашуд</string>
+    <string name="media_file_error_unreadable">Ин роҳро аз сервер хондан намешавад.</string>
+    <string name="media_file_error_not_found">Шояд он кӯчонида ё нест карда шудааст.</string>
+    <string name="media_file_error_unauthorized">Сервер пароли ин дастгоҳро қабул накард.</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">Сервер онро хонда натавонист (HTTP %1$d). Шояд ин папка бошад.</string>
+    <string name="media_file_error_timed_out">Муҳлати дархост гузашт.</string>
+    <string name="media_file_error_unexpected_response">Сервер ҷавоби ғайричашмдошт фиристод.</string>
+    <string name="media_file_error_over_limit">Файл аз ҳадди андозаи боргирӣ зиёд аст.</string>
+    <string name="media_file_error_size_unknown">Сервер андозаи замимаро нишон надод.</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">Боргирӣ мешавад…</string>
+    <string name="media_file_downloading_size">%1$s боргирӣ мешавад</string>
+    <string name="media_file_downloading_progress">%1$s аз %2$s боргирӣ мешавад</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">0 КБ</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="one">%1$d байт</item>
+        <item quantity="other">%1$d байт</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s КБ</string>
+    <string name="media_file_size_megabytes">%1$s МБ</string>
+    <string name="media_file_size_gigabytes">%1$s ГБ</string>
+    <string name="media_file_size_terabytes">%1$s ТБ</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">Ёфт нашуд</string>
+    <string name="media_image_load_label">Тасвирро бор кунед</string>
+    <string name="media_image_loading_state">Бор карда мешавад</string>
+    <string name="media_image_open_label">Тасвирро кушоед</string>
+    <string name="media_image_tap_to_load">Барои бор кардан ламс кунед</string>
+    <string name="media_image_outside_project_value">Берун аз лоиҳа</string>
+    <string name="media_image_deferred_low_data_value">Барои сарфаи трафик ба таъхир гузошта шуд</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">%1$s-ро кушоед</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">Бозгашт ба сессия</string>
+    <string name="media_browser_ask_description">Дар бораи ин саҳифа пурсед</string>
+    <string name="media_browser_forward_description">Ба пеш</string>
+    <string name="media_browser_open_in_browser_description">Дар браузер кушоед</string>
+    <string name="media_browser_scroll_to_top_label">Ба болои саҳифа гузаред</string>
+    <string name="media_browser_ask_placeholder">Дар бораи ин саҳифа пурсед</string>
+    <string name="media_browser_reply_needs_input">Ба посухи шумо ниёз дорад</string>
+    <string name="media_browser_reply_working">Кор карда истодааст</string>
+    <string name="media_browser_go_back_to_session_label">Ба сессия баргардед</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">Ҷавоб омода</string>
+    <string name="media_browser_reply_back_to_read">· Барои хондан баргардед</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">Сессия</string>
+    <string name="media_link_open_in_app_browser">Дар браузери дохили барнома кушоед</string>
+    <string name="media_link_open_in_browser">Дар браузер кушоед</string>
+    <string name="media_link_open_in_app">Дар барнома кушоед</string>
+    <string name="media_link_copy">Истиноди нусхабардорӣ</string>
+    <string name="media_link_share">Мубодила…</string>
+    <string name="media_link_open_session">Сессияро кушоед</string>
+    <string name="media_link_copy_session_id">Нусхабардории ID</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">ID-и %1$s-ро нусхабардорӣ кунед</string>
+    <string name="media_link_open_session_named_description">Сессияи %1$s-ро кушоед</string>
+    <string name="media_link_open_host_in_app_browser_description">%1$s-ро дар браузери дохили барнома кушоед</string>
+    <string name="media_link_open_host_in_browser_description">%1$s-ро дар браузер кушоед</string>
+    <string name="media_link_open_host_in_app_description">%1$s-ро дар барнома кушоед</string>
+    <string name="media_link_copy_host_description">Истинод ба %1$s-ро нусхабардорӣ кунед</string>
+    <string name="media_link_share_host_description">Истинод ба %1$s-ро мубодила кунед</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%1$s дар %2$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s, истиноди %2$d</string>
+    <string name="media_link_more_links_description">Истинодҳои бештар</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">Видео</string>
+    <string name="media_link_preview_post">Навишта</string>
+    <string name="media_link_preview_post_unavailable">Навишта дастрас нест</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">Анбор</string>
+    <string name="media_github_kind_issue">Масъала</string>
+    <string name="media_github_kind_pull_request">Дархости ҳамроҳкунӣ</string>
+    <string name="media_github_kind_commit">Коммит</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">Кушода</string>
+    <string name="media_github_state_closed">Баста</string>
+    <string name="media_github_state_merged">Ҳамроҳшуда</string>
+    <string name="media_github_state_draft">Пешнавис</string>
+    <string name="media_github_state_completed">Анҷом ёфт</string>
+    <string name="media_github_state_not_planned">Дар нақша нест</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">Диаграмма, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">Намоишгари диаграмма</string>
+    <string name="media_mermaid_diagram_description">Диаграмма</string>
+    <string name="media_mermaid_loading_state">%1$s, бор карда мешавад</string>
+    <string name="media_mermaid_view_source">Матни аслиро нишон диҳед</string>
+    <string name="media_mermaid_source_title">Матни аслии диаграмма</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">Нақшаи ҷараён</string>
+    <string name="media_mermaid_type_sequence">Диаграммаи пайдарпайӣ</string>
+    <string name="media_mermaid_type_class">Диаграммаи синфҳо</string>
+    <string name="media_mermaid_type_state">Диаграммаи ҳолатҳо</string>
+    <string name="media_mermaid_type_entity_relationship">Диаграммаи робитаи мавҷудиятҳо</string>
+    <string name="media_mermaid_type_user_journey">Масири корбар</string>
+    <string name="media_mermaid_type_gantt">Диаграммаи Гант</string>
+    <string name="media_mermaid_type_pie">Диаграммаи доиравӣ</string>
+    <string name="media_mermaid_type_quadrant">Диаграммаи чорқисмӣ</string>
+    <string name="media_mermaid_type_requirement">Диаграммаи талабот</string>
+    <string name="media_mermaid_type_git_graph">Графи Git</string>
+    <string name="media_mermaid_type_c4">Диаграммаи C4</string>
+    <string name="media_mermaid_type_mind_map">Харитаи фикрҳо</string>
+    <string name="media_mermaid_type_timeline">Ҷадвали вақт</string>
+    <string name="media_mermaid_type_sankey">Диаграммаи Санкей</string>
+    <string name="media_mermaid_type_xy_chart">Диаграммаи XY</string>
+    <string name="media_mermaid_type_block">Диаграммаи блокҳо</string>
+    <string name="media_mermaid_type_packet">Диаграммаи бастаҳо</string>
+    <string name="media_mermaid_type_kanban">Тахтаи канбан</string>
+    <string name="media_mermaid_type_architecture">Диаграммаи меъморӣ</string>
+    <string name="media_mermaid_type_radar">Диаграммаи радарӣ</string>
+    <string name="media_mermaid_type_treemap">Харитаи дарахтӣ</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

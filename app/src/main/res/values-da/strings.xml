@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Kunne ikke tilføje delte elementer</string>
+    <string name="app_alert_open_session_failed_title">Kunne ikke åbne sessionen</string>
+    <string name="app_alert_pairing_failed_title">Kunne ikke parre med serveren</string>
+    <string name="app_pairing_confirm">Par</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Servere</string>
+    <string name="app_servers_back_description">Tilbage til %1$s</string>
+    <string name="app_server_fallback_name">server</string>
+    <string name="app_connection_intro_new">Fortsæt dine kodesessioner fra din %1$s.</string>
+    <string name="app_connection_intro_returning">Fortsæt, hvor du slap, eller par med en anden computer.</string>
+    <string name="app_connection_enter_manually">Indtast en server manuelt</string>
+    <string name="app_connection_scan_pairing_code">Scan parringskode</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Åbn OpenCode på din computer, og gå til Indstillinger → Parring, eller kør opencode pair --remote i en terminal. Scan derefter koden med denne %1$s.</string>
+    <string name="app_setup_install_title">Har du ikke OpenCode endnu?</string>
+    <string name="app_setup_other_ways_to_install">Andre måder at installere på</string>
+    <string name="app_setup_terminal_title">Eller kør dette i en terminal</string>
+    <string name="app_setup_terminal_detail">Det virker fra alle netværk.</string>
+    <string name="app_setup_paste_prompt">Eller kopiér det viste link, og vælg</string>
+    <string name="app_setup_paste">Indsæt</string>
+    <string name="app_setup_copy_command_description">Kopier %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Opretter forbindelse</string>
+    <string name="app_servers_edit_description">Rediger %1$s</string>
+    <string name="app_servers_remove_description">Fjern %1$s</string>
+    <string name="app_servers_remove_confirm_title">Fjern %1$s?</string>
+    <string name="app_servers_remove_confirm_message">Dette fjerner den gemte adresse og adgangskode på denne %1$s. Sessioner på serveren påvirkes ikke.</string>
+    <string name="app_servers_remove_confirm">Fjern server</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Fase: %1$s</string>
+    <string name="app_error_server">Server: %1$s</string>
+    <string name="app_error_attempt">Forsøg: %1$d</string>
+    <string name="app_error_copy_report">Kopier fejlrapport</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Ny server</string>
+    <string name="app_server_form_edit_title">Rediger server</string>
+    <string name="app_server_form_name">Navn</string>
+    <string name="app_server_form_address">Serveradresse</string>
+    <string name="app_server_form_username">Brugernavn</string>
+    <string name="app_server_form_password">Adgangskode (valgfrit)</string>
+    <string name="app_server_form_hide_password_description">Skjul adgangskode</string>
+    <string name="app_server_form_show_password_description">Vis adgangskode</string>
+    <string name="app_server_form_connect">Forbind</string>
+    <string name="app_server_form_save_and_connect">Gem og forbind</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Headere</string>
+    <string name="app_server_form_header_name">Navn</string>
+    <string name="app_server_form_header_name_description">Navn på header %1$d</string>
+    <string name="app_server_form_header_value">Værdi</string>
+    <string name="app_server_form_header_value_description">Værdi for header %1$d</string>
+    <string name="app_server_form_header_remove_description">Fjern header %1$d</string>
+    <string name="app_server_form_header_add">Tilføj header</string>
+    <string name="app_server_form_headers_detail">Sendes med hver anmodning til en proxy foran serveren, f.eks. Cloudflare Access.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">“%1$s” er ikke et gyldigt headernavn</string>
+    <string name="app_server_form_header_invalid_value">Værdien for %1$s må ikke indeholde linjeskift</string>
+    <string name="app_server_form_name_placeholder">Valgfrit</string>
+    <string name="app_connection_progress_pairing">Parrer</string>
+    <string name="app_connection_progress_connecting">Opretter forbindelse</string>
+    <string name="app_connection_progress_loading_sessions">Indlæser sessioner</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Par med %1$s?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode prøver %1$s og skifter til den første adresse, der svarer.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode parrer med %1$s og skifter til den.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode prøver %1$s og %2$s og skifter til den første, der svarer.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode prøver %1$s og %2$s og skifter til den første, der svarer.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Gemte loginoplysninger til %2$s kan blive erstattet.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Parring</string>
+    <string name="app_error_phase_connect">Forbind</string>
+    <string name="app_error_phase_load_sessions">Indlæs sessioner</string>
+    <string name="app_error_candidate_detail">Kandidat %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Ikke tilgængelig (ugyldig adresse)</string>
+    <string name="app_error_title_pair">Kunne ikke parre</string>
+    <string name="app_error_title_load_sessions">Kunne ikke indlæse sessioner</string>
+    <string name="app_error_title_connect">Kunne ikke forbinde til %1$s</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Din udklipsholder er tom</string>
+    <string name="app_paste_not_a_pairing_link">Det er ikke et parringslink</string>
+    <string name="app_server_no_longer_saved">Denne server er ikke længere gemt på denne %1$s. Forbind til den igen for at åbne sessionen.</string>
+    <string name="app_session_no_longer_available">Den kan være slettet, eller serveren er måske ikke tilgængelig.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Forbundet til %1$s</string>
+    <string name="app_pairing_invalid_code">Det er ikke en OpenCode-parringskode. Kør opencode pair --remote på din computer, og scan QR-koden, eller indsæt det link, kommandoen viser.</string>
+    <string name="app_pairing_unusable_address">Kunne ikke bruge “%1$s” fra denne parringskode, fordi den %2$s.</string>
+    <string name="app_pairing_loopback">Serveren lytter kun på localhost, så denne %1$s kan ikke nå den. Kør i stedet opencode pair --remote på din computer. Det virker fra alle netværk.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Serveren, du delte til, er ikke længere gemt på denne enhed. Forbind til den igen, og del igen.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">sidst brugt</string>
+    <string name="app_server_form_hint_new">Indsæt linket fra `opencode pair --remote` for at parre, eller brug din OpenCode-servers adresse og adgangskode. Brugernavnet er normalt opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Ændringer gemmes, når serveren forbindes. Denne server blev parret, så adgangskoden er et sessionstoken. Scan en ny parringskode i stedet for at ændre den.</string>
+    <string name="app_server_form_hint_edit">Ændringer gemmes, når serveren forbindes.</string>
+</resources>

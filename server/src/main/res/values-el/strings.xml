@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Κέλυφος</string>
+    <string name="server_notice_source_subagent">Υποπράκτορας</string>
+    <string name="server_notice_heading_finished">Ολοκληρώθηκε: %1$s</string>
+    <string name="server_notice_heading_failed">Απέτυχε: %1$s</string>
+    <string name="server_notice_heading_interrupted">Διακόπηκε: %1$s</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$d κέλυφος ολοκληρώθηκε</item>
+        <item quantity="other">%1$d κελύφη ολοκληρώθηκαν</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$d κέλυφος απέτυχε</item>
+        <item quantity="other">%1$d κελύφη απέτυχαν</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">%1$d κέλυφος διακόπηκε</item>
+        <item quantity="other">%1$d κελύφη διακόπηκαν</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">Ολοκληρώθηκε %1$d υποπράκτορας</item>
+        <item quantity="other">Ολοκληρώθηκαν %1$d υποπράκτορες</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">Απέτυχε %1$d υποπράκτορας</item>
+        <item quantity="other">Απέτυχαν %1$d υποπράκτορες</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">Διακόπηκε %1$d υποπράκτορας</item>
+        <item quantity="other">Διακόπηκαν %1$d υποπράκτορες</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Συμπαγές</string>
+    <string name="server_run_error_action_switch_model">Αλλαγή μοντέλου</string>
+    <string name="server_run_error_aborted">Διακοπή</string>
+    <string name="server_run_error_permission_rejected">Διακοπή μετά από απόρριψη αιτήματος</string>
+    <string name="server_run_error_content_filter">Το φίλτρο ασφαλείας μπλόκαρε την απάντηση</string>
+    <string name="server_run_error_rate_limit">Συμπληρώθηκε το όριο αιτημάτων</string>
+    <string name="server_run_error_quota">Συμπληρώθηκε το όριο χρήσης</string>
+    <string name="server_run_error_auth">Ο πάροχος απέρριψε το κλειδί του</string>
+    <string name="server_run_error_context_overflow">Η συνεδρία είναι πολύ μεγάλη για αυτό το μοντέλο</string>
+    <string name="server_run_error_invalid_request">Ο πάροχος απέρριψε το αίτημα</string>
+    <string name="server_run_error_overloaded">Το μοντέλο είναι υπερφορτωμένο</string>
+    <string name="server_run_error_internal">Παρουσιάστηκε πρόβλημα στον πάροχο</string>
+    <string name="server_run_error_transport">Η σύνδεση με το μοντέλο διακόπηκε</string>
+    <string name="server_run_error_timeout">Το μοντέλο άργησε πολύ να απαντήσει</string>
+    <string name="server_run_error_invalid_output">Δεν ήταν δυνατή η ανάγνωση της απάντησης του μοντέλου</string>
+    <string name="server_run_error_unavailable">Αυτό το μοντέλο δεν είναι διαθέσιμο</string>
+    <string name="server_run_error_unsupported_operation">Αυτό το μοντέλο δεν μπορεί να το κάνει</string>
+    <string name="server_run_error_tool_execution">Ένα εργαλείο απέτυχε και η εκτέλεση σταμάτησε</string>
+    <string name="server_run_error_other">Η εκτέλεση σταμάτησε λόγω σφάλματος</string>
+    <string name="server_run_retry_in_seconds">%1$s · επαναπροσπαθώ σε %2$d δευτ.</string>
+    <string name="server_run_retry_now">%1$s · επαναπροσπαθώ</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">Δεν ήταν δυνατή η σύνδεση στον διακομιστή OpenCode</string>
+    <string name="server_error_folder_gone">Ο φάκελος δεν υπάρχει πια</string>
+    <string name="server_error_uploads_unsupported">Αυτός ο διακομιστής δεν υποστηρίζει συνημμένα αρχεία. Ενημερώστε το OpenCode στον υπολογιστή σας.</string>
+    <string name="server_error_archiving_unsupported">Αυτός ο διακομιστής δεν υποστηρίζει αρχειοθέτηση. Ενημερώστε το OpenCode στον υπολογιστή σας.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">Το OpenCode δεν έχει άδεια πρόσβασης σε συσκευές του τοπικού δικτύου σας. Ενεργοποιήστε την άδεια «Κοντινές συσκευές» για το OpenCode στις Ρυθμίσεις και δοκιμάστε ξανά.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Συνεδρία χωρίς τίτλο</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Κέλυφος</string>
+    <string name="server_tool_shell_killed">Το κέλυφος τερματίστηκε αναγκαστικά</string>
+    <string name="server_tool_shell_exit_code">Η εντολή τερματίστηκε με κωδικό %1$d</string>
+    <string name="server_notice_session_update">Ενημέρωση συνεδρίας</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Η σύνδεση απέτυχε</string>
+    <string name="server_connection_resolved_address_unknown">Διεύθυνση από επίλυση ονόματος: Άγνωστη</string>
+    <string name="server_connection_resolved_address">Διεύθυνση από επίλυση ονόματος (αναζήτηση μετά την αποτυχία): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">Αυτό το όνομα tailnet αντιστοιχεί σε διεύθυνση εκτός του εύρους του Tailscale, οπότε ίσως δεν χρησιμοποιείται το DNS του Tailscale. Στην εφαρμογή Tailscale, ενεργοποιήστε τη «Χρήση ρυθμίσεων DNS του Tailscale» και απενεργοποιήστε το ιδιωτικό DNS ή τυχόν προφίλ VPN που αλλάζει το DNS.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Τοπικό δίκτυο</string>
+    <string name="server_connection_route_loopback">Βρόχος επιστροφής</string>
+    <string name="server_connection_route_internet">Διαδίκτυο</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">δεν είναι διεύθυνση ιστού</string>
+    <string name="server_pairing_origin_bad_scheme">δεν ξεκινά με http:// ή https://</string>
+    <string name="server_pairing_origin_no_host">δεν έχει όνομα κεντρικού υπολογιστή</string>
+    <string name="server_pairing_origin_credentials">περιλαμβάνει όνομα χρήστη ή κωδικό πρόσβασης</string>
+    <string name="server_pairing_origin_query">περιέχει ερώτημα ή τμήμα διεύθυνσης</string>
+    <string name="server_pairing_origin_port">έχει θύρα εκτός του εύρους 1–65535</string>
+    <string name="server_pairing_origin_path">περιέχει διαδρομή, ενώ ο διακομιστής πρέπει να βρίσκεται στη ρίζα της διεύθυνσής του</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Διακομιστής</string>
+    <string name="server_friendly_name_numbered">Διακομιστής %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">Η σύνδεση διακόπηκε μετά την αποστολή του μηνύματος, οπότε μπορεί να παραδόθηκε.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Αυτή η ενσωμάτωση δεν διαθέτει μέθοδο σύνδεσης.</string>
+    <string name="server_error_sign_in_url_invalid">Η διεύθυνση της σελίδας σύνδεσης δεν είναι έγκυρη.</string>
+    <string name="server_error_load_server_details">Αδυναμία φόρτωσης στοιχείων διακομιστή</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">Αυτός ο κωδικός ζευγοποίησης έληξε ή έχει ήδη χρησιμοποιηθεί. Εκτελέστε ξανά `opencode pair --remote`.</string>
+    <string name="server_error_pairing_unsupported">Αυτός ο διακομιστής δεν υποστηρίζει συνδέσμους ζευγοποίησης. Ενημερώστε το OpenCode στον υπολογιστή σας ή προσθέστε τον διακομιστή χειροκίνητα.</string>
+    <string name="server_error_notification_previews_need_https">Οι κρυπτογραφημένες προεπισκοπήσεις ειδοποιήσεων απαιτούν σύνδεση HTTPS με τον διακομιστή.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Εισαγάγετε έγκυρο URL διακομιστή HTTP ή HTTPS.</string>
+    <string name="server_error_credentials_rejected">Ο διακομιστής απέρριψε αυτά τα διαπιστευτήρια.</string>
+    <string name="server_error_http_status">Ο διακομιστής επέστρεψε HTTP %1$d.</string>
+    <string name="server_error_event_stream_http">Η ροή συμβάντων επέστρεψε HTTP %1$d.</string>
+    <string name="server_error_event_stream_oversized_frame">Η ροή συμβάντων έστειλε ένα υπερβολικά μεγάλο πλαίσιο.</string>
+    <string name="server_error_event_stream_ended">Η ροή συμβάντων τερματίστηκε.</string>
+    <string name="server_error_event_stream_server_failure">Η ροή συμβάντων ανέφερε αποτυχία διακομιστή.</string>
+    <string name="server_tool_failed">Το εργαλείο απέτυχε</string>
+    <string name="server_error_list_folder">Ο διακομιστής δεν μπόρεσε να εμφανίσει τα περιεχόμενα αυτού του φακέλου</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Αδυναμία φόρτωσης έργων και συνεδριών</string>
+    <string name="server_error_load_session_family">Αδυναμία φόρτωσης της οικογένειας συνεδριών</string>
+    <string name="server_error_update_session">Αδυναμία ενημέρωσης της συνεδρίας</string>
+    <string name="server_error_load_session_ancestry">Αδυναμία φόρτωσης των προγονικών συνεδριών της ενεργής συνεδρίας</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Έχει ήδη απαντηθεί αλλού</string>
+    <string name="server_request_already_dismissed">Έχει ήδη απορριφθεί</string>
+    <string name="server_request_already_answered">Έχει ήδη απαντηθεί</string>
+    <string name="server_request_already_dismissed_elsewhere">Έχει ήδη απορριφθεί αλλού</string>
+    <string name="server_request_no_longer_waiting">Δεν αναμένεται πλέον απάντηση</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Μη διαθέσιμα πολυμέσα</string>
+    <string name="server_pasted_text_title">Επικολλημένο κείμενο</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d γραμμή · %2$s</item>
+        <item quantity="other">%1$d γραμμές · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d γραμμή</item>
+        <item quantity="other">%1$d γραμμές</item>
+    </plurals>
+    <string name="server_file_size_zero">Μηδέν KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d μπάιτ</item>
+        <item quantity="other">%1$d μπάιτ</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">Έργο</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Αρχείο</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Ολοκληρώστε αυτό το βήμα</string>
+    <string name="server_form_required">Υποχρεωτικό</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">Εισαγάγετε τουλάχιστον %1$d χαρακτήρα</item>
+        <item quantity="other">Εισαγάγετε τουλάχιστον %1$d χαρακτήρες</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">Εισαγάγετε έως %1$d χαρακτήρα</item>
+        <item quantity="other">Εισαγάγετε έως %1$d χαρακτήρες</item>
+    </plurals>
+    <string name="server_form_invalid_format">Μη έγκυρη μορφή</string>
+    <string name="server_form_choose_option">Επιλέξτε μια διαθέσιμη επιλογή</string>
+    <string name="server_form_invalid_email">Εισαγάγετε έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου</string>
+    <string name="server_form_invalid_url">Εισαγάγετε έγκυρο URL</string>
+    <string name="server_form_invalid_date">Εισαγάγετε ημερομηνία σε μορφή YYYY-MM-DD</string>
+    <string name="server_form_invalid_date_time">Εισαγάγετε έγκυρη ημερομηνία και ώρα</string>
+    <string name="server_form_minimum">Πρέπει να είναι τουλάχιστον %1$s</string>
+    <string name="server_form_maximum">Πρέπει να είναι το πολύ %1$s</string>
+    <string name="server_form_whole_number">Εισαγάγετε ακέραιο αριθμό</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">Επιλέξτε τουλάχιστον %1$d</item>
+        <item quantity="other">Επιλέξτε τουλάχιστον %1$d</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">Επιλέξτε το πολύ %1$d</item>
+        <item quantity="other">Επιλέξτε το πολύ %1$d</item>
+    </plurals>
+    <string name="server_form_invalid_value">Μη έγκυρη τιμή</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Απόκρυψη επιλεγμένων</string>
+    <string name="server_model_visibility_only_show">Εμφάνιση μόνο επιλεγμένων</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Ανενεργό</string>
+    <string name="server_model_variant_extra_high">Πολύ υψηλό</string>
+    <string name="server_model_variant_max">Μέγιστο</string>
+    <string name="server_delivery_steering">Καθοδήγηση</string>
+    <string name="server_delivery_queued">Σε αναμονή</string>
+</resources>

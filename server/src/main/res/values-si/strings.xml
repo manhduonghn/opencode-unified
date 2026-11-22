@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">ෂෙල්</string>
+    <string name="server_notice_source_subagent">උප නියෝජිතයා</string>
+    <string name="server_notice_heading_finished">%1$s අවසන්</string>
+    <string name="server_notice_heading_failed">%1$s අසාර්ථකයි</string>
+    <string name="server_notice_heading_interrupted">%1$s බාධා කළා</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">ෂෙල් %1$dක් අවසන්</item>
+        <item quantity="other">ෂෙල් %1$dක් අවසන්</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">ෂෙල් %1$dක් අසාර්ථකයි</item>
+        <item quantity="other">ෂෙල් %1$dක් අසාර්ථකයි</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">ෂෙල් %1$dක් බාධා කළා</item>
+        <item quantity="other">ෂෙල් %1$dක් බාධා කළා</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">උප නියෝජිත %1$dකගේ වැඩ අවසන්</item>
+        <item quantity="other">උප නියෝජිතයන් %1$dකගේ වැඩ අවසන්</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">උප නියෝජිත %1$dක් අසාර්ථකයි</item>
+        <item quantity="other">උප නියෝජිතයන් %1$dක් අසාර්ථකයි</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">උප නියෝජිත %1$dකට බාධා කළා</item>
+        <item quantity="other">උප නියෝජිතයන් %1$dකට බාධා කළා</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">සංක්ෂිප්ත</string>
+    <string name="server_run_error_action_switch_model">ආකෘතිය මාරු කරන්න</string>
+    <string name="server_run_error_aborted">බාධා කළා</string>
+    <string name="server_run_error_permission_rejected">ඉල්ලීමක් ප්‍රතික්ෂේප කළ පසු බාධා කළා</string>
+    <string name="server_run_error_content_filter">ආරක්ෂක පෙරහන පිළිතුර අවහිර කළා</string>
+    <string name="server_run_error_rate_limit">ඉල්ලීම් වේග සීමාවට ළඟා වුණා</string>
+    <string name="server_run_error_quota">භාවිත සීමාවට ළඟා වුණා</string>
+    <string name="server_run_error_auth">සපයන්නා API යතුර ප්‍රතික්ෂේප කළා</string>
+    <string name="server_run_error_context_overflow">මෙම ආකෘතියට සැසිය දිග වැඩියි</string>
+    <string name="server_run_error_invalid_request">සපයන්නා ඉල්ලීම ප්‍රතික්ෂේප කළා</string>
+    <string name="server_run_error_overloaded">ආකෘතියට වැඩ බර වැඩියි</string>
+    <string name="server_run_error_internal">සපයන්නාගේ ගැටලුවක් ඇති වුණා</string>
+    <string name="server_run_error_transport">ආකෘතිය සමඟ සම්බන්ධතාවය බිඳ වැටුණා</string>
+    <string name="server_run_error_timeout">ආකෘතිය පිළිතුරු දීමට වැඩි කාලයක් ගත්තා</string>
+    <string name="server_run_error_invalid_output">ආකෘතියේ පිළිතුර කියවීමට නොහැකි වුණා</string>
+    <string name="server_run_error_unavailable">මෙම ආකෘතිය ලබාගත නොහැකියි</string>
+    <string name="server_run_error_unsupported_operation">මෙම ආකෘතියට එය කළ නොහැකියි</string>
+    <string name="server_run_error_tool_execution">මෙවලමක් අසාර්ථක වී ධාවනය නැවතුණා</string>
+    <string name="server_run_error_other">දෝෂයක් නිසා ධාවනය නැවතුණා</string>
+    <string name="server_run_retry_in_seconds">%1$s · තත්පර %2$dකින් නැවත උත්සාහ කරනවා</string>
+    <string name="server_run_retry_now">%1$s · නැවත උත්සාහ කරනවා</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">OpenCode සේවාදායකයට සම්බන්ධ වීමට නොහැකි වුණා</string>
+    <string name="server_error_folder_gone">ෆෝල්ඩරය තවදුරටත් නැහැ</string>
+    <string name="server_error_uploads_unsupported">මෙම සේවාදායකය ගොනු ඇමුණුම් සඳහා සහය නොදක්වයි. ඔබේ පරිගණකයේ OpenCode යාවත්කාලීන කරන්න.</string>
+    <string name="server_error_archiving_unsupported">මෙම සේවාදායකය සංරක්ෂණයට සහය නොදක්වයි. ඔබේ පරිගණකයේ OpenCode යාවත්කාලීන කරන්න.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">ඔබේ දේශීය ජාලයේ උපාංග වෙත සම්බන්ධ වීමට OpenCode හට අවසර නැහැ. සැකසීම් තුළ OpenCode සඳහා අවට උපාංග අවසරය සක්‍රිය කර නැවත උත්සාහ කරන්න.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">නම් නොකළ සැසිය</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">ෂෙල්</string>
+    <string name="server_tool_shell_killed">ෂෙල් නවතා දැමුවා</string>
+    <string name="server_tool_shell_exit_code">විධානය %1$d කේතය සමඟ අවසන් වුණා</string>
+    <string name="server_notice_session_update">සැසි යාවත්කාලීනය</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">සම්බන්ධතාවය අසාර්ථකයි</string>
+    <string name="server_connection_resolved_address_unknown">සොයාගත් ලිපිනය: නොදන්නා</string>
+    <string name="server_connection_resolved_address">සොයාගත් ලිපිනය (අසාර්ථක වූ පසු සෙවූ): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">මෙම tailnet නමට ලැබුණු ලිපිනය Tailscale පරාසයෙන් පිටත නිසා Tailscale DNS භාවිත නොවනවා විය හැකියි. Tailscale යෙදුමේ Tailscale DNS සැකසීම් භාවිතය සක්‍රිය කර, පුද්ගලික DNS හෝ DNS වෙනස් කරන VPN පැතිකඩක් ඇත්නම් අක්‍රිය කරන්න.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">දේශීය ජාලය</string>
+    <string name="server_connection_route_loopback">ලූප්බැක්</string>
+    <string name="server_connection_route_internet">අන්තර්ජාලය</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">වෙබ් ලිපිනයක් නොවේ</string>
+    <string name="server_pairing_origin_bad_scheme">http:// හෝ https:// වලින් ආරම්භ නොවේ</string>
+    <string name="server_pairing_origin_no_host">සත්කාරක නමක් නැහැ</string>
+    <string name="server_pairing_origin_credentials">පරිශීලක නමක් හෝ මුරපදයක් අඩංගුයි</string>
+    <string name="server_pairing_origin_query">විමසුමක් හෝ ඛණ්ඩයක් අඩංගුයි</string>
+    <string name="server_pairing_origin_port">1–65535 පරාසයෙන් පිටත පෝට් අංකයක් ඇත</string>
+    <string name="server_pairing_origin_path">මාර්ගයක් අඩංගුයි; සේවාදායකය එහි ලිපිනයේ මූලයේ තිබිය යුතුයි</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">සේවාදායකය</string>
+    <string name="server_friendly_name_numbered">සේවාදායකය %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">පණිවිඩය යැවූ පසු සම්බන්ධතාවය බිඳ වැටුණා. ඒ නිසා එය ලැබී තිබිය හැකියි.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">මෙම ඒකාබද්ධකරණයට පුරනය වීමේ ක්‍රමයක් නැහැ.</string>
+    <string name="server_error_sign_in_url_invalid">පුරනය වීමේ පිටුවේ ලිපිනය වලංගු නැහැ.</string>
+    <string name="server_error_load_server_details">සේවාදායක විස්තර පූරණය කිරීමට නොහැකි විය</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">මෙම යුගල කිරීමේ කේතය කල් ඉකුත් වී හෝ දැනටමත් භාවිත කර ඇත. නැවත `opencode pair --remote` ක්‍රියාත්මක කරන්න.</string>
+    <string name="server_error_pairing_unsupported">මෙම සේවාදායකය යුගල කිරීමේ සබැඳි සඳහා සහාය නොදක්වයි. පරිගණකයේ OpenCode යාවත්කාලීන කරන්න, නැත්නම් සේවාදායක විස්තර අතින් ඇතුළත් කරන්න.</string>
+    <string name="server_error_notification_previews_need_https">සංකේතනය කළ දැනුම්දීම් පෙරදසුන් සඳහා HTTPS සේවාදායක සම්බන්ධතාවයක් අවශ්‍යයි.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">වලංගු HTTP හෝ HTTPS සේවාදායක URL එකක් ඇතුළත් කරන්න.</string>
+    <string name="server_error_credentials_rejected">සේවාදායකය මෙම පිවිසුම් තොරතුරු ප්‍රතික්ෂේප කළා.</string>
+    <string name="server_error_http_status">සේවාදායකයෙන් HTTP %1$d ලැබුණා.</string>
+    <string name="server_error_event_stream_http">සිදුවීම් ප්‍රවාහයෙන් HTTP %1$d ලැබුණා.</string>
+    <string name="server_error_event_stream_oversized_frame">සිදුවීම් ප්‍රවාහය විශාල වැඩි දත්ත රාමුවක් එවා ඇත.</string>
+    <string name="server_error_event_stream_ended">සිදුවීම් ප්‍රවාහය අවසන් වුණා.</string>
+    <string name="server_error_event_stream_server_failure">සිදුවීම් ප්‍රවාහය සේවාදායක දෝෂයක් වාර්තා කළා.</string>
+    <string name="server_tool_failed">මෙවලම අසාර්ථකයි</string>
+    <string name="server_error_list_folder">සේවාදායකයට මෙම ෆෝල්ඩරයේ අන්තර්ගතය ලැයිස්තුගත කිරීමට නොහැකි විය</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">ව්‍යාපෘති සහ සැසි පූරණය කිරීමට නොහැකි විය</string>
+    <string name="server_error_load_session_family">අදාළ සැසි සමූහය පූරණය කිරීමට නොහැකි විය</string>
+    <string name="server_error_update_session">සැසිය යාවත්කාලීන කිරීමට නොහැකි විය</string>
+    <string name="server_error_load_session_ancestry">සක්‍රිය සැසියේ මව් සැසි පෙළ පූරණය කිරීමට නොහැකි විය</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">දැනටමත් වෙනත් තැනක පිළිතුරු දී ඇත</string>
+    <string name="server_request_already_dismissed">දැනටමත් ඉවත දමා ඇත</string>
+    <string name="server_request_already_answered">දැනටමත් පිළිතුරු දී ඇත</string>
+    <string name="server_request_already_dismissed_elsewhere">දැනටමත් වෙනත් තැනක ඉවත දමා ඇත</string>
+    <string name="server_request_no_longer_waiting">තවදුරටත් රැඳී නොසිටී</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">මාධ්‍ය ලබාගත නොහැකියි</string>
+    <string name="server_pasted_text_title">ඇලවූ පෙළ</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">රේඛා %1$dක් · %2$s</item>
+        <item quantity="other">රේඛා %1$dක් · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">රේඛා %1$dක්</item>
+        <item quantity="other">රේඛා %1$dක්</item>
+    </plurals>
+    <string name="server_file_size_zero">කිලෝබයිට් බිංදුවයි</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">බයිට් %1$dක්</item>
+        <item quantity="other">බයිට් %1$dක්</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">ව්යාපෘතිය</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">ගොනුව</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">මෙම පියවර සම්පූර්ණ කරන්න</string>
+    <string name="server_form_required">අවශ්‍යයි</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">අවම වශයෙන් අක්ෂර %1$dක් ඇතුළත් කරන්න</item>
+        <item quantity="other">අවම වශයෙන් අක්ෂර %1$dක් ඇතුළත් කරන්න</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">අක්ෂර %1$dකට වඩා ඇතුළත් නොකරන්න</item>
+        <item quantity="other">අක්ෂර %1$dකට වඩා ඇතුළත් නොකරන්න</item>
+    </plurals>
+    <string name="server_form_invalid_format">වලංගු නොවන ආකෘතිය</string>
+    <string name="server_form_choose_option">ඇති විකල්පයක් තෝරන්න</string>
+    <string name="server_form_invalid_email">වලංගු ඊමේල් ලිපිනයක් ඇතුළත් කරන්න</string>
+    <string name="server_form_invalid_url">වලංගු URL එකක් ඇතුළත් කරන්න</string>
+    <string name="server_form_invalid_date">YYYY-MM-DD ලෙස දිනයක් ඇතුළත් කරන්න</string>
+    <string name="server_form_invalid_date_time">වලංගු දිනයක් සහ වේලාවක් ඇතුළත් කරන්න</string>
+    <string name="server_form_minimum">අවම වශයෙන් %1$s විය යුතුයි</string>
+    <string name="server_form_maximum">උපරිම වශයෙන් %1$s විය යුතුයි</string>
+    <string name="server_form_whole_number">පූර්ණ සංඛ්‍යාවක් ඇතුළත් කරන්න</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">අවම වශයෙන් %1$dක් තෝරන්න</item>
+        <item quantity="other">අවම වශයෙන් %1$dක් තෝරන්න</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">%1$dකට වඩා තෝරන්න එපා</item>
+        <item quantity="other">%1$dකට වඩා තෝරන්න එපා</item>
+    </plurals>
+    <string name="server_form_invalid_value">වලංගු නොවන අගය</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">තෝරාගත් ඒවා සඟවන්න</string>
+    <string name="server_model_visibility_only_show">තෝරාගත් ඒවා පමණක් පෙන්වන්න</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">අක්‍රියයි</string>
+    <string name="server_model_variant_extra_high">ඉතා ඉහළ</string>
+    <string name="server_model_variant_max">උපරිම</string>
+    <string name="server_delivery_steering">මඟ පෙන්වීම</string>
+    <string name="server_delivery_queued">පෝලිමේ</string>
+</resources>

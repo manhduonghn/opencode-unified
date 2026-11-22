@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent activity glyph -->
+    <string name="session_activity_running_description">Ажиллаж байна</string>
+    <!-- Background work panel -->
+    <string name="session_background_work_show_label">Ажиллаж буй дэд агентууд, скриптүүд болон Shell-үүдийг харуулах</string>
+    <string name="session_background_work_collapsed_description">Хураасан</string>
+    <string name="session_background_work_subagents_title">Дэд агентууд</string>
+    <string name="session_background_work_open_subagent_label">Дэд агентийн сессийг нээх</string>
+    <string name="session_background_work_shells_title">Shell-үүд</string>
+    <string name="session_background_work_show_shell_label">Shell-ийн гаралтыг харуулах</string>
+    <!-- The session's images and videos, paged in the full-screen viewer -->
+    <string name="session_visual_attached_image">Хавсаргасан зураг</string>
+    <string name="session_visual_tool_image">Хэрэгслийн зураг</string>
+    <string name="session_visual_image">Зураг</string>
+    <!-- One image of several: the image's label, then its place, as “Attached image 2 of 3” -->
+    <string name="session_visual_image_page_label">%1$s, нийт %3$d-ийн %2$d</string>
+    <!-- A diagram's label, read by TalkBack. %1$s is its kind, as “Diagram, Flowchart” -->
+    <string name="session_visual_diagram_label">Диаграмм, %1$s</string>
+    <!-- Jump to latest -->
+    <string name="session_scroll_to_latest_description">Сүүлийнх рүү шилжих</string>
+    <!-- Dictation bar -->
+    <string name="session_dictation_finishing_description">Дуугаар бичиж дуусгаж байна</string>
+    <string name="session_dictation_stop_recording_description">Дуу бичихийг зогсоох</string>
+    <string name="session_dictation_stop_recording_hint">Хэлсэн үгийг мессеждээ оруулах</string>
+    <string name="session_sending_message_description">Мессеж илгээж байна</string>
+    <string name="session_delivery_steer_label">Дараагийн алхамд чиглүүлэх</string>
+    <string name="session_delivery_queue_label">Энэ хариултын дараа дараалалд оруулах</string>
+    <string name="session_delivery_steer">Чиглүүлэх</string>
+    <string name="session_delivery_queue">Дараалалд оруулах</string>
+    <!-- Draft project picker -->
+    <string name="session_draft_project_choose_label">Сессийг хаана эхлүүлэхээ сонгох</string>
+    <string name="session_project_choose_folder">Фолдер сонгох…</string>
+    <string name="session_project_all_projects">Бүх төсөл</string>
+    <string name="session_project_selected_description">Сонгосон</string>
+    <string name="session_project_picker_title">Төсөл</string>
+    <!-- Folder browser -->
+    <string name="session_folder_select_description">Фолдер сонгоно уу</string>
+    <string name="session_folder_path_description">Зам</string>
+    <string name="session_folder_title">Фолдер</string>
+    <string name="session_folder_select">Сонгох</string>
+    <string name="session_folder_open_failed_title">Фолдерыг нээж чадсангүй</string>
+    <string name="session_folder_empty_title">Фолдер алга</string>
+    <string name="session_folder_search_empty_title">“%1$s”-д илэрц байхгүй</string>
+    <string name="session_folder_search_empty_message">Зөв бичсэн эсэхээ шалгах эсвэл өөрөөр хайна уу.</string>
+    <!-- Server connection pill -->
+    <string name="session_server_edit">Сервер засах…</string>
+    <!-- Starter prompts -->
+    <string name="session_starter_prompts_title">Ингэж асуугаад үзээрэй</string>
+    <string name="session_starter_prompt_pick_label">Мессежид оруулах</string>
+    <!-- Session sheet -->
+    <string name="session_sheet_rename_failed">Нэрийг өөрчилж чадсангүй</string>
+    <string name="session_sheet_status_description">Төлөв</string>
+    <string name="session_rename_title">Сессийн нэрийг өөрчлөх</string>
+    <string name="session_untitled_title">Сесс</string>
+    <string name="session_pin">Бэхлэх</string>
+    <string name="session_pinned">Бэхэлсэн</string>
+    <string name="session_unread">Уншаагүй</string>
+    <string name="session_mute">Мэдэгдлийг хаах</string>
+    <string name="session_muted">Мэдэгдлийг хаасан</string>
+    <string name="session_compact">Хураангуй</string>
+    <string name="session_fork">Салаалах</string>
+    <string name="session_toggle_on_description">Асаалттай</string>
+    <string name="session_toggle_off_description">Унтраалттай</string>
+    <string name="session_export">Экспорт</string>
+    <string name="session_export_markdown">Markdown</string>
+    <string name="session_export_json">JSON</string>
+    <string name="session_sheet_model">Загвар</string>
+    <string name="session_sheet_context">Контекст</string>
+    <string name="session_sheet_unknown_description">үл мэдэгдэх</string>
+    <string name="session_sheet_context_tokens">%1$s токен</string>
+    <string name="session_sheet_cost">Зардал</string>
+    <string name="session_sheet_media">Медиа</string>
+    <string name="session_sheet_media_value">Файлууд ба холбоосууд</string>
+    <string name="session_always_notify">Үргэлж мэдэгдэх</string>
+    <string name="session_always_notify_message_phone">Өөр газраас илгээсэн ч хариулт бэлэн болох бүрд энэ утсанд мэдэгдэнэ.</string>
+    <string name="session_always_notify_message_tablet">Өөр газраас илгээсэн ч хариулт бэлэн болох бүрд энэ таблетад мэдэгдэнэ.</string>
+    <string name="session_delete_session">Сеанс устгах</string>
+    <string name="session_rename_placeholder">Гарчиг</string>
+    <string name="session_auto_rename">Автоматаар нэрлэх</string>
+    <string name="session_delete_confirm_title">“%1$s”-г устгах уу?</string>
+    <string name="session_delete_confirm_message">Энэ сессийг серверээс бүх клиентэд устгана.</string>
+    <!-- Transcript -->
+    <string name="session_move_to_background">Ард ажиллуулах</string>
+    <string name="session_move_to_background_hint">Ажиллаж буйг ард үргэлжлүүлж, агент таны дараагийн мессежийг унших боломжтой болгоно</string>
+    <!-- Attachments -->
+    <string name="session_attachment_add_image_failed_title">Зураг нэмж чадсангүй</string>
+    <string name="session_attachment_upload">Байршуулах</string>
+    <string name="session_attachment_remove_image_description">%1$d дугаар зургийн хавсралтыг арилгах</string>
+    <string name="session_attachment_remove_description">%1$s арилгах</string>
+    <string name="session_attachment_file_description">Файлын хавсралт %1$s</string>
+    <string name="session_attachment_cancel_upload_description">%1$s байршуулахыг цуцлах</string>
+    <string name="session_attachment_open_photo_label">Зургийг бүтэн дэлгэцээр нээх</string>
+    <string name="session_attachment_image_description">Зургийн хавсралт %1$d</string>
+    <string name="session_attachment_video_description">Видео хавсралт %1$d</string>
+    <!-- Composer controls -->
+    <string name="session_answer_own_description">Таны өөрийн хариулт</string>
+    <string name="session_answer_own_type_label">Өөрийн хариултыг бичих эсвэл хэлж бичүүлэх</string>
+    <string name="session_answer_own_clear_label">Өөрийн хариултыг түр орхих</string>
+    <string name="session_answer_own_choose_label">Өөрийн үгээр хариулах</string>
+    <string name="session_answer_decline_with_words_label">Оронд нь юу хийхийг агентэд хэлэх</string>
+    <string name="session_answer_required_description">Хариулт сонгох эсвэл өөрөө бичих</string>
+    <string name="session_dictate_message_description">Мессежийг хэлж бичүүлэх</string>
+    <string name="session_dictate_message_hint">Мессежээ хэлж бичүүлнэ үү. Эсвэл удаан дарж дуугаа бичээд илгээнэ үү</string>
+    <string name="session_send_waiting_for_uploads_description">Байршуулж дууссаны дараа илгээнэ</string>
+    <string name="session_steer_message_description">Мессежээр чиглүүлэх</string>
+    <string name="session_stopping_description">Зогсоож байна</string>
+    <string name="session_start_voice_call">Дуут дуудлага эхлүүлэх</string>
+    <string name="session_dictation_stop_description">Хэлж бичүүлэхийг зогсоох</string>
+    <!-- Composer -->
+    <string name="session_requests_load_failed_title">Хүсэлтүүдийг ачаалж чадсангүй</string>
+    <plurals name="session_queued_count">
+        <item quantity="one">%1$d дараалалд орсон</item>
+        <item quantity="other">%1$d дараалалд орсон</item>
+    </plurals>
+    <string name="session_queued_show_label">Энэ хариултыг дуусахыг хүлээж буй мессежүүдийг харуулах</string>
+    <plurals name="session_queued_messages_description">
+        <item quantity="one">Дараалалд орсон %1$d мессеж</item>
+        <item quantity="other">Дараалалд орсон %1$d мессеж</item>
+    </plurals>
+    <string name="session_dictation_preparing">Хэлж бичүүлэхэд бэлдэж байна…</string>
+    <string name="session_message_placeholder">Мессеж</string>
+    <!-- Session header -->
+    <string name="session_back_to_main_description">Үндсэн сесс рүү буцах</string>
+    <string name="session_header_open_from_catch_up_label">Сессийг нээж, шинэ зүйлсийг үзэхээс гарах</string>
+    <string name="session_header_show_details_label">Сессийн дэлгэрэнгүйг харуулах</string>
+    <string name="session_header_idle_description">Сул байна</string>
+    <string name="session_header_syncing_description">Синк хийж байна</string>
+    <string name="session_header_last_known_description">Сүүлд мэдэгдсэн</string>
+    <string name="session_menu_more_description">Бусад</string>
+    <string name="session_unpin">Бэхэлгээг авах</string>
+    <string name="session_copy_session_id">Сессийн ID-г хуулах</string>
+    <string name="session_mark_as_read">Уншсанаар тэмдэглэх</string>
+    <string name="session_mark_as_unread">Уншаагүйгээр тэмдэглэх</string>
+    <string name="session_unmute">Мэдэгдлийг нээх</string>
+    <string name="session_menu_export_expanded_description">Дэлгэсэн</string>
+    <string name="session_menu_export_collapsed_description">Хураасан</string>
+    <string name="session_info">Сессийн мэдээлэл</string>
+    <!-- Session screen -->
+    <string name="session_load_failed_title">Сессийг ачаалж чадсангүй</string>
+    <string name="session_location_share_failed_title">Байршлыг хуваалцаж чадсангүй</string>
+    <!-- Shell output -->
+    <string name="session_shell_stop_confirm_title">Энэ Shell-ийг зогсоох уу?</string>
+    <string name="session_shell_stop_confirm_message">Тушаал одоо зогсоно. Энд харагдаж буй гаралт хаах хүртэл хэвээр үлдэнэ.</string>
+    <string name="session_shell_stop">Shell-ийг зогсоох</string>
+    <string name="session_shell_copy_output">Гаралтыг хуулах</string>
+    <string name="session_shell_share_output">Гаралтыг хуваалцах</string>
+    <string name="session_shell_earlier_output_hidden">Өмнөх гаралтыг нуусан</string>
+    <string name="session_shell_showing_last_output">Сүүлийн 4 МБ-ыг харуулж байна</string>
+    <string name="session_shell_load_earlier">Өмнөхийг ачаалах</string>
+    <string name="session_shell_output_unavailable_title">Гаралт боломжгүй байна</string>
+    <string name="session_shell_output_unavailable_message">Энэ Shell-ийн гаралт сервер дээр байхгүй болсон.</string>
+    <string name="session_shell_no_output_yet_title">Одоогоор гаралт алга</string>
+    <string name="session_shell_no_output_title">Гаралт алга</string>
+    <string name="session_shell_no_output_yet_message">Тушаалын гаралт энд гарна.</string>
+    <string name="session_shell_status_stopping">Зогсоож байна…</string>
+    <string name="session_shell_status_unavailable">Ашиглах боломжгүй</string>
+    <string name="session_shell_status_interrupted">Тасалдсан</string>
+    <string name="session_shell_status_timed_out">Хугацаа дууслаа</string>
+    <string name="session_shell_status_exited_with_code">%1$d кодтой дууслаа</string>
+    <string name="session_shell_status_exited">Дууссан</string>
+    <plurals name="session_shell_elapsed_hours">
+        <item quantity="one">%1$d цаг</item>
+        <item quantity="other">%1$d цаг</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_minutes">
+        <item quantity="one">%1$d минут</item>
+        <item quantity="other">%1$d минут</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_seconds">
+        <item quantity="one">%1$d секунд</item>
+        <item quantity="other">%1$d секунд</item>
+    </plurals>
+
+    <!-- Agent activity (glyph labels and titles) -->
+    <string name="session_activity_idle">Сул байна</string>
+    <string name="session_activity_starting_up">Эхэлж байна</string>
+    <string name="session_activity_thinking">Бодож байна</string>
+    <string name="session_activity_long_work">Удаан ажиллаж байна</string>
+    <string name="session_activity_tool_burst">Хэрэгслүүдийг эрчимтэй ашиглаж байна</string>
+    <string name="session_activity_streaming_output">Гаралтыг дамжуулж байна</string>
+    <string name="session_activity_waiting_for_input">Оролт хүлээж байна</string>
+    <string name="session_activity_handing_off">Ажлыг шилжүүлж байна</string>
+    <string name="session_activity_done">Болсон</string>
+    <string name="session_activity_failed">Амжилтгүй</string>
+    <string name="session_working_stopping">Зогсоож байна…</string>
+    <string name="session_status_working">Ажиллаж байна</string>
+    <string name="session_status_needs_input">Таны оролцоо хэрэгтэй</string>
+    <string name="session_status_done">Болсон</string>
+
+    <!-- Lists: joins two or three phrases -->
+    <string name="session_list_two">%1$s, %2$s</string>
+    <string name="session_list_three">%1$s, %2$s, %3$s</string>
+
+    <!-- Background work panel -->
+    <plurals name="session_background_work_subagent_count">
+        <item quantity="one">%1$d дэд агент</item>
+        <item quantity="other">%1$d дэд агент</item>
+    </plurals>
+    <plurals name="session_background_work_shell_count">
+        <item quantity="one">%1$d Shell</item>
+        <item quantity="other">%1$d Shell</item>
+    </plurals>
+    <plurals name="session_background_work_script_count">
+        <item quantity="one">%1$d скрипт</item>
+        <item quantity="other">%1$d скрипт</item>
+    </plurals>
+    <string name="session_background_work_summary">%1$s · %2$s</string>
+    <string name="session_background_work_scripts_title">Скриптүүд</string>
+    <string name="session_background_work_stop_script_label">Скриптийг зогсоох</string>
+    <string name="session_background_work_stop_subagent_label">Дэд агентыг зогсоох</string>
+    <string name="session_background_work_stop_script_failed">Скриптийг зогсоож чадсангүй</string>
+    <string name="session_background_work_stop_subagent_failed">Дэд агентыг зогсоож чадсангүй</string>
+
+    <!-- Composer buttons -->
+    <string name="session_send_message_description">Мессеж илгээх</string>
+    <string name="session_stop_description">Зогс</string>
+    <string name="session_start_voice_call_description">Дуут дуудлага эхлүүлэх</string>
+    <string name="session_model_level_default">Өгөгдмөл</string>
+
+    <!-- In-app notice -->
+    <plurals name="session_notice_session_count">
+        <item quantity="one">%1$d сесс</item>
+        <item quantity="other">%1$d сесс</item>
+    </plurals>
+    <plurals name="session_notice_needs_input_count">
+        <item quantity="one">%1$d-д таны оролцоо хэрэгтэй</item>
+        <item quantity="other">%1$d-д таны оролцоо хэрэгтэй</item>
+    </plurals>
+    <string name="session_notice_announcement">%1$s, %2$s</string>
+
+    <!-- Server connection pill -->
+    <string name="session_server_reconnecting">%1$s руу дахин холбож байна…</string>
+    <string name="session_server_connect_failed">%1$s руу холбогдож чадсангүй</string>
+    <string name="session_server_sign_in_failed">%1$s руу нэвтэрч чадсангүй</string>
+    <string name="session_server_pair_again">Дахин хослуулах</string>
+    <string name="session_server_try_again_click_label">Дахин оролдох</string>
+    <string name="session_server_pair_again_click_label">Дахин хослуулах</string>
+
+    <!-- Export -->
+    <string name="session_export_folder_failed">Экспортын фолдер үүсгэж чадсангүй</string>
+    <string name="session_export_save_failed">Экспортыг хадгалж чадсангүй</string>
+
+    <!-- Session errors -->
+    <string name="session_agent_fallback_name">Агент</string>
+    <string name="session_something_went_wrong">Ямар нэг алдаа гарлаа</string>
+    <string name="session_something_went_wrong_sentence">Ямар нэг алдаа гарлаа.</string>
+    <string name="session_load_earlier_failed">Өмнөх мессежүүдийг ачаалж чадсангүй</string>
+    <string name="session_move_to_background_failed">Арын горимд шилжүүлж чадсангүй: %1$s</string>
+    <string name="session_move_failed_reason">Сессийг шилжүүлж чадсангүй</string>
+    <string name="session_delivery_waiting_to_send">Илгээхээр хүлээж байна</string>
+    <string name="session_create_failed">Сесс үүсгэж чадсангүй.</string>
+    <string name="session_switch_agent_failed">Агентийг сольж чадсангүй: %1$s</string>
+    <string name="session_switch_model_failed">Загварыг сольж чадсангүй: %1$s</string>
+    <string name="session_pending_send_now_failed_details">Хүлээгдэж буй мессежийг одоо илгээж чадсангүй: %1$s</string>
+    <string name="session_pending_cancel_failed_details">Хүлээгдэж буй мессежийг цуцалж чадсангүй: %1$s</string>
+    <string name="session_pending_queue_failed_details">Хүлээгдэж буй мессежийг дараалалд оруулж чадсангүй: %1$s</string>
+    <string name="session_stopped_before_sent">Илгээхээс өмнө тасалдсан</string>
+    <string name="session_stop_failed">Сессийг зогсоож чадсангүй</string>
+    <string name="session_undo_message_failed">Мессежийг буцааж чадсангүй: %1$s</string>
+    <string name="session_revert_failed">Буцааж чадсангүй</string>
+    <string name="session_revert_failed_details">Буцааж чадсангүй: %1$s</string>
+
+    <!-- Session sheet errors -->
+    <string name="session_sheet_rename_failed_title">Сессийн нэрийг өөрчилж чадсангүй</string>
+    <string name="session_sheet_compact_failed_title">Сессийг хураангуйлж чадсангүй</string>
+    <string name="session_sheet_fork_failed_title">Сессийг салаалж чадсангүй</string>
+    <string name="session_sheet_save_export_failed">Экспортыг хадгалж чадсангүй</string>
+    <string name="session_sheet_export_failed_title">Сессийг экспортолж чадсангүй</string>
+    <string name="session_sheet_notifications_off_message">Эхлээд тохиргооноос мэдэгдлийг асаана уу.</string>
+    <string name="session_sheet_always_notify_on_failed_title">Үргэлж мэдэгдэхийг асааж чадсангүй</string>
+    <string name="session_sheet_always_notify_off_failed_title">Үргэлж мэдэгдэхийг унтрааж чадсангүй</string>
+
+    <!-- Attachments -->
+    <string name="session_attachment_files_unsupported">Сервер файл дэмждэггүй</string>
+    <string name="session_attachment_upload_failed">Байршуулж чадсангүй</string>
+    <string name="session_attachment_file_fallback_name">Файл</string>
+    <string name="session_attachment_image_too_large">20 MB-аас бага хэмжээтэй зураг сонгоно уу.</string>
+    <string name="session_attachment_image_load_failed">Энэ зургийг ачаалж чадсангүй. Өөр зураг сонгоно уу.</string>
+    <string name="session_attachment_file_add_failed">Энэ файлыг нэмж чадсангүй. Өөр файл сонгоно уу.</string>
+    <plurals name="session_attachment_files_add_failed">
+        <item quantity="one">%1$d файлыг нэмж чадсангүй.</item>
+        <item quantity="other">%1$d файлыг нэмж чадсангүй.</item>
+    </plurals>
+    <string name="session_large_upload_title">%1$s байршуулах уу?</string>
+    <string name="session_large_upload_message_one">“%1$s” том файл байна. Серверт тань байршуулж дуусмагц мессеж илгээгдэнэ.</string>
+    <plurals name="session_large_upload_message_many">
+        <item quantity="one">%1$d файл том хэмжээтэй байна. Серверт тань байршуулж дуусмагц мессеж илгээгдэнэ.</item>
+        <item quantity="other">%1$d файл том хэмжээтэй байна. Серверт тань байршуулж дуусмагц мессеж илгээгдэнэ.</item>
+    </plurals>
+
+    <!-- Header and screens -->
+    <string name="session_new_session_title">Шинэ сесс</string>
+    <string name="session_pasted_text_screen_title">Буулгасан текст</string>
+    <string name="session_pasted_text_viewer_screen_title">Буулгасан текст харагч</string>
+    <string name="session_context_summary">%2$s-ийн %1$d%%</string>
+    <string name="session_context_accessibility_value">%2$s токены %1$d%%-ийг ашигласан</string>
+
+    <!-- Starter prompts (shown, then sent as the person’s message) -->
+    <string name="session_starter_project_purpose">Энэ төсөл юу хийдэг вэ?</string>
+    <string name="session_starter_code_tour">Кодыг товч тайлбарлаад өгөөч</string>
+    <string name="session_starter_recent_changes">Сүүлийн үед энд юу өөрчлөгдсөн бэ?</string>
+
+    <!-- Shell output -->
+    <string name="session_shell_refresh_failed">Гаралтыг шинэчилж чадсангүй</string>
+    <string name="session_shell_load_earlier_failed">Өмнөх гаралтыг ачаалж чадсангүй</string>
+    <string name="session_shell_stop_failed">Shell-ийг зогсоож чадсангүй</string>
+    <string name="session_quote_remove_description">Эшлэлийг арилгах</string>
+    <string name="session_quote_comment_placeholder">Хүсвэл сэтгэгдэл нэмэх…</string>
+    <string name="session_media_title">Сессийн медиа</string>
+    <string name="session_media_filter_media">Медиа</string>
+    <string name="session_media_filter_files">Файлууд</string>
+    <string name="session_media_filter_links">Холбоосууд</string>
+    <string name="session_media_layout_description">Медиагийн байрлал</string>
+    <string name="session_media_layout_tiles">Хавтанцар</string>
+    <string name="session_media_layout_list">Жагсаалт</string>
+    <string name="session_media_origin_user">Таны илгээсэн</string>
+    <string name="session_media_origin_agent">Агентийн хуваалцсан</string>
+    <string name="session_media_open_click_label">Нээх</string>
+    <string name="session_media_open_link_click_label">Холбоос нээх</string>
+    <string name="session_media_empty_media_title">Медиа алга</string>
+    <string name="session_media_empty_media_message">Энэ сессид хуваалцсан зураг, видео, аудио энд харагдана.</string>
+    <string name="session_media_empty_files_title">Файл алга</string>
+    <string name="session_media_empty_files_message">Энэ сессийн баримт бичиг болон буулгасан текст энд харагдана.</string>
+    <string name="session_media_empty_links_title">Холбоос алга</string>
+    <string name="session_media_empty_links_message">Энэ сессид хуваалцсан вэб холбоосууд энд харагдана.</string>
+    <string name="session_media_earlier_note">Өмнөх мессежүүд хараахан ачаалагдаагүй байна.</string>
+    <string name="session_media_load_earlier">Өмнөх мессежүүдийг ачаалах</string>
+    <string name="session_media_loading_earlier">Ачааж байна…</string>
+    <string name="session_media_earlier_failed">Өмнөх мессежүүдийг ачаалж чадсангүй. Холболтоо шалгаад дахин оролдоно уу.</string>
+    <string name="session_media_earlier_nothing_new">Дөнгөж ачаалсан мессежүүдэд шинэ зүйл алга. Үүнээс өмнөх мессежүүдэд байж магадгүй.</string>
+</resources>

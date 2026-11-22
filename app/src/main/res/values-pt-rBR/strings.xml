@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Não foi possível adicionar os itens compartilhados</string>
+    <string name="app_alert_open_session_failed_title">Não foi possível abrir a sessão</string>
+    <string name="app_alert_pairing_failed_title">Não foi possível emparelhar com o servidor</string>
+    <string name="app_pairing_confirm">Emparelhar</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Servidores</string>
+    <string name="app_servers_back_description">Voltar para %1$s</string>
+    <string name="app_server_fallback_name">servidor</string>
+    <string name="app_connection_intro_new">Continue suas sessões de programação pelo seu %1$s.</string>
+    <string name="app_connection_intro_returning">Continue de onde parou ou emparelhe outro computador.</string>
+    <string name="app_connection_enter_manually">Inserir servidor manualmente</string>
+    <string name="app_connection_scan_pairing_code">Digitalizar código de emparelhamento</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">No computador, abra o OpenCode e vá a Configurações → Emparelhamento, ou execute opencode pair --remote em um terminal. Depois, digitalize o código com este %1$s.</string>
+    <string name="app_setup_install_title">Ainda não tem o OpenCode?</string>
+    <string name="app_setup_other_ways_to_install">Outras formas de instalar</string>
+    <string name="app_setup_terminal_title">Ou execute isto em um terminal</string>
+    <string name="app_setup_terminal_detail">Funciona em qualquer rede.</string>
+    <string name="app_setup_paste_prompt">Ou copie o link exibido e depois</string>
+    <string name="app_setup_paste">Colar</string>
+    <string name="app_setup_copy_command_description">Copiar %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Conectando</string>
+    <string name="app_servers_edit_description">Editar %1$s</string>
+    <string name="app_servers_remove_description">Remover %1$s</string>
+    <string name="app_servers_remove_confirm_title">Remover %1$s?</string>
+    <string name="app_servers_remove_confirm_message">Isso remove o endereço e a senha salvos neste %1$s. As sessões no servidor não são afetadas.</string>
+    <string name="app_servers_remove_confirm">Remover servidor</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Etapa: %1$s</string>
+    <string name="app_error_server">Servidor: %1$s</string>
+    <string name="app_error_attempt">Tentativa: %1$d</string>
+    <string name="app_error_copy_report">Copiar relatório de erro</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Novo servidor</string>
+    <string name="app_server_form_edit_title">Editar servidor</string>
+    <string name="app_server_form_name">Nome</string>
+    <string name="app_server_form_address">Endereço do servidor</string>
+    <string name="app_server_form_username">Nome de usuário</string>
+    <string name="app_server_form_password">Senha (opcional)</string>
+    <string name="app_server_form_hide_password_description">Esconder senha</string>
+    <string name="app_server_form_show_password_description">Mostrar senha</string>
+    <string name="app_server_form_connect">Conectar</string>
+    <string name="app_server_form_save_and_connect">Salvar e conectar</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Cabeçalhos</string>
+    <string name="app_server_form_header_name">Nome</string>
+    <string name="app_server_form_header_name_description">Nome do cabeçalho %1$d</string>
+    <string name="app_server_form_header_value">Valor</string>
+    <string name="app_server_form_header_value_description">Valor do cabeçalho %1$d</string>
+    <string name="app_server_form_header_remove_description">Remover cabeçalho %1$d</string>
+    <string name="app_server_form_header_add">Adicionar cabeçalho</string>
+    <string name="app_server_form_headers_detail">Enviados em cada requisição para um proxy à frente do servidor, como o Cloudflare Access.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">“%1$s” não é um nome de cabeçalho válido</string>
+    <string name="app_server_form_header_invalid_value">O valor de %1$s não pode conter uma quebra de linha</string>
+    <string name="app_server_form_name_placeholder">Opcional</string>
+    <string name="app_connection_progress_pairing">Emparelhando</string>
+    <string name="app_connection_progress_connecting">Conectando</string>
+    <string name="app_connection_progress_loading_sessions">Carregando sessões</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Emparelhar com %1$s?</string>
+    <string name="app_pairing_confirm_try_one">O OpenCode vai tentar %1$s e usar o primeiro endereço que responder.</string>
+    <string name="app_pairing_confirm_pair_one">O OpenCode vai emparelhar com %1$s e passar a usá-lo.</string>
+    <string name="app_pairing_confirm_try_two">O OpenCode vai tentar %1$s e %2$s e usar o primeiro que responder.</string>
+    <string name="app_pairing_confirm_try_many">O OpenCode vai tentar %1$s e %2$s e usar o primeiro que responder.</string>
+    <string name="app_pairing_confirm_replaces">%1$s As credenciais salvas para %2$s podem ser substituídas.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Emparelhar</string>
+    <string name="app_error_phase_connect">Conectar</string>
+    <string name="app_error_phase_load_sessions">Carregar sessões</string>
+    <string name="app_error_candidate_detail">Candidato %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Indisponível (endereço inválido)</string>
+    <string name="app_error_title_pair">Não foi possível emparelhar</string>
+    <string name="app_error_title_load_sessions">Não foi possível carregar as sessões</string>
+    <string name="app_error_title_connect">Não foi possível conectar a %1$s</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Sua área de transferência está vazia</string>
+    <string name="app_paste_not_a_pairing_link">Isso não é um link de emparelhamento</string>
+    <string name="app_server_no_longer_saved">Este servidor não está mais salvo neste %1$s. Conecte-se a ele novamente para abrir a sessão.</string>
+    <string name="app_session_no_longer_available">Ela pode ter sido excluída, ou o servidor pode estar indisponível.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Conectado a %1$s</string>
+    <string name="app_pairing_invalid_code">Isso não é um código de emparelhamento do OpenCode. Execute opencode pair --remote no computador e digitalize o código QR ou cole o link exibido.</string>
+    <string name="app_pairing_unusable_address">Não foi possível usar “%1$s” deste código de emparelhamento: ele %2$s.</string>
+    <string name="app_pairing_loopback">Esse servidor só aceita conexões em localhost, então este %1$s não consegue acessá-lo. Execute opencode pair --remote no computador para conectar de qualquer rede.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">O servidor com o qual você compartilhou não está mais salvo neste dispositivo. Conecte-se a ele novamente e compartilhe de novo.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">último uso</string>
+    <string name="app_server_form_hint_new">Cole o link exibido por `opencode pair --remote` para emparelhar ou use o endereço e a senha do seu servidor OpenCode. O nome de usuário geralmente é opencode.</string>
+    <string name="app_server_form_hint_edit_paired">As alterações são salvas quando este servidor se conecta. Como ele foi emparelhado, a senha é um token de sessão; digitalize um novo código de emparelhamento em vez de alterá-la.</string>
+    <string name="app_server_form_hint_edit">As alterações são salvas quando este servidor se conecta.</string>
+</resources>

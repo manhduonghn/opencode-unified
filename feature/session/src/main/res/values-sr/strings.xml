@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent activity glyph -->
+    <string name="session_activity_running_description">У току</string>
+    <!-- Background work panel -->
+    <string name="session_background_work_show_label">Прикажи активне субагенте, скрипте и shell-ове</string>
+    <string name="session_background_work_collapsed_description">Скупљено</string>
+    <string name="session_background_work_subagents_title">Субагенти</string>
+    <string name="session_background_work_open_subagent_label">Отвори сесију субагента</string>
+    <string name="session_background_work_shells_title">Shell-ови</string>
+    <string name="session_background_work_show_shell_label">Прикажи излаз shell-а</string>
+    <!-- The session's images and videos, paged in the full-screen viewer -->
+    <string name="session_visual_attached_image">Приложена слика</string>
+    <string name="session_visual_tool_image">Слика алата</string>
+    <string name="session_visual_image">Слика</string>
+    <!-- One image of several: the image's label, then its place, as “Attached image 2 of 3” -->
+    <string name="session_visual_image_page_label">%1$s %2$d од %3$d</string>
+    <!-- A diagram's label, read by TalkBack. %1$s is its kind, as “Diagram, Flowchart” -->
+    <string name="session_visual_diagram_label">Дијаграм, %1$s</string>
+    <!-- Jump to latest -->
+    <string name="session_scroll_to_latest_description">Скочи на најновије</string>
+    <!-- Dictation bar -->
+    <string name="session_dictation_finishing_description">Завршавање диктирања</string>
+    <string name="session_dictation_stop_recording_description">Заустави снимање</string>
+    <string name="session_dictation_stop_recording_hint">Унеси изговорене речи у поруку</string>
+    <string name="session_sending_message_description">Слање поруке</string>
+    <string name="session_delivery_steer_label">Усмери у следећем кораку</string>
+    <string name="session_delivery_queue_label">Стави у ред чекања после овог одговора</string>
+    <string name="session_delivery_steer">Усмери</string>
+    <string name="session_delivery_queue">Стави у ред чекања</string>
+    <!-- Draft project picker -->
+    <string name="session_draft_project_choose_label">Изаберите где сесија почиње</string>
+    <string name="session_project_choose_folder">Изаберите фасциклу…</string>
+    <string name="session_project_all_projects">Сви пројекти</string>
+    <string name="session_project_selected_description">Изабрано</string>
+    <string name="session_project_picker_title">Пројекат</string>
+    <!-- Folder browser -->
+    <string name="session_folder_select_description">Изаберите фасциклу</string>
+    <string name="session_folder_path_description">Путања</string>
+    <string name="session_folder_title">Фасцикла</string>
+    <string name="session_folder_select">Изабери</string>
+    <string name="session_folder_open_failed_title">Није могуће отворити фасциклу</string>
+    <string name="session_folder_empty_title">Нема фасцикли</string>
+    <string name="session_folder_search_empty_title">Нема резултата за „%1$s“</string>
+    <string name="session_folder_search_empty_message">Проверите правопис или покушајте другу претрагу.</string>
+    <!-- Server connection pill -->
+    <string name="session_server_edit">Уреди сервер…</string>
+    <!-- Starter prompts -->
+    <string name="session_starter_prompts_title">Пробајте да питате</string>
+    <string name="session_starter_prompt_pick_label">Унеси у поруку</string>
+    <!-- Session sheet -->
+    <string name="session_sheet_rename_failed">Преименовање није успело</string>
+    <string name="session_sheet_status_description">Статус</string>
+    <string name="session_rename_title">Преименуј сесију</string>
+    <string name="session_untitled_title">Сесија</string>
+    <string name="session_pin">Закачи</string>
+    <string name="session_pinned">Закачено</string>
+    <string name="session_unread">Непрочитано</string>
+    <string name="session_mute">Утишај</string>
+    <string name="session_muted">Утишано</string>
+    <string name="session_compact">Цомпацт</string>
+    <string name="session_fork">Нова грана</string>
+    <string name="session_toggle_on_description">Укључено</string>
+    <string name="session_toggle_off_description">Искључено</string>
+    <string name="session_export">Извоз</string>
+    <string name="session_export_markdown">Markdown</string>
+    <string name="session_export_json">JSON</string>
+    <string name="session_sheet_model">Модел</string>
+    <string name="session_sheet_context">Контекст</string>
+    <string name="session_sheet_unknown_description">Непознат</string>
+    <string name="session_sheet_context_tokens">%1$s токена</string>
+    <string name="session_sheet_cost">Трошак</string>
+    <string name="session_sheet_media">Медији</string>
+    <string name="session_sheet_media_value">Датотеке и везе</string>
+    <string name="session_always_notify">Увек обавести</string>
+    <string name="session_always_notify_message_phone">Обавести овај телефон кад год је одговор спреман, чак и ако порука није послата одавде.</string>
+    <string name="session_always_notify_message_tablet">Обавести овај таблет кад год је одговор спреман, чак и ако порука није послата одавде.</string>
+    <string name="session_delete_session">Избриши сесију</string>
+    <string name="session_rename_placeholder">Наслов</string>
+    <string name="session_auto_rename">Аутоматски преименуј</string>
+    <string name="session_delete_confirm_title">Избрисати „%1$s“?</string>
+    <string name="session_delete_confirm_message">Ово уклања сесију са сервера за све клијенте.</string>
+    <!-- Transcript -->
+    <string name="session_move_to_background">Премести у позадину</string>
+    <string name="session_move_to_background_hint">Настави текући рад у позадини да би агент прочитао вашу следећу поруку</string>
+    <!-- Attachments -->
+    <string name="session_attachment_add_image_failed_title">Није могуће додати слику</string>
+    <string name="session_attachment_upload">Отпреми</string>
+    <string name="session_attachment_remove_image_description">Уклони приложену слику %1$d</string>
+    <string name="session_attachment_remove_description">Уклони %1$s</string>
+    <string name="session_attachment_file_description">Приложена датотека %1$s</string>
+    <string name="session_attachment_cancel_upload_description">Откажи отпремање %1$s</string>
+    <string name="session_attachment_open_photo_label">Отвори фотографију преко целог екрана</string>
+    <string name="session_attachment_image_description">Приложена слика %1$d</string>
+    <string name="session_attachment_video_description">Приложени видео %1$d</string>
+    <!-- Composer controls -->
+    <string name="session_answer_own_description">Ваш одговор</string>
+    <string name="session_answer_own_type_label">Упишите или издиктирајте свој одговор</string>
+    <string name="session_answer_own_clear_label">Одложите свој одговор</string>
+    <string name="session_answer_own_choose_label">Одговорите својим речима</string>
+    <string name="session_answer_decline_with_words_label">Реците агенту шта да уради уместо тога</string>
+    <string name="session_answer_required_description">Изаберите одговор или упишите свој</string>
+    <string name="session_dictate_message_description">Диктирај поруку</string>
+    <string name="session_dictate_message_hint">Диктирајте поруку или додирните и задржите да снимите и пошаљете</string>
+    <string name="session_send_waiting_for_uploads_description">Слање након завршетка отпремања</string>
+    <string name="session_steer_message_description">Усмери поруку</string>
+    <string name="session_stopping_description">Заустављање</string>
+    <string name="session_start_voice_call">Покрени гласовни позив</string>
+    <string name="session_dictation_stop_description">Заустави диктирање</string>
+    <!-- Composer -->
+    <string name="session_requests_load_failed_title">Није могуће учитати захтеве</string>
+    <plurals name="session_queued_count">
+        <item quantity="one">%1$d у реду чекања</item>
+        <item quantity="few">%1$d у реду чекања</item>
+        <item quantity="other">%1$d у реду чекања</item>
+    </plurals>
+    <string name="session_queued_show_label">Прикажи поруке које чекају завршетак овог одговора</string>
+    <plurals name="session_queued_messages_description">
+        <item quantity="one">%1$d порука у реду чекања</item>
+        <item quantity="few">%1$d поруке у реду чекања</item>
+        <item quantity="other">%1$d порука у реду чекања</item>
+    </plurals>
+    <string name="session_dictation_preparing">Припрема диктирања…</string>
+    <string name="session_message_placeholder">Порука</string>
+    <!-- Session header -->
+    <string name="session_back_to_main_description">Назад на главну сесију</string>
+    <string name="session_header_open_from_catch_up_label">Отвори сесију и изађи из прегледа новости</string>
+    <string name="session_header_show_details_label">Прикажи детаље сесије</string>
+    <string name="session_header_idle_description">Мирује</string>
+    <string name="session_header_syncing_description">Синхронизација</string>
+    <string name="session_header_last_known_description">Последње познато стање</string>
+    <string name="session_menu_more_description">Више</string>
+    <string name="session_unpin">Откачи</string>
+    <string name="session_copy_session_id">Копирај ID сесије</string>
+    <string name="session_mark_as_read">Означи као прочитано</string>
+    <string name="session_mark_as_unread">Означи као непрочитано</string>
+    <string name="session_unmute">Укључи звук</string>
+    <string name="session_menu_export_expanded_description">Проширено</string>
+    <string name="session_menu_export_collapsed_description">Скупљено</string>
+    <string name="session_info">Подаци о сесији</string>
+    <!-- Session screen -->
+    <string name="session_load_failed_title">Није могуће учитати сесију</string>
+    <string name="session_location_share_failed_title">Није могуће поделити локацију</string>
+    <!-- Shell output -->
+    <string name="session_shell_stop_confirm_title">Зауставити овај shell?</string>
+    <string name="session_shell_stop_confirm_message">Команда се одмах завршава. Приказани излаз остаје док га не затворите.</string>
+    <string name="session_shell_stop">Заустави shell</string>
+    <string name="session_shell_copy_output">Копирај излаз</string>
+    <string name="session_shell_share_output">Подели излаз</string>
+    <string name="session_shell_earlier_output_hidden">Ранији излаз је скривен</string>
+    <string name="session_shell_showing_last_output">Приказују се последња 4 MB</string>
+    <string name="session_shell_load_earlier">Учитај раније</string>
+    <string name="session_shell_output_unavailable_title">Излаз није доступан</string>
+    <string name="session_shell_output_unavailable_message">Сервер више нема излаз овог shell-а.</string>
+    <string name="session_shell_no_output_yet_title">Још нема излаза</string>
+    <string name="session_shell_no_output_title">Нема излаза</string>
+    <string name="session_shell_no_output_yet_message">Излаз се појављује овде док га команда исписује.</string>
+    <string name="session_shell_status_stopping">Заустављање…</string>
+    <string name="session_shell_status_unavailable">Недоступно</string>
+    <string name="session_shell_status_interrupted">Прекинут</string>
+    <string name="session_shell_status_timed_out">Време је истекло</string>
+    <string name="session_shell_status_exited_with_code">Завршен са кодом %1$d</string>
+    <string name="session_shell_status_exited">Завршен</string>
+    <plurals name="session_shell_elapsed_hours">
+        <item quantity="one">%1$d сат</item>
+        <item quantity="few">%1$d сата</item>
+        <item quantity="other">%1$d сати</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_minutes">
+        <item quantity="one">%1$d минут</item>
+        <item quantity="few">%1$d минута</item>
+        <item quantity="other">%1$d минута</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_seconds">
+        <item quantity="one">%1$d секунд</item>
+        <item quantity="few">%1$d секунде</item>
+        <item quantity="other">%1$d секунди</item>
+    </plurals>
+
+    <!-- Agent activity (glyph labels and titles) -->
+    <string name="session_activity_idle">Мирује</string>
+    <string name="session_activity_starting_up">Покретање</string>
+    <string name="session_activity_thinking">Размишљање</string>
+    <string name="session_activity_long_work">Дуготрајан рад</string>
+    <string name="session_activity_tool_burst">Низ позива алата</string>
+    <string name="session_activity_streaming_output">Исписивање излаза</string>
+    <string name="session_activity_waiting_for_input">Чека се унос</string>
+    <string name="session_activity_handing_off">Предаја посла</string>
+    <string name="session_activity_done">Готово</string>
+    <string name="session_activity_failed">Неуспешно</string>
+    <string name="session_working_stopping">Заустављање…</string>
+    <string name="session_status_working">У току</string>
+    <string name="session_status_needs_input">Потребан је ваш унос</string>
+    <string name="session_status_done">Готово</string>
+
+    <!-- Lists: joins two or three phrases -->
+    <string name="session_list_two">%1$s, %2$s</string>
+    <string name="session_list_three">%1$s, %2$s, %3$s</string>
+
+    <!-- Background work panel -->
+    <plurals name="session_background_work_subagent_count">
+        <item quantity="one">%1$d субагент</item>
+        <item quantity="few">%1$d субагента</item>
+        <item quantity="other">%1$d субагената</item>
+    </plurals>
+    <plurals name="session_background_work_shell_count">
+        <item quantity="one">%1$d shell</item>
+        <item quantity="few">%1$d shell-а</item>
+        <item quantity="other">%1$d shell-ова</item>
+    </plurals>
+    <plurals name="session_background_work_script_count">
+        <item quantity="one">%1$d скрипта</item>
+        <item quantity="few">%1$d скрипте</item>
+        <item quantity="other">%1$d скрипти</item>
+    </plurals>
+    <string name="session_background_work_summary">%1$s · %2$s</string>
+    <string name="session_background_work_scripts_title">Скрипте</string>
+    <string name="session_background_work_stop_script_label">Заустави скрипту</string>
+    <string name="session_background_work_stop_subagent_label">Заустави субагента</string>
+    <string name="session_background_work_stop_script_failed">Заустављање скрипте није успело</string>
+    <string name="session_background_work_stop_subagent_failed">Заустављање субагента није успело</string>
+
+    <!-- Composer buttons -->
+    <string name="session_send_message_description">Пошаљи поруку</string>
+    <string name="session_stop_description">Стоп</string>
+    <string name="session_start_voice_call_description">Покрени гласовни позив</string>
+    <string name="session_model_level_default">Подразумевано</string>
+
+    <!-- In-app notice -->
+    <plurals name="session_notice_session_count">
+        <item quantity="one">%1$d сесија</item>
+        <item quantity="few">%1$d сесије</item>
+        <item quantity="other">%1$d сесија</item>
+    </plurals>
+    <plurals name="session_notice_needs_input_count">
+        <item quantity="one">%1$d чека ваш унос</item>
+        <item quantity="few">%1$d чекају ваш унос</item>
+        <item quantity="other">%1$d чека ваш унос</item>
+    </plurals>
+    <string name="session_notice_announcement">%1$s, %2$s</string>
+
+    <!-- Server connection pill -->
+    <string name="session_server_reconnecting">Поновно повезивање са %1$s…</string>
+    <string name="session_server_connect_failed">Повезивање са %1$s није успело</string>
+    <string name="session_server_sign_in_failed">Пријава на %1$s није успела</string>
+    <string name="session_server_pair_again">Поново упари</string>
+    <string name="session_server_try_again_click_label">покушај поново</string>
+    <string name="session_server_pair_again_click_label">поново упари</string>
+
+    <!-- Export -->
+    <string name="session_export_folder_failed">Није могуће направити фасциклу за извоз</string>
+    <string name="session_export_save_failed">Није могуће сачувати извоз</string>
+
+    <!-- Session errors -->
+    <string name="session_agent_fallback_name">Агент</string>
+    <string name="session_something_went_wrong">Нешто је пошло наопако</string>
+    <string name="session_something_went_wrong_sentence">Нешто је пошло наопако.</string>
+    <string name="session_load_earlier_failed">Није могуће учитати раније поруке</string>
+    <string name="session_move_to_background_failed">Није могуће преместити у позадину: %1$s</string>
+    <string name="session_move_failed_reason">Није могуће преместити сесију</string>
+    <string name="session_delivery_waiting_to_send">Чека се слање</string>
+    <string name="session_create_failed">Није могуће направити сесију.</string>
+    <string name="session_switch_agent_failed">Није могуће променити агента: %1$s</string>
+    <string name="session_switch_model_failed">Није могуће променити модел: %1$s</string>
+    <string name="session_pending_send_now_failed_details">Није могуће сада послати поруку на чекању: %1$s</string>
+    <string name="session_pending_cancel_failed_details">Није могуће отказати поруку на чекању: %1$s</string>
+    <string name="session_pending_queue_failed_details">Није могуће ставити поруку на чекању у ред чекања: %1$s</string>
+    <string name="session_stopped_before_sent">Прекинуто пре слања</string>
+    <string name="session_stop_failed">Заустављање сесије није успело</string>
+    <string name="session_undo_message_failed">Поништавање поруке није успело: %1$s</string>
+    <string name="session_revert_failed">Враћање није успело</string>
+    <string name="session_revert_failed_details">Враћање није успело: %1$s</string>
+
+    <!-- Session sheet errors -->
+    <string name="session_sheet_rename_failed_title">Преименовање сесије није успело</string>
+    <string name="session_sheet_compact_failed_title">Компактовање сесије није успело</string>
+    <string name="session_sheet_fork_failed_title">Прављење нове гране сесије није успело</string>
+    <string name="session_sheet_save_export_failed">Чување извоза није успело</string>
+    <string name="session_sheet_export_failed_title">Извоз сесије није успео</string>
+    <string name="session_sheet_notifications_off_message">Прво укључите обавештења у подешавањима.</string>
+    <string name="session_sheet_always_notify_on_failed_title">Укључивање опције „Увек обавести“ није успело</string>
+    <string name="session_sheet_always_notify_off_failed_title">Искључивање опције „Увек обавести“ није успело</string>
+
+    <!-- Attachments -->
+    <string name="session_attachment_files_unsupported">Сервер не подржава датотеке</string>
+    <string name="session_attachment_upload_failed">Отпремање није успело</string>
+    <string name="session_attachment_file_fallback_name">Датотека</string>
+    <string name="session_attachment_image_too_large">Изаберите слику мању од 20 MB.</string>
+    <string name="session_attachment_image_load_failed">Учитавање ове слике није успело. Пробајте другу фотографију.</string>
+    <string name="session_attachment_file_add_failed">Додавање ове датотеке није успело. Пробајте другу датотеку.</string>
+    <plurals name="session_attachment_files_add_failed">
+        <item quantity="one">%1$d датотека није додата.</item>
+        <item quantity="few">%1$d датотеке нису додате.</item>
+        <item quantity="other">%1$d датотека није додато.</item>
+    </plurals>
+    <string name="session_large_upload_title">Отпремити %1$s?</string>
+    <string name="session_large_upload_message_one">„%1$s“ је велика датотека. Порука ће бити послата кад се заврши отпремање на ваш сервер.</string>
+    <plurals name="session_large_upload_message_many">
+        <item quantity="one">%1$d датотека је велика. Порука ће бити послата кад се заврши отпремање на ваш сервер.</item>
+        <item quantity="few">%1$d датотеке су велике. Порука ће бити послата кад се заврши отпремање на ваш сервер.</item>
+        <item quantity="other">%1$d датотека је велико. Порука ће бити послата кад се заврши отпремање на ваш сервер.</item>
+    </plurals>
+
+    <!-- Header and screens -->
+    <string name="session_new_session_title">Нова сесија</string>
+    <string name="session_pasted_text_screen_title">Налепљени текст</string>
+    <string name="session_pasted_text_viewer_screen_title">Прегледник налепљеног текста</string>
+    <string name="session_context_summary">%1$d%% од %2$s</string>
+    <string name="session_context_accessibility_value">Искоришћено %1$d%% од %2$s токена</string>
+
+    <!-- Starter prompts (shown, then sent as the person’s message) -->
+    <string name="session_starter_project_purpose">Чему служи овај пројекат?</string>
+    <string name="session_starter_code_tour">Укратко ме проведи кроз код</string>
+    <string name="session_starter_recent_changes">Шта се овде недавно променило?</string>
+
+    <!-- Shell output -->
+    <string name="session_shell_refresh_failed">Освежавање излаза није успело</string>
+    <string name="session_shell_load_earlier_failed">Учитавање ранијег излаза није успело</string>
+    <string name="session_shell_stop_failed">Заустављање shell-а није успело</string>
+    <string name="session_quote_remove_description">Уклони цитат</string>
+    <string name="session_quote_comment_placeholder">Додај коментар (опционо)…</string>
+    <string name="session_media_title">Медији сесије</string>
+    <string name="session_media_filter_media">Медији</string>
+    <string name="session_media_filter_files">Датотеке</string>
+    <string name="session_media_filter_links">Везе</string>
+    <string name="session_media_layout_description">Распоред медија</string>
+    <string name="session_media_layout_tiles">Плочице</string>
+    <string name="session_media_layout_list">Листа</string>
+    <string name="session_media_origin_user">Послали сте ви</string>
+    <string name="session_media_origin_agent">Поделио агент</string>
+    <string name="session_media_open_click_label">Отвори</string>
+    <string name="session_media_open_link_click_label">Отвори везу</string>
+    <string name="session_media_empty_media_title">Нема медија</string>
+    <string name="session_media_empty_media_message">Слике, видео и аудио снимци подељени у овој сесији појављују се овде.</string>
+    <string name="session_media_empty_files_title">Нема датотека</string>
+    <string name="session_media_empty_files_message">Документи и налепљени текст из ове сесије појављују се овде.</string>
+    <string name="session_media_empty_links_title">Нема веза</string>
+    <string name="session_media_empty_links_message">Веб везе подељене у овој сесији приказаће се овде.</string>
+    <string name="session_media_earlier_note">Раније поруке још нису учитане.</string>
+    <string name="session_media_load_earlier">Учитај раније поруке</string>
+    <string name="session_media_loading_earlier">Учитавање…</string>
+    <string name="session_media_earlier_failed">Учитавање ранијих порука није успело. Проверите везу и покушајте поново.</string>
+    <string name="session_media_earlier_nothing_new">У управо учитаним порукама нема ничег новог. Раније можда имају више.</string>
+</resources>

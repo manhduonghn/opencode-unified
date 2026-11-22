@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Shell</string>
+    <string name="server_notice_source_subagent">Subagent</string>
+    <string name="server_notice_heading_finished">%1$s ishini tugatdi</string>
+    <string name="server_notice_heading_failed">%1$s muvaffaqiyatsiz tugadi</string>
+    <string name="server_notice_heading_interrupted">%1$s uzildi</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$d ta Shell ishini tugatdi</item>
+        <item quantity="other">%1$d ta Shell ishini tugatdi</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$d ta Shell muvaffaqiyatsiz tugadi</item>
+        <item quantity="other">%1$d ta Shell muvaffaqiyatsiz tugadi</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">%1$d ta Shell uzildi</item>
+        <item quantity="other">%1$d ta Shell uzildi</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">%1$d ta subagent ishini tugatdi</item>
+        <item quantity="other">%1$d ta subagent ishini tugatdi</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">%1$d ta subagent muvaffaqiyatsiz tugadi</item>
+        <item quantity="other">%1$d ta subagent muvaffaqiyatsiz tugadi</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">%1$d ta subagent uzildi</item>
+        <item quantity="other">%1$d ta subagent uzildi</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Ixcham</string>
+    <string name="server_run_error_action_switch_model">Modelni almashtirish</string>
+    <string name="server_run_error_aborted">Uzildi</string>
+    <string name="server_run_error_permission_rejected">So‘rov rad etilgach uzildi</string>
+    <string name="server_run_error_content_filter">Xavfsizlik filtri javobni blokladi</string>
+    <string name="server_run_error_rate_limit">So‘rovlar chegarasiga yetildi</string>
+    <string name="server_run_error_quota">Foydalanish chegarasiga yetildi</string>
+    <string name="server_run_error_auth">Provayder API kalitini rad etdi</string>
+    <string name="server_run_error_context_overflow">Sessiya bu model uchun juda uzun</string>
+    <string name="server_run_error_invalid_request">Provayder so‘rovni rad etdi</string>
+    <string name="server_run_error_overloaded">Model haddan tashqari band</string>
+    <string name="server_run_error_internal">Provayderda muammo yuz berdi</string>
+    <string name="server_run_error_transport">Model bilan ulanish uzildi</string>
+    <string name="server_run_error_timeout">Modelning javobi juda kechikdi</string>
+    <string name="server_run_error_invalid_output">Modelning javobini o‘qib bo‘lmadi</string>
+    <string name="server_run_error_unavailable">Bu model mavjud emas</string>
+    <string name="server_run_error_unsupported_operation">Bu model buni bajara olmaydi</string>
+    <string name="server_run_error_tool_execution">Vosita xatosi tufayli ish to‘xtadi</string>
+    <string name="server_run_error_other">Xato tufayli ish to‘xtadi</string>
+    <string name="server_run_retry_in_seconds">%1$s · %2$d soniyadan keyin qayta urinish</string>
+    <string name="server_run_retry_now">%1$s · qayta urinish</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">OpenCode serveriga ulanib bo‘lmadi</string>
+    <string name="server_error_folder_gone">Jild endi mavjud emas</string>
+    <string name="server_error_uploads_unsupported">Bu server fayl biriktirishni qo‘llamaydi. Kompyuteringizdagi OpenCode ilovasini yangilang.</string>
+    <string name="server_error_archiving_unsupported">Bu server arxivlashni qo‘llab-quvvatlamaydi. Kompyuteringizda OpenCode’ni yangilang.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode mahalliy tarmog‘ingizdagi qurilmalarga ulanishga ruxsati yo‘q. Sozlamalarda OpenCode uchun Yaqin-atrofdagi qurilmalar ruxsatini yoqing va qayta urinib ko‘ring.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Nomsiz sessiya</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Shell</string>
+    <string name="server_tool_shell_killed">Shell majburan to‘xtatildi</string>
+    <string name="server_tool_shell_exit_code">Buyruq %1$d kodi bilan tugadi</string>
+    <string name="server_notice_session_update">Sessiya yangilanishi</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Ulanib bo‘lmadi</string>
+    <string name="server_connection_resolved_address_unknown">Aniqlangan manzil: noma\'lum</string>
+    <string name="server_connection_resolved_address">Aniqlangan manzil (xatodan keyingi qidiruv): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">Bu tailnet nomi Tailscale diapazonidan tashqaridagi manzilga olib keldi, demak Tailscale DNS ishlatilmayotgan bo‘lishi mumkin. Tailscale ilovasida Tailscale DNS sozlamalaridan foydalanishni yoqing, Maxfiy DNS yoki DNSni o‘zgartiradigan VPN profilini o‘chiring.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Mahalliy tarmoq</string>
+    <string name="server_connection_route_loopback">Qaytma ulanish</string>
+    <string name="server_connection_route_internet">Internet</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">veb-manzil emas</string>
+    <string name="server_pairing_origin_bad_scheme">http:// yoki https:// bilan boshlanmaydi</string>
+    <string name="server_pairing_origin_no_host">xost nomi yo‘q</string>
+    <string name="server_pairing_origin_credentials">foydalanuvchi nomi yoki parolni o‘z ichiga oladi</string>
+    <string name="server_pairing_origin_query">so‘rov yoki fragmentni o‘z ichiga oladi</string>
+    <string name="server_pairing_origin_port">porti 1–65535 oralig‘ida emas</string>
+    <string name="server_pairing_origin_path">yo‘lni o‘z ichiga oladi, server esa manzilining ildizida bo‘lishi kerak</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Server</string>
+    <string name="server_friendly_name_numbered">Server %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">Xabar yuborilgach ulanish uzildi, shuning uchun xabar yetib borgan bo‘lishi mumkin.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Bu integratsiyada tizimga kirish usuli yo‘q.</string>
+    <string name="server_error_sign_in_url_invalid">Tizimga kirish sahifasining manzili yaroqsiz.</string>
+    <string name="server_error_load_server_details">Server tafsilotlarini yuklab bo‘lmadi</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">Bu ulash kodining muddati tugagan yoki u allaqachon ishlatilgan. `opencode pair --remote` buyrug‘ini qayta ishga tushiring.</string>
+    <string name="server_error_pairing_unsupported">Bu server ulash havolalarini qo‘llamaydi. Kompyuteringizdagi OpenCode ilovasini yangilang yoki serverni qo‘lda kiriting.</string>
+    <string name="server_error_notification_previews_need_https">Shifrlangan bildirishnomalarni oldindan ko‘rish uchun serverga HTTPS orqali ulanish kerak.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Serverning yaroqli HTTP yoki HTTPS URL manzilini kiriting.</string>
+    <string name="server_error_credentials_rejected">Server bu kirish ma’lumotlarini rad etdi.</string>
+    <string name="server_error_http_status">Server HTTP %1$d javobini qaytardi.</string>
+    <string name="server_error_event_stream_http">Hodisalar oqimi HTTP %1$d javobini qaytardi.</string>
+    <string name="server_error_event_stream_oversized_frame">Hodisalar oqimi juda katta kadr yubordi.</string>
+    <string name="server_error_event_stream_ended">Hodisalar oqimi tugadi.</string>
+    <string name="server_error_event_stream_server_failure">Hodisalar oqimi serverdagi xato haqida xabar berdi.</string>
+    <string name="server_tool_failed">Vosita ishi muvaffaqiyatsiz tugadi</string>
+    <string name="server_error_list_folder">Server bu jild tarkibini ko‘rsata olmadi</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Loyihalar va seanslarni yuklab bo‘lmadi</string>
+    <string name="server_error_load_session_family">Sessiya guruhini yuklab bo‘lmadi</string>
+    <string name="server_error_update_session">Sessiyani yangilab bo‘lmadi</string>
+    <string name="server_error_load_session_ancestry">Faol sessiyaning ajdod sessiyalarini yuklab bo‘lmadi</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Boshqa joyda javob berilgan</string>
+    <string name="server_request_already_dismissed">Allaqachon bekor qilingan</string>
+    <string name="server_request_already_answered">Allaqachon javob berilgan</string>
+    <string name="server_request_already_dismissed_elsewhere">Boshqa joyda bekor qilingan</string>
+    <string name="server_request_no_longer_waiting">Endi javob kutilmayapti</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Media mavjud emas</string>
+    <string name="server_pasted_text_title">Joylangan matn</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d qator · %2$s</item>
+        <item quantity="other">%1$d qator · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d qator</item>
+        <item quantity="other">%1$d qator</item>
+    </plurals>
+    <string name="server_file_size_zero">0 KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d bayt</item>
+        <item quantity="other">%1$d bayt</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">Loyiha</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Fayl</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Bu bosqichni yakunlang</string>
+    <string name="server_form_required">Majburiy</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">Kamida %1$d ta belgi kiriting</item>
+        <item quantity="other">Kamida %1$d ta belgi kiriting</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">Ko‘pi bilan %1$d ta belgi kiriting</item>
+        <item quantity="other">Ko‘pi bilan %1$d ta belgi kiriting</item>
+    </plurals>
+    <string name="server_form_invalid_format">Format yaroqsiz</string>
+    <string name="server_form_choose_option">Mavjud variantlardan birini tanlang</string>
+    <string name="server_form_invalid_email">Yaroqli elektron pochta manzilini kiriting</string>
+    <string name="server_form_invalid_url">Yaroqli URL kiriting</string>
+    <string name="server_form_invalid_date">Sanani YYYY-MM-DD shaklida kiriting</string>
+    <string name="server_form_invalid_date_time">Yaroqli sana va vaqtni kiriting</string>
+    <string name="server_form_minimum">Kamida %1$s bo‘lishi kerak</string>
+    <string name="server_form_maximum">Ko‘pi bilan %1$s bo‘lishi kerak</string>
+    <string name="server_form_whole_number">Butun son kiriting</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">Kamida %1$d ta tanlang</item>
+        <item quantity="other">Kamida %1$d ta tanlang</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">Ko‘pi bilan %1$d ta tanlang</item>
+        <item quantity="other">Ko‘pi bilan %1$d ta tanlang</item>
+    </plurals>
+    <string name="server_form_invalid_value">Qiymat yaroqsiz</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Tanlanganlarni yashirish</string>
+    <string name="server_model_visibility_only_show">Faqat tanlanganlarni ko‘rsatish</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">O‘chirilgan</string>
+    <string name="server_model_variant_extra_high">Juda yuqori</string>
+    <string name="server_model_variant_max">Maksimal</string>
+    <string name="server_delivery_steering">Yo‘naltirish</string>
+    <string name="server_delivery_queued">Navbatda</string>
+</resources>

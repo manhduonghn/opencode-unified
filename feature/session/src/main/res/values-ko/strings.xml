@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent activity glyph -->
+    <string name="session_activity_running_description">실행 중</string>
+    <!-- Background work panel -->
+    <string name="session_background_work_show_label">실행 중인 하위 에이전트, 스크립트 및 셸 표시</string>
+    <string name="session_background_work_collapsed_description">접힘</string>
+    <string name="session_background_work_subagents_title">하위 에이전트</string>
+    <string name="session_background_work_open_subagent_label">하위 에이전트의 세션 열기</string>
+    <string name="session_background_work_shells_title">셸</string>
+    <string name="session_background_work_show_shell_label">셸 출력 보기</string>
+    <!-- The session's images and videos, paged in the full-screen viewer -->
+    <string name="session_visual_attached_image">첨부 이미지</string>
+    <string name="session_visual_tool_image">도구 이미지</string>
+    <string name="session_visual_image">이미지</string>
+    <!-- One image of several: the image's label, then its place, as “Attached image 2 of 3” -->
+    <string name="session_visual_image_page_label">%1$s %3$d개 중 %2$d번째</string>
+    <!-- A diagram's label, read by TalkBack. %1$s is its kind, as “Diagram, Flowchart” -->
+    <string name="session_visual_diagram_label">다이어그램, %1$s</string>
+    <!-- Jump to latest -->
+    <string name="session_scroll_to_latest_description">최신으로 이동</string>
+    <!-- Dictation bar -->
+    <string name="session_dictation_finishing_description">음성 입력 마무리 중</string>
+    <string name="session_dictation_stop_recording_description">녹음 중지</string>
+    <string name="session_dictation_stop_recording_hint">말한 내용을 메시지에 넣기</string>
+    <string name="session_sending_message_description">메시지 보내는 중</string>
+    <string name="session_delivery_steer_label">다음 단계에서 방향 지시</string>
+    <string name="session_delivery_queue_label">이 응답 뒤에 대기열에 추가</string>
+    <string name="session_delivery_steer">방향 지시</string>
+    <string name="session_delivery_queue">대기열에 추가</string>
+    <!-- Draft project picker -->
+    <string name="session_draft_project_choose_label">세션을 시작할 위치 선택</string>
+    <string name="session_project_choose_folder">폴더 선택…</string>
+    <string name="session_project_all_projects">모든 프로젝트</string>
+    <string name="session_project_selected_description">선택됨</string>
+    <string name="session_project_picker_title">프로젝트</string>
+    <!-- Folder browser -->
+    <string name="session_folder_select_description">폴더 선택</string>
+    <string name="session_folder_path_description">경로</string>
+    <string name="session_folder_title">폴더</string>
+    <string name="session_folder_select">선택</string>
+    <string name="session_folder_open_failed_title">폴더를 열 수 없어요</string>
+    <string name="session_folder_empty_title">폴더 없음</string>
+    <string name="session_folder_search_empty_title">“%1$s” 검색 결과 없음</string>
+    <string name="session_folder_search_empty_message">철자를 확인하거나 다른 검색어를 입력해 주세요.</string>
+    <!-- Server connection pill -->
+    <string name="session_server_edit">서버 편집…</string>
+    <!-- Starter prompts -->
+    <string name="session_starter_prompts_title">이렇게 물어보세요</string>
+    <string name="session_starter_prompt_pick_label">메시지에 입력하기</string>
+    <!-- Session sheet -->
+    <string name="session_sheet_rename_failed">이름을 바꿀 수 없어요</string>
+    <string name="session_sheet_status_description">상태</string>
+    <string name="session_rename_title">세션 이름 바꾸기</string>
+    <string name="session_untitled_title">세션</string>
+    <string name="session_pin">고정</string>
+    <string name="session_pinned">고정됨</string>
+    <string name="session_unread">읽지 않음</string>
+    <string name="session_mute">알림 끄기</string>
+    <string name="session_muted">알림 꺼짐</string>
+    <string name="session_compact">콤팩트</string>
+    <string name="session_fork">분기</string>
+    <string name="session_toggle_on_description">켜기</string>
+    <string name="session_toggle_off_description">끄기</string>
+    <string name="session_export">내보내기</string>
+    <string name="session_export_markdown">Markdown</string>
+    <string name="session_export_json">JSON</string>
+    <string name="session_sheet_model">모델</string>
+    <string name="session_sheet_context">컨텍스트</string>
+    <string name="session_sheet_unknown_description">알 수 없음</string>
+    <string name="session_sheet_context_tokens">%1$s 토큰</string>
+    <string name="session_sheet_cost">비용</string>
+    <string name="session_sheet_media">미디어</string>
+    <string name="session_sheet_media_value">파일 및 링크</string>
+    <string name="session_always_notify">항상 알림</string>
+    <string name="session_always_notify_message_phone">다른 기기에서 보낸 메시지도 응답이 완료되면 이 휴대폰으로 알려요.</string>
+    <string name="session_always_notify_message_tablet">다른 기기에서 보낸 메시지도 응답이 완료되면 이 태블릿으로 알려요.</string>
+    <string name="session_delete_session">세션 삭제</string>
+    <string name="session_rename_placeholder">제목</string>
+    <string name="session_auto_rename">자동 이름 바꾸기</string>
+    <string name="session_delete_confirm_title">“%1$s” 세션을 삭제할까요?</string>
+    <string name="session_delete_confirm_message">서버에서 세션을 삭제하면 모든 클라이언트에서도 사라져요.</string>
+    <!-- Transcript -->
+    <string name="session_move_to_background">백그라운드로 이동</string>
+    <string name="session_move_to_background_hint">진행 중인 작업은 백그라운드에서 계속하고 에이전트가 다음 메시지를 읽게 해요</string>
+    <!-- Attachments -->
+    <string name="session_attachment_add_image_failed_title">이미지를 추가할 수 없어요</string>
+    <string name="session_attachment_upload">업로드</string>
+    <string name="session_attachment_remove_image_description">이미지 첨부 파일 %1$d 제거</string>
+    <string name="session_attachment_remove_description">%1$s 제거</string>
+    <string name="session_attachment_file_description">첨부 파일 %1$s</string>
+    <string name="session_attachment_cancel_upload_description">%1$s 업로드 취소</string>
+    <string name="session_attachment_open_photo_label">전체 화면으로 사진 열기</string>
+    <string name="session_attachment_image_description">이미지 첨부 파일 %1$d</string>
+    <string name="session_attachment_video_description">비디오 첨부 파일 %1$d</string>
+    <!-- Composer controls -->
+    <string name="session_answer_own_description">직접 쓴 답변</string>
+    <string name="session_answer_own_type_label">답변을 직접 입력하거나 말하기</string>
+    <string name="session_answer_own_clear_label">직접 쓴 답변 사용 안 함</string>
+    <string name="session_answer_own_choose_label">직접 쓴 내용으로 답변하기</string>
+    <string name="session_answer_decline_with_words_label">대신 할 일을 에이전트에게 알려 주세요</string>
+    <string name="session_answer_required_description">답변을 선택하거나 직접 입력하세요</string>
+    <string name="session_dictate_message_description">음성으로 메시지 입력</string>
+    <string name="session_dictate_message_hint">말해서 메시지를 입력하거나 길게 눌러 녹음하고 보내세요</string>
+    <string name="session_send_waiting_for_uploads_description">업로드가 끝나면 보내요</string>
+    <string name="session_steer_message_description">메시지로 방향 지시</string>
+    <string name="session_stopping_description">중지 중</string>
+    <string name="session_start_voice_call">음성 통화 시작</string>
+    <string name="session_dictation_stop_description">음성 입력 중지</string>
+    <!-- Composer -->
+    <string name="session_requests_load_failed_title">요청을 불러올 수 없어요</string>
+    <plurals name="session_queued_count">
+        <item quantity="other">%1$d개 대기 중</item>
+    </plurals>
+    <string name="session_queued_show_label">이 응답이 끝나기를 기다리는 메시지 보기</string>
+    <plurals name="session_queued_messages_description">
+        <item quantity="other">대기 중인 메시지 %1$d개</item>
+    </plurals>
+    <string name="session_dictation_preparing">음성 입력 준비 중…</string>
+    <string name="session_message_placeholder">메시지</string>
+    <!-- Session header -->
+    <string name="session_back_to_main_description">메인 세션으로 돌아가기</string>
+    <string name="session_header_open_from_catch_up_label">세션을 열고 밀린 소식 나가기</string>
+    <string name="session_header_show_details_label">세션 세부 정보 보기</string>
+    <string name="session_header_idle_description">대기 중</string>
+    <string name="session_header_syncing_description">동기화 중</string>
+    <string name="session_header_last_known_description">마지막 확인 상태</string>
+    <string name="session_menu_more_description">더 보기</string>
+    <string name="session_unpin">고정 해제</string>
+    <string name="session_copy_session_id">세션 ID 복사</string>
+    <string name="session_mark_as_read">읽음으로 표시</string>
+    <string name="session_mark_as_unread">읽지 않음으로 표시</string>
+    <string name="session_unmute">알림 켜기</string>
+    <string name="session_menu_export_expanded_description">펼쳐짐</string>
+    <string name="session_menu_export_collapsed_description">접힘</string>
+    <string name="session_info">세션 정보</string>
+    <!-- Session screen -->
+    <string name="session_load_failed_title">세션을 불러올 수 없어요</string>
+    <string name="session_location_share_failed_title">위치를 공유할 수 없어요</string>
+    <!-- Shell output -->
+    <string name="session_shell_stop_confirm_title">이 셸을 중지할까요?</string>
+    <string name="session_shell_stop_confirm_message">명령어가 즉시 종료돼요. 여기에 표시된 출력은 창을 닫을 때까지 남아 있어요.</string>
+    <string name="session_shell_stop">셸 중지</string>
+    <string name="session_shell_copy_output">출력 복사</string>
+    <string name="session_shell_share_output">출력 공유</string>
+    <string name="session_shell_earlier_output_hidden">이전 출력 숨겨짐</string>
+    <string name="session_shell_showing_last_output">마지막 4 MB 표시 중</string>
+    <string name="session_shell_load_earlier">이전 출력 불러오기</string>
+    <string name="session_shell_output_unavailable_title">출력을 볼 수 없어요</string>
+    <string name="session_shell_output_unavailable_message">서버에 이 셸의 출력이 더 이상 없어요.</string>
+    <string name="session_shell_no_output_yet_title">아직 출력 없음</string>
+    <string name="session_shell_no_output_title">출력 없음</string>
+    <string name="session_shell_no_output_yet_message">명령어가 출력하는 내용이 여기에 표시돼요.</string>
+    <string name="session_shell_status_stopping">중지 중…</string>
+    <string name="session_shell_status_unavailable">사용 불가</string>
+    <string name="session_shell_status_interrupted">중단됨</string>
+    <string name="session_shell_status_timed_out">시간 초과</string>
+    <string name="session_shell_status_exited_with_code">코드 %1$d로 종료됨</string>
+    <string name="session_shell_status_exited">종료됨</string>
+    <plurals name="session_shell_elapsed_hours">
+        <item quantity="other">%1$d시간</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_minutes">
+        <item quantity="other">%1$d분</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_seconds">
+        <item quantity="other">%1$d초</item>
+    </plurals>
+
+    <!-- Agent activity (glyph labels and titles) -->
+    <string name="session_activity_idle">대기 중</string>
+    <string name="session_activity_starting_up">시작 중</string>
+    <string name="session_activity_thinking">생각 중</string>
+    <string name="session_activity_long_work">장시간 작업</string>
+    <string name="session_activity_tool_burst">도구 연속 실행</string>
+    <string name="session_activity_streaming_output">출력 스트리밍 중</string>
+    <string name="session_activity_waiting_for_input">입력 대기 중</string>
+    <string name="session_activity_handing_off">작업 위임 중</string>
+    <string name="session_activity_done">완료</string>
+    <string name="session_activity_failed">실패</string>
+    <string name="session_working_stopping">중지 중…</string>
+    <string name="session_status_working">일하고 있는</string>
+    <string name="session_status_needs_input">입력이 필요해요</string>
+    <string name="session_status_done">완료</string>
+
+    <!-- Lists: joins two or three phrases -->
+    <string name="session_list_two">%1$s, %2$s</string>
+    <string name="session_list_three">%1$s, %2$s, %3$s</string>
+
+    <!-- Background work panel -->
+    <plurals name="session_background_work_subagent_count">
+        <item quantity="other">하위 에이전트 %1$d개</item>
+    </plurals>
+    <plurals name="session_background_work_shell_count">
+        <item quantity="other">셸 %1$d개</item>
+    </plurals>
+    <plurals name="session_background_work_script_count">
+        <item quantity="other">스크립트 %1$d개</item>
+    </plurals>
+    <string name="session_background_work_summary">%1$s · %2$s</string>
+    <string name="session_background_work_scripts_title">스크립트</string>
+    <string name="session_background_work_stop_script_label">스크립트 중지</string>
+    <string name="session_background_work_stop_subagent_label">하위 에이전트 중지</string>
+    <string name="session_background_work_stop_script_failed">스크립트를 중지할 수 없어요</string>
+    <string name="session_background_work_stop_subagent_failed">하위 에이전트를 중지할 수 없어요</string>
+
+    <!-- Composer buttons -->
+    <string name="session_send_message_description">메시지 보내기</string>
+    <string name="session_stop_description">중지</string>
+    <string name="session_start_voice_call_description">음성 통화 시작</string>
+    <string name="session_model_level_default">기본값</string>
+
+    <!-- In-app notice -->
+    <plurals name="session_notice_session_count">
+        <item quantity="other">세션 %1$d개</item>
+    </plurals>
+    <plurals name="session_notice_needs_input_count">
+        <item quantity="other">%1$d개 세션에 입력이 필요해요</item>
+    </plurals>
+    <string name="session_notice_announcement">%1$s, %2$s</string>
+
+    <!-- Server connection pill -->
+    <string name="session_server_reconnecting">%1$s에 다시 연결 중…</string>
+    <string name="session_server_connect_failed">%1$s에 연결할 수 없어요</string>
+    <string name="session_server_sign_in_failed">%1$s에 로그인할 수 없어요</string>
+    <string name="session_server_pair_again">다시 페어링</string>
+    <string name="session_server_try_again_click_label">다시 시도</string>
+    <string name="session_server_pair_again_click_label">다시 페어링</string>
+
+    <!-- Export -->
+    <string name="session_export_folder_failed">내보내기 폴더를 만들 수 없어요</string>
+    <string name="session_export_save_failed">내보낸 파일을 저장할 수 없어요</string>
+
+    <!-- Session errors -->
+    <string name="session_agent_fallback_name">에이전트</string>
+    <string name="session_something_went_wrong">문제가 발생했습니다</string>
+    <string name="session_something_went_wrong_sentence">문제가 발생했습니다.</string>
+    <string name="session_load_earlier_failed">이전 메시지를 불러올 수 없어요</string>
+    <string name="session_move_to_background_failed">백그라운드로 이동할 수 없어요: %1$s</string>
+    <string name="session_move_failed_reason">세션을 이동할 수 없어요</string>
+    <string name="session_delivery_waiting_to_send">전송 대기 중</string>
+    <string name="session_create_failed">세션을 만들 수 없어요.</string>
+    <string name="session_switch_agent_failed">에이전트를 전환할 수 없어요: %1$s</string>
+    <string name="session_switch_model_failed">모델을 전환할 수 없어요: %1$s</string>
+    <string name="session_pending_send_now_failed_details">대기 중인 메시지를 지금 보낼 수 없어요: %1$s</string>
+    <string name="session_pending_cancel_failed_details">대기 중인 메시지를 취소할 수 없어요: %1$s</string>
+    <string name="session_pending_queue_failed_details">대기 중인 메시지를 대기열에 추가할 수 없어요: %1$s</string>
+    <string name="session_stopped_before_sent">보내기 전에 중단됐어요</string>
+    <string name="session_stop_failed">세션을 중지할 수 없어요</string>
+    <string name="session_undo_message_failed">메시지를 실행 취소할 수 없어요: %1$s</string>
+    <string name="session_revert_failed">되돌릴 수 없어요</string>
+    <string name="session_revert_failed_details">되돌릴 수 없어요: %1$s</string>
+
+    <!-- Session sheet errors -->
+    <string name="session_sheet_rename_failed_title">세션 이름을 바꿀 수 없어요</string>
+    <string name="session_sheet_compact_failed_title">세션을 압축할 수 없어요</string>
+    <string name="session_sheet_fork_failed_title">세션을 분기할 수 없어요</string>
+    <string name="session_sheet_save_export_failed">내보낸 파일을 저장할 수 없어요</string>
+    <string name="session_sheet_export_failed_title">세션을 내보낼 수 없어요</string>
+    <string name="session_sheet_notifications_off_message">먼저 설정에서 알림을 켜 주세요.</string>
+    <string name="session_sheet_always_notify_on_failed_title">항상 알림을 켤 수 없어요</string>
+    <string name="session_sheet_always_notify_off_failed_title">항상 알림을 끌 수 없어요</string>
+
+    <!-- Attachments -->
+    <string name="session_attachment_files_unsupported">서버가 파일을 지원하지 않아요</string>
+    <string name="session_attachment_upload_failed">업로드할 수 없어요</string>
+    <string name="session_attachment_file_fallback_name">파일</string>
+    <string name="session_attachment_image_too_large">20 MB보다 작은 이미지를 선택해 주세요.</string>
+    <string name="session_attachment_image_load_failed">이미지를 불러올 수 없어요. 다른 사진을 선택해 주세요.</string>
+    <string name="session_attachment_file_add_failed">파일을 추가할 수 없어요. 다른 파일을 선택해 주세요.</string>
+    <plurals name="session_attachment_files_add_failed">
+        <item quantity="other">파일 %1$d개를 추가할 수 없어요.</item>
+    </plurals>
+    <string name="session_large_upload_title">%1$s 업로드할까요?</string>
+    <string name="session_large_upload_message_one">“%1$s” 파일은 용량이 커요. 서버에 업로드가 끝나면 메시지가 전송돼요.</string>
+    <plurals name="session_large_upload_message_many">
+        <item quantity="other">파일 %1$d개는 용량이 커요. 서버에 업로드가 끝나면 메시지가 전송돼요.</item>
+    </plurals>
+
+    <!-- Header and screens -->
+    <string name="session_new_session_title">새 세션</string>
+    <string name="session_pasted_text_screen_title">붙여넣은 텍스트</string>
+    <string name="session_pasted_text_viewer_screen_title">붙여넣은 텍스트 뷰어</string>
+    <string name="session_context_summary">%2$s 중 %1$d%%</string>
+    <string name="session_context_accessibility_value">%2$s 토큰 중 %1$d%% 사용</string>
+
+    <!-- Starter prompts (shown, then sent as the person’s message) -->
+    <string name="session_starter_project_purpose">이 프로젝트는 어떤 일을 하나요?</string>
+    <string name="session_starter_code_tour">코드 구조를 간단히 설명해 주세요</string>
+    <string name="session_starter_recent_changes">최근에 무엇이 바뀌었나요?</string>
+
+    <!-- Shell output -->
+    <string name="session_shell_refresh_failed">출력을 새로고침할 수 없어요</string>
+    <string name="session_shell_load_earlier_failed">이전 출력을 불러올 수 없어요</string>
+    <string name="session_shell_stop_failed">셸을 중지할 수 없어요</string>
+    <string name="session_quote_remove_description">인용 제거</string>
+    <string name="session_quote_comment_placeholder">댓글 추가 (선택 사항)…</string>
+    <string name="session_media_title">세션 미디어</string>
+    <string name="session_media_filter_media">미디어</string>
+    <string name="session_media_filter_files">파일</string>
+    <string name="session_media_filter_links">링크</string>
+    <string name="session_media_layout_description">미디어 레이아웃</string>
+    <string name="session_media_layout_tiles">타일</string>
+    <string name="session_media_layout_list">목록</string>
+    <string name="session_media_origin_user">내가 보냄</string>
+    <string name="session_media_origin_agent">에이전트가 공유함</string>
+    <string name="session_media_open_click_label">열기</string>
+    <string name="session_media_open_link_click_label">링크 열기</string>
+    <string name="session_media_empty_media_title">미디어 없음</string>
+    <string name="session_media_empty_media_message">이 세션에서 공유된 이미지, 비디오, 오디오가 여기에 표시돼요.</string>
+    <string name="session_media_empty_files_title">파일 없음</string>
+    <string name="session_media_empty_files_message">이 세션의 문서와 붙여넣은 텍스트가 여기에 표시돼요.</string>
+    <string name="session_media_empty_links_title">링크 없음</string>
+    <string name="session_media_empty_links_message">이 세션에서 공유된 웹 링크가 여기에 표시돼요.</string>
+    <string name="session_media_earlier_note">이전 메시지를 아직 불러오지 않았어요.</string>
+    <string name="session_media_load_earlier">이전 메시지 불러오기</string>
+    <string name="session_media_loading_earlier">로딩 중…</string>
+    <string name="session_media_earlier_failed">이전 메시지를 불러올 수 없어요. 연결을 확인하고 다시 시도해 주세요.</string>
+    <string name="session_media_earlier_nothing_new">방금 불러온 메시지에는 새로운 내용이 없어요. 더 이전 메시지에는 있을 수 있어요.</string>
+</resources>

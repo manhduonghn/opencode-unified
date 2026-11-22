@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent activity glyph -->
+    <string name="session_activity_running_description">လုပ်ဆောင်နေသည်</string>
+    <!-- Background work panel -->
+    <string name="session_background_work_show_label">လုပ်ဆောင်နေသည့် အေးဂျင့်ခွဲများ၊ script များနှင့် shell များကို ပြပါ</string>
+    <string name="session_background_work_collapsed_description">ခေါက်သိမ်းထားသည်</string>
+    <string name="session_background_work_subagents_title">အေးဂျင့်ခွဲများ</string>
+    <string name="session_background_work_open_subagent_label">အေးဂျင့်ခွဲ၏ စက်ရှင်ကို ဖွင့်ပါ</string>
+    <string name="session_background_work_shells_title">shell များ</string>
+    <string name="session_background_work_show_shell_label">shell ၏ ရလဒ်ကို ပြပါ</string>
+    <!-- The session's images and videos, paged in the full-screen viewer -->
+    <string name="session_visual_attached_image">ပူးတွဲပုံ</string>
+    <string name="session_visual_tool_image">ကိရိယာမှ ပုံ</string>
+    <string name="session_visual_image">ပုံ</string>
+    <!-- One image of several: the image's label, then its place, as “Attached image 2 of 3” -->
+    <string name="session_visual_image_page_label">%1$s၊ %3$d ခုအနက် %2$d ခုမြောက်</string>
+    <!-- A diagram's label, read by TalkBack. %1$s is its kind, as “Diagram, Flowchart” -->
+    <string name="session_visual_diagram_label">ပုံကြမ်း၊ %1$s</string>
+    <!-- Jump to latest -->
+    <string name="session_scroll_to_latest_description">နောက်ဆုံးသို့ ရွှေ့ပါ</string>
+    <!-- Dictation bar -->
+    <string name="session_dictation_finishing_description">အသံဖြင့် စာရိုက်ခြင်းကို အဆုံးသတ်နေသည်</string>
+    <string name="session_dictation_stop_recording_description">အသံဖမ်းခြင်းကို ရပ်ပါ</string>
+    <string name="session_dictation_stop_recording_hint">ပြောထားသည့် စာသားကို မက်ဆေ့ဂျ်ထဲ ထည့်ပါ</string>
+    <string name="session_sending_message_description">မက်ဆေ့ဂျ် ပို့နေသည်</string>
+    <string name="session_delivery_steer_label">နောက်အဆင့်တွင် လမ်းညွှန်ပါ</string>
+    <string name="session_delivery_queue_label">ဤတုံ့ပြန်မှုနောက်တွင် တန်းစီပါ</string>
+    <string name="session_delivery_steer">လမ်းညွှန်ပါ</string>
+    <string name="session_delivery_queue">တန်းစီပါ</string>
+    <!-- Draft project picker -->
+    <string name="session_draft_project_choose_label">စက်ရှင် စတင်မည့်နေရာကို ရွေးပါ</string>
+    <string name="session_project_choose_folder">ဖိုင်တွဲကို ရွေးပါ…</string>
+    <string name="session_project_all_projects">ပရောဂျက်အားလုံး</string>
+    <string name="session_project_selected_description">ရွေးထားသည်</string>
+    <string name="session_project_picker_title">ပရောဂျက်</string>
+    <!-- Folder browser -->
+    <string name="session_folder_select_description">ဖိုင်တွဲကို ရွေးပါ။</string>
+    <string name="session_folder_path_description">လမ်းကြောင်း</string>
+    <string name="session_folder_title">ဖိုင်တွဲ</string>
+    <string name="session_folder_select">ရွေးပါ</string>
+    <string name="session_folder_open_failed_title">ဖိုင်တွဲကို မဖွင့်နိုင်ပါ</string>
+    <string name="session_folder_empty_title">ဖိုင်တွဲ မရှိပါ</string>
+    <string name="session_folder_search_empty_title">“%1$s” အတွက် ရလဒ်မရှိပါ</string>
+    <string name="session_folder_search_empty_message">စာလုံးပေါင်းကို စစ်ပါ သို့မဟုတ် အသစ်ပြန်ရှာပါ။</string>
+    <!-- Server connection pill -->
+    <string name="session_server_edit">ဆာဗာကို တည်းဖြတ်ပါ…</string>
+    <!-- Starter prompts -->
+    <string name="session_starter_prompts_title">မေးကြည့်ပါ</string>
+    <string name="session_starter_prompt_pick_label">မက်ဆေ့ဂျ်ထဲ ထည့်ပါ</string>
+    <!-- Session sheet -->
+    <string name="session_sheet_rename_failed">အမည် မပြောင်းနိုင်ပါ</string>
+    <string name="session_sheet_status_description">အခြေအနေ</string>
+    <string name="session_rename_title">စက်ရှင် အမည်ပြောင်း</string>
+    <string name="session_untitled_title">စက်ရှင်</string>
+    <string name="session_pin">ထိပ်တွင် ချိတ်ထားပါ</string>
+    <string name="session_pinned">ထိပ်တွင် ချိတ်ထားသည်များ</string>
+    <string name="session_unread">မဖတ်ရသေး</string>
+    <string name="session_mute">အသိပေးချက် ပိတ်ပါ</string>
+    <string name="session_muted">အကြောင်းကြားချက် ပိတ်ထားသည်</string>
+    <string name="session_compact">ကျစ်လျစ်သော</string>
+    <string name="session_fork">စက်ရှင်ခွဲပါ</string>
+    <string name="session_toggle_on_description">ဖွင့်</string>
+    <string name="session_toggle_off_description">ပိတ်</string>
+    <string name="session_export">တင်ပို့ခြင်း။</string>
+    <string name="session_export_markdown">Markdown</string>
+    <string name="session_export_json">JSON</string>
+    <string name="session_sheet_model">မော်ဒယ်</string>
+    <string name="session_sheet_context">ဆက်စပ်အကြောင်းအရာ</string>
+    <string name="session_sheet_unknown_description">အမည်မသိ</string>
+    <string name="session_sheet_context_tokens">တိုကင် %1$s</string>
+    <string name="session_sheet_cost">ကုန်ကျစရိတ်</string>
+    <string name="session_sheet_media">မီဒီယာ</string>
+    <string name="session_sheet_media_value">ဖိုင်များနှင့် လင့်ခ်များ</string>
+    <string name="session_always_notify">အမြဲအသိပေးပါ</string>
+    <string name="session_always_notify_message_phone">ဤဖုန်းမှ မပို့ထားသည့် မက်ဆေ့ဂျ်များအတွက်ပါ ပြန်စာပြီးတိုင်း ဤဖုန်းကို အသိပေးပါ။</string>
+    <string name="session_always_notify_message_tablet">ဤတက်ဘလက်မှ မပို့ထားသည့် မက်ဆေ့ဂျ်များအတွက်ပါ ပြန်စာပြီးတိုင်း ဤတက်ဘလက်ကို အသိပေးပါ။</string>
+    <string name="session_delete_session">စက်ရှင်ကို ဖျက်ပါ။</string>
+    <string name="session_rename_placeholder">ခေါင်းစဉ်</string>
+    <string name="session_auto_rename">အလိုအလျောက် အမည်ပြောင်း</string>
+    <string name="session_delete_confirm_title">“%1$s” ကို ဖျက်မလား?</string>
+    <string name="session_delete_confirm_message">ဤစက်ရှင်ကို ဆာဗာမှ ဖယ်ရှားမည်ဖြစ်ပြီး ချိတ်ဆက်ထားသည့် အက်ပ်အားလုံးမှပါ ပျောက်သွားပါမည်။</string>
+    <!-- Transcript -->
+    <string name="session_move_to_background">နောက်ကွယ်သို့ ရွှေ့ပါ</string>
+    <string name="session_move_to_background_hint">အေးဂျင့်က သင့်နောက်မက်ဆေ့ဂျ်ကို ဖတ်နိုင်ရန် လက်ရှိအလုပ်ကို နောက်ကွယ်တွင် ဆက်လုပ်စေပါ</string>
+    <!-- Attachments -->
+    <string name="session_attachment_add_image_failed_title">ပုံ မထည့်နိုင်ပါ</string>
+    <string name="session_attachment_upload">အပ်လုဒ်လုပ်ပါ</string>
+    <string name="session_attachment_remove_image_description">ပူးတွဲပုံ %1$d ကို ဖယ်ရှားပါ</string>
+    <string name="session_attachment_remove_description">%1$s ကို ဖယ်ရှားပါ</string>
+    <string name="session_attachment_file_description">ပူးတွဲဖိုင် %1$s</string>
+    <string name="session_attachment_cancel_upload_description">%1$s အပ်လုဒ်ကို ပယ်ဖျက်ပါ</string>
+    <string name="session_attachment_open_photo_label">ဓာတ်ပုံကို မျက်နှာပြင်အပြည့် ဖွင့်ပါ</string>
+    <string name="session_attachment_image_description">ပူးတွဲပုံ %1$d</string>
+    <string name="session_attachment_video_description">ပူးတွဲဗီဒီယို %1$d</string>
+    <!-- Composer controls -->
+    <string name="session_answer_own_description">သင့်ကိုယ်ပိုင်အဖြေ</string>
+    <string name="session_answer_own_type_label">ကိုယ်ပိုင်အဖြေကို ရိုက်ထည့်ပါ သို့မဟုတ် အသံဖြင့် ပြောပါ</string>
+    <string name="session_answer_own_clear_label">သင်ရေးထားသည့် အဖြေကို ဖယ်ထားပါ</string>
+    <string name="session_answer_own_choose_label">ကိုယ်ပိုင်စကားဖြင့် ဖြေပါ</string>
+    <string name="session_answer_decline_with_words_label">အစား ဘာလုပ်ရမလဲ အေးဂျင့်ကို ပြောပါ</string>
+    <string name="session_answer_required_description">အဖြေတစ်ခု ရွေးပါ သို့မဟုတ် ကိုယ်ပိုင်အဖြေ ရိုက်ထည့်ပါ</string>
+    <string name="session_dictate_message_description">မက်ဆေ့ဂျ်ကို အသံဖြင့် ရေးပါ</string>
+    <string name="session_dictate_message_hint">မက်ဆေ့ဂျ်ကို အသံဖြင့် ရေးပါ၊ သို့မဟုတ် အသံဖမ်းပြီး ပို့ရန် ဖိထားပါ</string>
+    <string name="session_send_waiting_for_uploads_description">အပ်လုဒ်များ ပြီးလျှင် ပို့ပါမည်</string>
+    <string name="session_steer_message_description">မက်ဆေ့ဂျ်ဖြင့် လမ်းညွှန်ပါ</string>
+    <string name="session_stopping_description">ရပ်တန့်နေသည်</string>
+    <string name="session_start_voice_call">အသံခေါ်ဆိုမှု စတင်ပါ</string>
+    <string name="session_dictation_stop_description">အသံဖြင့် စာရေးခြင်းကို ရပ်ပါ</string>
+    <!-- Composer -->
+    <string name="session_requests_load_failed_title">တောင်းဆိုမှုများကို မဖွင့်နိုင်ပါ</string>
+    <plurals name="session_queued_count">
+        <item quantity="other">%1$d ခု တန်းစီထားသည်။</item>
+    </plurals>
+    <string name="session_queued_show_label">ဤတုံ့ပြန်မှု ပြီးရန် စောင့်နေသည့် မက်ဆေ့ဂျ်များကို ပြပါ</string>
+    <plurals name="session_queued_messages_description">
+        <item quantity="other">မက်ဆေ့ဂျ် %1$d ခု တန်းစီထားသည်။</item>
+    </plurals>
+    <string name="session_dictation_preparing">အသံဖြင့် စာရေးရန် ပြင်ဆင်နေသည်…</string>
+    <string name="session_message_placeholder">မက်ဆေ့ဂျ်</string>
+    <!-- Session header -->
+    <string name="session_back_to_main_description">ပင်မစက်ရှင်သို့ ပြန်သွားရန်</string>
+    <string name="session_header_open_from_catch_up_label">စက်ရှင်ကို ဖွင့်ပြီး အမီလိုက်ကြည့်ခြင်းမှ ထွက်ပါ</string>
+    <string name="session_header_show_details_label">စက်ရှင် အသေးစိတ်ကို ပြပါ</string>
+    <string name="session_header_idle_description">အားနေသည်</string>
+    <string name="session_header_syncing_description">ထပ်တူပြုနေသည်</string>
+    <string name="session_header_last_known_description">နောက်ဆုံးသိထားသည့် အခြေအနေ</string>
+    <string name="session_menu_more_description">နောက်ထပ်</string>
+    <string name="session_unpin">ထိပ်တွင် ချိတ်ထားမှု ဖြုတ်ပါ</string>
+    <string name="session_copy_session_id">ဆက်ရှင် ID ကို ကူးယူပါ</string>
+    <string name="session_mark_as_read">ဖတ်ပြီးဟု မှတ်ပါ</string>
+    <string name="session_mark_as_unread">မဖတ်ရသေးဟု မှတ်ပါ</string>
+    <string name="session_unmute">အသိပေးချက် ပြန်ဖွင့်ပါ</string>
+    <string name="session_menu_export_expanded_description">ချဲ့ထားသည်</string>
+    <string name="session_menu_export_collapsed_description">ခေါက်သိမ်းထားသည်</string>
+    <string name="session_info">စက်ရှင် အချက်အလက်</string>
+    <!-- Session screen -->
+    <string name="session_load_failed_title">စက်ရှင်ကို မဖွင့်နိုင်ပါ</string>
+    <string name="session_location_share_failed_title">တည်နေရာ မမျှဝေနိုင်ပါ</string>
+    <!-- Shell output -->
+    <string name="session_shell_stop_confirm_title">ဤ shell ကို ရပ်မလား?</string>
+    <string name="session_shell_stop_confirm_message">အမိန့်ကို ယခု ရပ်တန့်ပါမည်။ ဤနေရာရှိ ရလဒ်ကို သင်မပိတ်မချင်း ဆက်ပြထားပါမည်။</string>
+    <string name="session_shell_stop">shell ကို ရပ်ပါ</string>
+    <string name="session_shell_copy_output">ရလဒ်ကို ကူးယူပါ</string>
+    <string name="session_shell_share_output">ရလဒ်ကို မျှဝေပါ</string>
+    <string name="session_shell_earlier_output_hidden">အစောပိုင်း ရလဒ်များကို ဖျောက်ထားသည်</string>
+    <string name="session_shell_showing_last_output">နောက်ဆုံး 4 MB ကို ပြထားသည်</string>
+    <string name="session_shell_load_earlier">အစောပိုင်း ရလဒ်များကို ဖွင့်ပါ</string>
+    <string name="session_shell_output_unavailable_title">ရလဒ် မရနိုင်ပါ</string>
+    <string name="session_shell_output_unavailable_message">ဆာဗာတွင် ဤ shell ၏ ရလဒ် မရှိတော့ပါ။</string>
+    <string name="session_shell_no_output_yet_title">ရလဒ် မရှိသေးပါ</string>
+    <string name="session_shell_no_output_title">ရလဒ် မရှိပါ</string>
+    <string name="session_shell_no_output_yet_message">အမိန့်မှ ထုတ်ပေးသည့် ရလဒ်များ ဤနေရာတွင် ပေါ်လာမည်။</string>
+    <string name="session_shell_status_stopping">ရပ်တန့်နေသည်…</string>
+    <string name="session_shell_status_unavailable">မရရှိနိုင်ပါ</string>
+    <string name="session_shell_status_interrupted">ပြတ်တောက်သွားသည်။</string>
+    <string name="session_shell_status_timed_out">အချိန်ကုန်သွားသည်</string>
+    <string name="session_shell_status_exited_with_code">ကုဒ် %1$d ဖြင့် ပြီးဆုံးသွားသည်</string>
+    <string name="session_shell_status_exited">ပြီးဆုံးသွားသည်</string>
+    <plurals name="session_shell_elapsed_hours">
+        <item quantity="other">%1$d နာရီ</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_minutes">
+        <item quantity="other">%1$d မိနစ်</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_seconds">
+        <item quantity="other">%1$d စက္ကန့်</item>
+    </plurals>
+
+    <!-- Agent activity (glyph labels and titles) -->
+    <string name="session_activity_idle">အားနေသည်</string>
+    <string name="session_activity_starting_up">စတင်နေသည်</string>
+    <string name="session_activity_thinking">စဉ်းစားနေသည်။</string>
+    <string name="session_activity_long_work">ကြာရှည် လုပ်ဆောင်နေသည်</string>
+    <string name="session_activity_tool_burst">ကိရိယာများ ဆက်တိုက်သုံးနေသည်</string>
+    <string name="session_activity_streaming_output">ရလဒ်များ ဆက်တိုက်ထုတ်နေသည်</string>
+    <string name="session_activity_waiting_for_input">တုံ့ပြန်မှုကို စောင့်နေသည်</string>
+    <string name="session_activity_handing_off">အလုပ်လွှဲအပ်နေသည်</string>
+    <string name="session_activity_done">ပြီးပါပြီ</string>
+    <string name="session_activity_failed">မအောင်မြင်ပါ။</string>
+    <string name="session_working_stopping">ရပ်တန့်နေသည်…</string>
+    <string name="session_status_working">အလုပ်လုပ်တယ်။</string>
+    <string name="session_status_needs_input">သင့်တုံ့ပြန်မှု လိုအပ်သည်</string>
+    <string name="session_status_done">ပြီးပါပြီ</string>
+
+    <!-- Lists: joins two or three phrases -->
+    <string name="session_list_two">%1$s၊ %2$s</string>
+    <string name="session_list_three">%1$s၊ %2$s၊ %3$s</string>
+
+    <!-- Background work panel -->
+    <plurals name="session_background_work_subagent_count">
+        <item quantity="other">အေးဂျင့်ခွဲ %1$d ခု</item>
+    </plurals>
+    <plurals name="session_background_work_shell_count">
+        <item quantity="other">shell %1$d ခု</item>
+    </plurals>
+    <plurals name="session_background_work_script_count">
+        <item quantity="other">script %1$d ခု</item>
+    </plurals>
+    <string name="session_background_work_summary">%1$s · %2$s</string>
+    <string name="session_background_work_scripts_title">script များ</string>
+    <string name="session_background_work_stop_script_label">script ကို ရပ်ပါ</string>
+    <string name="session_background_work_stop_subagent_label">အေးဂျင့်ခွဲကို ရပ်ပါ</string>
+    <string name="session_background_work_stop_script_failed">script ကို မရပ်နိုင်ပါ</string>
+    <string name="session_background_work_stop_subagent_failed">အေးဂျင့်ခွဲကို မရပ်နိုင်ပါ</string>
+
+    <!-- Composer buttons -->
+    <string name="session_send_message_description">မက်ဆေ့ဂျ် ပို့ပါ</string>
+    <string name="session_stop_description">ရပ်ပါ။</string>
+    <string name="session_start_voice_call_description">အသံခေါ်ဆိုမှု စတင်ပါ</string>
+    <string name="session_model_level_default">မူရင်း</string>
+
+    <!-- In-app notice -->
+    <plurals name="session_notice_session_count">
+        <item quantity="other">စက်ရှင် %1$d ခု</item>
+    </plurals>
+    <plurals name="session_notice_needs_input_count">
+        <item quantity="other">%1$d ခုတွင် သင့်တုံ့ပြန်မှု လိုအပ်သည်</item>
+    </plurals>
+    <string name="session_notice_announcement">%1$s၊ %2$s</string>
+
+    <!-- Server connection pill -->
+    <string name="session_server_reconnecting">%1$s သို့ ပြန်ချိတ်ဆက်နေသည်…</string>
+    <string name="session_server_connect_failed">%1$s သို့ မချိတ်ဆက်နိုင်ပါ</string>
+    <string name="session_server_sign_in_failed">%1$s တွင် အကောင့်မဝင်နိုင်ပါ</string>
+    <string name="session_server_pair_again">ပြန်တွဲချိတ်ပါ</string>
+    <string name="session_server_try_again_click_label">ပြန်ကြိုးစားပါ</string>
+    <string name="session_server_pair_again_click_label">ပြန်တွဲချိတ်ပါ</string>
+
+    <!-- Export -->
+    <string name="session_export_folder_failed">ထုတ်ယူရန် ဖိုင်တွဲ မဖန်တီးနိုင်ပါ</string>
+    <string name="session_export_save_failed">ထုတ်ယူထားသည်ကို မသိမ်းဆည်းနိုင်ပါ</string>
+
+    <!-- Session errors -->
+    <string name="session_agent_fallback_name">အေးဂျင့်</string>
+    <string name="session_something_went_wrong">တစ်ခုခု မှားသွားသည်။</string>
+    <string name="session_something_went_wrong_sentence">တစ်ခုခု မှားသွားသည်။</string>
+    <string name="session_load_earlier_failed">အစောပိုင်း မက်ဆေ့ဂျ်များကို မဖွင့်နိုင်ပါ</string>
+    <string name="session_move_to_background_failed">နောက်ခံသို့ မရွှေ့နိုင်ပါ: %1$s</string>
+    <string name="session_move_failed_reason">စက်ရှင်ကို မရွှေ့နိုင်ပါ</string>
+    <string name="session_delivery_waiting_to_send">ပို့ရန် စောင့်နေသည်</string>
+    <string name="session_create_failed">စက်ရှင်ကို မဖန်တီးနိုင်ပါ။</string>
+    <string name="session_switch_agent_failed">အေးဂျင့် မပြောင်းနိုင်ပါ: %1$s</string>
+    <string name="session_switch_model_failed">မော်ဒယ် မပြောင်းနိုင်ပါ: %1$s</string>
+    <string name="session_pending_send_now_failed_details">စောင့်ဆိုင်းနေသော မက်ဆေ့ဂျ်ကို အခု မပို့နိုင်ပါ: %1$s</string>
+    <string name="session_pending_cancel_failed_details">စောင့်ဆိုင်းနေသော မက်ဆေ့ဂျ်ကို မပယ်ဖျက်နိုင်ပါ: %1$s</string>
+    <string name="session_pending_queue_failed_details">စောင့်ဆိုင်းနေသော မက်ဆေ့ဂျ်ကို တန်းစီမထားနိုင်ပါ: %1$s</string>
+    <string name="session_stopped_before_sent">မပို့ရသေးမီ ပြတ်တောက်သွားသည်</string>
+    <string name="session_stop_failed">စက်ရှင်ကို မရပ်နိုင်ပါ</string>
+    <string name="session_undo_message_failed">မက်ဆေ့ဂျ်ကို ပြန်မရုပ်သိမ်းနိုင်ပါ: %1$s</string>
+    <string name="session_revert_failed">နဂိုအတိုင်း ပြန်မပြောင်းနိုင်ပါ</string>
+    <string name="session_revert_failed_details">နဂိုအတိုင်း ပြန်မပြောင်းနိုင်ပါ: %1$s</string>
+
+    <!-- Session sheet errors -->
+    <string name="session_sheet_rename_failed_title">စက်ရှင် အမည် မပြောင်းနိုင်ပါ</string>
+    <string name="session_sheet_compact_failed_title">စက်ရှင်ကို ကျစ်လျစ်အောင် မလုပ်နိုင်ပါ</string>
+    <string name="session_sheet_fork_failed_title">စက်ရှင် မခွဲနိုင်ပါ</string>
+    <string name="session_sheet_save_export_failed">ထုတ်ယူထားသည်ကို မသိမ်းဆည်းနိုင်ပါ</string>
+    <string name="session_sheet_export_failed_title">စက်ရှင်ကို မထုတ်ယူနိုင်ပါ</string>
+    <string name="session_sheet_notifications_off_message">ဆက်တင်များတွင် အကြောင်းကြားချက်များကို အရင်ဖွင့်ပါ။</string>
+    <string name="session_sheet_always_notify_on_failed_title">အမြဲအသိပေးခြင်းကို မဖွင့်နိုင်ပါ</string>
+    <string name="session_sheet_always_notify_off_failed_title">အမြဲအသိပေးခြင်းကို မပိတ်နိုင်ပါ</string>
+
+    <!-- Attachments -->
+    <string name="session_attachment_files_unsupported">ဆာဗာက ဖိုင်များကို လက်မခံပါ</string>
+    <string name="session_attachment_upload_failed">အပ်လုဒ် မလုပ်နိုင်ပါ</string>
+    <string name="session_attachment_file_fallback_name">ဖိုင်</string>
+    <string name="session_attachment_image_too_large">20 MB ထက်ငယ်သော ပုံကို ရွေးပါ။</string>
+    <string name="session_attachment_image_load_failed">ဤပုံကို မဖွင့်နိုင်ပါ။ အခြားဓာတ်ပုံကို စမ်းကြည့်ပါ။</string>
+    <string name="session_attachment_file_add_failed">ဤဖိုင်ကို မထည့်နိုင်ပါ။ အခြားဖိုင်ကို စမ်းကြည့်ပါ။</string>
+    <plurals name="session_attachment_files_add_failed">
+        <item quantity="other">ဖိုင် %1$d ခုကို မထည့်နိုင်ပါ။</item>
+    </plurals>
+    <string name="session_large_upload_title">%1$s ကို အပ်လုဒ်လုပ်မလား?</string>
+    <string name="session_large_upload_message_one">“%1$s” သည် ဖိုင်ကြီးတစ်ခု ဖြစ်သည်။ သင့်ဆာဗာသို့ အပ်လုဒ်ပြီးမှ မက်ဆေ့ဂျ်ကို ပို့ပါမည်။</string>
+    <plurals name="session_large_upload_message_many">
+        <item quantity="other">ဖိုင် %1$d ခုသည် ဖိုင်ကြီးများ ဖြစ်သည်။ သင့်ဆာဗာသို့ အပ်လုဒ်ပြီးမှ မက်ဆေ့ဂျ်ကို ပို့ပါမည်။</item>
+    </plurals>
+
+    <!-- Header and screens -->
+    <string name="session_new_session_title">စက်ရှင်အသစ်</string>
+    <string name="session_pasted_text_screen_title">ကူးထည့်ထားသော စာသား</string>
+    <string name="session_pasted_text_viewer_screen_title">ကူးထည့်ထားသော စာသား ကြည့်ရန်</string>
+    <string name="session_context_summary">%2$s ၏ %1$d%%</string>
+    <string name="session_context_accessibility_value">တိုကင် %2$s ၏ %1$d%% ကို သုံးထားသည်</string>
+
+    <!-- Starter prompts (shown, then sent as the person’s message) -->
+    <string name="session_starter_project_purpose">ဒီပရောဂျက်က ဘာလုပ်တာလဲ?</string>
+    <string name="session_starter_code_tour">ကုဒ်အကြောင်း အကျဉ်းချုပ် ရှင်းပြပါ</string>
+    <string name="session_starter_recent_changes">ဒီမှာ မကြာသေးခင်က ဘာတွေ ပြောင်းထားလဲ?</string>
+
+    <!-- Shell output -->
+    <string name="session_shell_refresh_failed">ရလဒ်ကို ပြန်မဖွင့်နိုင်ပါ</string>
+    <string name="session_shell_load_earlier_failed">အစောပိုင်း ရလဒ်များကို မဖွင့်နိုင်ပါ</string>
+    <string name="session_shell_stop_failed">ဘူးခွံကို မရပ်နိုင်ပါ</string>
+    <string name="session_quote_remove_description">ကိုးကားချက်ကို ဖယ်ရှားပါ</string>
+    <string name="session_quote_comment_placeholder">မှတ်ချက် ထည့်နိုင်သည်…</string>
+    <string name="session_media_title">စက်ရှင် မီဒီယာ</string>
+    <string name="session_media_filter_media">မီဒီယာ</string>
+    <string name="session_media_filter_files">ဖိုင်များ</string>
+    <string name="session_media_filter_links">လင့်ခ်များ</string>
+    <string name="session_media_layout_description">မီဒီယာ အပြင်အဆင်</string>
+    <string name="session_media_layout_tiles">အမြန်ခလုတ်များ</string>
+    <string name="session_media_layout_list">စာရင်း</string>
+    <string name="session_media_origin_user">သင် ပို့ထားသည်</string>
+    <string name="session_media_origin_agent">အေးဂျင့် မျှဝေထားသည်</string>
+    <string name="session_media_open_click_label">ဖွင့်ပါ</string>
+    <string name="session_media_open_link_click_label">လင့်ခ်ဖွင့်ရန်</string>
+    <string name="session_media_empty_media_title">မီဒီယာ မရှိပါ</string>
+    <string name="session_media_empty_media_message">ဤစက်ရှင်တွင် မျှဝေထားသော ပုံများ၊ ဗီဒီယိုများနှင့် အသံများကို ဤနေရာတွင် တွေ့ရပါမည်။</string>
+    <string name="session_media_empty_files_title">ဖိုင် မရှိပါ</string>
+    <string name="session_media_empty_files_message">ဤစက်ရှင်မှ စာရွက်စာတမ်းများနှင့် ကူးထည့်ထားသော စာသားများကို ဤနေရာတွင် တွေ့ရပါမည်။</string>
+    <string name="session_media_empty_links_title">လင့်ခ် မရှိပါ</string>
+    <string name="session_media_empty_links_message">ဤစက်ရှင်တွင် မျှဝေထားသော ဝဘ်လင့်ခ်များ ဤနေရာတွင် ပေါ်လာပါမည်။</string>
+    <string name="session_media_earlier_note">အစောပိုင်း မက်ဆေ့ဂျ်များကို မတင်ရသေးပါ။</string>
+    <string name="session_media_load_earlier">အစောပိုင်း မက်ဆေ့ဂျ်များကို ဖွင့်ပါ</string>
+    <string name="session_media_loading_earlier">တင်နေသည်…</string>
+    <string name="session_media_earlier_failed">အစောပိုင်း မက်ဆေ့ဂျ်များကို မဖွင့်နိုင်ပါ။ သင့်ချိတ်ဆက်မှုကို စစ်ပြီး ပြန်ကြိုးစားပါ။</string>
+    <string name="session_media_earlier_nothing_new">ယခုလေးတင် ဖွင့်ထားသော မက်ဆေ့ဂျ်များတွင် အသစ်ဘာမှ မရှိပါ။ ပိုစောသော မက်ဆေ့ဂျ်များတွင် ရှိနိုင်ပါသည်။</string>
+</resources>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shared -->
+    <string name="transcript_open_named">เปิด %1$s</string>
+
+    <!-- Link previews -->
+    <string name="transcript_link_preview_show_fewer">แสดงลิงก์น้อยลง</string>
+    <string name="transcript_link_preview_show_all">แสดงลิงก์ทั้งหมด</string>
+    <plurals name="transcript_link_preview_shown">
+        <item quantity="other">แสดง %1$d จาก %2$d ลิงก์</item>
+    </plurals>
+    <string name="transcript_link_preview_more">อีก %1$d</string>
+
+    <!-- Transcript list -->
+    <string name="transcript_scroll_to_top">เลื่อนไปด้านบน</string>
+    <string name="transcript_working">กำลังทำงาน</string>
+
+    <!-- Transcript list rows -->
+    <string name="transcript_history_loading_description">กำลังโหลดข้อความก่อนหน้า</string>
+    <string name="transcript_empty_loading_description">กำลังโหลดเซสชัน</string>
+    <string name="transcript_empty_title">ยังไม่มีข้อความ</string>
+    <string name="transcript_empty_subtitle">เริ่มเซสชันด้านล่าง</string>
+    <string name="transcript_compaction_queued">การบีบอัดอยู่ในคิว</string>
+
+    <!-- Code blocks -->
+    <string name="transcript_code_copy_description">คัดลอกโค้ด</string>
+
+    <!-- Markdown task lists -->
+    <string name="transcript_task_done_description">เสร็จสิ้น</string>
+    <string name="transcript_task_not_done_description">ยังไม่เสร็จ</string>
+
+    <!-- Markdown images -->
+    <string name="transcript_image">รูปภาพ</string>
+    <string name="transcript_image_open_description">เปิดรูปภาพ</string>
+    <string name="transcript_image_load_failed">โหลดรูปภาพไม่ได้</string>
+    <string name="transcript_image_retry_click_label">ลองอีกครั้ง</string>
+    <string name="transcript_image_open">เปิด</string>
+
+    <!-- Math -->
+    <string name="transcript_equation_description">สมการ</string>
+
+    <!-- Selection -->
+    <string name="transcript_quote">อ้างอิง</string>
+    <string name="transcript_quote_description">อ้างอิง: %1$s</string>
+    <string name="transcript_quote_show">แสดงคำอ้างอิงทั้งหมด</string>
+    <string name="transcript_quote_comment_description">อ้างอิง: %1$s. ความคิดเห็น: %2$s</string>
+    <string name="transcript_quote_add_comment">เพิ่มความคิดเห็น</string>
+    <string name="transcript_quote_edit_comment">แก้ไขความคิดเห็น</string>
+
+    <!-- Reply actions -->
+    <string name="transcript_reply_copy_description">คัดลอกคำตอบ</string>
+
+    <!-- Run errors and undo -->
+    <string name="transcript_run_error_copy">คัดลอกข้อผิดพลาด</string>
+    <string name="transcript_undone_undo_hint">เลิกทำได้จนกว่าคุณจะส่งข้อความใหม่</string>
+    <string name="transcript_undone_title">รีเซ็ตจากจุดนี้แล้ว</string>
+    <string name="transcript_undone_undo_click_label">คืนค่าข้อความและไฟล์ที่รีเซ็ตได้จนกว่าคุณจะส่งข้อความใหม่</string>
+    <string name="transcript_undone_undo">เลิกทำ</string>
+
+    <!-- Tool rows -->
+    <string name="transcript_tool_failed">ล้มเหลว</string>
+    <string name="transcript_tool_running">กำลังทำงาน</string>
+    <string name="transcript_tool_completed">เสร็จแล้ว</string>
+    <string name="transcript_subagent_open_click_label">เปิดเซสชันของตัวแทนย่อย</string>
+    <string name="transcript_tool_group_failed_count">ล้มเหลว %1$d รายการ</string>
+    <string name="transcript_expanded">ขยายแล้ว</string>
+    <string name="transcript_collapsed">ย่อแล้ว</string>
+    <string name="transcript_tool_image">รูปภาพจากเครื่องมือ</string>
+    <string name="transcript_tool_hide_click_label">ซ่อนข้อมูลนำเข้าและผลลัพธ์ของเครื่องมือ</string>
+    <string name="transcript_tool_show_click_label">แสดงข้อมูลนำเข้าและผลลัพธ์ของเครื่องมือ</string>
+    <string name="transcript_tool_denied">ถูกปฏิเสธ</string>
+    <string name="transcript_show_less">แสดงน้อยลง</string>
+    <plurals name="transcript_tool_output_show_all">
+        <item quantity="other">แสดงทั้งหมด %1$d บรรทัด</item>
+    </plurals>
+    <string name="transcript_question_hide_click_label">ซ่อนคำถาม</string>
+    <string name="transcript_question_show_click_label">แสดงคำถามและคำตอบของคุณ</string>
+    <string name="transcript_question_chosen_description">เลือกแล้ว</string>
+
+    <!-- Compaction -->
+    <string name="transcript_compaction_running">กำลังบีบอัดบริบท</string>
+    <string name="transcript_compaction_provider">การบีบอัดโดยผู้ให้บริการ</string>
+    <string name="transcript_compaction_completed">บีบอัดบริบทแล้ว</string>
+    <string name="transcript_compaction_cancelled">ยกเลิกการบีบอัดแล้ว</string>
+    <string name="transcript_compaction_failed">บีบอัดไม่สำเร็จ</string>
+    <string name="transcript_compaction_usage">เข้า %1$s · ออก %2$s</string>
+    <string name="transcript_compaction_show_summary_click_label">แสดงสรุปการบีบอัด</string>
+
+    <!-- New messages rule -->
+    <string name="transcript_new_messages_description">ข้อความใหม่</string>
+    <string name="transcript_new_messages_label">ใหม่</string>
+
+    <!-- Media tiles -->
+    <string name="transcript_attached_image_open_description">เปิดรูปภาพที่แนบ</string>
+    <string name="transcript_attached_image_open_numbered_description">เปิดรูปภาพที่แนบ %1$d จาก %2$d</string>
+    <string name="transcript_attached_image">รูปภาพที่แนบ</string>
+    <string name="transcript_tool_image_open_numbered_description">เปิดรูปภาพจากเครื่องมือ %1$d จาก %2$d</string>
+    <string name="transcript_media_unavailable">สื่อไม่พร้อมใช้งาน</string>
+    <string name="transcript_attached_file_description">ไฟล์แนบ %1$s</string>
+
+    <!-- Message menus -->
+    <string name="transcript_message_select">เลือก</string>
+    <string name="transcript_pending_send_now">ส่งตอนนี้</string>
+    <string name="transcript_pending_move_to_queue">ย้ายไปเข้าคิว</string>
+    <string name="transcript_message_revert_to_here">รีเซ็ตไปยังจุดนี้</string>
+    <string name="transcript_show_more">แสดงเพิ่มเติม</string>
+
+    <!-- Voice messages -->
+    <string name="transcript_voice_call_log_attached">แนบบันทึกการโทรแล้ว</string>
+    <string name="transcript_voice_copy_full_message">คัดลอกข้อความทั้งหมด</string>
+    <string name="transcript_voice_message_description">ข้อความเสียง</string>
+    <string name="transcript_voice_label">เสียง</string>
+
+    <!-- Attachments -->
+    <string name="transcript_file_open_click_label">เปิดไฟล์</string>
+    <string name="transcript_pasted_text_open_click_label">เปิดข้อความ</string>
+    <string name="transcript_location_shared">ตำแหน่งที่แชร์</string>
+    <string name="transcript_location_open_in_maps">เปิดในแผนที่</string>
+    <string name="transcript_location_description">ตำแหน่ง: %1$s</string>
+    <string name="transcript_location_description_with_address">ตำแหน่ง: %1$s, %2$s</string>
+
+    <!-- Shared phrasing -->
+    <string name="transcript_quoted">“%1$s”</string>
+    <string name="transcript_spoken_pair">%1$s, %2$s</string>
+    <string name="transcript_list_two">%1$s และ %2$s</string>
+    <string name="transcript_list_many">%1$s และ %2$s</string>
+
+    <!-- Tool rows -->
+    <string name="transcript_tool_read">อ่าน</string>
+    <string name="transcript_tool_search">ค้นหา %1$s</string>
+    <string name="transcript_tool_search_quoted">ค้นหา “%1$s”</string>
+    <string name="transcript_tool_group_updates">การอัปเดต</string>
+    <plurals name="transcript_tool_group_used">
+        <item quantity="other">ใช้เครื่องมือ %1$d รายการ</item>
+    </plurals>
+
+    <!-- Question rows -->
+    <string name="transcript_question">คำถาม</string>
+    <string name="transcript_question_no_answer">ไม่มีคำตอบ</string>
+    <string name="transcript_question_dismissed">ละทิ้งแล้ว</string>
+    <plurals name="transcript_question_answered_count">
+        <item quantity="other">ตอบแล้ว %1$d คำถาม</item>
+    </plurals>
+    <plurals name="transcript_question_count">
+        <item quantity="other">%1$d คำถาม</item>
+    </plurals>
+
+    <!-- Model switch -->
+    <string name="transcript_model_switch_title">เปลี่ยนเป็น %1$s แล้ว</string>
+    <string name="transcript_model_switch_default">ค่าเริ่มต้น</string>
+    <string name="transcript_model_switch_thinking_description">%1$s, การคิดระดับ %2$s</string>
+    <string name="transcript_model_switch_thinking_off_description">%1$s, ปิดการคิด</string>
+
+    <!-- Run errors and failed sends -->
+    <string name="transcript_run_error_edit_last_message">แก้ไขข้อความล่าสุด</string>
+    <string name="transcript_failed_send_status">ส่งไม่ได้</string>
+    <string name="transcript_failed_send_moving">กำลังย้าย…</string>
+    <string name="transcript_failed_send_move_to">ย้ายไปที่ %1$s</string>
+
+    <!-- Links -->
+    <string name="transcript_session_link_new_session">เซสชันใหม่</string>
+    <string name="transcript_links_to_description">ลิงก์ไปยัง %1$s</string>
+    <string name="transcript_link_preview_video">วิดีโอ</string>
+    <string name="transcript_link_preview_post">โพสต์</string>
+    <string name="transcript_link_preview_post_unavailable">โพสต์ไม่พร้อมใช้งาน</string>
+    <plurals name="transcript_link_preview_comments">
+        <item quantity="other">%1$s ความคิดเห็น</item>
+    </plurals>
+</resources>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">shell</string>
+    <string name="server_notice_source_subagent">ຕົວແທນຍ່ອຍ</string>
+    <string name="server_notice_heading_finished">%1$s ສຳເລັດແລ້ວ</string>
+    <string name="server_notice_heading_failed">%1$s ລົ້ມເຫລວ</string>
+    <string name="server_notice_heading_interrupted">%1$s ຖືກຂັດຂວາງ</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="other">shell %1$d ລາຍການສຳເລັດແລ້ວ</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="other">shell %1$d ລາຍການລົ້ມເຫລວ</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="other">shell %1$d ລາຍການຖືກຂັດຂວາງ</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="other">ຕົວແທນຍ່ອຍ %1$d ຕົວສຳເລັດແລ້ວ</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="other">ຕົວແທນຍ່ອຍ %1$d ຕົວລົ້ມເຫລວ</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="other">ຕົວແທນຍ່ອຍ %1$d ຕົວຖືກຂັດຂວາງ</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">ກະທັດຮັດ</string>
+    <string name="server_run_error_action_switch_model">ປ່ຽນຕົວແບບ</string>
+    <string name="server_run_error_aborted">ຂັດຂວາງ</string>
+    <string name="server_run_error_permission_rejected">ຖືກຂັດຂວາງຫຼັງຈາກຄຳຮ້ອງຂໍຖືກປະຕິເສດ</string>
+    <string name="server_run_error_content_filter">ຕົວກັ່ນຕອງຄວາມປອດໄພປິດກັ້ນຄຳຕອບ</string>
+    <string name="server_run_error_rate_limit">ຮອດຂີດຈຳກັດຄວາມຖີ່ການຮ້ອງຂໍແລ້ວ</string>
+    <string name="server_run_error_quota">ຮອດຂີດຈຳກັດການໃຊ້ງານແລ້ວ</string>
+    <string name="server_run_error_auth">ຜູ້ໃຫ້ບໍລິການປະຕິເສດລະຫັດ API</string>
+    <string name="server_run_error_context_overflow">ເຊດຊັນຍາວເກີນໄປສຳລັບຕົວແບບນີ້</string>
+    <string name="server_run_error_invalid_request">ຜູ້ໃຫ້ບໍລິການປະຕິເສດຄຳຮ້ອງຂໍ</string>
+    <string name="server_run_error_overloaded">ຕົວແບບມີພາລະເກີນກຳລັງ</string>
+    <string name="server_run_error_internal">ຜູ້ໃຫ້ບໍລິການມີບັນຫາ</string>
+    <string name="server_run_error_transport">ການເຊື່ອມຕໍ່ກັບຕົວແບບຂາດ</string>
+    <string name="server_run_error_timeout">ຕົວແບບໃຊ້ເວລາຕອບດົນເກີນໄປ</string>
+    <string name="server_run_error_invalid_output">ອ່ານຄຳຕອບຂອງຕົວແບບບໍ່ໄດ້</string>
+    <string name="server_run_error_unavailable">ຕົວແບບນີ້ບໍ່ພ້ອມໃຊ້ງານ</string>
+    <string name="server_run_error_unsupported_operation">ຕົວແບບນີ້ເຮັດສິ່ງນັ້ນບໍ່ໄດ້</string>
+    <string name="server_run_error_tool_execution">ເຄື່ອງມືລົ້ມເຫລວ ແລະການເຮັດວຽກຢຸດລົງ</string>
+    <string name="server_run_error_other">ການເຮັດວຽກຢຸດລົງຍ້ອນຂໍ້ຜິດພາດ</string>
+    <string name="server_run_retry_in_seconds">%1$s · ຈະລອງໃໝ່ໃນ %2$d ວິນາທີ</string>
+    <string name="server_run_retry_now">%1$s · ກຳລັງລອງໃໝ່</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">ເຊື່ອມຕໍ່ກັບເຊີບເວີ OpenCode ບໍ່ໄດ້</string>
+    <string name="server_error_folder_gone">ໂຟນເດີບໍ່ຢູ່ແລ້ວ</string>
+    <string name="server_error_uploads_unsupported">ເຊີບເວີນີ້ບໍ່ຮອງຮັບໄຟລ໌ແນບ. ອັບເດດ OpenCode ໃນຄອມພິວເຕີຂອງເຈົ້າ.</string>
+    <string name="server_error_archiving_unsupported">ເຊີບເວີນີ້ບໍ່ຮອງຮັບການຮວບຮວມ. ອັບເດດ OpenCode ໃນຄອມພິວເຕີຂອງເຈົ້າ.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode ບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ເຂົ້າເຖິງອຸປະກອນໃນເຄືອຂ່າຍທ້ອງຖິ່ນຂອງເຈົ້າ. ເປີດສິດອຸປະກອນໃກ້ຄຽງໃຫ້ OpenCode ໃນການຕັ້ງຄ່າ ແລ້ວລອງໃໝ່.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">ເຊດຊັນບໍ່ມີຊື່</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">shell</string>
+    <string name="server_tool_shell_killed">shell ຖືກບັງຄັບໃຫ້ຢຸດ</string>
+    <string name="server_tool_shell_exit_code">ຄຳສັ່ງສິ້ນສຸດດ້ວຍລະຫັດ %1$d</string>
+    <string name="server_notice_session_update">ອັບເດດເຊດຊັນ</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">ການເຊື່ອມຕໍ່ລົ້ມເຫລວ</string>
+    <string name="server_connection_resolved_address_unknown">ທີ່ຢູ່ທີ່ຄົ້ນພົບ: ບໍ່ຮູ້ຈັກ</string>
+    <string name="server_connection_resolved_address">ທີ່ຢູ່ທີ່ຄົ້ນພົບ (ຄົ້ນຫາຫຼັງລົ້ມເຫລວ): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">ຊື່ tailnet ນີ້ຊີ້ໄປຫາທີ່ຢູ່ນອກຊ່ວງຂອງ Tailscale, ຈຶ່ງອາດບໍ່ໄດ້ໃຊ້ DNS ຂອງ Tailscale. ໃນແອັບ Tailscale, ເປີດໃຊ້ການຕັ້ງຄ່າ DNS ຂອງ Tailscale ແລະປິດ DNS ສ່ວນຕົວ ຫຼືໂປຣໄຟລ໌ VPN ທີ່ປ່ຽນ DNS.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">ເຄືອຂ່າຍທ້ອງຖິ່ນ</string>
+    <string name="server_connection_route_loopback">ວົນກັບເຄື່ອງຕົນເອງ</string>
+    <string name="server_connection_route_internet">ອິນເຕີເນັດ</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">ບໍ່ແມ່ນທີ່ຢູ່ເວັບ</string>
+    <string name="server_pairing_origin_bad_scheme">ບໍ່ໄດ້ຂຶ້ນຕົ້ນດ້ວຍ http:// ຫຼື https://</string>
+    <string name="server_pairing_origin_no_host">ບໍ່ມີຊື່ໂຮສ</string>
+    <string name="server_pairing_origin_credentials">ມີຊື່ຜູ້ໃຊ້ ຫຼືລະຫັດຜ່ານ</string>
+    <string name="server_pairing_origin_query">ມີສ່ວນຄຳຄົ້ນ ຫຼືສ່ວນອ້າງອີງ</string>
+    <string name="server_pairing_origin_port">ມີພອດນອກຊ່ວງ 1–65535</string>
+    <string name="server_pairing_origin_path">ມີເສັ້ນທາງ, ແຕ່ເຊີບເວີຕ້ອງຢູ່ທີ່ຮາກຂອງທີ່ຢູ່</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">ເຊີບເວີ</string>
+    <string name="server_friendly_name_numbered">ເຊີບເວີ %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">ການເຊື່ອມຕໍ່ຂາດຫຼັງຈາກສົ່ງຂໍ້ຄວາມ, ດັ່ງນັ້ນຂໍ້ຄວາມອາດໄປຮອດແລ້ວ.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">ການເຊື່ອມລວມນີ້ບໍ່ມີວິທີເຂົ້າລະບົບ.</string>
+    <string name="server_error_sign_in_url_invalid">ທີ່ຢູ່ໜ້າເຂົ້າລະບົບບໍ່ຖືກຕ້ອງ.</string>
+    <string name="server_error_load_server_details">ໂຫຼດລາຍລະອຽດເຊີບເວີບໍ່ໄດ້</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">ລະຫັດຈັບຄູ່ນີ້ໝົດອາຍຸ ຫຼືຖືກໃຊ້ແລ້ວ. ແລ່ນ `opencode pair --remote` ອີກຄັ້ງ.</string>
+    <string name="server_error_pairing_unsupported">ເຊີບເວີນີ້ບໍ່ຮອງຮັບລິ້ງຈັບຄູ່. ອັບເດດ OpenCode ໃນຄອມພິວເຕີ ຫຼືປ້ອນເຊີບເວີເອງ.</string>
+    <string name="server_error_notification_previews_need_https">ຕົວຢ່າງການແຈ້ງເຕືອນທີ່ເຂົ້າລະຫັດຕ້ອງເຊື່ອມຕໍ່ເຊີບເວີຜ່ານ HTTPS.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">ປ້ອນ URL ເຊີບເວີ HTTP ຫຼື HTTPS ທີ່ຖືກຕ້ອງ.</string>
+    <string name="server_error_credentials_rejected">ເຊີບເວີປະຕິເສດຂໍ້ມູນເຂົ້າລະບົບນີ້.</string>
+    <string name="server_error_http_status">ເຊີບເວີສົ່ງຄືນ HTTP %1$d.</string>
+    <string name="server_error_event_stream_http">ສາຍຂໍ້ມູນເຫດການສົ່ງຄືນ HTTP %1$d.</string>
+    <string name="server_error_event_stream_oversized_frame">ສາຍຂໍ້ມູນເຫດການສົ່ງເຟຣມທີ່ໃຫຍ່ເກີນໄປ.</string>
+    <string name="server_error_event_stream_ended">ສາຍຂໍ້ມູນເຫດການສິ້ນສຸດແລ້ວ.</string>
+    <string name="server_error_event_stream_server_failure">ສາຍຂໍ້ມູນເຫດການລາຍງານວ່າເຊີບເວີລົ້ມເຫລວ.</string>
+    <string name="server_tool_failed">ເຄື່ອງມືລົ້ມເຫລວ</string>
+    <string name="server_error_list_folder">ເຊີບເວີສະແດງລາຍການໃນໂຟນເດີນີ້ບໍ່ໄດ້</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">ໂຫຼດໂຄງການ ແລະເຊດຊັນບໍ່ໄດ້</string>
+    <string name="server_error_load_session_family">ໂຫຼດກຸ່ມເຊດຊັນທີ່ກ່ຽວຂ້ອງບໍ່ໄດ້</string>
+    <string name="server_error_update_session">ອັບເດດເຊດຊັນບໍ່ໄດ້</string>
+    <string name="server_error_load_session_ancestry">ໂຫຼດລຳດັບເຊດຊັນຕົ້ນທາງຂອງເຊດຊັນທີ່ໃຊ້ຢູ່ບໍ່ໄດ້</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">ຕອບຢູ່ບ່ອນອື່ນແລ້ວ</string>
+    <string name="server_request_already_dismissed">ປິດແລ້ວ</string>
+    <string name="server_request_already_answered">ຕອບແລ້ວ</string>
+    <string name="server_request_already_dismissed_elsewhere">ປິດຢູ່ບ່ອນອື່ນແລ້ວ</string>
+    <string name="server_request_no_longer_waiting">ບໍ່ໄດ້ລໍຖ້າແລ້ວ</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">ສື່ບໍ່ພ້ອມໃຊ້ງານ</string>
+    <string name="server_pasted_text_title">ຂໍ້ຄວາມທີ່ວາງ</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="other">%1$d ແຖວ · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="other">%1$d ແຖວ</item>
+    </plurals>
+    <string name="server_file_size_zero">ສູນ KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="other">%1$d ໄບຕ໌</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">ໂຄງການ</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">ໄຟລ໌</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">ເຮັດຂັ້ນຕອນນີ້ໃຫ້ຄົບ</string>
+    <string name="server_form_required">ຕ້ອງປ້ອນ</string>
+    <plurals name="server_form_min_length">
+        <item quantity="other">ປ້ອນຢ່າງໜ້ອຍ %1$d ຕົວອັກສອນ</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="other">ປ້ອນບໍ່ເກີນ %1$d ຕົວອັກສອນ</item>
+    </plurals>
+    <string name="server_form_invalid_format">ຮູບແບບບໍ່ຖືກຕ້ອງ</string>
+    <string name="server_form_choose_option">ເລືອກຕົວເລືອກທີ່ມີ</string>
+    <string name="server_form_invalid_email">ປ້ອນອີເມວທີ່ຖືກຕ້ອງ</string>
+    <string name="server_form_invalid_url">ປ້ອນ URL ທີ່ຖືກຕ້ອງ</string>
+    <string name="server_form_invalid_date">ປ້ອນວັນທີໃນຮູບແບບ YYYY-MM-DD</string>
+    <string name="server_form_invalid_date_time">ປ້ອນວັນທີ ແລະເວລາທີ່ຖືກຕ້ອງ</string>
+    <string name="server_form_minimum">ຕ້ອງບໍ່ຕ່ຳກວ່າ %1$s</string>
+    <string name="server_form_maximum">ຕ້ອງບໍ່ເກີນ %1$s</string>
+    <string name="server_form_whole_number">ປ້ອນຈຳນວນເຕັມ</string>
+    <plurals name="server_form_min_items">
+        <item quantity="other">ເລືອກຢ່າງໜ້ອຍ %1$d ລາຍການ</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="other">ເລືອກບໍ່ເກີນ %1$d ລາຍການ</item>
+    </plurals>
+    <string name="server_form_invalid_value">ຄ່າບໍ່ຖືກຕ້ອງ</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">ຫລົບຊ່ອນທີ່ເລືອກ</string>
+    <string name="server_model_visibility_only_show">ສະແດງສະເພາະທີ່ເລືອກ</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">ປິດ</string>
+    <string name="server_model_variant_extra_high">ສູງພິເສດ</string>
+    <string name="server_model_variant_max">ສູງສຸດ</string>
+    <string name="server_delivery_steering">ປັບທິດທາງ</string>
+    <string name="server_delivery_queued">ຄິວ</string>
+</resources>

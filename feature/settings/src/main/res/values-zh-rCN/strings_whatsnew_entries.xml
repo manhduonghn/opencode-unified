@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- What’s New entries, oldest first: one group per file in whatsnew/entries/. -->
+
+    <!-- 2026-10-06-01-voice-messages -->
+    <string name="settings_whatsnew_entry_voice_messages_title">语音消息</string>
+    <string name="settings_whatsnew_entry_voice_messages_summary">语音助手代你向会话提出的请求会显示为语音消息，并带有波形标记。</string>
+
+    <!-- 2026-10-07-01-attachment-menu-hold -->
+    <string name="settings_whatsnew_entry_attachment_menu_hold_title">用 + 添加附件</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_summary">+ 菜单从消息框展开，提供相机、照片和文件选项。按住 + 并滑动，一步完成选择。</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_1">照片面板就在消息框上方展开，点击照片即可添加。</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_2">相机支持切换镜头、双指缩放、点击对焦和闪光灯。</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_example">按住 +，向上滑到“照片”，然后松开</string>
+
+    <!-- 2026-10-08-01-voice-webrtc-weak-connection -->
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_title">通话更稳定</string>
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_summary">网络不稳时，通话只会短暂卡顿，不再出现数秒的静音。</string>
+
+    <!-- 2026-10-08-02-mute-sessions -->
+    <string name="settings_whatsnew_entry_mute_sessions_title">会话静音</string>
+    <string name="settings_whatsnew_entry_mute_sessions_summary">已静音的会话仍保留在列表中，但不会出现在“查看动态”中，也不会显示未读圆点。</string>
+    <string name="settings_whatsnew_entry_mute_sessions_detail_1">长按“查看动态”可将全部会话标为已读。等待你回应的会话仍会保留。</string>
+    <string name="settings_whatsnew_entry_mute_sessions_example">长按侧边栏中的会话，然后点击“静音”</string>
+
+    <!-- 2026-10-08-03-pair-from-anywhere -->
+    <string name="settings_whatsnew_entry_pair_from_anywhere_title">随处配对</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_summary">在电脑上运行 opencode pair --remote，即可从任何网络连接，无需连接同一 Wi-Fi 或使用 Tailscale。</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_detail_1">扫描显示的二维码，或粘贴输出的链接。</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_example">运行 opencode pair --remote，然后在手机上添加服务器</string>
+
+    <!-- 2026-10-08-04-drawer-peek -->
+    <string name="settings_whatsnew_entry_drawer_peek_title">会话活跃时间</string>
+    <string name="settings_whatsnew_entry_drawer_peek_summary">将会话列表向会话页面拖动，即可查看各会话的最近活跃时间。</string>
+    <string name="settings_whatsnew_entry_drawer_peek_detail_1">在列表上向左滑动即可关闭。</string>
+    <string name="settings_whatsnew_entry_drawer_peek_example">打开会话列表，然后向右拖动</string>
+
+    <!-- 2026-10-08-05-dictation-keeps-going -->
+    <string name="settings_whatsnew_entry_dictation_keeps_going_title">语音输入并发送</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_summary">点击麦克风开始语音输入，可直接从录音栏发送，也可先点击“停止”检查内容。</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_1">按住麦克风说话，上滑锁定，左滑取消。</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_2">离开应用后录音仍会继续，可通过实时活动停止录音。</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_3">录音中切换会话，点击“发送”会发到当前显示的会话。</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_example">点击麦克风，说一句话，再点击“发送”</string>
+
+    <!-- 2026-10-08-06-siri-shortcuts-spotlight -->
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_title">应用操作与快捷方式</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_summary">通过 Google 助理的应用操作、应用快捷方式或快捷设置，即可发起通话、新建会话或发送消息。</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_detail_1">长按应用图标即可查看最近会话。</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_example">说“嘿 Google，在 OpenCode 中发起语音通话”</string>
+
+    <!-- 2026-10-09-01-working-orb -->
+    <string name="settings_whatsnew_entry_working_orb_title">状态球</string>
+    <string name="settings_whatsnew_entry_working_orb_summary">“工作中”旁边和子代理卡片上的状态球会显示智能体正在做什么，完成后会变成复制按钮。</string>
+
+    <!-- 2026-10-09-02-shell-glyph -->
+    <string name="settings_whatsnew_entry_shell_glyph_title">壳牌活动</string>
+    <string name="settings_whatsnew_entry_shell_glyph_summary">壳牌运行时，每有输出，&gt;_ 提示符就会循环闪动。</string>
+
+    <!-- 2026-10-09-03-math-and-diagrams -->
+    <string name="settings_whatsnew_entry_math_and_diagrams_title">公式与图表</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_summary">回复支持排版数学公式和绘制 Mermaid 图表。</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_1">点击图表可放大，长按可查看源代码。</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_2">公式大小会随文本字号调整。</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_example">让智能体画出消息发送流程图</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_prompt">画一张消息发送流程图</string>
+
+    <!-- 2026-10-09-04-always-notify -->
+    <string name="settings_whatsnew_entry_always_notify_title">完成时通知</string>
+    <string name="settings_whatsnew_entry_always_notify_summary">从这里发起的会话完成后，你会收到通知，并附有简短的结果摘要。</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_1">在会话面板中开启“始终通知”，每次回复都会通知你，包括在电脑上发起的请求。</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_2">点击通知即可打开对应会话。</string>
+    <string name="settings_whatsnew_entry_always_notify_example">发送一条消息，然后锁定手机</string>
+
+    <!-- 2026-10-09-05-server-switcher -->
+    <string name="settings_whatsnew_entry_server_switcher_title">切换服务器</string>
+    <string name="settings_whatsnew_entry_server_switcher_summary">侧边栏标题显示当前服务器。点击即可切换或添加服务器。</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_1">设置中会用实时心跳动画显示连接状态，并在服务器名称旁显示往返延迟。</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_2">服务器重命名后，新名称仅在这台手机上使用。</string>
+    <string name="settings_whatsnew_entry_server_switcher_example">打开侧边栏，点击服务器名称，添加你的另一台电脑</string>
+
+    <!-- 2026-10-10-01-share-opened-files -->
+    <string name="settings_whatsnew_entry_share_opened_files_title">像浏览照片一样看图片</string>
+    <string name="settings_whatsnew_entry_share_opened_files_summary">图片会在会话中完整显示，打开后可像浏览照片一样双指缩放、滑动切换、下拉关闭。</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_1">智能体提到的每个文件都能在应用内打开。</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_2">通过“分享”可将打开的内容保存到照片或文件，包括视频和音频。</string>
+    <string name="settings_whatsnew_entry_share_opened_files_example">让智能体读取几张截图，然后点开一张并向下拖动</string>
+
+    <!-- 2026-10-10-02-call-voice -->
+    <string name="settings_whatsnew_entry_call_voice_title">语音通话</string>
+    <string name="settings_whatsnew_entry_call_voice_summary">点击空消息框中的波形即可交谈。语音助手会边聊边在会话中处理任务，并在完成时告诉你。</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_1">说出会话名称，语音助手就会打开它，并在其中开始或引导任务。</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_2">直接开口即可打断，也可以询问任务进展。</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_3">点按通话栏查看实时字幕。</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_4">在通话通知中即可静音或结束通话，锁屏时也能操作。</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_5">智能体工作时，长按“停止”即可发起通话。</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_6">在“设置 → 音色”中选择音色。</string>
+    <string name="settings_whatsnew_entry_call_voice_example">发起通话，说“打开我修复上传问题的会话，检查一下测试”</string>
+
+    <!-- 2026-10-10-03-drawer-one-edge -->
+    <string name="settings_whatsnew_entry_drawer_one_edge_title">更整洁的侧边栏</string>
+    <string name="settings_whatsnew_entry_drawer_one_edge_summary">各行起始位置对齐，状态圆点移到行尾，搜索按钮位于顶部。</string>
+
+    <!-- 2026-10-11-01-paste-as-a-card -->
+    <string name="settings_whatsnew_entry_paste_as_a_card_title">长文本粘贴为卡片</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_summary">粘贴长文本时，会在图片旁生成“粘贴的文本”卡片，智能体仍能读取全部内容。</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_1">点按卡片可查看粘贴的完整内容，也可复制和分享。</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_2">长消息会折叠为几行，点按“显示更多”即可展开。</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_example">复制一段长日志，粘贴到消息框，再点按卡片</string>
+
+    <!-- 2026-10-11-02-ride-out-drops -->
+    <string name="settings_whatsnew_entry_ride_out_drops_title">弱信号下也能用</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_summary">短暂断网不再导致操作失败。消息发送、会话和通话会等待连接恢复后继续。</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_1">随时都能点按“发送”，消息会按发送顺序依次发出。</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_2">发送失败的消息会保留在原处，并显示“重试”，重试也不会重复发送。</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_3">服务器离线时，侧边栏中的名称会变暗。点按即可选择“再试一次”。</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_example">列车驶入隧道时，打开一个会话</string>
+
+    <!-- 2026-10-11-03-new-session-recent-projects -->
+    <string name="settings_whatsnew_entry_new_session_recent_projects_title">在任何项目中新建会话</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_summary">新建会话时，消息框上方会列出最近使用的项目，“所有项目”可打开电脑上的任何文件夹。</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_1">输入时，所选项目会一直显示在消息框上方。</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_2">从新会话发起的通话会在所选项目中工作。</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_example">点按“新建会话”，再点“所有项目”，然后选择“选择文件夹…”</string>
+
+    <!-- 2026-10-11-04-stop-runs-your-steer -->
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_title">工作时也能引导</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_summary">在智能体工作时发送消息，它会先将耗时命令转入后台，再在下一步读取你的消息。</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_1">长按“发送”，可为单条消息选择“引导”或“加入队列”。</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_2">长按等待中的消息，可将其移入队列或删除。</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_3">点按“停止”后会立即显示“正在停止…”，接着执行你已发送的引导消息。</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_example">耗时命令运行时，发送一条消息，看看命令如何转入后台</string>
+
+    <!-- 2026-10-12-01-browser-push-in -->
+    <string name="settings_whatsnew_entry_browser_push_in_title">应用内浏览网页</string>
+    <string name="settings_whatsnew_entry_browser_push_in_summary">开启“应用内浏览器”实验功能后，链接页面会滑入并覆盖会话。从屏幕边缘滑动即可返回。</string>
+
+    <!-- 2026-10-12-02-answer-from-the-bar -->
+    <string name="settings_whatsnew_entry_answer_from_the_bar_title">直接在消息框回答</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_summary">问题和权限请求会从消息框展开，你可以直接点选答案，也可以打字或口述回答。</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_1">权限请求会在你允许前展示要执行的命令或修改。</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_2">点按“拒绝”时，你输入的内容会作为替代指示，让智能体继续工作。</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_3">回答后，原来的草稿会恢复。</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_example">智能体提问时，按住麦克风说出你的回答</string>
+
+    <!-- 2026-10-12-03-new-messages-divider -->
+    <string name="settings_whatsnew_entry_new_messages_divider_title">接着上次的位置看</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_summary">返回会话时会打开底部，离开期间收到的消息已加载好。若积累了很多消息，想从“新”分隔线开始看，可在“设置 › 会话”中开启“新消息分隔线”。</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_1">打开侧边栏时，会提前刷新你可能打开的会话，点按即可查看。</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_2">切回会话时，刷新期间仍会保留后台工作状态和上下文用量指示。</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_example">启动一个耗时任务，切换到其他会话，等它回复后再回来</string>
+
+    <!-- 2026-10-12-04-model-list-and-level-meter -->
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_title">新版模型选择器</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_summary">在“模型”面板中选择模型和思考级别，收藏的模型会排在顶部。想试试从消息框展开的列表，可在“设置 → 实验”中开启“新版模型选择器”。</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_1">模型支持思考级别时，可在“模型”面板的“思考”菜单中选择。</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_2">滑动模型即可将其加入收藏。</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_3">切换模型或思考级别的位置，会在会话中以一行低调的提示标出。</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_example">点按消息框中的模型，选择思考级别</string>
+
+    <!-- 2026-10-12-05-run-error-line -->
+    <string name="settings_whatsnew_entry_run_error_line_title">运行失败时</string>
+    <string name="settings_whatsnew_entry_run_error_line_summary">运行提前停止时，会用简单的话说明原因，并提供下一步操作：编辑、紧凑型、切换模型或再试一次。</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_1">点按“编辑”会撤销你的消息，并放回消息框供你修改。</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_2">长按提示行可查看并复制完整错误。</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_3">智能体准备自动重试时，“工作中”会显示下次重试的倒计时。</string>
+    <string name="settings_whatsnew_entry_run_error_line_example">回复受阻时，点按“编辑”，修改消息后重新发送</string>
+
+    <!-- 2026-10-12-06-transcript-keyboard-space -->
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_title">收起键盘不留空白</string>
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_summary">拖动收起键盘后，最后一条消息下方不再留有空白。</string>
+
+    <!-- 2026-10-12-07-share-sheet-sends -->
+    <string name="settings_whatsnew_entry_share_sheet_sends_title">从分享面板直接发送</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_summary">将内容分享到 OpenCode，选择会话、补充消息即可发送，无需打开应用。</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_1">最近使用的会话会显示在分享面板的第一行。</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_2">JSON 文件和导出内容会作为文件附件添加，并保留原文件名。</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_3">点按“在 OpenCode 中继续”会打开会话，并将分享的内容放入消息框。</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_4">如果无法发送，选择“稍后发送”，下次打开应用时就会发送。</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_example">将截图分享到 OpenCode，输入问题，然后点按“发送”</string>
+
+    <!-- 2026-10-12-08-app-icon-badge -->
+    <string name="settings_whatsnew_entry_app_icon_badge_title">应用图标角标</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_summary">应用图标会显示未读或等待你处理的会话数量，与“查看动态”中的数量一致。</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_1">已静音的会话不计入。</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_2">需要开启通知。</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_example">让会话停在等待你回答问题的状态，然后返回主屏幕</string>
+
+    <!-- 2026-10-12-09-drawer-keeps-keyboard -->
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_title">键盘随侧边栏滑动</string>
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_summary">输入时打开会话列表，消息框仍保持焦点，键盘会随会话一起滑向一侧。</string>
+
+    <!-- 2026-10-12-10-whats-new-page -->
+    <string name="settings_whatsnew_entry_whats_new_page_title">更简洁的最新动态</string>
+    <string name="settings_whatsnew_entry_whats_new_page_summary">“最新动态”现在像“设置”一样以页面形式打开，每项功能都有独立页面，修复内容也集中在这里。</string>
+
+    <!-- 2026-10-12-11-catch-up-returns-to-drawer -->
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_title">查看动态后返回侧边栏</string>
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_summary">离开“查看动态”后，会返回会话列表，并保留离开前的状态。</string>
+
+    <!-- 2026-10-12-12-transcript-day-stamps -->
+    <string name="settings_whatsnew_entry_transcript_day_stamps_title">对话记录中的日期</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_summary">跨天的会话会在每天的第一条消息上方显示日期和时间，例如“星期三 上午 8:24”；间隔一小时后发送的消息上方也会显示时间。</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_1">日期显示为“今天”“昨天”，一周内显示星期几，更早则显示日期。</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_2">引导消息和排队中的消息在等待时不显示时间标记。</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_example">打开本周早些时候开始的会话，向上滚动</string>
+
+    <!-- 2026-10-12-13-rich-link-previews -->
+    <string name="settings_whatsnew_entry_rich_link_previews_title">链接预览</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_summary">回复下方的链接会逐行显示内容摘要：拉取请求或议题的标题和状态，以及提交、视频或网页等。</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_1">GitHub 拉取请求、议题、提交和仓库会显示标题，“开放中”“已合并”或“已关闭”状态以不同颜色标示。</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_2">X 帖子会显示发布者和内容；YouTube 链接显示标题，其他网页则显示从链接中提取的名称。</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_3">默认显示三个链接；点按“复制”旁的“更多”可查看其余链接，再次点按即可收起。</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_4">长按链接可查看更大的预览，也可复制链接或分享。</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_example">问问智能体某个仓库本周有哪些变更</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_prompt">我使用的一个 GitHub 仓库本周有哪些变更？请附上链接。</string>
+
+    <!-- 2026-10-13-01-rolling-numbers -->
+    <string name="settings_whatsnew_entry_rolling_numbers_title">数字滚动效果</string>
+    <string name="settings_whatsnew_entry_rolling_numbers_summary">后台工作胶囊、会话面板、“已使用 N 个工具”行和“查看动态”中的实时计数，现在会逐位滚动变化。</string>
+
+    <!-- 2026-10-13-02-grouped-steering -->
+    <string name="settings_whatsnew_entry_grouped_steering_title">消息分组</string>
+    <string name="settings_whatsnew_entry_grouped_steering_summary">连续发送的消息会归为一组，等待智能体处理的引导消息共用一个“引导中”标签。</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_1">连续的消息气泡会紧密排列，相邻的边角连在一起。</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_2">照片和文件在分组内仍保留各自的圆角外形。</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_3">智能体接收每条消息时，消息会流畅地上移到相应位置。</string>
+    <string name="settings_whatsnew_entry_grouped_steering_example">在智能体工作时，快速连发三条消息，其中一条附上照片</string>
+
+    <!-- 2026-10-13-03-inline-tool-rows -->
+    <string name="settings_whatsnew_entry_inline_tool_rows_title">更简洁的工具和问题行</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_summary">工具组和已回答的问题会像代码一样展开为通栏区域，连续的读取操作会合并为一行。</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_1">折叠的分组显示“已使用 N 个工具”，失败的工具调用会标为红色。</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_2">执行行会列出脚本调用的工具，技能行会显示技能名称。</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_3">已回答的问题会显示提示词和所有备选项，并勾选你的选择。</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_example">点按会话中的“已使用 N 个工具”行，展开详情区域</string>
+
+    <!-- 2026-10-13-04-mac-motion-playgrounds -->
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_title">在 Mac 上控制试验场</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_summary">开启开发者模式后，将调节功能与 Mac 配对，即可慢速回放试验场动画并检查捕获的帧。</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_1">Mac 上的调节页面提供试验场选择、预设和回放控制；手机上只显示试验场。</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_2">紧凑卡片显示屏幕上有哪些控件，并提供具名的动效和间距预设；选择“原生”可恢复默认效果。每个预设的所有参数会一次性生效。</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_3">Mac 连接后，悬浮调节面板会隐藏；使用调节手势可唤出面板，选择“退出试验场”即可离开。</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_4">固定种子的场景会回放同一个示例会话，方便比较不同构建版本的动效。</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_5">每次回放都会从初始状态开始，并实际发送引导消息和排队中的消息，不再让它们停留在等待状态。</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_6">Mac 上的审查播放器可逐帧查看捕获的几何信息、标记帧并发送动画反馈。</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_example">打开“设置 → 开发者”，与 Mac 调节页面配对，然后以 0.25× 速度试用“对话记录 → 流式回复”</string>
+
+    <!-- 2026-10-13-05-catch-up-flicks -->
+    <string name="settings_whatsnew_entry_catch_up_flicks_title">查看动态时滑动更轻松</string>
+    <string name="settings_whatsnew_entry_catch_up_flicks_summary">在“查看动态”中，快速轻划或短距离拖动即可划走卡片，不再轻易回弹。</string>
+
+    <!-- 2026-10-14-01-settings-grouped-by-purpose -->
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_title">更清晰的设置</string>
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_summary">实验功能和开发者工具移至“设置 → 实验”，应用内通知位于“通知”，通话记录位于“语音”。</string>
+
+    <!-- 2026-10-14-02-send-ats-recovery -->
+    <string name="settings_whatsnew_entry_send_ats_recovery_title">发送更可靠</string>
+    <string name="settings_whatsnew_entry_send_ats_recovery_summary">如果 iOS 暂时拒绝原本正常的服务器连接，消息会自动重试发送。</string>
+
+    <!-- 2026-10-14-03-keyboard-menus-and-header -->
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_title">更稳定的键盘和菜单</string>
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_summary">输入时点按 + 可打开附件菜单，不会收起键盘或移动控件；键盘移动时，顶部的模糊效果也会保持原位。</string>
+
+    <!-- 2026-10-14-04-open-links-in-apps -->
+    <string name="settings_whatsnew_entry_open_links_in_apps_title">用对应应用打开链接</string>
+    <string name="settings_whatsnew_entry_open_links_in_apps_summary">链接会在对应的应用中打开，例如 GitHub 或 YouTube；开启“应用内浏览器”实验功能后，可长按链接并选择“在应用内浏览器中打开”。</string>
+
+    <!-- 2026-10-14-05-session-list-quiet-hierarchy -->
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_title">会话列表更易浏览</string>
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_summary">“已置顶”和“最近使用”改用较小的灰色文字，未读和等待中的会话以中等字重突出显示，已读会话则稍微调暗。</string>
+
+    <!-- 2026-10-14-06-queued-messages-fitted-sheet -->
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_title">排队消息更整齐</string>
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_summary">排队消息面板的高度随队列长度调整，每行带有编号，并配有低调的按钮，可立即发送或取消消息。</string>
+
+    <!-- 2026-10-14-07-control-center-sessions -->
+    <string name="settings_whatsnew_entry_control_center_sessions_title">会话快捷设置图块</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_summary">添加快捷设置图块，一点即可打开会话或在其中开始通话。</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_1">新增的“打开会话”图块可打开你选定的会话。</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_2">“开始通话”可在选定的会话或新会话中发起通话。默认使用你上次查看的会话，也可自行更改。</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_3">可从已置顶和最近使用的会话中选择，图块会显示会话的当前标题。</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_4">图块只会打开应用，在你说话或输入之前不会发送任何内容。</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_example">打开快捷设置，点按“编辑”，将 OpenCode 的“打开会话”图块拖到所需位置</string>
+
+    <!-- 2026-10-15-01-settings-keyboard-down -->
+    <string name="settings_whatsnew_entry_settings_keyboard_down_title">键盘不再遮挡设置</string>
+    <string name="settings_whatsnew_entry_settings_keyboard_down_summary">输入时从侧边栏打开设置，键盘会自动收起，不再遮挡设置页面。</string>
+
+    <!-- 2026-10-15-02-session-list-sidebar-grey -->
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_title">会话列表更宽松</string>
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_summary">会话列表标题变大，灰色的“已置顶”和“最近使用”分组标题也更大，上方留白更多。打开侧边栏即可查看。</string>
+
+    <!-- 2026-10-15-03-voice-varied-acknowledgements -->
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_title">通话回应不再千篇一律</string>
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_summary">通话时会根据你说的内容回应，不再对每个请求都说“正在查看”。你继续说话时，同一请求也不会再重复发送。</string>
+
+    <!-- 2026-10-15-04-smoother-streaming -->
+    <string name="settings_whatsnew_entry_smoother_streaming_title">流式回复更流畅</string>
+    <string name="settings_whatsnew_entry_smoother_streaming_summary">流式回复的最新一行会平滑淡入，不再变暗或闪现；行高不再先撑大再缩回；列表项和标题也会直接以正确格式出现，不再先冒出单独的短横线或井号。</string>
+
+    <!-- 2026-10-15-05-model-list-sheet -->
+    <string name="settings_whatsnew_entry_model_list_sheet_title">模型列表面板</string>
+    <string name="settings_whatsnew_entry_model_list_sheet_summary">启用“新版模型选择器”实验功能后，输入框会展开为模型面板，出现在原键盘位置，键盘随之收起。无论开关多快，面板都能平滑收回。</string>
+
+    <!-- 2026-10-15-06-queued-pill-whole-title -->
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_title">完整显示排队数量</string>
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_summary">输入框上方的排队标签会完整显示“2 条排队中”，不再截断为“2 条排…”。其他位置的滚动计数也能完整显示所有字符。</string>
+
+    <!-- 2026-10-16-01-plus-menu-photo-sheet -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_title">在键盘位置选照片</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_summary">启用“新版加号菜单”实验功能后，点按“照片”会将 + 菜单展开为照片面板，出现在原键盘位置。长按 + 可显示最新照片，滑到某张照片后松手即可添加。</string>
+
+    <!-- 2026-10-16-02-composer-large-text-targets -->
+    <string name="settings_whatsnew_entry_composer_large_text_targets_title">输入框按钮更好点</string>
+    <string name="settings_whatsnew_entry_composer_large_text_targets_summary">使用大字号时，输入框中的按钮更容易点按。</string>
+
+    <!-- 2026-10-16-03-project-pick-haptic -->
+    <string name="settings_whatsnew_entry_project_pick_haptic_title">切换项目时轻振提示</string>
+    <string name="settings_whatsnew_entry_project_pick_haptic_summary">为新会话选择其他项目时，无论在输入框上方还是“所有项目”中操作，都会有轻微振动反馈。</string>
+
+    <!-- 2026-10-16-04-fork-opens-copy -->
+    <string name="settings_whatsnew_entry_fork_opens_copy_title">创建分支后打开副本</string>
+    <string name="settings_whatsnew_entry_fork_opens_copy_summary">在会话详情中点按“创建分支会话”，现在又能正常打开副本了。</string>
+
+    <!-- 2026-10-16-05-transcript-row-targets -->
+    <string name="settings_whatsnew_entry_transcript_row_targets_title">点按更轻松</string>
+    <string name="settings_whatsnew_entry_transcript_row_targets_summary">“会话”面板的标题更容易点按，VoiceOver 和语音控制也不会再选中听写时隐藏的输入框按钮。</string>
+
+    <!-- 2026-10-16-06-image-previews -->
+    <string name="settings_whatsnew_entry_image_previews_title">图片预览</string>
+    <string name="settings_whatsnew_entry_image_previews_summary">智能体提到的图片会以拼贴布局显示预览，文件不存在时也会明确提示。</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_1">预览显示在提到该图片的段落下方。</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_2">点按图片可全屏查看，左右滑动可浏览回复中的其他图片。</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_3">会话文件夹之外的图片需点按后才会加载。</string>
+    <string name="settings_whatsnew_entry_image_previews_example">让智能体展示项目中的截图。</string>
+    <string name="settings_whatsnew_entry_image_previews_prompt">给我看看这个项目中的截图。</string>
+
+    <!-- 2026-10-16-07-connection-error-details -->
+    <string name="settings_whatsnew_entry_connection_error_details_title">连接错误原因更清楚</string>
+    <string name="settings_whatsnew_entry_connection_error_details_summary">连接错误会显示错误代码、尝试连接的地址和 DNS 解析结果。当 tailnet 名称解析到 Tailscale 之外的地址时，还会提供帮助。</string>
+
+    <!-- 2026-10-16-08-outage-reconnect-delay -->
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_title">重连更快</string>
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_summary">服务器中断后恢复时，会话能更快同步最新内容。</string>
+
+    <!-- 2026-10-17-01-every-running-subagent -->
+    <string name="settings_whatsnew_entry_every_running_subagent_title">统计所有运行中的子代理</string>
+    <string name="settings_whatsnew_entry_every_running_subagent_summary">输入框上方的子代理计数现在包含嵌套在其他子代理下的子代理，也能统计子代理超过 100 个的会话，与 TUI 保持一致。</string>
+
+    <!-- 2026-10-17-02-session-view-refined-standard -->
+    <string name="settings_whatsnew_entry_session_view_refined_standard_title">回复排版更清晰</string>
+    <string name="settings_whatsnew_entry_session_view_refined_standard_summary">三级标题比加粗文本更醒目，正文颜色稍微柔和，让粗体更突出，段落和代码块的间距也略有增加。</string>
+
+    <!-- 2026-10-17-03-bottom-follow-on-load -->
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_title">保持在底部</string>
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_summary">延迟内容加载时，会话仍会停留在底部。</string>
+
+    <!-- 2026-10-17-04-drafts-stay-put -->
+    <string name="settings_whatsnew_entry_drafts_stay_put_title">草稿不丢失</string>
+    <string name="settings_whatsnew_entry_drafts_stay_put_summary">即使应用在后台关闭，草稿、附加的照片和位置，以及等待发送的消息都会保留。</string>
+
+    <!-- 2026-10-18-01-themes -->
+    <string name="settings_whatsnew_entry_themes_title">主题</string>
+    <string name="settings_whatsnew_entry_themes_summary">为会话选择 Tokyo Night、Catppuccin、Dracula、Rosé Pine 或 GitHub 等主题，浏览时即可实时预览。</string>
+    <string name="settings_whatsnew_entry_themes_detail_1">主题会为对话记录、你的消息、代码、语法高亮、差异和链接配色。</string>
+    <string name="settings_whatsnew_entry_themes_detail_2">在“外观”的“模式”中可选择浅色、深色或跟随系统。</string>
+    <string name="settings_whatsnew_entry_themes_detail_3">所有主题中的控件都会保留原生 Liquid Glass 外观。</string>
+    <string name="settings_whatsnew_entry_themes_example">打开“设置 → 外观 → 主题”，试试 Tokyo Night。</string>
+
+    <!-- 2026-10-18-02-return-key-sends -->
+    <string name="settings_whatsnew_entry_return_key_sends_title">回车键设置</string>
+    <string name="settings_whatsnew_entry_return_key_sends_summary">如果想用回车键换行，可在设置中关闭“回车键发送”，也可在外接键盘上使用 Command-Return 和 Shift-Return。</string>
+
+    <!-- 2026-10-18-03-quote-replies -->
+    <string name="settings_whatsnew_entry_quote_replies_title">引用回复</string>
+    <string name="settings_whatsnew_entry_quote_replies_summary">在助手回复中选择文本，点击“引用”，即可将其作为引用卡片添加到你的消息中。</string>
+
+    <!-- 2026-10-18-04-launch-bloom -->
+    <string name="settings_whatsnew_entry_launch_bloom_title">绽放启动动画</string>
+    <string name="settings_whatsnew_entry_launch_bloom_summary">冷启动应用时，OpenCode 标志会先收拢，再绽放展开，进入你的会话。</string>
+
+    <!-- 2026-10-18-05-drag-to-pin -->
+    <string name="settings_whatsnew_entry_drag_to_pin_title">拖动会话即可置顶</string>
+    <string name="settings_whatsnew_entry_drag_to_pin_summary">长按任意会话，向上拖到“已置顶”中的指定位置即可置顶；将已置顶的会话向下拖到“最近使用”即可取消置顶。</string>
+
+    <!-- 2026-10-19-01-call-tray-colour-blend -->
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_title">更流畅的通话按钮</string>
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_summary">开启“通话托盘”实验功能后，通话开始时，通话按钮会直接平滑变为红色的“结束”按钮，挂断时再变回，不再闪过背景色。</string>
+
+    <!-- 2026-10-19-02-optical-insets -->
+    <string name="settings_whatsnew_entry_optical_insets_title">控件边距更均匀</string>
+    <string name="settings_whatsnew_entry_optical_insets_summary">输入框的 + 和麦克风、后台任务与排队中胶囊的图标，以及侧边栏的“新建会话”图标，现在都在玻璃控件的圆弧端视觉居中。壳牌图标也改为与子代理状态球一样的圆形，不再显示闪烁光标；两者同时运行时会并排显示。</string>
+
+    <!-- 2026-10-19-03-smart-dictation-audio -->
+    <string name="settings_whatsnew_entry_smart_dictation_audio_title">听音乐时语音输入更顺畅</string>
+    <string name="settings_whatsnew_entry_smart_dictation_audio_summary">播放音乐时使用语音输入，AirPods 会保持立体声，不再在一分钟后中断；只用手机时，音乐仍通过扬声器播放，不会切到听筒。</string>
+
+    <!-- 2026-10-19-04-interrupted-hand -->
+    <string name="settings_whatsnew_entry_interrupted_hand_title">用举手图标表示中断</string>
+    <string name="settings_whatsnew_entry_interrupted_hand_summary">任务或壳牌中断时，现在会显示举手图标；手动停止的壳牌也会显示“已中断”，而非“已停止”。</string>
+
+    <!-- 2026-10-19-05-autocomplete-fast-scroll -->
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_title">自动补全更灵敏</string>
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_summary">开启“输入框自动补全”实验功能后，建议会及时跟随输入更新，拖动列表只会滚动，不会误选条目。</string>
+
+    <!-- 2026-10-19-06-experimental-groups -->
+    <string name="settings_whatsnew_entry_experimental_groups_title">实验功能分组</string>
+    <string name="settings_whatsnew_entry_experimental_groups_summary">“设置 → 实验”中的功能现已分组，通话相关选项统一为“通话样式”。</string>
+
+    <!-- 2026-10-19-07-model-picker-standard-sheet -->
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_title">标准面板式模型选择器</string>
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_summary">开启“新版模型选择器”实验功能后，点击输入框中的模型即可打开标准面板，每个模型都有独立的思考级别菜单。原来的选择器现位于“设置 › 实验”中的“自定义模型选择器”。</string>
+
+    <!-- 2026-10-19-08-problem-reports-reach-session -->
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_title">问题报告同步到会话</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_summary">“报告问题”现在也会将你的备注发送到发起报告的会话，并附上完整报告，供智能体读取。</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_1">消息开头会注明这是一份问题报告，并包含你的备注、报告 ID 和已上传的跟踪记录链接。</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_2">设备、构建版本、屏幕、时间表和应用日志信息会作为文件附件发送，就像你自己添加的附件一样。</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_3">从主页报告的问题会发送到最近的会话。</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_4">即使上传失败，备注和摘要仍会发送，并注明失败情况；之后点击“再试一次”只会补发跟踪记录链接。</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_5">送达后会显示“已发送到会话”确认提示。</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_example">打开会话菜单，选择“报告问题”，添加备注后点击“发送”</string>
+
+    <!-- 2026-10-19-09-team-scrawl-feedback -->
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_title">团队 Scrawl 反馈</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_summary">通过专属链接加入“团队反馈”，即可将三指触发的 Scrawl 录制和脱敏诊断信息发送到问题看板的共享队列。</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_1">打开你的 opencode://team/join 链接，查看会收集哪些信息并同意加入。</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_2">三步互动教程会引导你三指长按、边说边画，并将练习片段发送到测试分栏。</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_3">每次录制都会附上与“报告问题”相同的脱敏时间表、应用日志和 Motion Watch 诊断信息。</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_4">你可以随时在“设置 › 开发者”中重看教程或退出“团队反馈”。</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_example">打开“设置 › 开发者”，查看“团队反馈”状态或重看教程。</string>
+
+    <!-- 2026-10-19-10-scrawl-faster-start -->
+    <string name="settings_whatsnew_entry_scrawl_faster_start_title">Scrawl 启动更快</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_summary">麦克风和录制功能启动时，Scrawl 控件就会显示。</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_1">录制准备期间，绘画、发送和丢弃操作都会保留。</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_2">三指长按会准备好浮层，但不会提前启动麦克风。</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_3">修复了音频输出切换时，Scrawl 麦克风重启导致崩溃的问题。</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_example">在已配对的设备上三指长按，即可开始录制</string>
+
+    <!-- 2026-10-20-01-call-tray-docks-in-drawer -->
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_title">侧边栏中的通话托盘</string>
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_summary">开启“通话托盘”实验功能后，通话中打开侧边栏，托盘会移到“新建会话”下方，保留音量指示、“静音”和“结束”按钮；关闭侧边栏后会回到原位。</string>
+
+    <!-- 2026-10-20-02-markdown-streams-smoothly -->
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_title">流式回复更流畅</string>
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_summary">长回复逐步显示时依然流畅，尚未输出完整的粗体、代码和链接也会显示格式，不再露出原始 Markdown。</string>
+
+    <!-- 2026-10-20-04-return-newline-default -->
+    <string name="settings_whatsnew_entry_return_newline_default_title">回车默认换行</string>
+    <string name="settings_whatsnew_entry_return_newline_default_summary">回车键现在默认换行。可在“设置 › 会话”中开启“回车键发送”，或在实体键盘上使用 Ctrl+Enter 发送。</string>
+
+    <!-- 2026-10-20-05-drawer-session-alignment -->
+    <string name="settings_whatsnew_entry_drawer_session_alignment_title">侧边栏控件对齐</string>
+    <string name="settings_whatsnew_entry_drawer_session_alignment_summary">在手机和平板上，“搜索”“新建会话”和“设置”现已与会话标题栏和输入框对齐。</string>
+
+    <!-- 2026-10-20-06-call-tray-switch-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_title">更稳定的通话控件</string>
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_summary">切换会话时，通话波形会持续变化；打开会话列表时，控件也不会上下跳动。</string>
+
+    <!-- 2026-10-20-07-voice-delegation-visible-on-admission -->
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_title">语音消息及时显示</string>
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_summary">语音功能发送到会话的消息，现在会在服务器接收后立即显示，即使会话更新有延迟也不受影响。</string>
+
+    <!-- 2026-10-20-08-inline-image-links -->
+    <string name="settings_whatsnew_entry_inline_image_links_title">图片链接预览</string>
+    <string name="settings_whatsnew_entry_inline_image_links_summary">在“设置 › 实验 › 对话记录”中开启“图片链接预览”，即可预览回复中链接指向的图片。点击缩略图可全屏查看并缩放。</string>
+
+    <!-- 2026-10-20-09-smooth-link-preview-arrival -->
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_title">更流畅的链接预览</string>
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_summary">链接预览加载时会淡入显示，标题高度变化时，下方内容也会平滑移动。</string>
+
+    <!-- 2026-10-20-10-subagent-capsule-press -->
+    <string name="settings_whatsnew_entry_subagent_capsule_press_title">活动胶囊保持圆润</string>
+    <string name="settings_whatsnew_entry_subagent_capsule_press_summary">按住子代理和壳牌的活动胶囊时，两端仍会保持圆润。</string>
+
+    <!-- 2026-10-20-11-advanced-settings-open -->
+    <string name="settings_whatsnew_entry_advanced_settings_open_title">更简单的高级设置</string>
+    <string name="settings_whatsnew_entry_advanced_settings_open_summary">设置 › 实验中的分组现已全部展开，多个模型选择器选项合并为一个“模型选择器”选项，点击选项所在行的任意位置即可更改。</string>
+
+    <!-- 2026-10-20-12-revert-to-here -->
+    <string name="settings_whatsnew_entry_revert_to_here_title">撤销此消息</string>
+    <string name="settings_whatsnew_entry_revert_to_here_summary">长按你发送的消息，选择“撤销此消息”，即可回到那一步并编辑消息。</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_1">消息中的文字、照片和文件会回到消息输入框。</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_2">发送新消息前，可用“撤销”恢复对话及其文件变更。</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_3">仅在智能体未工作时可用。</string>
+    <string name="settings_whatsnew_entry_revert_to_here_example">长按之前发送的消息，选择“撤销此消息”。</string>
+
+    <!-- 2026-10-20-13-drag-from-transcript -->
+    <string name="settings_whatsnew_entry_drag_from_transcript_title">从会话中拖出内容</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_summary">长按并拖动，即可将会话中的代码、图片、文件、链接和消息拖到其他应用。</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_1">代码块会以文本形式传入，并保留语言标记。</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_2">图片和智能体写入的文件会以文件形式传入。</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_3">将这些内容拖到消息输入框，即可附加或粘贴。</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_4">滚动、文本选择和菜单仍可照常使用。</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_example">选中回复中的一行代码，再长按选中内容，将代码块拖到备忘录。</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_prompt">写一个简短的 Swift 函数来反转字符串，放在代码块中。</string>
+
+    <!-- 2026-10-20-14-tuning-glass-tap-targets -->
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_title">调节控件更易点按</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_summary">收起后的胶囊形调节按钮和边缘标签扩大了点按区域。</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_detail_1">玻璃质感的外观尺寸保持不变。</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_example">收起调节面板，然后点击胶囊按钮或标签的边缘附近</string>
+
+    <!-- 2026-10-20-15-new-session-project-continuity -->
+    <string name="settings_whatsnew_entry_new_session_project_continuity_title">项目选择更稳定</string>
+    <string name="settings_whatsnew_entry_new_session_project_continuity_summary">选择项目时，最近使用的文件夹保持原位，顶部名称平滑切换，项目面板中的文件夹路径也更清晰。</string>
+
+    <!-- 2026-10-20-16-simple-session-loading -->
+    <string name="settings_whatsnew_entry_simple_session_loading_title">会话加载更安静</string>
+    <string name="settings_whatsnew_entry_simple_session_loading_summary">仅在会话加载稍慢时淡入一个静止的小标志，加载完成后再平滑过渡到消息。</string>
+
+    <!-- 2026-10-20-17-voice-route-consistency -->
+    <string name="settings_whatsnew_entry_voice_route_consistency_title">语音连接修复</string>
+    <string name="settings_whatsnew_entry_voice_route_consistency_summary">由服务器处理通话时，Grok 仍会使用你的 xAI 密钥，Gemini 也能正确表明自己的身份。</string>
+
+    <!-- 2026-10-20-18-call-tray-edge-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_title">通话面板动效</string>
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_summary">通话面板展开或移入、移出侧边栏时，波形会沿着面板的圆角边缘移动。</string>
+
+    <!-- 2026-10-21-01-call-tray-keyboard-return -->
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_title">通话面板回归</string>
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_summary">侧边栏关闭、键盘重新出现时，通话面板会保持可见。</string>
+
+    <!-- 2026-10-21-02-drawer-title-fade -->
+    <string name="settings_whatsnew_entry_drawer_title_fade_title">会话标题显示更完整</string>
+    <string name="settings_whatsnew_entry_drawer_title_fade_summary">侧边栏中的长会话标题会延伸到边缘并淡出，不再提前用省略号截断。</string>
+
+    <!-- 2026-10-21-03-call-sounds-from-the-tap -->
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_title">通话音效更及时</string>
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_summary">通话连接提示音会随第一轮扫动动画响起，不再等到点击几秒后才播放。</string>
+
+    <!-- 2026-10-21-04-calm-wireframe-launch -->
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_title">加载更平静</string>
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_summary">已缓存的会话会立即打开；加载稍慢时会显示轻轻闪动的消息气泡，再平滑过渡到你的消息。</string>
+
+    <!-- 2026-10-21-05-request-dictation-last-line -->
+    <string name="settings_whatsnew_entry_request_dictation_last_line_title">听写显示末尾内容</string>
+    <string name="settings_whatsnew_entry_request_dictation_last_line_summary">在 iOS 26 上，为待处理请求的回复框输入较长听写内容后，停止听写时会显示最后几行，不再停留在中间。</string>
+
+    <!-- 2026-10-21-06-first-run-pairing-fixes -->
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_title">首次配对更清楚</string>
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_summary">剪贴板为空时点击粘贴，会在“粘贴”旁显示提示；设置流程也不再承诺半分钟内即可远程访问。</string>
+
+    <!-- 2026-10-21-07-welcome-pairing-copy -->
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_title">从 OpenCode 应用配对</string>
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_summary">欢迎页面会引导你前往电脑上 OpenCode 的“设置 → 配对”，或在终端中使用 /pair；尚未安装 OpenCode 的用户也能找到安装命令。</string>
+
+    <!-- 2026-10-21-08-session-id-links -->
+    <string name="settings_whatsnew_entry_session_id_links_title">会话链接</string>
+    <string name="settings_whatsnew_entry_session_id_links_summary">回复中的会话 ID 会显示为对应的会话标题，点击即可打开该会话。</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_1">点击子代理的 ID，会在当前会话上方打开子会话，点击“返回”即可回来。</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_2">长按即可复制其 ID。</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_3">服务器无法识别的 ID 会缩短显示。</string>
+    <string name="settings_whatsnew_entry_session_id_links_example">让智能体用 ID 提及另一个会话，再点击显示的标题。</string>
+    <string name="settings_whatsnew_entry_session_id_links_prompt">列出我最近的五个 OpenCode 会话及其会话 ID。</string>
+
+    <!-- 2026-10-21-10-ipad-multiple-windows -->
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_title">平板多窗口</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_summary">在平板上，可将会话分别放在独立窗口中，并排查看两个会话。</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_1">长按侧边栏中的会话，选择“在新窗口中打开”。</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_2">每个窗口都有独立的会话、侧边栏和消息输入框。</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_3">置顶、会话已读状态和服务器在所有窗口中保持同步。</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_4">重新打开窗口时，会恢复到之前显示的会话。</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_example">长按侧边栏中的会话，选择“在新窗口中打开”，再将它放到原窗口旁边。</string>
+
+    <!-- 2026-10-21-11-plain-launch -->
+    <string name="settings_whatsnew_entry_plain_launch_title">简洁启动</string>
+    <string name="settings_whatsnew_entry_plain_launch_summary">OpenCode 启动时显示简洁页面，会话准备好后便直接切换过去，不显示加载动画。</string>
+
+    <!-- 2026-10-21-12-breath-ping-call-sounds -->
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_title">通话音效更柔和</string>
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_summary">通话连接、提示和挂断时使用轻柔、带气息感的音效，安静地融入对话，不喧宾夺主。</string>
+
+    <!-- 2026-10-21-13-smoother-session-list -->
+    <string name="settings_whatsnew_entry_smoother_session_list_title">会话列表更流畅</string>
+    <string name="settings_whatsnew_entry_smoother_session_list_summary">会话运行时，侧边栏的会话列表也能流畅滚动；长按会话打开菜单时，列表行大小保持不变。</string>
+
+    <!-- 2026-10-22-01-whats-new-actions -->
+    <string name="settings_whatsnew_entry_whats_new_actions_title">从最新动态打开和试用</string>
+    <string name="settings_whatsnew_entry_whats_new_actions_summary">最新动态的条目详情页新增按钮，可打开主题等相关设置，或新建会话并填好提示词，方便你试用。</string>
+
+    <!-- 2026-10-22-02-project-icons-current-discovery -->
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_title">项目图标修复</string>
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_summary">启用项目图标后，侧边栏也会显示服务器在 Icon Composer 资源包中找到的图标。</string>
+
+    <!-- 2026-10-22-03-new-divider-off-page -->
+    <string name="settings_whatsnew_entry_new_divider_off_page_title">按需显示新消息标记</string>
+    <string name="settings_whatsnew_entry_new_divider_off_page_summary">开启新消息分隔线实验后，只有新收到的内容超出一屏时，才会显示“新”标记。</string>
+
+    <!-- 2026-10-22-04-catch-up-all-caught-up-row -->
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_title">已全部看完</string>
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_summary">在查看动态中读完最后一个会话后，会直接返回侧边栏，查看动态会打勾并显示“已全部看完”。</string>
+
+    <!-- 2026-10-23-01-session-mentions -->
+    <string name="settings_whatsnew_entry_session_mentions_title">提及会话</string>
+    <string name="settings_whatsnew_entry_session_mentions_summary">开启输入框自动补全实验后，输入 @ 即可按标题提及其他会话，与桌面端一样。</string>
+
+    <!-- 2026-10-23-02-gpt-live-own-key -->
+    <string name="settings_whatsnew_entry_gpt_live_own_key_title">GPT-Live 密钥</string>
+    <string name="settings_whatsnew_entry_gpt_live_own_key_summary">GPT-Live 通话可以使用你自己的 OpenAI 密钥、服务器的 OpenAI 密钥，或服务器的 OpenCode Console 连接。</string>
+
+    <!-- 2026-10-23-03-pair-opens-drawer -->
+    <string name="settings_whatsnew_entry_pair_opens_drawer_title">接着上次继续</string>
+    <string name="settings_whatsnew_entry_pair_opens_drawer_summary">配对新电脑后，侧边栏会打开并显示这台电脑的最近会话，供你选择，不再停留在空白会话中。</string>
+
+    <!-- 2026-10-23-04-voice-server-picker -->
+    <string name="settings_whatsnew_entry_voice_server_picker_title">选择语音服务器</string>
+    <string name="settings_whatsnew_entry_voice_server_picker_summary">在设置 › 音色 › 语音提供商中，选择通话使用的已保存服务器，或使用此手机上你自己的 OpenAI 账号。</string>
+
+    <!-- 2026-10-24-01-living-orb-floats -->
+    <string name="settings_whatsnew_entry_living_orb_floats_title">灵动球随处悬浮</string>
+    <string name="settings_whatsnew_entry_living_orb_floats_summary">灵动球现已成为设置 › 实验 › 通话中的悬浮通话样式。球体更大，悬浮在设置及所有页面上方，并随双方声音变化；同时说话时，各自显示不同颜色。点击可展开为卡片，向上拖动可查看完整通话和对话记录，向下拖动可缩回。通话样式下方的球体选项可调整外观。</string>
+
+    <!-- 2026-10-24-02-new-messages-divider-on -->
+    <string name="settings_whatsnew_entry_new_messages_divider_on_title">新消息分隔线</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_summary">如果离开期间收到的回复超出一屏，打开会话时会定位到回复开头的“新”分隔线。</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_1">回复不超过一屏时，会直接显示末尾，不显示分隔线。</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_2">你正在查看时逐步生成的回复不会被标记。</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_3">读到末尾后，分隔线会消失。</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_4">可在设置 › 会话中关闭。</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_example">让智能体给出一段长回复，切换到其他应用，等回复完成后再回来。</string>
+
+    <!-- 2026-10-24-03-composer-keyboard-morph -->
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_title">输入框跟随键盘</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_summary">输入框控件会随键盘一起展开，上下拖动键盘时也会跟随移动。</string>
+
+    <!-- 2026-10-24-04-composer-photo-viewer -->
+    <string name="settings_whatsnew_entry_composer_photo_viewer_title">全屏查看待发送照片</string>
+    <string name="settings_whatsnew_entry_composer_photo_viewer_summary">点击输入框中的照片即可全屏查看，左右滑动可切换照片，发送前也可移除照片。</string>
+
+    <!-- 2026-10-24-05-plus-menu-photo-picker -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_title">新照片选择器</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_summary">在设置 › 实验 › 输入框中开启新加号菜单，即可直接从 + 菜单选择最多 8 张最近照片，浏览所有照片，还能看到照片飞入输入框、再进入会话的动画。</string>
+
+    <!-- 2026-10-24-06-project-icons-lit -->
+    <string name="settings_whatsnew_entry_project_icons_lit_title">项目图标光影</string>
+    <string name="settings_whatsnew_entry_project_icons_lit_summary">启用项目图标后，侧边栏图标会呈现光影效果：顶部柔和的高光、细致的玻璃边缘和淡淡的阴影。</string>
+
+    <!-- 2026-10-24-07-session-live-activity -->
+    <string name="settings_whatsnew_entry_session_live_activity_title">会话实时动态</string>
+    <string name="settings_whatsnew_entry_session_live_activity_summary">在设置 › 实验 › 侧边栏中开启会话实时动态，即可通过实时通知跟踪你发起的任务，锁屏时也能查看，直到任务完成或需要你输入。</string>
+
+    <!-- 2026-10-24-08-sign-in-failed-edit-server -->
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_title">解决登录被拒</string>
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_summary">服务器拒绝密码时，侧边栏的服务器菜单会提供“编辑服务器…”，替代无济于事的“再试一次”。欢迎页现在也会提示你在终端运行 opencode pair --remote。</string>
+
+    <!-- 2026-10-25-01-voice-app-screenshot -->
+    <string name="settings_whatsnew_entry_voice_app_screenshot_title">语音截图</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_summary">语音通话时，说“看看这个”，即可将应用截图连同你的反馈发送到会话。</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_1">仅发送应用自身的截图，并附上页面名称、通话状态和应用状态。</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_2">你也可以要求附上通话日志或最近的应用日志；地址和凭据会被隐藏。</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_3">显示登录页面或密码输入框时，不会截图。</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_example">语音通话时，说“截个图，这一行没对齐”</string>
+
+    <!-- 2026-10-25-02-voice-background-results -->
+    <string name="settings_whatsnew_entry_voice_background_results_title">通话播报后台结果</string>
+    <string name="settings_whatsnew_entry_voice_background_results_summary">通话中交给会话的任务开始在后台运行后，一完成就会在通话中告诉你结果，即使你已转去处理其他事情。</string>
+
+    <!-- 2026-10-25-03-sound-effects-experiment -->
+    <string name="settings_whatsnew_entry_sound_effects_experiment_title">音效</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_summary">这项实验会在收到回复、请求、查看动态和发送失败时，配合触感反馈播放轻柔音效。</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_1">静音和振动模式下不播放音效，也不会打断音乐播放。</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_2">通话、语音输入、播放媒体或应用在后台时，不播放音效。</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_3">开关下方可调节音量，并选择是否开启发送音效。</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_example">在设置 › 实验中开启音效，然后等待另一个会话收到回复</string>
+
+    <!-- 2026-10-25-90-session-title-first-prompt -->
+    <string name="settings_whatsnew_entry_session_title_first_prompt_title">用首条提示词作标题</string>
+    <string name="settings_whatsnew_entry_session_title_first_prompt_summary">没有标题的会话现在会以单行显示首条提示词，直到服务器为其命名。</string>
+
+    <!-- 2026-10-26-01-settings-sessions-page -->
+    <string name="settings_whatsnew_entry_settings_sessions_page_title">会话设置</string>
+    <string name="settings_whatsnew_entry_settings_sessions_page_summary">设置新增会话页面，新消息分隔线位于回车键发送上方；高级现在分为实验和开发者两行。</string>
+
+    <!-- 2026-10-26-02-project-icons-default -->
+    <string name="settings_whatsnew_entry_project_icons_default_title">默认显示项目图标</string>
+    <string name="settings_whatsnew_entry_project_icons_default_summary">项目图标现在会显示在会话标题旁。可在设置 › 实验中关闭。</string>
+
+    <!-- 2026-10-26-03-plus-menu-over-keyboard -->
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_title">在键盘上方选照片</string>
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_summary">开启新加号菜单后，+ 菜单会在键盘上方打开，照片面板从菜单展开至屏幕边缘，收起时也不会关闭键盘。</string>
+
+    <!-- 2026-10-26-04-living-orb-connect-motion -->
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_title">悬浮球连接动画</string>
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_summary">开启灵动球后，通话按钮会升入球中，在连接时旋转，通话结束后回到按钮中。立即重拨也会开始新通话，不再卡住。</string>
+
+    <!-- 2026-10-26-05-living-orb-presets -->
+    <string name="settings_whatsnew_entry_living_orb_presets_title">悬浮球预设与华丽风格</string>
+    <string name="settings_whatsnew_entry_living_orb_presets_summary">在设置 › 实验 › 通话中，通话样式下的悬浮球设置现在默认打开华丽风格，提供更大的实时预览和一排预设。你可以保存、重命名自己的预设，也能复制或粘贴配置来分享。</string>
+
+    <!-- 2026-10-26-06-send-after-a-pause -->
+    <string name="settings_whatsnew_entry_send_after_a_pause_title">停顿后发送更流畅</string>
+    <string name="settings_whatsnew_entry_send_after_a_pause_summary">停顿后发送的消息现在会从输入框直接升入消息气泡，不再先从时间戳下方向输入框下沉。</string>
+
+    <!-- 2026-10-27-01-steadier-round-trip -->
+    <string name="settings_whatsnew_entry_steadier_round_trip_title">往返延迟更稳定</string>
+    <string name="settings_whatsnew_entry_steadier_round_trip_summary">连接卡片中的毫秒数现在显示最近几次检测的滚动平均值，单次响应较慢只会让数值略有变化，不再突然跳高。</string>
+
+    <!-- 2026-10-27-02-drawer-drag-follows-finger -->
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_title">侧边栏拖动更跟手</string>
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_summary">在侧边栏拖动会话时，会话现在会紧跟手指，浮在标题栏上方，靠近边缘时自动滚动列表，松手后弹入目标位置。</string>
+
+    <!-- 2026-10-27-03-inbox-sidebar-experiment -->
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_title">收件箱式侧边栏</string>
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_summary">在设置 › 实验 › 侧边栏中开启收件箱式侧边栏，即可像查看收件箱一样查看会话：需要你回应的排在最前，其次是未读会话，每项都显示所属项目和最新回复。滑动即可标为已读或归档。</string>
+
+    <!-- 2026-10-28-01-first-pairing-ready-session -->
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_title">首次会话已就绪</string>
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_summary">首次配对电脑后，现在会在最近使用的项目中新建会话，提供几个可尝试的问题，轻点即可确认已连接。全新安装时，最新动态也会默认标为已读。</string>
+
+    <!-- 2026-10-28-02-welcome-preview -->
+    <string name="settings_whatsnew_entry_welcome_preview_title">欢迎页预览</string>
+    <string name="settings_whatsnew_entry_welcome_preview_summary">全新的首次启动欢迎页会展示 OpenCode 在笔记本电脑上工作、由手机引导的场景，随后一步完成配对。在设置 › 实验 › 侧边栏中开启欢迎页预览，再点击显示欢迎页即可查看；关闭后会返回原处。</string>
+
+    <!-- 2026-10-29-01-composer-text-selection -->
+    <string name="settings_whatsnew_entry_composer_text_selection_title">在输入框中选择文本</string>
+    <string name="settings_whatsnew_entry_composer_text_selection_summary">在草稿中拖动文本选择手柄或放大镜时，不再收起键盘，也不会让输入框上下移动。</string>
+
+    <!-- 2026-10-30-01-voice-waits-for-you -->
+    <string name="settings_whatsnew_entry_voice_waits_for_you_title">通话会等你说完</string>
+    <string name="settings_whatsnew_entry_voice_waits_for_you_summary">语音智能体不再抢话：进展播报会等你说完，你开口打断时它也会停止说话。</string>
+
+    <!-- 2026-10-30-02-wisp-call-sounds -->
+    <string name="settings_whatsnew_entry_wisp_call_sounds_title">语音通话采用 Wisp 音效</string>
+    <string name="settings_whatsnew_entry_wisp_call_sounds_summary">通话开始时，轻柔的呼吸声伴着连接中的微弱流光音，接通时响起提示音；智能体查看、打开或运行内容时会轻响，结束时则是一声轻叹。可在设置 › 音色 › 通话音效中选择其他音效。</string>
+
+    <!-- 2026-10-30-03-wisp-orb -->
+    <string name="settings_whatsnew_entry_wisp_orb_title">语音悬浮球换上 Wisp 外观</string>
+    <string name="settings_whatsnew_entry_wisp_orb_summary">通话悬浮球现在采用 Wisp 外观：玻璃透镜下的光点会随双方的声音亮起，并以 Wisp 的不同神态呈现连接、聆听、工作、说话和等待你回应的状态。它是唯一的悬浮球样式，旧样式和悬浮球设置已移除。</string>
+
+    <!-- 2026-10-31-01-encrypted-notification-previews -->
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_title">加密通知预览</string>
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_summary">更新通知插件并使用 HTTPS 连接后，服务器会为此设备加密通知标题和消息。若无法解密预览，通知只会显示“新动态”。</string>
+
+    <!-- 2026-10-31-02-move-session-folder-gone -->
+    <string name="settings_whatsnew_entry_move_session_folder_gone_title">文件夹没了，会话还在</string>
+    <string name="settings_whatsnew_entry_move_session_folder_gone_summary">如果会话的文件夹已不存在，例如工作区已移除，发送失败时会提示将会话移到所属项目的文件夹，再次发送。</string>
+
+    <!-- 2026-10-31-03-notification-plugin-setup -->
+    <string name="settings_whatsnew_entry_notification_plugin_setup_title">用 OpenCode 设置通知</string>
+    <string name="settings_whatsnew_entry_notification_plugin_setup_summary">在设置 → 通知中，点击用 OpenCode 设置，即可查看用于安装缺失通知插件的提示词。</string>
+
+    <!-- 2026-11-01-01-call-card-takes-over -->
+    <string name="settings_whatsnew_entry_call_card_takes_over_title">通话卡片占据底部</string>
+    <string name="settings_whatsnew_entry_call_card_takes_over_summary">使用灵动球时，通话卡片现在会覆盖消息输入框，占据屏幕底部，四周留白一致，不再被键盘挤压。缩回悬浮球即可打字。</string>
+
+    <!-- 2026-11-01-01-screenshot-shutter -->
+    <string name="settings_whatsnew_entry_screenshot_shutter_title">截图快门</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_summary">应用为会话截取自身画面时，屏幕会闪一下，并响起快门声。</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_1">闪光发生在截图之后，不会出现在图片中。</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_2">开启减少动态效果后，屏幕只会轻微变暗；开启调暗闪烁光效后，则会关闭此效果。</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_3">通话时，快门声会通过通话音频播放，智能体不会听到。</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_example">在语音通话中说“看看这个”</string>
+
+    <!-- 2026-11-01-01-voice-says-whats-running -->
+    <string name="settings_whatsnew_entry_voice_says_whats_running_title">通话中播报任务进展</string>
+    <string name="settings_whatsnew_entry_voice_says_whats_running_summary">当你的请求需要较长时间时，语音智能体会告诉你正在做什么，不再一直沉默。</string>
+
+    <!-- 2026-11-01-02-living-orb-default -->
+    <string name="settings_whatsnew_entry_living_orb_default_title">通话悬浮在球中</string>
+    <string name="settings_whatsnew_entry_living_orb_default_summary">现在所有用户的语音通话都会显示在灵动球中，悬浮于各个页面上方，消息输入框仍可自由使用。</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_1">点击悬浮球可展开通话卡片，向上拖动可查看完整通话界面和对话记录。</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_2">可将悬浮球拖到任意位置；切换会话或打开设置时，它都会留在原处。</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_3">也可以在会话列表中，点击设置旁的通话按钮发起通话。</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_4">托盘样式已移除：此前使用该样式的通话也会改为悬浮球。</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_5">可在设置 › 实验 › 通话 › 灵动球中关闭。</string>
+    <string name="settings_whatsnew_entry_living_orb_default_example">发起通话，再打开会话列表：悬浮球会跟着你</string>
+
+    <!-- 2026-11-01-02-quicker-send -->
+    <string name="settings_whatsnew_entry_quicker_send_title">发送更快捷</string>
+    <string name="settings_whatsnew_entry_quicker_send_summary">发送的消息现在会随列表一起升入消息气泡，不再先停留在输入框处。</string>
+
+    <!-- 2026-11-01-02-share-screen-with-agents -->
+    <string name="settings_whatsnew_entry_share_screen_with_agents_title">与智能体共享屏幕</string>
+    <string name="settings_whatsnew_entry_share_screen_with_agents_summary">在设置 › 实验 › 通话中开启与智能体共享屏幕后，智能体可在通话中请求查看应用画面：点击分享即可发送截图，或选择暂不。</string>
+
+    <!-- 2026-11-01-03-audio-in-calls -->
+    <string name="settings_whatsnew_entry_audio_in_calls_title">通话中播放音频</string>
+    <string name="settings_whatsnew_entry_audio_in_calls_summary">在设置 › 实验 › 通话中开启通话中播放音频后，智能体可在通话时为你播放音乐或音频片段。任一方说话时音量会降低；可在输入框上方暂停或停止播放。</string>
+
+    <!-- 2026-11-01-03-open-links-from-calls -->
+    <string name="settings_whatsnew_entry_open_links_from_calls_title">打开通话中的链接</string>
+    <string name="settings_whatsnew_entry_open_links_from_calls_summary">在设置 › 实验 › 通话中开启打开通话中的链接后，智能体可在通话时提供链接，例如 Uber 叫车链接：点击打开即可在对应应用中打开，或选择暂不。</string>
+
+    <!-- 2026-11-02-01-fold-questions -->
+    <string name="settings_whatsnew_entry_fold_questions_title">收起问题，不挡视线</string>
+    <string name="settings_whatsnew_entry_fold_questions_summary">向下拖动问题，可将其收起为输入框上方的小条，点击即可恢复。回答发送失败后，现在会等待你点击重试。</string>
+
+    <!-- 2026-11-02-01-steadier-following -->
+    <string name="settings_whatsnew_entry_steadier_following_title">跟随滚动更稳定</string>
+    <string name="settings_whatsnew_entry_steadier_following_summary">流式回复会保持贴住底部，“工作中”提示不再跳动；在输入框上方任意位置都能滑动列表。</string>
+
+    <!-- 2026-11-02-40-model-display-names -->
+    <string name="settings_whatsnew_entry_model_display_names_title">模型名称</string>
+    <string name="settings_whatsnew_entry_model_display_names_summary">模型列表加载或重新连接时，输入框会保留模型名称。</string>
+
+    <!-- 2026-11-02-41-all-experiments -->
+    <string name="settings_whatsnew_entry_all_experiments_title">全部实验</string>
+    <string name="settings_whatsnew_entry_all_experiments_summary">打开“设置 › 实验”顶部的开关，即可启用所有实验，包括今后新增的实验。</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_1">不想使用某项实验，可以单独关闭；下次也会保持关闭。</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_2">关闭“全部实验”会恢复之前各项开关的状态。</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_3">需要申请权限的实验仍由你单独选择是否开启。</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_4">自动补全、加号菜单中的照片面板、新版服务器切换器和项目图标现已向所有人开放。</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_5">统一选择器和灵动球改为普通开关，通话托盘已移除。</string>
+    <string name="settings_whatsnew_entry_all_experiments_example">打开“设置 › 实验”，开启“全部实验”</string>
+
+    <!-- 2026-11-03-01-search-all-sessions -->
+    <string name="settings_whatsnew_entry_search_all_sessions_title">查找更早的会话</string>
+    <string name="settings_whatsnew_entry_search_all_sessions_summary">侧边栏搜索现在会查找所有会话，不再仅限最近会话；滚动到底部即可加载更早的会话。</string>
+
+    <!-- 2026-11-03-01-voice-open-session -->
+    <string name="settings_whatsnew_entry_voice_open_session_title">用语音切换会话</string>
+    <string name="settings_whatsnew_entry_voice_open_session_summary">让语音智能体打开会话时，现在会收起侧边栏，并保持通话连接。</string>
+
+    <!-- 2026-11-03-02-orb-divider-image-links -->
+    <string name="settings_whatsnew_entry_orb_divider_image_links_title">三项实验正式上线</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_summary">灵动球、“新”分隔线和图片链接预览现已向所有人开放，不再设开关。</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_1">所有通话都以灵动球悬浮显示，旧版通话栏已移除。</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_2">返回会话时，如果离开期间收到的新内容超出一屏，会用“新”分隔线标出。</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_3">直接指向图片的链接会在消息下方显示图片。</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_example">从输入框发起通话，看看悬浮的通话球</string>
+
+    <!-- 2026-11-04-01-call-links-and-audio -->
+    <string name="settings_whatsnew_entry_call_links_and_audio_title">通话中的链接与音频</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_summary">“从通话打开链接”和“通话中的音频”现已向所有人开放，不再设开关。</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_1">通话时，智能体可以提供链接，比如 Uber 叫车链接：点击“打开”即可在对应应用中打开，也可以选择“暂不”。</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_2">智能体可以在通话中播放音乐或音频片段。任一方说话时，音量会自动降低；你也可以在输入框上方暂停或停止播放。</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_example">通话时，让智能体放点音乐</string>
+
+    <!-- 2026-11-04-01-composer-editing-caret -->
+    <string name="settings_whatsnew_entry_composer_editing_caret_title">编辑草稿</string>
+    <string name="settings_whatsnew_entry_composer_editing_caret_summary">修改草稿中间的文字时，光标会留在你正在输入的位置。</string>
+
+    <!-- 2026-11-04-01-loading-touch-recovery -->
+    <string name="settings_whatsnew_entry_loading_touch_recovery_title">加载后顺畅滚动</string>
+    <string name="settings_whatsnew_entry_loading_touch_recovery_summary">在加载过渡期间返回应用，对话记录会立即恢复滚动。</string>
+
+    <!-- 2026-11-05-01-composer-keyboard-width -->
+    <string name="settings_whatsnew_entry_composer_keyboard_width_title">输入时，输入框更宽</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_width_summary">键盘弹出时，输入框会加宽，仅保留窄小均匀的边距，让长草稿减少换行。</string>
+
+    <!-- 2026-11-05-02-plus-menu-touch-release -->
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_title">关闭附件菜单</string>
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_summary">关闭附件菜单后，即使布局正在变化，下方会话也能恢复触控操作。</string>
+
+    <!-- 2026-11-05-02-quiet-reconnecting-pill -->
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_title">启动更平稳</string>
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_summary">打开应用时，输入框上方不再闪现“正在重新连接…”，会话内容也不再跳动；只有重连耗时较长时才会显示提示。</string>
+
+    <!-- 2026-11-05-03-stuck-touch-recovery -->
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_title">自动恢复滚动</string>
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_summary">如果不可见的遮挡导致会话超过一秒无法滚动，应用会自动解除遮挡。</string>
+
+    <!-- 2026-11-05-04-reply-text-selection -->
+    <string name="settings_whatsnew_entry_reply_text_selection_title">跨区域选择回复文本</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_summary">长按或双击回复中的文字，再拖动选择手柄，即可跨段落、列表、代码和表格选择文本。</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_1">将选择手柄停在顶部栏下方或输入框上方，回复就会自动滚动；越靠近边缘，滚动越快。</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_2">复制时会保留列表符号、编号和表格行列。选择“引用”可将选中内容添加到输入框，并保留代码块格式。</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_example">长按长回复开头附近的文字，再将末尾选择手柄拖到输入框上方并停住</string>
+
+    <!-- 2026-11-06-01-scrolling-unsticks -->
+    <string name="settings_whatsnew_entry_scrolling_unsticks_title">滚动卡住后自动恢复</string>
+    <string name="settings_whatsnew_entry_scrolling_unsticks_summary">会话偶尔无法滚动时，现在会自行恢复，无需再切换到其他会话。</string>
+
+    <!-- 2026-11-06-02-server-addresses -->
+    <string name="settings_whatsnew_entry_server_addresses_title">服务器连接更稳定</string>
+    <string name="settings_whatsnew_entry_server_addresses_summary">OpenCode 会同时尝试服务器的所有地址，使用最先响应的地址。离开家后也能重新连接，无需关闭再开启 VPN。</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_1">离开家庭网络后，不再优先尝试曾在家中可用的地址。</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_2">短暂断线、解锁手机或下拉快捷设置时，不再闪现横幅。几秒后才显示“正在重新连接”，约 12 秒后显示“离线”；手机无网络时则约为 4 秒。</string>
+    <string name="settings_whatsnew_entry_server_addresses_example">在通过 Tailscale 配对的服务器上打开会话，关闭 Wi-Fi，继续工作</string>
+
+    <!-- 2026-11-07-01-server-voice -->
+    <string name="settings_whatsnew_entry_server_voice_title">使用服务器密钥通话</string>
+    <string name="settings_whatsnew_entry_server_voice_summary">服务器语音现已向所有人开放，不再设开关。通话可以使用 OpenCode 服务器上的密钥，手机无需单独配置 OpenAI 密钥。</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_1">开启“自动选择”后，通话会优先使用当前服务器，其次使用手机上的 OpenAI 密钥，最后尝试其他已保存且可用的服务器。</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_2">如果手机和服务器都配置了 OpenAI 密钥，通话现在会使用服务器的密钥。如需继续使用手机上的密钥，请在“语音提供商”中打开“你的 OpenAI 账户”，点击“用于通话”。</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_3">配置了 Gemini 密钥的服务器，现在也可以使用 Gemini Live 作为提供商。</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_4">无法发起通话时，会说明原因，并提供相应的解决按钮。</string>
+    <string name="settings_whatsnew_entry_server_voice_example">打开“设置 › 语音”，点击“语音提供商”</string>
+
+    <!-- 2026-11-07-02-rename-clear-button -->
+    <string name="settings_whatsnew_entry_rename_clear_button_title">一键清空标题</string>
+    <string name="settings_whatsnew_entry_rename_clear_button_summary">“重命名会话”和“重命名服务器”现在都有清除按钮，无需逐字删除旧标题，就能输入新标题。</string>
+
+    <!-- 2026-11-07-03-one-picker -->
+    <string name="settings_whatsnew_entry_one_picker_title">新版模型选择器</string>
+    <string name="settings_whatsnew_entry_one_picker_summary">点击消息输入框中的模型，列表就会从此处展开，顶部是收藏和最近使用，下方列出所有提供商。</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_1">点击模型所在行的思考强度（如“高”），无需离开列表即可调整。</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_2">滑动或长按某一行，即可收藏或取消收藏。</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_3">搜索框在底部。在名称后输入强度，如“opus high”，按回车即可同时选定模型和思考强度。</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_4">向上拖动面板拖动条可展开列表，向下拖动可关闭。</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_5">新选择器取代了旧版模型面板，设置 › 实验中的“统一选择器”开关也已移除。</string>
+    <string name="settings_whatsnew_entry_one_picker_example">点击消息框中的模型，再滑动某一行即可收藏</string>
+
+    <!-- 2026-11-08-01-connecting-caption-glass -->
+    <string name="settings_whatsnew_entry_connecting_caption_glass_title">“正在通过…连接”更清晰</string>
+    <string name="settings_whatsnew_entry_connecting_caption_glass_summary">通话通过服务器连接时，“正在通过…连接”提示现在有了毛玻璃背景，不再与后方的消息混在一起。</string>
+
+    <!-- 2026-11-08-02-default-model -->
+    <string name="settings_whatsnew_entry_default_model_title">新会话使用你的默认模型</string>
+    <string name="settings_whatsnew_entry_default_model_summary">新会话会使用你在 OpenCode 中设置的默认模型，并沿用你上次为它选择的思考强度，不再使用上个会话的模型。</string>
+
+    <!-- 2026-11-11-01-streamed-reply-prefix -->
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_title">边生成边查看回复</string>
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_summary">回复还在生成时打开会话，也能立即阅读已收到的内容，并继续查看后续回复。</string>
+
+    <!-- 2026-11-13-01-draw-on-images -->
+    <string name="settings_whatsnew_entry_draw_on_images_title">在图片上涂画</string>
+    <string name="settings_whatsnew_entry_draw_on_images_summary">提问前，先标出你想问的细节。</string>
+    <string name="settings_whatsnew_entry_draw_on_images_detail_1">全屏打开图片，点击画笔按钮。选择颜色并涂画，再点击“添加”，即可将标注后的图片附加到消息中。原图不会改变。</string>
+    <string name="settings_whatsnew_entry_draw_on_images_example">在截图中圈出要移动的控件，再说明要移到哪里。</string>
+
+    <!-- 2026-11-14-01-fullscreen-viewer -->
+    <string name="settings_whatsnew_entry_fullscreen_viewer_title">滑动切换照片和视频</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_summary">在同一处浏览会话中的图片和视频。</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_detail_1">滑动切换到视频，再点击画笔按钮标注当前画面。点击“添加”只会附加标注后的画面，不会发送。</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_example">将演示视频暂停在需要修改的画面，圈出细节，再添加到草稿中。</string>
+
+    <!-- 2026-11-15-01-pairing-link-name -->
+    <string name="settings_whatsnew_entry_pairing_link_name_title">从 OpenCode Console 配对时保留服务器名称</string>
+    <string name="settings_whatsnew_entry_pairing_link_name_summary">通过 OpenCode Console 配对的服务器会自带名称，例如“Anomaly Box”。</string>
+
+    <!-- 2026-11-17-01-session-media -->
+    <string name="settings_whatsnew_entry_session_media_title">会话媒体</string>
+    <string name="settings_whatsnew_entry_session_media_summary">浏览会话中的图片、视频、音频、文件和公开网页链接。</string>
+    <string name="settings_whatsnew_entry_session_media_detail_1">从会话的 ⋮ 菜单中选择“会话媒体”。“媒体”以按月分组的图块或列表展示图片、视频和音频；“文件”和“链接”则列出文档、粘贴内容和网页链接。</string>
+    <string name="settings_whatsnew_entry_session_media_example">不用翻遍整个会话，就能找到今天早上发送的截图。</string>
+
+    <!-- 2026-11-18-02-drawer-call-phone -->
+    <string name="settings_whatsnew_entry_drawer_call_phone_title">侧边栏通话按钮改用电话图标</string>
+    <string name="settings_whatsnew_entry_drawer_call_phone_summary">会话列表中“设置”旁的通话按钮现使用电话图标，与消息输入框中的一致。</string>
+
+    <!-- 2026-11-19-01-background-scripts -->
+    <string name="settings_whatsnew_entry_background_scripts_title">后台任务中显示脚本</string>
+    <string name="settings_whatsnew_entry_background_scripts_summary">智能体移至后台的脚本会与子代理和 Shell 一起显示。只要子代理的图片、视频或脚本任务仍在运行，它就会留在列表中。脚本和子代理都可以从列表中停止。</string>
+</resources>

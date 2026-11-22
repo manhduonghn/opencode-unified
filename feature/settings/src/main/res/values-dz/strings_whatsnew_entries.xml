@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- What’s New entries, oldest first: one group per file in whatsnew/entries/. -->
+
+    <!-- 2026-10-06-01-voice-messages -->
+    <string name="settings_whatsnew_entry_voice_messages_title">སྐད་ཀྱི་འཕྲིན་དོན་ཚུ།</string>
+    <string name="settings_whatsnew_entry_voice_messages_summary">སྐད་ཀྱིས་ཁྱོད་ཀྱི་ཚབ་ལུ་ལཱ་ཡུན་ལུ་འདྲི་མི་འདི་ སྒྲ་རླབས་རྟགས་དང་བཅས་པའི་སྐད་ཀྱི་འཕྲིན་དོན་སྦེ་སྟོནམ་ཨིན།</string>
+
+    <!-- 2026-10-07-01-attachment-menu-hold -->
+    <string name="settings_whatsnew_entry_attachment_menu_hold_title">+ གིས་མཉམ་སྦྲགས་འབད།</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_summary">+ དཀར་ཆག་འདི་ འཕྲིན་དོན་སྒྲོམ་ལས་པར་ཆས་ པར་ཚུ་དང་ཡིག་སྣོད་ཚུ་དང་བཅས་ཁ་ཕྱེཝ་ཨིན། + ཨེབ་བཞག་སྟེ་བཤུད་དེ་ ཐེངས་གཅིག་ནང་གདམ་ཁ་རྐྱབས།</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_1">པར་ཚུ་འདི་ འཕྲིན་དོན་སྒྲོམ་གྱི་ལྟག་ལུ་ཁ་ཕྱེཝ་ཨིན། མཉམ་སྦྲགས་འབད་ནི་ལུ་པར་ཚུ་ཨེབ།</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_2">པར་ཆས་ནང་ ལེནསི་ཨེབ་རྟ་དང་ མཛུབ་མོ་གཉིས་ཀྱིས་རྒྱས་ཟུམ་ ཨེབ་སྟེ་དམིགས་གཏད་ འོད་འཁྱུག་ཚུ་ཡོད།</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_example">+ ཨེབ་བཞག་སྟེ་ ཡར་པར་ཚུ་ལུ་བཤུད་ཞིནམ་ལས་གློད།</string>
+
+    <!-- 2026-10-08-01-voice-webrtc-weak-connection -->
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_title">བོད་བརྡ་ཧེང་བཀལ་བརྟན་ཏོག་ཏོ།</string>
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_summary">མཐུད་ལམ་མ་ལེགས་རུང་ བོད་བརྡ་ནང་སྐར་ཆ་ལེ་ཤ་སྒྲ་མེད་པར་མ་ལུས་པ་ ཐོགས་ཆག་ཐུང་ཀུ་ཅིག་རྐྱངམ་ཅིག་འབྱུངམ་ཨིན།</string>
+
+    <!-- 2026-10-08-02-mute-sessions -->
+    <string name="settings_whatsnew_entry_mute_sessions_title">ལཱ་ཡུན་གྱི་བརྡ་བསྐུལ་བཀག</string>
+    <string name="settings_whatsnew_entry_mute_sessions_summary">བརྡ་བསྐུལ་བཀག་ཡོད་པའི་ལཱ་ཡུན་ཚུ་ཐོ་ནང་ལུསཔ་ཨིན། དེ་འབདཝ་ད་ དུས་མཐུན་བལྟ་ནང་མི་ཚུད་ནི་དང་ མ་ལྷག་པའི་ཚག་ཡང་མི་སྟོན།</string>
+    <string name="settings_whatsnew_entry_mute_sessions_detail_1">ཆ་མཉམ་ལྷག་ཡོདཔ་སྦེ་རྟགས་བཀལ་ནི་ལུ་ དུས་མཐུན་བལྟ་ཨེབ་བཞག ཁྱོད་ལུ་བསྒུག་ཡོད་པའི་ལཱ་ཡུན་ཚུ་ལུསཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_mute_sessions_example">ཟུར་ཐོ་ནང་ལཱ་ཡུན་ཅིག་ཨེབ་བཞག་སྟེ་ བརྡ་བསྐུལ་བཀག་ཨེབ།</string>
+
+    <!-- 2026-10-08-03-pair-from-anywhere -->
+    <string name="settings_whatsnew_entry_pair_from_anywhere_title">ག་ཏེ་ལས་འབད་རུང་ཆ་སྒྲིག</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_summary">ཀམ་པུ་ཊར་ནང་ opencode pair --remote གཡོག་བཀོལ་ཏེ་ Wi-Fi གཅིག་པ་ཡང་ན་ Tailscale མེད་པར་ ཡོངས་འབྲེལ་ག་ཅི་ལས་འབད་རུང་མཐུད།</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_detail_1">དེ་གིས་སྟོན་པའི་ཨང་རྟགས་པར་བཤུས་འབད་ ཡང་ན་བཏོན་པའི་འབྲེལ་མཐུད་སྦྱར།</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_example">opencode pair --remote གཡོག་བཀོལ་ཞིནམ་ལས་ འགྲུལ་འཕྲིན་ནང་སར་བར་ཁ་སྐོང་འབད།</string>
+
+    <!-- 2026-10-08-04-drawer-peek -->
+    <string name="settings_whatsnew_entry_drawer_peek_title">ལཱ་ཡུན་ནམ་ཤུགས་ལྡན་ཡོད་ཡོདཔ།</string>
+    <string name="settings_whatsnew_entry_drawer_peek_summary">ལཱ་ཡུན་རེ་རེ་མཇུག་ནམ་ཤུགས་ལྡན་ཡོད་ཡོདཔ་བལྟ་ནི་ལུ་ ལཱ་ཡུན་ཐོ་འདི་ལཱ་ཡུན་ཁ་ཐུག་ལུ་འདྲུད།</string>
+    <string name="settings_whatsnew_entry_drawer_peek_detail_1">ཐོ་གི་ཐོག་ལས་གཡོན་ལུ་བཤུད་པ་ཅིན་ ཐོ་ཁ་བསྡམསཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_drawer_peek_example">ལཱ་ཡུན་ཐོ་ཁ་ཕྱེ་སྟེ་གཡས་ལུ་འདྲུད།</string>
+
+    <!-- 2026-10-08-05-dictation-keeps-going -->
+    <string name="settings_whatsnew_entry_dictation_keeps_going_title">སྐད་ཀྱིས་བྲིས་ཏེ་གཏང་།</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_summary">སྐད་ཀྱིས་འབྲི་ནི་ལུ་སྐད་འཛིན་ཨེབ་སྟེ་ སྐད་བཟུང་ཕྲ་རིང་ལས་ཐད་ཀར་གཏང་། ཡང་ན་ ཧེ་མ་བསྐྱར་ཞིབ་འབད་ནི་ལུ་བཀག་པ་ཨེབ།</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_1">ཁ་སླབ་ནི་ལུ་སྐད་འཛིན་ཨེབ་བཞག བསྡམ་བཞག་ནི་ལུ་ཡར་བཤུད་ ཡང་ན་ཆ་མེད་གཏང་ནི་ལུ་གཡོན་ལུ་བཤུད།</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_2">གློག་རིམ་ལས་ཐོན་རུང་སྐད་བཟུང་འཕྲོ་མཐུདཔ་ཨིན། Live Activity ལས་བཀག་ཚུགས།</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_3">སྐད་བཟུང་བའི་བར་ན་ལཱ་ཡུན་སོར་ཏེ་གཏང་ཨེབ་པ་ཅིན་ གསལ་གཞི་གུ་ཡོད་པའི་ལཱ་ཡུན་ལུ་གཏངམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_example">སྐད་འཛིན་ཨེབ་ བརྗོད་ཚིག་ཅིག་སླབ་སྟེ་གཏང་ཨེབ།</string>
+
+    <!-- 2026-10-08-06-siri-shortcuts-spotlight -->
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_title">གློག་རིམ་བྱ་བ་དང་མགྱོགས་ཐབས།</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_summary">Google Assistant གི་ App Actions དང་ གློག་རིམ་མགྱོགས་ཐབས་ ཡང་ན་མགྱོགས་སྒྲིག་སྟངས་ལས་ བོད་བརྡ་ཡང་ན་ལཱ་ཡུན་འགོ་བཙུགས་ ཡང་ན་འཕྲིན་དོན་གཏང་།</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_detail_1">འཕྲལ་གྱི་ལཱ་ཡུན་ཚུ་བལྟ་ནི་ལུ་ གློག་རིམ་ངོས་དཔར་ཨེབ་བཞག</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_example">“Hey Google, OpenCode ནང་སྐད་ཀྱི་བོད་བརྡ་ཅིག་འགོ་བཙུགས” ཟེར་སླབ།</string>
+
+    <!-- 2026-10-09-01-working-orb -->
+    <string name="settings_whatsnew_entry_working_orb_title">གནས་སྟངས་སྒོར་རྟགས།</string>
+    <string name="settings_whatsnew_entry_working_orb_summary">ལཱ་འབད་དོ་གི་ཟུར་ཁ་དང་ཡན་ལག་ལས་ཚབ་བྱང་ཤོག་གུ་ཡོད་པའི་སྒོར་རྟགས་ཀྱིས་ ལས་ཚབ་ཀྱིས་ག་ཅི་འབད་དོ་ག་སྟོནམ་ཨིན། འབད་ཚརཝ་ད་ འདྲ་བཤུས་ཨེབ་རྟ་ལུ་འགྱུརཝ་ཨིན།</string>
+
+    <!-- 2026-10-09-02-shell-glyph -->
+    <string name="settings_whatsnew_entry_shell_glyph_title">ཤལ་གྱི་ལཱ།</string>
+    <string name="settings_whatsnew_entry_shell_glyph_summary">གཡོག་བཀོལ་དོ་ཡོད་པའི་ཤལ་གྱི་ &gt;_ རྟགས་འདི་ ཐོན་འབྲས་འབྱོརཝ་ད་བསྐོརཝ་ཨིན།</string>
+
+    <!-- 2026-10-09-03-math-and-diagrams -->
+    <string name="settings_whatsnew_entry_math_and_diagrams_title">ཨང་རྩིས་དང་རི་མོ།</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_summary">ལན་འདེབས་ནང་ཨང་རྩིས་ལེགས་སྒྲིག་འབད་དེ་ Mermaid རི་མོ་འབྲིཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_1">ཆེར་བསྐྱེད་འབད་ནི་ལུ་རི་མོ་ཨེབ་ ཡང་ན་འབྱུང་ཁུངས་བལྟ་ནི་ལུ་ཨེབ་བཞག</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_2">ཨང་རྩིས་འདི་ཁྱོད་ཀྱི་ཡིག་གུའི་ཚད་དང་འཁྲིལཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_example">འཕྲིན་དོན་ག་དེ་སྦེ་གཏངམ་ཨིན་ནའི་ལས་རིམ་རི་མོ་ཅིག་འབྲི་བཅུག</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_prompt">འཕྲིན་དོན་ག་དེ་སྦེ་གཏངམ་ཨིན་ནའི་ལས་རིམ་རི་མོ་ཅིག་བྲིས།</string>
+
+    <!-- 2026-10-09-04-always-notify -->
+    <string name="settings_whatsnew_entry_always_notify_title">འབད་ཚརཝ་ད་བརྡ་བསྐུལ་གཏང་།</string>
+    <string name="settings_whatsnew_entry_always_notify_summary">ཁྱོད་ཀྱིས་ནཱ་ལས་འགོ་བཙུགས་པའི་ལཱ་ཡུན་འབད་ཚརཝ་ད་ ག་ཅི་འབད་ཡི་གི་བཅུད་དོན་ཐུང་ཀུ་དང་བཅས་བརྡ་བསྐུལ་ཐོབ།</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_1">ཀམ་པུ་ཊར་ནང་འགོ་བཙུགས་མི་ཡང་བརྩིས་ཏེ་ ལན་འདེབས་རེ་རེའི་བརྡ་བསྐུལ་ཐོབ་ནི་ལུ་ ལཱ་ཡུན་གྱི་ཤོག་ལེབ་ནང་ ཨ་རྟག་ར་བརྡ་བསྐུལ་གཏང་འདི་ཨཱོན་འབད།</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_2">ལཱ་ཡུན་ཁ་ཕྱེ་ནི་ལུ་བརྡ་བསྐུལ་ཨེབ།</string>
+    <string name="settings_whatsnew_entry_always_notify_example">འཕྲིན་དོན་ཅིག་བཏང་ཞིནམ་ལས་ འགྲུལ་འཕྲིན་བསྡམ་བཞག</string>
+
+    <!-- 2026-10-09-05-server-switcher -->
+    <string name="settings_whatsnew_entry_server_switcher_title">སར་བར་སོར།</string>
+    <string name="settings_whatsnew_entry_server_switcher_summary">ད་ལྟོ་མཐུད་ཡོད་པའི་སར་བར་འདི་ ཟུར་ཐོའི་མགོ་མིང་ཨིན། སར་བར་གཞན་ལུ་སོར་ནི་ཡང་ན་ཁ་སྐོང་འབད་ནི་ལུ་དེ་ཨེབ།</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_1">སྒྲིག་སྟངས་ནང་ མཐུད་ལམ་འདི་སྙིང་འཕར་བཟུམ་སྦེ་སྟོན་ནི་དང་ སར་བར་མིང་གི་ཟུར་ཁར་འགྱོ་ལོག་གི་དུས་ཚོད་སྟོནམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_2">སར་བར་གྱི་མིང་བསྒྱུར། མིང་འདི་འགྲུལ་འཕྲིན་འདི་ནང་རྐྱངམ་ཅིག་ལག་ལེན་འཐབ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_server_switcher_example">ཟུར་ཐོ་ཁ་ཕྱེ་ སར་བར་གྱི་མིང་ཨེབ་སྟེ་ ཁྱོད་ཀྱི་ཀམ་པུ་ཊར་གཞན་ཁ་སྐོང་འབད།</string>
+
+    <!-- 2026-10-10-01-share-opened-files -->
+    <string name="settings_whatsnew_entry_share_opened_files_title">པར་ཚུ་བཟུམ་གྱི་པར།</string>
+    <string name="settings_whatsnew_entry_share_opened_files_summary">པར་ཚུ་ལཱ་ཡུན་ནང་ཧྲིལ་བུ་སྟོན་ཏེ་ པར་ཚུ་བཟུམ་སྦེ་ཁ་ཕྱེཝ་ཨིན། མཛུབ་མོ་གཉིས་ཀྱིས་རྒྱས་ཟུམ་འབད་ བཤུད་དེ་པར་སོར་ མར་འདྲུད་དེ་ཁ་བསྡམས།</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_1">ལས་ཚབ་ཀྱིས་མིང་བཏོན་པའི་ཡིག་སྣོད་ཆ་མཉམ་ གློག་རིམ་ནང་ཁ་ཕྱེཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_2">བགོ་བཤའ་རྐྱབས་ཀྱིས་ ཁ་ཕྱེ་མི་ག་ར་ གློག་བརྙན་དང་སྒྲ་ཡང་བརྩིས་ཏེ་ པར་ཚུ་ཡང་ན་ཡིག་སྣོད་ཚུ་ནང་སྲུངམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_share_opened_files_example">ལས་ཚབ་ལུ་གསལ་གཞིའི་པར་དག་པ་ཅིག་ལྷག་བཅུག་སྟེ་ པར་ཅིག་ཨེབ་ཞིནམ་ལས་མར་འདྲུད།</string>
+
+    <!-- 2026-10-10-02-call-voice -->
+    <string name="settings_whatsnew_entry_call_voice_title">སྐད་ཀྱི་བོད་བརྡ་ཚུ།</string>
+    <string name="settings_whatsnew_entry_call_voice_summary">འཕྲིན་དོན་སྒྲོམ་སྟོངམ་ནང་གི་སྒྲ་རླབས་ཨེབ་སྟེ་ཁ་སླབ། ཁྱོད་ཀྱིས་ཁ་སླབ་པའི་སྐབས་ སྐད་ཀྱིས་ལཱ་ཡུན་ཚུ་ནང་ལཱ་འབད་དེ་ འབད་ཚརཝ་ད་ཁྱོད་ལུ་སླབ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_1">ལཱ་ཡུན་ག་ཅི་འབད་རུང་མིང་སླབ་སྟེ་འབོ། སྐད་ཀྱིས་དེ་ཁ་ཕྱེ་སྟེ་ དེ་ནང་ལཱ་འགོ་བཙུགས་ནི་ཡང་ན་ཁ་སྒྱུར་འབདཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_2">བར་ན་བཀག་ནི་ལུ་དེ་གིས་སླབ་པའི་སྐབས་ཁ་སླབ་ ཡང་ན་ལཱ་ག་དེ་སྦེ་འགྱོ་དོ་ག་འདྲི།</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_3">སྐད་ཀྱི་ཡིག་གུ་དུས་ཐོག་ལུ་བལྟ་ནི་ལུ་ བོད་བརྡའི་ཕྲ་རིང་གུ་ཨེབ།</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_4">བོད་བརྡའི་བརྡ་བསྐུལ་ལས་ སྐད་བཀག་ནི་དང་བོད་བརྡ་མཇུག་བསྡུ་ཚུགས། བསྡམ་བཞག་པའི་གསལ་གཞི་ལས་ཡང་འབད་ཚུགས།</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_5">ལས་ཚབ་ཀྱིས་ལཱ་འབད་བའི་སྐབས་ བོད་བརྡ་གཏང་ནི་ལུ་ «བཀག་པ» གུ་ཨེབ་བཞག</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_6">སྒྲིག་སྟངས་ཚུ → སྐད་ ནང་སྐད་གདམ་ཁ་རྐྱབས།</string>
+    <string name="settings_whatsnew_entry_call_voice_example">བོད་བརྡ་འགོ་བཙུགས་ཏེ་ “སྐྱེལ་བཙུགས་བཅོ་ཁའི་ལཱ་ཡུན་ཁ་ཕྱེ་སྟེ་ བརྟག་ཞིབ་ཚུ་ཞིབ་དཔྱད་འབད” ཟེར་སླབ།</string>
+
+    <!-- 2026-10-10-03-drawer-one-edge -->
+    <string name="settings_whatsnew_entry_drawer_one_edge_title">ཟུར་ཐོ་ཧེང་སྐལ་གཙང་ཏོག་ཏོ།</string>
+    <string name="settings_whatsnew_entry_drawer_one_edge_summary">གྲལ་ཚུ་མཐའམ་གཅིག་ལས་འགོ་བཙུགས་ཏེ་ གནས་སྟངས་ཀྱི་ཚག་ཚུ་གྲལ་རེའི་མཇུག་ལུ་ཡོད། འཚོལ་ནིའི་ཨེབ་རྟ་འདི་མགུ་ལུ་ཡོད།</string>
+
+    <!-- 2026-10-11-01-paste-as-a-card -->
+    <string name="settings_whatsnew_entry_paste_as_a_card_title">སྦྱར་ཡིག་རིངམ་ཚུ་ཤོག་བྱང་སྦེ།</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_summary">སྦྱར་ཡིག་རིངམ་འདི་ པར་ཚུའི་ཟུར་ཁར་ «སྦྱར་ཡོད་པའི་ཡིག་གུ» ཤོག་བྱང་སྦེ་འགྱུརཝ་ཨིན། ལས་ཚབ་ཀྱིས་ད་རུང་ཡང་ཆ་མཉམ་ལྷགཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_1">སྦྱར་ཡིག་ཆ་ཚང་ལྷག་ནི་ལུ་ ཤོག་བྱང་གུ་ཨེབ། འདྲ་བཤུས་དང་བགོ་བཤའ་ཡང་འབད་ཚུགས།</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_2">འཕྲིན་དོན་རིངམ་ཚུ་གྲལ་ཐིག་དག་པ་ཅིག་ནང་བསྡུ་སྟེ་ «མང་སུ་སྟོན» ཡོད།</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_example">དྲན་དེབ་རིངམ་ཅིག་འདྲ་བཤུས་འབད་དེ་ འཕྲིན་དོན་སྒྲོམ་ནང་སྦྱར་ཞིནམ་ལས་ ཤོག་བྱང་གུ་ཨེབ།</string>
+
+    <!-- 2026-10-11-02-ride-out-drops -->
+    <string name="settings_whatsnew_entry_ride_out_drops_title">བརྡ་རྟགས་ཞན་རུང་ལཱ་འབད་ཚུགས།</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_summary">སྐར་ཆ་དག་པ་ཅིག་བརྡ་རྟགས་མེད་རུང་ ད་ལས་ཕར་འཐུས་མི་ཤོར། གཏང་ནི་དང་ ལཱ་ཡུན་ བོད་བརྡ་ཚུ་མཐུད་ལམ་ལུ་བསྒུག་སྟེ་འཕྲོ་མཐུད་འབདཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_1">«གཏང» འདི་ཨ་རྟག་ར་གྲ་སྒྲིག་ཡོདཔ་དང་ འཕྲིན་དོན་ཚུ་ཁྱོད་ཀྱིས་བཏང་པའི་གོ་རིམ་བཞིན་དུ་འགྱོཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_2">གཏང་མ་ཚུགས་པའི་འཕྲིན་དོན་འདི་ «བསྐྱར་དུ་ཚོད་ལྟ» དང་གཅིག་ཁར་ས་གནས་དེ་ཁར་སྡོདཔ་ཨིན། ལོག་ཚོད་ལྟ་འབད་རུང་ཚར་གཉིས་མི་གཏང་།</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_3">སར་བར་གྱི་མཐུད་ལམ་མེདཔ་ད་ ཟུར་ཐོ་ནང་དེའི་མིང་མདངས་ཡལཝ་ཨིན། «བསྐྱར་དུ་ཚོད་ལྟ» ཐོབ་ནི་ལུ་དེ་གུ་ཨེབ།</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_example">རེལ་འཁོར་ཕུག་ལམ་ནང་འཛུལ་བའི་སྐབས་ ལཱ་ཡུན་ཅིག་ཁ་ཕྱེ།</string>
+
+    <!-- 2026-10-11-03-new-session-recent-projects -->
+    <string name="settings_whatsnew_entry_new_session_recent_projects_title">ལས་འགུལ་གང་རུང་ནང་འགོ་བཙུགས།</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_summary">«ལཱ་ཡུན་གསརཔ» ནང་ འཕྲིན་དོན་སྒྲོམ་གྱི་ལྟག་ལུ་འཕྲལ་གྱི་ལས་གཞི་ཚུའི་ཐོ་སྟོནམ་ཨིན། «ལས་གཞི་ཆ་མཉམ» ལས་གློག་རིག་ནང་གི་སྣོད་འཛིན་གང་རུང་ཁ་ཕྱེ་ཚུགས།</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_1">ཁྱོད་ཀྱིས་ཡིག་གུ་བཙུགས་པའི་སྐབས་ གདམ་ཁ་རྐྱབ་མི་ལས་འགུལ་འདི་འཕྲིན་དོན་སྒྲོམ་གྱི་ལྟག་ལུ་སྡོདཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_2">ལཱ་ཡུན་གསརཔ་ལས་འགོ་བཙུགས་པའི་བོད་བརྡ་འདི་ ཁྱོད་ཀྱིས་གདམ་ཁ་རྐྱབ་མི་ལས་འགུལ་ནང་ལཱ་འབདཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_example">«ལཱ་ཡུན་གསརཔ» གུ་ཨེབ་སྟེ་ «ལས་གཞི་ཆ་མཉམ» དང་ དེ་ལས་ «སྣོད་འཛིན་གདམ་ཁ་རྐྱབས…» གུ་ཨེབ།</string>
+
+    <!-- 2026-10-11-04-stop-runs-your-steer -->
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_title">ལཱ་འབད་བའི་སྐབས་ཁ་སྒྱུར།</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_summary">ལས་ཚབ་ཀྱིས་ལཱ་འབད་བའི་སྐབས་འཕྲིན་དོན་གཏང་། དེ་གིས་ཧེ་མ་བརྡ་བཀོད་རིངམ་ཚུ་རྒྱབ་ཁར་སྤོ་སྟེ་ གོམ་པ་ཤུལ་མའི་ནང་ཁྱོད་ཀྱི་འཕྲིན་དོན་ལྷགཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_1">འཕྲིན་དོན་གཅིག་གི་དོན་ལུ་ «ཁ་སྒྱུར» ཡང་ན་ «བསྒུག་ཐོ་ནང་བཙུགས» གདམ་ཁ་རྐྱབ་ནི་ལུ་ «གཏང» གུ་ཨེབ་བཞག</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_2">བསྒུག་ཐོ་ནང་སྤོ་ནི་ ཡང་ན་བཏོན་གཏང་ནི་ལུ་ བསྒུག་སྟེ་ཡོད་པའི་འཕྲིན་དོན་གུ་ཨེབ་བཞག</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_3">«བཀག་པ» འདི་དེ་འཕྲོ་ལས་ «བཀག་དོ…» ལུ་འགྱུརཝ་ཨིན། དེའི་ཤུལ་ལས་ཁྱོད་ཀྱིས་བཏང་མི་ཁ་སྒྱུར་འཕྲིན་དོན་འདི་ལཱ་འབདཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_example">བརྡ་བཀོད་རིངམ་ཅིག་ལཱ་འབད་བའི་སྐབས་ འཕྲིན་དོན་ཅིག་གཏང་སྟེ་ བརྡ་བཀོད་འདི་རྒྱབ་ཁར་སྤོཝ་བལྟ།</string>
+
+    <!-- 2026-10-12-01-browser-push-in -->
+    <string name="settings_whatsnew_entry_browser_push_in_title">གློག་རིམ་ནང་གི་བརའུ་ཟར་ཤོག་ངོས།</string>
+    <string name="settings_whatsnew_entry_browser_push_in_summary">གློག་རིམ་ནང་གི་བརའུ་ཟར་ཚོད་ལྟ་ཨོན་འབད་བཞགཔ་ད་ འབྲེལ་མཐུད་ཀྱི་ཤོག་ངོས་འདི་ལཱ་ཡུན་གྱི་ཐོག་ཁར་འོངམ་ཨིན། ལོག་འགྱོ་ནི་ལུ་མཐའམ་ལས་ཕར་འཕུར།</string>
+
+    <!-- 2026-10-12-02-answer-from-the-bar -->
+    <string name="settings_whatsnew_entry_answer_from_the_bar_title">འཕྲིན་དོན་སྒྲོམ་ལས་ལན་གཏང་།</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_summary">དྲི་བ་དང་གནང་བ་ཚུ་འཕྲིན་དོན་སྒྲོམ་ལས་ཐོནམ་ཨིན། དེ་ཁར་ར་གདམ་ཁ་ཅིག་གུ་ཨེབ་སྟེ་ ཡང་ན་རང་གི་ལན་བྲིས་ཏེ་དང་སྐད་ཀྱིས་སླབ་སྟེ་ལན་གཏང་ཚུགས།</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_1">གནང་བ་མ་བྱིན་པའི་ཧེ་མ་ གནང་བའི་རེ་བ་ནང་བརྡ་བཀོད་ཡང་ན་ཞུན་དག་འདི་སྟོནམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_2">«ཁས་མི་ལེན» གྱིས་ཁྱོད་ཀྱིས་བྲིས་མི་འདི་ དེའི་ཚབ་ལུ་ག་ཅི་འབད་དགོཔ་ཨིན་ནའི་བཀོད་རྒྱ་སྦེ་ལེནམ་ལས་ ལས་ཚབ་ཀྱིས་འཕྲོ་མཐུད་ལཱ་འབདཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_3">ལན་བཏང་ཚརཝ་ད་ ཁྱོད་ཀྱི་ཟིན་བྲིས་ལོག་འོངམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_example">ལས་ཚབ་ཀྱིས་དྲི་བ་འདྲིཝ་ད་ སྐད་འཛིན་གུ་ཨེབ་བཞག་སྟེ་ལན་སླབ།</string>
+
+    <!-- 2026-10-12-03-new-messages-divider -->
+    <string name="settings_whatsnew_entry_new_messages_divider_title">བཞག་ས་ལས་འཕྲོ་མཐུད་འབད།</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_summary">ལཱ་ཡུན་ལུ་ལོག་འོངམ་ད་ ཁྱོད་མེད་པའི་སྐབས་ལྷོད་མི་ཚུ་དང་གཅིག་ཁར་མཇུག་ལུ་ཁ་ཕྱེཝ་ཨིན། མ་ལྷག་པའི་འཕྲིན་དོན་ལེ་ཤ་ཡོདཔ་ད་ «གསརཔ» གྲལ་ཐིག་ལས་ཁ་ཕྱེ་ནི་ལུ་ སྒྲིག་སྟངས་ཚུ › ལཱ་ཡུན་ཚུ་ ནང་ «འཕྲིན་དོན་གསརཔ་དབྱེ་ཐིག» ཨོན་འབད།</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_1">ཟུར་ཐོ་ཁ་ཕྱེཝ་ད་ ཁྱོད་ཀྱིས་ཁ་ཕྱེ་ནི་གི་ཉེར་བསྡོགས་ཡོད་པའི་ལཱ་ཡུན་ཚུ་དུས་མཐུན་བཟོཝ་ལས་ ཨེབ་པའི་སྐབས་གྲ་སྒྲིག་ཡོདཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_2">ལོག་སོརཝ་ད་ ལཱ་ཡུན་དུས་མཐུན་བཟོ་བའི་སྐབས་ཡང་ རྒྱབ་ཁའི་ལཱ་དང་སྐབས་དོན་ཚད་སྟོན་བཞགཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_example">ཡུན་རིང་གི་ལཱ་ཅིག་འགོ་བཙུགས་ཏེ་ ལཱ་ཡུན་གཞན་ཅིག་ལུ་སོར་ཞིནམ་ལས་ ལན་འབྱོརཝ་ད་ལོག་ཤོག</string>
+
+    <!-- 2026-10-12-04-model-list-and-level-meter -->
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_title">དཔེ་ཚད་སེལ་འཐུ་གསརཔ།</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_summary">དགའ་ཤོས་ཚུ་མགུ་ལུ་ཡོད་པའི་དཔེ་ཚད་ཤོག་བྱང་ལས་ དཔེ་ཚད་དང་དེའི་བསམ་ཤེས་གནས་རིམ་གདམ་ཁ་རྐྱབས། འཕྲིན་དོན་སྒྲོམ་ལས་ཐོན་པའི་ཐོ་ཚོད་ལྟ་འབད་ནི་ལུ་ སྒྲིག་སྟངས་ཚུ → བརྟག་དཔྱད་འབད་མི་ ནང་ «དཔེ་ཚད་སེལ་འཐུ་གསརཔ» ཨོན་འབད།</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_1">དཔེ་ཚད་ནང་གནས་རིམ་ཚུ་ཡོད་པ་ཅིན་ དཔེ་ཚད་ཤོག་བྱང་ནང་གི་ «བསམ་ཤེས» དཀར་ཆག་ལག་ལེན་འཐབ།</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_2">དགའ་ཤོས་ནང་བཙུགས་ནི་ལུ་ དཔེ་ཚད་ཅིག་གུ་ཕར་འཕུར།</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_3">ལཱ་ཡུན་ནང་གི་གྲལ་ཐིག་སྲབ་ཅིག་གིས་ དཔེ་ཚད་ཡང་ན་གནས་རིམ་སོར་ས་སྟོནམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_example">འཕྲིན་དོན་སྒྲོམ་ནང་གི་དཔེ་ཚད་གུ་ཨེབ་སྟེ་ བསམ་ཤེས་གནས་རིམ་ཅིག་གདམ་ཁ་རྐྱབས།</string>
+
+    <!-- 2026-10-12-05-run-error-line -->
+    <string name="settings_whatsnew_entry_run_error_line_title">གཡོག་བཀོལ་འཐུས་ཤོརཝ་ད།</string>
+    <string name="settings_whatsnew_entry_run_error_line_summary">གཡོག་བཀོལ་མ་ཚར་བར་བཀག་འགྱོཝ་ད་ རྒྱུ་མཚན་འཇམ་ཏོང་ཏོ་སྦེ་སླབ་སྟེ་ འཕྲོ་མཐུད་ཐབས་གཅིག་སྟོནམ་ཨིན། དེ་ཡང་ ཞུན་དག་ བསྡུ་སྒྲིག་ དཔེ་ཚད་སོར་ནི་ ཡང་ན་བསྐྱར་དུ་ཚོད་ལྟ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_1">«ཞུན་དག» གིས་ཁྱོད་ཀྱི་འཕྲིན་དོན་འབད་བཤོལ་འབད་དེ་ ལོག་བྲི་ནི་ལུ་འཕྲིན་དོན་སྒྲོམ་ནང་བཙུགསཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_2">འཛོལ་བ་ཆ་ཚང་བལྟ་ནི་དང་འདྲ་བཤུས་འབད་ནི་ལུ་ གྲལ་ཐིག་གུ་ཨེབ་བཞག</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_3">ལས་ཚབ་ཀྱིས་རང་བཞིན་གྱིས་ལོག་ཚོད་ལྟ་འབད་ནི་ཨིན་པ་ཅིན་ «ལཱ་འབད་དོ» གིས་ཚོད་ལྟ་ཤུལ་མམ་ཚུན་གྱི་དུས་ཚོད་ལོག་རྩིས་སྟོནམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_run_error_line_example">ལན་བཀག་འགྱོཝ་ད་ «ཞུན་དག» གུ་ཨེབ་སྟེ་ འཕྲིན་དོན་ལོག་བྲིས་ཞིནམ་ལས་ལོག་གཏང་།</string>
+
+    <!-- 2026-10-12-06-transcript-keyboard-space -->
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_title">ལྡེ་སྒྲོམ་ལེགས་ཤོམ་སྦེ་ཁ་བསྡམ།</string>
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_summary">ལྡེ་སྒྲོམ་འཐེན་ཏེ་སྦ་བཞགཔ་ད་ ད་ལས་ཕར་འཕྲིན་དོན་མཇུག་མའི་འོག་ལུ་ས་སྟོང་མི་ལུས།</string>
+
+    <!-- 2026-10-12-07-share-sheet-sends -->
+    <string name="settings_whatsnew_entry_share_sheet_sends_title">བགོ་བཤའི་ཤོག་བྱང་ལས་གཏང་།</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_summary">OpenCode ལུ་ག་ཅི་ར་འབད་རུང་བགོ་བཤའ་རྐྱབས་ཏེ་ ལཱ་ཡུན་ཅིག་གདམ་ཁ་རྐྱབས། འཕྲིན་དོན་ཁ་སྐོང་རྐྱབས་ཏེ་ གློག་རིམ་ཁ་མ་ཕྱེ་བར་གཏང་།</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_1">ཁྱོད་ཀྱི་འཕྲལ་གྱི་ལཱ་ཡུན་ཚུ་ བགོ་བཤའི་ཤོག་བྱང་གི་མགོའི་གྲལ་ནང་འཐོནམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_2">JSON ཡིག་སྣོད་དང་ཕྱིར་བཙོང་འབད་མི་ཚུ་ མིང་མ་བསྒྱུར་བར་ཡིག་སྣོད་སྦེ་མཉམ་སྦྲགས་འབདཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_3">«OpenCode ནང་འཕྲོ་མཐུད» ཨེབ་པ་ཅིན་ བགོ་བཤའ་རྐྱབ་མི་འདི་འཕྲིན་དོན་སྒྲོམ་ནང་བཙུགས་ཏེ་ ལཱ་ཡུན་ཁ་ཕྱེཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_4">གཏང་མ་ཚུགས་པ་ཅིན་ «ཤུལ་ལས་གཏང་» གིས་ ཤུལ་མ་གློག་རིམ་ཁ་ཕྱེཝ་ད་གཏངམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_example">གསལ་གཞིའི་པར་ཅིག་ OpenCode ལུ་བགོ་བཤའ་རྐྱབས་ དྲི་བ་ཅིག་བྲིས་ཏེ་ «གཏང་» ཨེབ།</string>
+
+    <!-- 2026-10-12-08-app-icon-badge -->
+    <string name="settings_whatsnew_entry_app_icon_badge_title">གློག་རིམ་ངོས་དཔར་གུ་གྱངས་ཁ།</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_summary">གློག་རིམ་ངོས་དཔར་གྱིས་ མ་ལྷག་པའམ་ཁྱོད་ལུ་བསྒུག་མི་ལཱ་ཡུན་གྱི་གྱངས་ཁ་སྟོནམ་ཨིན། འདི་ «དུས་མཐུན་བལྟ» ནང་གི་གྱངས་ཁ་དང་ཅོག་འཐདཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_1">བརྡ་བསྐུལ་བཀག་ཡོད་པའི་ལཱ་ཡུན་ཚུ་མི་བརྩི།</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_2">བརྡ་བསྐུལ་ཚུ་ཨོན་འབད་དགོ།</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_example">ལཱ་ཡུན་ཅིག་དྲི་བའི་ལན་ལུ་བསྒུག་སྟེ་བཞག་ དེ་ལས་ཁྱིམ་གསལ་གཞི་ལུ་འགྱོ།</string>
+
+    <!-- 2026-10-12-09-drawer-keeps-keyboard -->
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_title">ལྡེ་སྒྲོམ་ཟུར་ཐོ་དང་མཉམ་སྤོཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_summary">ཡི་གུ་འབྲིཝ་ད་ ལཱ་ཡུན་ཐོ་ཁ་ཕྱེ་རུང་ འཕྲིན་དོན་འབྲི་ས་སེལ་འཐུ་འབད་དེ་ར་སྡོདཔ་ཨིན། ལྡེ་སྒྲོམ་ཡང་ལཱ་ཡུན་དང་མཉམ་ཟུར་ཁར་སྤོཝ་ཨིན།</string>
+
+    <!-- 2026-10-12-10-whats-new-page -->
+    <string name="settings_whatsnew_entry_whats_new_page_title">«གསརཔ་ག་ཅི་ཡོད?» འཇམ་ཏོང་ཏོ།</string>
+    <string name="settings_whatsnew_entry_whats_new_page_summary">«གསརཔ་ག་ཅི་ཡོད?» འདི་ སྒྲིག་སྟངས་ཚུ་བཟུམ་སྦེ་ཤོག་ངོས་ཅིག་ནང་ཁ་ཕྱེཝ་ཨིན། ཁྱད་ཆོས་རེ་ལུ་ཤོག་ངོས་རེ་ཡོདཔ་དང་ བཅོ་ཁ་ཚུ་ནཱ་བསྡུ་བཞག་ཡོད།</string>
+
+    <!-- 2026-10-12-11-catch-up-returns-to-drawer -->
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_title">དུས་མཐུན་བལྟ་ལས་ཟུར་ཐོ་ལུ་ལོག</string>
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_summary">«དུས་མཐུན་བལྟ» ལས་ཐོནམ་ད་ ཁྱོད་ཀྱིས་བཞག་དོ་བཟུམ་གྱི་ལཱ་ཡུན་ཐོ་ལུ་ལོག་འགྱོཝ་ཨིན།</string>
+
+    <!-- 2026-10-12-12-transcript-day-stamps -->
+    <string name="settings_whatsnew_entry_transcript_day_stamps_title">ཁ་སླབ་ཡིག་འབེབས་ནང་ཉིནམ།</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_summary">ཉིནམ་ལས་བརྒལ་ཏེ་འགྱོ་མི་ལཱ་ཡུན་ནང་ ཉིནམ་རེའི་འཕྲིན་དོན་དང་པའི་ལྟག་ལུ་ «གཟའ་ལྷགཔ་ སྔ་ཆ་ 8:24» བཟུམ་སྦེ་ཉིནམ་སྟོནམ་ཨིན། ཆུ་ཚོད་གཅིག་བཀག་པའི་ཤུལ་ལུ་བཏང་མི་འཕྲིན་དོན་གྱི་ལྟག་ལུ་དུས་ཚོད་སྟོནམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_1">ཉིནམ་འདི་ ད་རེས་ ཁ་ཙ་ ཡང་ན་བདུན་ཕྲག་འདི་ནང་ཨིན་པ་ཅིན་གཟའི་མིང་སྟོནམ་ཨིན། དེ་མིན་པ་ཅིན་ཚེས་གྲངས་སྟོནམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_2">ཁ་ཕྱོགས་སྟོན་མི་དང་གྱལ་བསྒྲིགས་པའི་འཕྲིན་དོན་ཚུ་བསྒུག་སྡོདཔ་ད་ དུས་ཚོད་རྟགས་མི་སྟོན།</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_example">བདུན་ཕྲག་འདིའི་ཧེ་མ་འགོ་བཙུགས་མི་ལཱ་ཡུན་ཅིག་ཁ་ཕྱེ་སྟེ་ ཡར་བཤུད།</string>
+
+    <!-- 2026-10-12-13-rich-link-previews -->
+    <string name="settings_whatsnew_entry_rich_link_previews_title">འབྲེལ་མཐུད་སྔོན་ལྟ།</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_summary">ལན་འདེབས་ཀྱི་འོག་ལུ་ཡོད་པའི་འབྲེལ་མཐུད་ཚུ་གིས་ ག་ཅི་ཨིན་ན་གྲལ་ཐིག་རེ་ནང་སྟོནམ་ཨིན། བསྲེ་བའི་ཞུ་བ་ཡང་ན་དཀའ་ངལ་ཨིན་པ་ཅིན་མགོ་མིང་དང་གནས་སྟངས་ དེ་ལས་བསྒྱུར་བཅོས་ཐོ་བཀོད་ གློག་བརྙན་ ཡང་ན་ཤོག་ངོས་སྟོནམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_1">GitHub གི་བསྲེ་བའི་ཞུ་བ་ དཀའ་ངལ་ བསྒྱུར་བཅོས་ཐོ་བཀོད་དང་མཛོད་ཁང་ཚུའི་མགོ་མིང་སྟོནམ་ཨིན། ཕྱེ་ཕྱེཝ་ བསྲེ་ཡོདཔ་ ཡང་ན་ཁ་བསྡམས་ཡོདཔ་འདི་ཚོས་གཞི་དང་སྦྲགས་ཏེ་སྟོནམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_2">X གི་འཛུལ་ཡིག་ཚུ་གིས་ ག་གིས་བཙུགས་ཅི་དང་ག་ཅི་སླབ་ཅི་སྟོནམ་ཨིན། YouTube འབྲེལ་མཐུད་ཚུ་གིས་མགོ་མིང་དང་ ཤོག་ངོས་གཞན་ཚུ་གིས་འབྲེལ་མཐུད་ལས་ཐོབ་པའི་མིང་སྟོནམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_3">འབྲེལ་མཐུད་གསུམ་སྟོནམ་ཨིན། ལྷག་མ་ཚུ་བལྟ་ནི་ལུ་ «འདྲ་བཤུས» ཀྱི་ཟུར་ཁའི་ «མང་སུ» ཨེབ། ལོག་ཨེབ་པ་ཅིན་སྦ་བཞགཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_4">སྔོན་ལྟ་སྦོམ་སུ་བལྟ་ནི་ «འབྲེལ་མཐུད་འདྲ་བཤུས» དང་ «བགོ་བཤའ་རྐྱབས» ཀྱི་དོན་ལུ་ འབྲེལ་མཐུད་ཅིག་ཨེབ་སྟེ་བཞག</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_example">བདུན་ཕྲག་འདི་ནང་ མཛོད་ཁང་ཅིག་ནང་ག་ཅི་བསྒྱུར་ཡི་ག་ལས་ཚབ་ལུ་དྲིས།</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_prompt">ང་གིས་ལག་ལེན་འཐབ་མི་ GitHub མཛོད་ཁང་ཅིག་ནང་ བདུན་ཕྲག་འདི་ནང་ག་ཅི་བསྒྱུར་ཡི? འབྲེལ་མཐུད་ཚུ་ཡང་བཙུགས།</string>
+
+    <!-- 2026-10-13-01-rolling-numbers -->
+    <string name="settings_whatsnew_entry_rolling_numbers_title">བསྒྱིར་ཏེ་སོར་མི་ཨང་གྲངས།</string>
+    <string name="settings_whatsnew_entry_rolling_numbers_summary">རྒྱབ་ལཱའི་སྒྲོམ་ཆུང་ ལཱ་ཡུན་ཤོག་བྱང་ «N ལག་ལེན་འཐབ་ཡོད» ཀྱི་གྲལ་ཐིག་དང་ «དུས་མཐུན་བལྟ» ནང་གི་གྱངས་ཁ་ཚུ་ ཨང་རེ་རེ་སྦེ་བསྒྱིར་ཏེ་སོརཝ་ཨིན།</string>
+
+    <!-- 2026-10-13-02-grouped-steering -->
+    <string name="settings_whatsnew_entry_grouped_steering_title">སྡེ་ཚན་བཟོ་བའི་འཕྲིན་དོན།</string>
+    <string name="settings_whatsnew_entry_grouped_steering_summary">ཁྱོད་ཀྱིས་འཕྲོ་མཐུད་དེ་གཏང་མི་འཕྲིན་དོན་ཚུ་ སྡེ་ཚན་གཅིག་སྦེ་མཉམ་བཞགཔ་ཨིན། ལས་ཚབ་ལུ་བསྒུག་མི་ཁ་ཕྱོགས་སྟོན་པའི་འཕྲིན་དོན་ཚུ་ལུ་ «ཁ་ཕྱོགས་སྟོན་དོ» གི་ཁ་ཡིག་གཅིག་ར་སྟོནམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_1">འཕྲིན་དོན་སྒྲོམ་ཚུ་ཐག་ཉེ་སུ་བཞག་སྟེ་ འཕྱད་སའི་ཟུར་ཚུ་མཐུདཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_2">པར་དང་ཡིག་སྣོད་ཚུ་གིས་ སྡེ་ཚན་ནང་རང་སོའི་ཟུར་སྒོར་སྒོར་གྱི་དབྱིབས་བཞགཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_3">ལས་ཚབ་ཀྱིས་འཕྲིན་དོན་རེ་ལེནམ་ད་ འདི་འགུལ་ཐེངས་གཅིག་ནང་ཡར་སྤོ་སྟེ་རང་གི་ས་ཁར་འགྱོཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_grouped_steering_example">ལས་ཚབ་ཀྱིས་ལཱ་འབདཝ་ད་ འཕྲིན་དོན་གསུམ་མགྱོགས་པར་གཏང་། གཅིག་ནང་པར་ཅིག་བཙུགས།</string>
+
+    <!-- 2026-10-13-03-inline-tool-rows -->
+    <string name="settings_whatsnew_entry_inline_tool_rows_title">ལག་ཆ་དང་དྲི་བའི་གྲལ་ཐིག་འཇམ་ཏོང་ཏོ།</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_summary">ལག་ཆའི་སྡེ་ཚན་དང་ལན་བཏབ་པའི་དྲི་བ་ཚུ་ ཨང་རྟགས་བཟུམ་སྦེ་རྒྱ་ཚད་ཆ་ཚང་གི་སྒྲོམ་ནང་ཁ་ཕྱེཝ་ཨིན། འཕྲོ་མཐུད་དེ་ལྷག་མི་ཚུ་གྲལ་ཐིག་གཅིག་ནང་བསྲེཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_1">བརྡིབས་ཡོད་པའི་སྡེ་ཚན་ཚུ་ལུ་ «ལག་ཆ་ N ལག་ལེན་འཐབ་ཡོད» ཟེར་སྟོནམ་ཨིན། མཐར་མ་འཁྱོལ་བའི་ལག་ཆ་བོད་བརྡ་ཚུ་དམརཔོ་གིས་རྟགས་བཀལཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_2">«ལག་ལེན་འཐབ» ཀྱི་གྲལ་ཐིག་ཚུ་གིས་ ཡིག་ཚུགས་ཀྱིས་བོད་བརྡ་འབད་མི་ལག་ཆའི་མིང་སྟོནམ་ཨིན། «རིག་རྩལ» གྱི་གྲལ་ཐིག་ཚུ་གིས་རིག་རྩལ་གྱི་མིང་སྟོནམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_3">ལན་བཏབ་པའི་དྲི་བ་ཚུ་ནང་ དྲི་བ་དང་བྱིན་ཡོད་པའི་གདམ་ཁ་ཆ་མཉམ་སྟོན་ཏེ་ ཁྱོད་ཀྱི་གདམ་ཁ་ལུ་རྟགས་བཀལཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_example">སྒྲོམ་ཁ་ཕྱེ་ནི་ལུ་ ལཱ་ཡུན་ནང་གི་ «ལག་ཆ་ N ལག་ལེན་འཐབ་ཡོད» ཀྱི་གྲལ་ཐིག་ཅིག་ཨེབ།</string>
+
+    <!-- 2026-10-13-04-mac-motion-playgrounds -->
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_title">Mac གུ་ཚོད་ལྟ་ས་སྒོའི་ཚད་འཛིན།</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_summary">བཟོ་མིའི་ཐབས་ལམ་ཨོན་འབད་དེ་ སྙོམ་སྒྲིག་འདི་ཁྱོད་ཀྱི་ Mac དང་ཆ་སྒྲིག་འབད། ཚོད་ལྟ་ས་སྒོའི་འགུལ་བརྙན་ཚུ་ལྷོད་ཆ་སྦེ་ལོག་སྟོན་ཏེ་ བཟུང་ཡོད་པའི་པར་རིམ་ཚུ་ཞིབ་དཔྱད་འབད་ཚུགས།</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_1">Mac གི་ཚད་འཛིན་ཤོག་ངོས་ནང་ ཚོད་ལྟ་ས་སྒོའི་གདམ་ཁ་ སྔོན་སྒྲིག་དང་ལོག་སྟོན་པའི་ཚད་འཛིན་ཚུ་ཡོད། འགྲུལ་འཕྲིན་གུ་ཚོད་ལྟ་ས་སྒོ་རྐྱངམ་ཅིག་སྟོནམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_2">ཤོག་བྱང་ཆུང་ཀུ་ཚུ་གིས་ གསལ་གཞི་གུ་ཚད་འཛིན་ག་ཅི་ཡོདཔ་ཨིན་ན་སྟོནམ་ཨིན། འགུལ་བསྐྱོད་དང་བར་སྟོང་གི་དོན་ལུ་མིང་བཏགས་པའི་སྔོན་སྒྲིག་ཚུ་དང་ འགོ་ཐོག་གི་ཚོར་སྣང་ལོག་བཟོ་ནི་ལུ་ «རང་བཞིན» ཡོད། སྔོན་སྒྲིག་རེ་གིས་ བེ་ལུ་ཚུ་དུས་མཐུན་ཐེངས་གཅིག་ནང་མཉམ་འཇུགཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_3">Mac མཐུདཔ་ད་ འཕུར་ལྡིང་སྙོམ་སྒྲིག་པེ་ནཱལ་སྦ་བཞགཔ་ཨིན། སྙོམ་སྒྲིག་གི་ལག་བརྡ་གིས་ལོག་འབོ་སྟེ་ ཐོན་ནི་ལུ་ «ཚོད་ལྟ་ས་སྒོ་ལས་ཕྱིར་ཐོན» གདམ་ཁ་རྐྱབས།</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_4">སྔོན་སྒྲིག་གནས་སྟངས་ཚུ་གིས་ དཔེ་ཚད་ལཱ་ཡུན་གཅིག་ར་ལོག་སྟོནམ་ཨིན། དེ་གིས་ཐོན་རིམ་སོ་སོའི་བར་ན་འགུལ་བསྐྱོད་ག་བསྡུར་འབད་ཚུགས།</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_5">ལོག་སྟོནམ་ད་ གསརཔ་སྦེ་འགོ་བཙུགས་ཏེ་ ཁ་ཕྱོགས་སྟོན་མི་དང་གྱལ་བསྒྲིགས་པའི་འཕྲིན་དོན་ཚུ་བསྒུག་སྟེ་མ་བཞག་པར་གཏངམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_6">Mac གི་བསྐྱར་ཞིབ་གཏང་ཆས་ཀྱིས་ བཟུང་ཡོད་པའི་དབྱིབས་དང་བཀོད་རིས་རེ་རེ་བལྟ་ནི་ པར་རིམ་ཅིག་ལུ་རྟགས་བཀལ་ནི་དང་ འགུལ་བརྙན་གྱི་བསམ་ལན་གཏང་ནི་ཚུ་འབད་ཚུགས།</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_example">སྒྲིག་སྟངས་ཚུ་ → བཟོ་མི་ཁ་ཕྱེ་སྟེ་ Mac གི་སྙོམ་སྒྲིག་ཤོག་ངོས་དང་ཆ་སྒྲིག་འབད། དེ་ལས་ ཁ་སླབ་ཡིག་འབེབས་ → ལན་འདེབས་རིམ་བཞིན་སྟོན་ནི་འདི་ 0.25× གུ་ཚོད་ལྟ་འབད།</string>
+
+    <!-- 2026-10-13-05-catch-up-flicks -->
+    <string name="settings_whatsnew_entry_catch_up_flicks_title">དུས་མཐུན་བལྟ་ནང་བཤུད་ནི་འཇམ་སུ།</string>
+    <string name="settings_whatsnew_entry_catch_up_flicks_summary">«དུས་མཐུན་བལྟ» ནང་ མགྱོགས་པར་བཤུད་པའམ་ཐུང་ཀུ་འཐེན་པ་ཅིན་ ཤོག་བྱང་འདི་ལོག་མ་འོང་པར་ཕར་འགྱོཝ་ཨིན།</string>
+
+    <!-- 2026-10-14-01-settings-grouped-by-purpose -->
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_title">སྒྲིག་སྟངས་ཚུ་གསལ་ཏོག་ཏོ།</string>
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_summary">བརྟག་དཔྱད་ཁྱད་ཆོས་དང་བཟོ་མིའི་ལག་ཆ་ཚུ་ སྒྲིག་སྟངས་ཚུ་ → བརྟག་དཔྱད་འབད་མི་ནང་འཚོལ། གློག་རིམ་ནང་གི་གསལ་བསྒྲགས་ཚུ་བརྡ་བསྐུལ་ཚུ་ནང་དང་ བོད་བརྡའི་ལོ་རྒྱུས་སྐད་ནང་ཡོད།</string>
+
+    <!-- 2026-10-14-02-send-ats-recovery -->
+    <string name="settings_whatsnew_entry_send_ats_recovery_title">བློ་གཏད་ཚུགས་པའི་གཏང་ལེན།</string>
+    <string name="settings_whatsnew_entry_send_ats_recovery_summary">ཧེ་མ་ལས་ལཱ་འབད་བཏུབ་པའི་སར་བར་མཐུད་ལམ་འདི་ iOS གིས་དུས་ཡུན་ཐུང་ཀུ་ཅིག་ལུ་ངོས་ལེན་མ་འབད་བ་ཅིན་ འཕྲིན་དོན་ཚུ་རང་བཞིན་གྱིས་ལོག་གཏང་ནི་ཚོད་ལྟ་འབདཝ་ཨིན།</string>
+
+    <!-- 2026-10-14-03-keyboard-menus-and-header -->
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_title">ལྡེ་སྒྲོམ་དང་གདམ་ཐོ་བརྟན་ཏོག་ཏོ།</string>
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_summary">ཡི་གུ་འབྲིཝ་ད་ + ཨེབ་པ་ཅིན་ ལྡེ་སྒྲོམ་མར་མ་ཕབ་པར་དང་ཚད་འཛིན་ཚུ་མ་སྤོ་བར་ མཉམ་སྦྲགས་ཁ་ཕྱེ་ཚུགས། ལྡེ་སྒྲོམ་སྤོཝ་ད་ཡང་ མགོ་ཡིག་གི་རབ་རིབ་འདི་རང་གི་ས་ཁར་ར་སྡོདཔ་ཨིན།</string>
+
+    <!-- 2026-10-14-04-open-links-in-apps -->
+    <string name="settings_whatsnew_entry_open_links_in_apps_title">འབྲེལ་མཐུད་རང་སོའི་གློག་རིམ་ནང་ཁ་ཕྱེཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_open_links_in_apps_summary">འབྲེལ་མཐུད་འདི་ GitHub ཡང་ན་ YouTube བཟུམ་ འདི་ལག་ལེན་འཐབ་མི་གློག་རིམ་ནང་ཁ་ཕྱེཝ་ཨིན། གློག་རིམ་ནང་གི་བརའུ་ཟར་བརྟག་དཔྱད་ཨོན་འབད་ཡོད་པ་ཅིན་ འབྲེལ་མཐུད་ཨེབ་སྟེ་བཞག་ཞིནམ་ལས་ «གློག་རིམ་བརའུ་ཟར་ནང་ཁ་ཕྱེ» གདམ་ཁ་རྐྱབས།</string>
+
+    <!-- 2026-10-14-05-session-list-quiet-hierarchy -->
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_title">བལྟ་སྟེ་ཧ་གོ་སླ་བའི་ལཱ་ཡུན་ཐོ།</string>
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_summary">གཏན་བཟུང་འབད་ཡོདཔ་དང་འཕྲལ་གྱི་མགོ་ཡིག་ཚུ་ཡིག་གུ་ཆུང་ཀུ་སྐྱ་ཐལ་ནང་སྟོནམ་ཨིན། མ་ལྷགཔ་དང་བསྒུག་སྡོད་མི་ལཱ་ཡུན་ཚུ་ཡིག་གུ་སྦོམ་ཚད་འབྲིང་ནང་གསལ་ཏོག་ཏོ་སྟོནམ་དང་། ལྷག་ཚར་མི་ཚུ་ཨ་ཙི་གྲིབ་སྟེ་སྟོནམ་ཨིན།</string>
+
+    <!-- 2026-10-14-06-queued-messages-fitted-sheet -->
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_title">བསྒུག་ཐོའི་འཕྲིན་དོན་ཧིང་སང་ས།</string>
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_summary">བསྒུག་ཐོའི་འཕྲིན་དོན་ཤོག་ལེབ་ཀྱི་མཐོ་ཚད་འདི་བསྒུག་ཐོ་དང་འཁྲིལ་ཏེ་ཡོད། གྲལ་ཐིག་ཚུ་ལུ་ཨང་བཏགས་ཡོདཔ་དང་། ད་ལྟོ་གཏང་ནི་དང་ཆ་མེད་གཏང་ནིའི་ཨེབ་རྟ་ཚུ་ཡང་འཇམ་སམ་ཡོད།</string>
+
+    <!-- 2026-10-14-07-control-center-sessions -->
+    <string name="settings_whatsnew_entry_control_center_sessions_title">ལཱ་ཡུན་གྱི་མགྱོགས་ཨེབ་ཚུ།</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_summary">ལཱ་ཡུན་ཁ་ཕྱེ་ནི་ཡང་ན་དེ་ནང་བོད་བརྡ་འགོ་བཙུགས་ནི་ལུ་ མགྱོགས་སྒྲིག་སྟངས་ནང་མགྱོགས་ཨེབ་ཁ་སྐོང་འབད། ཚར་གཅིག་ཨེབ་རུང་བཏུབ།</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_1">ལཱ་ཡུན་ཁ་ཕྱེ་ཟེར་མི་མགྱོགས་ཨེབ་གསརཔ་གིས་ ཁྱོད་ཀྱིས་གདམ་མི་ལཱ་ཡུན་ཁ་ཕྱེཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_2">བོད་བརྡ་འགོ་བཙུགས་ཟེར་མི་གིས་ གདམ་ཡོད་པའི་ལཱ་ཡུན་ཡང་ན་ལཱ་ཡུན་གསརཔ་ནང་བོད་བརྡ་གཏང་ཚུགས། ཁྱོད་ཀྱིས་མ་བསྒྱུར་བ་ཅིན་ མཇུག་བལྟ་མི་ལཱ་ཡུན་ནང་གཏངམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_3">གཏན་བཟུང་འབད་ཡོདཔ་དང་འཕྲལ་གྱི་ལཱ་ཡུན་ཚུ་ལས་གདམ་ཁ་རྐྱབས། མགྱོགས་ཨེབ་ནང་ལཱ་ཡུན་གྱི་ད་ལྟོའི་མགོ་མིང་སྟོནམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_4">མགྱོགས་ཨེབ་ཚུ་གིས་གློག་རིམ་ཁ་ཕྱེ་ནི་རྐྱངམ་ཅིག་འབདཝ་ཨིན། ཁྱོད་ཀྱིས་ཁ་མ་སླབ་ཡང་ན་ཡིག་གུ་མ་བྲིས་ཚུན་ ག་ནི་ཡང་མི་གཏང་།</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_example">མགྱོགས་སྒྲིག་སྟངས་ཁ་ཕྱེ། ཞུན་དག་ཨེབ་སྟེ་ OpenCode གི་ལཱ་ཡུན་ཁ་ཕྱེ་མགྱོགས་ཨེབ་འདི་འདྲུད་དེ་བཞག</string>
+
+    <!-- 2026-10-15-01-settings-keyboard-down -->
+    <string name="settings_whatsnew_entry_settings_keyboard_down_title">སྒྲིག་སྟངས་ལྟག་ལུ་ལྡེ་སྒྲོམ་མེད།</string>
+    <string name="settings_whatsnew_entry_settings_keyboard_down_summary">ཡིག་གུ་འབྲི་བའི་བསྒང་ ཟུར་ཐོ་ལས་སྒྲིག་སྟངས་ཁ་ཕྱེཝ་ད་ ལྡེ་སྒྲོམ་འདི་སྒྲིག་སྟངས་ལྟག་ལུ་མ་བཞག་པར་སྦ་བཞགཔ་ཨིན།</string>
+
+    <!-- 2026-10-15-02-session-list-sidebar-grey -->
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_title">བར་སྟོང་མང་བའི་ལཱ་ཡུན་ཐོ།</string>
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_summary">ལཱ་ཡུན་ཐོའི་མགོ་མིང་སྦོམ་སུ་ཡོདཔ་དང་། གཏན་བཟུང་འབད་ཡོདཔ་དང་འཕྲལ་གྱི་མགོ་ཡིག་སྐྱ་ཐལ་ཚུ་ཡང་སྦོམ་སུ་དང་ལྟག་ལུ་བར་སྟོང་མང་སུ་ཡོད། ཟུར་ཐོ་ཁ་ཕྱེ་སྟེ་བལྟ།</string>
+
+    <!-- 2026-10-15-03-voice-varied-acknowledgements -->
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_title">བོད་བརྡ་ནང་ “ཞིབ་དཔྱད་འབད་དོ” ཉུང་སུ།</string>
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_summary">བོད་བརྡ་ནང་ ཞུ་བ་རེ་རེ་ལུ་ “ཞིབ་དཔྱད་འབད་དོ” ཟེར་སླབ་ནིའི་ཚབ་ལུ་ ཁྱོད་ཀྱིས་སླབ་མི་དང་འཁྲིལ་ཏེ་སྐད་ཀྱི་ལན་བྱིནམ་ཨིན། ཁྱོད་ཀྱིས་ཁ་འཕྲོ་མཐུད་དེ་སླབ་རུང་ ཞུ་བ་གཅིག་ཚར་གཉིས་མི་གཏང་།</string>
+
+    <!-- 2026-10-15-04-smoother-streaming -->
+    <string name="settings_whatsnew_entry_smoother_streaming_title">རིམ་གྱིས་འོང་མི་ལན་ཧེང་སྐལ་འཇམ་ཏོང་ཏོ།</string>
+    <string name="settings_whatsnew_entry_smoother_streaming_summary">རིམ་གྱིས་འོང་མི་ལན་གྱི་གྲལ་ཐིག་གསར་ཤོས་འདི་ གྲིབ་ནི་དང་འོད་འཁྱུག་ནི་མེད་པར་འཇམ་ཏོང་ཏོ་སྦེ་འཐོནམ་ཨིན། གྲལ་ཐིག་ཚུ་ཡིག་གུ་ལས་བརྒལ་ཏེ་འཐེན་ཞིནམ་ལས་ལོག་བསྡུ་ནི་མེད། ཐོའི་ནང་དོན་དང་མགོ་ཡིག་ཚུ་ཡང་ ཐིག་ཐུང་ཡང་ན་ # རྐྱངམ་ཅིག་ལས་འགོ་མ་བཙུགས་པར་རང་གི་བཟོ་རྣམ་ནང་འཐོནམ་ཨིན།</string>
+
+    <!-- 2026-10-15-05-model-list-sheet -->
+    <string name="settings_whatsnew_entry_model_list_sheet_title">ཤོག་ལེབ་ནང་དཔེ་ཚད་ཐོ།</string>
+    <string name="settings_whatsnew_entry_model_list_sheet_summary">དཔེ་ཚད་གདམ་བྱེད་གསརཔ་གི་ཚོད་ལྟ་ཨོན་འབད་ཡོད་པ་ཅིན་ ལྡེ་སྒྲོམ་མར་འགྱོ་སྟེ་ འཕྲིན་དོན་སྒྲོམ་འདི་ལྡེ་སྒྲོམ་ཡོད་སར་དཔེ་ཚད་ཀྱི་ཤོག་ལེབ་ལུ་འགྱུརཝ་ཨིན། ག་དེམ་ཅིག་མགྱོགས་པར་ཁ་ཕྱེ་ཁ་བསྡམས་འབད་རུང་ འཇམ་ཏོང་ཏོ་སྦེ་ལོག་བལྟབ་འགྱོཝ་ཨིན།</string>
+
+    <!-- 2026-10-15-06-queued-pill-whole-title -->
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_title">བསྒུག་ཐོའི་གྱངས་ཁ་ཆ་ཚང་།</string>
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_summary">འཕྲིན་དོན་འབྲི་སའི་ལྟག་གི་རྟགས་ནང་ “བསྒུག་ཐོ་ནང་ 2” ཟེར་ཆ་ཚང་སྟོནམ་ཨིན། “བསྒུག… 2” ཟེར་མི་བཏོག ས་གནས་གཞན་གྱི་འགྱུར་འགྱོ་མི་གྱངས་ཁ་ཚུ་ཡང་ ཡིག་འབྲུ་ཆ་མཉམ་སྟོནམ་ཨིན།</string>
+
+    <!-- 2026-10-16-01-plus-menu-photo-sheet -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_title">ལྡེ་སྒྲོམ་གྱི་ཚབ་ལུ་པར་ཚུ།</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_summary">པ་ལསི་དཀར་ཆག་གསརཔ་གི་ཚོད་ལྟ་ཨོན་འབད་ཡོད་པ་ཅིན་ པར་ཚུ་ཨེབ་ད་ + དཀར་ཆག་འདི་ལྡེ་སྒྲོམ་ཡོད་སར་པར་གྱི་ཤོག་ལེབ་ལུ་རྒྱ་བསྐྱེད་འགྱོཝ་ཨིན། + མནན་བཞག་པ་ཅིན་པར་གསར་ཤོས་ཚུ་སྟོནམ་ཨིན། པར་གཅིག་གུ་བཤུད་དེ་གློད་པ་ཅིན་ཁ་སྐོང་འབདཝ་ཨིན།</string>
+
+    <!-- 2026-10-16-02-composer-large-text-targets -->
+    <string name="settings_whatsnew_entry_composer_large_text_targets_title">འཕྲིན་དོན་འབྲི་སར་ཨེབ་ནི་འཇམ་སུ།</string>
+    <string name="settings_whatsnew_entry_composer_large_text_targets_summary">ཡིག་གུ་སྦོམ་སྦེ་བཞག་རུང་ འཕྲིན་དོན་འབྲི་སའི་ཨེབ་རྟ་ཚུ་ཨེབ་ནི་འཇམ་སུ་ཡོད།</string>
+
+    <!-- 2026-10-16-03-project-pick-haptic -->
+    <string name="settings_whatsnew_entry_project_pick_haptic_title">ལས་འགུལ་གསརཔ་གདམ་ད་འདར་འགུལ།</string>
+    <string name="settings_whatsnew_entry_project_pick_haptic_summary">ལཱ་ཡུན་གསརཔ་གི་དོན་ལུ་ འཕྲིན་དོན་སྒྲོམ་གྱི་ལྟག་ལས་ཡང་ན་ལས་གཞི་ཆ་མཉམ་ནང་ལས་ ལས་འགུལ་སོ་སོ་གདམ་ད་ འདར་འགུལ་ཨ་ཙི་བྱིནམ་ཨིན།</string>
+
+    <!-- 2026-10-16-04-fork-opens-copy -->
+    <string name="settings_whatsnew_entry_fork_opens_copy_title">ཕོརཀ་གིས་འདྲ་བཤུས་ཁ་ཕྱེཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_fork_opens_copy_summary">ལཱ་ཡུན་གྱི་ཁ་གསལ་ནང་ཕོརཀ་ཨེབ་ད་ ད་རུང་འདྲ་བཤུས་ཁ་ཕྱེཝ་ཨིན།</string>
+
+    <!-- 2026-10-16-05-transcript-row-targets -->
+    <string name="settings_whatsnew_entry_transcript_row_targets_title">ཨེབ་ནི་འཇམ་སུ།</string>
+    <string name="settings_whatsnew_entry_transcript_row_targets_summary">ལཱ་ཡུན་ཤོག་ལེབ་ཀྱི་མགོ་མིང་ཨེབ་ནི་འཇམ་སུ་ཡོད། ཁྱོད་ཀྱིས་ཁ་སླབ་སྟེ་ཡིག་གུ་བཙུགས་པའི་བསྒང་ སྦ་བཞག་མི་འཕྲིན་དོན་འབྲི་སའི་ཨེབ་རྟ་ཚུ་ VoiceOver དང་ Voice Control གིས་སེལ་འཐུ་མི་འབད།</string>
+
+    <!-- 2026-10-16-06-image-previews -->
+    <string name="settings_whatsnew_entry_image_previews_title">པར་གྱི་སྔོན་ལྟ།</string>
+    <string name="settings_whatsnew_entry_image_previews_summary">ལས་ཚབ་ཀྱིས་མིང་བཀོད་མི་པར་ཚུ་ སྒྲོམ་ཆུང་ཚུ་ནང་སྒྲིག་སྟེ་སྔོན་ལྟ་སྟོནམ་ཨིན། ཡིག་སྣོད་མེད་པ་ཅིན་མེད་ཟེར་སྟོནམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_1">སྔོན་ལྟ་ཚུ་ དེ་ཚུའི་མིང་བཀོད་མི་དོན་མཚམས་ཀྱི་འོག་ལུ་སྟོནམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_2">པར་ཨེབ་སྟེ་གསལ་གཞི་ཆ་ཚང་ནང་ཁ་ཕྱེ། ལན་འདེབས་ནང་གི་པར་གཞན་ཚུ་བལྟ་ནི་ལུ་བཤུད།</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_3">ལཱ་ཡུན་གྱི་སྣོད་འཛིན་ཕྱི་ཁར་ཡོད་མི་པར་ཚུ་ ཁྱོད་ཀྱིས་མ་ཨེབ་ཚུན་མངོན་གསལ་མི་འབད།</string>
+    <string name="settings_whatsnew_entry_image_previews_example">ཁྱོད་ཀྱི་ལས་འགུལ་ནང་གི་གསལ་གཞིའི་པར་ཚུ་སྟོན་ཟེར་ལས་ཚབ་ལུ་སླབ།</string>
+    <string name="settings_whatsnew_entry_image_previews_prompt">ལས་འགུལ་འདི་ནང་གི་གསལ་གཞིའི་པར་ཚུ་སྟོན།</string>
+
+    <!-- 2026-10-16-07-connection-error-details -->
+    <string name="settings_whatsnew_entry_connection_error_details_title">མཐུད་ལམ་འཛོལ་བས་ག་ཅི་འཐུས་ཤོར་ཡི་ག་སྟོནམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_connection_error_details_summary">མཐུད་ལམ་འཛོལ་བ་ནང་ འཛོལ་བའི་ཨང་རྟགས་དང་མཐུད་ཐབས་འབད་མི་ཁ་བྱང་། DNS གྲུབ་འབྲས་ཚུ་སྟོནམ་ཨིན། tailnet མིང་འདི་ Tailscale ཕྱི་ཁའི་ཁ་བྱང་ལུ་བསྒྱུར་བ་ཅིན་ ཆ་རོགས་ཡང་བྱིནམ་ཨིན།</string>
+
+    <!-- 2026-10-16-08-outage-reconnect-delay -->
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_title">ལོག་མཐུད་ནི་མགྱོགས་སུ།</string>
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_summary">སར་བར་ཆད་ཞིནམ་ལས་ལོག་འོངམ་ད་ ལཱ་ཡུན་ཚུ་ཧེ་མ་ལས་མགྱོགས་པར་དུས་མཐུན་འབདཝ་ཨིན།</string>
+
+    <!-- 2026-10-17-01-every-running-subagent -->
+    <string name="settings_whatsnew_entry_every_running_subagent_title">གཡོག་བཀོལ་མི་ཡན་ལག་ལས་ཚབ་ཆ་མཉམ།</string>
+    <string name="settings_whatsnew_entry_every_running_subagent_summary">འཕྲིན་དོན་འབྲི་སའི་ལྟག་གི་ཡན་ལག་ལས་ཚབ་གྱངས་ཁ་ནང་ ཡན་ལག་ལས་ཚབ་གཞན་གྱི་འོག་ལུ་ཡོད་མི་ཚུ་དང་། ཡན་ལག་ལས་ཚབ་ 100 ལས་ལྷག་པའི་ལཱ་ཡུན་ནང་གི་ཚུ་ཡང་བརྩིཝ་ཨིན། འདི་ TUI དང་མཐུནམ་ཨིན།</string>
+
+    <!-- 2026-10-17-02-session-view-refined-standard -->
+    <string name="settings_whatsnew_entry_session_view_refined_standard_title">ལན་འདེབས་ཀྱི་ཡིག་བཀོད་གསལ་སུ།</string>
+    <string name="settings_whatsnew_entry_session_view_refined_standard_summary">གནས་རིམ་ 3 པའི་མགོ་ཡིག་ཚུ་ཡིག་གུ་རྒྱགས་པ་ལས་སྦོམ་སུ་སྟོནམ་ཨིན། ཡིག་གུ་རྒྱགས་པ་གསལ་ཏོག་ཏོ་མཐོང་ནི་ལུ་ ཡིག་རྒྱུན་ཨ་ཙི་འཇམ་སུ་བཟོ་ཡོདཔ་དང་། དོན་མཚམས་དང་ཨང་རྟགས་སྡེབ་ཚུ་ལུ་བར་སྟོང་ཨ་ཙི་མང་སུ་ཡོད།</string>
+
+    <!-- 2026-10-17-03-bottom-follow-on-load -->
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_title">མཇུག་ལུ་རང་སྡོད།</string>
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_summary">ཕྱིས་ཏེ་འོང་མི་ནང་དོན་མངོན་གསལ་འབད་བའི་བསྒང་ ལཱ་ཡུན་ཚུ་མཇུག་ལུ་རང་སྡོདཔ་ཨིན།</string>
+
+    <!-- 2026-10-17-04-drafts-stay-put -->
+    <string name="settings_whatsnew_entry_drafts_stay_put_title">ཟིན་བྲིས་ཚུ་མ་བརླག་པར་སྡོདཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_drafts_stay_put_summary">གློག་རིམ་རྒྱབ་ཁར་ཁ་བསྡམས་འགྱོ་རུང་ ཟིན་བྲིས་དང་མཉམ་སྦྲགས་པར་དང་ས་གནས་། གཏང་ནི་ལུ་བསྒུག་མི་འཕྲིན་དོན་ཚུ་མ་བརླག་པར་སྡོདཔ་ཨིན།</string>
+
+    <!-- 2026-10-18-01-themes -->
+    <string name="settings_whatsnew_entry_themes_title">བརྗོད་དོན་ཚུ།</string>
+    <string name="settings_whatsnew_entry_themes_summary">ལཱ་ཡུན་ལུ་ Tokyo Night, Catppuccin, Dracula, Rosé Pine ཡང་ན་ GitHub བཟུམ་གྱི་བརྗོད་དོན་བཞག འཚོལ་བལྟ་འབད་བའི་བསྒང་རང་སྔོན་ལྟ་མཐོང་ཚུགས།</string>
+    <string name="settings_whatsnew_entry_themes_detail_1">བརྗོད་དོན་ཚུ་གིས་ ཁ་སླབ་ཡིག་འབེབས་དང་ཁྱོད་ཀྱི་འཕྲིན་དོན་། ཨང་རྟགས་དང་འབྲི་སྒྲིག་། ཁྱད་པར་དང་འབྲེལ་མཐུད་ཚུ་གི་ཚོས་གཞི་བསྒྱུརཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_themes_detail_2">བཟོ་དབྱིབས་ནང་གི་ཐབས་ལམ་གྱིས་ ཡང་འཕྲོས་འཕྲོས་དང་གནག་དུང་དུ་ ཡང་ན་ལམ་ལུགས་དང་འཁྲིལ་ཏེ་བཞགཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_themes_detail_3">བརྗོད་དོན་ག་ཅི་ནང་ཡང་ ཚད་འཛིན་ཚུ་གི་ཐོག་མའི་ Liquid Glass བཟོ་རྣམ་འདི་རང་སྡོདཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_themes_example">སྒྲིག་སྟངས་ཚུ་ → བཟོ་དབྱིབས་ → བརྗོད་དོན་ཁ་ཕྱེ་སྟེ་ Tokyo Night ཚོད་ལྟ་འབད།</string>
+
+    <!-- 2026-10-18-02-return-key-sends -->
+    <string name="settings_whatsnew_entry_return_key_sends_title">Return ལྡེ་མིག་གི་སྒྲིག་སྟངས།</string>
+    <string name="settings_whatsnew_entry_return_key_sends_summary">Return གིས་གྲལ་ཐིག་གསརཔ་ཁ་སྐོང་འབད་དགོ་པ་ཅིན་ སྒྲིག་སྟངས་ནང་ Return ལྡེ་མིག་གིས་གཏང་ནི་འདི་ཨོཕ་འབད། ཡང་ན་ཕྱིའི་ལྡེ་སྒྲོམ་གུ་ Command-Return དང་ Shift-Return ལག་ལེན་འཐབ།</string>
+
+    <!-- 2026-10-18-03-quote-replies -->
+    <string name="settings_whatsnew_entry_quote_replies_title">ལན་ལས་ལུང་འདྲེན།</string>
+    <string name="settings_whatsnew_entry_quote_replies_summary">ལས་རོགས་ཀྱི་ལན་ནང་ལས་ཡིག་གུ་སེལ་འཐུ་འབད་དེ་ ལུང་འདྲེན་ལུ་ཨེབ། དེ་ལས་ཁྱོད་ཀྱི་འཕྲིན་དོན་ནང་ལུང་འདྲེན་ཤོག་བྱང་སྦེ་ཁ་སྐོང་འབད་འོང་།</string>
+
+    <!-- 2026-10-18-04-launch-bloom -->
+    <string name="settings_whatsnew_entry_launch_bloom_title">ཁ་ཕྱེཝ་ད་རྒྱས་པ།</string>
+    <string name="settings_whatsnew_entry_launch_bloom_summary">གློག་རིམ་གསར་དུ་འགོ་བཙུགས་ཏེ་ཁ་ཕྱེཝ་ད་ OpenCode རྟགས་འདི་ནང་ལུ་བསྡུ་སྟེ་ ཁྱོད་ཀྱི་ལཱ་ཡུན་ལུ་རྒྱས་འོང་།</string>
+
+    <!-- 2026-10-18-05-drag-to-pin -->
+    <string name="settings_whatsnew_entry_drag_to_pin_title">ལཱ་ཡུན་འདྲུད་དེ་གཏན་བཟུང་འབད།</string>
+    <string name="settings_whatsnew_entry_drag_to_pin_summary">ལཱ་ཡུན་གང་རུང་ཨེབ་བཞག་སྟེ་ ཡར་གཏན་བཟུང་འབད་ཡོདཔ་ནང་འདྲུད་པ་ཅིན་ ས་གནས་དེ་ཁར་གཏན་བཟུང་འབད་འོང་། གཏན་བཟུང་འབད་ཡོད་པའི་ལཱ་ཡུན་མར་འཕྲལ་གྱི་ནང་འདྲུད་པ་ཅིན་ གཏན་བཟུང་བཤོལ་འོང་།</string>
+
+    <!-- 2026-10-19-01-call-tray-colour-blend -->
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_title">བོད་བརྡའི་ཨེབ་རྟ་ཧེང་སྐལ་འཇམ་ཏོང་ཏོ།</string>
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_summary">བོད་བརྡའི་ཐོ་སྡེར་བརྟག་དཔྱད་འདི་ཨོན་འབད་ཡོདཔ་ད་ བོད་བརྡ་འགོ་བཙུགསཔ་ད་ ཨེབ་རྟ་འདི་མཇུག་བསྡུའི་ཨེབ་རྟ་དམརཔོ་ལུ་ཐད་ཀར་སོར་འོང་། བོད་བརྡ་བཞགཔ་ད་ལོག་སོར་འོང་། རྒྱབ་གཞི་བརྒྱུད་དེ་འོད་འཁྱུག་མི་འབད།</string>
+
+    <!-- 2026-10-19-02-optical-insets -->
+    <string name="settings_whatsnew_entry_optical_insets_title">ཚད་མཉམ་བཞག་པའི་ཚད་འཛིན་ཚུ།</string>
+    <string name="settings_whatsnew_entry_optical_insets_summary">འཕྲིན་དོན་འབྲི་སའི་ + དང་སྐད་འཛིན་ རྒྱབ་ཁའི་ལཱ་དང་བསྒུག་ཐོའི་རྟགས་ དེ་ལས་ཟུར་ཐོའི་ལཱ་ཡུན་གསརཔ་གི་རྟགས་ཚུ་ ད་ལྟོ་དྭངས་གསལ་གྱི་མཐའ་སྒོར་ས་ལུ་མིག་ལུ་དབུས་སྒྲིག་སྦེ་མཐོང་ཚུགས། ཤལ་གྱི་རྟགས་ཡང་ཡན་ལག་ལས་ཚབ་ཀྱི་སྒོར་རྟགས་བཟུམ་སྦེ་ འོད་འཁྱུག་པའི་འོད་རྟགས་མེད་པའི་སྒོར་ཐིག་ཅིག་ཨིན། གཉིས་ཆ་ར་གཡོག་བཀོལཝ་ད་ གཅིག་གི་ཟུར་ཁར་གཅིག་སྟོནམ་ཨིན།</string>
+
+    <!-- 2026-10-19-03-smart-dictation-audio -->
+    <string name="settings_whatsnew_entry_smart_dictation_audio_title">ཞབས་ཁྲ་དང་གཅིག་ཁར་སྐད་ཡིག་འཇམ་ཏོང་ཏོ།</string>
+    <string name="settings_whatsnew_entry_smart_dictation_audio_summary">ཞབས་ཁྲ་གཏང་བཞིན་དུ་སྐད་ཡིག་འབྲིཝ་ད་ AirPods ནང་སྒྲ་གཉིས་ལྡན་སྦེ་གནས་ཏེ་ སྐར་མ་གཅིག་གི་ཤུལ་ལས་སྒྲ་ཆད་མི་འགྱོ། འགྲུལ་འཕྲིན་རྐྱངམ་ཅིག་ལག་ལེན་འཐབ་ད་ རྣ་ཉན་མེན་པར་སྒྲ་སྒམ་ལས་རང་ཐོས་འོང་།</string>
+
+    <!-- 2026-10-19-04-interrupted-hand -->
+    <string name="settings_whatsnew_entry_interrupted_hand_title">བར་ཆད་ཀྱི་ལགཔ་རྟགས།</string>
+    <string name="settings_whatsnew_entry_interrupted_hand_summary">བར་ཆད་བྱུང་བའི་ལཱ་དང་ཤལ་གྱིས་ ད་ལྟོ་ལགཔ་ཡར་འཐུ་བའི་རྟགས་སྟོནམ་ཨིན། ཁྱོད་ཀྱིས་བཀག་པའི་ཤལ་ལུ་ བཀག་ཡོདཔ་གི་ཚབ་ལུ་ བར་ཆད་ཅན་ཟེར་སྟོནམ་ཨིན།</string>
+
+    <!-- 2026-10-19-05-autocomplete-fast-scroll -->
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_title">རང་བཞིན་ཁ་སྐོང་མགྱོགས་དྲགས།</string>
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_summary">འཕྲིན་དོན་འབྲི་སའི་རང་བཞིན་ཁ་སྐོང་བརྟག་དཔྱད་ཨོན་འབད་ཡོདཔ་ད་ ཁྱོད་ཀྱིས་འབྲིཝ་དང་བསྟུན་ཏེ་བསམ་འཆར་ཚུ་མགྱོགས་པར་འོངམ་ཨིན། ཐོ་འདྲུདཔ་ད་ གྲལ་ཐིག་སེལ་འཐུ་མ་འབད་བར་བཤུད་ཚུགས།</string>
+
+    <!-- 2026-10-19-06-experimental-groups -->
+    <string name="settings_whatsnew_entry_experimental_groups_title">སྡེ་ཚན་བཟོ་བའི་བརྟག་དཔྱད་ཚུ།</string>
+    <string name="settings_whatsnew_entry_experimental_groups_summary">སྒྲིག་སྟངས་ཚུ་ → བརྟག་དཔྱད་འབད་མི་ནང་ བརྟག་དཔྱད་ཚུ་སྡེ་ཚན་བཟོ་ཡོདཔ་དང་ བོད་བརྡའི་བཟོ་རྣམ་གྱི་གདམ་ཁ་གཅིག་ཡོད།</string>
+
+    <!-- 2026-10-19-07-model-picker-standard-sheet -->
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_title">དཔེ་ཚད་འཐུ་སའི་ཚད་ལྡན་ཤོག་ལེབ།</string>
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_summary">དཔེ་ཚད་འཐུ་ས་གསརཔ་གི་བརྟག་དཔྱད་ཨོན་འབད་ཡོདཔ་ད་ འཕྲིན་དོན་སྒྲོམ་ནང་གི་དཔེ་ཚད་ཨེབ་པ་ཅིན་ དཔེ་ཚད་རེ་ལུ་བསམ་ཤེས་ཀྱི་གནས་རིམ་དཀར་ཆག་ཡོད་པའི་ཚད་ལྡན་ཤོག་ལེབ་ཅིག་ཁ་ཕྱེཝ་ཨིན། ཧེ་མའི་འཐུ་ས་འདི་ ད་ལྟོ་སྒྲིག་སྟངས་ཚུ་ › བརྟག་དཔྱད་འབད་མི་ནང་ སྲོལ་སྒྲིག་དཔེ་ཚད་འཐུ་ས་ཟེར་ཡོད།</string>
+
+    <!-- 2026-10-19-08-problem-reports-reach-session -->
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_title">སྙན་ཞུ་ཚུ་ལཱ་ཡུན་ནང་ལྷོདཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_summary">དཀའ་ངལ་སྙན་ཞུ་འབདཝ་ད་ ད་ལྟོ་ཁྱོད་ཀྱི་དྲན་འཛིན་འདི་སྙན་ཞུ་འབད་སའི་ལཱ་ཡུན་ནང་ཡང་གཏངམ་ཨིན། ལས་ཚབ་ཀྱིས་ལྷག་ནི་ལུ་སྙན་ཞུ་ཆ་ཚང་མཉམ་སྦྲགས་འབདཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_1">འཕྲིན་དོན་འདི་ དཀའ་ངལ་སྙན་ཞུའི་གྲལ་ཐིག་ ཁྱོད་ཀྱི་དྲན་འཛིན་ སྙན་ཞུའི་ཨའི་ཌི་དང་ སྐྱེལ་བཙུགས་འབད་ཡོད་པའི་རྗེས་འཚོལ་གྱི་འབྲེལ་མཐུད་དང་བཅས་འགོ་བཙུགསཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_2">ཐབས་འཕྲུལ་ བཟོ་ཐེངས་ གསལ་གཞི་ དུས་ཚོད་དང་གློག་རིམ་དྲན་དེབ་ཚུ་ ཁྱོད་རང་གིས་མཉམ་སྦྲགས་འབད་དོ་བཟུམ་སྦེ་ ཡིག་སྣོད་མཉམ་སྦྲགས་ཅིག་སྦེ་ལྷོདཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_3">ཁྱིམ་ལས་གཏང་པ་ཅིན་ ཁྱོད་ཀྱི་འཕྲལ་གྱི་ལཱ་ཡུན་མཐའ་མཇུག་ནང་འགྱོཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_4">སྐྱེལ་བཙུགས་འཐུས་ཤོར་བ་ཅིན་ཡང་ དྲན་འཛིན་དང་བཅུད་དོན་ལྷོད་དེ་ འཐུས་ཤོར་ཡོདཔ་སྟོནམ་ཨིན། དེ་ལས་ བསྐྱར་དུ་ཚོད་ལྟ་ཨེབ་པ་ཅིན་ རྗེས་འཚོལ་གྱི་འབྲེལ་མཐུད་རྐྱངམ་ཅིག་གཏངམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_5">ལྷོདཔ་ད་ “ལཱ་ཡུན་ནང་བཏང་ཡོདཔ།” ཟེར་ངེས་གཏན་སྟོནམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_example">ལཱ་ཡུན་གྱི་དཀར་ཆག་ཁ་ཕྱེ་སྟེ་ དཀའ་ངལ་སྙན་ཞུ་གདམ་ཁ་རྐྱབས། དྲན་འཛིན་ཁ་སྐོང་འབད་དེ་ གཏང་ཨེབ།</string>
+
+    <!-- 2026-10-19-09-team-scrawl-feedback -->
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_title">སྡེ་ཚན་གྱི་ Scrawl བསམ་འཆར།</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_summary">ཁྱོད་རང་གི་འབྲེལ་མཐུད་ལས་ Team Feedback ནང་འཛུལ་ཏེ་ མཛུབ་མོ་གསུམ་གྱི་ Scrawl སྒྲ་བཟུང་དང་ གསང་བའི་གནས་ཚུལ་བསལ་ཡོད་པའི་བརྟག་དཔྱད་གནས་སྡུད་ཚུ་ དཀའ་ངལ་བྱང་པང་གི་མཉམ་སྤྱོད་བསྒུག་ཐོ་ནང་གཏང་།</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_1">ཁྱོད་ཀྱི་ opencode://team/join འབྲེལ་མཐུད་ཁ་ཕྱེ་སྟེ་ ག་ཅི་བསྡུ་སྒྲིག་འབདཝ་ཨིན་ན་བསྐྱར་ཞིབ་འབད་དེ་ཁས་ལེན་འབད།</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_2">ཕན་ཚུན་འབྲེལ་བའི་གོམ་པ་གསུམ་གྱི་སྦྱོང་ཚན་གྱིས་ མཛུབ་མོ་གསུམ་ཨེབ་བཞག་ནི་ ཁ་སླབ་ནི་དང་པར་འབྲི་ནི་ སྦྱོང་བརྡར་གྱི་བརྙན་ཐུང་ཚོད་ལྟའི་གྲལ་ནང་གཏང་ནི་ཚུ་སྟོནམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_3">སྒྲ་བཟུང་རེ་རེ་ལུ་ དཀའ་ངལ་སྙན་ཞུ་ནང་བཟུམ་སྦེ་ གསང་བའི་གནས་ཚུལ་བསལ་ཡོད་པའི་དུས་ཚོད་ གློག་རིམ་དྲན་དེབ་དང་ Motion Watch བརྟག་དཔྱད་གནས་སྡུད་ཚུ་མཉམ་སྦྲགས་འབདཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_4">སྒྲིག་སྟངས་ཚུ་ › བཟོ་མི་ནང་ ནམ་རང་འབད་རུང་སྦྱོང་ཚན་ལོག་གཏང་ནི་དང་ Team Feedback ལས་ཐོན་ཚུགས།</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_example">Team Feedback གནས་སྟངས་ཞིབ་དཔྱད་འབད་ནི་ཡང་ན་ སྦྱོང་ཚན་ལོག་གཏང་ནི་ལུ་ སྒྲིག་སྟངས་ཚུ་ › བཟོ་མི་ཁ་ཕྱེ།</string>
+
+    <!-- 2026-10-19-10-scrawl-faster-start -->
+    <string name="settings_whatsnew_entry_scrawl_faster_start_title">Scrawl མགྱོགས་པར་འགོ་བཙུགས།</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_summary">སྐད་འཛིན་དང་སྒྲ་བཟུང་འཕྲུལ་ཆས་འགོ་བཙུགས་པའི་སྐབས་ Scrawl གི་ཚད་འཛིན་ཚུ་འཐོནམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_1">སྒྲ་བཟུང་གྲ་སྒྲིག་འབད་བའི་སྐབས་ པར་འབྲི་ གཏང་དང་བཏོན་གཏང་ཨེབ་ཡོད་མི་ཚུ་ཉར་བཞགཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_2">མཛུབ་མོ་གསུམ་ཨེབ་བཞགཔ་ད་ སྐད་འཛིན་སྔ་སུ་འགོ་མ་བཙུགས་པར་ ཐོག་བརྩེགས་གྲ་སྒྲིག་འབདཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_3">སྒྲའི་འགྲོ་ལམ་སོར་བའི་སྐབས་ Scrawl གི་སྐད་འཛིན་ལོག་འགོ་བཙུགསཔ་ད་ གློག་རིམ་གློ་བུར་ཁ་བསྡམ་མི་འདི་བཅོ་ཁ་རྐྱབ་ཡོད།</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_example">ཆ་སྒྲིག་འབད་ཡོད་པའི་ཐབས་འཕྲུལ་ནང་ སྒྲ་བཟུང་འགོ་བཙུགས་ནི་ལུ་མཛུབ་མོ་གསུམ་ཨེབ་བཞག</string>
+
+    <!-- 2026-10-20-01-call-tray-docks-in-drawer -->
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_title">ཟུར་ཐོ་ནང་བོད་བརྡའི་ཐོ་སྡེར།</string>
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_summary">བོད་བརྡའི་ཐོ་སྡེར་བརྟག་དཔྱད་ཨོན་འབད་ཡོདཔ་ད་ བོད་བརྡའི་སྐབས་ཟུར་ཐོ་ཁ་ཕྱེ་པ་ཅིན་ ཐོ་སྡེར་འདི་སྒྲའི་ཚད་ བརྡ་བསྐུལ་བཀག་དང་མཇུག་བསྡུ་དང་བཅས་ ལཱ་ཡུན་གསརཔ་གི་འོག་ལུ་སྤོཝ་ཨིན། ཟུར་ཐོ་ཁ་བསྡམས་པ་ཅིན་ལོག་འོངམ་ཨིན།</string>
+
+    <!-- 2026-10-20-02-markdown-streams-smoothly -->
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_title">རིམ་བཞིན་འོང་བའི་ལན་འཇམ་ཏོང་ཏོ།</string>
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_summary">ལན་རིངམོ་ཚུ་རིམ་བཞིན་འོངམ་ད་ མགྱོགས་དྲགས་སྦེ་རང་གནསཔ་ཨིན། ཕྱེད་ཀ་འབྲི་ཡོད་པའི་ཡིག་གཟུགས་རྒྱགས་པ་ ཨང་རྟགས་དང་འབྲེལ་མཐུད་ཚུ་ཡང་ Markdown རྗེནམ་མེན་པར་རྩ་སྒྲིག་འབད་དེ་སྟོནམ་ཨིན།</string>
+
+    <!-- 2026-10-20-04-return-newline-default -->
+    <string name="settings_whatsnew_entry_return_newline_default_title">Return གིས་གྲལ་ཐིག་གསརཔ་བཙུགསཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_return_newline_default_summary">ད་ལྟོ་ Return གིས་སྔོན་སྒྲིག་ལྟར་གྲལ་ཐིག་གསརཔ་བཙུགསཔ་ཨིན། Return གིས་གཏང་ནི་ལུ་ སྒྲིག་སྟངས་ཚུ་ › ལཱ་ཡུན་ཚུ་ནང་ Return ལྡེ་མིག་གིས་གཏང་འདི་ཨོན་འབད། ཡང་ན་ ཕྱིའི་ལྡེ་སྒྲོམ་ནང་ Ctrl+Enter ལག་ལེན་འཐབ།</string>
+
+    <!-- 2026-10-20-05-drawer-session-alignment -->
+    <string name="settings_whatsnew_entry_drawer_session_alignment_title">གྲལ་སྒྲིག་པའི་ཟུར་ཐོ་ཚད་འཛིན།</string>
+    <string name="settings_whatsnew_entry_drawer_session_alignment_summary">འགྲུལ་འཕྲིན་དང་ཊེབ་ལེཊ་ནང་ འཚོལ་ནི་ ལཱ་ཡུན་གསརཔ་དང་སྒྲིག་སྟངས་ཚུ་ ལཱ་ཡུན་གྱི་མགོ་ཡིག་དང་འཕྲིན་དོན་སྒྲོམ་དང་གྲལ་སྒྲིག་ཡོད།</string>
+
+    <!-- 2026-10-20-06-call-tray-switch-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_title">བོད་བརྡའི་ཚད་འཛིན་བརྟན་ཏོག་ཏོ།</string>
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_summary">ལཱ་ཡུན་སོརཝ་ད་ཡང་ བོད་བརྡའི་སྒྲ་རླབས་འགུལ་བཞིན་གནསཔ་ཨིན། ལཱ་ཡུན་ཐོ་ཁ་ཕྱེཝ་ད་ ཚད་འཛིན་ཚུ་མཐོ་ཚད་གཅིག་ཁར་གནསཔ་ཨིན།</string>
+
+    <!-- 2026-10-20-07-voice-delegation-visible-on-admission -->
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_title">སྐད་འཕྲིན་ཚུ་དེ་འཕྲལ་ལས་འཐོནམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_summary">སྐད་ཀྱིས་ལཱ་ཡུན་ནང་གཏང་བའི་འཕྲིན་དོན་ཚུ་ སར་བར་གྱིས་ཁས་ལེན་འབདཝ་ཅིག་འཐོནམ་ཨིན། ལཱ་ཡུན་དུས་མཐུན་ཕྱིས་རུང་མཐོང་ཚུགས།</string>
+
+    <!-- 2026-10-20-08-inline-image-links -->
+    <string name="settings_whatsnew_entry_inline_image_links_title">པར་འབྲེལ་མཐུད་སྔོན་ལྟ།</string>
+    <string name="settings_whatsnew_entry_inline_image_links_summary">ལན་ནང་གི་འབྲེལ་མཐུད་ཡོད་པའི་པར་ཚུ་སྔོན་ལྟ་འབད་ནི་ལུ་ སྒྲིག་སྟངས་ཚུ་ › བརྟག་དཔྱད་འབད་མི་ › ཁ་སླབ་ཡིག་འབེབས་ནང་ པར་འབྲེལ་མཐུད་སྔོན་ལྟ་ཨོན་འབད། པར་ཆུང་ཨེབ་སྟེ་ གསལ་གཞི་ཆ་ཚང་ནང་ཁ་ཕྱེ་ནི་དང་རྒྱས་ཟུམ་འབད་ཚུགས།</string>
+
+    <!-- 2026-10-20-09-smooth-link-preview-arrival -->
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_title">འབྲེལ་མཐུད་སྔོན་ལྟ་འཇམ་ཏོང་ཏོ།</string>
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_summary">འབྲེལ་མཐུད་སྔོན་ལྟ་ཚུ་མངོན་གསལ་འབདཝ་ད་ རིམ་གྱིས་གསལ་འོངམ་ཨིན། མགོ་མིང་གི་མཐོ་ཚད་སོརཝ་ད་ འོག་གི་གྲལ་ཐིག་ཚུ་འཇམ་ཏོང་ཏོ་སྦེ་སྤོཝ་ཨིན།</string>
+
+    <!-- 2026-10-20-10-subagent-capsule-press -->
+    <string name="settings_whatsnew_entry_subagent_capsule_press_title">ལཱ་གི་ཤུབས་མཐའ་སྒོར་སྒོ།</string>
+    <string name="settings_whatsnew_entry_subagent_capsule_press_summary">ཡན་ལག་ལས་ཚབ་དང་ཤལ་གྱི་ཤུབས་ཨེབ་པའི་སྐབས་ཡང་ མཐའ་ཚུ་སྒོར་སྒོ་སྦེ་རང་གནསཔ་ཨིན།</string>
+
+    <!-- 2026-10-20-11-advanced-settings-open -->
+    <string name="settings_whatsnew_entry_advanced_settings_open_title">ཡར་རྒྱས་སྒྲིག་སྟངས་འཇམ་ཏོང་ཏོ།</string>
+    <string name="settings_whatsnew_entry_advanced_settings_open_summary">སྒྲིག་སྟངས་ཚུ་ › བརྟག་དཔྱད་འབད་མི་ནང་ བརྟག་དཔྱད་ཚུ་ཆ་མཉམ་ཕྱེ་ཡོད་པའི་སྡེ་ཚན་ནང་ཡོད། དཔེ་ཚད་གདམ་ཆས་ཚུ་གདམ་ཁ་གཅིག་ནང་བསྡུ་ཡོདཔ་ད་ གདམ་ཁའི་གྲལ་ནང་ག་ཏེ་ཨེབ་རུང་བསྒྱུར་ཚུགས།</string>
+
+    <!-- 2026-10-20-12-revert-to-here -->
+    <string name="settings_whatsnew_entry_revert_to_here_title">འཕྲིན་དོན་ཕྱིར་ལོག་འབད།</string>
+    <string name="settings_whatsnew_entry_revert_to_here_summary">ཁྱོད་ཀྱི་འཕྲིན་དོན་གཅིག་ཨེབ་བཟུང་འབད་དེ་ འཕྲིན་དོན་ཕྱིར་ལོག་འབད་ཟེར་མི་གདམ་ཁ་རྐྱབས། དེ་ལས་ས་གནས་དེ་ཁར་ལོག་སྟེ་ཞུན་དག་འབད་ཚུགས།</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_1">འཕྲིན་དོན་གྱི་ཡིག་གུ་ པར་དང་ཡིག་སྣོད་ཚུ་ འཕྲིན་དོན་སྒྲོམ་ནང་ལོག་འོངམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_2">འཕྲིན་དོན་གསརཔ་མ་བཏང་ཚུན་ འབད་བཤོལ་འབད་ཟེར་མི་གིས་ སླབ་ལན་ཚུ་དང་དེ་ཚུའི་ཡིག་སྣོད་བསྒྱུར་བཅོས་ཚུ་ལོག་འབག་འོངམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_3">ལས་ཚབ་ཀྱིས་ལཱ་མ་འབད་བའི་སྐབས་ལུ་ལག་ལེན་འཐབ་ཚུགས།</string>
+    <string name="settings_whatsnew_entry_revert_to_here_example">ཧེ་མ་བཏང་ཡོད་པའི་འཕྲིན་དོན་གཅིག་ཨེབ་བཟུང་འབད་དེ་ འཕྲིན་དོན་ཕྱིར་ལོག་འབད་ཟེར་མི་གདམ་ཁ་རྐྱབས།</string>
+
+    <!-- 2026-10-20-13-drag-from-transcript -->
+    <string name="settings_whatsnew_entry_drag_from_transcript_title">ལཱ་ཡུན་ནང་ལས་འཐེན།</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_summary">ལཱ་ཡུན་ནང་ལས་ ཨང་རྟགས་ པར་ ཡིག་སྣོད་ འབྲེལ་མཐུད་དང་འཕྲིན་དོན་ཚུ་ཨེབ་བཟུང་འབད་དེ་ གློག་རིམ་གཞན་ནང་འཐེན།</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_1">ཨང་རྟགས་སྡེ་ཚན་ཚུ་ དེ་ཚུའི་སྐད་ཡིག་དང་བཅས་ ཡིག་གུ་སྦེ་འོངམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_2">ལས་ཚབ་ཀྱིས་བཟོ་ཡོད་པའི་པར་དང་ཡིག་སྣོད་ཚུ་ ཡིག་སྣོད་སྦེ་འོངམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_3">མཉམ་སྦྲགས་ཡང་ན་སྦྱར་ནི་ལུ་ དེ་ཚུ་གང་རུང་འཕྲིན་དོན་སྒྲོམ་ནང་བཞག</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_4">བཤུད་ནི་ ཡིག་གུ་སེལ་འཐུ་དང་དཀར་ཆག་ཚུ་ ཧེ་མ་བཟུམ་སྦེ་ལཱ་འབདཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_example">ལན་འདེབས་ནང་གི་ཨང་རྟགས་གྲལ་ཐིག་གཅིག་སེལ་འཐུ་འབད། དེ་ལས་སེལ་འཐུ་འབད་མི་དེ་ཨེབ་བཟུང་འབད་དེ་ སྡེ་ཚན་དེ་ Notes ནང་འཐེན།</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_prompt">ཡིག་རྒྱུན་གཅིག་གོ་རིམ་ལོག་མི་ Swift ལས་འགན་ཐུང་ཀུ་གཅིག་ ཨང་རྟགས་སྡེ་ཚན་ནང་བྲི།</string>
+
+    <!-- 2026-10-20-14-tuning-glass-tap-targets -->
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_title">བདེ་སྒྲིག་འཛིན་ཆས་འཇམ་སུ།</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_summary">བལྟབ་ཡོད་པའི་བདེ་སྒྲིག་ཨེབ་རྟ་འཇོང་འཇོངམ་དང་མཐའི་མཆོང་ལྡེའི་ཨེབ་ས་སྦོམ་སུ་བཟོ་ཡོད།</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_detail_1">དེ་ཚུའི་ཤེལ་བཟུམ་གྱི་ངོས་ཀྱི་ཚད་ཧེ་མ་བཟུམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_example">བདེ་སྒྲིག་པེ་ནཱལ་བལྟབ་སྟེ་ དེའི་ཨེབ་རྟ་འཇོང་འཇོངམ་ཡང་ན་མཆོང་ལྡེའི་མཐའ་འགྲམ་ལུ་ཨེབ།</string>
+
+    <!-- 2026-10-20-15-new-session-project-continuity -->
+    <string name="settings_whatsnew_entry_new_session_project_continuity_title">ལས་འགུལ་གདམ་ཁ་བརྟན་ཏོག་ཏོ།</string>
+    <string name="settings_whatsnew_entry_new_session_project_continuity_summary">ལས་འགུལ་གདམ་ཁ་རྐྱབ་པའི་སྐབས་ འཕྲལ་གྱི་སྣོད་འཛིན་ཚུའི་ས་གནས་མི་འགྱུར། མགོ་ཡིག་གི་མིང་འཇམ་ཏོང་ཏོ་སྦེ་འགྱུརཝ་ད་ ལས་འགུལ་ཤོག་ལེབ་ནང་སྣོད་འཛིན་གྱི་འགྲུལ་ལམ་ཚུ་ཁ་གསལ་སུ་ཡོད།</string>
+
+    <!-- 2026-10-20-16-simple-session-loading -->
+    <string name="settings_whatsnew_entry_simple_session_loading_title">ལཱ་ཡུན་མངོན་གསལ་ཞི་ཏོང་ཏོ།</string>
+    <string name="settings_whatsnew_entry_simple_session_loading_summary">ལཱ་ཡུན་མངོན་གསལ་འབད་ནི་ལུ་དུས་ཚོད་ཙམ་འགོར་བ་ཅིན་རྐྱངམ་ཅིག་ མི་འགུལ་བའི་ལས་རྟགས་ཆུང་ཀུ་གཅིག་རིམ་གྱིས་འཆར་ཏེ་ འཕྲིན་དོན་ཚུ་འཆརཝ་ད་ཡལཝ་ཨིན།</string>
+
+    <!-- 2026-10-20-17-voice-route-consistency -->
+    <string name="settings_whatsnew_entry_voice_route_consistency_title">སྐད་ཀྱི་མཐུད་ལམ་བཅོ་ཁ།</string>
+    <string name="settings_whatsnew_entry_voice_route_consistency_summary">ཁྱོད་ཀྱི་སར་བར་གྱིས་བོད་བརྡ་ཚུ་གཡོག་བཀོལཝ་ད་ Grok གིས་ཁྱོད་ཀྱི་ xAI ལྡེ་མིག་ར་ལག་ལེན་འཐབ་ཨིན། Gemini གིས་ཡང་རང་གི་ངོ་སྤྲོད་འཛོལ་བ་མེད་པར་འབདཝ་ཨིན།</string>
+
+    <!-- 2026-10-20-18-call-tray-edge-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_title">བོད་བརྡའི་ཐོ་སྡེར་གྱི་འགུལ་བ།</string>
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_summary">བོད་བརྡའི་ཐོ་སྡེར་ཁ་ཕྱེ་སྟེ་ ཟུར་ཐོ་ནང་འཛུལ་ནི་དང་ཕྱིར་ཐོན་ནིའི་སྐབས་ དེའི་སྒྲའི་རླབས་རིས་དེ་མཐའ་སྒོར་སྒོརམ་བདའ་སྟེ་འགུལཝ་ཨིན།</string>
+
+    <!-- 2026-10-21-01-call-tray-keyboard-return -->
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_title">བོད་བརྡའི་ཐོ་སྡེར་ལོག་འོང་ནི།</string>
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_summary">ཟུར་ཐོ་ཁ་བསྡམས་ཏེ་ལྡེ་སྒྲོམ་ལོག་འོངམ་ད་ བོད་བརྡའི་ཐོ་སྡེར་མཐོངམ་སྦེ་ར་སྡོདཔ་ཨིན།</string>
+
+    <!-- 2026-10-21-02-drawer-title-fade -->
+    <string name="settings_whatsnew_entry_drawer_title_fade_title">ལཱ་ཡུན་མགོ་མིང་ཆ་ཚང་སུ།</string>
+    <string name="settings_whatsnew_entry_drawer_title_fade_summary">ཟུར་ཐོ་ནང་གི་ལཱ་ཡུན་མགོ་མིང་རིངམ་ཚུ་ སྔ་སུ་ལས་ཚག་གསུམ་གྱིས་བཀག་མ་བཞག་པར་ མཐའ་ཚུན་སྟོན་ཏེ་རིམ་གྱིས་ཡལཝ་ཨིན།</string>
+
+    <!-- 2026-10-21-03-call-sounds-from-the-tap -->
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_title">བོད་བརྡའི་སྒྲ་མགྱོགས་སུ།</string>
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_summary">བོད་བརྡ་མཐུད་པའི་སྒྲ་དེ་ ཨེབ་པའི་ཤུལ་ལས་སྐར་ཆ་གཉིས་དེ་ཅིག་སྒུག་མ་དགོ་པར་ འགུལ་རིས་འགོ་དང་པ་དང་གཅིག་ཁར་འགོ་བཙུགསཔ་ཨིན།</string>
+
+    <!-- 2026-10-21-04-calm-wireframe-launch -->
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_title">མངོན་གསལ་ཞི་ཏོང་ཏོ།</string>
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_summary">གནས་སྡུད་གསོག་འཇོག་འབད་ཡོད་པའི་ལཱ་ཡུན་ཚུ་དེ་འཕྲོ་ལས་ཁ་ཕྱེཝ་ཨིན། དུས་ཚོད་ཙམ་འགོར་མི་ལཱ་ཡུན་གྱིས་ འཕྲིན་དོན་སྒྲོམ་འོད་འཕར་མི་ཚུ་སྟོན་ཏེ་ རིམ་གྱིས་ཁྱོད་ཀྱི་འཕྲིན་དོན་ཚུ་ལུ་འགྱུརཝ་ཨིན།</string>
+
+    <!-- 2026-10-21-05-request-dictation-last-line -->
+    <string name="settings_whatsnew_entry_request_dictation_last_line_title">སྐད་ལས་བྲིས་པའི་མཇུག་སྟོན།</string>
+    <string name="settings_whatsnew_entry_request_dictation_last_line_summary">iOS 26 ནང་ སྒུག་ཡོད་པའི་ཞུ་བའི་ལན་སྒྲོམ་ནང་སྐད་ལས་ཡིག་གུ་རིངམ་བྲིས་ཏེ་བཀགཔ་ད་ བར་ནའི་ཡིག་གུ་མེན་པར་མཇུག་གི་གྲལ་ཐིག་ཚུ་སྟོནམ་ཨིན།</string>
+
+    <!-- 2026-10-21-06-first-run-pairing-fixes -->
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_title">ཆ་སྒྲིག་འགོ་དང་པ་ཁ་གསལ་སུ།</string>
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_summary">འདྲ་བཤུས་གནས་ས་སྟོངམ་ཨིནམ་ད་སྦྱར་བ་ཅིན་ སྦྱར་ཟེར་མིའི་སྦོ་ལོགས་ཁར་དེ་སྦེ་སྟོནམ་ཨིན། གཞི་སྒྲིག་གིས་ཡང་ སྐར་མ་ཕྱེད་ནང་ཐག་རིང་ལས་འཛུལ་ཚུགས་ཟེར་ཁས་མི་ལེན།</string>
+
+    <!-- 2026-10-21-07-welcome-pairing-copy -->
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_title">OpenCode གློག་རིམ་ལས་ཆ་སྒྲིག་འབད།</string>
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_summary">བྱོན་པ་ལེགས་སོའི་གསལ་གཞི་གིས་ ཁྱོད་ཀྱི་གློག་རིག་ནང་གི་ OpenCode གི་སྒྲིག་སྟངས་ཚུ་ → ཆ་སྒྲིག་འབད་དོ་ལུ་ ཡང་ན་ཊར་མི་ནཱལ་ནང་ /pair ལུ་ལམ་སྟོནམ་ཨིན། OpenCode མེད་མི་ཚུ་གི་དོན་ལུ་བཙུགས་ནིའི་བརྡ་བཀོད་ཡང་ཡོད།</string>
+
+    <!-- 2026-10-21-08-session-id-links -->
+    <string name="settings_whatsnew_entry_session_id_links_title">ལཱ་ཡུན་འབྲེལ་མཐུད་ཚུ།</string>
+    <string name="settings_whatsnew_entry_session_id_links_summary">ལན་འདེབས་ནང་གི་ལཱ་ཡུན་ཨའི་ཌི་དེ་ ལཱ་ཡུན་དེའི་མགོ་མིང་སྦེ་སྟོནམ་ཨིན། ལཱ་ཡུན་ཁ་ཕྱེ་ནི་ལུ་དེ་གུ་ཨེབ།</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_1">ཡན་ལག་ལས་ཚབ་ཀྱི་ཨའི་ཌི་དེ་ ད་ལྟོའི་ལཱ་ཡུན་གྱི་ཐོག་ཁར་ཁ་ཕྱེཝ་ཨིན། ལོག་འོང་ནི་ཨེབ་པ་ཅིན་ལོག་ལྷོདཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_2">དེའི་ཨའི་ཌི་འདྲ་བཤུས་འབད་ནི་ལུ་ཨེབ་བཟུང་འབད།</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_3">སར་བར་འདི་གིས་མ་ཤེས་པའི་ཨའི་ཌི་དེ་ ཐུང་ཀུ་སྦེ་སྟོནམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_session_id_links_example">ལས་ཚབ་ལུ་ ལཱ་ཡུན་གཞན་གཅིག་གི་ཨའི་ཌི་ལག་ལེན་འཐབ་སྟེ་མིང་བཏོན་ཟེར་སླབ། དེ་ལས་མགོ་མིང་གུ་ཨེབ།</string>
+    <string name="settings_whatsnew_entry_session_id_links_prompt">ངེའི་འཕྲལ་གྱི་ OpenCode ལཱ་ཡུན་ལྔ་གི་ཐོ་ དེ་ཚུའི་ལཱ་ཡུན་ཨའི་ཌི་དང་བཅས་སྟོན།</string>
+
+    <!-- 2026-10-21-10-ipad-multiple-windows -->
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_title">ཊེབ་ལེཊ་ནང་སྒོ་སྒྲིག་ལེ་ཤ།</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_summary">ཊེབ་ལེཊ་ནང་ ལཱ་ཡུན་ཚུ་སྒོ་སྒྲིག་སོ་སོ་ནང་ཁ་ཕྱེ་སྟེ་ གཉིས་སྦོ་ལོགས་ཁར་བཞག</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_1">ཟུར་ཐོ་ནང་གི་ལཱ་ཡུན་གཅིག་ཨེབ་བཟུང་འབད་དེ་ སྒོ་སྒྲིག་གསརཔ་ནང་ཁ་ཕྱེ་ཟེར་མི་གདམ་ཁ་རྐྱབས།</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_2">སྒོ་སྒྲིག་རེ་རེ་ལུ་ ལཱ་ཡུན་ ཟུར་ཐོ་དང་འཕྲིན་དོན་སྒྲོམ་སོ་སོ་ཡོད།</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_3">གཏན་བཟུང་འབད་མི་ཚུ་ ལྷག་ཚར་མི་ལཱ་ཡུན་ཚུ་དང་ཁྱོད་ཀྱི་སར་བར་ཚུ་ སྒོ་སྒྲིག་ཆ་མཉམ་ནང་གཅིག་པ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_4">སྒོ་སྒྲིག་ཚུ་ལོག་ཁ་ཕྱེཝ་ད་ ཧེ་མ་སྟོན་ཡོད་པའི་ལཱ་ཡུན་དེ་ར་འོངམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_example">ཟུར་ཐོ་ནང་གི་ལཱ་ཡུན་གཅིག་ཨེབ་བཟུང་འབད་དེ་ སྒོ་སྒྲིག་གསརཔ་ནང་ཁ་ཕྱེ་ཟེར་མི་གདམ་ཁ་རྐྱབས། དེ་ལས་འགོ་དང་པའི་སྦོ་ལོགས་ཁར་བཞག</string>
+
+    <!-- 2026-10-21-11-plain-launch -->
+    <string name="settings_whatsnew_entry_plain_launch_title">འགོ་འབྱེད་འཇམ་སམ།</string>
+    <string name="settings_whatsnew_entry_plain_launch_summary">OpenCode གསལ་གཞི་འཇམ་སམ་གཅིག་གུ་ཁ་ཕྱེ་སྟེ་ ལཱ་ཡུན་གྲ་སྒྲིག་འགྱོཝ་ཅིག་དེ་ནང་ཐད་ཀར་འགྱོཝ་ཨིན། མངོན་གསལ་འགུལ་རིས་མེད།</string>
+
+    <!-- 2026-10-21-12-breath-ping-call-sounds -->
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_title">བོད་བརྡའི་སྒྲ་འཇམ་སུ།</string>
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_summary">བོད་བརྡ་མཐུད་ནི་ བརྡ་སྒྲ་དང་ཁ་བསྡམས་ནིའི་སྒྲ་ཚུ་ དབུགས་བཟུམ་གྱི་སྒྲ་འཇམ་ཏོང་ཏོ་ཨིནམ་ལས་ སླབ་ལན་ལུ་བར་ཆད་མི་རྐྱབ།</string>
+
+    <!-- 2026-10-21-13-smoother-session-list -->
+    <string name="settings_whatsnew_entry_smoother_session_list_title">ལཱ་ཡུན་ཐོ་འཇམ་ཏོང་ཏོ།</string>
+    <string name="settings_whatsnew_entry_smoother_session_list_summary">ལཱ་ཡུན་ཚུ་ལཱ་འབད་བའི་སྐབས་ཡང་ ཟུར་ཐོའི་ལཱ་ཡུན་ཐོ་འཇམ་ཏོང་ཏོ་སྦེ་བཤུད་ཚུགས། ལཱ་ཡུན་ཅིག་ཡུན་རིང་ཨེབ་བཞགཔ་ད་ གྲལ་ཐིག་གི་ཚད་མ་འགྱུར་བར་དཀར་ཆག་ཁ་ཕྱེཝ་ཨིན།</string>
+
+    <!-- 2026-10-22-01-whats-new-actions -->
+    <string name="settings_whatsnew_entry_whats_new_actions_title">གསརཔ་ག་ཅི་ཡོད? ནང་ལས་ཁ་ཕྱེ་སྟེ་ཚོད་ལྟ་འབད།</string>
+    <string name="settings_whatsnew_entry_whats_new_actions_summary">གསརཔ་ག་ཅི་ཡོད? ནང་གི་ཤོག་ངོས་རེ་ལུ་ བརྗོད་དོན་ཚུ་བཟུམ་གྱི་སྒྲིག་སྟངས་ཁ་ཕྱེ་ནི་ ཡང་ན་ ཚོད་ལྟ་འབད་ནིའི་འདི་འཕྲོ་ལས་བྲིས་ཏེ་ལཱ་ཡུན་གསརཔ་འགོ་བཙུགས་ནིའི་ཨེབ་རྟ་ཡོད།</string>
+
+    <!-- 2026-10-22-02-project-icons-current-discovery -->
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_title">ལས་འགུལ་ངོས་དཔར་བཅོ་ཁ།</string>
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_summary">ལས་འགུལ་ངོས་དཔར་ཨོན་འབད་ཡོད་པ་ཅིན་ སར་བར་གྱིས་ Icon Composer ཆ་ཚན་ནང་འཚོལ་ཐོབ་པའི་ངོས་དཔར་ཚུ་ཡང་ཟུར་ཐོ་ནང་སྟོནམ་ཨིན།</string>
+
+    <!-- 2026-10-22-03-new-divider-off-page -->
+    <string name="settings_whatsnew_entry_new_divider_off_page_title">དགོཔ་ད་རྐྱངམ་ཅིག་གསརཔ་སྟོན།</string>
+    <string name="settings_whatsnew_entry_new_divider_off_page_summary">འཕྲིན་དོན་གསརཔའི་དབྱེ་ཐིག་བརྟག་དཔྱད་ཨོན་འབད་ཡོད་པ་ཅིན་ ལྷོད་མི་འཕྲིན་དོན་ཚུ་གསལ་གཞི་ནང་མ་ཤོངམ་ད་རྐྱངམ་ཅིག་ གསརཔ་ཟེར་རྟགས་བཀལཝ་ཨིན།</string>
+
+    <!-- 2026-10-22-04-catch-up-all-caught-up-row -->
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_title">ཆ་མཉམ་ལྷག་ཚར།</string>
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_summary">དུས་མཐུན་བལྟ་ནང་ལཱ་ཡུན་མཇུག་མམ་ལྷག་ཚརཝ་ད་ ཟུར་ཐོ་ལུ་ཐད་ཀར་ལོག་འགྱོཝ་ཨིན། དེ་ཁར་དུས་མཐུན་བལྟ་ལུ་ ཆ་མཉམ་ལྷག་ཚར་ཟེར་རྟགས་རང་བཞིན་གྱིས་བཀལཝ་ཨིན།</string>
+
+    <!-- 2026-10-23-01-session-mentions -->
+    <string name="settings_whatsnew_entry_session_mentions_title">ལཱ་ཡུན་ཚུ་བཀོད།</string>
+    <string name="settings_whatsnew_entry_session_mentions_summary">འཕྲིན་དོན་འབྲི་སའི་རང་བཞིན་ཁ་བསྐང་བརྟག་དཔྱད་ཨོན་འབད་དེ་ @ བྲིས་པ་ཅིན་ གློག་ཀམ་ནང་བཟུམ་སྦེ་ལཱ་ཡུན་གཞན་ཅིག་མགོ་མིང་ཐོག་ལས་བཀོད་ཚུགས།</string>
+
+    <!-- 2026-10-23-02-gpt-live-own-key -->
+    <string name="settings_whatsnew_entry_gpt_live_own_key_title">GPT-Live ལྡེ་མིག་ཚུ།</string>
+    <string name="settings_whatsnew_entry_gpt_live_own_key_summary">GPT-Live བོད་བརྡ་ཚུ་གིས་ ཁྱོད་རའི་ OpenAI ལྡེ་མིག་ སར་བར་གྱི་ OpenAI ལྡེ་མིག་ ཡང་ན་ དེའི་ OpenCode Console མཐུད་ལམ་ལག་ལེན་འཐབ་ཚུགས།</string>
+
+    <!-- 2026-10-23-03-pair-opens-drawer -->
+    <string name="settings_whatsnew_entry_pair_opens_drawer_title">བཞག་ས་ལས་ལོག་འགོ་བཙུགས།</string>
+    <string name="settings_whatsnew_entry_pair_opens_drawer_summary">གློག་ཀམ་གསརཔ་ཅིག་ཆ་སྒྲིག་འབད་ཚརཝ་ད་ ལཱ་ཡུན་སྟོངམ་ཅིག་ནང་མ་བཞག་པར་ དེའི་འཕྲལ་གྱི་ལཱ་ཡུན་ཚུ་ཟུར་ཐོ་ནང་ཁ་ཕྱེ་སྟེ་གདམ་ཁ་རྐྱབ་ཚུགསཔ་བཟོཝ་ཨིན།</string>
+
+    <!-- 2026-10-23-04-voice-server-picker -->
+    <string name="settings_whatsnew_entry_voice_server_picker_title">སྐད་ཀྱི་སར་བར་གདམ་ཁ་རྐྱབས།</string>
+    <string name="settings_whatsnew_entry_voice_server_picker_summary">སྒྲིག་སྟངས་ཚུ་ › སྐད་ › སྐད་ཀྱི་བྱིན་མི་ནང་ བོད་བརྡ་གཏང་ནི་ལུ་བསྲུངས་ཡོད་པའི་སར་བར་ཅིག་ ཡང་ན་ འགྲུལ་འཕྲིན་འདི་ནང་གི་ཁྱོད་རའི་ OpenAI རྩིས་ཐོ་གདམ་ཁ་རྐྱབས།</string>
+
+    <!-- 2026-10-24-01-living-orb-floats -->
+    <string name="settings_whatsnew_entry_living_orb_floats_title">སྲོག་ལྡན་སྒོར་རྟགས་ག་ཏེ་ཡང་ལྡིངམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_living_orb_floats_summary">ད་ལས་ སྲོག་ལྡན་སྒོར་རྟགས་འདི་ སྒྲིག་སྟངས་ཚུ་ › བརྟག་དཔྱད་འབད་མི་ › བོད་བརྡ་ཚུ་ནང་གི་ལྡིང་མི་བོད་བརྡའི་བཟོ་རྣམ་ཨིན། ཧེ་མ་ལས་སྦོམ་སུ་ཡོདཔ་དང་ སྒྲིག་སྟངས་ཚུ་དང་གསལ་གཞི་ཆ་མཉམ་གྱི་ལྟག་ལུ་སྡོདཔ་ཨིན། སྐད་གཉིས་ཆ་ར་དང་བསྟུན་ཏེ་འགུལཝ་ཨིནམ་དང་ གཅིག་ཁར་སླབ་ད་རེ་རེའི་ཚོས་གཞི་སོ་སོ་སྟོནམ་ཨིན། ཨེབ་སྟེ་བྱང་བུ་ལུ་རྒྱ་བསྐྱེད་འབད། ཡར་འཐེན་ཏེ་བོད་བརྡ་ཆ་ཚང་དང་ཁ་སླབ་ཡིག་འབེབས་བལྟ། མར་འཐེན་ཏེ་ལོག་ཆུང་ཀུ་བཟོ། བོད་བརྡའི་བཟོ་རྣམ་འོག་གི་སྒོར་རྟགས་ནང་ དེའི་བཟོ་རྣམ་སོར་ཚུགས།</string>
+
+    <!-- 2026-10-24-02-new-messages-divider-on -->
+    <string name="settings_whatsnew_entry_new_messages_divider_on_title">འཕྲིན་དོན་གསརཔའི་དབྱེ་ཐིག</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_summary">ཁྱོད་མེད་པའི་སྐབས་ལྷོད་པའི་ལན་འདེབས་ཅིག་གསལ་གཞི་ལས་རིངམ་ཡོད་པ་ཅིན་ ལཱ་ཡུན་ཁ་ཕྱེཝ་ད་ལན་འདེབས་ཀྱི་འགོ་ལུ་གསརཔ་ཟེར་བའི་དབྱེ་ཐིག་སྟོནམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_1">གསལ་གཞི་ནང་ཤོང་པའི་ལན་འདེབས་ཨིན་པ་ཅིན་ དབྱེ་ཐིག་མེད་པར་མཇུག་ལུ་ཁ་ཕྱེཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_2">ཁྱོད་བལྟ་སྡོད་པའི་སྐབས་ལྷོད་མི་ལན་འདེབས་ཚུ་ལུ་རྟགས་མི་བཀལ།</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_3">མཇུག་ཚུན་ལྷག་ཚརཝ་ད་ དབྱེ་ཐིག་བསལཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_4">སྒྲིག་སྟངས་ཚུ་ › ལཱ་ཡུན་ཚུ་ནང་ཨོཕ་འབད།</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_example">ལན་འདེབས་རིངམ་ཅིག་ཞུ་སྟེ་ དེ་ཚར་ཚུན་གློག་རིམ་གཞན་ཅིག་ལུ་སོང་། དེ་ལས་ལོག་ཤོག</string>
+
+    <!-- 2026-10-24-03-composer-keyboard-morph -->
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_title">འཕྲིན་དོན་འབྲི་ས་ལྡེ་སྒྲོམ་དང་གཅིག་ཁར་འགུལཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_summary">འཕྲིན་དོན་འབྲི་སའི་ཚད་འཛིན་ཚུ་ལྡེ་སྒྲོམ་དང་གཅིག་ཁར་ཁ་ཕྱེཝ་ཨིནམ་དང་ ཡར་མར་འཐེནམ་ད་ཡང་དེ་དང་གཅིག་ཁར་འགུལཝ་ཨིན།</string>
+
+    <!-- 2026-10-24-04-composer-photo-viewer -->
+    <string name="settings_whatsnew_entry_composer_photo_viewer_title">འཕྲིན་དོན་འབྲི་སའི་པར་གསལ་གཞི་གང་།</string>
+    <string name="settings_whatsnew_entry_composer_photo_viewer_summary">འཕྲིན་དོན་འབྲི་སའི་པར་ཅིག་ཨེབ་སྟེ་གསལ་གཞི་གང་བལྟ། བཤུད་དེ་པར་གཞན་བལྟ་ནི་དང་ མ་བཏང་པའི་ཧེ་མ་པར་རྩ་བསྐྲད་གཏང་ཚུགས།</string>
+
+    <!-- 2026-10-24-05-plus-menu-photo-picker -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_title">པར་སེལ་འཐུ་གསརཔ།</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_summary">སྒྲིག་སྟངས་ཚུ་ › བརྟག་དཔྱད་འབད་མི་ › འཕྲིན་དོན་འབྲི་ས་ནང་ བསྡོམས་རྟགས་དཀར་ཆག་གསརཔ་ཨོན་འབད། + དཀར་ཆག་ནང་ལས་འཕྲལ་གྱི་པར་ 8 ཚུན་སེལ་འཐུ་འབད་ནི་དང་ པར་ཆ་མཉམ་བལྟ་ཚུགས། པར་ཚུ་འཕྲིན་དོན་འབྲི་ས་དང་དེ་ལས་ལཱ་ཡུན་ནང་འཕུར་འགྱོ་ས་ཡང་མཐོང་ཚུགས།</string>
+
+    <!-- 2026-10-24-06-project-icons-lit -->
+    <string name="settings_whatsnew_entry_project_icons_lit_title">འོད་ཅན་ལས་འགུལ་ངོས་དཔར།</string>
+    <string name="settings_whatsnew_entry_project_icons_lit_summary">ལས་འགུལ་ངོས་དཔར་ཨོན་འབད་ཡོད་པ་ཅིན་ ཟུར་ཐོའི་ངོས་དཔར་ཚུ་ལུ་ལྟག་ལས་འོད་འཇམ་པོ་ ཤེལ་གྱི་མཐའམ་སྲབ་མོ་དང་གྱིབ་མ་འཇམ་པོ་སྟོནམ་ཨིན།</string>
+
+    <!-- 2026-10-24-07-session-live-activity -->
+    <string name="settings_whatsnew_entry_session_live_activity_title">ལཱ་ཡུན་གྱི་ཐད་ཀར་དུས་མཐུན།</string>
+    <string name="settings_whatsnew_entry_session_live_activity_summary">སྒྲིག་སྟངས་ཚུ་ › བརྟག་དཔྱད་འབད་མི་ › ཟུར་ཐོ་ནང་ ལཱ་ཡུན་གྱི་ཐད་ཀར་དུས་མཐུན་ཨོན་འབད། ཁྱོད་ཀྱིས་བཏང་པའི་ལཱ་འདི་ཚར་ཚུན་ ཡང་ན་ ཁྱོད་ཀྱི་ཨིན་པུཊི་དགོ་ཚུན་ བརྡ་བསྐུལ་ཐད་ཀར་ནང་གནས་ཚུལ་བལྟ་ཚུགས། བསྡམ་བཞག་པའི་གསལ་གཞི་ནང་ཡང་མཐོངམ་ཨིན།</string>
+
+    <!-- 2026-10-24-08-sign-in-failed-edit-server -->
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_title">ནང་འཛུལ་མ་བཅུགཔ་བཅོ་ཁ་རྐྱབས།</string>
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_summary">སར་བར་གྱིས་ཆོག་ཡིག་ངོས་ལེན་མ་འབད་བ་ཅིན་ ཟུར་ཐོའི་སར་བར་དཀར་ཆག་ནང་ ཕན་མི་ཐོགས་པའི་བསྐྱར་དུ་ཚོད་ལྟ་གི་ཚབ་ལུ་ སར་བར་ཞུན་དག་འབད… སྟོནམ་ཨིན། དགའ་བསུའི་གསལ་གཞི་ནང་ཡང་ ཊར་མི་ནཱལ་ནང་ opencode pair --remote ལག་ལེན་འཐབ་ནི་སྟོནམ་ཨིན།</string>
+
+    <!-- 2026-10-25-01-voice-app-screenshot -->
+    <string name="settings_whatsnew_entry_voice_app_screenshot_title">སྐད་ཀྱིས་གསལ་གཞིའི་པར་བཏབ།</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_summary">སྐད་ཀྱི་བོད་བརྡ་སྐབས་ “འདི་ལུ་བལྟ” ཟེར་སླབ་པ་ཅིན་ ཁྱོད་ཀྱི་བསམ་འཆར་དང་གཅིག་ཁར་གློག་རིམ་གྱི་གསལ་གཞི་ལཱ་ཡུན་ཅིག་ནང་གཏངམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_1">གློག་རིམ་རང་གི་གསལ་གཞི་རྐྱངམ་ཅིག་ དེའི་མིང་དང་བོད་བརྡ་དང་གློག་རིམ་གྱི་གནས་སྟངས་དང་གཅིག་ཁར་གཏངམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_2">དེ་དང་གཅིག་ཁར་བོད་བརྡའི་དྲན་དེབ་ ཡང་ན་ འཕྲལ་གྱི་གློག་རིམ་དྲན་དེབ་ཚུ་ཡང་གཏང་ཟེར་ཞུ་ཚུགས། ཁ་བྱང་དང་ནང་འཛུལ་གྱི་གསང་བའི་བརྡ་དོན་ཚུ་སྦ་བཞགཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_3">ནང་འཛུལ་གསལ་གཞི་ ཡང་ན་ ཆོག་ཡིག་བཙུགས་ས་སྟོན་ཡོད་པའི་སྐབས་པར་མི་བཏབ།</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_example">སྐད་ཀྱི་བོད་བརྡ་སྐབས་ “གསལ་གཞིའི་པར་ཅིག་བཏབ་ གྲལ་ཐིག་འདི་ཕྲང་མིན་འདུག” ཟེར་སླབ།</string>
+
+    <!-- 2026-10-25-02-voice-background-results -->
+    <string name="settings_whatsnew_entry_voice_background_results_title">བོད་བརྡ་ནང་རྒྱབ་ལཱའི་གྲུབ་འབྲས།</string>
+    <string name="settings_whatsnew_entry_voice_background_results_summary">བོད་བརྡ་སྐབས་ཁྱོད་ཀྱིས་ཞུ་བའི་ལཱ་ཡུན་ཅིག་གིས་རྒྱབ་ཁར་ལཱ་འགོ་བཙུགས་པ་ཅིན་ ཁྱོད་ལཱ་གཞན་ལུ་འགྱོ་ཡོད་རུང་ དེ་ཚརཝ་ད་འཚོལ་ཐོབ་པའི་གྲུབ་འབྲས་བོད་བརྡ་ནང་ལམ་སེང་སླབ་བྱིནམ་ཨིན།</string>
+
+    <!-- 2026-10-25-03-sound-effects-experiment -->
+    <string name="settings_whatsnew_entry_sound_effects_experiment_title">སྒྲའི་ནུས་པ།</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_summary">ལན་འདེབས་ ཞུ་བ་ དུས་མཐུན་བལྟ་དང་གཏང་མ་ཚུགསཔ་ཚུ་གི་སྐབས་ འདར་འགུལ་དང་གཅིག་ཁར་སྒྲ་འཇམ་པོ་གཏང་མི་བརྟག་དཔྱད་ཅིག་ཨིན།</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_1">སྒྲ་མེད་དང་འདར་འགུལ་ཐབས་ལམ་ནང་སྒྲ་འདི་ཚུ་མི་གཏང་། ཞབས་ཁྲ་འདི་འཕྲོ་མཐུད་དེ་གཏངམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_2">བོད་བརྡ་ སྐད་ལས་ཡིག་འབེབས་ ཡང་ན་ སྒྲ་བརྙན་གཏང་པའི་སྐབས་དང་ གློག་རིམ་རྒྱབ་ཁར་ཡོདཔ་ད་ སྒྲ་འདི་ཚུ་མི་གཏང་།</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_3">ཨོན་ཨོཕ་ཨེབ་རྟའི་འོག་ལུ་ སྒྲ་ཤུགས་དང་གདམ་ཁ་ཅན་གྱི་གཏང་པའི་སྒྲ་ཡོད།</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_example">སྒྲིག་སྟངས་ཚུ་ › བརྟག་དཔྱད་འབད་མི་ནང་ སྒྲའི་ནུས་པ་ཨོན་འབད་དེ་ ལཱ་ཡུན་གཞན་ཅིག་ནང་ལན་འདེབས་བསྒུག</string>
+
+    <!-- 2026-10-25-90-session-title-first-prompt -->
+    <string name="settings_whatsnew_entry_session_title_first_prompt_title">འདི་འཕྲོ་ལས་དང་པ་ལས་མགོ་མིང་།</string>
+    <string name="settings_whatsnew_entry_session_title_first_prompt_summary">མགོ་མིང་མེད་པའི་ལཱ་ཡུན་ཚུ་ལུ་ སར་བར་གྱིས་མིང་མ་བཏགས་ཚུན་ འདི་འཕྲོ་ལས་དང་པ་གྲལ་ཐིག་གཅིག་ནང་སྟོནམ་ཨིན།</string>
+
+    <!-- 2026-10-26-01-settings-sessions-page -->
+    <string name="settings_whatsnew_entry_settings_sessions_page_title">ལཱ་ཡུན་སྒྲིག་སྟངས་ཚུ།</string>
+    <string name="settings_whatsnew_entry_settings_sessions_page_summary">སྒྲིག་སྟངས་ཚུ་ནང་ལཱ་ཡུན་ཚུའི་ཤོག་ངོས་གསརཔ་ཡོད། དེ་ནང་ ལོག་ལྡེ་ཨེབ་སྟེ་གཏང་ནིའི་ལྟག་ལུ་འཕྲིན་དོན་གསརཔའི་དབྱེ་ཐིག་ཡོད། ཡར་རྒྱས་འདི་ཡང་ བརྟག་དཔྱད་འབད་མི་དང་བཟོ་མི་ཟེར་གྲལ་ཐིག་གཉིས་ལུ་ཕྱེ་ཡོད།</string>
+
+    <!-- 2026-10-26-02-project-icons-default -->
+    <string name="settings_whatsnew_entry_project_icons_default_title">ལས་འགུལ་ངོས་དཔར་ཨོན།</string>
+    <string name="settings_whatsnew_entry_project_icons_default_summary">ད་ལས་ལཱ་ཡུན་མགོ་མིང་གི་ཟུར་ཁར་ལས་འགུལ་ངོས་དཔར་ཚུ་སྟོནམ་ཨིན། སྒྲིག་སྟངས་ཚུ་ › བརྟག་དཔྱད་འབད་མི་ནང་ཨོཕ་འབད་ཚུགས།</string>
+
+    <!-- 2026-10-26-03-plus-menu-over-keyboard -->
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_title">ལྡེ་སྒྲོམ་གྱི་ལྟག་ལུ་པར་ཚུ།</string>
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_summary">བསྡོམས་རྟགས་དཀར་ཆག་གསརཔ་ཨོན་འབད་ཡོད་པ་ཅིན་ + དཀར་ཆག་འདི་ལྡེ་སྒྲོམ་གྱི་ལྟག་ལུ་ཁ་ཕྱེཝ་ཨིན། པར་ཚུ་འདི་དེ་ནང་ལས་རྒྱ་བསྐྱེད་འབད་དེ་གསལ་གཞིའི་མཐའམ་ཚུན་ཁྱབ་པའི་ཤོག་ངོས་ཅིག་ལུ་འགྱུརཝ་ཨིནམ་དང་ ལོག་བལྟབ་ད་ལྡེ་སྒྲོམ་མི་བསྡུ།</string>
+
+    <!-- 2026-10-26-04-living-orb-connect-motion -->
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_title">སྒོར་རྟགས་མཐུད་པའི་འགུལ་སྐྱོད།</string>
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_summary">སྲོག་ལྡན་སྒོར་རྟགས་ཨོན་འབད་བཞགཔ་ད་ བོད་བརྡ་མཐུད་པའི་སྐབས་ཨེབ་རྟ་འདི་སྒོར་རྟགས་ནང་ཡར་འཐུ་སྟེ་བསྒྱིརཝ་ཨིན། བོད་བརྡ་མཇུག་བསྡུཝ་ད་ ཨེབ་རྟ་ནང་ལོག་འབབ་ཨིན། དེ་འཕྲོ་ལས་ལོག་བཏང་རུང་ མ་ཐོགས་པར་བོད་བརྡ་གསརཔ་འགོ་བཙུགསཔ་ཨིན།</string>
+
+    <!-- 2026-10-26-05-living-orb-presets -->
+    <string name="settings_whatsnew_entry_living_orb_presets_title">སྒོར་རྟགས་ཀྱི་སྔོན་སྒྲིག་དང་མཛེས་ཆ།</string>
+    <string name="settings_whatsnew_entry_living_orb_presets_summary">སྒྲིག་སྟངས་ཚུ་ › བརྟག་དཔྱད་འབད་མི་ › བོད་བརྡ་ཚུ་ནང་ བོད་བརྡའི་བཟོ་རྣམ་འོག་གི་སྒོར་རྟགས་འདི་ ད་ལས་མཛེས་ཆ་གུ་ཁ་ཕྱེཝ་ཨིན། ཐད་ཀར་སྔོན་ལྟ་སྦོམ་དང་སྔོན་སྒྲིག་གི་གྲལ་ཅིག་ཡོད། རང་གི་སྒྲིག་སྟངས་སྲུང་བཞག་ མིང་བསྒྱུར་ ཡང་ན་བགོ་བཤའ་རྐྱབ་ནི་ལུ་འདྲ་བཤུས་དང་སྦྱར་བཏུབ།</string>
+
+    <!-- 2026-10-26-06-send-after-a-pause -->
+    <string name="settings_whatsnew_entry_send_after_a_pause_title">ཐེངས་ཅིག་བཞག་སྟེ་གཏངམ་ད་ཧེང་སྐལ་འཇམ་ཏོང་ཏོ།</string>
+    <string name="settings_whatsnew_entry_send_after_a_pause_summary">ཐེངས་ཅིག་བཞག་སྟེ་གཏང་མི་འཕྲིན་དོན་འདི་ དུས་རྟགས་འོག་ལས་འབྲི་སའི་ཁ་ཐུག་མར་མ་འགྱོ་བར་ འཕྲིན་དོན་འབྲི་ས་ལས་ཐད་ཀར་རང་གི་སྒྲོམ་ནང་ཡར་འགྱོཝ་ཨིན།</string>
+
+    <!-- 2026-10-27-01-steadier-round-trip -->
+    <string name="settings_whatsnew_entry_steadier_round_trip_title">འགྲོ་ལོག་དུས་ཚོད་ཧེང་སྐལ་བརྟན་ཏོག་ཏོ།</string>
+    <string name="settings_whatsnew_entry_steadier_round_trip_summary">མཐུད་ལམ་ཤོག་བྱང་གི་ ms ཨང་འདི་ ད་ལས་མཇུག་གི་ཞིབ་དཔྱད་དག་པ་ཅིག་གི་ཆ་སྙོམས་ཨིན། ལན་གཅིག་ལྷོད་རུང་ ཨང་འདི་ཧོབ་སྟེ་མ་འཕར་བར་ཨ་ཙི་རེ་འགྱུརཝ་ཨིན།</string>
+
+    <!-- 2026-10-27-02-drawer-drag-follows-finger -->
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_title">ཟུར་ཐོ་ནང་འདྲུདཔ་ད་མཛུབ་མོའི་རྗེས་སུ་འབྲངམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_summary">ཟུར་ཐོ་ནང་འདྲུད་མི་ལཱ་ཡུན་འདི་ ད་ལས་མཛུབ་མོའི་འོག་ལུ་རང་སྡོདཔ་ཨིན། མགོ་ཡིག་གི་ལྟག་ལས་འགྱོ་སྟེ་ མཐའ་མར་ལྷོདཔ་ད་ཐོ་བཤུད་དེ་ གློདཔ་ད་རང་ས་ལུ་ལོག་ཚུདཔ་ཨིན།</string>
+
+    <!-- 2026-10-27-03-inbox-sidebar-experiment -->
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_title">འབྱོར་སྒྲོམ་ཟུར་ཐོ།</string>
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_summary">སྒྲིག་སྟངས་ཚུ་ › བརྟག་དཔྱད་འབད་མི་ › ཟུར་ཐོ་ནང་ འབྱོར་སྒྲོམ་ཟུར་ཐོ་ཨོན་འབད་དེ་ ལཱ་ཡུན་ཚུ་འབྱོར་སྒྲོམ་བཟུམ་སྦེ་བལྟ། ཁྱོད་ཀྱི་ལན་དགོ་མི་ཚུ་ཧེ་མ་དང་ དེ་ལས་མ་ལྷགཔ་ཚུ་སྟོནམ་ཨིན། རེ་རེའི་ལས་འགུལ་དང་ལན་གསར་ཤོས་ཡང་སྟོནམ་ཨིན། ཕར་བཤུད་དེ་ལྷག་ཡོདཔ་སྦེ་རྟགས་བཀལ་ ཡང་ན་གཏན་མཛོད་ནང་བཙུགས།</string>
+
+    <!-- 2026-10-28-01-first-pairing-ready-session -->
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_title">ལཱ་ཡུན་དང་པ་གྲ་སྒྲིག་ཡོདཔ།</string>
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_summary">གློག་རིག་དང་པ་ཆ་སྒྲིག་འབདཝ་ད་ དེའི་འཕྲལ་གྱི་ལས་འགུལ་ནང་ལཱ་ཡུན་གསརཔ་ཁ་ཕྱེ་སྟེ་ ཚོད་ལྟ་འབད་ནིའི་དྲི་བ་དག་པ་ཅིག་སྟོནམ་ཨིན། ཚར་གཅིག་ཨེབ་སྟེ་མཐུད་ཡོདཔ་གཏན་འཁེལ་བཟོ་ཚུགས། གསརཔ་བཙུགསཔ་ད་ཡང་ གསརཔ་ག་ཅི་ཡོད་འདི་ལྷག་ཡོདཔ་སྦེ་འགོ་བཙུགསཔ་ཨིན།</string>
+
+    <!-- 2026-10-28-02-welcome-preview -->
+    <string name="settings_whatsnew_entry_welcome_preview_title">བྱོན་པ་ལེགས་སོའི་སྔོན་ལྟ།</string>
+    <string name="settings_whatsnew_entry_welcome_preview_summary">འགོ་དང་པའི་བྱོན་པ་ལེགས་སོ་གསརཔ་ནང་ OpenCode གིས་པང་གློག་གུ་ལཱ་འབད་མི་འདི་འགྲུལ་འཕྲིན་གྱིས་ཁ་སྒྱུར་འབད་ས་སྟོན་ཏེ་ གོམ་པ་གཅིག་ནང་ཆ་སྒྲིག་འབདཝ་ཨིན། བལྟ་ནི་ལུ་ སྒྲིག་སྟངས་ཚུ་ › བརྟག་དཔྱད་འབད་མི་ › ཟུར་ཐོ་ནང་ བྱོན་པ་ལེགས་སོའི་སྔོན་ལྟ་ཨོན་འབད་དེ་ བྱོན་པ་ལེགས་སོ་སྟོན་ལུ་ཨེབ། ཁ་བསྡམས་པ་ཅིན་ཧེ་མའི་ས་ལུ་ལོགཔ་ཨིན།</string>
+
+    <!-- 2026-10-29-01-composer-text-selection -->
+    <string name="settings_whatsnew_entry_composer_text_selection_title">འཕྲིན་དོན་འབྲི་ས་ནང་ཡིག་གུ་སེལ་འཐུ་འབད།</string>
+    <string name="settings_whatsnew_entry_composer_text_selection_summary">ཟིན་བྲིས་ནང་ སེལ་འཐུའི་འཛིན་ས་ཡང་ན་ཆེ་ཤེལ་འདྲུད་རུང་ ད་ལས་ལྡེ་སྒྲོམ་མི་སྦ་ནི་དང་ འཕྲིན་དོན་འབྲི་ས་ཡར་མར་མི་འཐེན།</string>
+
+    <!-- 2026-10-30-01-voice-waits-for-you -->
+    <string name="settings_whatsnew_entry_voice_waits_for_you_title">བོད་བརྡ་གིས་ཁྱོད་སླབ་ཚར་ཚུན་སྒུགཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_voice_waits_for_you_summary">སྐད་ཀྱི་ལས་ཚབ་ཀྱིས་ ད་ལས་ཁྱོད་ཀྱི་ཁ་བར་ན་མི་སླབ། གནས་ཚུལ་ཚུ་ཁྱོད་སླབ་ཚར་ཚུན་སྒུག་སྟེ་སླབ་ཨིན། དེ་གིས་སླབ་ད་ཁྱོད་ཀྱིས་སླབ་པ་ཅིན་བཀགཔ་ཨིན།</string>
+
+    <!-- 2026-10-30-02-wisp-call-sounds -->
+    <string name="settings_whatsnew_entry_wisp_call_sounds_title">སྐད་བོད་བརྡ་ནང་ Wisp གི་སྒྲ་ལག་ལེན་འཐབ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_wisp_call_sounds_summary">བོད་བརྡ་འགོ་བཙུགསཔ་ད་ དབུགས་ཀྱི་སྒྲ་འཇམ་ཏོང་ཏོ་དང་མཐུད་པའི་སྒྲ་ཆུང་ཀུ་གྲགསཔ་ཨིན། མཐུད་ཚརཝ་ད་ཏིང་སྒྲ་དང་ ལས་ཚབ་ཀྱིས་བལྟ་བ་ ཁ་ཕྱེ་བ་ཡང་ན་གཡོག་བཀོལཝ་ད་ཊིཀ་སྒྲ་འཇམ་ཏོང་ཏོ་ མཇུག་བསྡུཝ་ད་དབུགས་རིང་གི་སྒྲ་གྲགསཔ་ཨིན། སྒྲིག་སྟངས་ཚུ་ › སྐད་ › བོད་བརྡའི་སྒྲ་ཚུ་ནང་སྒྲ་ཚན་གཞན་གདམ་ཁ་རྐྱབས།</string>
+
+    <!-- 2026-10-30-03-wisp-orb -->
+    <string name="settings_whatsnew_entry_wisp_orb_title">སྐད་ཀྱི་སྒོར་རྟགས་ད་ལས་ Wisp ཨིན།</string>
+    <string name="settings_whatsnew_entry_wisp_orb_summary">བོད་བརྡའི་སྒོར་རྟགས་ལུ་ད་ལས་ Wisp གི་བཟོ་རྣམ་ཡོད། སྐད་གཉིས་ཆ་ར་གིས་འོད་འབར་བཅུག་མི་ཚག་ཚུའི་ལྟག་ལུ་ཤེལ་གྱི་ལེནསི་ཡོདཔ་དང་ མཐུད་པ་ ཉན་པ་ ལཱ་འབད་བ་ སླབ་པ་དང་ཁྱོད་ལུ་སྒུག་པའི་གནས་སྟངས་ཚུ་ Wisp གི་ཉམས་ཀྱིས་སྟོནམ་ཨིན། སྒོར་རྟགས་ཀྱི་བཟོ་རྣམ་འདི་རྐྱངམ་ཅིག་ཡོདཔ་ལས་ བཟོ་རྣམ་རྙིངམ་དང་སྒོར་རྟགས་ཀྱི་སྒྲིག་སྟངས་ཚུ་བཏོན་བཏང་ཡོད།</string>
+
+    <!-- 2026-10-31-01-encrypted-notification-previews -->
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_title">གསང་བཟོས་བརྡ་བསྐུལ་སྔོན་ལྟ།</string>
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_summary">བརྡ་བསྐུལ་པ་ལག་ཨིན་དུས་མཐུན་དང་ HTTPS མཐུད་ལམ་ཡོད་པ་ཅིན་ སར་བར་གྱིས་ཐབས་འཕྲུལ་འདིའི་དོན་ལུ་མགོ་མིང་དང་འཕྲིན་དོན་གསང་བཟོ་འབདཝ་ཨིན། སྔོན་ལྟ་ཁ་ཕྱེ་མ་ཚུགས་པ་ཅིན་ བརྡ་བསྐུལ་ནང་ “བྱ་བ་གསརཔ།” ཟེར་རྐྱངམ་ཅིག་སྟོནམ་ཨིན།</string>
+
+    <!-- 2026-10-31-02-move-session-folder-gone -->
+    <string name="settings_whatsnew_entry_move_session_folder_gone_title">སྣོད་འཛིན་མེད་རུང་ལཱ་ཡུན་གནས་ཚུགས།</string>
+    <string name="settings_whatsnew_entry_move_session_folder_gone_summary">བཏོན་བཏང་མི་ལཱ་གི་ས་སྒོ་བཟུམ་ ལཱ་ཡུན་གྱི་སྣོད་འཛིན་མེདཔ་འགྱོ་སྟེ་གཏང་མ་ཚུགས་པ་ཅིན་ ལས་འགུལ་གྱི་སྣོད་འཛིན་ནང་སྤོ་ནིའི་གདམ་ཁ་བྱིན་ཏེ་ལོག་གཏངམ་ཨིན།</string>
+
+    <!-- 2026-10-31-03-notification-plugin-setup -->
+    <string name="settings_whatsnew_entry_notification_plugin_setup_title">OpenCode དང་གཅིག་ཁར་བརྡ་བསྐུལ་གཞི་སྒྲིག་འབད།</string>
+    <string name="settings_whatsnew_entry_notification_plugin_setup_summary">སྒྲིག་སྟངས་ཚུ་ → བརྡ་བསྐུལ་ཚུ་ནང་ OpenCode དང་གཅིག་ཁར་གཞི་སྒྲིག་འབད་ལུ་ཨེབ་སྟེ་ མེད་པའི་བརྡ་བསྐུལ་པ་ལག་ཨིན་བཙུགས་མི་འདི་འཕྲོ་ལས་ལུ་བསྐྱར་ཞིབ་འབད།</string>
+
+    <!-- 2026-11-01-01-call-card-takes-over -->
+    <string name="settings_whatsnew_entry_call_card_takes_over_title">བོད་བརྡའི་ཤོག་བྱང་གིས་མཇུག་ཁ་བཀངམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_call_card_takes_over_summary">སྲོག་ལྡན་སྒོར་རྟགས་ནང་ བོད་བརྡའི་ཤོག་བྱང་གིས་འཕྲིན་དོན་འབྲི་སའི་ལྟག་ལུ་ གསལ་གཞིའི་མཇུག་ཁ་བཀངམ་ཨིན། མཐའ་བཞིའི་ས་སྟོང་འདྲ་མཉམ་ཡོདཔ་ལས་ ལྡེ་སྒྲོམ་གྱིས་མི་ཨེབ། ཡིག་གུ་འབྲི་ནི་ལུ་ལོག་སྒོར་རྟགས་སྦེ་ཆུང་ཀུ་བཟོ།</string>
+
+    <!-- 2026-11-01-01-screenshot-shutter -->
+    <string name="settings_whatsnew_entry_screenshot_shutter_title">གསལ་གཞིའི་པར་གྱི་ཤ་ཊར།</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_summary">གློག་རིམ་གྱིས་ལཱ་ཡུན་གྱི་དོན་ལུ་རང་གི་གསལ་གཞིའི་པར་བཏབ་ད་ གསལ་གཞི་གུ་འོད་འཁྱུག་སྟེ་ཤ་ཊར་གྱི་སྒྲ་གྲགསཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_1">པར་བཏབ་ཚར་བའི་ཤུལ་ལས་འོད་འཁྱུགཔ་ལས་ པར་ནང་ནམ་ཡང་མི་ཚུད།</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_2">འགུལ་སྐྱོད་མར་ཕབ་ཀྱིས་འདི་འོད་ཨ་ཙི་གྲིབ་ནི་ལུ་བསྒྱུརཝ་ཨིན། འོད་འཁྱུག་མར་ཕབ་ཀྱིས་འདི་ཨོཕ་འབདཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_3">བོད་བརྡའི་སྐབས་ ཊིཀ་སྒྲ་འདི་བོད་བརྡ་བརྒྱུད་དེ་གཏངམ་ལས་ ལས་ཚབ་ཀྱིས་མི་གོ།</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_example">སྐད་བོད་བརྡའི་སྐབས་ “འདི་ལུ་བལྟ” ཟེར་སླབ།</string>
+
+    <!-- 2026-11-01-01-voice-says-whats-running -->
+    <string name="settings_whatsnew_entry_voice_says_whats_running_title">བོད་བརྡ་ནང་ད་རུང་ལཱ་ག་ཅི་འབད་དོ་ག་སླབ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_voice_says_whats_running_summary">ཁྱོད་ཀྱི་ཞུ་བ་ལུ་དུས་ཚོད་འགོརཝ་ད་ སྐད་ཀྱི་ལས་ཚབ་འདི་ཁུ་སིམ་སིམ་མ་སྡོད་པར་ ལཱ་ག་ཅི་འབད་དོ་ག་སླབ་ཨིན།</string>
+
+    <!-- 2026-11-01-02-living-orb-default -->
+    <string name="settings_whatsnew_entry_living_orb_default_title">བོད་བརྡ་ཚུ་སྒོར་རྟགས་ནང་ལྡིངམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_living_orb_default_summary">ད་ལས་ག་རའི་སྐད་བོད་བརྡ་ཚུ་ གསལ་གཞི་ག་རའི་ལྟག་ལུ་སྲོག་ལྡན་སྒོར་རྟགས་ནང་ལྡིངམ་ཨིན། འཕྲིན་དོན་འབྲི་ས་འདི་ཁྱོད་ཀྱིས་ལག་ལེན་འཐབ་ཚུགས།</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_1">སྒོར་རྟགས་ལུ་ཨེབ་སྟེ་བོད་བརྡའི་ཤོག་བྱང་སྦེ་སྦོམ་བཟོ། བོད་བརྡ་ཆ་ཚང་དང་ཁ་སླབ་ཡིག་འབེབས་བལྟ་ནི་ལུ་ཡར་འདྲུད།</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_2">སྒོར་རྟགས་ག་སྟེ་ལུ་འདྲུད་རུང་བཏུབ། ལཱ་ཡུན་སོར་རུང་ སྒྲིག་སྟངས་ཚུ་ཁ་ཕྱེ་རུང་ དེ་ཁར་རང་སྡོདཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_3">ལཱ་ཡུན་ཐོ་ནང་ལས་ཡང་ སྒྲིག་སྟངས་ཚུའི་ཟུར་ཁའི་བོད་བརྡའི་ཨེབ་རྟ་གིས་བོད་བརྡ་འགོ་བཙུགས་ཚུགས།</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_4">སྡེར་མ་འདི་བཏོན་བཏང་ཡོད། ཧེ་མ་འདི་ལག་ལེན་འཐབ་ཡོད་པ་ཅིན་ ཁྱོད་ཀྱི་བོད་བརྡ་ཚུ་ཡང་སྒོར་རྟགས་ནང་ལྡིངམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_5">སྒྲིག་སྟངས་ཚུ་ › བརྟག་དཔྱད་འབད་མི་ › བོད་བརྡ་ཚུ་ › སྲོག་ལྡན་སྒོར་རྟགས་ནང་ཨོཕ་འབད།</string>
+    <string name="settings_whatsnew_entry_living_orb_default_example">བོད་བརྡ་འགོ་བཙུགས་ཏེ་ལཱ་ཡུན་ཐོ་ཁ་ཕྱེ། སྒོར་རྟགས་འདི་ཁྱོད་དང་གཅིག་ཁར་འོངམ་ཨིན།</string>
+
+    <!-- 2026-11-01-02-quicker-send -->
+    <string name="settings_whatsnew_entry_quicker_send_title">ཧེང་སྐལ་མགྱོགས་པར་གཏང་ནི།</string>
+    <string name="settings_whatsnew_entry_quicker_send_summary">ད་ལས་གཏང་མི་འཕྲིན་དོན་འདི་ འཕྲིན་དོན་འབྲི་ས་ནང་ཧེ་མ་མ་སྒུག་པར་ ཐོ་དང་གཅིག་ཁར་རང་གི་སྒྲོམ་ནང་ཡར་འགྱོཝ་ཨིན།</string>
+
+    <!-- 2026-11-01-02-share-screen-with-agents -->
+    <string name="settings_whatsnew_entry_share_screen_with_agents_title">ལས་ཚབ་ཚུ་དང་གསལ་གཞི་བགོ་བཤའ་རྐྱབས།</string>
+    <string name="settings_whatsnew_entry_share_screen_with_agents_summary">སྒྲིག་སྟངས་ཚུ་ › བརྟག་དཔྱད་འབད་མི་ › བོད་བརྡ་ཚུ་ནང་ ལས་ཚབ་ཚུ་དང་གསལ་གཞི་བགོ་བཤའ་རྐྱབས་འདི་ཨོན་འབད། དེ་ལས་བོད་བརྡའི་སྐབས་ ལས་ཚབ་ཀྱིས་གློག་རིམ་བལྟ་ནི་ལུ་ཞུ་བ་འབད་ཚུགས། པར་གཏང་ནི་ལུ་བགོ་བཤའ་རྐྱབས་ལུ་ཨེབ་ ཡང་ན་ད་ལྟོ་མེན་ལུ་ཨེབ།</string>
+
+    <!-- 2026-11-01-03-audio-in-calls -->
+    <string name="settings_whatsnew_entry_audio_in_calls_title">བོད་བརྡ་ནང་སྒྲ།</string>
+    <string name="settings_whatsnew_entry_audio_in_calls_summary">སྒྲིག་སྟངས་ཚུ་ › བརྟག་དཔྱད་འབད་མི་ › བོད་བརྡ་ཚུ་ནང་ བོད་བརྡ་ནང་སྒྲ་འདི་ཨོན་འབད། དེ་ལས་བོད་བརྡའི་སྐབས་ ལས་ཚབ་ཀྱིས་ཁྱོད་ལུ་སྙན་ཆ་ཡང་ན་སྒྲ་ཐུང་ཀུ་གཏང་ཚུགས། ཁྱོད་གཉིས་ལས་ག་གིས་སླབ་རུང་སྒྲ་ཤུགས་མར་ཕབ་ཨིན། འཕྲིན་དོན་འབྲི་སའི་ལྟག་ལུ་ཐེངས་ཅིག་བཀག་ ཡང་ན་བཀག་བཏུབ།</string>
+
+    <!-- 2026-11-01-03-open-links-from-calls -->
+    <string name="settings_whatsnew_entry_open_links_from_calls_title">བོད་བརྡ་ནང་ལས་འབྲེལ་མཐུད་ཁ་ཕྱེ།</string>
+    <string name="settings_whatsnew_entry_open_links_from_calls_summary">སྒྲིག་སྟངས་ཚུ་ › བརྟག་དཔྱད་འབད་མི་ › བོད་བརྡ་ཚུ་ནང་ བོད་བརྡ་ནང་ལས་འབྲེལ་མཐུད་ཁ་ཕྱེ་འདི་ཨོན་འབད། དེ་ལས་བོད་བརྡའི་སྐབས་ ལས་ཚབ་ཀྱིས་ Uber གི་འགྲུལ་བསྐྱོད་བཟུམ་གྱི་འབྲེལ་མཐུད་བྱིན་ཚུགས། དེའི་གློག་རིམ་ནང་ཁ་ཕྱེ་ནི་ལུ་ཕྱེ་ཕྱེཝ་ལུ་ཨེབ་ ཡང་ན་ད་ལྟོ་མེན་ལུ་ཨེབ།</string>
+
+    <!-- 2026-11-02-01-fold-questions -->
+    <string name="settings_whatsnew_entry_fold_questions_title">དྲི་བ་ཚུ་བསྡུ་སྟེ་ཟུར་ཁར་བཞག</string>
+    <string name="settings_whatsnew_entry_fold_questions_summary">དྲི་བ་མར་འདྲུད་དེ་ འཕྲིན་དོན་འབྲི་སའི་ལྟག་ལུ་ཕྲ་རིང་ཆུང་ཀུ་ཅིག་ནང་བསྡུ། ལོག་སྟོན་ནི་ལུ་དེ་ལུ་ཨེབ། ལན་གཏང་མ་ཚུགས་པ་ཅིན་ ད་ལས་བསྐྱར་དུ་ཚོད་ལྟ་ལུ་ཨེབ་ཚུན་སྒུགཔ་ཨིན།</string>
+
+    <!-- 2026-11-02-01-steadier-following -->
+    <string name="settings_whatsnew_entry_steadier_following_title">རྗེས་འབྲང་ཧེང་སྐལ་བརྟན་ཏོག་ཏོ།</string>
+    <string name="settings_whatsnew_entry_steadier_following_summary">རིམ་གྱིས་འོང་མི་ལན་འདི་མཇུག་ཁར་གཏན་བཟུང་སྦེ་སྡོདཔ་ཨིན། ལཱ་འབད་དོ་འདི་ཡང་ཡར་མར་མི་འཕར། འཕྲིན་དོན་འབྲི་སའི་ལྟག་ལུ་ག་སྟེ་ལས་འབད་རུང་ཐོ་བཤུད་ཚུགས།</string>
+
+    <!-- 2026-11-02-40-model-display-names -->
+    <string name="settings_whatsnew_entry_model_display_names_title">དཔེ་ཚད་ཀྱི་མིང་ཚུ།</string>
+    <string name="settings_whatsnew_entry_model_display_names_summary">དཔེ་ཚད་ཐོ་མངོན་གསལ་འབདཝ་དང་ལོག་མཐུད་པའི་སྐབས་ འཕྲིན་དོན་འབྲི་ས་གིས་དཔེ་ཚད་ཀྱི་མིང་ཚུ་དྲན་བཞགཔ་ཨིན།</string>
+
+    <!-- 2026-11-02-41-all-experiments -->
+    <string name="settings_whatsnew_entry_all_experiments_title">བརྟག་དཔྱད་ཆ་མཉམ།</string>
+    <string name="settings_whatsnew_entry_all_experiments_summary">སྒྲིག་སྟངས་ཚུ་ › བརྟག་དཔྱད་འབད་མི་གི་མགོ་ལུ་ཡོད་པའི་ཨེབ་ལྡེ་གཅིག་གིས་ བརྟག་དཔྱད་ཆ་མཉམ་ཨོན་འབདཝ་ཨིན། ཤུལ་ལས་འོང་མི་གསརཔ་ཚུ་ཡང་ཚུདཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_1">བརྟག་དཔྱད་གཅིག་ལག་ལེན་མི་འཐབ་ནི་ཨིན་པ་ཅིན་ ཨོཕ་འབད། ཤུལ་མ་ཡང་ཨོཕ་སྦེ་རང་སྡོད་འོང་།</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_2">བརྟག་དཔྱད་ཆ་མཉམ་ཨོཕ་འབད་བ་ཅིན་ ཧེ་མའི་ཨེབ་ལྡེའི་སྒྲིག་སྟངས་ཚུ་ལོག་བཞགཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_3">གནང་བ་དགོ་པའི་བརྟག་དཔྱད་ཚུ་ སོ་སོ་སྦེ་གདམ་ཁ་རྐྱབ་དགོཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_4">རང་བཞིན་ཁ་སྐོང་། བསྡོམ་རྟགས་དཀར་ཆག་གི་པར་འདེམས་ས། སར་བར་སོར་ནི་གསརཔ་དང་ལས་འགུལ་ངོས་དཔར་ཚུ་ ད་ཆ་མཉམ་ལུ་ཨོན་འབད་ཡོད།</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_5">འདེམས་ས་གཅིག་དང་འགུལ་ཅན་སྒོར་རྟགས་གཉིས་ ད་ཨེབ་ལྡེ་སྤྱིར་བཏང་ཨིནམ་དང་ བོད་བརྡའི་ཐོ་བཏོན་བཏང་ཡོད།</string>
+    <string name="settings_whatsnew_entry_all_experiments_example">སྒྲིག་སྟངས་ཚུ་ › བརྟག་དཔྱད་འབད་མི་ཁ་ཕྱེ་སྟེ་ བརྟག་དཔྱད་ཆ་མཉམ་ཨོན་འབད།</string>
+
+    <!-- 2026-11-03-01-search-all-sessions -->
+    <string name="settings_whatsnew_entry_search_all_sessions_title">ལཱ་ཡུན་རྙིངམ་ཚུ་འཚོལ།</string>
+    <string name="settings_whatsnew_entry_search_all_sessions_summary">ཟུར་ཐོའི་འཚོལ་ཞིབ་ཀྱིས་ འཕྲལ་གྱི་ལཱ་ཡུན་རྐྱངམ་ཅིག་མེན་པར་ལཱ་ཡུན་ཆ་མཉམ་ནང་འཚོལཝ་ཨིན། མཇུག་ལུ་བཤུད་པ་ཅིན་ལཱ་ཡུན་རྙིངམ་ཚུ་མངོན་གསལ་འབདཝ་ཨིན།</string>
+
+    <!-- 2026-11-03-01-voice-open-session -->
+    <string name="settings_whatsnew_entry_voice_open_session_title">སྐད་ཀྱིས་ལཱ་ཡུན་སོར།</string>
+    <string name="settings_whatsnew_entry_voice_open_session_summary">སྐད་ཀྱི་ལས་ཚབ་ལུ་ལཱ་ཡུན་ཁ་ཕྱེ་ཟེར་སླབ་ད་ ད་ཟུར་ཐོ་ཁ་བསྡམས་ཏེ་བོད་བརྡ་མ་བཏོག་པར་བཞགཔ་ཨིན།</string>
+
+    <!-- 2026-11-03-02-orb-divider-image-links -->
+    <string name="settings_whatsnew_entry_orb_divider_image_links_title">བརྟག་དཔྱད་གསུམ་འགྲེམ་སྤེལ།</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_summary">འགུལ་ཅན་སྒོར་རྟགས་ གསརཔ་གི་བར་མཚམས་དང་པར་འབྲེལ་མཐུད་སྔོན་ལྟ་ཚུ་ ད་ཨེབ་ལྡེ་མེད་པར་ཆ་མཉམ་ལུ་ཨོན་འབད་ཡོད།</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_1">བོད་བརྡ་ཆ་མཉམ་འགུལ་ཅན་སྒོར་རྟགས་ནང་ལྡིངམ་ཨིན། བོད་བརྡའི་ཕྲ་རིང་རྙིངམ་བཏོན་བཏང་ཡོད།</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_2">ལཱ་ཡུན་ལུ་ལོག་འོངམ་ད་ ཁྱོད་མེདཔ་ད་ལྷོད་མི་ཚུ་གསལ་གཞི་ནང་མ་ཤོང་པ་ཅིན་ གསརཔ་གི་བར་མཚམས་ཀྱིས་རྟགས་བཀལཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_3">པར་ལུ་ཐད་ཀར་མཐུད་མི་འབྲེལ་མཐུད་ཚུ་གིས་ འཕྲིན་དོན་གྱི་འོག་ལུ་པར་སྟོནམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_example">འཕྲིན་དོན་འབྲི་ས་ལས་བོད་བརྡ་འགོ་བཙུགས་ཏེ་ སྒོར་རྟགས་ནང་ལྡིང་མི་འདི་བལྟ།</string>
+
+    <!-- 2026-11-04-01-call-links-and-audio -->
+    <string name="settings_whatsnew_entry_call_links_and_audio_title">བོད་བརྡའི་འབྲེལ་མཐུད་དང་སྒྲ།</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_summary">བོད་བརྡ་ལས་འབྲེལ་མཐུད་ཁ་ཕྱེ་ནི་དང་ བོད་བརྡ་ནང་སྒྲ་གཏང་ནི་གཉིས་ ད་ཨེབ་ལྡེ་མེད་པར་ཆ་མཉམ་ལུ་ཨོན་འབད་ཡོད།</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_1">བོད་བརྡའི་སྐབས་ ལས་ཚབ་ཀྱིས་ Uber འགྲུལ་བསྐྱོད་བཟུམ་གྱི་འབྲེལ་མཐུད་བྱིན་ཚུགས། དེའི་གློག་རིམ་ནང་ཁ་ཕྱེ་ནི་ལུ་ ཕྱེ་ཕྱེཝ་ཨེབ་ ཡང་ན་ད་ལྟོ་མེན་ཨེབ།</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_2">ལས་ཚབ་ཀྱིས་བོད་བརྡ་ནང་སྙན་ཆ་ཡང་ན་སྒྲ་ཐུང་ཀུ་གཏང་ཚུགས། ཁྱོད་གཉིས་ལས་ག་ར་སླབ་རུང་སྒྲ་མར་ཕབ་འབདཝ་ཨིན། འཕྲིན་དོན་འབྲི་སའི་ལྟག་ལས་ ཐེངས་ཅིག་བཀག་ཡང་ན་བཀག</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_example">བོད་བརྡའི་སྐབས་ ལས་ཚབ་ལུ་སྙན་ཆ་ཅིག་གཏང་ཟེར་སླབ།</string>
+
+    <!-- 2026-11-04-01-composer-editing-caret -->
+    <string name="settings_whatsnew_entry_composer_editing_caret_title">ཟིན་བྲིས་ཞུན་དག</string>
+    <string name="settings_whatsnew_entry_composer_editing_caret_summary">ཟིན་བྲིས་ཀྱི་སྦུག་ལུ་ཚིག་ཞུན་དག་འབདཝ་ད་ འོད་རྟགས་ཁྱོད་འབྲི་ས་ལུ་རང་སྡོདཔ་ཨིན།</string>
+
+    <!-- 2026-11-04-01-loading-touch-recovery -->
+    <string name="settings_whatsnew_entry_loading_touch_recovery_title">མངོན་གསལ་གྱི་ཤུལ་ལས་བཤུད་ནི།</string>
+    <string name="settings_whatsnew_entry_loading_touch_recovery_summary">མངོན་གསལ་འབད་བའི་བསྒང་གློག་རིམ་ལུ་ལོག་འོངམ་ད་ ཁ་སླབ་ཡིག་འབེབས་དེ་འཕྲལ་ལས་བཤུད་ཚུགསཔ་ཨིན།</string>
+
+    <!-- 2026-11-05-01-composer-keyboard-width -->
+    <string name="settings_whatsnew_entry_composer_keyboard_width_title">འབྲི་སྐབས་འབྲི་ས་རྒྱ་ཆེཝ།</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_width_summary">ལྡེ་སྒྲོམ་སྟོནམ་ད་ འཕྲིན་དོན་འབྲི་ས་རྒྱ་ཆེ་སུ་འགྱོ་སྟེ་མཐའ་སྟོང་ཆུང་ཀུ་འདྲ་མཉམ་བཞགཔ་ཨིན། དེ་གིས་ཟིན་བྲིས་རིངམ་ཚུ་གྲལ་ཐིག་ཉུང་སུ་ལུ་ཤོངམ་ཨིན།</string>
+
+    <!-- 2026-11-05-02-plus-menu-touch-release -->
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_title">མཉམ་སྦྲགས་དཀར་ཆག་ཁ་བསྡམ་ནི།</string>
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_summary">བཀོད་རིས་སོར་བའི་སྐབས་ཡང་ མཉམ་སྦྲགས་དཀར་ཆག་ཁ་བསྡམས་པ་ཅིན་ དེའི་འོག་གི་ལཱ་ཡུན་ལོག་ལག་ལེན་འཐབ་ཚུགསཔ་ཨིན།</string>
+
+    <!-- 2026-11-05-02-quiet-reconnecting-pill -->
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_title">འགོ་བཙུགས་བརྟན་ཏོག་ཏོ།</string>
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_summary">གློག་རིམ་ཁ་ཕྱེཝ་ད་ འཕྲིན་དོན་འབྲི་སའི་ལྟག་ལུ་ “ལོག་མཐུད་དོ…” འཕྲལ་ཙམ་མི་སྟོན་ནི་དང་ལཱ་ཡུན་ཡང་མི་འགུལ། ལོག་མཐུད་ནི་ལུ་དུས་ཚོད་འགོརཝ་ད་རྐྱངམ་ཅིག་བརྡ་རྟགས་སྟོནམ་ཨིན།</string>
+
+    <!-- 2026-11-05-03-stuck-touch-recovery -->
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_title">བཤུད་ནི་རང་བཞིན་སླར་གསོ།</string>
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_summary">མ་མཐོང་པའི་ཅ་ལ་ཅིག་གིས་ ལཱ་ཡུན་སྐར་ཆ་གཅིག་ལས་ལྷག་སྟེ་བཤུད་མ་བཅུག་པ་ཅིན་ གློག་རིམ་གྱིས་བཀག་ཆ་བསལཝ་ཨིན།</string>
+
+    <!-- 2026-11-05-04-reply-text-selection -->
+    <string name="settings_whatsnew_entry_reply_text_selection_title">ལན་འདེབས་ནང་སེལ་འཐུ་འབད།</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_summary">ལན་འདེབས་ནང་གི་ཚིག་ཅིག་ཨེབ་བཞག་ ཡང་ན་ཚར་གཉིས་ཨེབ། དེ་ལས་སེལ་འཐུའི་མཚམས་རྟགས་ཚུ་ དོན་མཚམས་ ཐོ་ ཨང་རྟགས་དང་ཐིག་ཁྲམ་ཚུ་བརྒལ་ཏེ་འཐེན།</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_1">མཚམས་རྟགས་ཅིག་མགོ་ཡིག་གི་འོག་ཙམ་ ཡང་ན་འཕྲིན་དོན་འབྲི་སའི་ལྟག་ཙམ་ལུ་འཛིན་བཞག་པ་ཅིན་ ལན་འདེབས་བཤུདཔ་ཨིན། མཐའ་དང་ཉེ་སུ་འགྱོཝ་ད་མགྱོགས་སུ་བཤུདཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_2">འདྲ་བཤུས་འབདཝ་ད་ ཐོའི་ཚག་རྟགས་དང་ཨང་ ཐིག་ཁྲམ་གྱི་གྲལ་དང་ཀེར་ཐིག་ཚུ་བཞགཔ་ཨིན། ལུང་འདྲེན་གྱིས་སེལ་འཐུ་འབད་མི་འདི་འཕྲིན་དོན་འབྲི་ས་ལུ་བཙུགས་ཏེ་ ཨང་རྟགས་ཀྱི་མཚམས་རྟགས་ཚུ་མ་བསྒྱུར་བར་བཞགཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_example">ལན་འདེབས་རིངམ་ཅིག་གི་འགོ་ལུ་ཡོད་པའི་ཚིག་ཅིག་ཨེབ་བཞག དེ་ལས་མཇུག་གི་མཚམས་རྟགས་འདི་འཕྲིན་དོན་འབྲི་ས་ཚུན་འཐེན་ཏེ་དེ་ཁར་འཛིན་བཞག</string>
+
+    <!-- 2026-11-06-01-scrolling-unsticks -->
+    <string name="settings_whatsnew_entry_scrolling_unsticks_title">བཤུད་ནིའི་བཀག་ཆ་རང་བཞིན་སེལ།</string>
+    <string name="settings_whatsnew_entry_scrolling_unsticks_summary">ཧེ་མ་ལཱ་ཡུན་གཞན་ཅིག་ལུ་མ་སོར་ཚུན་ཚོད་ རེ་ཚེ་སྐབས་བཤུད་མ་བཏུབ་མི་ལཱ་ཡུན་འདི་ ད་རང་བཞིན་གྱིས་ལོག་བཤུད་ཚུགསཔ་ཨིན།</string>
+
+    <!-- 2026-11-06-02-server-addresses -->
+    <string name="settings_whatsnew_entry_server_addresses_title">སར་བར་མཐུད་ལམ་བརྟན་ཏོག་ཏོ།</string>
+    <string name="settings_whatsnew_entry_server_addresses_summary">OpenCode གིས་སར་བར་གྱི་ཁ་བྱང་ཆ་མཉམ་དུས་གཅིག་ལུ་ཚོད་བལྟ་སྟེ་ ཧེ་མ་ལན་བྱིན་མི་འདི་ལག་ལེན་འཐབཔ་ཨིན། དེ་གིས་ཁྱིམ་ལས་འཐོནམ་ད་ VPN ཨོཕ་དང་ཨོན་མ་འབད་རུང་ལོག་མཐུདཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_1">ཁྱིམ་གྱི་ཡོངས་འབྲེལ་ནང་ལཱ་འབད་མི་ཁ་བྱང་འདི་ ད་ས་གནས་གཞན་ཆ་མཉམ་ནང་ཧེ་མ་ཚོད་མི་བལྟ།</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_2">མཐུད་ལམ་ཐེངས་ཅིག་ཆདཔ་ འགྲུལ་འཕྲིན་གྱི་ལྡེ་མིག་ཕྱེཝ་ཡང་ན་མགྱོགས་མྱུར་སྒྲིག་སྟངས་མར་འཐེནམ་ད་ ད་བརྡ་འཕྲལ་ཙམ་མི་སྟོན། སྐར་ཆ་དག་པ་ཅིག་གི་ཤུལ་ལས་ལོག་མཐུད་དོ་ཟེར་སྟོནམ་ཨིན། སྐར་ཆ་ 12 དེ་ཅིག་གི་ཤུལ་ལས་མཐུད་ལམ་མེད་ཟེར་སྟོནམ་ཨིན། འགྲུལ་འཕྲིན་ལུ་ཡོངས་འབྲེལ་མེད་པ་ཅིན་སྐར་ཆ་ 4 གི་ཤུལ་ལས་སྟོནམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_server_addresses_example">Tailscale དང་ཆ་སྒྲིག་འབད་མི་སར་བར་ནང་ལཱ་ཡུན་ཁ་ཕྱེ་བཞག་སྟེ་ Wi-Fi ཨོཕ་འབད་ཞིནམ་ལས་ལཱ་འཕྲོ་མཐུད་འབད།</string>
+
+    <!-- 2026-11-07-01-server-voice -->
+    <string name="settings_whatsnew_entry_server_voice_title">སར་བར་གྱི་ལྡེ་མིག་གིས་བོད་བརྡ།</string>
+    <string name="settings_whatsnew_entry_server_voice_summary">སར་བར་གྱི་སྐད་ད་ཨེབ་ལྡེ་མེད་པར་ཆ་མཉམ་ལུ་ཨོན་འབད་ཡོད། བོད་བརྡ་གིས་ OpenCode སར་བར་གྱི་ལྡེ་མིག་ཚུ་ལག་ལེན་འཐབ་ཚུགསཔ་ལས་ འགྲུལ་འཕྲིན་འདི་ལུ་རང་གི་ OpenAI ལྡེ་མིག་མི་དགོ།</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_1">རང་བཞིན་གདམ་ཁ་ཨོན་འབད་བ་ཅིན་ བོད་བརྡ་གིས་ད་ལྟོ་མཐུད་མི་སར་བར་ དེ་ལས་འགྲུལ་འཕྲིན་འདི་ནང་གི་ OpenAI ལྡེ་མིག་ དེ་ལས་བསྲུངས་བཞག་མི་གྲ་སྒྲིག་ཡོད་པའི་སར་བར་གཞན་ཅིག་གི་གོ་རིམ་ནང་ལག་ལེན་འཐབཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_2">འགྲུལ་འཕྲིན་འདི་དང་སར་བར་གཉིས་ཆ་ར་ལུ་ OpenAI ལྡེ་མིག་ཡོད་པ་ཅིན་ ད་བོད་བརྡ་གིས་སར་བར་གྱི་ལྡེ་མིག་ལག་ལེན་འཐབཔ་ཨིན། ཁྱོད་རའི་ལྡེ་མིག་རང་ལག་ལེན་འཐབ་ནི་ལུ་ སྐད་བྱིན་མི་ནང་ཁྱོད་ཀྱི་ OpenAI རྩིས་ཁྲ་ཁ་ཕྱེ་སྟེ་ བོད་བརྡའི་དོན་ལུ་ལག་ལེན་འཐབ་ཨེབ།</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_3">Gemini ལྡེ་མིག་ཡོད་པའི་སར་བར་ཚུ་ནང་ ད་ Gemini Live ཡང་བྱིན་མི་ཅིག་ཨིན།</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_4">བོད་བརྡ་འགོ་བཙུགས་མ་ཚུགས་པ་ཅིན་ རྒྱུ་མཚན་སླབ་སྟེ་དཀའ་ངལ་སེལ་ནིའི་ཨེབ་ལྡེ་སྟོནམ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_server_voice_example">སྒྲིག་སྟངས་ཚུ་ › སྐད་ཁ་ཕྱེ་སྟེ་ སྐད་བྱིན་མི་ཨེབ།</string>
+
+    <!-- 2026-11-07-02-rename-clear-button -->
+    <string name="settings_whatsnew_entry_rename_clear_button_title">ཚར་གཅིག་ཨེབ་སྟེ་མགོ་མིང་བསལ།</string>
+    <string name="settings_whatsnew_entry_rename_clear_button_summary">ལཱ་ཡུན་མིང་བསྒྱུར་དང་སར་བར་མིང་བསྒྱུར་ནང་ ད་བསལ་ནིའི་ཨེབ་ལྡེ་ཡོདཔ་ལས་ མགོ་མིང་རྙིངམ་ཡིག་འབྲུ་རེ་རེ་བཏོན་མ་དགོ་པར་གསརཔ་འབྲི་ཚུགས།</string>
+
+    <!-- 2026-11-07-03-one-picker -->
+    <string name="settings_whatsnew_entry_one_picker_title">དཔེ་ཚད་འདེམས་ས་གསརཔ།</string>
+    <string name="settings_whatsnew_entry_one_picker_summary">འཕྲིན་དོན་སྒྲོམ་ནང་གི་དཔེ་ཚད་ཨེབ་པ་ཅིན་ དེ་ལས་ཐོ་ཅིག་རྒྱ་བསྐྱེད་དེ་འཐོནམ་ཨིན། མགོ་ལུ་དགའ་ཤོས་ཚུ་དང་འཕྲལ་གྱི་ཚུ་ འོག་ལུ་བྱིན་མི་ཆ་མཉམ་ཡོད།</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_1">ཐོ་ལས་མ་འཐོན་པར་བསམ་ཤེས་ཀྱི་གནས་རིམ་སོར་ནི་ལུ་ དཔེ་ཚད་ཀྱི་གྲལ་ནང་ “high” བཟུམ་མའི་གནས་རིམ་གུ་ཨེབ།</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_2">དགའ་ཤོས་ནང་བཙུགས་ནི་ཡང་ན་བཏོན་ནི་ལུ་ གྲལ་གུ་ཕར་འཕུལ་ ཡང་ན་ཨེབ་སྟེ་བཞག</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_3">འཚོལ་ས་འདི་འོག་ལུ་ཡོད། མིང་གི་ཤུལ་ལས་གནས་རིམ་ “opus high” བཟུམ་སྦེ་བྲིས་ཏེ་ ལོག་ལྡེ་ཨེབ་ད་ གཉིས་ཆ་ར་སེལ་འཐུ་འབདཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_4">ཐོ་རིངམ་བཟོ་ནི་ལུ་འཐེན་ས་ཡར་འཐེན། ཁ་བསྡམ་ནི་ལུ་མར་འཐེན།</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_5">སེལ་འཐུ་འབད་ས་གསརཔ་འདི་གིས་ དཔེ་ཚད་ཀྱི་ཤོག་ལེབ་རྙིངམ་ཚབ་བཙུགས་ཡོདཔ་དང་ སྒྲིག་སྟངས་ཚུ། › བརྟག་དཔྱད་འབད་མི། ནང་ལས་ སེལ་འཐུ་འབད་ས་གཅིག་གི་སོར་ལྡེ་བཏོན་ཡོདཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_one_picker_example">འཕྲིན་དོན་སྒྲོམ་ནང་གི་དཔེ་ཚད་གུ་ཨེབ། དེ་ལས་གྲལ་ཕར་འཕུལ་ཏེ་དགའ་ཤོས་ནང་བཙུགས།</string>
+
+    <!-- 2026-11-08-01-connecting-caption-glass -->
+    <string name="settings_whatsnew_entry_connecting_caption_glass_title">“བརྒྱུད་དེ་མཐུད་དོ…” ལྷག་ནི་འཇམ་སུ།</string>
+    <string name="settings_whatsnew_entry_connecting_caption_glass_summary">བོད་བརྡ་སར་བར་བརྒྱུད་དེ་མཐུད་པའི་སྐབས་ “བརྒྱུད་དེ་མཐུད་དོ…” ཟེར་མི་གྲལ་འདི་ དྭངས་གསལ་རྒྱབ་གཞི་གུ་སྟོནམ་ལས་ རྒྱབ་ཀྱི་འཕྲིན་དོན་ཚུ་དང་མི་འདྲེས།</string>
+
+    <!-- 2026-11-08-02-default-model -->
+    <string name="settings_whatsnew_entry_default_model_title">ལཱ་ཡུན་གསརཔ་ཚུ་གིས་འཐུས་ཤོར་དཔེ་ཚད་ལག་ལེན་འཐབ།</string>
+    <string name="settings_whatsnew_entry_default_model_summary">ལཱ་ཡུན་གསརཔ་ཚུ་ ཧེ་མའི་ལཱ་ཡུན་གྱི་དཔེ་ཚད་ཀྱི་ཚབ་ལུ་ OpenCode ནང་འཐུས་ཤོར་སྦེ་བཞག་མི་དཔེ་ཚད་དང་ དེའི་དོན་ལུ་མཇུག་ལུ་གདམ་ཁ་རྐྱབ་མི་བསམ་ཤེས་ཀྱི་གནས་རིམ་གུ་འགོ་བཙུགསཔ་ཨིན།</string>
+
+    <!-- 2026-11-11-01-streamed-reply-prefix -->
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_title">ལན་འདེབས་འོང་བའི་བར་ན་ཁ་ཕྱེ།</string>
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_summary">ལན་འདེབས་འོང་དོ་ཡོད་པའི་སྐབས་ལཱ་ཡུན་ཁ་ཕྱེ་བ་ཅིན་ ལན་འདེབས་འཕྲོ་མཐུད་འོངམ་ད་ ཧེ་མ་ལྷོད་ཡོད་མི་འདི་ལྷག་ཚུགས།</string>
+
+    <!-- 2026-11-13-01-draw-on-images -->
+    <string name="settings_whatsnew_entry_draw_on_images_title">པར་གུ་བྲིས།</string>
+    <string name="settings_whatsnew_entry_draw_on_images_summary">དྲི་བ་མ་འདྲི་བའི་ཧེ་མ་ ཁ་གསལ་འདི་སྟོན།</string>
+    <string name="settings_whatsnew_entry_draw_on_images_detail_1">པར་ཅིག་གསལ་གཞི་ཆ་ཚང་ནང་ཁ་ཕྱེ་སྟེ་ སྨྱུག་གུའི་ཨེབ་རྟ་ཨེབ། ཚོས་གཞི་གདམ་ཁ་རྐྱབ་སྟེ་བྲིས། དེ་ལས་ བསྡོམ༌ནི་ཨེབ་སྟེ་ རྟགས་བཀལ་ཡོད་པའི་པར་འདི་ཁྱོད་ཀྱི་འཕྲིན་དོན་ལུ་མཉམ་སྦྲགས་འབད། པར་ངོ་མ་འདི་འགྱུར་བ་མེད་པར་སྡོདཔ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_draw_on_images_example">གསལ་གཞིའི་པར་ནང་ ཁྱོད་ཀྱིས་སྤོ་ནི་ཨིན་པའི་ཚད་འཛིན་གུ་སྒོར་ཐིག་རྐྱབ། དེ་ལས་ ག་ཏེ་སྤོ་དགོཔ་ཨིན་ན་བཤད།</string>
+
+    <!-- 2026-11-14-01-fullscreen-viewer -->
+    <string name="settings_whatsnew_entry_fullscreen_viewer_title">པར་དང་གློག་བརྙན་བར་ན་བཤུད།</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_summary">ལཱ་ཡུན་གྱི་པར་དང་གློག་བརྙན་ཚུ་གཅིག་ཁར་བལྟ།</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_detail_1">གློག་བརྙན་ཅིག་ལུ་བཤུད་དེ་ ད་ལྟོའི་པར་གུ་རྟགས་བཀལ་ནི་ལུ་སྨྱུག་གུའི་ཨེབ་རྟ་ཨེབ། བསྡོམ༌ནི་ཨེབ་པ་ཅིན་ རྟགས་བཀལ་ཡོད་པའི་པར་འདི་མ་བཏང་པར་མཉམ་སྦྲགས་འབདཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_example">དཔེ་སྟོན་གློག་བརྙན་འདི་ བསྒྱུར་བཅོས་འབད་དགོ་པའི་གསལ་གཞི་གུ་ཐེངས་ཅིག་བཀག ཁ་གསལ་འདི་གུ་སྒོར་ཐིག་རྐྱབ་སྟེ་ ཁྱོད་ཀྱི་ཟིན་བྲིས་ལུ་ཁ་སྐོང་འབད།</string>
+
+    <!-- 2026-11-15-01-pairing-link-name -->
+    <string name="settings_whatsnew_entry_pairing_link_name_title">OpenCode Console ལས་མིང་ཡོད་པའི་སར་བར་ཚུ།</string>
+    <string name="settings_whatsnew_entry_pairing_link_name_summary">OpenCode Console ལས་ཆ་སྒྲིག་འབད་མི་སར་བར་འདི་ “Anomaly Box” བཟུམ་གྱི་མིང་དང་གཅིག་ཁར་འོངམ་ཨིན།</string>
+
+    <!-- 2026-11-17-01-session-media -->
+    <string name="settings_whatsnew_entry_session_media_title">ལཱ་ཡུན་གྱི་བརྡ་བརྒྱུད།</string>
+    <string name="settings_whatsnew_entry_session_media_summary">ལཱ་ཡུན་གྱི་པར་ གློག་བརྙན་ སྒྲ་ ཡིག་སྣོད་དང་མི་མང་གིས་ལྟ་ཚུགས་པའི་ཝེབ་འབྲེལ་མཐུད་ཚུ་བལྟ།</string>
+    <string name="settings_whatsnew_entry_session_media_detail_1">ལཱ་ཡུན་གྱི་ ⋮ དཀར་ཆག་ནང་ལས་ ལཱ་ཡུན་གྱི་བརྡ་བརྒྱུད་གདམ་ཁ་རྐྱབས། བརྡ་བརྒྱུད་ནང་ པར་དང་གློག་བརྙན་ སྒྲ་ཚུ་ ཟླཝ་རེ་བཞིན་སྡེ་ཚན་བཟོ་སྟེ་མགྱོགས་ཨེབ་སྦེ་ ཡང་ན་ཐོ་སྦེ་སྟོནམ་ཨིན། ཡིག་སྣོད་ཚུ་དང་འབྲེལ་མཐུད་ཚུ་ནང་ ཡིག་ཆ་དང་སྦྱར་ཡོད་པའི་ནང་དོན་ ཝེབ་འབྲེལ་མཐུད་ཚུ་ཐོ་བཀོད་འབདཝ་ཨིན།</string>
+    <string name="settings_whatsnew_entry_session_media_example">ལཱ་ཡུན་ཆ་མཉམ་ནང་ལོག་བཤུད་མ་དགོ་པར་ ད་རིས་དྲོ་པ་ཁྱོད་ཀྱིས་བཏང་མི་གསལ་གཞིའི་པར་འདི་འཚོལ།</string>
+
+    <!-- 2026-11-18-02-drawer-call-phone -->
+    <string name="settings_whatsnew_entry_drawer_call_phone_title">ཟུར་ཐོའི་བོད་བརྡ་ལུ་འགྲུལ་འཕྲིན་ངོས་དཔར།</string>
+    <string name="settings_whatsnew_entry_drawer_call_phone_summary">ལཱ་ཡུན་ཐོ་ནང་ སྒྲིག་སྟངས་ཚུ་གི་སྦོ་ལོགས་ཁར་ཡོད་པའི་བོད་བརྡའི་ཨེབ་རྟ་འདི་གིས་ འཕྲིན་དོན་སྒྲོམ་ནང་གི་བཟུམ་སྦེ་ འགྲུལ་འཕྲིན་ངོས་དཔར་སྟོནམ་ཨིན།</string>
+
+    <!-- 2026-11-19-01-background-scripts -->
+    <string name="settings_whatsnew_entry_background_scripts_title">རྒྱབ་ལོགས་ལཱ་ནང་ཡིག་ཚུགས་ཚུ།</string>
+    <string name="settings_whatsnew_entry_background_scripts_summary">ལས་ཚབ་ཀྱིས་རྒྱབ་ལོགས་ལུ་སྤོ་མི་ཡིག་ཚུགས་ཚུ་ ཡན་ལག་ལས་ཚབ་དང་ཤལ་ཚུ་གི་སྦོ་ལོགས་ཁར་སྟོནམ་ཨིན། ཡན་ལག་ལས་ཚབ་ཀྱི་པར་དང་གློག་བརྙན་ ཡིག་ཚུགས་ཚུ་ད་རུང་གཡོག་བཀོལ་དོ་ཡོད་ཚེ་ ཡན་ལག་ལས་ཚབ་འདི་ཐོ་ནང་སྡོདཔ་ཨིན། གཉིས་ཆ་རང་ཐོ་ནང་ལས་བཀག་ཚུགས།</string>
+</resources>

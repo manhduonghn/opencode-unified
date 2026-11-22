@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">Şəkil</string>
+    <string name="media_image_load_failed">Şəkil yüklənə bilmədi</string>
+    <string name="media_unavailable">Media əlçatan deyil</string>
+    <string name="media_try_again_label">Yenidən cəhd et</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">Media baxıcısı</string>
+    <string name="media_viewer_save_to_photos_description">Şəkillərdə saxla</string>
+    <string name="media_file_viewer_screen_title">Fayl baxıcısı</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d / %3$d</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">Şəkil üzərində çək</string>
+    <string name="media_drawing_undo_description">Geri al</string>
+    <string name="media_drawing_add_to_prompt_description">Prompta əlavə et</string>
+    <string name="media_drawing_canvas_description">Rəsm lövhəsi</string>
+    <string name="media_drawing_discard_title">Rəsm silinsin?</string>
+    <string name="media_drawing_discard_confirm">Rəsmi sil</string>
+    <string name="media_drawing_keep">Çəkməyə davam et</string>
+    <string name="media_drawing_add_failed_title">Rəsmi əlavə etmək mümkün olmadı</string>
+    <string name="media_drawing_flatten_failed">Şəkli yaratmaq mümkün olmadı. Yenidən cəhd edin.</string>
+    <string name="media_drawing_prompt_unavailable">Bu sessiyanın mesajına hazırda əlavə əlavə etmək mümkün deyil.</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">Ağ</string>
+    <string name="media_drawing_ink_black">Qara</string>
+    <string name="media_drawing_ink_red">Qırmızı</string>
+    <string name="media_drawing_ink_yellow">Sarı</string>
+    <string name="media_drawing_ink_green">Yaşıl</string>
+    <string name="media_drawing_ink_blue">Mavi</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">Böyüdülüb</string>
+    <string name="media_zoom_out_label">Kiçilt</string>
+    <string name="media_zoom_in_label">Böyüt</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">Fasilə ver</string>
+    <string name="media_player_play">Oynat</string>
+    <string name="media_player_position_description">Oynatma mövqeyi</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">Videonu oynatmaq mümkün olmadı</string>
+    <string name="media_video_position_description">Video mövqeyi</string>
+    <string name="media_video_capture_failed_title">Kadrı çəkmək mümkün olmadı</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">Önbaxışı göstər</string>
+    <string name="media_file_show_source_description">Mənbəni göstər</string>
+    <string name="media_file_unwrap_lines_description">Sətirləri bölmə</string>
+    <string name="media_file_wrap_lines_description">Sətirləri böl</string>
+    <string name="media_file_start_pip_description">Şəkil içində şəkil rejimini başlat</string>
+    <string name="media_file_opening">Açılır…</string>
+    <string name="media_file_share_failed_title">Fayl paylaşıla bilmədi</string>
+    <string name="media_file_share_downloading_description">Paylaşmaq üçün endirilir</string>
+    <string name="media_file_confirm_large_message">Bu faylın ölçüsü %1$s. Bu cihazda baxmaq üçün endirilsin?</string>
+    <string name="media_file_download">Endir</string>
+    <string name="media_file_open_in_another_app">Başqa tətbiqdə aç</string>
+    <string name="media_file_no_app_message">Bu cihazda faylı aça bilən tətbiq yoxdur. Saxlamaq və ya başqa yerə göndərmək üçün paylaşın.</string>
+    <string name="media_file_pdf_page_description">Səhifə %1$d / %2$d</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">Fayl tapılmadı</string>
+    <string name="media_file_error_open_failed_title">Fayl açıla bilmədi</string>
+    <string name="media_file_error_unreadable">Bu yol serverdən oxuna bilmir.</string>
+    <string name="media_file_error_not_found">Köçürülmüş və ya silinmiş ola bilər.</string>
+    <string name="media_file_error_unauthorized">Server bu cihazın parolunu qəbul etmədi.</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">Server bunu oxuya bilmədi (HTTP %1$d). Qovluq ola bilər.</string>
+    <string name="media_file_error_timed_out">Sorğunun vaxtı bitdi.</string>
+    <string name="media_file_error_unexpected_response">Server gözlənilməz cavab göndərdi.</string>
+    <string name="media_file_error_over_limit">Fayl endirmə ölçüsü limitini keçir.</string>
+    <string name="media_file_error_size_unknown">Server əlavənin ölçüsünü bildirmədi.</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">Endirilir…</string>
+    <string name="media_file_downloading_size">%1$s endirilir</string>
+    <string name="media_file_downloading_progress">%2$s ölçüsündən %1$s endirilir</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">0 KB</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="one">%1$d bayt</item>
+        <item quantity="other">%1$d bayt</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s KB</string>
+    <string name="media_file_size_megabytes">%1$s MB</string>
+    <string name="media_file_size_gigabytes">%1$s GB</string>
+    <string name="media_file_size_terabytes">%1$s TB</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">Tapılmadı</string>
+    <string name="media_image_load_label">Şəkli yüklə</string>
+    <string name="media_image_loading_state">Yüklənir</string>
+    <string name="media_image_open_label">Şəkli aç</string>
+    <string name="media_image_tap_to_load">Yükləmək üçün toxunun</string>
+    <string name="media_image_outside_project_value">Layihədən kənarda</string>
+    <string name="media_image_deferred_low_data_value">Data qənaəti rejiminə görə təxirə salınıb</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">%1$s faylını aç</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">Sessiyaya qayıt</string>
+    <string name="media_browser_ask_description">Bu səhifə haqqında soruş</string>
+    <string name="media_browser_forward_description">İrəli</string>
+    <string name="media_browser_open_in_browser_description">Brauzerdə aç</string>
+    <string name="media_browser_scroll_to_top_label">Səhifənin əvvəlinə keç</string>
+    <string name="media_browser_ask_placeholder">Bu səhifə haqqında soruşun</string>
+    <string name="media_browser_reply_needs_input">Müdaxiləniz lazımdır</string>
+    <string name="media_browser_reply_working">İşləyir</string>
+    <string name="media_browser_go_back_to_session_label">Sessiyaya qayıt</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">Cavab hazırdır</string>
+    <string name="media_browser_reply_back_to_read">· Oxumaq üçün qayıt</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">Sessiya</string>
+    <string name="media_link_open_in_app_browser">Tətbiqdaxili brauzerdə aç</string>
+    <string name="media_link_open_in_browser">Brauzerdə aç</string>
+    <string name="media_link_open_in_app">Tətbiqdə aç</string>
+    <string name="media_link_copy">Linki kopyala</string>
+    <string name="media_link_share">Paylaş…</string>
+    <string name="media_link_open_session">Sessiyanı aç</string>
+    <string name="media_link_copy_session_id">ID-ni kopyala</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">%1$s üçün ID-ni kopyala</string>
+    <string name="media_link_open_session_named_description">%1$s sessiyasını aç</string>
+    <string name="media_link_open_host_in_app_browser_description">%1$s linkini tətbiqdaxili brauzerdə aç</string>
+    <string name="media_link_open_host_in_browser_description">%1$s linkini brauzerdə aç</string>
+    <string name="media_link_open_host_in_app_description">%1$s linkini tətbiqdə aç</string>
+    <string name="media_link_copy_host_description">%1$s linkini kopyala</string>
+    <string name="media_link_share_host_description">%1$s linkini paylaş</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%2$s saytında %1$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s, link %2$d</string>
+    <string name="media_link_more_links_description">Daha çox link</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">Video</string>
+    <string name="media_link_preview_post">Paylaşım</string>
+    <string name="media_link_preview_post_unavailable">Paylaşım əlçatan deyil</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">Repozitoriya</string>
+    <string name="media_github_kind_issue">Məsələ</string>
+    <string name="media_github_kind_pull_request">Birləşdirmə sorğusu</string>
+    <string name="media_github_kind_commit">Kommit</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">Açıq</string>
+    <string name="media_github_state_closed">Bağlı</string>
+    <string name="media_github_state_merged">Birləşdirilib</string>
+    <string name="media_github_state_draft">Qaralama</string>
+    <string name="media_github_state_completed">Tamamlandı</string>
+    <string name="media_github_state_not_planned">Planlaşdırılmayıb</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">Diaqram, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">Diaqram baxıcısı</string>
+    <string name="media_mermaid_diagram_description">Diaqram</string>
+    <string name="media_mermaid_loading_state">%1$s, yüklənir</string>
+    <string name="media_mermaid_view_source">Mənbəni göstər</string>
+    <string name="media_mermaid_source_title">Diaqramın mənbəyi</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">Blok-sxem</string>
+    <string name="media_mermaid_type_sequence">Ardıcıllıq diaqramı</string>
+    <string name="media_mermaid_type_class">Sinif diaqramı</string>
+    <string name="media_mermaid_type_state">Vəziyyət diaqramı</string>
+    <string name="media_mermaid_type_entity_relationship">Varlıq-əlaqə diaqramı</string>
+    <string name="media_mermaid_type_user_journey">İstifadəçi yolu</string>
+    <string name="media_mermaid_type_gantt">Gantt diaqramı</string>
+    <string name="media_mermaid_type_pie">Dairəvi diaqram</string>
+    <string name="media_mermaid_type_quadrant">Kvadrant diaqramı</string>
+    <string name="media_mermaid_type_requirement">Tələblər diaqramı</string>
+    <string name="media_mermaid_type_git_graph">Git qrafı</string>
+    <string name="media_mermaid_type_c4">C4 diaqramı</string>
+    <string name="media_mermaid_type_mind_map">Fikir xəritəsi</string>
+    <string name="media_mermaid_type_timeline">Zaman xətti</string>
+    <string name="media_mermaid_type_sankey">Sankey diaqramı</string>
+    <string name="media_mermaid_type_xy_chart">XY diaqramı</string>
+    <string name="media_mermaid_type_block">Blok diaqramı</string>
+    <string name="media_mermaid_type_packet">Paket diaqramı</string>
+    <string name="media_mermaid_type_kanban">Kanban lövhəsi</string>
+    <string name="media_mermaid_type_architecture">Arxitektura diaqramı</string>
+    <string name="media_mermaid_type_radar">Radar diaqramı</string>
+    <string name="media_mermaid_type_treemap">Ağac xəritəsi</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

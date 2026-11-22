@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- What’s New entries, oldest first: one group per file in whatsnew/entries/. -->
+
+    <!-- 2026-10-06-01-voice-messages -->
+    <string name="settings_whatsnew_entry_voice_messages_title">အသံမက်ဆေ့ဂျ်များ</string>
+    <string name="settings_whatsnew_entry_voice_messages_summary">အသံအကူက သင့်အတွက် စက်ရှင်တွင် မေးပေးသည့်အရာကို လှိုင်းပုံပါသော အသံမက်ဆေ့ဂျ်အဖြစ် ပြထားသည်။</string>
+
+    <!-- 2026-10-07-01-attachment-menu-hold -->
+    <string name="settings_whatsnew_entry_attachment_menu_hold_title">+ ဖြင့် ပူးတွဲပါ</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_summary">မက်ဆေ့ဂျ်အကွက်မှ + မီနူးကို ဖွင့်လျှင် ကင်မရာ၊ ဓာတ်ပုံများနှင့် ဖိုင်များ ပေါ်လာသည်။ + ကို ဖိထားပြီး လျှောရွှေ့ကာ တစ်ချက်တည်း ရွေးနိုင်သည်။</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_1">မက်ဆေ့ဂျ်အကွက်အပေါ်တွင် ဓာတ်ပုံများ ပွင့်လာသည်။ ပူးတွဲရန် ဓာတ်ပုံများကို နှိပ်ပါ။</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_2">ကင်မရာတွင် မှန်ဘီလူးခလုတ်များ ပါပြီး လက်နှစ်ချောင်းဖြင့် ချဲ့ခြင်း၊ နှိပ်၍ အာရုံစိုက်ခြင်းနှင့် ဖလက်ရှ်တို့ကို သုံးနိုင်သည်။</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_example">+ ကို ဖိထားပြီး ဓာတ်ပုံများဆီ အပေါ်သို့ လျှောရွှေ့ကာ လွှတ်လိုက်ပါ</string>
+
+    <!-- 2026-10-08-01-voice-webrtc-weak-connection -->
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_title">ပိုတည်ငြိမ်သော ခေါ်ဆိုမှုများ</string>
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_summary">လိုင်းမကောင်းလျှင် စက္ကန့်အတော်ကြာ အသံပျောက်မည့်အစား ခဏသာ အသံထစ်တော့သည်။</string>
+
+    <!-- 2026-10-08-02-mute-sessions -->
+    <string name="settings_whatsnew_entry_mute_sessions_title">စက်ရှင် အသိပေးချက် ပိတ်ပါ</string>
+    <string name="settings_whatsnew_entry_mute_sessions_summary">အသိပေးချက် ပိတ်ထားသော ဆက်ရှင်များသည် စာရင်းထဲတွင် ရှိနေသော်လည်း အမီလိုက်ကြည့်ရန်တွင် မပါဝင်ဘဲ မဖတ်ရသေးသည့် အစက်လည်း မပြပါ။</string>
+    <string name="settings_whatsnew_entry_mute_sessions_detail_1">အားလုံးကို ဖတ်ပြီးဟု မှတ်ရန် အမီလိုက်ကြည့်ရန်ကို ဖိထားပါ။ သင့်ကို စောင့်နေသော ဆက်ရှင်များတော့ ကျန်နေမည်။</string>
+    <string name="settings_whatsnew_entry_mute_sessions_example">ဘေးအကန့်ရှိ စက်ရှင်တစ်ခုကို ဖိထားပြီး အသိပေးချက် ပိတ်ပါကို နှိပ်ပါ</string>
+
+    <!-- 2026-10-08-03-pair-from-anywhere -->
+    <string name="settings_whatsnew_entry_pair_from_anywhere_title">ဘယ်နေရာမှမဆို တွဲချိတ်ပါ</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_summary">Wi-Fi တစ်ခုတည်း သို့မဟုတ် Tailscale မလိုဘဲ မည်သည့်ကွန်ရက်မှမဆို ချိတ်ဆက်ရန် ကွန်ပျူတာတွင် opencode pair --remote ကို လုပ်ဆောင်ပါ။</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_detail_1">ပေါ်လာသည့် ကုဒ်ကို စကင်ဖတ်ပါ၊ သို့မဟုတ် ဖော်ပြထားသည့် လင့်ခ်ကို ကူးထည့်ပါ။</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_example">opencode pair --remote ကို လုပ်ဆောင်ပြီး ဖုန်းတွင် ဆာဗာထည့်ပါ</string>
+
+    <!-- 2026-10-08-04-drawer-peek -->
+    <string name="settings_whatsnew_entry_drawer_peek_title">နောက်ဆုံး အသုံးပြုချိန်</string>
+    <string name="settings_whatsnew_entry_drawer_peek_summary">စက်ရှင်တစ်ခုစီ နောက်ဆုံး အလုပ်လုပ်ခဲ့ချိန်ကို ကြည့်ရန် စက်ရှင်စာရင်းကို စက်ရှင်ဘက်သို့ ဆွဲပါ။</string>
+    <string name="settings_whatsnew_entry_drawer_peek_detail_1">စာရင်းပေါ်တွင် ဘယ်ဘက်သို့ ပွတ်ဆွဲလျှင် စာရင်း ပိတ်သွားမည်။</string>
+    <string name="settings_whatsnew_entry_drawer_peek_example">စက်ရှင်စာရင်းကို ဖွင့်ပြီး ညာဘက်သို့ ဆွဲပါ</string>
+
+    <!-- 2026-10-08-05-dictation-keeps-going -->
+    <string name="settings_whatsnew_entry_dictation_keeps_going_title">ပြော၍ စာရိုက်ပြီး ပို့ပါ</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_summary">ပြော၍ စာရိုက်ရန် မိုက်ကို နှိပ်ပြီး အသံဖမ်းဘားမှ တိုက်ရိုက် ပို့ပါ။ အရင်စစ်ကြည့်လိုလျှင် ရပ်ပါကို နှိပ်ပါ။</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_1">စကားပြောရန် မိုက်ကို ဖိထားပါ။ ဆက်ဖမ်းရန် အပေါ်သို့ လျှောရွှေ့ပါ၊ မလုပ်တော့ရန် ဘယ်ဘက်သို့ လျှောရွှေ့ပါ။</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_2">အက်ပ်မှ ထွက်သွားလည်း အသံဆက်ဖမ်းနေပြီး Live Activity မှ ရပ်နိုင်သည်။</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_3">အသံဖမ်းနေစဉ် စက်ရှင်ပြောင်းလျှင် ပို့ပါကို နှိပ်သည့်အခါ လက်ရှိမျက်နှာပြင်ရှိ စက်ရှင်သို့ ပို့မည်။</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_example">မိုက်ကို နှိပ်၍ စာတစ်ကြောင်း ပြောပြီး ပို့ပါကို နှိပ်ပါ</string>
+
+    <!-- 2026-10-08-06-siri-shortcuts-spotlight -->
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_title">App Actions နှင့် ဖြတ်လမ်းများ</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_summary">Google Assistant ၏ App Actions၊ အက်ပ်ဖြတ်လမ်းများ သို့မဟုတ် အမြန်ဆက်တင်များမှ ခေါ်ဆိုမှု၊ စက်ရှင် စတင်နိုင်သလို မက်ဆေ့ဂျ်လည်း ပို့နိုင်သည်။</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_detail_1">လတ်တလော စက်ရှင်များကို ကြည့်ရန် အက်ပ်သင်္ကေတကို ဖိထားပါ။</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_example">“Hey Google၊ OpenCode မှာ အသံခေါ်ဆိုမှု စပေးပါ” ဟု ပြောပါ</string>
+
+    <!-- 2026-10-09-01-working-orb -->
+    <string name="settings_whatsnew_entry_working_orb_title">အခြေအနေပြ စက်လုံး</string>
+    <string name="settings_whatsnew_entry_working_orb_summary">အလုပ်လုပ်တယ် ဘေးနှင့် အေးဂျင့်ခွဲကတ်များပေါ်ရှိ စက်လုံးက အေးဂျင့် လုပ်နေသည့်အရာကို ပြပြီး ပြီးသွားလျှင် မိတ္တူခလုတ်အဖြစ် ပြောင်းသွားသည်။</string>
+
+    <!-- 2026-10-09-02-shell-glyph -->
+    <string name="settings_whatsnew_entry_shell_glyph_title">ဘူးခွံ လုပ်ဆောင်မှု</string>
+    <string name="settings_whatsnew_entry_shell_glyph_summary">လုပ်ဆောင်နေသော ဘူးခွံမှ ရလဒ်များ ထွက်လာသည်နှင့် ၎င်း၏ &gt;_ အချက်ပြသည် လည်ပတ်လှုပ်ရှားနေသည်။</string>
+
+    <!-- 2026-10-09-03-math-and-diagrams -->
+    <string name="settings_whatsnew_entry_math_and_diagrams_title">သင်္ချာနှင့် ပုံကြမ်းများ</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_summary">ပြန်စာများတွင် သင်္ချာပုံသေနည်းများကို စနစ်တကျ ပြပြီး Mermaid ပုံကြမ်းများကို ရေးဆွဲပေးသည်။</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_1">ချဲ့ကြည့်ရန် ပုံကြမ်းကို နှိပ်ပါ။ မူရင်းကို ကြည့်ရန် ဖိထားပါ။</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_2">သင်္ချာပုံသေနည်းများကို သင်ရွေးထားသော စာသားအရွယ်အတိုင်း ပြသည်။</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_example">မက်ဆေ့ဂျ်ပို့ပုံကို လုပ်ငန်းစဉ်ပြ ပုံကြမ်းဖြင့် ပြခိုင်းပါ</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_prompt">မက်ဆေ့ဂျ်ပို့ပုံကို လုပ်ငန်းစဉ်ပြ ပုံကြမ်း ရေးဆွဲပေးပါ</string>
+
+    <!-- 2026-10-09-04-always-notify -->
+    <string name="settings_whatsnew_entry_always_notify_title">ပြီးလျှင် အသိပေးပါ</string>
+    <string name="settings_whatsnew_entry_always_notify_summary">ဤနေရာမှ စတင်ထားသော စက်ရှင် အလုပ်ပြီးလျှင် လုပ်ဆောင်ခဲ့သည့် အကျဉ်းချုပ်နှင့်အတူ အကြောင်းကြားချက် ရမည်။</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_1">ကွန်ပျူတာမှ စတင်ထားသည့် အလုပ်များအပါအဝင် ပြန်စာတိုင်းအတွက် အသိပေးချက်ရရန် စက်ရှင်အကန့်တွင် အမြဲအသိပေးရန်ကို ဖွင့်ပါ။</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_2">သက်ဆိုင်ရာ စက်ရှင်ကို ဖွင့်ရန် အကြောင်းကြားချက်ကို နှိပ်ပါ။</string>
+    <string name="settings_whatsnew_entry_always_notify_example">မက်ဆေ့ဂျ်တစ်စောင် ပို့ပြီး ဖုန်းကို လော့ခ်ချပါ</string>
+
+    <!-- 2026-10-09-05-server-switcher -->
+    <string name="settings_whatsnew_entry_server_switcher_title">ဆာဗာပြောင်းပါ</string>
+    <string name="settings_whatsnew_entry_server_switcher_summary">လက်ရှိဆာဗာအမည်ကို ဘေးအကန့်ခေါင်းစဉ်အဖြစ် ပြထားသည်။ အခြားဆာဗာသို့ ပြောင်းရန် သို့မဟုတ် အသစ်ထည့်ရန် ၎င်းကို နှိပ်ပါ။</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_1">ဆက်တင်များတွင် ချိတ်ဆက်မှုကို နှလုံးခုန်သကဲ့သို့ လှုပ်ရှားပြပြီး ဆာဗာအမည်ဘေးတွင် အသွားအပြန် ကြာချိန်ကို ပြထားသည်။</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_2">ဆာဗာအမည် ပြောင်းနိုင်သည်။ ထိုအမည်ကို ဤဖုန်းတွင်သာ သုံးမည်။</string>
+    <string name="settings_whatsnew_entry_server_switcher_example">ဘေးအကန့်ကို ဖွင့်ပြီး ဆာဗာအမည်ကို နှိပ်ကာ သင့်အခြားကွန်ပျူတာကို ထည့်ပါ</string>
+
+    <!-- 2026-10-10-01-share-opened-files -->
+    <string name="settings_whatsnew_entry_share_opened_files_title">ဓာတ်ပုံလို ကြည့်နိုင်သော ပုံများ</string>
+    <string name="settings_whatsnew_entry_share_opened_files_summary">စက်ရှင်တွင် ပုံများကို အပြည့်ပြပြီး ဓာတ်ပုံများကဲ့သို့ ဖွင့်ကြည့်နိုင်သည်။ လက်နှစ်ချောင်းဖြင့် ချဲ့ပါ၊ ပွတ်ဆွဲ၍ ပုံပြောင်းပါ၊ ပိတ်ရန် အောက်သို့ ဆွဲပါ။</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_1">အေးဂျင့် ဖော်ပြသည့် ဖိုင်တိုင်းကို အက်ပ်ထဲတွင် ဖွင့်နိုင်သည်။</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_2">မျှဝေပါမှ ဖွင့်ထားသမျှကို ဓာတ်ပုံများ သို့မဟုတ် ဖိုင်များထဲ သိမ်းနိုင်သည်။ ဗီဒီယိုနှင့် အသံများလည်း ပါဝင်သည်။</string>
+    <string name="settings_whatsnew_entry_share_opened_files_example">ဖန်သားပြင်ပုံအချို့ကို အေးဂျင့်အား ဖတ်ခိုင်းပြီး ပုံတစ်ပုံကို နှိပ်ကာ အောက်သို့ ဆွဲပါ</string>
+
+    <!-- 2026-10-10-02-call-voice -->
+    <string name="settings_whatsnew_entry_call_voice_title">အသံခေါ်ဆိုမှုများ</string>
+    <string name="settings_whatsnew_entry_call_voice_summary">မက်ဆေ့ဂျ်အကွက်လွတ်ရှိ လှိုင်းပုံကို နှိပ်ပြီး စကားပြောပါ။ သင်ပြောနေစဉ် အသံအကူက သင့်ဆက်ရှင်များတွင် အလုပ်လုပ်ပေးပြီး ပြီးလျှင် ပြောပြသည်။</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_1">စက်ရှင်အမည်ကို ပြောပြီး ခိုင်းပါ။ အသံအကူက ထိုစက်ရှင်ကို ဖွင့်ကာ အလုပ်စတင်ပေးမည် သို့မဟုတ် လမ်းညွှန်ပေးမည်။</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_2">ကြားဖြတ်လိုလျှင် ၎င်းပြောနေစဉ် ဝင်ပြောပါ။ အလုပ်ဘယ်လောက်ပြီးပြီလဲဟုလည်း မေးနိုင်သည်။</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_3">တိုက်ရိုက်စာတန်းထိုး ကြည့်ရန် ခေါ်ဆိုမှုဘားကို နှိပ်ပါ။</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_4">ခေါ်ဆိုမှု အသိပေးချက်မှ အသံပိတ်နိုင်ပြီး ဖုန်းချနိုင်ပါသည်။ လော့ခ်မျက်နှာပြင်မှာလည်း လုပ်နိုင်ပါသည်။</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_5">အေးဂျင့် အလုပ်လုပ်နေစဉ် ဖုန်းခေါ်ရန် ရပ်ပါ။ ကို ဖိထားပါ။</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_6">ဆက်တင်များ → အသံ တွင် အသံတစ်ခု ရွေးပါ။</string>
+    <string name="settings_whatsnew_entry_call_voice_example">ဖုန်းခေါ်ပြီး “အပ်လုဒ်ပြင်ဆင်မှု စက်ရှင်ကို ဖွင့်ပြီး စမ်းသပ်မှုတွေ စစ်ပေးပါ” ဟု ပြောပါ</string>
+
+    <!-- 2026-10-10-03-drawer-one-edge -->
+    <string name="settings_whatsnew_entry_drawer_one_edge_title">ပိုသပ်ရပ်သော ဘေးအကန့်</string>
+    <string name="settings_whatsnew_entry_drawer_one_edge_summary">အတန်းများကို တစ်ဖက်တည်း ညှိထားပြီး အခြေအနေပြအစက်များကို အတန်းအဆုံးတွင် ပြထားသည်။ ရှာရန် ခလုတ်ကို အပေါ်ဆုံးတွင် ထားထားသည်။</string>
+
+    <!-- 2026-10-11-01-paste-as-a-card -->
+    <string name="settings_whatsnew_entry_paste_as_a_card_title">ကူးထည့်စာရှည်များကို ကတ်ဖြင့်ပြမည်</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_summary">ကူးထည့်သည့် စာရှည်များကို ပုံများဘေးတွင် ကူးထည့်ထားသောစာသား ကတ်အဖြစ် ပြမည်။ အေးဂျင့်က စာအားလုံးကို ဖတ်နိုင်ဆဲဖြစ်သည်။</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_1">ကူးထည့်ထားသမျှ ဖတ်ရန် ကတ်ကို နှိပ်ပါ။ မိတ္တူနှင့် မျှဝေပါ တို့လည်း ပါဝင်သည်။</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_2">မက်ဆေ့ဂျ်ရှည်များကို စာကြောင်းအနည်းငယ်သာ ပြပြီး နောက်ထပ်ပြပါ။ ဖြင့် ချဲ့ကြည့်နိုင်သည်။</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_example">မှတ်တမ်းရှည်တစ်ခုကို ကူးယူပြီး မက်ဆေ့ဂျ်အကွက်တွင် ကူးထည့်ကာ ကတ်ကို နှိပ်ပါ</string>
+
+    <!-- 2026-10-11-02-ride-out-drops -->
+    <string name="settings_whatsnew_entry_ride_out_drops_title">လိုင်းအားနည်းလည်း သုံးနိုင်</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_summary">စက္ကန့်အနည်းငယ် လိုင်းပျောက်ရုံဖြင့် လုပ်ဆောင်မှုများ မပျက်တော့ပါ။ ပို့ခြင်း၊ စက်ရှင်နှင့် ခေါ်ဆိုမှုများက လိုင်းပြန်ရသည်အထိ စောင့်ပြီး ဆက်လုပ်မည်။</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_1">ပို့ပါ ခလုတ်ကို အမြဲသုံးနိုင်ပြီး မက်ဆေ့ဂျ်များကို ပို့ထားသည့် အစဉ်အတိုင်း ပို့ပေးမည်။</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_2">မပို့နိုင်သည့် မက်ဆေ့ဂျ်သည် ပြန်ကြိုးစားပါ ခလုတ်နှင့်အတူ မူလနေရာတွင် ရှိနေမည်။ ပြန်ကြိုးစားလည်း နှစ်ခါထပ်မပို့ပါ။</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_3">ဆာဗာ အော့ဖ်လိုင်းဖြစ်လျှင် ဘေးအကန့်ရှိ ၎င်း၏အမည် မှိန်သွားမည်။ ပြန်ကြိုးစားပါ ခလုတ်ကို တွေ့ရန် အမည်ကို နှိပ်ပါ။</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_example">ရထား ဥမင်ထဲ ဝင်နေစဉ် စက်ရှင်တစ်ခု ဖွင့်ကြည့်ပါ</string>
+
+    <!-- 2026-10-11-03-new-session-recent-projects -->
+    <string name="settings_whatsnew_entry_new_session_recent_projects_title">မည်သည့်ပရောဂျက်တွင်မဆို စတင်ပါ</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_summary">စက်ရှင်အသစ်တွင် လတ်တလောပရောဂျက်များကို မက်ဆေ့ဂျ်အကွက်အပေါ်၌ ပြထားသည်။ ပရောဂျက်အားလုံးမှ ကွန်ပျူတာရှိ မည်သည့်ဖိုင်တွဲကိုမဆို ဖွင့်နိုင်သည်။</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_1">စာရိုက်နေစဉ် ရွေးထားသော ပရောဂျက်ကို မက်ဆေ့ဂျ်အကွက်အပေါ်၌ ဆက်ပြထားမည်။</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_2">စက်ရှင်အသစ်မှ စတင်သော ခေါ်ဆိုမှုသည် ရွေးထားသော ပရောဂျက်တွင် အလုပ်လုပ်မည်။</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_example">စက်ရှင်အသစ်၊ ထို့နောက် ပရောဂျက်အားလုံး၊ ထို့နောက် ဖိုင်တွဲရွေးပါ… ကို နှိပ်ပါ</string>
+
+    <!-- 2026-10-11-04-stop-runs-your-steer -->
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_title">အလုပ်လုပ်နေစဉ် လမ်းညွှန်ပါ</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_summary">အေးဂျင့် အလုပ်လုပ်နေစဉ် မက်ဆေ့ဂျ်ပို့လျှင် ကြာရှည်သည့် အမိန့်များကို နောက်ကွယ်သို့ အရင်ရွှေ့ပြီး နောက်အဆင့်တွင် သင့်မက်ဆေ့ဂျ်ကို ဖတ်မည်။</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_1">မက်ဆေ့ဂျ်တစ်ခုအတွက် လမ်းညွှန်ပါ သို့မဟုတ် တန်းစီပါ ကို ရွေးရန် ပို့ပါ ကို ဖိထားပါ။</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_2">စောင့်နေသော မက်ဆေ့ဂျ်ကို တန်းစီစာရင်းသို့ ရွှေ့ရန် သို့မဟုတ် ဖျက်ရန် ဖိထားပါ။</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_3">ရပ်ပါ။ ကို နှိပ်သည်နှင့် ရပ်တန့်နေသည်… ဟု ပြပြီး သင်ပို့ထားသော လမ်းညွှန်မက်ဆေ့ဂျ်ကို နောက်တစ်ဆင့်တွင် လုပ်ဆောင်မည်။</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_example">ကြာရှည်သည့် အမိန့်တစ်ခု အလုပ်လုပ်နေစဉ် မက်ဆေ့ဂျ်ပို့ပြီး အမိန့် နောက်ကွယ်သို့ ရွှေ့သွားပုံကို ကြည့်ပါ</string>
+
+    <!-- 2026-10-12-01-browser-push-in -->
+    <string name="settings_whatsnew_entry_browser_push_in_title">အက်ပ်တွင်း ဘရောက်ဇာစာမျက်နှာများ</string>
+    <string name="settings_whatsnew_entry_browser_push_in_summary">အက်ပ်တွင်း ဘရောက်ဇာ စမ်းသပ်လုပ်ဆောင်ချက်ကို ဖွင့်ထားလျှင် လင့်ခ်၏စာမျက်နှာကို စက်ရှင်အပေါ်တွင် ထပ်ဖွင့်မည်။ ပြန်သွားရန် မျက်နှာပြင်အစွန်းမှ ပွတ်ဆွဲပါ။</string>
+
+    <!-- 2026-10-12-02-answer-from-the-bar -->
+    <string name="settings_whatsnew_entry_answer_from_the_bar_title">မက်ဆေ့ဂျ်အကွက်မှ ဖြေပါ</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_summary">မေးခွန်းများနှင့် ခွင့်ပြုချက်များကို မက်ဆေ့ဂျ်အကွက်မှ ချဲ့ပြမည်။ ထိုနေရာတွင်ပင် အဖြေရွေးနှိပ်ပါ၊ သို့မဟုတ် ကိုယ်ပိုင်အဖြေကို ရိုက်ထည့်ပါ၊ အသံဖြင့် ပြောပါ။</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_1">ခွင့်မပြုမီ လုပ်ဆောင်မည့် အမိန့် သို့မဟုတ် တည်းဖြတ်မှုကို ခွင့်ပြုချက်တွင် ပြထားမည်။</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_2">ငြင်းဆို ကို နှိပ်လျှင် သင်ရိုက်ထားသည့်စာကို အစားထိုးညွှန်ကြားချက်အဖြစ် သုံးပြီး အေးဂျင့်က ဆက်လုပ်မည်။</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_3">ဖြေပြီးသည်နှင့် သင့်မူကြမ်း ပြန်ပေါ်လာမည်။</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_example">အေးဂျင့်က မေးခွန်းမေးလျှင် မိုက်ခလုတ်ကို ဖိထားပြီး အဖြေပြောပါ</string>
+
+    <!-- 2026-10-12-03-new-messages-divider -->
+    <string name="settings_whatsnew_entry_new_messages_divider_title">ရပ်ထားသည့်နေရာမှ ဆက်ပါ</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_summary">စက်ရှင်သို့ ပြန်လာလျှင် သင်မရှိစဉ် ရောက်လာသမျှကို အောက်ဆုံးတွင် အသင့်ပြထားမည်။ မဖတ်ရသေးသည့်စာများ ရှည်နေပါက အသစ် မျဉ်းမှ စဖွင့်ရန် ဆက်တင်များ › ဆက်ရှင်များ တွင် မက်ဆေ့ဂျ်အသစ် ခွဲမျဉ်းကို ဖွင့်ပါ။</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_1">ဘေးအကန့်ဖွင့်စဉ် သင်ဖွင့်နိုင်ခြေရှိသည့် စက်ရှင်များကို အပ်ဒိတ်လုပ်ပေးသဖြင့် နှိပ်လိုက်သည့်အခါ အသင့်ဖြစ်နေမည်။</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_2">စက်ရှင်သို့ ပြန်ပြောင်းလာလျှင် အပ်ဒိတ်လုပ်နေစဉ် နောက်ကွယ်လုပ်ဆောင်မှုများနှင့် ဆက်စပ်အကြောင်းအရာပမာဏပြကိရိယာကို ဆက်ပြထားမည်။</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_example">ကြာရှည်သည့် လုပ်ဆောင်စရာတစ်ခု စတင်ပြီး အခြားစက်ရှင်သို့ ပြောင်းကာ အဖြေပြန်လာသည့်အခါ ပြန်လာပါ</string>
+
+    <!-- 2026-10-12-04-model-list-and-level-meter -->
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_title">မော်ဒယ်ရွေးချယ်မှုအသစ်</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_summary">မော်ဒယ်အကန့်မှ မော်ဒယ်နှင့် စဉ်းစားမှုအဆင့်ကို ရွေးပါ။ အကြိုက်ဆုံးများကို အပေါ်ဆုံးတွင် ပြထားသည်။ မက်ဆေ့ဂျ်အကွက်မှ ချဲ့ပြသည့်စာရင်းကို စမ်းရန် ဆက်တင်များ → သမ္ဘာ တွင် မော်ဒယ်ရွေးချယ်မှုအသစ်ကို ဖွင့်ပါ။</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_1">မော်ဒယ်တွင် အဆင့်များ ပါလျှင် မော်ဒယ်အကန့်ရှိ စဉ်းစားခြင်း။ မီနူးကို သုံးပါ။</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_2">အကြိုက်ဆုံးများထဲ ထည့်ရန် မော်ဒယ်ကို ပွတ်ဆွဲပါ။</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_3">မော်ဒယ် သို့မဟုတ် အဆင့်ပြောင်းထားသည့် နေရာကို စက်ရှင်တွင် မသိသာသော မျဉ်းတစ်ကြောင်းဖြင့် မှတ်ပြထားမည်။</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_example">မက်ဆေ့ဂျ်အကွက်ရှိ မော်ဒယ်ကို နှိပ်ပြီး စဉ်းစားမှုအဆင့်တစ်ခု ရွေးပါ</string>
+
+    <!-- 2026-10-12-05-run-error-line -->
+    <string name="settings_whatsnew_entry_run_error_line_title">လုပ်ဆောင်မှု မအောင်မြင်သည့်အခါ</string>
+    <string name="settings_whatsnew_entry_run_error_line_summary">လုပ်ဆောင်မှု စောစီးစွာ ရပ်သွားလျှင် အကြောင်းရင်းကို ရိုးရှင်းစွာ ရှင်းပြပြီး ဆက်လုပ်ရန် တည်းဖြတ်ပါ။၊ ကျစ်လျစ်သော၊ မော်ဒယ်ပြောင်းပါ သို့မဟုတ် ပြန်ကြိုးစားပါ တစ်ခုခုကို ပြပေးမည်။</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_1">တည်းဖြတ်ပါ။ ကို နှိပ်လျှင် ပို့ထားသောမက်ဆေ့ဂျ်ကို ပြန်ရုပ်သိမ်းပြီး ပြင်ရေးရန် မက်ဆေ့ဂျ်အကွက်ထဲ ပြန်ထည့်ပေးမည်။</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_2">အမှားအပြည့်အစုံကို ကြည့်ပြီး ကူးယူရန် ထိုစာကြောင်းကို ဖိထားပါ။</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_3">အေးဂျင့်က အလိုအလျောက် ပြန်ကြိုးစားမည်ဆိုလျှင် အလုပ်လုပ်တယ်။ တွင် နောက်တစ်ကြိမ်အထိ ကျန်ချိန်ကို ရေတွက်ပြမည်။</string>
+    <string name="settings_whatsnew_entry_run_error_line_example">အဖြေကို ပိတ်ပင်ခံရလျှင် တည်းဖြတ်ပါ။ ကို နှိပ်ပြီး မက်ဆေ့ဂျ်ကို ပြင်ရေးကာ ပြန်ပို့ပါ</string>
+
+    <!-- 2026-10-12-06-transcript-keyboard-space -->
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_title">ကီးဘုတ်ပိတ်လျှင် နေရာလွတ်မကျန်</string>
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_summary">ကီးဘုတ်ကို ဆွဲပိတ်လိုက်လျှင် နောက်ဆုံးမက်ဆေ့ဂျ်အောက်တွင် နေရာလွတ် မကျန်တော့ပါ။</string>
+
+    <!-- 2026-10-12-07-share-sheet-sends -->
+    <string name="settings_whatsnew_entry_share_sheet_sends_title">မျှဝေမှုအကန့်မှ ပို့ပါ</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_summary">မည်သည့်အရာကိုမဆို OpenCode သို့ မျှဝေပြီး စက်ရှင်ရွေးကာ မက်ဆေ့ဂျ်ထည့်၍ အက်ပ်မဖွင့်ဘဲ ပို့နိုင်သည်။</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_1">လတ်တလောစက်ရှင်များကို မျှဝေမှုအကန့်၏ အပေါ်ဆုံးအတန်းတွင် ပြထားသည်။</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_2">JSON ဖိုင်များနှင့် ထုတ်ယူထားသည့်ဖိုင်များကို မူလအမည်မပြောင်းဘဲ ဖိုင်အဖြစ် ပူးတွဲပေးမည်။</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_3">“OpenCode တွင် ဆက်ရန်” က သင်မျှဝေထားသည့်အရာကို မက်ဆေ့ဂျ်အကွက်ထဲ ထည့်ပြီး စက်ရှင်ကို ဖွင့်ပေးသည်။</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_4">ပို့မရပါက “နောက်မှပို့ပါ” ကို နှိပ်ထားလျှင် အက်ပ်ကို နောက်တစ်ကြိမ်ဖွင့်ချိန်တွင် ပို့ပေးမည်။</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_example">ဖန်သားပြင်ပုံကို OpenCode သို့ မျှဝေပြီး မေးခွန်းရေးကာ “ပို့ပါ” ကို နှိပ်ပါ</string>
+
+    <!-- 2026-10-12-08-app-icon-badge -->
+    <string name="settings_whatsnew_entry_app_icon_badge_title">အက်ပ်သင်္ကေတပေါ်က အရေအတွက်</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_summary">အက်ပ်သင်္ကေတတွင် မဖတ်ရသေးသော သို့မဟုတ် သင့်ကို စောင့်နေသော စက်ရှင်အရေအတွက်ကို “အမီလိုက်ကြည့်ရန်” နှင့် တူညီစွာ ပြထားသည်။</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_1">အကြောင်းကြားချက် ပိတ်ထားသော စက်ရှင်များကို မထည့်တွက်ပါ။</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_2">အကြောင်းကြားချက်များ ဖွင့်ထားရန် လိုသည်။</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_example">မေးခွန်းအဖြေကို စောင့်နေသည့် စက်ရှင်တစ်ခုကို ထားခဲ့ပြီး ပင်မဖန်သားပြင်သို့ သွားပါ</string>
+
+    <!-- 2026-10-12-09-drawer-keeps-keyboard -->
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_title">ဘေးအကန့်နှင့်အတူ ကီးဘုတ်လျှောရွေ့ခြင်း</string>
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_summary">စာရိုက်နေစဉ် စက်ရှင်စာရင်းကို ဖွင့်သော်လည်း မက်ဆေ့ဂျ်အကွက်တွင် ဆက်ရိုက်နိုင်ပြီး ကီးဘုတ်က စက်ရှင်နှင့်အတူ ဘေးသို့ လျှောရွေ့သည်။</string>
+
+    <!-- 2026-10-12-10-whats-new-page -->
+    <string name="settings_whatsnew_entry_whats_new_page_title">ပိုရိုးရှင်းသည့် “ဘာတွေ အသစ်ပါလဲ”</string>
+    <string name="settings_whatsnew_entry_whats_new_page_summary">“ဘာတွေ အသစ်ပါလဲ” ကို ဆက်တင်များကဲ့သို့ စာမျက်နှာအဖြစ် ဖွင့်ပေးပြီး လုပ်ဆောင်ချက်တစ်ခုစီအတွက် စာမျက်နှာ သီးသန့်ပါသည်။ ပြင်ဆင်ချက်များကို ဤနေရာတွင် စုထားသည်။</string>
+
+    <!-- 2026-10-12-11-catch-up-returns-to-drawer -->
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_title">အမီလိုက်ကြည့်ပြီး ဘေးအကန့်သို့ ပြန်ရောက်ခြင်း</string>
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_summary">“အမီလိုက်ကြည့်ရန်” မှ ထွက်လျှင် စက်ရှင်စာရင်းကို မူလထားခဲ့သည့်အတိုင်း ပြန်ရောက်မည်။</string>
+
+    <!-- 2026-10-12-12-transcript-day-stamps -->
+    <string name="settings_whatsnew_entry_transcript_day_stamps_title">စကားပြောမှတ်တမ်းထဲက နေ့ရက်များ</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_summary">ရက်အတော်ကြာသည့် စက်ရှင်တွင် နေ့စဉ်ပထမဆုံး မက်ဆေ့ဂျ်အပေါ်၌ “ဗုဒ္ဓဟူး နံနက် ၈:၂၄” ကဲ့သို့ နေ့နှင့်အချိန်ကို ပြသည်။ တစ်နာရီနားပြီးမှ ပို့သည့် မက်ဆေ့ဂျ်အပေါ်၌လည်း အချိန်ပြသည်။</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_1">နေ့ရက်ကို ယနေ့၊ မနေ့က သို့မဟုတ် ယခုအပတ်အတွင်းဆိုလျှင် နေ့အမည်ဖြင့် ပြပြီး ကျန်ရက်များကို ရက်စွဲဖြင့် ပြသည်။</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_2">လမ်းညွှန်ခြင်းနှင့် တန်းစီထားသော မက်ဆေ့ဂျ်များ စောင့်နေစဉ် နေ့နှင့်အချိန် မပြပါ။</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_example">ယခုအပတ် အစောပိုင်းက စခဲ့သည့် စက်ရှင်ကို ဖွင့်ပြီး အပေါ်သို့ လှိမ့်ကြည့်ပါ</string>
+
+    <!-- 2026-10-12-13-rich-link-previews -->
+    <string name="settings_whatsnew_entry_rich_link_previews_title">လင့်ခ် အစမ်းကြည့်ရှုခြင်း</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_summary">ပြန်စာအောက်က လင့်ခ်တစ်ခုစီကို တစ်ကြောင်းစီ အကျဉ်းပြသည်။ ခေါင်းစဉ်နှင့် အခြေအနေပါသော ပေါင်းထည့်ရန် တောင်းဆိုချက် သို့မဟုတ် ပြဿနာ၊ ကွန်မစ်၊ ဗီဒီယို၊ စာမျက်နှာ စသည်ဖြင့် ပြသည်။</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_1">GitHub ပေါင်းထည့်ရန် တောင်းဆိုချက်များ၊ ပြဿနာများ၊ ကွန်မစ်များနှင့် သိုလှောင်မှုများ၏ ခေါင်းစဉ်ကို ပြပြီး “ဖွင့်ထားသည်”၊ “ပေါင်းထည့်ပြီး” သို့မဟုတ် “ပိတ်ထားသည်” ကို အရောင်ဖြင့် ပြသည်။</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_2">X ပို့စ်များတွင် ပို့စ်တင်သူနှင့် ရေးထားသည့်အကြောင်းအရာ၊ YouTube လင့်ခ်များတွင် ခေါင်းစဉ်၊ အခြားစာမျက်နှာများတွင် လင့်ခ်မှ ဖတ်ယူထားသည့် အမည်ကို ပြသည်။</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_3">လင့်ခ်သုံးခုကို ပြထားသည်။ ကျန်လင့်ခ်များကို ကြည့်ရန် “မိတ္တူ” ဘေးရှိ “နောက်ထပ်” ကို နှိပ်ပါ။ ပြန်ခေါက်သိမ်းရန် ထပ်နှိပ်ပါ။</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_4">ပိုကြီးသော အစမ်းမြင်ကွင်း၊ “လင့်ခ်ကို ကူးယူပါ။” နှင့် “မျှဝေပါ” ကို ကြည့်ရန် လင့်ခ်ကို ဖိထားပါ။</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_example">ယခုအပတ် သိုလှောင်မှုတစ်ခုတွင် ဘာတွေပြောင်းလဲခဲ့သလဲဟု အေးဂျင့်ကို မေးပါ</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_prompt">ကျွန်ုပ်သုံးနေသည့် GitHub သိုလှောင်မှုတစ်ခုမှာ ဒီအပတ် ဘာတွေပြောင်းလဲခဲ့သလဲ။ လင့်ခ်များပါ ထည့်ပေးပါ။</string>
+
+    <!-- 2026-10-13-01-rolling-numbers -->
+    <string name="settings_whatsnew_entry_rolling_numbers_title">လှိမ့်ပြောင်းသည့် ဂဏန်းများ</string>
+    <string name="settings_whatsnew_entry_rolling_numbers_summary">နောက်ခံအလုပ် အကွက်ငယ်၊ စက်ရှင်အကန့်၊ “N ခု သုံးထားသည်” အတန်းများနှင့် “အမီလိုက်ကြည့်ရန်” ရှိ အရေအတွက်များ ပြောင်းလဲချိန်တွင် ဂဏန်းတစ်လုံးစီ လှိမ့်ပြောင်းသည်။</string>
+
+    <!-- 2026-10-13-02-grouped-steering -->
+    <string name="settings_whatsnew_entry_grouped_steering_title">စုဖွဲ့ထားသော မက်ဆေ့ဂျ်များ</string>
+    <string name="settings_whatsnew_entry_grouped_steering_summary">ဆက်တိုက်ပို့သည့် မက်ဆေ့ဂျ်များကို တစ်စုတည်း ပြထားပြီး အေးဂျင့်ကို စောင့်နေသည့် လမ်းညွှန်မက်ဆေ့ဂျ်များကို “လမ်းညွှန်ခြင်း” အညွှန်းတစ်ခုတည်းအောက်တွင် ပြသည်။</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_1">ဆက်တိုက်မက်ဆေ့ဂျ်အကွက်များကို ကပ်လျက်ထားပြီး ထိစပ်သည့်ထောင့်များကို ဆက်ထားသည်။</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_2">အစုအတွင်းရှိ ဓာတ်ပုံနှင့် ဖိုင်များ၏ မူလအဝိုင်းပုံစံကို ဆက်ထိန်းထားသည်။</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_3">အေးဂျင့်က မက်ဆေ့ဂျ်တစ်ခုစီကို လက်ခံလိုက်ချိန်တွင် ထိုမက်ဆေ့ဂျ်က ၎င်း၏နေရာသို့ တစ်ဆက်တည်း အပေါ်တက်သွားသည်။</string>
+    <string name="settings_whatsnew_entry_grouped_steering_example">အေးဂျင့် အလုပ်လုပ်နေစဉ် မက်ဆေ့ဂျ်သုံးခုကို ခပ်မြန်မြန် ပို့ပါ။ တစ်ခုတွင် ဓာတ်ပုံထည့်ပါ</string>
+
+    <!-- 2026-10-13-03-inline-tool-rows -->
+    <string name="settings_whatsnew_entry_inline_tool_rows_title">ရိုးရှင်းသော ကိရိယာနှင့် မေးခွန်းအတန်းများ</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_summary">ကိရိယာအုပ်စုများနှင့် ဖြေပြီးသော မေးခွန်းများကို ဖွင့်လျှင် ကုဒ်ကဲ့သို့ အကျယ်ပြည့်အကန့်ဖြင့် ပြပြီး ဆက်တိုက်ဖတ်ရှုမှုများကို တစ်တန်းတည်း ပေါင်းပြသည်။</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_1">ခေါက်သိမ်းထားသော အုပ်စုများတွင် “ကိရိယာ N ခု သုံးထားသည်” ဟု ပြပြီး မအောင်မြင်သော ကိရိယာခေါ်ဆိုမှုများကို နီရောင်ဖြင့် မှတ်သားသည်။</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_2">လုပ်ဆောင်မှုအတန်းများတွင် စခရစ်က ခေါ်သုံးခဲ့သော ကိရိယာအမည်များကို ပြပြီး ကျွမ်းကျင်မှုအတန်းများတွင် ကျွမ်းကျင်မှုအမည်ကို ပြသည်။</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_3">ဖြေပြီးသော မေးခွန်းများတွင် မေးခွန်းနှင့် ပေးထားသော ရွေးချယ်စရာအားလုံးကို ပြပြီး သင်ရွေးထားသည့်အဖြေကို အမှန်ခြစ်ထားသည်။</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_example">စက်ရှင်ထဲရှိ “ကိရိယာ N ခု သုံးထားသည်” အတန်းကို နှိပ်ပြီး အကန့်ဖွင့်ကြည့်ပါ</string>
+
+    <!-- 2026-10-13-04-mac-motion-playgrounds -->
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_title">Mac ပေါ်က စမ်းသပ်ကွင်း ထိန်းချုပ်မှုများ</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_summary">ဆော့ဖ်ဝဲရေးသားသူမုဒ် ဖွင့်ထားလျှင် ချိန်ညှိမှုကို Mac နှင့် တွဲချိတ်ပြီး စမ်းသပ်ကွင်းလှုပ်ရှားမှုများကို အနှေးပြန်ဖွင့်ကာ ဖမ်းယူထားသော ဖရိမ်များကို စစ်ဆေးနိုင်သည်။</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_1">Mac ၏ ချိန်ညှိမှုစာမျက်နှာတွင် စမ်းသပ်ကွင်းရွေးချယ်မှု၊ ကြိုတင်သတ်မှတ်ချက်များနှင့် ပြန်ဖွင့်ထိန်းချုပ်မှုများ ပါသည်။ ဖုန်းတွင် စမ်းသပ်ကွင်းကိုသာ ပြသည်။</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_2">ကတ်ငယ်များတွင် လက်ရှိမြင်ရသော ထိန်းချုပ်မှုများကို ပြထားသည်။ လှုပ်ရှားမှုနှင့် အကွာအဝေးအတွက် အမည်ပေးထားသော ကြိုတင်သတ်မှတ်ချက်များနှင့် မူလပုံစံသို့ ပြန်ထားရန် “မူလ” ပါသည်။ သတ်မှတ်ချက်တစ်ခုစီ၏ တန်ဖိုးအားလုံးကို တစ်ကြိမ်တည်း ပြောင်းပေးသည်။</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_3">Mac ချိတ်ဆက်သောအခါ ပေါ်နေသည့် ချိန်ညှိမှုအကန့်ကို ဖျောက်ပေးသည်။ ချိန်ညှိမှုလက်ဟန်ဖြင့် ပြန်ခေါ်ပြီး ထွက်ရန် “စမ်းသပ်ကွင်းမှ ထွက်ရန်” ကို ရွေးပါ။</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_4">ကြိုတင်ပြင်ဆင်ထားသော အခြေအနေများက တူညီသည့် နမူနာစက်ရှင်ကို ပြန်ဖွင့်ပေးသဖြင့် အက်ပ်ဗားရှင်းများကြား လှုပ်ရှားမှုကို နှိုင်းယှဉ်နိုင်သည်။</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_5">ပြန်ဖွင့်သည့်အခါ အစမှ အသစ်စပြီး လမ်းညွှန်မက်ဆေ့ဂျ်များနှင့် တန်းစီထားသော မက်ဆေ့ဂျ်များကို စောင့်ခိုင်းမထားဘဲ ပို့ပေးသည်။</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_6">Mac ၏ ပြန်လည်သုံးသပ်ရန် ပလေယာတွင် ဖမ်းယူထားသော ပုံသဏ္ဌာန်နှင့် နေရာအထားအသိုကို တစ်ဆင့်စီ ကြည့်ခြင်း၊ ဖရိမ်မှတ်သားခြင်းနှင့် လှုပ်ရှားမှုဆိုင်ရာ အကြံပြုချက်ပို့ခြင်းတို့ လုပ်နိုင်သည်။</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_example">ဆက်တင်များ → ဆော့ဖ်ဝဲရေးသားသူ ကို ဖွင့်ပြီး Mac ချိန်ညှိမှုစာမျက်နှာနှင့် တွဲချိတ်ပါ။ ထို့နောက် စကားပြောမှတ်တမ်း → ပြန်စာကို တဖြည်းဖြည်းပြရန် ကို 0.25× ဖြင့် စမ်းပါ</string>
+
+    <!-- 2026-10-13-05-catch-up-flicks -->
+    <string name="settings_whatsnew_entry_catch_up_flicks_title">အမီလိုက်ကြည့်ရာတွင် ပိုလွယ်သော ပွတ်ဆွဲမှု</string>
+    <string name="settings_whatsnew_entry_catch_up_flicks_summary">“အမီလိုက်ကြည့်ရန်” တွင် ခပ်မြန်မြန် ပွတ်ဆွဲခြင်း သို့မဟုတ် အနည်းငယ်ဆွဲခြင်းဖြင့် ကတ်ကို မူလနေရာသို့ ပြန်မခုန်ဘဲ ရွှေ့ထုတ်နိုင်သည်။</string>
+
+    <!-- 2026-10-14-01-settings-grouped-by-purpose -->
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_title">ပိုရှင်းလင်းသော ဆက်တင်များ</string>
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_summary">စမ်းသပ်လုပ်ဆောင်ချက်များနှင့် ဆော့ဖ်ဝဲရေးသားသူ ကိရိယာများကို ဆက်တင်များ → သမ္ဘာ တွင်၊ အက်ပ်တွင်း သတိပေးချက်များကို အကြောင်းကြားချက်များတွင်၊ ခေါ်ဆိုမှုမှတ်တမ်းကို အသံတွင် ရှာနိုင်သည်။</string>
+
+    <!-- 2026-10-14-02-send-ats-recovery -->
+    <string name="settings_whatsnew_entry_send_ats_recovery_title">စိတ်ချရသော မက်ဆေ့ဂျ်ပို့မှု</string>
+    <string name="settings_whatsnew_entry_send_ats_recovery_summary">အလုပ်လုပ်နေပြီးသား ဆာဗာချိတ်ဆက်မှုကို iOS က ခဏငြင်းပယ်လျှင် မက်ဆေ့ဂျ်များကို အလိုအလျောက် ပြန်ပို့ပေးသည်။</string>
+
+    <!-- 2026-10-14-03-keyboard-menus-and-header -->
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_title">ပိုတည်ငြိမ်သော ကီးဘုတ်နှင့် မီနူးများ</string>
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_summary">စာရိုက်နေစဉ် + ကို နှိပ်ပြီး ကီးဘုတ်မချဘဲ၊ ထိန်းချုပ်မှုများ မရွှေ့ဘဲ တွဲပို့စရာများကို ဖွင့်နိုင်သည်။ ကီးဘုတ်ရွေ့ချိန်တွင် ခေါင်းစီး၏ ဝါးထားသော နောက်ခံက နေရာမပြောင်းပါ။</string>
+
+    <!-- 2026-10-14-04-open-links-in-apps -->
+    <string name="settings_whatsnew_entry_open_links_in_apps_title">သက်ဆိုင်ရာအက်ပ်တွင် လင့်ခ်ဖွင့်ခြင်း</string>
+    <string name="settings_whatsnew_entry_open_links_in_apps_summary">လင့်ခ်ကို GitHub သို့မဟုတ် YouTube ကဲ့သို့ သက်ဆိုင်ရာအက်ပ်တွင် ဖွင့်ပေးသည်။ အက်ပ်တွင်းဘရောက်ဇာ စမ်းသပ်လုပ်ဆောင်ချက် ဖွင့်ထားလျှင် လင့်ခ်ကို ဖိထားပြီး “အက်ပ်ဘရောက်ဇာတွင် ဖွင့်ပါ” ကို ရွေးပါ။</string>
+
+    <!-- 2026-10-14-05-session-list-quiet-hierarchy -->
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_title">ကြည့်ရလွယ်သည့် ဆက်ရှင်စာရင်း</string>
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_summary">ထိပ်တွင် ချိတ်ထားသည်များနှင့် လတ်တလော ခေါင်းစီးများကို မီးခိုးရောင် စာလုံးအသေးဖြင့် ပြထားပြီး၊ မဖတ်ရသေးနှင့် စောင့်နေသည့် ဆက်ရှင်များကို အနည်းငယ်ထူ၍ ထင်ရှားစေကာ ဖတ်ပြီးသားများကို အနည်းငယ်မှိန်ထားသည်။</string>
+
+    <!-- 2026-10-14-06-queued-messages-fitted-sheet -->
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_title">ပိုသပ်ရပ်သည့် တန်းစီထားသော မက်ဆေ့ဂျ်များ</string>
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_summary">တန်းစီထားသော မက်ဆေ့ဂျ်အကန့်သည် မက်ဆေ့ဂျ်အရေအတွက်နှင့် အံဝင်ခွင်ကျဖြစ်ပြီး အတန်းနံပါတ်များ၊ အခုပို့ရန် သို့မဟုတ် ပယ်ဖျက်ရန် ရိုးရှင်းသည့် ခလုတ်များ ပါဝင်သည်။</string>
+
+    <!-- 2026-10-14-07-control-center-sessions -->
+    <string name="settings_whatsnew_entry_control_center_sessions_title">စက်ရှင်အတွက် အမြန်ခလုတ်များ</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_summary">တစ်ချက်နှိပ်ရုံဖြင့် စက်ရှင်ဖွင့်ရန် သို့မဟုတ် ထိုစက်ရှင်တွင် ခေါ်ဆိုမှုစရန် အမြန်ဆက်တင် ခလုတ်ကို ထည့်ပါ။</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_1">စက်ရှင်ဖွင့်ရန် ခလုတ်အသစ်က သင်ရွေးထားသည့် စက်ရှင်ကို ဖွင့်ပေးသည်။</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_2">ခေါ်ဆိုမှုစရန် ခလုတ်ဖြင့် ရွေးထားသည့် စက်ရှင် သို့မဟုတ် စက်ရှင်အသစ်တွင် ခေါ်ဆိုနိုင်သည်။ မပြောင်းထားလျှင် နောက်ဆုံးကြည့်ခဲ့သည့် စက်ရှင်တွင် ခေါ်ဆိုမည်။</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_3">ထိပ်တွင် ချိတ်ထားသည့် သို့မဟုတ် လတ်တလော ဆက်ရှင်များမှ ရွေးပါ။ ခလုတ်ပေါ်တွင် စက်ရှင်၏ လက်ရှိခေါင်းစဉ်ကို ပြထားသည်။</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_4">ခလုတ်များက အက်ပ်ကိုသာ ဖွင့်ပေးသည်။ သင် စကားမပြောမချင်း သို့မဟုတ် စာမရိုက်မချင်း ဘာမှမပို့ပါ။</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_example">အမြန်ဆက်တင်များကို ဖွင့်ပါ၊ တည်းဖြတ်ပါကို နှိပ်ပြီး OpenCode ၏ စက်ရှင်ဖွင့်ရန် ခလုတ်ကို နေရာသို့ ဆွဲထည့်ပါ</string>
+
+    <!-- 2026-10-15-01-settings-keyboard-down -->
+    <string name="settings_whatsnew_entry_settings_keyboard_down_title">ဆက်တင်များကို ကီးဘုတ်မဖုံးတော့ပါ</string>
+    <string name="settings_whatsnew_entry_settings_keyboard_down_summary">စာရိုက်နေစဉ် ဘေးအကန့်မှ ဆက်တင်များကို ဖွင့်လျှင် ကီးဘုတ်က ဆက်တင်များကို မဖုံးတော့ဘဲ ပိတ်သွားမည်။</string>
+
+    <!-- 2026-10-15-02-session-list-sidebar-grey -->
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_title">ပိုချောင်ချိသည့် ဆက်ရှင်စာရင်း</string>
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_summary">ဆက်ရှင်စာရင်း၏ ခေါင်းစဉ် ပိုကြီးလာပြီး ထိပ်တွင် ချိတ်ထားသည်များနှင့် လတ်တလော ခေါင်းစီးများလည်း မီးခိုးရောင်စာလုံး ပိုကြီးကာ အပေါ်ဘက် နေရာလွတ် ပိုများလာသည်။ ဘေးအကန့်ကို ဖွင့်ကြည့်ပါ။</string>
+
+    <!-- 2026-10-15-03-voice-varied-acknowledgements -->
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_title">ခေါ်ဆိုချိန် “စစ်ဆေးနေပါတယ်” ဟု ပြောခြင်း လျော့နည်းလာ</string>
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_summary">ခေါ်ဆိုချိန်တွင် တောင်းဆိုချက်တိုင်းကို “စစ်ဆေးနေပါတယ်” ဟုသာ မဖြေတော့ဘဲ သင်ပြောသည့်အကြောင်းနှင့် လိုက်ဖက်စွာ တုံ့ပြန်သည်။ ဆက်ပြောနေသည့် တောင်းဆိုချက်ကိုလည်း နှစ်ခါ မပို့တော့ပါ။</string>
+
+    <!-- 2026-10-15-04-smoother-streaming -->
+    <string name="settings_whatsnew_entry_smoother_streaming_title">ပိုချောမွေ့သည့် တဖြည်းဖြည်းပေါ်လာသော အဖြေများ</string>
+    <string name="settings_whatsnew_entry_smoother_streaming_summary">တဖြည်းဖြည်းပေါ်လာသော အဖြေ၏ နောက်ဆုံးစာကြောင်းသည် မှိန်သွားခြင်း၊ ရုတ်တရက်လင်းလာခြင်းမရှိဘဲ ညင်သာစွာ ပေါ်လာသည်။ အတန်းများလည်း စာသားထက် ပိုရှည်ထွက်ပြီး ပြန်ကျုံ့ခြင်း မရှိတော့ပါ။ စာရင်းနှင့် ခေါင်းစဉ်များလည်း အစတွင် မျဉ်းတို သို့မဟုတ် # တစ်ခုတည်း မပေါ်တော့ဘဲ ပုံစံမှန်ဖြင့် ပေါ်လာသည်။</string>
+
+    <!-- 2026-10-15-05-model-list-sheet -->
+    <string name="settings_whatsnew_entry_model_list_sheet_title">မော်ဒယ်စာရင်း အကန့်</string>
+    <string name="settings_whatsnew_entry_model_list_sheet_summary">မော်ဒယ်ရွေးချယ်စနစ်အသစ် စမ်းသပ်မှုကို ဖွင့်ထားလျှင် ကီးဘုတ်ပိတ်သွားပြီး စာရေးကွက်က ကီးဘုတ်နေရာတွင် မော်ဒယ်စာရင်းအကန့်အဖြစ် ပြောင်းသွားသည်။ မည်မျှမြန်မြန် ဖွင့်ပိတ်လုပ်လည်း ချောမွေ့စွာ ပြန်ကျုံ့သွားသည်။</string>
+
+    <!-- 2026-10-15-06-queued-pill-whole-title -->
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_title">တန်းစီထားသည့် အရေအတွက် အပြည့်ပြ</string>
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_summary">စာရေးကွက်အပေါ်ရှိ တန်းစီအမှတ်အသားတွင် “2 ခု တန်းစီထား…” ဟု ဖြတ်မပြတော့ဘဲ “2 ခု တန်းစီထားသည်” ဟု အပြည့်ပြသည်။ အခြားနေရာရှိ လှိမ့်ပြောင်းသည့် အရေအတွက်များတွင်လည်း စာလုံးအားလုံးကို ပြထားသည်။</string>
+
+    <!-- 2026-10-16-01-plus-menu-photo-sheet -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_title">ကီးဘုတ်နေရာတွင် ဓာတ်ပုံများ</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_summary">+ မီနူးအသစ် စမ်းသပ်မှုကို ဖွင့်ထားလျှင် ဓာတ်ပုံများကို နှိပ်သည့်အခါ + မီနူးက ကီးဘုတ်နေရာတွင် ဓာတ်ပုံအကန့်အဖြစ် ချဲ့သွားသည်။ + ကို ဖိထားလျှင် နောက်ဆုံးဓာတ်ပုံများကို ပြမည်။ ထည့်ရန် ပုံတစ်ပုံသို့ လက်ချောင်းရွှေ့ပြီး လွှတ်လိုက်ပါ။</string>
+
+    <!-- 2026-10-16-02-composer-large-text-targets -->
+    <string name="settings_whatsnew_entry_composer_large_text_targets_title">စာရေးကွက်တွင် နှိပ်ရပိုလွယ်</string>
+    <string name="settings_whatsnew_entry_composer_large_text_targets_summary">စာလုံးအရွယ်အစား ကြီးထားချိန်တွင် စာရေးကွက်ရှိ ခလုတ်များကို နှိပ်ရ ပိုလွယ်လာသည်။</string>
+
+    <!-- 2026-10-16-03-project-pick-haptic -->
+    <string name="settings_whatsnew_entry_project_pick_haptic_title">ပရောဂျက်ပြောင်းလျှင် ညင်သာစွာ တုန်ခါ</string>
+    <string name="settings_whatsnew_entry_project_pick_haptic_summary">စက်ရှင်အသစ်အတွက် စာရေးကွက်အပေါ်ဘက် သို့မဟုတ် ပရောဂျက်အားလုံးတွင် အခြားပရောဂျက်တစ်ခုကို ရွေးလျှင် အနည်းငယ် တုန်ခါပေးသည်။</string>
+
+    <!-- 2026-10-16-04-fork-opens-copy -->
+    <string name="settings_whatsnew_entry_fork_opens_copy_title">စက်ရှင်ခွဲလျှင် မိတ္တူကို ဖွင့်ပေး</string>
+    <string name="settings_whatsnew_entry_fork_opens_copy_summary">စက်ရှင်အသေးစိတ်တွင် စက်ရှင်ခွဲပါကို နှိပ်လျှင် မိတ္တူစက်ရှင်ကို ပြန်ဖွင့်ပေးပြီ။</string>
+
+    <!-- 2026-10-16-05-transcript-row-targets -->
+    <string name="settings_whatsnew_entry_transcript_row_targets_title">နှိပ်ရ ပိုလွယ်</string>
+    <string name="settings_whatsnew_entry_transcript_row_targets_summary">စက်ရှင်အကန့်၏ ခေါင်းစဉ်ကို နှိပ်ရ ပိုလွယ်လာပြီး အသံဖြင့် စာရိုက်နေစဉ် ဖျောက်ထားသည့် စာရေးကွက်ခလုတ်များကို VoiceOver နှင့် Voice Control က မရွေးနိုင်တော့ပါ။</string>
+
+    <!-- 2026-10-16-06-image-previews -->
+    <string name="settings_whatsnew_entry_image_previews_title">ပုံများ အစမ်းကြည့်ရှုခြင်း</string>
+    <string name="settings_whatsnew_entry_image_previews_summary">အေးဂျင့်က ဖော်ပြသည့် ပုံများကို အရွယ်စုံ အကွက်များဖြင့် အစမ်းပြထားပြီး ဖိုင်မရှိလျှင်လည်း အသိပေးထားသည်။</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_1">ပုံများကို ၎င်းတို့အား ဖော်ပြထားသည့် စာပိုဒ်အောက်တွင် အစမ်းပြထားသည်။</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_2">မျက်နှာပြင်အပြည့်ကြည့်ရန် ပုံကို နှိပ်ပြီး အဖြေထဲရှိ အခြားပုံများကို ပွတ်ဆွဲကြည့်ပါ။</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_3">စက်ရှင်ဖိုင်တွဲအပြင်ဘက်ရှိ ပုံများကို သင်နှိပ်မှသာ တင်မည်။</string>
+    <string name="settings_whatsnew_entry_image_previews_example">သင့်ပရောဂျက်ထဲမှ ဖန်သားပြင်ပုံများကို ပြရန် အေးဂျင့်ကို တောင်းဆိုပါ။</string>
+    <string name="settings_whatsnew_entry_image_previews_prompt">ဒီပရောဂျက်ထဲက ဖန်သားပြင်ပုံတွေကို ပြပါ။</string>
+
+    <!-- 2026-10-16-07-connection-error-details -->
+    <string name="settings_whatsnew_entry_connection_error_details_title">ချိတ်ဆက်မှု မအောင်မြင်ရသည့်အကြောင်း ပြပေး</string>
+    <string name="settings_whatsnew_entry_connection_error_details_summary">ချိတ်ဆက်မှုအမှားများတွင် အမှားကုဒ်၊ ချိတ်ဆက်ရန် ကြိုးစားခဲ့သည့် လိပ်စာနှင့် DNS ရလဒ်ကို ပြသည်။ tailnet အမည်က Tailscale ပြင်ပလိပ်စာသို့ ညွှန်းနေလျှင်လည်း အကူအညီ ပေးထားသည်။</string>
+
+    <!-- 2026-10-16-08-outage-reconnect-delay -->
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_title">ပိုမြန်သည့် ပြန်လည်ချိတ်ဆက်မှု</string>
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_summary">ပြတ်တောက်ပြီးနောက် ဆာဗာပြန်ရလာလျှင် ဆက်ရှင်များ ပိုမြန်မြန် အမီလိုက် အပ်ဒိတ်ဖြစ်လာသည်။</string>
+
+    <!-- 2026-10-17-01-every-running-subagent -->
+    <string name="settings_whatsnew_entry_every_running_subagent_title">လုပ်ဆောင်နေသည့် အေးဂျင့်ခွဲအားလုံး</string>
+    <string name="settings_whatsnew_entry_every_running_subagent_summary">စာရေးကွက်အပေါ်ရှိ အေးဂျင့်ခွဲအရေအတွက်တွင် အခြားအေးဂျင့်ခွဲများအောက်မှ အေးဂျင့်ခွဲများနှင့် အေးဂျင့်ခွဲ 100 ကျော်ရှိသည့် ဆက်ရှင်များမှ အေးဂျင့်ခွဲများလည်း ပါဝင်ပြီး TUI နှင့် ကိုက်ညီသည်။</string>
+
+    <!-- 2026-10-17-02-session-view-refined-standard -->
+    <string name="settings_whatsnew_entry_session_view_refined_standard_title">အဖြေစာသား ပိုရှင်းလင်းလာ</string>
+    <string name="settings_whatsnew_entry_session_view_refined_standard_summary">အဆင့် 3 ခေါင်းစဉ်များကို စာလုံးထူထက် ပိုကြီးထားပြီး စာလုံးထူများ ထင်ရှားစေရန် ပုံမှန်စာသားကို အနည်းငယ် မှိန်ထားသည်။ စာပိုဒ်နှင့် ကုဒ်အကွက်များကြား နေရာလွတ်လည်း အနည်းငယ် ပိုများလာသည်။</string>
+
+    <!-- 2026-10-17-03-bottom-follow-on-load -->
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_title">အောက်ဆုံးတွင် ဆက်နေ</string>
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_summary">နောက်ကျမှ ရောက်လာသည့် အကြောင်းအရာများကို တင်နေစဉ် ဆက်ရှင်များက အောက်ဆုံးတွင် ဆက်နေမည်။</string>
+
+    <!-- 2026-10-17-04-drafts-stay-put -->
+    <string name="settings_whatsnew_entry_drafts_stay_put_title">မူကြမ်းများ မပျောက်တော့ပါ</string>
+    <string name="settings_whatsnew_entry_drafts_stay_put_summary">အက်ပ် နောက်ကွယ်တွင် ပိတ်သွားလျှင် မူကြမ်းများ၊ ပူးတွဲထားသည့် ဓာတ်ပုံနှင့် တည်နေရာများ၊ ပို့ရန်စောင့်နေသည့် မက်ဆေ့ဂျ်များ မပျောက်တော့ပါ။</string>
+
+    <!-- 2026-10-18-01-themes -->
+    <string name="settings_whatsnew_entry_themes_title">အပြင်အဆင်များ</string>
+    <string name="settings_whatsnew_entry_themes_summary">ဆက်ရှင်များအတွက် Tokyo Night၊ Catppuccin၊ Dracula၊ Rosé Pine သို့မဟုတ် GitHub ကဲ့သို့သော အပြင်အဆင်ကို ရွေးပါ။ ရွေးကြည့်နေစဉ် ချက်ချင်း အစမ်းမြင်နိုင်သည်။</string>
+    <string name="settings_whatsnew_entry_themes_detail_1">အပြင်အဆင်များက စကားပြောမှတ်တမ်း၊ သင့်မက်ဆေ့ဂျ်များ၊ ကုဒ်၊ ကုဒ်ရေးထုံး၊ ကွဲပြားမှုများနှင့် လင့်ခ်များ၏ အရောင်ကို ပြောင်းပေးသည်။</string>
+    <string name="settings_whatsnew_entry_themes_detail_2">အသွင်အပြင်ရှိ မုဒ်တွင် အလင်း၊ အမှောင် သို့မဟုတ် စနစ်အတိုင်း သတ်မှတ်နိုင်သည်။</string>
+    <string name="settings_whatsnew_entry_themes_detail_3">အပြင်အဆင်တိုင်းတွင် ထိန်းချုပ်ခလုတ်များသည် မူလ Liquid Glass ပုံစံအတိုင်း ရှိနေမည်။</string>
+    <string name="settings_whatsnew_entry_themes_example">ဆက်တင်များ → အသွင်အပြင် → အပြင်အဆင်ကို ဖွင့်ပြီး Tokyo Night ကို စမ်းကြည့်ပါ။</string>
+
+    <!-- 2026-10-18-02-return-key-sends -->
+    <string name="settings_whatsnew_entry_return_key_sends_title">Return ခလုတ် ဆက်တင်</string>
+    <string name="settings_whatsnew_entry_return_key_sends_summary">Return ဖြင့် စာကြောင်းအသစ် ချိုးလိုလျှင် ဆက်တင်များတွင် Return ခလုတ်ဖြင့် ပို့ခြင်းကို ပိတ်ပါ။ သို့မဟုတ် ပြင်ပကီးဘုတ်တွင် Command-Return နှင့် Shift-Return ကို သုံးပါ။</string>
+
+    <!-- 2026-10-18-03-quote-replies -->
+    <string name="settings_whatsnew_entry_quote_replies_title">ပြန်စာကို ကိုးကားရန်</string>
+    <string name="settings_whatsnew_entry_quote_replies_summary">အကူအညီပေးသူ၏ ပြန်စာထဲမှ စာသားကို ရွေးပြီး ကိုးကားပါ ကို နှိပ်လျှင် သင့်မက်ဆေ့ဂျ်ထဲသို့ ကိုးကားချက်ကတ်အဖြစ် ထည့်ပေးမည်။</string>
+
+    <!-- 2026-10-18-04-launch-bloom -->
+    <string name="settings_whatsnew_entry_launch_bloom_title">အက်ပ်ဖွင့်ချိန် ပွင့်ကားမှု</string>
+    <string name="settings_whatsnew_entry_launch_bloom_summary">အက်ပ်ကို အစကနေ ဖွင့်သည့်အခါ OpenCode အမှတ်အသား ကျုံ့ဝင်ပြီး သင့်စက်ရှင်အဖြစ် ပွင့်ကားလာပါသည်။</string>
+
+    <!-- 2026-10-18-05-drag-to-pin -->
+    <string name="settings_whatsnew_entry_drag_to_pin_title">စက်ရှင်ကို ဆွဲ၍ ထိပ်တွင် ချိတ်ထားပါ</string>
+    <string name="settings_whatsnew_entry_drag_to_pin_summary">စက်ရှင်တစ်ခုကို ဖိထားပြီး အပေါ်ရှိ ထိပ်တွင် ချိတ်ထားသည်များထဲ ဆွဲထည့်ကာ ထိုနေရာတွင် ချိတ်ထားပါ။ ချိတ်ထားမှု ဖြုတ်ရန် အောက်ရှိ လတ်တလောထဲ ဆွဲချပါ။</string>
+
+    <!-- 2026-10-19-01-call-tray-colour-blend -->
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_title">ပိုချောမွေ့သော ခေါ်ဆိုမှုခလုတ်</string>
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_summary">ခေါ်ဆိုမှုအကန့် စမ်းသပ်ချက်ကို ဖွင့်ထားလျှင် ခေါ်ဆိုမှုစချိန်၌ ခေါ်ဆိုမှုခလုတ်သည် နီရောင် ဖုန်းချခလုတ်အဖြစ် တိုက်ရိုက် ချောမွေ့စွာ ပြောင်းသွားပြီး ဖုန်းချချိန်၌ ပြန်ပြောင်းပါသည်။ ကြားတွင် နောက်ခံရောင် လက်ခနဲ ပေါ်မလာတော့ပါ။</string>
+
+    <!-- 2026-10-19-02-optical-insets -->
+    <string name="settings_whatsnew_entry_optical_insets_title">ညီညာစွာ နေရာချထားသော ခလုတ်များ</string>
+    <string name="settings_whatsnew_entry_optical_insets_summary">စာရေးကွက်ရှိ + နှင့် မိုက်၊ နောက်ခံအလုပ်နှင့် တန်းစီထားသည့် အကွက်များရှိ သင်္ကေတများ၊ ဘေးအကန့်ရှိ စက်ရှင်အသစ် သင်္ကေတတို့ကို မှန်သားအကွက်၏ လုံးဝန်းသော အစွန်းများအတွင်း အမြင်ညီစွာ အလယ်တည့်တည့် နေရာချထားပါပြီ။ ဘူးခွံသင်္ကေတသည် ယခု အေးဂျင့်ခွဲ စက်လုံးကဲ့သို့ စက်ဝိုင်းပုံဖြစ်ပြီး မှိတ်တုတ်မှိတ်တုတ် စာညွှန်း မပါဝင်တော့ပါ။ နှစ်ခုလုံး လုပ်ဆောင်နေချိန်တွင် ဘေးချင်းယှဉ် ပြပါသည်။</string>
+
+    <!-- 2026-10-19-03-smart-dictation-audio -->
+    <string name="settings_whatsnew_entry_smart_dictation_audio_title">သီချင်းနားထောင်ရင်း အသံဖြင့် စာရေးမှု ပိုချောမွေ့</string>
+    <string name="settings_whatsnew_entry_smart_dictation_audio_summary">သီချင်းဖွင့်ထားစဉ် အသံဖြင့် စာရေးလျှင် AirPods တွင် စတီရီယိုအသံ ဆက်ထွက်ပြီး တစ်မိနစ်ခန့်အကြာ၌ အသံပြတ်မသွားတော့ပါ။ ဖုန်းတစ်လုံးတည်း သုံးလျှင်လည်း နားကပ်စပီကာသို့ မပြောင်းဘဲ အသံချဲ့စပီကာမှ ဆက်ထွက်ပါသည်။</string>
+
+    <!-- 2026-10-19-04-interrupted-hand -->
+    <string name="settings_whatsnew_entry_interrupted_hand_title">ပြတ်တောက်မှုအတွက် လက်မြှောက်သင်္ကေတ</string>
+    <string name="settings_whatsnew_entry_interrupted_hand_summary">ပြတ်တောက်သွားသော လုပ်ဆောင်မှုနှင့် ဘူးခွံတို့တွင် လက်မြှောက်သင်္ကေတ ပြပါသည်။ သင်ရပ်လိုက်သော ဘူးခွံတွင်လည်း ရပ်ထားသည် အစား ပြတ်တောက်သွားသည်ဟု ပြပါသည်။</string>
+
+    <!-- 2026-10-19-05-autocomplete-fast-scroll -->
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_title">ပိုမြန်သော အလိုအလျောက် စာဖြည့်မှု</string>
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_summary">စာရေးကွက် အလိုအလျောက် စာဖြည့်မှု စမ်းသပ်ချက်ကို ဖွင့်ထားလျှင် ရိုက်နေသမျှနှင့်အမီ အကြံပြုချက်များ ပေါ်လာပြီး စာရင်းကို ဆွဲရွှေ့ရာတွင် အတန်းတစ်ခုကို မတော်တဆ မရွေးမိတော့ပါ။</string>
+
+    <!-- 2026-10-19-06-experimental-groups -->
+    <string name="settings_whatsnew_entry_experimental_groups_title">အုပ်စုခွဲထားသော စမ်းသပ်ချက်များ</string>
+    <string name="settings_whatsnew_entry_experimental_groups_summary">ဆက်တင်များ → သမ္ဘာ ရှိ စမ်းသပ်ချက်များကို အုပ်စုခွဲထားပြီး ခေါ်ဆိုမှုများအတွက် ခေါ်ဆိုမှုပုံစံ ရွေးချယ်စရာတစ်ခုတည်း ရှိပါသည်။</string>
+
+    <!-- 2026-10-19-07-model-picker-standard-sheet -->
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_title">ပုံမှန်အကန့်ဖြင့် မော်ဒယ်ရွေးရန်</string>
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_summary">မော်ဒယ်ရွေးချယ်မှုအသစ် စမ်းသပ်ချက်ကို ဖွင့်ထားလျှင် မက်ဆေ့ဂျ်ရေးကွက်ရှိ မော်ဒယ်ကို နှိပ်ရာတွင် ပုံမှန်အကန့် ဖွင့်ပေးပြီး မော်ဒယ်တစ်ခုစီအတွက် စဉ်းစားမှုအဆင့် မီနူး ပါဝင်ပါသည်။ ယခင်ရွေးချယ်ကွက်ကို ဆက်တင်များ › သမ္ဘာ တွင် စိတ်ကြိုက် မော်ဒယ်ရွေးချယ်မှုဟု အမည်ပြောင်းထားပါသည်။</string>
+
+    <!-- 2026-10-19-08-problem-reports-reach-session -->
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_title">အစီရင်ခံစာများ စက်ရှင်သို့ ရောက်ပါပြီ</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_summary">ပြဿနာတိုင်ကြားရန်ကို သုံးသည့်အခါ သင့်မှတ်ချက်ကို တိုင်ကြားခဲ့သည့် စက်ရှင်ထဲသို့ပါ ပို့ပေးပြီး အေးဂျင့် ဖတ်နိုင်ရန် အစီရင်ခံစာအပြည့်အစုံကို ပူးတွဲပေးပါသည်။</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_1">မက်ဆေ့ဂျ်အစတွင် ပြဿနာအစီရင်ခံစာဟူသော စာကြောင်း၊ သင့်မှတ်ချက်၊ အစီရင်ခံစာ ID နှင့် အပ်လုဒ်လုပ်ထားသော ခြေရာခံမှတ်တမ်းလင့်ခ်တို့ ပါဝင်ပါသည်။</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_2">စက်၊ အက်ပ်ဗားရှင်း၊ မျက်နှာပြင်၊ အချိန်ဇယားနှင့် အက်ပ်မှတ်တမ်းတို့ကို သင်ကိုယ်တိုင် ဖိုင်ပူးတွဲသကဲ့သို့ ပူးတွဲဖိုင်အဖြစ် ပို့ပေးပါသည်။</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_3">ပင်မမှ တိုင်ကြားလျှင် သင်နောက်ဆုံးသုံးခဲ့သော စက်ရှင်သို့ ပို့ပါသည်။</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_4">အပ်လုဒ် မအောင်မြင်လျှင်လည်း မှတ်ချက်နှင့် အကျဉ်းချုပ်ကို ပို့ပေးပြီး မအောင်မြင်ကြောင်း ဖော်ပြပါသည်။ ထို့နောက် ပြန်ကြိုးစားပါကို နှိပ်လျှင် ခြေရာခံမှတ်တမ်းလင့်ခ်ကိုသာ ပို့ပေးပါသည်။</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_5">ရောက်သွားသည့်အခါ “စက်ရှင်သို့ ပို့ပြီးပါပြီ” ဟု အတည်ပြုချက် ပြပါသည်။</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_example">စက်ရှင်မီနူးကို ဖွင့်ပြီး ပြဿနာတိုင်ကြားရန်ကို ရွေးပါ။ မှတ်ချက်ထည့်ပြီး ပို့ပါကို နှိပ်ပါ</string>
+
+    <!-- 2026-10-19-09-team-scrawl-feedback -->
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_title">အဖွဲ့အတွက် Scrawl အကြံပြုချက်</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_summary">သင့်ကိုယ်ပိုင်လင့်ခ်ဖြင့် Team Feedback သို့ ဝင်ပြီး လက်သုံးချောင်းဖြင့် ဖမ်းထားသော Scrawl မှတ်တမ်းများနှင့် အရေးကြီးအချက်အလက် ဖယ်ထားသော စစ်ဆေးမှုဒေတာတို့ကို ပြဿနာဘုတ်ရှိ မျှဝေတန်းစီစာရင်းသို့ ပို့ပါ။</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_1">သင့် opencode://team/join လင့်ခ်ကို ဖွင့်ပြီး စုဆောင်းမည့် အချက်အလက်များကို စစ်ဆေးကာ လက်ခံပါ။</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_2">ကိုယ်တိုင်စမ်းလုပ်နိုင်သော အဆင့်သုံးဆင့် သင်ခန်းစာက လက်သုံးချောင်းဖြင့် ဖိထားခြင်း၊ စကားပြောရင်း ပုံဆွဲခြင်းနှင့် လေ့ကျင့်မှတ်တမ်းတိုကို စမ်းသပ်ကဏ္ဍသို့ ပို့ခြင်းတို့ကို လမ်းညွှန်ပေးပါသည်။</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_3">မှတ်တမ်းတစ်ခုစီတွင် ပြဿနာတိုင်ကြားရန်နှင့် တူညီသော အရေးကြီးအချက်အလက် ဖယ်ထားသည့် အချိန်ဇယား၊ အက်ပ်မှတ်တမ်းနှင့် Motion Watch စစ်ဆေးမှုဒေတာတို့ ပူးတွဲပါဝင်ပါသည်။</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_4">ဆက်တင်များ › ဆော့ဖ်ဝဲရေးသားသူ တွင် သင်ခန်းစာကို ပြန်ကြည့်နိုင်သလို Team Feedback မှလည်း အချိန်မရွေး ထွက်နိုင်ပါသည်။</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_example">သင့် Team Feedback အခြေအနေကို စစ်ဆေးရန် သို့မဟုတ် သင်ခန်းစာကို ပြန်ကြည့်ရန် ဆက်တင်များ › ဆော့ဖ်ဝဲရေးသားသူ ကို ဖွင့်ပါ။</string>
+
+    <!-- 2026-10-19-10-scrawl-faster-start -->
+    <string name="settings_whatsnew_entry_scrawl_faster_start_title">Scrawl စတင်မှု ပိုမြန်လာပါပြီ</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_summary">မိုက်နှင့် အသံဖမ်းစနစ် စတင်နေစဉ်မှာပင် Scrawl ခလုတ်များ ပေါ်လာပါသည်။</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_1">အသံဖမ်းရန် ပြင်ဆင်နေစဉ် ပုံဆွဲရန်၊ ပို့ပါနှင့် ပယ်ဖျက်ရန်တို့ကို နှိပ်ထားမှုအား မှတ်ထားပေးပါသည်။</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_2">လက်သုံးချောင်းဖြင့် ဖိထားလျှင် မိုက်ကို စောစီးစွာ မဖွင့်ဘဲ အပေါ်ထပ်အကန့်ကို ပြင်ဆင်ပေးပါသည်။</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_3">အသံအဝင်အထွက်လမ်းကြောင်း ပြောင်းချိန်တွင် Scrawl ၏ မိုက် ပြန်စတင်ရာမှ အက်ပ်ပျက်သွားသည့် ပြဿနာကို ပြင်ထားပါသည်။</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_example">တွဲချိတ်ထားသော စက်တွင် မှတ်တမ်းစဖမ်းရန် လက်သုံးချောင်းဖြင့် ဖိထားပါ</string>
+
+    <!-- 2026-10-20-01-call-tray-docks-in-drawer -->
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_title">ဘေးအကန့်ထဲရှိ ခေါ်ဆိုမှုအကန့်</string>
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_summary">ခေါ်ဆိုမှုအကန့် စမ်းသပ်ချက်ကို ဖွင့်ထားလျှင် ဖုန်းပြောနေစဉ် ဘေးအကန့်ကို ဖွင့်ရာတွင် ခေါ်ဆိုမှုအကန့်သည် အသံအဆင့်ပြ၊ အသံပိတ်နှင့် ဖုန်းချ ခလုတ်များနှင့်အတူ စက်ရှင်အသစ် အောက်သို့ ရွှေ့သွားပြီး ဘေးအကန့်ပိတ်လျှင် နေရာဟောင်းသို့ ပြန်ရောက်ပါသည်။</string>
+
+    <!-- 2026-10-20-02-markdown-streams-smoothly -->
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_title">စာတဖြည်းဖြည်းပေါ်သော ပြန်စာများ ပိုချောမွေ့</string>
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_summary">ပြန်စာရှည်များ တဖြည်းဖြည်း ရောက်လာချိန်တွင်လည်း မြန်ဆန်နေပြီး ရေးလက်စ စာလုံးအထူ၊ ကုဒ်နှင့် လင့်ခ်များကို Markdown စာသားအကြမ်းအစား ပုံစံချထားသည့်အတိုင်း ပြပါသည်။</string>
+
+    <!-- 2026-10-20-04-return-newline-default -->
+    <string name="settings_whatsnew_entry_return_newline_default_title">Return ဖြင့် စာကြောင်းအသစ်ဆင်းပါ</string>
+    <string name="settings_whatsnew_entry_return_newline_default_summary">Return ကို နှိပ်လျှင် ယခု မူရင်းအတိုင်း စာကြောင်းအသစ်ဆင်းပါသည်။ Return ဖြင့် ပို့ရန် ဆက်တင်များ › ဆက်ရှင်များ တွင် Return ခလုတ်ဖြင့် ပို့ရန်ကို ဖွင့်ပါ။ ပြင်ပကီးဘုတ်တွင် Ctrl+Enter ကိုလည်း သုံးနိုင်ပါသည်။</string>
+
+    <!-- 2026-10-20-05-drawer-session-alignment -->
+    <string name="settings_whatsnew_entry_drawer_session_alignment_title">တန်းညှိထားသော ဘေးအကန့်ခလုတ်များ</string>
+    <string name="settings_whatsnew_entry_drawer_session_alignment_summary">ဖုန်းနှင့် တက်ဘလက်များတွင် ရှာရန်၊ စက်ရှင်အသစ်နှင့် ဆက်တင်များကို စက်ရှင်၏ ခေါင်းစီး၊ မက်ဆေ့ဂျ်ရေးကွက်တို့နှင့် တန်းညှိထားပါသည်။</string>
+
+    <!-- 2026-10-20-06-call-tray-switch-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_title">ပိုတည်ငြိမ်သော ခေါ်ဆိုမှုခလုတ်များ</string>
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_summary">စက်ရှင်ပြောင်းချိန်တွင် ခေါ်ဆိုမှုအသံလှိုင်း ဆက်လှုပ်ရှားနေပြီး စက်ရှင်စာရင်းကို ဖွင့်ချိန်တွင် ခလုတ်များသည် အမြင့်တစ်တန်းတည်း၌ ရှိနေပါသည်။</string>
+
+    <!-- 2026-10-20-07-voice-delegation-visible-on-admission -->
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_title">အသံမက်ဆေ့ဂျ်များ ချက်ချင်းပေါ်လာပါပြီ</string>
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_summary">အသံက စက်ရှင်ထဲသို့ ပို့သော မက်ဆေ့ဂျ်များသည် စက်ရှင်အပ်ဒိတ်များ နောက်ကျနေသော်လည်း ဆာဗာက လက်ခံသည်နှင့် ပေါ်လာပါသည်။</string>
+
+    <!-- 2026-10-20-08-inline-image-links -->
+    <string name="settings_whatsnew_entry_inline_image_links_title">ပုံလင့်ခ် အစမ်းကြည့်ရန်</string>
+    <string name="settings_whatsnew_entry_inline_image_links_summary">ပြန်စာများထဲရှိ လင့်ခ်ချိတ်ထားသော ပုံများကို အစမ်းကြည့်ရန် ဆက်တင်များ › သမ္ဘာ › စကားပြောမှတ်တမ်း တွင် ပုံလင့်ခ် အစမ်းကြည့်ရန်ကို ဖွင့်ပါ။ မျက်နှာပြင်အပြည့် ဖွင့်ပြီး ချဲ့ကြည့်ရန် ပုံငယ်ကို နှိပ်ပါ။</string>
+
+    <!-- 2026-10-20-09-smooth-link-preview-arrival -->
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_title">ပိုချောမွေ့သော လင့်ခ်အစမ်းမြင်ကွင်းများ</string>
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_summary">လင့်ခ်အစမ်းမြင်ကွင်းများသည် တင်ပြီးသည်နှင့် တဖြည်းဖြည်း ပေါ်လာပြီး ခေါင်းစဉ်အမြင့် ပြောင်းသည့်အခါ အောက်ရှိ အတန်းများလည်း ချောမွေ့စွာ ရွှေ့ပါသည်။</string>
+
+    <!-- 2026-10-20-10-subagent-capsule-press -->
+    <string name="settings_whatsnew_entry_subagent_capsule_press_title">လုံးဝန်းသော လုပ်ဆောင်မှုအကွက်</string>
+    <string name="settings_whatsnew_entry_subagent_capsule_press_summary">အေးဂျင့်ခွဲနှင့် ဘူးခွံအကွက်ကို ဖိထားချိန်တွင်လည်း အစွန်းများ လုံးဝန်းနေပါသည်။</string>
+
+    <!-- 2026-10-20-11-advanced-settings-open -->
+    <string name="settings_whatsnew_entry_advanced_settings_open_title">ပိုရိုးရှင်းသော အဆင့်မြင့်ဆက်တင်များ</string>
+    <string name="settings_whatsnew_entry_advanced_settings_open_summary">ဆက်တင်များ › သမ္ဘာ ရှိ စမ်းသပ်လုပ်ဆောင်ချက်အုပ်စုအားလုံးကို ဖြန့်ထားပြီး မော်ဒယ်ရွေးချယ်စရာများကို တစ်နေရာတည်းတွင် စုထားသည်။ ရွေးချယ်မှုကို ပြောင်းရန် ၎င်း၏အတန်းပေါ် မည်သည့်နေရာကိုမဆို နှိပ်နိုင်သည်။</string>
+
+    <!-- 2026-10-20-12-revert-to-here -->
+    <string name="settings_whatsnew_entry_revert_to_here_title">မက်ဆေ့ဂျ်ကို ပြန်ပြောင်းပါ။</string>
+    <string name="settings_whatsnew_entry_revert_to_here_summary">သင့်မက်ဆေ့ဂျ်တစ်ခုကို ဖိထားပြီး “မက်ဆေ့ဂျ်ကို ပြန်ပြောင်းပါ။” ကို ရွေးကာ ထိုနေရာသို့ ပြန်သွား၍ တည်းဖြတ်နိုင်သည်။</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_1">မက်ဆေ့ဂျ်ရှိ စာသား၊ ဓာတ်ပုံနှင့် ဖိုင်များ မက်ဆေ့ဂျ်အကွက်သို့ ပြန်ရောက်လာသည်။</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_2">မက်ဆေ့ဂျ်အသစ် မပို့မီအထိ “မလုပ်တော့ပါ။” ဖြင့် အပြန်အလှန်ပြောဆိုမှုများနှင့် ၎င်းတို့၏ ဖိုင်အပြောင်းအလဲများကို ပြန်ယူနိုင်သည်။</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_3">အေးဂျင့် အလုပ်မလုပ်နေချိန်တွင် သုံးနိုင်သည်။</string>
+    <string name="settings_whatsnew_entry_revert_to_here_example">စောစောက ပို့ထားသော မက်ဆေ့ဂျ်ကို ဖိထားပြီး “မက်ဆေ့ဂျ်ကို ပြန်ပြောင်းပါ။” ကို ရွေးပါ။</string>
+
+    <!-- 2026-10-20-13-drag-from-transcript -->
+    <string name="settings_whatsnew_entry_drag_from_transcript_title">စက်ရှင်ထဲမှ ဆွဲယူပါ</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_summary">စက်ရှင်ထဲမှ ကုဒ်၊ ပုံ၊ ဖိုင်၊ လင့်ခ်နှင့် မက်ဆေ့ဂျ်များကို ဖိထားပြီး အခြားအက်ပ်များသို့ ဆွဲယူနိုင်သည်။</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_1">ကုဒ်အကွက်များကို ဘာသာစကားအမည်ပါသော စာသားအဖြစ် ပို့ပေးသည်။</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_2">အေးဂျင့် ဖန်တီးထားသော ပုံနှင့် ဖိုင်များကို ဖိုင်အဖြစ် ပို့ပေးသည်။</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_3">တွဲပို့ရန် သို့မဟုတ် ကူးထည့်ရန် ၎င်းတို့ကို မက်ဆေ့ဂျ်အကွက်ထဲ ဆွဲချပါ။</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_4">ရွှေ့ကြည့်ခြင်း၊ စာသားရွေးခြင်းနှင့် မီနူးများကို ယခင်အတိုင်း သုံးနိုင်သည်။</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_example">ပြန်စာထဲမှ ကုဒ်တစ်ကြောင်းကို ရွေးပြီး ရွေးထားသည်ကို ဖိထားကာ ကုဒ်အကွက်ကို Notes သို့ ဆွဲယူပါ။</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_prompt">စာသားကို ပြောင်းပြန်စီပေးမည့် Swift လုပ်ဆောင်ချက်တိုတစ်ခုကို ကုဒ်အကွက်ထဲ ရေးပါ။</string>
+
+    <!-- 2026-10-20-14-tuning-glass-tap-targets -->
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_title">ပိုလွယ်သော ချိန်ညှိခလုတ်များ</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_summary">ခေါက်သိမ်းထားသော ချိန်ညှိခလုတ်နှင့် အစွန်းရှိ တက်ဘ်တို့၏ နှိပ်နိုင်သည့် ဧရိယာ ပိုကျယ်လာသည်။</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_detail_1">၎င်းတို့၏ မှန်သားမျက်နှာပြင် အရွယ်အစားကတော့ မပြောင်းပါ။</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_example">ချိန်ညှိအကန့်ကို ခေါက်သိမ်းပြီး ၎င်း၏ခလုတ် သို့မဟုတ် တက်ဘ်အစွန်းနားကို နှိပ်ပါ</string>
+
+    <!-- 2026-10-20-15-new-session-project-continuity -->
+    <string name="settings_whatsnew_entry_new_session_project_continuity_title">ပိုတည်ငြိမ်သော ပရောဂျက်ရွေးချယ်မှု</string>
+    <string name="settings_whatsnew_entry_new_session_project_continuity_summary">ပရောဂျက်ရွေးနေစဉ် လတ်တလောဖိုင်တွဲများ နေရာမရွေ့တော့ဘဲ ခေါင်းစီးအမည်လည်း ညင်သာစွာ ပြောင်းသည်။ ပရောဂျက်အကန့်ရှိ ဖိုင်တွဲလမ်းကြောင်းများ ပိုရှင်းလာသည်။</string>
+
+    <!-- 2026-10-20-16-simple-session-loading -->
+    <string name="settings_whatsnew_entry_simple_session_loading_title">စက်ရှင်ဖွင့်ချိန် ပိုငြိမ်လာသည်</string>
+    <string name="settings_whatsnew_entry_simple_session_loading_summary">စက်ရှင်ဖွင့်ရန် အချိန်အနည်းငယ်ကြာမှသာ မလှုပ်ရှားသော လိုဂိုအသေးလေး တဖြည်းဖြည်း ပေါ်လာပြီး မက်ဆေ့ဂျ်များသို့ ညင်သာစွာ ပြောင်းသွားသည်။</string>
+
+    <!-- 2026-10-20-17-voice-route-consistency -->
+    <string name="settings_whatsnew_entry_voice_route_consistency_title">အသံချိတ်ဆက်မှု ပြင်ဆင်ချက်များ</string>
+    <string name="settings_whatsnew_entry_voice_route_consistency_summary">သင့်ဆာဗာက ခေါ်ဆိုမှုများကို လုပ်ဆောင်ပေးချိန်တွင် Grok က သင့် xAI သော့ကို ဆက်သုံးပြီး Gemini ကလည်း ၎င်း၏အမည်ကို မှန်ကန်စွာ ပြောပြသည်။</string>
+
+    <!-- 2026-10-20-18-call-tray-edge-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_title">ခေါ်ဆိုမှုအကန့် လှုပ်ရှားမှု</string>
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_summary">ခေါ်ဆိုမှုအကန့် ဖွင့်လာချိန်နှင့် ဘေးအကန့်ထဲ ဝင်ထွက်ချိန်တွင် အသံလှိုင်းပုံက ၎င်း၏ လုံးဝန်းသောအစွန်းအတိုင်း လိုက်ရွေ့သည်။</string>
+
+    <!-- 2026-10-21-01-call-tray-keyboard-return -->
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_title">ခေါ်ဆိုမှုအကန့် ပြန်ပေါ်ခြင်း</string>
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_summary">ဘေးအကန့် ပိတ်ပြီး ကီးဘုတ် ပြန်ပေါ်လာချိန်တွင် ခေါ်ဆိုမှုအကန့်ကို ဆက်မြင်ရသည်။</string>
+
+    <!-- 2026-10-21-02-drawer-title-fade -->
+    <string name="settings_whatsnew_entry_drawer_title_fade_title">စက်ရှင်ခေါင်းစဉ် ပိုပြည့်စုံစွာ ပြသည်</string>
+    <string name="settings_whatsnew_entry_drawer_title_fade_summary">ဘေးအကန့်ရှိ စက်ရှင်ခေါင်းစဉ်ရှည်များကို အစောကြီး ဖြတ်ပြီး အစက်သုံးစက်ပြမည့်အစား အစွန်းအထိ ပြပြီး တဖြည်းဖြည်း မှိန်သွားစေသည်။</string>
+
+    <!-- 2026-10-21-03-call-sounds-from-the-tap -->
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_title">ခေါ်ဆိုမှုအသံ ပိုမြန်လာသည်</string>
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_summary">နှိပ်ပြီး စက္ကန့်အနည်းငယ်ကြာမှ အသံမြည်မည့်အစား ပထမဆုံး လှုပ်ရှားမှုနှင့်အတူ ခေါ်ဆိုမှုချိတ်ဆက်သံ စမြည်သည်။</string>
+
+    <!-- 2026-10-21-04-calm-wireframe-launch -->
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_title">ပိုငြိမ်သော ဖွင့်တင်မှု</string>
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_summary">ယာယီသိမ်းထားသော စက်ရှင်များကို ချက်ချင်း ဖွင့်ပေးသည်။ ဖွင့်ရန် ခဏကြာလျှင် မှိန်လိုက်လင်းလိုက် မက်ဆေ့ဂျ်အကွက်များ ပြပြီး သင့်မက်ဆေ့ဂျ်များသို့ ညင်သာစွာ ပြောင်းသွားသည်။</string>
+
+    <!-- 2026-10-21-05-request-dictation-last-line -->
+    <string name="settings_whatsnew_entry_request_dictation_last_line_title">အသံဖြင့် ရိုက်ထားသည့်စာ၏ အဆုံးကို ပြသည်</string>
+    <string name="settings_whatsnew_entry_request_dictation_last_line_summary">iOS 26 တွင် စောင့်ဆိုင်းနေသော တောင်းဆိုမှု၏ ပြန်စာအကွက်၌ အသံဖြင့် စာရှည်ရိုက်ပြီး ရပ်လိုက်လျှင် အလယ်ပိုင်းအစား နောက်ဆုံးစာကြောင်းများကို ပြသည်။</string>
+
+    <!-- 2026-10-21-06-first-run-pairing-fixes -->
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_title">ပထမဆုံး တွဲချိတ်မှု ပိုရှင်းလာသည်</string>
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_summary">ကူးထားသည့်အရာ မရှိဘဲ ကူးထည့်လျှင် “ကူးထည့်ပါ” ဘေးတွင် အသိပေးသည်။ စတင်သတ်မှတ်ရာတွင်လည်း မိနစ်ဝက်အတွင်း အဝေးမှ ချိတ်ဆက်နိုင်မည်ဟု မကတိပေးတော့ပါ။</string>
+
+    <!-- 2026-10-21-07-welcome-pairing-copy -->
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_title">OpenCode အက်ပ်မှ တွဲချိတ်ပါ</string>
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_summary">ကြိုဆိုမျက်နှာပြင်က ကွန်ပျူတာရှိ OpenCode ၏ ဆက်တင်များ → တွဲချိတ်ခြင်း သို့မဟုတ် terminal ရှိ /pair ကို ညွှန်ပြပေးပြီး OpenCode မရှိသေးသူများအတွက် ထည့်သွင်းရန် အမိန့်ကိုလည်း ပြထားသည်။</string>
+
+    <!-- 2026-10-21-08-session-id-links -->
+    <string name="settings_whatsnew_entry_session_id_links_title">စက်ရှင်လင့်ခ်များ</string>
+    <string name="settings_whatsnew_entry_session_id_links_summary">ပြန်စာထဲရှိ စက်ရှင် ID ကို ထိုစက်ရှင်၏ ခေါင်းစဉ်အဖြစ် ပြသည်။ စက်ရှင်ဖွင့်ရန် ၎င်းကို နှိပ်ပါ။</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_1">အေးဂျင့်ခွဲ၏ ID ကို နှိပ်လျှင် လက်ရှိစက်ရှင်အပေါ်တွင် ဖွင့်ပေးပြီး “နောက်ပြန်” ဖြင့် ပြန်သွားနိုင်သည်။</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_2">ID ကို ကူးယူရန် ဖိထားပါ။</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_3">ဤဆာဗာ မသိသော ID ကို အတိုချုံ့ပြသည်။</string>
+    <string name="settings_whatsnew_entry_session_id_links_example">အခြားစက်ရှင်တစ်ခုကို ၎င်း၏ ID ဖြင့် ဖော်ပြရန် အေးဂျင့်ကို ပြောပြီး ခေါင်းစဉ်ကို နှိပ်ပါ။</string>
+    <string name="settings_whatsnew_entry_session_id_links_prompt">ကျွန်ုပ်၏ နောက်ဆုံး OpenCode စက်ရှင် ငါးခုကို ၎င်းတို့၏ စက်ရှင် ID များနှင့်အတူ စာရင်းပြပါ။</string>
+
+    <!-- 2026-10-21-10-ipad-multiple-windows -->
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_title">တက်ဘလက်တွင် ဝင်းဒိုးများစွာ သုံးနိုင်သည်</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_summary">တက်ဘလက်တွင် စက်ရှင်များကို သီးခြားဝင်းဒိုးများဖြင့် ဖွင့်ပြီး နှစ်ခုကို ဘေးချင်းယှဉ်ထားနိုင်သည်။</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_1">ဘေးအကန့်ရှိ စက်ရှင်ကို ဖိထားပြီး “ဝင်းဒိုးအသစ်တွင် ဖွင့်ပါ” ကို ရွေးပါ။</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_2">ဝင်းဒိုးတိုင်းတွင် ကိုယ်ပိုင်စက်ရှင်၊ ဘေးအကန့်နှင့် မက်ဆေ့ဂျ်အကွက် ရှိသည်။</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_3">ထိပ်တွင် ချိတ်ထားမှုများ၊ ဖတ်ပြီးသော စက်ရှင်များနှင့် သင့်ဆာဗာများသည် ဝင်းဒိုးတိုင်းတွင် တူညီသည်။</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_4">ဝင်းဒိုးများ ပြန်ဖွင့်လျှင် ယခင်ပြထားသော စက်ရှင်သို့ ပြန်ရောက်သည်။</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_example">ဘေးအကန့်ရှိ စက်ရှင်ကို ဖိထားပြီး “ဝင်းဒိုးအသစ်တွင် ဖွင့်ပါ” ကို ရွေးကာ ပထမဝင်းဒိုးဘေးတွင် ထားပါ။</string>
+
+    <!-- 2026-10-21-11-plain-launch -->
+    <string name="settings_whatsnew_entry_plain_launch_title">ရိုးရှင်းသော အက်ပ်စတင်မှု</string>
+    <string name="settings_whatsnew_entry_plain_launch_summary">OpenCode က ရိုးရှင်းသော မျက်နှာပြင်ဖြင့် စဖွင့်ပြီး စက်ရှင် အဆင်သင့်ဖြစ်သည်နှင့် ချက်ချင်း ပြောင်းပေးသည်။ ဖွင့်တင်နေသည့် လှုပ်ရှားမှုပုံ မပါဝင်ပါ။</string>
+
+    <!-- 2026-10-21-12-breath-ping-call-sounds -->
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_title">ပိုညင်သာသော ခေါ်ဆိုမှုအသံများ</string>
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_summary">ခေါ်ဆိုမှု ချိတ်ဆက်ချိန်၊ အသိပေးချိန်နှင့် ဖုန်းချချိန်တွင် စကားပြောသံကို မနှောင့်ယှက်သော လေသံဆန်ဆန် ညင်သာသည့်အသံများ မြည်သည်။</string>
+
+    <!-- 2026-10-21-13-smoother-session-list -->
+    <string name="settings_whatsnew_entry_smoother_session_list_title">ပိုချောမွေ့သော စက်ရှင်စာရင်း</string>
+    <string name="settings_whatsnew_entry_smoother_session_list_summary">စက်ရှင်များ အလုပ်လုပ်နေချိန်မှာလည်း ဘေးအကန့်ရှိ စက်ရှင်စာရင်းကို ချောမွေ့စွာ ရွှေ့ကြည့်နိုင်ပါပြီ။ စက်ရှင်ကို ဖိထားလျှင် အတန်းအရွယ်အစား မပြောင်းဘဲ မီနူးပွင့်လာပါမည်။</string>
+
+    <!-- 2026-10-22-01-whats-new-actions -->
+    <string name="settings_whatsnew_entry_whats_new_actions_title">ဘာတွေ အသစ်ပါလဲ မှ ဖွင့်ပြီး စမ်းကြည့်ပါ</string>
+    <string name="settings_whatsnew_entry_whats_new_actions_summary">ဘာတွေ အသစ်ပါလဲ ရှိ အကြောင်းအရာစာမျက်နှာတွင် အပြင်အဆင်များ ကဲ့သို့ သက်ဆိုင်ရာဆက်တင်ကို ဖွင့်ရန်၊ သို့မဟုတ် စမ်းကြည့်ဖို့ အချက်ပြစာ ဖြည့်ထားသော စက်ရှင်အသစ် စတင်ရန် ခလုတ်ပါလာပါပြီ။</string>
+
+    <!-- 2026-10-22-02-project-icons-current-discovery -->
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_title">ပရောဂျက် သင်္ကေတ ပြင်ဆင်ချက်များ</string>
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_summary">ပရောဂျက် သင်္ကေတများကို ဖွင့်ထားလျှင် ဆာဗာက Icon Composer အစုများတွင် တွေ့ရှိသည့် သင်္ကေတများကိုလည်း ဘေးအကန့်တွင် ပြပေးပါမည်။</string>
+
+    <!-- 2026-10-22-03-new-divider-off-page -->
+    <string name="settings_whatsnew_entry_new_divider_off_page_title">လိုအပ်မှသာ အသစ် ဟု ပြမည်</string>
+    <string name="settings_whatsnew_entry_new_divider_off_page_summary">မက်ဆေ့ဂျ်အသစ် ခွဲမျဉ်း စမ်းသပ်လုပ်ဆောင်ချက်ကို ဖွင့်ထားလျှင် ရောက်လာသည့်စာများ ဖန်သားပြင်တစ်ခုစာထက် ပိုမှသာ အသစ် ဟု မှတ်သားပေးပါမည်။</string>
+
+    <!-- 2026-10-22-04-catch-up-all-caught-up-row -->
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_title">အားလုံး ဖတ်ပြီးပါပြီ</string>
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_summary">အမီလိုက်ကြည့်ရန် ရှိ နောက်ဆုံးစက်ရှင်ကို ဖတ်ပြီးလျှင် ဘေးအကန့်သို့ တန်းပြန်သွားပါမည်။ ထိုနေရာတွင် အမီလိုက်ကြည့်ရန် ကို အမှန်ခြစ်ပြီး အားလုံး ဖတ်ပြီးပါပြီ ဟု ပြပေးပါမည်။</string>
+
+    <!-- 2026-10-23-01-session-mentions -->
+    <string name="settings_whatsnew_entry_session_mentions_title">စက်ရှင်များကို ရည်ညွှန်းပါ</string>
+    <string name="settings_whatsnew_entry_session_mentions_summary">စာရေးကွက် အလိုအလျောက်ဖြည့်ခြင်း စမ်းသပ်လုပ်ဆောင်ချက်ကို ဖွင့်ထားလျှင် ကွန်ပျူတာမှာလိုပဲ @ ရိုက်ပြီး အခြားစက်ရှင်ကို ခေါင်းစဉ်ဖြင့် ရည်ညွှန်းနိုင်ပါပြီ။</string>
+
+    <!-- 2026-10-23-02-gpt-live-own-key -->
+    <string name="settings_whatsnew_entry_gpt_live_own_key_title">GPT-Live သော့များ</string>
+    <string name="settings_whatsnew_entry_gpt_live_own_key_summary">GPT-Live ခေါ်ဆိုမှုများတွင် သင့်ကိုယ်ပိုင် OpenAI သော့၊ ဆာဗာ၏ OpenAI သော့ သို့မဟုတ် ၎င်း၏ OpenCode Console ချိတ်ဆက်မှုကို သုံးနိုင်ပါပြီ။</string>
+
+    <!-- 2026-10-23-03-pair-opens-drawer -->
+    <string name="settings_whatsnew_entry_pair_opens_drawer_title">ရပ်ထားသည့်နေရာမှ ဆက်လုပ်ပါ</string>
+    <string name="settings_whatsnew_entry_pair_opens_drawer_summary">ကွန်ပျူတာအသစ်ကို တွဲချိတ်ပြီးလျှင် စက်ရှင်အလွတ်တွင် မထားတော့ဘဲ ရွေးချယ်နိုင်ရန် ထိုကွန်ပျူတာ၏ လတ်တလော စက်ရှင်များကို ဘေးအကန့်တွင် ဖွင့်ပြပေးပါမည်။</string>
+
+    <!-- 2026-10-23-04-voice-server-picker -->
+    <string name="settings_whatsnew_entry_voice_server_picker_title">အသံဆာဗာကို ရွေးပါ</string>
+    <string name="settings_whatsnew_entry_voice_server_picker_summary">ဆက်တင်များ › အသံ › အသံ ပံ့ပိုးပေးသူ တွင် ခေါ်ဆိုမှုများအတွက် သိမ်းထားသည့် ဆာဗာတစ်ခု သို့မဟုတ် ဤဖုန်းရှိ သင့်ကိုယ်ပိုင် OpenAI အကောင့်ကို ရွေးပါ။</string>
+
+    <!-- 2026-10-24-01-living-orb-floats -->
+    <string name="settings_whatsnew_entry_living_orb_floats_title">သက်ဝင်စက်လုံး နေရာတိုင်းမှာ ပေါ်နေမည်</string>
+    <string name="settings_whatsnew_entry_living_orb_floats_summary">သက်ဝင်စက်လုံးကို ဆက်တင်များ › သမ္ဘာ › ခေါ်ဆိုမှုများ ရှိ ခေါ်ဆိုမှုပုံစံတွင် မျောနေသည့်ပုံစံအဖြစ် သုံးနိုင်ပါပြီ။ ပိုကြီးလာပြီး ဆက်တင်များနှင့် ဖန်သားပြင်တိုင်းပေါ်တွင် ပေါ်နေပါမည်။ အသံနှစ်သံလုံးအလိုက် လှုပ်ရှားပြီး တစ်ပြိုင်နက်ပြောလျှင် အသံတစ်ခုစီကို အရောင်ခွဲပြပါမည်။ နှိပ်လျှင် ကတ်အဖြစ် ချဲ့ပေးပြီး အပေါ်ဆွဲလျှင် ခေါ်ဆိုမှုနှင့် စကားပြောမှတ်တမ်းအပြည့်ကို ပြပါမည်။ အောက်ဆွဲလျှင် ပြန်သေးသွားပါမည်။ ခေါ်ဆိုမှုပုံစံ အောက်ရှိ စက်လုံး တွင် ပုံစံပြောင်းနိုင်ပါသည်။</string>
+
+    <!-- 2026-10-24-02-new-messages-divider-on -->
+    <string name="settings_whatsnew_entry_new_messages_divider_on_title">မက်ဆေ့ဂျ်အသစ် ခွဲမျဉ်း</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_summary">သင်မရှိချိန် ရောက်လာသည့် ပြန်စာက ဖန်သားပြင်တစ်ခုစာထက် ရှည်လျှင် စက်ရှင်ကို ထိုပြန်စာအစရှိ အသစ် ခွဲမျဉ်းနေရာတွင် ဖွင့်ပေးပါမည်။</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_1">ဖန်သားပြင်တစ်ခုစာအတွင်း ဝင်ဆံ့သည့် ပြန်စာကို ခွဲမျဉ်းမပါဘဲ အဆုံးတွင် ဖွင့်ပေးပါမည်။</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_2">သင်ကြည့်နေစဉ် တဖြည်းဖြည်း ရောက်လာသည့် ပြန်စာများကို မမှတ်သားပါ။</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_3">အဆုံးအထိ ဖတ်လိုက်လျှင် ခွဲမျဉ်း ပျောက်သွားပါမည်။</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_4">ဆက်တင်များ › ဆက်ရှင်များ တွင် ပိတ်နိုင်ပါသည်။</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_example">ပြန်စာရှည်တစ်ခု တောင်းပြီး အခြားအက်ပ်သို့ ပြောင်းသုံးပါ။ ပြန်စာပြီးမှ ပြန်လာကြည့်ပါ။</string>
+
+    <!-- 2026-10-24-03-composer-keyboard-morph -->
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_title">ကီးဘုတ်နှင့်အတူ ရွေ့သည့် စာရေးကွက်</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_summary">စာရေးကွက်၏ ခလုတ်များက ကီးဘုတ်နှင့်အတူ ပေါ်လာပြီး ကီးဘုတ်ကို အပေါ်အောက် ဆွဲရွှေ့သည့်အတိုင်း လိုက်ရွေ့ပါမည်။</string>
+
+    <!-- 2026-10-24-04-composer-photo-viewer -->
+    <string name="settings_whatsnew_entry_composer_photo_viewer_title">စာရေးကွက်ဓာတ်ပုံများကို မျက်နှာပြင်အပြည့်ကြည့်ရန်</string>
+    <string name="settings_whatsnew_entry_composer_photo_viewer_summary">စာရေးကွက်ရှိ ဓာတ်ပုံကို နှိပ်ပြီး မျက်နှာပြင်အပြည့် ကြည့်ပါ။ ဓာတ်ပုံများကို ပွတ်ဆွဲပြောင်းကြည့်ပြီး မပို့မီ ဖယ်ရှားနိုင်ပါသည်။</string>
+
+    <!-- 2026-10-24-05-plus-menu-photo-picker -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_title">ဓာတ်ပုံရွေးချယ်မှုအသစ်</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_summary">ဆက်တင်များ › သမ္ဘာ › စာရေးကွက် တွင် + မီနူးအသစ် ကို ဖွင့်ပါ။ + မီနူးမှ လတ်တလောဓာတ်ပုံ 8 ပုံအထိ တိုက်ရိုက်ရွေးနိုင်ပြီး ဓာတ်ပုံအားလုံးကိုလည်း ကြည့်နိုင်ပါသည်။ ဓာတ်ပုံများ စာရေးကွက်ထဲ၊ ထို့နောက် စက်ရှင်ထဲသို့ ပျံဝင်သွားပုံကိုလည်း မြင်ရပါမည်။</string>
+
+    <!-- 2026-10-24-06-project-icons-lit -->
+    <string name="settings_whatsnew_entry_project_icons_lit_title">အလင်းပြေးသည့် ပရောဂျက် သင်္ကေတများ</string>
+    <string name="settings_whatsnew_entry_project_icons_lit_summary">ပရောဂျက် သင်္ကေတများကို ဖွင့်ထားလျှင် ဘေးအကန့်ရှိ သင်္ကေတများတွင် အပေါ်မှ အလင်းဖျော့ဖျော့၊ ပါးလွှာသည့် ဖန်အနားသတ်နှင့် အရိပ်နုနုတို့ ပေါ်လာပါမည်။</string>
+
+    <!-- 2026-10-24-07-session-live-activity -->
+    <string name="settings_whatsnew_entry_session_live_activity_title">စက်ရှင် တိုက်ရိုက်အပ်ဒိတ်များ</string>
+    <string name="settings_whatsnew_entry_session_live_activity_summary">ဆက်တင်များ › သမ္ဘာ › ဘေးအကန့် တွင် စက်ရှင် တိုက်ရိုက်အပ်ဒိတ်များ ကို ဖွင့်ပါ။ သင်စေခိုင်းထားသည့်အလုပ် ပြီးသည်အထိ သို့မဟုတ် သင့်အဖြေလိုလာသည်အထိ တိုက်ရိုက်အကြောင်းကြားချက်မှ စောင့်ကြည့်နိုင်ပါသည်။ လော့ခ်မျက်နှာပြင်မှာလည်း ကြည့်နိုင်ပါသည်။</string>
+
+    <!-- 2026-10-24-08-sign-in-failed-edit-server -->
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_title">ဝင်ရောက်မှု ငြင်းပယ်ခံရလျှင် ပြင်ဆင်ရန်</string>
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_summary">ဆာဗာက သင့်စကားဝှက်ကို လက်မခံလျှင် ဘေးအကန့်ရှိ ဆာဗာမီနူးတွင် အကူအညီမဖြစ်သည့် ပြန်ကြိုးစားပါ အစား ဆာဗာကို တည်းဖြတ်ပါ… ကို ပြပေးပါမည်။ ကြိုဆိုမျက်နှာပြင်တွင်လည်း terminal ၌ opencode pair --remote သုံးရန် ညွှန်ပြထားပါပြီ။</string>
+
+    <!-- 2026-10-25-01-voice-app-screenshot -->
+    <string name="settings_whatsnew_entry_voice_app_screenshot_title">အသံဖြင့် ဖန်သားပြင်ပုံရိုက်ရန်</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_summary">အသံခေါ်ဆိုနေစဉ် “ဒါကို ကြည့်ပါ” ဟု ပြောလိုက်လျှင် အက်ပ်၏ ဖန်သားပြင်ပုံကို သင့်မှတ်ချက်နှင့်အတူ စက်ရှင်သို့ ပို့ပေးပါမည်။</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_1">အက်ပ်၏ ဖန်သားပြင်ပုံကိုသာ မျက်နှာပြင်အမည်၊ ခေါ်ဆိုမှုနှင့် အက်ပ်အခြေအနေတို့နှင့်အတူ ပို့ပေးပါမည်။</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_2">ခေါ်ဆိုမှုမှတ်တမ်း သို့မဟုတ် လတ်တလော အက်ပ်မှတ်တမ်းများကိုပါ တွဲပို့ခိုင်းနိုင်ပါသည်။ လိပ်စာများနှင့် ဝင်ရောက်ရန် အချက်အလက်များကို ဖုံးကွယ်ထားပါမည်။</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_3">အကောင့်ဝင်ရန် မျက်နှာပြင် သို့မဟုတ် စကားဝှက်ကွက် ပေါ်နေချိန်တွင် ပုံမရိုက်ပါ။</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_example">အသံခေါ်ဆိုနေစဉ် “ဖန်သားပြင်ပုံ ရိုက်ပေးပါ၊ ဒီအတန်းက နေရာမတည့်ဘူး” ဟု ပြောပါ</string>
+
+    <!-- 2026-10-25-02-voice-background-results -->
+    <string name="settings_whatsnew_entry_voice_background_results_title">နောက်ကွယ်မှ ရလဒ်များကို ခေါ်ဆိုမှုတွင် သိရမည်</string>
+    <string name="settings_whatsnew_entry_voice_background_results_summary">ခေါ်ဆိုနေစဉ် သင်စေခိုင်းထားသည့် စက်ရှင်က နောက်ကွယ်တွင် အလုပ်လုပ်လျှင် သင် အခြားကိစ္စများ ဆက်လုပ်နေသော်လည်း အလုပ်ပြီးသည်နှင့် တွေ့ရှိချက်များကို ခေါ်ဆိုမှုမှ ပြောပြပေးပါမည်။</string>
+
+    <!-- 2026-10-25-03-sound-effects-experiment -->
+    <string name="settings_whatsnew_entry_sound_effects_experiment_title">အသံသက်ရောက်မှု</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_summary">ပြန်စာများ၊ တောင်းဆိုမှုများ၊ အမီလိုက်ကြည့်ရန်နှင့် ပို့မအောင်မြင်မှုများအတွက် တုန်ခါမှုနှင့်အတူ အသံဖျော့ဖျော့ ထွက်စေသည့် စမ်းသပ်လုပ်ဆောင်ချက်ပါ။</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_1">အသံပိတ်မုဒ်နှင့် တုန်ခါမုဒ်တွင် ထိုအသံများ မထွက်ပါ။ သီချင်းကတော့ ဆက်ဖွင့်နေပါမည်။</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_2">ခေါ်ဆိုနေစဉ်၊ အသံဖြင့် စာရိုက်နေစဉ်၊ မီဒီယာဖွင့်နေစဉ်နှင့် အက်ပ် နောက်ကွယ်ရောက်နေစဉ် ထိုအသံများ မထွက်ပါ။</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_3">အဖွင့်အပိတ်ခလုတ်အောက်တွင် အသံအတိုးအကျယ်နှင့် ရွေးချယ်ဖွင့်နိုင်သည့် ပို့သည့်အခါ အသံ ရှိပါသည်။</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_example">ဆက်တင်များ › သမ္ဘာ တွင် အသံသက်ရောက်မှု ကို ဖွင့်ပြီး အခြားစက်ရှင်တစ်ခုမှ ပြန်စာကို စောင့်ကြည့်ပါ</string>
+
+    <!-- 2026-10-25-90-session-title-first-prompt -->
+    <string name="settings_whatsnew_entry_session_title_first_prompt_title">ပထမအချက်ပြစာမှ ခေါင်းစဉ်များ</string>
+    <string name="settings_whatsnew_entry_session_title_first_prompt_summary">ခေါင်းစဉ်မရှိသေးသည့် စက်ရှင်များတွင် ဆာဗာက အမည်မပေးမချင်း ပထမအချက်ပြစာကို တစ်ကြောင်းတည်း ပြပေးပါမည်။</string>
+
+    <!-- 2026-10-26-01-settings-sessions-page -->
+    <string name="settings_whatsnew_entry_settings_sessions_page_title">ဆက်ရှင်များ ဆက်တင်များ</string>
+    <string name="settings_whatsnew_entry_settings_sessions_page_summary">ဆက်တင်များတွင် ဆက်ရှင်များ စာမျက်နှာအသစ် ပါလာပါပြီ။ ထိုနေရာတွင် မက်ဆေ့ဂျ်အသစ် ခွဲမျဉ်း ကို Return ခလုတ်ဖြင့် ပို့ရန် အပေါ်တွင် ထားထားပြီး အဆင့်မြင့် ကိုလည်း သမ္ဘာ နှင့် ဆော့ဖ်ဝဲရေးသားသူ ဟူ၍ နှစ်တန်း ခွဲထားပါသည်။</string>
+
+    <!-- 2026-10-26-02-project-icons-default -->
+    <string name="settings_whatsnew_entry_project_icons_default_title">ပရောဂျက် သင်္ကေတများ ဖွင့်ထားပါပြီ</string>
+    <string name="settings_whatsnew_entry_project_icons_default_summary">စက်ရှင်ခေါင်းစဉ်များဘေးတွင် ပရောဂျက် သင်္ကေတများကို ပြပေးပါပြီ။ ဆက်တင်များ › သမ္ဘာ တွင် ပိတ်နိုင်ပါသည်။</string>
+
+    <!-- 2026-10-26-03-plus-menu-over-keyboard -->
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_title">ကီးဘုတ်ပေါ်မှ ဓာတ်ပုံများ</string>
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_summary">+ မီနူးအသစ် ကို ဖွင့်ထားလျှင် + မီနူးက ကီးဘုတ်ပေါ်တွင် ပွင့်လာပါမည်။ ဓာတ်ပုံများကို ဖွင့်လျှင် ထိုမီနူးမှ မျက်နှာပြင်အနားများအထိ အကန့်တစ်ခုအဖြစ် ချဲ့ပေးပြီး ပြန်ပိတ်လျှင် ကီးဘုတ်မပျောက်ဘဲ ခေါက်သိမ်းသွားပါမည်။</string>
+
+    <!-- 2026-10-26-04-living-orb-connect-motion -->
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_title">ချိတ်ဆက်ချိန် စက်လုံးလှုပ်ရှားမှု</string>
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_summary">Living Orb ဖွင့်ထားလျှင် ခေါ်ဆိုမှုချိတ်ဆက်နေစဉ် ခေါ်ဆိုခလုတ်က စက်လုံးထဲသို့ တက်ပြီး လည်နေကာ ခေါ်ဆိုမှုပြီးလျှင် ခလုတ်ထဲ ပြန်ဆင်းလာပါမည်။ ချက်ချင်းပြန်ခေါ်လည်း ငြိမနေဘဲ ခေါ်ဆိုမှုအသစ် စပါမည်။</string>
+
+    <!-- 2026-10-26-05-living-orb-presets -->
+    <string name="settings_whatsnew_entry_living_orb_presets_title">စက်လုံး အသင့်သုံးပုံစံများနှင့် Fancy</string>
+    <string name="settings_whatsnew_entry_living_orb_presets_summary">ဆက်တင်များ › သမ္ဘာ › ခေါ်ဆိုမှုများ ရှိ ခေါ်ဆိုမှုပုံစံအောက်မှ စက်လုံးကို ဖွင့်လျှင် Fancy ကို ပြပါမည်။ တိုက်ရိုက်အစမ်းကြည့်ပုံ ပိုကြီးလာပြီး အသင့်သုံးပုံစံများလည်း ပါလာပါပြီ။ ကိုယ်ပိုင်ပုံစံကို သိမ်း၊ အမည်ပြောင်းနိုင်သလို မျှဝေရန် ဆက်တင်ပုံစံကို ကူးယူ၊ ကူးထည့်နိုင်ပါသည်။</string>
+
+    <!-- 2026-10-26-06-send-after-a-pause -->
+    <string name="settings_whatsnew_entry_send_after_a_pause_title">ခဏနားပြီး ပို့လည်း ပိုချောမွေ့</string>
+    <string name="settings_whatsnew_entry_send_after_a_pause_summary">ခဏနားပြီးမှ ပို့သည့် မက်ဆေ့ဂျ်သည် အချိန်ပြစာအောက်တွင် စာရေးကွက်ဘက်သို့ အရင်နိမ့်မသွားတော့ဘဲ စာရေးကွက်မှ မက်ဆေ့ဂျ်အကွက်ထဲသို့ တန်းတက်သွားပါပြီ။</string>
+
+    <!-- 2026-10-27-01-steadier-round-trip -->
+    <string name="settings_whatsnew_entry_steadier_round_trip_title">ပိုတည်ငြိမ်သော အသွားအပြန်ကြာချိန်</string>
+    <string name="settings_whatsnew_entry_steadier_round_trip_summary">ချိတ်ဆက်မှုကတ်ရှိ ms ကိန်းဂဏန်းသည် နောက်ဆုံးစစ်ဆေးမှုအနည်းငယ်၏ ပျမ်းမျှကို ပြပါပြီ။ တုံ့ပြန်မှုတစ်ကြိမ် နှေးသွားလည်း ကိန်းဂဏန်းက ရုတ်တရက် မခုန်ဘဲ အနည်းငယ်သာ ပြောင်းပါမည်။</string>
+
+    <!-- 2026-10-27-02-drawer-drag-follows-finger -->
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_title">ဘေးအကန့်တွင် ဆွဲရွှေ့ရာ လက်နောက်လိုက်</string>
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_summary">ဘေးအကန့်တွင် ဆွဲရွှေ့သည့် စက်ရှင်သည် လက်ချောင်းအောက်တည့်တည့်တွင် နေပြီး ခေါင်းစီးအပေါ်မှ ရွေ့ပါမည်။ စာရင်းအစွန်းရောက်လျှင် စာရင်းကို ရွှေ့ပေးပြီး လက်လွှတ်လျှင် နေရာတကျ ပြန်ဝင်ပါမည်။</string>
+
+    <!-- 2026-10-27-03-inbox-sidebar-experiment -->
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_title">အဝင်စာပုံစံ ဘေးအကန့်</string>
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_summary">ဆက်တင်များ › သမ္ဘာ › ဘေးအကန့် တွင် အဝင်စာပုံစံ ဘေးအကန့်ကို ဖွင့်ပါ။ စက်ရှင်များကို သင့်အဖြေလိုသည့်အရာများ အရင်၊ မဖတ်ရသေးသည်များ နောက်မှ ပြပြီး ပရောဂျက်နှင့် နောက်ဆုံးတုံ့ပြန်မှုပါ ပြပါမည်။ ဘေးသို့ ပွတ်ဆွဲ၍ ဖတ်ပြီးဟု မှတ်သားနိုင်သလို မှတ်တမ်းထဲလည်း သိမ်းနိုင်ပါသည်။</string>
+
+    <!-- 2026-10-28-01-first-pairing-ready-session -->
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_title">အဆင်သင့်ဖြစ်နေသော ပထမစက်ရှင်</string>
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_summary">ပထမဆုံးကွန်ပျူတာကို တွဲချိတ်လျှင် ၎င်း၏ နောက်ဆုံးသုံးထားသည့် ပရောဂျက်တွင် စက်ရှင်အသစ် ဖွင့်ပေးပြီး စမ်းမေးရန် မေးခွန်းအနည်းငယ် ပြပါမည်။ တစ်ချက်နှိပ်၍ ချိတ်ဆက်ပြီးကြောင်း အတည်ပြုနိုင်ပါသည်။ အသစ်ထည့်သွင်းထားသော အက်ပ်တွင်လည်း ဘာတွေ အသစ်ပါလဲကို ဖတ်ပြီးဟု သတ်မှတ်ထားပါမည်။</string>
+
+    <!-- 2026-10-28-02-welcome-preview -->
+    <string name="settings_whatsnew_entry_welcome_preview_title">ကြိုဆိုမျက်နှာပြင် အစမ်းကြည့်</string>
+    <string name="settings_whatsnew_entry_welcome_preview_summary">ပထမဆုံးဖွင့်ချိန် ကြိုဆိုမျက်နှာပြင်အသစ်က လက်ပ်တော့ပေါ်ရှိ OpenCode ကို ဖုန်းဖြင့် လမ်းညွှန်နေပုံ ပြပြီး တစ်ဆင့်တည်းဖြင့် တွဲချိတ်ပေးပါမည်။ ကြည့်ရန် ဆက်တင်များ › သမ္ဘာ › ဘေးအကန့် တွင် ကြိုဆိုမျက်နှာပြင် အစမ်းကြည့်ကို ဖွင့်ပြီး ကြိုဆိုမျက်နှာပြင်ကို ပြပါကို နှိပ်ပါ။ ပိတ်လျှင် မူလနေရာသို့ ပြန်ရောက်ပါမည်။</string>
+
+    <!-- 2026-10-29-01-composer-text-selection -->
+    <string name="settings_whatsnew_entry_composer_text_selection_title">စာရေးကွက်တွင် စာသားရွေးပါ</string>
+    <string name="settings_whatsnew_entry_composer_text_selection_summary">မူကြမ်းထဲတွင် စာသားရွေးချယ်မှုအစွန်းများ သို့မဟုတ် မှန်ဘီလူးကို ဆွဲရွှေ့လည်း ကီးဘုတ် မပိတ်တော့သလို စာရေးကွက်လည်း အပေါ်အောက် မရွေ့တော့ပါ။</string>
+
+    <!-- 2026-10-30-01-voice-waits-for-you -->
+    <string name="settings_whatsnew_entry_voice_waits_for_you_title">ပြောပြီးသည်အထိ ခေါ်ဆိုမှုက စောင့်ပေးမည်</string>
+    <string name="settings_whatsnew_entry_voice_waits_for_you_summary">အသံအေးဂျင့်က သင့်စကားကို မဖြတ်တော့ပါ။ အခြေအနေအသစ်များကို သင်ပြောပြီးမှ ပြောပြပြီး၊ ၎င်းပြောနေစဉ် သင်ဝင်ပြောလျှင် ရပ်ပေးပါမည်။</string>
+
+    <!-- 2026-10-30-02-wisp-call-sounds -->
+    <string name="settings_whatsnew_entry_wisp_call_sounds_title">အသံခေါ်ဆိုမှုများတွင် Wisp အသံများ သုံးပါပြီ</string>
+    <string name="settings_whatsnew_entry_wisp_call_sounds_summary">ခေါ်ဆိုမှုစလျှင် တိုးညင်းသော ချိတ်ဆက်သံနှင့်အတူ အသက်ရှူသံဖျော့ဖျော့ ကြားရပြီး ချိတ်ဆက်ပြီးလျှင် ခေါင်းလောင်းသံ မြည်ပါမည်။ အေးဂျင့်က ကြည့်၊ ဖွင့်၊ လုပ်ဆောင်နေချိန်တွင် တိုးတိုးကလစ်သံများ ကြားရပြီး ပြီးဆုံးလျှင် သက်ပြင်းချသံ ကြားရပါမည်။ ဆက်တင်များ › အသံ › ခေါ်ဆိုမှုအသံများ တွင် အခြားအသံစုံ ရွေးနိုင်ပါသည်။</string>
+
+    <!-- 2026-10-30-03-wisp-orb -->
+    <string name="settings_whatsnew_entry_wisp_orb_title">အသံစက်လုံးက ယခု Wisp ဖြစ်ပါပြီ</string>
+    <string name="settings_whatsnew_entry_wisp_orb_summary">ခေါ်ဆိုမှုစက်လုံးသည် ယခု Wisp ပုံစံဖြစ်ပါပြီ။ နှစ်ဖက်အသံကြောင့် လင်းလာသည့် အစက်များအပေါ် ဖန်မှန်ဘီလူး ဖုံးထားပြီး ချိတ်ဆက်ခြင်း၊ နားထောင်ခြင်း၊ အလုပ်လုပ်ခြင်း၊ စကားပြောခြင်းနှင့် သင့်ကို စောင့်ခြင်းတို့အတွက် Wisp ၏ အမူအရာများ ပြပါမည်။ စက်လုံးပုံစံ တစ်မျိုးတည်းသာရှိတော့၍ ပုံစံဟောင်းများနှင့် စက်လုံးဆက်တင်များကို ဖယ်ရှားထားပါသည်။</string>
+
+    <!-- 2026-10-31-01-encrypted-notification-previews -->
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_title">စာဝှက်ထားသော အကြောင်းကြားချက် အစမ်းကြည့်</string>
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_summary">အပ်ဒိတ်လုပ်ထားသော အကြောင်းကြားချက်ပလပ်အင်နှင့် HTTPS ချိတ်ဆက်မှုကို သုံးလျှင် ဆာဗာက ခေါင်းစဉ်နှင့် မက်ဆေ့ဂျ်ကို ဤစက်အတွက် စာဝှက်ပေးပါမည်။ အစမ်းကြည့်စာကို ဖွင့်မရလျှင် အကြောင်းကြားချက်တွင် “လှုပ်ရှားမှုအသစ်” ဟုသာ ပြပါမည်။</string>
+
+    <!-- 2026-10-31-02-move-session-folder-gone -->
+    <string name="settings_whatsnew_entry_move_session_folder_gone_title">ဖိုင်တွဲမရှိလည်း စက်ရှင် ဆက်သုံးနိုင်</string>
+    <string name="settings_whatsnew_entry_move_session_folder_gone_summary">အလုပ်နေရာ ဖယ်ရှားထားခြင်းကဲ့သို့ စက်ရှင်၏ ဖိုင်တွဲမရှိတော့လျှင် ပို့မအောင်မြင်သည့်အခါ ပရောဂျက်၏ ဖိုင်တွဲသို့ စက်ရှင်ကို ရွှေ့ပြီး ပြန်ပို့ရန် ကမ်းလှမ်းပါမည်။</string>
+
+    <!-- 2026-10-31-03-notification-plugin-setup -->
+    <string name="settings_whatsnew_entry_notification_plugin_setup_title">OpenCode ဖြင့် အကြောင်းကြားချက်များ စနစ်ထည့်သွင်းပါ</string>
+    <string name="settings_whatsnew_entry_notification_plugin_setup_summary">ဆက်တင်များ → အကြောင်းကြားချက်များ တွင် OpenCode ဖြင့် စနစ်ထည့်သွင်းပါကို နှိပ်ပြီး လိုအပ်နေသော အကြောင်းကြားချက်ပလပ်အင် ထည့်သွင်းပေးမည့် အချက်ပြစာကို ပြန်လည်သုံးသပ်ပါ။</string>
+
+    <!-- 2026-11-01-01-call-card-takes-over -->
+    <string name="settings_whatsnew_entry_call_card_takes_over_title">ခေါ်ဆိုမှုကတ်က အောက်ခြေကို နေရာယူ</string>
+    <string name="settings_whatsnew_entry_call_card_takes_over_summary">Living Orb တွင် ခေါ်ဆိုမှုကတ်သည် မက်ဆေ့ဂျ်ရေးကွက်အပေါ်မှ မျက်နှာပြင်အောက်ခြေကို ဖြည့်ထားပြီး ပတ်လည်အနားသတ်များ ညီနေပါပြီ။ ကီးဘုတ်ကြောင့် ကတ်ကို မညှစ်တော့ပါ။ စာရိုက်ရန် စက်လုံးအဖြစ် ပြန်ချုံ့ပါ။</string>
+
+    <!-- 2026-11-01-01-screenshot-shutter -->
+    <string name="settings_whatsnew_entry_screenshot_shutter_title">ဖန်သားပြင်ပုံ ရိုက်သံ</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_summary">စက်ရှင်အတွက် အက်ပ်က မိမိဖန်သားပြင်ပုံကို ရိုက်သည့်အခါ မျက်နှာပြင်တစ်ချက် လင်းပြီး ရှပ်တာသံ မြည်ပါမည်။</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_1">ပုံရိုက်ပြီးမှ ဖလက်ရှ် လင်းသောကြောင့် ပုံထဲတွင် မပါပါ။</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_2">လှုပ်ရှားမှုလျှော့ချခြင်းကို ဖွင့်ထားလျှင် ဖျော့ဖျော့မှိန်သွားရုံသာ ဖြစ်ပြီး၊ မှိတ်တုတ်မီးများ လျှော့ချခြင်းကို ဖွင့်ထားလျှင် လုံးဝပိတ်ပါမည်။</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_3">ခေါ်ဆိုနေစဉ် ရှပ်တာသံကို ခေါ်ဆိုမှုအသံလမ်းကြောင်းမှ ဖွင့်ပေးသဖြင့် အေးဂျင့်က မကြားရပါ။</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_example">အသံခေါ်ဆိုမှုတွင် “ဒါကို ကြည့်ပါ” ဟု ပြောပါ</string>
+
+    <!-- 2026-11-01-01-voice-says-whats-running -->
+    <string name="settings_whatsnew_entry_voice_says_whats_running_title">လုပ်ဆောင်နေဆဲ အရာများကို ပြောပြမည်</string>
+    <string name="settings_whatsnew_entry_voice_says_whats_running_summary">သင့်တောင်းဆိုမှု ကြာနေသည့်အခါ အသံအေးဂျင့်က တိတ်မနေဘဲ ဘာလုပ်နေသည်ကို ပြောပြပါမည်။</string>
+
+    <!-- 2026-11-01-02-living-orb-default -->
+    <string name="settings_whatsnew_entry_living_orb_default_title">စက်လုံးထဲတွင် ခေါ်ဆိုမှုများ ပေါ်နေမည်</string>
+    <string name="settings_whatsnew_entry_living_orb_default_summary">ယခု လူတိုင်း၏ အသံခေါ်ဆိုမှုများကို မျက်နှာပြင်တိုင်းအပေါ်တွင် Living Orb အဖြစ် ပြထားပြီး မက်ဆေ့ဂျ်ရေးကွက်ကိုလည်း ဆက်သုံးနိုင်ပါသည်။</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_1">စက်လုံးကို နှိပ်၍ ခေါ်ဆိုမှုကတ်အဖြစ် ချဲ့ပါ။ ခေါ်ဆိုမှုအပြည့်နှင့် စကားပြောမှတ်တမ်းကို ကြည့်ရန် အပေါ်သို့ ဆွဲပါ။</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_2">စက်လုံးကို နေရာမရွေး ဆွဲရွှေ့ပါ။ စက်ရှင်ပြောင်းလဲလည်း၊ ဆက်တင်များ ဖွင့်လည်း ထိုနေရာတွင် ရှိနေပါမည်။</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_3">စက်ရှင်စာရင်းရှိ ဆက်တင်များဘေးမှ ခေါ်ဆိုခလုတ်ဖြင့်လည်း ခေါ်ဆိုမှု စနိုင်ပါသည်။</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_4">Tray ကို ဖယ်ရှားထားပါပြီ။ ယခင်က ၎င်းကို သုံးခဲ့လျှင်လည်း ခေါ်ဆိုမှုများကို စက်လုံးအဖြစ် ပြပါမည်။</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_5">ဆက်တင်များ › သမ္ဘာ › ခေါ်ဆိုမှုများ › Living Orb တွင် ပိတ်နိုင်ပါသည်။</string>
+    <string name="settings_whatsnew_entry_living_orb_default_example">ခေါ်ဆိုမှု စပြီး စက်ရှင်စာရင်းကို ဖွင့်ကြည့်ပါ။ စက်လုံးလည်း လိုက်ပါလာပါမည်</string>
+
+    <!-- 2026-11-01-02-quicker-send -->
+    <string name="settings_whatsnew_entry_quicker_send_title">ပိုမြန်သော ပို့ခြင်း</string>
+    <string name="settings_whatsnew_entry_quicker_send_summary">ပို့လိုက်သည့် မက်ဆေ့ဂျ်သည် စာရေးကွက်တွင် အရင်စောင့်မနေတော့ဘဲ စာရင်းနှင့်အတူ မက်ဆေ့ဂျ်အကွက်ထဲသို့ တက်သွားပါပြီ။</string>
+
+    <!-- 2026-11-01-02-share-screen-with-agents -->
+    <string name="settings_whatsnew_entry_share_screen_with_agents_title">အေးဂျင့်များနှင့် ဖန်သားပြင်မျှဝေပါ</string>
+    <string name="settings_whatsnew_entry_share_screen_with_agents_summary">ဆက်တင်များ › သမ္ဘာ › ခေါ်ဆိုမှုများ တွင် အေးဂျင့်များနှင့် ဖန်သားပြင်မျှဝေပါကို ဖွင့်ထားလျှင် ခေါ်ဆိုနေစဉ် အေးဂျင့်က အက်ပ်ကို ကြည့်ရန် တောင်းဆိုနိုင်ပါသည်။ ပုံပို့ရန် မျှဝေပါကို နှိပ်ပါ၊ သို့မဟုတ် အခု မလုပ်သေးပါကို နှိပ်ပါ။</string>
+
+    <!-- 2026-11-01-03-audio-in-calls -->
+    <string name="settings_whatsnew_entry_audio_in_calls_title">ခေါ်ဆိုမှုအတွင်း အသံဖွင့်ခြင်း</string>
+    <string name="settings_whatsnew_entry_audio_in_calls_summary">ဆက်တင်များ › သမ္ဘာ › ခေါ်ဆိုမှုများ တွင် ခေါ်ဆိုမှုအတွင်း အသံဖွင့်ခြင်းကို ဖွင့်ထားလျှင် အေးဂျင့်က ခေါ်ဆိုနေစဉ် သီချင်း သို့မဟုတ် အသံအပိုင်းတစ်ခု ဖွင့်ပေးနိုင်ပါသည်။ တစ်ဖက်ဖက်က စကားပြောလျှင် အသံတိုးသွားပါမည်။ စာရေးကွက်အပေါ်တွင် ခဏရပ်နိုင်သလို ရပ်တန့်နိုင်ပါသည်။</string>
+
+    <!-- 2026-11-01-03-open-links-from-calls -->
+    <string name="settings_whatsnew_entry_open_links_from_calls_title">ခေါ်ဆိုမှုမှ လင့်ခ်များ ဖွင့်ပါ</string>
+    <string name="settings_whatsnew_entry_open_links_from_calls_summary">ဆက်တင်များ › သမ္ဘာ › ခေါ်ဆိုမှုများ တွင် ခေါ်ဆိုမှုမှ လင့်ခ်များ ဖွင့်ပါကို ဖွင့်ထားလျှင် ခေါ်ဆိုနေစဉ် အေးဂျင့်က Uber ခရီးစဉ်ကဲ့သို့ လင့်ခ်တစ်ခု ပေးနိုင်ပါသည်။ သက်ဆိုင်ရာအက်ပ်တွင် ဖွင့်ရန် ဖွင့်ပါကို နှိပ်ပါ၊ သို့မဟုတ် အခု မလုပ်သေးပါကို နှိပ်ပါ။</string>
+
+    <!-- 2026-11-02-01-fold-questions -->
+    <string name="settings_whatsnew_entry_fold_questions_title">မေးခွန်းများကို ခေါက်သိမ်းထားပါ</string>
+    <string name="settings_whatsnew_entry_fold_questions_summary">မေးခွန်းကို အောက်သို့ ဆွဲ၍ စာရေးကွက်အပေါ်ရှိ ဘားငယ်အဖြစ် ခေါက်သိမ်းနိုင်ပြီး နှိပ်၍ ပြန်ဖွင့်နိုင်ပါသည်။ အဖြေပို့မအောင်မြင်လျှင် ပြန်ကြိုးစားပါကို နှိပ်သည်အထိ စောင့်နေပါမည်။</string>
+
+    <!-- 2026-11-02-01-steadier-following -->
+    <string name="settings_whatsnew_entry_steadier_following_title">ပိုတည်ငြိမ်သော လိုက်ရွှေ့မှု</string>
+    <string name="settings_whatsnew_entry_steadier_following_summary">ဆက်တိုက်ရောက်လာသည့် တုံ့ပြန်မှုကို အောက်ခြေတွင် ကပ်ပြထားပြီး အလုပ်လုပ်တယ်။ စာတန်းလည်း ခုန်မနေတော့ပါ။ စာရေးကွက်အပေါ်ရှိ မည်သည့်နေရာမှမဆို စာရင်းကို ပွတ်ဆွဲနိုင်ပါသည်။</string>
+
+    <!-- 2026-11-02-40-model-display-names -->
+    <string name="settings_whatsnew_entry_model_display_names_title">မော်ဒယ်အမည်များ</string>
+    <string name="settings_whatsnew_entry_model_display_names_summary">မော်ဒယ်စာရင်း တင်နေချိန် သို့မဟုတ် ပြန်ချိတ်ဆက်နေချိန်တွင် စာရေးကွက်က မော်ဒယ်အမည်များကို မှတ်ထားပေးသည်။</string>
+
+    <!-- 2026-11-02-41-all-experiments -->
+    <string name="settings_whatsnew_entry_all_experiments_title">စမ်းသပ်လုပ်ဆောင်ချက်အားလုံး</string>
+    <string name="settings_whatsnew_entry_all_experiments_summary">ဆက်တင်များ › သမ္ဘာ ထိပ်ရှိ ခလုတ်တစ်ခုဖြင့် စမ်းသပ်လုပ်ဆောင်ချက်အားလုံးကို ဖွင့်နိုင်ပြီး အသစ်ထပ်ရောက်လာသည်များလည်း ဖွင့်ပေးသည်။</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_1">မသုံးလိုသည့် စမ်းသပ်လုပ်ဆောင်ချက်ကို ပိတ်ထားပါ။ နောက်တစ်ကြိမ်တွင်လည်း ပိတ်ထားမည်။</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_2">စမ်းသပ်လုပ်ဆောင်ချက်အားလုံးကို ပိတ်လျှင် ယခင်ခလုတ်အနေအထားများအတိုင်း ပြန်ဖြစ်မည်။</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_3">ခွင့်ပြုချက်တောင်းသည့် စမ်းသပ်လုပ်ဆောင်ချက်များကိုတော့ သီးခြား ရွေးချယ်ရမည်။</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_4">အလိုအလျောက် စာဖြည့်ခြင်း၊ အပေါင်းမီနူးရှိ ဓာတ်ပုံအကန့်၊ ဆာဗာပြောင်းစနစ်အသစ်နှင့် ပရောဂျက်သင်္ကေတများကို ယခု အားလုံးအတွက် ဖွင့်ပေးထားသည်။</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_5">တစ်နေရာတည်း ရွေးချယ်မှုနှင့် သက်ဝင်စက်လုံးတို့သည် သာမန်အဖွင့်အပိတ်ခလုတ်များ ဖြစ်လာပြီး ခေါ်ဆိုမှုအကန့်ကို ဖယ်ရှားလိုက်ပါပြီ။</string>
+    <string name="settings_whatsnew_entry_all_experiments_example">ဆက်တင်များ › သမ္ဘာ ကို ဖွင့်ပြီး စမ်းသပ်လုပ်ဆောင်ချက်အားလုံးကို ဖွင့်ပါ</string>
+
+    <!-- 2026-11-03-01-search-all-sessions -->
+    <string name="settings_whatsnew_entry_search_all_sessions_title">စက်ရှင်အဟောင်းများကို ရှာပါ</string>
+    <string name="settings_whatsnew_entry_search_all_sessions_summary">ဘေးအကန့်တွင် ရှာလျှင် လတ်တလော စက်ရှင်များသာမက စက်ရှင်အားလုံးကို ရှာပေးပြီး အောက်ဆုံးအထိ ဆွဲကြည့်လျှင် စက်ရှင်အဟောင်းများကို ထပ်တင်ပေးသည်။</string>
+
+    <!-- 2026-11-03-01-voice-open-session -->
+    <string name="settings_whatsnew_entry_voice_open_session_title">အသံဖြင့် စက်ရှင်ပြောင်းပါ</string>
+    <string name="settings_whatsnew_entry_voice_open_session_summary">အသံအေးဂျင့်ကို စက်ရှင်တစ်ခု ဖွင့်ခိုင်းလျှင် ဘေးအကန့်ကို ပိတ်ပေးပြီး ခေါ်ဆိုမှုကို ဆက်ချိတ်ထားပေးသည်။</string>
+
+    <!-- 2026-11-03-02-orb-divider-image-links -->
+    <string name="settings_whatsnew_entry_orb_divider_image_links_title">စမ်းသပ်လုပ်ဆောင်ချက်သုံးခု ဖြန့်ချိပြီ</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_summary">သက်ဝင်စက်လုံး၊ အသစ် ခွဲခြားမျဉ်းနှင့် ပုံလင့်ခ်အစမ်းကြည့်မှုတို့ကို ယခု အားလုံးအတွက် ဖွင့်ပေးထားပြီး အဖွင့်အပိတ်ခလုတ် မရှိတော့ပါ။</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_1">ခေါ်ဆိုမှုအားလုံးကို သက်ဝင်စက်လုံးထဲတွင် မျောလျက် ပြထားပြီး ခေါ်ဆိုမှုဘားအဟောင်း မရှိတော့ပါ။</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_2">စက်ရှင်သို့ ပြန်လာချိန်တွင် မရှိခိုက် ရောက်လာသည့်အကြောင်းအရာများ ဖန်သားပြင်တစ်ခုစာ မဆံ့လျှင် အသစ် ခွဲခြားမျဉ်းဖြင့် မှတ်ပြပေးသည်။</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_3">ပုံသို့ တိုက်ရိုက်သွားသည့် လင့်ခ်များအတွက် မက်ဆေ့ဂျ်အောက်တွင် ပုံကို ပြပေးသည်။</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_example">စာရေးကွက်မှ စတင်ခေါ်ဆိုပြီး စက်လုံးထဲတွင် မျောနေသည်ကို ကြည့်ပါ</string>
+
+    <!-- 2026-11-04-01-call-links-and-audio -->
+    <string name="settings_whatsnew_entry_call_links_and_audio_title">ခေါ်ဆိုမှုထဲက လင့်ခ်များနှင့် အသံ</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_summary">ခေါ်ဆိုမှုမှ လင့်ခ်ဖွင့်ခြင်းနှင့် ခေါ်ဆိုမှုအတွင်း အသံဖွင့်ခြင်းတို့ကို ယခု အားလုံးအတွက် ဖွင့်ပေးထားပြီး အဖွင့်အပိတ်ခလုတ် မရှိတော့ပါ။</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_1">ခေါ်ဆိုနေစဉ် အေးဂျင့်က Uber ခရီးစဉ်ကဲ့သို့ လင့်ခ်တစ်ခု ပေးနိုင်သည်။ သက်ဆိုင်ရာအက်ပ်တွင် ဖွင့်ရန် ဖွင့်ပါ ကို နှိပ်ပါ၊ သို့မဟုတ် အခု မလုပ်သေးပါ ကို နှိပ်ပါ။</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_2">အေးဂျင့်က ခေါ်ဆိုမှုအတွင်း သီချင်း သို့မဟုတ် အသံဖိုင်တို ဖွင့်ပေးနိုင်သည်။ တစ်ဦးဦး စကားပြောလျှင် အသံတိုးပေးပြီး စာရေးကွက်အပေါ်တွင် ခဏရပ် သို့မဟုတ် ရပ်နိုင်သည်။</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_example">ခေါ်ဆိုနေစဉ် အေးဂျင့်ကို သီချင်းဖွင့်ခိုင်းကြည့်ပါ</string>
+
+    <!-- 2026-11-04-01-composer-editing-caret -->
+    <string name="settings_whatsnew_entry_composer_editing_caret_title">မူကြမ်းတည်းဖြတ်ခြင်း</string>
+    <string name="settings_whatsnew_entry_composer_editing_caret_summary">မူကြမ်းအလယ်ရှိ စကားလုံးတစ်လုံးကို ပြင်သည့်အခါ စာရိုက်ညွှန်တံက သင်ရိုက်နေသည့်နေရာတွင်ပဲ ရှိနေမည်။</string>
+
+    <!-- 2026-11-04-01-loading-touch-recovery -->
+    <string name="settings_whatsnew_entry_loading_touch_recovery_title">တင်ပြီးနောက် ဆွဲကြည့်ခြင်း</string>
+    <string name="settings_whatsnew_entry_loading_touch_recovery_summary">တင်နေဆဲအကူးအပြောင်းတွင် အက်ပ်သို့ ပြန်ဝင်လာလျှင် စကားပြောမှတ်တမ်းကို ချက်ချင်း ပြန်ဆွဲကြည့်နိုင်သည်။</string>
+
+    <!-- 2026-11-05-01-composer-keyboard-width -->
+    <string name="settings_whatsnew_entry_composer_keyboard_width_title">စာရိုက်ချိန် စာရေးကွက် ပိုကျယ်လာပြီ</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_width_summary">ကီးဘုတ်ပေါ်နေချိန် စာရေးကွက်က ဘေးလွတ်နေရာ အနည်းငယ်စီသာ ချန်ပြီး ကျယ်လာသဖြင့် မူကြမ်းရှည်များတွင် စာကြောင်းချိုးရမှု နည်းလာသည်။</string>
+
+    <!-- 2026-11-05-02-plus-menu-touch-release -->
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_title">ပူးတွဲဖိုင်မီနူး ပိတ်ခြင်း</string>
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_summary">ပူးတွဲဖိုင်မီနူးကို ပိတ်လျှင် အပြင်အဆင် ပြောင်းနေချိန်မှာပင် အောက်ရှိစက်ရှင်ကို ပြန်ထိသုံးနိုင်သည်။</string>
+
+    <!-- 2026-11-05-02-quiet-reconnecting-pill -->
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_title">အက်ပ်အဖွင့် ပိုတည်ငြိမ်လာပြီ</string>
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_summary">အက်ပ်ဖွင့်ချိန်တွင် စာရေးကွက်အပေါ်၌ “ပြန်ချိတ်ဆက်နေသည်…” ခဏပေါ်ခြင်း၊ စက်ရှင် အနည်းငယ်ရွေ့ခြင်း မရှိတော့ပါ။ ပြန်ချိတ်ဆက်ရန် အချိန်အနည်းငယ်ကြာမှသာ အခြေအနေပြအကွက် ပေါ်မည်။</string>
+
+    <!-- 2026-11-05-03-stuck-touch-recovery -->
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_title">ပြန်ဆွဲကြည့်နိုင်အောင် အလိုအလျောက်ပြင်ပေးသည်</string>
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_summary">မမြင်ရသည့်အရာတစ်ခုကြောင့် စက်ရှင်ကို တစ်စက္ကန့်ကျော် ဆွဲကြည့်မရလျှင် အက်ပ်က ပြန်ဆွဲကြည့်နိုင်အောင် လုပ်ပေးသည်။</string>
+
+    <!-- 2026-11-05-04-reply-text-selection -->
+    <string name="settings_whatsnew_entry_reply_text_selection_title">ပြန်စာတစ်လျှောက် စာသားရွေးပါ</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_summary">ပြန်စာရှိ စကားလုံးတစ်လုံးကို ဖိထားပါ သို့မဟုတ် နှစ်ချက်နှိပ်ပါ။ ထို့နောက် ရွေးချယ်မှုလက်ကိုင်များကို စာပိုဒ်၊ စာရင်း၊ ကုဒ်နှင့် ဇယားများတစ်လျှောက် ဆွဲပါ။</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_1">လက်ကိုင်ကို ခေါင်းစီးအောက်နား သို့မဟုတ် စာရေးကွက်အပေါ်နားတွင် ဖိထားလျှင် ပြန်စာ အလိုအလျောက်ရွေ့မည်။ အစွန်းနှင့် ပိုနီးလေ ပိုမြန်လေဖြစ်သည်။</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_2">မိတ္တူကူးလျှင် စာရင်းအမှတ်အသား၊ နံပါတ်များနှင့် ဇယားအတန်း၊ ကော်လံများ မပျက်ပါ။ ကိုးကားလျှင် ရွေးထားသည့်စာသားကို စာရေးကွက်ထဲ ထည့်ပေးပြီး ကုဒ်အကန့်များကိုလည်း ထိန်းထားပေးသည်။</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_example">ပြန်စာရှည်တစ်ခု၏ အစနားက စကားလုံးတစ်လုံးကို ဖိထားပြီး နောက်ဆုံးလက်ကိုင်ကို စာရေးကွက်အထိ ဆွဲချကာ ထိုနေရာတွင် ဖိထားပါ</string>
+
+    <!-- 2026-11-06-01-scrolling-unsticks -->
+    <string name="settings_whatsnew_entry_scrolling_unsticks_title">ဆွဲကြည့်မရခြင်းကို အလိုအလျောက်ပြင်ပေးသည်</string>
+    <string name="settings_whatsnew_entry_scrolling_unsticks_summary">ယခင်က အခြားစက်ရှင်သို့ ပြောင်းမှသာ ပြန်ဆွဲကြည့်နိုင်ခဲ့သည့် စက်ရှင်များကို ယခု အလိုအလျောက် ပြန်ဆွဲကြည့်နိုင်ပါပြီ။</string>
+
+    <!-- 2026-11-06-02-server-addresses -->
+    <string name="settings_whatsnew_entry_server_addresses_title">ပိုတည်ငြိမ်သော ဆာဗာချိတ်ဆက်မှု</string>
+    <string name="settings_whatsnew_entry_server_addresses_summary">OpenCode က ဆာဗာလိပ်စာအားလုံးကို တစ်ပြိုင်နက် ချိတ်ကြည့်ပြီး အရင်ဆုံးတုံ့ပြန်သည့် လိပ်စာကို သုံးသည်။ ထို့ကြောင့် အိမ်မှထွက်လျှင် VPN ကို ပိတ်ဖွင့်လုပ်စရာမလိုဘဲ ပြန်ချိတ်ဆက်ပေးသည်။</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_1">အိမ်ကွန်ရက်တွင် အလုပ်ဖြစ်ခဲ့သည့် လိပ်စာကို အခြားနေရာတိုင်း၌ အရင်ဆုံး ချိတ်ကြည့်ခြင်း မရှိတော့ပါ။</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_2">ခဏလိုင်းပြတ်ခြင်း၊ ဖုန်းသော့ဖွင့်ခြင်း၊ အမြန်ဆက်တင်များကို ဆွဲချခြင်းတို့ကြောင့် အကြောင်းကြားဘား ခဏပေါ်ခြင်း မရှိတော့ပါ။ စက္ကန့်အနည်းငယ်ကြာမှ ပြန်ချိတ်ဆက်နေသည် ဟု ပြပြီး ၁၂ စက္ကန့်ခန့်၊ ဖုန်းကွန်ရက်မရှိလျှင် ၄ စက္ကန့်ခန့်ကြာမှ အော့ဖ်လိုင်း ဟု ပြသည်။</string>
+    <string name="settings_whatsnew_entry_server_addresses_example">Tailscale ဖြင့် တွဲချိတ်ထားသော ဆာဗာတွင် စက်ရှင်တစ်ခု ဖွင့်ထားပြီး Wi-Fi ကို ပိတ်ကာ အလုပ်ဆက်လုပ်ကြည့်ပါ</string>
+
+    <!-- 2026-11-07-01-server-voice -->
+    <string name="settings_whatsnew_entry_server_voice_title">ဆာဗာ၏ သော့များဖြင့် ခေါ်ဆိုပါ</string>
+    <string name="settings_whatsnew_entry_server_voice_summary">ဆာဗာမှ အသံခေါ်ဆိုမှုကို ယခု အားလုံးအတွက် ဖွင့်ပေးထားပြီး အဖွင့်အပိတ်ခလုတ် မရှိတော့ပါ။ ခေါ်ဆိုမှုများတွင် OpenCode ဆာဗာ၏ သော့များကို သုံးနိုင်သဖြင့် ဤဖုန်းတွင် သီးသန့် OpenAI သော့ မလိုပါ။</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_1">အလိုအလျောက်ရွေးရန်ကို ဖွင့်ထားလျှင် ခေါ်ဆိုမှုများအတွက် လက်ရှိဆာဗာ၊ ထို့နောက် ဤဖုန်းရှိ OpenAI သော့၊ ထို့နောက် အသင့်ရှိသော အခြားသိမ်းထားသည့်ဆာဗာဟူ၍ အစဉ်လိုက် သုံးသည်။</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_2">ဤဖုန်းနှင့် ဆာဗာ နှစ်ခုလုံးတွင် OpenAI သော့ရှိလျှင် ယခု ဆာဗာ၏သော့ကို သုံးမည်။ သင့်သော့ကို ဆက်သုံးရန် အသံဝန်ဆောင်မှုပေးသူရှိ သင့် OpenAI အကောင့်ကို ဖွင့်ပြီး ခေါ်ဆိုမှုအတွက် သုံးပါ ကို နှိပ်ပါ။</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_3">Gemini သော့ရှိသည့် ဆာဗာများတွင် Gemini Live ကိုလည်း ဝန်ဆောင်မှုပေးသူအဖြစ် သုံးနိုင်ပါပြီ။</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_4">ခေါ်ဆိုမှု စမရလျှင် အကြောင်းရင်းကို ပြောပြပြီး ဖြေရှင်းနိုင်မည့် ခလုတ်ကို ပြပေးသည်။</string>
+    <string name="settings_whatsnew_entry_server_voice_example">ဆက်တင်များ › အသံ ကို ဖွင့်ပြီး အသံဝန်ဆောင်မှုပေးသူကို နှိပ်ပါ</string>
+
+    <!-- 2026-11-07-02-rename-clear-button -->
+    <string name="settings_whatsnew_entry_rename_clear_button_title">တစ်ချက်နှိပ်၍ ခေါင်းစဉ်ရှင်းပါ</string>
+    <string name="settings_whatsnew_entry_rename_clear_button_summary">စက်ရှင်အမည်ပြောင်းနှင့် ဆာဗာအမည်ပြောင်းတို့တွင် ရှင်းလင်းရန်ခလုတ် ပါလာပြီဖြစ်၍ အဟောင်းကို တစ်လုံးချင်းဖျက်စရာမလိုဘဲ ခေါင်းစဉ်အသစ် စရေးနိုင်သည်။</string>
+
+    <!-- 2026-11-07-03-one-picker -->
+    <string name="settings_whatsnew_entry_one_picker_title">မော်ဒယ်ရွေးချယ်စနစ်အသစ်</string>
+    <string name="settings_whatsnew_entry_one_picker_summary">မက်ဆေ့ဂျ်အကွက်ရှိ မော်ဒယ်ကို နှိပ်လျှင် ထိုနေရာမှ စာရင်းပွင့်လာပြီး ထိပ်တွင် အကြိုက်ဆုံးများနှင့် လတ်တလော၊ အောက်တွင် ဝန်ဆောင်မှုပေးသူအားလုံးကို ပြပေးသည်။</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_1">စာရင်းထဲမှ မထွက်ဘဲ ပြောင်းရန် မော်ဒယ်အတန်းရှိ “high” ကဲ့သို့သော စဉ်းစားမှုအဆင့်ကို နှိပ်ပါ။</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_2">အကြိုက်ဆုံးများထဲ ထည့်ရန် သို့မဟုတ် ဖယ်ရန် အတန်းကို ပွတ်ဆွဲပါ သို့မဟုတ် ဖိထားပါ။</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_3">ရှာရန်အကွက်က အောက်ခြေမှာ ရှိပါသည်။ “opus high” ကဲ့သို့ အမည်နောက်တွင် အဆင့်ကို ရိုက်ထည့်ပြီး Return နှိပ်လျှင် နှစ်ခုလုံးကို ရွေးပေးပါမည်။</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_4">စာရင်း ပိုရှည်ရှည်ကြည့်ရန် ဆွဲရွှေ့ဘားကို အပေါ်ဆွဲပါ။ ပိတ်ရန် အောက်ဆွဲပါ။</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_5">ရွေးချယ်မှုအကွက်အသစ်က မော်ဒယ်အကွက်အဟောင်းကို အစားထိုးထားပြီး ဆက်တင်များ › သမ္ဘာ ရှိ One Picker ခလုတ်ကို ဖယ်ထားပါသည်။</string>
+    <string name="settings_whatsnew_entry_one_picker_example">မက်ဆေ့ဂျ်အကွက်ရှိ မော်ဒယ်ကို နှိပ်ပြီး အကြိုက်ဆုံးအဖြစ် မှတ်ရန် အတန်းကို ပွတ်ဆွဲပါ</string>
+
+    <!-- 2026-11-08-01-connecting-caption-glass -->
+    <string name="settings_whatsnew_entry_connecting_caption_glass_title">“မှတစ်ဆင့် ချိတ်ဆက်နေသည်…” ကို ဖတ်ရလွယ်ပြီ</string>
+    <string name="settings_whatsnew_entry_connecting_caption_glass_summary">ဆာဗာမှတစ်ဆင့် ခေါ်ဆိုမှု ချိတ်ဆက်နေစဉ် “မှတစ်ဆင့် ချိတ်ဆက်နေသည်…” စာသားကို မှန်သားနောက်ခံပေါ်တွင် ပြထား၍ နောက်က မက်ဆေ့ဂျ်များနှင့် ရောမနေတော့ပါ။</string>
+
+    <!-- 2026-11-08-02-default-model -->
+    <string name="settings_whatsnew_entry_default_model_title">စက်ရှင်အသစ်များက သင့်မူရင်းမော်ဒယ်ကို သုံးမည်</string>
+    <string name="settings_whatsnew_entry_default_model_summary">စက်ရှင်အသစ်များက ယခင်စက်ရှင်၏ မော်ဒယ်အစား OpenCode တွင် မူရင်းအဖြစ် သတ်မှတ်ထားသော မော်ဒယ်ကို သုံးပြီး ထိုမော်ဒယ်အတွက် နောက်ဆုံးရွေးခဲ့သည့် စဉ်းစားမှုအဆင့်ဖြင့် စတင်ပါမည်။</string>
+
+    <!-- 2026-11-11-01-streamed-reply-prefix -->
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_title">ပြန်စာ ပို့နေဆဲမှာ ဖွင့်ဖတ်ပါ</string>
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_summary">ပြန်စာ ပို့နေဆဲမှာ စက်ရှင်ကို ဖွင့်လျှင် ဆက်ပို့နေချိန်အတွင်း ရောက်ပြီးသားစာကို ဖတ်နိုင်ပါပြီ။</string>
+
+    <!-- 2026-11-13-01-draw-on-images -->
+    <string name="settings_whatsnew_entry_draw_on_images_title">ပုံများပေါ်တွင် ဆွဲပါ</string>
+    <string name="settings_whatsnew_entry_draw_on_images_summary">မမေးခင် သိလိုသည့်နေရာကို အမှတ်အသား ပြုပါ။</string>
+    <string name="settings_whatsnew_entry_draw_on_images_detail_1">ပုံကို မျက်နှာပြင်အပြည့် ဖွင့်ပြီး ဘောပင်ခလုတ်ကို နှိပ်ပါ။ အရောင်ရွေးပြီး ဆွဲပါ။ ထို့နောက် အမှတ်အသားပြုထားသည့်ပုံကို မက်ဆေ့ဂျ်တွင် တွဲရန် ထည့်ပါ။ ကို နှိပ်ပါ။ မူရင်းပုံ မပြောင်းလဲပါ။</string>
+    <string name="settings_whatsnew_entry_draw_on_images_example">ဖန်သားပြင်ပုံထဲမှ ရွှေ့လိုသည့် ခလုတ်ကို ဝိုင်းပြပြီး ဘယ်နေရာသို့ ရွှေ့ရမည်ကို ရှင်းပြပါ။</string>
+
+    <!-- 2026-11-14-01-fullscreen-viewer -->
+    <string name="settings_whatsnew_entry_fullscreen_viewer_title">ဓာတ်ပုံနှင့် ဗီဒီယိုများကို ပွတ်ကြည့်ပါ</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_summary">စက်ရှင်ထဲမှ ပုံနှင့် ဗီဒီယိုများကို တစ်နေရာတည်းတွင် ကြည့်ပါ။</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_detail_1">ဗီဒီယိုသို့ ပွတ်ရွှေ့ပြီး လက်ရှိပြကွက်တွင် အမှတ်အသားပြုရန် ဘောပင်ခလုတ်ကို နှိပ်ပါ။ ထည့်ပါ။ ကို နှိပ်လျှင် အမှတ်အသားပြုထားသည့် ပြကွက်ကို မပို့သေးဘဲ ပူးတွဲပေးပါမည်။</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_example">သရုပ်ပြဗီဒီယိုကို ပြင်လိုသည့် မျက်နှာပြင်မှာ ခဏရပ်ပြီး ပြင်လိုသည့်နေရာကို ဝိုင်းပြကာ မူကြမ်းတွင် ထည့်ပါ။</string>
+
+    <!-- 2026-11-15-01-pairing-link-name -->
+    <string name="settings_whatsnew_entry_pairing_link_name_title">OpenCode Console မှ အမည်ပါသော ဆာဗာများ</string>
+    <string name="settings_whatsnew_entry_pairing_link_name_summary">OpenCode Console မှ တွဲချိတ်သည့် ဆာဗာတွင် “Anomaly Box” ကဲ့သို့ ၎င်း၏အမည်ပါ တစ်ပါတည်း ပါလာပါမည်။</string>
+
+    <!-- 2026-11-17-01-session-media -->
+    <string name="settings_whatsnew_entry_session_media_title">စက်ရှင် မီဒီယာ</string>
+    <string name="settings_whatsnew_entry_session_media_summary">စက်ရှင်ထဲရှိ ပုံများ၊ ဗီဒီယိုများ၊ အသံများ၊ ဖိုင်များနှင့် အများသုံး ဝဘ်လင့်ခ်များကို ကြည့်ရှုပါ။</string>
+    <string name="settings_whatsnew_entry_session_media_detail_1">စက်ရှင်၏ ⋮ မီနူးမှ စက်ရှင် မီဒီယာကို ရွေးပါ။ မီဒီယာတွင် ပုံ၊ ဗီဒီယိုနှင့် အသံများကို လအလိုက် အကွက်များ သို့မဟုတ် စာရင်းအဖြစ် ပြပါမည်။ ဖိုင်များနှင့် လင့်ခ်များတွင် စာရွက်စာတမ်း၊ ကူးထည့်ထားသည့်စာနှင့် ဝဘ်လင့်ခ်များကို စာရင်းပြပါမည်။</string>
+    <string name="settings_whatsnew_entry_session_media_example">စက်ရှင်တစ်ခုလုံးကို နောက်ပြန်လှိမ့်ကြည့်စရာမလိုဘဲ ဒီမနက် ပို့ခဲ့သည့် ဖန်သားပြင်ပုံကို ရှာပါ။</string>
+
+    <!-- 2026-11-18-02-drawer-call-phone -->
+    <string name="settings_whatsnew_entry_drawer_call_phone_title">ဘေးအကန့်ရှိ ခေါ်ဆိုမှုအတွက် ဖုန်းသင်္ကေတ</string>
+    <string name="settings_whatsnew_entry_drawer_call_phone_summary">စက်ရှင်စာရင်းရှိ ဆက်တင်များဘေးက ခေါ်ဆိုမှုခလုတ်တွင် မက်ဆေ့ဂျ်အကွက်ထဲကအတိုင်း ဖုန်းသင်္ကေတကို ပြထားပါသည်။</string>
+
+    <!-- 2026-11-19-01-background-scripts -->
+    <string name="settings_whatsnew_entry_background_scripts_title">နောက်ကွယ်လုပ်ဆောင်မှုထဲရှိ script များ</string>
+    <string name="settings_whatsnew_entry_background_scripts_summary">အေးဂျင့်က နောက်ကွယ်သို့ ရွှေ့ထားသည့် script များကို အေးဂျင့်ခွဲများ၊ shell များနှင့်အတူ ပြပါမည်။ အေးဂျင့်ခွဲ၏ ပုံ၊ ဗီဒီယို သို့မဟုတ် script များ လုပ်ဆောင်နေသေးလျှင် ထိုအေးဂျင့်ခွဲကို စာရင်းတွင် ဆက်ပြထားပါမည်။ နှစ်မျိုးလုံးကို စာရင်းမှ ရပ်နိုင်ပါသည်။</string>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">เพิ่มรายการที่แชร์ไม่ได้</string>
+    <string name="app_alert_open_session_failed_title">เปิดเซสชันไม่ได้</string>
+    <string name="app_alert_pairing_failed_title">จับคู่กับเซิร์ฟเวอร์ไม่ได้</string>
+    <string name="app_pairing_confirm">จับคู่</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">เซิร์ฟเวอร์</string>
+    <string name="app_servers_back_description">กลับไปที่ %1$s</string>
+    <string name="app_server_fallback_name">เซิร์ฟเวอร์</string>
+    <string name="app_connection_intro_new">เขียนโค้ดต่อได้จาก%1$sของคุณ</string>
+    <string name="app_connection_intro_returning">ทำต่อจากที่ค้างไว้ หรือจับคู่คอมพิวเตอร์อีกเครื่อง</string>
+    <string name="app_connection_enter_manually">ป้อนเซิร์ฟเวอร์เอง</string>
+    <string name="app_connection_scan_pairing_code">สแกนรหัสจับคู่</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">บนคอมพิวเตอร์ เปิด OpenCode แล้วไปที่การตั้งค่า → การจับคู่ หรือเรียกใช้ opencode pair --remote ในเทอร์มินัล จากนั้นสแกนรหัสด้วย%1$sเครื่องนี้</string>
+    <string name="app_setup_install_title">ยังไม่มี OpenCode ใช่ไหม?</string>
+    <string name="app_setup_other_ways_to_install">วิธีติดตั้งอื่น</string>
+    <string name="app_setup_terminal_title">หรือเรียกใช้คำสั่งนี้ในเทอร์มินัล</string>
+    <string name="app_setup_terminal_detail">ใช้ได้จากทุกเครือข่าย</string>
+    <string name="app_setup_paste_prompt">หรือคัดลอกลิงก์ที่แสดง แล้ว</string>
+    <string name="app_setup_paste">วาง</string>
+    <string name="app_setup_copy_command_description">คัดลอก %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">กำลังเชื่อมต่อ</string>
+    <string name="app_servers_edit_description">แก้ไข %1$s</string>
+    <string name="app_servers_remove_description">เอา %1$s ออก</string>
+    <string name="app_servers_remove_confirm_title">เอา %1$s ออกไหม?</string>
+    <string name="app_servers_remove_confirm_message">จะลบที่อยู่และรหัสผ่านที่บันทึกไว้บน%1$sเครื่องนี้ โดยไม่กระทบเซสชันบนเซิร์ฟเวอร์</string>
+    <string name="app_servers_remove_confirm">เอาเซิร์ฟเวอร์ออก</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">ขั้นตอน: %1$s</string>
+    <string name="app_error_server">เซิร์ฟเวอร์: %1$s</string>
+    <string name="app_error_attempt">ครั้งที่: %1$d</string>
+    <string name="app_error_copy_report">คัดลอกรายงานข้อผิดพลาด</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">เซิร์ฟเวอร์ใหม่</string>
+    <string name="app_server_form_edit_title">แก้ไขเซิร์ฟเวอร์</string>
+    <string name="app_server_form_name">ชื่อ</string>
+    <string name="app_server_form_address">URL เซิร์ฟเวอร์</string>
+    <string name="app_server_form_username">ชื่อผู้ใช้</string>
+    <string name="app_server_form_password">รหัสผ่าน (ไม่บังคับ)</string>
+    <string name="app_server_form_hide_password_description">ซ่อนรหัสผ่าน</string>
+    <string name="app_server_form_show_password_description">แสดงรหัสผ่าน</string>
+    <string name="app_server_form_connect">เชื่อมต่อ</string>
+    <string name="app_server_form_save_and_connect">บันทึกและเชื่อมต่อ</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">ส่วนหัว</string>
+    <string name="app_server_form_header_name">ชื่อ</string>
+    <string name="app_server_form_header_name_description">ชื่อส่วนหัวที่ %1$d</string>
+    <string name="app_server_form_header_value">ค่า</string>
+    <string name="app_server_form_header_value_description">ค่าส่วนหัวที่ %1$d</string>
+    <string name="app_server_form_header_remove_description">เอาส่วนหัวที่ %1$d ออก</string>
+    <string name="app_server_form_header_add">เพิ่มส่วนหัว</string>
+    <string name="app_server_form_headers_detail">ส่งไปกับทุกคำขอ สำหรับพร็อกซีที่อยู่หน้าเซิร์ฟเวอร์ เช่น Cloudflare Access</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">“%1$s” ไม่ใช่ชื่อส่วนหัวที่ถูกต้อง</string>
+    <string name="app_server_form_header_invalid_value">ค่าของ %1$s ต้องไม่มีการขึ้นบรรทัดใหม่</string>
+    <string name="app_server_form_name_placeholder">ไม่บังคับ</string>
+    <string name="app_connection_progress_pairing">กำลังจับคู่</string>
+    <string name="app_connection_progress_connecting">กำลังเชื่อมต่อ</string>
+    <string name="app_connection_progress_loading_sessions">กำลังโหลดเซสชัน</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">จับคู่กับ %1$s ไหม?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode จะลอง %1$s แล้วสลับไปยังที่อยู่แรกที่ตอบกลับ</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode จะจับคู่กับ %1$s แล้วสลับไปใช้</string>
+    <string name="app_pairing_confirm_try_two">OpenCode จะลอง %1$s และ %2$s แล้วสลับไปยังที่อยู่แรกที่ตอบกลับ</string>
+    <string name="app_pairing_confirm_try_many">OpenCode จะลอง %1$s และ %2$s แล้วสลับไปยังที่อยู่แรกที่ตอบกลับ</string>
+    <string name="app_pairing_confirm_replaces">%1$s ข้อมูลเข้าสู่ระบบที่บันทึกไว้สำหรับ %2$s อาจถูกแทนที่</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">จับคู่</string>
+    <string name="app_error_phase_connect">เชื่อมต่อ</string>
+    <string name="app_error_phase_load_sessions">โหลดเซสชัน</string>
+    <string name="app_error_candidate_detail">ตัวเลือก %1$d: %2$s</string>
+    <string name="app_error_invalid_address">ไม่พร้อมใช้งาน (ที่อยู่ไม่ถูกต้อง)</string>
+    <string name="app_error_title_pair">จับคู่ไม่ได้</string>
+    <string name="app_error_title_load_sessions">โหลดเซสชันไม่ได้</string>
+    <string name="app_error_title_connect">เชื่อมต่อกับ %1$s ไม่ได้</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">คลิปบอร์ดว่างอยู่</string>
+    <string name="app_paste_not_a_pairing_link">นี่ไม่ใช่ลิงก์จับคู่</string>
+    <string name="app_server_no_longer_saved">เซิร์ฟเวอร์นี้ไม่ได้บันทึกไว้ใน%1$sเครื่องนี้แล้ว เชื่อมต่ออีกครั้งเพื่อเปิดเซสชัน</string>
+    <string name="app_session_no_longer_available">เซสชันอาจถูกลบไปแล้ว หรือเซิร์ฟเวอร์อาจไม่พร้อมใช้งาน</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">เชื่อมต่อกับ %1$s แล้ว</string>
+    <string name="app_pairing_invalid_code">นี่ไม่ใช่รหัสจับคู่ OpenCode เรียกใช้ opencode pair --remote บนคอมพิวเตอร์ แล้วสแกนรหัส QR หรือวางลิงก์ที่แสดง</string>
+    <string name="app_pairing_unusable_address">ใช้ “%1$s” จากรหัสจับคู่นี้ไม่ได้ เนื่องจาก%2$s</string>
+    <string name="app_pairing_loopback">เซิร์ฟเวอร์นั้นรับการเชื่อมต่อผ่าน localhost เท่านั้น %1$sเครื่องนี้จึงเชื่อมต่อไม่ได้ ให้เรียกใช้ opencode pair --remote บนคอมพิวเตอร์แทน ซึ่งใช้ได้จากทุกเครือข่าย</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">เซิร์ฟเวอร์ที่คุณแชร์ไปไม่ได้บันทึกไว้ในอุปกรณ์นี้แล้ว เชื่อมต่ออีกครั้ง แล้วลองแชร์ใหม่</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">ใช้ล่าสุด</string>
+    <string name="app_server_form_hint_new">วางลิงก์ที่ได้จาก `opencode pair --remote` เพื่อจับคู่ หรือใช้ที่อยู่และรหัสผ่านของเซิร์ฟเวอร์ OpenCode โดยปกติชื่อผู้ใช้คือ opencode</string>
+    <string name="app_server_form_hint_edit_paired">การเปลี่ยนแปลงจะบันทึกเมื่อเชื่อมต่อเซิร์ฟเวอร์นี้สำเร็จ เซิร์ฟเวอร์นี้เคยจับคู่ไว้ รหัสผ่านจึงเป็นโทเค็นเซสชัน ให้สแกนรหัสจับคู่ใหม่แทนการเปลี่ยนรหัสผ่าน</string>
+    <string name="app_server_form_hint_edit">การเปลี่ยนแปลงจะบันทึกเมื่อเชื่อมต่อเซิร์ฟเวอร์นี้สำเร็จ</string>
+</resources>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Call ended and failure cards -->
+    <string name="voice_call_ended_title">Panggilan berakhir</string>
+    <string name="voice_call_ended_rejoin">Gabung lagi</string>
+    <string name="voice_failure_title">Gagal menghubungkan suara</string>
+    <string name="voice_failure_check_api_key">Periksa kunci API</string>
+    <string name="voice_failure_start_title">Gagal memulai panggilan</string>
+
+    <!-- Floating call -->
+    <string name="voice_floating_expand">Bentangkan</string>
+    <string name="voice_floating_orb_description">Panggilan suara</string>
+    <string name="voice_floating_orb_show_controls">Tampilkan kontrol panggilan</string>
+    <string name="voice_floating_end_description">Akhiri panggilan suara</string>
+    <string name="voice_floating_control_placeholder_state">Tidak tersedia di prototipe ini</string>
+    <string name="voice_floating_duration_description">Durasi panggilan</string>
+
+    <!-- Floating call stage -->
+    <string name="voice_stage_talking_in">Berbicara di</string>
+    <string name="voice_stage_minimize_description">Minimalkan</string>
+    <string name="voice_mute">Bisukan</string>
+    <string name="voice_unmute">Bunyikan</string>
+    <string name="voice_stage_pause">Jeda</string>
+    <string name="voice_stage_camera">Kamera</string>
+    <string name="voice_transcript_empty">Ucapkan sesuatu ke sesi Anda.</string>
+    <string name="voice_transcript_you">Anda</string>
+    <string name="voice_transcript_user_line_description">Anda: %1$s</string>
+
+    <!-- Call rows: screen request -->
+    <string name="voice_screen_request_detail">Suara ingin melihat layar Anda</string>
+    <string name="voice_screen_request_spoken">Perlu masukan Anda. Suara ingin melihat layar Anda</string>
+    <string name="voice_screen_request_spoken_with_reason">Perlu masukan Anda. Suara ingin melihat layar Anda. %1$s</string>
+    <string name="voice_screen_request_title">Bagikan layar?</string>
+
+    <!-- Call rows: open link -->
+    <string name="voice_open_link_spoken">Perlu masukan Anda. %1$s</string>
+    <string name="voice_open_link_spoken_with_host">Perlu masukan Anda. %1$s %2$s</string>
+    <string name="voice_open_link_open">Buka</string>
+
+    <!-- Call rows: audio on the call -->
+    <string name="voice_audio_paused">Dijeda</string>
+    <string name="voice_audio_playing">Diputar dalam panggilan</string>
+    <string name="voice_audio_play">Putar audio</string>
+    <string name="voice_audio_pause">Jeda audio</string>
+    <string name="voice_audio_stop">Hentikan audio</string>
+
+    <!-- Call history -->
+    <string name="voice_call_history_title">Riwayat panggilan</string>
+    <string name="voice_call_history_options_description">Opsi riwayat</string>
+    <string name="voice_call_history_delete_all">Hapus semua</string>
+    <string name="voice_call_history_empty_title">Belum ada panggilan suara</string>
+    <string name="voice_call_history_empty_message">Panggilan disimpan di ponsel ini agar bisa Anda putar ulang.</string>
+    <string name="voice_call_history_delete_all_confirm_title">Hapus semua panggilan suara?</string>
+
+    <!-- Call replay -->
+    <string name="voice_replay_timeline_description">Garis waktu panggilan</string>
+    <string name="voice_replay_timeline_state">%1$s dari %2$s</string>
+    <string name="voice_replay_pause">Jeda</string>
+    <string name="voice_replay_play">Putar</string>
+    <string name="voice_replay_position_description">Posisi</string>
+    <string name="voice_replay_speed_description">Kecepatan pemutaran</string>
+    <string name="voice_replay_empty">Tekan putar untuk memutar ulang panggilan.</string>
+
+    <!-- Call notification -->
+    <string name="voice_notification_channel_name">Panggilan</string>
+    <string name="voice_notification_channel_description">Panggilan OpenCode yang berlangsung</string>
+    <string name="voice_notification_connecting">Menghubungkan…</string>
+    <string name="voice_notification_reconnecting">Menghubungkan kembali…</string>
+    <string name="voice_notification_call_ended">Panggilan berakhir</string>
+    <string name="voice_notification_end">Akhiri</string>
+    <!-- Call status caption -->
+    <string name="voice_status_connecting_via">Menghubungkan melalui %1$s…</string>
+    <string name="voice_status_weak_connection">Koneksi lemah</string>
+    <string name="voice_status_paused">Dijeda</string>
+    <string name="voice_status_needs_input">Perlu masukan Anda</string>
+    <string name="voice_status_working">Bekerja</string>
+    <string name="voice_status_speaking">Berbicara</string>
+    <string name="voice_status_muted">Dibisukan</string>
+    <string name="voice_status_listening">Mendengarkan</string>
+    <string name="voice_status_ending">Mengakhiri…</string>
+    <string name="voice_status_ended">Berakhir</string>
+    <string name="voice_session_new_title">Sesi baru</string>
+    <string name="voice_call_note_builtin_fallback">Menggunakan pendelegasi bawaan untuk panggilan ini</string>
+
+    <!-- Floating call tag and spoken length -->
+    <string name="voice_floating_now_talking_in">Sekarang berbicara di %1$s</string>
+    <string name="voice_floating_spoken_duration">%1$s, %2$s</string>
+    <plurals name="voice_floating_spoken_minutes">
+        <item quantity="other">%1$d menit</item>
+    </plurals>
+    <plurals name="voice_floating_spoken_seconds">
+        <item quantity="other">%1$d detik</item>
+    </plurals>
+
+    <!-- Voice providers -->
+    <string name="voice_provider_state_ready">Siap</string>
+    <string name="voice_provider_state_no_key">Tidak ada kunci</string>
+    <string name="voice_provider_state_needs_update">Perbarui OpenCode</string>
+    <string name="voice_provider_state_offline">Luring</string>
+    <string name="voice_provider_place_phone">Ponsel ini</string>
+    <string name="voice_provider_brand_openai_account">Akun OpenAI Anda</string>
+    <string name="voice_provider_name">%1$s di %2$s</string>
+    <string name="voice_provider_subtitle">Di %1$s</string>
+    <string name="voice_provider_key_row_title">Kunci %1$s</string>
+    <string name="voice_provider_key_placeholder">Kunci API %1$s</string>
+
+    <!-- Voice key source -->
+    <string name="voice_key_source_server_row_title">Kunci di server Anda</string>
+    <string name="voice_key_source_phone_footer">Panggilan menggunakan kunci OpenAI atau xAI Anda sendiri.</string>
+    <string name="voice_key_source_server_footer">Panggilan menggunakan kunci %1$s di server Anda.</string>
+    <string name="voice_key_source_opencode_footer">Biaya panggilan dibebankan ke ruang kerja OpenCode Console Anda.</string>
+
+    <!-- Call failure fixes and diagnosis -->
+    <string name="voice_fix_set_up_on_phone">Siapkan di ponsel ini</string>
+    <string name="voice_fix_choose_provider">Pilih penyedia</string>
+    <string name="voice_fix_update_opencode">Perbarui OpenCode</string>
+    <string name="voice_diagnosis_needs_update">%1$s memerlukan OpenCode versi lebih baru untuk panggilan suara.</string>
+    <string name="voice_diagnosis_your_server_needs_update">Server Anda memerlukan OpenCode versi lebih baru untuk panggilan suara.</string>
+    <string name="voice_diagnosis_no_key">%1$s tidak memiliki kunci untuk panggilan suara.</string>
+    <string name="voice_diagnosis_your_server_no_key">Server Anda tidak memiliki kunci untuk panggilan suara.</string>
+    <string name="voice_diagnosis_unreachable">Gagal menjangkau %1$s.</string>
+    <string name="voice_diagnosis_your_server_unreachable">Gagal menjangkau server Anda.</string>
+    <string name="voice_diagnosis_failed">%1$s gagal memulai panggilan.</string>
+    <string name="voice_diagnosis_your_server_failed">Server Anda gagal memulai panggilan.</string>
+    <string name="voice_diagnosis_key_rejected">OpenAI menolak kunci di ponsel ini.</string>
+    <string name="voice_diagnosis_missing_phone_key">Tambahkan kunci API %1$s Anda untuk menelepon dari ponsel ini.</string>
+
+    <!-- Call errors -->
+    <string name="voice_error_microphone_denied">Izinkan akses mikrofon di pengaturan untuk berbicara dengan sesi Anda.</string>
+    <string name="voice_error_audio_format_unavailable">Format perangkat keras audio tidak didukung.</string>
+    <string name="voice_error_audio_engine_rejected">Gagal memulai audio panggilan. Coba lagi beberapa saat lagi.</string>
+    <string name="voice_error_server_unsupported">Server ini memerlukan OpenCode versi lebih baru untuk panggilan suara</string>
+    <string name="voice_error_invalid_server_url">Gagal memulai suara: Masukkan URL server HTTP atau HTTPS yang valid.</string>
+    <string name="voice_error_invalid_response">Gagal memulai suara: Server mengirim respons yang tidak valid.</string>
+    <string name="voice_error_start_voice_detail">Gagal memulai suara: %1$s</string>
+    <string name="voice_error_start_voice_http">Gagal memulai suara (HTTP %1$d).</string>
+    <string name="voice_error_openai_rejected_key">OpenAI menolak kunci API.</string>
+    <string name="voice_error_openai_verify_http">OpenAI gagal memverifikasi kunci ini (HTTP %1$d).</string>
+    <string name="voice_error_no_connection">Tidak ada koneksi.</string>
+    <string name="voice_error_model_address_invalid">Alamat model suara tidak valid.</string>
+    <string name="voice_error_xai_rejected_key">xAI menolak kunci API.</string>
+    <string name="voice_error_xai_verify_http">xAI gagal memverifikasi kunci ini (HTTP %1$d).</string>
+    <string name="voice_error_xai_key_disabled">Kunci API xAI ini dinonaktifkan.</string>
+    <string name="voice_error_xai_key_blocked">Kunci API xAI ini diblokir.</string>
+    <string name="voice_error_service_address_invalid">Alamat layanan suara tidak valid.</string>
+    <string name="voice_error_connection_lost">Koneksi suara terputus.</string>
+    <string name="voice_error_connection_closed">Koneksi suara ditutup.</string>
+    <string name="voice_error_connection_setup">Gagal menyiapkan koneksi suara.</string>
+    <string name="voice_error_safety_filter">Filter keamanan mengakhiri panggilan suara.</string>
+    <string name="voice_error_audio_reset">Audio diatur ulang oleh sistem. Mulai panggilan lagi.</string>
+    <string name="voice_error_missing_phone_key">Tambahkan kunci API %1$s Anda di pengaturan untuk menggunakan suara.</string>
+
+    <!-- Voice accents -->
+    <string name="voice_accent_australian_english">Inggris Australia</string>
+    <string name="voice_accent_british_english">Inggris Britania</string>
+    <string name="voice_accent_irish_english">Inggris Irlandia</string>
+    <string name="voice_accent_north_american_english">Inggris Amerika Utara</string>
+    <string name="voice_accent_brazilian_portuguese">Portugis Brasil</string>
+    <string name="voice_accent_filipino_english">Inggris Filipina</string>
+    <string name="voice_accent_southern_us_english">Inggris AS Selatan</string>
+    <string name="voice_accent_indian_english">Inggris India</string>
+    <string name="voice_preview_error">Gagal memutar pratinjau</string>
+
+    <!-- Call sound packs -->
+    <string name="voice_sound_pack_breath_ping">Denting napas</string>
+    <string name="voice_sound_pack_crystal_glass">Kaca kristal</string>
+    <string name="voice_sound_pack_warm_analog">Analog hangat</string>
+    <string name="voice_sound_pack_aurora_pulse">Denyut aurora</string>
+    <string name="voice_sound_pack_velvet_bell">Lonceng lembut</string>
+    <string name="voice_sound_pack_silent">Senyap</string>
+
+    <!-- Open link card -->
+    <string name="voice_open_link_card_title_untitled">Buka tautan?</string>
+    <string name="voice_open_link_card_title">Buka %1$s?</string>
+
+    <!-- Delegator choice -->
+    <string name="voice_delegator_session_fallback">Sesi</string>
+    <string name="voice_delegator_unavailable_gemini">Gemini Live langsung mendelegasikan ke sesi di layar. Pilih penyedia suara OpenAI untuk menggunakan sesi OpenCode.</string>
+    <string name="voice_delegator_unavailable_engine">%1$s langsung mendelegasikan ke sesi di layar. Ganti model suara ke GPT-Live untuk menggunakan sesi OpenCode.</string>
+
+    <!-- Call log list and replay -->
+    <string name="voice_call_log_duration_seconds">%1$d dtk</string>
+    <string name="voice_call_log_duration_minutes">%1$d mnt %2$d dtk</string>
+    <string name="voice_replay_to_delegator">→ Pendelegasi</string>
+    <string name="voice_replay_to_voice">→ Suara</string>
+    <string name="voice_replay_audio">Audio</string>
+    <string name="voice_replay_track_user">Anda</string>
+    <string name="voice_replay_track_voice">Suara</string>
+    <string name="voice_replay_track_delegator">Pendelegasi</string>
+    <string name="voice_replay_track_tools">Alat</string>
+</resources>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Apvalkalas</string>
+    <string name="server_notice_source_subagent">Subagentas</string>
+    <string name="server_notice_heading_finished">%1$s baigė darbą</string>
+    <string name="server_notice_heading_failed">%1$s: nepavyko</string>
+    <string name="server_notice_heading_interrupted">%1$s: pertraukta</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$d apvalkalas baigė darbą</item>
+        <item quantity="few">%1$d apvalkalai baigė darbą</item>
+        <item quantity="many">%1$d apvalkalo baigė darbą</item>
+        <item quantity="other">%1$d apvalkalų baigė darbą</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$d apvalkalo vykdymas nepavyko</item>
+        <item quantity="few">%1$d apvalkalų vykdymas nepavyko</item>
+        <item quantity="many">%1$d apvalkalo vykdymas nepavyko</item>
+        <item quantity="other">%1$d apvalkalų vykdymas nepavyko</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">Pertrauktas %1$d apvalkalas</item>
+        <item quantity="few">Pertraukti %1$d apvalkalai</item>
+        <item quantity="many">Pertraukta %1$d apvalkalo</item>
+        <item quantity="other">Pertraukta %1$d apvalkalų</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">%1$d subagentas baigė darbą</item>
+        <item quantity="few">%1$d subagentai baigė darbą</item>
+        <item quantity="many">%1$d subagento baigė darbą</item>
+        <item quantity="other">%1$d subagentų baigė darbą</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">Nepavyko %1$d subagento darbas</item>
+        <item quantity="few">Nepavyko %1$d subagentų darbas</item>
+        <item quantity="many">Nepavyko %1$d subagento darbas</item>
+        <item quantity="other">Nepavyko %1$d subagentų darbas</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">Pertrauktas %1$d subagento darbas</item>
+        <item quantity="few">Pertrauktas %1$d subagentų darbas</item>
+        <item quantity="many">Pertrauktas %1$d subagento darbas</item>
+        <item quantity="other">Pertrauktas %1$d subagentų darbas</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Glaudinti seansą</string>
+    <string name="server_run_error_action_switch_model">Keisti modelį</string>
+    <string name="server_run_error_aborted">Pertraukė</string>
+    <string name="server_run_error_permission_rejected">Pertraukta atmetus prašymą</string>
+    <string name="server_run_error_content_filter">Saugos filtras užblokavo atsakymą</string>
+    <string name="server_run_error_rate_limit">Pasiektas užklausų dažnio limitas</string>
+    <string name="server_run_error_quota">Pasiektas naudojimo limitas</string>
+    <string name="server_run_error_auth">Teikėjas atmetė API raktą</string>
+    <string name="server_run_error_context_overflow">Seansas per ilgas šiam modeliui</string>
+    <string name="server_run_error_invalid_request">Teikėjas atmetė užklausą</string>
+    <string name="server_run_error_overloaded">Modelis perkrautas</string>
+    <string name="server_run_error_internal">Teikėjo pusėje įvyko klaida</string>
+    <string name="server_run_error_transport">Nutrūko ryšys su modeliu</string>
+    <string name="server_run_error_timeout">Modelis per ilgai neatsakė</string>
+    <string name="server_run_error_invalid_output">Nepavyko perskaityti modelio atsakymo</string>
+    <string name="server_run_error_unavailable">Šis modelis nepasiekiamas</string>
+    <string name="server_run_error_unsupported_operation">Šis modelis to negali atlikti</string>
+    <string name="server_run_error_tool_execution">Įrankio klaida sustabdė vykdymą</string>
+    <string name="server_run_error_other">Vykdymas sustojo dėl klaidos</string>
+    <string name="server_run_retry_in_seconds">%1$s · bus bandoma dar kartą po %2$d s</string>
+    <string name="server_run_retry_now">%1$s · bandoma dar kartą</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">Nepavyko pasiekti OpenCode serverio</string>
+    <string name="server_error_folder_gone">Aplanko nebėra</string>
+    <string name="server_error_uploads_unsupported">Šis serveris nepalaiko failų priedų. Atnaujinkite OpenCode kompiuteryje.</string>
+    <string name="server_error_archiving_unsupported">Šis serveris nepalaiko archyvavimo. Atnaujinkite OpenCode savo kompiuteryje.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode neleidžiama pasiekti vietinio tinklo įrenginių. Nustatymuose suteikite OpenCode leidimą pasiekti netoliese esančius įrenginius ir bandykite dar kartą.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Seansas be pavadinimo</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Apvalkalas</string>
+    <string name="server_tool_shell_killed">Apvalkalas priverstinai sustabdytas</string>
+    <string name="server_tool_shell_exit_code">Komanda baigta su kodu %1$d</string>
+    <string name="server_notice_session_update">Seanso atnaujinimas</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Nepavyko prisijungti</string>
+    <string name="server_connection_resolved_address_unknown">Nustatytas adresas: nežinomas</string>
+    <string name="server_connection_resolved_address">Nustatytas adresas (paieška po nesėkmės): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">Šį tailnet pavadinimą atitinkantis adresas nepatenka į Tailscale diapazoną, tad Tailscale DNS gali būti nenaudojamas. Tailscale programoje įjunkite Tailscale DNS nustatymų naudojimą ir išjunkite privatų DNS arba bet kurį DNS keičiantį VPN profilį.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Vietinis tinklas</string>
+    <string name="server_connection_route_loopback">Grįžtamasis ryšys</string>
+    <string name="server_connection_route_internet">Internetas</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">nėra žiniatinklio adresas</string>
+    <string name="server_pairing_origin_bad_scheme">neprasideda http:// arba https://</string>
+    <string name="server_pairing_origin_no_host">neturi serverio pavadinimo</string>
+    <string name="server_pairing_origin_credentials">apima naudotojo vardą arba slaptažodį</string>
+    <string name="server_pairing_origin_query">turi užklausą arba fragmentą</string>
+    <string name="server_pairing_origin_port">turi prievadą už 1–65535 ribų</string>
+    <string name="server_pairing_origin_path">turi kelią, o serveris turi būti adreso šaknyje</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Serveris</string>
+    <string name="server_friendly_name_numbered">Serveris %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">Ryšys nutrūko išsiuntus pranešimą, tad jis galėjo būti gautas.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Ši integracija neturi prisijungimo būdo.</string>
+    <string name="server_error_sign_in_url_invalid">Prisijungimo puslapio adresas netinkamas.</string>
+    <string name="server_error_load_server_details">Nepavyko įkelti serverio informacijos</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">Šis susiejimo kodas nebegalioja arba jau panaudotas. Dar kartą paleiskite `opencode pair --remote`.</string>
+    <string name="server_error_pairing_unsupported">Šis serveris nepalaiko susiejimo nuorodų. Atnaujinkite OpenCode kompiuteryje arba įveskite serverį rankiniu būdu.</string>
+    <string name="server_error_notification_previews_need_https">Šifruotoms pranešimų peržiūroms reikia HTTPS ryšio su serveriu.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Įveskite tinkamą serverio HTTP arba HTTPS URL.</string>
+    <string name="server_error_credentials_rejected">Serveris atmetė šiuos prisijungimo duomenis.</string>
+    <string name="server_error_http_status">Serveris grąžino HTTP %1$d.</string>
+    <string name="server_error_event_stream_http">Įvykių srautas grąžino HTTP %1$d.</string>
+    <string name="server_error_event_stream_oversized_frame">Įvykių srautas atsiuntė per didelį kadrą.</string>
+    <string name="server_error_event_stream_ended">Įvykių srautas baigėsi.</string>
+    <string name="server_error_event_stream_server_failure">Įvykių srautas pranešė apie serverio triktį.</string>
+    <string name="server_tool_failed">Įrankio vykdymas nepavyko</string>
+    <string name="server_error_list_folder">Serveriui nepavyko gauti šio aplanko turinio</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Nepavyko įkelti projektų ir seansų</string>
+    <string name="server_error_load_session_family">Nepavyko įkelti susijusių seansų</string>
+    <string name="server_error_update_session">Nepavyko atnaujinti seanso</string>
+    <string name="server_error_load_session_ancestry">Nepavyko įkelti aktyvaus seanso pirminių seansų</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Jau atsakyta kitur</string>
+    <string name="server_request_already_dismissed">Jau atmesta</string>
+    <string name="server_request_already_answered">Jau atsakyta</string>
+    <string name="server_request_already_dismissed_elsewhere">Jau atmesta kitur</string>
+    <string name="server_request_no_longer_waiting">Atsakymo nebelaukiama</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Medija nepasiekiama</string>
+    <string name="server_pasted_text_title">Įklijuotas tekstas</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d eilutė · %2$s</item>
+        <item quantity="few">%1$d eilutės · %2$s</item>
+        <item quantity="many">%1$d eilutės · %2$s</item>
+        <item quantity="other">%1$d eilučių · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d eilutė</item>
+        <item quantity="few">%1$d eilutės</item>
+        <item quantity="many">%1$d eilutės</item>
+        <item quantity="other">%1$d eilučių</item>
+    </plurals>
+    <string name="server_file_size_zero">0 KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d baitas</item>
+        <item quantity="few">%1$d baitai</item>
+        <item quantity="many">%1$d baito</item>
+        <item quantity="other">%1$d baitų</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">Projektas</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Failas</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Užbaikite šį žingsnį</string>
+    <string name="server_form_required">Privaloma</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">Įveskite bent %1$d simbolį</item>
+        <item quantity="few">Įveskite bent %1$d simbolius</item>
+        <item quantity="many">Įveskite bent %1$d simbolio</item>
+        <item quantity="other">Įveskite bent %1$d simbolių</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">Įveskite ne daugiau kaip %1$d simbolį</item>
+        <item quantity="few">Įveskite ne daugiau kaip %1$d simbolius</item>
+        <item quantity="many">Įveskite ne daugiau kaip %1$d simbolio</item>
+        <item quantity="other">Įveskite ne daugiau kaip %1$d simbolių</item>
+    </plurals>
+    <string name="server_form_invalid_format">Netinkamas formatas</string>
+    <string name="server_form_choose_option">Pasirinkite galimą parinktį</string>
+    <string name="server_form_invalid_email">Įveskite tinkamą el. pašto adresą</string>
+    <string name="server_form_invalid_url">Įveskite tinkamą URL</string>
+    <string name="server_form_invalid_date">Įveskite datą formatu YYYY-MM-DD</string>
+    <string name="server_form_invalid_date_time">Įveskite tinkamą datą ir laiką</string>
+    <string name="server_form_minimum">Turi būti bent %1$s</string>
+    <string name="server_form_maximum">Turi būti ne daugiau kaip %1$s</string>
+    <string name="server_form_whole_number">Įveskite sveikąjį skaičių</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">Pasirinkite bent %1$d</item>
+        <item quantity="few">Pasirinkite bent %1$d</item>
+        <item quantity="many">Pasirinkite bent %1$d</item>
+        <item quantity="other">Pasirinkite bent %1$d</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">Pasirinkite ne daugiau kaip %1$d</item>
+        <item quantity="few">Pasirinkite ne daugiau kaip %1$d</item>
+        <item quantity="many">Pasirinkite ne daugiau kaip %1$d</item>
+        <item quantity="other">Pasirinkite ne daugiau kaip %1$d</item>
+    </plurals>
+    <string name="server_form_invalid_value">Netinkama reikšmė</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Slėpti pasirinktus</string>
+    <string name="server_model_visibility_only_show">Rodyti tik pasirinktus</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Išjungta</string>
+    <string name="server_model_variant_extra_high">Ypač aukštas</string>
+    <string name="server_model_variant_max">Maksimalus</string>
+    <string name="server_delivery_steering">Nukreipimas</string>
+    <string name="server_delivery_queued">Eilėje</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <!-- Session › Export: the written file, offered to the share sheet (SessionExportClient). -->
+        <provider
+            android:name="ai.opencode.feature.session.SessionExportFileProvider"
+            android:authorities="${applicationId}.sessionexport"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/session_export_paths" />
+        </provider>
+    </application>
+
+</manifest>

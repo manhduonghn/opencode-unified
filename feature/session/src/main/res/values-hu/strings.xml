@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent activity glyph -->
+    <string name="session_activity_running_description">Fut</string>
+    <!-- Background work panel -->
+    <string name="session_background_work_show_label">Futó alügynökök, szkriptek és shellek megjelenítése</string>
+    <string name="session_background_work_collapsed_description">Összecsukva</string>
+    <string name="session_background_work_subagents_title">Alügynökök</string>
+    <string name="session_background_work_open_subagent_label">Az alügynök munkamenetének megnyitása</string>
+    <string name="session_background_work_shells_title">Shellek</string>
+    <string name="session_background_work_show_shell_label">A shell kimenetének megjelenítése</string>
+    <!-- The session's images and videos, paged in the full-screen viewer -->
+    <string name="session_visual_attached_image">Csatolt kép</string>
+    <string name="session_visual_tool_image">Eszköz képe</string>
+    <string name="session_visual_image">Kép</string>
+    <!-- One image of several: the image's label, then its place, as “Attached image 2 of 3” -->
+    <string name="session_visual_image_page_label">%1$s: %2$d., összesen %3$d</string>
+    <!-- A diagram's label, read by TalkBack. %1$s is its kind, as “Diagram, Flowchart” -->
+    <string name="session_visual_diagram_label">Diagram, %1$s</string>
+    <!-- Jump to latest -->
+    <string name="session_scroll_to_latest_description">Ugrás a legújabbra</string>
+    <!-- Dictation bar -->
+    <string name="session_dictation_finishing_description">Diktálás befejezése</string>
+    <string name="session_dictation_stop_recording_description">Felvétel leállítása</string>
+    <string name="session_dictation_stop_recording_hint">Diktált szöveg beillesztése az üzenetbe</string>
+    <string name="session_sending_message_description">Üzenet küldése</string>
+    <string name="session_delivery_steer_label">Irányítás a következő lépésnél</string>
+    <string name="session_delivery_queue_label">Sorba állítás a válasz után</string>
+    <string name="session_delivery_steer">Irányítás</string>
+    <string name="session_delivery_queue">Sorba állítás</string>
+    <!-- Draft project picker -->
+    <string name="session_draft_project_choose_label">Válassza ki, hol induljon a munkamenet</string>
+    <string name="session_project_choose_folder">Válasszon mappát…</string>
+    <string name="session_project_all_projects">Minden projekt</string>
+    <string name="session_project_selected_description">Kijelölve</string>
+    <string name="session_project_picker_title">Projekt</string>
+    <!-- Folder browser -->
+    <string name="session_folder_select_description">Válasszon mappát</string>
+    <string name="session_folder_path_description">Elérési út</string>
+    <string name="session_folder_title">Mappa</string>
+    <string name="session_folder_select">Kijelölés</string>
+    <string name="session_folder_open_failed_title">Nem sikerült megnyitni a mappát</string>
+    <string name="session_folder_empty_title">Nincsenek mappák</string>
+    <string name="session_folder_search_empty_title">Nincs találat a következőre: „%1$s”</string>
+    <string name="session_folder_search_empty_message">Ellenőrizze a helyesírást, vagy keressen másra.</string>
+    <!-- Server connection pill -->
+    <string name="session_server_edit">Szerver szerkesztése…</string>
+    <!-- Starter prompts -->
+    <string name="session_starter_prompts_title">Kérdezze például</string>
+    <string name="session_starter_prompt_pick_label">Beillesztés az üzenetbe</string>
+    <!-- Session sheet -->
+    <string name="session_sheet_rename_failed">Nem sikerült átnevezni</string>
+    <string name="session_sheet_status_description">Állapot</string>
+    <string name="session_rename_title">Munkamenet átnevezése</string>
+    <string name="session_untitled_title">Munkamenet</string>
+    <string name="session_pin">Rögzítés</string>
+    <string name="session_pinned">Rögzített</string>
+    <string name="session_unread">Olvasatlan</string>
+    <string name="session_mute">Némítás</string>
+    <string name="session_muted">Némított</string>
+    <string name="session_compact">Kompakt</string>
+    <string name="session_fork">Elágazás</string>
+    <string name="session_toggle_on_description">Bekapcsolva</string>
+    <string name="session_toggle_off_description">Kikapcsolva</string>
+    <string name="session_export">Exportálás</string>
+    <string name="session_export_markdown">Markdown</string>
+    <string name="session_export_json">JSON</string>
+    <string name="session_sheet_model">Modell</string>
+    <string name="session_sheet_context">Kontextus</string>
+    <string name="session_sheet_unknown_description">ismeretlen</string>
+    <string name="session_sheet_context_tokens">%1$s token</string>
+    <string name="session_sheet_cost">Költség</string>
+    <string name="session_sheet_media">Média</string>
+    <string name="session_sheet_media_value">Fájlok és linkek</string>
+    <string name="session_always_notify">Mindig értesítsen</string>
+    <string name="session_always_notify_message_phone">Értesítés ezen a telefonon minden elkészült válaszról, akkor is, ha az üzenetet nem innen küldte.</string>
+    <string name="session_always_notify_message_tablet">Értesítés ezen a táblagépen minden elkészült válaszról, akkor is, ha az üzenetet nem innen küldte.</string>
+    <string name="session_delete_session">Delete munkamenet</string>
+    <string name="session_rename_placeholder">Cím</string>
+    <string name="session_auto_rename">Automatikus átnevezés</string>
+    <string name="session_delete_confirm_title">Törli ezt: „%1$s”?</string>
+    <string name="session_delete_confirm_message">Ez minden kliens számára eltávolítja a munkamenetet a kiszolgálóról.</string>
+    <!-- Transcript -->
+    <string name="session_move_to_background">Háttérbe helyezés</string>
+    <string name="session_move_to_background_hint">A futó munka folytatása a háttérben, hogy az ügynök elolvashassa a következő üzenetét</string>
+    <!-- Attachments -->
+    <string name="session_attachment_add_image_failed_title">Nem sikerült hozzáadni a képet</string>
+    <string name="session_attachment_upload">Feltöltés</string>
+    <string name="session_attachment_remove_image_description">%1$d. képmelléklet eltávolítása</string>
+    <string name="session_attachment_remove_description">%1$s eltávolítása</string>
+    <string name="session_attachment_file_description">Fájlmelléklet: %1$s</string>
+    <string name="session_attachment_cancel_upload_description">%1$s feltöltésének megszakítása</string>
+    <string name="session_attachment_open_photo_label">Fotó megnyitása teljes képernyőn</string>
+    <string name="session_attachment_image_description">%1$d. képmelléklet</string>
+    <string name="session_attachment_video_description">%1$d. videómelléklet</string>
+    <!-- Composer controls -->
+    <string name="session_answer_own_description">Saját válasz</string>
+    <string name="session_answer_own_type_label">Írja be vagy diktálja le saját válaszát</string>
+    <string name="session_answer_own_clear_label">Saját válasz félretétele</string>
+    <string name="session_answer_own_choose_label">Válasz saját szavakkal</string>
+    <string name="session_answer_decline_with_words_label">Mondja meg az ügynöknek, mit tegyen helyette</string>
+    <string name="session_answer_required_description">Válasszon egy választ, vagy írjon sajátot</string>
+    <string name="session_dictate_message_description">Üzenet diktálása</string>
+    <string name="session_dictate_message_hint">Diktáljon az üzenetbe, vagy tartsa nyomva a felvételhez és küldéshez</string>
+    <string name="session_send_waiting_for_uploads_description">Küldés a feltöltések befejezése után</string>
+    <string name="session_steer_message_description">Irányítás az üzenettel</string>
+    <string name="session_stopping_description">Leállítás</string>
+    <string name="session_start_voice_call">Hanghívás indítása</string>
+    <string name="session_dictation_stop_description">Diktálás leállítása</string>
+    <!-- Composer -->
+    <string name="session_requests_load_failed_title">Nem sikerült betölteni a kéréseket</string>
+    <plurals name="session_queued_count">
+        <item quantity="one">%1$d sorban</item>
+        <item quantity="other">%1$d sorban</item>
+    </plurals>
+    <string name="session_queued_show_label">A válasz befejezésére váró üzenetek megjelenítése</string>
+    <plurals name="session_queued_messages_description">
+        <item quantity="one">%1$d sorban álló üzenet</item>
+        <item quantity="other">%1$d sorban álló üzenet</item>
+    </plurals>
+    <string name="session_dictation_preparing">Diktálás előkészítése…</string>
+    <string name="session_message_placeholder">Üzenet</string>
+    <!-- Session header -->
+    <string name="session_back_to_main_description">Vissza a fő munkamenethez</string>
+    <string name="session_header_open_from_catch_up_label">Munkamenet megnyitása és az áttekintés bezárása</string>
+    <string name="session_header_show_details_label">Munkamenet részleteinek megjelenítése</string>
+    <string name="session_header_idle_description">Tétlen</string>
+    <string name="session_header_syncing_description">Szinkronizálás</string>
+    <string name="session_header_last_known_description">Legutóbbi ismert</string>
+    <string name="session_menu_more_description">Továbbiak</string>
+    <string name="session_unpin">Rögzítés feloldása</string>
+    <string name="session_copy_session_id">Munkamenet-azonosító másolása</string>
+    <string name="session_mark_as_read">Megjelölés olvasottként</string>
+    <string name="session_mark_as_unread">Megjelölés olvasatlanként</string>
+    <string name="session_unmute">Némítás feloldása</string>
+    <string name="session_menu_export_expanded_description">Kibontva</string>
+    <string name="session_menu_export_collapsed_description">Összecsukva</string>
+    <string name="session_info">Munkamenet adatai</string>
+    <!-- Session screen -->
+    <string name="session_load_failed_title">Nem sikerült betölteni a munkamenetet</string>
+    <string name="session_location_share_failed_title">Nem sikerült megosztani a helyszínt</string>
+    <!-- Shell output -->
+    <string name="session_shell_stop_confirm_title">Leállítja ezt a shellt?</string>
+    <string name="session_shell_stop_confirm_message">A parancs most leáll. Az itt látható kimenet a bezárásig megmarad.</string>
+    <string name="session_shell_stop">Shell leállítása</string>
+    <string name="session_shell_copy_output">Kimenet másolása</string>
+    <string name="session_shell_share_output">Kimenet megosztása</string>
+    <string name="session_shell_earlier_output_hidden">Korábbi kimenet elrejtve</string>
+    <string name="session_shell_showing_last_output">Az utolsó 4 MB látható</string>
+    <string name="session_shell_load_earlier">Korábbiak betöltése</string>
+    <string name="session_shell_output_unavailable_title">A kimenet nem érhető el</string>
+    <string name="session_shell_output_unavailable_message">A kiszolgálón már nincs meg ennek a shellnek a kimenete.</string>
+    <string name="session_shell_no_output_yet_title">Még nincs kimenet</string>
+    <string name="session_shell_no_output_title">Nincs kimenet</string>
+    <string name="session_shell_no_output_yet_message">A parancs kimenete itt jelenik meg, amint elkészül.</string>
+    <string name="session_shell_status_stopping">Leállítás…</string>
+    <string name="session_shell_status_unavailable">Nem érhető el</string>
+    <string name="session_shell_status_interrupted">Megszakított</string>
+    <string name="session_shell_status_timed_out">Időtúllépés</string>
+    <string name="session_shell_status_exited_with_code">Kilépett, kód: %1$d</string>
+    <string name="session_shell_status_exited">Kilépett</string>
+    <plurals name="session_shell_elapsed_hours">
+        <item quantity="one">%1$d óra</item>
+        <item quantity="other">%1$d óra</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_minutes">
+        <item quantity="one">%1$d perc</item>
+        <item quantity="other">%1$d perc</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_seconds">
+        <item quantity="one">%1$d másodperc</item>
+        <item quantity="other">%1$d másodperc</item>
+    </plurals>
+
+    <!-- Agent activity (glyph labels and titles) -->
+    <string name="session_activity_idle">Tétlen</string>
+    <string name="session_activity_starting_up">Indulás</string>
+    <string name="session_activity_thinking">Gondolkodás</string>
+    <string name="session_activity_long_work">Hosszas munka</string>
+    <string name="session_activity_tool_burst">Gyors eszközhívások</string>
+    <string name="session_activity_streaming_output">Kimenet továbbítása</string>
+    <string name="session_activity_waiting_for_input">Várakozás a bevitelre</string>
+    <string name="session_activity_handing_off">Feladat átadása</string>
+    <string name="session_activity_done">Kész</string>
+    <string name="session_activity_failed">Sikertelen</string>
+    <string name="session_working_stopping">Leállítás…</string>
+    <string name="session_status_working">Dolgozik</string>
+    <string name="session_status_needs_input">Beavatkozás szükséges</string>
+    <string name="session_status_done">Kész</string>
+
+    <!-- Lists: joins two or three phrases -->
+    <string name="session_list_two">%1$s, %2$s</string>
+    <string name="session_list_three">%1$s, %2$s, %3$s</string>
+
+    <!-- Background work panel -->
+    <plurals name="session_background_work_subagent_count">
+        <item quantity="one">%1$d alügynök</item>
+        <item quantity="other">%1$d alügynök</item>
+    </plurals>
+    <plurals name="session_background_work_shell_count">
+        <item quantity="one">%1$d shell</item>
+        <item quantity="other">%1$d shell</item>
+    </plurals>
+    <plurals name="session_background_work_script_count">
+        <item quantity="one">%1$d szkript</item>
+        <item quantity="other">%1$d szkript</item>
+    </plurals>
+    <string name="session_background_work_summary">%1$s · %2$s</string>
+    <string name="session_background_work_scripts_title">Szkriptek</string>
+    <string name="session_background_work_stop_script_label">Szkript leállítása</string>
+    <string name="session_background_work_stop_subagent_label">Alügynök leállítása</string>
+    <string name="session_background_work_stop_script_failed">Nem sikerült leállítani a szkriptet</string>
+    <string name="session_background_work_stop_subagent_failed">Nem sikerült leállítani az alügynököt</string>
+
+    <!-- Composer buttons -->
+    <string name="session_send_message_description">Üzenet küldése</string>
+    <string name="session_stop_description">Leállítás</string>
+    <string name="session_start_voice_call_description">Hanghívás indítása</string>
+    <string name="session_model_level_default">Alapértelmezett</string>
+
+    <!-- In-app notice -->
+    <plurals name="session_notice_session_count">
+        <item quantity="one">%1$d munkamenet</item>
+        <item quantity="other">%1$d munkamenet</item>
+    </plurals>
+    <plurals name="session_notice_needs_input_count">
+        <item quantity="one">%1$d esetben beavatkozás szükséges</item>
+        <item quantity="other">%1$d esetben beavatkozás szükséges</item>
+    </plurals>
+    <string name="session_notice_announcement">%1$s, %2$s</string>
+
+    <!-- Server connection pill -->
+    <string name="session_server_reconnecting">Újracsatlakozás: %1$s…</string>
+    <string name="session_server_connect_failed">Nem sikerült csatlakozni: %1$s</string>
+    <string name="session_server_sign_in_failed">Nem sikerült bejelentkezni: %1$s</string>
+    <string name="session_server_pair_again">Újrapárosítás</string>
+    <string name="session_server_try_again_click_label">próbálja újra</string>
+    <string name="session_server_pair_again_click_label">újrapárosítás</string>
+
+    <!-- Export -->
+    <string name="session_export_folder_failed">Nem sikerült létrehozni az exportálási mappát</string>
+    <string name="session_export_save_failed">Az export megtakarítása nem sikerült</string>
+
+    <!-- Session errors -->
+    <string name="session_agent_fallback_name">Ügynök</string>
+    <string name="session_something_went_wrong">Valami elromlott</string>
+    <string name="session_something_went_wrong_sentence">Valami elromlott.</string>
+    <string name="session_load_earlier_failed">Nem sikerült betölteni a korábbi üzeneteket</string>
+    <string name="session_move_to_background_failed">Nem sikerült a háttérbe helyezni: %1$s</string>
+    <string name="session_move_failed_reason">Nem sikerült áthelyezni a munkamenetet</string>
+    <string name="session_delivery_waiting_to_send">Küldésre vár</string>
+    <string name="session_create_failed">Nem sikerült létrehozni a munkamenetet.</string>
+    <string name="session_switch_agent_failed">Nem sikerült ügynököt váltani: %1$s</string>
+    <string name="session_switch_model_failed">Nem sikerült modellt váltani: %1$s</string>
+    <string name="session_pending_send_now_failed_details">Nem sikerült most elküldeni a várakozó üzenetet: %1$s</string>
+    <string name="session_pending_cancel_failed_details">Nem sikerült visszavonni a várakozó üzenetet: %1$s</string>
+    <string name="session_pending_queue_failed_details">Nem sikerült sorba állítani a várakozó üzenetet: %1$s</string>
+    <string name="session_stopped_before_sent">Küldés előtt megszakadt</string>
+    <string name="session_stop_failed">Nem sikerült leállítani a munkamenetet</string>
+    <string name="session_undo_message_failed">Nem sikerült visszavonni az üzenetet: %1$s</string>
+    <string name="session_revert_failed">Nem sikerült visszaállítani</string>
+    <string name="session_revert_failed_details">Nem sikerült visszaállítani: %1$s</string>
+
+    <!-- Session sheet errors -->
+    <string name="session_sheet_rename_failed_title">Nem sikerült átnevezni a munkamenetet</string>
+    <string name="session_sheet_compact_failed_title">Nem sikerült tömöríteni a munkamenetet</string>
+    <string name="session_sheet_fork_failed_title">Nem sikerült elágaztatni a munkamenetet</string>
+    <string name="session_sheet_save_export_failed">Nem sikerült az export megtakarítása</string>
+    <string name="session_sheet_export_failed_title">Nem sikerült exportálni a munkamenetet</string>
+    <string name="session_sheet_notifications_off_message">Előbb kapcsolja be az értesítéseket a beállításokban.</string>
+    <string name="session_sheet_always_notify_on_failed_title">Nem sikerült bekapcsolni a „Mindig értesítsen” beállítást</string>
+    <string name="session_sheet_always_notify_off_failed_title">Nem sikerült kikapcsolni a „Mindig értesítsen” beállítást</string>
+
+    <!-- Attachments -->
+    <string name="session_attachment_files_unsupported">A kiszolgáló nem támogatja a fájlokat</string>
+    <string name="session_attachment_upload_failed">Nem sikerült feltölteni</string>
+    <string name="session_attachment_file_fallback_name">Fájl</string>
+    <string name="session_attachment_image_too_large">Válasszon 20 MB-nál kisebb képet.</string>
+    <string name="session_attachment_image_load_failed">Nem sikerült betölteni ezt a képet. Próbáljon másik fotót.</string>
+    <string name="session_attachment_file_add_failed">Nem sikerült hozzáadni ezt a fájlt. Próbáljon másik fájlt.</string>
+    <plurals name="session_attachment_files_add_failed">
+        <item quantity="one">%1$d fájlt nem sikerült hozzáadni.</item>
+        <item quantity="other">%1$d fájlt nem sikerült hozzáadni.</item>
+    </plurals>
+    <string name="session_large_upload_title">Feltölti ezt: %1$s?</string>
+    <string name="session_large_upload_message_one">A(z) „%1$s” nagy fájl. Az üzenet a kiszolgálóra való feltöltés után lesz elküldve.</string>
+    <plurals name="session_large_upload_message_many">
+        <item quantity="one">%1$d fájl nagy méretű. Az üzenet a kiszolgálóra való feltöltés után lesz elküldve.</item>
+        <item quantity="other">%1$d fájl nagy méretű. Az üzenet a kiszolgálóra való feltöltés után lesz elküldve.</item>
+    </plurals>
+
+    <!-- Header and screens -->
+    <string name="session_new_session_title">Új munkamenet</string>
+    <string name="session_pasted_text_screen_title">Beillesztett szöveg</string>
+    <string name="session_pasted_text_viewer_screen_title">Beillesztett szöveg megjelenítője</string>
+    <string name="session_context_summary">%2$s %1$d%%-a</string>
+    <string name="session_context_accessibility_value">%2$s token %1$d%%-a használatban</string>
+
+    <!-- Starter prompts (shown, then sent as the person’s message) -->
+    <string name="session_starter_project_purpose">Mire való ez a projekt?</string>
+    <string name="session_starter_code_tour">Mutasd be röviden a kódot</string>
+    <string name="session_starter_recent_changes">Mi változott itt mostanában?</string>
+
+    <!-- Shell output -->
+    <string name="session_shell_refresh_failed">Nem sikerült frissíteni a kimenetet</string>
+    <string name="session_shell_load_earlier_failed">Nem sikerült betölteni a korábbi kimenetet</string>
+    <string name="session_shell_stop_failed">Nem sikerült leállítani a shellt</string>
+    <string name="session_quote_remove_description">Idézet eltávolítása</string>
+    <string name="session_quote_comment_placeholder">Megjegyzés hozzáadása (nem kötelező)…</string>
+    <string name="session_media_title">Munkamenet médiatartalmai</string>
+    <string name="session_media_filter_media">Média</string>
+    <string name="session_media_filter_files">Fájlok</string>
+    <string name="session_media_filter_links">Linkek</string>
+    <string name="session_media_layout_description">Média elrendezése</string>
+    <string name="session_media_layout_tiles">Csempék</string>
+    <string name="session_media_layout_list">Lista</string>
+    <string name="session_media_origin_user">Ön küldte</string>
+    <string name="session_media_origin_agent">Az ügynök osztotta meg</string>
+    <string name="session_media_open_click_label">Megnyitás</string>
+    <string name="session_media_open_link_click_label">Link megnyitása</string>
+    <string name="session_media_empty_media_title">Nincs média</string>
+    <string name="session_media_empty_media_message">Az ebben a munkamenetben megosztott képek, videók és hangok itt jelennek meg.</string>
+    <string name="session_media_empty_files_title">Nincsenek fájlok</string>
+    <string name="session_media_empty_files_message">Az ebből a munkamenetből származó dokumentumok és beillesztett szövegek itt jelennek meg.</string>
+    <string name="session_media_empty_links_title">Nincsenek linkek</string>
+    <string name="session_media_empty_links_message">A munkamenetben megosztott webes linkek itt jelennek meg.</string>
+    <string name="session_media_earlier_note">A korábbi üzenetek még nincsenek betöltve.</string>
+    <string name="session_media_load_earlier">Korábbi üzenetek betöltése</string>
+    <string name="session_media_loading_earlier">Betöltés…</string>
+    <string name="session_media_earlier_failed">Nem sikerült betölteni a korábbi üzeneteket. Ellenőrizze a kapcsolatot, és próbálja újra.</string>
+    <string name="session_media_earlier_nothing_new">Az imént betöltött üzenetek között nincs semmi új. A korábbiakban lehet még több.</string>
+</resources>

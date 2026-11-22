@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">Pilt</string>
+    <string name="media_image_load_failed">Pildi laadimine ebaõnnestus</string>
+    <string name="media_unavailable">Meedia pole saadaval</string>
+    <string name="media_try_again_label">Proovi uuesti</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">Meediavaatur</string>
+    <string name="media_viewer_save_to_photos_description">Salvesta fotodesse</string>
+    <string name="media_file_viewer_screen_title">Failivaatur</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d / %3$d</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">Joonista pildile</string>
+    <string name="media_drawing_undo_description">Võta tagasi</string>
+    <string name="media_drawing_add_to_prompt_description">Lisa viipa</string>
+    <string name="media_drawing_canvas_description">Joonistuslõuend</string>
+    <string name="media_drawing_discard_title">Kas loobuda joonistusest?</string>
+    <string name="media_drawing_discard_confirm">Loobu joonistusest</string>
+    <string name="media_drawing_keep">Jätka joonistamist</string>
+    <string name="media_drawing_add_failed_title">Joonistuse lisamine ebaõnnestus</string>
+    <string name="media_drawing_flatten_failed">Pildi loomine ebaõnnestus. Proovi uuesti.</string>
+    <string name="media_drawing_prompt_unavailable">Selle seansi sõnumile ei saa praegu manuseid lisada.</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">Valge</string>
+    <string name="media_drawing_ink_black">Must</string>
+    <string name="media_drawing_ink_red">Punane</string>
+    <string name="media_drawing_ink_yellow">Kollane</string>
+    <string name="media_drawing_ink_green">Roheline</string>
+    <string name="media_drawing_ink_blue">Sinine</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">Suurendatud</string>
+    <string name="media_zoom_out_label">Vähenda</string>
+    <string name="media_zoom_in_label">Suurenda</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">Peata</string>
+    <string name="media_player_play">Esita</string>
+    <string name="media_player_position_description">Taasesituse asukoht</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">Video esitamine ebaõnnestus</string>
+    <string name="media_video_position_description">Video asukoht</string>
+    <string name="media_video_capture_failed_title">Kaadri jäädvustamine ebaõnnestus</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">Näita eelvaadet</string>
+    <string name="media_file_show_source_description">Näita lähtekoodi</string>
+    <string name="media_file_unwrap_lines_description">Ära murra ridu</string>
+    <string name="media_file_wrap_lines_description">Murra ridu</string>
+    <string name="media_file_start_pip_description">Käivita pilt-pildis-režiim</string>
+    <string name="media_file_opening">Avamine…</string>
+    <string name="media_file_share_failed_title">Faili jagamine ebaõnnestus</string>
+    <string name="media_file_share_downloading_description">Allalaadimine jagamiseks</string>
+    <string name="media_file_confirm_large_message">Faili suurus on %1$s. Kas laadida see alla, et seda selles seadmes vaadata?</string>
+    <string name="media_file_download">Laadi alla</string>
+    <string name="media_file_open_in_another_app">Ava teises rakenduses</string>
+    <string name="media_file_no_app_message">Ükski selle seadme rakendus ei saa seda faili avada. Salvesta või saada see mujale jagamise kaudu.</string>
+    <string name="media_file_pdf_page_description">Lehekülg %1$d / %2$d</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">Faili ei leitud</string>
+    <string name="media_file_error_open_failed_title">Faili avamine ebaõnnestus</string>
+    <string name="media_file_error_unreadable">Serverist ei saa sellelt teelt andmeid lugeda.</string>
+    <string name="media_file_error_not_found">See võib olla teisaldatud või kustutatud.</string>
+    <string name="media_file_error_unauthorized">Server ei aktsepteerinud selle seadme parooli.</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">Server ei saanud seda lugeda (HTTP %1$d). See võib olla kaust.</string>
+    <string name="media_file_error_timed_out">Päringu ajalimiit sai täis.</string>
+    <string name="media_file_error_unexpected_response">Server saatis ootamatu vastuse.</string>
+    <string name="media_file_error_over_limit">Fail ületab allalaadimise mahupiirangu.</string>
+    <string name="media_file_error_size_unknown">Server ei teatanud manuse suurust.</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">Allalaadimine…</string>
+    <string name="media_file_downloading_size">Allalaadimine: %1$s</string>
+    <string name="media_file_downloading_progress">Allalaadimine: %1$s / %2$s</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">0 KB</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="one">%1$d bait</item>
+        <item quantity="other">%1$d baiti</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s KB</string>
+    <string name="media_file_size_megabytes">%1$s MB</string>
+    <string name="media_file_size_gigabytes">%1$s GB</string>
+    <string name="media_file_size_terabytes">%1$s TB</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">Ei leitud</string>
+    <string name="media_image_load_label">Laadi pilt</string>
+    <string name="media_image_loading_state">Laadimine</string>
+    <string name="media_image_open_label">Ava pilt</string>
+    <string name="media_image_tap_to_load">Laadimiseks puuduta</string>
+    <string name="media_image_outside_project_value">Väljaspool projekti</string>
+    <string name="media_image_deferred_low_data_value">Andmesäästurežiimi tõttu edasi lükatud</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">Ava %1$s</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">Tagasi seanssi</string>
+    <string name="media_browser_ask_description">Küsi selle lehe kohta</string>
+    <string name="media_browser_forward_description">Edasi</string>
+    <string name="media_browser_open_in_browser_description">Ava brauseris</string>
+    <string name="media_browser_scroll_to_top_label">Keri lehe algusesse</string>
+    <string name="media_browser_ask_placeholder">Küsi selle lehe kohta</string>
+    <string name="media_browser_reply_needs_input">Vajab sinu sisendit</string>
+    <string name="media_browser_reply_working">Töötab</string>
+    <string name="media_browser_go_back_to_session_label">Tagasi seanssi</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">Vastus valmis</string>
+    <string name="media_browser_reply_back_to_read">· Tagasi lugema</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">Seanss</string>
+    <string name="media_link_open_in_app_browser">Ava rakendusesiseses brauseris</string>
+    <string name="media_link_open_in_browser">Ava brauseris</string>
+    <string name="media_link_open_in_app">Ava rakenduses</string>
+    <string name="media_link_copy">Kopeeri link</string>
+    <string name="media_link_share">Jaga…</string>
+    <string name="media_link_open_session">Ava seanss</string>
+    <string name="media_link_copy_session_id">Kopeeri ID</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">Kopeeri ID: %1$s</string>
+    <string name="media_link_open_session_named_description">Ava seanss %1$s</string>
+    <string name="media_link_open_host_in_app_browser_description">Ava %1$s rakendusesiseses brauseris</string>
+    <string name="media_link_open_host_in_browser_description">Ava %1$s brauseris</string>
+    <string name="media_link_open_host_in_app_description">Ava %1$s rakenduses</string>
+    <string name="media_link_copy_host_description">Kopeeri link: %1$s</string>
+    <string name="media_link_share_host_description">Jaga linki: %1$s</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%1$s saidil %2$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s link %2$d</string>
+    <string name="media_link_more_links_description">Veel linke</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">Video</string>
+    <string name="media_link_preview_post">Postitus</string>
+    <string name="media_link_preview_post_unavailable">Postitus pole saadaval</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">Hoidla</string>
+    <string name="media_github_kind_issue">Probleem</string>
+    <string name="media_github_kind_pull_request">Mestimistaotlus</string>
+    <string name="media_github_kind_commit">Sissekanne</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">Avatud</string>
+    <string name="media_github_state_closed">Suletud</string>
+    <string name="media_github_state_merged">Mestitud</string>
+    <string name="media_github_state_draft">Mustand</string>
+    <string name="media_github_state_completed">Valmis</string>
+    <string name="media_github_state_not_planned">Pole plaanis</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">Diagramm, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">Diagrammivaatur</string>
+    <string name="media_mermaid_diagram_description">Diagramm</string>
+    <string name="media_mermaid_loading_state">%1$s, laadimine</string>
+    <string name="media_mermaid_view_source">Näita lähtekoodi</string>
+    <string name="media_mermaid_source_title">Diagrammi lähtekood</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">Vooskeem</string>
+    <string name="media_mermaid_type_sequence">Järgnevusdiagramm</string>
+    <string name="media_mermaid_type_class">Klassidiagramm</string>
+    <string name="media_mermaid_type_state">Olekudiagramm</string>
+    <string name="media_mermaid_type_entity_relationship">Olemiseoste diagramm</string>
+    <string name="media_mermaid_type_user_journey">Kasutajateekond</string>
+    <string name="media_mermaid_type_gantt">Gantti diagramm</string>
+    <string name="media_mermaid_type_pie">Sektordiagramm</string>
+    <string name="media_mermaid_type_quadrant">Kvadrantdiagramm</string>
+    <string name="media_mermaid_type_requirement">Nõuete diagramm</string>
+    <string name="media_mermaid_type_git_graph">Git-graaf</string>
+    <string name="media_mermaid_type_c4">C4 diagramm</string>
+    <string name="media_mermaid_type_mind_map">Mõttekaart</string>
+    <string name="media_mermaid_type_timeline">Ajaskaala</string>
+    <string name="media_mermaid_type_sankey">Sankey diagramm</string>
+    <string name="media_mermaid_type_xy_chart">XY-diagramm</string>
+    <string name="media_mermaid_type_block">Plokkskeem</string>
+    <string name="media_mermaid_type_packet">Paketidiagramm</string>
+    <string name="media_mermaid_type_kanban">Kanbani tahvel</string>
+    <string name="media_mermaid_type_architecture">Arhitektuuriskeem</string>
+    <string name="media_mermaid_type_radar">Radardiagramm</string>
+    <string name="media_mermaid_type_treemap">Puukaart</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

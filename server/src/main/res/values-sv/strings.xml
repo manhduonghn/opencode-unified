@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Skal</string>
+    <string name="server_notice_source_subagent">Underagent</string>
+    <string name="server_notice_heading_finished">%1$s avslutades</string>
+    <string name="server_notice_heading_failed">%1$s misslyckades</string>
+    <string name="server_notice_heading_interrupted">%1$s avbröts</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$d skal avslutades</item>
+        <item quantity="other">%1$d skal avslutades</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$d skal misslyckades</item>
+        <item quantity="other">%1$d skal misslyckades</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">%1$d skal avbröts</item>
+        <item quantity="other">%1$d skal avbröts</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">%1$d underagent avslutades</item>
+        <item quantity="other">%1$d underagenter avslutades</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">%1$d underagent misslyckades</item>
+        <item quantity="other">%1$d underagenter misslyckades</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">%1$d underagent avbröts</item>
+        <item quantity="other">%1$d underagenter avbröts</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Kompakt</string>
+    <string name="server_run_error_action_switch_model">Byt modell</string>
+    <string name="server_run_error_aborted">Avbruten</string>
+    <string name="server_run_error_permission_rejected">Avbruten efter en nekad begäran</string>
+    <string name="server_run_error_content_filter">Säkerhetsfiltret blockerade svaret</string>
+    <string name="server_run_error_rate_limit">Gränsen för antal anrop nådd</string>
+    <string name="server_run_error_quota">Användningsgränsen nådd</string>
+    <string name="server_run_error_auth">Leverantören nekade API-nyckeln</string>
+    <string name="server_run_error_context_overflow">Sessionen är för lång för den här modellen</string>
+    <string name="server_run_error_invalid_request">Leverantören nekade begäran</string>
+    <string name="server_run_error_overloaded">Modellen är överbelastad</string>
+    <string name="server_run_error_internal">Ett problem uppstod hos leverantören</string>
+    <string name="server_run_error_transport">Anslutningen till modellen bröts</string>
+    <string name="server_run_error_timeout">Modellen tog för lång tid på sig att svara</string>
+    <string name="server_run_error_invalid_output">Modellens svar kunde inte läsas</string>
+    <string name="server_run_error_unavailable">Modellen är inte tillgänglig</string>
+    <string name="server_run_error_unsupported_operation">Modellen kan inte göra det</string>
+    <string name="server_run_error_tool_execution">Ett verktyg misslyckades och körningen stoppades</string>
+    <string name="server_run_error_other">Körningen stoppades med ett fel</string>
+    <string name="server_run_retry_in_seconds">%1$s · försöker igen om %2$d s</string>
+    <string name="server_run_retry_now">%1$s · försöker igen</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">Kunde inte nå OpenCode-servern</string>
+    <string name="server_error_folder_gone">Mappen finns inte längre</string>
+    <string name="server_error_uploads_unsupported">Servern stöder inte filbilagor. Uppdatera OpenCode på datorn.</string>
+    <string name="server_error_archiving_unsupported">Servern stöder inte arkivering. Uppdatera OpenCode på din dator.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode får inte nå enheter i ditt lokala nätverk. Aktivera Enheter i närheten för OpenCode i Inställningar och försök igen.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Namnlös session</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Skal</string>
+    <string name="server_tool_shell_killed">Skalet tvångsavslutades</string>
+    <string name="server_tool_shell_exit_code">Kommandot avslutades med kod %1$d</string>
+    <string name="server_notice_session_update">Sessionsuppdatering</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Anslutningen misslyckades</string>
+    <string name="server_connection_resolved_address_unknown">Uppslagen adress: okänd</string>
+    <string name="server_connection_resolved_address">Uppslagen adress (uppslagning efter felet): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">Det här tailnet-namnet gav en adress utanför Tailscales adressintervall, så Tailscale DNS kanske inte används. Aktivera Använd Tailscales DNS-inställningar i Tailscale-appen och stäng av Privat DNS eller VPN-profiler som ändrar DNS.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Lokalt nätverk</string>
+    <string name="server_connection_route_loopback">Loopback</string>
+    <string name="server_connection_route_internet">Internet</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">är inte en webbadress</string>
+    <string name="server_pairing_origin_bad_scheme">börjar inte med http:// eller https://</string>
+    <string name="server_pairing_origin_no_host">saknar värdnamn</string>
+    <string name="server_pairing_origin_credentials">innehåller ett användarnamn eller lösenord</string>
+    <string name="server_pairing_origin_query">innehåller en frågesträng eller ett fragment</string>
+    <string name="server_pairing_origin_port">har en port utanför intervallet 1–65535</string>
+    <string name="server_pairing_origin_path">innehåller en sökväg, men servern måste finnas på adressens rotnivå</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Server</string>
+    <string name="server_friendly_name_numbered">Server %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">Anslutningen bröts efter att meddelandet skickades, så det kan ha kommit fram.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Integrationen saknar inloggningsmetod.</string>
+    <string name="server_error_sign_in_url_invalid">Adressen till inloggningssidan är ogiltig.</string>
+    <string name="server_error_load_server_details">Kunde inte ladda serverdetaljer</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">Parkopplingskoden har gått ut eller har redan använts. Kör `opencode pair --remote` igen.</string>
+    <string name="server_error_pairing_unsupported">Servern stöder inte parkopplingslänkar. Uppdatera OpenCode på datorn eller ange servern manuellt.</string>
+    <string name="server_error_notification_previews_need_https">Krypterade aviseringsförhandsvisningar kräver en HTTPS-anslutning till servern.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Ange en giltig server-URL med HTTP eller HTTPS.</string>
+    <string name="server_error_credentials_rejected">Servern avvisade inloggningsuppgifterna.</string>
+    <string name="server_error_http_status">Servern returnerade HTTP %1$d.</string>
+    <string name="server_error_event_stream_http">Händelseströmmen returnerade HTTP %1$d.</string>
+    <string name="server_error_event_stream_oversized_frame">Händelseströmmen skickade en för stor ram.</string>
+    <string name="server_error_event_stream_ended">Händelseströmmen avslutades.</string>
+    <string name="server_error_event_stream_server_failure">Händelseströmmen rapporterade ett serverfel.</string>
+    <string name="server_tool_failed">Verktyget misslyckades</string>
+    <string name="server_error_list_folder">Servern kunde inte lista mappens innehåll</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Kunde inte ladda projekt och sessioner</string>
+    <string name="server_error_load_session_family">Kunde inte ladda sessionsfamiljen</string>
+    <string name="server_error_update_session">Kunde inte uppdatera sessionen</string>
+    <string name="server_error_load_session_ancestry">Kunde inte ladda den aktiva sessionens överordnade sessioner</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Redan besvarad på annat håll</string>
+    <string name="server_request_already_dismissed">Redan avfärdad</string>
+    <string name="server_request_already_answered">Redan besvarad</string>
+    <string name="server_request_already_dismissed_elsewhere">Redan avfärdad på annat håll</string>
+    <string name="server_request_no_longer_waiting">Väntar inte längre</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Media är inte tillgängliga</string>
+    <string name="server_pasted_text_title">Inklistrad text</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d rad · %2$s</item>
+        <item quantity="other">%1$d rader · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d rad</item>
+        <item quantity="other">%1$d rader</item>
+    </plurals>
+    <string name="server_file_size_zero">0 KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d byte</item>
+        <item quantity="other">%1$d byte</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">Projekt</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Fil</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Slutför det här steget</string>
+    <string name="server_form_required">Obligatoriskt</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">Ange minst %1$d tecken</item>
+        <item quantity="other">Ange minst %1$d tecken</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">Ange högst %1$d tecken</item>
+        <item quantity="other">Ange högst %1$d tecken</item>
+    </plurals>
+    <string name="server_form_invalid_format">Ogiltigt format</string>
+    <string name="server_form_choose_option">Välj ett tillgängligt alternativ</string>
+    <string name="server_form_invalid_email">Ange en giltig e-postadress</string>
+    <string name="server_form_invalid_url">Ange en giltig URL</string>
+    <string name="server_form_invalid_date">Ange ett datum som YYYY-MM-DD</string>
+    <string name="server_form_invalid_date_time">Ange giltigt datum och klockslag</string>
+    <string name="server_form_minimum">Måste vara minst %1$s</string>
+    <string name="server_form_maximum">Får vara högst %1$s</string>
+    <string name="server_form_whole_number">Ange ett heltal</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">Välj minst %1$d</item>
+        <item quantity="other">Välj minst %1$d</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">Välj högst %1$d</item>
+        <item quantity="other">Välj högst %1$d</item>
+    </plurals>
+    <string name="server_form_invalid_value">Ogiltigt värde</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Göm valda</string>
+    <string name="server_model_visibility_only_show">Visa endast valda</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Av</string>
+    <string name="server_model_variant_extra_high">Extra hög</string>
+    <string name="server_model_variant_max">Max</string>
+    <string name="server_delivery_steering">Styrning</string>
+    <string name="server_delivery_queued">I kö</string>
+</resources>

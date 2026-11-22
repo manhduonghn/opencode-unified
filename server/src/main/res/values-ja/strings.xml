@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">シェル</string>
+    <string name="server_notice_source_subagent">サブエージェント</string>
+    <string name="server_notice_heading_finished">%1$sが完了</string>
+    <string name="server_notice_heading_failed">%1$sが失敗</string>
+    <string name="server_notice_heading_interrupted">%1$sが中断</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="other">シェル%1$d件が完了</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="other">シェル%1$d件が失敗</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="other">シェル%1$d件が中断</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="other">サブエージェント%1$d件が完了</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="other">サブエージェント%1$d件が失敗</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="other">サブエージェント%1$d件が中断</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">コンパクト</string>
+    <string name="server_run_error_action_switch_model">モデルを切り替え</string>
+    <string name="server_run_error_aborted">中断</string>
+    <string name="server_run_error_permission_rejected">リクエストの拒否により中断</string>
+    <string name="server_run_error_content_filter">安全フィルターが応答をブロックしました</string>
+    <string name="server_run_error_rate_limit">レート制限に達しました</string>
+    <string name="server_run_error_quota">使用制限に達しました</string>
+    <string name="server_run_error_auth">プロバイダーがAPIキーを拒否しました</string>
+    <string name="server_run_error_context_overflow">このモデルにはセッションが長すぎます</string>
+    <string name="server_run_error_invalid_request">プロバイダーがリクエストを拒否しました</string>
+    <string name="server_run_error_overloaded">モデルが混み合っています</string>
+    <string name="server_run_error_internal">プロバイダーで問題が発生しました</string>
+    <string name="server_run_error_transport">モデルとの接続が切れました</string>
+    <string name="server_run_error_timeout">モデルの応答がタイムアウトしました</string>
+    <string name="server_run_error_invalid_output">モデルの応答を読み取れませんでした</string>
+    <string name="server_run_error_unavailable">このモデルは利用できません</string>
+    <string name="server_run_error_unsupported_operation">このモデルはこの操作に対応していません</string>
+    <string name="server_run_error_tool_execution">ツールの失敗により実行が停止しました</string>
+    <string name="server_run_error_other">エラーにより実行が停止しました</string>
+    <string name="server_run_retry_in_seconds">%1$s · %2$d秒後に再試行</string>
+    <string name="server_run_retry_now">%1$s · 再試行中</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">OpenCodeサーバーに接続できませんでした</string>
+    <string name="server_error_folder_gone">フォルダが見つかりません</string>
+    <string name="server_error_uploads_unsupported">このサーバーはファイルの添付に対応していません。パソコンのOpenCodeを更新してください。</string>
+    <string name="server_error_archiving_unsupported">このサーバーはアーカイブに対応していません。コンピューターのOpenCodeを更新してください。</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCodeにはローカルネットワーク上のデバイスへの接続が許可されていません。設定でOpenCodeの「付近のデバイス」を許可してから、もう一度試してください。</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">無題のセッション</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">シェル</string>
+    <string name="server_tool_shell_killed">シェルが強制終了されました</string>
+    <string name="server_tool_shell_exit_code">コマンドが終了コード%1$dで終了しました</string>
+    <string name="server_notice_session_update">セッションの更新</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">接続に失敗しました</string>
+    <string name="server_connection_resolved_address_unknown">名前解決後のアドレス: 不明</string>
+    <string name="server_connection_resolved_address">名前解決後のアドレス（接続失敗後に取得）: %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">このtailnet名はTailscaleの範囲外のアドレスに解決されたため、Tailscale DNSが使われていない可能性があります。Tailscaleアプリで「Tailscale DNS設定を使用」をオンにし、プライベートDNSやDNSを変更するVPNプロファイルをオフにしてください。</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">ローカルネットワーク</string>
+    <string name="server_connection_route_loopback">ループバック</string>
+    <string name="server_connection_route_internet">インターネット</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">ウェブアドレスではありません</string>
+    <string name="server_pairing_origin_bad_scheme">http:// または https:// で始まっていません</string>
+    <string name="server_pairing_origin_no_host">ホスト名がありません</string>
+    <string name="server_pairing_origin_credentials">ユーザー名またはパスワードが含まれています</string>
+    <string name="server_pairing_origin_query">クエリまたはフラグメントが含まれています</string>
+    <string name="server_pairing_origin_port">ポート番号が1–65535の範囲外です</string>
+    <string name="server_pairing_origin_path">パスが含まれています。サーバーはアドレスのルートにある必要があります</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">サーバー</string>
+    <string name="server_friendly_name_numbered">サーバー %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">メッセージの送信後に接続が切れたため、届いている可能性があります。</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">この連携にはログイン方法がありません。</string>
+    <string name="server_error_sign_in_url_invalid">ログインページのアドレスが無効です。</string>
+    <string name="server_error_load_server_details">サーバーの詳細を読み込めませんでした</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">このペアリングコードは期限切れか、使用済みです。`opencode pair --remote`をもう一度実行してください。</string>
+    <string name="server_error_pairing_unsupported">このサーバーはペアリングリンクに対応していません。パソコンのOpenCodeを更新するか、サーバーを手動で入力してください。</string>
+    <string name="server_error_notification_previews_need_https">暗号化された通知プレビューには、サーバーへのHTTPS接続が必要です。</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">有効なHTTPまたはHTTPSのサーバーURLを入力してください。</string>
+    <string name="server_error_credentials_rejected">サーバーがこの認証情報を拒否しました。</string>
+    <string name="server_error_http_status">サーバーがHTTP %1$dを返しました。</string>
+    <string name="server_error_event_stream_http">イベントストリームがHTTP %1$dを返しました。</string>
+    <string name="server_error_event_stream_oversized_frame">イベントストリームが大きすぎるフレームを送信しました。</string>
+    <string name="server_error_event_stream_ended">イベントストリームが終了しました。</string>
+    <string name="server_error_event_stream_server_failure">イベントストリームがサーバーの障害を報告しました。</string>
+    <string name="server_tool_failed">ツールが失敗しました</string>
+    <string name="server_error_list_folder">サーバーがこのフォルダの内容を取得できませんでした</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">プロジェクトとセッションを読み込めませんでした</string>
+    <string name="server_error_load_session_family">セッションの親子関係を読み込めませんでした</string>
+    <string name="server_error_update_session">セッションを更新できませんでした</string>
+    <string name="server_error_load_session_ancestry">アクティブなセッションの上位セッションを読み込めませんでした</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">別の場所で回答済み</string>
+    <string name="server_request_already_dismissed">スキップ済み</string>
+    <string name="server_request_already_answered">回答済み</string>
+    <string name="server_request_already_dismissed_elsewhere">別の場所でスキップ済み</string>
+    <string name="server_request_no_longer_waiting">回答待ちは終了しました</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">メディアを利用できません</string>
+    <string name="server_pasted_text_title">貼り付けたテキスト</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="other">%1$d行 · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="other">%1$d行</item>
+    </plurals>
+    <string name="server_file_size_zero">0 KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="other">%1$dバイト</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">プロジェクト</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">ファイル</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">このステップを完了してください</string>
+    <string name="server_form_required">必須</string>
+    <plurals name="server_form_min_length">
+        <item quantity="other">%1$d文字以上で入力してください</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="other">%1$d文字以内で入力してください</item>
+    </plurals>
+    <string name="server_form_invalid_format">無効な形式です</string>
+    <string name="server_form_choose_option">選択肢から選んでください</string>
+    <string name="server_form_invalid_email">有効なメールアドレスを入力してください</string>
+    <string name="server_form_invalid_url">有効なURLを入力してください</string>
+    <string name="server_form_invalid_date">YYYY-MM-DD形式で日付を入力してください</string>
+    <string name="server_form_invalid_date_time">有効な日時を入力してください</string>
+    <string name="server_form_minimum">%1$s以上にしてください</string>
+    <string name="server_form_maximum">%1$s以下にしてください</string>
+    <string name="server_form_whole_number">整数を入力してください</string>
+    <plurals name="server_form_min_items">
+        <item quantity="other">%1$d個以上選んでください</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="other">%1$d個以内で選んでください</item>
+    </plurals>
+    <string name="server_form_invalid_value">無効な値です</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">選択したモデルを非表示</string>
+    <string name="server_model_visibility_only_show">選択したモデルのみ表示</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">オフ</string>
+    <string name="server_model_variant_extra_high">非常に高い</string>
+    <string name="server_model_variant_max">最大</string>
+    <string name="server_delivery_steering">方向修正</string>
+    <string name="server_delivery_queued">待機中</string>
+</resources>

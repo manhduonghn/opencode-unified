@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Paylaşılan öğeler eklenemedi</string>
+    <string name="app_alert_open_session_failed_title">Oturum açılamadı</string>
+    <string name="app_alert_pairing_failed_title">Sunucuyla eşleştirilemedi</string>
+    <string name="app_pairing_confirm">Eşleştir</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Sunucular</string>
+    <string name="app_servers_back_description">%1$s ekranına dön</string>
+    <string name="app_server_fallback_name">sunucu</string>
+    <string name="app_connection_intro_new">%1$s ile kodlama oturumlarınıza devam edin.</string>
+    <string name="app_connection_intro_returning">Kaldığınız yerden devam edin veya başka bir bilgisayar eşleştirin.</string>
+    <string name="app_connection_enter_manually">Elle sunucu ekle</string>
+    <string name="app_connection_scan_pairing_code">Eşleştirme kodunu tara</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Bilgisayarınızda OpenCode uygulamasını açıp Ayarlar → Eşleştirme bölümüne gidin veya terminalde opencode pair --remote komutunu çalıştırın. Ardından bu %1$s ile kodu tarayın.</string>
+    <string name="app_setup_install_title">Henüz OpenCode yok mu?</string>
+    <string name="app_setup_other_ways_to_install">Diğer kurulum yolları</string>
+    <string name="app_setup_terminal_title">Veya terminalde bunu çalıştırın</string>
+    <string name="app_setup_terminal_detail">Her ağdan çalışır.</string>
+    <string name="app_setup_paste_prompt">Veya çıkan bağlantıyı kopyalayın, ardından</string>
+    <string name="app_setup_paste">Yapıştır</string>
+    <string name="app_setup_copy_command_description">%1$s komutunu kopyala</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Bağlanılıyor</string>
+    <string name="app_servers_edit_description">%1$s sunucusunu düzenle</string>
+    <string name="app_servers_remove_description">%1$s sunucusunu kaldır</string>
+    <string name="app_servers_remove_confirm_title">%1$s kaldırılsın mı?</string>
+    <string name="app_servers_remove_confirm_message">Bu %1$s üzerinde kayıtlı adres ve parola silinir. Sunucudaki oturumlar etkilenmez.</string>
+    <string name="app_servers_remove_confirm">Sunucuyu kaldır</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Aşama: %1$s</string>
+    <string name="app_error_server">Sunucu: %1$s</string>
+    <string name="app_error_attempt">Deneme: %1$d</string>
+    <string name="app_error_copy_report">Hata raporunu kopyala</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Yeni sunucu</string>
+    <string name="app_server_form_edit_title">Sunucuyu düzenle</string>
+    <string name="app_server_form_name">Ad</string>
+    <string name="app_server_form_address">Sunucu URL\'si</string>
+    <string name="app_server_form_username">Kullanıcı adı</string>
+    <string name="app_server_form_password">Parola (isteğe bağlı)</string>
+    <string name="app_server_form_hide_password_description">Parolayı gizle</string>
+    <string name="app_server_form_show_password_description">Parolayı göster</string>
+    <string name="app_server_form_connect">Bağlan</string>
+    <string name="app_server_form_save_and_connect">Kaydet ve bağlan</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Başlıklar</string>
+    <string name="app_server_form_header_name">Ad</string>
+    <string name="app_server_form_header_name_description">%1$d. başlığın adı</string>
+    <string name="app_server_form_header_value">Değer</string>
+    <string name="app_server_form_header_value_description">%1$d. başlığın değeri</string>
+    <string name="app_server_form_header_remove_description">%1$d. başlığı kaldır</string>
+    <string name="app_server_form_header_add">Başlık ekle</string>
+    <string name="app_server_form_headers_detail">Cloudflare Access gibi sunucunun önündeki bir proxy için her istekte gönderilir.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">“%1$s” geçerli bir başlık adı değil</string>
+    <string name="app_server_form_header_invalid_value">%1$s değeri satır sonu içeremez</string>
+    <string name="app_server_form_name_placeholder">İsteğe bağlı</string>
+    <string name="app_connection_progress_pairing">Eşleştiriliyor</string>
+    <string name="app_connection_progress_connecting">Bağlanılıyor</string>
+    <string name="app_connection_progress_loading_sessions">Oturumlar yükleniyor</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">%1$s ile eşleştirilsin mi?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode, %1$s adresini deneyecek ve ilk yanıt veren adrese geçecek.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode, %1$s ile eşleştirilecek ve ona geçecek.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode, %1$s ve %2$s adreslerini deneyecek ve ilk yanıt verene geçecek.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode, %1$s ve %2$s adreslerini deneyecek ve ilk yanıt verene geçecek.</string>
+    <string name="app_pairing_confirm_replaces">%1$s %2$s için kayıtlı kimlik bilgileri değiştirilebilir.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Eşleştirme</string>
+    <string name="app_error_phase_connect">Bağlan</string>
+    <string name="app_error_phase_load_sessions">Oturumları yükle</string>
+    <string name="app_error_candidate_detail">Aday %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Mevcut değil (geçersiz adres)</string>
+    <string name="app_error_title_pair">Eşleştirilemedi</string>
+    <string name="app_error_title_load_sessions">Oturumlar yüklenemedi</string>
+    <string name="app_error_title_connect">%1$s ile bağlantı kurulamadı</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Panonuz boş</string>
+    <string name="app_paste_not_a_pairing_link">Bu bir eşleştirme bağlantısı değil</string>
+    <string name="app_server_no_longer_saved">Bu sunucu artık bu %1$s üzerinde kayıtlı değil. Oturumu açmak için sunucuya yeniden bağlanın.</string>
+    <string name="app_session_no_longer_available">Silinmiş olabilir veya sunucuya erişilemiyor olabilir.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">%1$s ile bağlantı kuruldu</string>
+    <string name="app_pairing_invalid_code">Bu bir OpenCode eşleştirme kodu değil. Bilgisayarınızda opencode pair --remote komutunu çalıştırın, ardından QR kodunu tarayın veya çıkan bağlantıyı yapıştırın.</string>
+    <string name="app_pairing_unusable_address">Bu eşleştirme kodundaki “%1$s” kullanılamadı: %2$s.</string>
+    <string name="app_pairing_loopback">Bu sunucu yalnızca localhost üzerinden bağlantı kabul ediyor, bu yüzden bu %1$s sunucuya erişemiyor. Bunun yerine bilgisayarınızda her ağdan bağlantı sağlayan opencode pair --remote komutunu çalıştırın.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Paylaşım yaptığınız sunucu artık bu cihazda kayıtlı değil. Sunucuya yeniden bağlanıp tekrar paylaşın.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">son kullanılan</string>
+    <string name="app_server_form_hint_new">Eşleştirmek için `opencode pair --remote` komutunun verdiği bağlantıyı yapıştırın veya OpenCode sunucunuzun adresini ve parolasını kullanın. Kullanıcı adı genellikle opencode olur.</string>
+    <string name="app_server_form_hint_edit_paired">Değişiklikler bu sunucuya bağlanınca kaydedilir. Bu sunucu eşleştirildiği için parolası bir oturum belirtecidir; değiştirmek yerine yeni bir eşleştirme kodu tarayın.</string>
+    <string name="app_server_form_hint_edit">Değişiklikler bu sunucuya bağlanınca kaydedilir.</string>
+</resources>

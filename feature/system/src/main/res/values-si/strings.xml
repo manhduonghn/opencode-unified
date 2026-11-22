@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_new_session">නව සැසිය</string>
+    <string name="system_start_call">ඇමතුමක් අරඹන්න</string>
+    <string name="system_open_session">සැසිය විවෘත කරන්න</string>
+    <string name="widget_start_call_description">ඔබ තෝරන හෝ අවසන් වරට බැලූ සැසියේ හඬ ඇමතුමක් අරඹයි.</string>
+    <string name="widget_open_session_description">ඔබ තෝරන සැසියක් විවෘත කරයි.</string>
+    <string name="widget_new_session_description">නව OpenCode සැසියක් විවෘත කරයි.</string>
+
+    <!-- Shared across screens -->
+    <string name="system_selected_description">තෝරා ඇත</string>
+    <string name="system_last_viewed_session">අවසන් වරට බැලූ සැසිය</string>
+
+    <!-- Quick actions (launcher shortcuts) -->
+    <string name="system_quick_action_session_fallback">සැසිය</string>
+    <!-- Long label: the session's title, then its project. -->
+    <string name="system_quick_action_long_label">%1$s · %2$s</string>
+
+    <!-- Shortcuts and Ask OpenCode -->
+    <string name="system_session_type_name">සැසිය</string>
+    <string name="system_project_type_name">ව්යාපෘතිය</string>
+    <string name="system_intent_open_session_description">OpenCode තුළ සැසියක් විවෘත කරයි.</string>
+    <string name="system_intent_new_session_description">OpenCode තුළ නව සැසියක් අරඹයි.</string>
+    <string name="system_intent_start_voice_call_title">හඬ ඇමතුමක් අරඹන්න</string>
+    <string name="system_intent_start_voice_call_description">සැසියක OpenCode සමඟ හඬ ඇමතුමක් අරඹයි. සැසියක් තෝරා නැත්නම්, අවසන් වරට බැලූ සැසියේ ඇමතුම අරඹයි.</string>
+    <string name="system_intent_background_call_title">පසුබිමේ හඬ ඇමතුමක් අරඹන්න</string>
+    <string name="system_intent_background_call_description">යෙදුම විවෘත නොකර OpenCode සමඟ හඬ ඇමතුමක් අරඹයි. ඇමතුම තත්ත්ව තීරුවේ සහ අගුළු තිරයේ පෙන්වයි.</string>
+    <string name="system_delivery_type_name">යවන ආකාරය</string>
+    <string name="system_delivery_steer">මඟ පෙන්වන්න</string>
+    <string name="system_delivery_queue">පෝලිම්ගත කරන්න</string>
+    <string name="system_ask_title">OpenCode වෙතින් අසන්න</string>
+    <string name="system_ask_description">යෙදුම විවෘත නොකර OpenCode සැසියකට පණිවිඩයක් යවයි.</string>
+    <string name="system_ask_message_title">පණිවිඩය</string>
+    <string name="system_ask_message_placeholder">OpenCode කුමක් කළ යුතුද?</string>
+    <string name="system_ask_session_title">සැසිය</string>
+    <string name="system_ask_started_new_session">%1$s තුළ නව සැසියක් ඇරඹුවා</string>
+    <string name="system_ask_queued_for">“%1$s” සඳහා පෝලිම්ගත කළා</string>
+    <string name="system_ask_sent_to">“%1$s” වෙත යැව්වා</string>
+    <string name="system_ask_your_session">ඔබේ සැසිය</string>
+    <string name="system_ask_no_server">පළමුව OpenCode විවෘත කර සේවාදායකයකට සම්බන්ධ වන්න.</string>
+    <string name="system_ask_no_project">පළමුව OpenCode විවෘත කර සැසියක් අරඹන්න.</string>
+    <string name="system_ask_empty_message">යවන්න කිසිවක් නැත.</string>
+    <!-- The server's error message follows. -->
+    <string name="system_ask_send_failed">OpenCode වෙත යැවීමට නොහැකි විය. %1$s</string>
+
+    <!-- Live Updates: voice call -->
+    <string name="system_call_muted">නිහඬ කළ</string>
+    <string name="system_call_unmute">නිහඬ බව ඉවත් කරන්න</string>
+    <string name="system_call_mute">නිහඬ කරන්න</string>
+    <string name="system_call_end">ඇමතුම අවසන් කරන්න</string>
+    <string name="system_call_connecting">සම්බන්ධ වෙමින්…</string>
+    <string name="system_call_reconnecting">නැවත සම්බන්ධ වෙමින්…</string>
+    <string name="system_call_ended">ඇමතුම අවසන් විය</string>
+    <string name="system_call_end_title">ඇමතුම අවසන් කරන්න</string>
+    <string name="system_call_toggle_mute_title">ඇමතුම නිහඬ කරන්න හෝ නිහඬ බව ඉවත් කරන්න</string>
+
+    <!-- Live Updates: hands-free recording -->
+    <string name="system_recording_active">හඬ පටිගත කරමින්</string>
+    <string name="system_recording_stopped">පටිගත කිරීම නතර විය</string>
+    <string name="system_recording_stop">පටිගත කිරීම නවත්වන්න</string>
+    <string name="system_recording_stop_title">පටිගත කිරීම නවත්වන්න</string>
+    <string name="system_recording_new_session">නව සැසිය</string>
+
+    <!-- Live Updates: session run -->
+    <string name="system_session_working">ක්‍රියා කරමින්</string>
+    <string name="system_session_last_seen_working">අවසන් වරට දුටු විට ක්‍රියා කරමින්</string>
+    <!-- Where the run is (Working), then its current step (a tool name, Thinking or Replying). -->
+    <string name="system_session_status_with_step">%1$s · %2$s</string>
+    <string name="system_session_step_thinking">කල්පනා කරනවා</string>
+    <string name="system_session_step_replying">පිළිතුරු දෙමින්</string>
+    <string name="system_session_needs_input">ඔබේ යෙදවුම අවශ්‍යයි</string>
+    <string name="system_session_input">යෙදවුම</string>
+    <string name="system_session_done">අවසන්</string>
+    <string name="system_session_failed">අසාර්ථකයි</string>
+
+    <!-- Session notifications -->
+    <string name="system_notification_placeholder_body">නව ක්‍රියාකාරකමක්</string>
+
+    <!-- Notification channels -->
+    <string name="system_channel_voice_calls">හඬ ඇමතුම්</string>
+    <string name="system_channel_recording">හඬ පටිගත කරමින්</string>
+    <string name="system_channel_session_runs">සැසි ධාවන</string>
+    <string name="system_channel_session_updates">සැසි යාවත්කාලීන</string>
+    <string name="system_channel_shared_items">බෙදාගත් අයිතම</string>
+
+    <!-- Share sheet: notifications -->
+    <string name="system_share_continue_notification_body">OpenCode තුළ දිගටම කරගෙන යාමට තට්ටු කරන්න</string>
+
+    <!-- Share sheet -->
+    <string name="system_share_your_server">ඔබේ සේවාදායකය</string>
+    <string name="system_share_new_session_in_project">නව සැසිය · %1$s</string>
+    <string name="system_share_save_failed_message">නැවත උත්සාහ කරන්න. දිගටම මෙය සිදු වේ නම්, මෙම උපාංගයේ ඉඩ ටිකක් නිදහස් කරන්න.</string>
+    <!-- The session's title, then its project. -->
+    <string name="system_share_session_chip_description">%1$s, %2$s</string>
+    <string name="system_share_problem_unreachable">%1$s වෙත සම්බන්ධ වීමට නොහැකි විය</string>
+    <string name="system_share_problem_too_large">මෙතරම් විශාල ගොනු මෙතැනින් යැවීමට නොහැකි විය</string>
+    <string name="system_share_problem_uploads_unsupported">%1$s වෙත ගොනු උඩුගත කිරීමට නොහැකි විය</string>
+    <string name="system_share_problem_sign_in">%1$s වෙත පිවිසීමට නොහැකි විය</string>
+    <string name="system_share_problem_send">%1$s වෙත යැවීමට නොහැකි විය</string>
+    <string name="system_share_problem_no_credentials">මෙතැනින් යැවීමට OpenCode එක් වරක් විවෘත කරන්න</string>
+    <plurals name="system_share_image_count">
+        <item quantity="one">රූප %dක්</item>
+        <item quantity="other">රූප %dක්</item>
+    </plurals>
+    <plurals name="system_share_file_count">
+        <item quantity="one">ගොනු %dක්</item>
+        <item quantity="other">ගොනු %dක්</item>
+    </plurals>
+    <plurals name="system_share_images_skipped">
+        <item quantity="one">රූප %dක් එකතු කිරීමට නොහැකි විය</item>
+        <item quantity="other">රූප %dක් එකතු කිරීමට නොහැකි විය</item>
+    </plurals>
+    <plurals name="system_share_files_skipped">
+        <item quantity="one">ගොනු %dක් එකතු කිරීමට නොහැකි විය</item>
+        <item quantity="other">ගොනු %dක් එකතු කිරීමට නොහැකි විය</item>
+    </plurals>
+    <string name="system_share_save_failed_title">OpenCode සඳහා සුරැකීමට නොහැකි විය</string>
+    <string name="system_share_continue_description">OpenCode තුළ දිගටම කරගෙන යන්න</string>
+    <string name="system_share_no_server_title">පළමුව සේවාදායකයකට සම්බන්ධ වන්න</string>
+    <string name="system_share_no_server_message">OpenCode විවෘත කර ඔබේ පරිගණකයට සම්බන්ධ වන්න. ඉන්පසු නැවත බෙදාගන්න.</string>
+    <string name="system_share_send_later">පසුව යවන්න</string>
+    <string name="system_share_saved_continue">සුරැකුවා. දිගටම කරගෙන යාමට OpenCode විවෘත කරන්න</string>
+    <string name="system_share_loading_description">බෙදාගත් අයිතම පූරණය කරමින්</string>
+    <string name="system_share_image_description">රූපය</string>
+    <string name="system_share_image_position_description">රූප %2$dන් %1$dවන රූපය</string>
+    <string name="system_share_search_sessions_description">සෙවුම් සැසි</string>
+    <string name="system_share_new_session_in_project_description">%1$s තුළ නව සැසිය</string>
+    <string name="system_share_choose_project_description">එහි ව්‍යාපෘතිය තෝරන්න</string>
+    <string name="system_share_message_placeholder">පණිවිඩය</string>
+    <string name="system_share_sent_to">%1$s වෙත යැව්වා</string>
+    <string name="system_share_sending_description">යවමින්</string>
+    <string name="system_share_sent_description">යැව්වා</string>
+    <string name="system_share_sessions_title">සැසි</string>
+    <string name="system_share_pinned_header">ඉහළ රඳවා ඇති</string>
+    <string name="system_share_recents_header">මෑත</string>
+
+    <!-- Widget configuration -->
+    <string name="system_widget_choose_session_title">සැසිය තෝරන්න</string>
+</resources>

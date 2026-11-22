@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">Afbeelding</string>
+    <string name="media_image_load_failed">Afbeelding laden mislukt</string>
+    <string name="media_unavailable">Media niet beschikbaar</string>
+    <string name="media_try_again_label">Opnieuw proberen</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">Mediaweergave</string>
+    <string name="media_viewer_save_to_photos_description">Opslaan in Foto\'s</string>
+    <string name="media_file_viewer_screen_title">Bestandsweergave</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d van %3$d</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">Tekenen op afbeelding</string>
+    <string name="media_drawing_undo_description">Ongedaan maken</string>
+    <string name="media_drawing_add_to_prompt_description">Aan prompt toevoegen</string>
+    <string name="media_drawing_canvas_description">Tekenvlak</string>
+    <string name="media_drawing_discard_title">Tekening weggooien?</string>
+    <string name="media_drawing_discard_confirm">Tekening weggooien</string>
+    <string name="media_drawing_keep">Verder tekenen</string>
+    <string name="media_drawing_add_failed_title">Tekening toevoegen mislukt</string>
+    <string name="media_drawing_flatten_failed">Afbeelding maken mislukt. Probeer het opnieuw.</string>
+    <string name="media_drawing_prompt_unavailable">Aan het bericht in deze sessie kunnen nu geen bijlagen worden toegevoegd.</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">Wit</string>
+    <string name="media_drawing_ink_black">Zwart</string>
+    <string name="media_drawing_ink_red">Rood</string>
+    <string name="media_drawing_ink_yellow">Geel</string>
+    <string name="media_drawing_ink_green">Groen</string>
+    <string name="media_drawing_ink_blue">Blauw</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">Ingezoomd</string>
+    <string name="media_zoom_out_label">Uitzoomen</string>
+    <string name="media_zoom_in_label">Inzoomen</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">Pauzeren</string>
+    <string name="media_player_play">Afspelen</string>
+    <string name="media_player_position_description">Afspeelpositie</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">Video afspelen mislukt</string>
+    <string name="media_video_position_description">Videopositie</string>
+    <string name="media_video_capture_failed_title">Frame vastleggen mislukt</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">Voorbeeld tonen</string>
+    <string name="media_file_show_source_description">Bron tonen</string>
+    <string name="media_file_unwrap_lines_description">Regels niet afbreken</string>
+    <string name="media_file_wrap_lines_description">Regels afbreken</string>
+    <string name="media_file_start_pip_description">Beeld-in-beeld starten</string>
+    <string name="media_file_opening">Openen…</string>
+    <string name="media_file_share_failed_title">Bestand delen mislukt</string>
+    <string name="media_file_share_downloading_description">Downloaden om te delen</string>
+    <string name="media_file_confirm_large_message">Dit bestand is %1$s. Downloaden om het op dit apparaat te bekijken?</string>
+    <string name="media_file_download">Downloaden</string>
+    <string name="media_file_open_in_another_app">Openen in andere app</string>
+    <string name="media_file_no_app_message">Geen app op dit apparaat kan dit bestand openen. Deel het om het op te slaan of ergens anders naartoe te sturen.</string>
+    <string name="media_file_pdf_page_description">Pagina %1$d van %2$d</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">Bestand niet gevonden</string>
+    <string name="media_file_error_open_failed_title">Bestand openen mislukt</string>
+    <string name="media_file_error_unreadable">Dit pad kan niet van de server worden gelezen.</string>
+    <string name="media_file_error_not_found">Het is mogelijk verplaatst of verwijderd.</string>
+    <string name="media_file_error_unauthorized">De server heeft het wachtwoord van dit apparaat niet geaccepteerd.</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">De server kon het niet lezen (HTTP %1$d). Mogelijk is het een map.</string>
+    <string name="media_file_error_timed_out">Time-out voor het verzoek.</string>
+    <string name="media_file_error_unexpected_response">De server stuurde een onverwacht antwoord.</string>
+    <string name="media_file_error_over_limit">Het bestand is groter dan de downloadlimiet.</string>
+    <string name="media_file_error_size_unknown">De server heeft de grootte van de bijlage niet doorgegeven.</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">Downloaden…</string>
+    <string name="media_file_downloading_size">%1$s downloaden</string>
+    <string name="media_file_downloading_progress">%1$s van %2$s downloaden</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">0 KB</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="one">%1$d byte</item>
+        <item quantity="other">%1$d bytes</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s KB</string>
+    <string name="media_file_size_megabytes">%1$s MB</string>
+    <string name="media_file_size_gigabytes">%1$s GB</string>
+    <string name="media_file_size_terabytes">%1$s TB</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">Niet gevonden</string>
+    <string name="media_image_load_label">Afbeelding laden</string>
+    <string name="media_image_loading_state">Laden</string>
+    <string name="media_image_open_label">Afbeelding openen</string>
+    <string name="media_image_tap_to_load">Tik om te laden</string>
+    <string name="media_image_outside_project_value">Buiten het project</string>
+    <string name="media_image_deferred_low_data_value">Uitgesteld wegens databesparing</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">%1$s openen</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">Terug naar sessie</string>
+    <string name="media_browser_ask_description">Vraag stellen over deze pagina</string>
+    <string name="media_browser_forward_description">Vooruit</string>
+    <string name="media_browser_open_in_browser_description">Openen in browser</string>
+    <string name="media_browser_scroll_to_top_label">Naar bovenaan de pagina scrollen</string>
+    <string name="media_browser_ask_placeholder">Stel een vraag over deze pagina</string>
+    <string name="media_browser_reply_needs_input">Je invoer is nodig</string>
+    <string name="media_browser_reply_working">Bezig</string>
+    <string name="media_browser_go_back_to_session_label">Terug naar de sessie</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">Reactie klaar</string>
+    <string name="media_browser_reply_back_to_read">· Terug om te lezen</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">Sessie</string>
+    <string name="media_link_open_in_app_browser">Openen in browser in de app</string>
+    <string name="media_link_open_in_browser">Openen in browser</string>
+    <string name="media_link_open_in_app">Openen in app</string>
+    <string name="media_link_copy">Link kopiëren</string>
+    <string name="media_link_share">Delen…</string>
+    <string name="media_link_open_session">Sessie openen</string>
+    <string name="media_link_copy_session_id">ID kopiëren</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">ID van %1$s kopiëren</string>
+    <string name="media_link_open_session_named_description">Sessie %1$s openen</string>
+    <string name="media_link_open_host_in_app_browser_description">%1$s openen in browser in de app</string>
+    <string name="media_link_open_host_in_browser_description">%1$s openen in browser</string>
+    <string name="media_link_open_host_in_app_description">%1$s openen in app</string>
+    <string name="media_link_copy_host_description">Link naar %1$s kopiëren</string>
+    <string name="media_link_share_host_description">Link naar %1$s delen</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%1$s op %2$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s link %2$d</string>
+    <string name="media_link_more_links_description">Meer links</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">Video</string>
+    <string name="media_link_preview_post">Bericht</string>
+    <string name="media_link_preview_post_unavailable">Bericht niet beschikbaar</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">Repository</string>
+    <string name="media_github_kind_issue">Issue</string>
+    <string name="media_github_kind_pull_request">Pull request</string>
+    <string name="media_github_kind_commit">Commit</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">Open</string>
+    <string name="media_github_state_closed">Gesloten</string>
+    <string name="media_github_state_merged">Samengevoegd</string>
+    <string name="media_github_state_draft">Concept</string>
+    <string name="media_github_state_completed">Voltooid</string>
+    <string name="media_github_state_not_planned">Niet gepland</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">Diagram, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">Diagramweergave</string>
+    <string name="media_mermaid_diagram_description">Diagram</string>
+    <string name="media_mermaid_loading_state">%1$s, laden</string>
+    <string name="media_mermaid_view_source">Bron tonen</string>
+    <string name="media_mermaid_source_title">Diagrambron</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">Stroomdiagram</string>
+    <string name="media_mermaid_type_sequence">Sequentiediagram</string>
+    <string name="media_mermaid_type_class">Klassendiagram</string>
+    <string name="media_mermaid_type_state">Toestandsdiagram</string>
+    <string name="media_mermaid_type_entity_relationship">Entiteit-relatiediagram</string>
+    <string name="media_mermaid_type_user_journey">Gebruikersreis</string>
+    <string name="media_mermaid_type_gantt">Gantt-diagram</string>
+    <string name="media_mermaid_type_pie">Cirkeldiagram</string>
+    <string name="media_mermaid_type_quadrant">Kwadrantdiagram</string>
+    <string name="media_mermaid_type_requirement">Eisendiagram</string>
+    <string name="media_mermaid_type_git_graph">Git-grafiek</string>
+    <string name="media_mermaid_type_c4">C4-diagram</string>
+    <string name="media_mermaid_type_mind_map">Mindmap</string>
+    <string name="media_mermaid_type_timeline">Tijdlijn</string>
+    <string name="media_mermaid_type_sankey">Sankey-diagram</string>
+    <string name="media_mermaid_type_xy_chart">XY-grafiek</string>
+    <string name="media_mermaid_type_block">Blokdiagram</string>
+    <string name="media_mermaid_type_packet">Pakketdiagram</string>
+    <string name="media_mermaid_type_kanban">Kanbanbord</string>
+    <string name="media_mermaid_type_architecture">Architectuurdiagram</string>
+    <string name="media_mermaid_type_radar">Radardiagram</string>
+    <string name="media_mermaid_type_treemap">Boomkaart</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

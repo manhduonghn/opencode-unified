@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- What’s New entries, oldest first: one group per file in whatsnew/entries/. -->
+
+    <!-- 2026-10-06-01-voice-messages -->
+    <string name="settings_whatsnew_entry_voice_messages_title">音声メッセージ</string>
+    <string name="settings_whatsnew_entry_voice_messages_summary">「声」が代わりにセッションに送った質問は、波形付きの音声メッセージとして表示されます。</string>
+
+    <!-- 2026-10-07-01-attachment-menu-hold -->
+    <string name="settings_whatsnew_entry_attachment_menu_hold_title">+で添付</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_summary">メッセージ欄の+から、カメラ・写真・ファイルのメニューが開きます。+を長押ししてスライドすれば、そのまま選べます。</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_1">写真はメッセージ欄のすぐ上に開きます。タップして添付できます。</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_2">カメラにはレンズ切り替えボタンがあり、ピンチでズーム、タップでピント合わせ、フラッシュも使えます。</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_example">+を長押しし、上の「写真」までスライドして指を離す</string>
+
+    <!-- 2026-10-08-01-voice-webrtc-weak-connection -->
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_title">より安定した通話</string>
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_summary">接続が不安定でも、何秒も無音にならず、一瞬の音の乱れで済むようになりました。</string>
+
+    <!-- 2026-10-08-02-mute-sessions -->
+    <string name="settings_whatsnew_entry_mute_sessions_title">セッションをミュート</string>
+    <string name="settings_whatsnew_entry_mute_sessions_summary">ミュートしたセッションは一覧に残りますが、「未読を確認」の対象から外れ、未読マークも表示されません。</string>
+    <string name="settings_whatsnew_entry_mute_sessions_detail_1">「未読を確認」を長押しすると、すべて既読になります。あなたの対応待ちのセッションは残ります。</string>
+    <string name="settings_whatsnew_entry_mute_sessions_example">ドロワーでセッションを長押しし、「ミュート」をタップ</string>
+
+    <!-- 2026-10-08-03-pair-from-anywhere -->
+    <string name="settings_whatsnew_entry_pair_from_anywhere_title">どこからでもペアリング</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_summary">パソコンでopencode pair --remoteを実行すれば、同じWi-FiやTailscaleを使わず、どのネットワークからでも接続できます。</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_detail_1">表示されたコードをスキャンするか、出力されたリンクを貼り付けます。</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_example">opencode pair --remoteを実行し、スマホでサーバーを追加</string>
+
+    <!-- 2026-10-08-04-drawer-peek -->
+    <string name="settings_whatsnew_entry_drawer_peek_title">セッションの最終活動時刻</string>
+    <string name="settings_whatsnew_entry_drawer_peek_summary">セッション一覧をセッション側にドラッグすると、それぞれが最後に動いていた時刻を確認できます。</string>
+    <string name="settings_whatsnew_entry_drawer_peek_detail_1">一覧を左にスワイプすると閉じます。</string>
+    <string name="settings_whatsnew_entry_drawer_peek_example">セッション一覧を開き、右にドラッグ</string>
+
+    <!-- 2026-10-08-05-dictation-keeps-going -->
+    <string name="settings_whatsnew_entry_dictation_keeps_going_title">音声入力して送信</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_summary">マイクをタップして音声入力し、録音バーからそのまま送信できます。「停止」をタップして先に内容を確認することもできます。</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_1">マイクを長押しして話し、上にスライドすると録音を固定、左にスライドするとキャンセルできます。</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_2">アプリを離れても録音は続き、ライブアクティビティから停止できます。</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_3">録音中にセッションを切り替えると、表示中のセッションに送信されます。</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_example">マイクをタップし、一文話して「送信」をタップ</string>
+
+    <!-- 2026-10-08-06-siri-shortcuts-spotlight -->
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_title">アプリアクションとショートカット</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_summary">Google アシスタントのアプリアクション、アプリのショートカット、クイック設定から、通話やセッションの開始、メッセージの送信ができます。</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_detail_1">アプリアイコンを長押しすると、最近のセッションが表示されます。</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_example">「OK Google、OpenCodeで音声通話を始めて」と話しかける</string>
+
+    <!-- 2026-10-09-01-working-orb -->
+    <string name="settings_whatsnew_entry_working_orb_title">状態を示すオーブ</string>
+    <string name="settings_whatsnew_entry_working_orb_summary">「作業中」の横やサブエージェントのカードにあるオーブが、エージェントの動きを示します。完了するとコピーボタンに変わります。</string>
+
+    <!-- 2026-10-09-02-shell-glyph -->
+    <string name="settings_whatsnew_entry_shell_glyph_title">シェルの動作表示</string>
+    <string name="settings_whatsnew_entry_shell_glyph_summary">実行中のシェルの&gt;_プロンプトが、出力を受け取るたびに周回するアニメーションで動きます。</string>
+
+    <!-- 2026-10-09-03-math-and-diagrams -->
+    <string name="settings_whatsnew_entry_math_and_diagrams_title">数式と図</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_summary">応答内の数式を整えて表示し、Mermaidの図を描画します。</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_1">図をタップすると拡大し、長押しするとソースを表示できます。</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_2">数式にもテキストサイズの設定が反映されます。</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_example">メッセージ送信の流れをフローチャートにするよう頼む</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_prompt">メッセージ送信の流れをフローチャートにして</string>
+
+    <!-- 2026-10-09-04-always-notify -->
+    <string name="settings_whatsnew_entry_always_notify_title">完了時に通知</string>
+    <string name="settings_whatsnew_entry_always_notify_summary">このアプリで開始したセッションの作業が終わると、結果の短い要約とともに通知が届きます。</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_1">セッションの設定パネルで「常に通知」をオンにすると、パソコンから開始したものも含め、すべての応答が通知されます。</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_2">通知をタップすると、そのセッションが開きます。</string>
+    <string name="settings_whatsnew_entry_always_notify_example">メッセージを送信してスマホをロック</string>
+
+    <!-- 2026-10-09-05-server-switcher -->
+    <string name="settings_whatsnew_entry_server_switcher_title">サーバーを切り替え</string>
+    <string name="settings_whatsnew_entry_server_switcher_summary">接続中のサーバー名がドロワーのタイトルに表示されます。タップして別のサーバーに切り替えたり、追加したりできます。</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_1">設定では接続状態がリアルタイムの波形で表示され、サーバー名の横に往復の通信時間が表示されます。</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_2">サーバー名を変更できます。変更した名前はこのスマホでのみ使われます。</string>
+    <string name="settings_whatsnew_entry_server_switcher_example">ドロワーを開き、サーバー名をタップして別のパソコンを追加</string>
+
+    <!-- 2026-10-10-01-share-opened-files -->
+    <string name="settings_whatsnew_entry_share_opened_files_title">写真のように画像を表示</string>
+    <string name="settings_whatsnew_entry_share_opened_files_summary">セッション内で画像全体が表示され、写真のように開けます。ピンチでズーム、スワイプで切り替え、下にドラッグして閉じられます。</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_1">エージェントが挙げたファイルはすべてアプリ内で開けます。</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_2">「共有」から、開いたものを写真やファイルに保存できます。動画や音声も保存できます。</string>
+    <string name="settings_whatsnew_entry_share_opened_files_example">エージェントに数枚のスクリーンショットを読み込ませ、1枚をタップして下にドラッグ</string>
+
+    <!-- 2026-10-10-02-call-voice -->
+    <string name="settings_whatsnew_entry_call_voice_title">音声通話</string>
+    <string name="settings_whatsnew_entry_call_voice_summary">空のメッセージ欄の波形をタップして話しかけましょう。「声」が会話中にセッションで作業し、完了したら知らせてくれます。</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_1">セッション名を伝えると、「声」がそのセッションを開き、作業を開始したり方向を指示したりします。</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_2">話しかけて応答を中断したり、作業の進み具合を聞いたりできます。</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_3">通話バーをタップすると、リアルタイムの字幕が表示されます。</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_4">通話の通知からミュートや終了ができます。ロック画面でも操作できます。</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_5">エージェントの作業中は「停止」を長押しすると通話できます。</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_6">設定 → 声で声を選べます。</string>
+    <string name="settings_whatsnew_entry_call_voice_example">通話を始めて「アップロード修正のセッションを開いて、テストを確認して」と話しかけてみましょう</string>
+
+    <!-- 2026-10-10-03-drawer-one-edge -->
+    <string name="settings_whatsnew_entry_drawer_one_edge_title">ドロワーをすっきり整理</string>
+    <string name="settings_whatsnew_entry_drawer_one_edge_summary">各行の左端を揃え、状態を示す点を右端に配置しました。検索ボタンは上部にあります。</string>
+
+    <!-- 2026-10-11-01-paste-as-a-card -->
+    <string name="settings_whatsnew_entry_paste_as_a_card_title">長い貼り付けはカードに</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_summary">長いテキストを貼り付けると、画像の横に「貼り付けたテキスト」カードとして表示されます。エージェントには全文が伝わります。</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_1">カードをタップすると全文を読めます。コピーや共有もできます。</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_2">長いメッセージは数行に折りたたまれます。「さらに表示」で全文を表示できます。</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_example">長いログをコピーしてメッセージ欄に貼り付け、カードをタップしてみましょう</string>
+
+    <!-- 2026-10-11-02-ride-out-drops -->
+    <string name="settings_whatsnew_entry_ride_out_drops_title">電波が弱くても大丈夫</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_summary">数秒間電波が途切れても失敗しなくなりました。送信、セッション、通話は接続の回復を待って再開します。</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_1">いつでも送信でき、メッセージは送った順に届きます。</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_2">送信できなかったメッセージはその場に残り、「再試行」が表示されます。再試行しても二重に送信されません。</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_3">サーバーがオフラインになると、ドロワー内の名前が薄くなります。タップすると「もう一度試す」が表示されます。</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_example">電車がトンネルに入るときにセッションを開いてみましょう</string>
+
+    <!-- 2026-10-11-03-new-session-recent-projects -->
+    <string name="settings_whatsnew_entry_new_session_recent_projects_title">どのプロジェクトでも開始</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_summary">「新しいセッション」ではメッセージ欄の上に最近使ったプロジェクトが表示されます。「すべてのプロジェクト」からはパソコン上の好きなフォルダを開けます。</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_1">入力中も、選んだプロジェクトがメッセージ欄の上に表示されます。</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_2">新しいセッションから通話を始めると、選んだプロジェクトで作業します。</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_example">「新しいセッション」→「すべてのプロジェクト」→「フォルダを選択…」の順にタップしてみましょう</string>
+
+    <!-- 2026-10-11-04-stop-runs-your-steer -->
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_title">作業中に方向を指示</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_summary">作業中に送信すると、エージェントは次のステップでメッセージを読みます。時間のかかるコマンドは先にバックグラウンドへ移します。</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_1">「送信」を長押しすると、そのメッセージに「方向を指示」か「キューに追加」を選べます。</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_2">待機中のメッセージを長押しすると、キューへの移動や削除ができます。</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_3">「停止」を押すとすぐに「停止中…」に変わり、送信した方向修正のメッセージが次に実行されます。</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_example">長いコマンドの実行中にメッセージを送り、コマンドがバックグラウンドに移る様子を確認してみましょう</string>
+
+    <!-- 2026-10-12-01-browser-push-in -->
+    <string name="settings_whatsnew_entry_browser_push_in_title">アプリ内ブラウザーでページ表示</string>
+    <string name="settings_whatsnew_entry_browser_push_in_summary">実験的機能の「アプリ内ブラウザー」をオンにすると、リンク先がセッションの上に開きます。画面の端からスワイプすると戻れます。</string>
+
+    <!-- 2026-10-12-02-answer-from-the-bar -->
+    <string name="settings_whatsnew_entry_answer_from_the_bar_title">メッセージ欄から回答</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_summary">質問や権限の確認がメッセージ欄から広がり、その場で回答できます。選択肢をタップするほか、文字入力や音声入力も使えます。</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_1">権限の確認では、許可する前にコマンドや編集内容を確認できます。</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_2">「拒否」を押すと、入力した内容が代わりの指示として伝わり、エージェントが作業を続けます。</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_3">回答すると、入力途中の下書きが戻ります。</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_example">エージェントから質問されたら、マイクを長押しして答えてみましょう</string>
+
+    <!-- 2026-10-12-03-new-messages-divider -->
+    <string name="settings_whatsnew_entry_new_messages_divider_title">前回の続きから確認</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_summary">セッションに戻ると、一番下に離れていた間の新着メッセージが表示されます。未読が多いときに「新着」の区切りから開くには、設定 › セッションで「新着メッセージの区切り」をオンにしてください。</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_1">ドロワーを開くと、次に開きそうなセッションが更新され、タップしたときにすぐ表示できます。</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_2">セッションに戻って更新している間も、バックグラウンドの作業とコンテキストのゲージはそのまま保たれます。</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_example">時間のかかるタスクを始め、別のセッションに切り替えてから、応答が届いたら戻ってみましょう</string>
+
+    <!-- 2026-10-12-04-model-list-and-level-meter -->
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_title">新しいモデル選択</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_summary">「モデル」パネルでモデルと思考レベルを選べます。お気に入りは上部に表示されます。メッセージ欄から広がるリストを試すには、設定 → 実験的で「新しいモデル選択」をオンにしてください。</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_1">思考レベルを選べるモデルでは、「モデル」パネルの「思考中」メニューを使えます。</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_2">モデルをスワイプすると、お気に入りに登録できます。</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_3">モデルやレベルを切り替えた位置には、セッション内に控えめな区切りが表示されます。</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_example">メッセージ欄のモデルをタップして、思考レベルを選んでみましょう</string>
+
+    <!-- 2026-10-12-05-run-error-line -->
+    <string name="settings_whatsnew_entry_run_error_line_title">実行に失敗したとき</string>
+    <string name="settings_whatsnew_entry_run_error_line_summary">実行が途中で止まると、理由をわかりやすく表示し、「編集」「コンパクト」「モデルを切り替え」「もう一度試す」のいずれかを案内します。</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_1">「編集」を押すとメッセージの送信を取り消し、書き直せるようメッセージ欄に戻します。</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_2">エラーの行を長押しすると、全文の表示やコピーができます。</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_3">エージェントが自動で再試行する場合、「作業中」に次の試行までのカウントダウンが表示されます。</string>
+    <string name="settings_whatsnew_entry_run_error_line_example">応答がブロックされたら「編集」をタップし、メッセージを書き直してもう一度送ってみましょう</string>
+
+    <!-- 2026-10-12-06-transcript-keyboard-space -->
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_title">キーボードを閉じてもすっきり</string>
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_summary">キーボードをドラッグして閉じたとき、最後のメッセージの下に空白が残らなくなりました。</string>
+
+    <!-- 2026-10-12-07-share-sheet-sends -->
+    <string name="settings_whatsnew_entry_share_sheet_sends_title">共有シートから送信</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_summary">OpenCodeに共有してセッションを選び、メッセージを添えて送信できます。アプリを開く必要はありません。</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_1">最近使ったセッションが共有シートの一番上の行に表示されます。</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_2">JSONファイルやエクスポートしたデータは、名前を変えずにファイルとして添付されます。</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_3">「OpenCodeで続行」でセッションを開くと、共有した内容がメッセージ欄に入ります。</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_4">送信できない場合は「後で送信」を選ぶと、次にアプリを開いたときに送信します。</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_example">スクリーンショットをOpenCodeに共有し、質問を入力して「送信」をタップ</string>
+
+    <!-- 2026-10-12-08-app-icon-badge -->
+    <string name="settings_whatsnew_entry_app_icon_badge_title">アプリアイコンのバッジ</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_summary">未読や回答待ちのセッション数をアプリアイコンに表示します。「未読を確認」と同じ件数です。</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_1">ミュート中のセッションは数えません。</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_2">通知をオンにする必要があります。</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_example">セッションを質問への回答待ちにして、ホーム画面に戻る</string>
+
+    <!-- 2026-10-12-09-drawer-keeps-keyboard -->
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_title">ドロワーと一緒に動くキーボード</string>
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_summary">入力中にセッション一覧を開いても入力欄のフォーカスはそのまま。キーボードもセッションと一緒に横へ動きます。</string>
+
+    <!-- 2026-10-12-10-whats-new-page -->
+    <string name="settings_whatsnew_entry_whats_new_page_title">新着情報をシンプルに</string>
+    <string name="settings_whatsnew_entry_whats_new_page_summary">新着情報が設定と同じようなページになりました。機能ごとのページがあり、修正内容もここにまとまっています。</string>
+
+    <!-- 2026-10-12-11-catch-up-returns-to-drawer -->
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_title">未読の確認後はドロワーへ</string>
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_summary">「未読を確認」を閉じると、元の状態のセッション一覧に戻ります。</string>
+
+    <!-- 2026-10-12-12-transcript-day-stamps -->
+    <string name="settings_whatsnew_entry_transcript_day_stamps_title">会話履歴に日付を表示</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_summary">日をまたぐセッションでは、各日の最初のメッセージの上に「水曜日 午前8:24」のように表示します。1時間以上間が空いたメッセージには時刻を表示します。</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_1">「今日」「昨日」、同じ週なら曜日、それ以外は日付で表示します。</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_2">方向修正や送信待ちのメッセージには、待機中は日時を表示しません。</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_example">今週の前半に始めたセッションを開き、上にスクロール</string>
+
+    <!-- 2026-10-12-13-rich-link-previews -->
+    <string name="settings_whatsnew_entry_rich_link_previews_title">リンクのプレビュー</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_summary">応答の下のリンクは内容が1行ずつ表示されます。プルリクエストやイシューのタイトルと状態、コミット、動画、ページなどを確認できます。</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_1">GitHubのプルリクエスト、イシュー、コミット、リポジトリのタイトルを表示し、オープン・マージ済み・クローズの状態を色分けします。</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_2">Xの投稿は投稿者と本文、YouTubeのリンクはタイトル、その他のページはリンクから読み取った名前を表示します。</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_3">リンクは3件まで表示します。「コピー」の横の「さらに表示」で残りを表示し、もう一度タップすると折りたたみます。</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_4">リンクを長押しすると、大きなプレビューや「リンクをコピー」「共有」が表示されます。</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_example">今週のリポジトリの変更点をエージェントに聞く</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_prompt">使っているGitHubリポジトリで、今週何が変わった？リンクも付けて。</string>
+
+    <!-- 2026-10-13-01-rolling-numbers -->
+    <string name="settings_whatsnew_entry_rolling_numbers_title">数字が回転して更新</string>
+    <string name="settings_whatsnew_entry_rolling_numbers_summary">バックグラウンド作業のカプセル、セッションシート、「N個使用」の行、「未読を確認」の件数が、桁ごとに回転して更新されます。</string>
+
+    <!-- 2026-10-13-02-grouped-steering -->
+    <string name="settings_whatsnew_entry_grouped_steering_title">メッセージをひとまとめに</string>
+    <string name="settings_whatsnew_entry_grouped_steering_summary">続けて送ったメッセージを1つのブロックにまとめます。エージェントの処理を待つ方向修正メッセージには、共通の「方向修正」ラベルが付きます。</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_1">連続する吹き出しは間隔が狭まり、接する部分の角がつながります。</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_2">写真やファイルは、ブロック内でもそれぞれの丸い形を保ちます。</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_3">エージェントがメッセージを受け取るたびに、上の所定の位置へ滑らかに移動します。</string>
+    <string name="settings_whatsnew_entry_grouped_steering_example">エージェントの作業中に、1件は写真付きで、メッセージを3件続けて送る</string>
+
+    <!-- 2026-10-13-03-inline-tool-rows -->
+    <string name="settings_whatsnew_entry_inline_tool_rows_title">ツールと質問をすっきり表示</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_summary">ツールのグループや回答済みの質問を開くと、コードのような全幅の帯で表示します。連続する読み込みは1行にまとめます。</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_1">折りたたんだグループには「N個のツールを使用」と表示し、失敗したツール呼び出しを赤で示します。</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_2">実行の行にはスクリプトが呼び出したツール名、スキルの行にはスキル名を表示します。</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_3">回答済みの質問には質問文とすべての選択肢を表示し、選んだ回答にチェックを付けます。</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_example">セッション内の「N個のツールを使用」の行をタップして展開</string>
+
+    <!-- 2026-10-13-04-mac-motion-playgrounds -->
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_title">Macでプレイグラウンドを操作</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_summary">開発者モードをオンにし、調整機能をMacとペアリングすると、プレイグラウンドのアニメーションをスロー再生したり、記録したフレームを確認したりできます。</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_1">Macの調整ページでプレイグラウンドの選択、プリセット、再生を操作できます。スマホにはプレイグラウンドだけを表示します。</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_2">コンパクトなカードに画面内の操作項目を表示します。動きや間隔には名前付きのプリセットがあり、「ネイティブ」で標準の状態に戻せます。各プリセットの値は一度にまとめて反映されます。</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_3">Macに接続するとフローティング調整パネルは非表示になります。調整用ジェスチャーで呼び出せます。「プレイグラウンドを終了」で終了します。</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_4">シード固定のシナリオで同じサンプルセッションを再生し、ビルド間で動きを比較できます。</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_5">再生は毎回初期状態から始まり、方向修正や送信待ちのメッセージも待機させずに送信します。</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_6">Macのレビュープレーヤーでは、記録した位置やサイズをコマ送りで確認し、フレームに印を付けてアニメーションのフィードバックを送れます。</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_example">「設定 → 開発者向け」を開き、Macの調整ページとペアリングして、「会話履歴 → 応答のストリーミング」を0.25×で試す</string>
+
+    <!-- 2026-10-13-05-catch-up-flicks -->
+    <string name="settings_whatsnew_entry_catch_up_flicks_title">未読確認のスワイプを改善</string>
+    <string name="settings_whatsnew_entry_catch_up_flicks_summary">「未読を確認」で素早くフリックしたり短くドラッグしたりしても、カードが元に戻らず次へ進みます。</string>
+
+    <!-- 2026-10-14-01-settings-grouped-by-purpose -->
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_title">設定をわかりやすく</string>
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_summary">実験的な機能や開発者ツールは「設定 → 実験的」に、アプリ内のお知らせは「通知」に、通話履歴は「音声」にまとまりました。</string>
+
+    <!-- 2026-10-14-02-send-ats-recovery -->
+    <string name="settings_whatsnew_entry_send_ats_recovery_title">送信の信頼性を向上</string>
+    <string name="settings_whatsnew_entry_send_ats_recovery_summary">接続できていたサーバーへの接続をiOSが一時的に拒否した場合、メッセージの送信を自動で再試行します。</string>
+
+    <!-- 2026-10-14-03-keyboard-menus-and-header -->
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_title">キーボードとメニューを安定化</string>
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_summary">入力中に「+」をタップすると、キーボードを下げたり操作ボタンを動かしたりせずに添付メニューを開けます。キーボードが動いてもヘッダーのぼかしはずれません。</string>
+
+    <!-- 2026-10-14-04-open-links-in-apps -->
+    <string name="settings_whatsnew_entry_open_links_in_apps_title">リンクを対応アプリで開く</string>
+    <string name="settings_whatsnew_entry_open_links_in_apps_summary">リンクはGitHubやYouTubeなどの対応アプリで開きます。実験的な「アプリ内ブラウザー」がオンなら、リンクを長押しして「アプリ内ブラウザーで開く」を選べます。</string>
+
+    <!-- 2026-10-14-05-session-list-quiet-hierarchy -->
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_title">見やすくなったセッション一覧</string>
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_summary">「ピン留め済み」と「最近使用」は小さなグレーの文字で控えめに。未読や待機中のセッションはやや太字で目立たせ、既読のセッションは少し薄く表示します。</string>
+
+    <!-- 2026-10-14-06-queued-messages-fitted-sheet -->
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_title">待機中のメッセージをすっきり表示</string>
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_summary">待機中のメッセージ数に合わせてシートの高さを調整。各行に番号が付き、今すぐ送信やキャンセルのボタンも控えめに表示します。</string>
+
+    <!-- 2026-10-14-07-control-center-sessions -->
+    <string name="settings_whatsnew_entry_control_center_sessions_title">セッション用タイル</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_summary">クイック設定にタイルを追加すると、ワンタップでセッションを開いたり、通話を始めたりできます。</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_1">新しい「セッションを開く」タイルで、指定したセッションを開けます。</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_2">「通話を開始」では、指定したセッションや新しいセッションで通話できます。設定を変えなければ、最後に表示したセッションで通話を始めます。</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_3">ピン留め済みや最近使用したセッションから選べます。タイルにはセッションの現在のタイトルが表示されます。</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_4">タイルはアプリを開くだけです。話すか入力するまで、何も送信されません。</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_example">クイック設定を開いて「編集」をタップし、OpenCodeの「セッションを開く」タイルをドラッグして配置</string>
+
+    <!-- 2026-10-15-01-settings-keyboard-down -->
+    <string name="settings_whatsnew_entry_settings_keyboard_down_title">設定ではキーボードを非表示に</string>
+    <string name="settings_whatsnew_entry_settings_keyboard_down_summary">入力中にドロワーから設定を開くと、キーボードが閉じて設定画面に重ならなくなりました。</string>
+
+    <!-- 2026-10-15-02-session-list-sidebar-grey -->
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_title">ゆとりのあるセッション一覧</string>
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_summary">セッション一覧のタイトルを大きくし、グレーの「ピン留め済み」「最近使用」の見出しも大きくして上に余白を追加しました。ドロワーを開いてご覧ください。</string>
+
+    <!-- 2026-10-15-03-voice-varied-acknowledgements -->
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_title">通話の「確認します」を控えめに</string>
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_summary">通話中、毎回「確認します」と答えるのではなく、話した内容に合わせて応答します。話し続けたときにリクエストが二重送信される問題も解消しました。</string>
+
+    <!-- 2026-10-15-04-smoother-streaming -->
+    <string name="settings_whatsnew_entry_smoother_streaming_title">返信をより滑らかに表示</string>
+    <string name="settings_whatsnew_entry_smoother_streaming_summary">生成中の返信の最新行が、暗くなったりちらついたりせず自然に現れます。行がテキストより長く伸びて戻ることもなくなり、リストや見出しも「-」や「#」だけが先に出ず、最初から正しい形式で表示されます。</string>
+
+    <!-- 2026-10-15-05-model-list-sheet -->
+    <string name="settings_whatsnew_entry_model_list_sheet_title">モデル一覧をシートで表示</string>
+    <string name="settings_whatsnew_entry_model_list_sheet_summary">試験機能「新しいモデル選択」をオンにすると、キーボードが閉じ、入力欄がキーボードのあった場所でモデル一覧のシートに変わります。素早く開閉しても滑らかに元に戻ります。</string>
+
+    <!-- 2026-10-15-06-queued-pill-whole-title -->
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_title">待機件数を省略せず表示</string>
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_summary">入力欄の上のラベルで「2件待機中」が途中で切れず、最後まで表示されます。他の場所で切り替わる件数表示も、文字が欠けなくなりました。</string>
+
+    <!-- 2026-10-16-01-plus-menu-photo-sheet -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_title">キーボードの代わりに写真を表示</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_summary">試験機能「新しい＋メニュー」をオンにして「写真」を選ぶと、＋メニューがキーボードのあった場所に写真シートとして広がります。＋を長押しすると最近の写真が表示され、指を滑らせて写真の上で離すと追加できます。</string>
+
+    <!-- 2026-10-16-02-composer-large-text-targets -->
+    <string name="settings_whatsnew_entry_composer_large_text_targets_title">入力欄をタップしやすく</string>
+    <string name="settings_whatsnew_entry_composer_large_text_targets_summary">文字サイズを大きくしても、入力欄のボタンをタップしやすくなりました。</string>
+
+    <!-- 2026-10-16-03-project-pick-haptic -->
+    <string name="settings_whatsnew_entry_project_pick_haptic_title">プロジェクト変更を振動でお知らせ</string>
+    <string name="settings_whatsnew_entry_project_pick_haptic_summary">新しいセッションで、入力欄の上や「すべてのプロジェクト」から別のプロジェクトを選ぶと、軽く振動します。</string>
+
+    <!-- 2026-10-16-04-fork-opens-copy -->
+    <string name="settings_whatsnew_entry_fork_opens_copy_title">フォーク後にコピーを表示</string>
+    <string name="settings_whatsnew_entry_fork_opens_copy_summary">セッションの詳細で「フォーク」を選ぶと、作成したコピーが再び開くようになりました。</string>
+
+    <!-- 2026-10-16-05-transcript-row-targets -->
+    <string name="settings_whatsnew_entry_transcript_row_targets_title">タップしやすく</string>
+    <string name="settings_whatsnew_entry_transcript_row_targets_summary">セッションシートのタイトルをタップしやすくしました。音声入力中に隠れている入力欄のボタンは、VoiceOverやVoice Controlでも選択されなくなりました。</string>
+
+    <!-- 2026-10-16-06-image-previews -->
+    <string name="settings_whatsnew_entry_image_previews_title">画像プレビュー</string>
+    <string name="settings_whatsnew_entry_image_previews_summary">エージェントが挙げた画像を、タイル状に並べてプレビュー表示します。ファイルが見つからない場合も、その旨を表示します。</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_1">プレビューは、その画像に言及した段落の下に表示されます。</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_2">画像をタップすると全画面で開き、スワイプで返信内の画像を切り替えられます。</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_3">セッションのフォルダ外にある画像は、タップするまで読み込みません。</string>
+    <string name="settings_whatsnew_entry_image_previews_example">プロジェクトのスクリーンショットを見せるよう、エージェントに頼んでみましょう。</string>
+    <string name="settings_whatsnew_entry_image_previews_prompt">このプロジェクトのスクリーンショットを見せて。</string>
+
+    <!-- 2026-10-16-07-connection-error-details -->
+    <string name="settings_whatsnew_entry_connection_error_details_title">接続エラーの原因を詳しく表示</string>
+    <string name="settings_whatsnew_entry_connection_error_details_summary">接続エラーにエラーコード、接続先アドレス、DNSの結果を表示します。tailnet名がTailscale外のアドレスに解決される場合は、対処方法も案内します。</string>
+
+    <!-- 2026-10-16-08-outage-reconnect-delay -->
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_title">再接続をより速く</string>
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_summary">サーバーが障害から復旧したとき、セッションがより早く最新の状態に戻ります。</string>
+
+    <!-- 2026-10-17-01-every-running-subagent -->
+    <string name="settings_whatsnew_entry_every_running_subagent_title">実行中の全サブエージェントを表示</string>
+    <string name="settings_whatsnew_entry_every_running_subagent_summary">入力欄の上のサブエージェント数に、他のサブエージェント内で動くものや、100件を超えるセッション内のものも含め、TUIと同じ件数を表示します。</string>
+
+    <!-- 2026-10-17-02-session-view-refined-standard -->
+    <string name="settings_whatsnew_entry_session_view_refined_standard_title">返信の文字を読みやすく</string>
+    <string name="settings_whatsnew_entry_session_view_refined_standard_summary">レベル3の見出しを太字より大きくし、本文を少し淡くして太字を際立たせました。段落やコードブロックの余白も少し広げています。</string>
+
+    <!-- 2026-10-17-03-bottom-follow-on-load -->
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_title">末尾の表示をキープ</string>
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_summary">遅れて届く内容の読み込み中も、セッションの末尾を表示したままにします。</string>
+
+    <!-- 2026-10-17-04-drafts-stay-put -->
+    <string name="settings_whatsnew_entry_drafts_stay_put_title">下書きをそのまま保存</string>
+    <string name="settings_whatsnew_entry_drafts_stay_put_summary">バックグラウンドでアプリが終了しても、下書き、添付した写真や位置情報、送信待ちのメッセージが保持されます。</string>
+
+    <!-- 2026-10-18-01-themes -->
+    <string name="settings_whatsnew_entry_themes_title">テーマ</string>
+    <string name="settings_whatsnew_entry_themes_summary">Tokyo Night、Catppuccin、Dracula、Rosé Pine、GitHubなどのテーマをセッションに設定できます。選びながらその場でプレビューできます。</string>
+    <string name="settings_whatsnew_entry_themes_detail_1">テーマは会話履歴、自分のメッセージ、コード、構文の強調表示、差分、リンクの色に反映されます。</string>
+    <string name="settings_whatsnew_entry_themes_detail_2">「外観」の「モード」で、ライト、ダーク、システムから選べます。</string>
+    <string name="settings_whatsnew_entry_themes_detail_3">どのテーマでも、ボタンなどは標準のLiquid Glassの外観を保ちます。</string>
+    <string name="settings_whatsnew_entry_themes_example">設定 → 外観 → テーマを開き、Tokyo Nightを試してみましょう。</string>
+
+    <!-- 2026-10-18-02-return-key-sends -->
+    <string name="settings_whatsnew_entry_return_key_sends_title">Returnキーの設定</string>
+    <string name="settings_whatsnew_entry_return_key_sends_summary">Returnで改行したいときは、設定の「Returnキーで送信」をオフにしてください。外付けキーボードではCommand-ReturnやShift-Returnも使えます。</string>
+
+    <!-- 2026-10-18-03-quote-replies -->
+    <string name="settings_whatsnew_entry_quote_replies_title">返信を引用</string>
+    <string name="settings_whatsnew_entry_quote_replies_summary">アシスタントの返信でテキストを選択し、「引用」をタップすると、メッセージに引用カードとして追加できます。</string>
+
+    <!-- 2026-10-18-04-launch-bloom -->
+    <string name="settings_whatsnew_entry_launch_bloom_title">起動時のアニメーション</string>
+    <string name="settings_whatsnew_entry_launch_bloom_summary">アプリを新たに起動すると、OpenCodeのマークがすっと縮み、花開くようにセッションが現れます。</string>
+
+    <!-- 2026-10-18-05-drag-to-pin -->
+    <string name="settings_whatsnew_entry_drag_to_pin_title">セッションをドラッグしてピン留め</string>
+    <string name="settings_whatsnew_entry_drag_to_pin_summary">セッションを長押しして上の「ピン留め済み」にドラッグすると、その位置にピン留めできます。下の「最近使用」に戻すと解除できます。</string>
+
+    <!-- 2026-10-19-01-call-tray-colour-blend -->
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_title">通話ボタンが滑らかに変化</string>
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_summary">実験的機能の「通話トレイ」をオンにすると、通話開始時に通話ボタンが赤い「終了」ボタンへ滑らかに変わり、終了時には元に戻ります。途中で背景色がちらつかなくなりました。</string>
+
+    <!-- 2026-10-19-02-optical-insets -->
+    <string name="settings_whatsnew_entry_optical_insets_title">ボタン内の配置を調整</string>
+    <string name="settings_whatsnew_entry_optical_insets_summary">入力欄の＋とマイク、バックグラウンド作業と待機中の表示アイコン、サイドバーの「新しいセッション」の記号を、ガラス風の丸い端の中央に見えるよう調整しました。シェルのアイコンもサブエージェントのオーブと同じ円形になり、点滅カーソルをなくしました。両方が実行中なら横に並びます。</string>
+
+    <!-- 2026-10-19-03-smart-dictation-audio -->
+    <string name="settings_whatsnew_entry_smart_dictation_audio_title">音楽再生中の音声入力を改善</string>
+    <string name="settings_whatsnew_entry_smart_dictation_audio_summary">音楽を流しながら音声入力しても、AirPodsではステレオ再生が続き、1分後に音が途切れなくなりました。スマホだけで使う場合も、受話口ではなくスピーカーから再生されます。</string>
+
+    <!-- 2026-10-19-04-interrupted-hand -->
+    <string name="settings_whatsnew_entry_interrupted_hand_title">中断を手のアイコンで表示</string>
+    <string name="settings_whatsnew_entry_interrupted_hand_summary">処理やシェルが中断されると、手を挙げたアイコンが表示されます。手動で停止したシェルも「停止」ではなく「中断」と表示されます。</string>
+
+    <!-- 2026-10-19-05-autocomplete-fast-scroll -->
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_title">入力補完をより軽快に</string>
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_summary">実験的機能の「入力欄の自動補完」をオンにすると、入力に合わせて候補がすばやく更新されます。一覧をドラッグしても項目を選ばずにスクロールできます。</string>
+
+    <!-- 2026-10-19-06-experimental-groups -->
+    <string name="settings_whatsnew_entry_experimental_groups_title">実験的機能をグループ分け</string>
+    <string name="settings_whatsnew_entry_experimental_groups_summary">「設定 → 実験的」の機能をグループ分けしました。通話の表示方法も「通話スタイル」でまとめて選べます。</string>
+
+    <!-- 2026-10-19-07-model-picker-standard-sheet -->
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_title">モデル選択を標準シートに</string>
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_summary">実験的機能の「新しいモデル選択」をオンにすると、入力欄のモデルをタップして標準シートを開けます。各モデルには思考レベルのメニューがあります。従来の選択画面は「設定 › 実験的」の「カスタムモデル選択」になりました。</string>
+
+    <!-- 2026-10-19-08-problem-reports-reach-session -->
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_title">問題の報告をセッションにも送信</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_summary">「問題を報告」から送信すると、報告元のセッションにもメモが届きます。エージェントが読めるよう、報告の全内容も添付されます。</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_1">メッセージの冒頭には、問題の報告であること、メモ、報告ID、アップロードしたトレースへのリンクが表示されます。</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_2">端末、ビルド、画面、タイムライン、アプリログの情報が、自分で添付したファイルと同じ形で届きます。</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_3">ホームから報告すると、直近のセッションに届きます。</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_4">アップロードに失敗しても、メモと概要は失敗の通知とともに届きます。「もう一度試す」ではトレースのリンクだけを送ります。</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_5">届くと「セッションに送信しました」と表示されます。</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_example">セッションのメニューで「問題を報告」を選び、メモを入力して「送信」をタップ</string>
+
+    <!-- 2026-10-19-09-team-scrawl-feedback -->
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_title">チームでScrawlフィードバック</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_summary">専用リンクからTeam Feedbackに参加すると、3本指で始めるScrawlの録画と機密情報を除いた診断データを、問題ボードの共有キューに送れます。</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_1">自分のopencode://team/joinリンクを開き、収集される情報を確認して同意してください。</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_2">3ステップの体験型チュートリアルで、3本指の長押し、話しながら描く操作、テスト用レーンへの練習動画の送信を試せます。</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_3">各録画には「問題を報告」と同じく、機密情報を除いたタイムライン、アプリログ、Motion Watchの診断データが添付されます。</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_4">「設定 › 開発者向け」で、いつでもチュートリアルを再生したりTeam Feedbackから退会したりできます。</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_example">「設定 › 開発者向け」でTeam Feedbackの参加状況を確認したり、チュートリアルを再生したりできます。</string>
+
+    <!-- 2026-10-19-10-scrawl-faster-start -->
+    <string name="settings_whatsnew_entry_scrawl_faster_start_title">Scrawlの起動を高速化</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_summary">マイクと録画機能の起動中から、Scrawlの操作ボタンが表示されます。</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_1">録画の準備中に行った描画や「送信」「破棄」のタップも保持されます。</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_2">3本指で長押しすると、マイクを先に起動せずにオーバーレイを準備します。</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_3">音声の入出力先が変わり、Scrawlのマイクが再起動する際にクラッシュする問題を修正しました。</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_example">ペアリング済みの端末で3本指を長押しして録画を開始</string>
+
+    <!-- 2026-10-20-01-call-tray-docks-in-drawer -->
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_title">ドロワー内に通話トレイを表示</string>
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_summary">実験的機能の「通話トレイ」がオンのとき、通話中にドロワーを開くと、音量レベルと「ミュート」「終了」を備えたトレイが「新しいセッション」の下に移動します。閉じると元に戻ります。</string>
+
+    <!-- 2026-10-20-02-markdown-streams-smoothly -->
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_title">返信の逐次表示を滑らかに</string>
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_summary">長い返信も生成中に軽快に表示されます。入力途中の太字、コード、リンクも、Markdownの記号のままではなく書式を適用して表示します。</string>
+
+    <!-- 2026-10-20-04-return-newline-default -->
+    <string name="settings_whatsnew_entry_return_newline_default_title">リターンキーで改行</string>
+    <string name="settings_whatsnew_entry_return_newline_default_summary">リターンキーは標準で改行になりました。送信に使うには「設定 › セッション」で「リターンキーで送信」をオンにしてください。外付けキーボードではCtrl+Enterでも送信できます。</string>
+
+    <!-- 2026-10-20-05-drawer-session-alignment -->
+    <string name="settings_whatsnew_entry_drawer_session_alignment_title">ドロワーの配置を調整</string>
+    <string name="settings_whatsnew_entry_drawer_session_alignment_summary">スマホとタブレットで、「検索」「新しいセッション」「設定」がセッションのヘッダーや入力欄と揃うようになりました。</string>
+
+    <!-- 2026-10-20-06-call-tray-switch-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_title">通話操作の表示を安定化</string>
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_summary">セッションを切り替えても通話の波形が動き続けます。セッション一覧を開いても操作ボタンの高さが変わりません。</string>
+
+    <!-- 2026-10-20-07-voice-delegation-visible-on-admission -->
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_title">音声メッセージをすぐに表示</string>
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_summary">Voiceがセッションに送ったメッセージは、セッションの更新が遅れていても、サーバーが受け付けるとすぐに表示されます。</string>
+
+    <!-- 2026-10-20-08-inline-image-links -->
+    <string name="settings_whatsnew_entry_inline_image_links_title">画像リンクのプレビュー</string>
+    <string name="settings_whatsnew_entry_inline_image_links_summary">「設定 › 実験的 › 会話履歴」で「画像リンクのプレビュー」をオンにすると、返信内の画像リンクをプレビューできます。サムネイルをタップすると全画面で開き、拡大できます。</string>
+
+    <!-- 2026-10-20-09-smooth-link-preview-arrival -->
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_title">リンクのプレビューを滑らかに</string>
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_summary">リンクのプレビューが読み込みに合わせてふわっと現れます。タイトルの高さが変わると、その下の項目も滑らかに移動します。</string>
+
+    <!-- 2026-10-20-10-subagent-capsule-press -->
+    <string name="settings_whatsnew_entry_subagent_capsule_press_title">実行状況の表示を丸いままに</string>
+    <string name="settings_whatsnew_entry_subagent_capsule_press_summary">サブエージェントとシェルのカプセル表示は、押している間も両端の丸みを保ちます。</string>
+
+    <!-- 2026-10-20-11-advanced-settings-open -->
+    <string name="settings_whatsnew_entry_advanced_settings_open_title">上級設定をよりシンプルに</string>
+    <string name="settings_whatsnew_entry_advanced_settings_open_summary">「設定 › 実験的」のグループがすべて展開され、モデル選択の設定は「モデルピッカー」にまとまりました。選択肢の行はどこをタップしても変更できます。</string>
+
+    <!-- 2026-10-20-12-revert-to-here -->
+    <string name="settings_whatsnew_entry_revert_to_here_title">この時点までリセット</string>
+    <string name="settings_whatsnew_entry_revert_to_here_summary">自分のメッセージを長押しして「この時点までリセット」を選ぶと、その時点に戻って編集できます。</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_1">メッセージのテキスト、写真、ファイルが入力欄に戻ります。</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_2">新しいメッセージを送るまでは、「元に戻す」でやり取りとファイルの変更を復元できます。</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_3">エージェントが作業中でないときに使えます。</string>
+    <string name="settings_whatsnew_entry_revert_to_here_example">以前送ったメッセージを長押しして「この時点までリセット」を選んでみましょう。</string>
+
+    <!-- 2026-10-20-13-drag-from-transcript -->
+    <string name="settings_whatsnew_entry_drag_from_transcript_title">セッションからドラッグ</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_summary">セッション内のコード、画像、ファイル、リンク、メッセージを長押しして、ほかのアプリにドラッグできます。</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_1">コードブロックは言語情報付きのテキストとして渡されます。</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_2">エージェントが作成した画像やファイルは、ファイルとして渡されます。</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_3">入力欄にドロップすると、添付や貼り付けができます。</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_4">スクロール、テキスト選択、メニューはこれまでどおり使えます。</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_example">応答内のコードを1行選択し、選択部分を長押ししてブロックをメモにドラッグしてみましょう。</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_prompt">文字列を逆順にする短いSwift関数を、コードブロックに書いてください。</string>
+
+    <!-- 2026-10-20-14-tuning-glass-tap-targets -->
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_title">調整コントロールを押しやすく</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_summary">折りたたんだ調整パネルのピル型ボタンと端のタブで、タップできる範囲が広がりました。</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_detail_1">ガラス風の見た目のサイズは変わりません。</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_example">調整パネルを折りたたみ、ピル型ボタンやタブの端付近をタップしてみましょう</string>
+
+    <!-- 2026-10-20-15-new-session-project-continuity -->
+    <string name="settings_whatsnew_entry_new_session_project_continuity_title">プロジェクト選択を安定化</string>
+    <string name="settings_whatsnew_entry_new_session_project_continuity_summary">プロジェクトを選んでも最近使ったフォルダの位置が変わらず、ヘッダーの名前が滑らかに切り替わります。プロジェクト画面のフォルダパスも見やすくなりました。</string>
+
+    <!-- 2026-10-20-16-simple-session-loading -->
+    <string name="settings_whatsnew_entry_simple_session_loading_title">控えめな読み込み表示</string>
+    <string name="settings_whatsnew_entry_simple_session_loading_summary">セッションの読み込みに時間がかかるときだけ、小さな静止ロゴがふわっと現れ、メッセージへと切り替わります。</string>
+
+    <!-- 2026-10-20-17-voice-route-consistency -->
+    <string name="settings_whatsnew_entry_voice_route_consistency_title">音声接続の修正</string>
+    <string name="settings_whatsnew_entry_voice_route_consistency_summary">サーバーで通話を処理するときも、Grokは引き続き自分のxAIキーを使います。Geminiも自身を正しく名乗るようになりました。</string>
+
+    <!-- 2026-10-20-18-call-tray-edge-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_title">通話トレイの動き</string>
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_summary">通話トレイを開いたりドロワーに出し入れしたりすると、波形が丸みのある縁に沿って動きます。</string>
+
+    <!-- 2026-10-21-01-call-tray-keyboard-return -->
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_title">通話トレイの復帰</string>
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_summary">ドロワーを閉じてキーボードが戻っても、通話トレイは表示されたままになります。</string>
+
+    <!-- 2026-10-21-02-drawer-title-fade -->
+    <string name="settings_whatsnew_entry_drawer_title_fade_title">セッション名をより長く表示</string>
+    <string name="settings_whatsnew_entry_drawer_title_fade_summary">サイドバーの長いセッション名は、途中で省略記号に置き換えず、端まで表示して徐々に薄くなります。</string>
+
+    <!-- 2026-10-21-03-call-sounds-from-the-tap -->
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_title">通話音をすぐに再生</string>
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_summary">通話の接続音が、タップから数秒待たずに、最初のアニメーションと同時に鳴り始めます。</string>
+
+    <!-- 2026-10-21-04-calm-wireframe-launch -->
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_title">落ち着いた読み込み表示</string>
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_summary">キャッシュ済みのセッションはすぐに開きます。読み込みに時間がかかるときは、メッセージの吹き出しがゆっくり明滅し、実際のメッセージへと切り替わります。</string>
+
+    <!-- 2026-10-21-05-request-dictation-last-line -->
+    <string name="settings_whatsnew_entry_request_dictation_last_line_title">音声入力の末尾を表示</string>
+    <string name="settings_whatsnew_entry_request_dictation_last_line_summary">iOS 26で、回答待ちのリクエストの返信欄に長く音声入力して停止すると、途中ではなく最後の行が表示されるようになりました。</string>
+
+    <!-- 2026-10-21-06-first-run-pairing-fixes -->
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_title">初回ペアリングをわかりやすく</string>
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_summary">クリップボードが空の状態で貼り付けると、「貼り付け」の横にその旨を表示します。設定時に「30秒でリモートアクセス」と案内する表現もなくしました。</string>
+
+    <!-- 2026-10-21-07-welcome-pairing-copy -->
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_title">OpenCodeアプリからペアリング</string>
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_summary">ようこそ画面で、パソコンのOpenCodeの「設定 → ペアリング」またはターミナルの/pairを案内します。まだOpenCodeを使っていない方向けに、インストールコマンドも表示します。</string>
+
+    <!-- 2026-10-21-08-session-id-links -->
+    <string name="settings_whatsnew_entry_session_id_links_title">セッションリンク</string>
+    <string name="settings_whatsnew_entry_session_id_links_summary">応答内のセッションIDが、そのセッションのタイトルで表示されます。タップするとセッションが開きます。</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_1">サブエージェントのIDをタップすると、今のセッションの上に開きます。「戻る」で元に戻れます。</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_2">長押しするとIDをコピーできます。</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_3">このサーバーにないIDは短縮して表示されます。</string>
+    <string name="settings_whatsnew_entry_session_id_links_example">エージェントに別のセッションをID付きで挙げてもらい、タイトルをタップしてみましょう。</string>
+    <string name="settings_whatsnew_entry_session_id_links_prompt">最近のOpenCodeセッションを5件、セッションID付きで一覧にしてください。</string>
+
+    <!-- 2026-10-21-10-ipad-multiple-windows -->
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_title">タブレットで複数ウィンドウ</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_summary">タブレットではセッションを別々のウィンドウで開き、2つ並べて表示できます。</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_1">サイドバーのセッションを長押しして「新しいウィンドウで開く」を選びます。</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_2">各ウィンドウに専用のセッション、サイドバー、入力欄があります。</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_3">ピン留め、セッションの既読状態、サーバーはすべてのウィンドウで共通です。</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_4">ウィンドウを開き直すと、前に表示していたセッションに戻ります。</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_example">サイドバーのセッションを長押しして「新しいウィンドウで開く」を選び、元のウィンドウの横に並べてみましょう。</string>
+
+    <!-- 2026-10-21-11-plain-launch -->
+    <string name="settings_whatsnew_entry_plain_launch_title">シンプルな起動画面</string>
+    <string name="settings_whatsnew_entry_plain_launch_summary">OpenCodeはシンプルな画面で起動し、準備ができ次第、セッションに切り替わります。読み込みアニメーションは表示しません。</string>
+
+    <!-- 2026-10-21-12-breath-ping-call-sounds -->
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_title">やさしい通話音</string>
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_summary">接続時、通知時、終了時の通話音が、会話を邪魔しない、息のようにやわらかな音になりました。</string>
+
+    <!-- 2026-10-21-13-smoother-session-list -->
+    <string name="settings_whatsnew_entry_smoother_session_list_title">滑らかなセッション一覧</string>
+    <string name="settings_whatsnew_entry_smoother_session_list_summary">セッションの作業中も、サイドバーのセッション一覧が滑らかにスクロールします。セッションを長押しすると、行のサイズはそのままでメニューが開きます。</string>
+
+    <!-- 2026-10-22-01-whats-new-actions -->
+    <string name="settings_whatsnew_entry_whats_new_actions_title">新着情報から開いて試す</string>
+    <string name="settings_whatsnew_entry_whats_new_actions_summary">新着情報の各ページにボタンが付きました。テーマなどの設定を開いたり、お試し用のプロンプトを入力済みの新しいセッションを始めたりできます。</string>
+
+    <!-- 2026-10-22-02-project-icons-current-discovery -->
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_title">プロジェクトアイコンの修正</string>
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_summary">プロジェクトアイコンがオンの場合、サーバーがIcon Composerバンドル内で見つけたアイコンもサイドバーに表示されます。</string>
+
+    <!-- 2026-10-22-03-new-divider-off-page -->
+    <string name="settings_whatsnew_entry_new_divider_off_page_title">必要なときだけ新着を表示</string>
+    <string name="settings_whatsnew_entry_new_divider_off_page_summary">実験的機能の「新着メッセージの区切り」がオンの場合、新着内容が画面に収まらないときだけ「新着」が表示されます。</string>
+
+    <!-- 2026-10-22-04-catch-up-all-caught-up-row -->
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_title">すべて確認済み</string>
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_summary">「未読を確認」で最後のセッションを読むと、そのままサイドバーに戻ります。「未読を確認」にはチェックが付き、「すべて確認済み」に変わります。</string>
+
+    <!-- 2026-10-23-01-session-mentions -->
+    <string name="settings_whatsnew_entry_session_mentions_title">セッションにメンション</string>
+    <string name="settings_whatsnew_entry_session_mentions_summary">実験的機能の「入力欄の自動補完」をオンにすると、デスクトップと同じように、@を入力して別のセッションをタイトルでメンションできます。</string>
+
+    <!-- 2026-10-23-02-gpt-live-own-key -->
+    <string name="settings_whatsnew_entry_gpt_live_own_key_title">GPT-Liveのキー</string>
+    <string name="settings_whatsnew_entry_gpt_live_own_key_summary">GPT-Liveの通話に、自分のOpenAIキー、サーバーのOpenAIキー、またはサーバーのOpenCode Console接続を使えます。</string>
+
+    <!-- 2026-10-23-03-pair-opens-drawer -->
+    <string name="settings_whatsnew_entry_pair_opens_drawer_title">前回の続きから再開</string>
+    <string name="settings_whatsnew_entry_pair_opens_drawer_summary">新しいコンピューターとペアリングすると、空のセッションではなく、最近のセッションを選べるサイドバーが開きます。</string>
+
+    <!-- 2026-10-23-04-voice-server-picker -->
+    <string name="settings_whatsnew_entry_voice_server_picker_title">音声サーバーを選択</string>
+    <string name="settings_whatsnew_entry_voice_server_picker_summary">設定 › 声 › 音声プロバイダーで、通話に使う保存済みサーバー、またはこのスマホの自分のOpenAIアカウントを選べます。</string>
+
+    <!-- 2026-10-24-01-living-orb-floats -->
+    <string name="settings_whatsnew_entry_living_orb_floats_title">どの画面にも浮かぶオーブ</string>
+    <string name="settings_whatsnew_entry_living_orb_floats_summary">設定 › 実験的 › 通話の「通話スタイル」に、浮かぶ「生きたオーブ」が加わりました。大きくなったオーブが設定を含むすべての画面の上に表示され、双方の声に合わせて動きます。同時に話すと、それぞれの色で反応します。タップでカードに拡大し、上にドラッグすると通話全体と会話履歴を表示、下にドラッグすると元のサイズに戻ります。「通話スタイル」の下にある「オーブ」で見た目を変えられます。</string>
+
+    <!-- 2026-10-24-02-new-messages-divider-on -->
+    <string name="settings_whatsnew_entry_new_messages_divider_on_title">新着メッセージの区切り</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_summary">離れている間に届いた応答が画面に収まらない場合、セッションを開くと応答の先頭に「新着」の区切りが表示されます。</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_1">画面に収まる応答は末尾が表示され、区切りは付きません。</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_2">見ている間に順次届く応答には、区切りは付きません。</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_3">最後まで読むと区切りが消えます。</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_4">設定 › セッションでオフにできます。</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_example">長い応答を頼み、完了するまで別のアプリに切り替えてから戻ってみてください。</string>
+
+    <!-- 2026-10-24-03-composer-keyboard-morph -->
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_title">キーボードに合わせて動く入力欄</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_summary">入力欄の操作ボタンがキーボードと一緒に開き、上下にドラッグするとキーボードに合わせて動きます。</string>
+
+    <!-- 2026-10-24-04-composer-photo-viewer -->
+    <string name="settings_whatsnew_entry_composer_photo_viewer_title">入力欄の写真を全画面表示</string>
+    <string name="settings_whatsnew_entry_composer_photo_viewer_summary">入力欄の写真をタップすると全画面で表示されます。スワイプで写真を切り替えたり、送信前に削除したりできます。</string>
+
+    <!-- 2026-10-24-05-plus-menu-photo-picker -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_title">新しい写真選択</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_summary">設定 › 実験的 › 入力欄で「新しい＋メニュー」をオンにすると、＋メニューから最近の写真を最大8枚選んだり、「すべての写真」を開いたりできます。写真が入力欄へ、さらにセッションへと移動するアニメーションも楽しめます。</string>
+
+    <!-- 2026-10-24-06-project-icons-lit -->
+    <string name="settings_whatsnew_entry_project_icons_lit_title">光が映るプロジェクトアイコン</string>
+    <string name="settings_whatsnew_entry_project_icons_lit_summary">プロジェクトアイコンがオンの場合、サイドバーのアイコンに光の表現が加わります。上からの柔らかな光、ガラスのような細い縁、淡い影が付きます。</string>
+
+    <!-- 2026-10-24-07-session-live-activity -->
+    <string name="settings_whatsnew_entry_session_live_activity_title">セッションのリアルタイム更新</string>
+    <string name="settings_whatsnew_entry_session_live_activity_summary">設定 › 実験的 › ドロワーで「セッションのリアルタイム更新」をオンにすると、送信した作業の進行状況を、完了または入力が必要になるまで通知で確認できます。ロック画面にも表示されます。</string>
+
+    <!-- 2026-10-24-08-sign-in-failed-edit-server -->
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_title">サインイン失敗時の修正</string>
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_summary">サーバーにパスワードを拒否された場合、サイドバーのサーバーメニューに、効果のない「もう一度試す」の代わりに「サーバーを編集…」が表示されます。ようこそ画面では、ターミナルでのopencode pair --remoteの実行を案内します。</string>
+
+    <!-- 2026-10-25-01-voice-app-screenshot -->
+    <string name="settings_whatsnew_entry_voice_app_screenshot_title">音声でスクリーンショット</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_summary">音声通話で「これを見て」と言うと、アプリの画面がフィードバックと一緒にセッションへ送られます。</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_1">送られるのはこのアプリの画面だけで、画面名と通話・アプリの状態も含まれます。</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_2">通話ログや最近のアプリログも一緒に送るよう頼めます。アドレスや認証情報は伏せられます。</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_3">サインイン画面やパスワード欄が表示されている間は撮影しません。</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_example">音声通話で「スクリーンショットを撮って。この行がずれている」と言ってみてください</string>
+
+    <!-- 2026-10-25-02-voice-background-results -->
+    <string name="settings_whatsnew_entry_voice_background_results_title">裏で進めた作業の結果を通話で</string>
+    <string name="settings_whatsnew_entry_voice_background_results_summary">通話中に頼んだセッションがバックグラウンドで作業を始めると、完了次第、結果を通話で知らせます。すでに別のことをしていても受け取れます。</string>
+
+    <!-- 2026-10-25-03-sound-effects-experiment -->
+    <string name="settings_whatsnew_entry_sound_effects_experiment_title">効果音</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_summary">応答、リクエスト、未読の確認、送信失敗に合わせて、振動とともに控えめな音を鳴らす実験的機能です。</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_1">サイレント・バイブモードでは鳴りません。再生中の音楽はそのまま続きます。</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_2">通話中、音声入力中、メディア再生中、バックグラウンドでは鳴りません。</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_3">スイッチの下で音量を調整し、送信音を使うかどうかも選べます。</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_example">設定 › 実験的で「効果音」をオンにし、別のセッションで応答を待ってみてください</string>
+
+    <!-- 2026-10-25-90-session-title-first-prompt -->
+    <string name="settings_whatsnew_entry_session_title_first_prompt_title">最初のプロンプトをタイトルに</string>
+    <string name="settings_whatsnew_entry_session_title_first_prompt_summary">タイトルのないセッションには、サーバーが名前を付けるまで、最初のプロンプトが1行で表示されます。</string>
+
+    <!-- 2026-10-26-01-settings-sessions-page -->
+    <string name="settings_whatsnew_entry_settings_sessions_page_title">セッションの設定</string>
+    <string name="settings_whatsnew_entry_settings_sessions_page_summary">設定に「セッション」ページが加わりました。「新着メッセージの区切り」は「改行キーで送信」の上にあります。また、「上級」は「実験的」と「開発者向け」の2項目に分かれました。</string>
+
+    <!-- 2026-10-26-02-project-icons-default -->
+    <string name="settings_whatsnew_entry_project_icons_default_title">プロジェクトアイコンを標準で表示</string>
+    <string name="settings_whatsnew_entry_project_icons_default_summary">セッションのタイトル横にプロジェクトアイコンが表示されるようになりました。設定 › 実験的でオフにできます。</string>
+
+    <!-- 2026-10-26-03-plus-menu-over-keyboard -->
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_title">キーボードの上で写真を選択</string>
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_summary">「新しい＋メニュー」がオンの場合、＋メニューがキーボードの上に開きます。「写真」を開くと画面の端まで広がるシートになり、キーボードを閉じずに折りたためます。</string>
+
+    <!-- 2026-10-26-04-living-orb-connect-motion -->
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_title">接続時のオーブの動き</string>
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_summary">リビングオーブがオンのとき、通話ボタンが浮き上がってオーブになり、接続中は回転します。通話が終わるとボタンに戻ります。すぐにかけ直しても固まらず、新しい通話が始まります。</string>
+
+    <!-- 2026-10-26-05-living-orb-presets -->
+    <string name="settings_whatsnew_entry_living_orb_presets_title">オーブのプリセットとファンシー</string>
+    <string name="settings_whatsnew_entry_living_orb_presets_summary">設定 › 実験的 › 通話の「通話スタイル」の下にある「オーブ」は、ファンシーで開くようになりました。大きなライブプレビューとプリセットの一覧を表示します。自分の設定を保存して名前を変更したり、コピー＆貼り付けで共有したりできます。</string>
+
+    <!-- 2026-10-26-06-send-after-a-pause -->
+    <string name="settings_whatsnew_entry_send_after_a_pause_title">間を置いた送信もスムーズに</string>
+    <string name="settings_whatsnew_entry_send_after_a_pause_summary">間を置いて送信したメッセージも、入力欄から吹き出しへまっすぐ上がるようになりました。時刻表示の下で一度入力欄の方へ沈む動きはなくなりました。</string>
+
+    <!-- 2026-10-27-01-steadier-round-trip -->
+    <string name="settings_whatsnew_entry_steadier_round_trip_title">応答時間の表示を安定化</string>
+    <string name="settings_whatsnew_entry_steadier_round_trip_summary">接続カードのミリ秒の数値は、直近数回の測定の移動平均になりました。一度応答が遅くても、数値が大きく跳ね上がらなくなります。</string>
+
+    <!-- 2026-10-27-02-drawer-drag-follows-finger -->
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_title">サイドバーのドラッグが指に追従</string>
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_summary">サイドバーでセッションをドラッグすると、指の真下でヘッダーより手前に表示されます。一覧の端ではスクロールし、指を離すと所定の位置に収まります。</string>
+
+    <!-- 2026-10-27-03-inbox-sidebar-experiment -->
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_title">受信トレイ型サイドバー</string>
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_summary">設定 › 実験的 › ドロワーで「受信トレイ型サイドバー」をオンにすると、入力待ち、未読の順にセッションが並び、それぞれのプロジェクトと最新の応答が表示されます。スワイプで既読にしたり、アーカイブしたりできます。</string>
+
+    <!-- 2026-10-28-01-first-pairing-ready-session -->
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_title">最初のセッションをすぐに開始</string>
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_summary">初めてパソコンをペアリングすると、最近使ったプロジェクトで新しいセッションが開き、試せる質問が表示されます。タップで接続を確認できます。新規インストール時は「新着情報」も既読で始まります。</string>
+
+    <!-- 2026-10-28-02-welcome-preview -->
+    <string name="settings_whatsnew_entry_welcome_preview_title">ようこそ画面のプレビュー</string>
+    <string name="settings_whatsnew_entry_welcome_preview_summary">新しい初回案内では、ノートパソコンで動くOpenCodeをスマホから操作する様子を紹介し、そのままワンステップでペアリングできます。設定 › 実験的 › ドロワーで「ようこそ画面のプレビュー」をオンにし、「ようこそ画面を表示」をタップすると確認できます。閉じると元の画面に戻ります。</string>
+
+    <!-- 2026-10-29-01-composer-text-selection -->
+    <string name="settings_whatsnew_entry_composer_text_selection_title">入力欄でテキストを選択</string>
+    <string name="settings_whatsnew_entry_composer_text_selection_summary">下書きの選択ハンドルや拡大鏡をドラッグしても、キーボードが閉じたり、入力欄が上下に動いたりしなくなりました。</string>
+
+    <!-- 2026-10-30-01-voice-waits-for-you -->
+    <string name="settings_whatsnew_entry_voice_waits_for_you_title">話し終わるまで待つ通話</string>
+    <string name="settings_whatsnew_entry_voice_waits_for_you_summary">音声エージェントが話を遮らなくなりました。進捗の報告は話し終わるまで待ち、エージェントの発話中に話しかけると発話を止めます。</string>
+
+    <!-- 2026-10-30-02-wisp-call-sounds -->
+    <string name="settings_whatsnew_entry_wisp_call_sounds_title">音声通話にWispのサウンド</string>
+    <string name="settings_whatsnew_entry_wisp_call_sounds_summary">通話は静かなきらめきに柔らかな息の音が重なって始まり、接続するとチャイムが鳴ります。エージェントが確認・表示・実行するときは小さなクリック音、終了時はため息が聞こえます。設定 › 声 › 通話サウンドで別のセットを選べます。</string>
+
+    <!-- 2026-10-30-03-wisp-orb -->
+    <string name="settings_whatsnew_entry_wisp_orb_title">音声オーブがWispに</string>
+    <string name="settings_whatsnew_entry_wisp_orb_summary">通話のオーブがWispのデザインになりました。ガラスのレンズの下にある光の粒が双方の声に反応し、接続中・聞き取り中・作業中・発話中・入力待ちをWispの表情で伝えます。スタイルはこれに統一され、以前のスタイルとオーブ設定はなくなりました。</string>
+
+    <!-- 2026-10-31-01-encrypted-notification-previews -->
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_title">通知プレビューの暗号化</string>
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_summary">更新された通知プラグインとHTTPS接続を使うと、サーバーがこの端末向けにタイトルとメッセージを暗号化します。プレビューを開けない場合、通知には「新しいアクティビティ」とだけ表示されます。</string>
+
+    <!-- 2026-10-31-02-move-session-folder-gone -->
+    <string name="settings_whatsnew_entry_move_session_folder_gone_title">フォルダがなくてもセッションを継続</string>
+    <string name="settings_whatsnew_entry_move_session_folder_gone_summary">ワークスペースの削除などでセッションのフォルダがなくなった場合、送信に失敗するとプロジェクトのフォルダへの移動が提案され、再送信できます。</string>
+
+    <!-- 2026-10-31-03-notification-plugin-setup -->
+    <string name="settings_whatsnew_entry_notification_plugin_setup_title">OpenCodeで通知を設定</string>
+    <string name="settings_whatsnew_entry_notification_plugin_setup_summary">設定 → 通知で「OpenCodeで設定」をタップすると、未導入の通知プラグインをインストールするプロンプトを確認できます。</string>
+
+    <!-- 2026-11-01-01-call-card-takes-over -->
+    <string name="settings_whatsnew_entry_call_card_takes_over_title">通話カードを画面下部いっぱいに</string>
+    <string name="settings_whatsnew_entry_call_card_takes_over_summary">リビングオーブの通話カードが、メッセージ欄の手前で画面下部いっぱいに広がるようになりました。周囲の余白が均等になり、キーボードに圧迫されません。入力するときはオーブに縮めてください。</string>
+
+    <!-- 2026-11-01-01-screenshot-shutter -->
+    <string name="settings_whatsnew_entry_screenshot_shutter_title">スクリーンショットのシャッター</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_summary">アプリがセッション用に自身のスクリーンショットを撮ると、画面が光り、シャッター音が鳴ります。</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_1">フラッシュは撮影後に光るので、画像には写りません。</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_2">「視差効果を減らす」がオンなら穏やかに暗くなり、「光の点滅を抑える」がオンなら光りません。</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_3">通話中のシャッター音は通話音声として再生されるため、エージェントには聞こえません。</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_example">音声通話で「これを見て」と言ってみてください</string>
+
+    <!-- 2026-11-01-01-voice-says-whats-running -->
+    <string name="settings_whatsnew_entry_voice_says_whats_running_title">通話中に作業内容をお知らせ</string>
+    <string name="settings_whatsnew_entry_voice_says_whats_running_summary">リクエストに時間がかかる場合、音声エージェントは黙ったままではなく、何をしているか伝えるようになりました。</string>
+
+    <!-- 2026-11-01-02-living-orb-default -->
+    <string name="settings_whatsnew_entry_living_orb_default_title">通話がオーブで浮かぶ</string>
+    <string name="settings_whatsnew_entry_living_orb_default_summary">すべてのユーザーの音声通話が、どの画面でも手前に浮かぶリビングオーブになりました。メッセージ欄はそのまま使えます。</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_1">オーブをタップすると通話カードに広がり、上にドラッグすると通話の全画面と会話履歴を表示します。</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_2">オーブは好きな場所にドラッグできます。セッションを切り替えたり設定を開いたりしても、その位置に留まります。</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_3">セッション一覧でも、設定の横にある通話ボタンから通話を始められます。</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_4">トレイはなくなりました。使っていた場合も、通話は浮かぶオーブになります。</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_5">設定 › 実験的 › 通話 › リビングオーブでオフにできます。</string>
+    <string name="settings_whatsnew_entry_living_orb_default_example">通話を始めてセッション一覧を開くと、オーブもついてきます</string>
+
+    <!-- 2026-11-01-02-quicker-send -->
+    <string name="settings_whatsnew_entry_quicker_send_title">送信をもっと素早く</string>
+    <string name="settings_whatsnew_entry_quicker_send_summary">送信したメッセージが入力欄で一度止まらず、一覧と一緒に吹き出しへ上がるようになりました。</string>
+
+    <!-- 2026-11-01-02-share-screen-with-agents -->
+    <string name="settings_whatsnew_entry_share_screen_with_agents_title">エージェントと画面を共有</string>
+    <string name="settings_whatsnew_entry_share_screen_with_agents_summary">設定 › 実験的 › 通話で「エージェントと画面を共有」をオンにすると、通話中にエージェントがアプリ画面の共有を求められます。「共有」で画像を送るか、「今はしない」を選べます。</string>
+
+    <!-- 2026-11-01-03-audio-in-calls -->
+    <string name="settings_whatsnew_entry_audio_in_calls_title">通話中の音声再生</string>
+    <string name="settings_whatsnew_entry_audio_in_calls_summary">設定 › 実験的 › 通話で「通話中の音声再生」をオンにすると、通話中にエージェントが音楽や音声クリップを再生できます。どちらかが話している間は音量が下がります。入力欄の上で一時停止や停止ができます。</string>
+
+    <!-- 2026-11-01-03-open-links-from-calls -->
+    <string name="settings_whatsnew_entry_open_links_from_calls_title">通話からリンクを開く</string>
+    <string name="settings_whatsnew_entry_open_links_from_calls_summary">設定 › 実験的 › 通話で「通話からリンクを開く」をオンにすると、通話中にエージェントがUberの配車などのリンクを提案できます。「開く」で対応するアプリを開くか、「今はしない」を選べます。</string>
+
+    <!-- 2026-11-02-01-fold-questions -->
+    <string name="settings_whatsnew_entry_fold_questions_title">質問を折りたたんですっきり</string>
+    <string name="settings_whatsnew_entry_fold_questions_summary">質問を下にドラッグすると入力欄の上の小さなバーに折りたたまれ、タップで元に戻せます。回答の送信に失敗した場合は、「再試行」を押すまで待つようになりました。</string>
+
+    <!-- 2026-11-02-01-steadier-following -->
+    <string name="settings_whatsnew_entry_steadier_following_title">応答への追従を安定化</string>
+    <string name="settings_whatsnew_entry_steadier_following_summary">生成中の応答は下端に固定され、「作業中」の表示が跳ねなくなりました。入力欄より上なら、どこからでもスワイプで一覧をスクロールできます。</string>
+
+    <!-- 2026-11-02-40-model-display-names -->
+    <string name="settings_whatsnew_entry_model_display_names_title">モデル名</string>
+    <string name="settings_whatsnew_entry_model_display_names_summary">モデル一覧の読み込み中や再接続中も、入力欄にモデル名が表示されます。</string>
+
+    <!-- 2026-11-02-41-all-experiments -->
+    <string name="settings_whatsnew_entry_all_experiments_title">すべての実験的機能</string>
+    <string name="settings_whatsnew_entry_all_experiments_summary">「設定 › 実験的」の一番上にあるスイッチで、今後追加されるものも含め、すべての実験的機能をオンにできます。</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_1">使わない機能は個別にオフにできます。次回もオフのままです。</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_2">「すべての実験的機能」をオフにすると、各スイッチが以前の設定に戻ります。</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_3">権限が必要な実験的機能は、引き続き個別に選択します。</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_4">自動補完、プラスメニューの写真選択画面、新しいサーバー切り替え、プロジェクトアイコンが全員に有効になりました。</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_5">統合ピッカーと動くオーブは通常のスイッチになり、通話トレイはなくなりました。</string>
+    <string name="settings_whatsnew_entry_all_experiments_example">「設定 › 実験的」を開き、「すべての実験的機能」をオンにしてみよう</string>
+
+    <!-- 2026-11-03-01-search-all-sessions -->
+    <string name="settings_whatsnew_entry_search_all_sessions_title">以前のセッションを検索</string>
+    <string name="settings_whatsnew_entry_search_all_sessions_summary">サイドバーの検索が、最近のものだけでなくすべてのセッションを対象に。下までスクロールすると、以前のセッションが読み込まれます。</string>
+
+    <!-- 2026-11-03-01-voice-open-session -->
+    <string name="settings_whatsnew_entry_voice_open_session_title">声でセッションを切り替え</string>
+    <string name="settings_whatsnew_entry_voice_open_session_summary">音声エージェントにセッションを開くよう頼むと、ドロワーが閉じ、通話はそのまま続きます。</string>
+
+    <!-- 2026-11-03-02-orb-divider-image-links -->
+    <string name="settings_whatsnew_entry_orb_divider_image_links_title">3つの実験的機能を正式公開</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_summary">動くオーブ、「新着」の区切り、画像リンクのプレビューが全員に有効になりました。切り替えスイッチはありません。</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_1">すべての通話が動くオーブに表示されます。以前の通話バーはなくなりました。</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_2">セッションに戻ったとき、不在中の新着が画面に収まらない場合は、「新着」の区切りで開始位置を示します。</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_3">画像への直接リンクは、メッセージの下に画像を表示します。</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_example">入力欄から通話を始めて、浮かぶオーブを見てみよう</string>
+
+    <!-- 2026-11-04-01-call-links-and-audio -->
+    <string name="settings_whatsnew_entry_call_links_and_audio_title">通話中のリンクと音声</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_summary">通話からリンクを開く機能と通話中の音声再生が、全員に有効になりました。切り替えスイッチはありません。</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_1">通話中にエージェントがUberの配車などのリンクを提案できます。「開く」で対応アプリを開くか、「今はしない」を選べます。</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_2">通話中にエージェントが音楽やクリップを再生できます。どちらかが話すと音量が下がります。入力欄の上で一時停止や停止ができます。</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_example">通話中に、エージェントに音楽をかけてと頼んでみよう</string>
+
+    <!-- 2026-11-04-01-composer-editing-caret -->
+    <string name="settings_whatsnew_entry_composer_editing_caret_title">下書きの編集</string>
+    <string name="settings_whatsnew_entry_composer_editing_caret_summary">下書きの途中の単語を編集しても、カーソルが入力位置にとどまります。</string>
+
+    <!-- 2026-11-04-01-loading-touch-recovery -->
+    <string name="settings_whatsnew_entry_loading_touch_recovery_title">読み込み後のスクロール</string>
+    <string name="settings_whatsnew_entry_loading_touch_recovery_summary">読み込み中の画面切り替えでアプリに戻っても、すぐに会話履歴をスクロールできます。</string>
+
+    <!-- 2026-11-05-01-composer-keyboard-width -->
+    <string name="settings_whatsnew_entry_composer_keyboard_width_title">入力中は入力欄を広く</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_width_summary">キーボード表示中は左右の余白を小さく均等にして入力欄を広げ、長い下書きの折り返しを減らします。</string>
+
+    <!-- 2026-11-05-02-plus-menu-touch-release -->
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_title">添付メニューを閉じる</string>
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_summary">レイアウトの変更中でも、添付メニューを閉じれば背後のセッションを操作できます。</string>
+
+    <!-- 2026-11-05-02-quiet-reconnecting-pill -->
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_title">起動時の表示を安定化</string>
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_summary">起動時に入力欄の上で「再接続中…」が一瞬表示されたり、セッションがずれたりしなくなりました。再接続に時間がかかるときだけ表示します。</string>
+
+    <!-- 2026-11-05-03-stuck-touch-recovery -->
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_title">スクロールを自動復旧</string>
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_summary">見えない要素が1秒以上セッションのスクロールを妨げると、自動で解除します。</string>
+
+    <!-- 2026-11-05-04-reply-text-selection -->
+    <string name="settings_whatsnew_entry_reply_text_selection_title">応答をまたいでテキスト選択</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_summary">応答内の単語を長押しかダブルタップし、ハンドルをドラッグすると、段落、リスト、コード、表をまたいで選択できます。</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_1">ハンドルをヘッダーのすぐ下や入力欄のすぐ上で止めると、応答がスクロールします。端に近いほど速くなります。</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_2">コピーではリストの記号や番号、表の行と列を保持します。引用では選択範囲を入力欄に追加し、コードブロックも保持します。</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_example">長い応答の冒頭付近の単語を長押しし、末尾のハンドルを入力欄までドラッグして止めてみよう</string>
+
+    <!-- 2026-11-06-01-scrolling-unsticks -->
+    <string name="settings_whatsnew_entry_scrolling_unsticks_title">スクロールの停止を自動解消</string>
+    <string name="settings_whatsnew_entry_scrolling_unsticks_summary">別のセッションに切り替えないとスクロールできないことがありましたが、自動で復旧するようになりました。</string>
+
+    <!-- 2026-11-06-02-server-addresses -->
+    <string name="settings_whatsnew_entry_server_addresses_title">サーバー接続を安定化</string>
+    <string name="settings_whatsnew_entry_server_addresses_summary">OpenCodeはサーバーの全アドレスに同時に接続を試み、最初に応答したものを使います。外出時もVPNをオフ・オンせずに再接続できます。</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_1">自宅のネットワークで使えたアドレスを、外出先でも優先して試すことはなくなりました。</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_2">短い切断、スマホのロック解除、クイック設定を開く操作でバナーが一瞬表示されることはなくなりました。数秒後に「再接続中」、約12秒後に「オフライン」と表示します。スマホがネットワーク未接続なら約4秒後です。</string>
+    <string name="settings_whatsnew_entry_server_addresses_example">Tailscaleでペアリングしたサーバーのセッションを開き、Wi-Fiをオフにして作業を続けてみよう</string>
+
+    <!-- 2026-11-07-01-server-voice -->
+    <string name="settings_whatsnew_entry_server_voice_title">サーバーのキーで通話</string>
+    <string name="settings_whatsnew_entry_server_voice_summary">サーバー経由の音声通話が全員に有効になり、切り替えスイッチはなくなりました。OpenCodeサーバーのキーを使えるので、このスマホにOpenAIキーを用意する必要はありません。</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_1">「自動で選択」がオンの場合、接続中のサーバー、このスマホのOpenAIキー、利用可能な別の保存済みサーバーの順に使います。</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_2">スマホとサーバーの両方にOpenAIキーがある場合、サーバーのキーを使うようになりました。スマホのキーを使い続けるには、「音声プロバイダー」で「自分のOpenAIアカウント」を開き、「通話に使用」をタップしてください。</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_3">Geminiのキーがあるサーバーでは、Gemini Liveもプロバイダーとして使えるようになりました。</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_4">通話を開始できない場合は、理由と解決用のボタンを表示します。</string>
+    <string name="settings_whatsnew_entry_server_voice_example">「設定 › 音声」を開き、「音声プロバイダー」をタップしてみよう</string>
+
+    <!-- 2026-11-07-02-rename-clear-button -->
+    <string name="settings_whatsnew_entry_rename_clear_button_title">ワンタップでタイトルを消去</string>
+    <string name="settings_whatsnew_entry_rename_clear_button_summary">セッションとサーバーの名前変更にクリアボタンが追加されました。元の名前を一文字ずつ消さずに、新しい名前を入力できます。</string>
+
+    <!-- 2026-11-07-03-one-picker -->
+    <string name="settings_whatsnew_entry_one_picker_title">新しいモデル選択画面</string>
+    <string name="settings_whatsnew_entry_one_picker_summary">入力欄のモデルをタップすると、そこから一覧が広がります。上部に「お気に入り」と「最近使用」、その下にすべてのプロバイダーが並びます。</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_1">モデルの行にある「high」などの思考レベルをタップすると、一覧を閉じずに変更できます。</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_2">行をスワイプまたは長押しすると、お気に入りに登録したり解除したりできます。</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_3">検索欄は下部にあります。「opus high」のように名前の後にレベルを入力して改行キーを押すと、両方を選択できます。</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_4">ドラッグハンドルを上に引くと一覧が広がり、下に引くと閉じます。</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_5">新しい選択画面が従来のモデルシートに代わり、設定 › 実験的からOne Pickerのスイッチがなくなりました。</string>
+    <string name="settings_whatsnew_entry_one_picker_example">メッセージ入力欄のモデルをタップし、行をスワイプしてお気に入りに登録</string>
+
+    <!-- 2026-11-08-01-connecting-caption-glass -->
+    <string name="settings_whatsnew_entry_connecting_caption_glass_title">「…経由で接続中」を見やすく</string>
+    <string name="settings_whatsnew_entry_connecting_caption_glass_summary">サーバー経由で通話に接続するときの「…経由で接続中」にすりガラス調の背景が付き、背後のメッセージと重なって読みにくくなることがなくなりました。</string>
+
+    <!-- 2026-11-08-02-default-model -->
+    <string name="settings_whatsnew_entry_default_model_title">新しいセッションはデフォルトのモデルで</string>
+    <string name="settings_whatsnew_entry_default_model_summary">新しいセッションは、前のセッションのモデルではなく、OpenCodeでデフォルトに設定したモデルで始まります。思考レベルは、そのモデルで最後に選んだものが使われます。</string>
+
+    <!-- 2026-11-11-01-streamed-reply-prefix -->
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_title">返信を生成途中から読む</string>
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_summary">返信の生成中にセッションを開くと、続きを待ちながら届いた分を読めます。</string>
+
+    <!-- 2026-11-13-01-draw-on-images -->
+    <string name="settings_whatsnew_entry_draw_on_images_title">画像に描き込む</string>
+    <string name="settings_whatsnew_entry_draw_on_images_summary">気になる箇所に印を付けて質問できます。</string>
+    <string name="settings_whatsnew_entry_draw_on_images_detail_1">画像を全画面で開き、ペンボタンをタップします。色を選んで描き込み、「追加」をタップするとメッセージに添付できます。元の画像は変わりません。</string>
+    <string name="settings_whatsnew_entry_draw_on_images_example">スクリーンショットで移動したいコントロールを丸で囲み、移動先を説明してみましょう。</string>
+
+    <!-- 2026-11-14-01-fullscreen-viewer -->
+    <string name="settings_whatsnew_entry_fullscreen_viewer_title">スワイプで写真や動画を切り替え</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_summary">セッション内の画像や動画をまとめて見られます。</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_detail_1">スワイプで動画に切り替え、ペンボタンをタップすると、現在のフレームに描き込めます。「追加」をタップすると、描き込んだフレームが送信されずに添付されます。</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_example">デモ動画の変更したい画面で一時停止し、該当箇所を丸で囲んで下書きに追加してみましょう。</string>
+
+    <!-- 2026-11-15-01-pairing-link-name -->
+    <string name="settings_whatsnew_entry_pairing_link_name_title">OpenCode Consoleからサーバー名も引き継ぎ</string>
+    <string name="settings_whatsnew_entry_pairing_link_name_summary">OpenCode Consoleからペアリングしたサーバーは、「Anomaly Box」などの名前も引き継ぎます。</string>
+
+    <!-- 2026-11-17-01-session-media -->
+    <string name="settings_whatsnew_entry_session_media_title">セッションのメディア</string>
+    <string name="settings_whatsnew_entry_session_media_summary">セッション内の画像、動画、音声、ファイル、公開ウェブリンクをまとめて確認できます。</string>
+    <string name="settings_whatsnew_entry_session_media_detail_1">セッションの⋮メニューから「セッションのメディア」を選びます。「メディア」では画像、動画、音声を月別のタイルや一覧で表示できます。「ファイル」と「リンク」では、文書、貼り付けたテキスト、Webリンクを一覧で確認できます。</string>
+    <string name="settings_whatsnew_entry_session_media_example">セッション全体をさかのぼらずに、今朝送ったスクリーンショットを探せます。</string>
+
+    <!-- 2026-11-18-02-drawer-call-phone -->
+    <string name="settings_whatsnew_entry_drawer_call_phone_title">ドロワーの通話ボタンを電話アイコンに</string>
+    <string name="settings_whatsnew_entry_drawer_call_phone_summary">セッション一覧の「設定」の隣にある通話ボタンが、メッセージ欄と同じ電話アイコンになりました。</string>
+
+    <!-- 2026-11-19-01-background-scripts -->
+    <string name="settings_whatsnew_entry_background_scripts_title">バックグラウンド作業にスクリプトを表示</string>
+    <string name="settings_whatsnew_entry_background_scripts_summary">エージェントがバックグラウンドに移したスクリプトが、サブエージェントやシェルと並んで表示されます。サブエージェントも、画像や動画の処理、スクリプトの実行が続いている間は一覧に残ります。どちらも一覧から停止できます。</string>
+</resources>

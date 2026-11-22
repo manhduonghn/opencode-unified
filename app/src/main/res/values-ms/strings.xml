@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Tidak dapat menambah item dikongsi</string>
+    <string name="app_alert_open_session_failed_title">Tidak dapat membuka sesi</string>
+    <string name="app_alert_pairing_failed_title">Tidak dapat berpasangan dengan pelayan</string>
+    <string name="app_pairing_confirm">Pasangkan</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Pelayan</string>
+    <string name="app_servers_back_description">Kembali ke %1$s</string>
+    <string name="app_server_fallback_name">pelayan</string>
+    <string name="app_connection_intro_new">Teruskan sesi pengekodan anda dari %1$s anda.</string>
+    <string name="app_connection_intro_returning">Sambung dari tempat anda berhenti, atau pasangkan komputer lain.</string>
+    <string name="app_connection_enter_manually">Masukkan pelayan secara manual</string>
+    <string name="app_connection_scan_pairing_code">Imbas kod pemasangan</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Pada komputer anda, buka OpenCode dan pergi ke Tetapan → Pemasangan, atau jalankan opencode pair --remote dalam terminal. Kemudian imbas kod dengan %1$s ini.</string>
+    <string name="app_setup_install_title">Belum ada OpenCode?</string>
+    <string name="app_setup_other_ways_to_install">Cara lain untuk memasang</string>
+    <string name="app_setup_terminal_title">Atau jalankan ini dalam terminal</string>
+    <string name="app_setup_terminal_detail">Boleh digunakan dari mana-mana rangkaian.</string>
+    <string name="app_setup_paste_prompt">Atau salin pautan yang dipaparkan, kemudian</string>
+    <string name="app_setup_paste">Tampal</string>
+    <string name="app_setup_copy_command_description">Salin %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Menyambung</string>
+    <string name="app_servers_edit_description">Sunting %1$s</string>
+    <string name="app_servers_remove_description">Alih keluar %1$s</string>
+    <string name="app_servers_remove_confirm_title">Alih keluar %1$s?</string>
+    <string name="app_servers_remove_confirm_message">Alamat dan kata laluan yang disimpan pada %1$s ini akan dipadam. Sesi pada pelayan tidak terjejas.</string>
+    <string name="app_servers_remove_confirm">Alih keluar pelayan</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Fasa: %1$s</string>
+    <string name="app_error_server">Pelayan: %1$s</string>
+    <string name="app_error_attempt">Cubaan: %1$d</string>
+    <string name="app_error_copy_report">Salin laporan ralat</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Pelayan baharu</string>
+    <string name="app_server_form_edit_title">Edit pelayan</string>
+    <string name="app_server_form_name">Nama</string>
+    <string name="app_server_form_address">Alamat pelayan</string>
+    <string name="app_server_form_username">Nama pengguna</string>
+    <string name="app_server_form_password">Kata laluan (pilihan)</string>
+    <string name="app_server_form_hide_password_description">Sembunyi kata laluan</string>
+    <string name="app_server_form_show_password_description">Tunjukkan kata laluan</string>
+    <string name="app_server_form_connect">Sambung</string>
+    <string name="app_server_form_save_and_connect">Simpan dan sambung</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Pengepala</string>
+    <string name="app_server_form_header_name">Nama</string>
+    <string name="app_server_form_header_name_description">Nama pengepala %1$d</string>
+    <string name="app_server_form_header_value">Nilai</string>
+    <string name="app_server_form_header_value_description">Nilai pengepala %1$d</string>
+    <string name="app_server_form_header_remove_description">Alih keluar pengepala %1$d</string>
+    <string name="app_server_form_header_add">Tambah pengepala</string>
+    <string name="app_server_form_headers_detail">Dihantar bersama setiap permintaan, untuk proksi di hadapan pelayan seperti Cloudflare Access.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">“%1$s” bukan nama pengepala yang sah</string>
+    <string name="app_server_form_header_invalid_value">Nilai %1$s tidak boleh mengandungi pemisah baris</string>
+    <string name="app_server_form_name_placeholder">Pilihan</string>
+    <string name="app_connection_progress_pairing">Memasangkan</string>
+    <string name="app_connection_progress_connecting">Menyambung</string>
+    <string name="app_connection_progress_loading_sessions">Memuatkan sesi</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Berpasangan dengan %1$s?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode akan mencuba %1$s dan beralih ke alamat pertama yang memberi respons.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode akan berpasangan dengan %1$s dan beralih kepadanya.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode akan mencuba %1$s dan %2$s dan beralih ke alamat pertama yang memberi respons.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode akan mencuba %1$s, dan %2$s dan beralih ke alamat pertama yang memberi respons.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Maklumat log masuk yang disimpan untuk %2$s mungkin diganti.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Pemasangan</string>
+    <string name="app_error_phase_connect">Sambung</string>
+    <string name="app_error_phase_load_sessions">Muatkan sesi</string>
+    <string name="app_error_candidate_detail">Calon %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Tidak tersedia (alamat tidak sah)</string>
+    <string name="app_error_title_pair">Tidak dapat berpasangan</string>
+    <string name="app_error_title_load_sessions">Tidak dapat memuatkan sesi</string>
+    <string name="app_error_title_connect">Tidak dapat menyambung ke %1$s</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Papan klip anda kosong</string>
+    <string name="app_paste_not_a_pairing_link">Itu bukan pautan pemasangan</string>
+    <string name="app_server_no_longer_saved">Pelayan ini tidak lagi disimpan pada %1$s ini. Sambung semula untuk membuka sesi.</string>
+    <string name="app_session_no_longer_available">Sesi mungkin telah dipadam, atau pelayan mungkin tidak tersedia.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Disambungkan ke %1$s</string>
+    <string name="app_pairing_invalid_code">Itu bukan kod pemasangan OpenCode. Jalankan opencode pair --remote pada komputer anda, kemudian imbas kod QR atau tampal pautan yang dipaparkan.</string>
+    <string name="app_pairing_unusable_address">Tidak dapat menggunakan “%1$s” daripada kod pemasangan ini: ia %2$s.</string>
+    <string name="app_pairing_loopback">Pelayan itu hanya menerima sambungan di localhost, jadi %1$s ini tidak dapat mengaksesnya. Jalankan opencode pair --remote pada komputer anda supaya boleh disambungkan dari mana-mana rangkaian.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Pelayan yang anda kongsikan item kepadanya tidak lagi disimpan pada peranti ini. Sambung semula, kemudian kongsi lagi.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">kali terakhir digunakan</string>
+    <string name="app_server_form_hint_new">Tampal pautan yang dipaparkan oleh `opencode pair --remote` untuk berpasangan, atau gunakan alamat dan kata laluan pelayan OpenCode anda. Nama pengguna biasanya opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Perubahan disimpan setelah pelayan ini disambungkan. Pelayan ini telah dipasangkan, jadi kata laluannya ialah token sesi; imbas kod pemasangan baharu dan bukannya menukarnya.</string>
+    <string name="app_server_form_hint_edit">Perubahan disimpan setelah pelayan ini disambungkan.</string>
+</resources>

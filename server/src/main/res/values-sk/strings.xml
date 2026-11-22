@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Shell</string>
+    <string name="server_notice_source_subagent">Subagent</string>
+    <string name="server_notice_heading_finished">%1$s: dokončené</string>
+    <string name="server_notice_heading_failed">%1$s: zlyhalo</string>
+    <string name="server_notice_heading_interrupted">%1$s: prerušené</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$d shell skončil</item>
+        <item quantity="few">%1$d shelly skončili</item>
+        <item quantity="many">%1$d shellu skončilo</item>
+        <item quantity="other">%1$d shellov skončilo</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$d shell zlyhal</item>
+        <item quantity="few">%1$d shelly zlyhali</item>
+        <item quantity="many">%1$d shellu zlyhalo</item>
+        <item quantity="other">%1$d shellov zlyhalo</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">%1$d shell bol prerušený</item>
+        <item quantity="few">%1$d shelly boli prerušené</item>
+        <item quantity="many">%1$d shellu bolo prerušených</item>
+        <item quantity="other">%1$d shellov bolo prerušených</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">%1$d subagent skončil</item>
+        <item quantity="few">%1$d subagenty skončili</item>
+        <item quantity="many">%1$d subagenta skončilo</item>
+        <item quantity="other">%1$d subagentov skončilo</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">%1$d subagent zlyhal</item>
+        <item quantity="few">%1$d subagenty zlyhali</item>
+        <item quantity="many">%1$d subagenta zlyhalo</item>
+        <item quantity="other">%1$d subagentov zlyhalo</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">%1$d subagent bol prerušený</item>
+        <item quantity="few">%1$d subagenty boli prerušené</item>
+        <item quantity="many">%1$d subagenta bolo prerušených</item>
+        <item quantity="other">%1$d subagentov bolo prerušených</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Zhutniť</string>
+    <string name="server_run_error_action_switch_model">Zmeniť model</string>
+    <string name="server_run_error_aborted">Prerušené</string>
+    <string name="server_run_error_permission_rejected">Prerušené po zamietnutí požiadavky</string>
+    <string name="server_run_error_content_filter">Bezpečnostný filter zablokoval odpoveď</string>
+    <string name="server_run_error_rate_limit">Dosiahnutý limit frekvencie požiadaviek</string>
+    <string name="server_run_error_quota">Dosiahnutý limit používania</string>
+    <string name="server_run_error_auth">Poskytovateľ odmietol API kľúč</string>
+    <string name="server_run_error_context_overflow">Relácia je pre tento model príliš dlhá</string>
+    <string name="server_run_error_invalid_request">Poskytovateľ odmietol požiadavku</string>
+    <string name="server_run_error_overloaded">Model je preťažený</string>
+    <string name="server_run_error_internal">U poskytovateľa nastal problém</string>
+    <string name="server_run_error_transport">Spojenie s modelom sa prerušilo</string>
+    <string name="server_run_error_timeout">Model neodpovedal včas</string>
+    <string name="server_run_error_invalid_output">Odpoveď modelu sa nepodarilo prečítať</string>
+    <string name="server_run_error_unavailable">Tento model nie je dostupný</string>
+    <string name="server_run_error_unsupported_operation">Tento model to nedokáže</string>
+    <string name="server_run_error_tool_execution">Nástroj zlyhal a beh sa zastavil</string>
+    <string name="server_run_error_other">Beh sa zastavil s chybou</string>
+    <string name="server_run_retry_in_seconds">%1$s · opakuje sa o %2$d s</string>
+    <string name="server_run_retry_now">%1$s · opakuje sa</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">Nepodarilo sa spojiť so serverom OpenCode</string>
+    <string name="server_error_folder_gone">Priečinok už neexistuje</string>
+    <string name="server_error_uploads_unsupported">Tento server nepodporuje súborové prílohy. Aktualizujte OpenCode v počítači.</string>
+    <string name="server_error_archiving_unsupported">Tento server nepodporuje archiváciu. Aktualizujte OpenCode v počítači.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode nemá povolený prístup k zariadeniam v miestnej sieti. V nastaveniach povoľte pre OpenCode zariadenia v okolí a skúste znova.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Relácia bez názvu</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Shell</string>
+    <string name="server_tool_shell_killed">Shell bol násilne ukončený</string>
+    <string name="server_tool_shell_exit_code">Príkaz skončil s kódom %1$d</string>
+    <string name="server_notice_session_update">Aktualizácia relácie</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Pripojenie zlyhalo</string>
+    <string name="server_connection_resolved_address_unknown">Zistená adresa: neznáma</string>
+    <string name="server_connection_resolved_address">Zistená adresa (vyhľadaná po zlyhaní): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">Tento názov v sieti tailnet sa preložil na adresu mimo rozsahu Tailscale, takže sa zrejme nepoužíva DNS služby Tailscale. V aplikácii Tailscale zapnite používanie nastavení DNS služby Tailscale a vypnite súkromné DNS aj všetky profily VPN, ktoré menia DNS.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Miestna sieť</string>
+    <string name="server_connection_route_loopback">Spätná slučka</string>
+    <string name="server_connection_route_internet">Internet</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">nie je webová adresa</string>
+    <string name="server_pairing_origin_bad_scheme">nezačína na http:// ani https://</string>
+    <string name="server_pairing_origin_no_host">neobsahuje názov hostiteľa</string>
+    <string name="server_pairing_origin_credentials">obsahuje používateľské meno alebo heslo</string>
+    <string name="server_pairing_origin_query">obsahuje parametre dopytu alebo fragment</string>
+    <string name="server_pairing_origin_port">má port mimo rozsahu 1–65535</string>
+    <string name="server_pairing_origin_path">obsahuje cestu, no server musí byť v koreni svojej adresy</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Server</string>
+    <string name="server_friendly_name_numbered">Server %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">Spojenie sa prerušilo po odoslaní správy, takže správa mohla byť doručená.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Táto integrácia nemá spôsob prihlásenia.</string>
+    <string name="server_error_sign_in_url_invalid">Adresa prihlasovacej stránky nie je platná.</string>
+    <string name="server_error_load_server_details">Nepodarilo sa načítať podrobnosti o serveri</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">Platnosť tohto párovacieho kódu vypršala alebo už bol použitý. Spustite znova `opencode pair --remote`.</string>
+    <string name="server_error_pairing_unsupported">Tento server nepodporuje párovacie odkazy. Aktualizujte OpenCode v počítači alebo zadajte server ručne.</string>
+    <string name="server_error_notification_previews_need_https">Šifrované náhľady upozornení vyžadujú pripojenie k serveru cez HTTPS.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Zadajte platnú HTTP alebo HTTPS URL servera.</string>
+    <string name="server_error_credentials_rejected">Server odmietol tieto prihlasovacie údaje.</string>
+    <string name="server_error_http_status">Server vrátil HTTP %1$d.</string>
+    <string name="server_error_event_stream_http">Prúd udalostí vrátil HTTP %1$d.</string>
+    <string name="server_error_event_stream_oversized_frame">Prúd udalostí odoslal príliš veľký rámec.</string>
+    <string name="server_error_event_stream_ended">Prúd udalostí sa skončil.</string>
+    <string name="server_error_event_stream_server_failure">Prúd udalostí nahlásil zlyhanie servera.</string>
+    <string name="server_tool_failed">Nástroj zlyhal</string>
+    <string name="server_error_list_folder">Server nedokázal zobraziť obsah tohto priečinka</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Nepodarilo sa načítať projekty a relácie</string>
+    <string name="server_error_load_session_family">Nepodarilo sa načítať súvisiace relácie</string>
+    <string name="server_error_update_session">Nepodarilo sa aktualizovať reláciu</string>
+    <string name="server_error_load_session_ancestry">Nepodarilo sa načítať nadradené relácie aktívnej relácie</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Už zodpovedané inde</string>
+    <string name="server_request_already_dismissed">Už zamietnuté</string>
+    <string name="server_request_already_answered">Už zodpovedané</string>
+    <string name="server_request_already_dismissed_elsewhere">Už zamietnuté inde</string>
+    <string name="server_request_no_longer_waiting">Už sa nečaká</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Médiá nie sú dostupné</string>
+    <string name="server_pasted_text_title">Vložený text</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d riadok · %2$s</item>
+        <item quantity="few">%1$d riadky · %2$s</item>
+        <item quantity="many">%1$d riadka · %2$s</item>
+        <item quantity="other">%1$d riadkov · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d riadok</item>
+        <item quantity="few">%1$d riadky</item>
+        <item quantity="many">%1$d riadka</item>
+        <item quantity="other">%1$d riadkov</item>
+    </plurals>
+    <string name="server_file_size_zero">0 KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d bajt</item>
+        <item quantity="few">%1$d bajty</item>
+        <item quantity="many">%1$d bajtu</item>
+        <item quantity="other">%1$d bajtov</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">Projekt</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Súbor</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Dokončite tento krok</string>
+    <string name="server_form_required">Povinné</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">Zadajte aspoň %1$d znak</item>
+        <item quantity="few">Zadajte aspoň %1$d znaky</item>
+        <item quantity="many">Zadajte aspoň %1$d znaku</item>
+        <item quantity="other">Zadajte aspoň %1$d znakov</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">Zadajte najviac %1$d znak</item>
+        <item quantity="few">Zadajte najviac %1$d znaky</item>
+        <item quantity="many">Zadajte najviac %1$d znaku</item>
+        <item quantity="other">Zadajte najviac %1$d znakov</item>
+    </plurals>
+    <string name="server_form_invalid_format">Neplatný formát</string>
+    <string name="server_form_choose_option">Vyberte dostupnú možnosť</string>
+    <string name="server_form_invalid_email">Zadajte platnú e-mailovú adresu</string>
+    <string name="server_form_invalid_url">Zadajte platnú URL</string>
+    <string name="server_form_invalid_date">Zadajte dátum vo formáte YYYY-MM-DD</string>
+    <string name="server_form_invalid_date_time">Zadajte platný dátum a čas</string>
+    <string name="server_form_minimum">Hodnota musí byť aspoň %1$s</string>
+    <string name="server_form_maximum">Hodnota musí byť najviac %1$s</string>
+    <string name="server_form_whole_number">Zadajte celé číslo</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">Vyberte aspoň %1$d</item>
+        <item quantity="few">Vyberte aspoň %1$d</item>
+        <item quantity="many">Vyberte aspoň %1$d</item>
+        <item quantity="other">Vyberte aspoň %1$d</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">Vyberte najviac %1$d</item>
+        <item quantity="few">Vyberte najviac %1$d</item>
+        <item quantity="many">Vyberte najviac %1$d</item>
+        <item quantity="other">Vyberte najviac %1$d</item>
+    </plurals>
+    <string name="server_form_invalid_value">Neplatná hodnota</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Skryť vybrané</string>
+    <string name="server_model_visibility_only_show">Zobraziť len vybrané</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Vypnuté</string>
+    <string name="server_model_variant_extra_high">Mimoriadne vysoké</string>
+    <string name="server_model_variant_max">Maximum</string>
+    <string name="server_delivery_steering">Usmerňovanie</string>
+    <string name="server_delivery_queued">Zaradené do fronty</string>
+</resources>

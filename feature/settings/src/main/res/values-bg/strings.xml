@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Appearance -->
+    <string name="settings_appearance_title">Външен вид</string>
+    <string name="settings_appearance_mode_header">Режим</string>
+    <string name="settings_appearance_theme">Тема</string>
+
+    <!-- Appearance › Themes -->
+    <string name="settings_themes_title">Теми</string>
+    <string name="settings_themes_preview_description">Преглед на преписа</string>
+    <string name="settings_themes_preview_user_message">Помогни ми да подобря екрана на сесията. Покажи какво откри и обясни промените.</string>
+    <string name="settings_themes_preview_reply">Открих проблема с оформлението в %1$s. Преписът и редакторът на съобщения си поделят наличната височина, затова клавиатурата е добър тест за това.</string>
+
+    <!-- Language -->
+    <string name="settings_language_title">Език</string>
+    <string name="settings_language_system_default">По подразбиране за системата</string>
+    <string name="settings_language_search_placeholder">Търсене на езици</string>
+    <string name="settings_language_suggested_header">Предложено</string>
+    <string name="settings_language_all_header">Всички езици</string>
+    <string name="settings_language_no_matches">Няма съответстващи езици</string>
+
+    <!-- Experimental -->
+    <string name="settings_experimental_title">Експериментален</string>
+    <string name="settings_experimental_all_footer">Включва и новите, освен тези, които виждат екрана или слушат във фонов режим.</string>
+    <string name="settings_experimental_all">Всички експерименти</string>
+    <string name="settings_experimental_all_on">Всички са включени</string>
+    <plurals name="settings_experimental_on_count">
+        <item quantity="one">%d включен</item>
+        <item quantity="other">%d включени</item>
+    </plurals>
+
+    <!-- Models -->
+    <string name="settings_models_title">Модели</string>
+    <string name="settings_models_mode_hide">Скриване</string>
+    <string name="settings_models_mode_only_show">Показване само на</string>
+    <string name="settings_models_mode_hide_footer">Изключете моделите, които не използвате.</string>
+    <string name="settings_models_mode_only_show_footer">Включете само моделите, които използвате.</string>
+    <string name="settings_models_providers_header">Доставчици</string>
+    <string name="settings_models_stale_header">Вече не се предлагат</string>
+    <string name="settings_models_forget_unavailable">Забравяне на недостъпните модели</string>
+    <string name="settings_models_show_every_model">Покажи всички модели</string>
+    <string name="settings_models_load_failed_title">Неуспешно зареждане на моделите</string>
+    <string name="settings_models_summary_hidden">Скрити</string>
+    <string name="settings_models_summary_all">Всички</string>
+    <string name="settings_models_summary_count">%1$d от %2$d</string>
+
+    <!-- Models › Provider -->
+    <string name="settings_models_search_placeholder">Търсене на модели</string>
+    <string name="settings_models_show_provider">Показване на %1$s</string>
+
+    <!-- Notifications -->
+    <string name="settings_notifications_title">Известия</string>
+    <string name="settings_notifications_device_header">Този %1$s</string>
+    <string name="settings_notifications_device_footer">Известията минават през междинен сървър, който не съхранява нищо. Само сесиите, започнати на този %1$s, изпращат известия до него.</string>
+    <string name="settings_notifications_allow">Разрешаване на известия</string>
+    <string name="settings_notifications_open_android_settings">Отворете настройките на Android</string>
+    <string name="settings_notifications_turn_on">Включване на известия</string>
+    <string name="settings_notifications_server_header">Сървър</string>
+    <string name="settings_notifications_set_up_footer">Отваря сесия със заявка към OpenCode да инсталира плъгина. Изпратете я, после проверете отново.</string>
+    <string name="settings_notifications_plugin_needed_footer">Сървърът се нуждае от плъгина notify за OpenCode.</string>
+    <string name="settings_notifications_notify_plugin">Плъгин за известия</string>
+    <string name="settings_notifications_plugin_installed">Инсталиран</string>
+    <string name="settings_notifications_plugin_not_running">Не работи</string>
+    <string name="settings_notifications_plugin_not_installed">Не е инсталиран</string>
+    <string name="settings_notifications_plugin_check_failed">Неуспешна проверка на състоянието</string>
+    <string name="settings_notifications_set_up">Настройване с OpenCode</string>
+    <string name="settings_notifications_check_again">Проверете отново</string>
+    <string name="settings_notifications_in_app_footer">Показват се върху бутона за страничното меню.</string>
+    <string name="settings_notifications_in_app_notices">Бележки в приложението</string>
+
+    <!-- Sessions -->
+    <string name="settings_sessions_title">Сесии</string>
+    <string name="settings_sessions_composer_header">Редактор на съобщения</string>
+    <string name="settings_sessions_return_key_sends">Изпращане с Enter</string>
+    <string name="settings_sessions_new_sessions_header">Нови сесии</string>
+    <string name="settings_sessions_server_default">По подразбиране за сървъра</string>
+    <string name="settings_sessions_default_agent">Агент по подразбиране</string>
+
+    <!-- Shared values -->
+    <string name="settings_value_on">Включено</string>
+    <string name="settings_value_off">Изключено</string>
+
+    <!-- Sound Effects -->
+    <string name="settings_sound_effects_volume">Сила на звука</string>
+    <string name="settings_sound_effects_volume_description">Сила на звуковите ефекти</string>
+    <string name="settings_sound_effects_send_sound">Звук при изпращане</string>
+
+    <!-- Voice › Delegator -->
+    <string name="settings_delegator_title">Делегатор</string>
+    <string name="settings_delegator_other_server_note">„%1$s“ е на друг сървър. Изберете агент на този сървър или сменете сървъра.</string>
+    <string name="settings_delegator_mode_footer">Вграденият режим използва OpenAI без сесия. Режимът „Сесия в OpenCode“ работи в сесия на вашия сървър.</string>
+    <string name="settings_delegator_built_in">Вграден</string>
+    <string name="settings_delegator_opencode_session">Сесия в OpenCode</string>
+    <string name="settings_delegator_target_header">Целева сесия</string>
+    <string name="settings_delegator_target_footer">„Автоматично“ използва сесия „Voice“ на този сървър. „Текуща сесия“ използва тази на екрана.</string>
+    <string name="settings_delegator_automatic">Автоматично</string>
+    <string name="settings_delegator_viewed_session">Текуща сесия</string>
+    <string name="settings_delegator_search_placeholder">Сесии за търсене</string>
+    <string name="settings_delegator_sessions_header">Изберете сесия</string>
+    <string name="settings_delegator_sessions_footer">Избраната сесия запазва своя модел.</string>
+    <string name="settings_delegator_no_sessions">Няма сесии на този сървър</string>
+    <string name="settings_delegator_no_matching_sessions">Няма съответстващи сесии</string>
+    <string name="settings_delegator_new_session">Нова сесия</string>
+    <string name="settings_delegator_direct">Директно</string>
+    <string name="settings_delegator_direct_session_unavailable">Директно · Сесията не е налична</string>
+    <string name="settings_delegator_another_server">%1$s · Друг сървър</string>
+
+    <!-- Voice › Key Editor -->
+    <string name="settings_voice_key_hide_description">Скриване на ключа</string>
+    <string name="settings_voice_key_show_description">Показване на ключа</string>
+    <string name="settings_voice_key_verify">Проверка</string>
+
+    <!-- Voice › Voice Provider -->
+    <string name="settings_voice_provider_title">Доставчик на глас</string>
+    <string name="settings_voice_provider_place">На %1$s</string>
+    <string name="settings_voice_api_key_title">API ключ</string>
+    <string name="settings_voice_provider_automatic_footer">Когато %1$s не е готов, обажданията използват друг готов доставчик.</string>
+    <string name="settings_voice_provider_choose_automatically">Автоматичен избор</string>
+    <string name="settings_voice_provider_others_header">Други доставчици</string>
+    <string name="settings_voice_provider_use_description">Използване на %1$s</string>
+    <string name="settings_voice_provider_use">Използване</string>
+    <string name="settings_voice_provider_set_up">Настройване</string>
+    <plurals name="settings_voice_provider_not_available_count">
+        <item quantity="one">%d недостъпен</item>
+        <item quantity="other">%d недостъпни</item>
+    </plurals>
+
+    <!-- Voice › API Key -->
+    <string name="settings_voice_account_title">Вашият акаунт в OpenAI</string>
+    <string name="settings_voice_account_place">На този телефон</string>
+    <string name="settings_voice_account_key_footer">Обажданията използват вашия акаунт в OpenAI вместо сървър.</string>
+    <string name="settings_voice_account_use_for_calls">Използване за обаждания</string>
+
+    <!-- Voice -->
+    <string name="settings_voice_title">Глас</string>
+    <string name="settings_voice_call_setup_header">Настройка на обажданията</string>
+    <string name="settings_voice_calls_header">Обаждания</string>
+    <string name="settings_voice_raise_to_talk_hint">Включване или изключване на обаждания през слушалката при вдигане на телефона до ухото в отворена сесия</string>
+    <string name="settings_voice_enable">Активиране на гласа</string>
+    <string name="settings_voice_model">Модел</string>
+    <string name="settings_voice_model_description">Гласов модел</string>
+    <string name="settings_voice_call_voice">Глас</string>
+    <string name="settings_voice_raise_to_talk">Вдигнете, за да говорите</string>
+    <string name="settings_voice_call_sounds">Звуци при обаждане</string>
+    <string name="settings_voice_call_history">История на обажданията</string>
+    <string name="settings_voice_edit_key_label">Редактиране на вашия API ключ за %1$s</string>
+    <string name="settings_voice_key_verified">Проверен</string>
+    <string name="settings_voice_key_checking">Проверка…</string>
+    <string name="settings_voice_key_saved">Запазен</string>
+    <string name="settings_voice_key_missing">Липсва</string>
+    <string name="settings_voice_preview_disabled_hint">Добавете ключа си за %1$s, за да прослушате гласовете</string>
+
+    <!-- Voice › Voice Picker -->
+    <string name="settings_voice_picker_add_key_footer">Добавете ключа си за %1$s, за да прослушате гласовете.</string>
+    <string name="settings_voice_picker_unavailable_footer">%1$s не е наличен на %2$s, затова обажданията използват %3$s.</string>
+    <string name="settings_voice_stop_preview_description">Спиране на прослушването на %1$s</string>
+    <string name="settings_voice_preview_description">Прослушване на %1$s</string>
+    <string name="settings_voice_preview_playing">Възпроизвеждане</string>
+    <string name="settings_voice_call_voice_unavailable">%1$s · %2$s не е наличен</string>
+
+    <!-- Settings root -->
+    <string name="settings_whats_new_title">Какво ново</string>
+    <string name="settings_developer_title">За разработчици</string>
+    <string name="settings_app_version">Версия %1$s (%2$s)</string>
+    <string name="settings_app_version_commit">Версия %1$s (%2$s) · %3$s</string>
+
+    <!-- Connection card -->
+    <string name="settings_connection_show_server_label">Показване на сървъра</string>
+    <string name="settings_connection_milliseconds">%1$d мс</string>
+    <string name="settings_connection_card_value_description">%1$s, %2$s, %3$s</string>
+    <string name="settings_connection_status_connected">Свързан</string>
+    <string name="settings_connection_status_slow">Бавна връзка</string>
+    <string name="settings_connection_status_unstable">Нестабилна връзка</string>
+    <string name="settings_connection_status_reconnecting">Повторно свързване</string>
+    <string name="settings_connection_status_offline">Офлайн</string>
+    <string name="settings_connection_status_sign_in_failed">Неуспешно влизане</string>
+    <string name="settings_connection_status_switching">Превключване</string>
+    <string name="settings_connection_status_switching_to">Превключване към %1$s</string>
+    <string name="settings_connection_status_code">%1$s · %2$d</string>
+    <string name="settings_connection_status_http_description">%1$s, HTTP %2$d</string>
+    <plurals name="settings_connection_status_milliseconds_description">
+        <item quantity="one">%1$s, %2$d милисекунда</item>
+        <item quantity="other">%1$s, %2$d милисекунди</item>
+    </plurals>
+
+    <!-- Server page -->
+    <string name="settings_server_title">Сървър</string>
+    <string name="settings_server_address">Адрес</string>
+    <string name="settings_server_connection">Връзка</string>
+    <string name="settings_server_version">Версия</string>
+    <string name="settings_server_edit_server">Редактиране на сървъра…</string>
+    <string name="settings_server_rename_server_ellipsis">Преименуване на сървъра…</string>
+    <string name="settings_server_rename_title">Преименуване на сървъра</string>
+    <string name="settings_server_rename_message">Само този %1$s използва името. Оставете празно за „%2$s“.</string>
+    <string name="settings_server_status">Състояние</string>
+    <string name="settings_server_status_milliseconds">%1$s · %2$d мс</string>
+
+    <!-- Servers section -->
+    <string name="settings_servers_header">Сървъри</string>
+    <string name="settings_servers_edit_server">Редактиране на %1$s…</string>
+    <string name="settings_servers_rename_message">Само този %1$s използва името. Оставете празно, за да се използва името на компютъра.</string>
+    <string name="settings_servers_remove_title">Премахване на %1$s?</string>
+    <string name="settings_servers_remove_message">Адресът и паролата ще бъдат премахнати от този %1$s. Сесиите на сървъра няма да бъдат засегнати.</string>
+    <string name="settings_servers_remove_server">Премахване на сървър</string>
+    <string name="settings_servers_current_server_state">Текущ сървър, %1$s</string>
+    <string name="settings_servers_switch_label">Превключване към този сървър</string>
+    <string name="settings_servers_options_description">Опции за %1$s</string>
+    <string name="settings_servers_rename_menu">Преименуване…</string>
+    <string name="settings_servers_edit_menu">Редактиране…</string>
+    <string name="settings_servers_remove_menu">Премахване…</string>
+    <string name="settings_servers_add_server">Добавете сървър</string>
+    <string name="settings_servers_scan_pairing_code">Сканиране на код за сдвояване</string>
+    <string name="settings_servers_enter_address">Въведете адрес</string>
+
+    <!-- Pairing scanner -->
+    <string name="settings_pairing_paste">Поставяне</string>
+    <string name="settings_pairing_no_camera_title">Няма налична камера</string>
+    <string name="settings_pairing_no_camera_message">Копирайте връзката, която `opencode pair` показва на компютъра ви, и я поставете тук.</string>
+    <string name="settings_pairing_camera_off_title">Достъпът до камерата е изключен</string>
+    <string name="settings_pairing_camera_off_message">Разрешете достъпа до камерата в Настройки, за да сканирате QR кода, или поставете връзката, която `opencode pair` показва.</string>
+    <string name="settings_pairing_nothing_to_paste_title">Няма нищо за поставяне</string>
+    <string name="settings_pairing_nothing_to_paste_message">В клипборда няма връзка за сдвояване. Копирайте връзката, която opencode pair показва, и опитайте отново.</string>
+    <string name="settings_pairing_point_camera">Насочете камерата към QR кода</string>
+    <string name="settings_pairing_paste_link">Поставяне на връзка за сдвояване</string>
+    <string name="settings_pairing_computer_hint">На компютъра отворете Настройки → Сдвояване в OpenCode или изпълнете %1$s в терминал.</string>
+</resources>

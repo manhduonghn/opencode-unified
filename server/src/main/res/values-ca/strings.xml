@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Intèrpret d\'ordres</string>
+    <string name="server_notice_source_subagent">Subagent</string>
+    <string name="server_notice_heading_finished">%1$s ha acabat</string>
+    <string name="server_notice_heading_failed">%1$s ha fallat</string>
+    <string name="server_notice_heading_interrupted">S\'ha interromput %1$s</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$d intèrpret d\'ordres ha acabat</item>
+        <item quantity="many">%1$d intèrprets d\'ordres han acabat</item>
+        <item quantity="other">%1$d intèrprets d\'ordres han acabat</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$d intèrpret d\'ordres ha fallat</item>
+        <item quantity="many">%1$d intèrprets d\'ordres han fallat</item>
+        <item quantity="other">%1$d intèrprets d\'ordres han fallat</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">%1$d intèrpret d\'ordres interromput</item>
+        <item quantity="many">%1$d intèrprets d\'ordres interromputs</item>
+        <item quantity="other">%1$d intèrprets d\'ordres interromputs</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">%1$d subagent ha acabat</item>
+        <item quantity="many">%1$d subagents han acabat</item>
+        <item quantity="other">%1$d subagents han acabat</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">%1$d subagent ha fallat</item>
+        <item quantity="many">%1$d subagents han fallat</item>
+        <item quantity="other">%1$d subagents han fallat</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">%1$d subagent interromput</item>
+        <item quantity="many">%1$d subagents interromputs</item>
+        <item quantity="other">%1$d subagents interromputs</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Compacte</string>
+    <string name="server_run_error_action_switch_model">Canvia de model</string>
+    <string name="server_run_error_aborted">Interromput</string>
+    <string name="server_run_error_permission_rejected">Interromput després de denegar una sol·licitud</string>
+    <string name="server_run_error_content_filter">El filtre de seguretat ha bloquejat la resposta</string>
+    <string name="server_run_error_rate_limit">S\'ha arribat al límit de sol·licituds</string>
+    <string name="server_run_error_quota">S\'ha arribat al límit d\'ús</string>
+    <string name="server_run_error_auth">El proveïdor ha rebutjat la seva clau</string>
+    <string name="server_run_error_context_overflow">La sessió és massa llarga per a aquest model</string>
+    <string name="server_run_error_invalid_request">El proveïdor ha rebutjat la sol·licitud</string>
+    <string name="server_run_error_overloaded">El model està sobrecarregat</string>
+    <string name="server_run_error_internal">El proveïdor ha tingut un problema</string>
+    <string name="server_run_error_transport">S\'ha perdut la connexió amb el model</string>
+    <string name="server_run_error_timeout">El model ha trigat massa a respondre</string>
+    <string name="server_run_error_invalid_output">No s\'ha pogut llegir la resposta del model</string>
+    <string name="server_run_error_unavailable">Aquest model no està disponible</string>
+    <string name="server_run_error_unsupported_operation">Aquest model no pot fer això</string>
+    <string name="server_run_error_tool_execution">Una eina ha fallat i l\'execució s\'ha aturat</string>
+    <string name="server_run_error_other">L\'execució s\'ha aturat amb un error</string>
+    <string name="server_run_retry_in_seconds">%1$s · es tornarà a provar d\'aquí a %2$d s</string>
+    <string name="server_run_retry_now">%1$s · tornant a provar</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">No s\'ha pogut contactar amb el servidor d\'OpenCode</string>
+    <string name="server_error_folder_gone">La carpeta ja no existeix</string>
+    <string name="server_error_uploads_unsupported">Aquest servidor no admet fitxers adjunts. Actualitza OpenCode a l\'ordinador.</string>
+    <string name="server_error_archiving_unsupported">Aquest servidor no permet arxivar. Actualitza OpenCode al teu ordinador.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode no té permís per accedir als dispositius de la xarxa local. Activa Dispositius propers per a OpenCode a Configuració i torna-ho a provar.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Sessió sense títol</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Intèrpret d\'ordres</string>
+    <string name="server_tool_shell_killed">S\'ha aturat forçosament l\'intèrpret d\'ordres</string>
+    <string name="server_tool_shell_exit_code">L\'ordre ha acabat amb el codi %1$d</string>
+    <string name="server_notice_session_update">Actualització de la sessió</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">La connexió ha fallat</string>
+    <string name="server_connection_resolved_address_unknown">Adreça resolta: desconeguda</string>
+    <string name="server_connection_resolved_address">Adreça resolta (consulta després de l\'error): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">Aquest nom de tailnet s\'ha resolt en una adreça fora del rang de Tailscale, de manera que potser no s\'està fent servir el DNS de Tailscale. A l\'aplicació Tailscale, activa l\'opció d\'utilitzar la configuració DNS de Tailscale i desactiva el DNS privat o qualsevol perfil VPN que modifiqui el DNS.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Xarxa local</string>
+    <string name="server_connection_route_loopback">Bucle local</string>
+    <string name="server_connection_route_internet">Internet</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">no és una adreça web</string>
+    <string name="server_pairing_origin_bad_scheme">no comença per http:// o https://</string>
+    <string name="server_pairing_origin_no_host">no té nom d\'amfitrió</string>
+    <string name="server_pairing_origin_credentials">inclou un nom d\'usuari o una contrasenya</string>
+    <string name="server_pairing_origin_query">té una consulta o un fragment</string>
+    <string name="server_pairing_origin_port">té un port fora de l\'interval 1–65535</string>
+    <string name="server_pairing_origin_path">té un camí i el servidor ha de ser a l\'arrel de l\'adreça</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Servidor</string>
+    <string name="server_friendly_name_numbered">Servidor %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">S\'ha perdut la connexió després d\'enviar el missatge, així que pot haver arribat.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Aquesta integració no té cap mètode per iniciar sessió.</string>
+    <string name="server_error_sign_in_url_invalid">L\'adreça de la pàgina d\'inici de sessió no és vàlida.</string>
+    <string name="server_error_load_server_details">No s\'han pogut carregar els detalls del servidor</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">Aquest codi d\'aparellament ha caducat o ja s\'ha fet servir. Torna a executar `opencode pair --remote`.</string>
+    <string name="server_error_pairing_unsupported">Aquest servidor no admet enllaços d\'aparellament. Actualitza OpenCode a l\'ordinador o afegeix el servidor manualment.</string>
+    <string name="server_error_notification_previews_need_https">Les vistes prèvies xifrades de les notificacions necessiten una connexió HTTPS al servidor.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Introdueix un URL de servidor HTTP o HTTPS vàlid.</string>
+    <string name="server_error_credentials_rejected">El servidor ha rebutjat aquestes credencials.</string>
+    <string name="server_error_http_status">El servidor ha retornat HTTP %1$d.</string>
+    <string name="server_error_event_stream_http">El flux d\'esdeveniments ha retornat HTTP %1$d.</string>
+    <string name="server_error_event_stream_oversized_frame">El flux d\'esdeveniments ha enviat una trama massa gran.</string>
+    <string name="server_error_event_stream_ended">El flux d\'esdeveniments ha finalitzat.</string>
+    <string name="server_error_event_stream_server_failure">El flux d\'esdeveniments ha informat d\'un error del servidor.</string>
+    <string name="server_tool_failed">L\'eina ha fallat</string>
+    <string name="server_error_list_folder">El servidor no ha pogut llistar el contingut d\'aquesta carpeta</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">No s\'han pogut carregar els projectes i les sessions</string>
+    <string name="server_error_load_session_family">No s\'ha pogut carregar la família de sessions</string>
+    <string name="server_error_update_session">No s\'ha pogut actualitzar la sessió</string>
+    <string name="server_error_load_session_ancestry">No s\'ha pogut carregar l\'ascendència de la sessió activa</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Ja s\'ha respost en un altre lloc</string>
+    <string name="server_request_already_dismissed">Ja s\'ha desestimat</string>
+    <string name="server_request_already_answered">Ja s\'ha respost</string>
+    <string name="server_request_already_dismissed_elsewhere">Ja s\'ha desestimat en un altre lloc</string>
+    <string name="server_request_no_longer_waiting">Ja no està en espera</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Contingut multimèdia no disponible</string>
+    <string name="server_pasted_text_title">Text enganxat</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d línia · %2$s</item>
+        <item quantity="many">%1$d línies · %2$s</item>
+        <item quantity="other">%1$d línies · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d línia</item>
+        <item quantity="many">%1$d línies</item>
+        <item quantity="other">%1$d línies</item>
+    </plurals>
+    <string name="server_file_size_zero">0 KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d byte</item>
+        <item quantity="many">%1$d bytes</item>
+        <item quantity="other">%1$d bytes</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">Projecte</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Fitxer</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Completa aquest pas</string>
+    <string name="server_form_required">Obligatori</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">Introdueix almenys %1$d caràcter</item>
+        <item quantity="many">Introdueix almenys %1$d caràcters</item>
+        <item quantity="other">Introdueix almenys %1$d caràcters</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">Introdueix com a màxim %1$d caràcter</item>
+        <item quantity="many">Introdueix com a màxim %1$d caràcters</item>
+        <item quantity="other">Introdueix com a màxim %1$d caràcters</item>
+    </plurals>
+    <string name="server_form_invalid_format">Format no vàlid</string>
+    <string name="server_form_choose_option">Tria una opció disponible</string>
+    <string name="server_form_invalid_email">Introdueix una adreça electrònica vàlida</string>
+    <string name="server_form_invalid_url">Introdueix un URL vàlid</string>
+    <string name="server_form_invalid_date">Introdueix una data en format YYYY-MM-DD</string>
+    <string name="server_form_invalid_date_time">Introdueix una data i una hora vàlides</string>
+    <string name="server_form_minimum">Ha de ser com a mínim %1$s</string>
+    <string name="server_form_maximum">Ha de ser com a màxim %1$s</string>
+    <string name="server_form_whole_number">Introdueix un nombre enter</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">Tria\'n almenys %1$d</item>
+        <item quantity="many">Tria\'n almenys %1$d</item>
+        <item quantity="other">Tria\'n almenys %1$d</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">Tria\'n com a màxim %1$d</item>
+        <item quantity="many">Tria\'n com a màxim %1$d</item>
+        <item quantity="other">Tria\'n com a màxim %1$d</item>
+    </plurals>
+    <string name="server_form_invalid_value">Valor no vàlid</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Amaga els seleccionats</string>
+    <string name="server_model_visibility_only_show">Mostra només els seleccionats</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Desactivat</string>
+    <string name="server_model_variant_extra_high">Molt alt</string>
+    <string name="server_model_variant_max">Màxim</string>
+    <string name="server_delivery_steering">Redirecció</string>
+    <string name="server_delivery_queued">En cua</string>
+</resources>

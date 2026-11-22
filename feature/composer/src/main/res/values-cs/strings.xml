@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent picker -->
+    <string name="composer_agent_choose_description">Vyberte agenta</string>
+    <string name="composer_agent_loading">Načítání agentů…</string>
+    <string name="composer_agent_server_default">Výchozí na serveru</string>
+    <string name="composer_agent_default_title">Výchozí agent</string>
+    <string name="composer_agent_default_footer">Nové relace začínají s tímto agentem. Každá relace si pamatuje vaši volbu.</string>
+
+    <!-- Camera -->
+    <string name="composer_camera_viewfinder_description">Hledáček</string>
+    <string name="composer_camera_flash_description">Blesk</string>
+    <string name="composer_camera_focus_lock">Zámek AE/AF</string>
+    <string name="composer_camera_close_description">Zavřít fotoaparát</string>
+    <string name="composer_camera_take_photo_description">Vyfotit</string>
+    <string name="composer_camera_switch_description">Přepnout fotoaparát</string>
+
+    <!-- Plus button -->
+    <string name="composer_plus_cancel_dictation_description">Zrušit diktování</string>
+    <string name="composer_plus_adding_attachment_description">Přidávání přílohy</string>
+    <string name="composer_plus_add_attachment_description">Přidat přílohu</string>
+
+    <!-- Autocomplete -->
+    <string name="composer_autocomplete_suggestions_description">Návrhy automatického doplňování</string>
+
+    <!-- Composer -->
+    <string name="composer_message_placeholder">Zpráva</string>
+
+    <!-- Dictation notification -->
+    <string name="composer_dictation_channel_name">Nahrávání</string>
+    <string name="composer_dictation_notification_text">Nahrávání</string>
+
+    <!-- File attachment chip -->
+    <string name="composer_file_retry_description">Zkusit znovu nahrát %1$s</string>
+    <string name="composer_file_attachment_description">Přiložený soubor %1$s</string>
+    <string name="composer_file_uploading_progress">Nahrávání %1$s</string>
+
+    <!-- Pasted text -->
+    <string name="composer_pasted_text_open_action">Otevřít text</string>
+    <string name="composer_pasted_text_unwrap_description">Nezalamovat řádky</string>
+    <string name="composer_pasted_text_wrap_description">Zalamovat řádky</string>
+
+    <!-- Permission request -->
+    <string name="composer_request_scope_title">Příště se už neptat na</string>
+    <string name="composer_request_always_allow">Vždy povolit</string>
+
+    <!-- Queued messages -->
+    <string name="composer_queued_title">Zprávy ve frontě</string>
+    <string name="composer_queued_empty">Žádné zprávy ve frontě</string>
+    <string name="composer_queued_image">Obrázek</string>
+    <plurals name="composer_queued_images">
+        <item quantity="one">%1$d obrázek</item>
+        <item quantity="few">%1$d obrázky</item>
+        <item quantity="many">%1$d obrázku</item>
+        <item quantity="other">%1$d obrázků</item>
+    </plurals>
+    <string name="composer_queued_position">Zpráva ve frontě %1$d z %2$d</string>
+    <string name="composer_queued_send_now">Odeslat hned</string>
+    <string name="composer_queued_cancel_message">Zrušit zprávu</string>
+    <string name="composer_queued_show_less">Ukažte méně</string>
+    <string name="composer_queued_show_more">Zobrazit více</string>
+    <string name="composer_queued_media_unavailable">%1$s · Média nejsou dostupná</string>
+
+    <!-- Request dock -->
+    <string name="composer_request_needs_input_description">Je potřeba vaše reakce, %1$s</string>
+    <string name="composer_request_page_progress">%1$d z %2$d</string>
+    <string name="composer_request_page_progress_description">Otázka %1$d z %2$d</string>
+    <string name="composer_request_dismiss_action">Místo toho napište odpověď agentovi</string>
+    <string name="composer_request_pending_description">Čekající požadavky</string>
+    <string name="composer_request_question">Otázka</string>
+    <string name="composer_request_collapse_action">Sbalit</string>
+    <plurals name="composer_request_questions_left">
+        <item quantity="one">Zbývá %1$d otázka</item>
+        <item quantity="few">Zbývají %1$d otázky</item>
+        <item quantity="many">Zbývá %1$d otázky</item>
+        <item quantity="other">Zbývá %1$d otázek</item>
+    </plurals>
+    <string name="composer_request_expand_action">Zobrazit otázku</string>
+    <string name="composer_request_choose_multiple">Vyberte jednu nebo více možností</string>
+    <string name="composer_request_form">Formulář</string>
+    <string name="composer_request_review">Recenze</string>
+    <string name="composer_request_summary_expanded">Rozbaleno</string>
+    <string name="composer_request_summary_collapsed">Sbaleno</string>
+    <string name="composer_request_summary_hide_action">Skrýt podrobnosti</string>
+    <string name="composer_request_summary_show_command_action">Zobrazit celý příkaz</string>
+    <string name="composer_request_summary_show_details_action">Zobrazit všechny podrobnosti</string>
+    <string name="composer_request_show_scope_action">Zobrazit, na co se už nebude ptát</string>
+    <string name="composer_request_allow_once">Povolit jednou</string>
+    <string name="composer_request_sending_description">Odesílání</string>
+
+    <!-- Request review sheet -->
+    <string name="composer_review_requested_by">Žádá %1$s</string>
+    <string name="composer_review_open_step">Otevřít krok</string>
+    <string name="composer_review_completed">Dokončeno</string>
+    <string name="composer_review_add_own_placeholder">Přidejte vlastní odpověď</string>
+    <string name="composer_review_own_words_placeholder">Odpovězte vlastními slovy</string>
+    <string name="composer_review_answer_placeholder">Vaše odpověď</string>
+    <string name="composer_review_answer_description">Vaše odpověď</string>
+
+    <!-- Shared location -->
+    <string name="composer_location_shared_title">Sdílená poloha</string>
+    <string name="composer_location_card_with_address_description">Poloha: %1$s, %2$s</string>
+    <string name="composer_location_card_description">Poloha: %1$s</string>
+    <string name="composer_location_open_in_maps_action">Otevřít v mapách</string>
+    <string name="composer_location_remove_description">Odebrat polohu</string>
+    <string name="composer_location_cancel_description">Zrušit zjišťování polohy</string>
+    <string name="composer_location_finding">Zjišťování polohy…</string>
+    <string name="composer_location_current_coordinates">Aktuální souřadnice</string>
+
+    <!-- Model picker -->
+    <string name="composer_model_no_results_title">Žádné výsledky pro „%1$s“</string>
+    <string name="composer_model_no_results_message">Zkontrolujte překlepy nebo zkuste hledat jinak.</string>
+    <string name="composer_model_load_failed_title">Nepodařilo se načíst modely</string>
+    <string name="composer_model_empty_title">Žádné modely</string>
+    <string name="composer_model_empty_message">Připojte poskytovatele v OpenCode na počítači a zkuste to znovu.</string>
+    <string name="composer_model_unfavorite">Odebrat z oblíbených</string>
+    <string name="composer_model_favorite">Přidat do oblíbených</string>
+    <string name="composer_model_choose_description">Vyberte model</string>
+    <string name="composer_model_remove_favorite_action">Odebrat z oblíbených</string>
+    <string name="composer_model_add_favorite_action">Přidat do oblíbených</string>
+    <string name="composer_model_level_description">Úroveň myšlení: %1$s</string>
+    <string name="composer_model_level_higher_action">Vyšší úroveň myšlení</string>
+    <string name="composer_model_level_lower_action">Nižší úroveň myšlení</string>
+    <string name="composer_model_show_fewer">Zobrazit méně modelů</string>
+    <string name="composer_model_show_all">Zobrazit všechny modely</string>
+    <plurals name="composer_model_hidden_count">
+        <item quantity="one">%1$d skrytý</item>
+        <item quantity="few">%1$d skryté</item>
+        <item quantity="many">%1$d skrytého</item>
+        <item quantity="other">%1$d skrytých</item>
+    </plurals>
+    <string name="composer_sheet_grabber_description">Úchyt panelu</string>
+    <string name="composer_model_grabber_compact_action">Zmenšit panel výběru</string>
+    <string name="composer_model_grabber_expand_action">Rozbalit panel výběru</string>
+    <string name="composer_model_search_placeholder">Hledat modely</string>
+    <string name="composer_model_clear_search_description">Vymazat hledání</string>
+    <string name="composer_model_hide_keyboard_description">Skrýt klávesnici</string>
+
+    <!-- Plus menu -->
+
+    <!-- Camera lenses and flash (AttachmentCameraLenses) -->
+    <string name="composer_camera_lens_ultra_wide_description">Ultraširokoúhlý</string>
+    <string name="composer_camera_lens_wide_description">Širokoúhlý</string>
+    <string name="composer_camera_lens_wide_zoom_description">Širokoúhlý %1$s×</string>
+    <string name="composer_camera_lens_telephoto_description">Teleobjektiv %1$s×</string>
+    <string name="composer_camera_flash_off">Vypnuto</string>
+    <string name="composer_camera_flash_auto">Auto</string>
+    <string name="composer_camera_flash_on">Zapnuto</string>
+    <!-- Camera messages (AttachmentCameraView) -->
+    <string name="composer_camera_opening">Otevírání kamery…</string>
+    <string name="composer_camera_access_restricted">Přístup k fotoaparátu je omezený.</string>
+    <string name="composer_camera_access_needed">Pro pořízení fotografie povolte přístup k fotoaparátu v nastavení.</string>
+    <string name="composer_camera_open_failed">Nepodařilo se otevřít fotoaparát.</string>
+    <string name="composer_camera_none_available">Na tomto zařízení není k dispozici fotoaparát.</string>
+    <string name="composer_camera_unavailable">Fotoaparát není dostupný.</string>
+    <string name="composer_camera_temporarily_unavailable">Fotoaparát je dočasně nedostupný.</string>
+    <string name="composer_camera_capture_failed">Nepodařilo se pořídit fotografii. Zkuste to znovu.</string>
+    <string name="composer_camera_switch_failed">Nepodařilo se přepnout fotoaparát.</string>
+    <string name="composer_camera_interrupted">Fotoaparát byl přerušen. Až bude dostupný, znovu se spustí.</string>
+    <string name="composer_camera_stopped">Fotoaparát se zastavil. Zkuste to znovu.</string>
+    <!-- Attachment menu (AttachmentPicker) -->
+    <string name="composer_attachment_menu_camera">Fotoaparát</string>
+    <string name="composer_attachment_menu_photos">Fotografie</string>
+    <string name="composer_attachment_menu_files">Soubory</string>
+    <string name="composer_attachment_menu_location">Poloha</string>
+    <string name="composer_attachment_menu_paste">Vložit</string>
+    <!-- Autocomplete items (AutocompleteModels) -->
+    <string name="composer_autocomplete_new_session">Nová relace</string>
+    <string name="composer_autocomplete_skill">Dovednost</string>
+    <string name="composer_autocomplete_subagent">Subagent</string>
+    <string name="composer_autocomplete_command">Příkaz</string>
+    <string name="composer_autocomplete_no_matches">Žádné shody pro „%1$s“</string>
+    <string name="composer_autocomplete_skill_description">Dovednost, %1$s</string>
+    <string name="composer_autocomplete_subagent_description">Subagent, %1$s</string>
+    <string name="composer_autocomplete_file_description">Soubor, %1$s, %2$s</string>
+    <string name="composer_autocomplete_session_description">Relace, %1$s, %2$s</string>
+    <string name="composer_autocomplete_command_description">Příkaz, %1$s</string>
+    <string name="composer_autocomplete_command_with_label_description">Příkaz, %1$s, %2$s</string>
+    <!-- Send and upload failures -->
+    <string name="composer_send_failed_with_reason">Nepodařilo se odeslat zprávu: %1$s</string>
+    <string name="composer_send_failed">Nepodařilo se odeslat zprávu</string>
+    <string name="composer_upload_failed">Nepodařilo se nahrát</string>
+
+    <!-- Photo viewer -->
+    <string name="composer_photo_viewer_image_label">Obrázková příloha %1$d z %2$d</string>
+    <string name="composer_photo_viewer_image_format">Obrázek</string>
+    <!-- Dictation errors -->
+    <string name="composer_dictation_microphone_denied">OpenCode nemá přístup k mikrofonu. Povolte ho v nastavení.</string>
+    <string name="composer_dictation_locale_unsupported">Diktování zatím není dostupné pro váš jazyk.</string>
+    <string name="composer_dictation_audio_unavailable">Nepodařilo se spustit nahrávání pro diktování.</string>
+    <string name="composer_dictation_recognizer_failed">Nepodařilo se přepsat diktování (chyba %1$d)</string>
+
+    <!-- File attachments -->
+    <string name="composer_file_uploading_description">Nahrávání, %1$s</string>
+    <!-- Diff preview -->
+    <string name="composer_diff_added_description">Přidáno: %1$s</string>
+    <string name="composer_diff_removed_description">Odebráno: %1$s</string>
+    <!-- Request dock -->
+    <string name="composer_request_dismiss_failed">Nepodařilo se odmítnout požadavek</string>
+    <string name="composer_request_answer_failed">Nepodařilo se odeslat odpověď</string>
+    <string name="composer_request_reply_failed">Nepodařilo se odeslat odpověď</string>
+    <string name="composer_request_deny">Odmítnout</string>
+    <string name="composer_request_decline_placeholder">Napište, co má udělat místo toho</string>
+    <string name="composer_request_reason_description">Důvod</string>
+    <string name="composer_request_failed">Požadavek se nezdařil</string>
+    <!-- Location -->
+    <string name="composer_location_denied">OpenCode nemá přístup k poloze. Povolte ho v nastavení.</string>
+    <string name="composer_location_unavailable">Nepodařilo se zjistit vaši polohu.</string>
+    <string name="composer_request_yes">Ano</string>
+    <string name="composer_request_no">Ne</string>
+    <!-- Model picker -->
+    <string name="composer_model_level_default">Výchozí</string>
+    <string name="composer_model_section_favorites">Oblíbené</string>
+    <string name="composer_model_section_recent">Nedávné</string>
+    <string name="composer_model_section_all_models">Všechny modely</string>
+    <string name="composer_model_placeholder">Model</string>
+    <string name="composer_model_list_full_description">Celá výška</string>
+    <string name="composer_model_list_half_description">Poloviční výška</string>
+    <string name="composer_model_favorite_description">Přidat do oblíbených</string>
+</resources>

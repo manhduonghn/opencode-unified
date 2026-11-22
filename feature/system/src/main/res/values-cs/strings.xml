@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_new_session">Nová relace</string>
+    <string name="system_start_call">Zahájit hovor</string>
+    <string name="system_open_session">Otevřít relaci</string>
+    <string name="widget_start_call_description">Zahájí hlasový hovor ve vybrané nebo naposledy zobrazené relaci.</string>
+    <string name="widget_open_session_description">Otevře vybranou relaci.</string>
+    <string name="widget_new_session_description">Otevře novou relaci OpenCode.</string>
+
+    <!-- Shared across screens -->
+    <string name="system_selected_description">Vybráno</string>
+    <string name="system_last_viewed_session">Naposledy zobrazená relace</string>
+
+    <!-- Quick actions (launcher shortcuts) -->
+    <string name="system_quick_action_session_fallback">Relace</string>
+    <!-- Long label: the session's title, then its project. -->
+    <string name="system_quick_action_long_label">%1$s · %2$s</string>
+
+    <!-- Shortcuts and Ask OpenCode -->
+    <string name="system_session_type_name">Relace</string>
+    <string name="system_project_type_name">Projekt</string>
+    <string name="system_intent_open_session_description">Otevře relaci v OpenCode.</string>
+    <string name="system_intent_new_session_description">Spustí novou relaci v OpenCode.</string>
+    <string name="system_intent_start_voice_call_title">Zahájit hlasový hovor</string>
+    <string name="system_intent_start_voice_call_description">Zahájí hlasový hovor s OpenCode v relaci. Pokud relaci nevyberete, hovor začne v naposledy zobrazené relaci.</string>
+    <string name="system_intent_background_call_title">Zahájit hlasový hovor na pozadí</string>
+    <string name="system_intent_background_call_description">Zahájí hlasový hovor s OpenCode bez otevření aplikace. Hovor se zobrazí ve stavovém řádku a na zamykací obrazovce.</string>
+    <string name="system_delivery_type_name">Způsob doručení</string>
+    <string name="system_delivery_steer">Usměrnit</string>
+    <string name="system_delivery_queue">Zařadit do fronty</string>
+    <string name="system_ask_title">Zeptat se OpenCode</string>
+    <string name="system_ask_description">Odešle zprávu do relace OpenCode bez otevření aplikace.</string>
+    <string name="system_ask_message_title">Zpráva</string>
+    <string name="system_ask_message_placeholder">Co má OpenCode udělat?</string>
+    <string name="system_ask_session_title">Relace</string>
+    <string name="system_ask_started_new_session">Nová relace spuštěna v %1$s</string>
+    <string name="system_ask_queued_for">Zařazeno do fronty v relaci „%1$s“</string>
+    <string name="system_ask_sent_to">Odesláno do relace „%1$s“</string>
+    <string name="system_ask_your_session">vaše relace</string>
+    <string name="system_ask_no_server">Nejprve otevřete OpenCode a připojte se k serveru.</string>
+    <string name="system_ask_no_project">Nejprve otevřete OpenCode a spusťte relaci.</string>
+    <string name="system_ask_empty_message">Není co odeslat.</string>
+    <!-- The server's error message follows. -->
+    <string name="system_ask_send_failed">Odeslání do OpenCode se nezdařilo. %1$s</string>
+
+    <!-- Live Updates: voice call -->
+    <string name="system_call_muted">Ztlumeno</string>
+    <string name="system_call_unmute">Zrušit ztlumení</string>
+    <string name="system_call_mute">Ztlumit</string>
+    <string name="system_call_end">Ukončit hovor</string>
+    <string name="system_call_connecting">Připojování…</string>
+    <string name="system_call_reconnecting">Opětovné připojování…</string>
+    <string name="system_call_ended">Hovor ukončen</string>
+    <string name="system_call_end_title">Ukončit hovor</string>
+    <string name="system_call_toggle_mute_title">Ztlumit hovor nebo zrušit ztlumení</string>
+
+    <!-- Live Updates: hands-free recording -->
+    <string name="system_recording_active">Nahrávání</string>
+    <string name="system_recording_stopped">Nahrávání zastaveno</string>
+    <string name="system_recording_stop">Zastavit nahrávání</string>
+    <string name="system_recording_stop_title">Zastavit nahrávání</string>
+    <string name="system_recording_new_session">Nová relace</string>
+
+    <!-- Live Updates: session run -->
+    <string name="system_session_working">Pracuje</string>
+    <string name="system_session_last_seen_working">Poslední známý stav: pracuje</string>
+    <!-- Where the run is (Working), then its current step (a tool name, Thinking or Replying). -->
+    <string name="system_session_status_with_step">%1$s · %2$s</string>
+    <string name="system_session_step_thinking">Myšlení</string>
+    <string name="system_session_step_replying">Odpovídá</string>
+    <string name="system_session_needs_input">Čeká na váš vstup</string>
+    <string name="system_session_input">Vstup</string>
+    <string name="system_session_done">Hotovo</string>
+    <string name="system_session_failed">Nepodařilo se</string>
+
+    <!-- Session notifications -->
+    <string name="system_notification_placeholder_body">Nová aktivita</string>
+
+    <!-- Notification channels -->
+    <string name="system_channel_voice_calls">Hlasové hovory</string>
+    <string name="system_channel_recording">Nahrávání</string>
+    <string name="system_channel_session_runs">Běh relací</string>
+    <string name="system_channel_session_updates">Aktualizace relací</string>
+    <string name="system_channel_shared_items">Sdílené položky</string>
+
+    <!-- Share sheet: notifications -->
+    <string name="system_share_continue_notification_body">Klepnutím pokračujte v OpenCode</string>
+
+    <!-- Share sheet -->
+    <string name="system_share_your_server">váš server</string>
+    <string name="system_share_new_session_in_project">Nová relace · %1$s</string>
+    <string name="system_share_save_failed_message">Zkuste to znovu. Pokud problém přetrvává, uvolněte místo v úložišti zařízení.</string>
+    <!-- The session's title, then its project. -->
+    <string name="system_share_session_chip_description">%1$s, %2$s</string>
+    <string name="system_share_problem_unreachable">Nepodařilo se připojit k %1$s</string>
+    <string name="system_share_problem_too_large">Tak velké soubory odsud nelze odeslat</string>
+    <string name="system_share_problem_uploads_unsupported">Nepodařilo se nahrát soubory na %1$s</string>
+    <string name="system_share_problem_sign_in">Nepodařilo se přihlásit k %1$s</string>
+    <string name="system_share_problem_send">Nepodařilo se odeslat do %1$s</string>
+    <string name="system_share_problem_no_credentials">Pro odesílání odsud nejprve otevřete OpenCode</string>
+    <plurals name="system_share_image_count">
+        <item quantity="one">%d obrázek</item>
+        <item quantity="few">%d obrázky</item>
+        <item quantity="many">%d obrázku</item>
+        <item quantity="other">%d obrázků</item>
+    </plurals>
+    <plurals name="system_share_file_count">
+        <item quantity="one">%d soubor</item>
+        <item quantity="few">%d soubory</item>
+        <item quantity="many">%d souboru</item>
+        <item quantity="other">%d souborů</item>
+    </plurals>
+    <plurals name="system_share_images_skipped">
+        <item quantity="one">Nepodařilo se přidat %d obrázek</item>
+        <item quantity="few">Nepodařilo se přidat %d obrázky</item>
+        <item quantity="many">Nepodařilo se přidat %d obrázku</item>
+        <item quantity="other">Nepodařilo se přidat %d obrázků</item>
+    </plurals>
+    <plurals name="system_share_files_skipped">
+        <item quantity="one">Nepodařilo se přidat %d soubor</item>
+        <item quantity="few">Nepodařilo se přidat %d soubory</item>
+        <item quantity="many">Nepodařilo se přidat %d souboru</item>
+        <item quantity="other">Nepodařilo se přidat %d souborů</item>
+    </plurals>
+    <string name="system_share_save_failed_title">Nepodařilo se uložit pro OpenCode</string>
+    <string name="system_share_continue_description">Pokračujte v OpenCode</string>
+    <string name="system_share_no_server_title">Nejprve se připojte k serveru</string>
+    <string name="system_share_no_server_message">Otevřete OpenCode, připojte se k počítači a zkuste sdílení znovu.</string>
+    <string name="system_share_send_later">Odeslat později</string>
+    <string name="system_share_saved_continue">Uloženo. Pokračujte otevřením OpenCode</string>
+    <string name="system_share_loading_description">Načítání sdílených položek</string>
+    <string name="system_share_image_description">Obrázek</string>
+    <string name="system_share_image_position_description">Obrázek %1$d z %2$d</string>
+    <string name="system_share_search_sessions_description">Vyhledávání relací</string>
+    <string name="system_share_new_session_in_project_description">Nová relace v projektu %1$s</string>
+    <string name="system_share_choose_project_description">Vyberte projekt pro relaci</string>
+    <string name="system_share_message_placeholder">Zpráva</string>
+    <string name="system_share_sent_to">Odesláno do relace %1$s</string>
+    <string name="system_share_sending_description">Odesílání</string>
+    <string name="system_share_sent_description">Odesláno</string>
+    <string name="system_share_sessions_title">Relace</string>
+    <string name="system_share_pinned_header">Připnuté</string>
+    <string name="system_share_recents_header">Nedávné</string>
+
+    <!-- Widget configuration -->
+    <string name="system_widget_choose_session_title">Vyberte relaci</string>
+</resources>

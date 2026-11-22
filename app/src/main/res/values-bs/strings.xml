@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Nije moguće dodati podijeljene stavke</string>
+    <string name="app_alert_open_session_failed_title">Nije moguće otvoriti sesiju</string>
+    <string name="app_alert_pairing_failed_title">Nije moguće upariti se sa serverom</string>
+    <string name="app_pairing_confirm">Upari</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Serveri</string>
+    <string name="app_servers_back_description">Nazad na %1$s</string>
+    <string name="app_server_fallback_name">server</string>
+    <string name="app_connection_intro_new">Nastavi sesije programiranja putem uređaja %1$s.</string>
+    <string name="app_connection_intro_returning">Nastavi gdje si stao ili upari drugi računar.</string>
+    <string name="app_connection_enter_manually">Ručno unesi server</string>
+    <string name="app_connection_scan_pairing_code">Skeniraj kod za uparivanje</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Na računaru otvori OpenCode i idi na Postavke → Uparivanje ili pokreni opencode pair --remote u terminalu. Zatim skeniraj kod uređajem %1$s.</string>
+    <string name="app_setup_install_title">Još nemaš OpenCode?</string>
+    <string name="app_setup_other_ways_to_install">Drugi načini instalacije</string>
+    <string name="app_setup_terminal_title">Ili pokreni ovo u terminalu</string>
+    <string name="app_setup_terminal_detail">Radi s bilo koje mreže.</string>
+    <string name="app_setup_paste_prompt">Ili kopiraj ispisani link, pa</string>
+    <string name="app_setup_paste">Zalijepi</string>
+    <string name="app_setup_copy_command_description">Kopiraj %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Povezivanje</string>
+    <string name="app_servers_edit_description">Uredi %1$s</string>
+    <string name="app_servers_remove_description">Ukloni %1$s</string>
+    <string name="app_servers_remove_confirm_title">Ukloniti %1$s?</string>
+    <string name="app_servers_remove_confirm_message">Ovim se brišu adresa i lozinka na uređaju %1$s. Sesije na serveru ostaju nepromijenjene.</string>
+    <string name="app_servers_remove_confirm">Ukloni server</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Faza: %1$s</string>
+    <string name="app_error_server">Server: %1$s</string>
+    <string name="app_error_attempt">Pokušaj: %1$d</string>
+    <string name="app_error_copy_report">Kopiraj izvještaj o grešci</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Novi server</string>
+    <string name="app_server_form_edit_title">Uredi server</string>
+    <string name="app_server_form_name">Naziv</string>
+    <string name="app_server_form_address">URL servera</string>
+    <string name="app_server_form_username">Korisničko ime</string>
+    <string name="app_server_form_password">Lozinka (opcionalno)</string>
+    <string name="app_server_form_hide_password_description">Sakrij lozinku</string>
+    <string name="app_server_form_show_password_description">Prikaži lozinku</string>
+    <string name="app_server_form_connect">Poveži se</string>
+    <string name="app_server_form_save_and_connect">Sačuvaj i poveži se</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Zaglavlja</string>
+    <string name="app_server_form_header_name">Naziv</string>
+    <string name="app_server_form_header_name_description">Naziv zaglavlja %1$d</string>
+    <string name="app_server_form_header_value">Vrijednost</string>
+    <string name="app_server_form_header_value_description">Vrijednost zaglavlja %1$d</string>
+    <string name="app_server_form_header_remove_description">Ukloni zaglavlje %1$d</string>
+    <string name="app_server_form_header_add">Dodaj zaglavlje</string>
+    <string name="app_server_form_headers_detail">Šalju se uz svaki zahtjev, za posrednički server kao što je Cloudflare Access.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">„%1$s” nije važeći naziv zaglavlja</string>
+    <string name="app_server_form_header_invalid_value">Vrijednost za %1$s ne smije sadržavati novi red</string>
+    <string name="app_server_form_name_placeholder">Opcionalno</string>
+    <string name="app_connection_progress_pairing">Uparivanje</string>
+    <string name="app_connection_progress_connecting">Povezivanje</string>
+    <string name="app_connection_progress_loading_sessions">Učitavanje sesija</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Upariti se sa %1$s?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode će pokušati %1$s i prebaciti se na prvu adresu koja odgovori.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode će se upariti sa %1$s i prebaciti se na taj server.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode će pokušati %1$s i %2$s i prebaciti se na prvu adresu koja odgovori.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode će pokušati %1$s i %2$s i prebaciti se na prvu adresu koja odgovori.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Sačuvani pristupni podaci za %2$s mogu biti zamijenjeni.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Uparivanje</string>
+    <string name="app_error_phase_connect">Poveži se</string>
+    <string name="app_error_phase_load_sessions">Učitaj sesije</string>
+    <string name="app_error_candidate_detail">Kandidat %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Nedostupno (nevažeća adresa)</string>
+    <string name="app_error_title_pair">Nije moguće uparivanje</string>
+    <string name="app_error_title_load_sessions">Nije moguće učitati sesije</string>
+    <string name="app_error_title_connect">Nije moguće povezati se sa %1$s</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Međuspremnik je prazan</string>
+    <string name="app_paste_not_a_pairing_link">To nije link za uparivanje</string>
+    <string name="app_server_no_longer_saved">Ovaj server više nije sačuvan na uređaju %1$s. Ponovo se poveži s njim da otvoriš sesiju.</string>
+    <string name="app_session_no_longer_available">Možda je izbrisana ili server nije dostupan.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Povezano sa %1$s</string>
+    <string name="app_pairing_invalid_code">To nije OpenCode kod za uparivanje. Pokreni opencode pair --remote na računaru, zatim skeniraj prikazani QR kod ili zalijepi ispisani link.</string>
+    <string name="app_pairing_unusable_address">Nije moguće koristiti „%1$s” iz ovog koda za uparivanje jer %2$s.</string>
+    <string name="app_pairing_loopback">Taj server prihvata veze samo na localhost, pa mu uređaj %1$s ne može pristupiti. Umjesto toga pokreni opencode pair --remote na računaru za pristup s bilo koje mreže.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Server na koji si podijelio sadržaj više nije sačuvan na ovom uređaju. Ponovo se poveži s njim pa ponovi dijeljenje.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">zadnje korišteno</string>
+    <string name="app_server_form_hint_new">Za uparivanje zalijepi link koji ispiše `opencode pair --remote` ili koristi adresu i lozinku svog OpenCode servera. Korisničko ime je obično opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Promjene se čuvaju kad se ovaj server poveže. Server je uparen, pa je njegova lozinka token sesije; umjesto izmjene lozinke skeniraj novi kod za uparivanje.</string>
+    <string name="app_server_form_hint_edit">Promjene se čuvaju kad se ovaj server poveže.</string>
+</resources>

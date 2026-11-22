@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Shell</string>
+    <string name="server_notice_source_subagent">子代理</string>
+    <string name="server_notice_heading_finished">%1$s 已完成</string>
+    <string name="server_notice_heading_failed">%1$s 失敗</string>
+    <string name="server_notice_heading_interrupted">%1$s 已中斷</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="other">%1$d 個 Shell 已完成</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="other">%1$d 個 Shell 失敗</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="other">%1$d 個 Shell 已中斷</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="other">%1$d 個子代理已完成</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="other">%1$d 個子代理失敗</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="other">%1$d 個子代理已中斷</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">精簡</string>
+    <string name="server_run_error_action_switch_model">切換模型</string>
+    <string name="server_run_error_aborted">已中斷</string>
+    <string name="server_run_error_permission_rejected">要求遭拒後已中斷</string>
+    <string name="server_run_error_content_filter">安全篩選器已封鎖回覆</string>
+    <string name="server_run_error_rate_limit">已達請求頻率上限</string>
+    <string name="server_run_error_quota">已達使用額度上限</string>
+    <string name="server_run_error_auth">提供者拒絕了 API 金鑰</string>
+    <string name="server_run_error_context_overflow">工作階段過長，此模型無法處理</string>
+    <string name="server_run_error_invalid_request">提供者拒絕了要求</string>
+    <string name="server_run_error_overloaded">模型負載過高</string>
+    <string name="server_run_error_internal">提供者發生問題</string>
+    <string name="server_run_error_transport">與模型的連線已中斷</string>
+    <string name="server_run_error_timeout">模型回覆逾時</string>
+    <string name="server_run_error_invalid_output">無法讀取模型的回覆</string>
+    <string name="server_run_error_unavailable">此模型無法使用</string>
+    <string name="server_run_error_unsupported_operation">此模型不支援這項操作</string>
+    <string name="server_run_error_tool_execution">工具執行失敗，已停止執行</string>
+    <string name="server_run_error_other">發生錯誤，已停止執行</string>
+    <string name="server_run_retry_in_seconds">%1$s · %2$d 秒後重試</string>
+    <string name="server_run_retry_now">%1$s · 重試中</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">無法連線至 OpenCode 伺服器</string>
+    <string name="server_error_folder_gone">資料夾已不存在</string>
+    <string name="server_error_uploads_unsupported">此伺服器不支援檔案附件。請更新電腦上的 OpenCode。</string>
+    <string name="server_error_archiving_unsupported">此伺服器不支援封存。請更新電腦上的 OpenCode。</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode 未獲准存取區域網路上的裝置。請在設定中開啟 OpenCode 的「附近的裝置」權限，然後再試一次。</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">未命名工作階段</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Shell</string>
+    <string name="server_tool_shell_killed">Shell 已被強制終止</string>
+    <string name="server_tool_shell_exit_code">命令已結束，結束代碼為 %1$d</string>
+    <string name="server_notice_session_update">工作階段更新</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">連線失敗</string>
+    <string name="server_connection_resolved_address_unknown">解析位址：未知</string>
+    <string name="server_connection_resolved_address">解析位址（失敗後查詢）：%1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">此 tailnet 名稱解析出的位址不在 Tailscale 範圍內，可能未使用 Tailscale DNS。請在 Tailscale 應用程式中開啟「使用 Tailscale DNS 設定」，並關閉「私人 DNS」或任何會變更 DNS 的 VPN 設定檔。</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">區域網路</string>
+    <string name="server_connection_route_loopback">迴路</string>
+    <string name="server_connection_route_internet">網際網路</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">不是網址</string>
+    <string name="server_pairing_origin_bad_scheme">不是以 http:// 或 https:// 開頭</string>
+    <string name="server_pairing_origin_no_host">缺少主機名稱</string>
+    <string name="server_pairing_origin_credentials">包含使用者名稱或密碼</string>
+    <string name="server_pairing_origin_query">包含查詢參數或片段</string>
+    <string name="server_pairing_origin_port">連接埠不在 1–65535 範圍內</string>
+    <string name="server_pairing_origin_path">包含路徑，但伺服器必須位於網址的根目錄</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">伺服器</string>
+    <string name="server_friendly_name_numbered">伺服器 %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">訊息送出後連線中斷，訊息可能已送達。</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">此整合功能沒有登入方式。</string>
+    <string name="server_error_sign_in_url_invalid">登入頁面的網址無效。</string>
+    <string name="server_error_load_server_details">無法載入伺服器詳細資訊</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">此配對碼已過期或已使用。請重新執行 `opencode pair --remote`。</string>
+    <string name="server_error_pairing_unsupported">此伺服器不支援配對連結。請更新電腦上的 OpenCode，或手動輸入伺服器資訊。</string>
+    <string name="server_error_notification_previews_need_https">加密通知預覽需要 HTTPS 伺服器連線。</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">請輸入有效的 HTTP 或 HTTPS 伺服器 URL。</string>
+    <string name="server_error_credentials_rejected">伺服器拒絕了這組憑證。</string>
+    <string name="server_error_http_status">伺服器傳回 HTTP %1$d。</string>
+    <string name="server_error_event_stream_http">事件串流傳回 HTTP %1$d。</string>
+    <string name="server_error_event_stream_oversized_frame">事件串流傳送的訊框過大。</string>
+    <string name="server_error_event_stream_ended">事件串流已結束。</string>
+    <string name="server_error_event_stream_server_failure">事件串流回報伺服器故障。</string>
+    <string name="server_tool_failed">工具執行失敗</string>
+    <string name="server_error_list_folder">伺服器無法列出此資料夾的內容</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">無法載入專案與工作階段</string>
+    <string name="server_error_load_session_family">無法載入工作階段家族</string>
+    <string name="server_error_update_session">無法更新工作階段</string>
+    <string name="server_error_load_session_ancestry">無法載入目前工作階段的上層關係</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">已在其他地方回答</string>
+    <string name="server_request_already_dismissed">已略過</string>
+    <string name="server_request_already_answered">已回答</string>
+    <string name="server_request_already_dismissed_elsewhere">已在其他地方略過</string>
+    <string name="server_request_no_longer_waiting">已不再等待</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">媒體無法使用</string>
+    <string name="server_pasted_text_title">貼上的文字</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="other">%1$d 行 · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="other">%1$d 行</item>
+    </plurals>
+    <string name="server_file_size_zero">零 KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="other">%1$d 位元組</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">專案</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">檔案</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">請完成此步驟</string>
+    <string name="server_form_required">必填</string>
+    <plurals name="server_form_min_length">
+        <item quantity="other">請輸入至少 %1$d 個字元</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="other">請輸入不超過 %1$d 個字元</item>
+    </plurals>
+    <string name="server_form_invalid_format">格式無效</string>
+    <string name="server_form_choose_option">請選擇可用的選項</string>
+    <string name="server_form_invalid_email">請輸入有效的電子郵件地址</string>
+    <string name="server_form_invalid_url">請輸入有效的 URL</string>
+    <string name="server_form_invalid_date">請以 YYYY-MM-DD 格式輸入日期</string>
+    <string name="server_form_invalid_date_time">請輸入有效的日期與時間</string>
+    <string name="server_form_minimum">不得小於 %1$s</string>
+    <string name="server_form_maximum">不得大於 %1$s</string>
+    <string name="server_form_whole_number">請輸入整數</string>
+    <plurals name="server_form_min_items">
+        <item quantity="other">請至少選擇 %1$d 項</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="other">最多只能選擇 %1$d 項</item>
+    </plurals>
+    <string name="server_form_invalid_value">數值無效</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">隱藏所選項目</string>
+    <string name="server_model_visibility_only_show">僅顯示所選項目</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">關閉</string>
+    <string name="server_model_variant_extra_high">極高</string>
+    <string name="server_model_variant_max">最高</string>
+    <string name="server_delivery_steering">引導</string>
+    <string name="server_delivery_queued">已加入佇列</string>
+</resources>

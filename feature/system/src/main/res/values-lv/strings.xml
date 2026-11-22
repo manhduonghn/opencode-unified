@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_new_session">Jauna sesija</string>
+    <string name="system_start_call">Sākt zvanu</string>
+    <string name="system_open_session">Atvērt sesiju</string>
+    <string name="widget_start_call_description">Sāk balss zvanu izvēlētajā vai pēdējā skatītajā sesijā.</string>
+    <string name="widget_open_session_description">Atver izvēlēto sesiju.</string>
+    <string name="widget_new_session_description">Atver jaunu OpenCode sesiju.</string>
+
+    <!-- Shared across screens -->
+    <string name="system_selected_description">Atlasīta</string>
+    <string name="system_last_viewed_session">Pēdējā skatītā sesija</string>
+
+    <!-- Quick actions (launcher shortcuts) -->
+    <string name="system_quick_action_session_fallback">Sesija</string>
+    <!-- Long label: the session's title, then its project. -->
+    <string name="system_quick_action_long_label">%1$s · %2$s</string>
+
+    <!-- Shortcuts and Ask OpenCode -->
+    <string name="system_session_type_name">Sesija</string>
+    <string name="system_project_type_name">Projekts</string>
+    <string name="system_intent_open_session_description">Atver sesiju lietotnē OpenCode.</string>
+    <string name="system_intent_new_session_description">Sāk jaunu sesiju lietotnē OpenCode.</string>
+    <string name="system_intent_start_voice_call_title">Sākt balss zvanu</string>
+    <string name="system_intent_start_voice_call_description">Sāk balss zvanu ar OpenCode sesijā. Ja sesija nav norādīta, zvans sākas pēdējā skatītajā sesijā.</string>
+    <string name="system_intent_background_call_title">Sākt balss zvanu fonā</string>
+    <string name="system_intent_background_call_description">Sāk balss zvanu ar OpenCode, neatverot lietotni. Zvans ir redzams statusa joslā un bloķēšanas ekrānā.</string>
+    <string name="system_delivery_type_name">Nosūtīšanas veids</string>
+    <string name="system_delivery_steer">Virzīt</string>
+    <string name="system_delivery_queue">Ievietot rindā</string>
+    <string name="system_ask_title">Jautāt OpenCode</string>
+    <string name="system_ask_description">Nosūta ziņu OpenCode sesijai, neatverot lietotni.</string>
+    <string name="system_ask_message_title">Ziņa</string>
+    <string name="system_ask_message_placeholder">Kas OpenCode jādara?</string>
+    <string name="system_ask_session_title">Sesija</string>
+    <string name="system_ask_started_new_session">Sākta jauna sesija projektā %1$s</string>
+    <string name="system_ask_queued_for">Ievietots rindā sesijai “%1$s”</string>
+    <string name="system_ask_sent_to">Nosūtīts sesijai “%1$s”</string>
+    <string name="system_ask_your_session">tava sesija</string>
+    <string name="system_ask_no_server">Vispirms atver OpenCode un pievienojies serverim.</string>
+    <string name="system_ask_no_project">Vispirms atver OpenCode un sāc sesiju.</string>
+    <string name="system_ask_empty_message">Nav ko sūtīt.</string>
+    <!-- The server's error message follows. -->
+    <string name="system_ask_send_failed">Neizdevās nosūtīt uz OpenCode. %1$s</string>
+
+    <!-- Live Updates: voice call -->
+    <string name="system_call_muted">Apklusināts</string>
+    <string name="system_call_unmute">Atcelt apklusināšanu</string>
+    <string name="system_call_mute">Apklusināt</string>
+    <string name="system_call_end">Beigt zvanu</string>
+    <string name="system_call_connecting">Veido savienojumu…</string>
+    <string name="system_call_reconnecting">Atjauno savienojumu…</string>
+    <string name="system_call_ended">Zvans beidzies</string>
+    <string name="system_call_end_title">Beigt zvanu</string>
+    <string name="system_call_toggle_mute_title">Izslēgt vai ieslēgt mikrofonu</string>
+
+    <!-- Live Updates: hands-free recording -->
+    <string name="system_recording_active">Notiek ierakstīšana</string>
+    <string name="system_recording_stopped">Ierakstīšana apturēta</string>
+    <string name="system_recording_stop">Apturēt ierakstīšanu</string>
+    <string name="system_recording_stop_title">Apturēt ierakstīšanu</string>
+    <string name="system_recording_new_session">Jauna sesija</string>
+
+    <!-- Live Updates: session run -->
+    <string name="system_session_working">Darbojas</string>
+    <string name="system_session_last_seen_working">Pēdējais zināmais: darbojas</string>
+    <!-- Where the run is (Working), then its current step (a tool name, Thinking or Replying). -->
+    <string name="system_session_status_with_step">%1$s · %2$s</string>
+    <string name="system_session_step_thinking">Domā</string>
+    <string name="system_session_step_replying">Atbild</string>
+    <string name="system_session_needs_input">Gaida tavu ievadi</string>
+    <string name="system_session_input">Ievade</string>
+    <string name="system_session_done">Gatavs</string>
+    <string name="system_session_failed">Neizdevās</string>
+
+    <!-- Session notifications -->
+    <string name="system_notification_placeholder_body">Jauna darbība</string>
+
+    <!-- Notification channels -->
+    <string name="system_channel_voice_calls">Balss zvani</string>
+    <string name="system_channel_recording">Notiek ierakstīšana</string>
+    <string name="system_channel_session_runs">Sesiju izpilde</string>
+    <string name="system_channel_session_updates">Sesiju atjauninājumi</string>
+    <string name="system_channel_shared_items">Kopīgotie vienumi</string>
+
+    <!-- Share sheet: notifications -->
+    <string name="system_share_continue_notification_body">Pieskaries, lai turpinātu OpenCode</string>
+
+    <!-- Share sheet -->
+    <string name="system_share_your_server">tavs serveris</string>
+    <string name="system_share_new_session_in_project">Jauna sesija · %1$s</string>
+    <string name="system_share_save_failed_message">Mēģini vēlreiz. Ja problēma atkārtojas, atbrīvo vietu šajā ierīcē.</string>
+    <!-- The session's title, then its project. -->
+    <string name="system_share_session_chip_description">%1$s, %2$s</string>
+    <string name="system_share_problem_unreachable">Neizdevās sasniegt %1$s</string>
+    <string name="system_share_problem_too_large">No šejienes neizdevās nosūtīt tik lielus failus</string>
+    <string name="system_share_problem_uploads_unsupported">Neizdevās augšupielādēt failus uz %1$s</string>
+    <string name="system_share_problem_sign_in">Neizdevās pierakstīties %1$s</string>
+    <string name="system_share_problem_send">Neizdevās nosūtīt uz %1$s</string>
+    <string name="system_share_problem_no_credentials">Vienreiz atver OpenCode, lai varētu sūtīt no šejienes</string>
+    <plurals name="system_share_image_count">
+        <item quantity="zero">%d attēlu</item>
+        <item quantity="one">%d attēls</item>
+        <item quantity="other">%d attēli</item>
+    </plurals>
+    <plurals name="system_share_file_count">
+        <item quantity="zero">%d failu</item>
+        <item quantity="one">%d fails</item>
+        <item quantity="other">%d faili</item>
+    </plurals>
+    <plurals name="system_share_images_skipped">
+        <item quantity="zero">Neizdevās pievienot %d attēlu</item>
+        <item quantity="one">Neizdevās pievienot %d attēlu</item>
+        <item quantity="other">Neizdevās pievienot %d attēlus</item>
+    </plurals>
+    <plurals name="system_share_files_skipped">
+        <item quantity="zero">Neizdevās pievienot %d failu</item>
+        <item quantity="one">Neizdevās pievienot %d failu</item>
+        <item quantity="other">Neizdevās pievienot %d failus</item>
+    </plurals>
+    <string name="system_share_save_failed_title">Neizdevās saglabāt OpenCode</string>
+    <string name="system_share_continue_description">Turpināt OpenCode</string>
+    <string name="system_share_no_server_title">Vispirms pievienojies serverim</string>
+    <string name="system_share_no_server_message">Atver OpenCode un pievienojies savam datoram, tad kopīgo vēlreiz.</string>
+    <string name="system_share_send_later">Sūtīt vēlāk</string>
+    <string name="system_share_saved_continue">Saglabāts. Atver OpenCode, lai turpinātu</string>
+    <string name="system_share_loading_description">Ielādē kopīgotos vienumus</string>
+    <string name="system_share_image_description">Attēls</string>
+    <string name="system_share_image_position_description">Attēls %1$d no %2$d</string>
+    <string name="system_share_search_sessions_description">Meklēt sesijas</string>
+    <string name="system_share_new_session_in_project_description">Jauna sesija projektā %1$s</string>
+    <string name="system_share_choose_project_description">Izvēlies sesijas projektu</string>
+    <string name="system_share_message_placeholder">Ziņa</string>
+    <string name="system_share_sent_to">Nosūtīts sesijai %1$s</string>
+    <string name="system_share_sending_description">Notiek sūtīšana</string>
+    <string name="system_share_sent_description">Nosūtīts</string>
+    <string name="system_share_sessions_title">Sesijas</string>
+    <string name="system_share_pinned_header">Piespraustās</string>
+    <string name="system_share_recents_header">Nesen lietotie</string>
+
+    <!-- Widget configuration -->
+    <string name="system_widget_choose_session_title">Izvēlies sesiju</string>
+</resources>

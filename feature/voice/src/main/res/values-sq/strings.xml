@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Call ended and failure cards -->
+    <string name="voice_call_ended_title">Thirrja përfundoi</string>
+    <string name="voice_call_ended_rejoin">Ribashkohu</string>
+    <string name="voice_failure_title">Zëri nuk u lidh dot</string>
+    <string name="voice_failure_check_api_key">Kontrollo tastin API</string>
+    <string name="voice_failure_start_title">Thirrja nuk u nis dot</string>
+
+    <!-- Floating call -->
+    <string name="voice_floating_expand">Zgjero</string>
+    <string name="voice_floating_orb_description">Thirrje zanore</string>
+    <string name="voice_floating_orb_show_controls">Trego kontrollet e thirrjes</string>
+    <string name="voice_floating_end_description">Mbyll thirrjen zanore</string>
+    <string name="voice_floating_control_placeholder_state">Nuk disponohet në këtë prototip</string>
+    <string name="voice_floating_duration_description">Kohëzgjatja e thirrjes</string>
+
+    <!-- Floating call stage -->
+    <string name="voice_stage_talking_in">Duke folur në</string>
+    <string name="voice_stage_minimize_description">Minimizo</string>
+    <string name="voice_mute">Hesht</string>
+    <string name="voice_unmute">Hiq heshtjen</string>
+    <string name="voice_stage_pause">Ndalo përkohësisht</string>
+    <string name="voice_stage_camera">Kamera</string>
+    <string name="voice_transcript_empty">Thuaji diçka sesionit tënd.</string>
+    <string name="voice_transcript_you">Ti</string>
+    <string name="voice_transcript_user_line_description">Ti: %1$s</string>
+
+    <!-- Call rows: screen request -->
+    <string name="voice_screen_request_detail">Zëri kërkon të shohë ekranin tënd</string>
+    <string name="voice_screen_request_spoken">Pret përgjigjen tënde. Zëri kërkon të shohë ekranin tënd</string>
+    <string name="voice_screen_request_spoken_with_reason">Pret përgjigjen tënde. Zëri kërkon të shohë ekranin tënd. %1$s</string>
+    <string name="voice_screen_request_title">Ta ndash ekranin?</string>
+
+    <!-- Call rows: open link -->
+    <string name="voice_open_link_spoken">Pret përgjigjen tënde. %1$s</string>
+    <string name="voice_open_link_spoken_with_host">Pret përgjigjen tënde. %1$s %2$s</string>
+    <string name="voice_open_link_open">Hapur</string>
+
+    <!-- Call rows: audio on the call -->
+    <string name="voice_audio_paused">Në pauzë</string>
+    <string name="voice_audio_playing">Po luhet në thirrje</string>
+    <string name="voice_audio_play">Luaj audion</string>
+    <string name="voice_audio_pause">Ndalo përkohësisht audion</string>
+    <string name="voice_audio_stop">Ndalo audion</string>
+
+    <!-- Call history -->
+    <string name="voice_call_history_title">Historiku i thirrjeve</string>
+    <string name="voice_call_history_options_description">Opsionet e historikut</string>
+    <string name="voice_call_history_delete_all">Fshi të gjitha</string>
+    <string name="voice_call_history_empty_title">Ende pa thirrje zanore</string>
+    <string name="voice_call_history_empty_message">Thirrjet ruhen në këtë telefon që t’i dëgjosh sërish.</string>
+    <string name="voice_call_history_delete_all_confirm_title">Të fshihen të gjitha thirrjet zanore?</string>
+
+    <!-- Call replay -->
+    <string name="voice_replay_timeline_description">Afati kohor i thirrjes</string>
+    <string name="voice_replay_timeline_state">%1$s nga %2$s</string>
+    <string name="voice_replay_pause">Ndalo përkohësisht</string>
+    <string name="voice_replay_play">Luaj</string>
+    <string name="voice_replay_position_description">Pozicioni</string>
+    <string name="voice_replay_speed_description">Shpejtësia e luajtjes</string>
+    <string name="voice_replay_empty">Shtyp Luaj për ta dëgjuar sërish thirrjen.</string>
+
+    <!-- Call notification -->
+    <string name="voice_notification_channel_name">Thirrjet</string>
+    <string name="voice_notification_channel_description">Thirrjet në vazhdim në OpenCode</string>
+    <string name="voice_notification_connecting">Po lidhet…</string>
+    <string name="voice_notification_reconnecting">Po rilidhet…</string>
+    <string name="voice_notification_call_ended">Thirrja përfundoi</string>
+    <string name="voice_notification_end">Mbyll</string>
+    <!-- Call status caption -->
+    <string name="voice_status_connecting_via">Po lidhet përmes %1$s…</string>
+    <string name="voice_status_weak_connection">Lidhje e dobët</string>
+    <string name="voice_status_paused">Në pauzë</string>
+    <string name="voice_status_needs_input">Pret përgjigjen tënde</string>
+    <string name="voice_status_working">Duke punuar</string>
+    <string name="voice_status_speaking">Po flet</string>
+    <string name="voice_status_muted">Pa zë</string>
+    <string name="voice_status_listening">Po dëgjon</string>
+    <string name="voice_status_ending">Po përfundon…</string>
+    <string name="voice_status_ended">Përfundoi</string>
+    <string name="voice_session_new_title">Sesion i ri</string>
+    <string name="voice_call_note_builtin_fallback">Po përdoret deleguesi i integruar për këtë thirrje</string>
+
+    <!-- Floating call tag and spoken length -->
+    <string name="voice_floating_now_talking_in">Tani duke folur në %1$s</string>
+    <string name="voice_floating_spoken_duration">%1$s, %2$s</string>
+    <plurals name="voice_floating_spoken_minutes">
+        <item quantity="one">%1$d minutë</item>
+        <item quantity="other">%1$d minuta</item>
+    </plurals>
+    <plurals name="voice_floating_spoken_seconds">
+        <item quantity="one">%1$d sekondë</item>
+        <item quantity="other">%1$d sekonda</item>
+    </plurals>
+
+    <!-- Voice providers -->
+    <string name="voice_provider_state_ready">Gati</string>
+    <string name="voice_provider_state_no_key">Pa tast</string>
+    <string name="voice_provider_state_needs_update">Përditëso OpenCode</string>
+    <string name="voice_provider_state_offline">Jashtë linje</string>
+    <string name="voice_provider_place_phone">Ky telefon</string>
+    <string name="voice_provider_brand_openai_account">Llogaria jote OpenAI</string>
+    <string name="voice_provider_name">%1$s në %2$s</string>
+    <string name="voice_provider_subtitle">Në %1$s</string>
+    <string name="voice_provider_key_row_title">Tasti i %1$s</string>
+    <string name="voice_provider_key_placeholder">Tasti API i %1$s</string>
+
+    <!-- Voice key source -->
+    <string name="voice_key_source_server_row_title">Tasti në serverin tënd</string>
+    <string name="voice_key_source_phone_footer">Thirrjet përdorin tastin tënd të OpenAI ose xAI.</string>
+    <string name="voice_key_source_server_footer">Thirrjet përdorin tastin e %1$s në serverin tënd.</string>
+    <string name="voice_key_source_opencode_footer">Thirrjet faturohen në hapësirën tënde të punës në OpenCode Console.</string>
+
+    <!-- Call failure fixes and diagnosis -->
+    <string name="voice_fix_set_up_on_phone">Konfiguro në këtë telefon</string>
+    <string name="voice_fix_choose_provider">Zgjidh ofruesin</string>
+    <string name="voice_fix_update_opencode">Përditëso OpenCode</string>
+    <string name="voice_diagnosis_needs_update">%1$s ka nevojë për një version më të ri të OpenCode për thirrje zanore.</string>
+    <string name="voice_diagnosis_your_server_needs_update">Serveri yt ka nevojë për një version më të ri të OpenCode për thirrje zanore.</string>
+    <string name="voice_diagnosis_no_key">%1$s nuk ka tast për thirrje zanore.</string>
+    <string name="voice_diagnosis_your_server_no_key">Serveri yt nuk ka tast për thirrje zanore.</string>
+    <string name="voice_diagnosis_unreachable">Nuk u lidh dot me %1$s.</string>
+    <string name="voice_diagnosis_your_server_unreachable">Nuk u lidh dot me serverin tënd.</string>
+    <string name="voice_diagnosis_failed">%1$s nuk e nisi dot thirrjen.</string>
+    <string name="voice_diagnosis_your_server_failed">Serveri yt nuk e nisi dot thirrjen.</string>
+    <string name="voice_diagnosis_key_rejected">OpenAI nuk e pranoi tastin në këtë telefon.</string>
+    <string name="voice_diagnosis_missing_phone_key">Shto tastin tënd API të %1$s për të telefonuar nga ky telefon.</string>
+
+    <!-- Call errors -->
+    <string name="voice_error_microphone_denied">Lejo qasjen te mikrofoni te cilësimet për të folur me sesionin tënd.</string>
+    <string name="voice_error_audio_format_unavailable">Formati i pajisjes audio nuk mbështetet.</string>
+    <string name="voice_error_audio_engine_rejected">Audioja e thirrjes nuk u nis dot. Provo sërish pas pak.</string>
+    <string name="voice_error_server_unsupported">Ky server ka nevojë për një version më të ri të OpenCode për thirrje zanore</string>
+    <string name="voice_error_invalid_server_url">Zëri nuk u nis dot: Shkruaj një URL të vlefshme HTTP ose HTTPS të serverit.</string>
+    <string name="voice_error_invalid_response">Zëri nuk u nis dot: Serveri ktheu një përgjigje të pavlefshme.</string>
+    <string name="voice_error_start_voice_detail">Zëri nuk u nis dot: %1$s</string>
+    <string name="voice_error_start_voice_http">Zëri nuk u nis dot (HTTP %1$d).</string>
+    <string name="voice_error_openai_rejected_key">OpenAI e refuzoi tastin API.</string>
+    <string name="voice_error_openai_verify_http">OpenAI nuk e verifikoi dot këtë tast (HTTP %1$d).</string>
+    <string name="voice_error_no_connection">Nuk ka lidhje.</string>
+    <string name="voice_error_model_address_invalid">Adresa e modelit të zërit është e pavlefshme.</string>
+    <string name="voice_error_xai_rejected_key">xAI e refuzoi tastin API.</string>
+    <string name="voice_error_xai_verify_http">xAI nuk e verifikoi dot këtë tast (HTTP %1$d).</string>
+    <string name="voice_error_xai_key_disabled">Ky tast API i xAI është çaktivizuar.</string>
+    <string name="voice_error_xai_key_blocked">Ky tast API i xAI është bllokuar.</string>
+    <string name="voice_error_service_address_invalid">Adresa e shërbimit të zërit është e pavlefshme.</string>
+    <string name="voice_error_connection_lost">Lidhja zanore humbi.</string>
+    <string name="voice_error_connection_closed">Lidhja zanore është mbyllur.</string>
+    <string name="voice_error_connection_setup">Lidhja zanore nuk u vendos dot.</string>
+    <string name="voice_error_safety_filter">Një filtër sigurie e përfundoi thirrjen zanore.</string>
+    <string name="voice_error_audio_reset">Sistemi e rivendosi audion. Nise sërish thirrjen.</string>
+    <string name="voice_error_missing_phone_key">Shto tastin tënd API të %1$s te cilësimet për të përdorur zërin.</string>
+
+    <!-- Voice accents -->
+    <string name="voice_accent_australian_english">Anglishte australiane</string>
+    <string name="voice_accent_british_english">Anglishte britanike</string>
+    <string name="voice_accent_irish_english">Anglishte irlandeze</string>
+    <string name="voice_accent_north_american_english">Anglishte e Amerikës së Veriut</string>
+    <string name="voice_accent_brazilian_portuguese">Portugalisht braziliane</string>
+    <string name="voice_accent_filipino_english">Anglishte filipinase</string>
+    <string name="voice_accent_southern_us_english">Anglishte e jugut të SHBA-së</string>
+    <string name="voice_accent_indian_english">Anglishte indiane</string>
+    <string name="voice_preview_error">Nuk u luajt dot prova</string>
+
+    <!-- Call sound packs -->
+    <string name="voice_sound_pack_breath_ping">Tringëllimë fryme</string>
+    <string name="voice_sound_pack_crystal_glass">Gotë kristali</string>
+    <string name="voice_sound_pack_warm_analog">Tingull analog i ngrohtë</string>
+    <string name="voice_sound_pack_aurora_pulse">Puls aurore</string>
+    <string name="voice_sound_pack_velvet_bell">Zile kadifeje</string>
+    <string name="voice_sound_pack_silent">Pa zë</string>
+
+    <!-- Open link card -->
+    <string name="voice_open_link_card_title_untitled">Ta hap lidhjen?</string>
+    <string name="voice_open_link_card_title">Ta hap %1$s?</string>
+
+    <!-- Delegator choice -->
+    <string name="voice_delegator_session_fallback">Sesioni</string>
+    <string name="voice_delegator_unavailable_gemini">Gemini Live ia kalon detyrat drejtpërdrejt sesionit në ekran. Zgjidh një ofrues zëri OpenAI për të përdorur një sesion OpenCode.</string>
+    <string name="voice_delegator_unavailable_engine">%1$s ia kalon detyrat drejtpërdrejt sesionit në ekran. Ndërro modelin e zërit në GPT-Live për të përdorur një sesion OpenCode.</string>
+
+    <!-- Call log list and replay -->
+    <string name="voice_call_log_duration_seconds">%1$ds</string>
+    <string name="voice_call_log_duration_minutes">%1$dm %2$ds</string>
+    <string name="voice_replay_to_delegator">→ Deleguesi</string>
+    <string name="voice_replay_to_voice">→ Zëri</string>
+    <string name="voice_replay_audio">Audio</string>
+    <string name="voice_replay_track_user">Ti</string>
+    <string name="voice_replay_track_voice">Zëri</string>
+    <string name="voice_replay_track_delegator">Deleguesi</string>
+    <string name="voice_replay_track_tools">Mjetet</string>
+</resources>

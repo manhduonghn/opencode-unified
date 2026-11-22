@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">Rasm</string>
+    <string name="media_image_load_failed">Rasmni yuklab bo‘lmadi</string>
+    <string name="media_unavailable">Media mavjud emas</string>
+    <string name="media_try_again_label">Qayta urinish</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">Media ko‘ruvchi</string>
+    <string name="media_viewer_save_to_photos_description">Suratlarga saqlash</string>
+    <string name="media_file_viewer_screen_title">Fayl ko‘ruvchi</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s: %3$d tadan %2$d</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">Rasm ustiga chizish</string>
+    <string name="media_drawing_undo_description">Bekor qilish</string>
+    <string name="media_drawing_add_to_prompt_description">Promptga qo‘shish</string>
+    <string name="media_drawing_canvas_description">Chizish maydoni</string>
+    <string name="media_drawing_discard_title">Chizma bekor qilinsinmi?</string>
+    <string name="media_drawing_discard_confirm">Chizmani bekor qilish</string>
+    <string name="media_drawing_keep">Chizishni davom ettirish</string>
+    <string name="media_drawing_add_failed_title">Chizmani qo‘shib bo‘lmadi</string>
+    <string name="media_drawing_flatten_failed">Rasmni yaratib bo‘lmadi. Qayta urinib ko‘ring.</string>
+    <string name="media_drawing_prompt_unavailable">Bu sessiya xabariga hozir biriktirma qo‘shib bo‘lmaydi.</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">Oq</string>
+    <string name="media_drawing_ink_black">Qora</string>
+    <string name="media_drawing_ink_red">Qizil</string>
+    <string name="media_drawing_ink_yellow">Sariq</string>
+    <string name="media_drawing_ink_green">Yashil</string>
+    <string name="media_drawing_ink_blue">Koʻk</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">Kattalashtirilgan</string>
+    <string name="media_zoom_out_label">Kichraytirish</string>
+    <string name="media_zoom_in_label">Kattalashtirish</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">Pauza</string>
+    <string name="media_player_play">Ijro etish</string>
+    <string name="media_player_position_description">Ijro holati</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">Videoni ijro etib bo‘lmadi</string>
+    <string name="media_video_position_description">Video ijro nuqtasi</string>
+    <string name="media_video_capture_failed_title">Kadrni olib bo‘lmadi</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">Oldindan ko‘rish</string>
+    <string name="media_file_show_source_description">Manbani ko‘rsatish</string>
+    <string name="media_file_unwrap_lines_description">Qatorlarni bo\'lmaslik</string>
+    <string name="media_file_wrap_lines_description">Qatorlarni bo\'lish</string>
+    <string name="media_file_start_pip_description">Rasm ichida rasmni yoqish</string>
+    <string name="media_file_opening">Ochilmoqda…</string>
+    <string name="media_file_share_failed_title">Faylni ulashib bo‘lmadi</string>
+    <string name="media_file_share_downloading_description">Ulashish uchun yuklanmoqda</string>
+    <string name="media_file_confirm_large_message">Bu fayl hajmi %1$s. Uni shu qurilmada ko‘rish uchun yuklab olasizmi?</string>
+    <string name="media_file_download">Yuklab olish</string>
+    <string name="media_file_open_in_another_app">Boshqa ilovada ochish</string>
+    <string name="media_file_no_app_message">Bu qurilmada faylni ocha oladigan ilova yo‘q. Saqlash yoki boshqa joyga yuborish uchun uni ulashing.</string>
+    <string name="media_file_pdf_page_description">%2$d sahifadan %1$d-sahifa</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">Fayl topilmadi</string>
+    <string name="media_file_error_open_failed_title">Faylni ochib bo‘lmadi</string>
+    <string name="media_file_error_unreadable">Bu yo‘lni serverdan o‘qib bo‘lmaydi.</string>
+    <string name="media_file_error_not_found">U ko‘chirilgan yoki o‘chirilgan bo‘lishi mumkin.</string>
+    <string name="media_file_error_unauthorized">Server bu qurilmaning parolini qabul qilmadi.</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">Server uni o‘qiy olmadi (HTTP %1$d). U jild bo‘lishi mumkin.</string>
+    <string name="media_file_error_timed_out">So‘rov vaqti tugadi.</string>
+    <string name="media_file_error_unexpected_response">Server kutilmagan javob yubordi.</string>
+    <string name="media_file_error_over_limit">Fayl yuklab olish hajmi chegarasidan oshib ketdi.</string>
+    <string name="media_file_error_size_unknown">Server biriktirma hajmini bildirmadi.</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">Yuklab olinmoqda…</string>
+    <string name="media_file_downloading_size">%1$s yuklab olinmoqda</string>
+    <string name="media_file_downloading_progress">%2$s dan %1$s yuklab olinmoqda</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">0 KB</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="one">%1$d bayt</item>
+        <item quantity="other">%1$d bayt</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s KB</string>
+    <string name="media_file_size_megabytes">%1$s MB</string>
+    <string name="media_file_size_gigabytes">%1$s GB</string>
+    <string name="media_file_size_terabytes">%1$s TB</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">Topilmadi</string>
+    <string name="media_image_load_label">Rasmni yuklash</string>
+    <string name="media_image_loading_state">Yuklanmoqda</string>
+    <string name="media_image_open_label">Rasmni ochish</string>
+    <string name="media_image_tap_to_load">Yuklash uchun bosing</string>
+    <string name="media_image_outside_project_value">Loyihadan tashqarida</string>
+    <string name="media_image_deferred_low_data_value">Trafikni tejash rejimi tufayli kechiktirildi</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">%1$s faylini ochish</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">Sessiyaga qaytish</string>
+    <string name="media_browser_ask_description">Bu sahifa haqida so‘rash</string>
+    <string name="media_browser_forward_description">Oldinga</string>
+    <string name="media_browser_open_in_browser_description">Brauzerda ochish</string>
+    <string name="media_browser_scroll_to_top_label">Sahifa boshiga o‘tish</string>
+    <string name="media_browser_ask_placeholder">Bu sahifa haqida so‘rang</string>
+    <string name="media_browser_reply_needs_input">Javobingiz kerak</string>
+    <string name="media_browser_reply_working">Bajarilmoqda</string>
+    <string name="media_browser_go_back_to_session_label">Sessiyaga qaytish</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">Javob tayyor</string>
+    <string name="media_browser_reply_back_to_read">· O‘qish uchun qayting</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">Sessiya</string>
+    <string name="media_link_open_in_app_browser">Ilova ichidagi brauzerda ochish</string>
+    <string name="media_link_open_in_browser">Brauzerda ochish</string>
+    <string name="media_link_open_in_app">Ilovada ochish</string>
+    <string name="media_link_copy">Havolani nusxalash</string>
+    <string name="media_link_share">Ulashish…</string>
+    <string name="media_link_open_session">Sessiyani ochish</string>
+    <string name="media_link_copy_session_id">ID-ni nusxalash</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">%1$s ID-sini nusxalash</string>
+    <string name="media_link_open_session_named_description">%1$s sessiyasini ochish</string>
+    <string name="media_link_open_host_in_app_browser_description">%1$s ni ilova ichidagi brauzerda ochish</string>
+    <string name="media_link_open_host_in_browser_description">%1$s ni brauzerda ochish</string>
+    <string name="media_link_open_host_in_app_description">%1$s ni ilovada ochish</string>
+    <string name="media_link_copy_host_description">%1$s havolasini nusxalash</string>
+    <string name="media_link_share_host_description">%1$s havolasini ulashish</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%2$s dagi %1$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s, %2$d-havola</string>
+    <string name="media_link_more_links_description">Boshqa havolalar</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">Video</string>
+    <string name="media_link_preview_post">Post</string>
+    <string name="media_link_preview_post_unavailable">Post mavjud emas</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">Ombor</string>
+    <string name="media_github_kind_issue">Muammo</string>
+    <string name="media_github_kind_pull_request">Birlashtirish so‘rovi</string>
+    <string name="media_github_kind_commit">Kommit</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">Ochiq</string>
+    <string name="media_github_state_closed">Yopiq</string>
+    <string name="media_github_state_merged">Birlashtirilgan</string>
+    <string name="media_github_state_draft">Qoralama</string>
+    <string name="media_github_state_completed">Bajarildi</string>
+    <string name="media_github_state_not_planned">Rejalashtirilmagan</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">Diagramma, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">Diagramma ko‘ruvchi</string>
+    <string name="media_mermaid_diagram_description">Diagramma</string>
+    <string name="media_mermaid_loading_state">%1$s, yuklanmoqda</string>
+    <string name="media_mermaid_view_source">Manbani ko‘rish</string>
+    <string name="media_mermaid_source_title">Diagramma manbasi</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">Blok-sxema</string>
+    <string name="media_mermaid_type_sequence">Ketma-ketlik diagrammasi</string>
+    <string name="media_mermaid_type_class">Sinflar diagrammasi</string>
+    <string name="media_mermaid_type_state">Holatlar diagrammasi</string>
+    <string name="media_mermaid_type_entity_relationship">Obyektlar aloqasi diagrammasi</string>
+    <string name="media_mermaid_type_user_journey">Foydalanuvchi yo‘li</string>
+    <string name="media_mermaid_type_gantt">Gantt diagrammasi</string>
+    <string name="media_mermaid_type_pie">Doiraviy diagramma</string>
+    <string name="media_mermaid_type_quadrant">Kvadrant diagrammasi</string>
+    <string name="media_mermaid_type_requirement">Talablar diagrammasi</string>
+    <string name="media_mermaid_type_git_graph">Git grafigi</string>
+    <string name="media_mermaid_type_c4">C4 diagrammasi</string>
+    <string name="media_mermaid_type_mind_map">Fikrlar xaritasi</string>
+    <string name="media_mermaid_type_timeline">Vaqt jadvali</string>
+    <string name="media_mermaid_type_sankey">Sankey diagrammasi</string>
+    <string name="media_mermaid_type_xy_chart">XY diagrammasi</string>
+    <string name="media_mermaid_type_block">Blok diagrammasi</string>
+    <string name="media_mermaid_type_packet">Paket diagrammasi</string>
+    <string name="media_mermaid_type_kanban">Kanban taxtasi</string>
+    <string name="media_mermaid_type_architecture">Arxitektura diagrammasi</string>
+    <string name="media_mermaid_type_radar">Radar diagrammasi</string>
+    <string name="media_mermaid_type_treemap">Daraxtsimon xarita</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

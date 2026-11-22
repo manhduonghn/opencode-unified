@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">የተጋሩ ነገሮችን ማከል አልተቻለም</string>
+    <string name="app_alert_open_session_failed_title">ክፍለ ጊዜውን መክፈት አልተቻለም</string>
+    <string name="app_alert_pairing_failed_title">ከአገልጋዩ ጋር ማጣመር አልተቻለም</string>
+    <string name="app_pairing_confirm">አጣምር</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">አገልጋዮች</string>
+    <string name="app_servers_back_description">ወደ %1$s ተመለስ</string>
+    <string name="app_server_fallback_name">አገልጋይ</string>
+    <string name="app_connection_intro_new">የኮድ ክፍለ ጊዜዎችዎን ከ%1$sዎ ይቀጥሉ።</string>
+    <string name="app_connection_intro_returning">ካቆሙበት ይቀጥሉ፣ ወይም ሌላ ኮምፒውተር ያጣምሩ።</string>
+    <string name="app_connection_enter_manually">አገልጋይ በእጅ አስገባ</string>
+    <string name="app_connection_scan_pairing_code">የማጣመሪያ ኮድ ቃኝ</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">በኮምፒውተርዎ OpenCodeን ከፍተው ወደ ቅንብሮች → ማጣመር ይሂዱ፣ ወይም በተርሚናል opencode pair --remote ያሂዱ። ከዚያ በዚህ %1$s ኮዱን ይቃኙ።</string>
+    <string name="app_setup_install_title">እስካሁን OpenCode የለዎትም?</string>
+    <string name="app_setup_other_ways_to_install">ሌሎች የመጫኛ መንገዶች</string>
+    <string name="app_setup_terminal_title">ወይም ይህን በተርሚናል አሂድ</string>
+    <string name="app_setup_terminal_detail">ከማንኛውም አውታረ መረብ ይሰራል።</string>
+    <string name="app_setup_paste_prompt">ወይም የሚያሳየውን አገናኝ ኮፒ አድርገው፣ ከዚያ</string>
+    <string name="app_setup_paste">ለጥፍ</string>
+    <string name="app_setup_copy_command_description">%1$s ኮፒ አድርግ</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">በመገናኘት ላይ</string>
+    <string name="app_servers_edit_description">%1$s አርትዕ</string>
+    <string name="app_servers_remove_description">%1$s አስወግድ</string>
+    <string name="app_servers_remove_confirm_title">%1$s ይወገድ?</string>
+    <string name="app_servers_remove_confirm_message">በዚህ %1$s ላይ የተቀመጡት አድራሻና የይለፍ ቃል ይሰረዛሉ። በአገልጋዩ ላይ ያሉ ክፍለ ጊዜዎች አይነኩም።</string>
+    <string name="app_servers_remove_confirm">አገልጋይ አስወግድ</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">ደረጃ፦ %1$s</string>
+    <string name="app_error_server">አገልጋይ፦ %1$s</string>
+    <string name="app_error_attempt">ሙከራ፦ %1$d</string>
+    <string name="app_error_copy_report">የስህተት ሪፖርት ኮፒ አድርግ</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">አዲስ አገልጋይ</string>
+    <string name="app_server_form_edit_title">አገልጋይ አርትዕ</string>
+    <string name="app_server_form_name">ስም</string>
+    <string name="app_server_form_address">የአገልጋይ አድራሻ</string>
+    <string name="app_server_form_username">የተጠቃሚ ስም</string>
+    <string name="app_server_form_password">የይለፍ ቃል (አማራጭ)</string>
+    <string name="app_server_form_hide_password_description">የይለፍ ቃል ደብቅ</string>
+    <string name="app_server_form_show_password_description">የይለፍ ቃል አሳይ</string>
+    <string name="app_server_form_connect">አገናኝ</string>
+    <string name="app_server_form_save_and_connect">አስቀምጥና አገናኝ</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">ራስጌዎች</string>
+    <string name="app_server_form_header_name">ስም</string>
+    <string name="app_server_form_header_name_description">የራስጌ %1$d ስም</string>
+    <string name="app_server_form_header_value">እሴት</string>
+    <string name="app_server_form_header_value_description">የራስጌ %1$d እሴት</string>
+    <string name="app_server_form_header_remove_description">ራስጌ %1$d አስወግድ</string>
+    <string name="app_server_form_header_add">ራስጌ አክል</string>
+    <string name="app_server_form_headers_detail">እንደ Cloudflare Access ላለ የአገልጋይ መካከለኛ አገልጋይ፣ ከእያንዳንዱ ጥያቄ ጋር ይላካሉ።</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">“%1$s” ትክክለኛ የራስጌ ስም አይደለም</string>
+    <string name="app_server_form_header_invalid_value">የ%1$s እሴት የመስመር መቋረጥ ሊኖረው አይችልም</string>
+    <string name="app_server_form_name_placeholder">አማራጭ</string>
+    <string name="app_connection_progress_pairing">በማጣመር ላይ</string>
+    <string name="app_connection_progress_connecting">በመገናኘት ላይ</string>
+    <string name="app_connection_progress_loading_sessions">ክፍለ ጊዜዎችን በመጫን ላይ</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">ከ%1$s ጋር ይጣመር?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode %1$sን ይሞክራል፣ መጀመሪያ ምላሽ ወደሚሰጠውም አድራሻ ይቀየራል።</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode ከ%1$s ጋር ይጣመራል፣ ወደ እሱም ይቀየራል።</string>
+    <string name="app_pairing_confirm_try_two">OpenCode %1$s እና %2$sን ይሞክራል፣ መጀመሪያ ምላሽ ወደሚሰጠውም ይቀየራል።</string>
+    <string name="app_pairing_confirm_try_many">OpenCode %1$s፣ እና %2$sን ይሞክራል፣ መጀመሪያ ምላሽ ወደሚሰጠውም ይቀየራል።</string>
+    <string name="app_pairing_confirm_replaces">%1$s ለ%2$s የተቀመጡ የመግቢያ መረጃዎች ሊተኩ ይችላሉ።</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">ማጣመር</string>
+    <string name="app_error_phase_connect">አገናኝ</string>
+    <string name="app_error_phase_load_sessions">ክፍለ ጊዜዎችን ጫን</string>
+    <string name="app_error_candidate_detail">አማራጭ %1$d፦ %2$s</string>
+    <string name="app_error_invalid_address">አይገኝም (ልክ ያልሆነ አድራሻ)</string>
+    <string name="app_error_title_pair">ማጣመር አልተቻለም</string>
+    <string name="app_error_title_load_sessions">ክፍለ ጊዜዎችን መጫን አልተቻለም</string>
+    <string name="app_error_title_connect">ከ%1$s ጋር መገናኘት አልተቻለም</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">የቅንጥብ ሰሌዳዎ ባዶ ነው</string>
+    <string name="app_paste_not_a_pairing_link">ይህ የማጣመሪያ አገናኝ አይደለም</string>
+    <string name="app_server_no_longer_saved">ይህ አገልጋይ ከእንግዲህ በዚህ %1$s ላይ አልተቀመጠም። ክፍለ ጊዜውን ለመክፈት እንደገና ያገናኙት።</string>
+    <string name="app_session_no_longer_available">ተሰርዞ ሊሆን ይችላል፣ ወይም አገልጋዩ ላይገኝ ይችላል።</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">ከ%1$s ጋር ተገናኝቷል</string>
+    <string name="app_pairing_invalid_code">ይህ የOpenCode ማጣመሪያ ኮድ አይደለም። በኮምፒውተርዎ ላይ opencode pair --remote ያሂዱ፣ ከዚያ የQR ኮዱን ይቃኙ ወይም የሚያሳየውን አገናኝ ይለጥፉ።</string>
+    <string name="app_pairing_unusable_address">ከዚህ የማጣመሪያ ኮድ “%1$s”ን መጠቀም አልተቻለም፦ %2$s።</string>
+    <string name="app_pairing_loopback">ይህ አገልጋይ በlocalhost ብቻ ስለሚያዳምጥ፣ ይህ %1$s ሊደርስበት አይችልም። በምትኩ በኮምፒውተርዎ ላይ opencode pair --remote ያሂዱ፤ ይህ ከማንኛውም አውታረ መረብ ይሠራል።</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">ያጋሩለት አገልጋይ ከእንግዲህ በዚህ መሣሪያ ላይ አልተቀመጠም። እንደገና ያገናኙት፣ ከዚያ እንደገና ያጋሩ።</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">ለመጨረሻ ጊዜ የተጠቀሙበት</string>
+    <string name="app_server_form_hint_new">ለማጣመር `opencode pair --remote` የሚያሳየውን አገናኝ ይለጥፉ፣ ወይም የOpenCode አገልጋይዎን አድራሻ እና የይለፍ ቃል ይጠቀሙ። የተጠቃሚ ስሙ ብዙውን ጊዜ opencode ነው።</string>
+    <string name="app_server_form_hint_edit_paired">ይህ አገልጋይ ሲገናኝ ለውጦቹ ይቀመጣሉ። ይህ አገልጋይ በማጣመር ስለተገናኘ፣ የይለፍ ቃሉ የክፍለ ጊዜ ቶከን ነው፤ ከመቀየር ይልቅ አዲስ የማጣመሪያ ኮድ ይቃኙ።</string>
+    <string name="app_server_form_hint_edit">ይህ አገልጋይ ሲገናኝ ለውጦቹ ይቀመጣሉ።</string>
+</resources>

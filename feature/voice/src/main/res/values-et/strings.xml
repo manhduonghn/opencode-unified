@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Call ended and failure cards -->
+    <string name="voice_call_ended_title">Kõne lõppes</string>
+    <string name="voice_call_ended_rejoin">Liitu uuesti</string>
+    <string name="voice_failure_title">Häälühenduse loomine ebaõnnestus</string>
+    <string name="voice_failure_check_api_key">Kontrolli API klahvi</string>
+    <string name="voice_failure_start_title">Kõne alustamine ebaõnnestus</string>
+
+    <!-- Floating call -->
+    <string name="voice_floating_expand">Laienda</string>
+    <string name="voice_floating_orb_description">Häälkõne</string>
+    <string name="voice_floating_orb_show_controls">Näita kõne juhtnuppe</string>
+    <string name="voice_floating_end_description">Lõpeta häälkõne</string>
+    <string name="voice_floating_control_placeholder_state">Selles prototüübis pole saadaval</string>
+    <string name="voice_floating_duration_description">Kõne kestus</string>
+
+    <!-- Floating call stage -->
+    <string name="voice_stage_talking_in">Vestlus seansis</string>
+    <string name="voice_stage_minimize_description">Minimeeri</string>
+    <string name="voice_mute">Vaigista</string>
+    <string name="voice_unmute">Tühista vaigistus</string>
+    <string name="voice_stage_pause">Peata</string>
+    <string name="voice_stage_camera">Kaamera</string>
+    <string name="voice_transcript_empty">Ütle oma seansile midagi.</string>
+    <string name="voice_transcript_you">Sina</string>
+    <string name="voice_transcript_user_line_description">Sina: %1$s</string>
+
+    <!-- Call rows: screen request -->
+    <string name="voice_screen_request_detail">Hääl soovib näha sinu ekraani</string>
+    <string name="voice_screen_request_spoken">Vajab sinu sisendit. Hääl soovib näha sinu ekraani</string>
+    <string name="voice_screen_request_spoken_with_reason">Vajab sinu sisendit. Hääl soovib näha sinu ekraani. %1$s</string>
+    <string name="voice_screen_request_title">Kas jagada ekraani?</string>
+
+    <!-- Call rows: open link -->
+    <string name="voice_open_link_spoken">Vajab sinu sisendit. %1$s</string>
+    <string name="voice_open_link_spoken_with_host">Vajab sinu sisendit. %1$s %2$s</string>
+    <string name="voice_open_link_open">Avatud</string>
+
+    <!-- Call rows: audio on the call -->
+    <string name="voice_audio_paused">Peatatud</string>
+    <string name="voice_audio_playing">Esitamine kõnes</string>
+    <string name="voice_audio_play">Esita heli</string>
+    <string name="voice_audio_pause">Peata heli</string>
+    <string name="voice_audio_stop">Peata heli</string>
+
+    <!-- Call history -->
+    <string name="voice_call_history_title">Kõneajalugu</string>
+    <string name="voice_call_history_options_description">Ajaloo valikud</string>
+    <string name="voice_call_history_delete_all">Kustuta kõik</string>
+    <string name="voice_call_history_empty_title">Häälkõnesid veel pole</string>
+    <string name="voice_call_history_empty_message">Kõned salvestatakse sellesse telefoni, et saaksid neid uuesti kuulata.</string>
+    <string name="voice_call_history_delete_all_confirm_title">Kas kustutada kõik häälkõned?</string>
+
+    <!-- Call replay -->
+    <string name="voice_replay_timeline_description">Kõne ajaskaala</string>
+    <string name="voice_replay_timeline_state">%1$s / %2$s</string>
+    <string name="voice_replay_pause">Peata</string>
+    <string name="voice_replay_play">Esita</string>
+    <string name="voice_replay_position_description">Asukoht</string>
+    <string name="voice_replay_speed_description">Esituskiirus</string>
+    <string name="voice_replay_empty">Kõne uuesti kuulamiseks vajuta esitusnuppu.</string>
+
+    <!-- Call notification -->
+    <string name="voice_notification_channel_name">Kõned</string>
+    <string name="voice_notification_channel_description">Käimasolevad OpenCode\'i kõned</string>
+    <string name="voice_notification_connecting">Ühendamine…</string>
+    <string name="voice_notification_reconnecting">Taasühendamine…</string>
+    <string name="voice_notification_call_ended">Kõne lõppes</string>
+    <string name="voice_notification_end">Lõpeta</string>
+    <!-- Call status caption -->
+    <string name="voice_status_connecting_via">Ühendamine %1$s kaudu…</string>
+    <string name="voice_status_weak_connection">Nõrk ühendus</string>
+    <string name="voice_status_paused">Peatatud</string>
+    <string name="voice_status_needs_input">Vajab sinu sisendit</string>
+    <string name="voice_status_working">Töötab</string>
+    <string name="voice_status_speaking">Räägib</string>
+    <string name="voice_status_muted">Vaigistatud</string>
+    <string name="voice_status_listening">Kuulab</string>
+    <string name="voice_status_ending">Lõpetamine…</string>
+    <string name="voice_status_ended">Lõppenud</string>
+    <string name="voice_session_new_title">Uus seanss</string>
+    <string name="voice_call_note_builtin_fallback">Selles kõnes kasutatakse sisseehitatud delegeerijat</string>
+
+    <!-- Floating call tag and spoken length -->
+    <string name="voice_floating_now_talking_in">Praegu vestlus seansis %1$s</string>
+    <string name="voice_floating_spoken_duration">%1$s, %2$s</string>
+    <plurals name="voice_floating_spoken_minutes">
+        <item quantity="one">%1$d minut</item>
+        <item quantity="other">%1$d minutit</item>
+    </plurals>
+    <plurals name="voice_floating_spoken_seconds">
+        <item quantity="one">%1$d sekund</item>
+        <item quantity="other">%1$d sekundit</item>
+    </plurals>
+
+    <!-- Voice providers -->
+    <string name="voice_provider_state_ready">Valmis</string>
+    <string name="voice_provider_state_no_key">Klahv puudub</string>
+    <string name="voice_provider_state_needs_update">Uuenda OpenCode\'i</string>
+    <string name="voice_provider_state_offline">Võrguühenduseta</string>
+    <string name="voice_provider_place_phone">See telefon</string>
+    <string name="voice_provider_brand_openai_account">Sinu OpenAI konto</string>
+    <string name="voice_provider_name">%1$s (%2$s)</string>
+    <string name="voice_provider_subtitle">Asukoht: %1$s</string>
+    <string name="voice_provider_key_row_title">%1$s klahv</string>
+    <string name="voice_provider_key_placeholder">%1$s API klahv</string>
+
+    <!-- Voice key source -->
+    <string name="voice_key_source_server_row_title">Klahv sinu serveris</string>
+    <string name="voice_key_source_phone_footer">Kõned kasutavad sinu OpenAI või xAI klahvi.</string>
+    <string name="voice_key_source_server_footer">Kõned kasutavad sinu serveri %1$s klahvi.</string>
+    <string name="voice_key_source_opencode_footer">Kõnede eest tasutakse sinu OpenCode Console\'i tööruumi kaudu.</string>
+
+    <!-- Call failure fixes and diagnosis -->
+    <string name="voice_fix_set_up_on_phone">Seadista selles telefonis</string>
+    <string name="voice_fix_choose_provider">Vali pakkuja</string>
+    <string name="voice_fix_update_opencode">Uuenda OpenCode\'i</string>
+    <string name="voice_diagnosis_needs_update">%1$s vajab häälkõnedeks uuemat OpenCode\'i.</string>
+    <string name="voice_diagnosis_your_server_needs_update">Sinu server vajab häälkõnedeks uuemat OpenCode\'i.</string>
+    <string name="voice_diagnosis_no_key">%1$s ei sisalda häälkõnede klahvi.</string>
+    <string name="voice_diagnosis_your_server_no_key">Sinu serveris puudub häälkõnede klahv.</string>
+    <string name="voice_diagnosis_unreachable">%1$s pole kättesaadav.</string>
+    <string name="voice_diagnosis_your_server_unreachable">Sinu server pole kättesaadav.</string>
+    <string name="voice_diagnosis_failed">%1$s ei saanud kõnet alustada.</string>
+    <string name="voice_diagnosis_your_server_failed">Sinu server ei saanud kõnet alustada.</string>
+    <string name="voice_diagnosis_key_rejected">OpenAI ei aktsepteerinud selle telefoni klahvi.</string>
+    <string name="voice_diagnosis_missing_phone_key">Sellest telefonist helistamiseks lisa oma %1$s API klahv.</string>
+
+    <!-- Call errors -->
+    <string name="voice_error_microphone_denied">Seansiga rääkimiseks luba seadetes juurdepääs mikrofonile.</string>
+    <string name="voice_error_audio_format_unavailable">Heliseadme vormingut ei toetata.</string>
+    <string name="voice_error_audio_engine_rejected">Kõne heli ei saanud käivitada. Proovi hetke pärast uuesti.</string>
+    <string name="voice_error_server_unsupported">See server vajab häälkõnedeks uuemat OpenCode\'i</string>
+    <string name="voice_error_invalid_server_url">Häälkõnet ei saanud alustada: sisesta kehtiv HTTP või HTTPS serveri URL.</string>
+    <string name="voice_error_invalid_response">Häälkõnet ei saanud alustada: server tagastas vigase vastuse.</string>
+    <string name="voice_error_start_voice_detail">Häälkõnet ei saanud alustada: %1$s</string>
+    <string name="voice_error_start_voice_http">Häälkõnet ei saanud alustada (HTTP %1$d).</string>
+    <string name="voice_error_openai_rejected_key">OpenAI lükkas API klahvi tagasi.</string>
+    <string name="voice_error_openai_verify_http">OpenAI ei saanud seda klahvi kontrollida (HTTP %1$d).</string>
+    <string name="voice_error_no_connection">Ühendus puudub.</string>
+    <string name="voice_error_model_address_invalid">Häälemudeli aadress on vigane.</string>
+    <string name="voice_error_xai_rejected_key">xAI lükkas API klahvi tagasi.</string>
+    <string name="voice_error_xai_verify_http">xAI ei saanud seda klahvi kontrollida (HTTP %1$d).</string>
+    <string name="voice_error_xai_key_disabled">See xAI API klahv on keelatud.</string>
+    <string name="voice_error_xai_key_blocked">See xAI API klahv on blokeeritud.</string>
+    <string name="voice_error_service_address_invalid">Häälteenuse aadress on vigane.</string>
+    <string name="voice_error_connection_lost">Häälühendus katkes.</string>
+    <string name="voice_error_connection_closed">Häälühendus on suletud.</string>
+    <string name="voice_error_connection_setup">Häälühendust ei saanud luua.</string>
+    <string name="voice_error_safety_filter">Turvafilter lõpetas häälkõne.</string>
+    <string name="voice_error_audio_reset">Süsteem lähtestas heli. Alusta kõnet uuesti.</string>
+    <string name="voice_error_missing_phone_key">Hääle kasutamiseks lisa seadetes oma %1$s API klahv.</string>
+
+    <!-- Voice accents -->
+    <string name="voice_accent_australian_english">Austraalia inglise keel</string>
+    <string name="voice_accent_british_english">Briti inglise keel</string>
+    <string name="voice_accent_irish_english">Iiri inglise keel</string>
+    <string name="voice_accent_north_american_english">Põhja-Ameerika inglise keel</string>
+    <string name="voice_accent_brazilian_portuguese">Brasiilia portugali keel</string>
+    <string name="voice_accent_filipino_english">Filipiinide inglise keel</string>
+    <string name="voice_accent_southern_us_english">USA lõunaosariikide inglise keel</string>
+    <string name="voice_accent_indian_english">India inglise keel</string>
+    <string name="voice_preview_error">Eelvaate esitamine ebaõnnestus</string>
+
+    <!-- Call sound packs -->
+    <string name="voice_sound_pack_breath_ping">Hinguse helin</string>
+    <string name="voice_sound_pack_crystal_glass">Kristallklaas</string>
+    <string name="voice_sound_pack_warm_analog">Soe analoogheli</string>
+    <string name="voice_sound_pack_aurora_pulse">Virmaliste pulss</string>
+    <string name="voice_sound_pack_velvet_bell">Sametine kell</string>
+    <string name="voice_sound_pack_silent">Hääletu</string>
+
+    <!-- Open link card -->
+    <string name="voice_open_link_card_title_untitled">Kas avada link?</string>
+    <string name="voice_open_link_card_title">Kas avada %1$s?</string>
+
+    <!-- Delegator choice -->
+    <string name="voice_delegator_session_fallback">Seanss</string>
+    <string name="voice_delegator_unavailable_gemini">Gemini Live delegeerib otse ekraanil olevale seansile. OpenCode\'i seansi kasutamiseks vali OpenAI hääleteenuse pakkuja.</string>
+    <string name="voice_delegator_unavailable_engine">%1$s delegeerib otse ekraanil olevale seansile. OpenCode\'i seansi kasutamiseks vali häälemudeliks GPT-Live.</string>
+
+    <!-- Call log list and replay -->
+    <string name="voice_call_log_duration_seconds">%1$d s</string>
+    <string name="voice_call_log_duration_minutes">%1$d min %2$d s</string>
+    <string name="voice_replay_to_delegator">→ Delegeerija</string>
+    <string name="voice_replay_to_voice">→ Hääl</string>
+    <string name="voice_replay_audio">Heli</string>
+    <string name="voice_replay_track_user">Sina</string>
+    <string name="voice_replay_track_voice">Hääl</string>
+    <string name="voice_replay_track_delegator">Delegeerija</string>
+    <string name="voice_replay_track_tools">Tööriistad</string>
+</resources>

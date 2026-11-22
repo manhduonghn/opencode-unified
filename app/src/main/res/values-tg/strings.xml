@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Илова кардани маводи мубодилашуда нашуд</string>
+    <string name="app_alert_open_session_failed_title">Кушодани сессия нашуд</string>
+    <string name="app_alert_pairing_failed_title">Ҷуфтшавӣ бо сервер нашуд</string>
+    <string name="app_pairing_confirm">Ҷуфт кунед</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Серверҳо</string>
+    <string name="app_servers_back_description">Бозгашт ба %1$s</string>
+    <string name="app_server_fallback_name">сервер</string>
+    <string name="app_connection_intro_new">Сессияҳои барномасозиро аз %1$s-и худ идома диҳед.</string>
+    <string name="app_connection_intro_returning">Аз ҷои қатъшуда идома диҳед ё компютери дигарро ҷуфт кунед.</string>
+    <string name="app_connection_enter_manually">Серверро дастӣ ворид кунед</string>
+    <string name="app_connection_scan_pairing_code">Рамзи ҷуфткуниро скан кунед</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Дар компютер OpenCode-ро кушоед ва ба Танзимотҳо → Ҷуфткунӣ гузаред ё дар терминал opencode pair --remote-ро иҷро кунед. Сипас рамзро бо ин %1$s скан кунед.</string>
+    <string name="app_setup_install_title">Ҳанӯз OpenCode надоред?</string>
+    <string name="app_setup_other_ways_to_install">Роҳҳои дигари насб</string>
+    <string name="app_setup_terminal_title">Ё инро дар терминал иҷро кунед</string>
+    <string name="app_setup_terminal_detail">Аз ҳар шабака кор мекунад.</string>
+    <string name="app_setup_paste_prompt">Ё истиноди нишон додаашро нусхабардорӣ карда, сипас</string>
+    <string name="app_setup_paste">Часбонед</string>
+    <string name="app_setup_copy_command_description">%1$s-ро нусхабардорӣ кунед</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Пайваст шуда истодааст</string>
+    <string name="app_servers_edit_description">%1$s-ро таҳрир кунед</string>
+    <string name="app_servers_remove_description">%1$s-ро хориҷ кунед</string>
+    <string name="app_servers_remove_confirm_title">%1$s-ро хориҷ мекунед?</string>
+    <string name="app_servers_remove_confirm_message">Суроға ва парол аз ин %1$s нест мешаванд. Сессияҳои сервер тағйир намеёбанд.</string>
+    <string name="app_servers_remove_confirm">Серверро хориҷ кунед</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Марҳила: %1$s</string>
+    <string name="app_error_server">Сервер: %1$s</string>
+    <string name="app_error_attempt">Кӯшиш: %1$d</string>
+    <string name="app_error_copy_report">Гузориши хатогиро нусхабардорӣ кунед</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Сервери нав</string>
+    <string name="app_server_form_edit_title">Серверро таҳрир кунед</string>
+    <string name="app_server_form_name">Ном</string>
+    <string name="app_server_form_address">Суроғаи сервер</string>
+    <string name="app_server_form_username">Номи корбар</string>
+    <string name="app_server_form_password">Рамз (ихтиёрӣ)</string>
+    <string name="app_server_form_hide_password_description">Паролро пинҳон кунед</string>
+    <string name="app_server_form_show_password_description">Паролро нишон диҳед</string>
+    <string name="app_server_form_connect">Пайваст кунед</string>
+    <string name="app_server_form_save_and_connect">Захира ва пайваст кунед</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Сарлавҳаҳо</string>
+    <string name="app_server_form_header_name">Ном</string>
+    <string name="app_server_form_header_name_description">Номи сарлавҳаи %1$d</string>
+    <string name="app_server_form_header_value">Қимат</string>
+    <string name="app_server_form_header_value_description">Қимати сарлавҳаи %1$d</string>
+    <string name="app_server_form_header_remove_description">Сарлавҳаи %1$d-ро хориҷ кунед</string>
+    <string name="app_server_form_header_add">Иловаи сарлавҳа</string>
+    <string name="app_server_form_headers_detail">Бо ҳар дархост барои проксии пеши сервер, масалан Cloudflare Access, фиристода мешаванд.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">«%1$s» номи дурусти сарлавҳа нест</string>
+    <string name="app_server_form_header_invalid_value">Қимати %1$s набояд сатри нав дошта бошад</string>
+    <string name="app_server_form_name_placeholder">Ихтиёрӣ</string>
+    <string name="app_connection_progress_pairing">Ҷуфт шуда истодааст</string>
+    <string name="app_connection_progress_connecting">Пайваст шуда истодааст</string>
+    <string name="app_connection_progress_loading_sessions">Сессияҳо бор карда мешаванд</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Бо %1$s ҷуфт мекунед?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode %1$s-ро месанҷад ва ба аввалин суроғае, ки ҷавоб медиҳад, мегузарад.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode бо %1$s ҷуфт шуда, ба он мегузарад.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode %1$s ва %2$s-ро месанҷад ва ба аввалине, ки ҷавоб медиҳад, мегузарад.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode %1$s ва %2$s-ро месанҷад ва ба аввалине, ки ҷавоб медиҳад, мегузарад.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Маълумоти вуруди захирашудаи %2$s метавонад иваз шавад.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Ҷуфткунӣ</string>
+    <string name="app_error_phase_connect">Пайваст кунед</string>
+    <string name="app_error_phase_load_sessions">Сессияҳоро бор кунед</string>
+    <string name="app_error_candidate_detail">Варианти %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Дастрас нест (суроғаи нодуруст)</string>
+    <string name="app_error_title_pair">Ҷуфтшавӣ нашуд</string>
+    <string name="app_error_title_load_sessions">Бор кардани сессияҳо нашуд</string>
+    <string name="app_error_title_connect">Пайвастшавӣ ба %1$s нашуд</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Буфери шумо холӣ аст</string>
+    <string name="app_paste_not_a_pairing_link">Ин истиноди ҷуфткунӣ нест</string>
+    <string name="app_server_no_longer_saved">Ин сервер дигар дар ин %1$s захира нест. Барои кушодани сессия ба он аз нав пайваст шавед.</string>
+    <string name="app_session_no_longer_available">Шояд он нест карда шудааст ё сервер дастрас нест.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Ба %1$s пайваст шуд</string>
+    <string name="app_pairing_invalid_code">Ин рамзи ҷуфткунии OpenCode нест. Дар компютери худ opencode pair --remote-ро иҷро кунед, сипас рамзи QR-и онро скан кунед ё истиноди нишон додаашро часбонед.</string>
+    <string name="app_pairing_unusable_address">Истифодаи «%1$s» аз ин рамзи ҷуфткунӣ нашуд: он %2$s.</string>
+    <string name="app_pairing_loopback">Он сервер танҳо дар localhost пайваст қабул мекунад, бинобар ин ин %1$s ба он пайваст шуда наметавонад. Ба ҷояш дар компютери худ opencode pair --remote-ро иҷро кунед — он аз ҳар шабака кор мекунад.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Сервере, ки ба он мавод фиристодед, дигар дар ин дастгоҳ захира нест. Ба он аз нав пайваст шавед ва маводро дубора фиристед.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">бори охир истифода шуд</string>
+    <string name="app_server_form_hint_new">Барои ҷуфткунӣ истинодеро, ки `opencode pair --remote` нишон медиҳад, часбонед ё суроға ва пароли сервери OpenCode-и худро истифода баред. Номи корбар одатан opencode аст.</string>
+    <string name="app_server_form_hint_edit_paired">Тағйирот пас аз пайваст шудани ин сервер захира мешаванд. Ин сервер ҷуфт шудааст ва паролаш токени сессия аст; ба ҷойи иваз кардани он рамзи нави ҷуфткуниро скан кунед.</string>
+    <string name="app_server_form_hint_edit">Тағйирот пас аз пайваст шудани ин сервер захира мешаванд.</string>
+</resources>

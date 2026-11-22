@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shared -->
+    <string name="transcript_open_named">Buka %1$s</string>
+
+    <!-- Link previews -->
+    <string name="transcript_link_preview_show_fewer">Tunjuk kurang pautan</string>
+    <string name="transcript_link_preview_show_all">Tunjuk semua pautan</string>
+    <plurals name="transcript_link_preview_shown">
+        <item quantity="other">%1$d daripada %2$d pautan dipaparkan</item>
+    </plurals>
+    <string name="transcript_link_preview_more">%1$d lagi</string>
+
+    <!-- Transcript list -->
+    <string name="transcript_scroll_to_top">Tatal ke atas</string>
+    <string name="transcript_working">Sedang bekerja</string>
+
+    <!-- Transcript list rows -->
+    <string name="transcript_history_loading_description">Memuatkan mesej terdahulu</string>
+    <string name="transcript_empty_loading_description">Memuatkan sesi</string>
+    <string name="transcript_empty_title">Belum ada mesej</string>
+    <string name="transcript_empty_subtitle">Mulakan sesi di bawah</string>
+    <string name="transcript_compaction_queued">Pemadatan dalam giliran</string>
+
+    <!-- Code blocks -->
+    <string name="transcript_code_copy_description">Salin kod</string>
+
+    <!-- Markdown task lists -->
+    <string name="transcript_task_done_description">Selesai</string>
+    <string name="transcript_task_not_done_description">Belum selesai</string>
+
+    <!-- Markdown images -->
+    <string name="transcript_image">Imej</string>
+    <string name="transcript_image_open_description">Buka imej</string>
+    <string name="transcript_image_load_failed">Tidak dapat memuatkan imej</string>
+    <string name="transcript_image_retry_click_label">Cuba lagi</string>
+    <string name="transcript_image_open">Buka</string>
+
+    <!-- Math -->
+    <string name="transcript_equation_description">Persamaan</string>
+
+    <!-- Selection -->
+    <string name="transcript_quote">Petik</string>
+    <string name="transcript_quote_description">Petikan: %1$s</string>
+    <string name="transcript_quote_show">Tunjukkan petikan penuh</string>
+    <string name="transcript_quote_comment_description">Petikan: %1$s. Komen: %2$s</string>
+    <string name="transcript_quote_add_comment">Tambah komen</string>
+    <string name="transcript_quote_edit_comment">Sunting komen</string>
+
+    <!-- Reply actions -->
+    <string name="transcript_reply_copy_description">Salin balasan</string>
+
+    <!-- Run errors and undo -->
+    <string name="transcript_run_error_copy">Salin mesej ralat</string>
+    <string name="transcript_undone_undo_hint">Undur tersedia sehingga anda menghantar mesej baharu</string>
+    <string name="transcript_undone_title">Dikembalikan dari sini</string>
+    <string name="transcript_undone_undo_click_label">Pulihkan mesej dan fail yang dikembalikan sebelum anda menghantar mesej baharu</string>
+    <string name="transcript_undone_undo">Undur</string>
+
+    <!-- Tool rows -->
+    <string name="transcript_tool_failed">Gagal</string>
+    <string name="transcript_tool_running">Berjalan</string>
+    <string name="transcript_tool_completed">Selesai</string>
+    <string name="transcript_subagent_open_click_label">Buka sesi subagen</string>
+    <string name="transcript_tool_group_failed_count">%1$d gagal</string>
+    <string name="transcript_expanded">Dikembangkan</string>
+    <string name="transcript_collapsed">Diruntuhkan</string>
+    <string name="transcript_tool_image">Imej alat</string>
+    <string name="transcript_tool_hide_click_label">Sembunyi input dan output alat</string>
+    <string name="transcript_tool_show_click_label">Tunjukkan input dan output alat</string>
+    <string name="transcript_tool_denied">Ditolak</string>
+    <string name="transcript_show_less">Tunjuk kurang</string>
+    <plurals name="transcript_tool_output_show_all">
+        <item quantity="other">Papar semua %1$d baris</item>
+    </plurals>
+    <string name="transcript_question_hide_click_label">Sembunyi soalan</string>
+    <string name="transcript_question_show_click_label">Tunjukkan soalan dan jawapan anda</string>
+    <string name="transcript_question_chosen_description">Dipilih</string>
+
+    <!-- Compaction -->
+    <string name="transcript_compaction_running">Memadatkan konteks</string>
+    <string name="transcript_compaction_provider">Pemadatan oleh penyedia</string>
+    <string name="transcript_compaction_completed">Konteks dipadatkan</string>
+    <string name="transcript_compaction_cancelled">Pemadatan dibatalkan</string>
+    <string name="transcript_compaction_failed">Pemadatan gagal</string>
+    <string name="transcript_compaction_usage">%1$s masuk · %2$s keluar</string>
+    <string name="transcript_compaction_show_summary_click_label">Tunjukkan ringkasan pemadatan</string>
+
+    <!-- New messages rule -->
+    <string name="transcript_new_messages_description">Mesej baharu</string>
+    <string name="transcript_new_messages_label">Baharu</string>
+
+    <!-- Media tiles -->
+    <string name="transcript_attached_image_open_description">Buka imej dilampirkan</string>
+    <string name="transcript_attached_image_open_numbered_description">Buka imej dilampirkan %1$d daripada %2$d</string>
+    <string name="transcript_attached_image">Imej dilampirkan</string>
+    <string name="transcript_tool_image_open_numbered_description">Buka imej alat %1$d daripada %2$d</string>
+    <string name="transcript_media_unavailable">Media tidak tersedia</string>
+    <string name="transcript_attached_file_description">Fail dilampirkan %1$s</string>
+
+    <!-- Message menus -->
+    <string name="transcript_message_select">Pilih</string>
+    <string name="transcript_pending_send_now">Hantar sekarang</string>
+    <string name="transcript_pending_move_to_queue">Alih ke baris gilir</string>
+    <string name="transcript_message_revert_to_here">Kembalikan mesej</string>
+    <string name="transcript_show_more">Lihat lagi</string>
+
+    <!-- Voice messages -->
+    <string name="transcript_voice_call_log_attached">Log panggilan dilampirkan</string>
+    <string name="transcript_voice_copy_full_message">Salin mesej penuh</string>
+    <string name="transcript_voice_message_description">Mesej suara</string>
+    <string name="transcript_voice_label">Suara</string>
+
+    <!-- Attachments -->
+    <string name="transcript_file_open_click_label">Buka fail</string>
+    <string name="transcript_pasted_text_open_click_label">Buka teks</string>
+    <string name="transcript_location_shared">Lokasi dikongsi</string>
+    <string name="transcript_location_open_in_maps">Buka dalam Peta</string>
+    <string name="transcript_location_description">Lokasi: %1$s</string>
+    <string name="transcript_location_description_with_address">Lokasi: %1$s, %2$s</string>
+
+    <!-- Shared phrasing -->
+    <string name="transcript_quoted">“%1$s”</string>
+    <string name="transcript_spoken_pair">%1$s, %2$s</string>
+    <string name="transcript_list_two">%1$s dan %2$s</string>
+    <string name="transcript_list_many">%1$s dan %2$s</string>
+
+    <!-- Tool rows -->
+    <string name="transcript_tool_read">Baca</string>
+    <string name="transcript_tool_search">cari %1$s</string>
+    <string name="transcript_tool_search_quoted">cari “%1$s”</string>
+    <string name="transcript_tool_group_updates">Kemas kini</string>
+    <plurals name="transcript_tool_group_used">
+        <item quantity="other">Menggunakan %1$d alat</item>
+    </plurals>
+
+    <!-- Question rows -->
+    <string name="transcript_question">Soalan</string>
+    <string name="transcript_question_no_answer">Tiada jawapan</string>
+    <string name="transcript_question_dismissed">Diketepikan</string>
+    <plurals name="transcript_question_answered_count">
+        <item quantity="other">Menjawab %1$d soalan</item>
+    </plurals>
+    <plurals name="transcript_question_count">
+        <item quantity="other">%1$d soalan</item>
+    </plurals>
+
+    <!-- Model switch -->
+    <string name="transcript_model_switch_title">Beralih ke %1$s</string>
+    <string name="transcript_model_switch_default">Lalai</string>
+    <string name="transcript_model_switch_thinking_description">%1$s, berfikir %2$s</string>
+    <string name="transcript_model_switch_thinking_off_description">%1$s, berfikir dimatikan</string>
+
+    <!-- Run errors and failed sends -->
+    <string name="transcript_run_error_edit_last_message">Sunting mesej terakhir</string>
+    <string name="transcript_failed_send_status">Tidak dapat menghantar</string>
+    <string name="transcript_failed_send_moving">Mengalihkan…</string>
+    <string name="transcript_failed_send_move_to">Alih ke %1$s</string>
+
+    <!-- Links -->
+    <string name="transcript_session_link_new_session">Sesi baharu</string>
+    <string name="transcript_links_to_description">Pautan ke %1$s</string>
+    <string name="transcript_link_preview_video">Video</string>
+    <string name="transcript_link_preview_post">Siaran</string>
+    <string name="transcript_link_preview_post_unavailable">Siaran tidak tersedia</string>
+    <plurals name="transcript_link_preview_comments">
+        <item quantity="other">%1$s komen</item>
+    </plurals>
+</resources>

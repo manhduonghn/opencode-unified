@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent activity glyph -->
+    <string name="session_activity_running_description">กำลังทำงาน</string>
+    <!-- Background work panel -->
+    <string name="session_background_work_show_label">แสดงตัวแทนย่อย สคริปต์ และเชลล์ที่กำลังทำงาน</string>
+    <string name="session_background_work_collapsed_description">ย่อแล้ว</string>
+    <string name="session_background_work_subagents_title">ตัวแทนย่อย</string>
+    <string name="session_background_work_open_subagent_label">เปิดเซสชันของตัวแทนย่อย</string>
+    <string name="session_background_work_shells_title">เชลล์</string>
+    <string name="session_background_work_show_shell_label">แสดงผลลัพธ์ของเชลล์</string>
+    <!-- The session's images and videos, paged in the full-screen viewer -->
+    <string name="session_visual_attached_image">รูปภาพที่แนบ</string>
+    <string name="session_visual_tool_image">รูปภาพจากเครื่องมือ</string>
+    <string name="session_visual_image">รูปภาพ</string>
+    <!-- One image of several: the image's label, then its place, as “Attached image 2 of 3” -->
+    <string name="session_visual_image_page_label">%1$s %2$d จาก %3$d</string>
+    <!-- A diagram's label, read by TalkBack. %1$s is its kind, as “Diagram, Flowchart” -->
+    <string name="session_visual_diagram_label">แผนภาพ, %1$s</string>
+    <!-- Jump to latest -->
+    <string name="session_scroll_to_latest_description">เลื่อนไปที่ล่าสุด</string>
+    <!-- Dictation bar -->
+    <string name="session_dictation_finishing_description">กำลังสรุปข้อความจากเสียง</string>
+    <string name="session_dictation_stop_recording_description">หยุดบันทึกเสียง</string>
+    <string name="session_dictation_stop_recording_hint">ใส่ข้อความจากเสียงลงในข้อความของคุณ</string>
+    <string name="session_sending_message_description">กำลังส่งข้อความ</string>
+    <string name="session_delivery_steer_label">ชี้นำในขั้นตอนถัดไป</string>
+    <string name="session_delivery_queue_label">เข้าคิวหลังคำตอบนี้</string>
+    <string name="session_delivery_steer">ชี้นำ</string>
+    <string name="session_delivery_queue">เข้าคิว</string>
+    <!-- Draft project picker -->
+    <string name="session_draft_project_choose_label">เลือกตำแหน่งเริ่มเซสชัน</string>
+    <string name="session_project_choose_folder">เลือกโฟลเดอร์…</string>
+    <string name="session_project_all_projects">ทุกโปรเจกต์</string>
+    <string name="session_project_selected_description">เลือกแล้ว</string>
+    <string name="session_project_picker_title">โปรเจกต์</string>
+    <!-- Folder browser -->
+    <string name="session_folder_select_description">เลือกโฟลเดอร์</string>
+    <string name="session_folder_path_description">เส้นทาง</string>
+    <string name="session_folder_title">โฟลเดอร์</string>
+    <string name="session_folder_select">เลือก</string>
+    <string name="session_folder_open_failed_title">เปิดโฟลเดอร์ไม่ได้</string>
+    <string name="session_folder_empty_title">ไม่มีโฟลเดอร์</string>
+    <string name="session_folder_search_empty_title">ไม่มีผลลัพธ์สำหรับ “%1$s”</string>
+    <string name="session_folder_search_empty_message">ตรวจสอบการสะกดหรือลองค้นหาใหม่</string>
+    <!-- Server connection pill -->
+    <string name="session_server_edit">แก้ไขเซิร์ฟเวอร์…</string>
+    <!-- Starter prompts -->
+    <string name="session_starter_prompts_title">ลองถาม</string>
+    <string name="session_starter_prompt_pick_label">ใส่ลงในข้อความ</string>
+    <!-- Session sheet -->
+    <string name="session_sheet_rename_failed">เปลี่ยนชื่อไม่ได้</string>
+    <string name="session_sheet_status_description">สถานะ</string>
+    <string name="session_rename_title">เปลี่ยนชื่อเซสชัน</string>
+    <string name="session_untitled_title">เซสชัน</string>
+    <string name="session_pin">ปักหมุด</string>
+    <string name="session_pinned">ปักหมุดแล้ว</string>
+    <string name="session_unread">ยังไม่อ่าน</string>
+    <string name="session_mute">ปิดการแจ้งเตือน</string>
+    <string name="session_muted">ปิดการแจ้งเตือนแล้ว</string>
+    <string name="session_compact">บีบอัด</string>
+    <string name="session_fork">แตกแขนง</string>
+    <string name="session_toggle_on_description">เปิด</string>
+    <string name="session_toggle_off_description">ปิด</string>
+    <string name="session_export">ส่งออก</string>
+    <string name="session_export_markdown">Markdown</string>
+    <string name="session_export_json">JSON</string>
+    <string name="session_sheet_model">โมเดล</string>
+    <string name="session_sheet_context">บริบท</string>
+    <string name="session_sheet_unknown_description">ไม่ทราบ</string>
+    <string name="session_sheet_context_tokens">%1$s โทเค็น</string>
+    <string name="session_sheet_cost">ค่าใช้จ่าย</string>
+    <string name="session_sheet_media">สื่อ</string>
+    <string name="session_sheet_media_value">ไฟล์และลิงก์</string>
+    <string name="session_always_notify">แจ้งเตือนเสมอ</string>
+    <string name="session_always_notify_message_phone">แจ้งเตือนบนมือถือนี้ทุกครั้งที่ตอบเสร็จ แม้จะไม่ได้ส่งข้อความจากเครื่องนี้</string>
+    <string name="session_always_notify_message_tablet">แจ้งเตือนบนแท็บเล็ตนี้ทุกครั้งที่ตอบเสร็จ แม้จะไม่ได้ส่งข้อความจากเครื่องนี้</string>
+    <string name="session_delete_session">ลบเซสชัน</string>
+    <string name="session_rename_placeholder">ชื่อ</string>
+    <string name="session_auto_rename">เปลี่ยนชื่ออัตโนมัติ</string>
+    <string name="session_delete_confirm_title">ลบ “%1$s” ไหม?</string>
+    <string name="session_delete_confirm_message">การดำเนินการนี้จะลบเซสชันออกจากเซิร์ฟเวอร์สำหรับทุกไคลเอนต์</string>
+    <!-- Transcript -->
+    <string name="session_move_to_background">ย้ายไปทำงานเบื้องหลัง</string>
+    <string name="session_move_to_background_hint">ให้งานที่กำลังทำอยู่ทำต่อในเบื้องหลัง เพื่อให้เอเจนต์อ่านข้อความถัดไปของคุณ</string>
+    <!-- Attachments -->
+    <string name="session_attachment_add_image_failed_title">เพิ่มรูปภาพไม่ได้</string>
+    <string name="session_attachment_upload">อัปโหลด</string>
+    <string name="session_attachment_remove_image_description">เอารูปภาพแนบ %1$d ออก</string>
+    <string name="session_attachment_remove_description">เอา %1$s ออก</string>
+    <string name="session_attachment_file_description">ไฟล์แนบ %1$s</string>
+    <string name="session_attachment_cancel_upload_description">ยกเลิกการอัปโหลด %1$s</string>
+    <string name="session_attachment_open_photo_label">เปิดรูปถ่ายเต็มจอ</string>
+    <string name="session_attachment_image_description">รูปภาพแนบ %1$d</string>
+    <string name="session_attachment_video_description">วิดีโอแนบ %1$d</string>
+    <!-- Composer controls -->
+    <string name="session_answer_own_description">คำตอบของคุณเอง</string>
+    <string name="session_answer_own_type_label">พิมพ์หรือพูดคำตอบของคุณ</string>
+    <string name="session_answer_own_clear_label">พักคำตอบของคุณไว้</string>
+    <string name="session_answer_own_choose_label">ตอบด้วยคำพูดของคุณ</string>
+    <string name="session_answer_decline_with_words_label">บอกเอเจนต์ให้ทำอย่างอื่นแทน</string>
+    <string name="session_answer_required_description">เลือกคำตอบหรือพิมพ์คำตอบเอง</string>
+    <string name="session_dictate_message_description">พูดเพื่อพิมพ์ข้อความ</string>
+    <string name="session_dictate_message_hint">พูดเพื่อพิมพ์ข้อความ หรือแตะค้างไว้เพื่อบันทึกเสียงแล้วส่ง</string>
+    <string name="session_send_waiting_for_uploads_description">จะส่งเมื่ออัปโหลดเสร็จ</string>
+    <string name="session_steer_message_description">ชี้นำด้วยข้อความ</string>
+    <string name="session_stopping_description">กำลังหยุด</string>
+    <string name="session_start_voice_call">เริ่มโทรด้วยเสียง</string>
+    <string name="session_dictation_stop_description">หยุดพูดเพื่อพิมพ์</string>
+    <!-- Composer -->
+    <string name="session_requests_load_failed_title">โหลดคำขอไม่ได้</string>
+    <plurals name="session_queued_count">
+        <item quantity="other">อยู่ในคิว %1$d รายการ</item>
+    </plurals>
+    <string name="session_queued_show_label">แสดงข้อความที่รอให้คำตอบนี้เสร็จ</string>
+    <plurals name="session_queued_messages_description">
+        <item quantity="other">ข้อความอยู่ในคิว %1$d ข้อความ</item>
+    </plurals>
+    <string name="session_dictation_preparing">กำลังเตรียมการพูดเพื่อพิมพ์…</string>
+    <string name="session_message_placeholder">ข้อความ</string>
+    <!-- Session header -->
+    <string name="session_back_to_main_description">กลับไปยังเซสชันหลัก</string>
+    <string name="session_header_open_from_catch_up_label">เปิดเซสชันและออกจากการติดตามอัปเดต</string>
+    <string name="session_header_show_details_label">แสดงรายละเอียดเซสชัน</string>
+    <string name="session_header_idle_description">ว่าง</string>
+    <string name="session_header_syncing_description">กำลังซิงค์</string>
+    <string name="session_header_last_known_description">ล่าสุดที่ทราบ</string>
+    <string name="session_menu_more_description">เพิ่มเติม</string>
+    <string name="session_unpin">เลิกปักหมุด</string>
+    <string name="session_copy_session_id">คัดลอก ID เซสชัน</string>
+    <string name="session_mark_as_read">ทำเครื่องหมายว่าอ่านแล้ว</string>
+    <string name="session_mark_as_unread">ทำเครื่องหมายว่ายังไม่อ่าน</string>
+    <string name="session_unmute">เปิดการแจ้งเตือน</string>
+    <string name="session_menu_export_expanded_description">ขยายแล้ว</string>
+    <string name="session_menu_export_collapsed_description">ย่อแล้ว</string>
+    <string name="session_info">ข้อมูลเซสชัน</string>
+    <!-- Session screen -->
+    <string name="session_load_failed_title">โหลดเซสชันไม่ได้</string>
+    <string name="session_location_share_failed_title">แชร์ตำแหน่งไม่ได้</string>
+    <!-- Shell output -->
+    <string name="session_shell_stop_confirm_title">หยุดเชลล์นี้ไหม?</string>
+    <string name="session_shell_stop_confirm_message">คำสั่งจะจบทันที ผลลัพธ์ที่แสดงที่นี่จะยังอยู่จนกว่าคุณจะปิด</string>
+    <string name="session_shell_stop">หยุดเชลล์</string>
+    <string name="session_shell_copy_output">คัดลอกผลลัพธ์</string>
+    <string name="session_shell_share_output">แชร์ผลลัพธ์</string>
+    <string name="session_shell_earlier_output_hidden">ซ่อนผลลัพธ์ก่อนหน้าอยู่</string>
+    <string name="session_shell_showing_last_output">แสดง 4 MB สุดท้าย</string>
+    <string name="session_shell_load_earlier">โหลดก่อนหน้า</string>
+    <string name="session_shell_output_unavailable_title">ผลลัพธ์ไม่พร้อมใช้งาน</string>
+    <string name="session_shell_output_unavailable_message">เซิร์ฟเวอร์ไม่มีผลลัพธ์ของเชลล์นี้แล้ว</string>
+    <string name="session_shell_no_output_yet_title">ยังไม่มีผลลัพธ์</string>
+    <string name="session_shell_no_output_title">ไม่มีผลลัพธ์</string>
+    <string name="session_shell_no_output_yet_message">ผลลัพธ์จะแสดงที่นี่เมื่อคำสั่งส่งออกมา</string>
+    <string name="session_shell_status_stopping">กำลังหยุด…</string>
+    <string name="session_shell_status_unavailable">ไม่พร้อมใช้งาน</string>
+    <string name="session_shell_status_interrupted">ถูกขัดจังหวะ</string>
+    <string name="session_shell_status_timed_out">หมดเวลา</string>
+    <string name="session_shell_status_exited_with_code">จบการทำงานด้วยรหัส %1$d</string>
+    <string name="session_shell_status_exited">จบการทำงานแล้ว</string>
+    <plurals name="session_shell_elapsed_hours">
+        <item quantity="other">%1$d ชั่วโมง</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_minutes">
+        <item quantity="other">%1$d นาที</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_seconds">
+        <item quantity="other">%1$d วินาที</item>
+    </plurals>
+
+    <!-- Agent activity (glyph labels and titles) -->
+    <string name="session_activity_idle">ว่าง</string>
+    <string name="session_activity_starting_up">กำลังเริ่มทำงาน</string>
+    <string name="session_activity_thinking">กำลังคิด</string>
+    <string name="session_activity_long_work">กำลังทำงานที่ใช้เวลานาน</string>
+    <string name="session_activity_tool_burst">กำลังใช้เครื่องมือต่อเนื่อง</string>
+    <string name="session_activity_streaming_output">กำลังส่งผลลัพธ์</string>
+    <string name="session_activity_waiting_for_input">กำลังรอคำตอบ</string>
+    <string name="session_activity_handing_off">กำลังส่งต่องาน</string>
+    <string name="session_activity_done">เสร็จสิ้น</string>
+    <string name="session_activity_failed">ล้มเหลว</string>
+    <string name="session_working_stopping">กำลังหยุด…</string>
+    <string name="session_status_working">กำลังทำงาน</string>
+    <string name="session_status_needs_input">ต้องการคำตอบจากคุณ</string>
+    <string name="session_status_done">เสร็จสิ้น</string>
+
+    <!-- Lists: joins two or three phrases -->
+    <string name="session_list_two">%1$s, %2$s</string>
+    <string name="session_list_three">%1$s, %2$s, %3$s</string>
+
+    <!-- Background work panel -->
+    <plurals name="session_background_work_subagent_count">
+        <item quantity="other">ตัวแทนย่อย %1$d ตัว</item>
+    </plurals>
+    <plurals name="session_background_work_shell_count">
+        <item quantity="other">%1$d เชลล์</item>
+    </plurals>
+    <plurals name="session_background_work_script_count">
+        <item quantity="other">%1$d สคริปต์</item>
+    </plurals>
+    <string name="session_background_work_summary">%1$s · %2$s</string>
+    <string name="session_background_work_scripts_title">สคริปต์</string>
+    <string name="session_background_work_stop_script_label">หยุดสคริปต์</string>
+    <string name="session_background_work_stop_subagent_label">หยุดตัวแทนย่อย</string>
+    <string name="session_background_work_stop_script_failed">หยุดสคริปต์ไม่ได้</string>
+    <string name="session_background_work_stop_subagent_failed">หยุดตัวแทนย่อยไม่ได้</string>
+
+    <!-- Composer buttons -->
+    <string name="session_send_message_description">ส่งข้อความ</string>
+    <string name="session_stop_description">หยุด</string>
+    <string name="session_start_voice_call_description">เริ่มโทรด้วยเสียง</string>
+    <string name="session_model_level_default">ค่าเริ่มต้น</string>
+
+    <!-- In-app notice -->
+    <plurals name="session_notice_session_count">
+        <item quantity="other">%1$d เซสชัน</item>
+    </plurals>
+    <plurals name="session_notice_needs_input_count">
+        <item quantity="other">%1$d เซสชันต้องการคำตอบจากคุณ</item>
+    </plurals>
+    <string name="session_notice_announcement">%1$s, %2$s</string>
+
+    <!-- Server connection pill -->
+    <string name="session_server_reconnecting">กำลังเชื่อมต่อกับ %1$s ใหม่…</string>
+    <string name="session_server_connect_failed">เชื่อมต่อกับ %1$s ไม่ได้</string>
+    <string name="session_server_sign_in_failed">ลงชื่อเข้าใช้ %1$s ไม่ได้</string>
+    <string name="session_server_pair_again">จับคู่อีกครั้ง</string>
+    <string name="session_server_try_again_click_label">ลองอีกครั้ง</string>
+    <string name="session_server_pair_again_click_label">จับคู่อีกครั้ง</string>
+
+    <!-- Export -->
+    <string name="session_export_folder_failed">สร้างโฟลเดอร์ส่งออกไม่ได้</string>
+    <string name="session_export_save_failed">บันทึกข้อมูลที่ส่งออกไม่ได้</string>
+
+    <!-- Session errors -->
+    <string name="session_agent_fallback_name">เอเจนต์</string>
+    <string name="session_something_went_wrong">เกิดข้อผิดพลาด</string>
+    <string name="session_something_went_wrong_sentence">เกิดข้อผิดพลาด</string>
+    <string name="session_load_earlier_failed">โหลดข้อความก่อนหน้าไม่ได้</string>
+    <string name="session_move_to_background_failed">ย้ายไปทำงานเบื้องหลังไม่ได้: %1$s</string>
+    <string name="session_move_failed_reason">ย้ายเซสชันไม่ได้</string>
+    <string name="session_delivery_waiting_to_send">รอส่ง</string>
+    <string name="session_create_failed">สร้างเซสชันไม่ได้</string>
+    <string name="session_switch_agent_failed">เปลี่ยนเอเจนต์ไม่ได้: %1$s</string>
+    <string name="session_switch_model_failed">เปลี่ยนโมเดลไม่ได้: %1$s</string>
+    <string name="session_pending_send_now_failed_details">ส่งข้อความที่รออยู่ตอนนี้ไม่ได้: %1$s</string>
+    <string name="session_pending_cancel_failed_details">ยกเลิกข้อความที่รออยู่ไม่ได้: %1$s</string>
+    <string name="session_pending_queue_failed_details">นำข้อความที่รออยู่เข้าคิวไม่ได้: %1$s</string>
+    <string name="session_stopped_before_sent">ถูกขัดจังหวะก่อนส่ง</string>
+    <string name="session_stop_failed">หยุดเซสชันไม่ได้</string>
+    <string name="session_undo_message_failed">เลิกทำข้อความไม่ได้: %1$s</string>
+    <string name="session_revert_failed">รีเซ็ตกลับไม่ได้</string>
+    <string name="session_revert_failed_details">รีเซ็ตกลับไม่ได้: %1$s</string>
+
+    <!-- Session sheet errors -->
+    <string name="session_sheet_rename_failed_title">เปลี่ยนชื่อเซสชันไม่ได้</string>
+    <string name="session_sheet_compact_failed_title">บีบอัดเซสชันไม่ได้</string>
+    <string name="session_sheet_fork_failed_title">แตกแขนงเซสชันไม่ได้</string>
+    <string name="session_sheet_save_export_failed">บันทึกไฟล์ส่งออกไม่ได้</string>
+    <string name="session_sheet_export_failed_title">ส่งออกเซสชันไม่ได้</string>
+    <string name="session_sheet_notifications_off_message">เปิดการแจ้งเตือนในการตั้งค่าก่อน</string>
+    <string name="session_sheet_always_notify_on_failed_title">เปิดการแจ้งเตือนเสมอไม่ได้</string>
+    <string name="session_sheet_always_notify_off_failed_title">ปิดการแจ้งเตือนเสมอไม่ได้</string>
+
+    <!-- Attachments -->
+    <string name="session_attachment_files_unsupported">เซิร์ฟเวอร์ไม่รองรับไฟล์</string>
+    <string name="session_attachment_upload_failed">อัปโหลดไม่ได้</string>
+    <string name="session_attachment_file_fallback_name">ไฟล์</string>
+    <string name="session_attachment_image_too_large">เลือกรูปภาพที่เล็กกว่า 20 MB</string>
+    <string name="session_attachment_image_load_failed">โหลดรูปภาพนี้ไม่ได้ ลองรูปถ่ายอื่น</string>
+    <string name="session_attachment_file_add_failed">เพิ่มไฟล์นี้ไม่ได้ ลองไฟล์อื่น</string>
+    <plurals name="session_attachment_files_add_failed">
+        <item quantity="other">เพิ่มไฟล์ %1$d ไฟล์ไม่ได้</item>
+    </plurals>
+    <string name="session_large_upload_title">อัปโหลด %1$s ไหม?</string>
+    <string name="session_large_upload_message_one">“%1$s” เป็นไฟล์ขนาดใหญ่ ข้อความจะถูกส่งเมื่ออัปโหลดไปยังเซิร์ฟเวอร์ของคุณเสร็จ</string>
+    <plurals name="session_large_upload_message_many">
+        <item quantity="other">มีไฟล์ขนาดใหญ่ %1$d ไฟล์ ข้อความจะถูกส่งเมื่ออัปโหลดไปยังเซิร์ฟเวอร์ของคุณเสร็จ</item>
+    </plurals>
+
+    <!-- Header and screens -->
+    <string name="session_new_session_title">เซสชันใหม่</string>
+    <string name="session_pasted_text_screen_title">ข้อความที่วาง</string>
+    <string name="session_pasted_text_viewer_screen_title">ตัวดูข้อความที่วาง</string>
+    <string name="session_context_summary">%1$d%% ของ %2$s</string>
+    <string name="session_context_accessibility_value">ใช้ไป %1$d%% จาก %2$s โทเค็น</string>
+
+    <!-- Starter prompts (shown, then sent as the person’s message) -->
+    <string name="session_starter_project_purpose">โปรเจกต์นี้ทำอะไร?</string>
+    <string name="session_starter_code_tour">ช่วยอธิบายภาพรวมของโค้ดสั้น ๆ</string>
+    <string name="session_starter_recent_changes">ช่วงนี้มีอะไรเปลี่ยนไปบ้าง?</string>
+
+    <!-- Shell output -->
+    <string name="session_shell_refresh_failed">รีเฟรชผลลัพธ์ไม่ได้</string>
+    <string name="session_shell_load_earlier_failed">โหลดผลลัพธ์ก่อนหน้าไม่ได้</string>
+    <string name="session_shell_stop_failed">หยุดเชลล์ไม่ได้</string>
+    <string name="session_quote_remove_description">เอาคำอ้างอิงออก</string>
+    <string name="session_quote_comment_placeholder">เพิ่มความคิดเห็น (ไม่บังคับ)…</string>
+    <string name="session_media_title">สื่อของเซสชัน</string>
+    <string name="session_media_filter_media">สื่อ</string>
+    <string name="session_media_filter_files">ไฟล์</string>
+    <string name="session_media_filter_links">ลิงก์</string>
+    <string name="session_media_layout_description">เค้าโครงสื่อ</string>
+    <string name="session_media_layout_tiles">ไทล์</string>
+    <string name="session_media_layout_list">รายการ</string>
+    <string name="session_media_origin_user">คุณส่งมา</string>
+    <string name="session_media_origin_agent">เอเจนต์แชร์มา</string>
+    <string name="session_media_open_click_label">เปิด</string>
+    <string name="session_media_open_link_click_label">เปิดลิงก์</string>
+    <string name="session_media_empty_media_title">ไม่มีสื่อ</string>
+    <string name="session_media_empty_media_message">รูปภาพ วิดีโอ และเสียงที่แชร์ในเซสชันนี้จะแสดงที่นี่</string>
+    <string name="session_media_empty_files_title">ไม่มีไฟล์</string>
+    <string name="session_media_empty_files_message">เอกสารและข้อความที่วางจากเซสชันนี้จะแสดงที่นี่</string>
+    <string name="session_media_empty_links_title">ไม่มีลิงก์</string>
+    <string name="session_media_empty_links_message">ลิงก์เว็บที่แชร์ในเซสชันนี้จะแสดงที่นี่</string>
+    <string name="session_media_earlier_note">ยังไม่ได้โหลดข้อความก่อนหน้า</string>
+    <string name="session_media_load_earlier">โหลดข้อความก่อนหน้า</string>
+    <string name="session_media_loading_earlier">กำลังโหลด…</string>
+    <string name="session_media_earlier_failed">โหลดข้อความก่อนหน้าไม่ได้ ตรวจสอบการเชื่อมต่อแล้วลองอีกครั้ง</string>
+    <string name="session_media_earlier_nothing_new">ข้อความที่เพิ่งโหลดไม่มีอะไรใหม่ ข้อความก่อนหน้าอาจมีเพิ่มเติม</string>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">გაზიარებული ელემენტები ვერ დაემატა</string>
+    <string name="app_alert_open_session_failed_title">სესია ვერ გაიხსნა</string>
+    <string name="app_alert_pairing_failed_title">სერვერთან დაწყვილება ვერ მოხერხდა</string>
+    <string name="app_pairing_confirm">დაწყვილება</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">სერვერები</string>
+    <string name="app_servers_back_description">%1$s-ზე დაბრუნება</string>
+    <string name="app_server_fallback_name">სერვერი</string>
+    <string name="app_connection_intro_new">განაგრძეთ კოდზე მუშაობა თქვენი %1$s-დან.</string>
+    <string name="app_connection_intro_returning">განაგრძეთ იქიდან, სადაც შეჩერდით, ან დააწყვილეთ სხვა კომპიუტერი.</string>
+    <string name="app_connection_enter_manually">სერვერის ხელით შეყვანა</string>
+    <string name="app_connection_scan_pairing_code">დაწყვილების კოდის სკანირება</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">კომპიუტერზე გახსენით OpenCode და გადადით პარამეტრები → დაწყვილება, ან ტერმინალში გაუშვით opencode pair --remote. შემდეგ დაასკანირეთ კოდი ამ %1$s-ით.</string>
+    <string name="app_setup_install_title">ჯერ არ გაქვთ OpenCode?</string>
+    <string name="app_setup_other_ways_to_install">დაყენების სხვა გზები</string>
+    <string name="app_setup_terminal_title">ან გაუშვით ეს ტერმინალში</string>
+    <string name="app_setup_terminal_detail">მუშაობს ნებისმიერი ქსელიდან.</string>
+    <string name="app_setup_paste_prompt">ან დააკოპირეთ გამოტანილი ბმული, შემდეგ</string>
+    <string name="app_setup_paste">ჩასმა</string>
+    <string name="app_setup_copy_command_description">%1$s-ის კოპირება</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">მიმდინარეობს დაკავშირება</string>
+    <string name="app_servers_edit_description">%1$s-ის რედაქტირება</string>
+    <string name="app_servers_remove_description">%1$s-ის წაშლა</string>
+    <string name="app_servers_remove_confirm_title">წაიშალოს %1$s?</string>
+    <string name="app_servers_remove_confirm_message">ამ %1$s-ზე შენახული მისამართი და პაროლი წაიშლება. სერვერზე არსებული სესიები უცვლელი დარჩება.</string>
+    <string name="app_servers_remove_confirm">სერვერის წაშლა</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">ეტაპი: %1$s</string>
+    <string name="app_error_server">სერვერი: %1$s</string>
+    <string name="app_error_attempt">მცდელობა: %1$d</string>
+    <string name="app_error_copy_report">შეცდომის ანგარიშის კოპირება</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">ახალი სერვერი</string>
+    <string name="app_server_form_edit_title">სერვერის რედაქტირება</string>
+    <string name="app_server_form_name">სახელი</string>
+    <string name="app_server_form_address">სერვერის მისამართი</string>
+    <string name="app_server_form_username">მომხმარებლის სახელი</string>
+    <string name="app_server_form_password">პაროლი (არასავალდებულო)</string>
+    <string name="app_server_form_hide_password_description">პაროლის დამალვა</string>
+    <string name="app_server_form_show_password_description">პაროლის ჩვენება</string>
+    <string name="app_server_form_connect">დაკავშირება</string>
+    <string name="app_server_form_save_and_connect">შენახვა და დაკავშირება</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">სათაურები</string>
+    <string name="app_server_form_header_name">სახელი</string>
+    <string name="app_server_form_header_name_description">სათაურის %1$d სახელი</string>
+    <string name="app_server_form_header_value">მნიშვნელობა</string>
+    <string name="app_server_form_header_value_description">სათაურის %1$d მნიშვნელობა</string>
+    <string name="app_server_form_header_remove_description">სათაურის %1$d წაშლა</string>
+    <string name="app_server_form_header_add">სათაურის დამატება</string>
+    <string name="app_server_form_headers_detail">იგზავნება ყოველ მოთხოვნასთან ერთად სერვერის წინ მდგომი პროქსისთვის, მაგალითად Cloudflare Access-ისთვის.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">„%1$s“ სათაურის სწორი სახელი არ არის</string>
+    <string name="app_server_form_header_invalid_value">%1$s-ის მნიშვნელობა ხაზის წყვეტას ვერ შეიცავს</string>
+    <string name="app_server_form_name_placeholder">არასავალდებულო</string>
+    <string name="app_connection_progress_pairing">მიმდინარეობს დაწყვილება</string>
+    <string name="app_connection_progress_connecting">მიმდინარეობს დაკავშირება</string>
+    <string name="app_connection_progress_loading_sessions">იტვირთება სესიები</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">დაწყვილდეს %1$s-თან?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode მოსინჯავს %1$s-ს და გადაერთვება პირველ მისამართზე, რომელიც უპასუხებს.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode დაწყვილდება %1$s-თან და მასზე გადაერთვება.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode მოსინჯავს %1$s-ს და %2$s-ს და გადაერთვება პირველზე, რომელიც უპასუხებს.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode მოსინჯავს %1$s-ს და %2$s-ს და გადაერთვება პირველზე, რომელიც უპასუხებს.</string>
+    <string name="app_pairing_confirm_replaces">%1$s %2$s-ისთვის შენახული ავტორიზაციის მონაცემები შეიძლება ჩანაცვლდეს.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">დაწყვილება</string>
+    <string name="app_error_phase_connect">დაკავშირება</string>
+    <string name="app_error_phase_load_sessions">სესიების ჩატვირთვა</string>
+    <string name="app_error_candidate_detail">ვარიანტი %1$d: %2$s</string>
+    <string name="app_error_invalid_address">მიუწვდომელია (არასწორი მისამართი)</string>
+    <string name="app_error_title_pair">დაწყვილება ვერ მოხერხდა</string>
+    <string name="app_error_title_load_sessions">სესიები ვერ ჩაიტვირთა</string>
+    <string name="app_error_title_connect">%1$s-თან დაკავშირება ვერ მოხერხდა</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">ბუფერი ცარიელია</string>
+    <string name="app_paste_not_a_pairing_link">ეს დაწყვილების ბმული არ არის</string>
+    <string name="app_server_no_longer_saved">ეს სერვერი ამ %1$s-ზე აღარ არის შენახული. სესიის გასახსნელად ხელახლა დაუკავშირდით მას.</string>
+    <string name="app_session_no_longer_available">შესაძლოა, სესია წაიშალა ან სერვერი მიუწვდომელია.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">%1$s-თან კავშირი დამყარებულია</string>
+    <string name="app_pairing_invalid_code">ეს OpenCode-ის დაწყვილების კოდი არ არის. კომპიუტერზე გაუშვით opencode pair --remote, შემდეგ დაასკანირეთ მისი QR კოდი ან ჩასვით მიღებული ბმული.</string>
+    <string name="app_pairing_unusable_address">დაწყვილების კოდიდან „%1$s“ ვერ გამოვიყენეთ: ის %2$s.</string>
+    <string name="app_pairing_loopback">ეს სერვერი მხოლოდ localhost-ზე იღებს კავშირებს, ამიტომ ეს %1$s მას ვერ უკავშირდება. კომპიუტერზე გაუშვით opencode pair --remote — ის ნებისმიერი ქსელიდან მუშაობს.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">სერვერი, რომელზეც გააზიარეთ, ამ მოწყობილობაზე აღარ არის შენახული. ხელახლა დაუკავშირდით და კვლავ გააზიარეთ.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">ბოლოს გამოყენებული</string>
+    <string name="app_server_form_hint_new">დასაწყვილებლად ჩასვით `opencode pair --remote` ბრძანებით მიღებული ბმული, ან გამოიყენეთ თქვენი OpenCode სერვერის მისამართი და პაროლი. მომხმარებლის სახელი, ჩვეულებრივ, არის opencode.</string>
+    <string name="app_server_form_hint_edit_paired">ცვლილებები სერვერთან დაკავშირებისას შეინახება. ეს სერვერი დაწყვილებულია, ამიტომ მისი პაროლი სესიის ტოკენია; შეცვლის ნაცვლად დაასკანირეთ დაწყვილების ახალი კოდი.</string>
+    <string name="app_server_form_hint_edit">ცვლილებები სერვერთან დაკავშირებისას შეინახება.</string>
+</resources>

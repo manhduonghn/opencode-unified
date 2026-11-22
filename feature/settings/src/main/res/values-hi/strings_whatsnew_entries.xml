@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- What’s New entries, oldest first: one group per file in whatsnew/entries/. -->
+
+    <!-- 2026-10-06-01-voice-messages -->
+    <string name="settings_whatsnew_entry_voice_messages_title">आवाज़ वाले संदेश</string>
+    <string name="settings_whatsnew_entry_voice_messages_summary">आवाज़ आपकी ओर से सेशन से जो पूछती है, वह वेवफ़ॉर्म के निशान वाले आवाज़ संदेश के रूप में दिखता है।</string>
+
+    <!-- 2026-10-07-01-attachment-menu-hold -->
+    <string name="settings_whatsnew_entry_attachment_menu_hold_title">+ से अटैच करें</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_summary">संदेश बॉक्स से + मेन्यू खुलता है, जिसमें कैमरा, फ़ोटो और फ़ाइलें हैं। एक ही बार में चुनने के लिए + दबाकर रखें और उँगली खिसकाएँ।</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_1">फ़ोटो संदेश बॉक्स के ठीक ऊपर खुलती हैं; अटैच करने के लिए फ़ोटो पर टैप करें।</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_2">कैमरे में लेंस बटन, पिंच करके ज़ूम, टैप करके फ़ोकस और फ़्लैश की सुविधा है।</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_example">+ दबाकर रखें, ऊपर फ़ोटो तक उँगली खिसकाएँ और छोड़ दें</string>
+
+    <!-- 2026-10-08-01-voice-webrtc-weak-connection -->
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_title">ज़्यादा स्थिर कॉल</string>
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_summary">कमज़ोर कनेक्शन पर अब कॉल में कई सेकंड की चुप्पी के बजाय बस हल्की रुकावट आती है।</string>
+
+    <!-- 2026-10-08-02-mute-sessions -->
+    <string name="settings_whatsnew_entry_mute_sessions_title">सेशन म्यूट करें</string>
+    <string name="settings_whatsnew_entry_mute_sessions_summary">म्यूट किए गए सेशन सूची में रहते हैं, लेकिन न \'अपडेट देखें\' में आते हैं, न उन पर न पढ़े जाने का बिंदु दिखता है।</string>
+    <string name="settings_whatsnew_entry_mute_sessions_detail_1">सबको पढ़ा हुआ चिह्नित करने के लिए \'अपडेट देखें\' दबाकर रखें। आपके जवाब का इंतज़ार कर रहे सेशन बने रहते हैं।</string>
+    <string name="settings_whatsnew_entry_mute_sessions_example">ड्रॉअर में कोई सेशन दबाकर रखें और \'म्यूट करें\' पर टैप करें</string>
+
+    <!-- 2026-10-08-03-pair-from-anywhere -->
+    <string name="settings_whatsnew_entry_pair_from_anywhere_title">कहीं से भी पेयर करें</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_summary">एक ही Wi-Fi या Tailscale के बिना किसी भी नेटवर्क से कनेक्ट करने के लिए अपने कंप्यूटर पर opencode pair --remote चलाएँ।</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_detail_1">दिखाया गया कोड स्कैन करें या मिला हुआ लिंक पेस्ट करें।</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_example">opencode pair --remote चलाएँ, फिर फ़ोन पर सर्वर जोड़ें</string>
+
+    <!-- 2026-10-08-04-drawer-peek -->
+    <string name="settings_whatsnew_entry_drawer_peek_title">सेशन कब सक्रिय थे</string>
+    <string name="settings_whatsnew_entry_drawer_peek_summary">हर सेशन पिछली बार कब सक्रिय था, यह देखने के लिए सेशन सूची को सेशन की ओर खींचें।</string>
+    <string name="settings_whatsnew_entry_drawer_peek_detail_1">सूची पर बाईं ओर स्वाइप करने से वह बंद हो जाती है।</string>
+    <string name="settings_whatsnew_entry_drawer_peek_example">सेशन सूची खोलें और उसे दाईं ओर खींचें</string>
+
+    <!-- 2026-10-08-05-dictation-keeps-going -->
+    <string name="settings_whatsnew_entry_dictation_keeps_going_title">बोलकर लिखें और भेजें</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_summary">बोलकर लिखने के लिए माइक पर टैप करें, फिर रिकॉर्डिंग बार से सीधे भेजें या पहले समीक्षा के लिए \'रोकें\' पर टैप करें।</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_1">बोलने के लिए माइक दबाकर रखें, लॉक करने के लिए ऊपर या रद्द करने के लिए बाईं ओर उँगली खिसकाएँ।</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_2">ऐप से बाहर जाने पर भी रिकॉर्डिंग जारी रहती है। इसे लाइव एक्टिविटी से रोक सकते हैं।</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_3">रिकॉर्डिंग के बीच सेशन बदलें, तो \'भेजें\' दबाने पर संदेश स्क्रीन पर खुले सेशन में जाता है।</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_example">माइक पर टैप करें, एक वाक्य बोलें और \'भेजें\' पर टैप करें</string>
+
+    <!-- 2026-10-08-06-siri-shortcuts-spotlight -->
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_title">ऐप ऐक्शन और शॉर्टकट</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_summary">Google Assistant के ऐप ऐक्शन, ऐप शॉर्टकट या क्विक सेटिंग्स से कॉल या सेशन शुरू करें या संदेश भेजें।</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_detail_1">हाल के सेशन देखने के लिए ऐप आइकन दबाकर रखें।</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_example">कहें “Hey Google, OpenCode में वॉइस कॉल शुरू करो”</string>
+
+    <!-- 2026-10-09-01-working-orb -->
+    <string name="settings_whatsnew_entry_working_orb_title">स्थिति का गोला</string>
+    <string name="settings_whatsnew_entry_working_orb_summary">\'कार्य जारी है\' के पास और सबएजेंट कार्ड पर दिखने वाला गोला बताता है कि एजेंट क्या कर रहा है। काम पूरा होने पर यह कॉपी बटन बन जाता है।</string>
+
+    <!-- 2026-10-09-02-shell-glyph -->
+    <string name="settings_whatsnew_entry_shell_glyph_title">शेल की गतिविधि</string>
+    <string name="settings_whatsnew_entry_shell_glyph_summary">चलते हुए शेल का &gt;_ प्रॉम्प्ट आउटपुट आने के साथ घूमता है।</string>
+
+    <!-- 2026-10-09-03-math-and-diagrams -->
+    <string name="settings_whatsnew_entry_math_and_diagrams_title">गणित और आरेख</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_summary">जवाबों में गणित सही फ़ॉर्मैट में और Mermaid आरेख बनकर दिखते हैं।</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_1">ज़ूम बढ़ाने के लिए आरेख पर टैप करें या उसका स्रोत देखने के लिए दबाकर रखें।</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_2">गणित भी आपके टेक्स्ट के आकार में दिखता है।</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_example">संदेश कैसे भेजा जाता है, इसका फ़्लोचार्ट माँगें</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_prompt">संदेश कैसे भेजा जाता है, इसका फ़्लोचार्ट बनाएँ</string>
+
+    <!-- 2026-10-09-04-always-notify -->
+    <string name="settings_whatsnew_entry_always_notify_title">पूरा होने पर सूचना दें</string>
+    <string name="settings_whatsnew_entry_always_notify_summary">यहाँ शुरू किया गया सेशन पूरा होने पर सूचना पाएँ, साथ में हुए काम का छोटा सार भी।</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_1">हर जवाब की सूचना पाने के लिए सेशन की शीट में \'हमेशा सूचना दें\' चालू करें, चाहे काम कंप्यूटर से शुरू हुआ हो।</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_2">सेशन खोलने के लिए उसकी सूचना पर टैप करें।</string>
+    <string name="settings_whatsnew_entry_always_notify_example">संदेश भेजें, फिर फ़ोन लॉक कर दें</string>
+
+    <!-- 2026-10-09-05-server-switcher -->
+    <string name="settings_whatsnew_entry_server_switcher_title">सर्वर बदलें</string>
+    <string name="settings_whatsnew_entry_server_switcher_summary">जिस सर्वर से आप जुड़े हैं, उसका नाम ड्रॉअर का शीर्षक है। दूसरा सर्वर चुनने या जोड़ने के लिए उस पर टैप करें।</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_1">सेटिंग्स में संबंध की स्थिति धड़कन की तरह दिखती है और सर्वर के नाम के पास आने-जाने में लगने वाला समय दिखता है।</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_2">सर्वर का नाम बदलें; यह नाम सिर्फ़ इस फ़ोन पर इस्तेमाल होगा।</string>
+    <string name="settings_whatsnew_entry_server_switcher_example">ड्रॉअर खोलें, सर्वर के नाम पर टैप करें और अपना दूसरा कंप्यूटर जोड़ें</string>
+
+    <!-- 2026-10-10-01-share-opened-files -->
+    <string name="settings_whatsnew_entry_share_opened_files_title">फ़ोटो की तरह छवियाँ</string>
+    <string name="settings_whatsnew_entry_share_opened_files_summary">सेशन में छवियाँ पूरी दिखती हैं और फ़ोटो की तरह खुलती हैं: पिंच करके ज़ूम करें, स्वाइप करके अगली-पिछली देखें और बंद करने के लिए नीचे खींचें।</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_1">एजेंट जिस भी फ़ाइल का नाम लेता है, वह ऐप में खुलती है।</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_2">\'शेयर करें\' से खुली हुई कोई भी चीज़ फ़ोटो या फ़ाइलें में सहेज सकते हैं, वीडियो और ऑडियो भी।</string>
+    <string name="settings_whatsnew_entry_share_opened_files_example">एजेंट से कुछ स्क्रीनशॉट पढ़ने को कहें, फिर किसी एक पर टैप करके उसे नीचे खींचें</string>
+
+    <!-- 2026-10-10-02-call-voice -->
+    <string name="settings_whatsnew_entry_call_voice_title">वॉइस कॉल</string>
+    <string name="settings_whatsnew_entry_call_voice_summary">खाली संदेश बॉक्स में वेवफ़ॉर्म पर टैप करें और बोलें। आवाज़ बातचीत के दौरान आपके सेशन में काम करती है और पूरा होने पर बताती है।</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_1">किसी भी सेशन का नाम लें: आवाज़ उसे खोलकर वहाँ काम शुरू करती है या उसे दिशा देती है।</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_2">उसे बीच में रोकने के लिए बोलें या पूछें कि काम कैसा चल रहा है।</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_3">लाइव कैप्शन के लिए कॉल बार पर टैप करें।</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_4">कॉल की सूचना से म्यूट करें या कॉल खत्म करें, लॉक स्क्रीन पर भी।</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_5">एजेंट के काम करते समय कॉल करने के लिए “रोकें” को दबाकर रखें।</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_6">सेटिंग्स → आवाज़ में आवाज़ चुनें।</string>
+    <string name="settings_whatsnew_entry_call_voice_example">कॉल शुरू करें और कहें “अपलोड में सुधार वाला मेरा सेशन खोलें और टेस्ट जाँचें”</string>
+
+    <!-- 2026-10-10-03-drawer-one-edge -->
+    <string name="settings_whatsnew_entry_drawer_one_edge_title">ज़्यादा व्यवस्थित ड्रॉअर</string>
+    <string name="settings_whatsnew_entry_drawer_one_edge_summary">सभी पंक्तियाँ एक ही किनारे से शुरू होती हैं, स्थिति के बिंदु हर पंक्ति के अंत में हैं और खोज का बटन सबसे ऊपर है।</string>
+
+    <!-- 2026-10-11-01-paste-as-a-card -->
+    <string name="settings_whatsnew_entry_paste_as_a_card_title">लंबा पेस्ट अब कार्ड में</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_summary">लंबा पेस्ट आपकी छवियों के पास “पेस्ट किया गया टेक्स्ट” कार्ड बन जाता है। एजेंट अब भी उसे पूरा पढ़ता है।</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_1">पूरा पेस्ट पढ़ने के लिए कार्ड पर टैप करें। “कॉपी करें” और “शेयर करें” भी उपलब्ध हैं।</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_2">लंबे संदेश कुछ पंक्तियों में सिमट जाते हैं। पूरा पढ़ने के लिए “और दिखाएँ” पर टैप करें।</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_example">लंबा लॉग कॉपी करें, संदेश बॉक्स में पेस्ट करें और कार्ड पर टैप करें</string>
+
+    <!-- 2026-10-11-02-ride-out-drops -->
+    <string name="settings_whatsnew_entry_ride_out_drops_title">कमज़ोर सिग्नल पर भी काम जारी</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_summary">कुछ सेकंड सिग्नल न मिलने से अब कोई काम विफल नहीं होता। संदेश, सेशन और कॉल संबंध बहाल होने का इंतज़ार करते हैं और फिर जारी रहते हैं।</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_1">“भेजें” हमेशा तैयार रहता है और संदेश आपके भेजे हुए क्रम में जाते हैं।</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_2">जो संदेश नहीं भेजा जा सका, वह “पुनः प्रयास करें” के साथ वहीं रहता है। दोबारा कोशिश करने पर वह दो बार नहीं भेजा जाता।</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_3">सर्वर ऑफ़लाइन हो तो ड्रॉअर में उसका नाम धुंधला दिखता है। “फिर से कोशिश करें” के लिए उस पर टैप करें।</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_example">ट्रेन के सुरंग में जाते समय कोई सेशन खोलें</string>
+
+    <!-- 2026-10-11-03-new-session-recent-projects -->
+    <string name="settings_whatsnew_entry_new_session_recent_projects_title">किसी भी प्रोजेक्ट में शुरू करें</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_summary">“नया सेशन” में संदेश बॉक्स के ऊपर आपके हाल के प्रोजेक्ट दिखते हैं। “सभी प्रोजेक्ट” से कंप्यूटर का कोई भी फ़ोल्डर खोल सकते हैं।</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_1">टाइप करते समय आपका चुना हुआ प्रोजेक्ट संदेश बॉक्स के ऊपर दिखता रहता है।</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_2">नए सेशन से शुरू की गई कॉल आपके चुने हुए प्रोजेक्ट में काम करती है।</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_example">“नया सेशन”, फिर “सभी प्रोजेक्ट”, फिर “फ़ोल्डर चुनें…” पर टैप करें</string>
+
+    <!-- 2026-10-11-04-stop-runs-your-steer -->
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_title">काम के दौरान दिशा दें</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_summary">एजेंट के काम करते समय संदेश भेजें। वह लंबे कमांड पहले बैकग्राउंड में भेजकर अगले चरण में आपका संदेश पढ़ता है।</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_1">किसी संदेश के लिए “दिशा दें” या “कतार में रखें” चुनने के लिए “भेजें” को दबाकर रखें।</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_2">इंतज़ार कर रहे संदेश को कतार में रखने या हटाने के लिए उसे दबाकर रखें।</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_3">“रोकें” तुरंत “रोका जा रहा है…” बन जाता है। इसके बाद दिशा देने के लिए भेजे गए आपके संदेश पर काम होता है।</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_example">लंबा कमांड चलते समय संदेश भेजें और देखें कि कमांड कैसे बैकग्राउंड में चला जाता है</string>
+
+    <!-- 2026-10-12-01-browser-push-in -->
+    <string name="settings_whatsnew_entry_browser_push_in_title">ऐप के भीतर ब्राउज़र पेज</string>
+    <string name="settings_whatsnew_entry_browser_push_in_summary">“ऐप के भीतर ब्राउज़र” का प्रायोगिक विकल्प चालू होने पर लिंक का पेज सेशन के ऊपर खुलता है। वापस जाने के लिए किनारे से स्वाइप करें।</string>
+
+    <!-- 2026-10-12-02-answer-from-the-bar -->
+    <string name="settings_whatsnew_entry_answer_from_the_bar_title">संदेश बॉक्स से जवाब दें</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_summary">प्रश्न और अनुमति के अनुरोध संदेश बॉक्स से खुलते हैं। वहीं जवाब दें: किसी विकल्प पर टैप करें या अपना जवाब लिखें या बोलें।</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_1">अनुमति देने से पहले आपको कमांड या संपादन दिखता है।</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_2">“अस्वीकार करें” चुनने पर आपका लिखा हुआ टेक्स्ट वैकल्पिक निर्देश बन जाता है, ताकि एजेंट काम जारी रख सके।</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_3">जवाब देने के बाद आपका ड्राफ़्ट वापस आ जाता है।</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_example">एजेंट कोई प्रश्न पूछे तो माइक दबाकर रखें और अपना जवाब बोलें</string>
+
+    <!-- 2026-10-12-03-new-messages-divider -->
+    <string name="settings_whatsnew_entry_new_messages_divider_title">जहाँ छोड़ा था, वहीं से जारी रखें</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_summary">सेशन में लौटने पर सबसे नीचे के संदेश खुलते हैं। आपकी गैरमौजूदगी में आए संदेश वहाँ पहले से मौजूद होते हैं। कई अनपढ़े संदेश होने पर “नया” रेखा से खोलने के लिए सेटिंग्स › सेशन में “नए संदेशों की विभाजक रेखा” चालू करें।</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_1">जिन सेशन को आप खोल सकते हैं, वे ड्रॉअर खुलते ही रीफ़्रेश हो जाते हैं, ताकि टैप करते ही तैयार मिलें।</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_2">सेशन में वापस आने पर रीफ़्रेश के दौरान उसका बैकग्राउंड का काम और कॉन्टेक्स्ट मीटर बने रहते हैं।</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_example">कोई लंबा कार्य शुरू करें, दूसरे सेशन में जाएँ और जवाब आने के बाद वापस लौटें</string>
+
+    <!-- 2026-10-12-04-model-list-and-level-meter -->
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_title">मॉडल चुनने का नया तरीका</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_summary">मॉडल पैनल से मॉडल और उसके सोचने का स्तर चुनें। आपके पसंदीदा सबसे ऊपर हैं। संदेश बॉक्स से खुलने वाली सूची आज़माने के लिए सेटिंग्स → प्रायोगिक में “मॉडल चुनने का नया तरीका” चालू करें।</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_1">मॉडल में सोचने के स्तर उपलब्ध हों तो मॉडल पैनल के “सोच रहा है” मेन्यू का उपयोग करें।</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_2">मॉडल को पसंदीदा में जोड़ने के लिए उस पर स्वाइप करें।</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_3">सेशन में एक हल्की रेखा दिखाती है कि आपने कहाँ मॉडल या स्तर बदला था।</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_example">संदेश बॉक्स में मॉडल पर टैप करें और सोचने का स्तर चुनें</string>
+
+    <!-- 2026-10-12-05-run-error-line -->
+    <string name="settings_whatsnew_entry_run_error_line_title">जब काम विफल हो जाए</string>
+    <string name="settings_whatsnew_entry_run_error_line_summary">काम बीच में रुक जाए तो वजह आसान शब्दों में दिखती है, साथ में आगे बढ़ने का एक तरीका: “संपादित करें”, “संक्षिप्त”, “मॉडल बदलें” या “फिर से कोशिश करें”।</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_1">“संपादित करें” आपके संदेश को पूर्ववत करके संदेश बॉक्स में वापस रखता है, ताकि आप उसे बदल सकें।</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_2">पूरी त्रुटि देखने और कॉपी करने के लिए उस पंक्ति को दबाकर रखें।</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_3">जब एजेंट खुद दोबारा कोशिश करेगा, तो “कार्य जारी है” में अगली कोशिश तक की उलटी गिनती दिखती है।</string>
+    <string name="settings_whatsnew_entry_run_error_line_example">जवाब रुक जाए तो “संपादित करें” पर टैप करें, संदेश बदलें और फिर से भेजें</string>
+
+    <!-- 2026-10-12-06-transcript-keyboard-space -->
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_title">कीबोर्ड बंद हो, खाली जगह नहीं</string>
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_summary">कीबोर्ड को खींचकर बंद करने पर अब आखिरी संदेश के नीचे खाली जगह नहीं छूटती।</string>
+
+    <!-- 2026-10-12-07-share-sheet-sends -->
+    <string name="settings_whatsnew_entry_share_sheet_sends_title">शेयर पैनल से भेजें</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_summary">OpenCode पर कुछ भी शेयर करें, सेशन चुनें, संदेश जोड़ें और ऐप खोले बिना भेज दें।</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_1">आपके हाल के सेशन शेयर पैनल की सबसे ऊपरी पंक्ति में दिखते हैं।</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_2">JSON फ़ाइलें और निर्यात की गई सामग्री फ़ाइलों के रूप में जुड़ती हैं। उनके नाम नहीं बदलते।</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_3">“OpenCode में जारी रखें” से सेशन खुलता है और शेयर की गई सामग्री संदेश बॉक्स में दिखती है।</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_4">अगर संदेश न भेजा जा सके, तो “बाद में भेजें” उसे अगली बार ऐप खोलने पर भेज देता है।</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_example">OpenCode पर स्क्रीनशॉट शेयर करें, प्रश्न लिखें और “भेजें” पर टैप करें</string>
+
+    <!-- 2026-10-12-08-app-icon-badge -->
+    <string name="settings_whatsnew_entry_app_icon_badge_title">ऐप आइकन पर बैज</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_summary">ऐप आइकन पर न पढ़े गए या आपके जवाब का इंतज़ार कर रहे सेशन की संख्या दिखती है, जो “अपडेट देखें” में भी दिखती है।</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_1">म्यूट किए गए सेशन नहीं गिने जाते।</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_2">इसके लिए सूचनाएँ चालू होनी चाहिए।</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_example">किसी सेशन में प्रश्न का जवाब दिए बिना होम स्क्रीन पर जाएँ</string>
+
+    <!-- 2026-10-12-09-drawer-keeps-keyboard -->
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_title">ड्रॉअर के साथ खिसकता कीबोर्ड</string>
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_summary">टाइप करते समय सेशन सूची खोलने पर संदेश बॉक्स का फ़ोकस बना रहता है और कीबोर्ड सेशन के साथ एक ओर खिसक जाता है।</string>
+
+    <!-- 2026-10-12-10-whats-new-page -->
+    <string name="settings_whatsnew_entry_whats_new_page_title">“नया क्या है” अब और सरल</string>
+    <string name="settings_whatsnew_entry_whats_new_page_summary">“नया क्या है” अब सेटिंग्स की तरह एक पेज पर खुलता है। हर सुविधा का अलग पेज है और सुधार यहीं एक साथ मिलते हैं।</string>
+
+    <!-- 2026-10-12-11-catch-up-returns-to-drawer -->
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_title">“अपडेट देखें” से वापस ड्रॉअर में</string>
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_summary">“अपडेट देखें” से बाहर आने पर सेशन सूची वहीं खुलती है जहाँ आपने छोड़ी थी।</string>
+
+    <!-- 2026-10-12-12-transcript-day-stamps -->
+    <string name="settings_whatsnew_entry_transcript_day_stamps_title">बातचीत के टेक्स्ट में दिन</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_summary">कई दिनों तक चलने वाले सेशन में हर दिन के पहले संदेश के ऊपर दिन दिखता है, जैसे “बुधवार सुबह 8:24”, और एक घंटे के विराम के बाद भेजे गए संदेश के ऊपर समय दिखता है।</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_1">दिन के लिए “आज”, “कल” या इसी हफ़्ते का वार दिखता है, वरना तारीख दिखती है।</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_2">दिशा देने वाले और कतारबद्ध संदेशों पर इंतज़ार के दौरान दिन या समय नहीं दिखता।</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_example">इस हफ़्ते पहले शुरू किया गया कोई सेशन खोलें और ऊपर स्क्रॉल करें</string>
+
+    <!-- 2026-10-12-13-rich-link-previews -->
+    <string name="settings_whatsnew_entry_rich_link_previews_title">लिंक का पूर्वावलोकन</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_summary">जवाब के नीचे हर लिंक की जानकारी एक पंक्ति में दिखती है: शीर्षक और स्थिति वाला पुल अनुरोध या इश्यू, कमिट, वीडियो या पेज।</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_1">GitHub के पुल अनुरोध, इश्यू, कमिट और रिपॉजिटरी के शीर्षक दिखते हैं। “खुला”, “मर्ज किया गया” या “बंद” स्थिति रंग में दिखती है।</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_2">X पोस्ट में दिखता है कि किसने क्या लिखा; YouTube लिंक में शीर्षक और दूसरे पेजों में लिंक से लिया गया नाम दिखता है।</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_3">तीन लिंक दिखते हैं; बाकी देखने के लिए “कॉपी करें” के पास “और” पर टैप करें और उन्हें छिपाने के लिए फिर टैप करें।</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_4">बड़ा पूर्वावलोकन, “लिंक की प्रतिलिपि करें” और “शेयर करें” देखने के लिए लिंक दबाकर रखें।</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_example">एजेंट से पूछें कि इस हफ़्ते किसी रिपॉजिटरी में क्या बदला</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_prompt">मैं जिस GitHub रिपॉजिटरी का उपयोग करता हूँ, उसमें इस हफ़्ते क्या बदला? लिंक भी दें।</string>
+
+    <!-- 2026-10-13-01-rolling-numbers -->
+    <string name="settings_whatsnew_entry_rolling_numbers_title">खिसकते अंक</string>
+    <string name="settings_whatsnew_entry_rolling_numbers_summary">बैकग्राउंड काम की पट्टी, सेशन शीट, “N का उपयोग किया” पंक्तियों और “अपडेट देखें” में गिनती बदलते समय अंक एक-एक करके खिसकते हैं।</string>
+
+    <!-- 2026-10-13-02-grouped-steering -->
+    <string name="settings_whatsnew_entry_grouped_steering_title">संदेश अब एक साथ</string>
+    <string name="settings_whatsnew_entry_grouped_steering_summary">लगातार भेजे गए संदेश एक ही खंड में दिखते हैं। एजेंट का इंतज़ार कर रहे दिशा देने वाले संदेशों पर एक ही “दिशा देना” लेबल दिखता है।</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_1">लगातार संदेशों के बुलबुले पास-पास दिखते हैं और जहाँ मिलते हैं, वहाँ उनके कोने जुड़ जाते हैं।</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_2">फ़ोटो और फ़ाइलें इस खंड में भी अपना गोलाकार रूप बनाए रखती हैं।</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_3">एजेंट जैसे ही कोई संदेश लेता है, वह एक ही गति में ऊपर अपनी जगह पहुँच जाता है।</string>
+    <string name="settings_whatsnew_entry_grouped_steering_example">एजेंट के काम करते समय जल्दी-जल्दी तीन संदेश भेजें, जिनमें से एक में फ़ोटो हो</string>
+
+    <!-- 2026-10-13-03-inline-tool-rows -->
+    <string name="settings_whatsnew_entry_inline_tool_rows_title">टूल और प्रश्नों की सादी पंक्तियाँ</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_summary">टूल समूह और जवाब दिए गए प्रश्न कोड जैसी पूरी चौड़ाई वाली पट्टी में खुलते हैं। लगातार पढ़ने की कार्रवाइयाँ एक पंक्ति में जुड़ जाती हैं।</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_1">संक्षिप्त समूहों पर “N टूल का उपयोग किया” दिखता है और असफल टूल कॉल लाल रंग में दिखती हैं।</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_2">“निष्पादित करें” पंक्तियों में स्क्रिप्ट के इस्तेमाल किए टूल के नाम और “कौशल” पंक्तियों में कौशल का नाम दिखता है।</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_3">जवाब दिए गए प्रश्नों में प्रॉम्प्ट और दिए गए सभी विकल्प दिखते हैं, और आपके चुने विकल्प पर सही का निशान होता है।</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_example">सेशन में “N टूल का उपयोग किया” पंक्ति पर टैप करके उसकी पट्टी खोलें</string>
+
+    <!-- 2026-10-13-04-mac-motion-playgrounds -->
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_title">Mac पर प्लेग्राउंड के कंट्रोल</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_summary">डेवलपर मोड चालू करके ट्यूनिंग को अपने Mac से पेयर करें। फिर प्लेग्राउंड के ऐनिमेशन धीमी गति में दोबारा चलाएँ और कैप्चर किए फ़्रेम जाँचें।</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_1">Mac के कंट्रोल पेज पर प्लेग्राउंड चुनने, प्रीसेट और दोबारा चलाने के कंट्रोल हैं; फ़ोन पर सिर्फ़ प्लेग्राउंड दिखता है।</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_2">छोटे कार्ड दिखाते हैं कि स्क्रीन पर कौन-से कंट्रोल हैं। गति और दूरी के लिए नाम वाले प्रीसेट हैं, और मूल रूप वापस लाने के लिए “मूल” है; हर प्रीसेट अपने सभी मान एक ही अपडेट में लागू करता है।</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_3">Mac कनेक्ट होने पर फ़्लोटिंग ट्यूनिंग पैनल छिप जाता है; ट्यूनिंग जेस्चर से उसे बुलाएँ और बाहर निकलने के लिए “प्लेग्राउंड से बाहर निकलें” चुनें।</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_4">पहले से तय परिदृश्य वही नमूना सेशन दोबारा चलाते हैं, ताकि आप अलग-अलग बिल्ड में ऐनिमेशन की तुलना कर सकें।</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_5">दोबारा चलाने पर सब नए सिरे से शुरू होता है और दिशा देने वाले व कतारबद्ध संदेश इंतज़ार में रहने के बजाय भेज दिए जाते हैं।</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_6">Mac के समीक्षा प्लेयर में आप कैप्चर किए आकार और स्थितियाँ फ़्रेम-दर-फ़्रेम देख सकते हैं, किसी फ़्रेम को चिह्नित कर सकते हैं और ऐनिमेशन पर सुझाव भेज सकते हैं।</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_example">सेटिंग्स → डेवलपर खोलें, Mac के ट्यूनिंग पेज से पेयर करें, फिर बातचीत का टेक्स्ट → जवाब स्ट्रीम करें को 0.25× पर आज़माएँ</string>
+
+    <!-- 2026-10-13-05-catch-up-flicks -->
+    <string name="settings_whatsnew_entry_catch_up_flicks_title">“अपडेट देखें” में आसान स्वाइप</string>
+    <string name="settings_whatsnew_entry_catch_up_flicks_summary">“अपडेट देखें” में तेज़ स्वाइप या थोड़ा खींचने पर भी कार्ड आगे बढ़ जाता है, वापस नहीं लौटता।</string>
+
+    <!-- 2026-10-14-01-settings-grouped-by-purpose -->
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_title">और साफ़-सुथरी सेटिंग्स</string>
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_summary">प्रायोगिक सुविधाएँ और डेवलपर टूल सेटिंग्स → प्रायोगिक में, ऐप की सूचनाएँ “सूचनाएँ” में और पिछली कॉल “आवाज़” में मिलेंगी।</string>
+
+    <!-- 2026-10-14-02-send-ats-recovery -->
+    <string name="settings_whatsnew_entry_send_ats_recovery_title">भरोसेमंद तरीके से संदेश भेजें</string>
+    <string name="settings_whatsnew_entry_send_ats_recovery_summary">अगर iOS पहले से काम कर रहे सर्वर कनेक्शन को कुछ पल के लिए अस्वीकार करता है, तो संदेश अपने-आप दोबारा भेजे जाते हैं।</string>
+
+    <!-- 2026-10-14-03-keyboard-menus-and-header -->
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_title">अधिक स्थिर कीबोर्ड और मेन्यू</string>
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_summary">टाइप करते समय + पर टैप करके अटैचमेंट खोलें। कीबोर्ड नीचे नहीं होगा और कंट्रोल नहीं हिलेंगे; कीबोर्ड हिलने पर भी हेडर का धुंधलापन अपनी जगह बना रहता है।</string>
+
+    <!-- 2026-10-14-04-open-links-in-apps -->
+    <string name="settings_whatsnew_entry_open_links_in_apps_title">लिंक अब अपने ऐप में खुलते हैं</string>
+    <string name="settings_whatsnew_entry_open_links_in_apps_summary">लिंक उससे जुड़े ऐप में खुलता है, जैसे GitHub या YouTube; “ऐप के भीतर ब्राउज़र” प्रयोग चालू हो, तो लिंक दबाकर रखें और “ऐप के ब्राउज़र में खोलें” चुनें।</string>
+
+    <!-- 2026-10-14-05-session-list-quiet-hierarchy -->
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_title">एक नज़र में समझ आने वाली सेशन सूची</string>
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_summary">पिन किए गए और हाल के शीर्षक छोटे धूसर अक्षरों में हैं, न पढ़े गए और इंतज़ार कर रहे सेशन थोड़े मोटे अक्षरों में उभरते हैं, और पढ़े गए सेशन हल्के दिखते हैं।</string>
+
+    <!-- 2026-10-14-06-queued-messages-fitted-sheet -->
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_title">ज़्यादा व्यवस्थित कतारबद्ध संदेश</string>
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_summary">कतारबद्ध संदेशों का पैनल कतार जितना ही ऊँचा रहता है। इसमें क्रमांक वाली पंक्तियाँ और संदेश अभी भेजने या रद्द करने के लिए सादे बटन हैं।</string>
+
+    <!-- 2026-10-14-07-control-center-sessions -->
+    <string name="settings_whatsnew_entry_control_center_sessions_title">सेशन के लिए टाइलें</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_summary">एक टैप में सेशन खोलने या उसमें कॉल शुरू करने के लिए क्विक सेटिंग्स में टाइल जोड़ें।</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_1">नई सेशन खोलें टाइल आपका चुना हुआ सेशन खोलती है।</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_2">कॉल शुरू करें से आप चुने हुए या नए सेशन में कॉल कर सकते हैं। इसे बदलने तक, यह आपके आखिरी बार देखे गए सेशन में कॉल करती है।</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_3">अपने पिन किए गए और हाल के सेशन में से चुनें; टाइल पर सेशन का मौजूदा शीर्षक दिखता है।</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_4">टाइलें सिर्फ़ ऐप खोलती हैं: जब तक आप बोलें या टाइप न करें, कुछ भी नहीं भेजा जाता।</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_example">क्विक सेटिंग्स खोलें, संपादित करें पर टैप करें और OpenCode की सेशन खोलें टाइल खींचकर सही जगह रखें</string>
+
+    <!-- 2026-10-15-01-settings-keyboard-down -->
+    <string name="settings_whatsnew_entry_settings_keyboard_down_title">सेटिंग्स पर कीबोर्ड नहीं</string>
+    <string name="settings_whatsnew_entry_settings_keyboard_down_summary">टाइप करते समय ड्रॉअर से सेटिंग्स खोलने पर कीबोर्ड अब सेटिंग्स के ऊपर रहने के बजाय छिप जाता है।</string>
+
+    <!-- 2026-10-15-02-session-list-sidebar-grey -->
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_title">ज़्यादा खुली-खुली सेशन सूची</string>
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_summary">सेशन सूची का शीर्षक अब बड़ा है। पिन किए गए और हाल के शीर्षक भी बड़े, धूसर हैं और उनके ऊपर ज़्यादा जगह है; देखने के लिए ड्रॉअर खोलें।</string>
+
+    <!-- 2026-10-15-03-voice-varied-acknowledgements -->
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_title">कॉल पर कम “जाँच रहा हूँ”</string>
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_summary">कॉल पर अब हर अनुरोध का जवाब “जाँच रहा हूँ” देने के बजाय आपकी बात के हिसाब से मिलता है। अनुरोध के बाद बोलते रहने पर भी वह दो बार नहीं भेजा जाता।</string>
+
+    <!-- 2026-10-15-04-smoother-streaming -->
+    <string name="settings_whatsnew_entry_smoother_streaming_title">ज़्यादा सहज स्ट्रीमिंग जवाब</string>
+    <string name="settings_whatsnew_entry_smoother_streaming_summary">आते हुए जवाब की नई पंक्ति अब फीकी पड़े या झपके बिना धीरे से दिखती है। पंक्तियाँ टेक्स्ट से आगे खिंचकर वापस नहीं सिकुड़तीं, और सूची के आइटम व शीर्षक पहले अकेले डैश या हैश दिखाने के बजाय सीधे सही रूप में दिखते हैं।</string>
+
+    <!-- 2026-10-15-05-model-list-sheet -->
+    <string name="settings_whatsnew_entry_model_list_sheet_title">पैनल में मॉडल सूची</string>
+    <string name="settings_whatsnew_entry_model_list_sheet_summary">नया मॉडल चयन प्रयोग चालू होने पर संदेश बॉक्स कीबोर्ड की जगह मॉडल के पैनल में बदल जाता है और कीबोर्ड छिप जाता है। आप इसे कितनी भी तेज़ी से खोलें-बंद करें, यह सहजता से वापस सिमटता है।</string>
+
+    <!-- 2026-10-15-06-queued-pill-whole-title -->
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_title">कतार की पूरी गिनती</string>
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_summary">संदेश लेखन के ऊपर कतार का बैज अब “2 कतारब…” के बजाय पूरा “2 कतारबद्ध” दिखाता है। दूसरी जगह बदलती गिनतियों के भी सभी अक्षर दिखते हैं।</string>
+
+    <!-- 2026-10-16-01-plus-menu-photo-sheet -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_title">कीबोर्ड की जगह फ़ोटो</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_summary">नया प्लस मेन्यू प्रयोग चालू होने पर फ़ोटो चुनने से + मेन्यू कीबोर्ड की जगह फ़ोटो के पैनल में फैल जाता है। + दबाए रखने पर नई फ़ोटो दिखती हैं: किसी फ़ोटो तक उँगली खिसकाकर छोड़ें और उसे जोड़ें।</string>
+
+    <!-- 2026-10-16-02-composer-large-text-targets -->
+    <string name="settings_whatsnew_entry_composer_large_text_targets_title">संदेश लिखते समय आसान टैप</string>
+    <string name="settings_whatsnew_entry_composer_large_text_targets_summary">टेक्स्ट का आकार बड़ा होने पर संदेश लेखन के बटन टैप करना अब आसान है।</string>
+
+    <!-- 2026-10-16-03-project-pick-haptic -->
+    <string name="settings_whatsnew_entry_project_pick_haptic_title">नया प्रोजेक्ट चुनने पर हल्का कंपन</string>
+    <string name="settings_whatsnew_entry_project_pick_haptic_summary">नए सेशन के लिए संदेश बॉक्स के ऊपर या सभी प्रोजेक्ट में कोई दूसरा प्रोजेक्ट चुनने पर हल्का कंपन होता है।</string>
+
+    <!-- 2026-10-16-04-fork-opens-copy -->
+    <string name="settings_whatsnew_entry_fork_opens_copy_title">फ़ोर्क करने पर कॉपी खुलती है</string>
+    <string name="settings_whatsnew_entry_fork_opens_copy_summary">सेशन के विवरण में फ़ोर्क करें अब फिर से उसकी कॉपी खोलता है।</string>
+
+    <!-- 2026-10-16-05-transcript-row-targets -->
+    <string name="settings_whatsnew_entry_transcript_row_targets_title">टैप करना हुआ आसान</string>
+    <string name="settings_whatsnew_entry_transcript_row_targets_summary">सेशन पैनल के शीर्षक पर टैप करना आसान है। बोलकर लिखते समय छिपे हुए संदेश लेखन बटन अब VoiceOver और Voice Control से भी नहीं चुने जाते।</string>
+
+    <!-- 2026-10-16-06-image-previews -->
+    <string name="settings_whatsnew_entry_image_previews_title">छवि पूर्वावलोकन</string>
+    <string name="settings_whatsnew_entry_image_previews_summary">एजेंट जिन छवियों का ज़िक्र करता है, उनके पूर्वावलोकन अलग-अलग आकार के खानों में दिखते हैं। फ़ाइलें मौजूद न हों तो यह भी बताया जाता है।</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_1">पूर्वावलोकन उस अनुच्छेद के नीचे दिखते हैं जिसमें उनका ज़िक्र है।</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_2">छवि को पूरी स्क्रीन पर खोलने के लिए टैप करें और जवाब की बाकी छवियाँ देखने के लिए स्वाइप करें।</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_3">सेशन के फ़ोल्डर से बाहर की छवियाँ आपके टैप करने के बाद ही लोड होती हैं।</string>
+    <string name="settings_whatsnew_entry_image_previews_example">एजेंट से अपने प्रोजेक्ट के स्क्रीनशॉट दिखाने को कहें।</string>
+    <string name="settings_whatsnew_entry_image_previews_prompt">मुझे इस प्रोजेक्ट के स्क्रीनशॉट दिखाओ।</string>
+
+    <!-- 2026-10-16-07-connection-error-details -->
+    <string name="settings_whatsnew_entry_connection_error_details_title">कनेक्ट न होने की वजह जानें</string>
+    <string name="settings_whatsnew_entry_connection_error_details_summary">कनेक्ट करने की त्रुटियों में त्रुटि कोड, आज़माया गया पता और DNS परिणाम दिखते हैं। टेलनेट नाम से Tailscale के बाहर का पता मिलने पर मदद भी मिलती है।</string>
+
+    <!-- 2026-10-16-08-outage-reconnect-delay -->
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_title">जल्दी दोबारा कनेक्ट करें</string>
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_summary">रुकावट के बाद सर्वर फिर चालू होने पर सेशन जल्दी अपडेट हो जाते हैं।</string>
+
+    <!-- 2026-10-17-01-every-running-subagent -->
+    <string name="settings_whatsnew_entry_every_running_subagent_title">हर चलता हुआ सबएजेंट</string>
+    <string name="settings_whatsnew_entry_every_running_subagent_summary">संदेश लेखन के ऊपर सबएजेंट की गिनती में अब दूसरे सबएजेंट के अंदर वाले और 100 से ज़्यादा सबएजेंट वाले सेशन के सबएजेंट भी शामिल हैं, ठीक TUI की तरह।</string>
+
+    <!-- 2026-10-17-02-session-view-refined-standard -->
+    <string name="settings_whatsnew_entry_session_view_refined_standard_title">जवाब का ज़्यादा स्पष्ट टेक्स्ट</string>
+    <string name="settings_whatsnew_entry_session_view_refined_standard_summary">तीसरे स्तर के शीर्षक अब मोटे टेक्स्ट से बड़े हैं। सामान्य टेक्स्ट थोड़ा हल्का है ताकि मोटा टेक्स्ट उभरे, और अनुच्छेदों व कोड ब्लॉक के बीच थोड़ी ज़्यादा जगह है।</string>
+
+    <!-- 2026-10-17-03-bottom-follow-on-load -->
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_title">नीचे ही बने रहें</string>
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_summary">देर से आने वाली सामग्री लोड होते समय भी सेशन का दृश्य नीचे ही रहता है।</string>
+
+    <!-- 2026-10-17-04-drafts-stay-put -->
+    <string name="settings_whatsnew_entry_drafts_stay_put_title">ड्राफ़्ट सुरक्षित रहते हैं</string>
+    <string name="settings_whatsnew_entry_drafts_stay_put_summary">ऐप बैकग्राउंड में बंद हो जाए तो भी ड्राफ़्ट, जोड़ी गई फ़ोटो और जगहें, और भेजे जाने का इंतज़ार कर रहे संदेश सुरक्षित रहते हैं।</string>
+
+    <!-- 2026-10-18-01-themes -->
+    <string name="settings_whatsnew_entry_themes_title">थीम</string>
+    <string name="settings_whatsnew_entry_themes_summary">सेशन के लिए Tokyo Night, Catppuccin, Dracula, Rosé Pine या GitHub जैसी थीम चुनें और चुनते समय उसका असर तुरंत देखें।</string>
+    <string name="settings_whatsnew_entry_themes_detail_1">थीम बातचीत के टेक्स्ट, आपके संदेशों, कोड, सिंटैक्स, डिफ़ और लिंक के रंग बदलती हैं।</string>
+    <string name="settings_whatsnew_entry_themes_detail_2">उपस्थिति में मोड से हल्की, गहरी या सिस्टम चुनें।</string>
+    <string name="settings_whatsnew_entry_themes_detail_3">हर थीम में कंट्रोल का मूल Liquid Glass रूप बना रहता है।</string>
+    <string name="settings_whatsnew_entry_themes_example">सेटिंग्स → उपस्थिति → थीम खोलें और Tokyo Night आज़माएँ।</string>
+
+    <!-- 2026-10-18-02-return-key-sends -->
+    <string name="settings_whatsnew_entry_return_key_sends_title">रिटर्न कुंजी की सेटिंग</string>
+    <string name="settings_whatsnew_entry_return_key_sends_summary">रिटर्न से नई पंक्ति जोड़ने के लिए सेटिंग्स में रिटर्न कुंजी से भेजें बंद करें, या बाहरी कीबोर्ड पर Command-Return और Shift-Return का उपयोग करें।</string>
+
+    <!-- 2026-10-18-03-quote-replies -->
+    <string name="settings_whatsnew_entry_quote_replies_title">जवाब से उद्धरण लें</string>
+    <string name="settings_whatsnew_entry_quote_replies_summary">असिस्टेंट के जवाब में टेक्स्ट चुनें और ‘उद्धरण लें’ पर टैप करें। यह आपके संदेश में उद्धरण कार्ड के रूप में जुड़ जाएगा।</string>
+
+    <!-- 2026-10-18-04-launch-bloom -->
+    <string name="settings_whatsnew_entry_launch_bloom_title">खुलते ही खिलता ऐप</string>
+    <string name="settings_whatsnew_entry_launch_bloom_summary">पूरी तरह बंद ऐप खोलने पर OpenCode का चिह्न सिमटता है, फिर खिलते हुए आपका सेशन खोलता है।</string>
+
+    <!-- 2026-10-18-05-drag-to-pin -->
+    <string name="settings_whatsnew_entry_drag_to_pin_title">सेशन खींचकर पिन करें</string>
+    <string name="settings_whatsnew_entry_drag_to_pin_summary">किसी सेशन को दबाकर ऊपर पिन किए गए में खींचें, ताकि वह उसी जगह पिन हो जाए। पिन हटाने के लिए उसे नीचे हाल के में खींचें।</string>
+
+    <!-- 2026-10-19-01-call-tray-colour-blend -->
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_title">कॉल बटन का सहज बदलाव</string>
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_summary">कॉल ट्रे प्रयोग चालू होने पर कॉल शुरू करते ही कॉल बटन सीधे लाल समाप्त करें बटन में बदलता है और कॉल काटने पर वापस आ जाता है। बीच में पृष्ठभूमि की झलक नहीं आती।</string>
+
+    <!-- 2026-10-19-02-optical-insets -->
+    <string name="settings_whatsnew_entry_optical_insets_title">कंट्रोल के चारों ओर बराबर जगह</string>
+    <string name="settings_whatsnew_entry_optical_insets_summary">संदेश लेखन के + और माइक, पृष्ठभूमि के काम और कतारबद्ध काम की पट्टियों के चिह्न, और साइडबार के नया सेशन का चिह्न अब अपने काँच जैसे गोल सिरों के बीचोंबीच दिखते हैं। शेल का चिह्न अब सबएजेंट के गोले जैसा गोल है, बिना झपकते कर्सर के। दोनों चल रहे हों तो साथ-साथ दिखते हैं।</string>
+
+    <!-- 2026-10-19-03-smart-dictation-audio -->
+    <string name="settings_whatsnew_entry_smart_dictation_audio_title">संगीत के साथ बेहतर बोलकर लिखना</string>
+    <string name="settings_whatsnew_entry_smart_dictation_audio_summary">संगीत चलते समय बोलकर लिखने पर AirPods में संगीत स्टीरियो में रहता है और एक मिनट बाद बंद नहीं होता। सिर्फ़ फ़ोन इस्तेमाल करने पर भी वह ईयरपीस के बजाय स्पीकर पर चलता रहता है।</string>
+
+    <!-- 2026-10-19-04-interrupted-hand -->
+    <string name="settings_whatsnew_entry_interrupted_hand_title">बाधित होने पर हाथ का चिह्न</string>
+    <string name="settings_whatsnew_entry_interrupted_hand_summary">बाधित काम और शेल अब उठे हुए हाथ का चिह्न दिखाते हैं। आपके रोके गए शेल पर भी अब रोका गया के बजाय बाधित लिखा आता है।</string>
+
+    <!-- 2026-10-19-05-autocomplete-fast-scroll -->
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_title">तेज़ ऑटोकम्प्लीट</string>
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_summary">संदेश लेखन ऑटोकम्प्लीट प्रयोग चालू होने पर सुझाव आपके टाइप करने के साथ तुरंत बदलते हैं। सूची को खींचने पर वह स्क्रॉल होती है, कोई पंक्ति नहीं चुनी जाती।</string>
+
+    <!-- 2026-10-19-06-experimental-groups -->
+    <string name="settings_whatsnew_entry_experimental_groups_title">प्रयोग अब समूहों में</string>
+    <string name="settings_whatsnew_entry_experimental_groups_summary">सेटिंग्स → प्रायोगिक में प्रयोग अब समूहों में हैं। कॉल के लिए अब कॉल शैली का एक ही विकल्प है।</string>
+
+    <!-- 2026-10-19-07-model-picker-standard-sheet -->
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_title">मानक शीट में मॉडल चयन</string>
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_summary">नया मॉडल चयन प्रयोग चालू होने पर संदेश बॉक्स में मॉडल पर टैप करने से एक मानक शीट खुलती है। हर मॉडल का अपना सोचने का स्तर चुनने का मेन्यू है। पुराना चयन अब सेटिंग्स › प्रायोगिक में कस्टम मॉडल चयन नाम से है।</string>
+
+    <!-- 2026-10-19-08-problem-reports-reach-session -->
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_title">रिपोर्ट सेशन तक पहुँचती है</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_summary">समस्या की रिपोर्ट करें अब आपका नोट उसी सेशन में भी भेजता है जहाँ से आपने रिपोर्ट की थी। एजेंट के पढ़ने के लिए पूरी रिपोर्ट भी जुड़ी रहती है।</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_1">संदेश की शुरुआत में समस्या की रिपोर्ट वाली पंक्ति, आपका नोट, रिपोर्ट ID और अपलोड किए गए ट्रेस का लिंक होता है।</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_2">डिवाइस, बिल्ड, स्क्रीन, टाइमलाइन और ऐप लॉग की जानकारी एक संलग्न फ़ाइल में आती है, जैसे आप खुद कोई फ़ाइल जोड़ते हैं।</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_3">होम से भेजने पर यह आपके सबसे हाल के सेशन में जाती है।</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_4">अपलोड विफल होने पर भी नोट और सारांश पहुँचते हैं और विफलता का ज़िक्र करते हैं। फिर से कोशिश करें पर टैप करने से सिर्फ़ ट्रेस का लिंक भेजा जाता है।</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_5">पहुँचने पर “सेशन में भेजा गया” की पुष्टि दिखती है।</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_example">सेशन का मेन्यू खोलें, समस्या की रिपोर्ट करें चुनें, नोट जोड़ें और भेजें पर टैप करें</string>
+
+    <!-- 2026-10-19-09-team-scrawl-feedback -->
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_title">टीम के लिए Scrawl फ़ीडबैक</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_summary">अपने निजी लिंक से टीम फ़ीडबैक में जुड़ें। तीन उँगलियों से बनाई Scrawl रिकॉर्डिंग और संवेदनशील जानकारी हटाकर जाँच के विवरण, समस्या बोर्ड की साझा कतार में भेजें।</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_1">कौन-सी जानकारी इकट्ठी होती है, यह देखकर स्वीकार करने के लिए अपना opencode://team/join लिंक खोलें।</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_2">तीन चरणों का अभ्यास आपको तीन उँगलियाँ दबाकर रखने, बोलने और चित्र बनाने, फिर अभ्यास की क्लिप परीक्षण कतार में भेजने का तरीका सिखाता है।</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_3">हर रिकॉर्डिंग के साथ समस्या की रिपोर्ट करें जैसी ही टाइमलाइन, ऐप लॉग और Motion Watch के जाँच विवरण जुड़ते हैं, जिनमें संवेदनशील जानकारी हटा दी जाती है।</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_4">सेटिंग्स › डेवलपर में कभी भी ट्यूटोरियल फिर से देखें या टीम फ़ीडबैक छोड़ें।</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_example">टीम फ़ीडबैक की स्थिति देखने या ट्यूटोरियल फिर से चलाने के लिए सेटिंग्स › डेवलपर खोलें।</string>
+
+    <!-- 2026-10-19-10-scrawl-faster-start -->
+    <string name="settings_whatsnew_entry_scrawl_faster_start_title">Scrawl की तेज़ शुरुआत</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_summary">माइक्रोफ़ोन और रिकॉर्डर शुरू होते समय ही Scrawl के कंट्रोल दिख जाते हैं।</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_1">रिकॉर्डिंग तैयार होते समय चित्र बनाएँ, भेजें और छोड़ दें पर किए गए टैप याद रखे जाते हैं।</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_2">तीन उँगलियाँ दबाकर रखने से ओवरले तैयार होता है, लेकिन माइक्रोफ़ोन समय से पहले शुरू नहीं होता।</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_3">ऑडियो का रास्ता बदलने के दौरान Scrawl का माइक्रोफ़ोन दोबारा शुरू होने पर होने वाला क्रैश ठीक किया गया है।</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_example">पेयर किए गए डिवाइस पर रिकॉर्डिंग शुरू करने के लिए तीन उँगलियाँ दबाकर रखें</string>
+
+    <!-- 2026-10-20-01-call-tray-docks-in-drawer -->
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_title">ड्रॉअर में कॉल ट्रे</string>
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_summary">कॉल ट्रे प्रयोग चालू होने पर कॉल के दौरान ड्रॉअर खोलने से ट्रे नया सेशन के नीचे आ जाती है। आवाज़ का स्तर, म्यूट करें और समाप्त करें भी साथ आते हैं। ड्रॉअर बंद करने पर ट्रे वापस आ जाती है।</string>
+
+    <!-- 2026-10-20-02-markdown-streams-smoothly -->
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_title">स्ट्रीम होते जवाब अब और सहज</string>
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_summary">लंबे जवाब स्ट्रीम होते समय भी तेज़ी से दिखते हैं। अधूरे बोल्ड टेक्स्ट, कोड और लिंक भी कच्चे Markdown के बजाय सही फ़ॉर्मैट में दिखते हैं।</string>
+
+    <!-- 2026-10-20-04-return-newline-default -->
+    <string name="settings_whatsnew_entry_return_newline_default_title">Return से नई पंक्ति</string>
+    <string name="settings_whatsnew_entry_return_newline_default_summary">Return अब डिफ़ॉल्ट रूप से नई पंक्ति जोड़ता है। Return से भेजने के लिए सेटिंग्स › सेशन में Return कुंजी से भेजें चालू करें, या हार्डवेयर कीबोर्ड पर Ctrl+Enter दबाएँ।</string>
+
+    <!-- 2026-10-20-05-drawer-session-alignment -->
+    <string name="settings_whatsnew_entry_drawer_session_alignment_title">एक सीध में ड्रॉअर कंट्रोल</string>
+    <string name="settings_whatsnew_entry_drawer_session_alignment_summary">फ़ोन और टैबलेट पर खोज, नया सेशन और सेटिंग्स अब सेशन के हेडर और संदेश बॉक्स की सीध में हैं।</string>
+
+    <!-- 2026-10-20-06-call-tray-switch-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_title">ज़्यादा स्थिर कॉल कंट्रोल</string>
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_summary">सेशन बदलने पर भी कॉल की ध्वनि-तरंग चलती रहती है। सेशन सूची खोलने पर कंट्रोल अपनी जगह से ऊपर-नीचे नहीं होते।</string>
+
+    <!-- 2026-10-20-07-voice-delegation-visible-on-admission -->
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_title">वॉइस संदेश तुरंत दिखते हैं</string>
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_summary">आवाज़ सुविधा से सेशन में भेजे गए संदेश सर्वर के स्वीकार करते ही दिख जाते हैं, भले ही सेशन के अपडेट आने में देर हो।</string>
+
+    <!-- 2026-10-20-08-inline-image-links -->
+    <string name="settings_whatsnew_entry_inline_image_links_title">छवि लिंक का पूर्वावलोकन</string>
+    <string name="settings_whatsnew_entry_inline_image_links_summary">जवाबों में लिंक की गई छवियों का पूर्वावलोकन देखने के लिए सेटिंग्स › प्रायोगिक › बातचीत का टेक्स्ट में छवि लिंक का पूर्वावलोकन चालू करें। पूरी स्क्रीन पर खोलने और ज़ूम करने के लिए थंबनेल पर टैप करें।</string>
+
+    <!-- 2026-10-20-09-smooth-link-preview-arrival -->
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_title">लिंक पूर्वावलोकन अब और सहज</string>
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_summary">लिंक पूर्वावलोकन लोड होते समय धीरे-धीरे उभरते हैं। शीर्षक की ऊँचाई बदलने पर नीचे की पंक्तियाँ सहजता से खिसकती हैं।</string>
+
+    <!-- 2026-10-20-10-subagent-capsule-press -->
+    <string name="settings_whatsnew_entry_subagent_capsule_press_title">गोल सिरों वाली गतिविधि पट्टी</string>
+    <string name="settings_whatsnew_entry_subagent_capsule_press_summary">सबएजेंट और शेल की पट्टी दबाने पर भी उसके सिरे गोल बने रहते हैं।</string>
+
+    <!-- 2026-10-20-11-advanced-settings-open -->
+    <string name="settings_whatsnew_entry_advanced_settings_open_title">आसान उन्नत सेटिंग्स</string>
+    <string name="settings_whatsnew_entry_advanced_settings_open_summary">सेटिंग्स › प्रायोगिक में सभी प्रयोग खुले समूहों में हैं, मॉडल चुनने के तरीके एक ही मॉडल चयन विकल्प में हैं, और विकल्प बदलने के लिए उसकी पंक्ति में कहीं भी टैप कर सकते हैं।</string>
+
+    <!-- 2026-10-20-12-revert-to-here -->
+    <string name="settings_whatsnew_entry_revert_to_here_title">संदेश पूर्ववत करें</string>
+    <string name="settings_whatsnew_entry_revert_to_here_summary">अपने किसी संदेश को दबाकर रखें और उस बिंदु पर लौटकर उसे संपादित करने के लिए संदेश पूर्ववत करें चुनें।</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_1">संदेश का टेक्स्ट, फ़ोटो और फ़ाइलें संदेश बॉक्स में वापस आ जाते हैं।</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_2">नया संदेश भेजने तक, पूर्ववत से बातचीत और उससे जुड़े फ़ाइल परिवर्तन वापस ला सकते हैं।</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_3">यह विकल्प तब मिलता है जब एजेंट काम नहीं कर रहा हो।</string>
+    <string name="settings_whatsnew_entry_revert_to_here_example">पहले भेजे गए किसी संदेश को दबाकर रखें और संदेश पूर्ववत करें चुनें।</string>
+
+    <!-- 2026-10-20-13-drag-from-transcript -->
+    <string name="settings_whatsnew_entry_drag_from_transcript_title">सेशन से खींचें</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_summary">कोड, छवियों, फ़ाइलों, लिंक और संदेशों को दबाकर सेशन से दूसरे ऐप में खींचें।</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_1">कोड ब्लॉक अपनी भाषा की जानकारी के साथ टेक्स्ट के रूप में जाते हैं।</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_2">एजेंट की बनाई छवियाँ और फ़ाइलें, फ़ाइलों के रूप में जाती हैं।</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_3">इन्हें अटैच या पेस्ट करने के लिए संदेश बॉक्स में छोड़ें।</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_4">स्क्रॉल करना, टेक्स्ट चुनना और मेनू पहले की तरह काम करते हैं।</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_example">जवाब में कोड की एक पंक्ति चुनें, फिर चुने हुए हिस्से को दबाकर ब्लॉक को Notes में खींचें।</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_prompt">स्ट्रिंग को उलटने वाला एक छोटा Swift फ़ंक्शन कोड ब्लॉक में लिखें।</string>
+
+    <!-- 2026-10-20-14-tuning-glass-tap-targets -->
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_title">ट्यूनिंग कंट्रोल अब आसान</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_summary">सिमटे हुए ट्यूनिंग पिल और किनारे वाले टैब पर टैप करने की जगह अब बड़ी है।</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_detail_1">उनकी काँच जैसी सतहों का आकार पहले जैसा है।</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_example">ट्यूनिंग पैनल को समेटें, फिर उसके पिल या टैब के किनारे के पास टैप करें</string>
+
+    <!-- 2026-10-20-15-new-session-project-continuity -->
+    <string name="settings_whatsnew_entry_new_session_project_continuity_title">प्रोजेक्ट चुनना अब आसान</string>
+    <string name="settings_whatsnew_entry_new_session_project_continuity_summary">प्रोजेक्ट चुनते समय हाल के फ़ोल्डर अपनी जगह पर रहते हैं, हेडर का नाम धीरे से बदलता है और प्रोजेक्ट शीट में फ़ोल्डर के पथ ज़्यादा साफ़ दिखते हैं।</string>
+
+    <!-- 2026-10-20-16-simple-session-loading -->
+    <string name="settings_whatsnew_entry_simple_session_loading_title">सेशन लोडिंग अब शांत</string>
+    <string name="settings_whatsnew_entry_simple_session_loading_summary">सेशन लोड होने में थोड़ा समय लगे, तभी एक छोटा, स्थिर लोगो धीरे से दिखता है और फिर उसकी जगह संदेश आ जाते हैं।</string>
+
+    <!-- 2026-10-20-17-voice-route-consistency -->
+    <string name="settings_whatsnew_entry_voice_route_consistency_title">वॉइस कनेक्शन में सुधार</string>
+    <string name="settings_whatsnew_entry_voice_route_consistency_summary">जब आपका सर्वर कॉल चलाता है, तब भी Grok आपकी xAI कुंजी इस्तेमाल करता है, और Gemini अपनी सही पहचान बताता है।</string>
+
+    <!-- 2026-10-20-18-call-tray-edge-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_title">कॉल ट्रे की हलचल</string>
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_summary">कॉल ट्रे के खुलने और ड्रॉअर में आने-जाने पर उसकी ध्वनि तरंग उसके गोल किनारे के साथ चलती है।</string>
+
+    <!-- 2026-10-21-01-call-tray-keyboard-return -->
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_title">कॉल ट्रे की वापसी</string>
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_summary">ड्रॉअर बंद होने और कीबोर्ड वापस आने पर भी कॉल ट्रे दिखती रहती है।</string>
+
+    <!-- 2026-10-21-02-drawer-title-fade -->
+    <string name="settings_whatsnew_entry_drawer_title_fade_title">सेशन के ज़्यादा पूरे शीर्षक</string>
+    <string name="settings_whatsnew_entry_drawer_title_fade_summary">साइडबार में सेशन के लंबे शीर्षक अब पहले ही तीन बिंदुओं पर रुकने के बजाय किनारे तक दिखते हैं और धीरे-धीरे धुँधले हो जाते हैं।</string>
+
+    <!-- 2026-10-21-03-call-sounds-from-the-tap -->
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_title">कॉल की ध्वनियाँ अब जल्दी</string>
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_summary">कॉल कनेक्ट होने की टनटनाहट अब टैप करने के कुछ सेकंड बाद नहीं, बल्कि पहली लहर के साथ शुरू होती है।</string>
+
+    <!-- 2026-10-21-04-calm-wireframe-launch -->
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_title">शांत लोडिंग</string>
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_summary">कैश किए गए सेशन तुरंत खुलते हैं; लोड होने में समय लगे तो संदेशों के बुलबुले हल्के-हल्के चमकते हैं और फिर उनकी जगह आपके संदेश आ जाते हैं।</string>
+
+    <!-- 2026-10-21-05-request-dictation-last-line -->
+    <string name="settings_whatsnew_entry_request_dictation_last_line_title">बोलकर लिखने पर अंत दिखे</string>
+    <string name="settings_whatsnew_entry_request_dictation_last_line_summary">iOS 26 पर, लंबित अनुरोध के जवाब बॉक्स में लंबा टेक्स्ट बोलकर लिखना बंद करने पर अब बीच के बजाय आख़िरी पंक्तियाँ दिखती हैं।</string>
+
+    <!-- 2026-10-21-06-first-run-pairing-fixes -->
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_title">पहली पेयरिंग अब ज़्यादा स्पष्ट</string>
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_summary">क्लिपबोर्ड खाली होने पर पेस्ट करने से यह बात पेस्ट करें के पास दिखती है, और सेटअप अब आधे मिनट में रिमोट ऐक्सेस मिलने का वादा नहीं करता।</string>
+
+    <!-- 2026-10-21-07-welcome-pairing-copy -->
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_title">OpenCode ऐप से पेयर करें</string>
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_summary">स्वागत स्क्रीन आपको कंप्यूटर पर OpenCode में सेटिंग्स → पेयरिंग या टर्मिनल में /pair पर जाने को कहती है। जिनके पास OpenCode नहीं है, उनके लिए इंस्टॉल कमांड भी है।</string>
+
+    <!-- 2026-10-21-08-session-id-links -->
+    <string name="settings_whatsnew_entry_session_id_links_title">सेशन लिंक</string>
+    <string name="settings_whatsnew_entry_session_id_links_summary">जवाब में सेशन ID की जगह उस सेशन का शीर्षक दिखता है। सेशन खोलने के लिए उस पर टैप करें।</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_1">सबएजेंट की ID मौजूदा सेशन के ऊपर उसका सेशन खोलती है। पीछे से वापस लौट सकते हैं।</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_2">ID कॉपी करने के लिए उसे दबाकर रखें।</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_3">जिस ID को यह सर्वर नहीं पहचानता, वह छोटी करके दिखाई जाती है।</string>
+    <string name="settings_whatsnew_entry_session_id_links_example">एजेंट से किसी दूसरे सेशन की ID के ज़रिए उसका नाम बताने को कहें, फिर शीर्षक पर टैप करें।</string>
+    <string name="settings_whatsnew_entry_session_id_links_prompt">मेरे सबसे हाल के पाँच OpenCode सेशन उनकी सेशन ID के साथ सूची में दिखाएँ।</string>
+
+    <!-- 2026-10-21-10-ipad-multiple-windows -->
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_title">टैबलेट पर कई विंडो</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_summary">टैबलेट पर सेशन अलग-अलग विंडो में खोलें और दो विंडो साथ-साथ रखें।</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_1">साइडबार में किसी सेशन को दबाकर रखें और नई विंडो में खोलें चुनें।</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_2">हर विंडो का अपना सेशन, साइडबार और संदेश बॉक्स होता है।</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_3">पिन किए गए और पढ़े गए सेशन, साथ ही आपके सर्वर, हर विंडो में एक जैसे रहते हैं।</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_4">विंडो दोबारा खुलने पर वही सेशन दिखाती हैं जो पहले खुला था।</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_example">साइडबार में किसी सेशन को दबाकर रखें, नई विंडो में खोलें चुनें और उसे पहली विंडो के बगल में रखें।</string>
+
+    <!-- 2026-10-21-11-plain-launch -->
+    <string name="settings_whatsnew_entry_plain_launch_title">सादा शुरुआती स्क्रीन</string>
+    <string name="settings_whatsnew_entry_plain_launch_summary">OpenCode एक सादी स्क्रीन पर खुलता है और सेशन तैयार होते ही सीधे उसे दिखाता है, बिना किसी लोडिंग ऐनिमेशन के।</string>
+
+    <!-- 2026-10-21-12-breath-ping-call-sounds -->
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_title">कॉल की ध्वनियाँ अब हल्की</string>
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_summary">कॉल जुड़ने, पिंग आने और कटने पर अब हल्की, साँस जैसी ध्वनियाँ बजती हैं, जो बातचीत में दखल नहीं देतीं।</string>
+
+    <!-- 2026-10-21-13-smoother-session-list -->
+    <string name="settings_whatsnew_entry_smoother_session_list_title">सेशन सूची अब ज़्यादा सहज</string>
+    <string name="settings_whatsnew_entry_smoother_session_list_summary">सेशन में काम चलते समय भी साइडबार की सेशन सूची आसानी से स्क्रॉल होती है। किसी सेशन को दबाकर रखने पर उसका मेन्यू खुलता है और पंक्ति का आकार नहीं बदलता।</string>
+
+    <!-- 2026-10-22-01-whats-new-actions -->
+    <string name="settings_whatsnew_entry_whats_new_actions_title">नया क्या है से खोलें और आज़माएँ</string>
+    <string name="settings_whatsnew_entry_whats_new_actions_summary">नया क्या है में हर जानकारी के पेज पर एक बटन है। यह थीम जैसी संबंधित सेटिंग खोलता है या आज़माने के लिए पहले से लिखा प्रॉम्प्ट लेकर नया सेशन शुरू करता है।</string>
+
+    <!-- 2026-10-22-02-project-icons-current-discovery -->
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_title">प्रोजेक्ट आइकन में सुधार</string>
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_summary">प्रोजेक्ट आइकन चालू होने पर साइडबार में वे आइकन भी दिखते हैं जो आपके सर्वर को Icon Composer बंडल में मिलते हैं।</string>
+
+    <!-- 2026-10-22-03-new-divider-off-page -->
+    <string name="settings_whatsnew_entry_new_divider_off_page_title">नया का निशान, बस ज़रूरत पर</string>
+    <string name="settings_whatsnew_entry_new_divider_off_page_summary">नए संदेशों की विभाजक रेखा वाला प्रयोग चालू होने पर, नया का निशान तभी दिखता है जब आए हुए संदेश एक स्क्रीन में नहीं समाते।</string>
+
+    <!-- 2026-10-22-04-catch-up-all-caught-up-row -->
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_title">सभी अपडेट देख लिए</string>
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_summary">अपडेट देखें में आखिरी सेशन पढ़ने पर आप सीधे साइडबार पर लौटते हैं। वहाँ अपडेट देखें पर सही का निशान लग जाता है और सभी अपडेट देख लिए दिखता है।</string>
+
+    <!-- 2026-10-23-01-session-mentions -->
+    <string name="settings_whatsnew_entry_session_mentions_title">सेशन का उल्लेख करें</string>
+    <string name="settings_whatsnew_entry_session_mentions_summary">संदेश लेखन में अपने-आप पूरा करने वाला प्रयोग चालू होने पर, डेस्कटॉप की तरह @ लिखकर किसी दूसरे सेशन का उसके शीर्षक से उल्लेख करें।</string>
+
+    <!-- 2026-10-23-02-gpt-live-own-key -->
+    <string name="settings_whatsnew_entry_gpt_live_own_key_title">GPT-Live कुंजियाँ</string>
+    <string name="settings_whatsnew_entry_gpt_live_own_key_summary">GPT-Live कॉल के लिए अपनी OpenAI कुंजी, अपने सर्वर की OpenAI कुंजी या उसके OpenCode Console संबंध का उपयोग कर सकते हैं।</string>
+
+    <!-- 2026-10-23-03-pair-opens-drawer -->
+    <string name="settings_whatsnew_entry_pair_opens_drawer_title">जहाँ छोड़ा था, वहीं से शुरू करें</string>
+    <string name="settings_whatsnew_entry_pair_opens_drawer_summary">नया कंप्यूटर पेयर करने के बाद खाली सेशन के बजाय साइडबार में उसके हाल के सेशन खुलते हैं, ताकि आप कोई सेशन चुन सकें।</string>
+
+    <!-- 2026-10-23-04-voice-server-picker -->
+    <string name="settings_whatsnew_entry_voice_server_picker_title">वॉइस सर्वर चुनें</string>
+    <string name="settings_whatsnew_entry_voice_server_picker_summary">सेटिंग्स › आवाज़ › वॉइस प्रोवाइडर में चुनें कि आपकी कॉल किस सहेजे गए सर्वर से होंगी, या इस फ़ोन पर अपने OpenAI खाते का उपयोग करें।</string>
+
+    <!-- 2026-10-24-01-living-orb-floats -->
+    <string name="settings_whatsnew_entry_living_orb_floats_title">जीवंत गोला हर स्क्रीन पर</string>
+    <string name="settings_whatsnew_entry_living_orb_floats_summary">सेटिंग्स › प्रायोगिक › कॉल में जीवंत गोला अब तैरती हुई कॉल शैली है। यह बड़ा है, सेटिंग्स और हर स्क्रीन के ऊपर रहता है और दोनों आवाज़ों के साथ हिलता है। साथ बोलने पर हर आवाज़ का अपना रंग होता है। इसे कार्ड बनाने के लिए टैप करें, पूरी कॉल और बातचीत का टेक्स्ट देखने के लिए ऊपर खींचें और छोटा करने के लिए नीचे खींचें। कॉल शैली के नीचे गोला विकल्प से इसका रूप बदलें।</string>
+
+    <!-- 2026-10-24-02-new-messages-divider-on -->
+    <string name="settings_whatsnew_entry_new_messages_divider_on_title">नए संदेशों की विभाजक रेखा</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_summary">आपके दूर रहने पर आया जवाब अगर एक स्क्रीन से लंबा हो, तो सेशन उसके शुरू में नया की विभाजक रेखा पर खुलता है।</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_1">एक स्क्रीन में समाने वाला जवाब अंत में खुलता है, बिना विभाजक रेखा के।</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_2">आपके देखते समय आने वाले जवाबों पर कभी निशान नहीं लगता।</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_3">अंत तक पढ़ने पर विभाजक रेखा हट जाती है।</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_4">इसे सेटिंग्स › सेशन में बंद करें।</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_example">लंबा जवाब माँगें, उसके पूरा होने तक दूसरे ऐप में जाएँ, फिर वापस आएँ।</string>
+
+    <!-- 2026-10-24-03-composer-keyboard-morph -->
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_title">संदेश लेखन कीबोर्ड के साथ चले</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_summary">संदेश लेखन के कंट्रोल कीबोर्ड के साथ खुलते हैं और उसे ऊपर-नीचे खींचने पर उसके साथ चलते हैं।</string>
+
+    <!-- 2026-10-24-04-composer-photo-viewer -->
+    <string name="settings_whatsnew_entry_composer_photo_viewer_title">संदेश की फ़ोटो पूरी स्क्रीन पर</string>
+    <string name="settings_whatsnew_entry_composer_photo_viewer_summary">संदेश लिखते समय किसी फ़ोटो को पूरी स्क्रीन पर देखने के लिए टैप करें, फ़ोटो के बीच स्वाइप करें और भेजने से पहले कोई फ़ोटो हटाएँ।</string>
+
+    <!-- 2026-10-24-05-plus-menu-photo-picker -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_title">फ़ोटो चुनने का नया तरीका</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_summary">सेटिंग्स › प्रायोगिक › संदेश लेखन में नया प्लस मेन्यू चालू करें। सीधे + मेन्यू से हाल की 8 फ़ोटो तक चुनें, सभी फ़ोटो देखें और उन्हें संदेश लेखन में, फिर सेशन में जाते देखें।</string>
+
+    <!-- 2026-10-24-06-project-icons-lit -->
+    <string name="settings_whatsnew_entry_project_icons_lit_title">रोशनी वाले प्रोजेक्ट आइकन</string>
+    <string name="settings_whatsnew_entry_project_icons_lit_summary">प्रोजेक्ट आइकन चालू होने पर साइडबार के आइकन पर रोशनी झलकती है: ऊपर से हल्की चमक, काँच जैसा महीन किनारा और हल्की छाया।</string>
+
+    <!-- 2026-10-24-07-session-live-activity -->
+    <string name="settings_whatsnew_entry_session_live_activity_title">सेशन के लाइव अपडेट</string>
+    <string name="settings_whatsnew_entry_session_live_activity_summary">सेटिंग्स › प्रायोगिक › ड्रॉअर में सेशन के लाइव अपडेट चालू करें। भेजे गए काम की प्रगति लाइव सूचना में लॉक स्क्रीन पर भी देखें, जब तक काम पूरा न हो या आपके इनपुट की ज़रूरत न पड़े।</string>
+
+    <!-- 2026-10-24-08-sign-in-failed-edit-server -->
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_title">साइन-इन की समस्या ठीक करें</string>
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_summary">सर्वर आपका पासवर्ड न माने तो साइडबार के सर्वर मेन्यू में बेअसर फिर से कोशिश करें के बजाय सर्वर संपादित करें… दिखता है। स्वागत स्क्रीन अब टर्मिनल में opencode pair --remote चलाने को कहती है।</string>
+
+    <!-- 2026-10-25-01-voice-app-screenshot -->
+    <string name="settings_whatsnew_entry_voice_app_screenshot_title">आवाज़ से स्क्रीनशॉट</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_summary">वॉइस कॉल पर “इसे देखो” कहें और ऐप की स्क्रीन आपके फ़ीडबैक के साथ सेशन में भेज दी जाएगी।</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_1">यह केवल ऐप की अपनी स्क्रीन भेजता है, साथ में स्क्रीन का नाम और कॉल व ऐप की स्थिति भी।</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_2">इसके साथ कॉल लॉग या ऐप के हाल के लॉग भेजने को कहें; पते और साइन-इन की जानकारी छिपा दी जाती है।</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_3">साइन-इन स्क्रीन या पासवर्ड फ़ील्ड दिखने पर स्क्रीनशॉट नहीं लिया जाएगा।</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_example">वॉइस कॉल में कहें “स्क्रीनशॉट लो, यह पंक्ति ठीक से सीध में नहीं है”</string>
+
+    <!-- 2026-10-25-02-voice-background-results -->
+    <string name="settings_whatsnew_entry_voice_background_results_title">कॉल में बैकग्राउंड के नतीजे</string>
+    <string name="settings_whatsnew_entry_voice_background_results_summary">कॉल के दौरान आपके कहने पर कोई सेशन बैकग्राउंड में काम शुरू करे, तो काम पूरा होते ही कॉल में उसके नतीजे बताए जाते हैं, भले ही आप दूसरे काम करने लगे हों।</string>
+
+    <!-- 2026-10-25-03-sound-effects-experiment -->
+    <string name="settings_whatsnew_entry_sound_effects_experiment_title">ध्वनि प्रभाव</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_summary">एक प्रयोग जो जवाब, अनुरोध, अपडेट देखें और संदेश भेजने में विफलता पर कंपन के साथ हल्की ध्वनियाँ बजाता है।</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_1">साइलेंट और वाइब्रेट मोड में ये ध्वनियाँ बंद रहती हैं और संगीत चलता रहता है।</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_2">कॉल, बोलकर लिखने या मीडिया चलने के दौरान और ऐप बैकग्राउंड में होने पर ये शांत रहती हैं।</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_3">स्विच के नीचे आवाज़ और वैकल्पिक भेजने की ध्वनि के विकल्प हैं।</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_example">सेटिंग्स › प्रायोगिक में ध्वनि प्रभाव चालू करें, फिर दूसरे सेशन में जवाब आने का इंतज़ार करें</string>
+
+    <!-- 2026-10-25-90-session-title-first-prompt -->
+    <string name="settings_whatsnew_entry_session_title_first_prompt_title">पहले प्रॉम्प्ट से शीर्षक</string>
+    <string name="settings_whatsnew_entry_session_title_first_prompt_summary">बिना शीर्षक वाले सेशन अब अपना पहला प्रॉम्प्ट एक पंक्ति में दिखाते हैं, जब तक सर्वर उन्हें नाम नहीं देता।</string>
+
+    <!-- 2026-10-26-01-settings-sessions-page -->
+    <string name="settings_whatsnew_entry_settings_sessions_page_title">सेशन की सेटिंग्स</string>
+    <string name="settings_whatsnew_entry_settings_sessions_page_summary">सेटिंग्स में नया सेशन पेज है। इसमें नए संदेशों की विभाजक रेखा का विकल्प रिटर्न कुंजी से भेजें के ऊपर है। उन्नत अब दो पंक्तियों में है: प्रायोगिक और डेवलपर।</string>
+
+    <!-- 2026-10-26-02-project-icons-default -->
+    <string name="settings_whatsnew_entry_project_icons_default_title">प्रोजेक्ट आइकन चालू</string>
+    <string name="settings_whatsnew_entry_project_icons_default_summary">प्रोजेक्ट आइकन अब सेशन के शीर्षक के पास दिखते हैं। इन्हें सेटिंग्स › प्रायोगिक में बंद करें।</string>
+
+    <!-- 2026-10-26-03-plus-menu-over-keyboard -->
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_title">कीबोर्ड के ऊपर फ़ोटो</string>
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_summary">नया प्लस मेन्यू चालू होने पर + मेन्यू कीबोर्ड के ऊपर खुलता है। उससे फ़ोटो की शीट फैलकर स्क्रीन के किनारों तक जाती है और फिर कीबोर्ड छिपाए बिना वापस सिमट जाती है।</string>
+
+    <!-- 2026-10-26-04-living-orb-connect-motion -->
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_title">कनेक्ट होते समय गोले की हलचल</string>
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_summary">Living Orb चालू होने पर, कॉल कनेक्ट होते समय कॉल बटन उठकर गोले में बदलता है और घूमता है। कॉल खत्म होने पर वह वापस बटन में आ जाता है। तुरंत दोबारा डायल करने पर अब अटकने के बजाय नई कॉल शुरू होती है।</string>
+
+    <!-- 2026-10-26-05-living-orb-presets -->
+    <string name="settings_whatsnew_entry_living_orb_presets_title">गोले के प्रीसेट और Fancy</string>
+    <string name="settings_whatsnew_entry_living_orb_presets_summary">सेटिंग्स › प्रायोगिक › कॉल में कॉल शैली के नीचे गोला अब Fancy पर खुलता है। इसमें बड़ा लाइव पूर्वावलोकन और प्रीसेट की कतार है। अपने प्रीसेट सहेजें, नाम बदलें और सेटअप शेयर करने के लिए कॉपी या पेस्ट करें।</string>
+
+    <!-- 2026-10-26-06-send-after-a-pause -->
+    <string name="settings_whatsnew_entry_send_after_a_pause_title">विराम के बाद सहज भेजना</string>
+    <string name="settings_whatsnew_entry_send_after_a_pause_summary">विराम के बाद भेजा गया संदेश अब संदेश लेखन से सीधे अपने बुलबुले में ऊपर जाता है। पहले वह समय के नीचे, संदेश लेखन की ओर थोड़ा झुकता था।</string>
+
+    <!-- 2026-10-27-01-steadier-round-trip -->
+    <string name="settings_whatsnew_entry_steadier_round_trip_title">आने-जाने का समय अधिक स्थिर</string>
+    <string name="settings_whatsnew_entry_steadier_round_trip_summary">संबंध कार्ड में ms का आँकड़ा अब पिछली कुछ जाँचों का औसत दिखाता है। इसलिए एक धीमे जवाब से यह अचानक उछलने के बजाय थोड़ा ही बदलता है।</string>
+
+    <!-- 2026-10-27-02-drawer-drag-follows-finger -->
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_title">साइडबार में सेशन उँगली के साथ खिसकें</string>
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_summary">साइडबार में खींचा गया सेशन अब आपकी उँगली के ठीक नीचे रहता है, हेडर के ऊपर दिखता है और किनारों पर सूची को स्क्रॉल करता है। छोड़ने पर वह अपनी जगह बैठ जाता है।</string>
+
+    <!-- 2026-10-27-03-inbox-sidebar-experiment -->
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_title">इनबॉक्स साइडबार</string>
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_summary">सेटिंग्स › प्रायोगिक › ड्रॉअर में इनबॉक्स साइडबार चालू करें। सेशन इनबॉक्स की तरह दिखेंगे: पहले जिन्हें आपका इनपुट चाहिए, फिर न पढ़े गए। हर सेशन के साथ उसका प्रोजेक्ट और नवीनतम जवाब दिखेगा। पढ़ा हुआ चिह्नित करने या संग्रहित करने के लिए स्वाइप करें।</string>
+
+    <!-- 2026-10-28-01-first-pairing-ready-session -->
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_title">पहला सेशन तैयार</string>
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_summary">पहला कंप्यूटर पेयर करने पर अब उसके सबसे हाल के प्रोजेक्ट में नया सेशन खुलता है, साथ में आज़माने के लिए कुछ प्रश्न भी। एक टैप से कनेक्ट होने की पुष्टि हो जाती है। नई इंस्टॉल में नया क्या है भी पहले से पढ़ा हुआ रहता है।</string>
+
+    <!-- 2026-10-28-02-welcome-preview -->
+    <string name="settings_whatsnew_entry_welcome_preview_title">स्वागत का पूर्वावलोकन</string>
+    <string name="settings_whatsnew_entry_welcome_preview_summary">पहली बार खुलने वाला नया स्वागत दिखाता है कि लैपटॉप पर OpenCode कैसे काम करता है और फ़ोन से उसे कैसे दिशा दी जाती है। फिर एक चरण में पेयरिंग होती है। देखने के लिए सेटिंग्स › प्रायोगिक › ड्रॉअर में स्वागत का पूर्वावलोकन चालू करें और स्वागत दिखाएँ पर टैप करें। बंद करने पर आप वापस लौट आते हैं।</string>
+
+    <!-- 2026-10-29-01-composer-text-selection -->
+    <string name="settings_whatsnew_entry_composer_text_selection_title">संदेश लेखन में टेक्स्ट चुनें</string>
+    <string name="settings_whatsnew_entry_composer_text_selection_summary">ड्राफ़्ट में चयन के हैंडल या टेक्स्ट बड़ा करके दिखाने वाला लेंस खींचने पर अब कीबोर्ड बंद नहीं होता और न ही संदेश लेखन ऊपर-नीचे खिसकता है।</string>
+
+    <!-- 2026-10-30-01-voice-waits-for-you -->
+    <string name="settings_whatsnew_entry_voice_waits_for_you_title">कॉल में पहले अपनी बात पूरी करें</string>
+    <string name="settings_whatsnew_entry_voice_waits_for_you_summary">वॉइस एजेंट अब आपकी बात नहीं काटता: अपडेट आपके बोलने के बाद दिए जाते हैं, और उसके बोलते समय आप बोलें तो वह रुक जाता है।</string>
+
+    <!-- 2026-10-30-02-wisp-call-sounds -->
+    <string name="settings_whatsnew_entry_wisp_call_sounds_title">वॉइस कॉल में Wisp की ध्वनियाँ</string>
+    <string name="settings_whatsnew_entry_wisp_call_sounds_summary">कॉल शुरू होते समय धीमी झंकार के साथ हल्की साँस की ध्वनि आती है। कनेक्ट होने पर घंटी, एजेंट के देखने, खोलने या चलाने पर हल्की टिक और कॉल खत्म होने पर साँस छोड़ने की ध्वनि आती है। सेटिंग्स › आवाज़ › कॉल की ध्वनियाँ में दूसरा सेट चुनें।</string>
+
+    <!-- 2026-10-30-03-wisp-orb -->
+    <string name="settings_whatsnew_entry_wisp_orb_title">वॉइस गोला अब Wisp है</string>
+    <string name="settings_whatsnew_entry_wisp_orb_summary">कॉल के गोले को अब Wisp का रूप मिला है: चमकते बिंदुओं पर काँच का लेंस, जिसे दोनों की आवाज़ें रोशन करती हैं। कनेक्ट होने, सुनने, काम करने, बोलने और आपके इंतज़ार के लिए Wisp के अलग भाव हैं। अब यही एक शैली है, इसलिए पुरानी शैलियाँ और गोले की सेटिंग्स हटा दी गई हैं।</string>
+
+    <!-- 2026-10-31-01-encrypted-notification-previews -->
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_title">एन्क्रिप्ट किए गए सूचना पूर्वावलोकन</string>
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_summary">अपडेट किए गए सूचना प्लग-इन और HTTPS संबंध के साथ, सर्वर इस डिवाइस के लिए शीर्षक और संदेश एन्क्रिप्ट करता है। पूर्वावलोकन न खुल सके तो सूचना में सिर्फ़ “नई गतिविधि” दिखता है।</string>
+
+    <!-- 2026-10-31-02-move-session-folder-gone -->
+    <string name="settings_whatsnew_entry_move_session_folder_gone_title">फ़ोल्डर हटे, सेशन बना रहे</string>
+    <string name="settings_whatsnew_entry_move_session_folder_gone_summary">सेशन का फ़ोल्डर मौजूद न हो, जैसे हटाए गए वर्कस्पेस में, तो संदेश भेजना असफल होने पर उसे प्रोजेक्ट के फ़ोल्डर में ले जाने का विकल्प मिलता है। फिर संदेश दोबारा भेजा जाता है।</string>
+
+    <!-- 2026-10-31-03-notification-plugin-setup -->
+    <string name="settings_whatsnew_entry_notification_plugin_setup_title">OpenCode से सूचनाएँ सेट अप करें</string>
+    <string name="settings_whatsnew_entry_notification_plugin_setup_summary">सेटिंग्स → सूचनाएँ में OpenCode से सेट अप करें पर टैप करें। इससे उस प्रॉम्प्ट की समीक्षा कर सकते हैं जो मौजूद न होने वाला सूचना प्लग-इन इंस्टॉल करता है।</string>
+
+    <!-- 2026-11-01-01-call-card-takes-over -->
+    <string name="settings_whatsnew_entry_call_card_takes_over_title">नीचे का हिस्सा अब कॉल कार्ड के लिए</string>
+    <string name="settings_whatsnew_entry_call_card_takes_over_summary">Living Orb में कॉल कार्ड अब संदेश फ़ील्ड को ढकते हुए स्क्रीन के निचले हिस्से में फैलता है और चारों ओर बराबर जगह छोड़ता है। अब कीबोर्ड उसे दबाता नहीं है। टाइप करने के लिए उसे वापस गोले में छोटा करें।</string>
+
+    <!-- 2026-11-01-01-screenshot-shutter -->
+    <string name="settings_whatsnew_entry_screenshot_shutter_title">स्क्रीनशॉट का शटर</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_summary">जब ऐप किसी सेशन के लिए अपना स्क्रीनशॉट लेता है, तो स्क्रीन चमकती है और शटर की क्लिक सुनाई देती है।</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_1">फ़्लैश स्क्रीनशॉट लेने के बाद आता है, इसलिए वह तस्वीर में कभी नहीं दिखता।</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_2">हलचल कम करें चालू होने पर स्क्रीन हल्की मंद होती है। चमकती रोशनी मंद करें इसे बंद कर देता है।</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_3">कॉल के दौरान क्लिक की आवाज़ कॉल के ज़रिए बजती है, इसलिए एजेंट उसे नहीं सुनता।</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_example">वॉइस कॉल में कहें “यह देखो”</string>
+
+    <!-- 2026-11-01-01-voice-says-whats-running -->
+    <string name="settings_whatsnew_entry_voice_says_whats_running_title">कॉल में जानें क्या काम चल रहा है</string>
+    <string name="settings_whatsnew_entry_voice_says_whats_running_summary">आपके अनुरोध में समय लगने पर वॉइस एजेंट चुप रहने के बजाय बताता है कि वह क्या काम कर रहा है।</string>
+
+    <!-- 2026-11-01-02-living-orb-default -->
+    <string name="settings_whatsnew_entry_living_orb_default_title">गोले में तैरती कॉल</string>
+    <string name="settings_whatsnew_entry_living_orb_default_summary">अब सभी के लिए वॉइस कॉल हर स्क्रीन के ऊपर Living Orb में तैरती हैं, और संदेश फ़ील्ड आपके इस्तेमाल के लिए खाली रहता है।</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_1">कॉल कार्ड खोलने के लिए गोले पर टैप करें। पूरी कॉल और बातचीत का टेक्स्ट देखने के लिए ऊपर खींचें।</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_2">गोले को कहीं भी खींचें। सेशन बदलने या सेटिंग्स खोलने पर भी वह वहीं रहता है।</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_3">सेशन सूची से भी कॉल शुरू करें। कॉल बटन सेटिंग्स के पास है।</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_4">ट्रे हटा दी गई है। अगर आप उसका इस्तेमाल करते थे, तो अब आपकी कॉल भी गोले में तैरेंगी।</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_5">इसे सेटिंग्स › प्रायोगिक › कॉल › Living Orb में बंद करें।</string>
+    <string name="settings_whatsnew_entry_living_orb_default_example">कॉल शुरू करें, फिर सेशन सूची खोलें: गोला आपके साथ रहता है</string>
+
+    <!-- 2026-11-01-02-quicker-send -->
+    <string name="settings_whatsnew_entry_quicker_send_title">तेज़ी से भेजें</string>
+    <string name="settings_whatsnew_entry_quicker_send_summary">भेजा गया संदेश अब पहले संदेश लेखन में रुकने के बजाय सूची के साथ सीधे अपने बुलबुले में ऊपर जाता है।</string>
+
+    <!-- 2026-11-01-02-share-screen-with-agents -->
+    <string name="settings_whatsnew_entry_share_screen_with_agents_title">एजेंट के साथ स्क्रीन शेयर करें</string>
+    <string name="settings_whatsnew_entry_share_screen_with_agents_summary">सेटिंग्स › प्रायोगिक › कॉल में एजेंट के साथ स्क्रीन शेयर करें चालू करें। कॉल के दौरान एजेंट ऐप देखने को कह सकता है। तस्वीर भेजने के लिए शेयर करें पर टैप करें, या अभी नहीं चुनें।</string>
+
+    <!-- 2026-11-01-03-audio-in-calls -->
+    <string name="settings_whatsnew_entry_audio_in_calls_title">कॉल में ऑडियो</string>
+    <string name="settings_whatsnew_entry_audio_in_calls_summary">सेटिंग्स › प्रायोगिक › कॉल में कॉल में ऑडियो चालू करें। फिर कॉल के दौरान एजेंट आपके लिए संगीत या क्लिप चला सकता है। आप दोनों में से कोई बोले तो आवाज़ धीमी हो जाती है। संदेश लेखन के ऊपर से इसे विराम दें या बंद करें।</string>
+
+    <!-- 2026-11-01-03-open-links-from-calls -->
+    <string name="settings_whatsnew_entry_open_links_from_calls_title">कॉल से लिंक खोलें</string>
+    <string name="settings_whatsnew_entry_open_links_from_calls_summary">सेटिंग्स › प्रायोगिक › कॉल में कॉल से लिंक खोलें चालू करें। कॉल के दौरान एजेंट कोई लिंक दे सकता है, जैसे Uber की सवारी का। उसे उसके ऐप में खोलने के लिए खोलें पर टैप करें, या अभी नहीं चुनें।</string>
+
+    <!-- 2026-11-02-01-fold-questions -->
+    <string name="settings_whatsnew_entry_fold_questions_title">प्रश्न समेटकर किनारे करें</string>
+    <string name="settings_whatsnew_entry_fold_questions_summary">प्रश्न को नीचे खींचकर संदेश लेखन के ऊपर छोटी पट्टी में समेटें। वापस लाने के लिए उस पर टैप करें। उत्तर भेजना असफल होने पर अब पुनः प्रयास करें पर टैप करने का इंतज़ार होता है।</string>
+
+    <!-- 2026-11-02-01-steadier-following -->
+    <string name="settings_whatsnew_entry_steadier_following_title">जवाब के साथ स्थिर स्क्रॉल</string>
+    <string name="settings_whatsnew_entry_steadier_following_summary">आता हुआ जवाब नीचे टिका रहता है और कार्य जारी है उछलता नहीं है। अब संदेश लेखन के ऊपर कहीं से भी सूची को स्वाइप कर सकते हैं।</string>
+
+    <!-- 2026-11-02-40-model-display-names -->
+    <string name="settings_whatsnew_entry_model_display_names_title">मॉडल के नाम</string>
+    <string name="settings_whatsnew_entry_model_display_names_summary">मॉडल सूची लोड होने या दोबारा कनेक्ट होने के दौरान संदेश लेखन में मॉडल के नाम बने रहते हैं।</string>
+
+    <!-- 2026-11-02-41-all-experiments -->
+    <string name="settings_whatsnew_entry_all_experiments_title">सभी प्रयोग</string>
+    <string name="settings_whatsnew_entry_all_experiments_summary">सेटिंग्स › प्रायोगिक में सबसे ऊपर का एक स्विच सभी प्रयोग चालू करता है, आने वाले नए प्रयोग भी।</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_1">किसी प्रयोग को छोड़ने के लिए उसे बंद कर दें; वह अगली बार भी बंद रहेगा।</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_2">सभी प्रयोग बंद करने पर स्विच पहले वाली स्थिति में लौट जाते हैं।</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_3">अनुमति माँगने वाले प्रयोग अलग से चुनने होंगे।</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_4">अपने आप टेक्स्ट पूरा करना, प्लस मेन्यू का फ़ोटो पैनल, नया सर्वर स्विच और प्रोजेक्ट आइकन अब सभी के लिए चालू हैं।</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_5">वन पिकर और लिविंग ऑर्ब अब सामान्य स्विच हैं, और कॉल ट्रे हटा दी गई है।</string>
+    <string name="settings_whatsnew_entry_all_experiments_example">सेटिंग्स › प्रायोगिक खोलें और सभी प्रयोग चालू करें</string>
+
+    <!-- 2026-11-03-01-search-all-sessions -->
+    <string name="settings_whatsnew_entry_search_all_sessions_title">पुराने सेशन खोजें</string>
+    <string name="settings_whatsnew_entry_search_all_sessions_summary">साइडबार की खोज अब सिर्फ़ हाल के नहीं, सभी सेशन में खोजती है। सबसे नीचे तक स्क्रॉल करने पर पुराने सेशन लोड होते हैं।</string>
+
+    <!-- 2026-11-03-01-voice-open-session -->
+    <string name="settings_whatsnew_entry_voice_open_session_title">बोलकर सेशन बदलें</string>
+    <string name="settings_whatsnew_entry_voice_open_session_summary">आवाज़ वाले एजेंट से सेशन खोलने को कहने पर अब ड्रॉअर बंद हो जाता है और कॉल जुड़ी रहती है।</string>
+
+    <!-- 2026-11-03-02-orb-divider-image-links -->
+    <string name="settings_whatsnew_entry_orb_divider_image_links_title">तीन प्रयोग अब सभी के लिए</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_summary">लिविंग ऑर्ब, नया विभाजक और छवि लिंक का पूर्वावलोकन अब सभी के लिए चालू हैं, बिना किसी स्विच के।</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_1">हर कॉल अब लिविंग ऑर्ब में तैरती है; पुरानी कॉल पट्टी हटा दी गई है।</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_2">सेशन में लौटने पर, आपकी गैरमौजूदगी में आए संदेश स्क्रीन पर न समाएँ तो नया विभाजक उन्हें चिह्नित करता है।</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_3">सीधे छवि पर जाने वाले लिंक अब संदेश के नीचे वह छवि दिखाते हैं।</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_example">संदेश लेखन से कॉल शुरू करें और उसे गोले में तैरते देखें</string>
+
+    <!-- 2026-11-04-01-call-links-and-audio -->
+    <string name="settings_whatsnew_entry_call_links_and_audio_title">कॉल में लिंक और ऑडियो</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_summary">कॉल से लिंक खोलना और कॉल में ऑडियो अब सभी के लिए चालू हैं, बिना किसी स्विच के।</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_1">कॉल के दौरान एजेंट कोई लिंक दे सकता है, जैसे Uber राइड का: उसे उसके ऐप में खोलने के लिए खोलें पर टैप करें, या अभी नहीं चुनें।</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_2">एजेंट कॉल पर संगीत या क्लिप चला सकता है। आप दोनों में से किसी के बोलने पर उसकी आवाज़ धीमी हो जाती है; संदेश लेखन के ऊपर से उसे रोक सकते हैं या बंद कर सकते हैं।</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_example">कॉल पर एजेंट से कुछ संगीत चलाने को कहें</string>
+
+    <!-- 2026-11-04-01-composer-editing-caret -->
+    <string name="settings_whatsnew_entry_composer_editing_caret_title">ड्राफ़्ट में बदलाव</string>
+    <string name="settings_whatsnew_entry_composer_editing_caret_summary">ड्राफ़्ट के बीच में कोई शब्द बदलते समय कर्सर वहीं रहता है जहाँ आप टाइप कर रहे हैं।</string>
+
+    <!-- 2026-11-04-01-loading-touch-recovery -->
+    <string name="settings_whatsnew_entry_loading_touch_recovery_title">लोड होने के बाद स्क्रॉल</string>
+    <string name="settings_whatsnew_entry_loading_touch_recovery_summary">लोडिंग के दौरान ऐप में लौटने पर बातचीत का टेक्स्ट तुरंत फिर से स्क्रॉल किया जा सकता है।</string>
+
+    <!-- 2026-11-05-01-composer-keyboard-width -->
+    <string name="settings_whatsnew_entry_composer_keyboard_width_title">टाइप करते समय चौड़ी लेखन जगह</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_width_summary">कीबोर्ड खुलने पर संदेश लेखन की जगह चौड़ी हो जाती है और दोनों ओर थोड़ा बराबर अंतर रहता है, ताकि लंबे ड्राफ़्ट कम पंक्तियों में आएँ।</string>
+
+    <!-- 2026-11-05-02-plus-menu-touch-release -->
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_title">अटैचमेंट मेन्यू बंद करना</string>
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_summary">अटैचमेंट मेन्यू बंद करने पर उसके नीचे का सेशन फिर से इस्तेमाल किया जा सकता है, लेआउट बदलते समय भी।</string>
+
+    <!-- 2026-11-05-02-quiet-reconnecting-pill -->
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_title">ऐप खुलने पर कम हलचल</string>
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_summary">ऐप खोलते ही संदेश लेखन के ऊपर “फिर से कनेक्ट हो रहा है…” नहीं चमकता और सेशन नहीं खिसकता; यह संकेत तभी दिखता है जब दोबारा जुड़ने में कुछ समय लगे।</string>
+
+    <!-- 2026-11-05-03-stuck-touch-recovery -->
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_title">स्क्रॉल अपने आप ठीक होता है</string>
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_summary">अगर कोई अदृश्य चीज़ एक सेकंड से ज़्यादा समय तक सेशन को स्क्रॉल होने से रोके, तो ऐप उसे हटा देता है।</string>
+
+    <!-- 2026-11-05-04-reply-text-selection -->
+    <string name="settings_whatsnew_entry_reply_text_selection_title">पूरे जवाब में टेक्स्ट चुनें</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_summary">जवाब में किसी शब्द को दबाकर रखें या दो बार टैप करें, फिर चयन के हैंडल पैराग्राफ़, सूचियों, कोड और तालिकाओं में खींचें।</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_1">हैंडल को हेडर के ठीक नीचे या संदेश लेखन के ठीक ऊपर रोकें तो जवाब स्क्रॉल होता है। किनारे के जितना करीब जाएँगे, उतनी तेज़ी से स्क्रॉल होगा।</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_2">कॉपी करने पर सूची के बुलेट और नंबर, और तालिका की पंक्तियाँ व कॉलम बने रहते हैं। उद्धरण चुना हुआ टेक्स्ट संदेश लेखन में जोड़ता है और कोड को कोड ब्लॉक में रखता है।</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_example">लंबे जवाब की शुरुआत में कोई शब्द दबाकर रखें, फिर आखिरी हैंडल को नीचे संदेश लेखन तक खींचकर वहीं रोकें</string>
+
+    <!-- 2026-11-06-01-scrolling-unsticks -->
+    <string name="settings_whatsnew_entry_scrolling_unsticks_title">अटका स्क्रॉल अपने आप ठीक</string>
+    <string name="settings_whatsnew_entry_scrolling_unsticks_summary">जिस सेशन में कभी-कभी दूसरे सेशन पर जाए बिना स्क्रॉल नहीं होता था, वह अब अपने आप फिर से स्क्रॉल होने लगता है।</string>
+
+    <!-- 2026-11-06-02-server-addresses -->
+    <string name="settings_whatsnew_entry_server_addresses_title">सर्वर से ज़्यादा स्थिर संबंध</string>
+    <string name="settings_whatsnew_entry_server_addresses_summary">OpenCode सर्वर के सभी पते एक साथ आज़माता है और जो पहले जवाब दे, उससे जुड़ता है। इसलिए घर से निकलने पर VPN बंद-चालू किए बिना फिर से कनेक्ट हो जाता है।</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_1">घर के नेटवर्क पर काम करने वाला पता अब हर दूसरी जगह सबसे पहले नहीं आज़माया जाता।</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_2">थोड़ी देर के लिए संबंध टूटने, फ़ोन अनलॉक करने या झटपट सेटिंग्स नीचे खींचने पर अब बैनर नहीं चमकता। फिर से कनेक्ट होने का संकेत कुछ सेकंड बाद और ऑफ़लाइन लगभग 12 सेकंड बाद दिखता है, या फ़ोन में नेटवर्क न हो तो 4 सेकंड बाद।</string>
+    <string name="settings_whatsnew_entry_server_addresses_example">Tailscale से पेयर किए गए सर्वर पर सेशन खोलें, वाई-फ़ाई बंद करें और काम जारी रखें</string>
+
+    <!-- 2026-11-07-01-server-voice -->
+    <string name="settings_whatsnew_entry_server_voice_title">सर्वर की कुंजियों से कॉल</string>
+    <string name="settings_whatsnew_entry_server_voice_summary">सर्वर वॉइस अब सभी के लिए चालू है, बिना किसी स्विच के। कॉल आपके OpenCode सर्वर की कुंजियाँ इस्तेमाल कर सकती हैं, इसलिए इस फ़ोन को अलग OpenAI कुंजी की ज़रूरत नहीं है।</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_1">अपने आप चुनें चालू होने पर कॉल पहले मौजूदा सर्वर, फिर इस फ़ोन की OpenAI कुंजी, और फिर किसी अन्य सहेजे गए तैयार सर्वर का उपयोग करती हैं।</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_2">अगर इस फ़ोन और सर्वर दोनों पर OpenAI कुंजी है, तो कॉल अब सर्वर की कुंजी इस्तेमाल करती हैं। फ़ोन वाली कुंजी इस्तेमाल करते रहने के लिए आवाज़ के प्रोवाइडर में आपका OpenAI खाता खोलें और कॉल के लिए उपयोग करें पर टैप करें।</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_3">Gemini की कुंजी वाले सर्वर पर Gemini Live भी अब एक प्रोवाइडर है।</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_4">कॉल शुरू न हो पाए तो अब उसका कारण और उसे ठीक करने वाला बटन दिखता है।</string>
+    <string name="settings_whatsnew_entry_server_voice_example">सेटिंग्स › आवाज़ खोलें और आवाज़ के प्रोवाइडर पर टैप करें</string>
+
+    <!-- 2026-11-07-02-rename-clear-button -->
+    <string name="settings_whatsnew_entry_rename_clear_button_title">एक टैप में शीर्षक साफ़ करें</string>
+    <string name="settings_whatsnew_entry_rename_clear_button_summary">सेशन और सर्वर का नाम बदलने वाली स्क्रीन पर अब साफ़ करने का बटन है, ताकि पुराना शीर्षक मिटाते रहने के बजाय तुरंत नया लिख सकें।</string>
+
+    <!-- 2026-11-07-03-one-picker -->
+    <string name="settings_whatsnew_entry_one_picker_title">नया मॉडल चयन</string>
+    <string name="settings_whatsnew_entry_one_picker_summary">संदेश बॉक्स में मॉडल पर टैप करें तो वहीं से सूची खुलती है। ऊपर पसंदीदा और हाल के मॉडल, और नीचे सभी प्रोवाइडर दिखते हैं।</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_1">सूची से बाहर जाए बिना सोचने का स्तर बदलने के लिए मॉडल की पंक्ति में “उच्च” जैसे स्तर पर टैप करें।</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_2">पसंदीदा में जोड़ने या वहाँ से हटाने के लिए पंक्ति पर स्वाइप करें या उसे दबाकर रखें।</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_3">खोज नीचे है। नाम के बाद स्तर लिखें, जैसे “opus high”, फिर रिटर्न दबाएँ तो दोनों चुन लिए जाते हैं।</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_4">सूची बड़ी करने के लिए हैंडल ऊपर खींचें, या बंद करने के लिए नीचे खींचें।</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_5">नए पिकर ने पुरानी मॉडल शीट की जगह ले ली है। सेटिंग्स › प्रायोगिक से वन पिकर का स्विच भी हटा दिया गया है।</string>
+    <string name="settings_whatsnew_entry_one_picker_example">संदेश बॉक्स में मॉडल पर टैप करें, फिर उसे पसंदीदा बनाने के लिए पंक्ति पर स्वाइप करें</string>
+
+    <!-- 2026-11-08-01-connecting-caption-glass -->
+    <string name="settings_whatsnew_entry_connecting_caption_glass_title">“के ज़रिए कनेक्ट हो रहा है…” अब साफ़ दिखता है</string>
+    <string name="settings_whatsnew_entry_connecting_caption_glass_summary">सर्वर के ज़रिए कॉल कनेक्ट होते समय “के ज़रिए कनेक्ट हो रहा है…” वाली पंक्ति अब काँच जैसी पृष्ठभूमि पर दिखती है, ताकि पीछे के संदेशों में घुले नहीं।</string>
+
+    <!-- 2026-11-08-02-default-model -->
+    <string name="settings_whatsnew_entry_default_model_title">नए सेशन में आपका डिफ़ॉल्ट मॉडल</string>
+    <string name="settings_whatsnew_entry_default_model_summary">नए सेशन अब पिछले सेशन के मॉडल के बजाय OpenCode में तय आपके डिफ़ॉल्ट मॉडल से शुरू होते हैं। सोचने का स्तर वही रहता है जो आपने उस मॉडल के लिए पिछली बार चुना था।</string>
+
+    <!-- 2026-11-11-01-streamed-reply-prefix -->
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_title">जवाब आते समय ही खोलें</string>
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_summary">जवाब आते समय सेशन खोलने पर, आप अब तक आया जवाब पढ़ सकते हैं। बाकी जवाब आता रहेगा।</string>
+
+    <!-- 2026-11-13-01-draw-on-images -->
+    <string name="settings_whatsnew_entry_draw_on_images_title">छवियों पर निशान बनाएँ</string>
+    <string name="settings_whatsnew_entry_draw_on_images_summary">किसी चीज़ के बारे में पूछने से पहले उस पर निशान लगाएँ।</string>
+    <string name="settings_whatsnew_entry_draw_on_images_detail_1">छवि को पूरी स्क्रीन में खोलें और पेन बटन पर टैप करें। रंग चुनें, निशान बनाएँ, फिर निशान वाली छवि संदेश में लगाने के लिए जोड़ें पर टैप करें। मूल छवि नहीं बदलेगी।</string>
+    <string name="settings_whatsnew_entry_draw_on_images_example">स्क्रीनशॉट में जिस कंट्रोल को खिसकाना है, उस पर गोला बनाएँ। फिर बताएँ कि उसे कहाँ रखना है।</string>
+
+    <!-- 2026-11-14-01-fullscreen-viewer -->
+    <string name="settings_whatsnew_entry_fullscreen_viewer_title">फ़ोटो और वीडियो के बीच स्वाइप करें</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_summary">सेशन की छवियाँ और वीडियो एक साथ देखें।</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_detail_1">स्वाइप करके वीडियो पर जाएँ, फिर मौजूदा फ़्रेम पर निशान बनाने के लिए पेन बटन पर टैप करें। जोड़ें पर टैप करने से निशान वाला फ़्रेम जुड़ जाता है, भेजा नहीं जाता।</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_example">डेमो को उस स्क्रीन पर रोकें जिसमें बदलाव चाहिए, ज़रूरी हिस्से पर गोला बनाएँ और उसे अपने ड्राफ़्ट में जोड़ें।</string>
+
+    <!-- 2026-11-15-01-pairing-link-name -->
+    <string name="settings_whatsnew_entry_pairing_link_name_title">OpenCode Console से नाम वाले सर्वर</string>
+    <string name="settings_whatsnew_entry_pairing_link_name_summary">OpenCode Console से पेयर किया गया सर्वर अपने नाम के साथ जुड़ता है, जैसे “Anomaly Box”।</string>
+
+    <!-- 2026-11-17-01-session-media -->
+    <string name="settings_whatsnew_entry_session_media_title">सेशन का मीडिया</string>
+    <string name="settings_whatsnew_entry_session_media_summary">सेशन की छवियाँ, वीडियो, ऑडियो, फ़ाइलें और सार्वजनिक वेब लिंक देखें।</string>
+    <string name="settings_whatsnew_entry_session_media_detail_1">सेशन के ⋮ मेन्यू से सेशन का मीडिया चुनें। मीडिया में छवियाँ, वीडियो और ऑडियो महीने के हिसाब से टाइलों में या सूची में दिखते हैं। फ़ाइलें और लिंक में दस्तावेज़, पेस्ट किया गया टेक्स्ट और वेब लिंक मिलते हैं।</string>
+    <string name="settings_whatsnew_entry_session_media_example">पूरा सेशन वापस स्क्रॉल किए बिना आज सुबह भेजा गया स्क्रीनशॉट ढूँढ़ें।</string>
+
+    <!-- 2026-11-18-02-drawer-call-phone -->
+    <string name="settings_whatsnew_entry_drawer_call_phone_title">ड्रॉअर में कॉल के लिए फ़ोन आइकन</string>
+    <string name="settings_whatsnew_entry_drawer_call_phone_summary">सेशन सूची में सेटिंग्स के बगल वाले कॉल बटन पर अब संदेश बॉक्स जैसा फ़ोन आइकन दिखता है।</string>
+
+    <!-- 2026-11-19-01-background-scripts -->
+    <string name="settings_whatsnew_entry_background_scripts_title">बैकग्राउंड में चलती स्क्रिप्ट</string>
+    <string name="settings_whatsnew_entry_background_scripts_summary">एजेंट जिन स्क्रिप्ट को बैकग्राउंड में चलाता है, वे सबएजेंट और शेल के साथ दिखती हैं। सबएजेंट की छवियों, वीडियो या स्क्रिप्ट पर काम जारी रहने तक वह सूची में दिखता रहता है। स्क्रिप्ट या सबएजेंट को सूची से ही रोकें।</string>
+</resources>

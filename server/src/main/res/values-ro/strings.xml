@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Shell</string>
+    <string name="server_notice_source_subagent">Subagent</string>
+    <string name="server_notice_heading_finished">%1$s: finalizat</string>
+    <string name="server_notice_heading_failed">%1$s: eroare</string>
+    <string name="server_notice_heading_interrupted">%1$s: întrerupt</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$d shell finalizat</item>
+        <item quantity="few">%1$d shell-uri finalizate</item>
+        <item quantity="other">%1$d de shell-uri finalizate</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$d shell cu eroare</item>
+        <item quantity="few">%1$d shell-uri cu eroare</item>
+        <item quantity="other">%1$d de shell-uri cu eroare</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">%1$d shell întrerupt</item>
+        <item quantity="few">%1$d shell-uri întrerupte</item>
+        <item quantity="other">%1$d de shell-uri întrerupte</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">%1$d subagent a terminat</item>
+        <item quantity="few">%1$d subagenți au terminat</item>
+        <item quantity="other">%1$d de subagenți au terminat</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">%1$d subagent cu eroare</item>
+        <item quantity="few">%1$d subagenți cu erori</item>
+        <item quantity="other">%1$d de subagenți cu erori</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">%1$d subagent întrerupt</item>
+        <item quantity="few">%1$d subagenți întrerupți</item>
+        <item quantity="other">%1$d de subagenți întrerupți</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Compactează</string>
+    <string name="server_run_error_action_switch_model">Schimbă modelul</string>
+    <string name="server_run_error_aborted">Întrerupt</string>
+    <string name="server_run_error_permission_rejected">Întrerupt după o solicitare refuzată</string>
+    <string name="server_run_error_content_filter">Filtrul de siguranță a blocat răspunsul</string>
+    <string name="server_run_error_rate_limit">Limită de solicitări atinsă</string>
+    <string name="server_run_error_quota">Limită de utilizare atinsă</string>
+    <string name="server_run_error_auth">Furnizorul a respins cheia API</string>
+    <string name="server_run_error_context_overflow">Sesiune prea lungă pentru acest model</string>
+    <string name="server_run_error_invalid_request">Furnizorul a respins solicitarea</string>
+    <string name="server_run_error_overloaded">Modelul este suprasolicitat</string>
+    <string name="server_run_error_internal">Furnizorul a întâmpinat o problemă</string>
+    <string name="server_run_error_transport">Conexiunea cu modelul s-a întrerupt</string>
+    <string name="server_run_error_timeout">Modelul a răspuns prea târziu</string>
+    <string name="server_run_error_invalid_output">Răspunsul modelului nu a putut fi citit</string>
+    <string name="server_run_error_unavailable">Acest model nu este disponibil</string>
+    <string name="server_run_error_unsupported_operation">Acest model nu poate face asta</string>
+    <string name="server_run_error_tool_execution">Un instrument a eșuat și execuția s-a oprit</string>
+    <string name="server_run_error_other">Execuția s-a oprit cu o eroare</string>
+    <string name="server_run_retry_in_seconds">%1$s · se reîncearcă în %2$d s</string>
+    <string name="server_run_retry_now">%1$s · se reîncearcă</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">Nu s-a putut contacta serverul OpenCode</string>
+    <string name="server_error_folder_gone">Folderul nu mai există</string>
+    <string name="server_error_uploads_unsupported">Acest server nu acceptă atașamente. Actualizează OpenCode pe computer.</string>
+    <string name="server_error_archiving_unsupported">Acest server nu acceptă arhivarea. Actualizează OpenCode pe computerul tău.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode nu are permisiunea să acceseze dispozitivele din rețeaua locală. Activează Dispozitive din apropiere pentru OpenCode în Setări, apoi încearcă din nou.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Sesiune fără titlu</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Shell</string>
+    <string name="server_tool_shell_killed">Shell-ul a fost oprit forțat</string>
+    <string name="server_tool_shell_exit_code">Comanda s-a încheiat cu codul %1$d</string>
+    <string name="server_notice_session_update">Actualizare sesiune</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Conexiunea a eșuat</string>
+    <string name="server_connection_resolved_address_unknown">Adresă rezolvată: necunoscută</string>
+    <string name="server_connection_resolved_address">Adresă rezolvată (căutare după eșec): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">Acest nume tailnet a fost rezolvat la o adresă din afara intervalului Tailscale, deci este posibil ca DNS-ul Tailscale să nu fie folosit. În aplicația Tailscale, activează Folosește setările DNS Tailscale și dezactivează DNS privat sau orice profil VPN care modifică DNS-ul.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Rețea locală</string>
+    <string name="server_connection_route_loopback">Loopback</string>
+    <string name="server_connection_route_internet">Internet</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">nu este o adresă web</string>
+    <string name="server_pairing_origin_bad_scheme">nu începe cu http:// sau https://</string>
+    <string name="server_pairing_origin_no_host">nu are un nume de gazdă</string>
+    <string name="server_pairing_origin_credentials">include un nume de utilizator sau o parolă</string>
+    <string name="server_pairing_origin_query">conține parametri de interogare sau un fragment</string>
+    <string name="server_pairing_origin_port">are un port în afara intervalului 1–65535</string>
+    <string name="server_pairing_origin_path">conține o cale, iar serverul trebuie să fie la rădăcina adresei</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Server</string>
+    <string name="server_friendly_name_numbered">Server %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">Conexiunea s-a întrerupt după trimiterea mesajului, deci este posibil ca acesta să fi ajuns.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Această integrare nu are o metodă de autentificare.</string>
+    <string name="server_error_sign_in_url_invalid">Adresa paginii de autentificare nu este validă.</string>
+    <string name="server_error_load_server_details">Nu s-au putut încărca detaliile serverului</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">Acest cod de asociere a expirat sau a fost deja folosit. Rulează din nou `opencode pair --remote`.</string>
+    <string name="server_error_pairing_unsupported">Acest server nu acceptă linkuri de asociere. Actualizează OpenCode pe computer sau adaugă serverul manual.</string>
+    <string name="server_error_notification_previews_need_https">Previzualizările criptate ale notificărilor necesită o conexiune HTTPS la server.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Introdu un URL de server HTTP sau HTTPS valid.</string>
+    <string name="server_error_credentials_rejected">Serverul a respins aceste date de autentificare.</string>
+    <string name="server_error_http_status">Serverul a returnat HTTP %1$d.</string>
+    <string name="server_error_event_stream_http">Fluxul de evenimente a returnat HTTP %1$d.</string>
+    <string name="server_error_event_stream_oversized_frame">Fluxul de evenimente a trimis un cadru prea mare.</string>
+    <string name="server_error_event_stream_ended">Fluxul de evenimente s-a încheiat.</string>
+    <string name="server_error_event_stream_server_failure">Fluxul de evenimente a raportat o eroare de server.</string>
+    <string name="server_tool_failed">Instrumentul a eșuat</string>
+    <string name="server_error_list_folder">Serverul nu a putut lista conținutul acestui folder</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Nu s-au putut încărca proiectele și sesiunile</string>
+    <string name="server_error_load_session_family">Nu s-a putut încărca familia de sesiuni</string>
+    <string name="server_error_update_session">Nu s-a putut actualiza sesiunea</string>
+    <string name="server_error_load_session_ancestry">Nu s-au putut încărca sesiunile părinte ale sesiunii active</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">S-a răspuns deja în altă parte</string>
+    <string name="server_request_already_dismissed">Deja respinsă</string>
+    <string name="server_request_already_answered">S-a răspuns deja</string>
+    <string name="server_request_already_dismissed_elsewhere">Deja respinsă în altă parte</string>
+    <string name="server_request_no_longer_waiting">Nu mai este în așteptare</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Conținut media indisponibil</string>
+    <string name="server_pasted_text_title">Text lipit</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d linie · %2$s</item>
+        <item quantity="few">%1$d linii · %2$s</item>
+        <item quantity="other">%1$d de linii · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d linie</item>
+        <item quantity="few">%1$d linii</item>
+        <item quantity="other">%1$d de linii</item>
+    </plurals>
+    <string name="server_file_size_zero">0 KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d octet</item>
+        <item quantity="few">%1$d octeți</item>
+        <item quantity="other">%1$d de octeți</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">Proiect</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Fișier</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Finalizează acest pas</string>
+    <string name="server_form_required">Obligatoriu</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">Introdu cel puțin %1$d caracter</item>
+        <item quantity="few">Introdu cel puțin %1$d caractere</item>
+        <item quantity="other">Introdu cel puțin %1$d de caractere</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">Introdu cel mult %1$d caracter</item>
+        <item quantity="few">Introdu cel mult %1$d caractere</item>
+        <item quantity="other">Introdu cel mult %1$d de caractere</item>
+    </plurals>
+    <string name="server_form_invalid_format">Format invalid</string>
+    <string name="server_form_choose_option">Alege o opțiune disponibilă</string>
+    <string name="server_form_invalid_email">Introdu o adresă de e-mail validă</string>
+    <string name="server_form_invalid_url">Introdu un URL valid</string>
+    <string name="server_form_invalid_date">Introdu o dată în formatul YYYY-MM-DD</string>
+    <string name="server_form_invalid_date_time">Introdu o dată și o oră valide</string>
+    <string name="server_form_minimum">Trebuie să fie cel puțin %1$s</string>
+    <string name="server_form_maximum">Trebuie să fie cel mult %1$s</string>
+    <string name="server_form_whole_number">Introdu un număr întreg</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">Alege cel puțin %1$d</item>
+        <item quantity="few">Alege cel puțin %1$d</item>
+        <item quantity="other">Alege cel puțin %1$d</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">Alege cel mult %1$d</item>
+        <item quantity="few">Alege cel mult %1$d</item>
+        <item quantity="other">Alege cel mult %1$d</item>
+    </plurals>
+    <string name="server_form_invalid_value">Valoare invalidă</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Ascunde modelele selectate</string>
+    <string name="server_model_visibility_only_show">Arată doar modelele selectate</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Dezactivat</string>
+    <string name="server_model_variant_extra_high">Foarte ridicat</string>
+    <string name="server_model_variant_max">Maxim</string>
+    <string name="server_delivery_steering">Ghidare</string>
+    <string name="server_delivery_queued">În așteptare</string>
+</resources>

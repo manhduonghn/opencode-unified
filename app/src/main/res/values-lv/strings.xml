@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Neizdevās pievienot kopīgotos vienumus</string>
+    <string name="app_alert_open_session_failed_title">Neizdevās atvērt sesiju</string>
+    <string name="app_alert_pairing_failed_title">Neizdevās savienot pārī ar serveri</string>
+    <string name="app_pairing_confirm">Savienot pārī</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Serveri</string>
+    <string name="app_servers_back_description">Atpakaļ uz %1$s</string>
+    <string name="app_server_fallback_name">serveris</string>
+    <string name="app_connection_intro_new">Turpini programmēšanas sesijas ar %1$s.</string>
+    <string name="app_connection_intro_returning">Turpini no vietas, kur apstājies, vai savieno pārī citu datoru.</string>
+    <string name="app_connection_enter_manually">Ievadīt serveri manuāli</string>
+    <string name="app_connection_scan_pairing_code">Skenēt pāra izveides kodu</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Datorā atver OpenCode un dodies uz Iestatījumi → Savienošana pārī vai terminālī izpildi opencode pair --remote. Tad skenē kodu ar šo %1$s.</string>
+    <string name="app_setup_install_title">Vēl nav OpenCode?</string>
+    <string name="app_setup_other_ways_to_install">Citi instalēšanas veidi</string>
+    <string name="app_setup_terminal_title">Vai izpildi šo terminālī</string>
+    <string name="app_setup_terminal_detail">Darbojas no jebkura tīkla.</string>
+    <string name="app_setup_paste_prompt">Vai nokopē parādīto saiti, tad</string>
+    <string name="app_setup_paste">Ielīmēt</string>
+    <string name="app_setup_copy_command_description">Kopēt %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Veido savienojumu</string>
+    <string name="app_servers_edit_description">Rediģēt %1$s</string>
+    <string name="app_servers_remove_description">Noņemt %1$s</string>
+    <string name="app_servers_remove_confirm_title">Noņemt %1$s?</string>
+    <string name="app_servers_remove_confirm_message">Adrese un parole tiks noņemtas no šīs ierīces (%1$s). Sesijas serverī netiks ietekmētas.</string>
+    <string name="app_servers_remove_confirm">Noņemt serveri</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Posms: %1$s</string>
+    <string name="app_error_server">Serveris: %1$s</string>
+    <string name="app_error_attempt">Mēģinājums: %1$d</string>
+    <string name="app_error_copy_report">Kopēt kļūdas pārskatu</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Jauns serveris</string>
+    <string name="app_server_form_edit_title">Rediģēt serveri</string>
+    <string name="app_server_form_name">Nosaukums</string>
+    <string name="app_server_form_address">Servera adrese</string>
+    <string name="app_server_form_username">Lietotājvārds</string>
+    <string name="app_server_form_password">Parole (nav obligāti)</string>
+    <string name="app_server_form_hide_password_description">Slēpt paroli</string>
+    <string name="app_server_form_show_password_description">Rādīt paroli</string>
+    <string name="app_server_form_connect">Pievienoties</string>
+    <string name="app_server_form_save_and_connect">Saglabāt un pievienoties</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Galvenes</string>
+    <string name="app_server_form_header_name">Nosaukums</string>
+    <string name="app_server_form_header_name_description">%1$d. galvenes nosaukums</string>
+    <string name="app_server_form_header_value">Vērtība</string>
+    <string name="app_server_form_header_value_description">%1$d. galvenes vērtība</string>
+    <string name="app_server_form_header_remove_description">Noņemt %1$d. galveni</string>
+    <string name="app_server_form_header_add">Pievienot galveni</string>
+    <string name="app_server_form_headers_detail">Tiek sūtītas ar katru pieprasījumu starpniekserverim, piemēram, Cloudflare Access, kas atrodas pirms servera.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">“%1$s” nav derīgs galvenes nosaukums</string>
+    <string name="app_server_form_header_invalid_value">%1$s vērtība nedrīkst saturēt rindas pārtraukumu</string>
+    <string name="app_server_form_name_placeholder">Nav obligāti</string>
+    <string name="app_connection_progress_pairing">Savieno pārī</string>
+    <string name="app_connection_progress_connecting">Veido savienojumu</string>
+    <string name="app_connection_progress_loading_sessions">Notiek sesiju ielāde</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Savienot pārī ar %1$s?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode izmēģinās %1$s un pārslēgsies uz pirmo adresi, kas atbildēs.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode izveidos pāri ar %1$s un pārslēgsies uz to.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode izmēģinās %1$s un %2$s un pārslēgsies uz pirmo adresi, kas atbildēs.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode izmēģinās %1$s un %2$s un pārslēgsies uz pirmo adresi, kas atbildēs.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Var tikt aizstāti saglabātie piekļuves dati serverim %2$s.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Savienošana pārī</string>
+    <string name="app_error_phase_connect">Pievienoties</string>
+    <string name="app_error_phase_load_sessions">Ielādēt sesijas</string>
+    <string name="app_error_candidate_detail">Variants %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Nav pieejams (nederīga adrese)</string>
+    <string name="app_error_title_pair">Neizdevās savienot pārī</string>
+    <string name="app_error_title_load_sessions">Neizdevās ielādēt sesijas</string>
+    <string name="app_error_title_connect">Neizdevās pievienoties %1$s</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Starpliktuve ir tukša</string>
+    <string name="app_paste_not_a_pairing_link">Tā nav saite savienošanai pārī</string>
+    <string name="app_server_no_longer_saved">Šajā %1$s serveris vairs nav saglabāts. Pievienojies tam vēlreiz, lai atvērtu sesiju.</string>
+    <string name="app_session_no_longer_available">Tā var būt dzēsta, vai serveris nav pieejams.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Savienojums ar %1$s izveidots</string>
+    <string name="app_pairing_invalid_code">Tas nav OpenCode pāra izveides kods. Datorā palaid opencode pair --remote, tad skenē parādīto QR kodu vai ielīmē izvadīto saiti.</string>
+    <string name="app_pairing_unusable_address">Neizdevās izmantot adresi “%1$s” no šī pāra izveides koda: tā %2$s.</string>
+    <string name="app_pairing_loopback">Šis serveris pieņem savienojumus tikai localhost adresē, tāpēc no šī %1$s tam nevar piekļūt. Datorā palaid opencode pair --remote, kas ļauj pievienoties no jebkura tīkla.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Serveris, uz kuru kopīgoji, vairs nav saglabāts šajā ierīcē. Pievienojies tam vēlreiz, tad kopīgo vēlreiz.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">pēdējoreiz izmantots</string>
+    <string name="app_server_form_hint_new">Lai savienotu pārī, ielīmē saiti, ko izvada `opencode pair --remote`, vai izmanto sava OpenCode servera adresi un paroli. Lietotājvārds parasti ir opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Izmaiņas tiks saglabātas, kad izdosies pievienoties serverim. Šis serveris tika savienots pārī, tāpēc tā parole ir sesijas pilnvara; paroles maiņas vietā skenē jaunu pāra izveides kodu.</string>
+    <string name="app_server_form_hint_edit">Izmaiņas tiks saglabātas, kad izdosies pievienoties serverim.</string>
+</resources>

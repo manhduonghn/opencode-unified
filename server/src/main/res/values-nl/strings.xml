@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Shell</string>
+    <string name="server_notice_source_subagent">Subagent</string>
+    <string name="server_notice_heading_finished">%1$s voltooid</string>
+    <string name="server_notice_heading_failed">%1$s mislukt</string>
+    <string name="server_notice_heading_interrupted">%1$s onderbroken</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$d shell voltooid</item>
+        <item quantity="other">%1$d shells voltooid</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$d shell mislukt</item>
+        <item quantity="other">%1$d shells mislukt</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">%1$d shell onderbroken</item>
+        <item quantity="other">%1$d shells onderbroken</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">%1$d subagent voltooid</item>
+        <item quantity="other">%1$d subagenten voltooid</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">%1$d subagent mislukt</item>
+        <item quantity="other">%1$d subagenten mislukt</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">%1$d subagent onderbroken</item>
+        <item quantity="other">%1$d subagenten onderbroken</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Comprimeren</string>
+    <string name="server_run_error_action_switch_model">Model wisselen</string>
+    <string name="server_run_error_aborted">Onderbroken</string>
+    <string name="server_run_error_permission_rejected">Onderbroken na een geweigerd verzoek</string>
+    <string name="server_run_error_content_filter">Veiligheidsfilter heeft het antwoord geblokkeerd</string>
+    <string name="server_run_error_rate_limit">Verzoeklimiet bereikt</string>
+    <string name="server_run_error_quota">Gebruikslimiet bereikt</string>
+    <string name="server_run_error_auth">De aanbieder heeft de API-sleutel geweigerd</string>
+    <string name="server_run_error_context_overflow">Sessie te lang voor dit model</string>
+    <string name="server_run_error_invalid_request">De aanbieder heeft het verzoek geweigerd</string>
+    <string name="server_run_error_overloaded">Het model is overbelast</string>
+    <string name="server_run_error_internal">Er was een probleem bij de aanbieder</string>
+    <string name="server_run_error_transport">Verbinding met het model verbroken</string>
+    <string name="server_run_error_timeout">Het model deed te lang over het antwoord</string>
+    <string name="server_run_error_invalid_output">Het antwoord van het model kon niet worden gelezen</string>
+    <string name="server_run_error_unavailable">Dit model is niet beschikbaar</string>
+    <string name="server_run_error_unsupported_operation">Dit model kan dat niet</string>
+    <string name="server_run_error_tool_execution">Een hulpmiddel is mislukt en de uitvoering is gestopt</string>
+    <string name="server_run_error_other">De uitvoering is gestopt door een fout</string>
+    <string name="server_run_retry_in_seconds">%1$s · opnieuw proberen over %2$d s</string>
+    <string name="server_run_retry_now">%1$s · opnieuw proberen</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">De OpenCode-server kon niet worden bereikt</string>
+    <string name="server_error_folder_gone">De map bestaat niet meer</string>
+    <string name="server_error_uploads_unsupported">Deze server ondersteunt geen bestandsbijlagen. Werk OpenCode bij op je computer.</string>
+    <string name="server_error_archiving_unsupported">Deze server ondersteunt archiveren niet. Werk OpenCode bij op je computer.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode mag geen verbinding maken met apparaten op je lokale netwerk. Schakel Apparaten in de buurt in voor OpenCode in Instellingen en probeer het opnieuw.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Naamloze sessie</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Shell</string>
+    <string name="server_tool_shell_killed">Shell is geforceerd gestopt</string>
+    <string name="server_tool_shell_exit_code">Opdracht beëindigd met code %1$d</string>
+    <string name="server_notice_session_update">Sessie-update</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Verbinding mislukt</string>
+    <string name="server_connection_resolved_address_unknown">Gevonden adres: onbekend</string>
+    <string name="server_connection_resolved_address">Gevonden adres (opgezocht na fout): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">Deze tailnet-naam verwijst naar een adres buiten het bereik van Tailscale. Mogelijk wordt Tailscale DNS niet gebruikt. Schakel in de Tailscale-app Tailscale DNS-instellingen gebruiken in en schakel Privé-DNS of een VPN-profiel dat DNS wijzigt uit.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Lokaal netwerk</string>
+    <string name="server_connection_route_loopback">Loopback</string>
+    <string name="server_connection_route_internet">Internet</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">is geen webadres</string>
+    <string name="server_pairing_origin_bad_scheme">begint niet met http:// of https://</string>
+    <string name="server_pairing_origin_no_host">heeft geen hostnaam</string>
+    <string name="server_pairing_origin_credentials">bevat een gebruikersnaam of wachtwoord</string>
+    <string name="server_pairing_origin_query">bevat een query of fragment</string>
+    <string name="server_pairing_origin_port">heeft een poort buiten het bereik 1–65535</string>
+    <string name="server_pairing_origin_path">bevat een pad, maar de server moet op het basisadres staan</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Server</string>
+    <string name="server_friendly_name_numbered">Server %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">De verbinding viel weg nadat het bericht was verstuurd. Het is mogelijk wel aangekomen.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Deze integratie heeft geen aanmeldmethode.</string>
+    <string name="server_error_sign_in_url_invalid">Het adres van de aanmeldpagina is ongeldig.</string>
+    <string name="server_error_load_server_details">Servergegevens laden mislukt</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">Deze koppelcode is verlopen of al gebruikt. Voer `opencode pair --remote` opnieuw uit.</string>
+    <string name="server_error_pairing_unsupported">Deze server ondersteunt geen koppellinks. Werk OpenCode op je computer bij of voer de server handmatig in.</string>
+    <string name="server_error_notification_previews_need_https">Versleutelde meldingsvoorbeelden vereisen een HTTPS-serververbinding.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Voer een geldige HTTP- of HTTPS-server-URL in.</string>
+    <string name="server_error_credentials_rejected">De server heeft deze inloggegevens geweigerd.</string>
+    <string name="server_error_http_status">De server gaf HTTP %1$d terug.</string>
+    <string name="server_error_event_stream_http">De gebeurtenisstroom gaf HTTP %1$d terug.</string>
+    <string name="server_error_event_stream_oversized_frame">De gebeurtenisstroom heeft een te groot frame verstuurd.</string>
+    <string name="server_error_event_stream_ended">De gebeurtenisstroom is beëindigd.</string>
+    <string name="server_error_event_stream_server_failure">De gebeurtenisstroom heeft een serverfout gemeld.</string>
+    <string name="server_tool_failed">Hulpmiddel mislukt</string>
+    <string name="server_error_list_folder">De server kon de inhoud van deze map niet tonen</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Projecten en sessies laden mislukt</string>
+    <string name="server_error_load_session_family">Sessiefamilie laden mislukt</string>
+    <string name="server_error_update_session">Sessie bijwerken mislukt</string>
+    <string name="server_error_load_session_ancestry">Bovenliggende sessies van de actieve sessie laden mislukt</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Al elders beantwoord</string>
+    <string name="server_request_already_dismissed">Al genegeerd</string>
+    <string name="server_request_already_answered">Al beantwoord</string>
+    <string name="server_request_already_dismissed_elsewhere">Al elders genegeerd</string>
+    <string name="server_request_no_longer_waiting">Wacht niet meer</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Media niet beschikbaar</string>
+    <string name="server_pasted_text_title">Geplakte tekst</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d regel · %2$s</item>
+        <item quantity="other">%1$d regels · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d regel</item>
+        <item quantity="other">%1$d regels</item>
+    </plurals>
+    <string name="server_file_size_zero">0 KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d byte</item>
+        <item quantity="other">%1$d bytes</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">Project</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Bestand</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Rond deze stap af</string>
+    <string name="server_form_required">Verplicht</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">Voer minstens %1$d teken in</item>
+        <item quantity="other">Voer minstens %1$d tekens in</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">Voer maximaal %1$d teken in</item>
+        <item quantity="other">Voer maximaal %1$d tekens in</item>
+    </plurals>
+    <string name="server_form_invalid_format">Ongeldig formaat</string>
+    <string name="server_form_choose_option">Kies een beschikbare optie</string>
+    <string name="server_form_invalid_email">Voer een geldig e-mailadres in</string>
+    <string name="server_form_invalid_url">Voer een geldige URL in</string>
+    <string name="server_form_invalid_date">Voer een datum in als YYYY-MM-DD</string>
+    <string name="server_form_invalid_date_time">Voer een geldige datum en tijd in</string>
+    <string name="server_form_minimum">Moet minstens %1$s zijn</string>
+    <string name="server_form_maximum">Mag maximaal %1$s zijn</string>
+    <string name="server_form_whole_number">Voer een geheel getal in</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">Kies er minstens %1$d</item>
+        <item quantity="other">Kies er minstens %1$d</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">Kies er maximaal %1$d</item>
+        <item quantity="other">Kies er maximaal %1$d</item>
+    </plurals>
+    <string name="server_form_invalid_value">Ongeldige waarde</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Selectie verbergen</string>
+    <string name="server_model_visibility_only_show">Alleen selectie tonen</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Uit</string>
+    <string name="server_model_variant_extra_high">Extra hoog</string>
+    <string name="server_model_variant_max">Maximaal</string>
+    <string name="server_delivery_steering">Bijsturen</string>
+    <string name="server_delivery_queued">In de wachtrij</string>
+</resources>

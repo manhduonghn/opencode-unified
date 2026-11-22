@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Call ended and failure cards -->
+    <string name="voice_call_ended_title">कॉल खत्म हुई</string>
+    <string name="voice_call_ended_rejoin">फिर जुड़ें</string>
+    <string name="voice_failure_title">वॉइस कनेक्ट नहीं हो सका</string>
+    <string name="voice_failure_check_api_key">API कुंजी जाँचें</string>
+    <string name="voice_failure_start_title">कॉल शुरू नहीं हो सकी</string>
+
+    <!-- Floating call -->
+    <string name="voice_floating_expand">बड़ा करें</string>
+    <string name="voice_floating_orb_description">वॉइस कॉल</string>
+    <string name="voice_floating_orb_show_controls">कॉल के कंट्रोल दिखाएँ</string>
+    <string name="voice_floating_end_description">वॉइस कॉल खत्म करें</string>
+    <string name="voice_floating_control_placeholder_state">इस प्रोटोटाइप में उपलब्ध नहीं है</string>
+    <string name="voice_floating_duration_description">कॉल की अवधि</string>
+
+    <!-- Floating call stage -->
+    <string name="voice_stage_talking_in">बातचीत जारी है</string>
+    <string name="voice_stage_minimize_description">छोटा करें</string>
+    <string name="voice_mute">म्यूट करें</string>
+    <string name="voice_unmute">म्यूट हटाएँ</string>
+    <string name="voice_stage_pause">रोकें</string>
+    <string name="voice_stage_camera">कैमरा</string>
+    <string name="voice_transcript_empty">अपने सेशन से कुछ कहें।</string>
+    <string name="voice_transcript_you">आप</string>
+    <string name="voice_transcript_user_line_description">आप: %1$s</string>
+
+    <!-- Call rows: screen request -->
+    <string name="voice_screen_request_detail">वॉइस आपकी स्क्रीन देखना चाहता है</string>
+    <string name="voice_screen_request_spoken">आपके इनपुट की ज़रूरत है। वॉइस आपकी स्क्रीन देखना चाहता है</string>
+    <string name="voice_screen_request_spoken_with_reason">आपके इनपुट की ज़रूरत है। वॉइस आपकी स्क्रीन देखना चाहता है। %1$s</string>
+    <string name="voice_screen_request_title">स्क्रीन शेयर करें?</string>
+
+    <!-- Call rows: open link -->
+    <string name="voice_open_link_spoken">आपके इनपुट की ज़रूरत है। %1$s</string>
+    <string name="voice_open_link_spoken_with_host">आपके इनपुट की ज़रूरत है। %1$s %2$s</string>
+    <string name="voice_open_link_open">खोलें</string>
+
+    <!-- Call rows: audio on the call -->
+    <string name="voice_audio_paused">रुका हुआ है</string>
+    <string name="voice_audio_playing">कॉल में चल रहा है</string>
+    <string name="voice_audio_play">ऑडियो चलाएँ</string>
+    <string name="voice_audio_pause">ऑडियो रोकें</string>
+    <string name="voice_audio_stop">ऑडियो बंद करें</string>
+
+    <!-- Call history -->
+    <string name="voice_call_history_title">कॉल इतिहास</string>
+    <string name="voice_call_history_options_description">इतिहास के विकल्प</string>
+    <string name="voice_call_history_delete_all">सभी हटाएँ</string>
+    <string name="voice_call_history_empty_title">अभी कोई वॉइस कॉल नहीं</string>
+    <string name="voice_call_history_empty_message">कॉल इस फ़ोन पर सहेजी जाती हैं ताकि आप उन्हें फिर सुन सकें।</string>
+    <string name="voice_call_history_delete_all_confirm_title">सभी वॉइस कॉल हटाएँ?</string>
+
+    <!-- Call replay -->
+    <string name="voice_replay_timeline_description">कॉल की टाइमलाइन</string>
+    <string name="voice_replay_timeline_state">%2$s में से %1$s</string>
+    <string name="voice_replay_pause">रोकें</string>
+    <string name="voice_replay_play">चलाएँ</string>
+    <string name="voice_replay_position_description">स्थिति</string>
+    <string name="voice_replay_speed_description">चलाने की गति</string>
+    <string name="voice_replay_empty">कॉल फिर सुनने के लिए चलाएँ दबाएँ।</string>
+
+    <!-- Call notification -->
+    <string name="voice_notification_channel_name">कॉल</string>
+    <string name="voice_notification_channel_description">जारी OpenCode कॉल</string>
+    <string name="voice_notification_connecting">कनेक्ट हो रहा है…</string>
+    <string name="voice_notification_reconnecting">फिर से कनेक्ट हो रहा है…</string>
+    <string name="voice_notification_call_ended">कॉल खत्म हुई</string>
+    <string name="voice_notification_end">खत्म करें</string>
+    <!-- Call status caption -->
+    <string name="voice_status_connecting_via">%1$s के ज़रिए कनेक्ट हो रहा है…</string>
+    <string name="voice_status_weak_connection">कमज़ोर कनेक्शन</string>
+    <string name="voice_status_paused">रुका हुआ है</string>
+    <string name="voice_status_needs_input">आपके इनपुट की ज़रूरत है</string>
+    <string name="voice_status_working">कार्य जारी है</string>
+    <string name="voice_status_speaking">बोल रहा है</string>
+    <string name="voice_status_muted">म्यूट</string>
+    <string name="voice_status_listening">सुन रहा है</string>
+    <string name="voice_status_ending">खत्म हो रही है…</string>
+    <string name="voice_status_ended">खत्म हुई</string>
+    <string name="voice_session_new_title">नया सेशन</string>
+    <string name="voice_call_note_builtin_fallback">इस कॉल में बिल्ट-इन कार्य सौंपने वाले का उपयोग हो रहा है</string>
+
+    <!-- Floating call tag and spoken length -->
+    <string name="voice_floating_now_talking_in">अभी %1$s में बातचीत जारी है</string>
+    <string name="voice_floating_spoken_duration">%1$s, %2$s</string>
+    <plurals name="voice_floating_spoken_minutes">
+        <item quantity="one">%1$d मिनट</item>
+        <item quantity="other">%1$d मिनट</item>
+    </plurals>
+    <plurals name="voice_floating_spoken_seconds">
+        <item quantity="one">%1$d सेकंड</item>
+        <item quantity="other">%1$d सेकंड</item>
+    </plurals>
+
+    <!-- Voice providers -->
+    <string name="voice_provider_state_ready">तैयार</string>
+    <string name="voice_provider_state_no_key">कुंजी नहीं है</string>
+    <string name="voice_provider_state_needs_update">OpenCode अपडेट करें</string>
+    <string name="voice_provider_state_offline">ऑफ़लाइन</string>
+    <string name="voice_provider_place_phone">यह फ़ोन</string>
+    <string name="voice_provider_brand_openai_account">आपका OpenAI खाता</string>
+    <string name="voice_provider_name">%2$s पर %1$s</string>
+    <string name="voice_provider_subtitle">%1$s पर</string>
+    <string name="voice_provider_key_row_title">%1$s कुंजी</string>
+    <string name="voice_provider_key_placeholder">%1$s API कुंजी</string>
+
+    <!-- Voice key source -->
+    <string name="voice_key_source_server_row_title">आपके सर्वर पर कुंजी</string>
+    <string name="voice_key_source_phone_footer">कॉल में आपकी अपनी OpenAI या xAI कुंजी का उपयोग होता है।</string>
+    <string name="voice_key_source_server_footer">कॉल में आपके सर्वर की %1$s कुंजी का उपयोग होता है।</string>
+    <string name="voice_key_source_opencode_footer">कॉल का शुल्क आपके OpenCode Console वर्कस्पेस से लिया जाता है।</string>
+
+    <!-- Call failure fixes and diagnosis -->
+    <string name="voice_fix_set_up_on_phone">इस फ़ोन पर सेट अप करें</string>
+    <string name="voice_fix_choose_provider">प्रोवाइडर चुनें</string>
+    <string name="voice_fix_update_opencode">OpenCode अपडेट करें</string>
+    <string name="voice_diagnosis_needs_update">वॉइस कॉल के लिए %1$s पर OpenCode का नया संस्करण चाहिए।</string>
+    <string name="voice_diagnosis_your_server_needs_update">वॉइस कॉल के लिए आपके सर्वर पर OpenCode का नया संस्करण चाहिए।</string>
+    <string name="voice_diagnosis_no_key">%1$s पर वॉइस कॉल के लिए कुंजी नहीं है।</string>
+    <string name="voice_diagnosis_your_server_no_key">आपके सर्वर पर वॉइस कॉल के लिए कुंजी नहीं है।</string>
+    <string name="voice_diagnosis_unreachable">%1$s से कनेक्ट नहीं हो सके।</string>
+    <string name="voice_diagnosis_your_server_unreachable">आपके सर्वर से कनेक्ट नहीं हो सके।</string>
+    <string name="voice_diagnosis_failed">%1$s कॉल शुरू नहीं कर सका।</string>
+    <string name="voice_diagnosis_your_server_failed">आपका सर्वर कॉल शुरू नहीं कर सका।</string>
+    <string name="voice_diagnosis_key_rejected">OpenAI ने इस फ़ोन की कुंजी स्वीकार नहीं की।</string>
+    <string name="voice_diagnosis_missing_phone_key">इस फ़ोन से कॉल करने के लिए अपनी %1$s API कुंजी जोड़ें।</string>
+
+    <!-- Call errors -->
+    <string name="voice_error_microphone_denied">अपने सेशन से बात करने के लिए सेटिंग्स में माइक्रोफ़ोन की अनुमति दें।</string>
+    <string name="voice_error_audio_format_unavailable">ऑडियो हार्डवेयर का फ़ॉर्मैट समर्थित नहीं है।</string>
+    <string name="voice_error_audio_engine_rejected">कॉल का ऑडियो शुरू नहीं हो सका। थोड़ी देर में फिर से कोशिश करें।</string>
+    <string name="voice_error_server_unsupported">वॉइस कॉल के लिए इस सर्वर पर OpenCode का नया संस्करण चाहिए</string>
+    <string name="voice_error_invalid_server_url">वॉइस शुरू नहीं हो सकी: मान्य HTTP या HTTPS सर्वर URL दर्ज करें।</string>
+    <string name="voice_error_invalid_response">वॉइस शुरू नहीं हो सकी: सर्वर से अमान्य प्रतिक्रिया मिली।</string>
+    <string name="voice_error_start_voice_detail">वॉइस शुरू नहीं हो सकी: %1$s</string>
+    <string name="voice_error_start_voice_http">वॉइस शुरू नहीं हो सकी (HTTP %1$d)।</string>
+    <string name="voice_error_openai_rejected_key">OpenAI ने API कुंजी स्वीकार नहीं की।</string>
+    <string name="voice_error_openai_verify_http">OpenAI इस कुंजी को सत्यापित नहीं कर सका (HTTP %1$d)।</string>
+    <string name="voice_error_no_connection">कनेक्शन नहीं है।</string>
+    <string name="voice_error_model_address_invalid">वॉइस मॉडल का पता अमान्य है।</string>
+    <string name="voice_error_xai_rejected_key">xAI ने API कुंजी स्वीकार नहीं की।</string>
+    <string name="voice_error_xai_verify_http">xAI इस कुंजी को सत्यापित नहीं कर सका (HTTP %1$d)।</string>
+    <string name="voice_error_xai_key_disabled">यह xAI API कुंजी अक्षम है।</string>
+    <string name="voice_error_xai_key_blocked">यह xAI API कुंजी ब्लॉक है।</string>
+    <string name="voice_error_service_address_invalid">वॉइस सेवा का पता अमान्य है।</string>
+    <string name="voice_error_connection_lost">वॉइस कनेक्शन टूट गया।</string>
+    <string name="voice_error_connection_closed">वॉइस कनेक्शन बंद है।</string>
+    <string name="voice_error_connection_setup">वॉइस कनेक्शन सेट अप नहीं हो सका।</string>
+    <string name="voice_error_safety_filter">सुरक्षा फ़िल्टर ने वॉइस कॉल खत्म कर दी।</string>
+    <string name="voice_error_audio_reset">सिस्टम ने ऑडियो रीसेट कर दिया। कॉल फिर से शुरू करें।</string>
+    <string name="voice_error_missing_phone_key">वॉइस का उपयोग करने के लिए सेटिंग्स में अपनी %1$s API कुंजी जोड़ें।</string>
+
+    <!-- Voice accents -->
+    <string name="voice_accent_australian_english">ऑस्ट्रेलियाई अंग्रेज़ी</string>
+    <string name="voice_accent_british_english">ब्रिटिश अंग्रेज़ी</string>
+    <string name="voice_accent_irish_english">आयरिश अंग्रेज़ी</string>
+    <string name="voice_accent_north_american_english">उत्तर अमेरिकी अंग्रेज़ी</string>
+    <string name="voice_accent_brazilian_portuguese">ब्राज़ीलियाई पुर्तगाली</string>
+    <string name="voice_accent_filipino_english">फ़िलिपीनो अंग्रेज़ी</string>
+    <string name="voice_accent_southern_us_english">दक्षिणी अमेरिकी अंग्रेज़ी</string>
+    <string name="voice_accent_indian_english">भारतीय अंग्रेज़ी</string>
+    <string name="voice_preview_error">पूर्वावलोकन नहीं चला सके</string>
+
+    <!-- Call sound packs -->
+    <string name="voice_sound_pack_breath_ping">साँस की टनक</string>
+    <string name="voice_sound_pack_crystal_glass">क्रिस्टल की खनक</string>
+    <string name="voice_sound_pack_warm_analog">मधुर एनालॉग</string>
+    <string name="voice_sound_pack_aurora_pulse">ऑरोरा की धड़कन</string>
+    <string name="voice_sound_pack_velvet_bell">मखमली घंटी</string>
+    <string name="voice_sound_pack_silent">बिना आवाज़</string>
+
+    <!-- Open link card -->
+    <string name="voice_open_link_card_title_untitled">लिंक खोलें?</string>
+    <string name="voice_open_link_card_title">%1$s खोलें?</string>
+
+    <!-- Delegator choice -->
+    <string name="voice_delegator_session_fallback">सेशन</string>
+    <string name="voice_delegator_unavailable_gemini">Gemini Live सीधे स्क्रीन पर खुले सेशन को काम सौंपता है। OpenCode सेशन का उपयोग करने के लिए OpenAI वॉइस प्रोवाइडर चुनें।</string>
+    <string name="voice_delegator_unavailable_engine">%1$s सीधे स्क्रीन पर खुले सेशन को काम सौंपता है। OpenCode सेशन का उपयोग करने के लिए वॉइस मॉडल को GPT-Live पर बदलें।</string>
+
+    <!-- Call log list and replay -->
+    <string name="voice_call_log_duration_seconds">%1$d सेकंड</string>
+    <string name="voice_call_log_duration_minutes">%1$d मिनट %2$d सेकंड</string>
+    <string name="voice_replay_to_delegator">→ कार्य सौंपने वाला</string>
+    <string name="voice_replay_to_voice">→ आवाज़</string>
+    <string name="voice_replay_audio">ऑडियो</string>
+    <string name="voice_replay_track_user">आप</string>
+    <string name="voice_replay_track_voice">आवाज़</string>
+    <string name="voice_replay_track_delegator">कार्य सौंपने वाला</string>
+    <string name="voice_replay_track_tools">टूल</string>
+</resources>

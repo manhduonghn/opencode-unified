@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Appearance -->
+    <string name="settings_appearance_title">Penampilan</string>
+    <string name="settings_appearance_mode_header">Mod</string>
+    <string name="settings_appearance_theme">Tema</string>
+
+    <!-- Appearance › Themes -->
+    <string name="settings_themes_title">Tema</string>
+    <string name="settings_themes_preview_description">Pratonton transkrip</string>
+    <string name="settings_themes_preview_user_message">Bantu saya menambah baik skrin sesi. Tunjukkan apa yang anda temui dan jelaskan perubahannya.</string>
+    <string name="settings_themes_preview_reply">Saya menemui isu susun atur dalam %1$s. Transkrip dan ruang karang berkongsi ketinggian yang tersedia, jadi papan kekunci berguna untuk menguji had susun atur.</string>
+
+    <!-- Language -->
+    <string name="settings_language_title">Bahasa</string>
+    <string name="settings_language_system_default">Lalai sistem</string>
+    <string name="settings_language_search_placeholder">Cari bahasa</string>
+    <string name="settings_language_suggested_header">Dicadangkan</string>
+    <string name="settings_language_all_header">Semua bahasa</string>
+    <string name="settings_language_no_matches">Tiada bahasa sepadan</string>
+
+    <!-- Experimental -->
+    <string name="settings_experimental_title">Eksperimen</string>
+    <string name="settings_experimental_all_footer">Turut menghidupkan eksperimen baharu, kecuali yang melihat skrin atau mendengar di latar belakang.</string>
+    <string name="settings_experimental_all">Semua eksperimen</string>
+    <string name="settings_experimental_all_on">Semua dihidupkan</string>
+    <plurals name="settings_experimental_on_count">
+        <item quantity="other">%d dihidupkan</item>
+    </plurals>
+
+    <!-- Models -->
+    <string name="settings_models_title">Model</string>
+    <string name="settings_models_mode_hide">Sembunyi</string>
+    <string name="settings_models_mode_only_show">Tunjukkan sahaja</string>
+    <string name="settings_models_mode_hide_footer">Matikan model yang tidak anda gunakan.</string>
+    <string name="settings_models_mode_only_show_footer">Hidupkan model yang anda gunakan sahaja.</string>
+    <string name="settings_models_providers_header">Penyedia</string>
+    <string name="settings_models_stale_header">Tidak lagi ditawarkan</string>
+    <string name="settings_models_forget_unavailable">Lupakan model tidak tersedia</string>
+    <string name="settings_models_show_every_model">Tunjuk semua model</string>
+    <string name="settings_models_load_failed_title">Tidak dapat memuatkan model</string>
+    <string name="settings_models_summary_hidden">Tersembunyi</string>
+    <string name="settings_models_summary_all">Semua</string>
+    <string name="settings_models_summary_count">%1$d daripada %2$d</string>
+
+    <!-- Models › Provider -->
+    <string name="settings_models_search_placeholder">Cari model</string>
+    <string name="settings_models_show_provider">Tunjukkan %1$s</string>
+
+    <!-- Notifications -->
+    <string name="settings_notifications_title">Notifikasi</string>
+    <string name="settings_notifications_device_header">%1$s ini</string>
+    <string name="settings_notifications_device_footer">Notifikasi melalui pelayan perantara yang tidak menyimpan apa-apa. Hanya sesi yang dimulakan pada %1$s ini akan menghantar notifikasi kepadanya.</string>
+    <string name="settings_notifications_allow">Benarkan notifikasi</string>
+    <string name="settings_notifications_open_android_settings">Buka tetapan Android</string>
+    <string name="settings_notifications_turn_on">Hidupkan notifikasi</string>
+    <string name="settings_notifications_server_header">Pelayan</string>
+    <string name="settings_notifications_set_up_footer">Membuka sesi yang meminta OpenCode memasang plugin. Hantar permintaan itu, kemudian semak semula.</string>
+    <string name="settings_notifications_plugin_needed_footer">Pelayan memerlukan plugin notify OpenCode.</string>
+    <string name="settings_notifications_notify_plugin">Plugin Notify</string>
+    <string name="settings_notifications_plugin_installed">Dipasang</string>
+    <string name="settings_notifications_plugin_not_running">Tidak berjalan</string>
+    <string name="settings_notifications_plugin_not_installed">Belum dipasang</string>
+    <string name="settings_notifications_plugin_check_failed">Tidak dapat menyemak status</string>
+    <string name="settings_notifications_set_up">Sediakan dengan OpenCode</string>
+    <string name="settings_notifications_check_again">Semak semula</string>
+    <string name="settings_notifications_in_app_footer">Dipaparkan pada butang panel sisi.</string>
+    <string name="settings_notifications_in_app_notices">Notis dalam aplikasi</string>
+
+    <!-- Sessions -->
+    <string name="settings_sessions_title">Sesi</string>
+    <string name="settings_sessions_composer_header">Ruang karang</string>
+    <string name="settings_sessions_return_key_sends">Kekunci Enter menghantar</string>
+    <string name="settings_sessions_new_sessions_header">Sesi baharu</string>
+    <string name="settings_sessions_server_default">Lalai pelayan</string>
+    <string name="settings_sessions_default_agent">Ejen lalai</string>
+
+    <!-- Shared values -->
+    <string name="settings_value_on">Dihidupkan</string>
+    <string name="settings_value_off">Dimatikan</string>
+
+    <!-- Sound Effects -->
+    <string name="settings_sound_effects_volume">Kelantangan</string>
+    <string name="settings_sound_effects_volume_description">Kelantangan kesan bunyi</string>
+    <string name="settings_sound_effects_send_sound">Bunyi hantar</string>
+
+    <!-- Voice › Delegator -->
+    <string name="settings_delegator_title">Pendelegasi</string>
+    <string name="settings_delegator_other_server_note">“%1$s” berada pada pelayan lain. Pilih yang ada pada pelayan ini, atau tukar pelayan.</string>
+    <string name="settings_delegator_mode_footer">Terbina dalam berjalan pada OpenAI, tanpa sesi. Sesi OpenCode berfungsi dalam sesi pada pelayan anda.</string>
+    <string name="settings_delegator_built_in">Terbina dalam</string>
+    <string name="settings_delegator_opencode_session">Sesi OpenCode</string>
+    <string name="settings_delegator_target_header">Sesi sasaran</string>
+    <string name="settings_delegator_target_footer">Automatik menggunakan sesi “Voice” pada pelayan ini. Sesi dipaparkan menggunakan sesi pada skrin.</string>
+    <string name="settings_delegator_automatic">Automatik</string>
+    <string name="settings_delegator_viewed_session">Sesi dipaparkan</string>
+    <string name="settings_delegator_search_placeholder">Cari sesi</string>
+    <string name="settings_delegator_sessions_header">Pilih sesi</string>
+    <string name="settings_delegator_sessions_footer">Sesi yang dipilih mengekalkan modelnya.</string>
+    <string name="settings_delegator_no_sessions">Tiada sesi pada pelayan ini</string>
+    <string name="settings_delegator_no_matching_sessions">Tiada sesi sepadan</string>
+    <string name="settings_delegator_new_session">Sesi baharu</string>
+    <string name="settings_delegator_direct">Langsung</string>
+    <string name="settings_delegator_direct_session_unavailable">Langsung · Sesi tidak tersedia</string>
+    <string name="settings_delegator_another_server">%1$s · Pelayan lain</string>
+
+    <!-- Voice › Key Editor -->
+    <string name="settings_voice_key_hide_description">Sembunyi kunci</string>
+    <string name="settings_voice_key_show_description">Tunjukkan kunci</string>
+    <string name="settings_voice_key_verify">Sahkan</string>
+
+    <!-- Voice › Voice Provider -->
+    <string name="settings_voice_provider_title">Penyedia suara</string>
+    <string name="settings_voice_provider_place">Pada %1$s</string>
+    <string name="settings_voice_api_key_title">Kunci API</string>
+    <string name="settings_voice_provider_automatic_footer">Apabila %1$s belum sedia, panggilan menggunakan penyedia yang sedia.</string>
+    <string name="settings_voice_provider_choose_automatically">Pilih secara automatik</string>
+    <string name="settings_voice_provider_others_header">Penyedia lain</string>
+    <string name="settings_voice_provider_use_description">Gunakan %1$s</string>
+    <string name="settings_voice_provider_use">Gunakan</string>
+    <string name="settings_voice_provider_set_up">Sediakan</string>
+    <plurals name="settings_voice_provider_not_available_count">
+        <item quantity="other">%d tidak tersedia</item>
+    </plurals>
+
+    <!-- Voice › API Key -->
+    <string name="settings_voice_account_title">Akaun OpenAI anda</string>
+    <string name="settings_voice_account_place">Pada telefon ini</string>
+    <string name="settings_voice_account_key_footer">Panggilan menggunakan akaun OpenAI anda dan bukannya pelayan.</string>
+    <string name="settings_voice_account_use_for_calls">Gunakan untuk panggilan</string>
+
+    <!-- Voice -->
+    <string name="settings_voice_title">Suara</string>
+    <string name="settings_voice_call_setup_header">Persediaan panggilan</string>
+    <string name="settings_voice_calls_header">Panggilan</string>
+    <string name="settings_voice_raise_to_talk_hint">Togol untuk memulakan panggilan melalui pembesar suara telinga apabila anda mengangkat telefon ke telinga semasa dalam sesi</string>
+    <string name="settings_voice_enable">Dayakan suara</string>
+    <string name="settings_voice_model">Model</string>
+    <string name="settings_voice_model_description">Model suara</string>
+    <string name="settings_voice_call_voice">Suara</string>
+    <string name="settings_voice_raise_to_talk">Angkat untuk bercakap</string>
+    <string name="settings_voice_call_sounds">Bunyi panggilan</string>
+    <string name="settings_voice_call_history">Sejarah panggilan</string>
+    <string name="settings_voice_edit_key_label">Sunting kunci API %1$s anda</string>
+    <string name="settings_voice_key_verified">Disahkan</string>
+    <string name="settings_voice_key_checking">Sedang menyemak…</string>
+    <string name="settings_voice_key_saved">Disimpan</string>
+    <string name="settings_voice_key_missing">Tiada</string>
+    <string name="settings_voice_preview_disabled_hint">Tambah kunci %1$s anda untuk pratonton suara</string>
+
+    <!-- Voice › Voice Picker -->
+    <string name="settings_voice_picker_add_key_footer">Tambah kunci %1$s anda untuk pratonton suara.</string>
+    <string name="settings_voice_picker_unavailable_footer">%1$s tidak tersedia pada %2$s, jadi panggilan menggunakan %3$s.</string>
+    <string name="settings_voice_stop_preview_description">Henti pratonton %1$s</string>
+    <string name="settings_voice_preview_description">Pratonton %1$s</string>
+    <string name="settings_voice_preview_playing">Sedang dimainkan</string>
+    <string name="settings_voice_call_voice_unavailable">%1$s · %2$s tidak tersedia</string>
+
+    <!-- Settings root -->
+    <string name="settings_whats_new_title">Apa yang baharu</string>
+    <string name="settings_developer_title">Pembangun</string>
+    <string name="settings_app_version">Versi %1$s (%2$s)</string>
+    <string name="settings_app_version_commit">Versi %1$s (%2$s) · %3$s</string>
+
+    <!-- Connection card -->
+    <string name="settings_connection_show_server_label">Tunjukkan pelayan</string>
+    <string name="settings_connection_milliseconds">%1$d ms</string>
+    <string name="settings_connection_card_value_description">%1$s, %2$s, %3$s</string>
+    <string name="settings_connection_status_connected">Disambungkan</string>
+    <string name="settings_connection_status_slow">Perlahan</string>
+    <string name="settings_connection_status_unstable">Tidak stabil</string>
+    <string name="settings_connection_status_reconnecting">Menyambung semula</string>
+    <string name="settings_connection_status_offline">Luar talian</string>
+    <string name="settings_connection_status_sign_in_failed">Log masuk gagal</string>
+    <string name="settings_connection_status_switching">Beralih</string>
+    <string name="settings_connection_status_switching_to">Beralih ke %1$s</string>
+    <string name="settings_connection_status_code">%1$s · %2$d</string>
+    <string name="settings_connection_status_http_description">%1$s, HTTP %2$d</string>
+    <plurals name="settings_connection_status_milliseconds_description">
+        <item quantity="other">%1$s, %2$d milisaat</item>
+    </plurals>
+
+    <!-- Server page -->
+    <string name="settings_server_title">Pelayan</string>
+    <string name="settings_server_address">Alamat</string>
+    <string name="settings_server_connection">Sambungan</string>
+    <string name="settings_server_version">Versi</string>
+    <string name="settings_server_edit_server">Edit pelayan…</string>
+    <string name="settings_server_rename_server_ellipsis">Tukar nama pelayan…</string>
+    <string name="settings_server_rename_title">Tukar nama pelayan</string>
+    <string name="settings_server_rename_message">Hanya %1$s ini menggunakan nama ini. Biarkan kosong untuk “%2$s”.</string>
+    <string name="settings_server_status">Status</string>
+    <string name="settings_server_status_milliseconds">%1$s · %2$d ms</string>
+
+    <!-- Servers section -->
+    <string name="settings_servers_header">Pelayan</string>
+    <string name="settings_servers_edit_server">Sunting %1$s…</string>
+    <string name="settings_servers_rename_message">Hanya %1$s ini menggunakan nama ini. Biarkan kosong untuk menggunakan nama komputer.</string>
+    <string name="settings_servers_remove_title">Alih keluar %1$s?</string>
+    <string name="settings_servers_remove_message">Alamat dan kata laluan pada %1$s ini akan dipadam. Sesi pada pelayan tidak terjejas.</string>
+    <string name="settings_servers_remove_server">Alih keluar pelayan</string>
+    <string name="settings_servers_current_server_state">Pelayan semasa, %1$s</string>
+    <string name="settings_servers_switch_label">Beralih ke pelayan ini</string>
+    <string name="settings_servers_options_description">Pilihan %1$s</string>
+    <string name="settings_servers_rename_menu">Tukar nama…</string>
+    <string name="settings_servers_edit_menu">Sunting…</string>
+    <string name="settings_servers_remove_menu">Alih keluar…</string>
+    <string name="settings_servers_add_server">Tambah pelayan</string>
+    <string name="settings_servers_scan_pairing_code">Imbas kod pemasangan</string>
+    <string name="settings_servers_enter_address">Masukkan alamat</string>
+
+    <!-- Pairing scanner -->
+    <string name="settings_pairing_paste">Tampal</string>
+    <string name="settings_pairing_no_camera_title">Tiada kamera tersedia</string>
+    <string name="settings_pairing_no_camera_message">Salin pautan yang dipaparkan oleh `opencode pair` pada komputer anda, kemudian tampal di sini.</string>
+    <string name="settings_pairing_camera_off_title">Akses kamera dimatikan</string>
+    <string name="settings_pairing_camera_off_message">Benarkan akses kamera dalam Tetapan untuk mengimbas kod QR, atau tampal pautan yang dipaparkan oleh `opencode pair`.</string>
+    <string name="settings_pairing_nothing_to_paste_title">Tiada apa untuk ditampal</string>
+    <string name="settings_pairing_nothing_to_paste_message">Tiada pautan pemasangan dalam papan klip anda. Salin pautan yang dipaparkan oleh opencode pair, kemudian cuba lagi.</string>
+    <string name="settings_pairing_point_camera">Halakan kamera anda ke kod QR</string>
+    <string name="settings_pairing_paste_link">Tampal pautan pemasangan</string>
+    <string name="settings_pairing_computer_hint">Pada komputer anda, buka Tetapan → Memasangkan dalam OpenCode, atau jalankan %1$s dalam terminal.</string>
+</resources>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Call ended and failure cards -->
+    <string name="voice_call_ended_title">ზარი დასრულდა</string>
+    <string name="voice_call_ended_rejoin">ხელახლა შეერთება</string>
+    <string name="voice_failure_title">ხმოვანი კავშირი ვერ დამყარდა</string>
+    <string name="voice_failure_check_api_key">API გასაღების შემოწმება</string>
+    <string name="voice_failure_start_title">ზარის დაწყება ვერ მოხერხდა</string>
+
+    <!-- Floating call -->
+    <string name="voice_floating_expand">გაფართოება</string>
+    <string name="voice_floating_orb_description">ხმოვანი ზარი</string>
+    <string name="voice_floating_orb_show_controls">ზარის მართვის ღილაკების ჩვენება</string>
+    <string name="voice_floating_end_description">ხმოვანი ზარის დასრულება</string>
+    <string name="voice_floating_control_placeholder_state">ამ პროტოტიპში მიუწვდომელია</string>
+    <string name="voice_floating_duration_description">ზარის ხანგრძლივობა</string>
+
+    <!-- Floating call stage -->
+    <string name="voice_stage_talking_in">საუბარი სესიაში</string>
+    <string name="voice_stage_minimize_description">მინიმიზაცია</string>
+    <string name="voice_mute">დადუმება</string>
+    <string name="voice_unmute">დადუმების გაუქმება</string>
+    <string name="voice_stage_pause">პაუზა</string>
+    <string name="voice_stage_camera">კამერა</string>
+    <string name="voice_transcript_empty">უთხარით რამე თქვენს სესიას.</string>
+    <string name="voice_transcript_you">თქვენ</string>
+    <string name="voice_transcript_user_line_description">თქვენ: %1$s</string>
+
+    <!-- Call rows: screen request -->
+    <string name="voice_screen_request_detail">ხმის ასისტენტს თქვენი ეკრანის ნახვა სურს</string>
+    <string name="voice_screen_request_spoken">საჭიროა თქვენი პასუხი. ხმის ასისტენტს თქვენი ეკრანის ნახვა სურს</string>
+    <string name="voice_screen_request_spoken_with_reason">საჭიროა თქვენი პასუხი. ხმის ასისტენტს თქვენი ეკრანის ნახვა სურს. %1$s</string>
+    <string name="voice_screen_request_title">გააზიაროთ ეკრანი?</string>
+
+    <!-- Call rows: open link -->
+    <string name="voice_open_link_spoken">საჭიროა თქვენი პასუხი. %1$s</string>
+    <string name="voice_open_link_spoken_with_host">საჭიროა თქვენი პასუხი. %1$s %2$s</string>
+    <string name="voice_open_link_open">გახსნა</string>
+
+    <!-- Call rows: audio on the call -->
+    <string name="voice_audio_paused">შეჩერებულია</string>
+    <string name="voice_audio_playing">იკვრება ზარში</string>
+    <string name="voice_audio_play">აუდიოს დაკვრა</string>
+    <string name="voice_audio_pause">აუდიოს პაუზა</string>
+    <string name="voice_audio_stop">აუდიოს შეჩერება</string>
+
+    <!-- Call history -->
+    <string name="voice_call_history_title">ზარების ისტორია</string>
+    <string name="voice_call_history_options_description">ისტორიის პარამეტრები</string>
+    <string name="voice_call_history_delete_all">ყველას წაშლა</string>
+    <string name="voice_call_history_empty_title">ხმოვანი ზარები ჯერ არ არის</string>
+    <string name="voice_call_history_empty_message">ზარები ამ ტელეფონზე ინახება, რომ ხელახლა მოუსმინოთ.</string>
+    <string name="voice_call_history_delete_all_confirm_title">წაიშალოს ყველა ხმოვანი ზარი?</string>
+
+    <!-- Call replay -->
+    <string name="voice_replay_timeline_description">ზარის დროის ხაზი</string>
+    <string name="voice_replay_timeline_state">%1$s / %2$s</string>
+    <string name="voice_replay_pause">პაუზა</string>
+    <string name="voice_replay_play">დაკვრა</string>
+    <string name="voice_replay_position_description">პოზიცია</string>
+    <string name="voice_replay_speed_description">დაკვრის სიჩქარე</string>
+    <string name="voice_replay_empty">ზარის ხელახლა მოსასმენად დააჭირეთ დაკვრას.</string>
+
+    <!-- Call notification -->
+    <string name="voice_notification_channel_name">ზარები</string>
+    <string name="voice_notification_channel_description">OpenCode-ის მიმდინარე ზარები</string>
+    <string name="voice_notification_connecting">მიმდინარეობს დაკავშირება…</string>
+    <string name="voice_notification_reconnecting">ხელახლა უკავშირდება…</string>
+    <string name="voice_notification_call_ended">ზარი დასრულდა</string>
+    <string name="voice_notification_end">დასრულება</string>
+    <!-- Call status caption -->
+    <string name="voice_status_connecting_via">დაკავშირება %1$s-ის მეშვეობით…</string>
+    <string name="voice_status_weak_connection">სუსტი კავშირი</string>
+    <string name="voice_status_paused">შეჩერებულია</string>
+    <string name="voice_status_needs_input">საჭიროა თქვენი პასუხი</string>
+    <string name="voice_status_working">მუშაობს</string>
+    <string name="voice_status_speaking">საუბრობს</string>
+    <string name="voice_status_muted">დადუმებული</string>
+    <string name="voice_status_listening">გისმენთ</string>
+    <string name="voice_status_ending">სრულდება…</string>
+    <string name="voice_status_ended">დასრულდა</string>
+    <string name="voice_session_new_title">ახალი სესია</string>
+    <string name="voice_call_note_builtin_fallback">ამ ზარისთვის ჩაშენებული დელეგატორი გამოიყენება</string>
+
+    <!-- Floating call tag and spoken length -->
+    <string name="voice_floating_now_talking_in">ახლა საუბარი სესიაში %1$s</string>
+    <string name="voice_floating_spoken_duration">%1$s, %2$s</string>
+    <plurals name="voice_floating_spoken_minutes">
+        <item quantity="one">%1$d წუთი</item>
+        <item quantity="other">%1$d წუთი</item>
+    </plurals>
+    <plurals name="voice_floating_spoken_seconds">
+        <item quantity="one">%1$d წამი</item>
+        <item quantity="other">%1$d წამი</item>
+    </plurals>
+
+    <!-- Voice providers -->
+    <string name="voice_provider_state_ready">მზად არის</string>
+    <string name="voice_provider_state_no_key">გასაღები არ არის</string>
+    <string name="voice_provider_state_needs_update">განაახლეთ OpenCode</string>
+    <string name="voice_provider_state_offline">ქსელგარეშე</string>
+    <string name="voice_provider_place_phone">ეს ტელეფონი</string>
+    <string name="voice_provider_brand_openai_account">თქვენი OpenAI ანგარიში</string>
+    <string name="voice_provider_name">%1$s %2$s-ზე</string>
+    <string name="voice_provider_subtitle">%1$s-ზე</string>
+    <string name="voice_provider_key_row_title">%1$s-ის გასაღები</string>
+    <string name="voice_provider_key_placeholder">%1$s-ის API გასაღები</string>
+
+    <!-- Voice key source -->
+    <string name="voice_key_source_server_row_title">გასაღები თქვენს სერვერზე</string>
+    <string name="voice_key_source_phone_footer">ზარებისთვის თქვენი OpenAI ან xAI გასაღები გამოიყენება.</string>
+    <string name="voice_key_source_server_footer">ზარებისთვის თქვენს სერვერზე არსებული %1$s-ის გასაღები გამოიყენება.</string>
+    <string name="voice_key_source_opencode_footer">ზარების საფასური თქვენს OpenCode Console სამუშაო სივრცეს ერიცხება.</string>
+
+    <!-- Call failure fixes and diagnosis -->
+    <string name="voice_fix_set_up_on_phone">ამ ტელეფონზე გამართვა</string>
+    <string name="voice_fix_choose_provider">აირჩიეთ პროვაიდერი</string>
+    <string name="voice_fix_update_opencode">განაახლეთ OpenCode</string>
+    <string name="voice_diagnosis_needs_update">%1$s-ს ხმოვანი ზარებისთვის OpenCode-ის ახალი ვერსია სჭირდება.</string>
+    <string name="voice_diagnosis_your_server_needs_update">თქვენს სერვერს ხმოვანი ზარებისთვის OpenCode-ის ახალი ვერსია სჭირდება.</string>
+    <string name="voice_diagnosis_no_key">%1$s-ს ხმოვანი ზარებისთვის გასაღები არ აქვს.</string>
+    <string name="voice_diagnosis_your_server_no_key">თქვენს სერვერს ხმოვანი ზარებისთვის გასაღები არ აქვს.</string>
+    <string name="voice_diagnosis_unreachable">%1$s-თან დაკავშირება ვერ მოხერხდა.</string>
+    <string name="voice_diagnosis_your_server_unreachable">თქვენს სერვერთან დაკავშირება ვერ მოხერხდა.</string>
+    <string name="voice_diagnosis_failed">%1$s-მა ზარი ვერ დაიწყო.</string>
+    <string name="voice_diagnosis_your_server_failed">თქვენმა სერვერმა ზარი ვერ დაიწყო.</string>
+    <string name="voice_diagnosis_key_rejected">OpenAI-მ ამ ტელეფონზე არსებული გასაღები არ მიიღო.</string>
+    <string name="voice_diagnosis_missing_phone_key">ამ ტელეფონიდან დასარეკად დაამატეთ თქვენი %1$s-ის API გასაღები.</string>
+
+    <!-- Call errors -->
+    <string name="voice_error_microphone_denied">სესიასთან სასაუბროდ პარამეტრებში მიკროფონზე წვდომა დაუშვით.</string>
+    <string name="voice_error_audio_format_unavailable">აუდიომოწყობილობის ფორმატი მხარდაჭერილი არ არის.</string>
+    <string name="voice_error_audio_engine_rejected">ზარის აუდიო ვერ ჩაირთო. ცოტა ხანში ხელახლა სცადეთ.</string>
+    <string name="voice_error_server_unsupported">ამ სერვერს ხმოვანი ზარებისთვის OpenCode-ის ახალი ვერსია სჭირდება</string>
+    <string name="voice_error_invalid_server_url">ხმა ვერ ჩაირთო: შეიყვანეთ სერვერის სწორი HTTP ან HTTPS URL.</string>
+    <string name="voice_error_invalid_response">ხმა ვერ ჩაირთო: სერვერმა არასწორი პასუხი დააბრუნა.</string>
+    <string name="voice_error_start_voice_detail">ხმა ვერ ჩაირთო: %1$s</string>
+    <string name="voice_error_start_voice_http">ხმა ვერ ჩაირთო (HTTP %1$d).</string>
+    <string name="voice_error_openai_rejected_key">OpenAI-მ API გასაღები არ მიიღო.</string>
+    <string name="voice_error_openai_verify_http">OpenAI-მ ეს გასაღები ვერ შეამოწმა (HTTP %1$d).</string>
+    <string name="voice_error_no_connection">კავშირი არ არის.</string>
+    <string name="voice_error_model_address_invalid">ხმის მოდელის მისამართი არასწორია.</string>
+    <string name="voice_error_xai_rejected_key">xAI-მ API გასაღები არ მიიღო.</string>
+    <string name="voice_error_xai_verify_http">xAI-მ ეს გასაღები ვერ შეამოწმა (HTTP %1$d).</string>
+    <string name="voice_error_xai_key_disabled">ეს xAI API გასაღები გამორთულია.</string>
+    <string name="voice_error_xai_key_blocked">ეს xAI API გასაღები დაბლოკილია.</string>
+    <string name="voice_error_service_address_invalid">ხმის სერვისის მისამართი არასწორია.</string>
+    <string name="voice_error_connection_lost">ხმოვანი კავშირი გაწყდა.</string>
+    <string name="voice_error_connection_closed">ხმოვანი კავშირი დახურულია.</string>
+    <string name="voice_error_connection_setup">ხმოვანი კავშირის დამყარება ვერ მოხერხდა.</string>
+    <string name="voice_error_safety_filter">უსაფრთხოების ფილტრმა ხმოვანი ზარი დაასრულა.</string>
+    <string name="voice_error_audio_reset">სისტემამ აუდიო გადატვირთა. ზარი თავიდან დაიწყეთ.</string>
+    <string name="voice_error_missing_phone_key">ხმის გამოსაყენებლად პარამეტრებში დაამატეთ თქვენი %1$s-ის API გასაღები.</string>
+
+    <!-- Voice accents -->
+    <string name="voice_accent_australian_english">ავსტრალიური ინგლისური</string>
+    <string name="voice_accent_british_english">ბრიტანული ინგლისური</string>
+    <string name="voice_accent_irish_english">ირლანდიური ინგლისური</string>
+    <string name="voice_accent_north_american_english">ჩრდილოამერიკული ინგლისური</string>
+    <string name="voice_accent_brazilian_portuguese">ბრაზილიური პორტუგალიური</string>
+    <string name="voice_accent_filipino_english">ფილიპინური ინგლისური</string>
+    <string name="voice_accent_southern_us_english">აშშ-ის სამხრეთული ინგლისური</string>
+    <string name="voice_accent_indian_english">ინდური ინგლისური</string>
+    <string name="voice_preview_error">წინასწარი მოსმენა ვერ მოხერხდა</string>
+
+    <!-- Call sound packs -->
+    <string name="voice_sound_pack_breath_ping">სუნთქვის სიგნალი</string>
+    <string name="voice_sound_pack_crystal_glass">ბროლის მინა</string>
+    <string name="voice_sound_pack_warm_analog">თბილი ანალოგური</string>
+    <string name="voice_sound_pack_aurora_pulse">ციალის პულსი</string>
+    <string name="voice_sound_pack_velvet_bell">ხავერდოვანი ზარი</string>
+    <string name="voice_sound_pack_silent">უხმო</string>
+
+    <!-- Open link card -->
+    <string name="voice_open_link_card_title_untitled">გაიხსნას ბმული?</string>
+    <string name="voice_open_link_card_title">გაიხსნას %1$s?</string>
+
+    <!-- Delegator choice -->
+    <string name="voice_delegator_session_fallback">სესია</string>
+    <string name="voice_delegator_unavailable_gemini">Gemini Live დავალებებს პირდაპირ ეკრანზე გახსნილ სესიას გადასცემს. OpenCode სესიის გამოსაყენებლად აირჩიეთ OpenAI ხმის პროვაიდერი.</string>
+    <string name="voice_delegator_unavailable_engine">%1$s დავალებებს პირდაპირ ეკრანზე გახსნილ სესიას გადასცემს. OpenCode სესიის გამოსაყენებლად შეცვალეთ ხმის მოდელი GPT-Live-ით.</string>
+
+    <!-- Call log list and replay -->
+    <string name="voice_call_log_duration_seconds">%1$dწმ</string>
+    <string name="voice_call_log_duration_minutes">%1$dწთ %2$dწმ</string>
+    <string name="voice_replay_to_delegator">→ დელეგატორი</string>
+    <string name="voice_replay_to_voice">→ ხმა</string>
+    <string name="voice_replay_audio">აუდიო</string>
+    <string name="voice_replay_track_user">თქვენ</string>
+    <string name="voice_replay_track_voice">ხმა</string>
+    <string name="voice_replay_track_delegator">დელეგატორი</string>
+    <string name="voice_replay_track_tools">ხელსაწყოები</string>
+</resources>

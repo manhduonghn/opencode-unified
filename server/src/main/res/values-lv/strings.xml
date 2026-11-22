@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Čaula</string>
+    <string name="server_notice_source_subagent">Apakšaģents</string>
+    <string name="server_notice_heading_finished">Pabeigts: %1$s</string>
+    <string name="server_notice_heading_failed">Neizdevās: %1$s</string>
+    <string name="server_notice_heading_interrupted">Pārtraukts: %1$s</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="zero">%1$d čaulu darbība pabeigta</item>
+        <item quantity="one">%1$d čaulas darbība pabeigta</item>
+        <item quantity="other">%1$d čaulu darbība pabeigta</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="zero">%1$d čaulu darbība neizdevās</item>
+        <item quantity="one">%1$d čalas darbība neizdevās</item>
+        <item quantity="other">%1$d čaulu darbība neizdevās</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="zero">%1$d čaulu darbība pārtraukta</item>
+        <item quantity="one">%1$d čaulas darbība pārtraukta</item>
+        <item quantity="other">%1$d čaulu darbība pārtraukta</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="zero">%1$d apakšaģentu pabeidza darbu</item>
+        <item quantity="one">%1$d apakšaģents pabeidza darbu</item>
+        <item quantity="other">%1$d apakšaģenti pabeidza darbu</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="zero">%1$d apakšaģentu beidza darbu ar kļūdu</item>
+        <item quantity="one">%1$d apakšaģents beidza darbu ar kļūdu</item>
+        <item quantity="other">%1$d apakšaģenti beidza darbu ar kļūdu</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="zero">Pārtraukta %1$d apakšaģentu darbība</item>
+        <item quantity="one">Pārtraukta %1$d apakšaģenta darbība</item>
+        <item quantity="other">Pārtraukta %1$d apakšaģentu darbība</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Saspiest</string>
+    <string name="server_run_error_action_switch_model">Mainīt modeli</string>
+    <string name="server_run_error_aborted">Pārtraukts</string>
+    <string name="server_run_error_permission_rejected">Pārtraukts pēc pieprasījuma noraidīšanas</string>
+    <string name="server_run_error_content_filter">Drošības filtrs bloķēja atbildi</string>
+    <string name="server_run_error_rate_limit">Sasniegts pieprasījumu biežuma limits</string>
+    <string name="server_run_error_quota">Sasniegts lietošanas limits</string>
+    <string name="server_run_error_auth">Nodrošinātājs noraidīja API atslēgu</string>
+    <string name="server_run_error_context_overflow">Sesija ir pārāk gara šim modelim</string>
+    <string name="server_run_error_invalid_request">Nodrošinātājs noraidīja pieprasījumu</string>
+    <string name="server_run_error_overloaded">Modelis ir pārslogots</string>
+    <string name="server_run_error_internal">Nodrošinātāja pusē radās problēma</string>
+    <string name="server_run_error_transport">Pārtrūka savienojums ar modeli</string>
+    <string name="server_run_error_timeout">Modelis pārāk ilgi neatbildēja</string>
+    <string name="server_run_error_invalid_output">Neizdevās nolasīt modeļa atbildi</string>
+    <string name="server_run_error_unavailable">Šis modelis nav pieejams</string>
+    <string name="server_run_error_unsupported_operation">Šis modelis to nevar izdarīt</string>
+    <string name="server_run_error_tool_execution">Rīka kļūdas dēļ izpilde apstājās</string>
+    <string name="server_run_error_other">Izpilde apstājās kļūdas dēļ</string>
+    <string name="server_run_retry_in_seconds">%1$s · atkārtos pēc %2$d s</string>
+    <string name="server_run_retry_now">%1$s · atkārto</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">Neizdevās sasniegt OpenCode serveri</string>
+    <string name="server_error_folder_gone">Mape vairs nepastāv</string>
+    <string name="server_error_uploads_unsupported">Šis serveris neatbalsta failu pielikumus. Atjaunini OpenCode savā datorā.</string>
+    <string name="server_error_archiving_unsupported">Šis serveris neatbalsta arhivēšanu. Atjaunini OpenCode savā datorā.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode nav atļauts piekļūt ierīcēm tavā lokālajā tīklā. Iestatījumos atļauj OpenCode piekļūt tuvumā esošajām ierīcēm un mēģini vēlreiz.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Sesija bez nosaukuma</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Čaula</string>
+    <string name="server_tool_shell_killed">Čaula piespiedu kārtā apturēta</string>
+    <string name="server_tool_shell_exit_code">Komanda beidza darbu ar kodu %1$d</string>
+    <string name="server_notice_session_update">Sesijas atjauninājums</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Savienojums neizdevās</string>
+    <string name="server_connection_resolved_address_unknown">Noteiktā adrese: nezināma</string>
+    <string name="server_connection_resolved_address">Noteiktā adrese (meklēta pēc kļūmes): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">Šim tailnet nosaukumam noteiktā adrese ir ārpus Tailscale diapazona, tāpēc Tailscale DNS, iespējams, netiek izmantots. Tailscale lietotnē ieslēdz Tailscale DNS iestatījumu izmantošanu un izslēdz privāto DNS vai jebkuru VPN profilu, kas maina DNS.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Lokālais tīkls</string>
+    <string name="server_connection_route_loopback">Atgriezeniskā cilpa</string>
+    <string name="server_connection_route_internet">Internets</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">nav tīmekļa adrese</string>
+    <string name="server_pairing_origin_bad_scheme">nesākas ar http:// vai https://</string>
+    <string name="server_pairing_origin_no_host">nesatur resursdatora nosaukumu</string>
+    <string name="server_pairing_origin_credentials">satur lietotājvārdu vai paroli</string>
+    <string name="server_pairing_origin_query">satur vaicājumu vai fragmentu</string>
+    <string name="server_pairing_origin_port">satur portu ārpus diapazona 1–65535</string>
+    <string name="server_pairing_origin_path">satur ceļu, bet serverim jābūt adreses saknē</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Serveris</string>
+    <string name="server_friendly_name_numbered">Serveris %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">Pēc ziņas nosūtīšanas savienojums pārtrūka, tāpēc ziņa, iespējams, ir saņemta.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Šai integrācijai nav pierakstīšanās metodes.</string>
+    <string name="server_error_sign_in_url_invalid">Pierakstīšanās lapas adrese nav derīga.</string>
+    <string name="server_error_load_server_details">Neizdevās ielādēt servera informāciju</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">Šis savienošanas kods ir beidzies vai jau izmantots. Palaid `opencode pair --remote` vēlreiz.</string>
+    <string name="server_error_pairing_unsupported">Šis serveris neatbalsta savienošanas saites. Atjaunini OpenCode datorā vai ievadi serveri manuāli.</string>
+    <string name="server_error_notification_previews_need_https">Šifrētiem paziņojumu priekšskatījumiem vajadzīgs HTTPS savienojums ar serveri.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Ievadi derīgu servera HTTP vai HTTPS URL.</string>
+    <string name="server_error_credentials_rejected">Serveris noraidīja šos piekļuves datus.</string>
+    <string name="server_error_http_status">Serveris atgrieza HTTP %1$d.</string>
+    <string name="server_error_event_stream_http">Notikumu straume atgrieza HTTP %1$d.</string>
+    <string name="server_error_event_stream_oversized_frame">Notikumu straume nosūtīja pārāk lielu kadru.</string>
+    <string name="server_error_event_stream_ended">Notikumu straume beidzās.</string>
+    <string name="server_error_event_stream_server_failure">Notikumu straume ziņoja par servera kļūmi.</string>
+    <string name="server_tool_failed">Instrumenta darbība neizdevās</string>
+    <string name="server_error_list_folder">Serveris nevarēja nolasīt mapes saturu</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Neizdevās ielādēt projektus un sesijas</string>
+    <string name="server_error_load_session_family">Neizdevās ielādēt sesiju saimi</string>
+    <string name="server_error_update_session">Neizdevās atjaunināt sesiju</string>
+    <string name="server_error_load_session_ancestry">Neizdevās ielādēt aktīvās sesijas priekštečus</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Jau atbildēts citur</string>
+    <string name="server_request_already_dismissed">Jau noraidīts</string>
+    <string name="server_request_already_answered">Jau atbildēts</string>
+    <string name="server_request_already_dismissed_elsewhere">Jau noraidīts citur</string>
+    <string name="server_request_no_longer_waiting">Vairs negaida</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Multivide nav pieejama</string>
+    <string name="server_pasted_text_title">Ielīmētais teksts</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="zero">%1$d rindu · %2$s</item>
+        <item quantity="one">%1$d rinda · %2$s</item>
+        <item quantity="other">%1$d rindas · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="zero">%1$d rindu</item>
+        <item quantity="one">%1$d rinda</item>
+        <item quantity="other">%1$d rindas</item>
+    </plurals>
+    <string name="server_file_size_zero">0 KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="zero">%1$d baitu</item>
+        <item quantity="one">%1$d baits</item>
+        <item quantity="other">%1$d baiti</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">Projekts</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Fails</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Pabeidz šo soli</string>
+    <string name="server_form_required">Obligāts</string>
+    <plurals name="server_form_min_length">
+        <item quantity="zero">Ievadi vismaz %1$d rakstzīmju</item>
+        <item quantity="one">Ievadi vismaz %1$d rakstzīmi</item>
+        <item quantity="other">Ievadi vismaz %1$d rakstzīmes</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="zero">Ievadi ne vairāk kā %1$d rakstzīmju</item>
+        <item quantity="one">Ievadi ne vairāk kā %1$d rakstzīmi</item>
+        <item quantity="other">Ievadi ne vairāk kā %1$d rakstzīmes</item>
+    </plurals>
+    <string name="server_form_invalid_format">Nederīgs formāts</string>
+    <string name="server_form_choose_option">Izvēlies pieejamu opciju</string>
+    <string name="server_form_invalid_email">Ievadi derīgu e-pasta adresi</string>
+    <string name="server_form_invalid_url">Ievadi derīgu URL</string>
+    <string name="server_form_invalid_date">Ievadi datumu formātā YYYY-MM-DD</string>
+    <string name="server_form_invalid_date_time">Ievadi derīgu datumu un laiku</string>
+    <string name="server_form_minimum">Jābūt vismaz %1$s</string>
+    <string name="server_form_maximum">Jābūt ne vairāk kā %1$s</string>
+    <string name="server_form_whole_number">Ievadi veselu skaitli</string>
+    <plurals name="server_form_min_items">
+        <item quantity="zero">Izvēlies vismaz %1$d</item>
+        <item quantity="one">Izvēlies vismaz %1$d</item>
+        <item quantity="other">Izvēlies vismaz %1$d</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="zero">Izvēlies ne vairāk kā %1$d</item>
+        <item quantity="one">Izvēlies ne vairāk kā %1$d</item>
+        <item quantity="other">Izvēlies ne vairāk kā %1$d</item>
+    </plurals>
+    <string name="server_form_invalid_value">Nederīga vērtība</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Slēpt atlasītos</string>
+    <string name="server_model_visibility_only_show">Rādīt tikai atlasītos</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Izslēgts</string>
+    <string name="server_model_variant_extra_high">Īpaši augsts</string>
+    <string name="server_model_variant_max">Maksimāls</string>
+    <string name="server_delivery_steering">Virzīšana</string>
+    <string name="server_delivery_queued">Rindā</string>
+</resources>

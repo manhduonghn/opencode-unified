@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Catch Up -->
+    <plurals name="drawer_catch_up_remaining">
+        <item quantity="one">%1$d kvar</item>
+        <item quantity="other">%1$d kvar</item>
+    </plurals>
+    <string name="drawer_catch_up_leave_description">Avsluta Läs ikapp</string>
+    <string name="drawer_catch_up_keep_unread">Behåll som oläst</string>
+    <string name="drawer_catch_up_undo">Ångra</string>
+    <string name="drawer_catch_up_title">Läs ikapp</string>
+    <string name="drawer_catch_up_all_caught_up">Du är ikapp</string>
+    <string name="drawer_catch_up_swipe_mark_read">Markera som\nläst</string>
+    <string name="drawer_catch_up_swipe_keep_unread">Behåll som\noläst</string>
+
+    <!-- Drawer container -->
+    <string name="drawer_close_description">Stäng sessionslistan</string>
+
+    <!-- Drawer footer and delete confirmation -->
+    <string name="drawer_delete_session_title">Radera ”%1$s”?</string>
+    <string name="drawer_delete_session_message">Sessionen tas bort från servern för alla klienter.</string>
+    <string name="drawer_new_session">Ny session</string>
+    <string name="drawer_start_voice_call_description">Starta röstsamtal</string>
+
+    <!-- Archived page -->
+    <string name="drawer_archived">Arkiverade</string>
+    <string name="drawer_archived_search_placeholder">Sök bland arkiverade</string>
+    <string name="drawer_archived_empty">Inga arkiverade sessioner</string>
+    <string name="drawer_no_results">Inga resultat</string>
+
+    <!-- Session row actions -->
+    <string name="drawer_row_selected">Vald</string>
+    <string name="drawer_row_not_selected">Inte vald</string>
+    <string name="drawer_row_select_action">Välj</string>
+    <string name="drawer_pin">Fäst</string>
+    <string name="drawer_unpin">Lossa</string>
+    <string name="drawer_mark_as_read">Markera som läst</string>
+    <string name="drawer_mark_as_unread">Markera som oläst</string>
+    <string name="drawer_mute">Tysta</string>
+    <string name="drawer_unmute">Slå på aviseringar</string>
+    <string name="drawer_hide">Göm</string>
+    <string name="drawer_unhide">Visa</string>
+    <string name="drawer_move_up">Flytta upp</string>
+    <string name="drawer_move_down">Flytta ner</string>
+
+    <!-- Section headers, shortcut rows and list footer -->
+    <string name="drawer_section_pinned">Fästa</string>
+    <string name="drawer_section_recents">Senaste</string>
+    <plurals name="drawer_catch_up_session_count">
+        <item quantity="one">%1$d session</item>
+        <item quantity="other">%1$d sessioner</item>
+    </plurals>
+    <string name="drawer_catch_up_open_action">Svep igenom olästa och väntande sessioner</string>
+    <string name="drawer_mark_all_read">Markera alla som lästa</string>
+    <string name="drawer_whats_new">Nyheter</string>
+    <string name="drawer_whats_new_hide">Göm</string>
+    <string name="drawer_empty_title">Inga sessioner</string>
+    <string name="drawer_empty_message">Starta en med Ny session.</string>
+    <string name="drawer_search_no_results_title">Inga resultat för ”%1$s”</string>
+    <string name="drawer_search_no_results_message">Kontrollera stavningen eller gör en ny sökning.</string>
+    <string name="drawer_load_more_description">Laddar fler sessioner</string>
+    <string name="drawer_load_more_failed">Kunde inte ladda fler sessioner</string>
+
+    <!-- Selection bar -->
+    <string name="drawer_selection_cancel_description">Avbryt val</string>
+    <plurals name="drawer_selection_count">
+        <item quantity="one">%1$d vald</item>
+        <item quantity="other">%1$d valda</item>
+    </plurals>
+    <string name="drawer_selection_more_options_description">Fler alternativ</string>
+    <plurals name="drawer_delete_sessions_title">
+        <item quantity="one">Radera %1$d session?</item>
+        <item quantity="other">Radera %1$d sessioner?</item>
+    </plurals>
+    <string name="drawer_delete_sessions_message">De tas bort från servern för alla klienter.</string>
+
+    <!-- Inbox Sidebar -->
+    <string name="drawer_inbox_needs_input">Behöver ditt svar</string>
+    <string name="drawer_inbox_working">Arbetar</string>
+    <string name="drawer_inbox_unread">Olästa</string>
+
+    <!-- Drawer button -->
+    <string name="drawer_button_open_sessions_description">Öppna sessioner</string>
+    <string name="drawer_button_attention_state">En session behöver ditt svar</string>
+    <string name="drawer_button_unread_state">Olästa sessioner</string>
+    <string name="drawer_notice_open_sessions_action">Öppna sessioner</string>
+    <string name="drawer_notice_open_session_action">Öppna sessionen</string>
+
+    <!-- Search pill -->
+    <string name="drawer_search_description">Sök sessioner</string>
+    <string name="drawer_search_cancel_description">Avbryt sökning</string>
+
+    <!-- Pin drop zone -->
+    <string name="drawer_drop_to_pin">Släpp för att fästa</string>
+
+    <!-- Server title -->
+    <string name="drawer_server_connecting_state">Ansluter</string>
+    <string name="drawer_server_edit">Redigera server…</string>
+    <string name="drawer_server_manage">Hantera servrar…</string>
+    <string name="drawer_server_reconnecting_state">Återansluter</string>
+    <string name="drawer_server_sign_in_failed">Inloggningen misslyckades</string>
+    <string name="drawer_server_offline">Offline</string>
+    <string name="drawer_server_connecting_to_state">Ansluter till %1$s</string>
+    <string name="drawer_server_show_servers_hint">Visa dina servrar</string>
+    <string name="drawer_server_offer_edit_hint">Erbjud att redigera servern</string>
+    <string name="drawer_server_offer_try_again_hint">Erbjud att försöka igen</string>
+
+    <!-- Server flow: switch-back note and server menu status -->
+    <string name="drawer_server_switched_back_title">Bytte tillbaka till %1$s</string>
+    <string name="drawer_server_timed_out_detail">%1$s svarade inte inom %2$s s</string>
+    <string name="drawer_server_unreachable_detail">Kunde inte ansluta till %1$s</string>
+    <string name="drawer_server_sign_in_failed_detail">Kunde inte logga in på %1$s</string>
+    <string name="drawer_server_pair_again">Para ihop igen</string>
+    <string name="drawer_server_menu_connected">Ansluten</string>
+    <string name="drawer_server_menu_connecting">Ansluter…</string>
+    <string name="drawer_server_menu_unreachable">Kan inte nås</string>
+
+    <!-- Row selection menu -->
+    <string name="drawer_archive">Arkivera</string>
+    <string name="drawer_unarchive">Återställ från arkivet</string>
+    <string name="drawer_open_in_new_window">Öppna i nytt fönster</string>
+
+    <!-- Session row state for TalkBack -->
+    <string name="drawer_row_pinned_state">Fäst</string>
+    <string name="drawer_row_muted_state">Tystad</string>
+    <string name="drawer_row_hidden_state">Dolda</string>
+    <string name="drawer_row_needs_input_state">Behöver ditt svar</string>
+    <string name="drawer_row_working_state">Arbetar</string>
+    <string name="drawer_row_unread_state">Oläst</string>
+    <string name="drawer_row_unsent_failed_state">Kunde inte skicka</string>
+    <string name="drawer_row_unsent_sending_state">Skickar</string>
+
+    <!-- Errors -->
+    <string name="drawer_notifications_request_error">Kunde inte begära behörighet. Försök igen.</string>
+    <string name="drawer_notifications_open_settings_error">Kunde inte öppna inställningarna. Öppna Android-inställningarna och välj Aviseringar → OpenCode.</string>
+    <string name="drawer_delete_session_error">Kunde inte radera ”%1$s”</string>
+    <plurals name="drawer_delete_sessions_error">
+        <item quantity="one">Kunde inte radera %1$d session</item>
+        <item quantity="other">Kunde inte radera %1$d sessioner</item>
+    </plurals>
+    <string name="drawer_archive_error">Kunde inte arkivera ”%1$s”</string>
+    <plurals name="drawer_archive_sessions_error">
+        <item quantity="one">Kunde inte arkivera %1$d session</item>
+        <item quantity="other">Kunde inte arkivera %1$d sessioner</item>
+    </plurals>
+    <string name="drawer_unarchive_error">Kunde inte återställa ”%1$s” från arkivet</string>
+    <plurals name="drawer_unarchive_sessions_error">
+        <item quantity="one">Kunde inte återställa %1$d session från arkivet</item>
+        <item quantity="other">Kunde inte återställa %1$d sessioner från arkivet</item>
+    </plurals>
+
+    <!-- Session activity notification -->
+    <string name="drawer_session_activity_new_session">Ny session</string>
+
+    <!-- Inbox ages and row dates -->
+    <string name="drawer_age_now">nu</string>
+    <plurals name="drawer_age_minutes">
+        <item quantity="one">%1$d min</item>
+        <item quantity="other">%1$d min</item>
+    </plurals>
+    <plurals name="drawer_age_hours">
+        <item quantity="one">%1$d h</item>
+        <item quantity="other">%1$d h</item>
+    </plurals>
+    <plurals name="drawer_age_days">
+        <item quantity="one">%1$d d</item>
+        <item quantity="other">%1$d d</item>
+    </plurals>
+    <string name="drawer_date_yesterday">I går</string>
+
+    <!-- Appearance settings transcript preview -->
+    <string name="drawer_appearance_preview_user_text">Hjälp mig förbättra sessionsvyn. Visa vad du hittar och förklara ändringarna.</string>
+    <string name="drawer_appearance_preview_assistant_text">Jag hittade layoutproblemet i `SessionView.swift`. Transkriptionen och meddelandefältet delar på den tillgängliga höjden, så tangentbordet är ett bra stresstest.</string>
+</resources>

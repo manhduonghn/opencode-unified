@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">ሼል</string>
+    <string name="server_notice_source_subagent">ንዑስ ወኪል</string>
+    <string name="server_notice_heading_finished">%1$s ተጠናቋል</string>
+    <string name="server_notice_heading_failed">%1$s አልተሳካም</string>
+    <string name="server_notice_heading_interrupted">%1$s ተቋርጧል</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$d ሼል ተጠናቋል</item>
+        <item quantity="other">%1$d ሼሎች ተጠናቀዋል</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$d ሼል አልተሳካም</item>
+        <item quantity="other">%1$d ሼሎች አልተሳኩም</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">%1$d ሼል ተቋርጧል</item>
+        <item quantity="other">%1$d ሼሎች ተቋርጠዋል</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">%1$d ንዑስ ወኪል ጨርሷል</item>
+        <item quantity="other">%1$d ንዑስ ወኪሎች ጨርሰዋል</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">%1$d ንዑስ ወኪል አልተሳካለትም</item>
+        <item quantity="other">%1$d ንዑስ ወኪሎች አልተሳካላቸውም</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">%1$d ንዑስ ወኪል ተቋርጧል</item>
+        <item quantity="other">%1$d ንዑስ ወኪሎች ተቋርጠዋል</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">የታመቀ</string>
+    <string name="server_run_error_action_switch_model">ሞዴል ቀይር</string>
+    <string name="server_run_error_aborted">የተቋረጠ</string>
+    <string name="server_run_error_permission_rejected">ጥያቄው ከተከለከለ በኋላ ተቋርጧል</string>
+    <string name="server_run_error_content_filter">የደህንነት ማጣሪያው ምላሹን አግዶታል</string>
+    <string name="server_run_error_rate_limit">የጥያቄዎች ፍጥነት ገደብ ላይ ደርሷል</string>
+    <string name="server_run_error_quota">የአጠቃቀም ገደብ ላይ ደርሷል</string>
+    <string name="server_run_error_auth">አቅራቢው ቁልፉን አልተቀበለም</string>
+    <string name="server_run_error_context_overflow">ክፍለ ጊዜው ለዚህ ሞዴል በጣም ረጅም ነው</string>
+    <string name="server_run_error_invalid_request">አቅራቢው ጥያቄውን አልተቀበለም</string>
+    <string name="server_run_error_overloaded">በሞዴሉ ላይ ከፍተኛ ጫና አለ</string>
+    <string name="server_run_error_internal">በአቅራቢው በኩል ችግር ተፈጥሯል</string>
+    <string name="server_run_error_transport">ከሞዴሉ ጋር ያለው ግንኙነት ተቋርጧል</string>
+    <string name="server_run_error_timeout">ሞዴሉ ለመመለስ ብዙ ጊዜ ወስዷል</string>
+    <string name="server_run_error_invalid_output">የሞዴሉን ምላሽ ማንበብ አልተቻለም</string>
+    <string name="server_run_error_unavailable">ይህ ሞዴል አይገኝም</string>
+    <string name="server_run_error_unsupported_operation">ይህ ሞዴል ያንን ማድረግ አይችልም</string>
+    <string name="server_run_error_tool_execution">መሳሪያ ስላልተሳካ ሂደቱ ቆሟል</string>
+    <string name="server_run_error_other">ሂደቱ በስህተት ቆሟል</string>
+    <string name="server_run_retry_in_seconds">%1$s · ከ%2$d ሰከንድ በኋላ እንደገና ይሞክራል</string>
+    <string name="server_run_retry_now">%1$s · እንደገና በመሞከር ላይ</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">የOpenCode አገልጋይን ማግኘት አልተቻለም</string>
+    <string name="server_error_folder_gone">አቃፊው ከእንግዲህ የለም</string>
+    <string name="server_error_uploads_unsupported">ይህ አገልጋይ ፋይሎችን ማያያዝ አይደግፍም። በኮምፒውተርዎ ላይ OpenCodeን ያዘምኑ።</string>
+    <string name="server_error_archiving_unsupported">ይህ አገልጋይ በማህደር ማስቀመጥን አይደግፍም። በኮምፒውተርዎ ላይ OpenCodeን ያዘምኑ።</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode በአካባቢዎ አውታረ መረብ ያሉ መሣሪያዎችን እንዲያገኝ አልተፈቀደለትም። በቅንብሮች ውስጥ ለOpenCode በአቅራቢያ ያሉ መሣሪያዎችን ፈቃድ ያብሩ፣ ከዚያ እንደገና ይሞክሩ።</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">ርዕስ የሌለው ክፍለ ጊዜ</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">ሼል</string>
+    <string name="server_tool_shell_killed">ሼሉ በግድ ተቋርጧል</string>
+    <string name="server_tool_shell_exit_code">ትዕዛዙ በኮድ %1$d ተጠናቋል</string>
+    <string name="server_notice_session_update">የክፍለ ጊዜ ዝማኔ</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">ግንኙነቱ አልተሳካም</string>
+    <string name="server_connection_resolved_address_unknown">የተገኘው አድራሻ፦ ያልታወቀ</string>
+    <string name="server_connection_resolved_address">የተገኘው አድራሻ (ከብልሽቱ በኋላ የተፈለገ)፦ %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">ይህ የtailnet ስም ከTailscale ክልል ውጭ ያለ አድራሻ ሰጥቷል፣ ስለዚህ Tailscale DNS በጥቅም ላይ ላይሆን ይችላል። በTailscale መተግበሪያ ውስጥ የTailscale DNS ቅንብሮችን መጠቀም ያብሩ፣ የግል DNSን ወይም DNSን የሚቀይር ማንኛውንም የVPN መገለጫ ያጥፉ።</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">አካባቢያዊ አውታረ መረብ</string>
+    <string name="server_connection_route_loopback">ወደ ራስ ግንኙነት</string>
+    <string name="server_connection_route_internet">በይነመረብ</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">የድር አድራሻ አይደለም</string>
+    <string name="server_pairing_origin_bad_scheme">በhttp:// ወይም https:// አይጀምርም</string>
+    <string name="server_pairing_origin_no_host">የአስተናጋጅ ስም የለውም</string>
+    <string name="server_pairing_origin_credentials">የተጠቃሚ ስም ወይም የይለፍ ቃል ይዟል</string>
+    <string name="server_pairing_origin_query">የመጠይቅ ክፍል ወይም ቁራጭ ይዟል</string>
+    <string name="server_pairing_origin_port">ከ1–65535 ክልል ውጭ የሆነ ወደብ አለው</string>
+    <string name="server_pairing_origin_path">ዱካ ይዟል፣ አገልጋዩ ግን በአድራሻው ሥር መሆን አለበት</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">አገልጋይ</string>
+    <string name="server_friendly_name_numbered">አገልጋይ %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">መልእክቱ ከተላከ በኋላ ግንኙነቱ ተቋርጧል፣ ስለዚህ መልእክቱ ደርሶ ሊሆን ይችላል።</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">ይህ ውህደት የመግቢያ ዘዴ የለውም።</string>
+    <string name="server_error_sign_in_url_invalid">የመግቢያ ገጹ አድራሻ ትክክል አይደለም።</string>
+    <string name="server_error_load_server_details">የአገልጋዩን ዝርዝሮች መጫን አልተቻለም</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">ይህ የማጣመሪያ ኮድ ጊዜው አልፏል ወይም አስቀድሞ ጥቅም ላይ ውሏል። `opencode pair --remote` እንደገና አሂድ።</string>
+    <string name="server_error_pairing_unsupported">ይህ አገልጋይ የማጣመሪያ አገናኞችን አይደግፍም። በኮምፒውተርህ ላይ OpenCodeን አዘምን ወይም አገልጋዩን በእጅ አስገባ።</string>
+    <string name="server_error_notification_previews_need_https">የተመሰጠሩ የማሳወቂያ ቅድመ እይታዎች የHTTPS አገልጋይ ግንኙነት ይፈልጋሉ።</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">ትክክለኛ የHTTP ወይም HTTPS አገልጋይ URL አስገባ።</string>
+    <string name="server_error_credentials_rejected">አገልጋዩ እነዚህን የመግቢያ መረጃዎች አልተቀበለም።</string>
+    <string name="server_error_http_status">አገልጋዩ HTTP %1$d መልሷል።</string>
+    <string name="server_error_event_stream_http">የክስተት ፍሰቱ HTTP %1$d መልሷል።</string>
+    <string name="server_error_event_stream_oversized_frame">የክስተት ፍሰቱ ከመጠን በላይ ትልቅ የውሂብ ክፍል ልኳል።</string>
+    <string name="server_error_event_stream_ended">የክስተት ፍሰቱ ተጠናቋል።</string>
+    <string name="server_error_event_stream_server_failure">የክስተት ፍሰቱ የአገልጋይ ብልሽት እንዳለ አሳውቋል።</string>
+    <string name="server_tool_failed">መሳሪያው አልተሳካም</string>
+    <string name="server_error_list_folder">አገልጋዩ የዚህን አቃፊ ይዘት መዘርዘር አልቻለም</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">ፕሮጀክቶችንና ክፍለ ጊዜዎችን መጫን አልተቻለም</string>
+    <string name="server_error_load_session_family">ተዛማጅ ክፍለ ጊዜዎችን መጫን አልተቻለም</string>
+    <string name="server_error_update_session">ክፍለ ጊዜውን ማዘመን አልተቻለም</string>
+    <string name="server_error_load_session_ancestry">የንቁውን ክፍለ ጊዜ መነሻ ክፍለ ጊዜዎች መጫን አልተቻለም</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">አስቀድሞ በሌላ ቦታ ተመልሷል</string>
+    <string name="server_request_already_dismissed">አስቀድሞ ውድቅ ተደርጓል</string>
+    <string name="server_request_already_answered">አስቀድሞ ተመልሷል</string>
+    <string name="server_request_already_dismissed_elsewhere">አስቀድሞ በሌላ ቦታ ውድቅ ተደርጓል</string>
+    <string name="server_request_no_longer_waiting">ከእንግዲህ አይጠብቅም</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">ሚዲያው አይገኝም</string>
+    <string name="server_pasted_text_title">የተለጠፈ ጽሑፍ</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d መስመር · %2$s</item>
+        <item quantity="other">%1$d መስመሮች · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d መስመር</item>
+        <item quantity="other">%1$d መስመሮች</item>
+    </plurals>
+    <string name="server_file_size_zero">ዜሮ KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d ባይት</item>
+        <item quantity="other">%1$d ባይቶች</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">ፕሮጀክት</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">ፋይል</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">ይህን ደረጃ አጠናቅቅ</string>
+    <string name="server_form_required">ያስፈልጋል</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">ቢያንስ %1$d ቁምፊ አስገባ</item>
+        <item quantity="other">ቢያንስ %1$d ቁምፊዎች አስገባ</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">ከ%1$d ቁምፊ በላይ አታስገባ</item>
+        <item quantity="other">ከ%1$d ቁምፊዎች በላይ አታስገባ</item>
+    </plurals>
+    <string name="server_form_invalid_format">ልክ ያልሆነ ቅርጸት</string>
+    <string name="server_form_choose_option">ካሉት አማራጮች ምረጥ</string>
+    <string name="server_form_invalid_email">ትክክለኛ የኢሜይል አድራሻ አስገባ</string>
+    <string name="server_form_invalid_url">ትክክለኛ URL አስገባ</string>
+    <string name="server_form_invalid_date">ቀን በYYYY-MM-DD ቅርጸት አስገባ</string>
+    <string name="server_form_invalid_date_time">ትክክለኛ ቀንና ሰዓት አስገባ</string>
+    <string name="server_form_minimum">ቢያንስ %1$s መሆን አለበት</string>
+    <string name="server_form_maximum">ከ%1$s መብለጥ የለበትም</string>
+    <string name="server_form_whole_number">ሙሉ ቁጥር አስገባ</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">ቢያንስ %1$d ምረጥ</item>
+        <item quantity="other">ቢያንስ %1$d ምረጥ</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">ከ%1$d በላይ አትምረጥ</item>
+        <item quantity="other">ከ%1$d በላይ አትምረጥ</item>
+    </plurals>
+    <string name="server_form_invalid_value">ልክ ያልሆነ እሴት</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">የተመረጡትን ደብቅ</string>
+    <string name="server_model_visibility_only_show">የተመረጡትን ብቻ አሳይ</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">ጠፍቷል</string>
+    <string name="server_model_variant_extra_high">እጅግ ከፍተኛ</string>
+    <string name="server_model_variant_max">ከፍተኛው</string>
+    <string name="server_delivery_steering">አቅጣጫ መስጠት</string>
+    <string name="server_delivery_queued">ወረፋ ላይ</string>
+</resources>

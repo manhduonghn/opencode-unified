@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Call ended and failure cards -->
+    <string name="voice_call_ended_title">Qo‘ng‘iroq tugadi</string>
+    <string name="voice_call_ended_rejoin">Qayta qo‘shilish</string>
+    <string name="voice_failure_title">Ovozga ulanib bo‘lmadi</string>
+    <string name="voice_failure_check_api_key">API kalitini tekshirish</string>
+    <string name="voice_failure_start_title">Qo‘ng‘iroqni boshlab bo‘lmadi</string>
+
+    <!-- Floating call -->
+    <string name="voice_floating_expand">Kengaytirish</string>
+    <string name="voice_floating_orb_description">Ovozli qo‘ng‘iroq</string>
+    <string name="voice_floating_orb_show_controls">Qo‘ng‘iroq boshqaruvlarini ko‘rsatish</string>
+    <string name="voice_floating_end_description">Ovozli qo‘ng‘iroqni tugatish</string>
+    <string name="voice_floating_control_placeholder_state">Bu prototipda mavjud emas</string>
+    <string name="voice_floating_duration_description">Qo‘ng‘iroq davomiyligi</string>
+
+    <!-- Floating call stage -->
+    <string name="voice_stage_talking_in">Suhbat sessiyasi</string>
+    <string name="voice_stage_minimize_description">Kichraytirish</string>
+    <string name="voice_mute">Ovozni o‘chirish</string>
+    <string name="voice_unmute">Ovozni yoqish</string>
+    <string name="voice_stage_pause">Pauza</string>
+    <string name="voice_stage_camera">Kamera</string>
+    <string name="voice_transcript_empty">Sessiyangizga biror narsa ayting.</string>
+    <string name="voice_transcript_you">Siz</string>
+    <string name="voice_transcript_user_line_description">Siz: %1$s</string>
+
+    <!-- Call rows: screen request -->
+    <string name="voice_screen_request_detail">Ovoz ekraningizni ko‘rmoqchi</string>
+    <string name="voice_screen_request_spoken">Javobingiz kerak. Ovoz ekraningizni ko‘rmoqchi</string>
+    <string name="voice_screen_request_spoken_with_reason">Javobingiz kerak. Ovoz ekraningizni ko‘rmoqchi. %1$s</string>
+    <string name="voice_screen_request_title">Ekran ulashilsinmi?</string>
+
+    <!-- Call rows: open link -->
+    <string name="voice_open_link_spoken">Javobingiz kerak. %1$s</string>
+    <string name="voice_open_link_spoken_with_host">Javobingiz kerak. %1$s %2$s</string>
+    <string name="voice_open_link_open">Ochiq</string>
+
+    <!-- Call rows: audio on the call -->
+    <string name="voice_audio_paused">Pauzada</string>
+    <string name="voice_audio_playing">Qo‘ng‘iroqda ijro etilmoqda</string>
+    <string name="voice_audio_play">Audioni ijro etish</string>
+    <string name="voice_audio_pause">Audioni pauzalash</string>
+    <string name="voice_audio_stop">Audioni to‘xtatish</string>
+
+    <!-- Call history -->
+    <string name="voice_call_history_title">Qo‘ng‘iroqlar tarixi</string>
+    <string name="voice_call_history_options_description">Tarix variantlari</string>
+    <string name="voice_call_history_delete_all">Barchasini o‘chirish</string>
+    <string name="voice_call_history_empty_title">Hali ovozli qo‘ng‘iroqlar yo‘q</string>
+    <string name="voice_call_history_empty_message">Qayta tinglashingiz uchun qo‘ng‘iroqlar bu telefonda saqlanadi.</string>
+    <string name="voice_call_history_delete_all_confirm_title">Barcha ovozli qo‘ng‘iroqlar o‘chirilsinmi?</string>
+
+    <!-- Call replay -->
+    <string name="voice_replay_timeline_description">Qo‘ng‘iroq vaqt jadvali</string>
+    <string name="voice_replay_timeline_state">%2$s dan %1$s</string>
+    <string name="voice_replay_pause">Pauza</string>
+    <string name="voice_replay_play">Ijro etish</string>
+    <string name="voice_replay_position_description">Ijro nuqtasi</string>
+    <string name="voice_replay_speed_description">Ijro tezligi</string>
+    <string name="voice_replay_empty">Qo‘ng‘iroqni qayta tinglash uchun ijro tugmasini bosing.</string>
+
+    <!-- Call notification -->
+    <string name="voice_notification_channel_name">Qo‘ng‘iroqlar</string>
+    <string name="voice_notification_channel_description">Davom etayotgan OpenCode qo‘ng‘iroqlari</string>
+    <string name="voice_notification_connecting">Ulanmoqda…</string>
+    <string name="voice_notification_reconnecting">Qayta ulanmoqda…</string>
+    <string name="voice_notification_call_ended">Qo‘ng‘iroq tugadi</string>
+    <string name="voice_notification_end">Tugatish</string>
+    <!-- Call status caption -->
+    <string name="voice_status_connecting_via">%1$s orqali ulanmoqda…</string>
+    <string name="voice_status_weak_connection">Ulanish zaif</string>
+    <string name="voice_status_paused">Pauzada</string>
+    <string name="voice_status_needs_input">Javobingiz kerak</string>
+    <string name="voice_status_working">Bajarilmoqda</string>
+    <string name="voice_status_speaking">Gapirmoqda</string>
+    <string name="voice_status_muted">Ovoz o‘chirilgan</string>
+    <string name="voice_status_listening">Tinglamoqda</string>
+    <string name="voice_status_ending">Tugatilmoqda…</string>
+    <string name="voice_status_ended">Tugadi</string>
+    <string name="voice_session_new_title">Yangi sessiya</string>
+    <string name="voice_call_note_builtin_fallback">Bu qo‘ng‘iroqda ichki ish topshiruvchi ishlatilmoqda</string>
+
+    <!-- Floating call tag and spoken length -->
+    <string name="voice_floating_now_talking_in">Hozir %1$s sessiyasida suhbatlashilmoqda</string>
+    <string name="voice_floating_spoken_duration">%1$s, %2$s</string>
+    <plurals name="voice_floating_spoken_minutes">
+        <item quantity="one">%1$d daqiqa</item>
+        <item quantity="other">%1$d daqiqa</item>
+    </plurals>
+    <plurals name="voice_floating_spoken_seconds">
+        <item quantity="one">%1$d soniya</item>
+        <item quantity="other">%1$d soniya</item>
+    </plurals>
+
+    <!-- Voice providers -->
+    <string name="voice_provider_state_ready">Tayyor</string>
+    <string name="voice_provider_state_no_key">Kalit yo‘q</string>
+    <string name="voice_provider_state_needs_update">OpenCode’ni yangilash</string>
+    <string name="voice_provider_state_offline">Oflayn</string>
+    <string name="voice_provider_place_phone">Bu telefon</string>
+    <string name="voice_provider_brand_openai_account">OpenAI hisobingiz</string>
+    <string name="voice_provider_name">%2$sdagi %1$s</string>
+    <string name="voice_provider_subtitle">%1$sda</string>
+    <string name="voice_provider_key_row_title">%1$s kaliti</string>
+    <string name="voice_provider_key_placeholder">%1$s API kaliti</string>
+
+    <!-- Voice key source -->
+    <string name="voice_key_source_server_row_title">Serveringizdagi kalit</string>
+    <string name="voice_key_source_phone_footer">Qo‘ng‘iroqlarda shaxsiy OpenAI yoki xAI kalitingiz ishlatiladi.</string>
+    <string name="voice_key_source_server_footer">Qo‘ng‘iroqlarda serveringizdagi %1$s kaliti ishlatiladi.</string>
+    <string name="voice_key_source_opencode_footer">Qo‘ng‘iroq haqi OpenCode Console ish maydoningiz hisobidan olinadi.</string>
+
+    <!-- Call failure fixes and diagnosis -->
+    <string name="voice_fix_set_up_on_phone">Bu telefonda sozlash</string>
+    <string name="voice_fix_choose_provider">Provayderni tanlang</string>
+    <string name="voice_fix_update_opencode">OpenCode’ni yangilash</string>
+    <string name="voice_diagnosis_needs_update">%1$s uchun ovozli qo‘ng‘iroqlarga OpenCode’ning yangiroq versiyasi kerak.</string>
+    <string name="voice_diagnosis_your_server_needs_update">Serveringizda ovozli qo‘ng‘iroqlar uchun OpenCode’ning yangiroq versiyasi kerak.</string>
+    <string name="voice_diagnosis_no_key">%1$sda ovozli qo‘ng‘iroqlar uchun kalit yo‘q.</string>
+    <string name="voice_diagnosis_your_server_no_key">Serveringizda ovozli qo‘ng‘iroqlar uchun kalit yo‘q.</string>
+    <string name="voice_diagnosis_unreachable">%1$s bilan ulanib bo‘lmadi.</string>
+    <string name="voice_diagnosis_your_server_unreachable">Serveringizga ulanib bo‘lmadi.</string>
+    <string name="voice_diagnosis_failed">%1$s qo‘ng‘iroqni boshlay olmadi.</string>
+    <string name="voice_diagnosis_your_server_failed">Serveringiz qo‘ng‘iroqni boshlay olmadi.</string>
+    <string name="voice_diagnosis_key_rejected">OpenAI bu telefondagi kalitni qabul qilmadi.</string>
+    <string name="voice_diagnosis_missing_phone_key">Bu telefondan qo‘ng‘iroq qilish uchun %1$s API kalitingizni qo‘shing.</string>
+
+    <!-- Call errors -->
+    <string name="voice_error_microphone_denied">Sessiyangiz bilan gaplashish uchun sozlamalarda mikrofonga ruxsat bering.</string>
+    <string name="voice_error_audio_format_unavailable">Audio qurilma formati qo‘llab-quvvatlanmaydi.</string>
+    <string name="voice_error_audio_engine_rejected">Qo‘ng‘iroq ovozini ishga tushirib bo‘lmadi. Birozdan so‘ng qayta urinib ko‘ring.</string>
+    <string name="voice_error_server_unsupported">Bu serverda ovozli qo‘ng‘iroqlar uchun OpenCode’ning yangiroq versiyasi kerak</string>
+    <string name="voice_error_invalid_server_url">Ovozni ishga tushirib bo‘lmadi: To‘g‘ri HTTP yoki HTTPS server URL manzilini kiriting.</string>
+    <string name="voice_error_invalid_response">Ovozni ishga tushirib bo‘lmadi: Server yaroqsiz javob qaytardi.</string>
+    <string name="voice_error_start_voice_detail">Ovozni ishga tushirib bo‘lmadi: %1$s</string>
+    <string name="voice_error_start_voice_http">Ovozni ishga tushirib bo‘lmadi (HTTP %1$d).</string>
+    <string name="voice_error_openai_rejected_key">OpenAI API kalitini rad etdi.</string>
+    <string name="voice_error_openai_verify_http">OpenAI bu kalitni tekshira olmadi (HTTP %1$d).</string>
+    <string name="voice_error_no_connection">Ulanish yo‘q.</string>
+    <string name="voice_error_model_address_invalid">Ovoz modeli manzili yaroqsiz.</string>
+    <string name="voice_error_xai_rejected_key">xAI API kalitini rad etdi.</string>
+    <string name="voice_error_xai_verify_http">xAI bu kalitni tekshira olmadi (HTTP %1$d).</string>
+    <string name="voice_error_xai_key_disabled">Bu xAI API kaliti o‘chirilgan.</string>
+    <string name="voice_error_xai_key_blocked">Bu xAI API kaliti bloklangan.</string>
+    <string name="voice_error_service_address_invalid">Ovoz xizmati manzili yaroqsiz.</string>
+    <string name="voice_error_connection_lost">Ovozli ulanish uzildi.</string>
+    <string name="voice_error_connection_closed">Ovozli ulanish yopilgan.</string>
+    <string name="voice_error_connection_setup">Ovozli ulanishni o‘rnatib bo‘lmadi.</string>
+    <string name="voice_error_safety_filter">Xavfsizlik filtri ovozli qo‘ng‘iroqni tugatdi.</string>
+    <string name="voice_error_audio_reset">Tizim audioni qayta tikladi. Qo‘ng‘iroqni qayta boshlang.</string>
+    <string name="voice_error_missing_phone_key">Ovozdan foydalanish uchun sozlamalarda %1$s API kalitingizni qo‘shing.</string>
+
+    <!-- Voice accents -->
+    <string name="voice_accent_australian_english">Avstraliya inglizchasi</string>
+    <string name="voice_accent_british_english">Britaniya inglizchasi</string>
+    <string name="voice_accent_irish_english">Irlandiya inglizchasi</string>
+    <string name="voice_accent_north_american_english">Shimoliy Amerika inglizchasi</string>
+    <string name="voice_accent_brazilian_portuguese">Braziliya portugalchasi</string>
+    <string name="voice_accent_filipino_english">Filippin inglizchasi</string>
+    <string name="voice_accent_southern_us_english">AQSh janubi inglizchasi</string>
+    <string name="voice_accent_indian_english">Hindiston inglizchasi</string>
+    <string name="voice_preview_error">Namunani ijro etib bo‘lmadi</string>
+
+    <!-- Call sound packs -->
+    <string name="voice_sound_pack_breath_ping">Nafas jarangi</string>
+    <string name="voice_sound_pack_crystal_glass">Billur shisha</string>
+    <string name="voice_sound_pack_warm_analog">Iliq analog</string>
+    <string name="voice_sound_pack_aurora_pulse">Qutb yog‘dusi zarbi</string>
+    <string name="voice_sound_pack_velvet_bell">Mayin qo‘ng‘iroq</string>
+    <string name="voice_sound_pack_silent">Ovozsiz</string>
+
+    <!-- Open link card -->
+    <string name="voice_open_link_card_title_untitled">Havola ochilsinmi?</string>
+    <string name="voice_open_link_card_title">%1$s ochilsinmi?</string>
+
+    <!-- Delegator choice -->
+    <string name="voice_delegator_session_fallback">Sessiya</string>
+    <string name="voice_delegator_unavailable_gemini">Gemini Live vazifani to‘g‘ridan-to‘g‘ri ekrandagi sessiyaga topshiradi. OpenCode sessiyasidan foydalanish uchun OpenAI ovoz provayderini tanlang.</string>
+    <string name="voice_delegator_unavailable_engine">%1$s vazifani to‘g‘ridan-to‘g‘ri ekrandagi sessiyaga topshiradi. OpenCode sessiyasidan foydalanish uchun ovoz modelini GPT-Live ga almashtiring.</string>
+
+    <!-- Call log list and replay -->
+    <string name="voice_call_log_duration_seconds">%1$d son</string>
+    <string name="voice_call_log_duration_minutes">%1$d daq %2$d son</string>
+    <string name="voice_replay_to_delegator">→ Ish topshiruvchi</string>
+    <string name="voice_replay_to_voice">→ Ovoz</string>
+    <string name="voice_replay_audio">Audio</string>
+    <string name="voice_replay_track_user">Siz</string>
+    <string name="voice_replay_track_voice">Ovoz</string>
+    <string name="voice_replay_track_delegator">Ish topshiruvchi</string>
+    <string name="voice_replay_track_tools">Vositalar</string>
+</resources>

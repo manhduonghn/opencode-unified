@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">साझा गरिएका सामग्री थप्न सकिएन</string>
+    <string name="app_alert_open_session_failed_title">सत्र खोल्न सकिएन</string>
+    <string name="app_alert_pairing_failed_title">सर्भरसँग जोड्न सकिएन</string>
+    <string name="app_pairing_confirm">जोड्नुहोस्</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">सर्भरहरू</string>
+    <string name="app_servers_back_description">%1$s मा फर्कनुहोस्</string>
+    <string name="app_server_fallback_name">सर्भर</string>
+    <string name="app_connection_intro_new">आफ्नो %1$s बाट कोडिङ सत्रहरू जारी राख्नुहोस्।</string>
+    <string name="app_connection_intro_returning">छोडेकै ठाउँबाट जारी राख्नुहोस् वा अर्को कम्प्युटर जोड्नुहोस्।</string>
+    <string name="app_connection_enter_manually">सर्भर आफैँ प्रविष्ट गर्नुहोस्</string>
+    <string name="app_connection_scan_pairing_code">जोड्ने कोड स्क्यान गर्नुहोस्</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">आफ्नो कम्प्युटरमा OpenCode खोलेर सेटिङहरू → जोड्ने मा जानुहोस् वा टर्मिनलमा opencode pair --remote चलाउनुहोस्। त्यसपछि यो %1$s बाट कोड स्क्यान गर्नुहोस्।</string>
+    <string name="app_setup_install_title">अझै OpenCode छैन?</string>
+    <string name="app_setup_other_ways_to_install">स्थापना गर्ने अन्य तरिका</string>
+    <string name="app_setup_terminal_title">वा टर्मिनलमा यो चलाउनुहोस्</string>
+    <string name="app_setup_terminal_detail">यो जुनसुकै नेटवर्कबाट चल्छ।</string>
+    <string name="app_setup_paste_prompt">वा यसले देखाउने लिङ्क प्रतिलिपि गरेर</string>
+    <string name="app_setup_paste">टाँस्नुहोस्</string>
+    <string name="app_setup_copy_command_description">%1$s प्रतिलिपि गर्नुहोस्</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">जडान गर्दै</string>
+    <string name="app_servers_edit_description">%1$s सम्पादन गर्नुहोस्</string>
+    <string name="app_servers_remove_description">%1$s हटाउनुहोस्</string>
+    <string name="app_servers_remove_confirm_title">%1$s हटाउने?</string>
+    <string name="app_servers_remove_confirm_message">यसले यो %1$s मा बचत भएको ठेगाना र पासवर्ड हटाउँछ। सर्भरका सत्रहरूमा असर पर्दैन।</string>
+    <string name="app_servers_remove_confirm">सर्भर हटाउनुहोस्</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">चरण: %1$s</string>
+    <string name="app_error_server">सर्भर: %1$s</string>
+    <string name="app_error_attempt">प्रयास: %1$d</string>
+    <string name="app_error_copy_report">त्रुटि रिपोर्ट प्रतिलिपि गर्नुहोस्</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">नयाँ सर्भर</string>
+    <string name="app_server_form_edit_title">सर्भर सम्पादन गर्नुहोस्</string>
+    <string name="app_server_form_name">नाम</string>
+    <string name="app_server_form_address">सर्भर ठेगाना</string>
+    <string name="app_server_form_username">प्रयोगकर्ता नाम</string>
+    <string name="app_server_form_password">पासवर्ड (वैकल्पिक)</string>
+    <string name="app_server_form_hide_password_description">पासवर्ड लुकाउनुहोस्</string>
+    <string name="app_server_form_show_password_description">पासवर्ड देखाउनुहोस्</string>
+    <string name="app_server_form_connect">जडान गर्नुहोस्</string>
+    <string name="app_server_form_save_and_connect">बचत गरेर जडान गर्नुहोस्</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">हेडरहरू</string>
+    <string name="app_server_form_header_name">नाम</string>
+    <string name="app_server_form_header_name_description">हेडर %1$d को नाम</string>
+    <string name="app_server_form_header_value">मान</string>
+    <string name="app_server_form_header_value_description">हेडर %1$d को मान</string>
+    <string name="app_server_form_header_remove_description">हेडर %1$d हटाउनुहोस्</string>
+    <string name="app_server_form_header_add">हेडर थप्नुहोस्</string>
+    <string name="app_server_form_headers_detail">सर्भरअगाडि रहेको Cloudflare Access जस्तो प्रोक्सीका लागि हरेक अनुरोधसँग पठाइन्छ।</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">“%1$s” मान्य हेडर नाम होइन</string>
+    <string name="app_server_form_header_invalid_value">%1$s को मानमा लाइन ब्रेक राख्न मिल्दैन</string>
+    <string name="app_server_form_name_placeholder">वैकल्पिक</string>
+    <string name="app_connection_progress_pairing">जोड्दै</string>
+    <string name="app_connection_progress_connecting">जडान गर्दै</string>
+    <string name="app_connection_progress_loading_sessions">सत्रहरू लोड गर्दै</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">%1$s सँग जोड्ने?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode ले %1$s मा प्रयास गर्नेछ र पहिले जवाफ दिने ठेगानामा सर्नेछ।</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode ले %1$s सँग जोडेर त्यसमा सर्नेछ।</string>
+    <string name="app_pairing_confirm_try_two">OpenCode ले %1$s र %2$s मा प्रयास गर्नेछ र पहिले जवाफ दिने ठेगानामा सर्नेछ।</string>
+    <string name="app_pairing_confirm_try_many">OpenCode ले %1$s र %2$s मा प्रयास गर्नेछ र पहिले जवाफ दिने ठेगानामा सर्नेछ।</string>
+    <string name="app_pairing_confirm_replaces">%1$s %2$s का बचत गरिएका लगइन विवरणहरू बदलिन सक्छन्।</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">जोड्ने</string>
+    <string name="app_error_phase_connect">जडान गर्नुहोस्</string>
+    <string name="app_error_phase_load_sessions">सत्रहरू लोड गर्नुहोस्</string>
+    <string name="app_error_candidate_detail">विकल्प %1$d: %2$s</string>
+    <string name="app_error_invalid_address">उपलब्ध छैन (अवैध ठेगाना)</string>
+    <string name="app_error_title_pair">जोड्न सकिएन</string>
+    <string name="app_error_title_load_sessions">सत्रहरू लोड गर्न सकिएन</string>
+    <string name="app_error_title_connect">%1$s सँग जडान गर्न सकिएन</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">तपाईंको क्लिपबोर्ड खाली छ</string>
+    <string name="app_paste_not_a_pairing_link">त्यो जोड्ने लिङ्क होइन</string>
+    <string name="app_server_no_longer_saved">यो सर्भर अब यो %1$s मा सुरक्षित छैन। सत्र खोल्न फेरि जडान गर्नुहोस्।</string>
+    <string name="app_session_no_longer_available">यो मेटाइएको हुन सक्छ, वा सर्भर उपलब्ध नहुन सक्छ।</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">%1$s सँग जडान भयो</string>
+    <string name="app_pairing_invalid_code">त्यो OpenCode को जोड्ने कोड होइन। कम्प्युटरमा opencode pair --remote चलाउनुहोस्, अनि त्यसको QR कोड स्क्यान गर्नुहोस् वा त्यसले देखाएको लिङ्क टाँस्नुहोस्।</string>
+    <string name="app_pairing_unusable_address">यो जोड्ने कोडको “%1$s” प्रयोग गर्न सकिएन: यो %2$s।</string>
+    <string name="app_pairing_loopback">त्यो सर्भर localhost मा मात्र चल्छ, त्यसैले यो %1$s बाट जडान हुन सक्दैन। यसको सट्टा कम्प्युटरमा opencode pair --remote चलाउनुहोस्, जुन कुनै पनि नेटवर्कबाट चल्छ।</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">तपाईंले साझा गरेको सर्भर अब यो उपकरणमा सुरक्षित छैन। त्यसमा फेरि जडान गरेर पुनः साझा गर्नुहोस्।</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">पछिल्लो प्रयोग</string>
+    <string name="app_server_form_hint_new">जोड्न `opencode pair --remote` ले देखाएको लिङ्क टाँस्नुहोस्, वा तपाईंको OpenCode सर्भरको ठेगाना र पासवर्ड प्रयोग गर्नुहोस्। प्रयोगकर्ता नाम प्रायः opencode हुन्छ।</string>
+    <string name="app_server_form_hint_edit_paired">यो सर्भर जडान भएपछि परिवर्तनहरू सुरक्षित हुन्छन्। यो सर्भर कोडबाट जोडिएको थियो, त्यसैले यसको पासवर्ड सत्र टोकन हो; यसलाई बदल्नुको सट्टा नयाँ जोड्ने कोड स्क्यान गर्नुहोस्।</string>
+    <string name="app_server_form_hint_edit">यो सर्भर जडान भएपछि परिवर्तनहरू सुरक्षित हुन्छन्।</string>
+</resources>

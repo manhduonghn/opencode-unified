@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">Mynd</string>
+    <string name="media_image_load_failed">Kundi ikki heinta myndina</string>
+    <string name="media_unavailable">Miðlar ikki tøkir</string>
+    <string name="media_try_again_label">Royn aftur</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">Miðlavísari</string>
+    <string name="media_viewer_save_to_photos_description">Goym í Myndir</string>
+    <string name="media_file_viewer_screen_title">Skráarvísari</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d av %3$d</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">Tekna á mynd</string>
+    <string name="media_drawing_undo_description">Angra</string>
+    <string name="media_drawing_add_to_prompt_description">Legg afturat boðnum</string>
+    <string name="media_drawing_canvas_description">Teknifløta</string>
+    <string name="media_drawing_discard_title">Vraka tekningina?</string>
+    <string name="media_drawing_discard_confirm">Vraka tekningina</string>
+    <string name="media_drawing_keep">Tekna víðari</string>
+    <string name="media_drawing_add_failed_title">Kundi ikki leggja tekning afturat</string>
+    <string name="media_drawing_flatten_failed">Kundi ikki gera myndina. Royn aftur.</string>
+    <string name="media_drawing_prompt_unavailable">Boðini í hesi setuni kunnu ikki taka við viðheftum júst nú.</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">Hvítt</string>
+    <string name="media_drawing_ink_black">Svart</string>
+    <string name="media_drawing_ink_red">Reytt</string>
+    <string name="media_drawing_ink_yellow">Gult</string>
+    <string name="media_drawing_ink_green">Grønt</string>
+    <string name="media_drawing_ink_blue">Blátt</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">Zoomað inn</string>
+    <string name="media_zoom_out_label">Zooma út</string>
+    <string name="media_zoom_in_label">Zooma inn</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">Steðga fyribils</string>
+    <string name="media_player_play">Spæl</string>
+    <string name="media_player_position_description">Stað í avspælingini</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">Kundi ikki spæla sjónband</string>
+    <string name="media_video_position_description">Stað í sjónbandinum</string>
+    <string name="media_video_capture_failed_title">Kundi ikki taka mynd</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">Vís forskoðan</string>
+    <string name="media_file_show_source_description">Vís keldu</string>
+    <string name="media_file_unwrap_lines_description">Ikki umbróta linjur</string>
+    <string name="media_file_wrap_lines_description">Umbrót linjur</string>
+    <string name="media_file_start_pip_description">Byrja mynd í mynd</string>
+    <string name="media_file_opening">Opnar…</string>
+    <string name="media_file_share_failed_title">Kundi ikki deila skránna</string>
+    <string name="media_file_share_downloading_description">Tekur niður at deila</string>
+    <string name="media_file_confirm_large_message">Henda skráin er %1$s. Vilt tú taka hana niður og vísa hana á hesum tólinum?</string>
+    <string name="media_file_download">Tak niður</string>
+    <string name="media_file_open_in_another_app">Opna í øðrum forriti</string>
+    <string name="media_file_no_app_message">Einki forrit á hesum tólinum kann opna hesa skránna. Deil hana fyri at goyma hana ella senda hana aðrastaðni.</string>
+    <string name="media_file_pdf_page_description">Síða %1$d av %2$d</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">Skráin varð ikki funnin</string>
+    <string name="media_file_error_open_failed_title">Kundi ikki opna skránna</string>
+    <string name="media_file_error_unreadable">Henda leiðin kann ikki lesast av ambætaranum.</string>
+    <string name="media_file_error_not_found">Hon kann vera flutt ella strikað.</string>
+    <string name="media_file_error_unauthorized">Ambætarin góðtók ikki loyniorðið hjá hesum tólinum.</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">Ambætarin kundi ikki lesa hana (HTTP %1$d). Hon kann vera ein mappa.</string>
+    <string name="media_file_error_timed_out">Tíðin til umbønina gekk út.</string>
+    <string name="media_file_error_unexpected_response">Ambætarin sendi eitt óvæntað svar.</string>
+    <string name="media_file_error_over_limit">Skráin er størri enn markið fyri niðurtøku.</string>
+    <string name="media_file_error_size_unknown">Ambætarin boðaði ikki frá, hvussu stórt viðheftið er.</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">Tekur niður…</string>
+    <string name="media_file_downloading_size">Tekur %1$s niður</string>
+    <string name="media_file_downloading_progress">Tekur %1$s av %2$s niður</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">Null KB</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="one">%1$d být</item>
+        <item quantity="other">%1$d být</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s KB</string>
+    <string name="media_file_size_megabytes">%1$s MB</string>
+    <string name="media_file_size_gigabytes">%1$s GB</string>
+    <string name="media_file_size_terabytes">%1$s TB</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">Ikki funnin</string>
+    <string name="media_image_load_label">Heinta myndina</string>
+    <string name="media_image_loading_state">Innlesing</string>
+    <string name="media_image_open_label">Opna myndina</string>
+    <string name="media_image_tap_to_load">Trýst fyri at heinta</string>
+    <string name="media_image_outside_project_value">Uttan fyri verkætlanina</string>
+    <string name="media_image_deferred_low_data_value">Útsett fyri at spara dátur</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">Opna %1$s</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">Aftur til setuna</string>
+    <string name="media_browser_ask_description">Spyr um hesa síðuna</string>
+    <string name="media_browser_forward_description">Frameftir</string>
+    <string name="media_browser_open_in_browser_description">Opna í kaga</string>
+    <string name="media_browser_scroll_to_top_label">Rulla ovast á síðuna</string>
+    <string name="media_browser_ask_placeholder">Spyr um hesa síðuna</string>
+    <string name="media_browser_reply_needs_input">Tín luttøka krevst</string>
+    <string name="media_browser_reply_working">Arbeiða</string>
+    <string name="media_browser_go_back_to_session_label">Far aftur til setuna</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">Svar klárt</string>
+    <string name="media_browser_reply_back_to_read">· Aftur at lesa tað</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">Seta</string>
+    <string name="media_link_open_in_app_browser">Opna í kaga í forritinum</string>
+    <string name="media_link_open_in_browser">Opna í kaga</string>
+    <string name="media_link_open_in_app">Opna í forriti</string>
+    <string name="media_link_copy">Avrita leinkju</string>
+    <string name="media_link_share">Deil…</string>
+    <string name="media_link_open_session">Opna setu</string>
+    <string name="media_link_copy_session_id">Avrita ID</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">Avrita ID hjá %1$s</string>
+    <string name="media_link_open_session_named_description">Opna setu %1$s</string>
+    <string name="media_link_open_host_in_app_browser_description">Opna %1$s í kaga í forritinum</string>
+    <string name="media_link_open_host_in_browser_description">Opna %1$s í kaga</string>
+    <string name="media_link_open_host_in_app_description">Opna %1$s í forriti</string>
+    <string name="media_link_copy_host_description">Avrita leinkju til %1$s</string>
+    <string name="media_link_share_host_description">Deil leinkju til %1$s</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%1$s á %2$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s leinkja %2$d</string>
+    <string name="media_link_more_links_description">Fleiri leinkjur</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">Sjónband</string>
+    <string name="media_link_preview_post">Uppslag</string>
+    <string name="media_link_preview_post_unavailable">Uppslag ikki tøkt</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">Goymsla</string>
+    <string name="media_github_kind_issue">Mál</string>
+    <string name="media_github_kind_pull_request">Samanleggingarumbøn</string>
+    <string name="media_github_kind_commit">Innlegging</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">Opið</string>
+    <string name="media_github_state_closed">Stongt</string>
+    <string name="media_github_state_merged">Lagt saman</string>
+    <string name="media_github_state_draft">Uppkast</string>
+    <string name="media_github_state_completed">Liðugt</string>
+    <string name="media_github_state_not_planned">Ikki ætlað</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">Ritmynd, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">Ritmyndavísari</string>
+    <string name="media_mermaid_diagram_description">Ritmynd</string>
+    <string name="media_mermaid_loading_state">%1$s, innlesing</string>
+    <string name="media_mermaid_view_source">Vís keldu</string>
+    <string name="media_mermaid_source_title">Kelda til ritmynd</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">Renslurit</string>
+    <string name="media_mermaid_type_sequence">Raðfylgjurit</string>
+    <string name="media_mermaid_type_class">Klassarit</string>
+    <string name="media_mermaid_type_state">Støðurit</string>
+    <string name="media_mermaid_type_entity_relationship">Eindar- og sambandsrit</string>
+    <string name="media_mermaid_type_user_journey">Brúkaraferð</string>
+    <string name="media_mermaid_type_gantt">Gantt-rit</string>
+    <string name="media_mermaid_type_pie">Sirkulrit</string>
+    <string name="media_mermaid_type_quadrant">Fjórðingsrit</string>
+    <string name="media_mermaid_type_requirement">Kravrit</string>
+    <string name="media_mermaid_type_git_graph">Git-rit</string>
+    <string name="media_mermaid_type_c4">C4-ritmynd</string>
+    <string name="media_mermaid_type_mind_map">Hugakort</string>
+    <string name="media_mermaid_type_timeline">Tíðarlinja</string>
+    <string name="media_mermaid_type_sankey">Sankey-ritmynd</string>
+    <string name="media_mermaid_type_xy_chart">XY-rit</string>
+    <string name="media_mermaid_type_block">Blokkrit</string>
+    <string name="media_mermaid_type_packet">Pakkarit</string>
+    <string name="media_mermaid_type_kanban">Kanban-talva</string>
+    <string name="media_mermaid_type_architecture">Arkitekturrit</string>
+    <string name="media_mermaid_type_radar">Radarrit</string>
+    <string name="media_mermaid_type_treemap">Trækort</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

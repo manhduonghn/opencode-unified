@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent activity glyph -->
+    <string name="session_activity_running_description">Darbojas</string>
+    <!-- Background work panel -->
+    <string name="session_background_work_show_label">Rādīt aktīvos apakšaģentus, skriptus un čaulas</string>
+    <string name="session_background_work_collapsed_description">Sakļauts</string>
+    <string name="session_background_work_subagents_title">Apakšaģenti</string>
+    <string name="session_background_work_open_subagent_label">Atvērt apakšaģenta sesiju</string>
+    <string name="session_background_work_shells_title">Čaulas</string>
+    <string name="session_background_work_show_shell_label">Rādīt čaulas izvadi</string>
+    <!-- The session's images and videos, paged in the full-screen viewer -->
+    <string name="session_visual_attached_image">Pievienots attēls</string>
+    <string name="session_visual_tool_image">Instrumenta attēls</string>
+    <string name="session_visual_image">Attēls</string>
+    <!-- One image of several: the image's label, then its place, as “Attached image 2 of 3” -->
+    <string name="session_visual_image_page_label">%1$s %2$d no %3$d</string>
+    <!-- A diagram's label, read by TalkBack. %1$s is its kind, as “Diagram, Flowchart” -->
+    <string name="session_visual_diagram_label">Diagramma, %1$s</string>
+    <!-- Jump to latest -->
+    <string name="session_scroll_to_latest_description">Ritināt uz jaunāko</string>
+    <!-- Dictation bar -->
+    <string name="session_dictation_finishing_description">Tiek pabeigta diktēšana</string>
+    <string name="session_dictation_stop_recording_description">Apturēt ierakstīšanu</string>
+    <string name="session_dictation_stop_recording_hint">Ievietot tekstu tavā ziņā</string>
+    <string name="session_sending_message_description">Notiek ziņas sūtīšana</string>
+    <string name="session_delivery_steer_label">Virzīt nākamajā solī</string>
+    <string name="session_delivery_queue_label">Ievietot rindā pēc šīs atbildes</string>
+    <string name="session_delivery_steer">Virzīt</string>
+    <string name="session_delivery_queue">Ievietot rindā</string>
+    <!-- Draft project picker -->
+    <string name="session_draft_project_choose_label">Izvēlies, kur sākt sesiju</string>
+    <string name="session_project_choose_folder">Izvēlēties mapi…</string>
+    <string name="session_project_all_projects">Visi projekti</string>
+    <string name="session_project_selected_description">Atlasīts</string>
+    <string name="session_project_picker_title">Projekts</string>
+    <!-- Folder browser -->
+    <string name="session_folder_select_description">Izvēlieties mapi</string>
+    <string name="session_folder_path_description">Ceļš</string>
+    <string name="session_folder_title">Mape</string>
+    <string name="session_folder_select">Atlasīt</string>
+    <string name="session_folder_open_failed_title">Neizdevās atvērt mapi</string>
+    <string name="session_folder_empty_title">Nav mapju</string>
+    <string name="session_folder_search_empty_title">Nav rezultātu vaicājumam “%1$s”</string>
+    <string name="session_folder_search_empty_message">Pārbaudi pareizrakstību vai meklē ko citu.</string>
+    <!-- Server connection pill -->
+    <string name="session_server_edit">Rediģēt serveri…</string>
+    <!-- Starter prompts -->
+    <string name="session_starter_prompts_title">Pamēģini pajautāt</string>
+    <string name="session_starter_prompt_pick_label">Ievietot ziņā</string>
+    <!-- Session sheet -->
+    <string name="session_sheet_rename_failed">Neizdevās pārdēvēt</string>
+    <string name="session_sheet_status_description">Statuss</string>
+    <string name="session_rename_title">Pārdēvēt sesiju</string>
+    <string name="session_untitled_title">Sesija</string>
+    <string name="session_pin">Piespraust</string>
+    <string name="session_pinned">Piesprausta</string>
+    <string name="session_unread">Nelasīta</string>
+    <string name="session_mute">Apklusināt</string>
+    <string name="session_muted">Apklusināta</string>
+    <string name="session_compact">Saspiest</string>
+    <string name="session_fork">Atzarot</string>
+    <string name="session_toggle_on_description">Ieslēgts</string>
+    <string name="session_toggle_off_description">Izslēgts</string>
+    <string name="session_export">Eksportēt</string>
+    <string name="session_export_markdown">Markdown</string>
+    <string name="session_export_json">JSON</string>
+    <string name="session_sheet_model">Modelis</string>
+    <string name="session_sheet_context">Konteksts</string>
+    <string name="session_sheet_unknown_description">Nezināms</string>
+    <string name="session_sheet_context_tokens">%1$s tokeni</string>
+    <string name="session_sheet_cost">Izmaksas</string>
+    <string name="session_sheet_media">Multivide</string>
+    <string name="session_sheet_media_value">Faili un saites</string>
+    <string name="session_always_notify">Vienmēr paziņot</string>
+    <string name="session_always_notify_message_phone">Paziņot šajā tālrunī par katru gatavo atbildi, pat ja ziņa sūtīta no citas ierīces.</string>
+    <string name="session_always_notify_message_tablet">Paziņot šajā planšetdatorā par katru gatavo atbildi, pat ja ziņa sūtīta no citas ierīces.</string>
+    <string name="session_delete_session">Dzēst sesiju</string>
+    <string name="session_rename_placeholder">Nosaukums</string>
+    <string name="session_auto_rename">Automātiski pārdēvēt</string>
+    <string name="session_delete_confirm_title">Dzēst “%1$s”?</string>
+    <string name="session_delete_confirm_message">Sesija tiks dzēsta no servera visiem klientiem.</string>
+    <!-- Transcript -->
+    <string name="session_move_to_background">Pārvietot fonā</string>
+    <string name="session_move_to_background_hint">Turpināt darbu fonā, lai aģents varētu izlasīt tavu nākamo ziņu</string>
+    <!-- Attachments -->
+    <string name="session_attachment_add_image_failed_title">Neizdevās pievienot attēlu</string>
+    <string name="session_attachment_upload">Augšupielādēt</string>
+    <string name="session_attachment_remove_image_description">Noņemt attēla pielikumu %1$d</string>
+    <string name="session_attachment_remove_description">Noņemt %1$s</string>
+    <string name="session_attachment_file_description">Faila pielikums %1$s</string>
+    <string name="session_attachment_cancel_upload_description">Atcelt %1$s augšupielādi</string>
+    <string name="session_attachment_open_photo_label">Atvērt fotoattēlu pilnekrānā</string>
+    <string name="session_attachment_image_description">Attēla pielikums %1$d</string>
+    <string name="session_attachment_video_description">Video pielikums %1$d</string>
+    <!-- Composer controls -->
+    <string name="session_answer_own_description">Tava atbilde</string>
+    <string name="session_answer_own_type_label">Ieraksti vai diktē savu atbildi</string>
+    <string name="session_answer_own_clear_label">Atlikt savu atbildi</string>
+    <string name="session_answer_own_choose_label">Atbildēt saviem vārdiem</string>
+    <string name="session_answer_decline_with_words_label">Pasaki aģentam, ko darīt tā vietā</string>
+    <string name="session_answer_required_description">Izvēlies atbildi vai ieraksti savu</string>
+    <string name="session_dictate_message_description">Diktēt ziņu</string>
+    <string name="session_dictate_message_hint">Diktē ziņu vai pieskaries un turi, lai ierakstītu un nosūtītu</string>
+    <string name="session_send_waiting_for_uploads_description">Tiks nosūtīts pēc augšupielāžu pabeigšanas</string>
+    <string name="session_steer_message_description">Virzīt ziņu</string>
+    <string name="session_stopping_description">Notiek apturēšana</string>
+    <string name="session_start_voice_call">Sākt balss zvanu</string>
+    <string name="session_dictation_stop_description">Apturēt diktēšanu</string>
+    <!-- Composer -->
+    <string name="session_requests_load_failed_title">Neizdevās ielādēt pieprasījumus</string>
+    <plurals name="session_queued_count">
+        <item quantity="zero">%1$d rindā</item>
+        <item quantity="one">%1$d rindā</item>
+        <item quantity="other">%1$d rindā</item>
+    </plurals>
+    <string name="session_queued_show_label">Rādīt ziņas, kas gaida šīs atbildes pabeigšanu</string>
+    <plurals name="session_queued_messages_description">
+        <item quantity="zero">%1$d ziņu rindā</item>
+        <item quantity="one">%1$d ziņa rindā</item>
+        <item quantity="other">%1$d ziņas rindā</item>
+    </plurals>
+    <string name="session_dictation_preparing">Sagatavo diktēšanu…</string>
+    <string name="session_message_placeholder">Ziņa</string>
+    <!-- Session header -->
+    <string name="session_back_to_main_description">Atpakaļ uz galveno sesiju</string>
+    <string name="session_header_open_from_catch_up_label">Atvērt sesiju un aizvērt jaunumu pārskatu</string>
+    <string name="session_header_show_details_label">Rādīt sesijas informāciju</string>
+    <string name="session_header_idle_description">Dīkstāvē</string>
+    <string name="session_header_syncing_description">Notiek sinhronizācija</string>
+    <string name="session_header_last_known_description">Pēdējais zināmais</string>
+    <string name="session_menu_more_description">Vairāk</string>
+    <string name="session_unpin">Atspraust</string>
+    <string name="session_copy_session_id">Kopēt sesijas ID</string>
+    <string name="session_mark_as_read">Atzīmēt kā lasītu</string>
+    <string name="session_mark_as_unread">Atzīmēt kā nelasītu</string>
+    <string name="session_unmute">Ieslēgt paziņojumus</string>
+    <string name="session_menu_export_expanded_description">Izvērsts</string>
+    <string name="session_menu_export_collapsed_description">Sakļauts</string>
+    <string name="session_info">Sesijas informācija</string>
+    <!-- Session screen -->
+    <string name="session_load_failed_title">Neizdevās ielādēt sesiju</string>
+    <string name="session_location_share_failed_title">Neizdevās kopīgot atrašanās vietu</string>
+    <!-- Shell output -->
+    <string name="session_shell_stop_confirm_title">Apturēt šo čaulu?</string>
+    <string name="session_shell_stop_confirm_message">Komanda tiks apturēta uzreiz. Šeit redzamā izvade paliks, līdz to aizvērsi.</string>
+    <string name="session_shell_stop">Apturēt čaulu</string>
+    <string name="session_shell_copy_output">Kopēt izvadi</string>
+    <string name="session_shell_share_output">Kopīgot izvadi</string>
+    <string name="session_shell_earlier_output_hidden">Iepriekšējā izvade ir paslēpta</string>
+    <string name="session_shell_showing_last_output">Rāda pēdējos 4 MB</string>
+    <string name="session_shell_load_earlier">Ielādēt iepriekšējo</string>
+    <string name="session_shell_output_unavailable_title">Izvade nav pieejama</string>
+    <string name="session_shell_output_unavailable_message">Serverī vairs nav šīs čaulas izvades.</string>
+    <string name="session_shell_no_output_yet_title">Izvades vēl nav</string>
+    <string name="session_shell_no_output_title">Nav izvades</string>
+    <string name="session_shell_no_output_yet_message">Izvade parādās šeit, kad komanda to rada.</string>
+    <string name="session_shell_status_stopping">Notiek apturēšana…</string>
+    <string name="session_shell_status_unavailable">Nav pieejams</string>
+    <string name="session_shell_status_interrupted">Pārtraukts</string>
+    <string name="session_shell_status_timed_out">Beidzās izpildes laiks</string>
+    <string name="session_shell_status_exited_with_code">Beidzās ar kodu %1$d</string>
+    <string name="session_shell_status_exited">Beidzās</string>
+    <plurals name="session_shell_elapsed_hours">
+        <item quantity="zero">%1$d stundu</item>
+        <item quantity="one">%1$d stunda</item>
+        <item quantity="other">%1$d stundas</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_minutes">
+        <item quantity="zero">%1$d minūšu</item>
+        <item quantity="one">%1$d minūte</item>
+        <item quantity="other">%1$d minūtes</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_seconds">
+        <item quantity="zero">%1$d sekunžu</item>
+        <item quantity="one">%1$d sekunde</item>
+        <item quantity="other">%1$d sekundes</item>
+    </plurals>
+
+    <!-- Agent activity (glyph labels and titles) -->
+    <string name="session_activity_idle">Dīkstāvē</string>
+    <string name="session_activity_starting_up">Sāk darbu</string>
+    <string name="session_activity_thinking">Domā</string>
+    <string name="session_activity_long_work">Ilgstošs darbs</string>
+    <string name="session_activity_tool_burst">Aktīvi lieto instrumentus</string>
+    <string name="session_activity_streaming_output">Straumē izvadi</string>
+    <string name="session_activity_waiting_for_input">Gaida ievadi</string>
+    <string name="session_activity_handing_off">Nodod darbu</string>
+    <string name="session_activity_done">Gatavs</string>
+    <string name="session_activity_failed">Neizdevās</string>
+    <string name="session_working_stopping">Notiek apturēšana…</string>
+    <string name="session_status_working">Darbojas</string>
+    <string name="session_status_needs_input">Vajadzīga tava ievade</string>
+    <string name="session_status_done">Gatavs</string>
+
+    <!-- Lists: joins two or three phrases -->
+    <string name="session_list_two">%1$s, %2$s</string>
+    <string name="session_list_three">%1$s, %2$s, %3$s</string>
+
+    <!-- Background work panel -->
+    <plurals name="session_background_work_subagent_count">
+        <item quantity="zero">%1$d apakšaģentu</item>
+        <item quantity="one">%1$d apakšaģents</item>
+        <item quantity="other">%1$d apakšaģenti</item>
+    </plurals>
+    <plurals name="session_background_work_shell_count">
+        <item quantity="zero">%1$d čaulu</item>
+        <item quantity="one">%1$d čaula</item>
+        <item quantity="other">%1$d čaulas</item>
+    </plurals>
+    <plurals name="session_background_work_script_count">
+        <item quantity="zero">%1$d skriptu</item>
+        <item quantity="one">%1$d skripts</item>
+        <item quantity="other">%1$d skripti</item>
+    </plurals>
+    <string name="session_background_work_summary">%1$s · %2$s</string>
+    <string name="session_background_work_scripts_title">Skripti</string>
+    <string name="session_background_work_stop_script_label">Apturēt skriptu</string>
+    <string name="session_background_work_stop_subagent_label">Apturēt apakšaģentu</string>
+    <string name="session_background_work_stop_script_failed">Neizdevās apturēt skriptu</string>
+    <string name="session_background_work_stop_subagent_failed">Neizdevās apturēt apakšaģentu</string>
+
+    <!-- Composer buttons -->
+    <string name="session_send_message_description">Sūtīt ziņu</string>
+    <string name="session_stop_description">Apturēt</string>
+    <string name="session_start_voice_call_description">Sākt balss zvanu</string>
+    <string name="session_model_level_default">Noklusējums</string>
+
+    <!-- In-app notice -->
+    <plurals name="session_notice_session_count">
+        <item quantity="zero">%1$d sesiju</item>
+        <item quantity="one">%1$d sesija</item>
+        <item quantity="other">%1$d sesijas</item>
+    </plurals>
+    <plurals name="session_notice_needs_input_count">
+        <item quantity="zero">%1$d sesijām vajadzīga tava ievade</item>
+        <item quantity="one">%1$d sesijai vajadzīga tava ievade</item>
+        <item quantity="other">%1$d sesijām vajadzīga tava ievade</item>
+    </plurals>
+    <string name="session_notice_announcement">%1$s, %2$s</string>
+
+    <!-- Server connection pill -->
+    <string name="session_server_reconnecting">Atjauno savienojumu ar %1$s…</string>
+    <string name="session_server_connect_failed">Neizdevās pievienoties %1$s</string>
+    <string name="session_server_sign_in_failed">Neizdevās pierakstīties %1$s</string>
+    <string name="session_server_pair_again">Savienot pārī vēlreiz</string>
+    <string name="session_server_try_again_click_label">mēģināt vēlreiz</string>
+    <string name="session_server_pair_again_click_label">savienot pārī vēlreiz</string>
+
+    <!-- Export -->
+    <string name="session_export_folder_failed">Neizdevās izveidot eksporta mapi</string>
+    <string name="session_export_save_failed">Neizdevās saglabāt eksportu</string>
+
+    <!-- Session errors -->
+    <string name="session_agent_fallback_name">Aģents</string>
+    <string name="session_something_went_wrong">Kaut kas nogāja greizi</string>
+    <string name="session_something_went_wrong_sentence">Kaut kas nogāja greizi.</string>
+    <string name="session_load_earlier_failed">Neizdevās ielādēt iepriekšējās ziņas</string>
+    <string name="session_move_to_background_failed">Neizdevās pārvietot fonā: %1$s</string>
+    <string name="session_move_failed_reason">Neizdevās pārvietot sesiju</string>
+    <string name="session_delivery_waiting_to_send">Gaida nosūtīšanu</string>
+    <string name="session_create_failed">Neizdevās izveidot sesiju.</string>
+    <string name="session_switch_agent_failed">Neizdevās mainīt aģentu: %1$s</string>
+    <string name="session_switch_model_failed">Neizdevās mainīt modeli: %1$s</string>
+    <string name="session_pending_send_now_failed_details">Neizdevās tūlīt nosūtīt gaidošo ziņu: %1$s</string>
+    <string name="session_pending_cancel_failed_details">Neizdevās atcelt gaidošo ziņu: %1$s</string>
+    <string name="session_pending_queue_failed_details">Neizdevās ievietot gaidošo ziņu rindā: %1$s</string>
+    <string name="session_stopped_before_sent">Pārtraukts pirms nosūtīšanas</string>
+    <string name="session_stop_failed">Neizdevās apturēt sesiju</string>
+    <string name="session_undo_message_failed">Neizdevās atsaukt ziņu: %1$s</string>
+    <string name="session_revert_failed">Neizdevās atjaunot</string>
+    <string name="session_revert_failed_details">Neizdevās atjaunot: %1$s</string>
+
+    <!-- Session sheet errors -->
+    <string name="session_sheet_rename_failed_title">Neizdevās pārdēvēt sesiju</string>
+    <string name="session_sheet_compact_failed_title">Neizdevās saspiest sesiju</string>
+    <string name="session_sheet_fork_failed_title">Neizdevās atzarot sesiju</string>
+    <string name="session_sheet_save_export_failed">Neizdevās saglabāt eksportu</string>
+    <string name="session_sheet_export_failed_title">Neizdevās eksportēt sesiju</string>
+    <string name="session_sheet_notifications_off_message">Vispirms ieslēdz paziņojumus iestatījumos.</string>
+    <string name="session_sheet_always_notify_on_failed_title">Neizdevās ieslēgt “Vienmēr paziņot”</string>
+    <string name="session_sheet_always_notify_off_failed_title">Neizdevās izslēgt “Vienmēr paziņot”</string>
+
+    <!-- Attachments -->
+    <string name="session_attachment_files_unsupported">Serveris neatbalsta failus</string>
+    <string name="session_attachment_upload_failed">Neizdevās augšupielādēt</string>
+    <string name="session_attachment_file_fallback_name">Fails</string>
+    <string name="session_attachment_image_too_large">Izvēlies attēlu, kas ir mazāks par 20 MB.</string>
+    <string name="session_attachment_image_load_failed">Neizdevās ielādēt šo attēlu. Izmēģini citu fotoattēlu.</string>
+    <string name="session_attachment_file_add_failed">Neizdevās pievienot šo failu. Izmēģini citu failu.</string>
+    <plurals name="session_attachment_files_add_failed">
+        <item quantity="zero">Neizdevās pievienot %1$d failu.</item>
+        <item quantity="one">Neizdevās pievienot %1$d failu.</item>
+        <item quantity="other">Neizdevās pievienot %1$d failus.</item>
+    </plurals>
+    <string name="session_large_upload_title">Augšupielādēt %1$s?</string>
+    <string name="session_large_upload_message_one">“%1$s” ir liels fails. Ziņa tiks nosūtīta, kad būs pabeigta augšupielāde tavā serverī.</string>
+    <plurals name="session_large_upload_message_many">
+        <item quantity="zero">%1$d failu ir lieli. Ziņa tiks nosūtīta, kad būs pabeigta augšupielāde tavā serverī.</item>
+        <item quantity="one">%1$d fails ir liels. Ziņa tiks nosūtīta, kad būs pabeigta augšupielāde tavā serverī.</item>
+        <item quantity="other">%1$d faili ir lieli. Ziņa tiks nosūtīta, kad būs pabeigta augšupielāde tavā serverī.</item>
+    </plurals>
+
+    <!-- Header and screens -->
+    <string name="session_new_session_title">Jauna sesija</string>
+    <string name="session_pasted_text_screen_title">Ielīmētais teksts</string>
+    <string name="session_pasted_text_viewer_screen_title">Ielīmētā teksta skatītājs</string>
+    <string name="session_context_summary">%1$d%% no %2$s</string>
+    <string name="session_context_accessibility_value">Izmantoti %1$d%% no %2$s tokeniem</string>
+
+    <!-- Starter prompts (shown, then sent as the person’s message) -->
+    <string name="session_starter_project_purpose">Ko dara šis projekts?</string>
+    <string name="session_starter_code_tour">Īsi iepazīstini mani ar kodu</string>
+    <string name="session_starter_recent_changes">Kas šeit pēdējā laikā mainījies?</string>
+
+    <!-- Shell output -->
+    <string name="session_shell_refresh_failed">Neizdevās atsvaidzināt izvadi</string>
+    <string name="session_shell_load_earlier_failed">Neizdevās ielādēt iepriekšējo izvadi</string>
+    <string name="session_shell_stop_failed">Neizdevās apturēt čaulu</string>
+    <string name="session_quote_remove_description">Noņemt citātu</string>
+    <string name="session_quote_comment_placeholder">Pievienot komentāru (nav obligāti)…</string>
+    <string name="session_media_title">Sesijas multivide</string>
+    <string name="session_media_filter_media">Multivide</string>
+    <string name="session_media_filter_files">Faili</string>
+    <string name="session_media_filter_links">Saites</string>
+    <string name="session_media_layout_description">Multivides izkārtojums</string>
+    <string name="session_media_layout_tiles">Elementi</string>
+    <string name="session_media_layout_list">Saraksts</string>
+    <string name="session_media_origin_user">Nosūtīji tu</string>
+    <string name="session_media_origin_agent">Kopīgojis aģents</string>
+    <string name="session_media_open_click_label">Atvērt</string>
+    <string name="session_media_open_link_click_label">Atvērt saiti</string>
+    <string name="session_media_empty_media_title">Nav multivides</string>
+    <string name="session_media_empty_media_message">Šeit parādīsies attēli, video un audio, kas kopīgoti šajā sesijā.</string>
+    <string name="session_media_empty_files_title">Nav failu</string>
+    <string name="session_media_empty_files_message">Šeit parādīsies dokumenti un ielīmētais teksts no šīs sesijas.</string>
+    <string name="session_media_empty_links_title">Nav saišu</string>
+    <string name="session_media_empty_links_message">Šeit parādīsies šajā sesijā kopīgotās tīmekļa saites.</string>
+    <string name="session_media_earlier_note">Iepriekšējās ziņas vēl nav ielādētas.</string>
+    <string name="session_media_load_earlier">Ielādēt iepriekšējās ziņas</string>
+    <string name="session_media_loading_earlier">Notiek ielāde…</string>
+    <string name="session_media_earlier_failed">Neizdevās ielādēt iepriekšējās ziņas. Pārbaudi savienojumu un mēģini vēlreiz.</string>
+    <string name="session_media_earlier_nothing_new">Tikko ielādētajās ziņās nekā jauna nav. Iepriekšējās var saturēt vairāk.</string>
+</resources>

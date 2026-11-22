@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_new_session">សម័យថ្មី។</string>
+    <string name="system_start_call">ចាប់ផ្ដើមការហៅ</string>
+    <string name="system_open_session">បើកសម័យ</string>
+    <string name="widget_start_call_description">ចាប់ផ្ដើមការហៅជាសំឡេងក្នុងសម័យដែលអ្នកជ្រើសរើស ឬសម័យដែលអ្នកបានមើលចុងក្រោយ។</string>
+    <string name="widget_open_session_description">បើកសម័យដែលអ្នកជ្រើសរើស។</string>
+    <string name="widget_new_session_description">បើកសម័យ OpenCode ថ្មី។</string>
+
+    <!-- Shared across screens -->
+    <string name="system_selected_description">បានជ្រើសរើស</string>
+    <string name="system_last_viewed_session">សម័យដែលបានមើលចុងក្រោយ</string>
+
+    <!-- Quick actions (launcher shortcuts) -->
+    <string name="system_quick_action_session_fallback">សម័យ</string>
+    <!-- Long label: the session's title, then its project. -->
+    <string name="system_quick_action_long_label">%1$s · %2$s</string>
+
+    <!-- Shortcuts and Ask OpenCode -->
+    <string name="system_session_type_name">សម័យ</string>
+    <string name="system_project_type_name">គម្រោង</string>
+    <string name="system_intent_open_session_description">បើកសម័យក្នុង OpenCode។</string>
+    <string name="system_intent_new_session_description">ចាប់ផ្ដើមសម័យថ្មីក្នុង OpenCode។</string>
+    <string name="system_intent_start_voice_call_title">ចាប់ផ្ដើមការហៅជាសំឡេង</string>
+    <string name="system_intent_start_voice_call_description">ចាប់ផ្ដើមការហៅជាសំឡេងជាមួយ OpenCode ក្នុងសម័យមួយ។ បើមិនបានជ្រើសរើសសម័យ នោះការហៅនឹងចាប់ផ្ដើមក្នុងសម័យដែលអ្នកបានមើលចុងក្រោយ។</string>
+    <string name="system_intent_background_call_title">ចាប់ផ្ដើមការហៅជាសំឡេងនៅផ្ទៃខាងក្រោយ</string>
+    <string name="system_intent_background_call_description">ចាប់ផ្ដើមការហៅជាសំឡេងជាមួយ OpenCode ដោយមិនបើកកម្មវិធី។ ការហៅបង្ហាញនៅលើរបារស្ថានភាព និងអេក្រង់ចាក់សោ។</string>
+    <string name="system_delivery_type_name">របៀបផ្ញើ</string>
+    <string name="system_delivery_steer">ណែនាំ</string>
+    <string name="system_delivery_queue">ដាក់ក្នុងជួរ</string>
+    <string name="system_ask_title">សួរ OpenCode</string>
+    <string name="system_ask_description">ផ្ញើសារទៅសម័យ OpenCode ដោយមិនបើកកម្មវិធី។</string>
+    <string name="system_ask_message_title">សារ</string>
+    <string name="system_ask_message_placeholder">ចង់ឱ្យ OpenCode ធ្វើអ្វី?</string>
+    <string name="system_ask_session_title">សម័យ</string>
+    <string name="system_ask_started_new_session">បានចាប់ផ្ដើមសម័យថ្មីក្នុង %1$s</string>
+    <string name="system_ask_queued_for">បានដាក់ក្នុងជួរសម្រាប់ “%1$s”</string>
+    <string name="system_ask_sent_to">បានផ្ញើទៅ “%1$s”</string>
+    <string name="system_ask_your_session">សម័យរបស់អ្នក</string>
+    <string name="system_ask_no_server">បើក OpenCode ហើយភ្ជាប់ទៅម៉ាស៊ីនមេជាមុនសិន។</string>
+    <string name="system_ask_no_project">បើក OpenCode ហើយចាប់ផ្ដើមសម័យជាមុនសិន។</string>
+    <string name="system_ask_empty_message">គ្មានអ្វីត្រូវផ្ញើទេ។</string>
+    <!-- The server's error message follows. -->
+    <string name="system_ask_send_failed">មិនអាចផ្ញើទៅ OpenCode បានទេ។ %1$s</string>
+
+    <!-- Live Updates: voice call -->
+    <string name="system_call_muted">បានបិទសំឡេង</string>
+    <string name="system_call_unmute">បើកសំឡេង</string>
+    <string name="system_call_mute">បិទសំឡេង</string>
+    <string name="system_call_end">បញ្ចប់ការហៅ</string>
+    <string name="system_call_connecting">កំពុងភ្ជាប់…</string>
+    <string name="system_call_reconnecting">កំពុងភ្ជាប់ឡើងវិញ…</string>
+    <string name="system_call_ended">ការហៅបានបញ្ចប់</string>
+    <string name="system_call_end_title">បញ្ចប់ការហៅ</string>
+    <string name="system_call_toggle_mute_title">បិទ ឬបើកសំឡេងការហៅ</string>
+
+    <!-- Live Updates: hands-free recording -->
+    <string name="system_recording_active">កំពុងថតសំឡេង</string>
+    <string name="system_recording_stopped">បានឈប់ថតសំឡេង</string>
+    <string name="system_recording_stop">ឈប់ថតសំឡេង</string>
+    <string name="system_recording_stop_title">ឈប់ថតសំឡេង</string>
+    <string name="system_recording_new_session">សម័យថ្មី។</string>
+
+    <!-- Live Updates: session run -->
+    <string name="system_session_working">ធ្វើការ</string>
+    <string name="system_session_last_seen_working">បានឃើញចុងក្រោយថាកំពុងធ្វើការ</string>
+    <!-- Where the run is (Working), then its current step (a tool name, Thinking or Replying). -->
+    <string name="system_session_status_with_step">%1$s · %2$s</string>
+    <string name="system_session_step_thinking">ការគិត</string>
+    <string name="system_session_step_replying">កំពុងឆ្លើយតប</string>
+    <string name="system_session_needs_input">ត្រូវការធាតុបញ្ចូលពីអ្នក</string>
+    <string name="system_session_input">ធាតុបញ្ចូល</string>
+    <string name="system_session_done">រួចរាល់</string>
+    <string name="system_session_failed">បរាជ័យ</string>
+
+    <!-- Session notifications -->
+    <string name="system_notification_placeholder_body">សកម្មភាពថ្មី</string>
+
+    <!-- Notification channels -->
+    <string name="system_channel_voice_calls">ការហៅជាសំឡេង</string>
+    <string name="system_channel_recording">កំពុងថតសំឡេង</string>
+    <string name="system_channel_session_runs">ការដំណើរការសម័យ</string>
+    <string name="system_channel_session_updates">បច្ចុប្បន្នភាពសម័យ</string>
+    <string name="system_channel_shared_items">ធាតុដែលបានចែករំលែក</string>
+
+    <!-- Share sheet: notifications -->
+    <string name="system_share_continue_notification_body">ប៉ះដើម្បីបន្តក្នុង OpenCode</string>
+
+    <!-- Share sheet -->
+    <string name="system_share_your_server">ម៉ាស៊ីនមេរបស់អ្នក</string>
+    <string name="system_share_new_session_in_project">សម័យថ្មី។ · %1$s</string>
+    <string name="system_share_save_failed_message">ព្យាយាមម្តងទៀត។ បើនៅតែមានបញ្ហា សូមសម្អាតទំហំផ្ទុកខ្លះលើឧបករណ៍នេះ។</string>
+    <!-- The session's title, then its project. -->
+    <string name="system_share_session_chip_description">%1$s, %2$s</string>
+    <string name="system_share_problem_unreachable">មិនអាចភ្ជាប់ទៅ %1$s បាន</string>
+    <string name="system_share_problem_too_large">មិនអាចផ្ញើឯកសារធំបែបនេះពីទីនេះបាន</string>
+    <string name="system_share_problem_uploads_unsupported">មិនអាចផ្ទុកឯកសារឡើងទៅ %1$s បាន</string>
+    <string name="system_share_problem_sign_in">មិនអាចចូលទៅ %1$s បាន</string>
+    <string name="system_share_problem_send">មិនអាចផ្ញើទៅ %1$s បាន</string>
+    <string name="system_share_problem_no_credentials">បើក OpenCode ម្តងសិន ដើម្បីផ្ញើពីទីនេះ</string>
+    <plurals name="system_share_image_count">
+        <item quantity="other">រូបភាព %d</item>
+    </plurals>
+    <plurals name="system_share_file_count">
+        <item quantity="other">ឯកសារ %d</item>
+    </plurals>
+    <plurals name="system_share_images_skipped">
+        <item quantity="other">មិនអាចបន្ថែមរូបភាព %d បាន</item>
+    </plurals>
+    <plurals name="system_share_files_skipped">
+        <item quantity="other">មិនអាចបន្ថែមឯកសារ %d បាន</item>
+    </plurals>
+    <string name="system_share_save_failed_title">មិនអាចរក្សាទុកសម្រាប់ OpenCode បាន</string>
+    <string name="system_share_continue_description">បន្តក្នុង OpenCode</string>
+    <string name="system_share_no_server_title">ភ្ជាប់ទៅម៉ាស៊ីនមេសិន</string>
+    <string name="system_share_no_server_message">បើក OpenCode ហើយភ្ជាប់ទៅកុំព្យូទ័ររបស់អ្នក រួចចែករំលែកម្តងទៀត។</string>
+    <string name="system_share_send_later">ផ្ញើពេលក្រោយ</string>
+    <string name="system_share_saved_continue">បានរក្សាទុក។ បើក OpenCode ដើម្បីបន្ត</string>
+    <string name="system_share_loading_description">កំពុងផ្ទុកធាតុដែលបានចែករំលែក</string>
+    <string name="system_share_image_description">រូបភាព</string>
+    <string name="system_share_image_position_description">រូបភាពទី %1$d ក្នុងចំណោម %2$d</string>
+    <string name="system_share_search_sessions_description">សម័យស្វែងរក</string>
+    <string name="system_share_new_session_in_project_description">សម័យថ្មីក្នុង %1$s</string>
+    <string name="system_share_choose_project_description">ជ្រើសរើសគម្រោងរបស់វា</string>
+    <string name="system_share_message_placeholder">សារ</string>
+    <string name="system_share_sent_to">បានផ្ញើទៅ %1$s</string>
+    <string name="system_share_sending_description">កំពុងផ្ញើ</string>
+    <string name="system_share_sent_description">បានផ្ញើ</string>
+    <string name="system_share_sessions_title">សម័យ</string>
+    <string name="system_share_pinned_header">បានខ្ទាស់</string>
+    <string name="system_share_recents_header">ថ្មីៗ</string>
+
+    <!-- Widget configuration -->
+    <string name="system_widget_choose_session_title">ជ្រើសរើសសម័យ</string>
+</resources>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent activity glyph -->
+    <string name="session_activity_running_description">Wird ausgeführt</string>
+    <!-- Background work panel -->
+    <string name="session_background_work_show_label">Laufende Unteragenten, Skripte und Shells anzeigen</string>
+    <string name="session_background_work_collapsed_description">Eingeklappt</string>
+    <string name="session_background_work_subagents_title">Unteragenten</string>
+    <string name="session_background_work_open_subagent_label">Sitzung des Unteragenten öffnen</string>
+    <string name="session_background_work_shells_title">Shells</string>
+    <string name="session_background_work_show_shell_label">Ausgabe der Shell anzeigen</string>
+    <!-- The session's images and videos, paged in the full-screen viewer -->
+    <string name="session_visual_attached_image">Angehängtes Bild</string>
+    <string name="session_visual_tool_image">Tool-Bild</string>
+    <string name="session_visual_image">Bild</string>
+    <!-- One image of several: the image's label, then its place, as “Attached image 2 of 3” -->
+    <string name="session_visual_image_page_label">%1$s %2$d von %3$d</string>
+    <!-- A diagram's label, read by TalkBack. %1$s is its kind, as “Diagram, Flowchart” -->
+    <string name="session_visual_diagram_label">Diagramm, %1$s</string>
+    <!-- Jump to latest -->
+    <string name="session_scroll_to_latest_description">Zur neuesten Nachricht springen</string>
+    <!-- Dictation bar -->
+    <string name="session_dictation_finishing_description">Diktat wird abgeschlossen</string>
+    <string name="session_dictation_stop_recording_description">Aufnahme stoppen</string>
+    <string name="session_dictation_stop_recording_hint">Text in deine Nachricht übernehmen</string>
+    <string name="session_sending_message_description">Nachricht wird gesendet</string>
+    <string name="session_delivery_steer_label">Beim nächsten Schritt steuern</string>
+    <string name="session_delivery_queue_label">Nach dieser Antwort einreihen</string>
+    <string name="session_delivery_steer">Steuern</string>
+    <string name="session_delivery_queue">In Warteschlange stellen</string>
+    <!-- Draft project picker -->
+    <string name="session_draft_project_choose_label">Wählen, wo die Sitzung startet</string>
+    <string name="session_project_choose_folder">Ordner auswählen…</string>
+    <string name="session_project_all_projects">Alle Projekte</string>
+    <string name="session_project_selected_description">Ausgewählt</string>
+    <string name="session_project_picker_title">Projekt</string>
+    <!-- Folder browser -->
+    <string name="session_folder_select_description">Ordner auswählen</string>
+    <string name="session_folder_path_description">Pfad</string>
+    <string name="session_folder_title">Ordner</string>
+    <string name="session_folder_select">Auswählen</string>
+    <string name="session_folder_open_failed_title">Ordner konnte nicht geöffnet werden</string>
+    <string name="session_folder_empty_title">Keine Ordner</string>
+    <string name="session_folder_search_empty_title">Keine Ergebnisse für „%1$s“</string>
+    <string name="session_folder_search_empty_message">Prüfe die Schreibweise oder suche nach etwas anderem.</string>
+    <!-- Server connection pill -->
+    <string name="session_server_edit">Server bearbeiten…</string>
+    <!-- Starter prompts -->
+    <string name="session_starter_prompts_title">Frag zum Beispiel</string>
+    <string name="session_starter_prompt_pick_label">In die Nachricht übernehmen</string>
+    <!-- Session sheet -->
+    <string name="session_sheet_rename_failed">Umbenennen fehlgeschlagen</string>
+    <string name="session_sheet_status_description">Status</string>
+    <string name="session_rename_title">Sitzung umbenennen</string>
+    <string name="session_untitled_title">Sitzung</string>
+    <string name="session_pin">Anheften</string>
+    <string name="session_pinned">Angeheftet</string>
+    <string name="session_unread">Ungelesen</string>
+    <string name="session_mute">Stummschalten</string>
+    <string name="session_muted">Stummgeschaltet</string>
+    <string name="session_compact">Komprimieren</string>
+    <string name="session_fork">Abzweigen</string>
+    <string name="session_toggle_on_description">Ein</string>
+    <string name="session_toggle_off_description">Aus</string>
+    <string name="session_export">Exportieren</string>
+    <string name="session_export_markdown">Markdown</string>
+    <string name="session_export_json">JSON</string>
+    <string name="session_sheet_model">Modell</string>
+    <string name="session_sheet_context">Kontext</string>
+    <string name="session_sheet_unknown_description">unbekannt</string>
+    <string name="session_sheet_context_tokens">%1$s Tokens</string>
+    <string name="session_sheet_cost">Kosten</string>
+    <string name="session_sheet_media">Medien</string>
+    <string name="session_sheet_media_value">Dateien und Links</string>
+    <string name="session_always_notify">Immer benachrichtigen</string>
+    <string name="session_always_notify_message_phone">Dieses Handy bei jeder fertigen Antwort benachrichtigen, auch auf Nachrichten von anderen Geräten.</string>
+    <string name="session_always_notify_message_tablet">Dieses Tablet bei jeder fertigen Antwort benachrichtigen, auch auf Nachrichten von anderen Geräten.</string>
+    <string name="session_delete_session">Sitzung löschen</string>
+    <string name="session_rename_placeholder">Titel</string>
+    <string name="session_auto_rename">Automatisch umbenennen</string>
+    <string name="session_delete_confirm_title">„%1$s“ löschen?</string>
+    <string name="session_delete_confirm_message">Die Sitzung wird für alle Clients vom Server entfernt.</string>
+    <!-- Transcript -->
+    <string name="session_move_to_background">In den Hintergrund verschieben</string>
+    <string name="session_move_to_background_hint">Lass die Arbeit im Hintergrund weiterlaufen, damit der Agent deine nächste Nachricht liest</string>
+    <!-- Attachments -->
+    <string name="session_attachment_add_image_failed_title">Bild konnte nicht hinzugefügt werden</string>
+    <string name="session_attachment_upload">Hochladen</string>
+    <string name="session_attachment_remove_image_description">Bildanhang %1$d entfernen</string>
+    <string name="session_attachment_remove_description">%1$s entfernen</string>
+    <string name="session_attachment_file_description">Dateianhang %1$s</string>
+    <string name="session_attachment_cancel_upload_description">Upload von %1$s abbrechen</string>
+    <string name="session_attachment_open_photo_label">Foto im Vollbild öffnen</string>
+    <string name="session_attachment_image_description">Bildanhang %1$d</string>
+    <string name="session_attachment_video_description">Videoanhang %1$d</string>
+    <!-- Composer controls -->
+    <string name="session_answer_own_description">Deine eigene Antwort</string>
+    <string name="session_answer_own_type_label">Eigene Antwort eingeben oder diktieren</string>
+    <string name="session_answer_own_clear_label">Eigene Antwort zurückstellen</string>
+    <string name="session_answer_own_choose_label">Mit eigenen Worten antworten</string>
+    <string name="session_answer_decline_with_words_label">Sag dem Agenten, was er stattdessen tun soll</string>
+    <string name="session_answer_required_description">Wähle eine Antwort oder gib deine eigene ein</string>
+    <string name="session_dictate_message_description">Nachricht diktieren</string>
+    <string name="session_dictate_message_hint">Diktiere deine Nachricht oder halte gedrückt, um aufzunehmen und zu senden</string>
+    <string name="session_send_waiting_for_uploads_description">Wird nach Abschluss der Uploads gesendet</string>
+    <string name="session_steer_message_description">Mit Nachricht steuern</string>
+    <string name="session_stopping_description">Wird gestoppt</string>
+    <string name="session_start_voice_call">Sprachanruf starten</string>
+    <string name="session_dictation_stop_description">Diktieren stoppen</string>
+    <!-- Composer -->
+    <string name="session_requests_load_failed_title">Anfragen konnten nicht geladen werden</string>
+    <plurals name="session_queued_count">
+        <item quantity="one">%1$d in der Warteschlange</item>
+        <item quantity="other">%1$d in der Warteschlange</item>
+    </plurals>
+    <string name="session_queued_show_label">Nachrichten anzeigen, die auf den Abschluss dieser Antwort warten</string>
+    <plurals name="session_queued_messages_description">
+        <item quantity="one">%1$d Nachricht in der Warteschlange</item>
+        <item quantity="other">%1$d Nachrichten in der Warteschlange</item>
+    </plurals>
+    <string name="session_dictation_preparing">Diktieren wird vorbereitet…</string>
+    <string name="session_message_placeholder">Nachricht</string>
+    <!-- Session header -->
+    <string name="session_back_to_main_description">Zurück zur Hauptsitzung</string>
+    <string name="session_header_open_from_catch_up_label">Sitzung öffnen und Nachlesen beenden</string>
+    <string name="session_header_show_details_label">Sitzungsdetails anzeigen</string>
+    <string name="session_header_idle_description">Inaktiv</string>
+    <string name="session_header_syncing_description">Wird synchronisiert</string>
+    <string name="session_header_last_known_description">Zuletzt bekannt</string>
+    <string name="session_menu_more_description">Mehr</string>
+    <string name="session_unpin">Loslösen</string>
+    <string name="session_copy_session_id">Sitzungs-ID kopieren</string>
+    <string name="session_mark_as_read">Als gelesen markieren</string>
+    <string name="session_mark_as_unread">Als ungelesen markieren</string>
+    <string name="session_unmute">Stummschaltung aufheben</string>
+    <string name="session_menu_export_expanded_description">Ausgeklappt</string>
+    <string name="session_menu_export_collapsed_description">Eingeklappt</string>
+    <string name="session_info">Sitzungsinfo</string>
+    <!-- Session screen -->
+    <string name="session_load_failed_title">Sitzung konnte nicht geladen werden</string>
+    <string name="session_location_share_failed_title">Standort konnte nicht geteilt werden</string>
+    <!-- Shell output -->
+    <string name="session_shell_stop_confirm_title">Diese Shell stoppen?</string>
+    <string name="session_shell_stop_confirm_message">Der Befehl wird jetzt beendet. Die Ausgabe bleibt sichtbar, bis du die Ansicht schließt.</string>
+    <string name="session_shell_stop">Shell stoppen</string>
+    <string name="session_shell_copy_output">Ausgabe kopieren</string>
+    <string name="session_shell_share_output">Ausgabe teilen</string>
+    <string name="session_shell_earlier_output_hidden">Frühere Ausgabe ausgeblendet</string>
+    <string name="session_shell_showing_last_output">Die letzten 4 MB werden angezeigt</string>
+    <string name="session_shell_load_earlier">Frühere Ausgabe laden</string>
+    <string name="session_shell_output_unavailable_title">Ausgabe nicht verfügbar</string>
+    <string name="session_shell_output_unavailable_message">Die Ausgabe dieser Shell ist auf dem Server nicht mehr verfügbar.</string>
+    <string name="session_shell_no_output_yet_title">Noch keine Ausgabe</string>
+    <string name="session_shell_no_output_title">Keine Ausgabe</string>
+    <string name="session_shell_no_output_yet_message">Die Ausgabe erscheint hier, sobald der Befehl sie erzeugt.</string>
+    <string name="session_shell_status_stopping">Wird gestoppt…</string>
+    <string name="session_shell_status_unavailable">Nicht verfügbar</string>
+    <string name="session_shell_status_interrupted">Unterbrochen</string>
+    <string name="session_shell_status_timed_out">Zeitüberschreitung</string>
+    <string name="session_shell_status_exited_with_code">Mit Code %1$d beendet</string>
+    <string name="session_shell_status_exited">Beendet</string>
+    <plurals name="session_shell_elapsed_hours">
+        <item quantity="one">%1$d Stunde</item>
+        <item quantity="other">%1$d Stunden</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_minutes">
+        <item quantity="one">%1$d Minute</item>
+        <item quantity="other">%1$d Minuten</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_seconds">
+        <item quantity="one">%1$d Sekunde</item>
+        <item quantity="other">%1$d Sekunden</item>
+    </plurals>
+
+    <!-- Agent activity (glyph labels and titles) -->
+    <string name="session_activity_idle">Inaktiv</string>
+    <string name="session_activity_starting_up">Wird gestartet</string>
+    <string name="session_activity_thinking">Denkt nach</string>
+    <string name="session_activity_long_work">Längere Arbeit</string>
+    <string name="session_activity_tool_burst">Viele Tool-Aufrufe</string>
+    <string name="session_activity_streaming_output">Ausgabe wird übertragen</string>
+    <string name="session_activity_waiting_for_input">Wartet auf Eingabe</string>
+    <string name="session_activity_handing_off">Aufgabe wird übergeben</string>
+    <string name="session_activity_done">Fertig</string>
+    <string name="session_activity_failed">Fehlgeschlagen</string>
+    <string name="session_working_stopping">Wird gestoppt…</string>
+    <string name="session_status_working">In Arbeit</string>
+    <string name="session_status_needs_input">Deine Eingabe ist nötig</string>
+    <string name="session_status_done">Fertig</string>
+
+    <!-- Lists: joins two or three phrases -->
+    <string name="session_list_two">%1$s, %2$s</string>
+    <string name="session_list_three">%1$s, %2$s, %3$s</string>
+
+    <!-- Background work panel -->
+    <plurals name="session_background_work_subagent_count">
+        <item quantity="one">%1$d Unteragent</item>
+        <item quantity="other">%1$d Unteragenten</item>
+    </plurals>
+    <plurals name="session_background_work_shell_count">
+        <item quantity="one">%1$d Shell</item>
+        <item quantity="other">%1$d Shells</item>
+    </plurals>
+    <plurals name="session_background_work_script_count">
+        <item quantity="one">%1$d Skript</item>
+        <item quantity="other">%1$d Skripte</item>
+    </plurals>
+    <string name="session_background_work_summary">%1$s · %2$s</string>
+    <string name="session_background_work_scripts_title">Skripte</string>
+    <string name="session_background_work_stop_script_label">Skript stoppen</string>
+    <string name="session_background_work_stop_subagent_label">Unteragent stoppen</string>
+    <string name="session_background_work_stop_script_failed">Skript konnte nicht gestoppt werden</string>
+    <string name="session_background_work_stop_subagent_failed">Unteragent konnte nicht gestoppt werden</string>
+
+    <!-- Composer buttons -->
+    <string name="session_send_message_description">Nachricht senden</string>
+    <string name="session_stop_description">Stoppen</string>
+    <string name="session_start_voice_call_description">Sprachanruf starten</string>
+    <string name="session_model_level_default">Standard</string>
+
+    <!-- In-app notice -->
+    <plurals name="session_notice_session_count">
+        <item quantity="one">%1$d Sitzung</item>
+        <item quantity="other">%1$d Sitzungen</item>
+    </plurals>
+    <plurals name="session_notice_needs_input_count">
+        <item quantity="one">%1$d braucht deine Eingabe</item>
+        <item quantity="other">%1$d brauchen deine Eingabe</item>
+    </plurals>
+    <string name="session_notice_announcement">%1$s, %2$s</string>
+
+    <!-- Server connection pill -->
+    <string name="session_server_reconnecting">Verbindung zu %1$s wird wiederhergestellt…</string>
+    <string name="session_server_connect_failed">Verbindung zu %1$s fehlgeschlagen</string>
+    <string name="session_server_sign_in_failed">Anmeldung bei %1$s fehlgeschlagen</string>
+    <string name="session_server_pair_again">Erneut koppeln</string>
+    <string name="session_server_try_again_click_label">Erneut versuchen</string>
+    <string name="session_server_pair_again_click_label">Erneut koppeln</string>
+
+    <!-- Export -->
+    <string name="session_export_folder_failed">Exportordner konnte nicht erstellt werden</string>
+    <string name="session_export_save_failed">Export konnte nicht gespeichert werden</string>
+
+    <!-- Session errors -->
+    <string name="session_agent_fallback_name">Agent</string>
+    <string name="session_something_went_wrong">Etwas ist schiefgelaufen</string>
+    <string name="session_something_went_wrong_sentence">Etwas ist schiefgelaufen.</string>
+    <string name="session_load_earlier_failed">Frühere Nachrichten konnten nicht geladen werden</string>
+    <string name="session_move_to_background_failed">Verschieben in den Hintergrund fehlgeschlagen: %1$s</string>
+    <string name="session_move_failed_reason">Sitzung konnte nicht verschoben werden</string>
+    <string name="session_delivery_waiting_to_send">Wartet auf Versand</string>
+    <string name="session_create_failed">Die Sitzung konnte nicht erstellt werden.</string>
+    <string name="session_switch_agent_failed">Agentenwechsel fehlgeschlagen: %1$s</string>
+    <string name="session_switch_model_failed">Modellwechsel fehlgeschlagen: %1$s</string>
+    <string name="session_pending_send_now_failed_details">Ausstehende Nachricht konnte nicht sofort gesendet werden: %1$s</string>
+    <string name="session_pending_cancel_failed_details">Ausstehende Nachricht konnte nicht abgebrochen werden: %1$s</string>
+    <string name="session_pending_queue_failed_details">Ausstehende Nachricht konnte nicht in die Warteschlange gestellt werden: %1$s</string>
+    <string name="session_stopped_before_sent">Vor dem Senden unterbrochen</string>
+    <string name="session_stop_failed">Sitzung konnte nicht gestoppt werden</string>
+    <string name="session_undo_message_failed">Nachricht konnte nicht rückgängig gemacht werden: %1$s</string>
+    <string name="session_revert_failed">Zurücksetzen fehlgeschlagen</string>
+    <string name="session_revert_failed_details">Zurücksetzen fehlgeschlagen: %1$s</string>
+
+    <!-- Session sheet errors -->
+    <string name="session_sheet_rename_failed_title">Sitzung konnte nicht umbenannt werden</string>
+    <string name="session_sheet_compact_failed_title">Sitzung konnte nicht komprimiert werden</string>
+    <string name="session_sheet_fork_failed_title">Sitzung konnte nicht abgezweigt werden</string>
+    <string name="session_sheet_save_export_failed">Export konnte nicht gespeichert werden</string>
+    <string name="session_sheet_export_failed_title">Sitzung konnte nicht exportiert werden</string>
+    <string name="session_sheet_notifications_off_message">Aktiviere zuerst Benachrichtigungen in den Einstellungen.</string>
+    <string name="session_sheet_always_notify_on_failed_title">„Immer benachrichtigen“ konnte nicht aktiviert werden</string>
+    <string name="session_sheet_always_notify_off_failed_title">„Immer benachrichtigen“ konnte nicht deaktiviert werden</string>
+
+    <!-- Attachments -->
+    <string name="session_attachment_files_unsupported">Server unterstützt keine Dateien</string>
+    <string name="session_attachment_upload_failed">Upload fehlgeschlagen</string>
+    <string name="session_attachment_file_fallback_name">Datei</string>
+    <string name="session_attachment_image_too_large">Wähle ein Bild unter 20 MB.</string>
+    <string name="session_attachment_image_load_failed">Dieses Bild konnte nicht geladen werden. Versuche ein anderes Foto.</string>
+    <string name="session_attachment_file_add_failed">Diese Datei konnte nicht hinzugefügt werden. Versuche eine andere Datei.</string>
+    <plurals name="session_attachment_files_add_failed">
+        <item quantity="one">%1$d Datei konnte nicht hinzugefügt werden.</item>
+        <item quantity="other">%1$d Dateien konnten nicht hinzugefügt werden.</item>
+    </plurals>
+    <string name="session_large_upload_title">%1$s hochladen?</string>
+    <string name="session_large_upload_message_one">„%1$s“ ist eine große Datei. Die Nachricht wird gesendet, sobald der Upload auf deinen Server abgeschlossen ist.</string>
+    <plurals name="session_large_upload_message_many">
+        <item quantity="one">%1$d Datei ist groß. Die Nachricht wird gesendet, sobald der Upload auf deinen Server abgeschlossen ist.</item>
+        <item quantity="other">%1$d Dateien sind groß. Die Nachricht wird gesendet, sobald der Upload auf deinen Server abgeschlossen ist.</item>
+    </plurals>
+
+    <!-- Header and screens -->
+    <string name="session_new_session_title">Neue Sitzung</string>
+    <string name="session_pasted_text_screen_title">Eingefügter Text</string>
+    <string name="session_pasted_text_viewer_screen_title">Ansicht für eingefügten Text</string>
+    <string name="session_context_summary">%1$d%% von %2$s</string>
+    <string name="session_context_accessibility_value">%1$d%% von %2$s Tokens verwendet</string>
+
+    <!-- Starter prompts (shown, then sent as the person’s message) -->
+    <string name="session_starter_project_purpose">Was macht dieses Projekt?</string>
+    <string name="session_starter_code_tour">Gib mir einen kurzen Überblick über den Code</string>
+    <string name="session_starter_recent_changes">Was hat sich hier zuletzt geändert?</string>
+
+    <!-- Shell output -->
+    <string name="session_shell_refresh_failed">Ausgabe konnte nicht aktualisiert werden</string>
+    <string name="session_shell_load_earlier_failed">Frühere Ausgabe konnte nicht geladen werden</string>
+    <string name="session_shell_stop_failed">Shell konnte nicht gestoppt werden</string>
+    <string name="session_quote_remove_description">Zitat entfernen</string>
+    <string name="session_quote_comment_placeholder">Optionalen Kommentar hinzufügen…</string>
+    <string name="session_media_title">Sitzungsmedien</string>
+    <string name="session_media_filter_media">Medien</string>
+    <string name="session_media_filter_files">Dateien</string>
+    <string name="session_media_filter_links">Links</string>
+    <string name="session_media_layout_description">Medienlayout</string>
+    <string name="session_media_layout_tiles">Kacheln</string>
+    <string name="session_media_layout_list">Liste</string>
+    <string name="session_media_origin_user">Von dir gesendet</string>
+    <string name="session_media_origin_agent">Vom Agenten geteilt</string>
+    <string name="session_media_open_click_label">Öffnen</string>
+    <string name="session_media_open_link_click_label">Link öffnen</string>
+    <string name="session_media_empty_media_title">Keine Medien</string>
+    <string name="session_media_empty_media_message">Bilder, Videos und Audio, die in dieser Sitzung geteilt werden, erscheinen hier.</string>
+    <string name="session_media_empty_files_title">Keine Dateien</string>
+    <string name="session_media_empty_files_message">Dokumente und eingefügter Text aus dieser Sitzung erscheinen hier.</string>
+    <string name="session_media_empty_links_title">Keine Links</string>
+    <string name="session_media_empty_links_message">In dieser Sitzung geteilte Web-Links erscheinen hier.</string>
+    <string name="session_media_earlier_note">Frühere Nachrichten sind noch nicht geladen.</string>
+    <string name="session_media_load_earlier">Frühere Nachrichten laden</string>
+    <string name="session_media_loading_earlier">Wird geladen…</string>
+    <string name="session_media_earlier_failed">Frühere Nachrichten konnten nicht geladen werden. Prüfe deine Verbindung und versuche es erneut.</string>
+    <string name="session_media_earlier_nothing_new">Unter den gerade geladenen Nachrichten ist nichts Neues. Frühere enthalten vielleicht mehr.</string>
+</resources>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Call ended and failure cards -->
+    <string name="voice_call_ended_title">Oproep beëindigd</string>
+    <string name="voice_call_ended_rejoin">Opnieuw deelnemen</string>
+    <string name="voice_failure_title">Spraakverbinding mislukt</string>
+    <string name="voice_failure_check_api_key">API-sleutel controleren</string>
+    <string name="voice_failure_start_title">Oproep starten mislukt</string>
+
+    <!-- Floating call -->
+    <string name="voice_floating_expand">Uitvouwen</string>
+    <string name="voice_floating_orb_description">Spraakoproep</string>
+    <string name="voice_floating_orb_show_controls">Oproepbediening tonen</string>
+    <string name="voice_floating_end_description">Spraakoproep beëindigen</string>
+    <string name="voice_floating_control_placeholder_state">Niet beschikbaar in dit prototype</string>
+    <string name="voice_floating_duration_description">Oproepduur</string>
+
+    <!-- Floating call stage -->
+    <string name="voice_stage_talking_in">In gesprek in</string>
+    <string name="voice_stage_minimize_description">Minimaliseren</string>
+    <string name="voice_mute">Dempen</string>
+    <string name="voice_unmute">Dempen opheffen</string>
+    <string name="voice_stage_pause">Pauzeren</string>
+    <string name="voice_stage_camera">Camera</string>
+    <string name="voice_transcript_empty">Zeg iets tegen je sessie.</string>
+    <string name="voice_transcript_you">Jij</string>
+    <string name="voice_transcript_user_line_description">Jij: %1$s</string>
+
+    <!-- Call rows: screen request -->
+    <string name="voice_screen_request_detail">De spraakassistent wil je scherm zien</string>
+    <string name="voice_screen_request_spoken">Je invoer is nodig. De spraakassistent wil je scherm zien</string>
+    <string name="voice_screen_request_spoken_with_reason">Je invoer is nodig. De spraakassistent wil je scherm zien. %1$s</string>
+    <string name="voice_screen_request_title">Scherm delen?</string>
+
+    <!-- Call rows: open link -->
+    <string name="voice_open_link_spoken">Je invoer is nodig. %1$s</string>
+    <string name="voice_open_link_spoken_with_host">Je invoer is nodig. %1$s %2$s</string>
+    <string name="voice_open_link_open">Openen</string>
+
+    <!-- Call rows: audio on the call -->
+    <string name="voice_audio_paused">Gepauzeerd</string>
+    <string name="voice_audio_playing">Wordt afgespeeld in de oproep</string>
+    <string name="voice_audio_play">Audio afspelen</string>
+    <string name="voice_audio_pause">Audio pauzeren</string>
+    <string name="voice_audio_stop">Audio stoppen</string>
+
+    <!-- Call history -->
+    <string name="voice_call_history_title">Oproepgeschiedenis</string>
+    <string name="voice_call_history_options_description">Geschiedenisopties</string>
+    <string name="voice_call_history_delete_all">Alles verwijderen</string>
+    <string name="voice_call_history_empty_title">Nog geen spraakoproepen</string>
+    <string name="voice_call_history_empty_message">Oproepen worden op deze telefoon opgeslagen zodat je ze kunt terugluisteren.</string>
+    <string name="voice_call_history_delete_all_confirm_title">Alle spraakoproepen verwijderen?</string>
+
+    <!-- Call replay -->
+    <string name="voice_replay_timeline_description">Oproeptijdlijn</string>
+    <string name="voice_replay_timeline_state">%1$s van %2$s</string>
+    <string name="voice_replay_pause">Pauzeren</string>
+    <string name="voice_replay_play">Afspelen</string>
+    <string name="voice_replay_position_description">Positie</string>
+    <string name="voice_replay_speed_description">Afspeelsnelheid</string>
+    <string name="voice_replay_empty">Druk op afspelen om de oproep terug te luisteren.</string>
+
+    <!-- Call notification -->
+    <string name="voice_notification_channel_name">Oproepen</string>
+    <string name="voice_notification_channel_description">Lopende OpenCode-oproepen</string>
+    <string name="voice_notification_connecting">Verbinding maken…</string>
+    <string name="voice_notification_reconnecting">Opnieuw verbinden…</string>
+    <string name="voice_notification_call_ended">Oproep beëindigd</string>
+    <string name="voice_notification_end">Einde</string>
+    <!-- Call status caption -->
+    <string name="voice_status_connecting_via">Verbinding maken via %1$s…</string>
+    <string name="voice_status_weak_connection">Zwakke verbinding</string>
+    <string name="voice_status_paused">Gepauzeerd</string>
+    <string name="voice_status_needs_input">Je invoer is nodig</string>
+    <string name="voice_status_working">Bezig</string>
+    <string name="voice_status_speaking">Aan het woord</string>
+    <string name="voice_status_muted">Gedempt</string>
+    <string name="voice_status_listening">Luistert</string>
+    <string name="voice_status_ending">Beëindigen…</string>
+    <string name="voice_status_ended">Beëindigd</string>
+    <string name="voice_session_new_title">Nieuwe sessie</string>
+    <string name="voice_call_note_builtin_fallback">Deze oproep gebruikt de ingebouwde delegator</string>
+
+    <!-- Floating call tag and spoken length -->
+    <string name="voice_floating_now_talking_in">Nu in gesprek in %1$s</string>
+    <string name="voice_floating_spoken_duration">%1$s, %2$s</string>
+    <plurals name="voice_floating_spoken_minutes">
+        <item quantity="one">%1$d minuut</item>
+        <item quantity="other">%1$d minuten</item>
+    </plurals>
+    <plurals name="voice_floating_spoken_seconds">
+        <item quantity="one">%1$d seconde</item>
+        <item quantity="other">%1$d seconden</item>
+    </plurals>
+
+    <!-- Voice providers -->
+    <string name="voice_provider_state_ready">Klaar</string>
+    <string name="voice_provider_state_no_key">Geen sleutel</string>
+    <string name="voice_provider_state_needs_update">OpenCode bijwerken</string>
+    <string name="voice_provider_state_offline">Offline</string>
+    <string name="voice_provider_place_phone">Deze telefoon</string>
+    <string name="voice_provider_brand_openai_account">Je OpenAI-account</string>
+    <string name="voice_provider_name">%1$s op %2$s</string>
+    <string name="voice_provider_subtitle">Op %1$s</string>
+    <string name="voice_provider_key_row_title">%1$s-sleutel</string>
+    <string name="voice_provider_key_placeholder">API-sleutel van %1$s</string>
+
+    <!-- Voice key source -->
+    <string name="voice_key_source_server_row_title">Sleutel op je server</string>
+    <string name="voice_key_source_phone_footer">Oproepen gebruiken je eigen OpenAI- of xAI-sleutel.</string>
+    <string name="voice_key_source_server_footer">Oproepen gebruiken de %1$s-sleutel op je server.</string>
+    <string name="voice_key_source_opencode_footer">Oproepen worden gefactureerd aan je OpenCode Console-werkruimte.</string>
+
+    <!-- Call failure fixes and diagnosis -->
+    <string name="voice_fix_set_up_on_phone">Instellen op deze telefoon</string>
+    <string name="voice_fix_choose_provider">Aanbieder kiezen</string>
+    <string name="voice_fix_update_opencode">OpenCode bijwerken</string>
+    <string name="voice_diagnosis_needs_update">%1$s heeft een nieuwere versie van OpenCode nodig voor spraakoproepen.</string>
+    <string name="voice_diagnosis_your_server_needs_update">Je server heeft een nieuwere versie van OpenCode nodig voor spraakoproepen.</string>
+    <string name="voice_diagnosis_no_key">%1$s heeft geen sleutel voor spraakoproepen.</string>
+    <string name="voice_diagnosis_your_server_no_key">Je server heeft geen sleutel voor spraakoproepen.</string>
+    <string name="voice_diagnosis_unreachable">%1$s is niet bereikbaar.</string>
+    <string name="voice_diagnosis_your_server_unreachable">Je server is niet bereikbaar.</string>
+    <string name="voice_diagnosis_failed">%1$s kon de oproep niet starten.</string>
+    <string name="voice_diagnosis_your_server_failed">Je server kon de oproep niet starten.</string>
+    <string name="voice_diagnosis_key_rejected">OpenAI heeft de sleutel op deze telefoon niet geaccepteerd.</string>
+    <string name="voice_diagnosis_missing_phone_key">Voeg je API-sleutel van %1$s toe om vanaf deze telefoon te bellen.</string>
+
+    <!-- Call errors -->
+    <string name="voice_error_microphone_denied">Sta microfoontoegang toe in Instellingen om met je sessie te praten.</string>
+    <string name="voice_error_audio_format_unavailable">Het audioformaat van de hardware wordt niet ondersteund.</string>
+    <string name="voice_error_audio_engine_rejected">Oproepaudio starten mislukt. Probeer het zo opnieuw.</string>
+    <string name="voice_error_server_unsupported">Deze server heeft een nieuwere versie van OpenCode nodig voor spraakoproepen</string>
+    <string name="voice_error_invalid_server_url">Spraak starten mislukt: voer een geldige HTTP- of HTTPS-server-URL in.</string>
+    <string name="voice_error_invalid_response">Spraak starten mislukt: de server gaf een ongeldig antwoord.</string>
+    <string name="voice_error_start_voice_detail">Spraak starten mislukt: %1$s</string>
+    <string name="voice_error_start_voice_http">Spraak starten mislukt (HTTP %1$d).</string>
+    <string name="voice_error_openai_rejected_key">OpenAI heeft de API-sleutel geweigerd.</string>
+    <string name="voice_error_openai_verify_http">OpenAI kon deze sleutel niet controleren (HTTP %1$d).</string>
+    <string name="voice_error_no_connection">Geen verbinding.</string>
+    <string name="voice_error_model_address_invalid">Het adres van het spraakmodel is ongeldig.</string>
+    <string name="voice_error_xai_rejected_key">xAI heeft de API-sleutel geweigerd.</string>
+    <string name="voice_error_xai_verify_http">xAI kon deze sleutel niet controleren (HTTP %1$d).</string>
+    <string name="voice_error_xai_key_disabled">Deze xAI-API-sleutel is uitgeschakeld.</string>
+    <string name="voice_error_xai_key_blocked">Deze xAI-API-sleutel is geblokkeerd.</string>
+    <string name="voice_error_service_address_invalid">Het adres van de spraakdienst is ongeldig.</string>
+    <string name="voice_error_connection_lost">De spraakverbinding is verbroken.</string>
+    <string name="voice_error_connection_closed">De spraakverbinding is gesloten.</string>
+    <string name="voice_error_connection_setup">De spraakverbinding kon niet worden opgezet.</string>
+    <string name="voice_error_safety_filter">Een veiligheidsfilter heeft de spraakoproep beëindigd.</string>
+    <string name="voice_error_audio_reset">Het systeem heeft de audio opnieuw ingesteld. Start de oproep opnieuw.</string>
+    <string name="voice_error_missing_phone_key">Voeg je API-sleutel van %1$s toe in Instellingen om spraak te gebruiken.</string>
+
+    <!-- Voice accents -->
+    <string name="voice_accent_australian_english">Australisch Engels</string>
+    <string name="voice_accent_british_english">Brits Engels</string>
+    <string name="voice_accent_irish_english">Iers Engels</string>
+    <string name="voice_accent_north_american_english">Noord-Amerikaans Engels</string>
+    <string name="voice_accent_brazilian_portuguese">Braziliaans Portugees</string>
+    <string name="voice_accent_filipino_english">Filipijns Engels</string>
+    <string name="voice_accent_southern_us_english">Zuidelijk Amerikaans Engels</string>
+    <string name="voice_accent_indian_english">Indiaas Engels</string>
+    <string name="voice_preview_error">Voorbeeld afspelen mislukt</string>
+
+    <!-- Call sound packs -->
+    <string name="voice_sound_pack_breath_ping">Ademping</string>
+    <string name="voice_sound_pack_crystal_glass">Kristalglas</string>
+    <string name="voice_sound_pack_warm_analog">Warm analoog</string>
+    <string name="voice_sound_pack_aurora_pulse">Aurorapuls</string>
+    <string name="voice_sound_pack_velvet_bell">Fluwelen bel</string>
+    <string name="voice_sound_pack_silent">Stil</string>
+
+    <!-- Open link card -->
+    <string name="voice_open_link_card_title_untitled">Link openen?</string>
+    <string name="voice_open_link_card_title">%1$s openen?</string>
+
+    <!-- Delegator choice -->
+    <string name="voice_delegator_session_fallback">Sessie</string>
+    <string name="voice_delegator_unavailable_gemini">Gemini Live delegeert direct naar de huidige sessie. Kies een OpenAI-spraakaanbieder om een OpenCode-sessie te gebruiken.</string>
+    <string name="voice_delegator_unavailable_engine">%1$s delegeert direct naar de huidige sessie. Wijzig het spraakmodel naar GPT-Live om een OpenCode-sessie te gebruiken.</string>
+
+    <!-- Call log list and replay -->
+    <string name="voice_call_log_duration_seconds">%1$ds</string>
+    <string name="voice_call_log_duration_minutes">%1$dm %2$ds</string>
+    <string name="voice_replay_to_delegator">→ Delegator</string>
+    <string name="voice_replay_to_voice">→ Stem</string>
+    <string name="voice_replay_audio">Audio</string>
+    <string name="voice_replay_track_user">Jij</string>
+    <string name="voice_replay_track_voice">Stem</string>
+    <string name="voice_replay_track_delegator">Delegator</string>
+    <string name="voice_replay_track_tools">Hulpmiddelen</string>
+</resources>

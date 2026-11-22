@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">공유 항목을 추가할 수 없어요</string>
+    <string name="app_alert_open_session_failed_title">세션을 열 수 없어요</string>
+    <string name="app_alert_pairing_failed_title">서버와 페어링할 수 없어요</string>
+    <string name="app_pairing_confirm">페어링</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">서버</string>
+    <string name="app_servers_back_description">%1$s 화면으로 돌아가기</string>
+    <string name="app_server_fallback_name">서버</string>
+    <string name="app_connection_intro_new">%1$s에서도 코딩 세션을 이어가세요.</string>
+    <string name="app_connection_intro_returning">하던 작업을 이어가거나 다른 컴퓨터와 페어링하세요.</string>
+    <string name="app_connection_enter_manually">서버 직접 입력</string>
+    <string name="app_connection_scan_pairing_code">페어링 코드 스캔</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">컴퓨터에서 OpenCode를 열고 설정 → 페어링으로 이동하거나, 터미널에서 opencode pair --remote를 실행하세요. 그런 다음 이 %1$s 기기로 코드를 스캔하세요.</string>
+    <string name="app_setup_install_title">아직 OpenCode가 없나요?</string>
+    <string name="app_setup_other_ways_to_install">다른 설치 방법</string>
+    <string name="app_setup_terminal_title">또는 터미널에서 실행하세요</string>
+    <string name="app_setup_terminal_detail">어떤 네트워크에서든 사용할 수 있어요.</string>
+    <string name="app_setup_paste_prompt">또는 출력된 링크를 복사한 뒤</string>
+    <string name="app_setup_paste">붙여넣기</string>
+    <string name="app_setup_copy_command_description">%1$s 복사</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">연결 중</string>
+    <string name="app_servers_edit_description">%1$s 편집</string>
+    <string name="app_servers_remove_description">%1$s 제거</string>
+    <string name="app_servers_remove_confirm_title">%1$s 서버를 제거할까요?</string>
+    <string name="app_servers_remove_confirm_message">이 %1$s 기기에 저장된 주소와 비밀번호가 삭제돼요. 서버의 세션에는 영향이 없어요.</string>
+    <string name="app_servers_remove_confirm">서버 제거</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">단계: %1$s</string>
+    <string name="app_error_server">서버: %1$s</string>
+    <string name="app_error_attempt">시도: %1$d</string>
+    <string name="app_error_copy_report">오류 보고서 복사</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">새 서버</string>
+    <string name="app_server_form_edit_title">서버 편집</string>
+    <string name="app_server_form_name">이름</string>
+    <string name="app_server_form_address">서버 URL</string>
+    <string name="app_server_form_username">사용자 이름</string>
+    <string name="app_server_form_password">비밀번호 (선택 사항)</string>
+    <string name="app_server_form_hide_password_description">비밀번호 숨기기</string>
+    <string name="app_server_form_show_password_description">비밀번호 보기</string>
+    <string name="app_server_form_connect">연결</string>
+    <string name="app_server_form_save_and_connect">저장 후 연결</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">헤더</string>
+    <string name="app_server_form_header_name">이름</string>
+    <string name="app_server_form_header_name_description">헤더 %1$d 이름</string>
+    <string name="app_server_form_header_value">값</string>
+    <string name="app_server_form_header_value_description">헤더 %1$d 값</string>
+    <string name="app_server_form_header_remove_description">헤더 %1$d 제거</string>
+    <string name="app_server_form_header_add">헤더 추가</string>
+    <string name="app_server_form_headers_detail">Cloudflare Access 같은 서버 앞단의 프록시에 매 요청마다 전송돼요.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">“%1$s”은 올바른 헤더 이름이 아니에요</string>
+    <string name="app_server_form_header_invalid_value">%1$s 값에는 줄바꿈을 넣을 수 없어요</string>
+    <string name="app_server_form_name_placeholder">선택 사항</string>
+    <string name="app_connection_progress_pairing">페어링 중</string>
+    <string name="app_connection_progress_connecting">연결 중</string>
+    <string name="app_connection_progress_loading_sessions">세션 로딩 중</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">%1$s 서버와 페어링할까요?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode가 %1$s 주소로 연결을 시도하고 가장 먼저 응답하는 주소로 전환해요.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode가 %1$s 서버와 페어링하고 해당 서버로 전환해요.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode가 %1$s 및 %2$s 주소로 연결을 시도하고 가장 먼저 응답하는 주소로 전환해요.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode가 %1$s 및 %2$s 주소로 연결을 시도하고 가장 먼저 응답하는 주소로 전환해요.</string>
+    <string name="app_pairing_confirm_replaces">%1$s %2$s 서버에 저장된 인증 정보가 바뀔 수 있어요.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">페어링</string>
+    <string name="app_error_phase_connect">연결</string>
+    <string name="app_error_phase_load_sessions">세션 불러오기</string>
+    <string name="app_error_candidate_detail">후보 %1$d: %2$s</string>
+    <string name="app_error_invalid_address">사용 불가 (잘못된 주소)</string>
+    <string name="app_error_title_pair">페어링할 수 없어요</string>
+    <string name="app_error_title_load_sessions">세션을 불러올 수 없어요</string>
+    <string name="app_error_title_connect">%1$s에 연결할 수 없어요</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">클립보드가 비어 있어요</string>
+    <string name="app_paste_not_a_pairing_link">페어링 링크가 아니에요</string>
+    <string name="app_server_no_longer_saved">이 %1$s에 더 이상 저장되어 있지 않은 서버예요. 세션을 열려면 다시 연결해 주세요.</string>
+    <string name="app_session_no_longer_available">세션이 삭제되었거나 서버를 사용할 수 없는 상태일 수 있어요.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">%1$s에 연결됐어요</string>
+    <string name="app_pairing_invalid_code">OpenCode 페어링 코드가 아니에요. 컴퓨터에서 opencode pair --remote를 실행한 다음, QR 코드를 스캔하거나 출력된 링크를 붙여넣어 주세요.</string>
+    <string name="app_pairing_unusable_address">이 페어링 코드의 “%1$s” 주소를 사용할 수 없어요: %2$s.</string>
+    <string name="app_pairing_loopback">이 서버는 localhost에서만 연결을 받아서 이 %1$s에서는 접속할 수 없어요. 대신 컴퓨터에서 opencode pair --remote를 실행해 주세요. 어느 네트워크에서나 연결할 수 있어요.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">공유 대상 서버가 이 기기에 더 이상 저장되어 있지 않아요. 서버에 다시 연결한 다음 다시 공유해 주세요.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">마지막 사용</string>
+    <string name="app_server_form_hint_new">`opencode pair --remote`가 출력한 링크를 붙여넣어 페어링하거나, OpenCode 서버의 주소와 비밀번호를 입력해 주세요. 사용자 이름은 보통 opencode예요.</string>
+    <string name="app_server_form_hint_edit_paired">서버에 연결되면 변경 사항이 저장돼요. 페어링된 서버의 비밀번호는 세션 토큰이므로, 변경하지 말고 새 페어링 코드를 스캔해 주세요.</string>
+    <string name="app_server_form_hint_edit">서버에 연결되면 변경 사항이 저장돼요.</string>
+</resources>

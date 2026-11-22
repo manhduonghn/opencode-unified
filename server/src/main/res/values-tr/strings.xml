@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Kabuk</string>
+    <string name="server_notice_source_subagent">Alt temsilci</string>
+    <string name="server_notice_heading_finished">%1$s tamamlandı</string>
+    <string name="server_notice_heading_failed">%1$s başarısız oldu</string>
+    <string name="server_notice_heading_interrupted">%1$s kesildi</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$d kabuk tamamlandı</item>
+        <item quantity="other">%1$d kabuk tamamlandı</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$d kabuk başarısız oldu</item>
+        <item quantity="other">%1$d kabuk başarısız oldu</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">%1$d kabuk kesildi</item>
+        <item quantity="other">%1$d kabuk kesildi</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">%1$d alt temsilci tamamlandı</item>
+        <item quantity="other">%1$d alt temsilci tamamlandı</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">%1$d alt temsilci başarısız oldu</item>
+        <item quantity="other">%1$d alt temsilci başarısız oldu</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">%1$d alt temsilci kesildi</item>
+        <item quantity="other">%1$d alt temsilci kesildi</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Kompakt</string>
+    <string name="server_run_error_action_switch_model">Modeli değiştir</string>
+    <string name="server_run_error_aborted">Kesildi</string>
+    <string name="server_run_error_permission_rejected">Bir istek reddedilince kesildi</string>
+    <string name="server_run_error_content_filter">Güvenlik filtresi yanıtı engelledi</string>
+    <string name="server_run_error_rate_limit">İstek sınırına ulaşıldı</string>
+    <string name="server_run_error_quota">Kullanım sınırına ulaşıldı</string>
+    <string name="server_run_error_auth">Sağlayıcı API anahtarını reddetti</string>
+    <string name="server_run_error_context_overflow">Oturum bu model için çok uzun</string>
+    <string name="server_run_error_invalid_request">Sağlayıcı isteği reddetti</string>
+    <string name="server_run_error_overloaded">Model aşırı yoğun</string>
+    <string name="server_run_error_internal">Sağlayıcıda bir sorun oluştu</string>
+    <string name="server_run_error_transport">Modelle bağlantı koptu</string>
+    <string name="server_run_error_timeout">Modelin yanıt vermesi çok uzun sürdü</string>
+    <string name="server_run_error_invalid_output">Modelin yanıtı okunamadı</string>
+    <string name="server_run_error_unavailable">Bu model mevcut değil</string>
+    <string name="server_run_error_unsupported_operation">Bu model bunu yapamıyor</string>
+    <string name="server_run_error_tool_execution">Bir araç hata verdi ve çalışma durdu</string>
+    <string name="server_run_error_other">Çalışma bir hata nedeniyle durdu</string>
+    <string name="server_run_retry_in_seconds">%1$s · %2$d sn sonra yeniden denenecek</string>
+    <string name="server_run_retry_now">%1$s · yeniden deneniyor</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">OpenCode sunucusuna ulaşılamadı</string>
+    <string name="server_error_folder_gone">Klasör artık mevcut değil</string>
+    <string name="server_error_uploads_unsupported">Bu sunucu dosya eklerini desteklemiyor. Bilgisayarınızdaki OpenCode\'u güncelleyin.</string>
+    <string name="server_error_archiving_unsupported">Bu sunucu arşivlemeyi desteklemiyor. Bilgisayarınızdaki OpenCode\'u güncelleyin.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode\'un yerel ağınızdaki cihazlara erişim izni yok. Ayarlar\'da OpenCode için Yakındaki cihazlar iznini açıp tekrar deneyin.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Adsız oturum</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Kabuk</string>
+    <string name="server_tool_shell_killed">Kabuk zorla sonlandırıldı</string>
+    <string name="server_tool_shell_exit_code">Komut %1$d koduyla sonlandı</string>
+    <string name="server_notice_session_update">Oturum güncellemesi</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Bağlantı başarısız</string>
+    <string name="server_connection_resolved_address_unknown">Çözümlenen adres: bilinmiyor</string>
+    <string name="server_connection_resolved_address">Çözümlenen adres (hata sonrası sorgulama): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">Bu tailnet adı Tailscale aralığı dışındaki bir adrese çözümlendi. Tailscale DNS kullanılmıyor olabilir. Tailscale uygulamasında Tailscale DNS ayarlarını kullan seçeneğini açın; Özel DNS\'i veya DNS\'i değiştiren VPN profillerini kapatın.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Yerel ağ</string>
+    <string name="server_connection_route_loopback">Geri döngü</string>
+    <string name="server_connection_route_internet">İnternet</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">bir web adresi değil</string>
+    <string name="server_pairing_origin_bad_scheme">http:// veya https:// ile başlamıyor</string>
+    <string name="server_pairing_origin_no_host">sunucu adı yok</string>
+    <string name="server_pairing_origin_credentials">kullanıcı adı veya parola içeriyor</string>
+    <string name="server_pairing_origin_query">sorgu veya parça tanımlayıcısı içeriyor</string>
+    <string name="server_pairing_origin_port">bağlantı noktası 1–65535 aralığında değil</string>
+    <string name="server_pairing_origin_path">bir yol içeriyor; sunucu, adresin kökünde olmalı</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Sunucu</string>
+    <string name="server_friendly_name_numbered">Sunucu %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">Mesaj gönderildikten sonra bağlantı koptu. Mesaj ulaşmış olabilir.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Bu entegrasyonun oturum açma yöntemi yok.</string>
+    <string name="server_error_sign_in_url_invalid">Oturum açma sayfasının adresi geçersiz.</string>
+    <string name="server_error_load_server_details">Sunucu ayrıntıları yüklenemedi</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">Bu eşleştirme kodunun süresi doldu veya kod zaten kullanıldı. `opencode pair --remote` komutunu yeniden çalıştırın.</string>
+    <string name="server_error_pairing_unsupported">Bu sunucu eşleştirme bağlantılarını desteklemiyor. Bilgisayarınızdaki OpenCode\'u güncelleyin veya sunucuyu elle girin.</string>
+    <string name="server_error_notification_previews_need_https">Şifreli bildirim önizlemeleri için HTTPS sunucu bağlantısı gerekir.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Geçerli bir HTTP veya HTTPS sunucu URL\'si girin.</string>
+    <string name="server_error_credentials_rejected">Sunucu bu kimlik bilgilerini reddetti.</string>
+    <string name="server_error_http_status">Sunucu HTTP %1$d döndürdü.</string>
+    <string name="server_error_event_stream_http">Olay akışı HTTP %1$d döndürdü.</string>
+    <string name="server_error_event_stream_oversized_frame">Olay akışı çok büyük bir çerçeve gönderdi.</string>
+    <string name="server_error_event_stream_ended">Olay akışı sona erdi.</string>
+    <string name="server_error_event_stream_server_failure">Olay akışı bir sunucu hatası bildirdi.</string>
+    <string name="server_tool_failed">Araç başarısız oldu</string>
+    <string name="server_error_list_folder">Sunucu bu klasörün içeriğini listeleyemedi</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Projeler ve oturumlar yüklenemedi</string>
+    <string name="server_error_load_session_family">Oturum ailesi yüklenemedi</string>
+    <string name="server_error_update_session">Oturum güncellenemedi</string>
+    <string name="server_error_load_session_ancestry">Etkin oturumun üst oturumları yüklenemedi</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Başka bir yerde zaten yanıtlandı</string>
+    <string name="server_request_already_dismissed">Zaten kapatıldı</string>
+    <string name="server_request_already_answered">Zaten yanıtlandı</string>
+    <string name="server_request_already_dismissed_elsewhere">Başka bir yerde zaten kapatıldı</string>
+    <string name="server_request_no_longer_waiting">Artık beklenmiyor</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Medya mevcut değil</string>
+    <string name="server_pasted_text_title">Yapıştırılan metin</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d satır · %2$s</item>
+        <item quantity="other">%1$d satır · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d satır</item>
+        <item quantity="other">%1$d satır</item>
+    </plurals>
+    <string name="server_file_size_zero">0 KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d bayt</item>
+        <item quantity="other">%1$d bayt</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">Proje</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Dosya</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Bu adımı tamamlayın</string>
+    <string name="server_form_required">Zorunlu</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">En az %1$d karakter girin</item>
+        <item quantity="other">En az %1$d karakter girin</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">En fazla %1$d karakter girin</item>
+        <item quantity="other">En fazla %1$d karakter girin</item>
+    </plurals>
+    <string name="server_form_invalid_format">Geçersiz biçim</string>
+    <string name="server_form_choose_option">Mevcut seçeneklerden birini seçin</string>
+    <string name="server_form_invalid_email">Geçerli bir e-posta adresi girin</string>
+    <string name="server_form_invalid_url">Geçerli bir URL girin</string>
+    <string name="server_form_invalid_date">YYYY-MM-DD biçiminde bir tarih girin</string>
+    <string name="server_form_invalid_date_time">Geçerli bir tarih ve saat girin</string>
+    <string name="server_form_minimum">En az %1$s olmalı</string>
+    <string name="server_form_maximum">En fazla %1$s olmalı</string>
+    <string name="server_form_whole_number">Bir tam sayı girin</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">En az %1$d tane seçin</item>
+        <item quantity="other">En az %1$d tane seçin</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">En fazla %1$d tane seçin</item>
+        <item quantity="other">En fazla %1$d tane seçin</item>
+    </plurals>
+    <string name="server_form_invalid_value">Geçersiz değer</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Seçilenleri gizle</string>
+    <string name="server_model_visibility_only_show">Yalnızca seçilenleri göster</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Kapalı</string>
+    <string name="server_model_variant_extra_high">Çok yüksek</string>
+    <string name="server_model_variant_max">En yüksek</string>
+    <string name="server_delivery_steering">Yönlendirme</string>
+    <string name="server_delivery_queued">Sırada</string>
+</resources>

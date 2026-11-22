@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Jagatud üksuste lisamine ebaõnnestus</string>
+    <string name="app_alert_open_session_failed_title">Seansi avamine ebaõnnestus</string>
+    <string name="app_alert_pairing_failed_title">Serveriga sidumine ebaõnnestus</string>
+    <string name="app_pairing_confirm">Seo</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Serverid</string>
+    <string name="app_servers_back_description">Tagasi: %1$s</string>
+    <string name="app_server_fallback_name">server</string>
+    <string name="app_connection_intro_new">Jätka oma programmeerimisseansse seadmes %1$s.</string>
+    <string name="app_connection_intro_returning">Jätka sealt, kus pooleli jäid, või seo teine arvuti.</string>
+    <string name="app_connection_enter_manually">Sisesta server käsitsi</string>
+    <string name="app_connection_scan_pairing_code">Skaneeri sidumiskood</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Ava arvutis OpenCode ja vali Seaded → Sidumine või käivita terminalis opencode pair --remote. Seejärel skaneeri kood seadmega %1$s.</string>
+    <string name="app_setup_install_title">Sul pole veel OpenCode\'i?</string>
+    <string name="app_setup_other_ways_to_install">Muud paigaldusviisid</string>
+    <string name="app_setup_terminal_title">Või käivita see terminalis</string>
+    <string name="app_setup_terminal_detail">See töötab igas võrgus.</string>
+    <string name="app_setup_paste_prompt">Või kopeeri kuvatud link ja seejärel</string>
+    <string name="app_setup_paste">Kleebi</string>
+    <string name="app_setup_copy_command_description">Kopeeri %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Ühendamine</string>
+    <string name="app_servers_edit_description">Muuda %1$s</string>
+    <string name="app_servers_remove_description">Eemalda %1$s</string>
+    <string name="app_servers_remove_confirm_title">Kas eemaldada %1$s?</string>
+    <string name="app_servers_remove_confirm_message">See eemaldab aadressi ja parooli seadmest %1$s. Serveris olevaid seansse see ei mõjuta.</string>
+    <string name="app_servers_remove_confirm">Eemalda server</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Etapp: %1$s</string>
+    <string name="app_error_server">Server: %1$s</string>
+    <string name="app_error_attempt">Katse: %1$d</string>
+    <string name="app_error_copy_report">Kopeeri veaaruanne</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Uus server</string>
+    <string name="app_server_form_edit_title">Muuda serverit</string>
+    <string name="app_server_form_name">Nimi</string>
+    <string name="app_server_form_address">Serveri aadress</string>
+    <string name="app_server_form_username">Kasutajanimi</string>
+    <string name="app_server_form_password">Parool (valikuline)</string>
+    <string name="app_server_form_hide_password_description">Peida parool</string>
+    <string name="app_server_form_show_password_description">Näita parooli</string>
+    <string name="app_server_form_connect">Ühendage</string>
+    <string name="app_server_form_save_and_connect">Salvesta ja ühenda</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Päised</string>
+    <string name="app_server_form_header_name">Nimi</string>
+    <string name="app_server_form_header_name_description">Päise %1$d nimi</string>
+    <string name="app_server_form_header_value">Väärtus</string>
+    <string name="app_server_form_header_value_description">Päise %1$d väärtus</string>
+    <string name="app_server_form_header_remove_description">Eemalda päis %1$d</string>
+    <string name="app_server_form_header_add">Lisa päis</string>
+    <string name="app_server_form_headers_detail">Saadetakse iga päringuga serveri ees olevale puhverserverile, näiteks Cloudflare Accessile.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">„%1$s” pole kehtiv päise nimi</string>
+    <string name="app_server_form_header_invalid_value">%1$s väärtus ei tohi sisaldada reavahetust</string>
+    <string name="app_server_form_name_placeholder">Valikuline</string>
+    <string name="app_connection_progress_pairing">Sidumine</string>
+    <string name="app_connection_progress_connecting">Ühendamine</string>
+    <string name="app_connection_progress_loading_sessions">Seansside laadimine</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Kas siduda serveriga %1$s?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode proovib aadressi %1$s ja lülitub esimesele vastavale aadressile.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode seob end serveriga %1$s ja lülitub sellele.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode proovib aadresse %1$s ja %2$s ning lülitub esimesele, mis vastab.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode proovib aadresse %1$s ja %2$s ning lülitub esimesele, mis vastab.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Serveri %2$s salvestatud sisselogimisandmed võidakse asendada.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Sidumine</string>
+    <string name="app_error_phase_connect">Ühendage</string>
+    <string name="app_error_phase_load_sessions">Laadi seansid</string>
+    <string name="app_error_candidate_detail">Kandidaat %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Pole saadaval (vigane aadress)</string>
+    <string name="app_error_title_pair">Sidumine ebaõnnestus</string>
+    <string name="app_error_title_load_sessions">Seansside laadimine ebaõnnestus</string>
+    <string name="app_error_title_connect">Ühendamine serveriga %1$s ebaõnnestus</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Lõikelaud on tühi</string>
+    <string name="app_paste_not_a_pairing_link">See pole sidumislink</string>
+    <string name="app_server_no_longer_saved">See server pole enam selles seadmes (%1$s) salvestatud. Seansi avamiseks ühenda sellega uuesti.</string>
+    <string name="app_session_no_longer_available">See võib olla kustutatud või server pole saadaval.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Ühendatud serveriga %1$s</string>
+    <string name="app_pairing_invalid_code">See pole OpenCode\'i sidumiskood. Käivita arvutis opencode pair --remote, seejärel skaneeri selle QR-kood või kleebi väljastatud link.</string>
+    <string name="app_pairing_unusable_address">Selle sidumiskoodi aadressi „%1$s” ei saanud kasutada: see %2$s.</string>
+    <string name="app_pairing_loopback">See server kuulab ainult localhost-aadressil, seega ei pääse see seade (%1$s) sellele ligi. Käivita arvutis hoopis opencode pair --remote, mis töötab igast võrgust.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Server, kuhu jagasid, pole enam selles seadmes salvestatud. Ühenda sellega uuesti ja proovi uuesti jagada.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">viimati kasutatud</string>
+    <string name="app_server_form_hint_new">Sidumiseks kleebi käsu `opencode pair --remote` väljastatud link või kasuta oma OpenCode\'i serveri aadressi ja parooli. Kasutajanimi on tavaliselt opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Muudatused salvestatakse, kui serveriga on ühendus loodud. See server on seotud, seega on selle parool seansitõend; parooli muutmise asemel skaneeri uus sidumiskood.</string>
+    <string name="app_server_form_hint_edit">Muudatused salvestatakse, kui serveriga on ühendus loodud.</string>
+</resources>

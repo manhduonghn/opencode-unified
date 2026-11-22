@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- :feature:system's components (merged into the app): the system-action door, the share
+     target, Live Update actions, Quick Settings tiles, home-screen widgets and push. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.POST_PROMOTED_NOTIFICATIONS" />
+    <!-- Ask OpenCode hides other apps' overlays while its Send shows (setHideOverlayWindows). -->
+    <uses-permission android:name="android.permission.HIDE_OVERLAY_WINDOWS" />
+
+    <!-- The assistant AppActionActivity.isVerifiedAssistant checks the signature of. -->
+    <queries>
+        <package android:name="com.google.android.googlequicksearchbox" />
+    </queries>
+
+    <application>
+        <!-- Static shortcuts (New Session), App Actions capabilities and direct-share targets
+             attach to the launcher activity, which :app declares. -->
+        <activity
+            android:name="ai.opencode.app.MainActivity"
+            tools:ignore="MissingClass"
+            tools:node="merge">
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
+
+        <!-- Every system entry point: quick actions, shortcuts, tiles, widgets, notifications.
+             Private: launchers, System UI and notifications start it as this app. -->
+        <activity
+            android:name=".intents.SystemActionActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- App Actions (OPEN_APP_FEATURE): Assistant starts it as itself; forwards the feature and
+             whether the caller is a verified assistant (only then may it start a call). -->
+        <activity
+            android:name=".intents.AppActionActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:noHistory="true"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- Start Voice Call in Background (experimental): the call's Live Update first, no app UI. -->
+        <activity
+            android:name=".intents.BackgroundCallActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:noHistory="true"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- Ask OpenCode: sends a message without opening the app. -->
+        <activity
+            android:name=".intents.AskOpenCodeActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:taskAffinity=""
+            android:theme="@style/Theme.OpenCode.SystemDialog"
+            android:windowSoftInputMode="adjustResize|stateVisible" />
+
+        <!-- The share sheet (iOS OpenCodeShare). -->
+        <activity
+            android:name=".share.ShareActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:label="OpenCode"
+            android:taskAffinity=""
+            android:theme="@style/Theme.OpenCode.ShareSheet"
+            android:windowSoftInputMode="adjustResize|stateVisible">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/*" />
+                <data android:mimeType="image/*" />
+                <data android:mimeType="video/*" />
+                <data android:mimeType="audio/*" />
+                <data android:mimeType="application/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/*" />
+                <data android:mimeType="image/*" />
+                <data android:mimeType="video/*" />
+                <data android:mimeType="audio/*" />
+                <data android:mimeType="application/*" />
+            </intent-filter>
+        </activity>
+
+        <!-- Android's notification permission dialog, for NotificationPermissionClient.request. -->
+        <activity
+            android:name=".notifications.NotificationPermissionActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:noHistory="true"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- Push (FCM), inert until a Firebase configuration ships: no token, no messages. -->
+        <service
+            android:name=".notifications.OpenCodeMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <meta-data android:name="firebase_messaging_auto_init_enabled" android:value="false" />
+        <meta-data android:name="firebase_analytics_collection_enabled" android:value="false" />
+
+        <!-- Live Update buttons: End, Mute or Unmute, Stop Recording; and a swiped-away Live Update. -->
+        <receiver
+            android:name=".liveactivity.LiveActivityActionReceiver"
+            android:exported="false" />
+
+        <!-- Quick Settings tiles (iOS Control Center controls). -->
+        <service
+            android:name=".widgets.StartCallTileService"
+            android:exported="true"
+            android:icon="@drawable/ms_graphic_eq"
+            android:label="@string/system_start_call"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+            <meta-data android:name="android.service.quicksettings.TOGGLEABLE_TILE" android:value="false" />
+        </service>
+        <service
+            android:name=".widgets.OpenSessionTileService"
+            android:exported="true"
+            android:icon="@drawable/ms_chat_bubble"
+            android:label="@string/system_open_session"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+            <meta-data android:name="android.service.quicksettings.TOGGLEABLE_TILE" android:value="false" />
+        </service>
+        <service
+            android:name=".widgets.NewSessionTileService"
+            android:exported="true"
+            android:icon="@drawable/ms_edit_square"
+            android:label="@string/system_new_session"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+            <meta-data android:name="android.service.quicksettings.TOGGLEABLE_TILE" android:value="false" />
+        </service>
+
+        <!-- Home-screen widgets (iOS controls on the Lock Screen and Home Screen). -->
+        <receiver
+            android:name=".widgets.StartCallWidgetReceiver"
+            android:exported="true"
+            android:label="@string/system_start_call">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_start_call" />
+        </receiver>
+        <receiver
+            android:name=".widgets.OpenSessionWidgetReceiver"
+            android:exported="true"
+            android:label="@string/system_open_session">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_open_session" />
+        </receiver>
+        <receiver
+            android:name=".widgets.NewSessionWidgetReceiver"
+            android:exported="true"
+            android:label="@string/system_new_session">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_new_session" />
+        </receiver>
+        <!-- Choose Session (iOS SessionControlConfiguration). -->
+        <activity
+            android:name=".widgets.SessionWidgetConfigurationActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:taskAffinity=""
+            android:theme="@style/Theme.OpenCode.SystemDialog">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

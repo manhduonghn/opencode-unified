@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_new_session">Нова сесія</string>
+    <string name="system_start_call">Почати дзвінок</string>
+    <string name="system_open_session">Відкрити сесію</string>
+    <string name="widget_start_call_description">Починає голосовий дзвінок у вибраній або останній переглянутій сесії.</string>
+    <string name="widget_open_session_description">Відкриває вибрану сесію.</string>
+    <string name="widget_new_session_description">Відкриває нову сесію OpenCode.</string>
+
+    <!-- Shared across screens -->
+    <string name="system_selected_description">Вибрано</string>
+    <string name="system_last_viewed_session">Остання переглянута сесія</string>
+
+    <!-- Quick actions (launcher shortcuts) -->
+    <string name="system_quick_action_session_fallback">Сесія</string>
+    <!-- Long label: the session's title, then its project. -->
+    <string name="system_quick_action_long_label">%1$s · %2$s</string>
+
+    <!-- Shortcuts and Ask OpenCode -->
+    <string name="system_session_type_name">Сесія</string>
+    <string name="system_project_type_name">Проєкт</string>
+    <string name="system_intent_open_session_description">Відкриває сесію в OpenCode.</string>
+    <string name="system_intent_new_session_description">Починає нову сесію в OpenCode.</string>
+    <string name="system_intent_start_voice_call_title">Почати голосовий дзвінок</string>
+    <string name="system_intent_start_voice_call_description">Починає голосовий дзвінок з OpenCode у сесії. Якщо сесію не вказано, дзвінок почнеться в останній переглянутій.</string>
+    <string name="system_intent_background_call_title">Почати голосовий дзвінок у фоні</string>
+    <string name="system_intent_background_call_description">Починає голосовий дзвінок з OpenCode, не відкриваючи застосунок. Дзвінок відображається в рядку стану та на екрані блокування.</string>
+    <string name="system_delivery_type_name">Спосіб надсилання</string>
+    <string name="system_delivery_steer">Спрямувати</string>
+    <string name="system_delivery_queue">Поставити в чергу</string>
+    <string name="system_ask_title">Запитати OpenCode</string>
+    <string name="system_ask_description">Надсилає повідомлення в сесію OpenCode, не відкриваючи застосунок.</string>
+    <string name="system_ask_message_title">Повідомлення</string>
+    <string name="system_ask_message_placeholder">Що має зробити OpenCode?</string>
+    <string name="system_ask_session_title">Сесія</string>
+    <string name="system_ask_started_new_session">Розпочато нову сесію в %1$s</string>
+    <string name="system_ask_queued_for">Поставлено в чергу для «%1$s»</string>
+    <string name="system_ask_sent_to">Надіслано до «%1$s»</string>
+    <string name="system_ask_your_session">ваша сесія</string>
+    <string name="system_ask_no_server">Спершу відкрийте OpenCode і підключіться до сервера.</string>
+    <string name="system_ask_no_project">Спершу відкрийте OpenCode і почніть сесію.</string>
+    <string name="system_ask_empty_message">Немає що надсилати.</string>
+    <!-- The server's error message follows. -->
+    <string name="system_ask_send_failed">Не вдалося надіслати до OpenCode. %1$s</string>
+
+    <!-- Live Updates: voice call -->
+    <string name="system_call_muted">Мікрофон вимкнено</string>
+    <string name="system_call_unmute">Увімкнути мікрофон</string>
+    <string name="system_call_mute">Вимкнути мікрофон</string>
+    <string name="system_call_end">Завершити дзвінок</string>
+    <string name="system_call_connecting">Підключення…</string>
+    <string name="system_call_reconnecting">Повторне підключення…</string>
+    <string name="system_call_ended">Дзвінок завершено</string>
+    <string name="system_call_end_title">Завершити дзвінок</string>
+    <string name="system_call_toggle_mute_title">Вимкнути або ввімкнути мікрофон</string>
+
+    <!-- Live Updates: hands-free recording -->
+    <string name="system_recording_active">Запис</string>
+    <string name="system_recording_stopped">Запис зупинено</string>
+    <string name="system_recording_stop">Зупинити запис</string>
+    <string name="system_recording_stop_title">Зупинити запис</string>
+    <string name="system_recording_new_session">Нова сесія</string>
+
+    <!-- Live Updates: session run -->
+    <string name="system_session_working">Працює</string>
+    <string name="system_session_last_seen_working">Останній відомий стан: працює</string>
+    <!-- Where the run is (Working), then its current step (a tool name, Thinking or Replying). -->
+    <string name="system_session_status_with_step">%1$s · %2$s</string>
+    <string name="system_session_step_thinking">Міркування</string>
+    <string name="system_session_step_replying">Відповідає</string>
+    <string name="system_session_needs_input">Потрібна ваша відповідь</string>
+    <string name="system_session_input">Вхідні дані</string>
+    <string name="system_session_done">Готово</string>
+    <string name="system_session_failed">Помилка</string>
+
+    <!-- Session notifications -->
+    <string name="system_notification_placeholder_body">Нова активність</string>
+
+    <!-- Notification channels -->
+    <string name="system_channel_voice_calls">Голосові дзвінки</string>
+    <string name="system_channel_recording">Запис</string>
+    <string name="system_channel_session_runs">Запуски сесій</string>
+    <string name="system_channel_session_updates">Оновлення сесій</string>
+    <string name="system_channel_shared_items">Надіслані елементи</string>
+
+    <!-- Share sheet: notifications -->
+    <string name="system_share_continue_notification_body">Торкніться, щоб продовжити в OpenCode</string>
+
+    <!-- Share sheet -->
+    <string name="system_share_your_server">ваш сервер</string>
+    <string name="system_share_new_session_in_project">Нова сесія · %1$s</string>
+    <string name="system_share_save_failed_message">Спробуйте ще раз. Якщо це повторюється, звільніть місце на пристрої.</string>
+    <!-- The session's title, then its project. -->
+    <string name="system_share_session_chip_description">%1$s, %2$s</string>
+    <string name="system_share_problem_unreachable">Не вдалося підключитися до %1$s</string>
+    <string name="system_share_problem_too_large">Не вдалося надіслати звідси такі великі файли</string>
+    <string name="system_share_problem_uploads_unsupported">Не вдалося завантажити файли на %1$s</string>
+    <string name="system_share_problem_sign_in">Не вдалося ввійти в %1$s</string>
+    <string name="system_share_problem_send">Не вдалося надіслати до %1$s</string>
+    <string name="system_share_problem_no_credentials">Відкрийте OpenCode один раз, щоб надсилати звідси</string>
+    <plurals name="system_share_image_count">
+        <item quantity="one">%d зображення</item>
+        <item quantity="few">%d зображення</item>
+        <item quantity="many">%d зображень</item>
+        <item quantity="other">%d зображення</item>
+    </plurals>
+    <plurals name="system_share_file_count">
+        <item quantity="one">%d файл</item>
+        <item quantity="few">%d файли</item>
+        <item quantity="many">%d файлів</item>
+        <item quantity="other">%d файла</item>
+    </plurals>
+    <plurals name="system_share_images_skipped">
+        <item quantity="one">Не вдалося додати %d зображення</item>
+        <item quantity="few">Не вдалося додати %d зображення</item>
+        <item quantity="many">Не вдалося додати %d зображень</item>
+        <item quantity="other">Не вдалося додати %d зображення</item>
+    </plurals>
+    <plurals name="system_share_files_skipped">
+        <item quantity="one">Не вдалося додати %d файл</item>
+        <item quantity="few">Не вдалося додати %d файли</item>
+        <item quantity="many">Не вдалося додати %d файлів</item>
+        <item quantity="other">Не вдалося додати %d файла</item>
+    </plurals>
+    <string name="system_share_save_failed_title">Не вдалося зберегти для OpenCode</string>
+    <string name="system_share_continue_description">Продовжити в OpenCode</string>
+    <string name="system_share_no_server_title">Спершу підключіться до сервера</string>
+    <string name="system_share_no_server_message">Відкрийте OpenCode й підключіться до свого комп’ютера, а потім поділіться ще раз.</string>
+    <string name="system_share_send_later">Надіслати пізніше</string>
+    <string name="system_share_saved_continue">Збережено. Відкрийте OpenCode, щоб продовжити</string>
+    <string name="system_share_loading_description">Завантаження надісланих елементів</string>
+    <string name="system_share_image_description">Зображення</string>
+    <string name="system_share_image_position_description">Зображення %1$d з %2$d</string>
+    <string name="system_share_search_sessions_description">Пошук сесій</string>
+    <string name="system_share_new_session_in_project_description">Нова сесія в %1$s</string>
+    <string name="system_share_choose_project_description">Вибрати проєкт для сесії</string>
+    <string name="system_share_message_placeholder">Повідомлення</string>
+    <string name="system_share_sent_to">Надіслано до %1$s</string>
+    <string name="system_share_sending_description">Надсилання</string>
+    <string name="system_share_sent_description">Надіслано</string>
+    <string name="system_share_sessions_title">Сесії</string>
+    <string name="system_share_pinned_header">Закріплені</string>
+    <string name="system_share_recents_header">Нещодавні</string>
+
+    <!-- Widget configuration -->
+    <string name="system_widget_choose_session_title">Вибрати сесію</string>
+</resources>

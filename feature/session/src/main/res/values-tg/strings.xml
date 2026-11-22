@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent activity glyph -->
+    <string name="session_activity_running_description">Иҷро мешавад</string>
+    <!-- Background work panel -->
+    <string name="session_background_work_show_label">Зер-агентҳо, скриптҳо ва shell-ҳои фаъолро нишон диҳед</string>
+    <string name="session_background_work_collapsed_description">Ҷамъшуда</string>
+    <string name="session_background_work_subagents_title">Зер-агентҳо</string>
+    <string name="session_background_work_open_subagent_label">Сессияи зер-агентро кушоед</string>
+    <string name="session_background_work_shells_title">Shell-ҳо</string>
+    <string name="session_background_work_show_shell_label">Натиҷаи shell-ро нишон диҳед</string>
+    <!-- The session's images and videos, paged in the full-screen viewer -->
+    <string name="session_visual_attached_image">Тасвири замимашуда</string>
+    <string name="session_visual_tool_image">Тасвири абзор</string>
+    <string name="session_visual_image">Тасвир</string>
+    <!-- One image of several: the image's label, then its place, as “Attached image 2 of 3” -->
+    <string name="session_visual_image_page_label">%1$s %2$d аз %3$d</string>
+    <!-- A diagram's label, read by TalkBack. %1$s is its kind, as “Diagram, Flowchart” -->
+    <string name="session_visual_diagram_label">Диаграмма, %1$s</string>
+    <!-- Jump to latest -->
+    <string name="session_scroll_to_latest_description">Ба охирин гузаред</string>
+    <!-- Dictation bar -->
+    <string name="session_dictation_finishing_description">Дикта анҷом меёбад</string>
+    <string name="session_dictation_stop_recording_description">Сабтро қатъ кунед</string>
+    <string name="session_dictation_stop_recording_hint">Калимаҳоро ба паём ворид кунед</string>
+    <string name="session_sending_message_description">Паём фиристода мешавад</string>
+    <string name="session_delivery_steer_label">Дар қадами навбатӣ роҳнамоӣ кунед</string>
+    <string name="session_delivery_queue_label">Пас аз ин ҷавоб ба навбат гузоред</string>
+    <string name="session_delivery_steer">Роҳнамоӣ</string>
+    <string name="session_delivery_queue">Навбат</string>
+    <!-- Draft project picker -->
+    <string name="session_draft_project_choose_label">Ҷои оғози сессияро интихоб кунед</string>
+    <string name="session_project_choose_folder">Папкаро интихоб кунед…</string>
+    <string name="session_project_all_projects">Ҳамаи лоиҳаҳо</string>
+    <string name="session_project_selected_description">Интихобшуда</string>
+    <string name="session_project_picker_title">Лоиҳа</string>
+    <!-- Folder browser -->
+    <string name="session_folder_select_description">Папкаро интихоб кунед</string>
+    <string name="session_folder_path_description">Масир</string>
+    <string name="session_folder_title">Папка</string>
+    <string name="session_folder_select">Интихоб кунед</string>
+    <string name="session_folder_open_failed_title">Папка кушода нашуд</string>
+    <string name="session_folder_empty_title">Папкаҳо нестанд</string>
+    <string name="session_folder_search_empty_title">Ягон натиҷа барои «%1$s»</string>
+    <string name="session_folder_search_empty_message">Имлоро санҷед ё аз нав ҷустуҷӯ кунед.</string>
+    <!-- Server connection pill -->
+    <string name="session_server_edit">Серверро таҳрир кунед…</string>
+    <!-- Starter prompts -->
+    <string name="session_starter_prompts_title">Бипурсед</string>
+    <string name="session_starter_prompt_pick_label">Инро ба паём ворид кунед</string>
+    <!-- Session sheet -->
+    <string name="session_sheet_rename_failed">Ном иваз нашуд</string>
+    <string name="session_sheet_status_description">Ҳолат</string>
+    <string name="session_rename_title">Номи сессияро иваз кунед</string>
+    <string name="session_untitled_title">Сессия</string>
+    <string name="session_pin">Собит кунед</string>
+    <string name="session_pinned">Собитшуда</string>
+    <string name="session_unread">Нохонда</string>
+    <string name="session_mute">Огоҳиҳоро хомӯш кунед</string>
+    <string name="session_muted">Бе огоҳӣ</string>
+    <string name="session_compact">Фишурда</string>
+    <string name="session_fork">Шоха созед</string>
+    <string name="session_toggle_on_description">Фаъол</string>
+    <string name="session_toggle_off_description">Хомӯш</string>
+    <string name="session_export">Содирот</string>
+    <string name="session_export_markdown">Markdown</string>
+    <string name="session_export_json">JSON</string>
+    <string name="session_sheet_model">Модел</string>
+    <string name="session_sheet_context">Контекст</string>
+    <string name="session_sheet_unknown_description">номаълум</string>
+    <string name="session_sheet_context_tokens">%1$s токен</string>
+    <string name="session_sheet_cost">Арзиш</string>
+    <string name="session_sheet_media">Медиа</string>
+    <string name="session_sheet_media_value">Файлҳо ва истинодҳо</string>
+    <string name="session_always_notify">Ҳамеша огоҳ кунед</string>
+    <string name="session_always_notify_message_phone">Ҳар боре ки ҷавоб омода шуд, ин телефонро огоҳ кунед, ҳатто агар паёмро аз ин ҷо нафиристода бошед.</string>
+    <string name="session_always_notify_message_tablet">Ҳар боре ки ҷавоб омода шуд, ин планшетро огоҳ кунед, ҳатто агар паёмро аз ин ҷо нафиристода бошед.</string>
+    <string name="session_delete_session">Сеансро нест кунед</string>
+    <string name="session_rename_placeholder">Сарлавҳа</string>
+    <string name="session_auto_rename">Номгузории худкор</string>
+    <string name="session_delete_confirm_title">«%1$s»-ро нест мекунед?</string>
+    <string name="session_delete_confirm_message">Ин сессияро аз сервер барои ҳамаи муштариён хориҷ мекунад.</string>
+    <!-- Transcript -->
+    <string name="session_move_to_background">Ба пасзамина гузаронед</string>
+    <string name="session_move_to_background_hint">Корро дар пасзамина идома диҳед, то агент паёми навбатии шуморо хонад</string>
+    <!-- Attachments -->
+    <string name="session_attachment_add_image_failed_title">Тасвир илова нашуд</string>
+    <string name="session_attachment_upload">Боркунӣ</string>
+    <string name="session_attachment_remove_image_description">Замимаи тасвирии %1$d-ро хориҷ кунед</string>
+    <string name="session_attachment_remove_description">%1$s-ро хориҷ кунед</string>
+    <string name="session_attachment_file_description">Замимаи файлӣ %1$s</string>
+    <string name="session_attachment_cancel_upload_description">Боркунии %1$s-ро бекор кунед</string>
+    <string name="session_attachment_open_photo_label">Аксро дар тамоми экран кушоед</string>
+    <string name="session_attachment_image_description">Замимаи тасвирӣ %1$d</string>
+    <string name="session_attachment_video_description">Замимаи видеоӣ %1$d</string>
+    <!-- Composer controls -->
+    <string name="session_answer_own_description">Ҷавоби худи шумо</string>
+    <string name="session_answer_own_type_label">Ҷавоби худро нависед ё дикта кунед</string>
+    <string name="session_answer_own_clear_label">Ҷавоби худро канор гузоред</string>
+    <string name="session_answer_own_choose_label">Бо суханони худ ҷавоб диҳед</string>
+    <string name="session_answer_decline_with_words_label">Ба агент гӯед, ки ба ҷойи ин чӣ кор кунад</string>
+    <string name="session_answer_required_description">Ҷавоберо интихоб кунед ё ҷавоби худро нависед</string>
+    <string name="session_dictate_message_description">Паёмро дикта кунед</string>
+    <string name="session_dictate_message_hint">Паёмро дикта кунед ё барои сабту фиристодан ламс карда нигоҳ доред</string>
+    <string name="session_send_waiting_for_uploads_description">Пас аз анҷоми боркуниҳо фиристода мешавад</string>
+    <string name="session_steer_message_description">Бо паём роҳнамоӣ кунед</string>
+    <string name="session_stopping_description">Қатъ мешавад</string>
+    <string name="session_start_voice_call">Занги овозиро оғоз кунед</string>
+    <string name="session_dictation_stop_description">Диктаро қатъ кунед</string>
+    <!-- Composer -->
+    <string name="session_requests_load_failed_title">Дархостҳо бор нашуданд</string>
+    <plurals name="session_queued_count">
+        <item quantity="one">%1$d дар навбат</item>
+        <item quantity="other">%1$d дар навбат</item>
+    </plurals>
+    <string name="session_queued_show_label">Паёмҳои мунтазири анҷоми ин ҷавобро нишон диҳед</string>
+    <plurals name="session_queued_messages_description">
+        <item quantity="one">%1$d паём дар навбат</item>
+        <item quantity="other">%1$d паём дар навбат</item>
+    </plurals>
+    <string name="session_dictation_preparing">Омодасозии дикта…</string>
+    <string name="session_message_placeholder">Паём</string>
+    <!-- Session header -->
+    <string name="session_back_to_main_description">Бозгашт ба ҷаласаи асосӣ.</string>
+    <string name="session_header_open_from_catch_up_label">Сессияро кушоед ва аз бохабаршавӣ бароед</string>
+    <string name="session_header_show_details_label">Тафсилоти сессияро нишон диҳед</string>
+    <string name="session_header_idle_description">Бекор</string>
+    <string name="session_header_syncing_description">Ҳамоҳангсозӣ</string>
+    <string name="session_header_last_known_description">Охирин ҳолати маълум</string>
+    <string name="session_menu_more_description">Бештар</string>
+    <string name="session_unpin">Аз собитшавӣ бароред</string>
+    <string name="session_copy_session_id">Нусхабардории ID-и сессия</string>
+    <string name="session_mark_as_read">Хондашуда қайд кунед</string>
+    <string name="session_mark_as_unread">Нохонда қайд кунед</string>
+    <string name="session_unmute">Огоҳиҳоро фаъол кунед</string>
+    <string name="session_menu_export_expanded_description">Васеъшуда</string>
+    <string name="session_menu_export_collapsed_description">Ҷамъшуда</string>
+    <string name="session_info">Маълумоти сессия</string>
+    <!-- Session screen -->
+    <string name="session_load_failed_title">Сессия бор нашуд</string>
+    <string name="session_location_share_failed_title">Ҷойгиршавӣ мубодила нашуд</string>
+    <!-- Shell output -->
+    <string name="session_shell_stop_confirm_title">Ин Shell-ро қатъ мекунед?</string>
+    <string name="session_shell_stop_confirm_message">Фармон ҳозир қатъ мешавад. Натиҷаи ин ҷо то пӯшидани он боқӣ мемонад.</string>
+    <string name="session_shell_stop">Shell-ро қатъ кунед</string>
+    <string name="session_shell_copy_output">Натиҷаро нусхабардорӣ кунед</string>
+    <string name="session_shell_share_output">Натиҷаро мубодила кунед</string>
+    <string name="session_shell_earlier_output_hidden">Натиҷаи қаблӣ пинҳон аст</string>
+    <string name="session_shell_showing_last_output">4 МБ-и охирин нишон дода мешавад</string>
+    <string name="session_shell_load_earlier">Натиҷаи қаблиро бор кунед</string>
+    <string name="session_shell_output_unavailable_title">Натиҷа дастрас нест</string>
+    <string name="session_shell_output_unavailable_message">Натиҷаи ин shell дигар дар сервер нест.</string>
+    <string name="session_shell_no_output_yet_title">Ҳанӯз натиҷа нест</string>
+    <string name="session_shell_no_output_title">Натиҷа нест</string>
+    <string name="session_shell_no_output_yet_message">Натиҷаи фармон ҳангоми иҷро дар ин ҷо пайдо мешавад.</string>
+    <string name="session_shell_status_stopping">Қатъ мешавад…</string>
+    <string name="session_shell_status_unavailable">Дастрас нест</string>
+    <string name="session_shell_status_interrupted">Қатъ карда шуд</string>
+    <string name="session_shell_status_timed_out">Муҳлат гузашт</string>
+    <string name="session_shell_status_exited_with_code">Бо рамзи %1$d анҷом ёфт</string>
+    <string name="session_shell_status_exited">Анҷом ёфт</string>
+    <plurals name="session_shell_elapsed_hours">
+        <item quantity="one">%1$d соат</item>
+        <item quantity="other">%1$d соат</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_minutes">
+        <item quantity="one">%1$d дақиқа</item>
+        <item quantity="other">%1$d дақиқа</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_seconds">
+        <item quantity="one">%1$d сония</item>
+        <item quantity="other">%1$d сония</item>
+    </plurals>
+
+    <!-- Agent activity (glyph labels and titles) -->
+    <string name="session_activity_idle">Бекор</string>
+    <string name="session_activity_starting_up">Оғоз мешавад</string>
+    <string name="session_activity_thinking">Андешаронӣ</string>
+    <string name="session_activity_long_work">Кори тӯлонӣ</string>
+    <string name="session_activity_tool_burst">Истифодаи пайдарпайи абзорҳо</string>
+    <string name="session_activity_streaming_output">Пахши натиҷа</string>
+    <string name="session_activity_waiting_for_input">Мунтазири посух</string>
+    <string name="session_activity_handing_off">Супоридани кор</string>
+    <string name="session_activity_done">Тайёр</string>
+    <string name="session_activity_failed">Муваффақ шуд</string>
+    <string name="session_working_stopping">Қатъ мешавад…</string>
+    <string name="session_status_working">Кор карда истодааст</string>
+    <string name="session_status_needs_input">Ба посухи шумо ниёз дорад</string>
+    <string name="session_status_done">Тайёр</string>
+
+    <!-- Lists: joins two or three phrases -->
+    <string name="session_list_two">%1$s, %2$s</string>
+    <string name="session_list_three">%1$s, %2$s, %3$s</string>
+
+    <!-- Background work panel -->
+    <plurals name="session_background_work_subagent_count">
+        <item quantity="one">%1$d зер-агент</item>
+        <item quantity="other">%1$d зер-агент</item>
+    </plurals>
+    <plurals name="session_background_work_shell_count">
+        <item quantity="one">%1$d shell</item>
+        <item quantity="other">%1$d shell</item>
+    </plurals>
+    <plurals name="session_background_work_script_count">
+        <item quantity="one">%1$d скрипт</item>
+        <item quantity="other">%1$d скрипт</item>
+    </plurals>
+    <string name="session_background_work_summary">%1$s · %2$s</string>
+    <string name="session_background_work_scripts_title">Скриптҳо</string>
+    <string name="session_background_work_stop_script_label">Скриптро қатъ кунед</string>
+    <string name="session_background_work_stop_subagent_label">Зер-агентро қатъ кунед</string>
+    <string name="session_background_work_stop_script_failed">Скрипт қатъ нашуд</string>
+    <string name="session_background_work_stop_subagent_failed">Зер-агент қатъ нашуд</string>
+
+    <!-- Composer buttons -->
+    <string name="session_send_message_description">Паёмро фиристед</string>
+    <string name="session_stop_description">Ист</string>
+    <string name="session_start_voice_call_description">Занги овозиро оғоз кунед</string>
+    <string name="session_model_level_default">Пешфарз</string>
+
+    <!-- In-app notice -->
+    <plurals name="session_notice_session_count">
+        <item quantity="one">%1$d сессия</item>
+        <item quantity="other">%1$d сессия</item>
+    </plurals>
+    <plurals name="session_notice_needs_input_count">
+        <item quantity="one">%1$d ба посухи шумо ниёз дорад</item>
+        <item quantity="other">%1$d ба посухи шумо ниёз доранд</item>
+    </plurals>
+    <string name="session_notice_announcement">%1$s, %2$s</string>
+
+    <!-- Server connection pill -->
+    <string name="session_server_reconnecting">Ба %1$s аз нав пайваст шуда истодааст…</string>
+    <string name="session_server_connect_failed">Ба %1$s пайваст нашуд</string>
+    <string name="session_server_sign_in_failed">Воридшавӣ ба %1$s нашуд</string>
+    <string name="session_server_pair_again">Аз нав ҷуфт кунед</string>
+    <string name="session_server_try_again_click_label">Аз нав кӯшиш кунед</string>
+    <string name="session_server_pair_again_click_label">Аз нав ҷуфт кунед</string>
+
+    <!-- Export -->
+    <string name="session_export_folder_failed">Папкаи содирот эҷод нашуд</string>
+    <string name="session_export_save_failed">Содирот захира нашуд</string>
+
+    <!-- Session errors -->
+    <string name="session_agent_fallback_name">Агент</string>
+    <string name="session_something_went_wrong">Чизе хато рафт</string>
+    <string name="session_something_went_wrong_sentence">Чизе хато рафт.</string>
+    <string name="session_load_earlier_failed">Паёмҳои қаблӣ бор нашуданд</string>
+    <string name="session_move_to_background_failed">Ба замина гузаронида нашуд: %1$s</string>
+    <string name="session_move_failed_reason">Сессия кӯчонида нашуд</string>
+    <string name="session_delivery_waiting_to_send">Мунтазири фиристодан</string>
+    <string name="session_create_failed">Сессия эҷод нашуд.</string>
+    <string name="session_switch_agent_failed">Агент иваз нашуд: %1$s</string>
+    <string name="session_switch_model_failed">Модел иваз нашуд: %1$s</string>
+    <string name="session_pending_send_now_failed_details">Паёми интизор ҳозир фиристода нашуд: %1$s</string>
+    <string name="session_pending_cancel_failed_details">Паёми интизор бекор нашуд: %1$s</string>
+    <string name="session_pending_queue_failed_details">Паёми интизор ба навбат гузошта нашуд: %1$s</string>
+    <string name="session_stopped_before_sent">Пеш аз фиристодан қатъ шуд</string>
+    <string name="session_stop_failed">Сессия қатъ нашуд</string>
+    <string name="session_undo_message_failed">Паём бекор нашуд: %1$s</string>
+    <string name="session_revert_failed">Баргардонидан нашуд</string>
+    <string name="session_revert_failed_details">Баргардонидан нашуд: %1$s</string>
+
+    <!-- Session sheet errors -->
+    <string name="session_sheet_rename_failed_title">Номи сессия иваз нашуд</string>
+    <string name="session_sheet_compact_failed_title">Сессия фишурда нашуд</string>
+    <string name="session_sheet_fork_failed_title">Аз сессия шоха сохта нашуд</string>
+    <string name="session_sheet_save_export_failed">Содирот захира нашуд</string>
+    <string name="session_sheet_export_failed_title">Сессия содир нашуд</string>
+    <string name="session_sheet_notifications_off_message">Аввал огоҳиҳоро дар танзимот фаъол кунед.</string>
+    <string name="session_sheet_always_notify_on_failed_title">«Ҳамеша огоҳ кунед» фаъол нашуд</string>
+    <string name="session_sheet_always_notify_off_failed_title">«Ҳамеша огоҳ кунед» хомӯш нашуд</string>
+
+    <!-- Attachments -->
+    <string name="session_attachment_files_unsupported">Сервер файлҳоро дастгирӣ намекунад</string>
+    <string name="session_attachment_upload_failed">Боркунӣ нашуд</string>
+    <string name="session_attachment_file_fallback_name">Файл</string>
+    <string name="session_attachment_image_too_large">Тасвири хурдтар аз 20 MB интихоб кунед.</string>
+    <string name="session_attachment_image_load_failed">Ин тасвир бор нашуд. Акси дигарро санҷед.</string>
+    <string name="session_attachment_file_add_failed">Ин файл илова нашуд. Файли дигарро санҷед.</string>
+    <plurals name="session_attachment_files_add_failed">
+        <item quantity="one">%1$d файл илова нашуд.</item>
+        <item quantity="other">%1$d файл илова нашуд.</item>
+    </plurals>
+    <string name="session_large_upload_title">%1$s бор карда шавад?</string>
+    <string name="session_large_upload_message_one">«%1$s» файли калон аст. Паём баъди анҷоми боркунӣ ба сервери шумо фиристода мешавад.</string>
+    <plurals name="session_large_upload_message_many">
+        <item quantity="one">%1$d файл калон аст. Паём баъди анҷоми боркунӣ ба сервери шумо фиристода мешавад.</item>
+        <item quantity="other">%1$d файл калон аст. Паём баъди анҷоми боркунӣ ба сервери шумо фиристода мешавад.</item>
+    </plurals>
+
+    <!-- Header and screens -->
+    <string name="session_new_session_title">Сеанси нав</string>
+    <string name="session_pasted_text_screen_title">Матни часпондашуда</string>
+    <string name="session_pasted_text_viewer_screen_title">Намоишгари матни часпондашуда</string>
+    <string name="session_context_summary">%1$d%% аз %2$s</string>
+    <string name="session_context_accessibility_value">%1$d%% аз %2$s токен истифода шуд</string>
+
+    <!-- Starter prompts (shown, then sent as the person’s message) -->
+    <string name="session_starter_project_purpose">Ин лоиҳа чӣ кор мекунад?</string>
+    <string name="session_starter_code_tour">Кодро кӯтоҳ шинос кунед</string>
+    <string name="session_starter_recent_changes">Ба наздикӣ дар ин ҷо чӣ тағйир ёфт?</string>
+
+    <!-- Shell output -->
+    <string name="session_shell_refresh_failed">Натиҷа навсозӣ нашуд</string>
+    <string name="session_shell_load_earlier_failed">Натиҷаи қаблӣ бор нашуд</string>
+    <string name="session_shell_stop_failed">Shell қатъ нашуд</string>
+    <string name="session_quote_remove_description">Иқтибосро хориҷ кунед</string>
+    <string name="session_quote_comment_placeholder">Шарҳ илова кунед (ихтиёрӣ)…</string>
+    <string name="session_media_title">Медиаи сессия</string>
+    <string name="session_media_filter_media">Медиа</string>
+    <string name="session_media_filter_files">Файлҳо</string>
+    <string name="session_media_filter_links">Истинодҳо</string>
+    <string name="session_media_layout_description">Тарҳбандии медиа</string>
+    <string name="session_media_layout_tiles">Тугмаҳо</string>
+    <string name="session_media_layout_list">Рӯйхат</string>
+    <string name="session_media_origin_user">Аз ҷониби шумо фиристода шуд</string>
+    <string name="session_media_origin_agent">Агент мубодила кард</string>
+    <string name="session_media_open_click_label">Кушодан</string>
+    <string name="session_media_open_link_click_label">Кушодани пайванд</string>
+    <string name="session_media_empty_media_title">Медиа нест</string>
+    <string name="session_media_empty_media_message">Тасвирҳо, видеоҳо ва аудиоҳои дар ин сессия мубодилашуда дар ин ҷо пайдо мешаванд.</string>
+    <string name="session_media_empty_files_title">Файл нест</string>
+    <string name="session_media_empty_files_message">Ҳуҷҷатҳо ва матни часпондашуда аз ин сессия дар ин ҷо пайдо мешаванд.</string>
+    <string name="session_media_empty_links_title">Истинод нест</string>
+    <string name="session_media_empty_links_message">Истинодҳои вебе, ки дар ин сессия мубодила мешаванд, дар ин ҷо пайдо мешаванд.</string>
+    <string name="session_media_earlier_note">Паёмҳои қаблӣ ҳанӯз бор карда нашудаанд.</string>
+    <string name="session_media_load_earlier">Бор кардани паёмҳои қаблӣ</string>
+    <string name="session_media_loading_earlier">Бор карда мешавад…</string>
+    <string name="session_media_earlier_failed">Паёмҳои қаблӣ бор нашуданд. Пайвастшавиро санҷед ва аз нав кӯшиш кунед.</string>
+    <string name="session_media_earlier_nothing_new">Дар паёмҳои навбор чизи нав нест. Дар паёмҳои қаблӣ шояд бештар бошад.</string>
+</resources>

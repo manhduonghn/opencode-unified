@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">Bild</string>
+    <string name="media_image_load_failed">Bild konnte nicht geladen werden</string>
+    <string name="media_unavailable">Medien nicht verfügbar</string>
+    <string name="media_try_again_label">Erneut versuchen</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">Medienanzeige</string>
+    <string name="media_viewer_save_to_photos_description">In Fotos speichern</string>
+    <string name="media_file_viewer_screen_title">Dateiansicht</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d von %3$d</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">Auf Bild zeichnen</string>
+    <string name="media_drawing_undo_description">Rückgängig</string>
+    <string name="media_drawing_add_to_prompt_description">Zum Prompt hinzufügen</string>
+    <string name="media_drawing_canvas_description">Zeichenfläche</string>
+    <string name="media_drawing_discard_title">Zeichnung verwerfen?</string>
+    <string name="media_drawing_discard_confirm">Zeichnung verwerfen</string>
+    <string name="media_drawing_keep">Weiterzeichnen</string>
+    <string name="media_drawing_add_failed_title">Zeichnung konnte nicht hinzugefügt werden</string>
+    <string name="media_drawing_flatten_failed">Bild konnte nicht erstellt werden. Versuche es erneut.</string>
+    <string name="media_drawing_prompt_unavailable">Die Nachricht dieser Sitzung kann gerade keine Anhänge aufnehmen.</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">Weiß</string>
+    <string name="media_drawing_ink_black">Schwarz</string>
+    <string name="media_drawing_ink_red">Rot</string>
+    <string name="media_drawing_ink_yellow">Gelb</string>
+    <string name="media_drawing_ink_green">Grün</string>
+    <string name="media_drawing_ink_blue">Blau</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">Vergrößert</string>
+    <string name="media_zoom_out_label">Verkleinern</string>
+    <string name="media_zoom_in_label">Vergrößern</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">Pause</string>
+    <string name="media_player_play">Abspielen</string>
+    <string name="media_player_position_description">Wiedergabeposition</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">Video konnte nicht abgespielt werden</string>
+    <string name="media_video_position_description">Videoposition</string>
+    <string name="media_video_capture_failed_title">Bild konnte nicht aufgenommen werden</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">Vorschau anzeigen</string>
+    <string name="media_file_show_source_description">Quelltext anzeigen</string>
+    <string name="media_file_unwrap_lines_description">Zeilen nicht umbrechen</string>
+    <string name="media_file_wrap_lines_description">Zeilen umbrechen</string>
+    <string name="media_file_start_pip_description">Bild-in-Bild starten</string>
+    <string name="media_file_opening">Wird geöffnet…</string>
+    <string name="media_file_share_failed_title">Datei konnte nicht geteilt werden</string>
+    <string name="media_file_share_downloading_description">Wird zum Teilen heruntergeladen</string>
+    <string name="media_file_confirm_large_message">Diese Datei ist %1$s groß. Herunterladen, um sie auf diesem Gerät anzusehen?</string>
+    <string name="media_file_download">Herunterladen</string>
+    <string name="media_file_open_in_another_app">In anderer App öffnen</string>
+    <string name="media_file_no_app_message">Keine App auf diesem Gerät kann diese Datei öffnen. Teile sie, um sie zu speichern oder anderswohin zu senden.</string>
+    <string name="media_file_pdf_page_description">Seite %1$d von %2$d</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">Datei nicht gefunden</string>
+    <string name="media_file_error_open_failed_title">Datei konnte nicht geöffnet werden</string>
+    <string name="media_file_error_unreadable">Dieser Pfad kann auf dem Server nicht gelesen werden.</string>
+    <string name="media_file_error_not_found">Sie wurde möglicherweise verschoben oder gelöscht.</string>
+    <string name="media_file_error_unauthorized">Der Server hat das Passwort dieses Geräts nicht akzeptiert.</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">Der Server konnte die Datei nicht lesen (HTTP %1$d). Vielleicht ist es ein Ordner.</string>
+    <string name="media_file_error_timed_out">Zeitüberschreitung bei der Anfrage.</string>
+    <string name="media_file_error_unexpected_response">Der Server hat eine unerwartete Antwort gesendet.</string>
+    <string name="media_file_error_over_limit">Die Datei überschreitet die maximale Downloadgröße.</string>
+    <string name="media_file_error_size_unknown">Der Server hat die Größe des Anhangs nicht übermittelt.</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">Wird heruntergeladen…</string>
+    <string name="media_file_downloading_size">Wird heruntergeladen: %1$s</string>
+    <string name="media_file_downloading_progress">Wird heruntergeladen: %1$s von %2$s</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">0 KB</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="one">%1$d Byte</item>
+        <item quantity="other">%1$d Byte</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s KB</string>
+    <string name="media_file_size_megabytes">%1$s MB</string>
+    <string name="media_file_size_gigabytes">%1$s GB</string>
+    <string name="media_file_size_terabytes">%1$s TB</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">Nicht gefunden</string>
+    <string name="media_image_load_label">Bild laden</string>
+    <string name="media_image_loading_state">Wird geladen</string>
+    <string name="media_image_open_label">Bild öffnen</string>
+    <string name="media_image_tap_to_load">Zum Laden tippen</string>
+    <string name="media_image_outside_project_value">Außerhalb des Projekts</string>
+    <string name="media_image_deferred_low_data_value">Wegen Datensparmodus zurückgestellt</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">%1$s öffnen</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">Zurück zur Sitzung</string>
+    <string name="media_browser_ask_description">Frage zu dieser Seite stellen</string>
+    <string name="media_browser_forward_description">Vorwärts</string>
+    <string name="media_browser_open_in_browser_description">Im Browser öffnen</string>
+    <string name="media_browser_scroll_to_top_label">Zum Seitenanfang scrollen</string>
+    <string name="media_browser_ask_placeholder">Frage zu dieser Seite stellen</string>
+    <string name="media_browser_reply_needs_input">Deine Eingabe ist nötig</string>
+    <string name="media_browser_reply_working">In Arbeit</string>
+    <string name="media_browser_go_back_to_session_label">Zurück zur Sitzung</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">Antwort bereit</string>
+    <string name="media_browser_reply_back_to_read">· Zurück zum Lesen</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">Sitzung</string>
+    <string name="media_link_open_in_app_browser">Im In-App-Browser öffnen</string>
+    <string name="media_link_open_in_browser">Im Browser öffnen</string>
+    <string name="media_link_open_in_app">In App öffnen</string>
+    <string name="media_link_copy">Link kopieren</string>
+    <string name="media_link_share">Teilen…</string>
+    <string name="media_link_open_session">Sitzung öffnen</string>
+    <string name="media_link_copy_session_id">ID kopieren</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">ID von %1$s kopieren</string>
+    <string name="media_link_open_session_named_description">Sitzung %1$s öffnen</string>
+    <string name="media_link_open_host_in_app_browser_description">%1$s im In-App-Browser öffnen</string>
+    <string name="media_link_open_host_in_browser_description">%1$s im Browser öffnen</string>
+    <string name="media_link_open_host_in_app_description">%1$s in App öffnen</string>
+    <string name="media_link_copy_host_description">Link zu %1$s kopieren</string>
+    <string name="media_link_share_host_description">Link zu %1$s teilen</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%1$s auf %2$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s, Link %2$d</string>
+    <string name="media_link_more_links_description">Weitere Links</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">Video</string>
+    <string name="media_link_preview_post">Beitrag</string>
+    <string name="media_link_preview_post_unavailable">Beitrag nicht verfügbar</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">Repository</string>
+    <string name="media_github_kind_issue">Issue</string>
+    <string name="media_github_kind_pull_request">Pull Request</string>
+    <string name="media_github_kind_commit">Commit</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">Offen</string>
+    <string name="media_github_state_closed">Geschlossen</string>
+    <string name="media_github_state_merged">Zusammengeführt</string>
+    <string name="media_github_state_draft">Entwurf</string>
+    <string name="media_github_state_completed">Abgeschlossen</string>
+    <string name="media_github_state_not_planned">Nicht geplant</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">Diagramm, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">Diagrammansicht</string>
+    <string name="media_mermaid_diagram_description">Diagramm</string>
+    <string name="media_mermaid_loading_state">%1$s, wird geladen</string>
+    <string name="media_mermaid_view_source">Quelltext anzeigen</string>
+    <string name="media_mermaid_source_title">Diagrammquelltext</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">Flussdiagramm</string>
+    <string name="media_mermaid_type_sequence">Sequenzdiagramm</string>
+    <string name="media_mermaid_type_class">Klassendiagramm</string>
+    <string name="media_mermaid_type_state">Zustandsdiagramm</string>
+    <string name="media_mermaid_type_entity_relationship">Entity-Relationship-Diagramm</string>
+    <string name="media_mermaid_type_user_journey">Nutzerreise</string>
+    <string name="media_mermaid_type_gantt">Gantt-Diagramm</string>
+    <string name="media_mermaid_type_pie">Kreisdiagramm</string>
+    <string name="media_mermaid_type_quadrant">Quadrantendiagramm</string>
+    <string name="media_mermaid_type_requirement">Anforderungsdiagramm</string>
+    <string name="media_mermaid_type_git_graph">Git-Graph</string>
+    <string name="media_mermaid_type_c4">C4-Diagramm</string>
+    <string name="media_mermaid_type_mind_map">Mindmap</string>
+    <string name="media_mermaid_type_timeline">Zeitachse</string>
+    <string name="media_mermaid_type_sankey">Sankey-Diagramm</string>
+    <string name="media_mermaid_type_xy_chart">XY-Diagramm</string>
+    <string name="media_mermaid_type_block">Blockdiagramm</string>
+    <string name="media_mermaid_type_packet">Paketdiagramm</string>
+    <string name="media_mermaid_type_kanban">Kanban-Board</string>
+    <string name="media_mermaid_type_architecture">Architekturdiagramm</string>
+    <string name="media_mermaid_type_radar">Netzdiagramm</string>
+    <string name="media_mermaid_type_treemap">Kacheldiagramm</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

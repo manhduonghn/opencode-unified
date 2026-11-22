@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Call ended and failure cards -->
+    <string name="voice_call_ended_title">A hívás véget ért</string>
+    <string name="voice_call_ended_rejoin">Újracsatlakozás</string>
+    <string name="voice_failure_title">Nem sikerült a hangkapcsolat</string>
+    <string name="voice_failure_check_api_key">API kulcs ellenőrzése</string>
+    <string name="voice_failure_start_title">Nem sikerült elindítani a hívást</string>
+
+    <!-- Floating call -->
+    <string name="voice_floating_expand">Kibontás</string>
+    <string name="voice_floating_orb_description">Hanghívás</string>
+    <string name="voice_floating_orb_show_controls">Hívásvezérlők megjelenítése</string>
+    <string name="voice_floating_end_description">Hanghívás befejezése</string>
+    <string name="voice_floating_control_placeholder_state">Ebben a prototípusban nem érhető el</string>
+    <string name="voice_floating_duration_description">Hívás időtartama</string>
+
+    <!-- Floating call stage -->
+    <string name="voice_stage_talking_in">Beszélgetés itt</string>
+    <string name="voice_stage_minimize_description">Kis méret</string>
+    <string name="voice_mute">Némítás</string>
+    <string name="voice_unmute">Némítás feloldása</string>
+    <string name="voice_stage_pause">Szünet</string>
+    <string name="voice_stage_camera">Kamera</string>
+    <string name="voice_transcript_empty">Mondjon valamit a munkamenetnek.</string>
+    <string name="voice_transcript_you">Ön</string>
+    <string name="voice_transcript_user_line_description">Ön: %1$s</string>
+
+    <!-- Call rows: screen request -->
+    <string name="voice_screen_request_detail">A hangasszisztens látni szeretné a képernyőjét</string>
+    <string name="voice_screen_request_spoken">Önre vár. A hangasszisztens látni szeretné a képernyőjét</string>
+    <string name="voice_screen_request_spoken_with_reason">Önre vár. A hangasszisztens látni szeretné a képernyőjét. %1$s</string>
+    <string name="voice_screen_request_title">Megosztja a képernyőt?</string>
+
+    <!-- Call rows: open link -->
+    <string name="voice_open_link_spoken">Önre vár. %1$s</string>
+    <string name="voice_open_link_spoken_with_host">Önre vár. %1$s %2$s</string>
+    <string name="voice_open_link_open">Nyitott</string>
+
+    <!-- Call rows: audio on the call -->
+    <string name="voice_audio_paused">Szüneteltetve</string>
+    <string name="voice_audio_playing">Lejátszás a hívásban</string>
+    <string name="voice_audio_play">Hang lejátszása</string>
+    <string name="voice_audio_pause">Hang szüneteltetése</string>
+    <string name="voice_audio_stop">Hang leállítása</string>
+
+    <!-- Call history -->
+    <string name="voice_call_history_title">Híváselőzmények</string>
+    <string name="voice_call_history_options_description">Előzmények beállításai</string>
+    <string name="voice_call_history_delete_all">Összes törlése</string>
+    <string name="voice_call_history_empty_title">Még nem volt hanghívás</string>
+    <string name="voice_call_history_empty_message">A hívásokat ezen a telefonon mentjük, így újra lejátszhatja őket.</string>
+    <string name="voice_call_history_delete_all_confirm_title">Törli az összes hanghívást?</string>
+
+    <!-- Call replay -->
+    <string name="voice_replay_timeline_description">Hívás idővonala</string>
+    <string name="voice_replay_timeline_state">%1$s / %2$s</string>
+    <string name="voice_replay_pause">Szünet</string>
+    <string name="voice_replay_play">Lejátszás</string>
+    <string name="voice_replay_position_description">Pozíció</string>
+    <string name="voice_replay_speed_description">Lejátszási sebesség</string>
+    <string name="voice_replay_empty">A hívás visszajátszásához nyomja meg a lejátszás gombot.</string>
+
+    <!-- Call notification -->
+    <string name="voice_notification_channel_name">Hívások</string>
+    <string name="voice_notification_channel_description">Folyamatban lévő OpenCode-hívások</string>
+    <string name="voice_notification_connecting">Csatlakozás…</string>
+    <string name="voice_notification_reconnecting">Újracsatlakozás…</string>
+    <string name="voice_notification_call_ended">A hívás véget ért</string>
+    <string name="voice_notification_end">Befejezés</string>
+    <!-- Call status caption -->
+    <string name="voice_status_connecting_via">Csatlakozás ezen keresztül: %1$s…</string>
+    <string name="voice_status_weak_connection">Gyenge kapcsolat</string>
+    <string name="voice_status_paused">Szüneteltetve</string>
+    <string name="voice_status_needs_input">Önre vár</string>
+    <string name="voice_status_working">Dolgozik</string>
+    <string name="voice_status_speaking">Beszél</string>
+    <string name="voice_status_muted">Némított</string>
+    <string name="voice_status_listening">Figyel</string>
+    <string name="voice_status_ending">Befejezés…</string>
+    <string name="voice_status_ended">Véget ért</string>
+    <string name="voice_session_new_title">Új munkamenet</string>
+    <string name="voice_call_note_builtin_fallback">Ez a hívás a beépített delegálót használja</string>
+
+    <!-- Floating call tag and spoken length -->
+    <string name="voice_floating_now_talking_in">Beszélgetés most itt: %1$s</string>
+    <string name="voice_floating_spoken_duration">%1$s, %2$s</string>
+    <plurals name="voice_floating_spoken_minutes">
+        <item quantity="one">%1$d perc</item>
+        <item quantity="other">%1$d perc</item>
+    </plurals>
+    <plurals name="voice_floating_spoken_seconds">
+        <item quantity="one">%1$d másodperc</item>
+        <item quantity="other">%1$d másodperc</item>
+    </plurals>
+
+    <!-- Voice providers -->
+    <string name="voice_provider_state_ready">Kész</string>
+    <string name="voice_provider_state_no_key">Nincs kulcs</string>
+    <string name="voice_provider_state_needs_update">OpenCode frissítése</string>
+    <string name="voice_provider_state_offline">Nincs kapcsolat</string>
+    <string name="voice_provider_place_phone">Ez a telefon</string>
+    <string name="voice_provider_brand_openai_account">Az Ön OpenAI-fiókja</string>
+    <string name="voice_provider_name">%1$s (%2$s)</string>
+    <string name="voice_provider_subtitle">Hely: %1$s</string>
+    <string name="voice_provider_key_row_title">%1$s-kulcs</string>
+    <string name="voice_provider_key_placeholder">%1$s API kulcs</string>
+
+    <!-- Voice key source -->
+    <string name="voice_key_source_server_row_title">Kulcs az Ön kiszolgálóján</string>
+    <string name="voice_key_source_phone_footer">A hívások az Ön saját OpenAI- vagy xAI-kulcsát használják.</string>
+    <string name="voice_key_source_server_footer">A hívások az Ön kiszolgálójának %1$s-kulcsát használják.</string>
+    <string name="voice_key_source_opencode_footer">A hívások díját az Ön OpenCode Console-munkaterületére terheljük.</string>
+
+    <!-- Call failure fixes and diagnosis -->
+    <string name="voice_fix_set_up_on_phone">Beállítás ezen a telefonon</string>
+    <string name="voice_fix_choose_provider">Válasszon szolgáltatót</string>
+    <string name="voice_fix_update_opencode">OpenCode frissítése</string>
+    <string name="voice_diagnosis_needs_update">%1$s: a hanghívásokhoz újabb OpenCode szükséges.</string>
+    <string name="voice_diagnosis_your_server_needs_update">Az Ön kiszolgálóján újabb OpenCode szükséges a hanghívásokhoz.</string>
+    <string name="voice_diagnosis_no_key">%1$s: nincs kulcs a hanghívásokhoz.</string>
+    <string name="voice_diagnosis_your_server_no_key">Az Ön kiszolgálóján nincs kulcs a hanghívásokhoz.</string>
+    <string name="voice_diagnosis_unreachable">%1$s nem érhető el.</string>
+    <string name="voice_diagnosis_your_server_unreachable">Az Ön kiszolgálója nem érhető el.</string>
+    <string name="voice_diagnosis_failed">%1$s nem tudta elindítani a hívást.</string>
+    <string name="voice_diagnosis_your_server_failed">Az Ön kiszolgálója nem tudta elindítani a hívást.</string>
+    <string name="voice_diagnosis_key_rejected">Az OpenAI nem fogadta el a telefonon lévő kulcsot.</string>
+    <string name="voice_diagnosis_missing_phone_key">Adja meg %1$s API kulcsát, hogy erről a telefonról hívhasson.</string>
+
+    <!-- Call errors -->
+    <string name="voice_error_microphone_denied">Engedélyezze a mikrofon használatát a Beállításokban, hogy beszélhessen a munkamenettel.</string>
+    <string name="voice_error_audio_format_unavailable">A hangeszköz formátuma nem támogatott.</string>
+    <string name="voice_error_audio_engine_rejected">Nem sikerült elindítani a hívás hangját. Próbálja újra egy kis idő múlva.</string>
+    <string name="voice_error_server_unsupported">Ezen a kiszolgálón újabb OpenCode szükséges a hanghívásokhoz</string>
+    <string name="voice_error_invalid_server_url">Nem sikerült elindítani a hangot: adjon meg érvényes HTTP vagy HTTPS kiszolgáló-URL-t.</string>
+    <string name="voice_error_invalid_response">Nem sikerült elindítani a hangot: a kiszolgáló érvénytelen választ adott.</string>
+    <string name="voice_error_start_voice_detail">Nem sikerült elindítani a hangot: %1$s</string>
+    <string name="voice_error_start_voice_http">Nem sikerült elindítani a hangot (HTTP %1$d).</string>
+    <string name="voice_error_openai_rejected_key">Az OpenAI elutasította az API kulcsot.</string>
+    <string name="voice_error_openai_verify_http">Az OpenAI nem tudta ellenőrizni a kulcsot (HTTP %1$d).</string>
+    <string name="voice_error_no_connection">Nincs kapcsolat.</string>
+    <string name="voice_error_model_address_invalid">A hangmodell címe érvénytelen.</string>
+    <string name="voice_error_xai_rejected_key">Az xAI elutasította az API kulcsot.</string>
+    <string name="voice_error_xai_verify_http">Az xAI nem tudta ellenőrizni a kulcsot (HTTP %1$d).</string>
+    <string name="voice_error_xai_key_disabled">Ez az xAI API kulcs le van tiltva.</string>
+    <string name="voice_error_xai_key_blocked">Ez az xAI API kulcs blokkolva van.</string>
+    <string name="voice_error_service_address_invalid">A hangszolgáltatás címe érvénytelen.</string>
+    <string name="voice_error_connection_lost">A hangkapcsolat megszakadt.</string>
+    <string name="voice_error_connection_closed">A hangkapcsolat lezárult.</string>
+    <string name="voice_error_connection_setup">Nem sikerült létrehozni a hangkapcsolatot.</string>
+    <string name="voice_error_safety_filter">Egy biztonsági szűrő megszakította a hanghívást.</string>
+    <string name="voice_error_audio_reset">A rendszer alaphelyzetbe állította a hangot. Indítsa újra a hívást.</string>
+    <string name="voice_error_missing_phone_key">A hang használatához adja meg %1$s API kulcsát a Beállításokban.</string>
+
+    <!-- Voice accents -->
+    <string name="voice_accent_australian_english">Ausztrál angol</string>
+    <string name="voice_accent_british_english">Brit angol</string>
+    <string name="voice_accent_irish_english">Ír angol</string>
+    <string name="voice_accent_north_american_english">Észak-amerikai angol</string>
+    <string name="voice_accent_brazilian_portuguese">Brazil portugál</string>
+    <string name="voice_accent_filipino_english">Fülöp-szigeteki angol</string>
+    <string name="voice_accent_southern_us_english">Amerikai déli angol</string>
+    <string name="voice_accent_indian_english">Indiai angol</string>
+    <string name="voice_preview_error">Nem sikerült lejátszani a hangmintát</string>
+
+    <!-- Call sound packs -->
+    <string name="voice_sound_pack_breath_ping">Leheletnyi csengés</string>
+    <string name="voice_sound_pack_crystal_glass">Kristályüveg</string>
+    <string name="voice_sound_pack_warm_analog">Meleg analóg</string>
+    <string name="voice_sound_pack_aurora_pulse">Sarkifény-lüktetés</string>
+    <string name="voice_sound_pack_velvet_bell">Bársonyos csengő</string>
+    <string name="voice_sound_pack_silent">Néma</string>
+
+    <!-- Open link card -->
+    <string name="voice_open_link_card_title_untitled">Megnyitja a linket?</string>
+    <string name="voice_open_link_card_title">Megnyitja ezt: %1$s?</string>
+
+    <!-- Delegator choice -->
+    <string name="voice_delegator_session_fallback">Munkamenet</string>
+    <string name="voice_delegator_unavailable_gemini">A Gemini Live közvetlenül a képernyőn látható munkamenetnek adja át a feladatokat. OpenCode-munkamenet használatához válasszon OpenAI hangszolgáltatót.</string>
+    <string name="voice_delegator_unavailable_engine">A(z) %1$s közvetlenül a képernyőn látható munkamenetnek adja át a feladatokat. OpenCode-munkamenet használatához váltson GPT-Live hangmodellre.</string>
+
+    <!-- Call log list and replay -->
+    <string name="voice_call_log_duration_seconds">%1$d mp</string>
+    <string name="voice_call_log_duration_minutes">%1$d p %2$d mp</string>
+    <string name="voice_replay_to_delegator">→ Delegáló</string>
+    <string name="voice_replay_to_voice">→ Hang</string>
+    <string name="voice_replay_audio">Hang</string>
+    <string name="voice_replay_track_user">Ön</string>
+    <string name="voice_replay_track_voice">Hang</string>
+    <string name="voice_replay_track_delegator">Delegáló</string>
+    <string name="voice_replay_track_tools">Eszközök</string>
+</resources>

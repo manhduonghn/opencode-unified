@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Appearance -->
+    <string name="settings_appearance_title">Aparença</string>
+    <string name="settings_appearance_mode_header">Mode</string>
+    <string name="settings_appearance_theme">Tema</string>
+
+    <!-- Appearance › Themes -->
+    <string name="settings_themes_title">Temes</string>
+    <string name="settings_themes_preview_description">Vista prèvia de la transcripció</string>
+    <string name="settings_themes_preview_user_message">Ajuda\'m a millorar la pantalla de la sessió. Mostra\'m què trobes i explica els canvis.</string>
+    <string name="settings_themes_preview_reply">He trobat el problema de disposició a %1$s. La transcripció i el redactor comparteixen l\'alçada disponible, així que el teclat va bé per posar-los a prova.</string>
+
+    <!-- Language -->
+    <string name="settings_language_title">Llengua</string>
+    <string name="settings_language_system_default">Per defecte del sistema</string>
+    <string name="settings_language_search_placeholder">Cerca llengües</string>
+    <string name="settings_language_suggested_header">Suggerit</string>
+    <string name="settings_language_all_header">Totes les llengües</string>
+    <string name="settings_language_no_matches">No hi ha llengües coincidents</string>
+
+    <!-- Experimental -->
+    <string name="settings_experimental_title">Experimental</string>
+    <string name="settings_experimental_all_footer">També activa els experiments nous, excepte els que veuen la pantalla o escolten en segon pla.</string>
+    <string name="settings_experimental_all">Tots els experiments</string>
+    <string name="settings_experimental_all_on">Tots activats</string>
+    <plurals name="settings_experimental_on_count">
+        <item quantity="one">%d activat</item>
+        <item quantity="many">%d activats</item>
+        <item quantity="other">%d activats</item>
+    </plurals>
+
+    <!-- Models -->
+    <string name="settings_models_title">Models</string>
+    <string name="settings_models_mode_hide">Amaga</string>
+    <string name="settings_models_mode_only_show">Mostra només</string>
+    <string name="settings_models_mode_hide_footer">Desactiva els models que no fas servir.</string>
+    <string name="settings_models_mode_only_show_footer">Activa només els models que fas servir.</string>
+    <string name="settings_models_providers_header">Proveïdors</string>
+    <string name="settings_models_stale_header">Ja no s\'ofereixen</string>
+    <string name="settings_models_forget_unavailable">Oblida els models no disponibles</string>
+    <string name="settings_models_show_every_model">Mostra tots els models</string>
+    <string name="settings_models_load_failed_title">No s\'han pogut carregar els models</string>
+    <string name="settings_models_summary_hidden">Ocults</string>
+    <string name="settings_models_summary_all">Tots</string>
+    <string name="settings_models_summary_count">%1$d de %2$d</string>
+
+    <!-- Models › Provider -->
+    <string name="settings_models_search_placeholder">Cerca models</string>
+    <string name="settings_models_show_provider">Mostra %1$s</string>
+
+    <!-- Notifications -->
+    <string name="settings_notifications_title">Notificacions</string>
+    <string name="settings_notifications_device_header">Aquest %1$s</string>
+    <string name="settings_notifications_device_footer">Les notificacions passen per un intermediari que no desa res. Només rep notificacions de les sessions iniciades en aquest %1$s.</string>
+    <string name="settings_notifications_allow">Permet les notificacions</string>
+    <string name="settings_notifications_open_android_settings">Obre la configuració d\'Android</string>
+    <string name="settings_notifications_turn_on">Activa les notificacions</string>
+    <string name="settings_notifications_server_header">Servidor</string>
+    <string name="settings_notifications_set_up_footer">Obre una sessió amb una petició perquè OpenCode instal·li el connector. Envia-la i torna-ho a comprovar.</string>
+    <string name="settings_notifications_plugin_needed_footer">El servidor necessita el connector notify d\'OpenCode.</string>
+    <string name="settings_notifications_notify_plugin">Connector notify</string>
+    <string name="settings_notifications_plugin_installed">Instal·lat</string>
+    <string name="settings_notifications_plugin_not_running">No està en execució</string>
+    <string name="settings_notifications_plugin_not_installed">No instal·lat</string>
+    <string name="settings_notifications_plugin_check_failed">No s\'ha pogut comprovar l\'estat</string>
+    <string name="settings_notifications_set_up">Configura amb OpenCode</string>
+    <string name="settings_notifications_check_again">Torna-ho a comprovar</string>
+    <string name="settings_notifications_in_app_footer">Es mostren al botó del panell lateral.</string>
+    <string name="settings_notifications_in_app_notices">Avisos a l\'aplicació</string>
+
+    <!-- Sessions -->
+    <string name="settings_sessions_title">Sessions</string>
+    <string name="settings_sessions_composer_header">Redactor</string>
+    <string name="settings_sessions_return_key_sends">Envia amb la tecla de retorn</string>
+    <string name="settings_sessions_new_sessions_header">Noves sessions</string>
+    <string name="settings_sessions_server_default">Per defecte del servidor</string>
+    <string name="settings_sessions_default_agent">Agent per defecte</string>
+
+    <!-- Shared values -->
+    <string name="settings_value_on">Activat</string>
+    <string name="settings_value_off">Desactivat</string>
+
+    <!-- Sound Effects -->
+    <string name="settings_sound_effects_volume">Volum</string>
+    <string name="settings_sound_effects_volume_description">Volum dels efectes de so</string>
+    <string name="settings_sound_effects_send_sound">So d\'enviament</string>
+
+    <!-- Voice › Delegator -->
+    <string name="settings_delegator_title">Delegador</string>
+    <string name="settings_delegator_other_server_note">«%1$s» és en un altre servidor. Tria\'n un d\'aquest servidor o canvia de servidor.</string>
+    <string name="settings_delegator_mode_footer">L\'integrat funciona amb OpenAI, sense cap sessió. Sessió d\'OpenCode funciona en una sessió al teu servidor.</string>
+    <string name="settings_delegator_built_in">Integrat</string>
+    <string name="settings_delegator_opencode_session">Sessió d\'OpenCode</string>
+    <string name="settings_delegator_target_header">Sessió de destinació</string>
+    <string name="settings_delegator_target_footer">Automàtic fa servir una sessió «Veu» en aquest servidor. Sessió en pantalla fa servir la que tens a la pantalla.</string>
+    <string name="settings_delegator_automatic">Automàtic</string>
+    <string name="settings_delegator_viewed_session">Sessió en pantalla</string>
+    <string name="settings_delegator_search_placeholder">Sessions de cerca</string>
+    <string name="settings_delegator_sessions_header">Tria una sessió</string>
+    <string name="settings_delegator_sessions_footer">La sessió triada conserva el seu model.</string>
+    <string name="settings_delegator_no_sessions">No hi ha sessions en aquest servidor</string>
+    <string name="settings_delegator_no_matching_sessions">No hi ha sessions coincidents</string>
+    <string name="settings_delegator_new_session">Nova sessió</string>
+    <string name="settings_delegator_direct">Directe</string>
+    <string name="settings_delegator_direct_session_unavailable">Directe · Sessió no disponible</string>
+    <string name="settings_delegator_another_server">%1$s · Un altre servidor</string>
+
+    <!-- Voice › Key Editor -->
+    <string name="settings_voice_key_hide_description">Amaga la tecla</string>
+    <string name="settings_voice_key_show_description">Mostra la tecla</string>
+    <string name="settings_voice_key_verify">Verifica</string>
+
+    <!-- Voice › Voice Provider -->
+    <string name="settings_voice_provider_title">Proveïdor de veu</string>
+    <string name="settings_voice_provider_place">A %1$s</string>
+    <string name="settings_voice_api_key_title">Tecla API</string>
+    <string name="settings_voice_provider_automatic_footer">Quan %1$s no està a punt, les trucades fan servir un proveïdor que sí que ho està.</string>
+    <string name="settings_voice_provider_choose_automatically">Tria automàticament</string>
+    <string name="settings_voice_provider_others_header">Altres proveïdors</string>
+    <string name="settings_voice_provider_use_description">Fes servir %1$s</string>
+    <string name="settings_voice_provider_use">Fes servir</string>
+    <string name="settings_voice_provider_set_up">Configura</string>
+    <plurals name="settings_voice_provider_not_available_count">
+        <item quantity="one">%d no disponible</item>
+        <item quantity="many">%d no disponibles</item>
+        <item quantity="other">%d no disponibles</item>
+    </plurals>
+
+    <!-- Voice › API Key -->
+    <string name="settings_voice_account_title">El teu compte d\'OpenAI</string>
+    <string name="settings_voice_account_place">En aquest mòbil</string>
+    <string name="settings_voice_account_key_footer">Les trucades fan servir el teu compte d\'OpenAI en lloc d\'un servidor.</string>
+    <string name="settings_voice_account_use_for_calls">Fes servir per a trucades</string>
+
+    <!-- Voice -->
+    <string name="settings_voice_title">Veu</string>
+    <string name="settings_voice_call_setup_header">Configuració de trucades</string>
+    <string name="settings_voice_calls_header">Trucades</string>
+    <string name="settings_voice_raise_to_talk_hint">Activa o desactiva l\'inici d\'una trucada per l\'auricular quan acostes el mòbil a l\'orella dins d\'una sessió</string>
+    <string name="settings_voice_enable">Habilita la veu</string>
+    <string name="settings_voice_model">Model</string>
+    <string name="settings_voice_model_description">Model de veu</string>
+    <string name="settings_voice_call_voice">Veu</string>
+    <string name="settings_voice_raise_to_talk">Apropa\'l per parlar</string>
+    <string name="settings_voice_call_sounds">Sons de trucada</string>
+    <string name="settings_voice_call_history">Historial de trucades</string>
+    <string name="settings_voice_edit_key_label">Edita la teva tecla API de %1$s</string>
+    <string name="settings_voice_key_verified">Verificada</string>
+    <string name="settings_voice_key_checking">S\'està comprovant…</string>
+    <string name="settings_voice_key_saved">Desada</string>
+    <string name="settings_voice_key_missing">Falta</string>
+    <string name="settings_voice_preview_disabled_hint">Afegeix la teva tecla de %1$s per escoltar les veus</string>
+
+    <!-- Voice › Voice Picker -->
+    <string name="settings_voice_picker_add_key_footer">Afegeix la teva tecla de %1$s per escoltar les veus.</string>
+    <string name="settings_voice_picker_unavailable_footer">%1$s no està disponible a %2$s, així que les trucades fan servir %3$s.</string>
+    <string name="settings_voice_stop_preview_description">Atura la mostra de %1$s</string>
+    <string name="settings_voice_preview_description">Escolta %1$s</string>
+    <string name="settings_voice_preview_playing">S\'està reproduint</string>
+    <string name="settings_voice_call_voice_unavailable">%1$s · %2$s no disponible</string>
+
+    <!-- Settings root -->
+    <string name="settings_whats_new_title">Novetats</string>
+    <string name="settings_developer_title">Desenvolupador</string>
+    <string name="settings_app_version">Versió %1$s (%2$s)</string>
+    <string name="settings_app_version_commit">Versió %1$s (%2$s) · %3$s</string>
+
+    <!-- Connection card -->
+    <string name="settings_connection_show_server_label">Mostra el servidor</string>
+    <string name="settings_connection_milliseconds">%1$d ms</string>
+    <string name="settings_connection_card_value_description">%1$s, %2$s, %3$s</string>
+    <string name="settings_connection_status_connected">Connectat</string>
+    <string name="settings_connection_status_slow">Lenta</string>
+    <string name="settings_connection_status_unstable">Inestable</string>
+    <string name="settings_connection_status_reconnecting">S\'està reconnectant</string>
+    <string name="settings_connection_status_offline">Sense connexió</string>
+    <string name="settings_connection_status_sign_in_failed">L\'inici de sessió ha fallat</string>
+    <string name="settings_connection_status_switching">S\'està canviant</string>
+    <string name="settings_connection_status_switching_to">S\'està canviant a %1$s</string>
+    <string name="settings_connection_status_code">%1$s · %2$d</string>
+    <string name="settings_connection_status_http_description">%1$s, HTTP %2$d</string>
+    <plurals name="settings_connection_status_milliseconds_description">
+        <item quantity="one">%1$s, %2$d mil·lisegon</item>
+        <item quantity="many">%1$s, %2$d mil·lisegons</item>
+        <item quantity="other">%1$s, %2$d mil·lisegons</item>
+    </plurals>
+
+    <!-- Server page -->
+    <string name="settings_server_title">Servidor</string>
+    <string name="settings_server_address">Adreça</string>
+    <string name="settings_server_connection">Connexió</string>
+    <string name="settings_server_version">Versió</string>
+    <string name="settings_server_edit_server">Edita el servidor…</string>
+    <string name="settings_server_rename_server_ellipsis">Canvia el nom del servidor…</string>
+    <string name="settings_server_rename_title">Canvia el nom del servidor</string>
+    <string name="settings_server_rename_message">Només aquest %1$s fa servir el nom. Deixa\'l en blanc per fer servir «%2$s».</string>
+    <string name="settings_server_status">Estat</string>
+    <string name="settings_server_status_milliseconds">%1$s · %2$d ms</string>
+
+    <!-- Servers section -->
+    <string name="settings_servers_header">Servidors</string>
+    <string name="settings_servers_edit_server">Edita %1$s…</string>
+    <string name="settings_servers_rename_message">Només aquest %1$s fa servir el nom. Deixa\'l en blanc per fer servir el de l\'ordinador.</string>
+    <string name="settings_servers_remove_title">Vols eliminar %1$s?</string>
+    <string name="settings_servers_remove_message">S\'esborraran l\'adreça i la contrasenya d\'aquest %1$s. Les sessions del servidor no es veuran afectades.</string>
+    <string name="settings_servers_remove_server">Elimina el servidor</string>
+    <string name="settings_servers_current_server_state">Servidor actual, %1$s</string>
+    <string name="settings_servers_switch_label">Canvia a aquest servidor</string>
+    <string name="settings_servers_options_description">Opcions de %1$s</string>
+    <string name="settings_servers_rename_menu">Canvia el nom…</string>
+    <string name="settings_servers_edit_menu">Edita…</string>
+    <string name="settings_servers_remove_menu">Elimina…</string>
+    <string name="settings_servers_add_server">Afegeix servidor</string>
+    <string name="settings_servers_scan_pairing_code">Escaneja el codi d\'aparellament</string>
+    <string name="settings_servers_enter_address">Introdueix l\'adreça</string>
+
+    <!-- Pairing scanner -->
+    <string name="settings_pairing_paste">Enganxa</string>
+    <string name="settings_pairing_no_camera_title">No hi ha cap càmera disponible</string>
+    <string name="settings_pairing_no_camera_message">Copia l\'enllaç que mostra `opencode pair` a l\'ordinador i enganxa\'l aquí.</string>
+    <string name="settings_pairing_camera_off_title">L\'accés a la càmera està desactivat</string>
+    <string name="settings_pairing_camera_off_message">Permet l\'accés a la càmera a Configuració per escanejar el codi QR, o enganxa l\'enllaç que mostra `opencode pair`.</string>
+    <string name="settings_pairing_nothing_to_paste_title">No hi ha res per enganxar</string>
+    <string name="settings_pairing_nothing_to_paste_message">El porta-retalls no conté cap enllaç d\'aparellament. Copia l\'enllaç que mostra opencode pair i torna-ho a provar.</string>
+    <string name="settings_pairing_point_camera">Apunta la càmera al codi QR</string>
+    <string name="settings_pairing_paste_link">Enganxa l\'enllaç d\'aparellament</string>
+    <string name="settings_pairing_computer_hint">A l\'ordinador, obre Configuració → Aparellament d\'OpenCode, o executa %1$s en un terminal.</string>
+</resources>

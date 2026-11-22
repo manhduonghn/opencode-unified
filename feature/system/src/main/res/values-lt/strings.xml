@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_new_session">Naujas seansas</string>
+    <string name="system_start_call">Pradėti skambutį</string>
+    <string name="system_open_session">Atidaryti seansą</string>
+    <string name="widget_start_call_description">Pradeda balso skambutį pasirinktame arba paskiausiai peržiūrėtame seanse.</string>
+    <string name="widget_open_session_description">Atidaro pasirinktą seansą.</string>
+    <string name="widget_new_session_description">Atidaro naują OpenCode seansą.</string>
+
+    <!-- Shared across screens -->
+    <string name="system_selected_description">Pasirinktas</string>
+    <string name="system_last_viewed_session">Paskiausiai peržiūrėtas seansas</string>
+
+    <!-- Quick actions (launcher shortcuts) -->
+    <string name="system_quick_action_session_fallback">Seansas</string>
+    <!-- Long label: the session's title, then its project. -->
+    <string name="system_quick_action_long_label">%1$s · %2$s</string>
+
+    <!-- Shortcuts and Ask OpenCode -->
+    <string name="system_session_type_name">Seansas</string>
+    <string name="system_project_type_name">Projektas</string>
+    <string name="system_intent_open_session_description">Atidaro seansą OpenCode programoje.</string>
+    <string name="system_intent_new_session_description">Pradeda naują seansą OpenCode programoje.</string>
+    <string name="system_intent_start_voice_call_title">Pradėti balso skambutį</string>
+    <string name="system_intent_start_voice_call_description">Pradeda balso skambutį su OpenCode seanse. Nepasirinkus seanso, skambutis pradedamas paskiausiai peržiūrėtame seanse.</string>
+    <string name="system_intent_background_call_title">Pradėti balso skambutį fone</string>
+    <string name="system_intent_background_call_description">Pradeda balso skambutį su OpenCode neatidarant programos. Skambutis rodomas būsenos juostoje ir užrakinimo ekrane.</string>
+    <string name="system_delivery_type_name">Siuntimo būdas</string>
+    <string name="system_delivery_steer">Nukreipti</string>
+    <string name="system_delivery_queue">Įtraukti į eilę</string>
+    <string name="system_ask_title">Klausti OpenCode</string>
+    <string name="system_ask_description">Siunčia žinutę į OpenCode seansą neatidarant programos.</string>
+    <string name="system_ask_message_title">Žinutė</string>
+    <string name="system_ask_message_placeholder">Ką OpenCode turėtų padaryti?</string>
+    <string name="system_ask_session_title">Seansas</string>
+    <string name="system_ask_started_new_session">Pradėtas naujas seansas projekte %1$s</string>
+    <string name="system_ask_queued_for">Įtraukta į eilę: „%1$s“</string>
+    <string name="system_ask_sent_to">Išsiųsta: „%1$s“</string>
+    <string name="system_ask_your_session">jūsų seansas</string>
+    <string name="system_ask_no_server">Pirmiausia atidarykite OpenCode ir prisijunkite prie serverio.</string>
+    <string name="system_ask_no_project">Pirmiausia atidarykite OpenCode ir pradėkite seansą.</string>
+    <string name="system_ask_empty_message">Nėra ką siųsti.</string>
+    <!-- The server's error message follows. -->
+    <string name="system_ask_send_failed">Nepavyko išsiųsti į OpenCode. %1$s</string>
+
+    <!-- Live Updates: voice call -->
+    <string name="system_call_muted">Nutildytas</string>
+    <string name="system_call_unmute">Įjungti garsą</string>
+    <string name="system_call_mute">Nutildyti</string>
+    <string name="system_call_end">Baigti skambutį</string>
+    <string name="system_call_connecting">Jungiamasi…</string>
+    <string name="system_call_reconnecting">Jungiamasi iš naujo…</string>
+    <string name="system_call_ended">Skambutis baigtas</string>
+    <string name="system_call_end_title">Baigti skambutį</string>
+    <string name="system_call_toggle_mute_title">Nutildyti skambutį arba įjungti garsą</string>
+
+    <!-- Live Updates: hands-free recording -->
+    <string name="system_recording_active">Įrašoma</string>
+    <string name="system_recording_stopped">Įrašymas sustabdytas</string>
+    <string name="system_recording_stop">Stabdyti įrašymą</string>
+    <string name="system_recording_stop_title">Stabdyti įrašymą</string>
+    <string name="system_recording_new_session">Naujas seansas</string>
+
+    <!-- Live Updates: session run -->
+    <string name="system_session_working">Darbas</string>
+    <string name="system_session_last_seen_working">Paskutinė žinoma būsena: darbas</string>
+    <!-- Where the run is (Working), then its current step (a tool name, Thinking or Replying). -->
+    <string name="system_session_status_with_step">%1$s · %2$s</string>
+    <string name="system_session_step_thinking">Mąstymas</string>
+    <string name="system_session_step_replying">Atsakoma</string>
+    <string name="system_session_needs_input">Reikia jūsų atsakymo</string>
+    <string name="system_session_input">Įvestis</string>
+    <string name="system_session_done">Atlikta</string>
+    <string name="system_session_failed">Nepavyko</string>
+
+    <!-- Session notifications -->
+    <string name="system_notification_placeholder_body">Nauja veikla</string>
+
+    <!-- Notification channels -->
+    <string name="system_channel_voice_calls">Balso skambučiai</string>
+    <string name="system_channel_recording">Įrašoma</string>
+    <string name="system_channel_session_runs">Seansų vykdymas</string>
+    <string name="system_channel_session_updates">Seansų atnaujinimai</string>
+    <string name="system_channel_shared_items">Bendrinami elementai</string>
+
+    <!-- Share sheet: notifications -->
+    <string name="system_share_continue_notification_body">Palieskite, kad tęstumėte OpenCode</string>
+
+    <!-- Share sheet -->
+    <string name="system_share_your_server">jūsų serveris</string>
+    <string name="system_share_new_session_in_project">Naujas seansas · %1$s</string>
+    <string name="system_share_save_failed_message">Bandykite dar kartą. Jei nepavyksta, atlaisvinkite vietos šiame įrenginyje.</string>
+    <!-- The session's title, then its project. -->
+    <string name="system_share_session_chip_description">%1$s, %2$s</string>
+    <string name="system_share_problem_unreachable">Nepavyko pasiekti %1$s</string>
+    <string name="system_share_problem_too_large">Iš čia nepavyko išsiųsti tokių didelių failų</string>
+    <string name="system_share_problem_uploads_unsupported">Nepavyko įkelti failų į %1$s</string>
+    <string name="system_share_problem_sign_in">Nepavyko prisijungti prie %1$s</string>
+    <string name="system_share_problem_send">Nepavyko išsiųsti į %1$s</string>
+    <string name="system_share_problem_no_credentials">Kad siųstumėte iš čia, pirmiausia atidarykite OpenCode</string>
+    <plurals name="system_share_image_count">
+        <item quantity="one">%d vaizdas</item>
+        <item quantity="few">%d vaizdai</item>
+        <item quantity="many">%d vaizdo</item>
+        <item quantity="other">%d vaizdų</item>
+    </plurals>
+    <plurals name="system_share_file_count">
+        <item quantity="one">%d failas</item>
+        <item quantity="few">%d failai</item>
+        <item quantity="many">%d failo</item>
+        <item quantity="other">%d failų</item>
+    </plurals>
+    <plurals name="system_share_images_skipped">
+        <item quantity="one">Nepavyko pridėti %d vaizdo</item>
+        <item quantity="few">Nepavyko pridėti %d vaizdų</item>
+        <item quantity="many">Nepavyko pridėti %d vaizdo</item>
+        <item quantity="other">Nepavyko pridėti %d vaizdų</item>
+    </plurals>
+    <plurals name="system_share_files_skipped">
+        <item quantity="one">Nepavyko pridėti %d failo</item>
+        <item quantity="few">Nepavyko pridėti %d failų</item>
+        <item quantity="many">Nepavyko pridėti %d failo</item>
+        <item quantity="other">Nepavyko pridėti %d failų</item>
+    </plurals>
+    <string name="system_share_save_failed_title">Nepavyko išsaugoti OpenCode</string>
+    <string name="system_share_continue_description">Tęsti OpenCode</string>
+    <string name="system_share_no_server_title">Pirmiausia prisijunkite prie serverio</string>
+    <string name="system_share_no_server_message">Atidarykite OpenCode ir prisijunkite prie savo kompiuterio, tada bendrinkite dar kartą.</string>
+    <string name="system_share_send_later">Siųsti vėliau</string>
+    <string name="system_share_saved_continue">Išsaugota. Norėdami tęsti, atidarykite OpenCode</string>
+    <string name="system_share_loading_description">Įkeliami bendrinami elementai</string>
+    <string name="system_share_image_description">Vaizdas</string>
+    <string name="system_share_image_position_description">Vaizdas %1$d iš %2$d</string>
+    <string name="system_share_search_sessions_description">Paieškos seansai</string>
+    <string name="system_share_new_session_in_project_description">Naujas seansas projekte %1$s</string>
+    <string name="system_share_choose_project_description">Pasirinkite jo projektą</string>
+    <string name="system_share_message_placeholder">Žinutė</string>
+    <string name="system_share_sent_to">Išsiųsta: %1$s</string>
+    <string name="system_share_sending_description">Siunčiama</string>
+    <string name="system_share_sent_description">Išsiųsta</string>
+    <string name="system_share_sessions_title">Sesijos</string>
+    <string name="system_share_pinned_header">Prisegti</string>
+    <string name="system_share_recents_header">Naujausi</string>
+
+    <!-- Widget configuration -->
+    <string name="system_widget_choose_session_title">Pasirinkite seansą</string>
+</resources>

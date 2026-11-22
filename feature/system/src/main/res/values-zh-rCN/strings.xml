@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_new_session">新建会话</string>
+    <string name="system_start_call">发起通话</string>
+    <string name="system_open_session">打开会话</string>
+    <string name="widget_start_call_description">在所选会话或上次查看的会话中发起语音通话。</string>
+    <string name="widget_open_session_description">打开所选会话。</string>
+    <string name="widget_new_session_description">打开一个新的 OpenCode 会话。</string>
+
+    <!-- Shared across screens -->
+    <string name="system_selected_description">已选择</string>
+    <string name="system_last_viewed_session">上次查看的会话</string>
+
+    <!-- Quick actions (launcher shortcuts) -->
+    <string name="system_quick_action_session_fallback">会话</string>
+    <!-- Long label: the session's title, then its project. -->
+    <string name="system_quick_action_long_label">%1$s · %2$s</string>
+
+    <!-- Shortcuts and Ask OpenCode -->
+    <string name="system_session_type_name">会话</string>
+    <string name="system_project_type_name">项目</string>
+    <string name="system_intent_open_session_description">在 OpenCode 中打开会话。</string>
+    <string name="system_intent_new_session_description">在 OpenCode 中新建会话。</string>
+    <string name="system_intent_start_voice_call_title">发起语音通话</string>
+    <string name="system_intent_start_voice_call_description">在会话中与 OpenCode 进行语音通话。未指定会话时，将在上次查看的会话中发起通话。</string>
+    <string name="system_intent_background_call_title">在后台发起语音通话</string>
+    <string name="system_intent_background_call_description">无需打开应用，即可与 OpenCode 进行语音通话。通话会显示在状态栏和锁屏上。</string>
+    <string name="system_delivery_type_name">发送方式</string>
+    <string name="system_delivery_steer">引导</string>
+    <string name="system_delivery_queue">加入队列</string>
+    <string name="system_ask_title">询问 OpenCode</string>
+    <string name="system_ask_description">无需打开应用，即可向 OpenCode 会话发送消息。</string>
+    <string name="system_ask_message_title">消息</string>
+    <string name="system_ask_message_placeholder">想让 OpenCode 做什么？</string>
+    <string name="system_ask_session_title">会话</string>
+    <string name="system_ask_started_new_session">已在 %1$s 中新建会话</string>
+    <string name="system_ask_queued_for">已加入“%1$s”的队列</string>
+    <string name="system_ask_sent_to">已发送至“%1$s”</string>
+    <string name="system_ask_your_session">你的会话</string>
+    <string name="system_ask_no_server">请先打开 OpenCode 并连接服务器。</string>
+    <string name="system_ask_no_project">请先打开 OpenCode 并新建会话。</string>
+    <string name="system_ask_empty_message">没有可发送的内容。</string>
+    <!-- The server's error message follows. -->
+    <string name="system_ask_send_failed">无法发送至 OpenCode。%1$s</string>
+
+    <!-- Live Updates: voice call -->
+    <string name="system_call_muted">已静音</string>
+    <string name="system_call_unmute">取消静音</string>
+    <string name="system_call_mute">静音</string>
+    <string name="system_call_end">结束通话</string>
+    <string name="system_call_connecting">正在连接…</string>
+    <string name="system_call_reconnecting">正在重新连接…</string>
+    <string name="system_call_ended">通话已结束</string>
+    <string name="system_call_end_title">结束通话</string>
+    <string name="system_call_toggle_mute_title">静音或取消静音</string>
+
+    <!-- Live Updates: hands-free recording -->
+    <string name="system_recording_active">正在录音</string>
+    <string name="system_recording_stopped">录音已停止</string>
+    <string name="system_recording_stop">停止录音</string>
+    <string name="system_recording_stop_title">停止录音</string>
+    <string name="system_recording_new_session">新建会话</string>
+
+    <!-- Live Updates: session run -->
+    <string name="system_session_working">工作中</string>
+    <string name="system_session_last_seen_working">上次状态：工作中</string>
+    <!-- Where the run is (Working), then its current step (a tool name, Thinking or Replying). -->
+    <string name="system_session_status_with_step">%1$s · %2$s</string>
+    <string name="system_session_step_thinking">思考中</string>
+    <string name="system_session_step_replying">正在回复</string>
+    <string name="system_session_needs_input">需要你的输入</string>
+    <string name="system_session_input">输入</string>
+    <string name="system_session_done">完成</string>
+    <string name="system_session_failed">失败</string>
+
+    <!-- Session notifications -->
+    <string name="system_notification_placeholder_body">新动态</string>
+
+    <!-- Notification channels -->
+    <string name="system_channel_voice_calls">语音通话</string>
+    <string name="system_channel_recording">正在录音</string>
+    <string name="system_channel_session_runs">会话运行</string>
+    <string name="system_channel_session_updates">会话更新</string>
+    <string name="system_channel_shared_items">分享的内容</string>
+
+    <!-- Share sheet: notifications -->
+    <string name="system_share_continue_notification_body">点击在 OpenCode 中继续</string>
+
+    <!-- Share sheet -->
+    <string name="system_share_your_server">你的服务器</string>
+    <string name="system_share_new_session_in_project">新建会话 · %1$s</string>
+    <string name="system_share_save_failed_message">再试一次。如果仍然失败，请清理此设备的存储空间。</string>
+    <!-- The session's title, then its project. -->
+    <string name="system_share_session_chip_description">%1$s，%2$s</string>
+    <string name="system_share_problem_unreachable">无法连接到 %1$s</string>
+    <string name="system_share_problem_too_large">无法从这里发送这么大的文件</string>
+    <string name="system_share_problem_uploads_unsupported">无法上传文件到 %1$s</string>
+    <string name="system_share_problem_sign_in">无法登录 %1$s</string>
+    <string name="system_share_problem_send">无法发送至 %1$s</string>
+    <string name="system_share_problem_no_credentials">请先打开一次 OpenCode，才能从这里发送</string>
+    <plurals name="system_share_image_count">
+        <item quantity="other">%d 张图片</item>
+    </plurals>
+    <plurals name="system_share_file_count">
+        <item quantity="other">%d 个文件</item>
+    </plurals>
+    <plurals name="system_share_images_skipped">
+        <item quantity="other">%d 张图片无法添加</item>
+    </plurals>
+    <plurals name="system_share_files_skipped">
+        <item quantity="other">%d 个文件无法添加</item>
+    </plurals>
+    <string name="system_share_save_failed_title">无法为 OpenCode 保存内容</string>
+    <string name="system_share_continue_description">在 OpenCode 中继续</string>
+    <string name="system_share_no_server_title">请先连接服务器</string>
+    <string name="system_share_no_server_message">打开 OpenCode 并连接到你的电脑，然后重新分享。</string>
+    <string name="system_share_send_later">稍后发送</string>
+    <string name="system_share_saved_continue">已保存。打开 OpenCode 以继续</string>
+    <string name="system_share_loading_description">正在加载分享的内容</string>
+    <string name="system_share_image_description">图片</string>
+    <string name="system_share_image_position_description">第 %1$d 张图片，共 %2$d 张</string>
+    <string name="system_share_search_sessions_description">搜索会话</string>
+    <string name="system_share_new_session_in_project_description">在 %1$s 中新建会话</string>
+    <string name="system_share_choose_project_description">选择所属项目</string>
+    <string name="system_share_message_placeholder">消息</string>
+    <string name="system_share_sent_to">已发送至 %1$s</string>
+    <string name="system_share_sending_description">正在发送</string>
+    <string name="system_share_sent_description">已发送</string>
+    <string name="system_share_sessions_title">会话</string>
+    <string name="system_share_pinned_header">已置顶</string>
+    <string name="system_share_recents_header">最近使用</string>
+
+    <!-- Widget configuration -->
+    <string name="system_widget_choose_session_title">选择会话</string>
+</resources>

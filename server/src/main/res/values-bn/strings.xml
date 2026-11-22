@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">শেল</string>
+    <string name="server_notice_source_subagent">সাবএজেন্ট</string>
+    <string name="server_notice_heading_finished">%1$s শেষ হয়েছে</string>
+    <string name="server_notice_heading_failed">%1$s ব্যর্থ হয়েছে</string>
+    <string name="server_notice_heading_interrupted">%1$s বাধাপ্রাপ্ত হয়েছে</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$dটি শেল শেষ হয়েছে</item>
+        <item quantity="other">%1$dটি শেল শেষ হয়েছে</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$dটি শেল ব্যর্থ হয়েছে</item>
+        <item quantity="other">%1$dটি শেল ব্যর্থ হয়েছে</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">%1$dটি শেল বাধাপ্রাপ্ত হয়েছে</item>
+        <item quantity="other">%1$dটি শেল বাধাপ্রাপ্ত হয়েছে</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">%1$dটি সাবএজেন্টের কাজ শেষ হয়েছে</item>
+        <item quantity="other">%1$dটি সাবএজেন্টের কাজ শেষ হয়েছে</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">%1$dটি সাবএজেন্ট ব্যর্থ হয়েছে</item>
+        <item quantity="other">%1$dটি সাবএজেন্ট ব্যর্থ হয়েছে</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">%1$dটি সাবএজেন্ট বাধাপ্রাপ্ত হয়েছে</item>
+        <item quantity="other">%1$dটি সাবএজেন্ট বাধাপ্রাপ্ত হয়েছে</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">সংক্ষিপ্ত</string>
+    <string name="server_run_error_action_switch_model">মডেল বদলান</string>
+    <string name="server_run_error_aborted">বাধাপ্রাপ্ত</string>
+    <string name="server_run_error_permission_rejected">অনুরোধ প্রত্যাখ্যানের পর বাধাপ্রাপ্ত হয়েছে</string>
+    <string name="server_run_error_content_filter">নিরাপত্তা ফিল্টার উত্তরটি আটকে দিয়েছে</string>
+    <string name="server_run_error_rate_limit">অনুরোধের হারের সীমায় পৌঁছেছে</string>
+    <string name="server_run_error_quota">ব্যবহারের সীমায় পৌঁছেছে</string>
+    <string name="server_run_error_auth">প্রদানকারী তার কী প্রত্যাখ্যান করেছে</string>
+    <string name="server_run_error_context_overflow">এই মডেলের জন্য সেশনটি খুব দীর্ঘ</string>
+    <string name="server_run_error_invalid_request">প্রদানকারী অনুরোধটি প্রত্যাখ্যান করেছে</string>
+    <string name="server_run_error_overloaded">মডেলে অতিরিক্ত চাপ রয়েছে</string>
+    <string name="server_run_error_internal">প্রদানকারীর দিকে সমস্যা হয়েছে</string>
+    <string name="server_run_error_transport">মডেলের সাথে সংযোগ বিচ্ছিন্ন হয়েছে</string>
+    <string name="server_run_error_timeout">মডেল উত্তর দিতে বেশি সময় নিয়েছে</string>
+    <string name="server_run_error_invalid_output">মডেলের উত্তর পড়া যায়নি</string>
+    <string name="server_run_error_unavailable">এই মডেলটি উপলব্ধ নয়</string>
+    <string name="server_run_error_unsupported_operation">এই মডেলটি তা করতে পারে না</string>
+    <string name="server_run_error_tool_execution">একটি টুল ব্যর্থ হওয়ায় কাজ থেমে গেছে</string>
+    <string name="server_run_error_other">ত্রুটির কারণে কাজ থেমে গেছে</string>
+    <string name="server_run_retry_in_seconds">%1$s · %2$d সেকেন্ড পর আবার চেষ্টা করা হবে</string>
+    <string name="server_run_retry_now">%1$s · পুনরায় চেষ্টা করা হচ্ছে</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">OpenCode সার্ভারে সংযোগ করা যায়নি</string>
+    <string name="server_error_folder_gone">ফোল্ডারটি আর নেই</string>
+    <string name="server_error_uploads_unsupported">এই সার্ভার ফাইল সংযুক্তি সমর্থন করে না। কম্পিউটারে OpenCode আপডেট করুন।</string>
+    <string name="server_error_archiving_unsupported">এই সার্ভারে সংরক্ষণাগারে রাখা যায় না। আপনার কম্পিউটারে OpenCode আপডেট করুন।</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode-এর আপনার স্থানীয় নেটওয়ার্কের ডিভাইসে সংযোগ করার অনুমতি নেই। সেটিংসে OpenCode-এর জন্য কাছাকাছি ডিভাইসের অনুমতি চালু করে আবার চেষ্টা করুন।</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">নামহীন সেশন</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">শেল</string>
+    <string name="server_tool_shell_killed">শেল জোর করে বন্ধ করা হয়েছে</string>
+    <string name="server_tool_shell_exit_code">কমান্ড %1$d কোড দিয়ে শেষ হয়েছে</string>
+    <string name="server_notice_session_update">সেশন আপডেট</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">সংযোগ ব্যর্থ হয়েছে</string>
+    <string name="server_connection_resolved_address_unknown">খুঁজে পাওয়া ঠিকানা: অজানা</string>
+    <string name="server_connection_resolved_address">খুঁজে পাওয়া ঠিকানা (ব্যর্থতার পর খোঁজা): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">এই টেইলনেট নামের জন্য পাওয়া ঠিকানা Tailscale-এর সীমার বাইরে, তাই Tailscale DNS ব্যবহৃত না-ও হতে পারে। Tailscale অ্যাপে Tailscale DNS সেটিংস ব্যবহার চালু করুন এবং প্রাইভেট DNS বা DNS বদলায় এমন যেকোনো VPN প্রোফাইল বন্ধ করুন।</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">স্থানীয় নেটওয়ার্ক</string>
+    <string name="server_connection_route_loopback">লুপব্যাক</string>
+    <string name="server_connection_route_internet">ইন্টারনেট</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">এটি ওয়েব ঠিকানা নয়</string>
+    <string name="server_pairing_origin_bad_scheme">এটি http:// বা https:// দিয়ে শুরু হয় না</string>
+    <string name="server_pairing_origin_no_host">এতে হোস্টের নাম নেই</string>
+    <string name="server_pairing_origin_credentials">এতে ব্যবহারকারীর নাম বা পাসওয়ার্ড রয়েছে</string>
+    <string name="server_pairing_origin_query">এতে কোয়েরি বা ফ্র্যাগমেন্ট রয়েছে</string>
+    <string name="server_pairing_origin_port">এতে পোর্ট 1–65535 সীমার বাইরে</string>
+    <string name="server_pairing_origin_path">এতে পাথ রয়েছে, কিন্তু সার্ভারকে তার ঠিকানার রুটে থাকতে হবে</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">সার্ভার</string>
+    <string name="server_friendly_name_numbered">সার্ভার %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">বার্তা পাঠানোর পর সংযোগ বিচ্ছিন্ন হয়েছে, তাই বার্তাটি পৌঁছে থাকতে পারে।</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">এই ইন্টিগ্রেশনে সাইন ইন করার কোনো উপায় নেই।</string>
+    <string name="server_error_sign_in_url_invalid">সাইন ইন পৃষ্ঠার ঠিকানাটি সঠিক নয়।</string>
+    <string name="server_error_load_server_details">সার্ভারের বিস্তারিত লোড করা যায়নি</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">এই পেয়ারিং কোডের মেয়াদ শেষ হয়েছে বা এটি আগেই ব্যবহার করা হয়েছে। আবার `opencode pair --remote` চালান।</string>
+    <string name="server_error_pairing_unsupported">এই সার্ভার পেয়ারিং লিঙ্ক সমর্থন করে না। কম্পিউটারে OpenCode আপডেট করুন, অথবা সার্ভারের তথ্য নিজে লিখুন।</string>
+    <string name="server_error_notification_previews_need_https">এনক্রিপ্ট করা বিজ্ঞপ্তির পূর্বরূপের জন্য HTTPS সার্ভার সংযোগ প্রয়োজন।</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">একটি বৈধ HTTP বা HTTPS সার্ভার URL লিখুন।</string>
+    <string name="server_error_credentials_rejected">সার্ভার এই লগইন তথ্য গ্রহণ করেনি।</string>
+    <string name="server_error_http_status">সার্ভার HTTP %1$d ফেরত দিয়েছে।</string>
+    <string name="server_error_event_stream_http">ইভেন্ট স্ট্রিম HTTP %1$d ফেরত দিয়েছে।</string>
+    <string name="server_error_event_stream_oversized_frame">ইভেন্ট স্ট্রিম অতিরিক্ত বড় একটি ফ্রেম পাঠিয়েছে।</string>
+    <string name="server_error_event_stream_ended">ইভেন্ট স্ট্রিম শেষ হয়েছে।</string>
+    <string name="server_error_event_stream_server_failure">ইভেন্ট স্ট্রিম সার্ভারের ব্যর্থতার কথা জানিয়েছে।</string>
+    <string name="server_tool_failed">টুল ব্যর্থ হয়েছে</string>
+    <string name="server_error_list_folder">সার্ভার এই ফোল্ডারের তালিকা দেখাতে পারেনি</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">প্রকল্প ও সেশন লোড করা যায়নি</string>
+    <string name="server_error_load_session_family">সংশ্লিষ্ট সেশনগুলো লোড করা যায়নি</string>
+    <string name="server_error_update_session">সেশন আপডেট করা যায়নি</string>
+    <string name="server_error_load_session_ancestry">সক্রিয় সেশনের পূর্বসূরি সেশনগুলো লোড করা যায়নি</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">অন্য কোথাও ইতিমধ্যে উত্তর দেওয়া হয়েছে</string>
+    <string name="server_request_already_dismissed">ইতিমধ্যে খারিজ করা হয়েছে</string>
+    <string name="server_request_already_answered">ইতিমধ্যে উত্তর দেওয়া হয়েছে</string>
+    <string name="server_request_already_dismissed_elsewhere">অন্য কোথাও ইতিমধ্যে খারিজ করা হয়েছে</string>
+    <string name="server_request_no_longer_waiting">আর অপেক্ষা করা হচ্ছে না</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">মিডিয়া উপলব্ধ নয়</string>
+    <string name="server_pasted_text_title">পেস্ট করা পাঠ্য</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d লাইন · %2$s</item>
+        <item quantity="other">%1$d লাইন · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d লাইন</item>
+        <item quantity="other">%1$d লাইন</item>
+    </plurals>
+    <string name="server_file_size_zero">০ KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d বাইট</item>
+        <item quantity="other">%1$d বাইট</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">প্রকল্প</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">ফাইল</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">এই ধাপটি সম্পূর্ণ করুন</string>
+    <string name="server_form_required">আবশ্যক</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">অন্তত %1$dটি অক্ষর লিখুন</item>
+        <item quantity="other">অন্তত %1$dটি অক্ষর লিখুন</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">সর্বোচ্চ %1$dটি অক্ষর লিখুন</item>
+        <item quantity="other">সর্বোচ্চ %1$dটি অক্ষর লিখুন</item>
+    </plurals>
+    <string name="server_form_invalid_format">অবৈধ বিন্যাস</string>
+    <string name="server_form_choose_option">উপলব্ধ বিকল্প থেকে বেছে নিন</string>
+    <string name="server_form_invalid_email">একটি বৈধ ইমেইল লিখুন</string>
+    <string name="server_form_invalid_url">একটি বৈধ URL লিখুন</string>
+    <string name="server_form_invalid_date">YYYY-MM-DD বিন্যাসে তারিখ লিখুন</string>
+    <string name="server_form_invalid_date_time">বৈধ তারিখ ও সময় লিখুন</string>
+    <string name="server_form_minimum">অন্তত %1$s হতে হবে</string>
+    <string name="server_form_maximum">সর্বোচ্চ %1$s হতে হবে</string>
+    <string name="server_form_whole_number">একটি পূর্ণসংখ্যা লিখুন</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">অন্তত %1$dটি বেছে নিন</item>
+        <item quantity="other">অন্তত %1$dটি বেছে নিন</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">সর্বোচ্চ %1$dটি বেছে নিন</item>
+        <item quantity="other">সর্বোচ্চ %1$dটি বেছে নিন</item>
+    </plurals>
+    <string name="server_form_invalid_value">অবৈধ মান</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">নির্বাচিতগুলো লুকান</string>
+    <string name="server_model_visibility_only_show">শুধু নির্বাচিতগুলো দেখান</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">বন্ধ</string>
+    <string name="server_model_variant_extra_high">অতিরিক্ত উচ্চ</string>
+    <string name="server_model_variant_max">সর্বোচ্চ</string>
+    <string name="server_delivery_steering">দিকনির্দেশ</string>
+    <string name="server_delivery_queued">সারিবদ্ধ</string>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Nem sikerült hozzáadni a megosztott elemeket</string>
+    <string name="app_alert_open_session_failed_title">Nem sikerült megnyitni a munkamenetet</string>
+    <string name="app_alert_pairing_failed_title">Nem sikerült párosítani a kiszolgálóval</string>
+    <string name="app_pairing_confirm">Párosítás</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Szerverek</string>
+    <string name="app_servers_back_description">Vissza ide: %1$s</string>
+    <string name="app_server_fallback_name">kiszolgáló</string>
+    <string name="app_connection_intro_new">Folytassa a kódolást a %1$s eszközéről.</string>
+    <string name="app_connection_intro_returning">Folytassa ott, ahol abbahagyta, vagy párosítson másik számítógépet.</string>
+    <string name="app_connection_enter_manually">Kiszolgáló kézi megadása</string>
+    <string name="app_connection_scan_pairing_code">Párosítási kód beolvasása</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">A számítógépén nyissa meg az OpenCode-ot, majd a Beállítások → Párosítás menüt, vagy futtassa az opencode pair --remote parancsot egy terminálban. Ezután olvassa be a kódot ezzel az eszközzel: %1$s.</string>
+    <string name="app_setup_install_title">Még nincs OpenCode-ja?</string>
+    <string name="app_setup_other_ways_to_install">További telepítési módok</string>
+    <string name="app_setup_terminal_title">Vagy futtassa ezt egy terminálban</string>
+    <string name="app_setup_terminal_detail">Bármely hálózatról működik.</string>
+    <string name="app_setup_paste_prompt">Vagy másolja ki a megjelenő linket, majd</string>
+    <string name="app_setup_paste">Beillesztés</string>
+    <string name="app_setup_copy_command_description">Másolás: %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Csatlakozás</string>
+    <string name="app_servers_edit_description">%1$s szerkesztése</string>
+    <string name="app_servers_remove_description">%1$s eltávolítása</string>
+    <string name="app_servers_remove_confirm_title">Eltávolítja ezt: %1$s?</string>
+    <string name="app_servers_remove_confirm_message">Törli a mentett címet és jelszót erről az eszközről: %1$s. A kiszolgálón lévő munkameneteket nem érinti.</string>
+    <string name="app_servers_remove_confirm">Kiszolgáló eltávolítása</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Szakasz: %1$s</string>
+    <string name="app_error_server">Kiszolgáló: %1$s</string>
+    <string name="app_error_attempt">Próbálkozás: %1$d</string>
+    <string name="app_error_copy_report">Hibajelentés másolása</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Új kiszolgáló</string>
+    <string name="app_server_form_edit_title">Szerver szerkesztése</string>
+    <string name="app_server_form_name">Név</string>
+    <string name="app_server_form_address">Szerver címe</string>
+    <string name="app_server_form_username">Felhasználónév</string>
+    <string name="app_server_form_password">Jelszó (nem kötelező)</string>
+    <string name="app_server_form_hide_password_description">Jelszó elrejtése</string>
+    <string name="app_server_form_show_password_description">Jelszó megjelenítése</string>
+    <string name="app_server_form_connect">Csatlakozás</string>
+    <string name="app_server_form_save_and_connect">Megtakarítás és csatlakozás</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Fejlécek</string>
+    <string name="app_server_form_header_name">Név</string>
+    <string name="app_server_form_header_name_description">%1$d. fejléc neve</string>
+    <string name="app_server_form_header_value">Érték</string>
+    <string name="app_server_form_header_value_description">%1$d. fejléc értéke</string>
+    <string name="app_server_form_header_remove_description">%1$d. fejléc eltávolítása</string>
+    <string name="app_server_form_header_add">Fejléc hozzáadása</string>
+    <string name="app_server_form_headers_detail">Minden kéréssel elküldve a kiszolgáló előtti proxynak, például a Cloudflare Accessnek.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">„%1$s” nem érvényes fejlécnév</string>
+    <string name="app_server_form_header_invalid_value">%1$s értéke nem tartalmazhat sortörést</string>
+    <string name="app_server_form_name_placeholder">Nem kötelező</string>
+    <string name="app_connection_progress_pairing">Párosítás</string>
+    <string name="app_connection_progress_connecting">Csatlakozás</string>
+    <string name="app_connection_progress_loading_sessions">Munkamenetek betöltése</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Párosítja ezzel: %1$s?</string>
+    <string name="app_pairing_confirm_try_one">Az OpenCode kipróbálja ezt: %1$s, és az első válaszoló címre vált.</string>
+    <string name="app_pairing_confirm_pair_one">Az OpenCode párosít ezzel: %1$s, majd átvált rá.</string>
+    <string name="app_pairing_confirm_try_two">Az OpenCode kipróbálja ezeket: %1$s és %2$s, és az első válaszolóra vált.</string>
+    <string name="app_pairing_confirm_try_many">Az OpenCode kipróbálja ezeket: %1$s és %2$s, és az első válaszolóra vált.</string>
+    <string name="app_pairing_confirm_replaces">%1$s A(z) %2$s mentett hitelesítési adatai felülíródhatnak.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Párosítás</string>
+    <string name="app_error_phase_connect">Csatlakozás</string>
+    <string name="app_error_phase_load_sessions">Munkamenetek betöltése</string>
+    <string name="app_error_candidate_detail">%1$d. jelölt: %2$s</string>
+    <string name="app_error_invalid_address">Nem érhető el (érvénytelen cím)</string>
+    <string name="app_error_title_pair">Nem sikerült a párosítás</string>
+    <string name="app_error_title_load_sessions">Nem sikerült betölteni a munkameneteket</string>
+    <string name="app_error_title_connect">Nem sikerült csatlakozni: %1$s</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">A vágólap üres</string>
+    <string name="app_paste_not_a_pairing_link">Ez nem párosítási link</string>
+    <string name="app_server_no_longer_saved">Ez a kiszolgáló már nincs mentve ezen az eszközön (%1$s). A munkamenet megnyitásához csatlakozzon újra.</string>
+    <string name="app_session_no_longer_available">Lehet, hogy törölték, vagy a kiszolgáló nem érhető el.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Csatlakoztatva: %1$s</string>
+    <string name="app_pairing_invalid_code">Ez nem OpenCode-párosítási kód. Futtassa az opencode pair --remote parancsot a számítógépén, majd olvassa be a QR-kódot, vagy illessze be a kiírt linket.</string>
+    <string name="app_pairing_unusable_address">A párosítási kódban lévő „%1$s” nem használható: %2$s.</string>
+    <string name="app_pairing_loopback">Ez a kiszolgáló csak a localhost címen fogad kapcsolatokat, ezért ez az eszköz (%1$s) nem éri el. Futtassa inkább az opencode pair --remote parancsot a számítógépén; ez bármely hálózatról működik.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">A megosztáshoz használt kiszolgáló már nincs mentve ezen az eszközön. Csatlakozzon hozzá újra, majd ismételje meg a megosztást.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">legutóbb használt</string>
+    <string name="app_server_form_hint_new">A párosításhoz illessze be az `opencode pair --remote` által kiírt linket, vagy adja meg az OpenCode-kiszolgáló címét és jelszavát. A felhasználónév általában opencode.</string>
+    <string name="app_server_form_hint_edit_paired">A módosításokat a kiszolgálóhoz való csatlakozáskor mentjük. Ez párosított kiszolgáló, így a jelszava egy munkamenettoken; módosítás helyett olvasson be új párosítási kódot.</string>
+    <string name="app_server_form_hint_edit">A módosításokat a kiszolgálóhoz való csatlakozáskor mentjük.</string>
+</resources>

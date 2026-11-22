@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Geteilte Inhalte konnten nicht hinzugefügt werden</string>
+    <string name="app_alert_open_session_failed_title">Sitzung konnte nicht geöffnet werden</string>
+    <string name="app_alert_pairing_failed_title">Kopplung mit Server fehlgeschlagen</string>
+    <string name="app_pairing_confirm">Koppeln</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Server</string>
+    <string name="app_servers_back_description">Zurück zu %1$s</string>
+    <string name="app_server_fallback_name">Server</string>
+    <string name="app_connection_intro_new">Setze deine Coding-Sitzungen auf deinem %1$s fort.</string>
+    <string name="app_connection_intro_returning">Mach weiter, wo du aufgehört hast, oder kopple einen weiteren Computer.</string>
+    <string name="app_connection_enter_manually">Server manuell eingeben</string>
+    <string name="app_connection_scan_pairing_code">Kopplungscode scannen</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Öffne OpenCode auf deinem Computer und gehe zu Einstellungen → Kopplung oder führe opencode pair --remote im Terminal aus. Scanne dann den Code mit diesem %1$s.</string>
+    <string name="app_setup_install_title">Noch kein OpenCode?</string>
+    <string name="app_setup_other_ways_to_install">Weitere Installationsmöglichkeiten</string>
+    <string name="app_setup_terminal_title">Oder führe dies im Terminal aus</string>
+    <string name="app_setup_terminal_detail">Funktioniert in jedem Netzwerk.</string>
+    <string name="app_setup_paste_prompt">Oder kopiere den ausgegebenen Link und dann</string>
+    <string name="app_setup_paste">Einfügen</string>
+    <string name="app_setup_copy_command_description">%1$s kopieren</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Verbindung wird hergestellt</string>
+    <string name="app_servers_edit_description">%1$s bearbeiten</string>
+    <string name="app_servers_remove_description">%1$s entfernen</string>
+    <string name="app_servers_remove_confirm_title">%1$s entfernen?</string>
+    <string name="app_servers_remove_confirm_message">Adresse und Passwort werden auf diesem %1$s gelöscht. Sitzungen auf dem Server bleiben unverändert.</string>
+    <string name="app_servers_remove_confirm">Server entfernen</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Phase: %1$s</string>
+    <string name="app_error_server">Server: %1$s</string>
+    <string name="app_error_attempt">Versuch: %1$d</string>
+    <string name="app_error_copy_report">Fehlerbericht kopieren</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Neuer Server</string>
+    <string name="app_server_form_edit_title">Server bearbeiten</string>
+    <string name="app_server_form_name">Name</string>
+    <string name="app_server_form_address">Serveradresse</string>
+    <string name="app_server_form_username">Benutzername</string>
+    <string name="app_server_form_password">Passwort (optional)</string>
+    <string name="app_server_form_hide_password_description">Passwort verstecken</string>
+    <string name="app_server_form_show_password_description">Passwort zeigen</string>
+    <string name="app_server_form_connect">Verbinden</string>
+    <string name="app_server_form_save_and_connect">Speichern und verbinden</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Header</string>
+    <string name="app_server_form_header_name">Name</string>
+    <string name="app_server_form_header_name_description">Name von Header %1$d</string>
+    <string name="app_server_form_header_value">Wert</string>
+    <string name="app_server_form_header_value_description">Wert von Header %1$d</string>
+    <string name="app_server_form_header_remove_description">Header %1$d entfernen</string>
+    <string name="app_server_form_header_add">Header hinzufügen</string>
+    <string name="app_server_form_headers_detail">Werden bei jeder Anfrage mitgesendet, für einen vorgeschalteten Proxy wie Cloudflare Access.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">„%1$s“ ist kein gültiger Headername</string>
+    <string name="app_server_form_header_invalid_value">Der Wert von %1$s darf keinen Zeilenumbruch enthalten</string>
+    <string name="app_server_form_name_placeholder">Optional</string>
+    <string name="app_connection_progress_pairing">Kopplung läuft</string>
+    <string name="app_connection_progress_connecting">Verbindung wird hergestellt</string>
+    <string name="app_connection_progress_loading_sessions">Sitzungen werden geladen</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Mit %1$s koppeln?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode versucht %1$s und wechselt zur ersten Adresse, die antwortet.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode koppelt sich mit %1$s und wechselt dorthin.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode versucht %1$s und %2$s und wechselt zur ersten Adresse, die antwortet.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode versucht %1$s und %2$s und wechselt zur ersten Adresse, die antwortet.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Gespeicherte Zugangsdaten für %2$s werden möglicherweise ersetzt.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Koppeln</string>
+    <string name="app_error_phase_connect">Verbinden</string>
+    <string name="app_error_phase_load_sessions">Sitzungen laden</string>
+    <string name="app_error_candidate_detail">Kandidat %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Nicht verfügbar (ungültige Adresse)</string>
+    <string name="app_error_title_pair">Kopplung fehlgeschlagen</string>
+    <string name="app_error_title_load_sessions">Sitzungen konnten nicht geladen werden</string>
+    <string name="app_error_title_connect">Verbindung mit %1$s fehlgeschlagen</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Deine Zwischenablage ist leer</string>
+    <string name="app_paste_not_a_pairing_link">Das ist kein Kopplungslink</string>
+    <string name="app_server_no_longer_saved">Dieser Server ist auf diesem %1$s nicht mehr gespeichert. Verbinde dich erneut, um die Sitzung zu öffnen.</string>
+    <string name="app_session_no_longer_available">Die Sitzung wurde möglicherweise gelöscht oder der Server ist nicht verfügbar.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Mit %1$s verbunden</string>
+    <string name="app_pairing_invalid_code">Das ist kein OpenCode-Kopplungscode. Führe opencode pair --remote auf deinem Computer aus. Scanne dann den QR-Code oder füge den ausgegebenen Link ein.</string>
+    <string name="app_pairing_unusable_address">„%1$s“ aus diesem Kopplungscode konnte nicht verwendet werden: Die Adresse %2$s.</string>
+    <string name="app_pairing_loopback">Dieser Server lauscht nur auf localhost und ist daher von diesem %1$s aus nicht erreichbar. Führe stattdessen opencode pair --remote auf deinem Computer aus. Das funktioniert aus jedem Netzwerk.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Der Server, mit dem du Inhalte geteilt hast, ist auf diesem Gerät nicht mehr gespeichert. Verbinde dich erneut und teile die Inhalte noch einmal.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">zuletzt verwendet</string>
+    <string name="app_server_form_hint_new">Füge zum Koppeln den Link ein, den `opencode pair --remote` ausgibt, oder nutze die Adresse und das Passwort deines OpenCode-Servers. Der Benutzername ist meist opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Änderungen werden gespeichert, sobald die Verbindung steht. Dieser Server wurde gekoppelt, daher ist sein Passwort ein Sitzungstoken. Scanne einen neuen Kopplungscode, statt es zu ändern.</string>
+    <string name="app_server_form_hint_edit">Änderungen werden gespeichert, sobald die Verbindung steht.</string>
+</resources>

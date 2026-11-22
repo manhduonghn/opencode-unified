@@ -1,0 +1,225 @@
+package com.termux.app;
+
+import android.app.Notification;
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.app.Service;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Build;
+import android.os.IBinder;
+import android.os.PowerManager;
+
+import androidx.annotation.Nullable;
+import androidx.core.app.NotificationCompat;
+
+import com.termux.R;
+
+public class OpenCodeForegroundService extends Service {
+
+    public static final String ACTION_STOP = "com.termux.opencode.ACTION_STOP";
+    public static final String ACTION_START = "com.termux.opencode.ACTION_START";
+    /** Sent after the daemon was stopped from the notification action. */
+    public static final String ACTION_STOPPED = "com.termux.opencode.SERVICE_STOPPED";
+
+    private static final String CHANNEL_ID = "opencode_service_channel";
+    public static final int NOTIFICATION_ID = 0x4F43; // "OC"
+
+    private static PowerManager.WakeLock sWakeLock;
+    private volatile boolean mRunning = true;
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        createNotificationChannel();
+        acquireWakeLock();
+    }
+
+    @Override
+    public int onStartCommand(Intent intent, int flags, int startId) {
+        if (intent != null && ACTION_STOP.equals(intent.getAction())) {
+            stopOpenCode();
+            return START_STICKY;
+        }
+        if (intent != null && ACTION_START.equals(intent.getAction())) {
+            mRunning = true;
+            ensurePromoted();
+            ensureOpenCodeRunning();
+            return START_STICKY;
+        }
+
+        mRunning = true;
+        ensurePromoted();
+        ensureOpenCodeRunning();
+        return START_STICKY;
+    }
+
+    private void ensurePromoted() {
+        try {
+            NotificationManager nm = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+            if (nm != null) {
+                nm.notify(NOTIFICATION_ID, buildNotification());
+            }
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                startForeground(NOTIFICATION_ID, buildNotification());
+            }
+        } catch (Throwable t) {
+            try {
+                NotificationManager nm = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+                if (nm != null) nm.notify(NOTIFICATION_ID, buildNotification());
+            } catch (Throwable ignored) {
+            }
+        }
+    }
+
+    @Nullable
+    @Override
+    public IBinder onBind(Intent intent) {
+        return null;
+    }
+
+    @Override
+    public void onTaskRemoved(Intent rootIntent) {
+        // Keep service alive when task is removed - START_STICKY will handle if killed
+        super.onTaskRemoved(rootIntent);
+    }
+
+    @Override
+    public void onDestroy() {
+        releaseWakeLock();
+        super.onDestroy();
+    }
+
+    private void createNotificationChannel() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            NotificationManager nm = getSystemService(NotificationManager.class);
+            if (nm == null) return;
+            if (nm.getNotificationChannel(CHANNEL_ID) != null) return;
+
+            CharSequence name = getString(R.string.oc_runtime_service_channel_name);
+            String desc = getString(R.string.oc_runtime_service_channel_desc);
+            NotificationChannel channel = new NotificationChannel(CHANNEL_ID, name, NotificationManager.IMPORTANCE_LOW);
+            channel.setDescription(desc);
+            channel.setShowBadge(false);
+            nm.createNotificationChannel(channel);
+        }
+    }
+
+    private Notification buildNotification() {
+        Intent openIntent = UnifiedApp.openAppIntent(this);
+        int flags = Build.VERSION.SDK_INT >= Build.VERSION_CODES.M ? PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE : PendingIntent.FLAG_UPDATE_CURRENT;
+        PendingIntent openPending = PendingIntent.getActivity(this, 100, openIntent, flags);
+
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID)
+            .setSmallIcon(R.drawable.oc_runtime_ic_service_notification)
+            .setContentIntent(openPending)
+            .setOngoing(true)
+            .setOnlyAlertOnce(true)
+            .setPriority(NotificationCompat.PRIORITY_LOW)
+            .setCategory(NotificationCompat.CATEGORY_SERVICE)
+            .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
+            .addAction(0, getString(R.string.oc_runtime_service_action_open), openPending);
+
+        if (mRunning) {
+            builder.setContentTitle(getString(R.string.oc_runtime_service_title))
+                .setContentText(getString(R.string.oc_runtime_service_text));
+            Intent stopIntent = new Intent(this, OpenCodeForegroundService.class).setAction(ACTION_STOP);
+            PendingIntent stopPending = PendingIntent.getService(this, 101, stopIntent, flags);
+            builder.addAction(0, getString(R.string.oc_runtime_service_action_stop), stopPending);
+        } else {
+            builder.setContentTitle(getString(R.string.oc_runtime_application_name))
+                .setContentText(getString(R.string.oc_runtime_service_stopped));
+            Intent startIntent = new Intent(this, OpenCodeForegroundService.class).setAction(ACTION_START);
+            PendingIntent startPending = PendingIntent.getService(this, 102, startIntent, flags);
+            builder.addAction(0, getString(R.string.oc_runtime_service_retry), startPending);
+        }
+
+        return builder.build();
+    }
+
+    private void ensureOpenCodeRunning() {
+        final Context app = getApplicationContext();
+        if (!OpenCodeBootstrap.isRuntimeComplete()) return;
+        new Thread("opencode-fg-ensure") {
+            @Override
+            public void run() {
+                // The call is serialized with the pair/stop calls of the web activity by the lock
+                // inside OpenCodeService, so it can never kill a daemon that is just starting.
+                OpenCodeService.ensureStarted(app, 60000L);
+            }
+        }.start();
+    }
+
+    private void stopOpenCode() {
+        final Context app = getApplicationContext();
+        mRunning = false;
+        ensurePromoted();
+        OpenCodeService.stopAsync(app, false, () -> {
+            notifyStopped();
+            try {
+                NotificationManager nm = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+                if (nm != null) nm.notify(NOTIFICATION_ID, buildNotification());
+            } catch (Throwable ignored) {
+            }
+        });
+    }
+
+    /**
+     * Tell a visible web activity that the current page belongs to a daemon that is gone, so it can
+     * pair again right away instead of waiting for the next {@code onResume()}.
+     */
+    private void notifyStopped() {
+        Intent intent = new Intent(ACTION_STOPPED).setPackage(getPackageName());
+        try {
+            sendBroadcast(intent);
+        } catch (Throwable ignored) {
+        }
+    }
+
+    private void acquireWakeLock() {
+        try {
+            if (sWakeLock != null && sWakeLock.isHeld()) return;
+            PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
+            if (pm == null) return;
+            sWakeLock = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "opencode:foreground");
+            sWakeLock.setReferenceCounted(false);
+            sWakeLock.acquire();
+        } catch (Throwable ignored) {}
+    }
+
+    private void releaseWakeLock() {
+        try {
+            if (sWakeLock != null && sWakeLock.isHeld()) {
+                sWakeLock.release();
+            }
+            sWakeLock = null;
+        } catch (Throwable ignored) {}
+    }
+
+    public static void start(Context context) {
+        if (context == null) return;
+        Context app = context.getApplicationContext();
+        Intent intent = new Intent(app, OpenCodeForegroundService.class);
+        try {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                app.startForegroundService(intent);
+            } else {
+                app.startService(intent);
+            }
+        } catch (Throwable ignored) {
+            try {
+                app.startService(intent);
+            } catch (Throwable ignored2) {}
+        }
+    }
+
+    public static void stop(Context context) {
+        if (context == null) return;
+        Context app = context.getApplicationContext();
+        Intent intent = new Intent(app, OpenCodeForegroundService.class).setAction(ACTION_STOP);
+        try {
+            app.startService(intent);
+        } catch (Throwable ignored) {}
+    }
+}

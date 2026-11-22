@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Kundi ikki leggja deildar lutir afturat</string>
+    <string name="app_alert_open_session_failed_title">Kundi ikki opna setuna</string>
+    <string name="app_alert_pairing_failed_title">Kundi ikki para við ambætaran</string>
+    <string name="app_pairing_confirm">Para</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Ambætarar</string>
+    <string name="app_servers_back_description">Aftur til %1$s</string>
+    <string name="app_server_fallback_name">ambætari</string>
+    <string name="app_connection_intro_new">Halt fram við kodusetunum á tínum %1$s.</string>
+    <string name="app_connection_intro_returning">Halt fram, har tú slepti, ella para eina aðra teldu.</string>
+    <string name="app_connection_enter_manually">Skriva ambætara inn sjálv/ur</string>
+    <string name="app_connection_scan_pairing_code">Skanna paringarkotu</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Opna OpenCode á telduni og far til Innstillingar → Paring, ella koyr opencode pair --remote í eini farstøð. Skanna síðani kotuna við hesum %1$s.</string>
+    <string name="app_setup_install_title">Hevur tú ikki OpenCode enn?</string>
+    <string name="app_setup_other_ways_to_install">Aðrir hættir at leggja inn</string>
+    <string name="app_setup_terminal_title">Ella koyr hetta í eini farstøð</string>
+    <string name="app_setup_terminal_detail">Tað riggar á øllum netum.</string>
+    <string name="app_setup_paste_prompt">Ella avrita leinkjuna, sum verður víst, og síðani</string>
+    <string name="app_setup_paste">Set inn</string>
+    <string name="app_setup_copy_command_description">Avrita %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Fær samband</string>
+    <string name="app_servers_edit_description">Rætta %1$s</string>
+    <string name="app_servers_remove_description">Tak %1$s burtur</string>
+    <string name="app_servers_remove_confirm_title">Tak %1$s burtur?</string>
+    <string name="app_servers_remove_confirm_message">Hetta strikar adressuna og loyniorðið á hesum %1$s. Setur á ambætaranum verða ikki ávirkaðar.</string>
+    <string name="app_servers_remove_confirm">Tak ambætara burtur</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Stig: %1$s</string>
+    <string name="app_error_server">Ambætari: %1$s</string>
+    <string name="app_error_attempt">Roynd: %1$d</string>
+    <string name="app_error_copy_report">Avrita feilfrágreiðing</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Nýggjur ambætari</string>
+    <string name="app_server_form_edit_title">Rætta ambætara</string>
+    <string name="app_server_form_name">Navn</string>
+    <string name="app_server_form_address">Ambætaraadressa</string>
+    <string name="app_server_form_username">Brúkaranavn</string>
+    <string name="app_server_form_password">Loyniorð</string>
+    <string name="app_server_form_hide_password_description">Goym loyniorð</string>
+    <string name="app_server_form_show_password_description">Vís loyniorð</string>
+    <string name="app_server_form_connect">Samband</string>
+    <string name="app_server_form_save_and_connect">Goym og fá samband</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Hausar</string>
+    <string name="app_server_form_header_name">Navn</string>
+    <string name="app_server_form_header_name_description">Navn á hausi %1$d</string>
+    <string name="app_server_form_header_value">Virði</string>
+    <string name="app_server_form_header_value_description">Virði í hausi %1$d</string>
+    <string name="app_server_form_header_remove_description">Tak haus %1$d burtur</string>
+    <string name="app_server_form_header_add">Legg haus afturat</string>
+    <string name="app_server_form_headers_detail">Verða sendir við hvørjari umbøn til ein millumambætara framman fyri ambætaran, t.d. Cloudflare Access.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">“%1$s” er ikki eitt gyldugt hausnavn</string>
+    <string name="app_server_form_header_invalid_value">Virðið í %1$s kann ikki hava linjuskift</string>
+    <string name="app_server_form_name_placeholder">Valfrítt</string>
+    <string name="app_connection_progress_pairing">Parar</string>
+    <string name="app_connection_progress_connecting">Fær samband</string>
+    <string name="app_connection_progress_loading_sessions">Heintar setur</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Para við %1$s?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode fer at royna %1$s og skifta til fyrstu adressuna, sum svarar.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode fer at para við %1$s og skifta til hana.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode fer at royna %1$s og %2$s og skifta til ta fyrstu, sum svarar.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode fer at royna %1$s og %2$s og skifta til ta fyrstu, sum svarar.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Goymdar innritingarupplýsingar fyri %2$s kunnu verða skiftar út.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Paring</string>
+    <string name="app_error_phase_connect">Samband</string>
+    <string name="app_error_phase_load_sessions">Heinta setur</string>
+    <string name="app_error_candidate_detail">Møguleiki %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Ikki tøkt (ógyldug adressa)</string>
+    <string name="app_error_title_pair">Kundi ikki para</string>
+    <string name="app_error_title_load_sessions">Kundi ikki heinta setur</string>
+    <string name="app_error_title_connect">Kundi ikki fáa samband við %1$s</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Klippiborðið er tómt</string>
+    <string name="app_paste_not_a_pairing_link">Hetta er ikki ein paringarleinkja</string>
+    <string name="app_server_no_longer_saved">Hesin ambætarin er ikki longur goymdur á hesum %1$s. Fá samband við hann aftur fyri at opna setuna.</string>
+    <string name="app_session_no_longer_available">Hon kann vera strikað, ella ambætarin er ikki tøkur.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Samband við %1$s</string>
+    <string name="app_pairing_invalid_code">Hetta er ikki ein OpenCode-paringarkota. Koyr opencode pair --remote á telduni, og skanna so QR-kotuna ella set leinkjuna inn, sum verður víst.</string>
+    <string name="app_pairing_unusable_address">Kundi ikki brúka „%1$s“ úr hesi paringarkotuni: hon %2$s.</string>
+    <string name="app_pairing_loopback">Hesin ambætarin lurtar bara á localhost, so hesin %1$s fær ikki samband við hann. Koyr heldur opencode pair --remote á telduni; tað riggar á øllum netum.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Ambætarin, tú deildi til, er ikki longur goymdur á hesum tólinum. Fá samband við hann aftur, og deil so av nýggjum.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">seinast brúktur</string>
+    <string name="app_server_form_hint_new">Set leinkjuna inn, sum `opencode pair --remote` vísir, fyri at para, ella brúka adressuna og loyniorðið hjá tínum OpenCode-ambætara. Brúkaranavnið er vanliga opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Broytingar verða goymdar, tá samband fæst við ambætaran. Hesin ambætarin varð paraður, so loyniorðið er eitt setumerki; skanna eina nýggja paringarkotu heldur enn at broyta tað.</string>
+    <string name="app_server_form_hint_edit">Broytingar verða goymdar, tá samband fæst við ambætaran.</string>
+</resources>

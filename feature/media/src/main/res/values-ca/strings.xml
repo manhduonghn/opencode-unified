@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">Imatge</string>
+    <string name="media_image_load_failed">No s\'ha pogut carregar la imatge</string>
+    <string name="media_unavailable">Contingut multimèdia no disponible</string>
+    <string name="media_try_again_label">Torna-ho a provar</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">Visor multimèdia</string>
+    <string name="media_viewer_save_to_photos_description">Desa a Fotos</string>
+    <string name="media_file_viewer_screen_title">Visor de fitxers</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d de %3$d</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">Dibuixa sobre la imatge</string>
+    <string name="media_drawing_undo_description">Desfer</string>
+    <string name="media_drawing_add_to_prompt_description">Afegeix a la indicació</string>
+    <string name="media_drawing_canvas_description">Llenç de dibuix</string>
+    <string name="media_drawing_discard_title">Vols descartar el dibuix?</string>
+    <string name="media_drawing_discard_confirm">Descarta el dibuix</string>
+    <string name="media_drawing_keep">Continua dibuixant</string>
+    <string name="media_drawing_add_failed_title">No s\'ha pogut afegir el dibuix</string>
+    <string name="media_drawing_flatten_failed">No s\'ha pogut crear la imatge. Torna-ho a provar.</string>
+    <string name="media_drawing_prompt_unavailable">Ara mateix no es poden afegir adjunts al missatge d\'aquesta sessió.</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">Blanc</string>
+    <string name="media_drawing_ink_black">Negre</string>
+    <string name="media_drawing_ink_red">Vermell</string>
+    <string name="media_drawing_ink_yellow">Groc</string>
+    <string name="media_drawing_ink_green">Verd</string>
+    <string name="media_drawing_ink_blue">Blau</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">Ampliada</string>
+    <string name="media_zoom_out_label">Allunya</string>
+    <string name="media_zoom_in_label">Apropa</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">Pausa</string>
+    <string name="media_player_play">Reprodueix</string>
+    <string name="media_player_position_description">Posició de reproducció</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">No s\'ha pogut reproduir el vídeo</string>
+    <string name="media_video_position_description">Posició del vídeo</string>
+    <string name="media_video_capture_failed_title">No s\'ha pogut capturar el fotograma</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">Mostra la vista prèvia</string>
+    <string name="media_file_show_source_description">Mostra el codi font</string>
+    <string name="media_file_unwrap_lines_description">No ajustis les línies</string>
+    <string name="media_file_wrap_lines_description">Ajusta les línies</string>
+    <string name="media_file_start_pip_description">Activa la imatge sobre imatge</string>
+    <string name="media_file_opening">S\'està obrint…</string>
+    <string name="media_file_share_failed_title">No s\'ha pogut compartir el fitxer</string>
+    <string name="media_file_share_downloading_description">S\'està descarregant per compartir</string>
+    <string name="media_file_confirm_large_message">Aquest fitxer ocupa %1$s. Vols descarregar-lo per veure\'l en aquest dispositiu?</string>
+    <string name="media_file_download">Descarrega</string>
+    <string name="media_file_open_in_another_app">Obre en una altra aplicació</string>
+    <string name="media_file_no_app_message">Cap aplicació d\'aquest dispositiu pot obrir aquest fitxer. Comparteix-lo per desar-lo o enviar-lo a un altre lloc.</string>
+    <string name="media_file_pdf_page_description">Pàgina %1$d de %2$d</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">No s\'ha trobat el fitxer</string>
+    <string name="media_file_error_open_failed_title">No s\'ha pogut obrir el fitxer</string>
+    <string name="media_file_error_unreadable">No es pot llegir aquest camí des del servidor.</string>
+    <string name="media_file_error_not_found">Pot ser que s\'hagi mogut o suprimit.</string>
+    <string name="media_file_error_unauthorized">El servidor no ha acceptat la contrasenya d\'aquest dispositiu.</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">El servidor no l\'ha pogut llegir (HTTP %1$d). Pot ser que sigui una carpeta.</string>
+    <string name="media_file_error_timed_out">S\'ha esgotat el temps d\'espera de la sol·licitud.</string>
+    <string name="media_file_error_unexpected_response">El servidor ha enviat una resposta inesperada.</string>
+    <string name="media_file_error_over_limit">El fitxer supera el límit de mida de descàrrega.</string>
+    <string name="media_file_error_size_unknown">El servidor no ha indicat la mida de l\'adjunt.</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">Descarregant…</string>
+    <string name="media_file_downloading_size">Descarregant %1$s</string>
+    <string name="media_file_downloading_progress">Descarregant %1$s de %2$s</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">0 KB</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="one">%1$d byte</item>
+        <item quantity="many">%1$d bytes</item>
+        <item quantity="other">%1$d bytes</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s KB</string>
+    <string name="media_file_size_megabytes">%1$s MB</string>
+    <string name="media_file_size_gigabytes">%1$s GB</string>
+    <string name="media_file_size_terabytes">%1$s TB</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">No s\'ha trobat</string>
+    <string name="media_image_load_label">Carrega la imatge</string>
+    <string name="media_image_loading_state">Carregant</string>
+    <string name="media_image_open_label">Obre la imatge</string>
+    <string name="media_image_tap_to_load">Toca per carregar</string>
+    <string name="media_image_outside_project_value">Fora del projecte</string>
+    <string name="media_image_deferred_low_data_value">Ajornada pel mode d\'estalvi de dades</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">Obre %1$s</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">Torna a la sessió</string>
+    <string name="media_browser_ask_description">Pregunta sobre aquesta pàgina</string>
+    <string name="media_browser_forward_description">Endavant</string>
+    <string name="media_browser_open_in_browser_description">Obre al navegador</string>
+    <string name="media_browser_scroll_to_top_label">Ves a l\'inici de la pàgina</string>
+    <string name="media_browser_ask_placeholder">Pregunta sobre aquesta pàgina</string>
+    <string name="media_browser_reply_needs_input">Cal la teva resposta</string>
+    <string name="media_browser_reply_working">Treballant</string>
+    <string name="media_browser_go_back_to_session_label">Torna a la sessió</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">Resposta a punt</string>
+    <string name="media_browser_reply_back_to_read">· Torna per llegir-la</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">Sessió</string>
+    <string name="media_link_open_in_app_browser">Obre al navegador integrat</string>
+    <string name="media_link_open_in_browser">Obre al navegador</string>
+    <string name="media_link_open_in_app">Obre a l\'aplicació</string>
+    <string name="media_link_copy">Copia l\'enllaç</string>
+    <string name="media_link_share">Comparteix…</string>
+    <string name="media_link_open_session">Obre la sessió</string>
+    <string name="media_link_copy_session_id">Copia l\'ID</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">Copia l\'ID de %1$s</string>
+    <string name="media_link_open_session_named_description">Obre la sessió %1$s</string>
+    <string name="media_link_open_host_in_app_browser_description">Obre %1$s al navegador integrat</string>
+    <string name="media_link_open_host_in_browser_description">Obre %1$s al navegador</string>
+    <string name="media_link_open_host_in_app_description">Obre %1$s a l\'aplicació</string>
+    <string name="media_link_copy_host_description">Copia l\'enllaç a %1$s</string>
+    <string name="media_link_share_host_description">Comparteix l\'enllaç a %1$s</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%1$s a %2$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s, enllaç %2$d</string>
+    <string name="media_link_more_links_description">Més enllaços</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">Vídeo</string>
+    <string name="media_link_preview_post">Publicació</string>
+    <string name="media_link_preview_post_unavailable">Publicació no disponible</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">Repositori</string>
+    <string name="media_github_kind_issue">Incidència</string>
+    <string name="media_github_kind_pull_request">Sol·licitud d\'extracció</string>
+    <string name="media_github_kind_commit">Confirmació</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">Obert</string>
+    <string name="media_github_state_closed">Tancat</string>
+    <string name="media_github_state_merged">Fusionat</string>
+    <string name="media_github_state_draft">Esborrany</string>
+    <string name="media_github_state_completed">Completat</string>
+    <string name="media_github_state_not_planned">No previst</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">Diagrama, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">Visor de diagrames</string>
+    <string name="media_mermaid_diagram_description">Diagrama</string>
+    <string name="media_mermaid_loading_state">%1$s, carregant</string>
+    <string name="media_mermaid_view_source">Veure el codi font</string>
+    <string name="media_mermaid_source_title">Codi font del diagrama</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">Diagrama de flux</string>
+    <string name="media_mermaid_type_sequence">Diagrama de seqüència</string>
+    <string name="media_mermaid_type_class">Diagrama de classes</string>
+    <string name="media_mermaid_type_state">Diagrama d\'estats</string>
+    <string name="media_mermaid_type_entity_relationship">Diagrama d\'entitat-relació</string>
+    <string name="media_mermaid_type_user_journey">Recorregut de l\'usuari</string>
+    <string name="media_mermaid_type_gantt">Diagrama de Gantt</string>
+    <string name="media_mermaid_type_pie">Gràfic de sectors</string>
+    <string name="media_mermaid_type_quadrant">Gràfic de quadrants</string>
+    <string name="media_mermaid_type_requirement">Diagrama de requisits</string>
+    <string name="media_mermaid_type_git_graph">Graf de Git</string>
+    <string name="media_mermaid_type_c4">Diagrama C4</string>
+    <string name="media_mermaid_type_mind_map">Mapa mental</string>
+    <string name="media_mermaid_type_timeline">Cronologia</string>
+    <string name="media_mermaid_type_sankey">Diagrama de Sankey</string>
+    <string name="media_mermaid_type_xy_chart">Gràfic XY</string>
+    <string name="media_mermaid_type_block">Diagrama de blocs</string>
+    <string name="media_mermaid_type_packet">Diagrama de paquets</string>
+    <string name="media_mermaid_type_kanban">Tauler Kanban</string>
+    <string name="media_mermaid_type_architecture">Diagrama d\'arquitectura</string>
+    <string name="media_mermaid_type_radar">Gràfic de radar</string>
+    <string name="media_mermaid_type_treemap">Mapa d\'arbre</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

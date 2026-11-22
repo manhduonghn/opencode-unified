@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_new_session">ເຊດຊັນໃໝ່</string>
+    <string name="system_start_call">ເລີ່ມການໂທ</string>
+    <string name="system_open_session">ເປີດເຊດຊັນ</string>
+    <string name="widget_start_call_description">ເລີ່ມການໂທດ້ວຍສຽງໃນເຊດຊັນທີ່ເຈົ້າເລືອກ ຫຼື ເຊດຊັນທີ່ເບິ່ງຫຼ້າສຸດ.</string>
+    <string name="widget_open_session_description">ເປີດເຊດຊັນທີ່ເຈົ້າເລືອກ.</string>
+    <string name="widget_new_session_description">ເປີດເຊດຊັນ OpenCode ໃໝ່.</string>
+
+    <!-- Shared across screens -->
+    <string name="system_selected_description">ເລືອກແລ້ວ</string>
+    <string name="system_last_viewed_session">ເຊດຊັນທີ່ເບິ່ງຫຼ້າສຸດ</string>
+
+    <!-- Quick actions (launcher shortcuts) -->
+    <string name="system_quick_action_session_fallback">ເຊດຊັນ</string>
+    <!-- Long label: the session's title, then its project. -->
+    <string name="system_quick_action_long_label">%1$s · %2$s</string>
+
+    <!-- Shortcuts and Ask OpenCode -->
+    <string name="system_session_type_name">ເຊດຊັນ</string>
+    <string name="system_project_type_name">ໂຄງການ</string>
+    <string name="system_intent_open_session_description">ເປີດເຊດຊັນໃນ OpenCode.</string>
+    <string name="system_intent_new_session_description">ເລີ່ມເຊດຊັນໃໝ່ໃນ OpenCode.</string>
+    <string name="system_intent_start_voice_call_title">ເລີ່ມການໂທດ້ວຍສຽງ</string>
+    <string name="system_intent_start_voice_call_description">ເລີ່ມການໂທດ້ວຍສຽງກັບ OpenCode ໃນເຊດຊັນ. ຖ້າບໍ່ເລືອກເຊດຊັນ ຈະເລີ່ມໂທໃນເຊດຊັນທີ່ເຈົ້າເບິ່ງຫຼ້າສຸດ.</string>
+    <string name="system_intent_background_call_title">ເລີ່ມການໂທດ້ວຍສຽງໃນພື້ນຫຼັງ</string>
+    <string name="system_intent_background_call_description">ເລີ່ມການໂທດ້ວຍສຽງກັບ OpenCode ໂດຍບໍ່ເປີດແອັບ. ການໂທຈະສະແດງໃນແຖບສະຖານະ ແລະ ໜ້າຈໍລັອກ.</string>
+    <string name="system_delivery_type_name">ວິທີສົ່ງ</string>
+    <string name="system_delivery_steer">ຊີ້ນຳ</string>
+    <string name="system_delivery_queue">ຈັດເຂົ້າຄິວ</string>
+    <string name="system_ask_title">ຖາມ OpenCode</string>
+    <string name="system_ask_description">ສົ່ງຂໍ້ຄວາມໄປຫາເຊດຊັນ OpenCode ໂດຍບໍ່ເປີດແອັບ.</string>
+    <string name="system_ask_message_title">ຂໍ້ຄວາມ</string>
+    <string name="system_ask_message_placeholder">ຢາກໃຫ້ OpenCode ເຮັດຫຍັງ?</string>
+    <string name="system_ask_session_title">ເຊດຊັນ</string>
+    <string name="system_ask_started_new_session">ເລີ່ມເຊດຊັນໃໝ່ໃນ %1$s ແລ້ວ</string>
+    <string name="system_ask_queued_for">ຈັດເຂົ້າຄິວສຳລັບ “%1$s” ແລ້ວ</string>
+    <string name="system_ask_sent_to">ສົ່ງໄປຫາ “%1$s” ແລ້ວ</string>
+    <string name="system_ask_your_session">ເຊດຊັນຂອງເຈົ້າ</string>
+    <string name="system_ask_no_server">ເປີດ OpenCode ແລະ ເຊື່ອມຕໍ່ກັບເຊີບເວີກ່ອນ.</string>
+    <string name="system_ask_no_project">ເປີດ OpenCode ແລະ ເລີ່ມເຊດຊັນກ່ອນ.</string>
+    <string name="system_ask_empty_message">ບໍ່ມີຫຍັງໃຫ້ສົ່ງ.</string>
+    <!-- The server's error message follows. -->
+    <string name="system_ask_send_failed">ສົ່ງໄປຫາ OpenCode ບໍ່ໄດ້. %1$s</string>
+
+    <!-- Live Updates: voice call -->
+    <string name="system_call_muted">ປິດສຽງໄວ້</string>
+    <string name="system_call_unmute">ເປີດສຽງ</string>
+    <string name="system_call_mute">ປິດສຽງ</string>
+    <string name="system_call_end">ວາງສາຍ</string>
+    <string name="system_call_connecting">ກຳລັງເຊື່ອມຕໍ່…</string>
+    <string name="system_call_reconnecting">ກຳລັງເຊື່ອມຕໍ່ໃໝ່…</string>
+    <string name="system_call_ended">ການໂທສິ້ນສຸດແລ້ວ</string>
+    <string name="system_call_end_title">ວາງສາຍ</string>
+    <string name="system_call_toggle_mute_title">ປິດ ຫຼື ເປີດສຽງການໂທ</string>
+
+    <!-- Live Updates: hands-free recording -->
+    <string name="system_recording_active">ກຳລັງບັນທຶກສຽງ</string>
+    <string name="system_recording_stopped">ຢຸດບັນທຶກສຽງແລ້ວ</string>
+    <string name="system_recording_stop">ຢຸດບັນທຶກສຽງ</string>
+    <string name="system_recording_stop_title">ຢຸດບັນທຶກສຽງ</string>
+    <string name="system_recording_new_session">ເຊດຊັນໃໝ່</string>
+
+    <!-- Live Updates: session run -->
+    <string name="system_session_working">ເຮັດວຽກ</string>
+    <string name="system_session_last_seen_working">ສະຖານະຫຼ້າສຸດ: ເຮັດວຽກ</string>
+    <!-- Where the run is (Working), then its current step (a tool name, Thinking or Replying). -->
+    <string name="system_session_status_with_step">%1$s · %2$s</string>
+    <string name="system_session_step_thinking">ຄິດ</string>
+    <string name="system_session_step_replying">ກຳລັງຕອບ</string>
+    <string name="system_session_needs_input">ຕ້ອງການຄຳຕອບຈາກເຈົ້າ</string>
+    <string name="system_session_input">ວັດສະດຸປ້ອນ</string>
+    <string name="system_session_done">ສຳເລັດ</string>
+    <string name="system_session_failed">ລົ້ມເຫລວ</string>
+
+    <!-- Session notifications -->
+    <string name="system_notification_placeholder_body">ມີການເຄື່ອນໄຫວໃໝ່</string>
+
+    <!-- Notification channels -->
+    <string name="system_channel_voice_calls">ການໂທດ້ວຍສຽງ</string>
+    <string name="system_channel_recording">ກຳລັງບັນທຶກສຽງ</string>
+    <string name="system_channel_session_runs">ການເຮັດວຽກຂອງເຊດຊັນ</string>
+    <string name="system_channel_session_updates">ອັບເດດເຊດຊັນ</string>
+    <string name="system_channel_shared_items">ລາຍການທີ່ແບ່ງປັນ</string>
+
+    <!-- Share sheet: notifications -->
+    <string name="system_share_continue_notification_body">ແຕະເພື່ອສືບຕໍ່ໃນ OpenCode</string>
+
+    <!-- Share sheet -->
+    <string name="system_share_your_server">ເຊີບເວີຂອງເຈົ້າ</string>
+    <string name="system_share_new_session_in_project">ເຊດຊັນໃໝ່ · %1$s</string>
+    <string name="system_share_save_failed_message">ລອງໃໝ່. ຖ້າຍັງເປັນຢູ່, ໃຫ້ເພີ່ມພື້ນທີ່ວ່າງໃນອຸປະກອນນີ້.</string>
+    <!-- The session's title, then its project. -->
+    <string name="system_share_session_chip_description">%1$s, %2$s</string>
+    <string name="system_share_problem_unreachable">ເຊື່ອມຕໍ່ຫາ %1$s ບໍ່ໄດ້</string>
+    <string name="system_share_problem_too_large">ສົ່ງໄຟລ໌ໃຫຍ່ຂະໜາດນີ້ຈາກບ່ອນນີ້ບໍ່ໄດ້</string>
+    <string name="system_share_problem_uploads_unsupported">ອັບໂຫຼດໄຟລ໌ໄປຫາ %1$s ບໍ່ໄດ້</string>
+    <string name="system_share_problem_sign_in">ເຂົ້າລະບົບ %1$s ບໍ່ໄດ້</string>
+    <string name="system_share_problem_send">ສົ່ງໄປຫາ %1$s ບໍ່ໄດ້</string>
+    <string name="system_share_problem_no_credentials">ເປີດ OpenCode ໜຶ່ງຄັ້ງເພື່ອສົ່ງຈາກບ່ອນນີ້</string>
+    <plurals name="system_share_image_count">
+        <item quantity="other">%d ຮູບ</item>
+    </plurals>
+    <plurals name="system_share_file_count">
+        <item quantity="other">%d ໄຟລ໌</item>
+    </plurals>
+    <plurals name="system_share_images_skipped">
+        <item quantity="other">ເພີ່ມຮູບພາບ %d ຮູບບໍ່ໄດ້</item>
+    </plurals>
+    <plurals name="system_share_files_skipped">
+        <item quantity="other">ເພີ່ມໄຟລ໌ %d ໄຟລ໌ບໍ່ໄດ້</item>
+    </plurals>
+    <string name="system_share_save_failed_title">ບັນທຶກໄວ້ສຳລັບ OpenCode ບໍ່ໄດ້</string>
+    <string name="system_share_continue_description">ສືບຕໍ່ໃນ OpenCode</string>
+    <string name="system_share_no_server_title">ເຊື່ອມຕໍ່ກັບເຊີບເວີກ່ອນ</string>
+    <string name="system_share_no_server_message">ເປີດ OpenCode ແລະເຊື່ອມຕໍ່ກັບຄອມພິວເຕີຂອງເຈົ້າ, ແລ້ວແບ່ງປັນອີກຄັ້ງ.</string>
+    <string name="system_share_send_later">ສົ່ງພາຍຫຼັງ</string>
+    <string name="system_share_saved_continue">ບັນທຶກແລ້ວ. ເປີດ OpenCode ເພື່ອສືບຕໍ່</string>
+    <string name="system_share_loading_description">ກຳລັງໂຫຼດລາຍການທີ່ແບ່ງປັນ</string>
+    <string name="system_share_image_description">ຮູບພາບ</string>
+    <string name="system_share_image_position_description">ຮູບທີ %1$d ຈາກ %2$d</string>
+    <string name="system_share_search_sessions_description">ເຊດຊັນຄົ້ນຫາ</string>
+    <string name="system_share_new_session_in_project_description">ເຊດຊັນໃໝ່ໃນ %1$s</string>
+    <string name="system_share_choose_project_description">ເລືອກໂຄງການຂອງມັນ</string>
+    <string name="system_share_message_placeholder">ຂໍ້ຄວາມ</string>
+    <string name="system_share_sent_to">ສົ່ງໄປຫາ %1$s ແລ້ວ</string>
+    <string name="system_share_sending_description">ກຳລັງສົ່ງ</string>
+    <string name="system_share_sent_description">ສົ່ງແລ້ວ</string>
+    <string name="system_share_sessions_title">ເຊດຊັນ</string>
+    <string name="system_share_pinned_header">ປັກໝຸດໄວ້</string>
+    <string name="system_share_recents_header">ຫຼ້າສຸດ</string>
+
+    <!-- Widget configuration -->
+    <string name="system_widget_choose_session_title">ເລືອກເຊດຊັນ</string>
+</resources>

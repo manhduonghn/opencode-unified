@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Shell</string>
+    <string name="server_notice_source_subagent">Дэд агент</string>
+    <string name="server_notice_heading_finished">%1$s дууслаа</string>
+    <string name="server_notice_heading_failed">%1$s амжилтгүй боллоо</string>
+    <string name="server_notice_heading_interrupted">%1$s тасалдлаа</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$d Shell дууслаа</item>
+        <item quantity="other">%1$d Shell дууслаа</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$d Shell амжилтгүй боллоо</item>
+        <item quantity="other">%1$d Shell амжилтгүй боллоо</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">%1$d Shell тасалдлаа</item>
+        <item quantity="other">%1$d Shell тасалдлаа</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">%1$d дэд агент дууслаа</item>
+        <item quantity="other">%1$d дэд агент дууслаа</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">%1$d дэд агент амжилтгүй боллоо</item>
+        <item quantity="other">%1$d дэд агент амжилтгүй боллоо</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">%1$d дэд агент тасалдлаа</item>
+        <item quantity="other">%1$d дэд агент тасалдлаа</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Хураангуй</string>
+    <string name="server_run_error_action_switch_model">Загвар солих</string>
+    <string name="server_run_error_aborted">Тасалдсан</string>
+    <string name="server_run_error_permission_rejected">Хүсэлтийг зөвшөөрөөгүй тул тасалдлаа</string>
+    <string name="server_run_error_content_filter">Аюулгүй байдлын шүүлтүүр хариуг хориглолоо</string>
+    <string name="server_run_error_rate_limit">Хүсэлтийн давтамжийн хязгаарт хүрлээ</string>
+    <string name="server_run_error_quota">Хэрэглээний хязгаарт хүрлээ</string>
+    <string name="server_run_error_auth">Үйлчилгээ үзүүлэгч түлхүүрийг зөвшөөрсөнгүй</string>
+    <string name="server_run_error_context_overflow">Сесс энэ загварт хэт урт байна</string>
+    <string name="server_run_error_invalid_request">Үйлчилгээ үзүүлэгч хүсэлтийг зөвшөөрсөнгүй</string>
+    <string name="server_run_error_overloaded">Загвар хэт ачаалалтай байна</string>
+    <string name="server_run_error_internal">Үйлчилгээ үзүүлэгчид алдаа гарлаа</string>
+    <string name="server_run_error_transport">Загвартай холболт тасарлаа</string>
+    <string name="server_run_error_timeout">Загварын хариу өгөх хугацаа хэтэрлээ</string>
+    <string name="server_run_error_invalid_output">Загварын хариуг уншиж чадсангүй</string>
+    <string name="server_run_error_unavailable">Энэ загвар ашиглах боломжгүй байна</string>
+    <string name="server_run_error_unsupported_operation">Энэ загвар үүнийг хийж чадахгүй</string>
+    <string name="server_run_error_tool_execution">Хэрэгсэлд алдаа гарч, ажиллагаа зогслоо</string>
+    <string name="server_run_error_other">Алдаа гарч, ажиллагаа зогслоо</string>
+    <string name="server_run_retry_in_seconds">%1$s · %2$d сек дараа дахин оролдоно</string>
+    <string name="server_run_retry_now">%1$s · дахин оролдож байна</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">OpenCode сервертэй холбогдож чадсангүй</string>
+    <string name="server_error_folder_gone">Хавтас байхгүй болсон</string>
+    <string name="server_error_uploads_unsupported">Энэ сервер файл хавсаргахыг дэмждэггүй. Компьютер дээрх OpenCode-оо шинэчилнэ үү.</string>
+    <string name="server_error_archiving_unsupported">Энэ сервер архивлахыг дэмждэггүй. Компьютер дээрх OpenCode-ийг шинэчилнэ үү.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode-д дотоод сүлжээний төхөөрөмжүүдтэй холбогдох зөвшөөрөл алга. Тохиргооноос OpenCode-ийн «Ойролцоох төхөөрөмжүүд» зөвшөөрлийг идэвхжүүлээд дахин оролдоно уу.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Гарчиггүй сесс</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Shell</string>
+    <string name="server_tool_shell_killed">Shell-ийг албадан зогсоолоо</string>
+    <string name="server_tool_shell_exit_code">Тушаал %1$d кодтой дууслаа</string>
+    <string name="server_notice_session_update">Сессийн шинэчлэлт</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Холбогдож чадсангүй</string>
+    <string name="server_connection_resolved_address_unknown">Тодорхойлсон хаяг: үл мэдэгдэх</string>
+    <string name="server_connection_resolved_address">Тодорхойлсон хаяг (алдааны дараа хайсан): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">Энэ tailnet нэр Tailscale-ийн хүрээнээс гадуурх хаягаар тодорхойлогдлоо. Tailscale DNS ашиглагдахгүй байж магадгүй. Tailscale апп дотор «Tailscale DNS тохиргоог ашиглах»-ыг асааж, хувийн DNS эсвэл DNS өөрчилдөг VPN профайлыг унтраана уу.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Дотоод сүлжээ</string>
+    <string name="server_connection_route_loopback">Буцах холболт</string>
+    <string name="server_connection_route_internet">Интернэт</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">вэб хаяг биш</string>
+    <string name="server_pairing_origin_bad_scheme">http:// эсвэл https:// гэж эхлээгүй</string>
+    <string name="server_pairing_origin_no_host">хостын нэргүй</string>
+    <string name="server_pairing_origin_credentials">хэрэглэгчийн нэр эсвэл нууц үг агуулсан</string>
+    <string name="server_pairing_origin_query">асуулгын параметр эсвэл фрагмент агуулсан</string>
+    <string name="server_pairing_origin_port">порт нь 1–65535 хүрээнээс гадуур байна</string>
+    <string name="server_pairing_origin_path">зам агуулсан байна. Сервер хаягийнхаа үндсэн түвшинд байх ёстой</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Сервер</string>
+    <string name="server_friendly_name_numbered">Сервер %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">Зурвас илгээсний дараа холболт тасарсан тул зурвас очсон байж магадгүй.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Энэ холболтод нэвтрэх арга байхгүй.</string>
+    <string name="server_error_sign_in_url_invalid">Нэвтрэх хуудасны хаяг буруу байна.</string>
+    <string name="server_error_load_server_details">Серверийн дэлгэрэнгүйг ачаалж чадсангүй</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">Энэ холбох кодын хугацаа дууссан эсвэл ашиглагдсан байна. `opencode pair --remote` командыг дахин ажиллуулна уу.</string>
+    <string name="server_error_pairing_unsupported">Энэ сервер холбох холбоос дэмждэггүй. Компьютер дээрх OpenCode-оо шинэчлэх эсвэл серверийг гараар оруулна уу.</string>
+    <string name="server_error_notification_previews_need_https">Шифрлэсэн мэдэгдлийг урьдчилан харахад HTTPS серверийн холболт хэрэгтэй.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Серверийн зөв HTTP эсвэл HTTPS URL оруулна уу.</string>
+    <string name="server_error_credentials_rejected">Сервер энэ нэвтрэх мэдээллийг хүлээн авсангүй.</string>
+    <string name="server_error_http_status">Сервер HTTP %1$d буцаалаа.</string>
+    <string name="server_error_event_stream_http">Үйл явдлын урсгал HTTP %1$d буцаалаа.</string>
+    <string name="server_error_event_stream_oversized_frame">Үйл явдлын урсгал хэт том өгөгдлийн багц илгээлээ.</string>
+    <string name="server_error_event_stream_ended">Үйл явдлын урсгал дууслаа.</string>
+    <string name="server_error_event_stream_server_failure">Үйл явдлын урсгал серверийн алдаа мэдээллээ.</string>
+    <string name="server_tool_failed">Хэрэгсэл амжилтгүй боллоо</string>
+    <string name="server_error_list_folder">Сервер энэ хавтасны агуулгыг жагсааж чадсангүй</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Төсөл болон сессүүдийг ачаалж чадсангүй</string>
+    <string name="server_error_load_session_family">Холбоотой сессүүдийг ачаалж чадсангүй</string>
+    <string name="server_error_update_session">Сессийг шинэчилж чадсангүй</string>
+    <string name="server_error_load_session_ancestry">Идэвхтэй сессийн эх сессүүдийг ачаалж чадсангүй</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Өөр газарт хариулсан байна</string>
+    <string name="server_request_already_dismissed">Аль хэдийн хаасан</string>
+    <string name="server_request_already_answered">Аль хэдийн хариулсан</string>
+    <string name="server_request_already_dismissed_elsewhere">Өөр газарт хаасан байна</string>
+    <string name="server_request_no_longer_waiting">Хүлээхээ больсон</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Медиа ашиглах боломжгүй</string>
+    <string name="server_pasted_text_title">Буулгасан текст</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d мөр · %2$s</item>
+        <item quantity="other">%1$d мөр · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d мөр</item>
+        <item quantity="other">%1$d мөр</item>
+    </plurals>
+    <string name="server_file_size_zero">Тэг KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d байт</item>
+        <item quantity="other">%1$d байт</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">Төсөл</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Файл</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Энэ алхмыг гүйцээнэ үү</string>
+    <string name="server_form_required">Заавал бөглөнө</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">Дор хаяж %1$d тэмдэгт оруулна уу</item>
+        <item quantity="other">Дор хаяж %1$d тэмдэгт оруулна уу</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">%1$d-ээс ихгүй тэмдэгт оруулна уу</item>
+        <item quantity="other">%1$d-ээс ихгүй тэмдэгт оруулна уу</item>
+    </plurals>
+    <string name="server_form_invalid_format">Буруу формат</string>
+    <string name="server_form_choose_option">Боломжтой сонголтоос сонгоно уу</string>
+    <string name="server_form_invalid_email">Зөв имэйл хаяг оруулна уу</string>
+    <string name="server_form_invalid_url">Зөв URL оруулна уу</string>
+    <string name="server_form_invalid_date">Огноог YYYY-MM-DD хэлбэрээр оруулна уу</string>
+    <string name="server_form_invalid_date_time">Зөв огноо, цаг оруулна уу</string>
+    <string name="server_form_minimum">%1$s-ээс багагүй байх ёстой</string>
+    <string name="server_form_maximum">%1$s-ээс ихгүй байх ёстой</string>
+    <string name="server_form_whole_number">Бүхэл тоо оруулна уу</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">Дор хаяж %1$d-ийг сонгоно уу</item>
+        <item quantity="other">Дор хаяж %1$d-ийг сонгоно уу</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">%1$d-ээс ихгүйг сонгоно уу</item>
+        <item quantity="other">%1$d-ээс ихгүйг сонгоно уу</item>
+    </plurals>
+    <string name="server_form_invalid_value">Буруу утга</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Сонгосныг нуух</string>
+    <string name="server_model_visibility_only_show">Зөвхөн сонгосныг үзүүлэх</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Унтраалттай</string>
+    <string name="server_model_variant_extra_high">Маш өндөр</string>
+    <string name="server_model_variant_max">Дээд</string>
+    <string name="server_delivery_steering">Чиглүүлж байна</string>
+    <string name="server_delivery_queued">Дараалалд орсон</string>
+</resources>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Appearance -->
+    <string name="settings_appearance_title">外観</string>
+    <string name="settings_appearance_mode_header">モード</string>
+    <string name="settings_appearance_theme">テーマ</string>
+
+    <!-- Appearance › Themes -->
+    <string name="settings_themes_title">テーマ</string>
+    <string name="settings_themes_preview_description">会話履歴のプレビュー</string>
+    <string name="settings_themes_preview_user_message">セッション画面を改善したいです。気づいた点を教えて、変更内容を説明してください。</string>
+    <string name="settings_themes_preview_reply">%1$sにレイアウトの問題が見つかりました。会話履歴と入力欄が表示領域の高さを分け合うので、キーボードを表示すると動作を確認しやすくなります。</string>
+
+    <!-- Language -->
+    <string name="settings_language_title">言語</string>
+    <string name="settings_language_system_default">システムのデフォルト</string>
+    <string name="settings_language_search_placeholder">言語を検索</string>
+    <string name="settings_language_suggested_header">おすすめ</string>
+    <string name="settings_language_all_header">すべての言語</string>
+    <string name="settings_language_no_matches">一致する言語がありません</string>
+
+    <!-- Experimental -->
+    <string name="settings_experimental_title">実験的</string>
+    <string name="settings_experimental_all_footer">今後追加される機能もオンにします。ただし、画面を見る機能やバックグラウンドで音声を聞く機能は除きます。</string>
+    <string name="settings_experimental_all">すべての実験的機能</string>
+    <string name="settings_experimental_all_on">すべてオン</string>
+    <plurals name="settings_experimental_on_count">
+        <item quantity="other">%d件オン</item>
+    </plurals>
+
+    <!-- Models -->
+    <string name="settings_models_title">モデル</string>
+    <string name="settings_models_mode_hide">非表示</string>
+    <string name="settings_models_mode_only_show">選択したモデルのみ表示</string>
+    <string name="settings_models_mode_hide_footer">使わないモデルをオフにします。</string>
+    <string name="settings_models_mode_only_show_footer">使うモデルだけをオンにします。</string>
+    <string name="settings_models_providers_header">プロバイダー</string>
+    <string name="settings_models_stale_header">提供終了</string>
+    <string name="settings_models_forget_unavailable">利用できないモデルを一覧から削除</string>
+    <string name="settings_models_show_every_model">すべてのモデルを表示</string>
+    <string name="settings_models_load_failed_title">モデルを読み込めませんでした</string>
+    <string name="settings_models_summary_hidden">非表示</string>
+    <string name="settings_models_summary_all">すべて</string>
+    <string name="settings_models_summary_count">%2$d件中%1$d件</string>
+
+    <!-- Models › Provider -->
+    <string name="settings_models_search_placeholder">モデルを検索</string>
+    <string name="settings_models_show_provider">%1$sを表示</string>
+
+    <!-- Notifications -->
+    <string name="settings_notifications_title">通知</string>
+    <string name="settings_notifications_device_header">この%1$s</string>
+    <string name="settings_notifications_device_footer">通知はデータを保存しない中継サーバーを経由します。この%1$sで開始したセッションの通知だけが届きます。</string>
+    <string name="settings_notifications_allow">通知を許可</string>
+    <string name="settings_notifications_open_android_settings">Androidの設定を開く</string>
+    <string name="settings_notifications_turn_on">通知をオンにする</string>
+    <string name="settings_notifications_server_header">サーバー</string>
+    <string name="settings_notifications_set_up_footer">OpenCodeにプラグインのインストールを依頼するセッションを開きます。メッセージを送信してから、もう一度確認してください。</string>
+    <string name="settings_notifications_plugin_needed_footer">サーバーにOpenCodeのnotifyプラグインが必要です。</string>
+    <string name="settings_notifications_notify_plugin">notifyプラグイン</string>
+    <string name="settings_notifications_plugin_installed">インストール済み</string>
+    <string name="settings_notifications_plugin_not_running">停止中</string>
+    <string name="settings_notifications_plugin_not_installed">未インストール</string>
+    <string name="settings_notifications_plugin_check_failed">状態を確認できませんでした</string>
+    <string name="settings_notifications_set_up">OpenCodeで設定</string>
+    <string name="settings_notifications_check_again">もう一度確認</string>
+    <string name="settings_notifications_in_app_footer">ドロワーボタンに表示します。</string>
+    <string name="settings_notifications_in_app_notices">アプリ内のお知らせ</string>
+
+    <!-- Sessions -->
+    <string name="settings_sessions_title">セッション</string>
+    <string name="settings_sessions_composer_header">入力欄</string>
+    <string name="settings_sessions_return_key_sends">改行キーで送信</string>
+    <string name="settings_sessions_new_sessions_header">新しいセッション</string>
+    <string name="settings_sessions_server_default">サーバーのデフォルト</string>
+    <string name="settings_sessions_default_agent">デフォルトのエージェント</string>
+
+    <!-- Shared values -->
+    <string name="settings_value_on">オン</string>
+    <string name="settings_value_off">オフ</string>
+
+    <!-- Sound Effects -->
+    <string name="settings_sound_effects_volume">音量</string>
+    <string name="settings_sound_effects_volume_description">効果音の音量</string>
+    <string name="settings_sound_effects_send_sound">送信音</string>
+
+    <!-- Voice › Delegator -->
+    <string name="settings_delegator_title">デリゲーター</string>
+    <string name="settings_delegator_other_server_note">「%1$s」は別のサーバーにあります。このサーバーから選ぶか、サーバーを切り替えてください。</string>
+    <string name="settings_delegator_mode_footer">内蔵機能はセッションを使わずOpenAIで動作します。OpenCodeセッションはサーバー上のセッションで動作します。</string>
+    <string name="settings_delegator_built_in">内蔵</string>
+    <string name="settings_delegator_opencode_session">OpenCodeセッション</string>
+    <string name="settings_delegator_target_header">対象セッション</string>
+    <string name="settings_delegator_target_footer">「自動」ではこのサーバーの「Voice」セッションを使います。「表示中のセッション」では画面上のセッションを使います。</string>
+    <string name="settings_delegator_automatic">自動</string>
+    <string name="settings_delegator_viewed_session">表示中のセッション</string>
+    <string name="settings_delegator_search_placeholder">セッションを検索</string>
+    <string name="settings_delegator_sessions_header">セッションを選択</string>
+    <string name="settings_delegator_sessions_footer">選んだセッションのモデルはそのまま使われます。</string>
+    <string name="settings_delegator_no_sessions">このサーバーにセッションがありません</string>
+    <string name="settings_delegator_no_matching_sessions">一致するセッションがありません</string>
+    <string name="settings_delegator_new_session">新しいセッション</string>
+    <string name="settings_delegator_direct">直接</string>
+    <string name="settings_delegator_direct_session_unavailable">直接 · セッションを利用できません</string>
+    <string name="settings_delegator_another_server">%1$s · 別のサーバー</string>
+
+    <!-- Voice › Key Editor -->
+    <string name="settings_voice_key_hide_description">キーを非表示</string>
+    <string name="settings_voice_key_show_description">キーを表示</string>
+    <string name="settings_voice_key_verify">確認</string>
+
+    <!-- Voice › Voice Provider -->
+    <string name="settings_voice_provider_title">音声プロバイダー</string>
+    <string name="settings_voice_provider_place">%1$s上</string>
+    <string name="settings_voice_api_key_title">APIキー</string>
+    <string name="settings_voice_provider_automatic_footer">%1$sが使えない場合は、利用可能なプロバイダーで通話します。</string>
+    <string name="settings_voice_provider_choose_automatically">自動で選択</string>
+    <string name="settings_voice_provider_others_header">その他のプロバイダー</string>
+    <string name="settings_voice_provider_use_description">%1$sを使用</string>
+    <string name="settings_voice_provider_use">使用</string>
+    <string name="settings_voice_provider_set_up">設定</string>
+    <plurals name="settings_voice_provider_not_available_count">
+        <item quantity="other">%d件利用不可</item>
+    </plurals>
+
+    <!-- Voice › API Key -->
+    <string name="settings_voice_account_title">自分のOpenAIアカウント</string>
+    <string name="settings_voice_account_place">このスマホ上</string>
+    <string name="settings_voice_account_key_footer">サーバーの代わりに自分のOpenAIアカウントで通話します。</string>
+    <string name="settings_voice_account_use_for_calls">通話に使用</string>
+
+    <!-- Voice -->
+    <string name="settings_voice_title">音声</string>
+    <string name="settings_voice_call_setup_header">通話設定</string>
+    <string name="settings_voice_calls_header">通話</string>
+    <string name="settings_voice_raise_to_talk_hint">セッション画面でスマホを耳に近づけたとき、受話口での通話を開始するかを切り替えます</string>
+    <string name="settings_voice_enable">音声を有効にする</string>
+    <string name="settings_voice_model">モデル</string>
+    <string name="settings_voice_model_description">音声モデル</string>
+    <string name="settings_voice_call_voice">声</string>
+    <string name="settings_voice_raise_to_talk">耳に近づけて通話</string>
+    <string name="settings_voice_call_sounds">通話音</string>
+    <string name="settings_voice_call_history">通話履歴</string>
+    <string name="settings_voice_edit_key_label">%1$sのAPIキーを編集</string>
+    <string name="settings_voice_key_verified">確認済み</string>
+    <string name="settings_voice_key_checking">確認中…</string>
+    <string name="settings_voice_key_saved">保存済み</string>
+    <string name="settings_voice_key_missing">未設定</string>
+    <string name="settings_voice_preview_disabled_hint">%1$sのキーを追加すると声を試聴できます</string>
+
+    <!-- Voice › Voice Picker -->
+    <string name="settings_voice_picker_add_key_footer">%1$sのキーを追加すると声を試聴できます。</string>
+    <string name="settings_voice_picker_unavailable_footer">%2$sでは%1$sを利用できないため、通話には%3$sを使います。</string>
+    <string name="settings_voice_stop_preview_description">%1$sの試聴を停止</string>
+    <string name="settings_voice_preview_description">%1$sを試聴</string>
+    <string name="settings_voice_preview_playing">再生中</string>
+    <string name="settings_voice_call_voice_unavailable">%1$s · %2$sは利用できません</string>
+
+    <!-- Settings root -->
+    <string name="settings_whats_new_title">新着情報</string>
+    <string name="settings_developer_title">開発者向け</string>
+    <string name="settings_app_version">バージョン %1$s (%2$s)</string>
+    <string name="settings_app_version_commit">バージョン %1$s (%2$s) · %3$s</string>
+
+    <!-- Connection card -->
+    <string name="settings_connection_show_server_label">サーバーを表示</string>
+    <string name="settings_connection_milliseconds">%1$d ms</string>
+    <string name="settings_connection_card_value_description">%1$s、%2$s、%3$s</string>
+    <string name="settings_connection_status_connected">接続済み</string>
+    <string name="settings_connection_status_slow">低速</string>
+    <string name="settings_connection_status_unstable">不安定</string>
+    <string name="settings_connection_status_reconnecting">再接続中</string>
+    <string name="settings_connection_status_offline">オフライン</string>
+    <string name="settings_connection_status_sign_in_failed">サインインに失敗しました</string>
+    <string name="settings_connection_status_switching">切り替え中</string>
+    <string name="settings_connection_status_switching_to">%1$sに切り替え中</string>
+    <string name="settings_connection_status_code">%1$s · %2$d</string>
+    <string name="settings_connection_status_http_description">%1$s、HTTP %2$d</string>
+    <plurals name="settings_connection_status_milliseconds_description">
+        <item quantity="other">%1$s、%2$dミリ秒</item>
+    </plurals>
+
+    <!-- Server page -->
+    <string name="settings_server_title">サーバー</string>
+    <string name="settings_server_address">アドレス</string>
+    <string name="settings_server_connection">接続</string>
+    <string name="settings_server_version">バージョン</string>
+    <string name="settings_server_edit_server">サーバーを編集…</string>
+    <string name="settings_server_rename_server_ellipsis">サーバー名を変更…</string>
+    <string name="settings_server_rename_title">サーバー名を変更</string>
+    <string name="settings_server_rename_message">この名前はこの%1$sでのみ使われます。空欄にすると「%2$s」になります。</string>
+    <string name="settings_server_status">状態</string>
+    <string name="settings_server_status_milliseconds">%1$s · %2$d ms</string>
+
+    <!-- Servers section -->
+    <string name="settings_servers_header">サーバー</string>
+    <string name="settings_servers_edit_server">%1$sを編集…</string>
+    <string name="settings_servers_rename_message">この名前はこの%1$sでのみ使われます。空欄にするとコンピューター側の名前を使います。</string>
+    <string name="settings_servers_remove_title">%1$sを削除しますか？</string>
+    <string name="settings_servers_remove_message">この%1$sに保存されたアドレスとパスワードを削除します。サーバー上のセッションには影響しません。</string>
+    <string name="settings_servers_remove_server">サーバーを削除</string>
+    <string name="settings_servers_current_server_state">現在のサーバー、%1$s</string>
+    <string name="settings_servers_switch_label">このサーバーに切り替え</string>
+    <string name="settings_servers_options_description">%1$sのオプション</string>
+    <string name="settings_servers_rename_menu">名前を変更…</string>
+    <string name="settings_servers_edit_menu">編集…</string>
+    <string name="settings_servers_remove_menu">削除…</string>
+    <string name="settings_servers_add_server">サーバーを追加</string>
+    <string name="settings_servers_scan_pairing_code">ペアリングコードをスキャン</string>
+    <string name="settings_servers_enter_address">アドレスを入力</string>
+
+    <!-- Pairing scanner -->
+    <string name="settings_pairing_paste">貼り付け</string>
+    <string name="settings_pairing_no_camera_title">利用可能なカメラがありません</string>
+    <string name="settings_pairing_no_camera_message">コンピューターで`opencode pair`が表示するリンクをコピーして、ここに貼り付けてください。</string>
+    <string name="settings_pairing_camera_off_title">カメラへのアクセスがオフです</string>
+    <string name="settings_pairing_camera_off_message">設定でカメラへのアクセスを許可してQRコードをスキャンするか、`opencode pair`が表示するリンクを貼り付けてください。</string>
+    <string name="settings_pairing_nothing_to_paste_title">貼り付けるものがありません</string>
+    <string name="settings_pairing_nothing_to_paste_message">クリップボードにペアリングリンクがありません。opencode pairが表示するリンクをコピーして、もう一度試してください。</string>
+    <string name="settings_pairing_point_camera">カメラをQRコードに向けてください</string>
+    <string name="settings_pairing_paste_link">ペアリングリンクを貼り付け</string>
+    <string name="settings_pairing_computer_hint">コンピューターでOpenCodeの設定 → ペアリングを開くか、ターミナルで%1$sを実行してください。</string>
+</resources>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Call ended and failure cards -->
+    <string name="voice_call_ended_title">Hovor sa skončil</string>
+    <string name="voice_call_ended_rejoin">Znova sa pripojiť</string>
+    <string name="voice_failure_title">Nepodarilo sa pripojiť hlas</string>
+    <string name="voice_failure_check_api_key">Skontrolovať API kľúč</string>
+    <string name="voice_failure_start_title">Nepodarilo sa začať hovor</string>
+
+    <!-- Floating call -->
+    <string name="voice_floating_expand">Rozbaliť</string>
+    <string name="voice_floating_orb_description">Hlasový hovor</string>
+    <string name="voice_floating_orb_show_controls">Zobraziť ovládanie hovoru</string>
+    <string name="voice_floating_end_description">Ukončiť hlasový hovor</string>
+    <string name="voice_floating_control_placeholder_state">V tomto prototype nie je dostupné</string>
+    <string name="voice_floating_duration_description">Trvanie hovoru</string>
+
+    <!-- Floating call stage -->
+    <string name="voice_stage_talking_in">Hovor v</string>
+    <string name="voice_stage_minimize_description">Minimalizovať</string>
+    <string name="voice_mute">Stlmiť</string>
+    <string name="voice_unmute">Zrušiť stlmenie</string>
+    <string name="voice_stage_pause">Pozastaviť</string>
+    <string name="voice_stage_camera">Fotoaparát</string>
+    <string name="voice_transcript_empty">Povedzte niečo svojej relácii.</string>
+    <string name="voice_transcript_you">Vy</string>
+    <string name="voice_transcript_user_line_description">Vy: %1$s</string>
+
+    <!-- Call rows: screen request -->
+    <string name="voice_screen_request_detail">Hlasový asistent chce vidieť vašu obrazovku</string>
+    <string name="voice_screen_request_spoken">Čaká na vašu odpoveď. Hlasový asistent chce vidieť vašu obrazovku</string>
+    <string name="voice_screen_request_spoken_with_reason">Čaká na vašu odpoveď. Hlasový asistent chce vidieť vašu obrazovku. %1$s</string>
+    <string name="voice_screen_request_title">Zdieľať obrazovku?</string>
+
+    <!-- Call rows: open link -->
+    <string name="voice_open_link_spoken">Čaká na vašu odpoveď. %1$s</string>
+    <string name="voice_open_link_spoken_with_host">Čaká na vašu odpoveď. %1$s %2$s</string>
+    <string name="voice_open_link_open">Otvoriť</string>
+
+    <!-- Call rows: audio on the call -->
+    <string name="voice_audio_paused">Pozastavené</string>
+    <string name="voice_audio_playing">Prehráva sa v hovore</string>
+    <string name="voice_audio_play">Prehrať zvuk</string>
+    <string name="voice_audio_pause">Pozastaviť zvuk</string>
+    <string name="voice_audio_stop">Zastaviť zvuk</string>
+
+    <!-- Call history -->
+    <string name="voice_call_history_title">História hovorov</string>
+    <string name="voice_call_history_options_description">Možnosti histórie</string>
+    <string name="voice_call_history_delete_all">Odstrániť všetky</string>
+    <string name="voice_call_history_empty_title">Zatiaľ žiadne hlasové hovory</string>
+    <string name="voice_call_history_empty_message">Hovory sa ukladajú do tohto telefónu, aby ste si ich mohli znova prehrať.</string>
+    <string name="voice_call_history_delete_all_confirm_title">Odstrániť všetky hlasové hovory?</string>
+
+    <!-- Call replay -->
+    <string name="voice_replay_timeline_description">Časová os hovoru</string>
+    <string name="voice_replay_timeline_state">%1$s z %2$s</string>
+    <string name="voice_replay_pause">Pozastaviť</string>
+    <string name="voice_replay_play">Prehrať</string>
+    <string name="voice_replay_position_description">Pozícia</string>
+    <string name="voice_replay_speed_description">Rýchlosť prehrávania</string>
+    <string name="voice_replay_empty">Stlačením tlačidla Prehrať si znova prehráte hovor.</string>
+
+    <!-- Call notification -->
+    <string name="voice_notification_channel_name">Hovory</string>
+    <string name="voice_notification_channel_description">Prebiehajúce hovory OpenCode</string>
+    <string name="voice_notification_connecting">Pripájanie…</string>
+    <string name="voice_notification_reconnecting">Opätovné pripájanie…</string>
+    <string name="voice_notification_call_ended">Hovor sa skončil</string>
+    <string name="voice_notification_end">Ukončiť</string>
+    <!-- Call status caption -->
+    <string name="voice_status_connecting_via">Pripájanie cez %1$s…</string>
+    <string name="voice_status_weak_connection">Slabé pripojenie</string>
+    <string name="voice_status_paused">Pozastavené</string>
+    <string name="voice_status_needs_input">Čaká na vašu odpoveď</string>
+    <string name="voice_status_working">Pracuje</string>
+    <string name="voice_status_speaking">Hovorí</string>
+    <string name="voice_status_muted">Stlmené</string>
+    <string name="voice_status_listening">Počúva</string>
+    <string name="voice_status_ending">Ukončovanie…</string>
+    <string name="voice_status_ended">Ukončené</string>
+    <string name="voice_session_new_title">Nová relácia</string>
+    <string name="voice_call_note_builtin_fallback">Tento hovor používa vstavaného delegátora</string>
+
+    <!-- Floating call tag and spoken length -->
+    <string name="voice_floating_now_talking_in">Práve prebieha hovor v %1$s</string>
+    <string name="voice_floating_spoken_duration">%1$s, %2$s</string>
+    <plurals name="voice_floating_spoken_minutes">
+        <item quantity="one">%1$d minúta</item>
+        <item quantity="few">%1$d minúty</item>
+        <item quantity="many">%1$d minúty</item>
+        <item quantity="other">%1$d minút</item>
+    </plurals>
+    <plurals name="voice_floating_spoken_seconds">
+        <item quantity="one">%1$d sekunda</item>
+        <item quantity="few">%1$d sekundy</item>
+        <item quantity="many">%1$d sekundy</item>
+        <item quantity="other">%1$d sekúnd</item>
+    </plurals>
+
+    <!-- Voice providers -->
+    <string name="voice_provider_state_ready">Pripravené</string>
+    <string name="voice_provider_state_no_key">Chýba kľúč</string>
+    <string name="voice_provider_state_needs_update">Aktualizovať OpenCode</string>
+    <string name="voice_provider_state_offline">Offline</string>
+    <string name="voice_provider_place_phone">Tento telefón</string>
+    <string name="voice_provider_brand_openai_account">Váš účet OpenAI</string>
+    <string name="voice_provider_name">%1$s na %2$s</string>
+    <string name="voice_provider_subtitle">Na %1$s</string>
+    <string name="voice_provider_key_row_title">Kľúč %1$s</string>
+    <string name="voice_provider_key_placeholder">API kľúč %1$s</string>
+
+    <!-- Voice key source -->
+    <string name="voice_key_source_server_row_title">Kľúč na vašom serveri</string>
+    <string name="voice_key_source_phone_footer">Hovory používajú váš vlastný kľúč OpenAI alebo xAI.</string>
+    <string name="voice_key_source_server_footer">Hovory používajú kľúč %1$s z vášho servera.</string>
+    <string name="voice_key_source_opencode_footer">Hovory sa účtujú vášmu pracovnému priestoru v OpenCode Console.</string>
+
+    <!-- Call failure fixes and diagnosis -->
+    <string name="voice_fix_set_up_on_phone">Nastaviť na tomto telefóne</string>
+    <string name="voice_fix_choose_provider">Vybrať poskytovateľa</string>
+    <string name="voice_fix_update_opencode">Aktualizovať OpenCode</string>
+    <string name="voice_diagnosis_needs_update">%1$s potrebuje na hlasové hovory novšiu verziu OpenCode.</string>
+    <string name="voice_diagnosis_your_server_needs_update">Váš server potrebuje na hlasové hovory novšiu verziu OpenCode.</string>
+    <string name="voice_diagnosis_no_key">%1$s nemá kľúč na hlasové hovory.</string>
+    <string name="voice_diagnosis_your_server_no_key">Váš server nemá kľúč na hlasové hovory.</string>
+    <string name="voice_diagnosis_unreachable">Nepodarilo sa pripojiť k %1$s.</string>
+    <string name="voice_diagnosis_your_server_unreachable">Nepodarilo sa pripojiť k vášmu serveru.</string>
+    <string name="voice_diagnosis_failed">%1$s nedokázal začať hovor.</string>
+    <string name="voice_diagnosis_your_server_failed">Váš server nedokázal začať hovor.</string>
+    <string name="voice_diagnosis_key_rejected">OpenAI neprijalo kľúč v tomto telefóne.</string>
+    <string name="voice_diagnosis_missing_phone_key">Ak chcete volať z tohto telefónu, pridajte svoj API kľúč %1$s.</string>
+
+    <!-- Call errors -->
+    <string name="voice_error_microphone_denied">Ak chcete hovoriť so svojou reláciou, povoľte v nastaveniach prístup k mikrofónu.</string>
+    <string name="voice_error_audio_format_unavailable">Zvukový formát hardvéru nie je podporovaný.</string>
+    <string name="voice_error_audio_engine_rejected">Nepodarilo sa spustiť zvuk hovoru. Skúste to o chvíľu znova.</string>
+    <string name="voice_error_server_unsupported">Tento server potrebuje na hlasové hovory novšiu verziu OpenCode</string>
+    <string name="voice_error_invalid_server_url">Nepodarilo sa spustiť hlas: Zadajte platnú URL servera s HTTP alebo HTTPS.</string>
+    <string name="voice_error_invalid_response">Nepodarilo sa spustiť hlas: Server vrátil neplatnú odpoveď.</string>
+    <string name="voice_error_start_voice_detail">Nepodarilo sa spustiť hlas: %1$s</string>
+    <string name="voice_error_start_voice_http">Nepodarilo sa spustiť hlas (HTTP %1$d).</string>
+    <string name="voice_error_openai_rejected_key">OpenAI odmietlo API kľúč.</string>
+    <string name="voice_error_openai_verify_http">OpenAI nedokázalo overiť tento kľúč (HTTP %1$d).</string>
+    <string name="voice_error_no_connection">Žiadne pripojenie.</string>
+    <string name="voice_error_model_address_invalid">Adresa hlasového modelu je neplatná.</string>
+    <string name="voice_error_xai_rejected_key">xAI odmietlo API kľúč.</string>
+    <string name="voice_error_xai_verify_http">xAI nedokázalo overiť tento kľúč (HTTP %1$d).</string>
+    <string name="voice_error_xai_key_disabled">Tento API kľúč xAI je zakázaný.</string>
+    <string name="voice_error_xai_key_blocked">Tento API kľúč xAI je zablokovaný.</string>
+    <string name="voice_error_service_address_invalid">Adresa hlasovej služby je neplatná.</string>
+    <string name="voice_error_connection_lost">Hlasové spojenie sa prerušilo.</string>
+    <string name="voice_error_connection_closed">Hlasové spojenie je ukončené.</string>
+    <string name="voice_error_connection_setup">Nepodarilo sa nadviazať hlasové spojenie.</string>
+    <string name="voice_error_safety_filter">Bezpečnostný filter ukončil hlasový hovor.</string>
+    <string name="voice_error_audio_reset">Systém obnovil zvuk. Začnite hovor znova.</string>
+    <string name="voice_error_missing_phone_key">Ak chcete používať hlas, pridajte v nastaveniach svoj API kľúč %1$s.</string>
+
+    <!-- Voice accents -->
+    <string name="voice_accent_australian_english">Austrálska angličtina</string>
+    <string name="voice_accent_british_english">Britská angličtina</string>
+    <string name="voice_accent_irish_english">Írska angličtina</string>
+    <string name="voice_accent_north_american_english">Severoamerická angličtina</string>
+    <string name="voice_accent_brazilian_portuguese">Brazílska portugalčina</string>
+    <string name="voice_accent_filipino_english">Filipínska angličtina</string>
+    <string name="voice_accent_southern_us_english">Angličtina juhu USA</string>
+    <string name="voice_accent_indian_english">Indická angličtina</string>
+    <string name="voice_preview_error">Nepodarilo sa prehrať ukážku</string>
+
+    <!-- Call sound packs -->
+    <string name="voice_sound_pack_breath_ping">Dychové cinknutie</string>
+    <string name="voice_sound_pack_crystal_glass">Krištáľové sklo</string>
+    <string name="voice_sound_pack_warm_analog">Hrejivý analóg</string>
+    <string name="voice_sound_pack_aurora_pulse">Pulz polárnej žiary</string>
+    <string name="voice_sound_pack_velvet_bell">Zamatový zvon</string>
+    <string name="voice_sound_pack_silent">Bez zvuku</string>
+
+    <!-- Open link card -->
+    <string name="voice_open_link_card_title_untitled">Otvoriť odkaz?</string>
+    <string name="voice_open_link_card_title">Otvoriť %1$s?</string>
+
+    <!-- Delegator choice -->
+    <string name="voice_delegator_session_fallback">Relácia</string>
+    <string name="voice_delegator_unavailable_gemini">Gemini Live odovzdáva úlohy priamo relácii na obrazovke. Ak chcete použiť reláciu OpenCode, vyberte OpenAI ako poskytovateľa hlasu.</string>
+    <string name="voice_delegator_unavailable_engine">%1$s odovzdáva úlohy priamo relácii na obrazovke. Ak chcete použiť reláciu OpenCode, zmeňte hlasový model na GPT-Live.</string>
+
+    <!-- Call log list and replay -->
+    <string name="voice_call_log_duration_seconds">%1$d s</string>
+    <string name="voice_call_log_duration_minutes">%1$d min %2$d s</string>
+    <string name="voice_replay_to_delegator">→ Delegátor</string>
+    <string name="voice_replay_to_voice">→ Hlas</string>
+    <string name="voice_replay_audio">Zvuk</string>
+    <string name="voice_replay_track_user">Vy</string>
+    <string name="voice_replay_track_voice">Hlas</string>
+    <string name="voice_replay_track_delegator">Delegátor</string>
+    <string name="voice_replay_track_tools">Nástroje</string>
+</resources>

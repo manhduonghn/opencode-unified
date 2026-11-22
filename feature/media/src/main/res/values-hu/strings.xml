@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">Kép</string>
+    <string name="media_image_load_failed">Nem sikerült betölteni a képet</string>
+    <string name="media_unavailable">A média nem érhető el</string>
+    <string name="media_try_again_label">Próbálja újra</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">Médiamegjelenítő</string>
+    <string name="media_viewer_save_to_photos_description">Mentés a fotók közé</string>
+    <string name="media_file_viewer_screen_title">Fájlmegjelenítő</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d / %3$d</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">Rajzolás a képre</string>
+    <string name="media_drawing_undo_description">Visszavonás</string>
+    <string name="media_drawing_add_to_prompt_description">Hozzáadás az utasításhoz</string>
+    <string name="media_drawing_canvas_description">Rajzvászon</string>
+    <string name="media_drawing_discard_title">Elveti a rajzot?</string>
+    <string name="media_drawing_discard_confirm">Rajz elvetése</string>
+    <string name="media_drawing_keep">Rajzolás folytatása</string>
+    <string name="media_drawing_add_failed_title">Nem sikerült hozzáadni a rajzot</string>
+    <string name="media_drawing_flatten_failed">Nem sikerült létrehozni a képet. Próbálja újra.</string>
+    <string name="media_drawing_prompt_unavailable">Ennek a munkamenetnek az üzenetéhez most nem adhatók mellékletek.</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">Fehér</string>
+    <string name="media_drawing_ink_black">Fekete</string>
+    <string name="media_drawing_ink_red">Piros</string>
+    <string name="media_drawing_ink_yellow">Sárga</string>
+    <string name="media_drawing_ink_green">Zöld</string>
+    <string name="media_drawing_ink_blue">Kék</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">Nagyítva</string>
+    <string name="media_zoom_out_label">Kicsinyítés</string>
+    <string name="media_zoom_in_label">Nagyítás</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">Szünet</string>
+    <string name="media_player_play">Lejátszás</string>
+    <string name="media_player_position_description">Lejátszási pozíció</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">Nem sikerült lejátszani a videót</string>
+    <string name="media_video_position_description">Videó pozíciója</string>
+    <string name="media_video_capture_failed_title">Nem sikerült rögzíteni a képkockát</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">Előnézet megjelenítése</string>
+    <string name="media_file_show_source_description">Forrás megjelenítése</string>
+    <string name="media_file_unwrap_lines_description">Sortördelés kikapcsolása</string>
+    <string name="media_file_wrap_lines_description">Sortördelés</string>
+    <string name="media_file_start_pip_description">Kép a képben indítása</string>
+    <string name="media_file_opening">Megnyitás…</string>
+    <string name="media_file_share_failed_title">Nem sikerült megosztani a fájlt</string>
+    <string name="media_file_share_downloading_description">Letöltés a megosztáshoz</string>
+    <string name="media_file_confirm_large_message">A fájl mérete %1$s. Letölti, hogy megtekinthesse ezen az eszközön?</string>
+    <string name="media_file_download">Letöltés</string>
+    <string name="media_file_open_in_another_app">Megnyitás másik alkalmazásban</string>
+    <string name="media_file_no_app_message">Ezen az eszközön nincs alkalmazás a fájl megnyitásához. Megosztással mentheti vagy máshová küldheti.</string>
+    <string name="media_file_pdf_page_description">%1$d. oldal (összesen %2$d)</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">A fájl nem található</string>
+    <string name="media_file_error_open_failed_title">Nem sikerült megnyitni a fájlt</string>
+    <string name="media_file_error_unreadable">Ez az útvonal nem olvasható a kiszolgálóról.</string>
+    <string name="media_file_error_not_found">Lehet, hogy áthelyezték vagy törölték.</string>
+    <string name="media_file_error_unauthorized">A kiszolgáló nem fogadta el az eszköz jelszavát.</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">A kiszolgáló nem tudta beolvasni (HTTP %1$d). Lehet, hogy ez egy mappa.</string>
+    <string name="media_file_error_timed_out">A kérés túllépte az időkorlátot.</string>
+    <string name="media_file_error_unexpected_response">A kiszolgáló váratlan választ küldött.</string>
+    <string name="media_file_error_over_limit">A fájl meghaladja a letöltési méretkorlátot.</string>
+    <string name="media_file_error_size_unknown">A kiszolgáló nem adta meg a melléklet méretét.</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">Letöltés…</string>
+    <string name="media_file_downloading_size">Letöltés: %1$s</string>
+    <string name="media_file_downloading_progress">Letöltés: %1$s / %2$s</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">0 KB</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="one">%1$d bájt</item>
+        <item quantity="other">%1$d bájt</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s KB</string>
+    <string name="media_file_size_megabytes">%1$s MB</string>
+    <string name="media_file_size_gigabytes">%1$s GB</string>
+    <string name="media_file_size_terabytes">%1$s TB</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">Nem található</string>
+    <string name="media_image_load_label">Kép betöltése</string>
+    <string name="media_image_loading_state">Betöltés</string>
+    <string name="media_image_open_label">Kép megnyitása</string>
+    <string name="media_image_tap_to_load">Koppintson a betöltéshez</string>
+    <string name="media_image_outside_project_value">A projekten kívül</string>
+    <string name="media_image_deferred_low_data_value">Elhalasztva az adattakarékos mód miatt</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">%1$s megnyitása</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">Vissza a munkamenethez</string>
+    <string name="media_browser_ask_description">Kérdezzen erről az oldalról</string>
+    <string name="media_browser_forward_description">Előre</string>
+    <string name="media_browser_open_in_browser_description">Megnyitás böngészőben</string>
+    <string name="media_browser_scroll_to_top_label">Görgetés az oldal tetejére</string>
+    <string name="media_browser_ask_placeholder">Kérdezzen erről az oldalról</string>
+    <string name="media_browser_reply_needs_input">Beavatkozás szükséges</string>
+    <string name="media_browser_reply_working">Dolgozik</string>
+    <string name="media_browser_go_back_to_session_label">Vissza a munkamenethez</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">Válasz kész</string>
+    <string name="media_browser_reply_back_to_read">· Vissza az olvasáshoz</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">Munkamenet</string>
+    <string name="media_link_open_in_app_browser">Megnyitás a beépített böngészőben</string>
+    <string name="media_link_open_in_browser">Megnyitás böngészőben</string>
+    <string name="media_link_open_in_app">Megnyitás alkalmazásban</string>
+    <string name="media_link_copy">Link másolása</string>
+    <string name="media_link_share">Megosztás…</string>
+    <string name="media_link_open_session">Munkamenet megnyitása</string>
+    <string name="media_link_copy_session_id">Azonosító másolása</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">%1$s azonosítójának másolása</string>
+    <string name="media_link_open_session_named_description">%1$s munkamenet megnyitása</string>
+    <string name="media_link_open_host_in_app_browser_description">%1$s megnyitása a beépített böngészőben</string>
+    <string name="media_link_open_host_in_browser_description">%1$s megnyitása böngészőben</string>
+    <string name="media_link_open_host_in_app_description">%1$s megnyitása alkalmazásban</string>
+    <string name="media_link_copy_host_description">%1$s linkjének másolása</string>
+    <string name="media_link_share_host_description">%1$s linkjének megosztása</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%1$s ezen: %2$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s, %2$d. link</string>
+    <string name="media_link_more_links_description">További linkek</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">Videó</string>
+    <string name="media_link_preview_post">Bejegyzés</string>
+    <string name="media_link_preview_post_unavailable">A bejegyzés nem érhető el</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">Adattár</string>
+    <string name="media_github_kind_issue">Hibajegy</string>
+    <string name="media_github_kind_pull_request">Beolvasztási kérelem</string>
+    <string name="media_github_kind_commit">Véglegesítés</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">Nyitott</string>
+    <string name="media_github_state_closed">Lezárt</string>
+    <string name="media_github_state_merged">Beolvasztva</string>
+    <string name="media_github_state_draft">Piszkozat</string>
+    <string name="media_github_state_completed">Kész</string>
+    <string name="media_github_state_not_planned">Nem tervezett</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">Diagram, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">Diagrammegjelenítő</string>
+    <string name="media_mermaid_diagram_description">Diagram</string>
+    <string name="media_mermaid_loading_state">%1$s, betöltés</string>
+    <string name="media_mermaid_view_source">Forrás megjelenítése</string>
+    <string name="media_mermaid_source_title">Diagram forrása</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">Folyamatábra</string>
+    <string name="media_mermaid_type_sequence">Szekvenciadiagram</string>
+    <string name="media_mermaid_type_class">Osztálydiagram</string>
+    <string name="media_mermaid_type_state">Állapotdiagram</string>
+    <string name="media_mermaid_type_entity_relationship">Egyedkapcsolati diagram</string>
+    <string name="media_mermaid_type_user_journey">Felhasználói út</string>
+    <string name="media_mermaid_type_gantt">Gantt-diagram</string>
+    <string name="media_mermaid_type_pie">Kördiagram</string>
+    <string name="media_mermaid_type_quadrant">Kvadránsdiagram</string>
+    <string name="media_mermaid_type_requirement">Követelménydiagram</string>
+    <string name="media_mermaid_type_git_graph">Git-gráf</string>
+    <string name="media_mermaid_type_c4">C4-diagram</string>
+    <string name="media_mermaid_type_mind_map">Gondolattérkép</string>
+    <string name="media_mermaid_type_timeline">Idővonal</string>
+    <string name="media_mermaid_type_sankey">Sankey-diagram</string>
+    <string name="media_mermaid_type_xy_chart">XY-diagram</string>
+    <string name="media_mermaid_type_block">Blokkdiagram</string>
+    <string name="media_mermaid_type_packet">Csomagdiagram</string>
+    <string name="media_mermaid_type_kanban">Kanban-tábla</string>
+    <string name="media_mermaid_type_architecture">Architektúradiagram</string>
+    <string name="media_mermaid_type_radar">Radardiagram</string>
+    <string name="media_mermaid_type_treemap">Fatérkép</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

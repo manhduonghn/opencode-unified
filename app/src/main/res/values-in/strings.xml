@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Gagal menambahkan item yang dibagikan</string>
+    <string name="app_alert_open_session_failed_title">Gagal membuka sesi</string>
+    <string name="app_alert_pairing_failed_title">Gagal memasangkan dengan server</string>
+    <string name="app_pairing_confirm">Pasangkan</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Server</string>
+    <string name="app_servers_back_description">Kembali ke %1$s</string>
+    <string name="app_server_fallback_name">server</string>
+    <string name="app_connection_intro_new">Lanjutkan sesi coding dari %1$s Anda.</string>
+    <string name="app_connection_intro_returning">Lanjutkan sesi terakhir, atau pasangkan komputer lain.</string>
+    <string name="app_connection_enter_manually">Masukkan server secara manual</string>
+    <string name="app_connection_scan_pairing_code">Pindai kode pemasangan</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Di komputer Anda, buka OpenCode lalu masuk ke Pengaturan → Pemasangan, atau jalankan opencode pair --remote di terminal. Lalu pindai kodenya dengan %1$s ini.</string>
+    <string name="app_setup_install_title">Belum punya OpenCode?</string>
+    <string name="app_setup_other_ways_to_install">Cara lain untuk menginstal</string>
+    <string name="app_setup_terminal_title">Atau jalankan ini di terminal</string>
+    <string name="app_setup_terminal_detail">Bisa digunakan dari jaringan apa pun.</string>
+    <string name="app_setup_paste_prompt">Atau salin tautan yang ditampilkan, lalu</string>
+    <string name="app_setup_paste">Tempel</string>
+    <string name="app_setup_copy_command_description">Salin %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Menghubungkan</string>
+    <string name="app_servers_edit_description">Sunting %1$s</string>
+    <string name="app_servers_remove_description">Hapus %1$s</string>
+    <string name="app_servers_remove_confirm_title">Hapus %1$s?</string>
+    <string name="app_servers_remove_confirm_message">Alamat dan kata sandi akan dihapus dari %1$s ini. Sesi di server tidak terpengaruh.</string>
+    <string name="app_servers_remove_confirm">Hapus server</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Tahap: %1$s</string>
+    <string name="app_error_server">Server: %1$s</string>
+    <string name="app_error_attempt">Percobaan: %1$d</string>
+    <string name="app_error_copy_report">Salin laporan kesalahan</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Server baru</string>
+    <string name="app_server_form_edit_title">Sunting server</string>
+    <string name="app_server_form_name">Nama</string>
+    <string name="app_server_form_address">Alamat server</string>
+    <string name="app_server_form_username">Nama pengguna</string>
+    <string name="app_server_form_password">Kata sandi (opsional)</string>
+    <string name="app_server_form_hide_password_description">Sembunyikan kata sandi</string>
+    <string name="app_server_form_show_password_description">Tampilkan kata sandi</string>
+    <string name="app_server_form_connect">Hubungkan</string>
+    <string name="app_server_form_save_and_connect">Simpan dan hubungkan</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Header</string>
+    <string name="app_server_form_header_name">Nama</string>
+    <string name="app_server_form_header_name_description">Nama header %1$d</string>
+    <string name="app_server_form_header_value">Nilai</string>
+    <string name="app_server_form_header_value_description">Nilai header %1$d</string>
+    <string name="app_server_form_header_remove_description">Hapus header %1$d</string>
+    <string name="app_server_form_header_add">Tambah header</string>
+    <string name="app_server_form_headers_detail">Dikirim bersama setiap permintaan, untuk proksi di depan server seperti Cloudflare Access.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">“%1$s” bukan nama header yang valid</string>
+    <string name="app_server_form_header_invalid_value">Nilai %1$s tidak boleh berisi baris baru</string>
+    <string name="app_server_form_name_placeholder">Opsional</string>
+    <string name="app_connection_progress_pairing">Memasangkan</string>
+    <string name="app_connection_progress_connecting">Menghubungkan</string>
+    <string name="app_connection_progress_loading_sessions">Memuat sesi</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Pasangkan dengan %1$s?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode akan mencoba %1$s dan beralih ke alamat pertama yang merespons.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode akan dipasangkan dengan %1$s lalu beralih ke sana.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode akan mencoba %1$s dan %2$s lalu beralih ke alamat pertama yang merespons.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode akan mencoba %1$s, dan %2$s lalu beralih ke alamat pertama yang merespons.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Kredensial tersimpan untuk %2$s mungkin akan diganti.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Pemasangan</string>
+    <string name="app_error_phase_connect">Hubungkan</string>
+    <string name="app_error_phase_load_sessions">Muat sesi</string>
+    <string name="app_error_candidate_detail">Kandidat %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Tidak tersedia (alamat tidak valid)</string>
+    <string name="app_error_title_pair">Gagal memasangkan</string>
+    <string name="app_error_title_load_sessions">Gagal memuat sesi</string>
+    <string name="app_error_title_connect">Gagal terhubung ke %1$s</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Papan klip Anda kosong</string>
+    <string name="app_paste_not_a_pairing_link">Itu bukan tautan pemasangan</string>
+    <string name="app_server_no_longer_saved">Server ini tidak lagi tersimpan di %1$s ini. Hubungkan kembali untuk membuka sesi.</string>
+    <string name="app_session_no_longer_available">Sesi mungkin sudah dihapus, atau server tidak tersedia.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Terhubung ke %1$s</string>
+    <string name="app_pairing_invalid_code">Itu bukan kode pemasangan OpenCode. Jalankan opencode pair --remote di komputer Anda, lalu pindai kode QR atau tempel tautan yang ditampilkan.</string>
+    <string name="app_pairing_unusable_address">Tidak dapat menggunakan “%1$s” dari kode pemasangan ini: alamat tersebut %2$s.</string>
+    <string name="app_pairing_loopback">Server itu hanya menerima koneksi di localhost, jadi %1$s ini tidak dapat mengaksesnya. Jalankan opencode pair --remote di komputer Anda agar bisa diakses dari jaringan mana pun.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Server tujuan berbagi tidak lagi tersimpan di perangkat ini. Hubungkan kembali, lalu bagikan lagi.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">terakhir digunakan</string>
+    <string name="app_server_form_hint_new">Tempel tautan dari `opencode pair --remote` untuk memasangkan, atau gunakan alamat dan kata sandi server OpenCode Anda. Nama pengguna biasanya opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Perubahan disimpan setelah server terhubung. Server ini sudah dipasangkan, jadi kata sandinya berupa token sesi; pindai kode pemasangan baru alih-alih mengubahnya.</string>
+    <string name="app_server_form_hint_edit">Perubahan disimpan setelah server terhubung.</string>
+</resources>

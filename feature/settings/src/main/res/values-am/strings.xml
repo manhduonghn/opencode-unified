@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Appearance -->
+    <string name="settings_appearance_title">መልክ</string>
+    <string name="settings_appearance_mode_header">ሁነታ</string>
+    <string name="settings_appearance_theme">ገጽታ</string>
+
+    <!-- Appearance › Themes -->
+    <string name="settings_themes_title">ገጽታዎች</string>
+    <string name="settings_themes_preview_description">የውይይት ጽሑፍ ቅድመ እይታ</string>
+    <string name="settings_themes_preview_user_message">የክፍለ ጊዜውን ማያ ገጽ እንዳሻሽል እርዳኝ። ያገኘኸውን አሳየኝና ለውጦቹን አብራራ።</string>
+    <string name="settings_themes_preview_reply">የአቀማመጡን ችግር በ%1$s ውስጥ አግኝቻለሁ። የውይይት ጽሑፉና የመልዕክት መጻፊያው ያለውን ቁመት ይጋራሉ፤ ስለዚህ ቦታ ሲጠብ ለመፈተሽ የቁልፍ ሰሌዳው ይጠቅማል።</string>
+
+    <!-- Language -->
+    <string name="settings_language_title">ቋንቋ</string>
+    <string name="settings_language_system_default">የስርዓቱ ነባሪ</string>
+    <string name="settings_language_search_placeholder">ቋንቋዎችን ፈልግ</string>
+    <string name="settings_language_suggested_header">የሚመከር</string>
+    <string name="settings_language_all_header">ሁሉም ቋንቋዎች</string>
+    <string name="settings_language_no_matches">የሚዛመዱ ቋንቋዎች የሉም</string>
+
+    <!-- Experimental -->
+    <string name="settings_experimental_title">ሙከራዊ</string>
+    <string name="settings_experimental_all_footer">ማያ ገጽዎን ከሚያዩ ወይም በዳራ ከሚያዳምጡ በስተቀር አዳዲሶቹንም ያበራል።</string>
+    <string name="settings_experimental_all">ሁሉም ሙከራዎች</string>
+    <string name="settings_experimental_all_on">ሁሉም በርተዋል</string>
+    <plurals name="settings_experimental_on_count">
+        <item quantity="one">%d በርቷል</item>
+        <item quantity="other">%d በርተዋል</item>
+    </plurals>
+
+    <!-- Models -->
+    <string name="settings_models_title">ሞዴሎች</string>
+    <string name="settings_models_mode_hide">ደብቅ</string>
+    <string name="settings_models_mode_only_show">ብቻ አሳይ</string>
+    <string name="settings_models_mode_hide_footer">የማይጠቀሙባቸውን ሞዴሎች ያጥፉ።</string>
+    <string name="settings_models_mode_only_show_footer">የሚጠቀሙባቸውን ሞዴሎች ብቻ ያብሩ።</string>
+    <string name="settings_models_providers_header">አቅራቢዎች</string>
+    <string name="settings_models_stale_header">ከእንግዲህ የማይቀርቡ</string>
+    <string name="settings_models_forget_unavailable">የማይገኙ ሞዴሎችን አስወግድ</string>
+    <string name="settings_models_show_every_model">ሁሉንም ሞዴሎች አሳይ</string>
+    <string name="settings_models_load_failed_title">ሞዴሎችን መጫን አልተቻለም</string>
+    <string name="settings_models_summary_hidden">የተደበቁ</string>
+    <string name="settings_models_summary_all">ሁሉም</string>
+    <string name="settings_models_summary_count">ከ%2$d %1$d</string>
+
+    <!-- Models › Provider -->
+    <string name="settings_models_search_placeholder">የፍለጋ ሞዴሎች</string>
+    <string name="settings_models_show_provider">%1$s አሳይ</string>
+
+    <!-- Notifications -->
+    <string name="settings_notifications_title">ማሳወቂያዎች</string>
+    <string name="settings_notifications_device_header">ይህ %1$s</string>
+    <string name="settings_notifications_device_footer">ማሳወቂያዎች ምንም በማያስቀምጥ አስተላላፊ በኩል ይላካሉ። ለዚህ %1$s ማሳወቂያ የሚላከው በእሱ ላይ ለተጀመሩ ክፍለ ጊዜዎች ብቻ ነው።</string>
+    <string name="settings_notifications_allow">ማሳወቂያዎችን ፍቀድ</string>
+    <string name="settings_notifications_open_android_settings">የAndroid ቅንብሮችን ክፈት</string>
+    <string name="settings_notifications_turn_on">ማሳወቂያዎችን አብራ</string>
+    <string name="settings_notifications_server_header">አገልጋይ</string>
+    <string name="settings_notifications_set_up_footer">ፕለጊኑን እንዲጭን OpenCodeን የሚጠይቅ ክፍለ ጊዜ ይከፍታል። ጥያቄውን ይላኩና እንደገና ያረጋግጡ።</string>
+    <string name="settings_notifications_plugin_needed_footer">አገልጋዩ የOpenCode notify ፕለጊን ያስፈልገዋል።</string>
+    <string name="settings_notifications_notify_plugin">የማሳወቂያ ፕለጊን</string>
+    <string name="settings_notifications_plugin_installed">ተጭኗል</string>
+    <string name="settings_notifications_plugin_not_running">እየሠራ አይደለም</string>
+    <string name="settings_notifications_plugin_not_installed">አልተጫነም</string>
+    <string name="settings_notifications_plugin_check_failed">ሁኔታውን ማረጋገጥ አልተቻለም</string>
+    <string name="settings_notifications_set_up">በOpenCode አዋቅር</string>
+    <string name="settings_notifications_check_again">እንደገና አረጋግጥ</string>
+    <string name="settings_notifications_in_app_footer">በጎን ምናሌው አዝራር ላይ ይታያሉ።</string>
+    <string name="settings_notifications_in_app_notices">የመተግበሪያ ውስጥ ማሳወቂያዎች</string>
+
+    <!-- Sessions -->
+    <string name="settings_sessions_title">ክፍለ-ጊዜዎች</string>
+    <string name="settings_sessions_composer_header">የመልዕክት መጻፊያ</string>
+    <string name="settings_sessions_return_key_sends">የመመለሻ ቁልፍ ይልካል</string>
+    <string name="settings_sessions_new_sessions_header">አዲስ ክፍለ ጊዜዎች</string>
+    <string name="settings_sessions_server_default">የአገልጋዩ ነባሪ</string>
+    <string name="settings_sessions_default_agent">ነባሪ ወኪል</string>
+
+    <!-- Shared values -->
+    <string name="settings_value_on">በርቷል</string>
+    <string name="settings_value_off">ጠፍቷል</string>
+
+    <!-- Sound Effects -->
+    <string name="settings_sound_effects_volume">የድምጽ መጠን</string>
+    <string name="settings_sound_effects_volume_description">የድምጽ ተጽዕኖዎች መጠን</string>
+    <string name="settings_sound_effects_send_sound">የመላኪያ ድምጽ</string>
+
+    <!-- Voice › Delegator -->
+    <string name="settings_delegator_title">ሥራ አስተላላፊ</string>
+    <string name="settings_delegator_other_server_note">“%1$s” በሌላ አገልጋይ ላይ ነው። በዚህ አገልጋይ ላይ ያለውን ይምረጡ፣ ወይም አገልጋይ ይቀይሩ።</string>
+    <string name="settings_delegator_mode_footer">አብሮ የተሰራው ያለ ክፍለ ጊዜ በOpenAI ላይ ይሠራል። የOpenCode ክፍለ ጊዜ ደግሞ በአገልጋይዎ ላይ ባለ ክፍለ ጊዜ ውስጥ ይሠራል።</string>
+    <string name="settings_delegator_built_in">አብሮ የተሰራ</string>
+    <string name="settings_delegator_opencode_session">የOpenCode ክፍለ ጊዜ</string>
+    <string name="settings_delegator_target_header">የክፍለ ጊዜ መዳረሻ</string>
+    <string name="settings_delegator_target_footer">ራስ-ሰር በዚህ አገልጋይ ላይ ያለውን “Voice” ክፍለ ጊዜ ይጠቀማል። የሚታየው ክፍለ ጊዜ ደግሞ በማያ ገጹ ላይ ያለውን ይጠቀማል።</string>
+    <string name="settings_delegator_automatic">ራስ-ሰር</string>
+    <string name="settings_delegator_viewed_session">የሚታየው ክፍለ ጊዜ</string>
+    <string name="settings_delegator_search_placeholder">የፍለጋ ክፍለ-ጊዜዎች</string>
+    <string name="settings_delegator_sessions_header">ክፍለ ጊዜ ምረጥ</string>
+    <string name="settings_delegator_sessions_footer">የተመረጠው ክፍለ ጊዜ ሞዴሉን ያቆያል።</string>
+    <string name="settings_delegator_no_sessions">በዚህ አገልጋይ ላይ ክፍለ ጊዜዎች የሉም</string>
+    <string name="settings_delegator_no_matching_sessions">የሚዛመዱ ክፍለ ጊዜዎች የሉም</string>
+    <string name="settings_delegator_new_session">አዲስ ክፍለ ጊዜ</string>
+    <string name="settings_delegator_direct">ቀጥታ</string>
+    <string name="settings_delegator_direct_session_unavailable">ቀጥታ · ክፍለ ጊዜው አይገኝም</string>
+    <string name="settings_delegator_another_server">%1$s · ሌላ አገልጋይ</string>
+
+    <!-- Voice › Key Editor -->
+    <string name="settings_voice_key_hide_description">ቁልፉን ደብቅ</string>
+    <string name="settings_voice_key_show_description">ቁልፉን አሳይ</string>
+    <string name="settings_voice_key_verify">አረጋግጥ</string>
+
+    <!-- Voice › Voice Provider -->
+    <string name="settings_voice_provider_title">የድምፅ አቅራቢ</string>
+    <string name="settings_voice_provider_place">በ%1$s ላይ</string>
+    <string name="settings_voice_api_key_title">API ቁልፍ</string>
+    <string name="settings_voice_provider_automatic_footer">%1$s ዝግጁ ካልሆነ፣ ጥሪዎች ዝግጁ የሆነ ሌላ አቅራቢ ይጠቀማሉ።</string>
+    <string name="settings_voice_provider_choose_automatically">በራስ-ሰር ምረጥ</string>
+    <string name="settings_voice_provider_others_header">ሌሎች አቅራቢዎች</string>
+    <string name="settings_voice_provider_use_description">%1$s ተጠቀም</string>
+    <string name="settings_voice_provider_use">ተጠቀም</string>
+    <string name="settings_voice_provider_set_up">አዋቅር</string>
+    <plurals name="settings_voice_provider_not_available_count">
+        <item quantity="one">%d አይገኝም</item>
+        <item quantity="other">%d አይገኙም</item>
+    </plurals>
+
+    <!-- Voice › API Key -->
+    <string name="settings_voice_account_title">የእርስዎ OpenAI መለያ</string>
+    <string name="settings_voice_account_place">በዚህ ስልክ ላይ</string>
+    <string name="settings_voice_account_key_footer">ጥሪዎች ከአገልጋይ ይልቅ የእርስዎን OpenAI መለያ ይጠቀማሉ።</string>
+    <string name="settings_voice_account_use_for_calls">ለጥሪዎች ተጠቀም</string>
+
+    <!-- Voice -->
+    <string name="settings_voice_title">ድምፅ</string>
+    <string name="settings_voice_call_setup_header">የጥሪ ማዋቀር</string>
+    <string name="settings_voice_calls_header">ጥሪዎች</string>
+    <string name="settings_voice_raise_to_talk_hint">በክፍለ ጊዜ ውስጥ ስልክዎን ወደ ጆሮዎ ሲያነሱ በጆሮ ማዳመጫው ጥሪ መጀመርን ያብሩ ወይም ያጥፉ</string>
+    <string name="settings_voice_enable">ድምፅ አንቃ</string>
+    <string name="settings_voice_model">ሞዴል</string>
+    <string name="settings_voice_model_description">የድምፅ ሞዴል</string>
+    <string name="settings_voice_call_voice">ድምፅ</string>
+    <string name="settings_voice_raise_to_talk">ለማውራት አንሳ</string>
+    <string name="settings_voice_call_sounds">የጥሪ ድምፆች</string>
+    <string name="settings_voice_call_history">የጥሪ ታሪክ</string>
+    <string name="settings_voice_edit_key_label">የእርስዎን %1$s API ቁልፍ አርትዕ</string>
+    <string name="settings_voice_key_verified">ተረጋግጧል</string>
+    <string name="settings_voice_key_checking">በማጣራት ላይ…</string>
+    <string name="settings_voice_key_saved">ተቀምጧል</string>
+    <string name="settings_voice_key_missing">የለም</string>
+    <string name="settings_voice_preview_disabled_hint">ድምፆችን ለመስማት የእርስዎን %1$s ቁልፍ አክል</string>
+
+    <!-- Voice › Voice Picker -->
+    <string name="settings_voice_picker_add_key_footer">ድምፆችን ለመስማት የእርስዎን %1$s ቁልፍ አክል።</string>
+    <string name="settings_voice_picker_unavailable_footer">%1$s በ%2$s ላይ አይገኝም፣ ስለዚህ ጥሪዎች %3$s ይጠቀማሉ።</string>
+    <string name="settings_voice_stop_preview_description">የ%1$s ናሙና ማጫወትን አቁም</string>
+    <string name="settings_voice_preview_description">የ%1$s ናሙና አዳምጥ</string>
+    <string name="settings_voice_preview_playing">በመጫወት ላይ</string>
+    <string name="settings_voice_call_voice_unavailable">%1$s · %2$s አይገኝም</string>
+
+    <!-- Settings root -->
+    <string name="settings_whats_new_title">ምን አዲስ ነገር አለ</string>
+    <string name="settings_developer_title">ገንቢ</string>
+    <string name="settings_app_version">ስሪት %1$s (%2$s)</string>
+    <string name="settings_app_version_commit">ስሪት %1$s (%2$s) · %3$s</string>
+
+    <!-- Connection card -->
+    <string name="settings_connection_show_server_label">አገልጋዩን አሳይ</string>
+    <string name="settings_connection_milliseconds">%1$d ሚሊሰከንድ</string>
+    <string name="settings_connection_card_value_description">%1$s, %2$s, %3$s</string>
+    <string name="settings_connection_status_connected">ተገናኝቷል</string>
+    <string name="settings_connection_status_slow">ዝግተኛ</string>
+    <string name="settings_connection_status_unstable">ያልተረጋጋ</string>
+    <string name="settings_connection_status_reconnecting">እንደገና በመገናኘት ላይ</string>
+    <string name="settings_connection_status_offline">ከመስመር ውጭ</string>
+    <string name="settings_connection_status_sign_in_failed">መግባት አልተሳካም</string>
+    <string name="settings_connection_status_switching">በመቀየር ላይ</string>
+    <string name="settings_connection_status_switching_to">ወደ %1$s በመቀየር ላይ</string>
+    <string name="settings_connection_status_code">%1$s · %2$d</string>
+    <string name="settings_connection_status_http_description">%1$s, HTTP %2$d</string>
+    <plurals name="settings_connection_status_milliseconds_description">
+        <item quantity="one">%1$s, %2$d ሚሊሰከንድ</item>
+        <item quantity="other">%1$s, %2$d ሚሊሰከንዶች</item>
+    </plurals>
+
+    <!-- Server page -->
+    <string name="settings_server_title">አገልጋይ</string>
+    <string name="settings_server_address">አድራሻ</string>
+    <string name="settings_server_connection">ግንኙነት</string>
+    <string name="settings_server_version">ስሪት</string>
+    <string name="settings_server_edit_server">አገልጋይ አርትዕ…</string>
+    <string name="settings_server_rename_server_ellipsis">የአገልጋዩን ስም ቀይር…</string>
+    <string name="settings_server_rename_title">የአገልጋዩን ስም ቀይር</string>
+    <string name="settings_server_rename_message">ስሙን የሚጠቀመው ይህ %1$s ብቻ ነው። “%2$s” ለመጠቀም ባዶ ይተዉት።</string>
+    <string name="settings_server_status">ሁኔታ</string>
+    <string name="settings_server_status_milliseconds">%1$s · %2$d ms</string>
+
+    <!-- Servers section -->
+    <string name="settings_servers_header">አገልጋዮች</string>
+    <string name="settings_servers_edit_server">%1$s አርትዕ…</string>
+    <string name="settings_servers_rename_message">ስሙን የሚጠቀመው ይህ %1$s ብቻ ነው። የኮምፒውተሩን ስም ለመጠቀም ባዶ ይተዉት።</string>
+    <string name="settings_servers_remove_title">%1$s ይወገድ?</string>
+    <string name="settings_servers_remove_message">በዚህ %1$s ላይ የተቀመጡት አድራሻና የይለፍ ቃል ይሰረዛሉ። በአገልጋዩ ላይ ያሉ ክፍለ ጊዜዎች አይነኩም።</string>
+    <string name="settings_servers_remove_server">አገልጋይ አስወግድ</string>
+    <string name="settings_servers_current_server_state">የአሁኑ አገልጋይ፣ %1$s</string>
+    <string name="settings_servers_switch_label">ወደዚህ አገልጋይ ቀይር</string>
+    <string name="settings_servers_options_description">የ%1$s አማራጮች</string>
+    <string name="settings_servers_rename_menu">ዳግም ስም…</string>
+    <string name="settings_servers_edit_menu">አርትዕ…</string>
+    <string name="settings_servers_remove_menu">አስወግድ…</string>
+    <string name="settings_servers_add_server">አገልጋይ አክል</string>
+    <string name="settings_servers_scan_pairing_code">የማጣመሪያ ኮድ ይቃኙ</string>
+    <string name="settings_servers_enter_address">አድራሻ አስገባ</string>
+
+    <!-- Pairing scanner -->
+    <string name="settings_pairing_paste">ለጥፍ</string>
+    <string name="settings_pairing_no_camera_title">ካሜራ የለም</string>
+    <string name="settings_pairing_no_camera_message">በኮምፒውተርዎ ላይ `opencode pair` የሚያሳየውን አገናኝ ኮፒ ያድርጉና እዚህ ይለጥፉት።</string>
+    <string name="settings_pairing_camera_off_title">የካሜራ ፈቃድ ጠፍቷል</string>
+    <string name="settings_pairing_camera_off_message">QR ኮዱን ለመቃኘት በቅንብሮች ውስጥ የካሜራ ፈቃድ ይስጡ፣ ወይም `opencode pair` የሚያሳየውን አገናኝ ይለጥፉ።</string>
+    <string name="settings_pairing_nothing_to_paste_title">የሚለጠፍ ነገር የለም</string>
+    <string name="settings_pairing_nothing_to_paste_message">በቅንጥብ ሰሌዳዎ ላይ የማጣመሪያ አገናኝ የለም። opencode pair የሚያሳየውን አገናኝ ኮፒ ያድርጉና እንደገና ይሞክሩ።</string>
+    <string name="settings_pairing_point_camera">ካሜራዎን ወደ QR ኮዱ ያነጣጥሩ</string>
+    <string name="settings_pairing_paste_link">የማጣመሪያ አገናኝ ለጥፍ</string>
+    <string name="settings_pairing_computer_hint">በኮምፒውተርዎ ላይ የOpenCode ቅንብሮች → ማጣመር ይክፈቱ፣ ወይም በተርሚናል ውስጥ %1$s ያሂዱ።</string>
+</resources>

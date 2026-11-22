@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">სურათი</string>
+    <string name="media_image_load_failed">სურათი ვერ ჩაიტვირთა</string>
+    <string name="media_unavailable">მედია მიუწვდომელია</string>
+    <string name="media_try_again_label">ხელახლა ცდა</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">მედიის მნახველი</string>
+    <string name="media_viewer_save_to_photos_description">ფოტოებში შენახვა</string>
+    <string name="media_file_viewer_screen_title">ფაილის მნახველი</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d, სულ %3$d</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">სურათზე ხატვა</string>
+    <string name="media_drawing_undo_description">გაუქმება</string>
+    <string name="media_drawing_add_to_prompt_description">მოთხოვნაში დამატება</string>
+    <string name="media_drawing_canvas_description">სახატავი ტილო</string>
+    <string name="media_drawing_discard_title">გაუქმდეს ნახატი?</string>
+    <string name="media_drawing_discard_confirm">ნახატის გაუქმება</string>
+    <string name="media_drawing_keep">ხატვის გაგრძელება</string>
+    <string name="media_drawing_add_failed_title">ნახატის დამატება ვერ მოხერხდა</string>
+    <string name="media_drawing_flatten_failed">სურათი ვერ შეიქმნა. ხელახლა სცადეთ.</string>
+    <string name="media_drawing_prompt_unavailable">ამ სესიის შეტყობინებას ახლა დანართის დამატება არ შეუძლია.</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">თეთრი</string>
+    <string name="media_drawing_ink_black">შავი</string>
+    <string name="media_drawing_ink_red">წითელი</string>
+    <string name="media_drawing_ink_yellow">ყვითელი</string>
+    <string name="media_drawing_ink_green">მწვანე</string>
+    <string name="media_drawing_ink_blue">ლურჯი</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">გადიდებულია</string>
+    <string name="media_zoom_out_label">შემცირება</string>
+    <string name="media_zoom_in_label">გადიდება</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">პაუზა</string>
+    <string name="media_player_play">დაკვრა</string>
+    <string name="media_player_position_description">დაკვრის პოზიცია</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">ვიდეოს დაკვრა ვერ მოხერხდა</string>
+    <string name="media_video_position_description">ვიდეოს პოზიცია</string>
+    <string name="media_video_capture_failed_title">კადრის აღება ვერ მოხერხდა</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">გადახედვის ჩვენება</string>
+    <string name="media_file_show_source_description">წყაროს ჩვენება</string>
+    <string name="media_file_unwrap_lines_description">სტრიქონების გადატანის გამორთვა</string>
+    <string name="media_file_wrap_lines_description">სტრიქონების გადატანა</string>
+    <string name="media_file_start_pip_description">სურათი სურათში რეჟიმის ჩართვა</string>
+    <string name="media_file_opening">იხსნება…</string>
+    <string name="media_file_share_failed_title">ფაილი ვერ გაზიარდა</string>
+    <string name="media_file_share_downloading_description">იტვირთება გასაზიარებლად</string>
+    <string name="media_file_confirm_large_message">ფაილის ზომაა %1$s. ჩამოვტვირთოთ ამ მოწყობილობაზე სანახავად?</string>
+    <string name="media_file_download">ჩამოტვირთვა</string>
+    <string name="media_file_open_in_another_app">სხვა აპში გახსნა</string>
+    <string name="media_file_no_app_message">ამ მოწყობილობაზე ვერცერთი აპი ვერ ხსნის ამ ფაილს. გააზიარეთ, რომ შეინახოთ ან სხვაგან გაგზავნოთ.</string>
+    <string name="media_file_pdf_page_description">გვერდი %1$d, სულ %2$d</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">ფაილი ვერ მოიძებნა</string>
+    <string name="media_file_error_open_failed_title">ფაილი ვერ გაიხსნა</string>
+    <string name="media_file_error_unreadable">სერვერიდან ამ მისამართის წაკითხვა ვერ ხერხდება.</string>
+    <string name="media_file_error_not_found">შესაძლოა გადატანილია ან წაშლილია.</string>
+    <string name="media_file_error_unauthorized">სერვერმა ამ მოწყობილობის პაროლი არ მიიღო.</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">სერვერმა ვერ წაიკითხა (HTTP %1$d). შესაძლოა საქაღალდეა.</string>
+    <string name="media_file_error_timed_out">მოთხოვნის დრო ამოიწურა.</string>
+    <string name="media_file_error_unexpected_response">სერვერმა მოულოდნელი პასუხი გამოგზავნა.</string>
+    <string name="media_file_error_over_limit">ფაილი აჭარბებს ჩამოტვირთვის ზომის ლიმიტს.</string>
+    <string name="media_file_error_size_unknown">სერვერმა დანართის ზომა არ მიუთითა.</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">იტვირთება…</string>
+    <string name="media_file_downloading_size">იტვირთება %1$s</string>
+    <string name="media_file_downloading_progress">იტვირთება %1$s, სულ %2$s</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">0 კბ</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="one">%1$d ბაიტი</item>
+        <item quantity="other">%1$d ბაიტი</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s კბ</string>
+    <string name="media_file_size_megabytes">%1$s მბ</string>
+    <string name="media_file_size_gigabytes">%1$s გბ</string>
+    <string name="media_file_size_terabytes">%1$s ტბ</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">ვერ მოიძებნა</string>
+    <string name="media_image_load_label">სურათის ჩატვირთვა</string>
+    <string name="media_image_loading_state">იტვირთება</string>
+    <string name="media_image_open_label">სურათის გახსნა</string>
+    <string name="media_image_tap_to_load">შეეხეთ ჩასატვირთად</string>
+    <string name="media_image_outside_project_value">პროექტის გარეთ</string>
+    <string name="media_image_deferred_low_data_value">გადადებულია ტრაფიკის დაზოგვის რეჟიმის გამო</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">%1$s — გახსნა</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">სესიაზე დაბრუნება</string>
+    <string name="media_browser_ask_description">ამ გვერდზე კითხვის დასმა</string>
+    <string name="media_browser_forward_description">წინ</string>
+    <string name="media_browser_open_in_browser_description">ბრაუზერში გახსნა</string>
+    <string name="media_browser_scroll_to_top_label">გვერდის დასაწყისში ასვლა</string>
+    <string name="media_browser_ask_placeholder">დასვით კითხვა ამ გვერდზე</string>
+    <string name="media_browser_reply_needs_input">საჭიროა თქვენი პასუხი</string>
+    <string name="media_browser_reply_working">მუშაობს</string>
+    <string name="media_browser_go_back_to_session_label">სესიაზე დაბრუნება</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">პასუხი მზად არის</string>
+    <string name="media_browser_reply_back_to_read">· დაბრუნდით წასაკითხად</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">სესია</string>
+    <string name="media_link_open_in_app_browser">ჩაშენებულ ბრაუზერში გახსნა</string>
+    <string name="media_link_open_in_browser">ბრაუზერში გახსნა</string>
+    <string name="media_link_open_in_app">აპში გახსნა</string>
+    <string name="media_link_copy">ბმულის კოპირება</string>
+    <string name="media_link_share">გაზიარება…</string>
+    <string name="media_link_open_session">სესიის გახსნა</string>
+    <string name="media_link_copy_session_id">ID-ის კოპირება</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">%1$s-ის ID-ის კოპირება</string>
+    <string name="media_link_open_session_named_description">სესიის გახსნა: %1$s</string>
+    <string name="media_link_open_host_in_app_browser_description">%1$s-ის ჩაშენებულ ბრაუზერში გახსნა</string>
+    <string name="media_link_open_host_in_browser_description">%1$s-ის ბრაუზერში გახსნა</string>
+    <string name="media_link_open_host_in_app_description">%1$s-ის აპში გახსნა</string>
+    <string name="media_link_copy_host_description">%1$s-ის ბმულის კოპირება</string>
+    <string name="media_link_share_host_description">%1$s-ის ბმულის გაზიარება</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%1$s — %2$s-ზე</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s, ბმული %2$d</string>
+    <string name="media_link_more_links_description">მეტი ბმული</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">ვიდეო</string>
+    <string name="media_link_preview_post">პოსტი</string>
+    <string name="media_link_preview_post_unavailable">პოსტი მიუწვდომელია</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">საცავი</string>
+    <string name="media_github_kind_issue">საკითხი</string>
+    <string name="media_github_kind_pull_request">შერწყმის მოთხოვნა</string>
+    <string name="media_github_kind_commit">კომიტი</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">ღია</string>
+    <string name="media_github_state_closed">დახურული</string>
+    <string name="media_github_state_merged">შერწყმული</string>
+    <string name="media_github_state_draft">მონახაზი</string>
+    <string name="media_github_state_completed">დასრულებული</string>
+    <string name="media_github_state_not_planned">არ იგეგმება</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">დიაგრამა, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">დიაგრამის მნახველი</string>
+    <string name="media_mermaid_diagram_description">დიაგრამა</string>
+    <string name="media_mermaid_loading_state">%1$s, იტვირთება</string>
+    <string name="media_mermaid_view_source">წყაროს ნახვა</string>
+    <string name="media_mermaid_source_title">დიაგრამის წყარო</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">ბლოკსქემა</string>
+    <string name="media_mermaid_type_sequence">მიმდევრობის დიაგრამა</string>
+    <string name="media_mermaid_type_class">კლასების დიაგრამა</string>
+    <string name="media_mermaid_type_state">მდგომარეობების დიაგრამა</string>
+    <string name="media_mermaid_type_entity_relationship">არსებს შორის კავშირების დიაგრამა</string>
+    <string name="media_mermaid_type_user_journey">მომხმარებლის გზა</string>
+    <string name="media_mermaid_type_gantt">Gantt-ის დიაგრამა</string>
+    <string name="media_mermaid_type_pie">წრიული დიაგრამა</string>
+    <string name="media_mermaid_type_quadrant">კვადრანტული დიაგრამა</string>
+    <string name="media_mermaid_type_requirement">მოთხოვნების დიაგრამა</string>
+    <string name="media_mermaid_type_git_graph">Git-ის გრაფი</string>
+    <string name="media_mermaid_type_c4">C4 დიაგრამა</string>
+    <string name="media_mermaid_type_mind_map">აზრების რუკა</string>
+    <string name="media_mermaid_type_timeline">დროის ხაზი</string>
+    <string name="media_mermaid_type_sankey">Sankey-ის დიაგრამა</string>
+    <string name="media_mermaid_type_xy_chart">XY დიაგრამა</string>
+    <string name="media_mermaid_type_block">ბლოკური დიაგრამა</string>
+    <string name="media_mermaid_type_packet">პაკეტის დიაგრამა</string>
+    <string name="media_mermaid_type_kanban">კანბანის დაფა</string>
+    <string name="media_mermaid_type_architecture">არქიტექტურის დიაგრამა</string>
+    <string name="media_mermaid_type_radar">რადარული დიაგრამა</string>
+    <string name="media_mermaid_type_treemap">ხის რუკა</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

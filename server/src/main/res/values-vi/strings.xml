@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Vỏ bọc</string>
+    <string name="server_notice_source_subagent">Chất phụ</string>
+    <string name="server_notice_heading_finished">%1$s đã hoàn tất</string>
+    <string name="server_notice_heading_failed">%1$s thất bại</string>
+    <string name="server_notice_heading_interrupted">%1$s bị gián đoạn</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="other">%1$d vỏ bọc đã hoàn tất</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="other">%1$d vỏ bọc thất bại</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="other">%1$d vỏ bọc bị gián đoạn</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="other">%1$d chất phụ đã hoàn tất</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="other">%1$d chất phụ thất bại</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="other">%1$d chất phụ bị gián đoạn</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Nhỏ gọn</string>
+    <string name="server_run_error_action_switch_model">Đổi mô hình</string>
+    <string name="server_run_error_aborted">Bị gián đoạn</string>
+    <string name="server_run_error_permission_rejected">Bị gián đoạn sau khi yêu cầu bị từ chối</string>
+    <string name="server_run_error_content_filter">Bộ lọc an toàn đã chặn câu trả lời</string>
+    <string name="server_run_error_rate_limit">Đã đạt giới hạn tần suất</string>
+    <string name="server_run_error_quota">Đã đạt giới hạn sử dụng</string>
+    <string name="server_run_error_auth">Nhà cung cấp đã từ chối khóa API</string>
+    <string name="server_run_error_context_overflow">Phiên quá dài với mô hình này</string>
+    <string name="server_run_error_invalid_request">Nhà cung cấp đã từ chối yêu cầu</string>
+    <string name="server_run_error_overloaded">Mô hình đang quá tải</string>
+    <string name="server_run_error_internal">Nhà cung cấp gặp sự cố</string>
+    <string name="server_run_error_transport">Mất kết nối với mô hình</string>
+    <string name="server_run_error_timeout">Mô hình phản hồi quá lâu</string>
+    <string name="server_run_error_invalid_output">Không đọc được câu trả lời của mô hình</string>
+    <string name="server_run_error_unavailable">Mô hình này không có sẵn</string>
+    <string name="server_run_error_unsupported_operation">Mô hình này không làm được việc đó</string>
+    <string name="server_run_error_tool_execution">Một công cụ bị lỗi khiến lượt chạy dừng lại</string>
+    <string name="server_run_error_other">Lượt chạy đã dừng do lỗi</string>
+    <string name="server_run_retry_in_seconds">%1$s · thử lại sau %2$d giây</string>
+    <string name="server_run_retry_now">%1$s · thử lại</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">Không thể kết nối với máy chủ OpenCode</string>
+    <string name="server_error_folder_gone">Thư mục không còn tồn tại</string>
+    <string name="server_error_uploads_unsupported">Máy chủ này không hỗ trợ tệp đính kèm. Hãy cập nhật OpenCode trên máy tính.</string>
+    <string name="server_error_archiving_unsupported">Máy chủ này không hỗ trợ lưu trữ. Hãy cập nhật OpenCode trên máy tính của bạn.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode chưa được phép kết nối với thiết bị trên mạng cục bộ. Hãy bật quyền Thiết bị ở gần cho OpenCode trong Cài đặt rồi thử lại.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Phiên chưa đặt tên</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Vỏ bọc</string>
+    <string name="server_tool_shell_killed">Vỏ bọc đã bị buộc dừng</string>
+    <string name="server_tool_shell_exit_code">Lệnh đã thoát với mã %1$d</string>
+    <string name="server_notice_session_update">Cập nhật phiên</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Kết nối thất bại</string>
+    <string name="server_connection_resolved_address_unknown">Địa chỉ đã phân giải: không rõ</string>
+    <string name="server_connection_resolved_address">Địa chỉ đã phân giải (tra cứu sau khi thất bại): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">Tên tailnet này được phân giải thành địa chỉ ngoài dải của Tailscale, nên có thể DNS của Tailscale chưa được dùng. Trong ứng dụng Tailscale, hãy bật Dùng cài đặt DNS của Tailscale, đồng thời tắt DNS riêng tư hoặc mọi cấu hình VPN làm thay đổi DNS.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Mạng cục bộ</string>
+    <string name="server_connection_route_loopback">Vòng lặp cục bộ</string>
+    <string name="server_connection_route_internet">Internet</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">không phải địa chỉ web</string>
+    <string name="server_pairing_origin_bad_scheme">không bắt đầu bằng http:// hoặc https://</string>
+    <string name="server_pairing_origin_no_host">không có tên máy chủ</string>
+    <string name="server_pairing_origin_credentials">chứa tên người dùng hoặc mật khẩu</string>
+    <string name="server_pairing_origin_query">chứa truy vấn hoặc phần phân mảnh</string>
+    <string name="server_pairing_origin_port">có cổng nằm ngoài khoảng 1–65535</string>
+    <string name="server_pairing_origin_path">chứa đường dẫn, trong khi máy chủ phải nằm ở gốc địa chỉ</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Máy chủ</string>
+    <string name="server_friendly_name_numbered">Máy chủ %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">Kết nối bị ngắt sau khi gửi tin nhắn, nên tin nhắn có thể đã đến nơi.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Tích hợp này không có phương thức đăng nhập.</string>
+    <string name="server_error_sign_in_url_invalid">Địa chỉ trang đăng nhập không hợp lệ.</string>
+    <string name="server_error_load_server_details">Không thể tải thông tin máy chủ</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">Mã ghép cặp này đã hết hạn hoặc đã được dùng. Chạy lại `opencode pair --remote`.</string>
+    <string name="server_error_pairing_unsupported">Máy chủ này không hỗ trợ liên kết ghép cặp. Hãy cập nhật OpenCode trên máy tính hoặc nhập máy chủ thủ công.</string>
+    <string name="server_error_notification_previews_need_https">Bản xem trước thông báo được mã hóa cần kết nối HTTPS tới máy chủ.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Nhập URL máy chủ HTTP hoặc HTTPS hợp lệ.</string>
+    <string name="server_error_credentials_rejected">Máy chủ đã từ chối thông tin đăng nhập này.</string>
+    <string name="server_error_http_status">Máy chủ trả về HTTP %1$d.</string>
+    <string name="server_error_event_stream_http">Luồng sự kiện trả về HTTP %1$d.</string>
+    <string name="server_error_event_stream_oversized_frame">Luồng sự kiện đã gửi một khung dữ liệu quá lớn.</string>
+    <string name="server_error_event_stream_ended">Luồng sự kiện đã kết thúc.</string>
+    <string name="server_error_event_stream_server_failure">Luồng sự kiện đã báo lỗi máy chủ.</string>
+    <string name="server_tool_failed">Công cụ thất bại</string>
+    <string name="server_error_list_folder">Máy chủ không thể liệt kê nội dung thư mục này</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Không thể tải dự án và phiên</string>
+    <string name="server_error_load_session_family">Không thể tải nhóm phiên liên quan</string>
+    <string name="server_error_update_session">Không thể cập nhật phiên</string>
+    <string name="server_error_load_session_ancestry">Không thể tải các phiên cha của phiên đang hoạt động</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Đã trả lời ở nơi khác</string>
+    <string name="server_request_already_dismissed">Đã bỏ qua</string>
+    <string name="server_request_already_answered">Đã trả lời</string>
+    <string name="server_request_already_dismissed_elsewhere">Đã bỏ qua ở nơi khác</string>
+    <string name="server_request_no_longer_waiting">Không còn chờ phản hồi</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Nội dung đa phương tiện không có sẵn</string>
+    <string name="server_pasted_text_title">Văn bản đã dán</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="other">%1$d dòng · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="other">%1$d dòng</item>
+    </plurals>
+    <string name="server_file_size_zero">0 KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="other">%1$d byte</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">Dự án</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Tệp</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Hoàn thành bước này</string>
+    <string name="server_form_required">Bắt buộc</string>
+    <plurals name="server_form_min_length">
+        <item quantity="other">Nhập ít nhất %1$d ký tự</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="other">Nhập tối đa %1$d ký tự</item>
+    </plurals>
+    <string name="server_form_invalid_format">Định dạng không hợp lệ</string>
+    <string name="server_form_choose_option">Chọn một tùy chọn có sẵn</string>
+    <string name="server_form_invalid_email">Nhập email hợp lệ</string>
+    <string name="server_form_invalid_url">Nhập URL hợp lệ</string>
+    <string name="server_form_invalid_date">Nhập ngày theo dạng YYYY-MM-DD</string>
+    <string name="server_form_invalid_date_time">Nhập ngày và giờ hợp lệ</string>
+    <string name="server_form_minimum">Phải từ %1$s trở lên</string>
+    <string name="server_form_maximum">Không được vượt quá %1$s</string>
+    <string name="server_form_whole_number">Nhập một số nguyên</string>
+    <plurals name="server_form_min_items">
+        <item quantity="other">Chọn ít nhất %1$d mục</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="other">Chọn tối đa %1$d mục</item>
+    </plurals>
+    <string name="server_form_invalid_value">Giá trị không hợp lệ</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Ẩn mô hình đã chọn</string>
+    <string name="server_model_visibility_only_show">Chỉ hiện mô hình đã chọn</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Tắt</string>
+    <string name="server_model_variant_extra_high">Rất cao</string>
+    <string name="server_model_variant_max">Tối đa</string>
+    <string name="server_delivery_steering">Định hướng</string>
+    <string name="server_delivery_queued">Đã xếp hàng</string>
+</resources>

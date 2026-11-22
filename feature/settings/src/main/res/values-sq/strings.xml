@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Appearance -->
+    <string name="settings_appearance_title">Pamja e jashtme</string>
+    <string name="settings_appearance_mode_header">Modaliteti</string>
+    <string name="settings_appearance_theme">Tema</string>
+
+    <!-- Appearance › Themes -->
+    <string name="settings_themes_title">Temat</string>
+    <string name="settings_themes_preview_description">Pamja paraprake e transkriptit</string>
+    <string name="settings_themes_preview_user_message">Më ndihmo të përmirësoj ekranin e sesionit. Më trego çfarë gjen dhe shpjego ndryshimet.</string>
+    <string name="settings_themes_preview_reply">E gjeta problemin e paraqitjes te %1$s. Transkripti dhe fusha e mesazhit ndajnë lartësinë e disponueshme, ndaj tastiera është një provë e mirë për hapësirën e kufizuar.</string>
+
+    <!-- Language -->
+    <string name="settings_language_title">Gjuha</string>
+    <string name="settings_language_system_default">E paracaktuar nga sistemi</string>
+    <string name="settings_language_search_placeholder">Kërko gjuhë</string>
+    <string name="settings_language_suggested_header">Sugjeruar</string>
+    <string name="settings_language_all_header">Të gjitha gjuhët</string>
+    <string name="settings_language_no_matches">Nuk ka gjuhë që përputhen</string>
+
+    <!-- Experimental -->
+    <string name="settings_experimental_title">Eksperimentale</string>
+    <string name="settings_experimental_all_footer">Aktivizon edhe të rejat, përveç atyre që shohin ekranin ose dëgjojnë në sfond.</string>
+    <string name="settings_experimental_all">Të gjitha eksperimentet</string>
+    <string name="settings_experimental_all_on">Të gjitha aktive</string>
+    <plurals name="settings_experimental_on_count">
+        <item quantity="one">%d aktiv</item>
+        <item quantity="other">%d aktive</item>
+    </plurals>
+
+    <!-- Models -->
+    <string name="settings_models_title">Modelet</string>
+    <string name="settings_models_mode_hide">Fshih</string>
+    <string name="settings_models_mode_only_show">Trego vetëm</string>
+    <string name="settings_models_mode_hide_footer">Çaktivizo modelet që nuk përdor.</string>
+    <string name="settings_models_mode_only_show_footer">Aktivizo vetëm modelet që përdor.</string>
+    <string name="settings_models_providers_header">Ofruesit</string>
+    <string name="settings_models_stale_header">Nuk ofrohen më</string>
+    <string name="settings_models_forget_unavailable">Harro modelet e padisponueshme</string>
+    <string name="settings_models_show_every_model">Trego të gjitha modelet</string>
+    <string name="settings_models_load_failed_title">Modelet nuk u ngarkuan dot</string>
+    <string name="settings_models_summary_hidden">Të fshehura</string>
+    <string name="settings_models_summary_all">Të gjitha</string>
+    <string name="settings_models_summary_count">%1$d nga %2$d</string>
+
+    <!-- Models › Provider -->
+    <string name="settings_models_search_placeholder">Kërko modele</string>
+    <string name="settings_models_show_provider">Trego %1$s</string>
+
+    <!-- Notifications -->
+    <string name="settings_notifications_title">Njoftimet</string>
+    <string name="settings_notifications_device_header">Ky %1$s</string>
+    <string name="settings_notifications_device_footer">Njoftimet kalojnë përmes një ndërmjetësi që nuk ruan asgjë. Vetëm sesionet e nisura në këtë %1$s dërgojnë njoftime këtu.</string>
+    <string name="settings_notifications_allow">Lejo njoftimet</string>
+    <string name="settings_notifications_open_android_settings">Hap cilësimet e Android</string>
+    <string name="settings_notifications_turn_on">Aktivizo njoftimet</string>
+    <string name="settings_notifications_server_header">Serveri</string>
+    <string name="settings_notifications_set_up_footer">Hap një sesion me një kërkesë që OpenCode të instalojë shtojcën. Dërgoje, pastaj kontrollo sërish.</string>
+    <string name="settings_notifications_plugin_needed_footer">Serverit i duhet shtojca notify e OpenCode.</string>
+    <string name="settings_notifications_notify_plugin">Shtojca notify</string>
+    <string name="settings_notifications_plugin_installed">E instaluar</string>
+    <string name="settings_notifications_plugin_not_running">Jo në ekzekutim</string>
+    <string name="settings_notifications_plugin_not_installed">E painstaluar</string>
+    <string name="settings_notifications_plugin_check_failed">Statusi nuk u kontrollua dot</string>
+    <string name="settings_notifications_set_up">Konfiguro me OpenCode</string>
+    <string name="settings_notifications_check_again">Kontrollo sërish</string>
+    <string name="settings_notifications_in_app_footer">Shfaqen te butoni i panelit anësor.</string>
+    <string name="settings_notifications_in_app_notices">Njoftimet brenda aplikacionit</string>
+
+    <!-- Sessions -->
+    <string name="settings_sessions_title">Sesionet</string>
+    <string name="settings_sessions_composer_header">Shkrimi i mesazheve</string>
+    <string name="settings_sessions_return_key_sends">Tasti Enter dërgon</string>
+    <string name="settings_sessions_new_sessions_header">Sesione të reja</string>
+    <string name="settings_sessions_server_default">I paracaktuar nga serveri</string>
+    <string name="settings_sessions_default_agent">Agjenti i paracaktuar</string>
+
+    <!-- Shared values -->
+    <string name="settings_value_on">Aktivizuar</string>
+    <string name="settings_value_off">Çaktivizuar</string>
+
+    <!-- Sound Effects -->
+    <string name="settings_sound_effects_volume">Volumi</string>
+    <string name="settings_sound_effects_volume_description">Volumi i efekteve zanore</string>
+    <string name="settings_sound_effects_send_sound">Tingulli i dërgimit</string>
+
+    <!-- Voice › Delegator -->
+    <string name="settings_delegator_title">Deleguesi</string>
+    <string name="settings_delegator_other_server_note">“%1$s” është në një server tjetër. Zgjidh një në këtë server ose ndërro serverin.</string>
+    <string name="settings_delegator_mode_footer">Opsioni i integruar punon në OpenAI, pa sesion. Sesioni OpenCode punon në një sesion në serverin tënd.</string>
+    <string name="settings_delegator_built_in">I integruar</string>
+    <string name="settings_delegator_opencode_session">Sesioni OpenCode</string>
+    <string name="settings_delegator_target_header">Sesioni i synuar</string>
+    <string name="settings_delegator_target_footer">Automatik përdor një sesion “Zëri” në këtë server. Sesioni në ekran përdor atë që po shikon.</string>
+    <string name="settings_delegator_automatic">Automatik</string>
+    <string name="settings_delegator_viewed_session">Sesioni në ekran</string>
+    <string name="settings_delegator_search_placeholder">Kërko seancat</string>
+    <string name="settings_delegator_sessions_header">Zgjidh një sesion</string>
+    <string name="settings_delegator_sessions_footer">Sesioni i zgjedhur ruan modelin e vet.</string>
+    <string name="settings_delegator_no_sessions">Nuk ka sesione në këtë server</string>
+    <string name="settings_delegator_no_matching_sessions">Nuk ka sesione që përputhen</string>
+    <string name="settings_delegator_new_session">Sesion i ri</string>
+    <string name="settings_delegator_direct">Drejtpërdrejt</string>
+    <string name="settings_delegator_direct_session_unavailable">Drejtpërdrejt · Sesioni nuk disponohet</string>
+    <string name="settings_delegator_another_server">%1$s · Server tjetër</string>
+
+    <!-- Voice › Key Editor -->
+    <string name="settings_voice_key_hide_description">Fshih tastin</string>
+    <string name="settings_voice_key_show_description">Trego tastin</string>
+    <string name="settings_voice_key_verify">Verifiko</string>
+
+    <!-- Voice › Voice Provider -->
+    <string name="settings_voice_provider_title">Ofruesi i zërit</string>
+    <string name="settings_voice_provider_place">Në %1$s</string>
+    <string name="settings_voice_api_key_title">Tasti API</string>
+    <string name="settings_voice_provider_automatic_footer">Kur %1$s nuk është gati, thirrjet përdorin një ofrues që është.</string>
+    <string name="settings_voice_provider_choose_automatically">Zgjidh automatikisht</string>
+    <string name="settings_voice_provider_others_header">Ofrues të tjerë</string>
+    <string name="settings_voice_provider_use_description">Përdor %1$s</string>
+    <string name="settings_voice_provider_use">Përdor</string>
+    <string name="settings_voice_provider_set_up">Konfiguro</string>
+    <plurals name="settings_voice_provider_not_available_count">
+        <item quantity="one">%d i padisponueshëm</item>
+        <item quantity="other">%d të padisponueshëm</item>
+    </plurals>
+
+    <!-- Voice › API Key -->
+    <string name="settings_voice_account_title">Llogaria jote OpenAI</string>
+    <string name="settings_voice_account_place">Në këtë telefon</string>
+    <string name="settings_voice_account_key_footer">Thirrjet përdorin llogarinë tënde OpenAI në vend të një serveri.</string>
+    <string name="settings_voice_account_use_for_calls">Përdor për thirrje</string>
+
+    <!-- Voice -->
+    <string name="settings_voice_title">Zëri</string>
+    <string name="settings_voice_call_setup_header">Konfigurimi i thirrjeve</string>
+    <string name="settings_voice_calls_header">Thirrjet</string>
+    <string name="settings_voice_raise_to_talk_hint">Aktivizo ose çaktivizo nisjen e një thirrjeje përmes dëgjueses kur e ngre telefonin te veshi brenda një sesioni</string>
+    <string name="settings_voice_enable">Aktivizo zërin</string>
+    <string name="settings_voice_model">Modeli</string>
+    <string name="settings_voice_model_description">Modeli i zërit</string>
+    <string name="settings_voice_call_voice">Zëri</string>
+    <string name="settings_voice_raise_to_talk">Ngrije për të folur</string>
+    <string name="settings_voice_call_sounds">Tingujt e thirrjeve</string>
+    <string name="settings_voice_call_history">Historiku i thirrjeve</string>
+    <string name="settings_voice_edit_key_label">Redakto tastin tënd API për %1$s</string>
+    <string name="settings_voice_key_verified">I verifikuar</string>
+    <string name="settings_voice_key_checking">Po kontrollon…</string>
+    <string name="settings_voice_key_saved">I ruajtur</string>
+    <string name="settings_voice_key_missing">Mungon</string>
+    <string name="settings_voice_preview_disabled_hint">Shto tastin tënd për %1$s për të provuar zërat</string>
+
+    <!-- Voice › Voice Picker -->
+    <string name="settings_voice_picker_add_key_footer">Shto tastin tënd për %1$s për të provuar zërat.</string>
+    <string name="settings_voice_picker_unavailable_footer">%1$s nuk disponohet në %2$s, ndaj thirrjet përdorin %3$s.</string>
+    <string name="settings_voice_stop_preview_description">Ndalo provën e %1$s</string>
+    <string name="settings_voice_preview_description">Provo %1$s</string>
+    <string name="settings_voice_preview_playing">Po luhet</string>
+    <string name="settings_voice_call_voice_unavailable">%1$s · %2$s nuk disponohet</string>
+
+    <!-- Settings root -->
+    <string name="settings_whats_new_title">Çfarë ka të re</string>
+    <string name="settings_developer_title">Zhvilluesi</string>
+    <string name="settings_app_version">Versioni %1$s (%2$s)</string>
+    <string name="settings_app_version_commit">Versioni %1$s (%2$s) · %3$s</string>
+
+    <!-- Connection card -->
+    <string name="settings_connection_show_server_label">Trego serverin</string>
+    <string name="settings_connection_milliseconds">%1$d ms</string>
+    <string name="settings_connection_card_value_description">%1$s, %2$s, %3$s</string>
+    <string name="settings_connection_status_connected">I lidhur</string>
+    <string name="settings_connection_status_slow">I ngadaltë</string>
+    <string name="settings_connection_status_unstable">I paqëndrueshëm</string>
+    <string name="settings_connection_status_reconnecting">Po rilidhet</string>
+    <string name="settings_connection_status_offline">Jashtë linje</string>
+    <string name="settings_connection_status_sign_in_failed">Hyrja dështoi</string>
+    <string name="settings_connection_status_switching">Po ndërrohet</string>
+    <string name="settings_connection_status_switching_to">Po kalon te %1$s</string>
+    <string name="settings_connection_status_code">%1$s · %2$d</string>
+    <string name="settings_connection_status_http_description">%1$s, HTTP %2$d</string>
+    <plurals name="settings_connection_status_milliseconds_description">
+        <item quantity="one">%1$s, %2$d milisekondë</item>
+        <item quantity="other">%1$s, %2$d milisekonda</item>
+    </plurals>
+
+    <!-- Server page -->
+    <string name="settings_server_title">Serveri</string>
+    <string name="settings_server_address">Adresa</string>
+    <string name="settings_server_connection">Lidhja</string>
+    <string name="settings_server_version">Versioni</string>
+    <string name="settings_server_edit_server">Redakto serverin…</string>
+    <string name="settings_server_rename_server_ellipsis">Riemërto serverin…</string>
+    <string name="settings_server_rename_title">Riemërto serverin</string>
+    <string name="settings_server_rename_message">Vetëm ky %1$s e përdor emrin. Lëre bosh për “%2$s”.</string>
+    <string name="settings_server_status">Statusi</string>
+    <string name="settings_server_status_milliseconds">%1$s · %2$d ms</string>
+
+    <!-- Servers section -->
+    <string name="settings_servers_header">Serverët</string>
+    <string name="settings_servers_edit_server">Redakto %1$s…</string>
+    <string name="settings_servers_rename_message">Vetëm ky %1$s e përdor emrin. Lëre bosh për të përdorur emrin e kompjuterit.</string>
+    <string name="settings_servers_remove_title">Të hiqet %1$s?</string>
+    <string name="settings_servers_remove_message">Kjo fshin adresën dhe fjalëkalimin nga ky %1$s. Sesionet në server nuk preken.</string>
+    <string name="settings_servers_remove_server">Hiq serverin</string>
+    <string name="settings_servers_current_server_state">Serveri aktual, %1$s</string>
+    <string name="settings_servers_switch_label">Kalo te ky server</string>
+    <string name="settings_servers_options_description">Opsionet e %1$s</string>
+    <string name="settings_servers_rename_menu">Riemërto…</string>
+    <string name="settings_servers_edit_menu">Redakto…</string>
+    <string name="settings_servers_remove_menu">Hiq…</string>
+    <string name="settings_servers_add_server">Shto server</string>
+    <string name="settings_servers_scan_pairing_code">Skano kodin e çiftimit</string>
+    <string name="settings_servers_enter_address">Shkruaj adresën</string>
+
+    <!-- Pairing scanner -->
+    <string name="settings_pairing_paste">Ngjit</string>
+    <string name="settings_pairing_no_camera_title">Nuk ka kamerë të disponueshme</string>
+    <string name="settings_pairing_no_camera_message">Kopjo lidhjen që shfaq `opencode pair` në kompjuterin tënd, pastaj ngjite këtu.</string>
+    <string name="settings_pairing_camera_off_title">Qasja te kamera është çaktivizuar</string>
+    <string name="settings_pairing_camera_off_message">Lejo qasjen te kamera te Cilësimet për të skanuar kodin QR, ose ngjit lidhjen që shfaq `opencode pair`.</string>
+    <string name="settings_pairing_nothing_to_paste_title">Asgjë për të ngjitur</string>
+    <string name="settings_pairing_nothing_to_paste_message">Nuk ke lidhje çiftimi në kujtesën e fragmenteve. Kopjo lidhjen që shfaq opencode pair, pastaj provo sërish.</string>
+    <string name="settings_pairing_point_camera">Drejto kamerën nga kodi QR</string>
+    <string name="settings_pairing_paste_link">Ngjit lidhjen e çiftimit</string>
+    <string name="settings_pairing_computer_hint">Në kompjuterin tënd, hap Cilësimet → Çiftimi në OpenCode, ose ekzekuto %1$s në një terminal.</string>
+</resources>

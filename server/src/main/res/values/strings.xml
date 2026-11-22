@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Shell</string>
+    <string name="server_notice_source_subagent">Subagent</string>
+    <string name="server_notice_heading_finished">%1$s finished</string>
+    <string name="server_notice_heading_failed">%1$s failed</string>
+    <string name="server_notice_heading_interrupted">%1$s interrupted</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$d shell finished</item>
+        <item quantity="other">%1$d shells finished</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$d shell failed</item>
+        <item quantity="other">%1$d shells failed</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">%1$d shell interrupted</item>
+        <item quantity="other">%1$d shells interrupted</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">%1$d subagent finished</item>
+        <item quantity="other">%1$d subagents finished</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">%1$d subagent failed</item>
+        <item quantity="other">%1$d subagents failed</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">%1$d subagent interrupted</item>
+        <item quantity="other">%1$d subagents interrupted</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Compact</string>
+    <string name="server_run_error_action_switch_model">Switch Model</string>
+    <string name="server_run_error_aborted">Interrupted</string>
+    <string name="server_run_error_permission_rejected">Interrupted after a denied request</string>
+    <string name="server_run_error_content_filter">Safety filter blocked the reply</string>
+    <string name="server_run_error_rate_limit">Rate limit reached</string>
+    <string name="server_run_error_quota">Usage limit reached</string>
+    <string name="server_run_error_auth">The provider rejected its key</string>
+    <string name="server_run_error_context_overflow">Session too long for this model</string>
+    <string name="server_run_error_invalid_request">The provider rejected the request</string>
+    <string name="server_run_error_overloaded">The model is overloaded</string>
+    <string name="server_run_error_internal">The provider had a problem</string>
+    <string name="server_run_error_transport">Connection to the model dropped</string>
+    <string name="server_run_error_timeout">The model took too long to reply</string>
+    <string name="server_run_error_invalid_output">The model’s reply couldn’t be read</string>
+    <string name="server_run_error_unavailable">This model isn’t available</string>
+    <string name="server_run_error_unsupported_operation">This model can’t do that</string>
+    <string name="server_run_error_tool_execution">A tool failed and the run stopped</string>
+    <string name="server_run_error_other">The run stopped with an error</string>
+    <string name="server_run_retry_in_seconds">%1$s · retrying in %2$d s</string>
+    <string name="server_run_retry_now">%1$s · retrying</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">Couldn’t reach the OpenCode server</string>
+    <string name="server_error_folder_gone">The folder is gone</string>
+    <string name="server_error_uploads_unsupported">This server doesn’t support file attachments. Update OpenCode on your computer.</string>
+    <string name="server_error_archiving_unsupported">This server doesn’t support archiving. Update OpenCode on your computer.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode isn’t allowed to reach devices on your local network. Turn on Nearby devices for OpenCode in Settings, then try again.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Untitled session</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Shell</string>
+    <string name="server_tool_shell_killed">Shell was killed</string>
+    <string name="server_tool_shell_exit_code">Command exited with code %1$d</string>
+    <string name="server_notice_session_update">Session update</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Connection failed</string>
+    <string name="server_connection_resolved_address_unknown">Resolved address: Unknown</string>
+    <string name="server_connection_resolved_address">Resolved address (lookup after failure): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">This tailnet name resolved to an address outside Tailscale’s range, so Tailscale DNS may not be in use. In the Tailscale app, turn on Use Tailscale DNS settings, and turn off Private DNS or any DNS-changing VPN profile.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Local Network</string>
+    <string name="server_connection_route_loopback">Loopback</string>
+    <string name="server_connection_route_internet">Internet</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">isn’t a web address</string>
+    <string name="server_pairing_origin_bad_scheme">doesn’t start with http:// or https://</string>
+    <string name="server_pairing_origin_no_host">has no host name</string>
+    <string name="server_pairing_origin_credentials">includes a user name or password</string>
+    <string name="server_pairing_origin_query">has a query or fragment</string>
+    <string name="server_pairing_origin_port">has a port outside 1–65535</string>
+    <string name="server_pairing_origin_path">has a path, and the server must be at the root of its address</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Server</string>
+    <string name="server_friendly_name_numbered">Server %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">The connection dropped after the message was sent, so it may have arrived.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">This integration has no sign-in method.</string>
+    <string name="server_error_sign_in_url_invalid">The sign-in page address isn’t valid.</string>
+    <string name="server_error_load_server_details">Couldn’t load server details</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">This pairing code expired or was already used. Run `opencode pair --remote` again.</string>
+    <string name="server_error_pairing_unsupported">This server doesn’t support pairing links. Update OpenCode on your computer, or enter the server manually.</string>
+    <string name="server_error_notification_previews_need_https">Encrypted notification previews need an HTTPS server connection.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Enter a valid HTTP or HTTPS server URL.</string>
+    <string name="server_error_credentials_rejected">The server rejected these credentials.</string>
+    <string name="server_error_http_status">The server returned HTTP %1$d.</string>
+    <string name="server_error_event_stream_http">The event stream returned HTTP %1$d.</string>
+    <string name="server_error_event_stream_oversized_frame">The event stream sent an oversized frame.</string>
+    <string name="server_error_event_stream_ended">The event stream ended.</string>
+    <string name="server_error_event_stream_server_failure">The event stream reported a server failure.</string>
+    <string name="server_tool_failed">Tool failed</string>
+    <string name="server_error_list_folder">The server couldn’t list this folder</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Couldn’t load projects and sessions</string>
+    <string name="server_error_load_session_family">Couldn’t load the session family</string>
+    <string name="server_error_update_session">Couldn’t update the session</string>
+    <string name="server_error_load_session_ancestry">Couldn’t load active session ancestry</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Already answered elsewhere</string>
+    <string name="server_request_already_dismissed">Already dismissed</string>
+    <string name="server_request_already_answered">Already answered</string>
+    <string name="server_request_already_dismissed_elsewhere">Already dismissed elsewhere</string>
+    <string name="server_request_no_longer_waiting">No longer waiting</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Media unavailable</string>
+    <string name="server_pasted_text_title">Pasted Text</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d line · %2$s</item>
+        <item quantity="other">%1$d lines · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d line</item>
+        <item quantity="other">%1$d lines</item>
+    </plurals>
+    <string name="server_file_size_zero">Zero KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d byte</item>
+        <item quantity="other">%1$d bytes</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">Project</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">File</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Complete this step</string>
+    <string name="server_form_required">Required</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">Enter at least %1$d characters</item>
+        <item quantity="other">Enter at least %1$d characters</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">Enter no more than %1$d characters</item>
+        <item quantity="other">Enter no more than %1$d characters</item>
+    </plurals>
+    <string name="server_form_invalid_format">Invalid format</string>
+    <string name="server_form_choose_option">Choose an available option</string>
+    <string name="server_form_invalid_email">Enter a valid email</string>
+    <string name="server_form_invalid_url">Enter a valid URL</string>
+    <string name="server_form_invalid_date">Enter a date as YYYY-MM-DD</string>
+    <string name="server_form_invalid_date_time">Enter a valid date and time</string>
+    <string name="server_form_minimum">Must be at least %1$s</string>
+    <string name="server_form_maximum">Must be at most %1$s</string>
+    <string name="server_form_whole_number">Enter a whole number</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">Choose at least %1$d</item>
+        <item quantity="other">Choose at least %1$d</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">Choose no more than %1$d</item>
+        <item quantity="other">Choose no more than %1$d</item>
+    </plurals>
+    <string name="server_form_invalid_value">Invalid value</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Hide Selected</string>
+    <string name="server_model_visibility_only_show">Only Show Selected</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Off</string>
+    <string name="server_model_variant_extra_high">Extra High</string>
+    <string name="server_model_variant_max">Max</string>
+    <string name="server_delivery_steering">Steering</string>
+    <string name="server_delivery_queued">Queued</string>
+</resources>

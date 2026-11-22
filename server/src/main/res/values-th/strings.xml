@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">เชลล์</string>
+    <string name="server_notice_source_subagent">ตัวแทนย่อย</string>
+    <string name="server_notice_heading_finished">%1$s ทำงานเสร็จแล้ว</string>
+    <string name="server_notice_heading_failed">%1$s ล้มเหลว</string>
+    <string name="server_notice_heading_interrupted">%1$s ถูกขัดจังหวะ</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="other">เชลล์ %1$d รายการทำงานเสร็จแล้ว</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="other">เชลล์ %1$d รายการล้มเหลว</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="other">เชลล์ %1$d รายการถูกขัดจังหวะ</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="other">ตัวแทนย่อย %1$d ตัวทำงานเสร็จแล้ว</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="other">ตัวแทนย่อย %1$d ตัวล้มเหลว</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="other">ตัวแทนย่อย %1$d ตัวถูกขัดจังหวะ</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">บีบอัด</string>
+    <string name="server_run_error_action_switch_model">เปลี่ยนโมเดล</string>
+    <string name="server_run_error_aborted">ถูกขัดจังหวะ</string>
+    <string name="server_run_error_permission_rejected">ถูกขัดจังหวะหลังคำขอถูกปฏิเสธ</string>
+    <string name="server_run_error_content_filter">ตัวกรองความปลอดภัยบล็อกคำตอบ</string>
+    <string name="server_run_error_rate_limit">ถึงขีดจำกัดอัตราคำขอแล้ว</string>
+    <string name="server_run_error_quota">ถึงขีดจำกัดการใช้งานแล้ว</string>
+    <string name="server_run_error_auth">ผู้ให้บริการปฏิเสธคีย์ API</string>
+    <string name="server_run_error_context_overflow">เซสชันยาวเกินไปสำหรับโมเดลนี้</string>
+    <string name="server_run_error_invalid_request">ผู้ให้บริการปฏิเสธคำขอ</string>
+    <string name="server_run_error_overloaded">โมเดลมีภาระงานมากเกินไป</string>
+    <string name="server_run_error_internal">ผู้ให้บริการมีปัญหา</string>
+    <string name="server_run_error_transport">การเชื่อมต่อกับโมเดลหลุด</string>
+    <string name="server_run_error_timeout">โมเดลใช้เวลาตอบนานเกินไป</string>
+    <string name="server_run_error_invalid_output">อ่านคำตอบของโมเดลไม่ได้</string>
+    <string name="server_run_error_unavailable">โมเดลนี้ไม่พร้อมใช้งาน</string>
+    <string name="server_run_error_unsupported_operation">โมเดลนี้ทำแบบนั้นไม่ได้</string>
+    <string name="server_run_error_tool_execution">เครื่องมือล้มเหลวและการทำงานหยุดลง</string>
+    <string name="server_run_error_other">การทำงานหยุดลงเนื่องจากข้อผิดพลาด</string>
+    <string name="server_run_retry_in_seconds">%1$s · จะลองใหม่ใน %2$d วินาที</string>
+    <string name="server_run_retry_now">%1$s · กำลังลองใหม่</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">เชื่อมต่อเซิร์ฟเวอร์ OpenCode ไม่ได้</string>
+    <string name="server_error_folder_gone">ไม่มีโฟลเดอร์นี้แล้ว</string>
+    <string name="server_error_uploads_unsupported">เซิร์ฟเวอร์นี้ไม่รองรับไฟล์แนบ โปรดอัปเดต OpenCode บนคอมพิวเตอร์</string>
+    <string name="server_error_archiving_unsupported">เซิร์ฟเวอร์นี้ไม่รองรับการจัดเก็บ โปรดอัปเดต OpenCode บนคอมพิวเตอร์ของคุณ</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode ไม่ได้รับอนุญาตให้เชื่อมต่ออุปกรณ์ในเครือข่ายภายในของคุณ เปิดสิทธิ์อุปกรณ์ใกล้เคียงให้ OpenCode ในการตั้งค่า แล้วลองอีกครั้ง</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">เซสชันไม่มีชื่อ</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">เชลล์</string>
+    <string name="server_tool_shell_killed">เชลล์ถูกบังคับให้หยุด</string>
+    <string name="server_tool_shell_exit_code">คำสั่งจบการทำงานด้วยรหัส %1$d</string>
+    <string name="server_notice_session_update">อัปเดตเซสชัน</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">เชื่อมต่อไม่สำเร็จ</string>
+    <string name="server_connection_resolved_address_unknown">ที่อยู่ที่ค้นพบ: ไม่ทราบ</string>
+    <string name="server_connection_resolved_address">ที่อยู่ที่ค้นพบ (ค้นหาหลังเชื่อมต่อไม่สำเร็จ): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">ชื่อ tailnet นี้ชี้ไปยังที่อยู่นอกช่วงของ Tailscale จึงอาจไม่ได้ใช้ DNS ของ Tailscale ในแอป Tailscale ให้เปิดใช้การตั้งค่า DNS ของ Tailscale แล้วปิด DNS ส่วนตัวหรือโปรไฟล์ VPN ที่เปลี่ยน DNS</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">เครือข่ายภายใน</string>
+    <string name="server_connection_route_loopback">วนกลับในเครื่อง</string>
+    <string name="server_connection_route_internet">อินเทอร์เน็ต</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">ไม่ใช่ที่อยู่เว็บ</string>
+    <string name="server_pairing_origin_bad_scheme">ไม่ได้ขึ้นต้นด้วย http:// หรือ https://</string>
+    <string name="server_pairing_origin_no_host">ไม่มีชื่อโฮสต์</string>
+    <string name="server_pairing_origin_credentials">มีชื่อผู้ใช้หรือรหัสผ่าน</string>
+    <string name="server_pairing_origin_query">มีส่วนคำค้นหรือส่วนย่อย</string>
+    <string name="server_pairing_origin_port">มีพอร์ตนอกช่วง 1–65535</string>
+    <string name="server_pairing_origin_path">มีพาธ แต่เซิร์ฟเวอร์ต้องอยู่ที่รากของที่อยู่</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">เซิร์ฟเวอร์</string>
+    <string name="server_friendly_name_numbered">เซิร์ฟเวอร์ %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">การเชื่อมต่อหลุดหลังส่งข้อความ ข้อความจึงอาจส่งถึงแล้ว</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">การเชื่อมต่อบริการนี้ไม่มีวิธีลงชื่อเข้าใช้</string>
+    <string name="server_error_sign_in_url_invalid">ที่อยู่หน้าลงชื่อเข้าใช้ไม่ถูกต้อง</string>
+    <string name="server_error_load_server_details">โหลดรายละเอียดเซิร์ฟเวอร์ไม่ได้</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">รหัสจับคู่นี้หมดอายุหรือใช้ไปแล้ว เรียกใช้ `opencode pair --remote` อีกครั้ง</string>
+    <string name="server_error_pairing_unsupported">เซิร์ฟเวอร์นี้ไม่รองรับลิงก์จับคู่ อัปเดต OpenCode บนคอมพิวเตอร์ หรือป้อนข้อมูลเซิร์ฟเวอร์เอง</string>
+    <string name="server_error_notification_previews_need_https">ตัวอย่างการแจ้งเตือนที่เข้ารหัสต้องเชื่อมต่อเซิร์ฟเวอร์ผ่าน HTTPS</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">ป้อน URL เซิร์ฟเวอร์แบบ HTTP หรือ HTTPS ที่ถูกต้อง</string>
+    <string name="server_error_credentials_rejected">เซิร์ฟเวอร์ปฏิเสธข้อมูลเข้าสู่ระบบนี้</string>
+    <string name="server_error_http_status">เซิร์ฟเวอร์ส่งรหัส HTTP %1$d กลับมา</string>
+    <string name="server_error_event_stream_http">สตรีมเหตุการณ์ส่งรหัส HTTP %1$d กลับมา</string>
+    <string name="server_error_event_stream_oversized_frame">สตรีมเหตุการณ์ส่งเฟรมที่ใหญ่เกินไป</string>
+    <string name="server_error_event_stream_ended">สตรีมเหตุการณ์สิ้นสุดแล้ว</string>
+    <string name="server_error_event_stream_server_failure">สตรีมเหตุการณ์รายงานว่าเซิร์ฟเวอร์ล้มเหลว</string>
+    <string name="server_tool_failed">เครื่องมือทำงานล้มเหลว</string>
+    <string name="server_error_list_folder">เซิร์ฟเวอร์แสดงรายการในโฟลเดอร์นี้ไม่ได้</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">โหลดโปรเจกต์และเซสชันไม่ได้</string>
+    <string name="server_error_load_session_family">โหลดกลุ่มเซสชันไม่ได้</string>
+    <string name="server_error_update_session">อัปเดตเซสชันไม่ได้</string>
+    <string name="server_error_load_session_ancestry">โหลดลำดับเซสชันต้นทางของเซสชันที่ใช้งานอยู่ไม่ได้</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">ตอบจากที่อื่นแล้ว</string>
+    <string name="server_request_already_dismissed">ละทิ้งแล้ว</string>
+    <string name="server_request_already_answered">ตอบแล้ว</string>
+    <string name="server_request_already_dismissed_elsewhere">ละทิ้งจากที่อื่นแล้ว</string>
+    <string name="server_request_no_longer_waiting">ไม่ได้รอคำตอบแล้ว</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">สื่อไม่พร้อมใช้งาน</string>
+    <string name="server_pasted_text_title">ข้อความที่วาง</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="other">%1$d บรรทัด · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="other">%1$d บรรทัด</item>
+    </plurals>
+    <string name="server_file_size_zero">ศูนย์ KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="other">%1$d ไบต์</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">โปรเจกต์</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">ไฟล์</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">ทำขั้นตอนนี้ให้ครบ</string>
+    <string name="server_form_required">จำเป็น</string>
+    <plurals name="server_form_min_length">
+        <item quantity="other">ป้อนอย่างน้อย %1$d ตัวอักษร</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="other">ป้อนไม่เกิน %1$d ตัวอักษร</item>
+    </plurals>
+    <string name="server_form_invalid_format">รูปแบบไม่ถูกต้อง</string>
+    <string name="server_form_choose_option">เลือกตัวเลือกที่มี</string>
+    <string name="server_form_invalid_email">ป้อนอีเมลที่ถูกต้อง</string>
+    <string name="server_form_invalid_url">ป้อน URL ที่ถูกต้อง</string>
+    <string name="server_form_invalid_date">ป้อนวันที่ในรูปแบบ YYYY-MM-DD</string>
+    <string name="server_form_invalid_date_time">ป้อนวันที่และเวลาที่ถูกต้อง</string>
+    <string name="server_form_minimum">ต้องไม่น้อยกว่า %1$s</string>
+    <string name="server_form_maximum">ต้องไม่เกิน %1$s</string>
+    <string name="server_form_whole_number">ป้อนจำนวนเต็ม</string>
+    <plurals name="server_form_min_items">
+        <item quantity="other">เลือกอย่างน้อย %1$d รายการ</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="other">เลือกไม่เกิน %1$d รายการ</item>
+    </plurals>
+    <string name="server_form_invalid_value">ค่าไม่ถูกต้อง</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">ซ่อนที่เลือก</string>
+    <string name="server_model_visibility_only_show">แสดงเฉพาะที่เลือก</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">ปิด</string>
+    <string name="server_model_variant_extra_high">สูงเป็นพิเศษ</string>
+    <string name="server_model_variant_max">สูงสุด</string>
+    <string name="server_delivery_steering">ปรับทิศทาง</string>
+    <string name="server_delivery_queued">อยู่ในคิว</string>
+</resources>

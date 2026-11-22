@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Impossible d’ajouter les éléments partagés</string>
+    <string name="app_alert_open_session_failed_title">Impossible d’ouvrir la session</string>
+    <string name="app_alert_pairing_failed_title">Impossible de coupler le serveur</string>
+    <string name="app_pairing_confirm">Coupler</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Serveurs</string>
+    <string name="app_servers_back_description">Retour à %1$s</string>
+    <string name="app_server_fallback_name">serveur</string>
+    <string name="app_connection_intro_new">Poursuivez vos sessions de code depuis votre %1$s.</string>
+    <string name="app_connection_intro_returning">Reprenez là où vous en étiez ou couplez un autre ordinateur.</string>
+    <string name="app_connection_enter_manually">Saisir un serveur manuellement</string>
+    <string name="app_connection_scan_pairing_code">Scanner le code de couplage</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Sur votre ordinateur, ouvrez OpenCode et allez dans Paramètres → Couplage, ou exécutez opencode pair --remote dans un terminal. Scannez ensuite le code avec ce %1$s.</string>
+    <string name="app_setup_install_title">Pas encore OpenCode ?</string>
+    <string name="app_setup_other_ways_to_install">Autres méthodes d’installation</string>
+    <string name="app_setup_terminal_title">Ou exécutez ceci dans un terminal</string>
+    <string name="app_setup_terminal_detail">Cela fonctionne sur n’importe quel réseau.</string>
+    <string name="app_setup_paste_prompt">Ou copiez le lien affiché, puis</string>
+    <string name="app_setup_paste">Coller</string>
+    <string name="app_setup_copy_command_description">Copier %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Connexion en cours</string>
+    <string name="app_servers_edit_description">Modifier %1$s</string>
+    <string name="app_servers_remove_description">Supprimer %1$s</string>
+    <string name="app_servers_remove_confirm_title">Supprimer %1$s ?</string>
+    <string name="app_servers_remove_confirm_message">L’adresse et le mot de passe seront supprimés de ce %1$s. Les sessions sur le serveur ne seront pas affectées.</string>
+    <string name="app_servers_remove_confirm">Supprimer le serveur</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Étape : %1$s</string>
+    <string name="app_error_server">Serveur : %1$s</string>
+    <string name="app_error_attempt">Tentative : %1$d</string>
+    <string name="app_error_copy_report">Copier le rapport d’erreur</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Nouveau serveur</string>
+    <string name="app_server_form_edit_title">Modifier le serveur</string>
+    <string name="app_server_form_name">Nom</string>
+    <string name="app_server_form_address">URL du serveur</string>
+    <string name="app_server_form_username">Nom d’utilisateur</string>
+    <string name="app_server_form_password">Mot de passe (optionnel)</string>
+    <string name="app_server_form_hide_password_description">Masquer le mot de passe</string>
+    <string name="app_server_form_show_password_description">Afficher le mot de passe</string>
+    <string name="app_server_form_connect">Se connecter</string>
+    <string name="app_server_form_save_and_connect">Enregistrer et se connecter</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">En-têtes</string>
+    <string name="app_server_form_header_name">Nom</string>
+    <string name="app_server_form_header_name_description">Nom de l’en-tête %1$d</string>
+    <string name="app_server_form_header_value">Valeur</string>
+    <string name="app_server_form_header_value_description">Valeur de l’en-tête %1$d</string>
+    <string name="app_server_form_header_remove_description">Supprimer l’en-tête %1$d</string>
+    <string name="app_server_form_header_add">Ajouter un en-tête</string>
+    <string name="app_server_form_headers_detail">Envoyés avec chaque requête, pour un proxy placé devant le serveur, comme Cloudflare Access.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">« %1$s » n’est pas un nom d’en-tête valide</string>
+    <string name="app_server_form_header_invalid_value">La valeur de %1$s ne peut pas contenir de saut de ligne</string>
+    <string name="app_server_form_name_placeholder">Optionnel</string>
+    <string name="app_connection_progress_pairing">Couplage en cours</string>
+    <string name="app_connection_progress_connecting">Connexion en cours</string>
+    <string name="app_connection_progress_loading_sessions">Chargement des sessions</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Coupler avec %1$s ?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode essaiera %1$s et utilisera la première adresse qui répond.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode se couplera avec %1$s et s’y connectera.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode essaiera %1$s et %2$s et utilisera la première adresse qui répond.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode essaiera %1$s et %2$s et utilisera la première adresse qui répond.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Les identifiants enregistrés pour %2$s pourront être remplacés.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Couplage</string>
+    <string name="app_error_phase_connect">Se connecter</string>
+    <string name="app_error_phase_load_sessions">Charger les sessions</string>
+    <string name="app_error_candidate_detail">Adresse candidate %1$d : %2$s</string>
+    <string name="app_error_invalid_address">Indisponible (adresse invalide)</string>
+    <string name="app_error_title_pair">Impossible d’effectuer le couplage</string>
+    <string name="app_error_title_load_sessions">Impossible de charger les sessions</string>
+    <string name="app_error_title_connect">Impossible de se connecter à %1$s</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Votre presse-papiers est vide</string>
+    <string name="app_paste_not_a_pairing_link">Ce n’est pas un lien de couplage</string>
+    <string name="app_server_no_longer_saved">Ce serveur n’est plus enregistré sur ce %1$s. Reconnectez-vous pour ouvrir la session.</string>
+    <string name="app_session_no_longer_available">Elle a peut-être été supprimée, ou le serveur est indisponible.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Connecté à %1$s</string>
+    <string name="app_pairing_invalid_code">Ce n’est pas un code de couplage OpenCode. Exécutez opencode pair --remote sur votre ordinateur, puis scannez le code QR ou collez le lien affiché.</string>
+    <string name="app_pairing_unusable_address">Impossible d’utiliser « %1$s » dans ce code de couplage : l’adresse %2$s.</string>
+    <string name="app_pairing_loopback">Ce serveur écoute uniquement sur localhost : ce %1$s ne peut donc pas le joindre. Exécutez plutôt opencode pair --remote sur votre ordinateur pour vous connecter depuis n’importe quel réseau.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Le serveur destinataire du partage n’est plus enregistré sur cet appareil. Reconnectez-vous, puis réessayez le partage.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">dernière utilisation</string>
+    <string name="app_server_form_hint_new">Pour le couplage, collez le lien affiché par `opencode pair --remote`, ou utilisez l’adresse et le mot de passe de votre serveur OpenCode. Le nom d’utilisateur est généralement opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Les modifications seront enregistrées une fois le serveur connecté. Ce serveur a été couplé : son mot de passe est un jeton de session. Scannez un nouveau code de couplage au lieu de le modifier.</string>
+    <string name="app_server_form_hint_edit">Les modifications seront enregistrées une fois le serveur connecté.</string>
+</resources>

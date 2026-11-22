@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Komentotulkki</string>
+    <string name="server_notice_source_subagent">Aliagentti</string>
+    <string name="server_notice_heading_finished">%1$s valmistui</string>
+    <string name="server_notice_heading_failed">%1$s epäonnistui</string>
+    <string name="server_notice_heading_interrupted">%1$s keskeytettiin</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$d komentotulkki valmistui</item>
+        <item quantity="other">%1$d komentotulkkia valmistui</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$d komentotulkki epäonnistui</item>
+        <item quantity="other">%1$d komentotulkkia epäonnistui</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">%1$d komentotulkki keskeytettiin</item>
+        <item quantity="other">%1$d komentotulkkia keskeytettiin</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">%1$d aliagentti valmistui</item>
+        <item quantity="other">%1$d aliagenttia valmistui</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">%1$d aliagentti epäonnistui</item>
+        <item quantity="other">%1$d aliagenttia epäonnistui</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">%1$d aliagentti keskeytettiin</item>
+        <item quantity="other">%1$d aliagenttia keskeytettiin</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Tiivistä</string>
+    <string name="server_run_error_action_switch_model">Vaihda mallia</string>
+    <string name="server_run_error_aborted">Keskeytetty</string>
+    <string name="server_run_error_permission_rejected">Keskeytetty pyynnön hylkäämisen jälkeen</string>
+    <string name="server_run_error_content_filter">Turvasuodatin esti vastauksen</string>
+    <string name="server_run_error_rate_limit">Pyyntöraja saavutettu</string>
+    <string name="server_run_error_quota">Käyttöraja saavutettu</string>
+    <string name="server_run_error_auth">Palveluntarjoaja hylkäsi API-avaimen</string>
+    <string name="server_run_error_context_overflow">Istunto on liian pitkä tälle mallille</string>
+    <string name="server_run_error_invalid_request">Palveluntarjoaja hylkäsi pyynnön</string>
+    <string name="server_run_error_overloaded">Malli on ylikuormittunut</string>
+    <string name="server_run_error_internal">Palveluntarjoajalla ilmeni ongelma</string>
+    <string name="server_run_error_transport">Yhteys malliin katkesi</string>
+    <string name="server_run_error_timeout">Mallin vastaus viipyi liian kauan</string>
+    <string name="server_run_error_invalid_output">Mallin vastausta ei voitu lukea</string>
+    <string name="server_run_error_unavailable">Tämä malli ei ole käytettävissä</string>
+    <string name="server_run_error_unsupported_operation">Tämä malli ei pysty siihen</string>
+    <string name="server_run_error_tool_execution">Työkalu epäonnistui ja suoritus pysähtyi</string>
+    <string name="server_run_error_other">Suoritus pysähtyi virheeseen</string>
+    <string name="server_run_retry_in_seconds">%1$s · yritetään uudelleen %2$d s kuluttua</string>
+    <string name="server_run_retry_now">%1$s · yritetään uudelleen</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">OpenCode-palvelimeen ei saatu yhteyttä</string>
+    <string name="server_error_folder_gone">Kansiota ei enää ole</string>
+    <string name="server_error_uploads_unsupported">Tämä palvelin ei tue tiedostoliitteitä. Päivitä OpenCode tietokoneellasi.</string>
+    <string name="server_error_archiving_unsupported">Tämä palvelin ei tue arkistointia. Päivitä OpenCode tietokoneellasi.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode ei saa muodostaa yhteyttä lähiverkon laitteisiin. Salli OpenCodelle lähellä olevien laitteiden käyttö asetuksissa ja yritä uudelleen.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Nimetön istunto</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Komentotulkki</string>
+    <string name="server_tool_shell_killed">Komentotulkki lopetettiin</string>
+    <string name="server_tool_shell_exit_code">Komento päättyi koodilla %1$d</string>
+    <string name="server_notice_session_update">Istunnon päivitys</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Yhteyden muodostaminen epäonnistui</string>
+    <string name="server_connection_resolved_address_unknown">Selvitetty osoite: tuntematon</string>
+    <string name="server_connection_resolved_address">Selvitetty osoite (haku virheen jälkeen): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">Tämä tailnet-nimi osoitti Tailscalen osoitealueen ulkopuolelle, joten Tailscale-DNS ei ehkä ole käytössä. Ota Tailscale-sovelluksessa käyttöön Tailscalen DNS-asetukset ja poista käytöstä yksityinen DNS sekä DNS-asetuksia muuttavat VPN-profiilit.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Lähiverkko</string>
+    <string name="server_connection_route_loopback">Silmukkayhteys</string>
+    <string name="server_connection_route_internet">Internet</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">ei ole verkko-osoite</string>
+    <string name="server_pairing_origin_bad_scheme">ei ala merkkijonolla http:// tai https://</string>
+    <string name="server_pairing_origin_no_host">ei sisällä palvelinnimeä</string>
+    <string name="server_pairing_origin_credentials">sisältää käyttäjänimen tai salasanan</string>
+    <string name="server_pairing_origin_query">sisältää kyselyosan tai fragmentin</string>
+    <string name="server_pairing_origin_port">sisältää portin, joka ei ole välillä 1–65535</string>
+    <string name="server_pairing_origin_path">sisältää polun, mutta palvelimen on oltava osoitteensa juuressa</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Palvelin</string>
+    <string name="server_friendly_name_numbered">Palvelin %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">Yhteys katkesi viestin lähettämisen jälkeen, joten viesti saattoi mennä perille.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Tässä integraatiossa ei ole kirjautumistapaa.</string>
+    <string name="server_error_sign_in_url_invalid">Kirjautumissivun osoite on virheellinen.</string>
+    <string name="server_error_load_server_details">Palvelimen tietojen lataus epäonnistui</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">Tämä pariliitoskoodi on vanhentunut tai jo käytetty. Suorita `opencode pair --remote` uudelleen.</string>
+    <string name="server_error_pairing_unsupported">Tämä palvelin ei tue pariliitoslinkkejä. Päivitä OpenCode tietokoneellasi tai lisää palvelin käsin.</string>
+    <string name="server_error_notification_previews_need_https">Salatut ilmoitusten esikatselut vaativat HTTPS-yhteyden palvelimeen.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Anna kelvollinen palvelimen HTTP- tai HTTPS-URL-osoite.</string>
+    <string name="server_error_credentials_rejected">Palvelin hylkäsi nämä tunnistetiedot.</string>
+    <string name="server_error_http_status">Palvelin palautti HTTP-tilakoodin %1$d.</string>
+    <string name="server_error_event_stream_http">Tapahtumavirta palautti HTTP-tilakoodin %1$d.</string>
+    <string name="server_error_event_stream_oversized_frame">Tapahtumavirta lähetti liian suuren kehyksen.</string>
+    <string name="server_error_event_stream_ended">Tapahtumavirta päättyi.</string>
+    <string name="server_error_event_stream_server_failure">Tapahtumavirta ilmoitti palvelinvirheestä.</string>
+    <string name="server_tool_failed">Työkalu epäonnistui</string>
+    <string name="server_error_list_folder">Palvelin ei voinut luetella kansion sisältöä</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Projektien ja istuntojen lataus epäonnistui</string>
+    <string name="server_error_load_session_family">Istuntoperheen lataus epäonnistui</string>
+    <string name="server_error_update_session">Istunnon päivitys epäonnistui</string>
+    <string name="server_error_load_session_ancestry">Aktiivisen istunnon edeltäjien lataus epäonnistui</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Vastattu jo muualla</string>
+    <string name="server_request_already_dismissed">Jo hylätty</string>
+    <string name="server_request_already_answered">Jo vastattu</string>
+    <string name="server_request_already_dismissed_elsewhere">Hylätty jo muualla</string>
+    <string name="server_request_no_longer_waiting">Ei enää odota</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Media ei ole saatavilla</string>
+    <string name="server_pasted_text_title">Liitetty teksti</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d rivi · %2$s</item>
+        <item quantity="other">%1$d riviä · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d rivi</item>
+        <item quantity="other">%1$d riviä</item>
+    </plurals>
+    <string name="server_file_size_zero">0 kt</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d tavu</item>
+        <item quantity="other">%1$d tavua</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s kt</string>
+    <string name="server_file_size_megabytes">%1$s Mt</string>
+    <string name="server_file_size_gigabytes">%1$s Gt</string>
+    <string name="server_file_size_terabytes">%1$s Tt</string>
+    <string name="server_autocomplete_folder_project">Projekti</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Tiedosto</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Täytä tämä vaihe</string>
+    <string name="server_form_required">Pakollinen</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">Anna vähintään %1$d merkki</item>
+        <item quantity="other">Anna vähintään %1$d merkkiä</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">Anna enintään %1$d merkki</item>
+        <item quantity="other">Anna enintään %1$d merkkiä</item>
+    </plurals>
+    <string name="server_form_invalid_format">Virheellinen muoto</string>
+    <string name="server_form_choose_option">Valitse jokin saatavilla olevista vaihtoehdoista</string>
+    <string name="server_form_invalid_email">Anna kelvollinen sähköpostiosoite</string>
+    <string name="server_form_invalid_url">Anna kelvollinen URL-osoite</string>
+    <string name="server_form_invalid_date">Anna päivämäärä muodossa YYYY-MM-DD</string>
+    <string name="server_form_invalid_date_time">Anna kelvollinen päivämäärä ja aika</string>
+    <string name="server_form_minimum">Arvon on oltava vähintään %1$s</string>
+    <string name="server_form_maximum">Arvon on oltava enintään %1$s</string>
+    <string name="server_form_whole_number">Anna kokonaisluku</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">Valitse vähintään %1$d</item>
+        <item quantity="other">Valitse vähintään %1$d</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">Valitse enintään %1$d</item>
+        <item quantity="other">Valitse enintään %1$d</item>
+    </plurals>
+    <string name="server_form_invalid_value">Virheellinen arvo</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Piilota valitut</string>
+    <string name="server_model_visibility_only_show">Näytä vain valitut</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Pois käytöstä</string>
+    <string name="server_model_variant_extra_high">Erittäin korkea</string>
+    <string name="server_model_variant_max">Suurin</string>
+    <string name="server_delivery_steering">Ohjaus</string>
+    <string name="server_delivery_queued">Jonossa</string>
+</resources>

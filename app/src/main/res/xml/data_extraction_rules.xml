@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Backup and device transfer (minSdk 33, so no fullBackupContent). Mirrors iOS: every file-stored shared value sets
+  isExcludedFromBackup on its file and directory (Core/SharedKeys.swift), and the composer's
+  state and attachments do too (Composer/ComposerPersistence.swift), so Application Support
+  (filesDir/support: composer-state.json, ComposerAttachments/, snapshots) and Documents
+  (filesDir/documents) stay on this phone. Preferences (iOS UserDefaults) are backed up;
+  keychain items already live in noBackupFilesDir.
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="file" path="support/composer-state.json" />
+        <exclude domain="file" path="support/ComposerAttachments/" />
+        <exclude domain="file" path="support/" />
+        <exclude domain="file" path="documents/" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="file" path="support/composer-state.json" />
+        <exclude domain="file" path="support/ComposerAttachments/" />
+        <exclude domain="file" path="support/" />
+        <exclude domain="file" path="documents/" />
+    </device-transfer>
+</data-extraction-rules>

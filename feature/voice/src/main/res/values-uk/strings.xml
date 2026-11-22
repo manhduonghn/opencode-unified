@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Call ended and failure cards -->
+    <string name="voice_call_ended_title">Дзвінок завершено</string>
+    <string name="voice_call_ended_rejoin">Приєднатися знову</string>
+    <string name="voice_failure_title">Не вдалося підключити голос</string>
+    <string name="voice_failure_check_api_key">Перевірити ключ API</string>
+    <string name="voice_failure_start_title">Не вдалося почати дзвінок</string>
+
+    <!-- Floating call -->
+    <string name="voice_floating_expand">Розгорнути</string>
+    <string name="voice_floating_orb_description">Голосовий дзвінок</string>
+    <string name="voice_floating_orb_show_controls">Показати керування дзвінком</string>
+    <string name="voice_floating_end_description">Завершити голосовий дзвінок</string>
+    <string name="voice_floating_control_placeholder_state">Недоступно в цьому прототипі</string>
+    <string name="voice_floating_duration_description">Тривалість дзвінка</string>
+
+    <!-- Floating call stage -->
+    <string name="voice_stage_talking_in">Розмова в</string>
+    <string name="voice_stage_minimize_description">Згорнути</string>
+    <string name="voice_mute">Вимкнути мікрофон</string>
+    <string name="voice_unmute">Увімкнути мікрофон</string>
+    <string name="voice_stage_pause">Пауза</string>
+    <string name="voice_stage_camera">Камера</string>
+    <string name="voice_transcript_empty">Скажіть щось у своїй сесії.</string>
+    <string name="voice_transcript_you">Ви</string>
+    <string name="voice_transcript_user_line_description">Ви: %1$s</string>
+
+    <!-- Call rows: screen request -->
+    <string name="voice_screen_request_detail">Голосовий помічник хоче бачити ваш екран</string>
+    <string name="voice_screen_request_spoken">Потрібна ваша відповідь. Голосовий помічник хоче бачити ваш екран</string>
+    <string name="voice_screen_request_spoken_with_reason">Потрібна ваша відповідь. Голосовий помічник хоче бачити ваш екран. %1$s</string>
+    <string name="voice_screen_request_title">Поділитися екраном?</string>
+
+    <!-- Call rows: open link -->
+    <string name="voice_open_link_spoken">Потрібна ваша відповідь. %1$s</string>
+    <string name="voice_open_link_spoken_with_host">Потрібна ваша відповідь. %1$s %2$s</string>
+    <string name="voice_open_link_open">Відкрити</string>
+
+    <!-- Call rows: audio on the call -->
+    <string name="voice_audio_paused">На паузі</string>
+    <string name="voice_audio_playing">Відтворюється в дзвінку</string>
+    <string name="voice_audio_play">Відтворити аудіо</string>
+    <string name="voice_audio_pause">Призупинити аудіо</string>
+    <string name="voice_audio_stop">Зупинити аудіо</string>
+
+    <!-- Call history -->
+    <string name="voice_call_history_title">Історія дзвінків</string>
+    <string name="voice_call_history_options_description">Параметри історії</string>
+    <string name="voice_call_history_delete_all">Видалити все</string>
+    <string name="voice_call_history_empty_title">Голосових дзвінків ще немає</string>
+    <string name="voice_call_history_empty_message">Дзвінки зберігаються на цьому телефоні, щоб ви могли прослухати їх знову.</string>
+    <string name="voice_call_history_delete_all_confirm_title">Видалити всі голосові дзвінки?</string>
+
+    <!-- Call replay -->
+    <string name="voice_replay_timeline_description">Хронологія дзвінка</string>
+    <string name="voice_replay_timeline_state">%1$s із %2$s</string>
+    <string name="voice_replay_pause">Пауза</string>
+    <string name="voice_replay_play">Відтворити</string>
+    <string name="voice_replay_position_description">Позиція</string>
+    <string name="voice_replay_speed_description">Швидкість відтворення</string>
+    <string name="voice_replay_empty">Натисніть «Відтворити», щоб прослухати дзвінок.</string>
+
+    <!-- Call notification -->
+    <string name="voice_notification_channel_name">Дзвінки</string>
+    <string name="voice_notification_channel_description">Поточні дзвінки OpenCode</string>
+    <string name="voice_notification_connecting">Підключення…</string>
+    <string name="voice_notification_reconnecting">Повторне підключення…</string>
+    <string name="voice_notification_call_ended">Дзвінок завершено</string>
+    <string name="voice_notification_end">Завершити</string>
+    <!-- Call status caption -->
+    <string name="voice_status_connecting_via">Підключення через %1$s…</string>
+    <string name="voice_status_weak_connection">Слабке з’єднання</string>
+    <string name="voice_status_paused">На паузі</string>
+    <string name="voice_status_needs_input">Потрібна ваша відповідь</string>
+    <string name="voice_status_working">Працює</string>
+    <string name="voice_status_speaking">Говорить</string>
+    <string name="voice_status_muted">Мікрофон вимкнено</string>
+    <string name="voice_status_listening">Слухає</string>
+    <string name="voice_status_ending">Завершення…</string>
+    <string name="voice_status_ended">Завершено</string>
+    <string name="voice_session_new_title">Нова сесія</string>
+    <string name="voice_call_note_builtin_fallback">Для цього дзвінка використовується вбудований делегатор</string>
+
+    <!-- Floating call tag and spoken length -->
+    <string name="voice_floating_now_talking_in">Зараз розмова в %1$s</string>
+    <string name="voice_floating_spoken_duration">%1$s, %2$s</string>
+    <plurals name="voice_floating_spoken_minutes">
+        <item quantity="one">%1$d хвилина</item>
+        <item quantity="few">%1$d хвилини</item>
+        <item quantity="many">%1$d хвилин</item>
+        <item quantity="other">%1$d хвилини</item>
+    </plurals>
+    <plurals name="voice_floating_spoken_seconds">
+        <item quantity="one">%1$d секунда</item>
+        <item quantity="few">%1$d секунди</item>
+        <item quantity="many">%1$d секунд</item>
+        <item quantity="other">%1$d секунди</item>
+    </plurals>
+
+    <!-- Voice providers -->
+    <string name="voice_provider_state_ready">Готово</string>
+    <string name="voice_provider_state_no_key">Немає ключа</string>
+    <string name="voice_provider_state_needs_update">Оновіть OpenCode</string>
+    <string name="voice_provider_state_offline">Не в мережі</string>
+    <string name="voice_provider_place_phone">Цей телефон</string>
+    <string name="voice_provider_brand_openai_account">Ваш обліковий запис OpenAI</string>
+    <string name="voice_provider_name">%1$s на %2$s</string>
+    <string name="voice_provider_subtitle">На %1$s</string>
+    <string name="voice_provider_key_row_title">Ключ %1$s</string>
+    <string name="voice_provider_key_placeholder">Ключ API %1$s</string>
+
+    <!-- Voice key source -->
+    <string name="voice_key_source_server_row_title">Ключ на вашому сервері</string>
+    <string name="voice_key_source_phone_footer">Для дзвінків використовується ваш ключ OpenAI або xAI.</string>
+    <string name="voice_key_source_server_footer">Для дзвінків використовується ключ %1$s з вашого сервера.</string>
+    <string name="voice_key_source_opencode_footer">Оплата дзвінків стягується з вашого робочого простору OpenCode Console.</string>
+
+    <!-- Call failure fixes and diagnosis -->
+    <string name="voice_fix_set_up_on_phone">Налаштувати на цьому телефоні</string>
+    <string name="voice_fix_choose_provider">Вибрати провайдера</string>
+    <string name="voice_fix_update_opencode">Оновити OpenCode</string>
+    <string name="voice_diagnosis_needs_update">Для голосових дзвінків на %1$s потрібна новіша версія OpenCode.</string>
+    <string name="voice_diagnosis_your_server_needs_update">Для голосових дзвінків на вашому сервері потрібна новіша версія OpenCode.</string>
+    <string name="voice_diagnosis_no_key">На %1$s немає ключа для голосових дзвінків.</string>
+    <string name="voice_diagnosis_your_server_no_key">На вашому сервері немає ключа для голосових дзвінків.</string>
+    <string name="voice_diagnosis_unreachable">Не вдалося підключитися до %1$s.</string>
+    <string name="voice_diagnosis_your_server_unreachable">Не вдалося підключитися до вашого сервера.</string>
+    <string name="voice_diagnosis_failed">Не вдалося почати дзвінок через %1$s.</string>
+    <string name="voice_diagnosis_your_server_failed">Ваш сервер не зміг почати дзвінок.</string>
+    <string name="voice_diagnosis_key_rejected">OpenAI не прийняв ключ на цьому телефоні.</string>
+    <string name="voice_diagnosis_missing_phone_key">Додайте свій ключ API %1$s, щоб дзвонити з цього телефона.</string>
+
+    <!-- Call errors -->
+    <string name="voice_error_microphone_denied">Дозвольте доступ до мікрофона в налаштуваннях, щоб розмовляти зі своєю сесією.</string>
+    <string name="voice_error_audio_format_unavailable">Аудіоформат обладнання не підтримується.</string>
+    <string name="voice_error_audio_engine_rejected">Не вдалося запустити аудіо дзвінка. Спробуйте ще раз за мить.</string>
+    <string name="voice_error_server_unsupported">Для голосових дзвінків на цьому сервері потрібна новіша версія OpenCode</string>
+    <string name="voice_error_invalid_server_url">Не вдалося увімкнути голос: введіть коректний URL сервера з HTTP або HTTPS.</string>
+    <string name="voice_error_invalid_response">Не вдалося увімкнути голос: сервер повернув некоректну відповідь.</string>
+    <string name="voice_error_start_voice_detail">Не вдалося увімкнути голос: %1$s</string>
+    <string name="voice_error_start_voice_http">Не вдалося увімкнути голос (HTTP %1$d).</string>
+    <string name="voice_error_openai_rejected_key">OpenAI відхилив ключ API.</string>
+    <string name="voice_error_openai_verify_http">OpenAI не зміг перевірити цей ключ (HTTP %1$d).</string>
+    <string name="voice_error_no_connection">Немає підключення.</string>
+    <string name="voice_error_model_address_invalid">Некоректна адреса голосової моделі.</string>
+    <string name="voice_error_xai_rejected_key">xAI відхилив ключ API.</string>
+    <string name="voice_error_xai_verify_http">xAI не зміг перевірити цей ключ (HTTP %1$d).</string>
+    <string name="voice_error_xai_key_disabled">Цей ключ API xAI вимкнено.</string>
+    <string name="voice_error_xai_key_blocked">Цей ключ API xAI заблоковано.</string>
+    <string name="voice_error_service_address_invalid">Некоректна адреса голосового сервісу.</string>
+    <string name="voice_error_connection_lost">Голосове з’єднання втрачено.</string>
+    <string name="voice_error_connection_closed">Голосове з’єднання закрито.</string>
+    <string name="voice_error_connection_setup">Не вдалося встановити голосове з’єднання.</string>
+    <string name="voice_error_safety_filter">Фільтр безпеки завершив голосовий дзвінок.</string>
+    <string name="voice_error_audio_reset">Система скинула аудіо. Почніть дзвінок знову.</string>
+    <string name="voice_error_missing_phone_key">Додайте свій ключ API %1$s у налаштуваннях, щоб користуватися голосом.</string>
+
+    <!-- Voice accents -->
+    <string name="voice_accent_australian_english">Австралійська англійська</string>
+    <string name="voice_accent_british_english">Британська англійська</string>
+    <string name="voice_accent_irish_english">Ірландська англійська</string>
+    <string name="voice_accent_north_american_english">Північноамериканська англійська</string>
+    <string name="voice_accent_brazilian_portuguese">Бразильська португальська</string>
+    <string name="voice_accent_filipino_english">Філіппінська англійська</string>
+    <string name="voice_accent_southern_us_english">Англійська півдня США</string>
+    <string name="voice_accent_indian_english">Індійська англійська</string>
+    <string name="voice_preview_error">Не вдалося відтворити зразок</string>
+
+    <!-- Call sound packs -->
+    <string name="voice_sound_pack_breath_ping">Дзвінкий подих</string>
+    <string name="voice_sound_pack_crystal_glass">Кришталеве скло</string>
+    <string name="voice_sound_pack_warm_analog">Теплий аналоговий звук</string>
+    <string name="voice_sound_pack_aurora_pulse">Пульс сяйва</string>
+    <string name="voice_sound_pack_velvet_bell">Оксамитовий дзвін</string>
+    <string name="voice_sound_pack_silent">Без звуку</string>
+
+    <!-- Open link card -->
+    <string name="voice_open_link_card_title_untitled">Відкрити посилання?</string>
+    <string name="voice_open_link_card_title">Відкрити %1$s?</string>
+
+    <!-- Delegator choice -->
+    <string name="voice_delegator_session_fallback">Сесія</string>
+    <string name="voice_delegator_unavailable_gemini">Gemini Live передає завдання прямо в сесію на екрані. Щоб використовувати сесію OpenCode, виберіть OpenAI як голосового провайдера.</string>
+    <string name="voice_delegator_unavailable_engine">%1$s передає завдання прямо в сесію на екрані. Щоб використовувати сесію OpenCode, змініть голосову модель на GPT-Live.</string>
+
+    <!-- Call log list and replay -->
+    <string name="voice_call_log_duration_seconds">%1$d с</string>
+    <string name="voice_call_log_duration_minutes">%1$d хв %2$d с</string>
+    <string name="voice_replay_to_delegator">→ Делегатор</string>
+    <string name="voice_replay_to_voice">→ Голос</string>
+    <string name="voice_replay_audio">Аудіо</string>
+    <string name="voice_replay_track_user">Ви</string>
+    <string name="voice_replay_track_voice">Голос</string>
+    <string name="voice_replay_track_delegator">Делегатор</string>
+    <string name="voice_replay_track_tools">Інструменти</string>
+</resources>

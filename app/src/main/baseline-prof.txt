@@ -1,0 +1,51 @@
+# Hand-authored starter, not a measured/generated profile. Replace with a captured
+# non-debuggable, non-minified release journey (connect, open, stream, type, drawer).
+# Compose supplies its own library profile; these rules add the app's entry paths.
+# Class rules aid class loading; H/S/P are method flags, not class-rule prefixes.
+
+Lai/opencode/app/OpenCodeApplication;
+HSPLai/opencode/app/OpenCodeApplication;->onCreate()V
+Lai/opencode/app/MainActivity;
+HSPLai/opencode/app/MainActivity;->onCreate(Landroid/os/Bundle;)V
+Lai/opencode/app/AppViewKt**;
+HSPLai/opencode/app/AppViewKt**;->**(**)**
+
+# Home/session composition and drawer interaction (including generated lambdas).
+Lai/opencode/feature/drawer/HomeViewKt**;
+HPLai/opencode/feature/drawer/HomeViewKt**;->**(**)**
+Lai/opencode/feature/drawer/HomeViewDrawerKt**;
+HPLai/opencode/feature/drawer/HomeViewDrawerKt**;->**(**)**
+Lai/opencode/feature/drawer/container/SessionDrawerContainerKt**;
+HPLai/opencode/feature/drawer/container/SessionDrawerContainerKt**;->**(**)**
+Lai/opencode/feature/drawer/container/SessionDrawerController;
+HPLai/opencode/feature/drawer/container/SessionDrawerController;->**(**)**
+Lai/opencode/feature/drawer/list/DrawerListViewKt**;
+HPLai/opencode/feature/drawer/list/DrawerListViewKt**;->**(**)**
+Lai/opencode/feature/session/SessionViewKt**;
+HPLai/opencode/feature/session/SessionViewKt**;->**(**)**
+Lai/opencode/feature/session/SessionTranscriptViewKt**;
+HPLai/opencode/feature/session/SessionTranscriptViewKt**;->**(**)**
+
+# Transcript list, row composition and streamed markdown presentation.
+Lai/opencode/feature/transcript/TranscriptViewKt**;
+HPLai/opencode/feature/transcript/TranscriptViewKt**;->**(**)**
+Lai/opencode/feature/transcript/list/TranscriptListKt**;
+HPLai/opencode/feature/transcript/list/TranscriptListKt**;->**(**)**
+Lai/opencode/feature/transcript/rows/TranscriptEntryViewKt**;
+HPLai/opencode/feature/transcript/rows/TranscriptEntryViewKt**;->**(**)**
+Lai/opencode/feature/transcript/user/TranscriptMessageRowKt**;
+HPLai/opencode/feature/transcript/user/TranscriptMessageRowKt**;->**(**)**
+Lai/opencode/feature/transcript/markdown/ui/MarkdownBlocksViewKt**;
+HPLai/opencode/feature/transcript/markdown/ui/MarkdownBlocksViewKt**;->**(**)**
+Lai/opencode/feature/transcript/markdown/ui/MarkdownBlockViewKt**;
+HPLai/opencode/feature/transcript/markdown/ui/MarkdownBlockViewKt**;->**(**)**
+
+# Session-owned composer is the live input path; ComposerView is also used alone.
+Lai/opencode/feature/session/SessionViewComposerKt**;
+HPLai/opencode/feature/session/SessionViewComposerKt**;->**(**)**
+Lai/opencode/feature/session/SessionViewComposerControlsKt**;
+HPLai/opencode/feature/session/SessionViewComposerControlsKt**;->**(**)**
+Lai/opencode/feature/composer/ComposerViewKt**;
+HPLai/opencode/feature/composer/ComposerViewKt**;->**(**)**
+Lai/opencode/feature/composer/ComposerTextInputKt**;
+HPLai/opencode/feature/composer/ComposerTextInputKt**;->**(**)**

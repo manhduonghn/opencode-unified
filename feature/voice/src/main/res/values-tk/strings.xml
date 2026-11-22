@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Call ended and failure cards -->
+    <string name="voice_call_ended_title">Jaň tamamlandy</string>
+    <string name="voice_call_ended_rejoin">Täzeden goşul</string>
+    <string name="voice_failure_title">Sesi birikdirip bolmady</string>
+    <string name="voice_failure_check_api_key">API açaryny barlaň</string>
+    <string name="voice_failure_start_title">Jaňy başladyp bolmady</string>
+
+    <!-- Floating call -->
+    <string name="voice_floating_expand">Giňelt</string>
+    <string name="voice_floating_orb_description">Sesli jaň</string>
+    <string name="voice_floating_orb_show_controls">Jaňyň dolandyryşlaryny görkez</string>
+    <string name="voice_floating_end_description">Sesli jaňy tamamla</string>
+    <string name="voice_floating_control_placeholder_state">Bu prototipde elýeterli däl</string>
+    <string name="voice_floating_duration_description">Jaňyň dowamlylygy</string>
+
+    <!-- Floating call stage -->
+    <string name="voice_stage_talking_in">Gürleşilýän sessiýa</string>
+    <string name="voice_stage_minimize_description">Kiçelt</string>
+    <string name="voice_mute">Sesi öçür</string>
+    <string name="voice_unmute">Sesi aç</string>
+    <string name="voice_stage_pause">Sägin</string>
+    <string name="voice_stage_camera">Kamera</string>
+    <string name="voice_transcript_empty">Sessiýaňyza bir zat aýdyň.</string>
+    <string name="voice_transcript_you">Siz</string>
+    <string name="voice_transcript_user_line_description">Siz: %1$s</string>
+
+    <!-- Call rows: screen request -->
+    <string name="voice_screen_request_detail">Ses ekranyňyzy görmek isleýär</string>
+    <string name="voice_screen_request_spoken">Jogabyňyz gerek. Ses ekranyňyzy görmek isleýär</string>
+    <string name="voice_screen_request_spoken_with_reason">Jogabyňyz gerek. Ses ekranyňyzy görmek isleýär. %1$s</string>
+    <string name="voice_screen_request_title">Ekrany paýlaşmalymy?</string>
+
+    <!-- Call rows: open link -->
+    <string name="voice_open_link_spoken">Jogabyňyz gerek. %1$s</string>
+    <string name="voice_open_link_spoken_with_host">Jogabyňyz gerek. %1$s %2$s</string>
+    <string name="voice_open_link_open">Açyň</string>
+
+    <!-- Call rows: audio on the call -->
+    <string name="voice_audio_paused">Säginildi</string>
+    <string name="voice_audio_playing">Jaňda çalynýar</string>
+    <string name="voice_audio_play">Sesi aýtdyr</string>
+    <string name="voice_audio_pause">Sesi sägindir</string>
+    <string name="voice_audio_stop">Sesi duruz</string>
+
+    <!-- Call history -->
+    <string name="voice_call_history_title">Jaň taryhy</string>
+    <string name="voice_call_history_options_description">Taryh sazlamalary</string>
+    <string name="voice_call_history_delete_all">Hemmesini poz</string>
+    <string name="voice_call_history_empty_title">Entek sesli jaň ýok</string>
+    <string name="voice_call_history_empty_message">Gaýtadan diňläp bilmegiňiz üçin jaňlar bu telefonda saklanýar.</string>
+    <string name="voice_call_history_delete_all_confirm_title">Ähli sesli jaňlar pozulsynmy?</string>
+
+    <!-- Call replay -->
+    <string name="voice_replay_timeline_description">Jaňyň wagt çyzgysy</string>
+    <string name="voice_replay_timeline_state">%2$s içinden %1$s</string>
+    <string name="voice_replay_pause">Sägin</string>
+    <string name="voice_replay_play">Aýtdyr</string>
+    <string name="voice_replay_position_description">Ýeri</string>
+    <string name="voice_replay_speed_description">Aýtdyryş tizligi</string>
+    <string name="voice_replay_empty">Jaňy gaýtadan diňlemek üçin Aýtdyr düwmesine basyň.</string>
+
+    <!-- Call notification -->
+    <string name="voice_notification_channel_name">Jaňlar</string>
+    <string name="voice_notification_channel_description">Dowam edýän OpenCode jaňlary</string>
+    <string name="voice_notification_connecting">Birikdirilýär…</string>
+    <string name="voice_notification_reconnecting">Täzeden birikdirilýär…</string>
+    <string name="voice_notification_call_ended">Jaň tamamlandy</string>
+    <string name="voice_notification_end">Tamamla</string>
+    <!-- Call status caption -->
+    <string name="voice_status_connecting_via">%1$s arkaly birikdirilýär…</string>
+    <string name="voice_status_weak_connection">Gowşak baglanyşyk</string>
+    <string name="voice_status_paused">Säginildi</string>
+    <string name="voice_status_needs_input">Jogabyňyz gerek</string>
+    <string name="voice_status_working">Işleýär</string>
+    <string name="voice_status_speaking">Gepleýär</string>
+    <string name="voice_status_muted">Sesi öçürilen</string>
+    <string name="voice_status_listening">Diňleýär</string>
+    <string name="voice_status_ending">Tamamlanýar…</string>
+    <string name="voice_status_ended">Tamamlandy</string>
+    <string name="voice_session_new_title">Täze sessiýa</string>
+    <string name="voice_call_note_builtin_fallback">Bu jaňda içerki iş tabşyryjy ulanylýar</string>
+
+    <!-- Floating call tag and spoken length -->
+    <string name="voice_floating_now_talking_in">Häzir %1$s sessiýasynda gürleşilýär</string>
+    <string name="voice_floating_spoken_duration">%1$s, %2$s</string>
+    <plurals name="voice_floating_spoken_minutes">
+        <item quantity="one">%1$d minut</item>
+        <item quantity="other">%1$d minut</item>
+    </plurals>
+    <plurals name="voice_floating_spoken_seconds">
+        <item quantity="one">%1$d sekunt</item>
+        <item quantity="other">%1$d sekunt</item>
+    </plurals>
+
+    <!-- Voice providers -->
+    <string name="voice_provider_state_ready">Taýýar</string>
+    <string name="voice_provider_state_no_key">Açar ýok</string>
+    <string name="voice_provider_state_needs_update">OpenCode-y täzeläň</string>
+    <string name="voice_provider_state_offline">Oflaýn</string>
+    <string name="voice_provider_place_phone">Bu telefon</string>
+    <string name="voice_provider_brand_openai_account">OpenAI hasabyňyz</string>
+    <string name="voice_provider_name">%2$s-daky %1$s</string>
+    <string name="voice_provider_subtitle">%1$s-da</string>
+    <string name="voice_provider_key_row_title">%1$s açary</string>
+    <string name="voice_provider_key_placeholder">%1$s API açary</string>
+
+    <!-- Voice key source -->
+    <string name="voice_key_source_server_row_title">Serweriňizdäki açar</string>
+    <string name="voice_key_source_phone_footer">Jaňlar öz OpenAI ýa-da xAI açaryňyzy ulanýar.</string>
+    <string name="voice_key_source_server_footer">Jaňlar serweriňiziň %1$s açaryny ulanýar.</string>
+    <string name="voice_key_source_opencode_footer">Jaňlaryň tölegi OpenCode Console iş giňişligiňiziň hasabyna ýazylýar.</string>
+
+    <!-- Call failure fixes and diagnosis -->
+    <string name="voice_fix_set_up_on_phone">Bu telefonda sazla</string>
+    <string name="voice_fix_choose_provider">Üpjün edijini saýlaň</string>
+    <string name="voice_fix_update_opencode">OpenCode-y täzeläň</string>
+    <string name="voice_diagnosis_needs_update">%1$s üçin sesli jaňlara OpenCode-yň has täze wersiýasy gerek.</string>
+    <string name="voice_diagnosis_your_server_needs_update">Serweriňize sesli jaňlar üçin OpenCode-yň has täze wersiýasy gerek.</string>
+    <string name="voice_diagnosis_no_key">%1$s üçin sesli jaň açary ýok.</string>
+    <string name="voice_diagnosis_your_server_no_key">Serweriňizde sesli jaňlar üçin açar ýok.</string>
+    <string name="voice_diagnosis_unreachable">%1$s bilen birigip bolmady.</string>
+    <string name="voice_diagnosis_your_server_unreachable">Serweriňiz bilen birigip bolmady.</string>
+    <string name="voice_diagnosis_failed">%1$s jaňy başladyp bilmedi.</string>
+    <string name="voice_diagnosis_your_server_failed">Serweriňiz jaňy başladyp bilmedi.</string>
+    <string name="voice_diagnosis_key_rejected">OpenAI bu telefondaky açary kabul etmedi.</string>
+    <string name="voice_diagnosis_missing_phone_key">Bu telefondan jaň etmek üçin %1$s API açaryňyzy goşuň.</string>
+
+    <!-- Call errors -->
+    <string name="voice_error_microphone_denied">Sessiýaňyz bilen gürleşmek üçin Sazlamalarda mikrofony ulanmaga rugsat beriň.</string>
+    <string name="voice_error_audio_format_unavailable">Ses enjamynyň formaty goldanylmaýar.</string>
+    <string name="voice_error_audio_engine_rejected">Jaňyň sesini başladyp bolmady. Birazdan täzeden synanyşyň.</string>
+    <string name="voice_error_server_unsupported">Bu serwere sesli jaňlar üçin OpenCode-yň has täze wersiýasy gerek</string>
+    <string name="voice_error_invalid_server_url">Sesi başladyp bolmady: Dogry HTTP ýa-da HTTPS serwer URL-sini giriziň.</string>
+    <string name="voice_error_invalid_response">Sesi başladyp bolmady: Serwer nädogry jogap gaýtardy.</string>
+    <string name="voice_error_start_voice_detail">Sesi başladyp bolmady: %1$s</string>
+    <string name="voice_error_start_voice_http">Sesi başladyp bolmady (HTTP %1$d).</string>
+    <string name="voice_error_openai_rejected_key">OpenAI API açaryny kabul etmedi.</string>
+    <string name="voice_error_openai_verify_http">OpenAI bu açary barlap bilmedi (HTTP %1$d).</string>
+    <string name="voice_error_no_connection">Baglanyşyk ýok.</string>
+    <string name="voice_error_model_address_invalid">Ses modeliniň salgysy nädogry.</string>
+    <string name="voice_error_xai_rejected_key">xAI API açaryny kabul etmedi.</string>
+    <string name="voice_error_xai_verify_http">xAI bu açary barlap bilmedi (HTTP %1$d).</string>
+    <string name="voice_error_xai_key_disabled">Bu xAI API açary öçürilen.</string>
+    <string name="voice_error_xai_key_blocked">Bu xAI API açary petiklenen.</string>
+    <string name="voice_error_service_address_invalid">Ses hyzmatynyň salgysy nädogry.</string>
+    <string name="voice_error_connection_lost">Ses baglanyşygy kesildi.</string>
+    <string name="voice_error_connection_closed">Ses baglanyşygy ýapyldy.</string>
+    <string name="voice_error_connection_setup">Ses baglanyşygyny gurup bolmady.</string>
+    <string name="voice_error_safety_filter">Howpsuzlyk süzgüji sesli jaňy tamamlady.</string>
+    <string name="voice_error_audio_reset">Ulgam ses sazlamalaryny täzeden düzdi. Jaňy täzeden başlaň.</string>
+    <string name="voice_error_missing_phone_key">Sesi ulanmak üçin Sazlamalarda %1$s API açaryňyzy goşuň.</string>
+
+    <!-- Voice accents -->
+    <string name="voice_accent_australian_english">Awstraliýa iňlisçesi</string>
+    <string name="voice_accent_british_english">Britaniýa iňlisçesi</string>
+    <string name="voice_accent_irish_english">Irlandiýa iňlisçesi</string>
+    <string name="voice_accent_north_american_english">Demirgazyk Amerika iňlisçesi</string>
+    <string name="voice_accent_brazilian_portuguese">Braziliýa portugalçasy</string>
+    <string name="voice_accent_filipino_english">Filippin iňlisçesi</string>
+    <string name="voice_accent_southern_us_english">ABŞ-nyň günortasynyň iňlisçesi</string>
+    <string name="voice_accent_indian_english">Hindistan iňlisçesi</string>
+    <string name="voice_preview_error">Deslapky sesi aýtdyryp bolmady</string>
+
+    <!-- Call sound packs -->
+    <string name="voice_sound_pack_breath_ping">Dem jaňy</string>
+    <string name="voice_sound_pack_crystal_glass">Kristal aýna</string>
+    <string name="voice_sound_pack_warm_analog">Ýyly analog</string>
+    <string name="voice_sound_pack_aurora_pulse">Şapak urgusy</string>
+    <string name="voice_sound_pack_velvet_bell">Mahmal jaň</string>
+    <string name="voice_sound_pack_silent">Sessiz</string>
+
+    <!-- Open link card -->
+    <string name="voice_open_link_card_title_untitled">Baglanyşygy açmalymy?</string>
+    <string name="voice_open_link_card_title">%1$s açmalymy?</string>
+
+    <!-- Delegator choice -->
+    <string name="voice_delegator_session_fallback">Sessiýa</string>
+    <string name="voice_delegator_unavailable_gemini">Gemini Live işi göni ekrandaky sessiýa tabşyrýar. OpenCode sessiýasyny ulanmak üçin OpenAI ses üpjün edijisini saýlaň.</string>
+    <string name="voice_delegator_unavailable_engine">%1$s işi göni ekrandaky sessiýa tabşyrýar. OpenCode sessiýasyny ulanmak üçin ses modelini GPT-Live-a çalşyň.</string>
+
+    <!-- Call log list and replay -->
+    <string name="voice_call_log_duration_seconds">%1$d s</string>
+    <string name="voice_call_log_duration_minutes">%1$d min %2$d s</string>
+    <string name="voice_replay_to_delegator">→ Iş tabşyryja</string>
+    <string name="voice_replay_to_voice">→ Sese</string>
+    <string name="voice_replay_audio">Ses</string>
+    <string name="voice_replay_track_user">Siz</string>
+    <string name="voice_replay_track_voice">Ses</string>
+    <string name="voice_replay_track_delegator">Iş tabşyryjy</string>
+    <string name="voice_replay_track_tools">Gurallar</string>
+</resources>

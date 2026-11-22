@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Không thể thêm mục được chia sẻ</string>
+    <string name="app_alert_open_session_failed_title">Không thể mở phiên</string>
+    <string name="app_alert_pairing_failed_title">Không thể ghép cặp với máy chủ</string>
+    <string name="app_pairing_confirm">Ghép cặp</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Máy chủ</string>
+    <string name="app_servers_back_description">Quay lại %1$s</string>
+    <string name="app_server_fallback_name">máy chủ</string>
+    <string name="app_connection_intro_new">Tiếp tục các phiên lập trình trên %1$s của bạn.</string>
+    <string name="app_connection_intro_returning">Tiếp tục từ chỗ đã dừng hoặc ghép cặp với máy tính khác.</string>
+    <string name="app_connection_enter_manually">Nhập máy chủ thủ công</string>
+    <string name="app_connection_scan_pairing_code">Quét mã ghép cặp</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Trên máy tính, mở OpenCode rồi vào Cài đặt → Ghép cặp, hoặc chạy opencode pair --remote trong terminal. Sau đó dùng %1$s này để quét mã.</string>
+    <string name="app_setup_install_title">Bạn chưa có OpenCode?</string>
+    <string name="app_setup_other_ways_to_install">Cách cài đặt khác</string>
+    <string name="app_setup_terminal_title">Hoặc chạy lệnh này trong terminal</string>
+    <string name="app_setup_terminal_detail">Dùng được trên mọi mạng.</string>
+    <string name="app_setup_paste_prompt">Hoặc sao chép liên kết được in ra, rồi</string>
+    <string name="app_setup_paste">Dán</string>
+    <string name="app_setup_copy_command_description">Sao chép %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Đang kết nối</string>
+    <string name="app_servers_edit_description">Chỉnh sửa %1$s</string>
+    <string name="app_servers_remove_description">Xóa %1$s</string>
+    <string name="app_servers_remove_confirm_title">Xóa %1$s?</string>
+    <string name="app_servers_remove_confirm_message">Địa chỉ và mật khẩu đã lưu trên %1$s này sẽ bị xóa. Các phiên trên máy chủ không bị ảnh hưởng.</string>
+    <string name="app_servers_remove_confirm">Xóa máy chủ</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Giai đoạn: %1$s</string>
+    <string name="app_error_server">Máy chủ: %1$s</string>
+    <string name="app_error_attempt">Lần thử: %1$d</string>
+    <string name="app_error_copy_report">Sao chép báo cáo lỗi</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Máy chủ mới</string>
+    <string name="app_server_form_edit_title">Chỉnh sửa máy chủ</string>
+    <string name="app_server_form_name">Tên</string>
+    <string name="app_server_form_address">Địa chỉ máy chủ</string>
+    <string name="app_server_form_username">Tên người dùng</string>
+    <string name="app_server_form_password">Mật khẩu (tùy chọn)</string>
+    <string name="app_server_form_hide_password_description">Ẩn mật khẩu</string>
+    <string name="app_server_form_show_password_description">Hiện mật khẩu</string>
+    <string name="app_server_form_connect">Kết nối</string>
+    <string name="app_server_form_save_and_connect">Lưu và kết nối</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Tiêu đề</string>
+    <string name="app_server_form_header_name">Tên</string>
+    <string name="app_server_form_header_name_description">Tên tiêu đề %1$d</string>
+    <string name="app_server_form_header_value">Giá trị</string>
+    <string name="app_server_form_header_value_description">Giá trị tiêu đề %1$d</string>
+    <string name="app_server_form_header_remove_description">Xóa tiêu đề %1$d</string>
+    <string name="app_server_form_header_add">Thêm tiêu đề</string>
+    <string name="app_server_form_headers_detail">Được gửi kèm mọi yêu cầu, dành cho proxy đứng trước máy chủ như Cloudflare Access.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">“%1$s” không phải tên tiêu đề hợp lệ</string>
+    <string name="app_server_form_header_invalid_value">Giá trị của %1$s không được chứa ký tự xuống dòng</string>
+    <string name="app_server_form_name_placeholder">Tùy chọn</string>
+    <string name="app_connection_progress_pairing">Đang ghép cặp</string>
+    <string name="app_connection_progress_connecting">Đang kết nối</string>
+    <string name="app_connection_progress_loading_sessions">Đang tải phiên</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Ghép cặp với %1$s?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode sẽ thử %1$s và chuyển sang địa chỉ phản hồi đầu tiên.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode sẽ ghép cặp với %1$s và chuyển sang đó.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode sẽ thử %1$s và %2$s rồi chuyển sang địa chỉ phản hồi đầu tiên.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode sẽ thử %1$s và %2$s rồi chuyển sang địa chỉ phản hồi đầu tiên.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Thông tin đăng nhập đã lưu cho %2$s có thể bị thay thế.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Ghép cặp</string>
+    <string name="app_error_phase_connect">Kết nối</string>
+    <string name="app_error_phase_load_sessions">Tải phiên</string>
+    <string name="app_error_candidate_detail">Phương án %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Không có sẵn (địa chỉ không hợp lệ)</string>
+    <string name="app_error_title_pair">Không thể ghép cặp</string>
+    <string name="app_error_title_load_sessions">Không thể tải phiên</string>
+    <string name="app_error_title_connect">Không thể kết nối với %1$s</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Bảng tạm của bạn trống</string>
+    <string name="app_paste_not_a_pairing_link">Đó không phải liên kết ghép cặp</string>
+    <string name="app_server_no_longer_saved">Máy chủ này không còn được lưu trên %1$s này. Kết nối lại để mở phiên.</string>
+    <string name="app_session_no_longer_available">Phiên có thể đã bị xóa hoặc máy chủ không có sẵn.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Đã kết nối với %1$s</string>
+    <string name="app_pairing_invalid_code">Đó không phải mã ghép cặp OpenCode. Chạy opencode pair --remote trên máy tính, rồi quét mã QR hoặc dán liên kết được in ra.</string>
+    <string name="app_pairing_unusable_address">Không thể dùng “%1$s” từ mã ghép cặp này vì địa chỉ này %2$s.</string>
+    <string name="app_pairing_loopback">Máy chủ đó chỉ lắng nghe trên localhost nên %1$s này không thể kết nối. Hãy chạy opencode pair --remote trên máy tính để kết nối từ bất kỳ mạng nào.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Máy chủ bạn đã chia sẻ đến không còn được lưu trên thiết bị này. Hãy kết nối lại rồi chia sẻ lần nữa.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">dùng lần cuối</string>
+    <string name="app_server_form_hint_new">Dán liên kết do `opencode pair --remote` in ra để ghép cặp, hoặc dùng địa chỉ và mật khẩu của máy chủ OpenCode. Tên người dùng thường là opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Thay đổi sẽ được lưu khi kết nối với máy chủ này. Máy chủ đã được ghép cặp nên mật khẩu là mã thông báo phiên; hãy quét mã ghép cặp mới thay vì đổi mật khẩu.</string>
+    <string name="app_server_form_hint_edit">Thay đổi sẽ được lưu khi kết nối với máy chủ này.</string>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Не успеа додавањето споделени ставки</string>
+    <string name="app_alert_open_session_failed_title">Не успеа отворањето на сесијата</string>
+    <string name="app_alert_pairing_failed_title">Не успеа спарувањето со серверот</string>
+    <string name="app_pairing_confirm">Спари</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Сервери</string>
+    <string name="app_servers_back_description">Назад кон %1$s</string>
+    <string name="app_server_fallback_name">сервер</string>
+    <string name="app_connection_intro_new">Продолжи со кодирањето од твојот %1$s.</string>
+    <string name="app_connection_intro_returning">Продолжи каде што застана или спари друг компјутер.</string>
+    <string name="app_connection_enter_manually">Внеси сервер рачно</string>
+    <string name="app_connection_scan_pairing_code">Скенирај код за спарување</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">На компјутерот, отвори OpenCode и оди во Поставки → Спарување или изврши opencode pair --remote во терминал. Потоа скенирај го кодот со овој %1$s.</string>
+    <string name="app_setup_install_title">Сè уште немаш OpenCode?</string>
+    <string name="app_setup_other_ways_to_install">Други начини за инсталирање</string>
+    <string name="app_setup_terminal_title">Или изврши го ова во терминал</string>
+    <string name="app_setup_terminal_detail">Работи од секоја мрежа.</string>
+    <string name="app_setup_paste_prompt">Или копирај ја прикажаната врска, па</string>
+    <string name="app_setup_paste">Залепи</string>
+    <string name="app_setup_copy_command_description">Копирај %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Се поврзува</string>
+    <string name="app_servers_edit_description">Уреди %1$s</string>
+    <string name="app_servers_remove_description">Отстрани %1$s</string>
+    <string name="app_servers_remove_confirm_title">Да се отстрани %1$s?</string>
+    <string name="app_servers_remove_confirm_message">Адресата и лозинката ќе се избришат од овој %1$s. Сесиите на серверот нема да се променат.</string>
+    <string name="app_servers_remove_confirm">Отстрани сервер</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Фаза: %1$s</string>
+    <string name="app_error_server">Сервер: %1$s</string>
+    <string name="app_error_attempt">Обид: %1$d</string>
+    <string name="app_error_copy_report">Копирај извештај за грешката</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Нов сервер</string>
+    <string name="app_server_form_edit_title">Уреди сервер</string>
+    <string name="app_server_form_name">Име</string>
+    <string name="app_server_form_address">Адреса на серверот</string>
+    <string name="app_server_form_username">Корисничко име</string>
+    <string name="app_server_form_password">Лозинка (изборно)</string>
+    <string name="app_server_form_hide_password_description">Сокриј лозинка</string>
+    <string name="app_server_form_show_password_description">Прикажи лозинка</string>
+    <string name="app_server_form_connect">Поврзи се</string>
+    <string name="app_server_form_save_and_connect">Зачувај и поврзи се</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Заглавија</string>
+    <string name="app_server_form_header_name">Име</string>
+    <string name="app_server_form_header_name_description">Име на заглавие %1$d</string>
+    <string name="app_server_form_header_value">Вредност</string>
+    <string name="app_server_form_header_value_description">Вредност на заглавие %1$d</string>
+    <string name="app_server_form_header_remove_description">Отстрани заглавие %1$d</string>
+    <string name="app_server_form_header_add">Додадете заглавие</string>
+    <string name="app_server_form_headers_detail">Се испраќаат со секое барање, за посредник пред серверот како Cloudflare Access.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">„%1$s“ не е важечко име на заглавие</string>
+    <string name="app_server_form_header_invalid_value">Вредноста на %1$s не смее да содржи нов ред</string>
+    <string name="app_server_form_name_placeholder">Изборно</string>
+    <string name="app_connection_progress_pairing">Се спарува</string>
+    <string name="app_connection_progress_connecting">Се поврзува</string>
+    <string name="app_connection_progress_loading_sessions">Се вчитуваат сесии</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Да се спари со %1$s?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode ќе проба со %1$s и ќе се префрли на првата адреса што ќе одговори.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode ќе се спари со %1$s и ќе се префрли на него.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode ќе проба со %1$s и %2$s и ќе се префрли на првата адреса што ќе одговори.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode ќе проба со %1$s и %2$s и ќе се префрли на првата адреса што ќе одговори.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Зачуваните податоци за најава за %2$s може да се заменат.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Спарување</string>
+    <string name="app_error_phase_connect">Поврзи се</string>
+    <string name="app_error_phase_load_sessions">Вчитај сесии</string>
+    <string name="app_error_candidate_detail">Кандидат %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Недостапно (неважечка адреса)</string>
+    <string name="app_error_title_pair">Не успеа спарувањето</string>
+    <string name="app_error_title_load_sessions">Не успеа вчитувањето на сесиите</string>
+    <string name="app_error_title_connect">Не успеа поврзувањето со %1$s</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Таблата со исечоци е празна</string>
+    <string name="app_paste_not_a_pairing_link">Тоа не е врска за спарување</string>
+    <string name="app_server_no_longer_saved">Овој сервер повеќе не е зачуван на овој %1$s. Поврзи се повторно со него за да ја отвориш сесијата.</string>
+    <string name="app_session_no_longer_available">Можеби е избришана или серверот не е достапен.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Поврзано со %1$s</string>
+    <string name="app_pairing_invalid_code">Тоа не е код за спарување со OpenCode. Изврши opencode pair --remote на компјутерот, па скенирај го QR кодот или залепи ја прикажаната врска.</string>
+    <string name="app_pairing_unusable_address">Не може да се користи „%1$s“ од овој код за спарување: %2$s.</string>
+    <string name="app_pairing_loopback">Тој сервер слуша само на localhost, па не е достапен од овој %1$s. Наместо тоа, изврши opencode pair --remote на компјутерот, што работи од секоја мрежа.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Серверот на кој сподели повеќе не е зачуван на овој уред. Поврзи се повторно со него, па сподели повторно.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">последно користен</string>
+    <string name="app_server_form_hint_new">За спарување, залепи ја врската што ја прикажува `opencode pair --remote` или користи ги адресата и лозинката на твојот OpenCode сервер. Корисничкото име обично е opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Промените се зачувуваат кога серверот ќе се поврзе. Овој сервер е спарен, па лозинката е токен на сесијата; скенирај нов код за спарување наместо да ја менуваш.</string>
+    <string name="app_server_form_hint_edit">Промените се зачувуваат кога серверот ќе се поврзе.</string>
+</resources>

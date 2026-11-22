@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">Оболочка</string>
+    <string name="server_notice_source_subagent">Субагент</string>
+    <string name="server_notice_heading_finished">%1$s: работа завершена</string>
+    <string name="server_notice_heading_failed">%1$s: ошибка</string>
+    <string name="server_notice_heading_interrupted">%1$s: работа прервана</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="one">%1$d оболочка: работа завершена</item>
+        <item quantity="few">%1$d оболочки: работа завершена</item>
+        <item quantity="many">%1$d оболочек: работа завершена</item>
+        <item quantity="other">%1$d оболочки: работа завершена</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="one">%1$d оболочка: ошибка</item>
+        <item quantity="few">%1$d оболочки: ошибка</item>
+        <item quantity="many">%1$d оболочек: ошибка</item>
+        <item quantity="other">%1$d оболочки: ошибка</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="one">%1$d оболочка: работа прервана</item>
+        <item quantity="few">%1$d оболочки: работа прервана</item>
+        <item quantity="many">%1$d оболочек: работа прервана</item>
+        <item quantity="other">%1$d оболочки: работа прервана</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="one">Завершил работу %1$d субагент</item>
+        <item quantity="few">Завершили работу %1$d субагента</item>
+        <item quantity="many">Завершили работу %1$d субагентов</item>
+        <item quantity="other">Завершили работу %1$d субагента</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="one">Ошибка у %1$d субагента</item>
+        <item quantity="few">Ошибка у %1$d субагентов</item>
+        <item quantity="many">Ошибка у %1$d субагентов</item>
+        <item quantity="other">Ошибка у %1$d субагента</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="one">Прерван %1$d субагент</item>
+        <item quantity="few">Прерваны %1$d субагента</item>
+        <item quantity="many">Прервано %1$d субагентов</item>
+        <item quantity="other">Прервано %1$d субагента</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">Сжать сессию</string>
+    <string name="server_run_error_action_switch_model">Сменить модель</string>
+    <string name="server_run_error_aborted">Прервано</string>
+    <string name="server_run_error_permission_rejected">Прервано после отказа в разрешении</string>
+    <string name="server_run_error_content_filter">Фильтр безопасности заблокировал ответ</string>
+    <string name="server_run_error_rate_limit">Достигнут лимит частоты запросов</string>
+    <string name="server_run_error_quota">Достигнут лимит использования</string>
+    <string name="server_run_error_auth">Провайдер отклонил ключ API</string>
+    <string name="server_run_error_context_overflow">Сессия слишком длинная для этой модели</string>
+    <string name="server_run_error_invalid_request">Провайдер отклонил запрос</string>
+    <string name="server_run_error_overloaded">Модель перегружена</string>
+    <string name="server_run_error_internal">У провайдера возникла ошибка</string>
+    <string name="server_run_error_transport">Соединение с моделью прервано</string>
+    <string name="server_run_error_timeout">Время ожидания ответа модели истекло</string>
+    <string name="server_run_error_invalid_output">Не удалось прочитать ответ модели</string>
+    <string name="server_run_error_unavailable">Эта модель недоступна</string>
+    <string name="server_run_error_unsupported_operation">Эта модель так не умеет</string>
+    <string name="server_run_error_tool_execution">Работа остановлена из-за ошибки инструмента</string>
+    <string name="server_run_error_other">Работа остановлена из-за ошибки</string>
+    <string name="server_run_retry_in_seconds">%1$s · повтор через %2$d с</string>
+    <string name="server_run_retry_now">%1$s · повтор</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">Не удалось подключиться к серверу OpenCode</string>
+    <string name="server_error_folder_gone">Папка больше не существует</string>
+    <string name="server_error_uploads_unsupported">Этот сервер не поддерживает вложения файлов. Обновите OpenCode на компьютере.</string>
+    <string name="server_error_archiving_unsupported">Этот сервер не поддерживает архивацию. Обновите OpenCode на компьютере.</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">У OpenCode нет доступа к устройствам в локальной сети. В настройках разрешите OpenCode доступ к устройствам поблизости и попробуйте снова.</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">Сессия без названия</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">Оболочка</string>
+    <string name="server_tool_shell_killed">Оболочка принудительно завершена</string>
+    <string name="server_tool_shell_exit_code">Команда завершилась с кодом %1$d</string>
+    <string name="server_notice_session_update">Обновление сессии</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">Не удалось подключиться</string>
+    <string name="server_connection_resolved_address_unknown">Определённый адрес: неизвестно</string>
+    <string name="server_connection_resolved_address">Определённый адрес (проверка после сбоя): %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">Это имя в сети Tailscale разрешилось в адрес вне диапазона Tailscale. Возможно, DNS Tailscale не используется. В приложении Tailscale включите использование настроек DNS Tailscale, а также отключите частный DNS и профили VPN, меняющие DNS.</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">Локальная сеть</string>
+    <string name="server_connection_route_loopback">Петлевой интерфейс</string>
+    <string name="server_connection_route_internet">Интернет</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">не является веб-адресом</string>
+    <string name="server_pairing_origin_bad_scheme">не начинается с http:// или https://</string>
+    <string name="server_pairing_origin_no_host">не содержит имени хоста</string>
+    <string name="server_pairing_origin_credentials">содержит имя пользователя или пароль</string>
+    <string name="server_pairing_origin_query">содержит параметры запроса или фрагмент</string>
+    <string name="server_pairing_origin_port">содержит порт вне диапазона 1–65535</string>
+    <string name="server_pairing_origin_path">содержит путь, а сервер должен находиться в корне адреса</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">Сервер</string>
+    <string name="server_friendly_name_numbered">Сервер %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">Соединение прервалось после отправки сообщения. Возможно, оно уже доставлено.</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">Для этой интеграции нет способа входа.</string>
+    <string name="server_error_sign_in_url_invalid">Некорректный адрес страницы входа.</string>
+    <string name="server_error_load_server_details">Не удалось загрузить сведения о сервере</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">Этот код сопряжения истёк или уже использован. Снова выполните `opencode pair --remote`.</string>
+    <string name="server_error_pairing_unsupported">Этот сервер не поддерживает ссылки для сопряжения. Обновите OpenCode на компьютере или добавьте сервер вручную.</string>
+    <string name="server_error_notification_previews_need_https">Для зашифрованного предпросмотра уведомлений нужно подключение к серверу по HTTPS.</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">Введите корректный URL сервера с HTTP или HTTPS.</string>
+    <string name="server_error_credentials_rejected">Сервер отклонил эти учётные данные.</string>
+    <string name="server_error_http_status">Сервер вернул HTTP %1$d.</string>
+    <string name="server_error_event_stream_http">Поток событий вернул HTTP %1$d.</string>
+    <string name="server_error_event_stream_oversized_frame">Поток событий отправил слишком большой кадр.</string>
+    <string name="server_error_event_stream_ended">Поток событий завершён.</string>
+    <string name="server_error_event_stream_server_failure">Поток событий сообщил об ошибке сервера.</string>
+    <string name="server_tool_failed">Ошибка инструмента</string>
+    <string name="server_error_list_folder">Сервер не смог получить содержимое этой папки</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">Не удалось загрузить проекты и сессии</string>
+    <string name="server_error_load_session_family">Не удалось загрузить связанные сессии</string>
+    <string name="server_error_update_session">Не удалось обновить сессию</string>
+    <string name="server_error_load_session_ancestry">Не удалось загрузить родительские сессии активной сессии</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">Ответ уже дан в другом месте</string>
+    <string name="server_request_already_dismissed">Уже отклонено</string>
+    <string name="server_request_already_answered">Ответ уже дан</string>
+    <string name="server_request_already_dismissed_elsewhere">Уже отклонено в другом месте</string>
+    <string name="server_request_no_longer_waiting">Ответ больше не ожидается</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">Медиафайл недоступен</string>
+    <string name="server_pasted_text_title">Вставленный текст</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="one">%1$d строка · %2$s</item>
+        <item quantity="few">%1$d строки · %2$s</item>
+        <item quantity="many">%1$d строк · %2$s</item>
+        <item quantity="other">%1$d строки · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="one">%1$d строка</item>
+        <item quantity="few">%1$d строки</item>
+        <item quantity="many">%1$d строк</item>
+        <item quantity="other">%1$d строки</item>
+    </plurals>
+    <string name="server_file_size_zero">0 КБ</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="one">%1$d байт</item>
+        <item quantity="few">%1$d байта</item>
+        <item quantity="many">%1$d байт</item>
+        <item quantity="other">%1$d байта</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s КБ</string>
+    <string name="server_file_size_megabytes">%1$s МБ</string>
+    <string name="server_file_size_gigabytes">%1$s ГБ</string>
+    <string name="server_file_size_terabytes">%1$s ТБ</string>
+    <string name="server_autocomplete_folder_project">Проект</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">Файл</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">Завершите этот шаг</string>
+    <string name="server_form_required">Обязательное поле</string>
+    <plurals name="server_form_min_length">
+        <item quantity="one">Введите хотя бы %1$d символ</item>
+        <item quantity="few">Введите хотя бы %1$d символа</item>
+        <item quantity="many">Введите хотя бы %1$d символов</item>
+        <item quantity="other">Введите хотя бы %1$d символа</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="one">Введите не более %1$d символа</item>
+        <item quantity="few">Введите не более %1$d символов</item>
+        <item quantity="many">Введите не более %1$d символов</item>
+        <item quantity="other">Введите не более %1$d символа</item>
+    </plurals>
+    <string name="server_form_invalid_format">Неверный формат</string>
+    <string name="server_form_choose_option">Выберите доступный вариант</string>
+    <string name="server_form_invalid_email">Введите корректный адрес эл. почты</string>
+    <string name="server_form_invalid_url">Введите корректный URL</string>
+    <string name="server_form_invalid_date">Введите дату в формате YYYY-MM-DD</string>
+    <string name="server_form_invalid_date_time">Введите корректные дату и время</string>
+    <string name="server_form_minimum">Значение должно быть не меньше %1$s</string>
+    <string name="server_form_maximum">Значение должно быть не больше %1$s</string>
+    <string name="server_form_whole_number">Введите целое число</string>
+    <plurals name="server_form_min_items">
+        <item quantity="one">Выберите не менее %1$d</item>
+        <item quantity="few">Выберите не менее %1$d</item>
+        <item quantity="many">Выберите не менее %1$d</item>
+        <item quantity="other">Выберите не менее %1$d</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="one">Выберите не более %1$d</item>
+        <item quantity="few">Выберите не более %1$d</item>
+        <item quantity="many">Выберите не более %1$d</item>
+        <item quantity="other">Выберите не более %1$d</item>
+    </plurals>
+    <string name="server_form_invalid_value">Недопустимое значение</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">Скрыть выбранные</string>
+    <string name="server_model_visibility_only_show">Показать только выбранные</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">Выключено</string>
+    <string name="server_model_variant_extra_high">Очень высокий</string>
+    <string name="server_model_variant_max">Максимальный</string>
+    <string name="server_delivery_steering">Корректировка</string>
+    <string name="server_delivery_queued">В очереди</string>
+</resources>

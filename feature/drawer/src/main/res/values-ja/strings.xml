@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Catch Up -->
+    <plurals name="drawer_catch_up_remaining">
+        <item quantity="other">残り%1$d件</item>
+    </plurals>
+    <string name="drawer_catch_up_leave_description">未読の確認を終了</string>
+    <string name="drawer_catch_up_keep_unread">未読のままにする</string>
+    <string name="drawer_catch_up_undo">元に戻す</string>
+    <string name="drawer_catch_up_title">未読を確認</string>
+    <string name="drawer_catch_up_all_caught_up">すべて確認しました</string>
+    <string name="drawer_catch_up_swipe_mark_read">既読に\nする</string>
+    <string name="drawer_catch_up_swipe_keep_unread">未読の\nままにする</string>
+
+    <!-- Drawer container -->
+    <string name="drawer_close_description">セッション一覧を閉じる</string>
+
+    <!-- Drawer footer and delete confirmation -->
+    <string name="drawer_delete_session_title">「%1$s」を削除しますか？</string>
+    <string name="drawer_delete_session_message">サーバーからセッションが削除され、すべてのクライアントで利用できなくなります。</string>
+    <string name="drawer_new_session">新しいセッション</string>
+    <string name="drawer_start_voice_call_description">音声通話を開始</string>
+
+    <!-- Archived page -->
+    <string name="drawer_archived">アーカイブ済み</string>
+    <string name="drawer_archived_search_placeholder">アーカイブを検索</string>
+    <string name="drawer_archived_empty">アーカイブ済みのセッションはありません</string>
+    <string name="drawer_no_results">結果なし</string>
+
+    <!-- Session row actions -->
+    <string name="drawer_row_selected">選択済み</string>
+    <string name="drawer_row_not_selected">未選択</string>
+    <string name="drawer_row_select_action">選択</string>
+    <string name="drawer_pin">ピン留め</string>
+    <string name="drawer_unpin">ピン留めを解除</string>
+    <string name="drawer_mark_as_read">既読にする</string>
+    <string name="drawer_mark_as_unread">未読にする</string>
+    <string name="drawer_mute">ミュート</string>
+    <string name="drawer_unmute">ミュートを解除</string>
+    <string name="drawer_hide">非表示</string>
+    <string name="drawer_unhide">再表示</string>
+    <string name="drawer_move_up">上に移動</string>
+    <string name="drawer_move_down">下に移動</string>
+
+    <!-- Section headers, shortcut rows and list footer -->
+    <string name="drawer_section_pinned">ピン留め済み</string>
+    <string name="drawer_section_recents">最近使用</string>
+    <plurals name="drawer_catch_up_session_count">
+        <item quantity="other">%1$d件のセッション</item>
+    </plurals>
+    <string name="drawer_catch_up_open_action">未読や入力待ちのセッションをスワイプで確認</string>
+    <string name="drawer_mark_all_read">すべて既読にする</string>
+    <string name="drawer_whats_new">新着情報</string>
+    <string name="drawer_whats_new_hide">非表示</string>
+    <string name="drawer_empty_title">セッションがありません</string>
+    <string name="drawer_empty_message">「新しいセッション」から始めましょう。</string>
+    <string name="drawer_search_no_results_title">「%1$s」の検索結果はありません</string>
+    <string name="drawer_search_no_results_message">入力を確認するか、別の言葉で検索してください。</string>
+    <string name="drawer_load_more_description">セッションをさらに読み込み中</string>
+    <string name="drawer_load_more_failed">セッションを追加で読み込めませんでした</string>
+
+    <!-- Selection bar -->
+    <string name="drawer_selection_cancel_description">選択をキャンセル</string>
+    <plurals name="drawer_selection_count">
+        <item quantity="other">%1$d件を選択中</item>
+    </plurals>
+    <string name="drawer_selection_more_options_description">その他のオプション</string>
+    <plurals name="drawer_delete_sessions_title">
+        <item quantity="other">%1$d件のセッションを削除しますか？</item>
+    </plurals>
+    <string name="drawer_delete_sessions_message">サーバーからこれらのセッションが削除され、すべてのクライアントで利用できなくなります。</string>
+
+    <!-- Inbox Sidebar -->
+    <string name="drawer_inbox_needs_input">入力が必要です</string>
+    <string name="drawer_inbox_working">作業中</string>
+    <string name="drawer_inbox_unread">未読</string>
+
+    <!-- Drawer button -->
+    <string name="drawer_button_open_sessions_description">セッション一覧を開く</string>
+    <string name="drawer_button_attention_state">入力が必要なセッションがあります</string>
+    <string name="drawer_button_unread_state">未読のセッション</string>
+    <string name="drawer_notice_open_sessions_action">セッション一覧を開く</string>
+    <string name="drawer_notice_open_session_action">セッションを開く</string>
+
+    <!-- Search pill -->
+    <string name="drawer_search_description">セッションを検索</string>
+    <string name="drawer_search_cancel_description">検索をキャンセル</string>
+
+    <!-- Pin drop zone -->
+    <string name="drawer_drop_to_pin">ドロップしてピン留め</string>
+
+    <!-- Server title -->
+    <string name="drawer_server_connecting_state">接続中</string>
+    <string name="drawer_server_edit">サーバーを編集…</string>
+    <string name="drawer_server_manage">サーバーを管理…</string>
+    <string name="drawer_server_reconnecting_state">再接続中</string>
+    <string name="drawer_server_sign_in_failed">サインインに失敗しました</string>
+    <string name="drawer_server_offline">オフライン</string>
+    <string name="drawer_server_connecting_to_state">%1$sに接続中</string>
+    <string name="drawer_server_show_servers_hint">サーバー一覧を表示</string>
+    <string name="drawer_server_offer_edit_hint">サーバーの編集を提案</string>
+    <string name="drawer_server_offer_try_again_hint">再試行を提案</string>
+
+    <!-- Server flow: switch-back note and server menu status -->
+    <string name="drawer_server_switched_back_title">%1$sに戻りました</string>
+    <string name="drawer_server_timed_out_detail">%1$sから%2$s秒以内に応答がありませんでした</string>
+    <string name="drawer_server_unreachable_detail">%1$sに接続できませんでした</string>
+    <string name="drawer_server_sign_in_failed_detail">%1$sにサインインできませんでした</string>
+    <string name="drawer_server_pair_again">再ペアリング</string>
+    <string name="drawer_server_menu_connected">接続済み</string>
+    <string name="drawer_server_menu_connecting">接続中…</string>
+    <string name="drawer_server_menu_unreachable">接続不可</string>
+
+    <!-- Row selection menu -->
+    <string name="drawer_archive">アーカイブ</string>
+    <string name="drawer_unarchive">アーカイブを解除</string>
+    <string name="drawer_open_in_new_window">新しいウィンドウで開く</string>
+
+    <!-- Session row state for TalkBack -->
+    <string name="drawer_row_pinned_state">ピン留め済み</string>
+    <string name="drawer_row_muted_state">ミュート中</string>
+    <string name="drawer_row_hidden_state">非表示</string>
+    <string name="drawer_row_needs_input_state">入力が必要です</string>
+    <string name="drawer_row_working_state">作業中</string>
+    <string name="drawer_row_unread_state">未読</string>
+    <string name="drawer_row_unsent_failed_state">送信できませんでした</string>
+    <string name="drawer_row_unsent_sending_state">送信中</string>
+
+    <!-- Errors -->
+    <string name="drawer_notifications_request_error">権限をリクエストできませんでした。もう一度試してください。</string>
+    <string name="drawer_notifications_open_settings_error">設定を開けませんでした。Androidの設定を開き、通知 → OpenCodeを選んでください。</string>
+    <string name="drawer_delete_session_error">「%1$s」を削除できませんでした</string>
+    <plurals name="drawer_delete_sessions_error">
+        <item quantity="other">%1$d件のセッションを削除できませんでした</item>
+    </plurals>
+    <string name="drawer_archive_error">「%1$s」をアーカイブできませんでした</string>
+    <plurals name="drawer_archive_sessions_error">
+        <item quantity="other">%1$d件のセッションをアーカイブできませんでした</item>
+    </plurals>
+    <string name="drawer_unarchive_error">「%1$s」のアーカイブを解除できませんでした</string>
+    <plurals name="drawer_unarchive_sessions_error">
+        <item quantity="other">%1$d件のセッションのアーカイブを解除できませんでした</item>
+    </plurals>
+
+    <!-- Session activity notification -->
+    <string name="drawer_session_activity_new_session">新しいセッション</string>
+
+    <!-- Inbox ages and row dates -->
+    <string name="drawer_age_now">たった今</string>
+    <plurals name="drawer_age_minutes">
+        <item quantity="other">%1$d分前</item>
+    </plurals>
+    <plurals name="drawer_age_hours">
+        <item quantity="other">%1$d時間前</item>
+    </plurals>
+    <plurals name="drawer_age_days">
+        <item quantity="other">%1$d日前</item>
+    </plurals>
+    <string name="drawer_date_yesterday">昨日</string>
+
+    <!-- Appearance settings transcript preview -->
+    <string name="drawer_appearance_preview_user_text">セッション画面の改善を手伝って。気づいた点を教えて、変更内容を説明して。</string>
+    <string name="drawer_appearance_preview_assistant_text">`SessionView.swift`にレイアウトの問題が見つかりました。会話履歴と入力欄が画面の高さを分け合うため、キーボードを表示するとレイアウトの崩れを確認しやすくなります。</string>
+</resources>

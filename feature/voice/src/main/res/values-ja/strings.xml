@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Call ended and failure cards -->
+    <string name="voice_call_ended_title">通話が終了しました</string>
+    <string name="voice_call_ended_rejoin">再参加</string>
+    <string name="voice_failure_title">音声に接続できませんでした</string>
+    <string name="voice_failure_check_api_key">APIキーを確認</string>
+    <string name="voice_failure_start_title">通話を開始できませんでした</string>
+
+    <!-- Floating call -->
+    <string name="voice_floating_expand">展開</string>
+    <string name="voice_floating_orb_description">音声通話</string>
+    <string name="voice_floating_orb_show_controls">通話の操作ボタンを表示</string>
+    <string name="voice_floating_end_description">音声通話を終了</string>
+    <string name="voice_floating_control_placeholder_state">この試作版では利用できません</string>
+    <string name="voice_floating_duration_description">通話時間</string>
+
+    <!-- Floating call stage -->
+    <string name="voice_stage_talking_in">通話先</string>
+    <string name="voice_stage_minimize_description">最小化</string>
+    <string name="voice_mute">ミュート</string>
+    <string name="voice_unmute">ミュートを解除</string>
+    <string name="voice_stage_pause">一時停止</string>
+    <string name="voice_stage_camera">カメラ</string>
+    <string name="voice_transcript_empty">セッションに話しかけてみましょう。</string>
+    <string name="voice_transcript_you">あなた</string>
+    <string name="voice_transcript_user_line_description">あなた：%1$s</string>
+
+    <!-- Call rows: screen request -->
+    <string name="voice_screen_request_detail">画面の共有を求めています</string>
+    <string name="voice_screen_request_spoken">確認が必要です。画面の共有を求めています</string>
+    <string name="voice_screen_request_spoken_with_reason">確認が必要です。画面の共有を求めています。%1$s</string>
+    <string name="voice_screen_request_title">画面を共有しますか？</string>
+
+    <!-- Call rows: open link -->
+    <string name="voice_open_link_spoken">確認が必要です。%1$s</string>
+    <string name="voice_open_link_spoken_with_host">確認が必要です。%1$s %2$s</string>
+    <string name="voice_open_link_open">開く</string>
+
+    <!-- Call rows: audio on the call -->
+    <string name="voice_audio_paused">一時停止中</string>
+    <string name="voice_audio_playing">通話で再生中</string>
+    <string name="voice_audio_play">音声を再生</string>
+    <string name="voice_audio_pause">音声を一時停止</string>
+    <string name="voice_audio_stop">音声を停止</string>
+
+    <!-- Call history -->
+    <string name="voice_call_history_title">通話履歴</string>
+    <string name="voice_call_history_options_description">履歴のオプション</string>
+    <string name="voice_call_history_delete_all">すべて削除</string>
+    <string name="voice_call_history_empty_title">まだ音声通話はありません</string>
+    <string name="voice_call_history_empty_message">通話はこのスマホに保存され、後で再生できます。</string>
+    <string name="voice_call_history_delete_all_confirm_title">すべての音声通話を削除しますか？</string>
+
+    <!-- Call replay -->
+    <string name="voice_replay_timeline_description">通話のタイムライン</string>
+    <string name="voice_replay_timeline_state">%1$s / %2$s</string>
+    <string name="voice_replay_pause">一時停止</string>
+    <string name="voice_replay_play">再生</string>
+    <string name="voice_replay_position_description">再生位置</string>
+    <string name="voice_replay_speed_description">再生速度</string>
+    <string name="voice_replay_empty">再生ボタンを押すと通話を再生できます。</string>
+
+    <!-- Call notification -->
+    <string name="voice_notification_channel_name">通話</string>
+    <string name="voice_notification_channel_description">進行中のOpenCodeの通話</string>
+    <string name="voice_notification_connecting">接続中…</string>
+    <string name="voice_notification_reconnecting">再接続中…</string>
+    <string name="voice_notification_call_ended">通話が終了しました</string>
+    <string name="voice_notification_end">終了</string>
+    <!-- Call status caption -->
+    <string name="voice_status_connecting_via">%1$s経由で接続中…</string>
+    <string name="voice_status_weak_connection">接続が不安定</string>
+    <string name="voice_status_paused">一時停止中</string>
+    <string name="voice_status_needs_input">確認が必要</string>
+    <string name="voice_status_working">作業中</string>
+    <string name="voice_status_speaking">発話中</string>
+    <string name="voice_status_muted">ミュート中</string>
+    <string name="voice_status_listening">聞き取り中</string>
+    <string name="voice_status_ending">終了中…</string>
+    <string name="voice_status_ended">終了</string>
+    <string name="voice_session_new_title">新しいセッション</string>
+    <string name="voice_call_note_builtin_fallback">この通話では内蔵デリゲーターを使用中</string>
+
+    <!-- Floating call tag and spoken length -->
+    <string name="voice_floating_now_talking_in">%1$sで通話中</string>
+    <string name="voice_floating_spoken_duration">%1$s、%2$s</string>
+    <plurals name="voice_floating_spoken_minutes">
+        <item quantity="other">%1$d分</item>
+    </plurals>
+    <plurals name="voice_floating_spoken_seconds">
+        <item quantity="other">%1$d秒</item>
+    </plurals>
+
+    <!-- Voice providers -->
+    <string name="voice_provider_state_ready">準備完了</string>
+    <string name="voice_provider_state_no_key">キー未設定</string>
+    <string name="voice_provider_state_needs_update">OpenCodeを更新</string>
+    <string name="voice_provider_state_offline">オフライン</string>
+    <string name="voice_provider_place_phone">このスマホ</string>
+    <string name="voice_provider_brand_openai_account">あなたのOpenAIアカウント</string>
+    <string name="voice_provider_name">%2$sの%1$s</string>
+    <string name="voice_provider_subtitle">%1$s上</string>
+    <string name="voice_provider_key_row_title">%1$sのキー</string>
+    <string name="voice_provider_key_placeholder">%1$sのAPIキー</string>
+
+    <!-- Voice key source -->
+    <string name="voice_key_source_server_row_title">あなたのサーバー上のキー</string>
+    <string name="voice_key_source_phone_footer">通話には自分のOpenAIまたはxAIのキーを使用します。</string>
+    <string name="voice_key_source_server_footer">通話にはサーバー上の%1$sのキーを使用します。</string>
+    <string name="voice_key_source_opencode_footer">通話料金はOpenCode Consoleのワークスペースに請求されます。</string>
+
+    <!-- Call failure fixes and diagnosis -->
+    <string name="voice_fix_set_up_on_phone">このスマホで設定</string>
+    <string name="voice_fix_choose_provider">プロバイダーを選択</string>
+    <string name="voice_fix_update_opencode">OpenCodeを更新</string>
+    <string name="voice_diagnosis_needs_update">%1$sで音声通話を使うにはOpenCodeの更新が必要です。</string>
+    <string name="voice_diagnosis_your_server_needs_update">音声通話を使うには、あなたのサーバーのOpenCodeを更新してください。</string>
+    <string name="voice_diagnosis_no_key">%1$sに音声通話用のキーがありません。</string>
+    <string name="voice_diagnosis_your_server_no_key">あなたのサーバーに音声通話用のキーがありません。</string>
+    <string name="voice_diagnosis_unreachable">%1$sに接続できませんでした。</string>
+    <string name="voice_diagnosis_your_server_unreachable">あなたのサーバーに接続できませんでした。</string>
+    <string name="voice_diagnosis_failed">%1$sで通話を開始できませんでした。</string>
+    <string name="voice_diagnosis_your_server_failed">あなたのサーバーで通話を開始できませんでした。</string>
+    <string name="voice_diagnosis_key_rejected">このスマホのキーがOpenAIに拒否されました。</string>
+    <string name="voice_diagnosis_missing_phone_key">このスマホで通話するには、%1$sのAPIキーを追加してください。</string>
+
+    <!-- Call errors -->
+    <string name="voice_error_microphone_denied">セッションと通話するには、設定でマイクへのアクセスを許可してください。</string>
+    <string name="voice_error_audio_format_unavailable">音声機器の形式に対応していません。</string>
+    <string name="voice_error_audio_engine_rejected">通話音声を開始できませんでした。少し待ってからもう一度試してください。</string>
+    <string name="voice_error_server_unsupported">このサーバーで音声通話を使うにはOpenCodeの更新が必要です</string>
+    <string name="voice_error_invalid_server_url">音声通話を開始できませんでした。有効なHTTPまたはHTTPSのサーバーURLを入力してください。</string>
+    <string name="voice_error_invalid_response">音声通話を開始できませんでした。サーバーから無効な応答が返されました。</string>
+    <string name="voice_error_start_voice_detail">音声通話を開始できませんでした: %1$s</string>
+    <string name="voice_error_start_voice_http">音声通話を開始できませんでした（HTTP %1$d）。</string>
+    <string name="voice_error_openai_rejected_key">APIキーがOpenAIに拒否されました。</string>
+    <string name="voice_error_openai_verify_http">OpenAIでこのキーを確認できませんでした（HTTP %1$d）。</string>
+    <string name="voice_error_no_connection">接続されていません。</string>
+    <string name="voice_error_model_address_invalid">音声モデルのアドレスが無効です。</string>
+    <string name="voice_error_xai_rejected_key">APIキーがxAIに拒否されました。</string>
+    <string name="voice_error_xai_verify_http">xAIでこのキーを確認できませんでした（HTTP %1$d）。</string>
+    <string name="voice_error_xai_key_disabled">このxAIのAPIキーは無効になっています。</string>
+    <string name="voice_error_xai_key_blocked">このxAIのAPIキーはブロックされています。</string>
+    <string name="voice_error_service_address_invalid">音声サービスのアドレスが無効です。</string>
+    <string name="voice_error_connection_lost">音声接続が途切れました。</string>
+    <string name="voice_error_connection_closed">音声接続は終了しています。</string>
+    <string name="voice_error_connection_setup">音声接続を確立できませんでした。</string>
+    <string name="voice_error_safety_filter">安全フィルターにより音声通話が終了しました。</string>
+    <string name="voice_error_audio_reset">システムにより音声がリセットされました。通話を開始し直してください。</string>
+    <string name="voice_error_missing_phone_key">音声を使うには、設定で%1$sのAPIキーを追加してください。</string>
+
+    <!-- Voice accents -->
+    <string name="voice_accent_australian_english">オーストラリア英語</string>
+    <string name="voice_accent_british_english">イギリス英語</string>
+    <string name="voice_accent_irish_english">アイルランド英語</string>
+    <string name="voice_accent_north_american_english">北米英語</string>
+    <string name="voice_accent_brazilian_portuguese">ブラジルポルトガル語</string>
+    <string name="voice_accent_filipino_english">フィリピン英語</string>
+    <string name="voice_accent_southern_us_english">アメリカ南部英語</string>
+    <string name="voice_accent_indian_english">インド英語</string>
+    <string name="voice_preview_error">試聴できませんでした</string>
+
+    <!-- Call sound packs -->
+    <string name="voice_sound_pack_breath_ping">ブレスピン</string>
+    <string name="voice_sound_pack_crystal_glass">クリスタルグラス</string>
+    <string name="voice_sound_pack_warm_analog">ウォームアナログ</string>
+    <string name="voice_sound_pack_aurora_pulse">オーロラパルス</string>
+    <string name="voice_sound_pack_velvet_bell">ベルベットベル</string>
+    <string name="voice_sound_pack_silent">無音</string>
+
+    <!-- Open link card -->
+    <string name="voice_open_link_card_title_untitled">リンクを開きますか？</string>
+    <string name="voice_open_link_card_title">%1$sを開きますか？</string>
+
+    <!-- Delegator choice -->
+    <string name="voice_delegator_session_fallback">セッション</string>
+    <string name="voice_delegator_unavailable_gemini">Gemini Liveは表示中のセッションに直接委任します。OpenCodeセッションを使うには、OpenAIの音声プロバイダーを選択してください。</string>
+    <string name="voice_delegator_unavailable_engine">%1$sは表示中のセッションに直接委任します。OpenCodeセッションを使うには、音声モデルをGPT-Liveに切り替えてください。</string>
+
+    <!-- Call log list and replay -->
+    <string name="voice_call_log_duration_seconds">%1$d秒</string>
+    <string name="voice_call_log_duration_minutes">%1$d分%2$d秒</string>
+    <string name="voice_replay_to_delegator">→ デリゲーター</string>
+    <string name="voice_replay_to_voice">→ 声</string>
+    <string name="voice_replay_audio">音声</string>
+    <string name="voice_replay_track_user">あなた</string>
+    <string name="voice_replay_track_voice">声</string>
+    <string name="voice_replay_track_delegator">デリゲーター</string>
+    <string name="voice_replay_track_tools">ツール</string>
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_new_session">Шинэ сесс</string>
+    <string name="system_start_call">Дуудлага эхлүүлэх</string>
+    <string name="system_open_session">Сессийг нээх</string>
+    <string name="widget_start_call_description">Сонгосон эсвэл сүүлд үзсэн сессэд дуут дуудлага эхлүүлнэ.</string>
+    <string name="widget_open_session_description">Таны сонгосон сессийг нээнэ.</string>
+    <string name="widget_new_session_description">Шинэ OpenCode сесс нээнэ.</string>
+
+    <!-- Shared across screens -->
+    <string name="system_selected_description">Сонгосон</string>
+    <string name="system_last_viewed_session">Сүүлд үзсэн сесс</string>
+
+    <!-- Quick actions (launcher shortcuts) -->
+    <string name="system_quick_action_session_fallback">Сесс</string>
+    <!-- Long label: the session's title, then its project. -->
+    <string name="system_quick_action_long_label">%1$s · %2$s</string>
+
+    <!-- Shortcuts and Ask OpenCode -->
+    <string name="system_session_type_name">Сесс</string>
+    <string name="system_project_type_name">Төсөл</string>
+    <string name="system_intent_open_session_description">OpenCode-д сесс нээнэ.</string>
+    <string name="system_intent_new_session_description">OpenCode-д шинэ сесс эхлүүлнэ.</string>
+    <string name="system_intent_start_voice_call_title">Дуут дуудлага эхлүүлэх</string>
+    <string name="system_intent_start_voice_call_description">Сессэд OpenCode-той дуут дуудлага эхлүүлнэ. Сесс сонгоогүй бол сүүлд үзсэн сессэд дуудлага эхэлнэ.</string>
+    <string name="system_intent_background_call_title">Арын горимд дуут дуудлага эхлүүлэх</string>
+    <string name="system_intent_background_call_description">Аппыг нээхгүйгээр OpenCode-той дуут дуудлага эхлүүлнэ. Дуудлага төлөвийн мөр болон түгжээтэй дэлгэц дээр харагдана.</string>
+    <string name="system_delivery_type_name">Илгээх арга</string>
+    <string name="system_delivery_steer">Чиглүүлэх</string>
+    <string name="system_delivery_queue">Дараалалд оруулах</string>
+    <string name="system_ask_title">OpenCode-оос асуух</string>
+    <string name="system_ask_description">Аппыг нээхгүйгээр OpenCode сесс рүү мессеж илгээнэ.</string>
+    <string name="system_ask_message_title">Мессеж</string>
+    <string name="system_ask_message_placeholder">OpenCode юу хийх вэ?</string>
+    <string name="system_ask_session_title">Сесс</string>
+    <string name="system_ask_started_new_session">%1$s-д шинэ сесс эхлүүллээ</string>
+    <string name="system_ask_queued_for">“%1$s”-д дараалалд орууллаа</string>
+    <string name="system_ask_sent_to">“%1$s” рүү илгээлээ</string>
+    <string name="system_ask_your_session">таны сесс</string>
+    <string name="system_ask_no_server">Эхлээд OpenCode-ийг нээгээд серверт холбогдоно уу.</string>
+    <string name="system_ask_no_project">Эхлээд OpenCode-ийг нээгээд сесс эхлүүлнэ үү.</string>
+    <string name="system_ask_empty_message">Илгээх зүйл алга.</string>
+    <!-- The server's error message follows. -->
+    <string name="system_ask_send_failed">OpenCode руу илгээж чадсангүй. %1$s</string>
+
+    <!-- Live Updates: voice call -->
+    <string name="system_call_muted">Дууг хаасан</string>
+    <string name="system_call_unmute">Дууг нээх</string>
+    <string name="system_call_mute">Дууг хаах</string>
+    <string name="system_call_end">Дуудлага дуусгах</string>
+    <string name="system_call_connecting">Холбож байна…</string>
+    <string name="system_call_reconnecting">Дахин холбож байна…</string>
+    <string name="system_call_ended">Дуудлага дууслаа</string>
+    <string name="system_call_end_title">Дуудлага дуусгах</string>
+    <string name="system_call_toggle_mute_title">Дуудлагын дууг хаах эсвэл нээх</string>
+
+    <!-- Live Updates: hands-free recording -->
+    <string name="system_recording_active">Дуу бичиж байна</string>
+    <string name="system_recording_stopped">Дуу бичихийг зогсоолоо</string>
+    <string name="system_recording_stop">Дуу бичихийг зогсоох</string>
+    <string name="system_recording_stop_title">Дуу бичихийг зогсоох</string>
+    <string name="system_recording_new_session">Шинэ сесс</string>
+
+    <!-- Live Updates: session run -->
+    <string name="system_session_working">Ажиллаж байна</string>
+    <string name="system_session_last_seen_working">Сүүлд шалгахад ажиллаж байсан</string>
+    <!-- Where the run is (Working), then its current step (a tool name, Thinking or Replying). -->
+    <string name="system_session_status_with_step">%1$s · %2$s</string>
+    <string name="system_session_step_thinking">Бодож байна</string>
+    <string name="system_session_step_replying">Хариулж байна</string>
+    <string name="system_session_needs_input">Таны оролцоо хэрэгтэй</string>
+    <string name="system_session_input">Оролт</string>
+    <string name="system_session_done">Болсон</string>
+    <string name="system_session_failed">Амжилтгүй</string>
+
+    <!-- Session notifications -->
+    <string name="system_notification_placeholder_body">Шинэ үйлдэл</string>
+
+    <!-- Notification channels -->
+    <string name="system_channel_voice_calls">Дуут дуудлага</string>
+    <string name="system_channel_recording">Дуу бичиж байна</string>
+    <string name="system_channel_session_runs">Сессийн ажиллуулалт</string>
+    <string name="system_channel_session_updates">Сессийн шинэчлэлтүүд</string>
+    <string name="system_channel_shared_items">Хуваалцсан зүйлс</string>
+
+    <!-- Share sheet: notifications -->
+    <string name="system_share_continue_notification_body">OpenCode-д үргэлжлүүлэхийн тулд товшино уу</string>
+
+    <!-- Share sheet -->
+    <string name="system_share_your_server">таны сервер</string>
+    <string name="system_share_new_session_in_project">Шинэ сесс · %1$s</string>
+    <string name="system_share_save_failed_message">Дахин оролдоно уу. Дахиад ийм зүйл тохиолдвол төхөөрөмжийнхөө хадгалах зайг чөлөөлөөрэй.</string>
+    <!-- The session's title, then its project. -->
+    <string name="system_share_session_chip_description">%1$s, %2$s</string>
+    <string name="system_share_problem_unreachable">%1$s-тэй холбогдож чадсангүй</string>
+    <string name="system_share_problem_too_large">Ийм том файлыг эндээс илгээж чадсангүй</string>
+    <string name="system_share_problem_uploads_unsupported">%1$s рүү файл байршуулж чадсангүй</string>
+    <string name="system_share_problem_sign_in">%1$s рүү нэвтэрч чадсангүй</string>
+    <string name="system_share_problem_send">%1$s рүү илгээж чадсангүй</string>
+    <string name="system_share_problem_no_credentials">Эндээс илгээхийн тулд OpenCode-ийг нэг удаа нээнэ үү</string>
+    <plurals name="system_share_image_count">
+        <item quantity="one">%d зураг</item>
+        <item quantity="other">%d зураг</item>
+    </plurals>
+    <plurals name="system_share_file_count">
+        <item quantity="one">%d файл</item>
+        <item quantity="other">%d файл</item>
+    </plurals>
+    <plurals name="system_share_images_skipped">
+        <item quantity="one">%d зураг нэмж чадсангүй</item>
+        <item quantity="other">%d зураг нэмж чадсангүй</item>
+    </plurals>
+    <plurals name="system_share_files_skipped">
+        <item quantity="one">%d файл нэмж чадсангүй</item>
+        <item quantity="other">%d файл нэмж чадсангүй</item>
+    </plurals>
+    <string name="system_share_save_failed_title">OpenCode-д зориулж хадгалж чадсангүй</string>
+    <string name="system_share_continue_description">OpenCode-д үргэлжлүүлэх</string>
+    <string name="system_share_no_server_title">Эхлээд серверт холбогдоно уу</string>
+    <string name="system_share_no_server_message">OpenCode-ийг нээж компьютертээ холбогдоод дахин хуваалцаарай.</string>
+    <string name="system_share_send_later">Дараа илгээх</string>
+    <string name="system_share_saved_continue">Хадгаллаа. Үргэлжлүүлэхийн тулд OpenCode-ийг нээнэ үү</string>
+    <string name="system_share_loading_description">Хуваалцсан зүйлсийг ачаалж байна</string>
+    <string name="system_share_image_description">Зураг</string>
+    <string name="system_share_image_position_description">Нийт %2$d зургийн %1$d дэх</string>
+    <string name="system_share_search_sessions_description">Сесс хайх</string>
+    <string name="system_share_new_session_in_project_description">%1$s дотор шинэ сесс</string>
+    <string name="system_share_choose_project_description">Төслийг нь сонгох</string>
+    <string name="system_share_message_placeholder">Мессеж</string>
+    <string name="system_share_sent_to">%1$s рүү илгээлээ</string>
+    <string name="system_share_sending_description">Илгээж байна</string>
+    <string name="system_share_sent_description">Илгээсэн</string>
+    <string name="system_share_sessions_title">Хурал</string>
+    <string name="system_share_pinned_header">Бэхэлсэн</string>
+    <string name="system_share_recents_header">Сүүлийн</string>
+
+    <!-- Widget configuration -->
+    <string name="system_widget_choose_session_title">Сесс сонгох</string>
+</resources>

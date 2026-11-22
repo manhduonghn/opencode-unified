@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">이미지</string>
+    <string name="media_image_load_failed">이미지를 불러올 수 없어요</string>
+    <string name="media_unavailable">미디어를 사용할 수 없어요</string>
+    <string name="media_try_again_label">다시 시도</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">미디어 뷰어</string>
+    <string name="media_viewer_save_to_photos_description">사진에 저장</string>
+    <string name="media_file_viewer_screen_title">파일 뷰어</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %3$d개 중 %2$d번째</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">이미지에 그리기</string>
+    <string name="media_drawing_undo_description">실행 취소</string>
+    <string name="media_drawing_add_to_prompt_description">프롬프트에 추가</string>
+    <string name="media_drawing_canvas_description">그리기 캔버스</string>
+    <string name="media_drawing_discard_title">그린 내용을 삭제할까요?</string>
+    <string name="media_drawing_discard_confirm">그린 내용 삭제</string>
+    <string name="media_drawing_keep">계속 그리기</string>
+    <string name="media_drawing_add_failed_title">그림을 추가할 수 없어요</string>
+    <string name="media_drawing_flatten_failed">이미지를 만들 수 없어요. 다시 시도해 주세요.</string>
+    <string name="media_drawing_prompt_unavailable">지금은 이 세션의 메시지에 첨부 파일을 추가할 수 없어요.</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">흰색</string>
+    <string name="media_drawing_ink_black">검은색</string>
+    <string name="media_drawing_ink_red">빨간색</string>
+    <string name="media_drawing_ink_yellow">노란색</string>
+    <string name="media_drawing_ink_green">초록색</string>
+    <string name="media_drawing_ink_blue">파란색</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">확대됨</string>
+    <string name="media_zoom_out_label">축소</string>
+    <string name="media_zoom_in_label">확대</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">일시 정지</string>
+    <string name="media_player_play">재생</string>
+    <string name="media_player_position_description">재생 위치</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">비디오를 재생할 수 없어요</string>
+    <string name="media_video_position_description">비디오 재생 위치</string>
+    <string name="media_video_capture_failed_title">프레임을 캡처할 수 없어요</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">미리보기 표시</string>
+    <string name="media_file_show_source_description">소스 보기</string>
+    <string name="media_file_unwrap_lines_description">자동 줄바꿈 끄기</string>
+    <string name="media_file_wrap_lines_description">자동 줄바꿈</string>
+    <string name="media_file_start_pip_description">화면 속 화면 시작</string>
+    <string name="media_file_opening">여는 중…</string>
+    <string name="media_file_share_failed_title">파일을 공유할 수 없어요</string>
+    <string name="media_file_share_downloading_description">공유할 파일 다운로드 중</string>
+    <string name="media_file_confirm_large_message">파일 크기는 %1$s예요. 다운로드해서 이 기기에서 볼까요?</string>
+    <string name="media_file_download">다운로드</string>
+    <string name="media_file_open_in_another_app">다른 앱에서 열기</string>
+    <string name="media_file_no_app_message">이 기기에 파일을 열 수 있는 앱이 없어요. 공유해서 저장하거나 다른 곳으로 보내세요.</string>
+    <string name="media_file_pdf_page_description">%2$d페이지 중 %1$d페이지</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">파일을 찾을 수 없어요</string>
+    <string name="media_file_error_open_failed_title">파일을 열 수 없어요</string>
+    <string name="media_file_error_unreadable">서버에서 이 경로를 읽을 수 없어요.</string>
+    <string name="media_file_error_not_found">이동되거나 삭제되었을 수 있어요.</string>
+    <string name="media_file_error_unauthorized">서버가 이 기기의 비밀번호를 거부했어요.</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">서버에서 읽을 수 없어요(HTTP %1$d). 폴더일 수 있어요.</string>
+    <string name="media_file_error_timed_out">요청 시간이 초과됐어요.</string>
+    <string name="media_file_error_unexpected_response">서버가 예상치 못한 응답을 보냈어요.</string>
+    <string name="media_file_error_over_limit">파일이 다운로드 크기 한도를 초과해요.</string>
+    <string name="media_file_error_size_unknown">서버가 첨부 파일 크기를 알려 주지 않았어요.</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">다운로드 중…</string>
+    <string name="media_file_downloading_size">%1$s 다운로드 중</string>
+    <string name="media_file_downloading_progress">%2$s 중 %1$s 다운로드 중</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">0 KB</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="other">%1$d바이트</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s KB</string>
+    <string name="media_file_size_megabytes">%1$s MB</string>
+    <string name="media_file_size_gigabytes">%1$s GB</string>
+    <string name="media_file_size_terabytes">%1$s TB</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">찾을 수 없어요</string>
+    <string name="media_image_load_label">이미지 불러오기</string>
+    <string name="media_image_loading_state">로딩 중</string>
+    <string name="media_image_open_label">이미지 열기</string>
+    <string name="media_image_tap_to_load">탭하여 불러오기</string>
+    <string name="media_image_outside_project_value">프로젝트 외부</string>
+    <string name="media_image_deferred_low_data_value">저데이터 모드로 불러오기 보류됨</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">%1$s 열기</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">세션으로 돌아가기</string>
+    <string name="media_browser_ask_description">이 페이지에 대해 질문하기</string>
+    <string name="media_browser_forward_description">앞으로 가기</string>
+    <string name="media_browser_open_in_browser_description">브라우저에서 열기</string>
+    <string name="media_browser_scroll_to_top_label">페이지 맨 위로 이동</string>
+    <string name="media_browser_ask_placeholder">이 페이지에 대해 질문하기</string>
+    <string name="media_browser_reply_needs_input">입력이 필요해요</string>
+    <string name="media_browser_reply_working">일하고 있는</string>
+    <string name="media_browser_go_back_to_session_label">세션으로 돌아가기</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">응답 준비됨</string>
+    <string name="media_browser_reply_back_to_read">· 돌아가서 읽기</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">세션</string>
+    <string name="media_link_open_in_app_browser">앱 내 브라우저에서 열기</string>
+    <string name="media_link_open_in_browser">브라우저에서 열기</string>
+    <string name="media_link_open_in_app">앱에서 열기</string>
+    <string name="media_link_copy">링크 복사</string>
+    <string name="media_link_share">공유…</string>
+    <string name="media_link_open_session">세션 열기</string>
+    <string name="media_link_copy_session_id">ID 복사</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">%1$s의 ID 복사</string>
+    <string name="media_link_open_session_named_description">%1$s 세션 열기</string>
+    <string name="media_link_open_host_in_app_browser_description">앱 내 브라우저에서 %1$s 열기</string>
+    <string name="media_link_open_host_in_browser_description">브라우저에서 %1$s 열기</string>
+    <string name="media_link_open_host_in_app_description">앱에서 %1$s 열기</string>
+    <string name="media_link_copy_host_description">%1$s 링크 복사</string>
+    <string name="media_link_share_host_description">%1$s 링크 공유</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%2$s의 %1$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s 링크 %2$d</string>
+    <string name="media_link_more_links_description">링크 더 보기</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">비디오</string>
+    <string name="media_link_preview_post">게시물</string>
+    <string name="media_link_preview_post_unavailable">게시물을 사용할 수 없어요</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">저장소</string>
+    <string name="media_github_kind_issue">이슈</string>
+    <string name="media_github_kind_pull_request">풀 리퀘스트</string>
+    <string name="media_github_kind_commit">커밋</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">열림</string>
+    <string name="media_github_state_closed">닫힘</string>
+    <string name="media_github_state_merged">병합됨</string>
+    <string name="media_github_state_draft">초안</string>
+    <string name="media_github_state_completed">완료</string>
+    <string name="media_github_state_not_planned">계획 없음</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">다이어그램, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">다이어그램 뷰어</string>
+    <string name="media_mermaid_diagram_description">다이어그램</string>
+    <string name="media_mermaid_loading_state">%1$s, 로딩 중</string>
+    <string name="media_mermaid_view_source">소스 보기</string>
+    <string name="media_mermaid_source_title">다이어그램 소스</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">순서도</string>
+    <string name="media_mermaid_type_sequence">시퀀스 다이어그램</string>
+    <string name="media_mermaid_type_class">클래스 다이어그램</string>
+    <string name="media_mermaid_type_state">상태 다이어그램</string>
+    <string name="media_mermaid_type_entity_relationship">개체 관계 다이어그램</string>
+    <string name="media_mermaid_type_user_journey">사용자 여정</string>
+    <string name="media_mermaid_type_gantt">간트 차트</string>
+    <string name="media_mermaid_type_pie">원형 차트</string>
+    <string name="media_mermaid_type_quadrant">사분면 차트</string>
+    <string name="media_mermaid_type_requirement">요구사항 다이어그램</string>
+    <string name="media_mermaid_type_git_graph">Git 그래프</string>
+    <string name="media_mermaid_type_c4">C4 다이어그램</string>
+    <string name="media_mermaid_type_mind_map">마인드맵</string>
+    <string name="media_mermaid_type_timeline">타임라인</string>
+    <string name="media_mermaid_type_sankey">생키 다이어그램</string>
+    <string name="media_mermaid_type_xy_chart">XY 차트</string>
+    <string name="media_mermaid_type_block">블록 다이어그램</string>
+    <string name="media_mermaid_type_packet">패킷 다이어그램</string>
+    <string name="media_mermaid_type_kanban">칸반 보드</string>
+    <string name="media_mermaid_type_architecture">아키텍처 다이어그램</string>
+    <string name="media_mermaid_type_radar">방사형 차트</string>
+    <string name="media_mermaid_type_treemap">트리맵</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

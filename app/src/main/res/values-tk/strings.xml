@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Paýlaşylan zatlary goşup bolmady</string>
+    <string name="app_alert_open_session_failed_title">Sessiýany açyp bolmady</string>
+    <string name="app_alert_pairing_failed_title">Serwer bilen jübütleşip bolmady</string>
+    <string name="app_pairing_confirm">Jübütleşdir</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Serwerler</string>
+    <string name="app_servers_back_description">%1$s bölümine dolan</string>
+    <string name="app_server_fallback_name">serwer</string>
+    <string name="app_connection_intro_new">%1$s arkaly kod sessiýalaryňyzy dowam etdiriň.</string>
+    <string name="app_connection_intro_returning">Galan ýeriňizden dowam ediň ýa-da başga kompýuteri jübütleşdiriň.</string>
+    <string name="app_connection_enter_manually">Serweri el bilen giriziň</string>
+    <string name="app_connection_scan_pairing_code">Jübütleşdiriş koduny skanirläň</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">Kompýuteriňizde OpenCode açyň we Sazlamalar → Jübütleşdiriş bölümine giriň ýa-da terminalda opencode pair --remote işlediň. Soň bu %1$s bilen kody skanirläň.</string>
+    <string name="app_setup_install_title">Entek OpenCode ýokmy?</string>
+    <string name="app_setup_other_ways_to_install">Gurnamagyň beýleki ýollary</string>
+    <string name="app_setup_terminal_title">Ýa-da muny terminalda işlediň</string>
+    <string name="app_setup_terminal_detail">Islendik torda işleýär.</string>
+    <string name="app_setup_paste_prompt">Ýa-da görkezilen baglanyşygy göçüriň, soňra</string>
+    <string name="app_setup_paste">Goý</string>
+    <string name="app_setup_copy_command_description">%1$s göçüriň</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Birikdirilýär</string>
+    <string name="app_servers_edit_description">%1$s redaktirläň</string>
+    <string name="app_servers_remove_description">%1$s aýyr</string>
+    <string name="app_servers_remove_confirm_title">%1$s aýrylsynmy?</string>
+    <string name="app_servers_remove_confirm_message">Bu %1$s enjamynda saklanan salgy we parol aýrylar. Serwerdäki sessiýalara täsir etmez.</string>
+    <string name="app_servers_remove_confirm">Serweri aýyr</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Tapgyr: %1$s</string>
+    <string name="app_error_server">Serwer: %1$s</string>
+    <string name="app_error_attempt">Synanyşyk: %1$d</string>
+    <string name="app_error_copy_report">Ýalňyşlyk hasabatyny göçüriň</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Täze serwer</string>
+    <string name="app_server_form_edit_title">Serweri redaktirläň</string>
+    <string name="app_server_form_name">Ady</string>
+    <string name="app_server_form_address">Serwer salgysy</string>
+    <string name="app_server_form_username">Ulanyjy ady</string>
+    <string name="app_server_form_password">Parol (islege görä)</string>
+    <string name="app_server_form_hide_password_description">Paroly gizle</string>
+    <string name="app_server_form_show_password_description">Paroly görkez</string>
+    <string name="app_server_form_connect">Birikdiriň</string>
+    <string name="app_server_form_save_and_connect">Saklaň we birikdiriň</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Sözbaşylar</string>
+    <string name="app_server_form_header_name">Ady</string>
+    <string name="app_server_form_header_name_description">%1$d sözbaşynyň ady</string>
+    <string name="app_server_form_header_value">Bahasy</string>
+    <string name="app_server_form_header_value_description">%1$d sözbaşynyň bahasy</string>
+    <string name="app_server_form_header_remove_description">%1$d sözbaşyny aýyr</string>
+    <string name="app_server_form_header_add">Sözbaşy goş</string>
+    <string name="app_server_form_headers_detail">Cloudflare Access ýaly serweriň öňündäki proksi üçin her sorag bilen iberilýär.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">“%1$s” dogry sözbaşy ady däl</string>
+    <string name="app_server_form_header_invalid_value">%1$s bahasynda setir bölünişi bolup bilmez</string>
+    <string name="app_server_form_name_placeholder">Islege görä</string>
+    <string name="app_connection_progress_pairing">Jübütleşdirilýär</string>
+    <string name="app_connection_progress_connecting">Birikdirilýär</string>
+    <string name="app_connection_progress_loading_sessions">Sessiýalar ýüklenýär</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">%1$s bilen jübütleşdirmelimi?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode %1$s salgysyny barlap, ilkinji jogap beren salga geçer.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode %1$s bilen jübütleşip, oňa geçer.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode %1$s we %2$s salgylaryny barlap, ilkinji jogap beren salga geçer.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode %1$s we %2$s salgylaryny barlap, ilkinji jogap beren salga geçer.</string>
+    <string name="app_pairing_confirm_replaces">%1$s %2$s üçin saklanan giriş maglumatlary çalşyrylyp bilner.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Jübütleşdiriş</string>
+    <string name="app_error_phase_connect">Birikdiriň</string>
+    <string name="app_error_phase_load_sessions">Sessiýalary ýükle</string>
+    <string name="app_error_candidate_detail">Mümkin salgy %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Elýeterli däl (nädogry salgy)</string>
+    <string name="app_error_title_pair">Jübütleşip bolmady</string>
+    <string name="app_error_title_load_sessions">Sessiýalary ýükläp bolmady</string>
+    <string name="app_error_title_connect">%1$s bilen birigip bolmady</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Göçürme paneliňiz boş</string>
+    <string name="app_paste_not_a_pairing_link">Bu jübütleşdiriş baglanyşygy däl</string>
+    <string name="app_server_no_longer_saved">Bu serwer indi bu %1$s enjamynda saklanan däl. Sessiýany açmak üçin oňa täzeden birigiň.</string>
+    <string name="app_session_no_longer_available">Ol pozulan ýa-da serwer elýeterli däl bolmagy mümkin.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">%1$s bilen birikdirildi</string>
+    <string name="app_pairing_invalid_code">Bu OpenCode jübütleşdiriş kody däl. Kompýuteriňizde opencode pair --remote buýrugyny işlediň, soňra onuň QR koduny skanirläň ýa-da çykaran baglanyşygyny goýuň.</string>
+    <string name="app_pairing_unusable_address">Bu jübütleşdiriş kodundaky “%1$s” salgysyny ulanyp bolmady: ol %2$s.</string>
+    <string name="app_pairing_loopback">Bu serwer diňe localhost arkaly birikmeleri kabul edýär, şonuň üçin bu %1$s oňa birigip bilmeýär. Munuň ýerine kompýuteriňizde opencode pair --remote buýrugyny işlediň. Ol islendik tordan işleýär.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Paýlaşan serweriňiz indi bu enjamda saklanan däl. Oňa täzeden birigiň, soňra gaýtadan paýlaşyň.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">soňky ulanylan</string>
+    <string name="app_server_form_hint_new">Jübütleşdirmek üçin `opencode pair --remote` buýrugynyň çykaran baglanyşygyny goýuň ýa-da OpenCode serweriňiziň salgysyny we parolyny ulanyň. Ulanyjy ady adatça opencode bolýar.</string>
+    <string name="app_server_form_hint_edit_paired">Üýtgeşmeler bu serwere birigilende saklanýar. Bu serwer jübütleşdirilen, şonuň üçin onuň paroly sessiýa tokenidir; ony üýtgetmegiň ýerine täze jübütleşdiriş koduny skanirläň.</string>
+    <string name="app_server_form_hint_edit">Üýtgeşmeler bu serwere birigilende saklanýar.</string>
+</resources>

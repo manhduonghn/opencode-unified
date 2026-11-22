@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shared -->
+    <string name="transcript_open_named">開啟 %1$s</string>
+
+    <!-- Link previews -->
+    <string name="transcript_link_preview_show_fewer">顯示較少連結</string>
+    <string name="transcript_link_preview_show_all">顯示所有連結</string>
+    <plurals name="transcript_link_preview_shown">
+        <item quantity="other">已顯示 %1$d 個連結，共 %2$d 個</item>
+    </plurals>
+    <string name="transcript_link_preview_more">還有 %1$d 個</string>
+
+    <!-- Transcript list -->
+    <string name="transcript_scroll_to_top">捲動至頂端</string>
+    <string name="transcript_working">工作中</string>
+
+    <!-- Transcript list rows -->
+    <string name="transcript_history_loading_description">正在載入較早的訊息</string>
+    <string name="transcript_empty_loading_description">正在載入工作階段</string>
+    <string name="transcript_empty_title">尚無訊息</string>
+    <string name="transcript_empty_subtitle">在下方開始工作階段</string>
+    <string name="transcript_compaction_queued">壓縮已加入佇列</string>
+
+    <!-- Code blocks -->
+    <string name="transcript_code_copy_description">複製程式碼</string>
+
+    <!-- Markdown task lists -->
+    <string name="transcript_task_done_description">完成</string>
+    <string name="transcript_task_not_done_description">未完成</string>
+
+    <!-- Markdown images -->
+    <string name="transcript_image">圖片</string>
+    <string name="transcript_image_open_description">開啟圖片</string>
+    <string name="transcript_image_load_failed">無法載入圖片</string>
+    <string name="transcript_image_retry_click_label">再試一次</string>
+    <string name="transcript_image_open">開啟</string>
+
+    <!-- Math -->
+    <string name="transcript_equation_description">方程式</string>
+
+    <!-- Selection -->
+    <string name="transcript_quote">引用</string>
+    <string name="transcript_quote_description">引用：%1$s</string>
+    <string name="transcript_quote_show">顯示完整引用</string>
+    <string name="transcript_quote_comment_description">引用：%1$s。留言：%2$s</string>
+    <string name="transcript_quote_add_comment">新增留言</string>
+    <string name="transcript_quote_edit_comment">編輯留言</string>
+
+    <!-- Reply actions -->
+    <string name="transcript_reply_copy_description">複製回覆</string>
+
+    <!-- Run errors and undo -->
+    <string name="transcript_run_error_copy">複製錯誤</string>
+    <string name="transcript_undone_undo_hint">傳送新訊息前仍可復原</string>
+    <string name="transcript_undone_title">已從此處重設</string>
+    <string name="transcript_undone_undo_click_label">傳送新訊息前，可還原已重設的訊息與檔案</string>
+    <string name="transcript_undone_undo">復原</string>
+
+    <!-- Tool rows -->
+    <string name="transcript_tool_failed">失敗</string>
+    <string name="transcript_tool_running">執行中</string>
+    <string name="transcript_tool_completed">已完成</string>
+    <string name="transcript_subagent_open_click_label">開啟子代理的工作階段</string>
+    <string name="transcript_tool_group_failed_count">%1$d 個失敗</string>
+    <string name="transcript_expanded">已展開</string>
+    <string name="transcript_collapsed">已收合</string>
+    <string name="transcript_tool_image">工具圖片</string>
+    <string name="transcript_tool_hide_click_label">隱藏工具的輸入與輸出</string>
+    <string name="transcript_tool_show_click_label">顯示工具的輸入與輸出</string>
+    <string name="transcript_tool_denied">已拒絕</string>
+    <string name="transcript_show_less">顯示較少</string>
+    <plurals name="transcript_tool_output_show_all">
+        <item quantity="other">顯示全部 %1$d 行</item>
+    </plurals>
+    <string name="transcript_question_hide_click_label">隱藏問題</string>
+    <string name="transcript_question_show_click_label">顯示問題與你的答案</string>
+    <string name="transcript_question_chosen_description">已選取</string>
+
+    <!-- Compaction -->
+    <string name="transcript_compaction_running">正在壓縮上下文</string>
+    <string name="transcript_compaction_provider">提供者壓縮</string>
+    <string name="transcript_compaction_completed">上下文已壓縮</string>
+    <string name="transcript_compaction_cancelled">壓縮已取消</string>
+    <string name="transcript_compaction_failed">壓縮失敗</string>
+    <string name="transcript_compaction_usage">輸入 %1$s · 輸出 %2$s</string>
+    <string name="transcript_compaction_show_summary_click_label">顯示壓縮摘要</string>
+
+    <!-- New messages rule -->
+    <string name="transcript_new_messages_description">新訊息</string>
+    <string name="transcript_new_messages_label">最新</string>
+
+    <!-- Media tiles -->
+    <string name="transcript_attached_image_open_description">開啟附加圖片</string>
+    <string name="transcript_attached_image_open_numbered_description">開啟第 %1$d 張附加圖片，共 %2$d 張</string>
+    <string name="transcript_attached_image">附加圖片</string>
+    <string name="transcript_tool_image_open_numbered_description">開啟第 %1$d 張工具圖片，共 %2$d 張</string>
+    <string name="transcript_media_unavailable">媒體無法使用</string>
+    <string name="transcript_attached_file_description">附加檔案 %1$s</string>
+
+    <!-- Message menus -->
+    <string name="transcript_message_select">選取</string>
+    <string name="transcript_pending_send_now">立即傳送</string>
+    <string name="transcript_pending_move_to_queue">移至佇列</string>
+    <string name="transcript_message_revert_to_here">重設至此點</string>
+    <string name="transcript_show_more">顯示更多</string>
+
+    <!-- Voice messages -->
+    <string name="transcript_voice_call_log_attached">已附上通話紀錄</string>
+    <string name="transcript_voice_copy_full_message">複製完整訊息</string>
+    <string name="transcript_voice_message_description">語音訊息</string>
+    <string name="transcript_voice_label">音色</string>
+
+    <!-- Attachments -->
+    <string name="transcript_file_open_click_label">開啟檔案</string>
+    <string name="transcript_pasted_text_open_click_label">開啟文字</string>
+    <string name="transcript_location_shared">分享的位置</string>
+    <string name="transcript_location_open_in_maps">在地圖中開啟</string>
+    <string name="transcript_location_description">位置：%1$s</string>
+    <string name="transcript_location_description_with_address">位置：%1$s，%2$s</string>
+
+    <!-- Shared phrasing -->
+    <string name="transcript_quoted">「%1$s」</string>
+    <string name="transcript_spoken_pair">%1$s，%2$s</string>
+    <string name="transcript_list_two">%1$s 和 %2$s</string>
+    <string name="transcript_list_many">%1$s，以及 %2$s</string>
+
+    <!-- Tool rows -->
+    <string name="transcript_tool_read">讀取</string>
+    <string name="transcript_tool_search">搜尋 %1$s</string>
+    <string name="transcript_tool_search_quoted">搜尋「%1$s」</string>
+    <string name="transcript_tool_group_updates">更新</string>
+    <plurals name="transcript_tool_group_used">
+        <item quantity="other">已使用 %1$d 個工具</item>
+    </plurals>
+
+    <!-- Question rows -->
+    <string name="transcript_question">問題</string>
+    <string name="transcript_question_no_answer">無答案</string>
+    <string name="transcript_question_dismissed">已略過</string>
+    <plurals name="transcript_question_answered_count">
+        <item quantity="other">已回答 %1$d 個問題</item>
+    </plurals>
+    <plurals name="transcript_question_count">
+        <item quantity="other">%1$d 個問題</item>
+    </plurals>
+
+    <!-- Model switch -->
+    <string name="transcript_model_switch_title">已切換至 %1$s</string>
+    <string name="transcript_model_switch_default">預設</string>
+    <string name="transcript_model_switch_thinking_description">%1$s，思考程度：%2$s</string>
+    <string name="transcript_model_switch_thinking_off_description">%1$s，思考已關閉</string>
+
+    <!-- Run errors and failed sends -->
+    <string name="transcript_run_error_edit_last_message">編輯上一則訊息</string>
+    <string name="transcript_failed_send_status">無法傳送</string>
+    <string name="transcript_failed_send_moving">移動中…</string>
+    <string name="transcript_failed_send_move_to">移至 %1$s</string>
+
+    <!-- Links -->
+    <string name="transcript_session_link_new_session">新增工作階段</string>
+    <string name="transcript_links_to_description">連結至 %1$s</string>
+    <string name="transcript_link_preview_video">影片</string>
+    <string name="transcript_link_preview_post">貼文</string>
+    <string name="transcript_link_preview_post_unavailable">貼文無法使用</string>
+    <plurals name="transcript_link_preview_comments">
+        <item quantity="other">%1$s 則留言</item>
+    </plurals>
+</resources>

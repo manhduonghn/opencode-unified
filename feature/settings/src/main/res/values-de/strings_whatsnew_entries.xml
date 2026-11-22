@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- What’s New entries, oldest first: one group per file in whatsnew/entries/. -->
+
+    <!-- 2026-10-06-01-voice-messages -->
+    <string name="settings_whatsnew_entry_voice_messages_title">Sprachnachrichten</string>
+    <string name="settings_whatsnew_entry_voice_messages_summary">Was Stimme für dich in einer Sitzung fragt, erscheint als Sprachnachricht mit einer Wellenform.</string>
+
+    <!-- 2026-10-07-01-attachment-menu-hold -->
+    <string name="settings_whatsnew_entry_attachment_menu_hold_title">Anhängen mit +</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_summary">Das +-Menü klappt am Nachrichtenfeld mit Kamera, Fotos und Dateien auf. Halte + gedrückt und wische zur Auswahl.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_1">Fotos öffnet sich direkt über dem Nachrichtenfeld. Tippe auf Fotos, um sie anzuhängen.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_2">Die Kamera bietet Objektivtasten, Zoom per Fingergeste, Fokus per Tippen und Blitz.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_example">Halte + gedrückt, wische nach oben zu Fotos und lass los</string>
+
+    <!-- 2026-10-08-01-voice-webrtc-weak-connection -->
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_title">Stabilere Anrufe</string>
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_summary">Bei schwacher Verbindung gibt es im Anruf nur einen kurzen Aussetzer statt sekundenlanger Stille.</string>
+
+    <!-- 2026-10-08-02-mute-sessions -->
+    <string name="settings_whatsnew_entry_mute_sessions_title">Sitzungen stummschalten</string>
+    <string name="settings_whatsnew_entry_mute_sessions_summary">Stummgeschaltete Sitzungen bleiben in deiner Liste, erscheinen aber nie unter „Nachlesen“ oder mit einem Ungelesen-Punkt.</string>
+    <string name="settings_whatsnew_entry_mute_sessions_detail_1">Halte „Nachlesen“ gedrückt, um alles als gelesen zu markieren. Sitzungen, die auf dich warten, bleiben.</string>
+    <string name="settings_whatsnew_entry_mute_sessions_example">Halte eine Sitzung im Seitenmenü gedrückt und tippe auf „Stummschalten“</string>
+
+    <!-- 2026-10-08-03-pair-from-anywhere -->
+    <string name="settings_whatsnew_entry_pair_from_anywhere_title">Von überall koppeln</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_summary">Führe opencode pair --remote auf deinem Computer aus, um dich aus jedem Netzwerk zu verbinden – ohne gemeinsames WLAN oder Tailscale.</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_detail_1">Scanne den angezeigten Code oder füge den ausgegebenen Link ein.</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_example">Führe opencode pair --remote aus und füge dann den Server auf deinem Handy hinzu</string>
+
+    <!-- 2026-10-08-04-drawer-peek -->
+    <string name="settings_whatsnew_entry_drawer_peek_title">Zuletzt aktive Sitzungen</string>
+    <string name="settings_whatsnew_entry_drawer_peek_summary">Ziehe die Sitzungsliste zur Sitzung hin, um zu sehen, wann die einzelnen Sitzungen zuletzt aktiv waren.</string>
+    <string name="settings_whatsnew_entry_drawer_peek_detail_1">Wische über die Liste nach links, um sie zu schließen.</string>
+    <string name="settings_whatsnew_entry_drawer_peek_example">Öffne die Sitzungsliste und ziehe sie nach rechts</string>
+
+    <!-- 2026-10-08-05-dictation-keeps-going -->
+    <string name="settings_whatsnew_entry_dictation_keeps_going_title">Diktieren und senden</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_summary">Tippe zum Diktieren aufs Mikrofon und sende direkt aus der Aufnahmeleiste. Oder tippe auf „Stoppen“, um den Text erst zu prüfen.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_1">Halte das Mikrofon zum Sprechen gedrückt. Wische zum Einrasten nach oben oder zum Abbrechen nach links.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_2">Die Aufnahme läuft weiter, wenn du die App verlässt. Über eine Live-Aktivität kannst du sie stoppen.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_3">Wechselst du während der Aufnahme die Sitzung, sendet „Senden“ an die gerade angezeigte Sitzung.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_example">Tippe aufs Mikrofon, sprich einen Satz und tippe auf „Senden“</string>
+
+    <!-- 2026-10-08-06-siri-shortcuts-spotlight -->
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_title">App-Aktionen und Verknüpfungen</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_summary">Starte Anrufe oder Sitzungen und sende Nachrichten über App-Aktionen von Google Assistant, App-Verknüpfungen oder Schnelleinstellungen.</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_detail_1">Halte das App-Symbol gedrückt, um deine letzten Sitzungen zu sehen.</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_example">Sag „Hey Google, starte einen Sprachanruf in OpenCode“</string>
+
+    <!-- 2026-10-09-01-working-orb -->
+    <string name="settings_whatsnew_entry_working_orb_title">Statuskugel</string>
+    <string name="settings_whatsnew_entry_working_orb_summary">Eine Kugel neben „In Arbeit“ und auf Unteragenten-Karten zeigt, was der Agent tut. Ist er fertig, wird sie zur Kopiertaste.</string>
+
+    <!-- 2026-10-09-02-shell-glyph -->
+    <string name="settings_whatsnew_entry_shell_glyph_title">Shell-Aktivität</string>
+    <string name="settings_whatsnew_entry_shell_glyph_summary">Das &gt;_-Symbol einer laufenden Shell bewegt sich, sobald neue Ausgabe eintrifft.</string>
+
+    <!-- 2026-10-09-03-math-and-diagrams -->
+    <string name="settings_whatsnew_entry_math_and_diagrams_title">Formeln und Diagramme</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_summary">Antworten stellen Formeln und Mermaid-Diagramme dar.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_1">Tippe zum Vergrößern auf ein Diagramm oder halte es gedrückt, um den Quelltext zu sehen.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_2">Formeln passen sich deiner Textgröße an.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_example">Bitte um ein Flussdiagramm zum Senden einer Nachricht</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_prompt">Zeichne ein Flussdiagramm zum Senden einer Nachricht</string>
+
+    <!-- 2026-10-09-04-always-notify -->
+    <string name="settings_whatsnew_entry_always_notify_title">Bei Abschluss benachrichtigen</string>
+    <string name="settings_whatsnew_entry_always_notify_summary">Du erhältst eine Benachrichtigung, wenn eine hier gestartete Sitzung fertig ist – mit einer kurzen Zusammenfassung.</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_1">Aktiviere „Immer benachrichtigen“ im Sitzungsmenü, um über jede Antwort informiert zu werden – auch bei Anfragen vom Computer.</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_2">Tippe auf eine Benachrichtigung, um die zugehörige Sitzung zu öffnen.</string>
+    <string name="settings_whatsnew_entry_always_notify_example">Sende eine Nachricht und sperre dann dein Handy</string>
+
+    <!-- 2026-10-09-05-server-switcher -->
+    <string name="settings_whatsnew_entry_server_switcher_title">Server wechseln</string>
+    <string name="settings_whatsnew_entry_server_switcher_summary">Dein aktueller Server steht als Titel im Seitenmenü. Tippe darauf, um den Server zu wechseln oder einen hinzuzufügen.</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_1">In den Einstellungen zeigt ein Puls die aktive Verbindung an. Neben dem Servernamen steht die Antwortzeit.</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_2">Benenne einen Server um. Der Name gilt nur auf diesem Handy.</string>
+    <string name="settings_whatsnew_entry_server_switcher_example">Öffne das Seitenmenü, tippe auf den Servernamen und füge deinen anderen Computer hinzu</string>
+
+    <!-- 2026-10-10-01-share-opened-files -->
+    <string name="settings_whatsnew_entry_share_opened_files_title">Bilder wie Fotos</string>
+    <string name="settings_whatsnew_entry_share_opened_files_summary">Bilder erscheinen vollständig in der Sitzung und öffnen sich wie Fotos: per Fingergeste zoomen, zum Wechseln wischen und zum Schließen nach unten ziehen.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_1">Jede Datei, die der Agent nennt, lässt sich in der App öffnen.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_2">Mit „Teilen“ speicherst du alles Geöffnete in Fotos oder Dateien – auch Videos und Audio.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_example">Bitte den Agenten, ein paar Screenshots zu lesen. Tippe dann auf einen und ziehe ihn nach unten</string>
+
+    <!-- 2026-10-10-02-call-voice -->
+    <string name="settings_whatsnew_entry_call_voice_title">Sprachanrufe</string>
+    <string name="settings_whatsnew_entry_call_voice_summary">Tippe auf die Wellenform im leeren Nachrichtenfeld und sprich los. Stimme arbeitet während des Gesprächs in deinen Sitzungen und sagt dir, wenn die Arbeit fertig ist.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_1">Nenne eine Sitzung beim Namen: Stimme öffnet sie und startet oder steuert dort die Arbeit.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_2">Sprich dazwischen, um zu unterbrechen, oder frage nach dem Stand der Arbeit.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_3">Tippe auf die Anrufleiste, um Live-Untertitel zu sehen.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_4">Über die Anrufbenachrichtigung kannst du stummschalten und auflegen, auch auf dem Sperrbildschirm.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_5">Halte „Stoppen“ gedrückt, um anzurufen, während der Agent arbeitet.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_6">Wähle unter Einstellungen → Stimme eine Stimme aus.</string>
+    <string name="settings_whatsnew_entry_call_voice_example">Starte einen Anruf und sage „Öffne meine Sitzung zu den Upload-Korrekturen und prüfe die Tests“</string>
+
+    <!-- 2026-10-10-03-drawer-one-edge -->
+    <string name="settings_whatsnew_entry_drawer_one_edge_title">Übersichtlicheres Seitenmenü</string>
+    <string name="settings_whatsnew_entry_drawer_one_edge_summary">Alle Zeilen beginnen am selben Rand, Statuspunkte stehen am Zeilenende und die Suche ist oben als Schaltfläche erreichbar.</string>
+
+    <!-- 2026-10-11-01-paste-as-a-card -->
+    <string name="settings_whatsnew_entry_paste_as_a_card_title">Lange Texte als Karten</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_summary">Lange eingefügte Texte erscheinen als Karte „Eingefügter Text“ neben deinen Bildern. Der Agent liest weiterhin alles.</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_1">Tippe auf die Karte, um den ganzen Text zu lesen, zu kopieren oder zu teilen.</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_2">Lange Nachrichten werden auf wenige Zeilen gekürzt. „Mehr anzeigen“ klappt sie auf.</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_example">Kopiere ein langes Protokoll, füge es ins Nachrichtenfeld ein und tippe auf die Karte</string>
+
+    <!-- 2026-10-11-02-ride-out-drops -->
+    <string name="settings_whatsnew_entry_ride_out_drops_title">Auch bei schwachem Empfang</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_summary">Ein paar Sekunden ohne Empfang führen nicht mehr zu Fehlern. Sendevorgänge, Sitzungen und Anrufe warten auf die Verbindung und laufen dann weiter.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_1">„Senden“ ist immer verfügbar. Nachrichten werden in der Reihenfolge gesendet, in der du sie abgeschickt hast.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_2">Eine nicht gesendete Nachricht bleibt mit „Erneut versuchen“ an ihrem Platz. Beim erneuten Versuch wird sie nie doppelt gesendet.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_3">Ist dein Server offline, wird sein Name im Seitenmenü blasser. Tippe darauf für „Erneut versuchen“.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_example">Öffne eine Sitzung, während dein Zug in einen Tunnel fährt</string>
+
+    <!-- 2026-10-11-03-new-session-recent-projects -->
+    <string name="settings_whatsnew_entry_new_session_recent_projects_title">In jedem Projekt starten</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_summary">„Neue Sitzung“ zeigt deine zuletzt verwendeten Projekte über dem Nachrichtenfeld. Über „Alle Projekte“ kannst du jeden Ordner auf deinem Computer öffnen.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_1">Das gewählte Projekt bleibt beim Tippen über dem Nachrichtenfeld sichtbar.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_2">Ein Anruf aus einer neuen Sitzung arbeitet im gewählten Projekt.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_example">Tippe auf „Neue Sitzung“, dann auf „Alle Projekte“ und „Ordner auswählen…“</string>
+
+    <!-- 2026-10-11-04-stop-runs-your-steer -->
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_title">Während der Arbeit steuern</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_summary">Sende eine Nachricht, während der Agent arbeitet. Er liest sie beim nächsten Schritt und verschiebt lange laufende Befehle vorher in den Hintergrund.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_1">Halte „Senden“ gedrückt, um für eine Nachricht „Steuern“ oder „In Warteschlange stellen“ zu wählen.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_2">Halte eine wartende Nachricht gedrückt, um sie in die Warteschlange zu verschieben oder zu löschen.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_3">„Stoppen“ wechselt sofort zu „Wird gestoppt…“. Eine gesendete Nachricht zum Nachsteuern wird als Nächstes ausgeführt.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_example">Sende eine Nachricht, während ein langer Befehl läuft, und sieh zu, wie er in den Hintergrund wechselt</string>
+
+    <!-- 2026-10-12-01-browser-push-in -->
+    <string name="settings_whatsnew_entry_browser_push_in_title">Webseiten direkt in der App</string>
+    <string name="settings_whatsnew_entry_browser_push_in_summary">Ist das Experiment „In-App-Browser“ aktiv, öffnet sich ein Link als Seite über der Sitzung. Wische vom Rand, um zurückzugehen.</string>
+
+    <!-- 2026-10-12-02-answer-from-the-bar -->
+    <string name="settings_whatsnew_entry_answer_from_the_bar_title">Im Nachrichtenfeld antworten</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_summary">Fragen und Berechtigungsanfragen erscheinen direkt am Nachrichtenfeld. Antworte dort: Tippe auf eine Auswahl oder tippe oder diktiere eine eigene Antwort.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_1">Bei Berechtigungsanfragen siehst du den Befehl oder die Änderung, bevor du sie erlaubst.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_2">„Verweigern“ nutzt deinen eingegebenen Text als Anweisung, was stattdessen zu tun ist. So arbeitet der Agent weiter.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_3">Nach deiner Antwort erscheint dein Entwurf wieder.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_example">Wenn der Agent eine Frage stellt, halte das Mikrofon gedrückt und sprich deine Antwort</string>
+
+    <!-- 2026-10-12-03-new-messages-divider -->
+    <string name="settings_whatsnew_entry_new_messages_divider_title">Weitermachen, wo du aufgehört hast</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_summary">Wenn du zu einer Sitzung zurückkehrst, öffnet sie sich am Ende. Neue Nachrichten sind schon geladen. Um bei vielen neuen Nachrichten stattdessen an einer Linie „Neu“ zu starten, aktiviere „Trennlinie für neue Nachrichten“ unter Einstellungen › Sitzungen.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_1">Sitzungen, die du vermutlich öffnen wirst, werden beim Öffnen des Seitenmenüs aktualisiert. So sind sie beim Antippen bereit.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_2">Beim Zurückwechseln bleiben Hintergrundarbeit und Kontextanzeige der Sitzung während der Aktualisierung erhalten.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_example">Starte eine lange Aufgabe, wechsle zu einer anderen Sitzung und kehre zurück, sobald die Antwort da ist</string>
+
+    <!-- 2026-10-12-04-model-list-and-level-meter -->
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_title">Neue Modellauswahl</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_summary">Wähle im Fenster „Modell“ ein Modell und seine Denkstufe. Deine Favoriten stehen oben. Für eine Liste direkt am Nachrichtenfeld aktiviere „Neue Modellauswahl“ unter Einstellungen → Experimentell.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_1">Nutze im Fenster „Modell“ das Menü „Denkt nach“, wenn ein Modell Denkstufen anbietet.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_2">Wische über ein Modell, um es zu den Favoriten hinzuzufügen.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_3">Eine dezente Linie in der Sitzung zeigt, wo du das Modell oder die Denkstufe gewechselt hast.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_example">Tippe im Nachrichtenfeld auf das Modell und wähle eine Denkstufe</string>
+
+    <!-- 2026-10-12-05-run-error-line -->
+    <string name="settings_whatsnew_entry_run_error_line_title">Wenn ein Durchlauf fehlschlägt</string>
+    <string name="settings_whatsnew_entry_run_error_line_summary">Bricht ein Durchlauf ab, siehst du den Grund in einfachen Worten und einen nächsten Schritt: „Bearbeiten“, „Kompakt“, „Modell wechseln“ oder „Erneut versuchen“.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_1">„Bearbeiten“ nimmt deine Nachricht zurück und setzt sie zum Umformulieren wieder ins Nachrichtenfeld.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_2">Halte die Zeile gedrückt, um den vollständigen Fehler zu sehen und zu kopieren.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_3">Wenn der Agent es automatisch erneut versucht, zeigt „In Arbeit“ die verbleibende Zeit bis dahin.</string>
+    <string name="settings_whatsnew_entry_run_error_line_example">Wird eine Antwort blockiert, tippe auf „Bearbeiten“, formuliere die Nachricht um und sende sie erneut</string>
+
+    <!-- 2026-10-12-06-transcript-keyboard-space -->
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_title">Tastatur schließt ohne Lücke</string>
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_summary">Wenn du die Tastatur wegziehst, bleibt unter der letzten Nachricht keine Lücke mehr.</string>
+
+    <!-- 2026-10-12-07-share-sheet-sends -->
+    <string name="settings_whatsnew_entry_share_sheet_sends_title">Aus dem Teilen-Menü senden</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_summary">Teile beliebige Inhalte mit OpenCode, wähle eine Sitzung, füge eine Nachricht hinzu und sende alles, ohne die App zu öffnen.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_1">Deine letzten Sitzungen erscheinen in der obersten Zeile des Teilen-Menüs.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_2">JSON-Dateien und Exporte werden als Dateien angehängt. Ihre Namen bleiben erhalten.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_3">„In OpenCode fortfahren“ öffnet die Sitzung mit dem geteilten Inhalt im Nachrichtenfeld.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_4">Falls das Senden nicht klappt, sendet „Später senden“ den Inhalt beim nächsten Öffnen der App.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_example">Teile einen Screenshot mit OpenCode, gib eine Frage ein und tippe auf „Senden“</string>
+
+    <!-- 2026-10-12-08-app-icon-badge -->
+    <string name="settings_whatsnew_entry_app_icon_badge_title">Zähler am App-Symbol</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_summary">Das App-Symbol zeigt, wie viele Sitzungen ungelesen sind oder auf dich warten – dieselbe Anzahl wie unter „Nachlesen“.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_1">Stummgeschaltete Sitzungen zählen nicht mit.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_2">Dafür müssen Benachrichtigungen aktiviert sein.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_example">Lass eine Frage in einer Sitzung unbeantwortet und wechsle zum Home-Bildschirm</string>
+
+    <!-- 2026-10-12-09-drawer-keeps-keyboard -->
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_title">Tastatur gleitet mit dem Seitenmenü</string>
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_summary">Öffnest du beim Tippen die Sitzungsliste, bleibt das Nachrichtenfeld aktiv. Die Tastatur gleitet mit der Sitzung zur Seite.</string>
+
+    <!-- 2026-10-12-10-whats-new-page -->
+    <string name="settings_whatsnew_entry_whats_new_page_title">„Was ist neu“ – einfacher</string>
+    <string name="settings_whatsnew_entry_whats_new_page_summary">„Was ist neu“ öffnet sich wie die Einstellungen als Seite. Jede Funktion hat eine eigene Seite, Fehlerbehebungen sind hier gesammelt.</string>
+
+    <!-- 2026-10-12-11-catch-up-returns-to-drawer -->
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_title">Von „Nachlesen“ zurück zum Seitenmenü</string>
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_summary">Wenn du „Nachlesen“ verlässt, kehrst du zur Sitzungsliste zurück – genau so, wie du sie verlassen hast.</string>
+
+    <!-- 2026-10-12-12-transcript-day-stamps -->
+    <string name="settings_whatsnew_entry_transcript_day_stamps_title">Tagesangaben im Transkript</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_summary">Bei Sitzungen über mehrere Tage steht über der ersten Nachricht jedes Tages etwa „Mittwoch 8:24 Uhr“. Nach einer Stunde Pause erscheint über der nächsten Nachricht die Uhrzeit.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_1">Als Tagesangabe erscheint „Heute“, „Gestern“ oder innerhalb der Woche der Wochentag, sonst das Datum.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_2">Nachrichten zum Nachsteuern und in der Warteschlange erhalten während des Wartens keinen Zeitstempel.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_example">Öffne eine Sitzung, die du früher in dieser Woche begonnen hast, und scrolle nach oben</string>
+
+    <!-- 2026-10-12-13-rich-link-previews -->
+    <string name="settings_whatsnew_entry_rich_link_previews_title">Linkvorschauen</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_summary">Links unter einer Antwort zeigen in je einer Zeile, was dahintersteckt: ein Pull Request oder Issue mit Titel und Status, ein Commit, ein Video oder eine Seite.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_1">Pull Requests, Issues, Commits und Repositorys auf GitHub zeigen ihren Titel. „Offen“, „Zusammengeführt“ oder „Geschlossen“ erscheinen farbig.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_2">X-Beiträge zeigen Verfasser und Inhalt, YouTube-Links ihren Titel und andere Seiten einen aus dem Link abgeleiteten Namen.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_3">Drei Links sind sichtbar. Tippe neben „Kopieren“ auf „Mehr“, um die übrigen anzuzeigen, und erneut, um sie einzuklappen.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_4">Halte einen Link gedrückt, um eine größere Vorschau, „Link kopieren“ und „Teilen“ zu sehen.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_example">Frag den Agenten, was sich diese Woche in einem Repository geändert hat</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_prompt">Was hat sich diese Woche in einem GitHub-Repository geändert, das ich nutze? Füge Links hinzu.</string>
+
+    <!-- 2026-10-13-01-rolling-numbers -->
+    <string name="settings_whatsnew_entry_rolling_numbers_title">Rollende Zahlen</string>
+    <string name="settings_whatsnew_entry_rolling_numbers_summary">Live-Zähler in der Anzeige für Hintergrundarbeit, im Sitzungsfenster, in „N verwendet“-Zeilen und unter „Nachlesen“ rollen Ziffer für Ziffer weiter.</string>
+
+    <!-- 2026-10-13-02-grouped-steering -->
+    <string name="settings_whatsnew_entry_grouped_steering_title">Gruppierte Nachrichten</string>
+    <string name="settings_whatsnew_entry_grouped_steering_summary">Direkt nacheinander gesendete Nachrichten bilden einen Block. Nachrichten zum Nachsteuern, die auf den Agenten warten, teilen sich die Beschriftung „Nachsteuern“.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_1">Aufeinanderfolgende Sprechblasen liegen eng zusammen und schließen an den Ecken aneinander an.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_2">Fotos und Dateien behalten im Block ihre eigene abgerundete Form.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_3">Sobald der Agent eine Nachricht übernimmt, gleitet sie in einer Bewegung nach oben an ihren Platz.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_example">Sende drei kurze Nachrichten, eine davon mit Foto, während der Agent arbeitet</string>
+
+    <!-- 2026-10-13-03-inline-tool-rows -->
+    <string name="settings_whatsnew_entry_inline_tool_rows_title">Dezente Tool- und Fragezeilen</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_summary">Tool-Gruppen und beantwortete Fragen öffnen sich wie Code in einem Bereich über die volle Breite. Aufeinanderfolgende Lesezugriffe werden in einer Zeile zusammengefasst.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_1">Eingeklappte Gruppen zeigen „N Tools verwendet“ und markieren fehlgeschlagene Tool-Aufrufe rot.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_2">„Ausführen“-Zeilen nennen die vom Skript aufgerufenen Tools, „Fähigkeit“-Zeilen die verwendete Fähigkeit.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_3">Beantwortete Fragen zeigen die Frage und alle angebotenen Optionen. Deine Auswahl ist mit einem Häkchen markiert.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_example">Tippe in einer Sitzung auf „N Tools verwendet“, um den Bereich aufzuklappen</string>
+
+    <!-- 2026-10-13-04-mac-motion-playgrounds -->
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_title">Testumgebungen am Mac steuern</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_summary">Kopple bei aktiviertem Entwicklermodus die Feinabstimmung mit deinem Mac, um Animationen der Testumgebung in Zeitlupe abzuspielen und aufgezeichnete Einzelbilder zu prüfen.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_1">Auf der Steuerungsseite am Mac findest du die Auswahl der Testumgebung, Voreinstellungen und Wiedergabesteuerung. Das Handy zeigt nur die Testumgebung.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_2">Kompakte Karten zeigen die sichtbaren Bedienelemente. Benannte Voreinstellungen regeln Bewegung und Abstände; „Nativ“ stellt das ursprüngliche Verhalten wieder her. Jede Voreinstellung wendet alle Werte auf einmal an.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_3">Das schwebende Fenster zur Feinabstimmung wird ausgeblendet, sobald sich der Mac verbindet. Öffne es mit der Geste zur Feinabstimmung und wähle „Testumgebung beenden“, um sie zu verlassen.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_4">Vordefinierte Szenarien spielen dieselbe Beispielsitzung ab, damit du Animationen zwischen Builds vergleichen kannst.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_5">Wiederholungen starten von vorn und stellen Nachrichten zum Nachsteuern und aus der Warteschlange zu, statt sie warten zu lassen.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_6">Mit dem Überprüfungsplayer am Mac kannst du die aufgezeichnete Geometrie schrittweise prüfen, ein Einzelbild markieren und Feedback zur Animation senden.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_example">Öffne Einstellungen → Entwickler, kopple die Feinabstimmungsseite am Mac und teste dann Transkript → Antwort streamen mit 0,25×</string>
+
+    <!-- 2026-10-13-05-catch-up-flicks -->
+    <string name="settings_whatsnew_entry_catch_up_flicks_title">Einfacher wischen unter „Nachlesen“</string>
+    <string name="settings_whatsnew_entry_catch_up_flicks_summary">Ein kurzes Wischen oder Ziehen unter „Nachlesen“ bewegt die Karte weiter, statt sie zurückschnappen zu lassen.</string>
+
+    <!-- 2026-10-14-01-settings-grouped-by-purpose -->
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_title">Übersichtlichere Einstellungen</string>
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_summary">Experimentelle Funktionen und Entwicklertools findest du unter Einstellungen → Experimentell, Hinweise in der App unter „Benachrichtigungen“ und den Anrufverlauf unter „Stimme“.</string>
+
+    <!-- 2026-10-14-02-send-ats-recovery -->
+    <string name="settings_whatsnew_entry_send_ats_recovery_title">Zuverlässiges Senden</string>
+    <string name="settings_whatsnew_entry_send_ats_recovery_summary">Nachrichten werden automatisch erneut gesendet, wenn iOS eine bereits funktionierende Serververbindung kurzzeitig ablehnt.</string>
+
+    <!-- 2026-10-14-03-keyboard-menus-and-header -->
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_title">Stabilere Tastatur und Menüs</string>
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_summary">Tippe beim Schreiben auf +, um Anhänge zu öffnen, ohne die Tastatur einzuklappen oder Bedienelemente zu verschieben. Der Unschärfeeffekt der Kopfzeile bleibt beim Bewegen der Tastatur an seinem Platz.</string>
+
+    <!-- 2026-10-14-04-open-links-in-apps -->
+    <string name="settings_whatsnew_entry_open_links_in_apps_title">Links öffnen sich in ihrer App</string>
+    <string name="settings_whatsnew_entry_open_links_in_apps_summary">Links öffnen sich in der passenden App, etwa GitHub oder YouTube. Ist das Experiment „In-App-Browser“ aktiviert, halte einen Link gedrückt und wähle „Im App-Browser öffnen“.</string>
+
+    <!-- 2026-10-14-05-session-list-quiet-hierarchy -->
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_title">Übersichtlichere Sitzungsliste</string>
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_summary">„Angeheftet“ und „Zuletzt verwendet“ treten in kleinerer grauer Schrift zurück. Ungelesene und wartende Sitzungen sind etwas kräftiger, gelesene etwas blasser.</string>
+
+    <!-- 2026-10-14-06-queued-messages-fitted-sheet -->
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_title">Aufgeräumte Nachrichtenwarteschlange</string>
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_summary">Die Ansicht wartender Nachrichten ist nur so hoch wie deine Warteschlange, mit nummerierten Zeilen und dezenten Tasten zum sofortigen Senden oder Abbrechen.</string>
+
+    <!-- 2026-10-14-07-control-center-sessions -->
+    <string name="settings_whatsnew_entry_control_center_sessions_title">Kacheln für Sitzungen</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_summary">Füge eine Kachel zu den Schnelleinstellungen hinzu, um mit einem Tippen eine Sitzung zu öffnen oder darin einen Anruf zu starten.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_1">Die neue Kachel „Sitzung öffnen“ öffnet die von dir gewählte Sitzung.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_2">„Anruf starten“ kann einen Anruf in einer gewählten oder neuen Sitzung starten. Standardmäßig wird die zuletzt angesehene Sitzung verwendet.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_3">Wähle aus deinen angehefteten und zuletzt verwendeten Sitzungen. Die Kachel zeigt den aktuellen Sitzungstitel.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_4">Kacheln öffnen nur die App. Erst wenn du sprichst oder tippst, wird etwas gesendet.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_example">Öffne die Schnelleinstellungen, tippe auf „Bearbeiten“ und ziehe die OpenCode-Kachel „Sitzung öffnen“ an die gewünschte Stelle</string>
+
+    <!-- 2026-10-15-01-settings-keyboard-down -->
+    <string name="settings_whatsnew_entry_settings_keyboard_down_title">Einstellungen ohne Tastatur</string>
+    <string name="settings_whatsnew_entry_settings_keyboard_down_summary">Wenn du beim Tippen die Einstellungen über das Seitenmenü öffnest, wird die Tastatur ausgeblendet, statt die Einstellungen zu verdecken.</string>
+
+    <!-- 2026-10-15-02-session-list-sidebar-grey -->
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_title">Mehr Platz in der Sitzungsliste</string>
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_summary">Die Sitzungsliste hat einen größeren Titel und größere graue Überschriften für „Angeheftet“ und „Zuletzt verwendet“ mit mehr Abstand darüber. Öffne das Seitenmenü, um es zu sehen.</string>
+
+    <!-- 2026-10-15-03-voice-varied-acknowledgements -->
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_title">Seltener „Wird geprüft“ bei Anrufen</string>
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_summary">Bei Anrufen geht die Stimme auf das Gesagte ein, statt jede Anfrage mit „Wird geprüft“ zu beantworten. Eine Anfrage wird nicht mehr doppelt gesendet, wenn du weitersprichst.</string>
+
+    <!-- 2026-10-15-04-smoother-streaming -->
+    <string name="settings_whatsnew_entry_smoother_streaming_title">Flüssigere Antwortanzeige</string>
+    <string name="settings_whatsnew_entry_smoother_streaming_summary">Die neueste Zeile einer laufenden Antwort blendet sich ohne Abdunkeln oder Flackern ein. Zeilen dehnen sich nicht mehr über den Text hinaus aus und springen zurück. Listeneinträge und Überschriften erscheinen direkt korrekt statt zunächst als einzelner Strich oder Raute.</string>
+
+    <!-- 2026-10-15-05-model-list-sheet -->
+    <string name="settings_whatsnew_entry_model_list_sheet_title">Modellliste als Auswahlfenster</string>
+    <string name="settings_whatsnew_entry_model_list_sheet_summary">Ist das Experiment „Neue Modellauswahl“ aktiv, wird das Eingabefeld zur Modellliste anstelle der Tastatur. Die Tastatur verschwindet, und die Liste klappt auch bei schnellem Öffnen und Schließen flüssig zurück.</string>
+
+    <!-- 2026-10-15-06-queued-pill-whole-title -->
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_title">Warteschlangenanzeige ohne Kürzung</string>
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_summary">Die Anzeige über der Nachrichteneingabe zeigt „2 in der Warteschlange“ vollständig statt gekürzt. Auch animierte Zähler an anderen Stellen behalten alle Zeichen.</string>
+
+    <!-- 2026-10-16-01-plus-menu-photo-sheet -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_title">Fotos statt Tastatur</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_summary">Ist das Experiment „Neues Plus-Menü“ aktiv, erweitert „Fotos“ das +-Menü zur Fotoauswahl anstelle der Tastatur. Halte + gedrückt, um die neuesten Fotos zu sehen. Ziehe den Finger auf ein Foto und lass los, um es hinzuzufügen.</string>
+
+    <!-- 2026-10-16-02-composer-large-text-targets -->
+    <string name="settings_whatsnew_entry_composer_large_text_targets_title">Leichter tippen im Eingabefeld</string>
+    <string name="settings_whatsnew_entry_composer_large_text_targets_summary">Die Tasten in der Nachrichteneingabe lassen sich bei großer Schrift leichter antippen.</string>
+
+    <!-- 2026-10-16-03-project-pick-haptic -->
+    <string name="settings_whatsnew_entry_project_pick_haptic_title">Kurze Vibration beim Projektwechsel</string>
+    <string name="settings_whatsnew_entry_project_pick_haptic_summary">Wenn du für eine neue Sitzung ein anderes Projekt wählst – über dem Eingabefeld oder unter „Alle Projekte“ –, spürst du eine kurze Vibration.</string>
+
+    <!-- 2026-10-16-04-fork-opens-copy -->
+    <string name="settings_whatsnew_entry_fork_opens_copy_title">Abzweigen öffnet die Kopie</string>
+    <string name="settings_whatsnew_entry_fork_opens_copy_summary">„Abzweigen“ in den Sitzungsdetails öffnet wieder die Kopie.</string>
+
+    <!-- 2026-10-16-05-transcript-row-targets -->
+    <string name="settings_whatsnew_entry_transcript_row_targets_title">Leichter antippen</string>
+    <string name="settings_whatsnew_entry_transcript_row_targets_summary">Der Titel im Sitzungsfenster lässt sich leichter antippen. VoiceOver und Sprachsteuerung erreichen keine Tasten der Nachrichteneingabe mehr, die beim Diktieren ausgeblendet sind.</string>
+
+    <!-- 2026-10-16-06-image-previews -->
+    <string name="settings_whatsnew_entry_image_previews_title">Bildvorschauen</string>
+    <string name="settings_whatsnew_entry_image_previews_summary">Vom Agenten erwähnte Bilder erscheinen als Vorschauen in einem Kachelraster. Fehlende Dateien werden als solche gekennzeichnet.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_1">Vorschauen stehen unter dem Absatz, der die Bilder erwähnt.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_2">Tippe auf ein Bild, um es im Vollbild zu öffnen, und wische durch die Bilder der Antwort.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_3">Bilder außerhalb des Sitzungsordners werden erst geladen, wenn du sie antippst.</string>
+    <string name="settings_whatsnew_entry_image_previews_example">Bitte den Agenten, Screenshots aus deinem Projekt zu zeigen.</string>
+    <string name="settings_whatsnew_entry_image_previews_prompt">Zeig mir die Screenshots in diesem Projekt.</string>
+
+    <!-- 2026-10-16-07-connection-error-details -->
+    <string name="settings_whatsnew_entry_connection_error_details_title">Mehr Details zu Verbindungsfehlern</string>
+    <string name="settings_whatsnew_entry_connection_error_details_summary">Verbindungsfehler zeigen den Fehlercode, die verwendete Adresse und das DNS-Ergebnis. Dazu gibt es Hilfe, wenn ein Tailnet-Name zu einer Adresse außerhalb von Tailscale aufgelöst wird.</string>
+
+    <!-- 2026-10-16-08-outage-reconnect-delay -->
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_title">Schneller wieder verbunden</string>
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_summary">Sitzungen werden schneller aktualisiert, sobald der Server nach einem Ausfall wieder erreichbar ist.</string>
+
+    <!-- 2026-10-17-01-every-running-subagent -->
+    <string name="settings_whatsnew_entry_every_running_subagent_title">Alle laufenden Unteragenten</string>
+    <string name="settings_whatsnew_entry_every_running_subagent_summary">Der Zähler über der Nachrichteneingabe erfasst jetzt auch verschachtelte Unteragenten und alle Unteragenten in Sitzungen mit mehr als 100 – genau wie die TUI.</string>
+
+    <!-- 2026-10-17-02-session-view-refined-standard -->
+    <string name="settings_whatsnew_entry_session_view_refined_standard_title">Klareres Schriftbild in Antworten</string>
+    <string name="settings_whatsnew_entry_session_view_refined_standard_summary">Überschriften der dritten Ebene heben sich stärker von fettem Text ab. Fließtext wird etwas dezenter, damit Fettdruck auffällt. Absätze und Codeblöcke bekommen etwas mehr Abstand.</string>
+
+    <!-- 2026-10-17-03-bottom-follow-on-load -->
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_title">Am Ende bleiben</string>
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_summary">Sitzungen bleiben am Ende, während verzögerte Inhalte nachgeladen werden.</string>
+
+    <!-- 2026-10-17-04-drafts-stay-put -->
+    <string name="settings_whatsnew_entry_drafts_stay_put_title">Entwürfe bleiben erhalten</string>
+    <string name="settings_whatsnew_entry_drafts_stay_put_summary">Entwürfe, angehängte Fotos und Standorte sowie wartende Nachrichten bleiben erhalten, wenn die App im Hintergrund geschlossen wird.</string>
+
+    <!-- 2026-10-18-01-themes -->
+    <string name="settings_whatsnew_entry_themes_title">Themen</string>
+    <string name="settings_whatsnew_entry_themes_summary">Gib Sitzungen ein Thema wie Tokyo Night, Catppuccin, Dracula, Rosé Pine oder GitHub – mit direkter Vorschau beim Durchstöbern.</string>
+    <string name="settings_whatsnew_entry_themes_detail_1">Themen färben das Transkript, deine Nachrichten, Code, Syntax, Diffs und Links.</string>
+    <string name="settings_whatsnew_entry_themes_detail_2">Unter „Erscheinungsbild“ legst du mit „Modus“ Hell, Dunkel oder System fest.</string>
+    <string name="settings_whatsnew_entry_themes_detail_3">Bedienelemente behalten bei jedem Thema ihren gewohnten Liquid Glass-Look.</string>
+    <string name="settings_whatsnew_entry_themes_example">Öffne Einstellungen → Erscheinungsbild → Thema und probiere Tokyo Night aus.</string>
+
+    <!-- 2026-10-18-02-return-key-sends -->
+    <string name="settings_whatsnew_entry_return_key_sends_title">Einstellung für die Eingabetaste</string>
+    <string name="settings_whatsnew_entry_return_key_sends_summary">Deaktiviere „Mit Eingabetaste senden“ in den Einstellungen, wenn die Eingabetaste eine neue Zeile einfügen soll. Auf einer externen Tastatur kannst du auch Command-Eingabe und Umschalt-Eingabe verwenden.</string>
+
+    <!-- 2026-10-18-03-quote-replies -->
+    <string name="settings_whatsnew_entry_quote_replies_title">Antworten zitieren</string>
+    <string name="settings_whatsnew_entry_quote_replies_summary">Wähle Text in einer Antwort des Assistenten aus und tippe auf „Zitieren“, um ihn als Zitatkarte zu deiner Nachricht hinzuzufügen.</string>
+
+    <!-- 2026-10-18-04-launch-bloom -->
+    <string name="settings_whatsnew_entry_launch_bloom_title">Neue Startanimation</string>
+    <string name="settings_whatsnew_entry_launch_bloom_summary">Beim Kaltstart zieht sich das OpenCode-Logo zusammen und öffnet sich dann zu deiner Sitzung.</string>
+
+    <!-- 2026-10-18-05-drag-to-pin -->
+    <string name="settings_whatsnew_entry_drag_to_pin_title">Sitzung durch Ziehen anheften</string>
+    <string name="settings_whatsnew_entry_drag_to_pin_summary">Halte eine Sitzung gedrückt und ziehe sie nach oben in „Angeheftet“, um sie dort anzuheften. Ziehe sie nach unten in „Zuletzt verwendet“, um sie loszulösen.</string>
+
+    <!-- 2026-10-19-01-call-tray-colour-blend -->
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_title">Sanfterer Übergang der Anruftaste</string>
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_summary">Ist das Experiment „Anrufleiste“ aktiv, geht die Anruftaste beim Anrufstart direkt in die rote Taste „Ende“ über und beim Auflegen wieder zurück, ohne dass der Hintergrund kurz aufblitzt.</string>
+
+    <!-- 2026-10-19-02-optical-insets -->
+    <string name="settings_whatsnew_entry_optical_insets_title">Gleichmäßig platzierte Bedienelemente</string>
+    <string name="settings_whatsnew_entry_optical_insets_summary">Plus und Mikrofon in der Nachrichteneingabe, die Symbole für Hintergrundarbeit und Warteschlange sowie das Symbol für „Neue Sitzung“ im Seitenmenü sitzen jetzt optisch mittig in den runden Enden ihrer Glasflächen. Das Shell-Symbol ist nun rund wie die Unteragenten-Kugel und hat keinen blinkenden Cursor mehr. Sind beide aktiv, erscheinen sie nebeneinander.</string>
+
+    <!-- 2026-10-19-03-smart-dictation-audio -->
+    <string name="settings_whatsnew_entry_smart_dictation_audio_title">Flüssiger diktieren mit Musik</string>
+    <string name="settings_whatsnew_entry_smart_dictation_audio_summary">Beim Diktieren läuft Musik auf AirPods weiter in Stereo, ohne nach einer Minute auszusetzen. Auf dem Handy ohne Kopfhörer bleibt sie auf dem Lautsprecher statt auf dem Ohrhörer.</string>
+
+    <!-- 2026-10-19-04-interrupted-hand -->
+    <string name="settings_whatsnew_entry_interrupted_hand_title">Handsymbol für Unterbrechungen</string>
+    <string name="settings_whatsnew_entry_interrupted_hand_summary">Unterbrochene Ausführungen und Shells zeigen jetzt eine erhobene Hand. Bei einer Shell, die du stoppst, steht nun „Unterbrochen“ statt „Gestoppt“.</string>
+
+    <!-- 2026-10-19-05-autocomplete-fast-scroll -->
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_title">Schnellere Autovervollständigung</string>
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_summary">Ist das Experiment „Autovervollständigung in der Nachrichteneingabe“ aktiv, halten Vorschläge beim Tippen mit. Durch Ziehen scrollst du die Liste, ohne einen Eintrag auszuwählen.</string>
+
+    <!-- 2026-10-19-06-experimental-groups -->
+    <string name="settings_whatsnew_entry_experimental_groups_title">Gruppierte Experimente</string>
+    <string name="settings_whatsnew_entry_experimental_groups_summary">Experimente unter Einstellungen → Experimentell sind jetzt gruppiert. Für Anrufe gibt es eine gemeinsame Auswahl „Anrufstil“.</string>
+
+    <!-- 2026-10-19-07-model-picker-standard-sheet -->
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_title">Modellauswahl als Standarddialog</string>
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_summary">Ist das Experiment „Neue Modellauswahl“ aktiv, öffnet das Modell im Nachrichtenfeld einen Standarddialog. Darin hat jedes Modell ein eigenes Menü für die Denkstufe. Die bisherige Auswahl heißt jetzt „Benutzerdefinierte Modellauswahl“ unter Einstellungen › Experimentell.</string>
+
+    <!-- 2026-10-19-08-problem-reports-reach-session -->
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_title">Problemberichte kommen in der Sitzung an</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_summary">„Problem melden“ sendet deine Notiz jetzt auch in die Sitzung, aus der du das Problem meldest. Der vollständige Bericht wird angehängt, damit der Agent ihn lesen kann.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_1">Die Nachricht beginnt mit einer Zeile zum Problembericht, deiner Notiz, der Berichts-ID und einem Link zum hochgeladenen Trace.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_2">Angaben zu Gerät, Build und Bildschirm sowie Zeitachse und App-Protokoll kommen als Dateianhang an, genau wie eine selbst angehängte Datei.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_3">Von der Startseite aus geht der Bericht an deine letzte Sitzung.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_4">Schlägt der Upload fehl, kommen Notiz und Zusammenfassung trotzdem an, mit einem entsprechenden Hinweis. „Erneut versuchen“ sendet dann nur den Trace-Link.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_5">Sobald die Nachricht angekommen ist, erscheint die Bestätigung „An Sitzung gesendet“.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_example">Öffne das Menü einer Sitzung, wähle „Problem melden“, füge eine Notiz hinzu und tippe auf „Senden“</string>
+
+    <!-- 2026-10-19-09-team-scrawl-feedback -->
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_title">Team-Feedback mit Scrawl</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_summary">Tritt Team-Feedback über deinen persönlichen Link bei, um Scrawl-Aufnahmen per Drei-Finger-Geste und bereinigte Diagnosedaten an die gemeinsame Warteschlange im Probleme-Board zu senden.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_1">Öffne deinen opencode://team/join-Link, um zu prüfen, welche Daten erfasst werden, und zuzustimmen.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_2">Eine interaktive Einführung zeigt dir in drei Schritten, wie du drei Finger auflegst und hältst, sprichst und zeichnest und einen Übungsclip in den Testbereich sendest.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_3">Jede Aufnahme enthält dieselbe bereinigte Zeitachse, dasselbe App-Protokoll und dieselben Motion Watch-Diagnosedaten wie „Problem melden“.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_4">Unter Einstellungen › Entwickler kannst du die Einführung jederzeit wiederholen oder Team-Feedback verlassen.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_example">Öffne Einstellungen › Entwickler, um deinen Team-Feedback-Status zu prüfen oder die Einführung zu wiederholen.</string>
+
+    <!-- 2026-10-19-10-scrawl-faster-start -->
+    <string name="settings_whatsnew_entry_scrawl_faster_start_title">Schnellerer Scrawl-Start</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_summary">Die Scrawl-Bedienelemente erscheinen schon, während Mikrofon und Aufnahme starten.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_1">Tipps auf „Zeichnen“, „Senden“ und „Verwerfen“ werden gespeichert, während die Aufnahme vorbereitet wird.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_2">Drei aufgelegte Finger bereiten die Einblendung vor, ohne das Mikrofon vorzeitig zu starten.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_3">Ein Absturz wurde behoben, der beim Neustart des Scrawl-Mikrofons während eines Audioquellenwechsels auftrat.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_example">Lege auf einem gekoppelten Gerät drei Finger auf und halte sie dort, um eine Aufnahme zu starten</string>
+
+    <!-- 2026-10-20-01-call-tray-docks-in-drawer -->
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_title">Anrufleiste im Seitenmenü</string>
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_summary">Ist das Experiment „Anrufleiste“ aktiv, wandert die Leiste beim Öffnen des Seitenmenüs während eines Anrufs unter „Neue Sitzung“, samt Pegelanzeige, „Stummschalten“ und „Ende“. Beim Schließen kehrt sie zurück.</string>
+
+    <!-- 2026-10-20-02-markdown-streams-smoothly -->
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_title">Flüssigere Antwortanzeige</string>
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_summary">Auch lange Antworten werden beim Eintreffen flüssig angezeigt. Noch unvollständiger Fettdruck, Code und Links erscheinen bereits formatiert statt als rohes Markdown.</string>
+
+    <!-- 2026-10-20-04-return-newline-default -->
+    <string name="settings_whatsnew_entry_return_newline_default_title">Eingabetaste fügt neue Zeile ein</string>
+    <string name="settings_whatsnew_entry_return_newline_default_summary">Die Eingabetaste fügt jetzt standardmäßig eine neue Zeile ein. Aktiviere „Mit Eingabetaste senden“ unter Einstellungen › Sitzungen, um damit zu senden, oder nutze Strg+Eingabe auf einer externen Tastatur.</string>
+
+    <!-- 2026-10-20-05-drawer-session-alignment -->
+    <string name="settings_whatsnew_entry_drawer_session_alignment_title">Bündige Elemente im Seitenmenü</string>
+    <string name="settings_whatsnew_entry_drawer_session_alignment_summary">„Suchen“, „Neue Sitzung“ und „Einstellungen“ sind auf Handys und Tablets jetzt an der Kopfzeile und am Nachrichtenfeld der Sitzung ausgerichtet.</string>
+
+    <!-- 2026-10-20-06-call-tray-switch-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_title">Stabilere Anrufsteuerung</string>
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_summary">Die Wellenform des Anrufs bewegt sich beim Sitzungswechsel weiter. Beim Öffnen der Sitzungsliste bleiben die Bedienelemente auf gleicher Höhe.</string>
+
+    <!-- 2026-10-20-07-voice-delegation-visible-on-admission -->
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_title">Sprachnachrichten erscheinen sofort</string>
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_summary">Nachrichten, die über „Stimme“ in die Sitzung gesendet werden, erscheinen, sobald der Server sie annimmt, auch wenn sich Sitzungsaktualisierungen verzögern.</string>
+
+    <!-- 2026-10-20-08-inline-image-links -->
+    <string name="settings_whatsnew_entry_inline_image_links_title">Vorschau für Bildlinks</string>
+    <string name="settings_whatsnew_entry_inline_image_links_summary">Aktiviere „Vorschau für Bildlinks“ unter Einstellungen › Experimentell › Transkript, um verlinkte Bilder in Antworten zu sehen. Tippe auf ein Vorschaubild, um es im Vollbild zu öffnen und zu zoomen.</string>
+
+    <!-- 2026-10-20-09-smooth-link-preview-arrival -->
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_title">Flüssigere Linkvorschau</string>
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_summary">Linkvorschauen werden beim Laden sanft eingeblendet. Ändert sich die Höhe eines Titels, verschieben sich die Zeilen darunter flüssig.</string>
+
+    <!-- 2026-10-20-10-subagent-capsule-press -->
+    <string name="settings_whatsnew_entry_subagent_capsule_press_title">Abgerundete Aktivitätsanzeige</string>
+    <string name="settings_whatsnew_entry_subagent_capsule_press_summary">Die Anzeige für Unteragenten und Shells behält auch beim Drücken ihre runden Enden.</string>
+
+    <!-- 2026-10-20-11-advanced-settings-open -->
+    <string name="settings_whatsnew_entry_advanced_settings_open_title">Einfachere erweiterte Einstellungen</string>
+    <string name="settings_whatsnew_entry_advanced_settings_open_summary">Unter Einstellungen › Experimentell sind alle Gruppen aufgeklappt, die Modellauswahlen unter „Modellauswahl“ gebündelt. Zum Ändern kannst du die ganze Zeile antippen.</string>
+
+    <!-- 2026-10-20-12-revert-to-here -->
+    <string name="settings_whatsnew_entry_revert_to_here_title">Auf diesen Punkt zurücksetzen</string>
+    <string name="settings_whatsnew_entry_revert_to_here_summary">Halte eine deiner Nachrichten gedrückt und wähle „Auf diesen Punkt zurücksetzen“, um dorthin zurückzukehren und sie zu bearbeiten.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_1">Text, Fotos und Dateien der Nachricht landen wieder im Nachrichtenfeld.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_2">„Rückgängig“ stellt den Austausch und die zugehörigen Dateiänderungen wieder her, solange du keine neue Nachricht sendest.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_3">Die Option ist verfügbar, solange der Agent nicht arbeitet.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_example">Halte eine frühere Nachricht von dir gedrückt und wähle „Auf diesen Punkt zurücksetzen“.</string>
+
+    <!-- 2026-10-20-13-drag-from-transcript -->
+    <string name="settings_whatsnew_entry_drag_from_transcript_title">Aus der Sitzung ziehen</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_summary">Halte Code, Bilder, Dateien, Links und Nachrichten gedrückt und ziehe sie aus einer Sitzung in andere Apps.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_1">Codeblöcke werden als Text samt Sprachangabe übertragen.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_2">Vom Agenten erstellte Bilder und Dateien werden als Dateien übertragen.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_3">Lege sie im Nachrichtenfeld ab, um sie anzuhängen oder einzufügen.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_4">Scrollen, Textauswahl und Menüs funktionieren wie bisher.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_example">Wähle eine Codezeile in einer Antwort aus, halte die Auswahl gedrückt und ziehe den Block in die Notizen-App.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_prompt">Schreibe eine kurze Swift-Funktion, die eine Zeichenfolge umkehrt, in einem Codeblock.</string>
+
+    <!-- 2026-10-20-14-tuning-glass-tap-targets -->
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_title">Feinabstimmung leichter bedienen</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_summary">Die eingeklappte Schaltfläche zur Feinabstimmung und der Randreiter haben größere Tippflächen.</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_detail_1">Ihre sichtbaren Glasflächen bleiben gleich groß.</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_example">Klappe die Feinabstimmung ein und tippe nahe an den Rand der Schaltfläche oder des Reiters</string>
+
+    <!-- 2026-10-20-15-new-session-project-continuity -->
+    <string name="settings_whatsnew_entry_new_session_project_continuity_title">Stabilere Projektauswahl</string>
+    <string name="settings_whatsnew_entry_new_session_project_continuity_summary">Zuletzt verwendete Ordner behalten bei der Projektauswahl ihren Platz, der Name in der Kopfzeile wechselt sanft und die Projektübersicht zeigt klarere Ordnerpfade.</string>
+
+    <!-- 2026-10-20-16-simple-session-loading -->
+    <string name="settings_whatsnew_entry_simple_session_loading_title">Sitzungen ruhiger laden</string>
+    <string name="settings_whatsnew_entry_simple_session_loading_summary">Nur wenn eine Sitzung etwas länger lädt, wird ein kleines, unbewegtes Logo eingeblendet. Danach geht es sanft in die Nachrichten über.</string>
+
+    <!-- 2026-10-20-17-voice-route-consistency -->
+    <string name="settings_whatsnew_entry_voice_route_consistency_title">Korrekturen bei Sprachverbindungen</string>
+    <string name="settings_whatsnew_entry_voice_route_consistency_summary">Grok verwendet weiterhin deinen xAI-Schlüssel, wenn dein Server Anrufe abwickelt, und Gemini stellt sich korrekt vor.</string>
+
+    <!-- 2026-10-20-18-call-tray-edge-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_title">Animation der Anrufleiste</string>
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_summary">Die Wellenform der Anrufleiste folgt ihrem abgerundeten Rand, wenn sie sich öffnet oder ins Seitenmenü hinein- oder herausgleitet.</string>
+
+    <!-- 2026-10-21-01-call-tray-keyboard-return -->
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_title">Rückkehr der Anrufleiste</string>
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_summary">Die Anrufleiste bleibt sichtbar, wenn sich das Seitenmenü schließt und die Tastatur zurückkehrt.</string>
+
+    <!-- 2026-10-21-02-drawer-title-fade -->
+    <string name="settings_whatsnew_entry_drawer_title_fade_title">Längere Sitzungstitel</string>
+    <string name="settings_whatsnew_entry_drawer_title_fade_summary">Lange Sitzungstitel in der Seitenleiste reichen bis zum Rand und werden dort ausgeblendet, statt früh mit Auslassungspunkten zu enden.</string>
+
+    <!-- 2026-10-21-03-call-sounds-from-the-tap -->
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_title">Schnellere Anruftöne</string>
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_summary">Die Verbindungstöne eines Anrufs beginnen mit der ersten Animationsbewegung statt erst einige Sekunden nach dem Tippen.</string>
+
+    <!-- 2026-10-21-04-calm-wireframe-launch -->
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_title">Ruhigeres Laden</string>
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_summary">Zwischengespeicherte Sitzungen öffnen sich sofort. Dauert das Laden etwas länger, erscheinen pulsierende Sprechblasen, die sanft in deine Nachrichten übergehen.</string>
+
+    <!-- 2026-10-21-05-request-dictation-last-line -->
+    <string name="settings_whatsnew_entry_request_dictation_last_line_title">Diktat zeigt das Ende</string>
+    <string name="settings_whatsnew_entry_request_dictation_last_line_summary">Unter iOS 26 zeigt das Antwortfeld einer offenen Anfrage nach einem langen Diktat die letzten Zeilen statt eines Abschnitts aus der Mitte.</string>
+
+    <!-- 2026-10-21-06-first-run-pairing-fixes -->
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_title">Klarere erste Kopplung</string>
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_summary">Ist die Zwischenablage leer, erscheint beim Einfügen ein Hinweis neben „Einfügen“. Die Einrichtung verspricht keinen Fernzugriff in einer halben Minute mehr.</string>
+
+    <!-- 2026-10-21-07-welcome-pairing-copy -->
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_title">Über die OpenCode-App koppeln</string>
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_summary">Der Begrüßungsbildschirm verweist auf Einstellungen → Koppeln in OpenCode auf deinem Computer oder auf /pair im Terminal. Wer OpenCode noch nicht hat, findet dort den Installationsbefehl.</string>
+
+    <!-- 2026-10-21-08-session-id-links -->
+    <string name="settings_whatsnew_entry_session_id_links_title">Sitzungslinks</string>
+    <string name="settings_whatsnew_entry_session_id_links_summary">Eine Sitzungs-ID in einer Antwort erscheint als Titel der Sitzung. Tippe darauf, um sie zu öffnen.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_1">Die ID eines Unteragenten öffnet dessen Sitzung über deiner aktuellen. Mit „Zurück“ kommst du zurück.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_2">Halte einen Link gedrückt, um die ID zu kopieren.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_3">Eine diesem Server unbekannte ID wird gekürzt angezeigt.</string>
+    <string name="settings_whatsnew_entry_session_id_links_example">Bitte den Agenten, eine andere Sitzung mit ihrer ID zu nennen, und tippe dann auf den Titel.</string>
+    <string name="settings_whatsnew_entry_session_id_links_prompt">Liste meine fünf letzten OpenCode-Sitzungen mit ihren Sitzungs-IDs auf.</string>
+
+    <!-- 2026-10-21-10-ipad-multiple-windows -->
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_title">Mehrere Fenster auf Tablets</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_summary">Öffne auf einem Tablet Sitzungen in eigenen Fenstern und nutze zwei nebeneinander.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_1">Halte eine Sitzung in der Seitenleiste gedrückt und wähle „In neuem Fenster öffnen“.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_2">Jedes Fenster hat eine eigene Sitzung, Seitenleiste und ein eigenes Nachrichtenfeld.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_3">Angeheftete und gelesene Sitzungen sowie deine Server sind in allen Fenstern gleich.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_4">Fenster öffnen sich wieder mit der zuletzt angezeigten Sitzung.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_example">Halte eine Sitzung in der Seitenleiste gedrückt, wähle „In neuem Fenster öffnen“ und platziere es neben dem ersten.</string>
+
+    <!-- 2026-10-21-11-plain-launch -->
+    <string name="settings_whatsnew_entry_plain_launch_title">Schlichter Start</string>
+    <string name="settings_whatsnew_entry_plain_launch_summary">OpenCode startet mit einem schlichten Bildschirm und wechselt direkt zu deiner Sitzung, sobald sie bereit ist – ohne Ladeanimation.</string>
+
+    <!-- 2026-10-21-12-breath-ping-call-sounds -->
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_title">Sanftere Anruftöne</string>
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_summary">Beim Verbinden, Signalisieren und Auflegen erklingen sanfte, hauchige Töne, die dezent im Hintergrund des Gesprächs bleiben.</string>
+
+    <!-- 2026-10-21-13-smoother-session-list -->
+    <string name="settings_whatsnew_entry_smoother_session_list_title">Flüssigere Sitzungsliste</string>
+    <string name="settings_whatsnew_entry_smoother_session_list_summary">Die Sitzungsliste in der Seitenleiste scrollt flüssig, während Sitzungen arbeiten. Langes Drücken öffnet das Sitzungsmenü, ohne die Zeilengröße zu ändern.</string>
+
+    <!-- 2026-10-22-01-whats-new-actions -->
+    <string name="settings_whatsnew_entry_whats_new_actions_title">Aus „Was ist neu“ öffnen und ausprobieren</string>
+    <string name="settings_whatsnew_entry_whats_new_actions_summary">Jeder Eintrag in „Was ist neu“ hat einen Button, der die passende Einstellung öffnet, etwa Themen, oder eine neue Sitzung mit einer vorgefüllten Anfrage zum Ausprobieren startet.</string>
+
+    <!-- 2026-10-22-02-project-icons-current-discovery -->
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_title">Korrekturen an Projektsymbolen</string>
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_summary">Bei aktivierten Projektsymbolen zeigt die Seitenleiste auch Symbole, die dein Server in Icon Composer-Bundles findet.</string>
+
+    <!-- 2026-10-22-03-new-divider-off-page -->
+    <string name="settings_whatsnew_entry_new_divider_off_page_title">„Neu“ nur bei Bedarf</string>
+    <string name="settings_whatsnew_entry_new_divider_off_page_summary">Ist das Experiment „Trennlinie für neue Nachrichten“ aktiv, markiert „Neu“ eingegangene Nachrichten nur, wenn sie nicht auf den Bildschirm passen.</string>
+
+    <!-- 2026-10-22-04-catch-up-all-caught-up-row -->
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_title">Alles gelesen</string>
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_summary">Nach der letzten Sitzung unter „Nachlesen“ kommst du direkt zur Seitenleiste zurück. Dort wird „Nachlesen“ als „Alles gelesen“ abgehakt.</string>
+
+    <!-- 2026-10-23-01-session-mentions -->
+    <string name="settings_whatsnew_entry_session_mentions_title">Sitzungen erwähnen</string>
+    <string name="settings_whatsnew_entry_session_mentions_summary">Ist das Experiment „Autovervollständigung in der Nachrichteneingabe“ aktiv, kannst du mit @ andere Sitzungen über ihren Titel erwähnen – wie am Desktop.</string>
+
+    <!-- 2026-10-23-02-gpt-live-own-key -->
+    <string name="settings_whatsnew_entry_gpt_live_own_key_title">GPT-Live-Schlüssel</string>
+    <string name="settings_whatsnew_entry_gpt_live_own_key_summary">GPT-Live-Anrufe können deinen eigenen OpenAI-Schlüssel, den OpenAI-Schlüssel deines Servers oder dessen OpenCode Console-Verbindung nutzen.</string>
+
+    <!-- 2026-10-23-03-pair-opens-drawer -->
+    <string name="settings_whatsnew_entry_pair_opens_drawer_title">Weitermachen, wo du aufgehört hast</string>
+    <string name="settings_whatsnew_entry_pair_opens_drawer_summary">Nach dem Koppeln eines neuen Computers öffnet sich die Seitenleiste mit seinen letzten Sitzungen zur Auswahl, statt dich in einer leeren Sitzung zu lassen.</string>
+
+    <!-- 2026-10-23-04-voice-server-picker -->
+    <string name="settings_whatsnew_entry_voice_server_picker_title">Server für Sprachanrufe wählen</string>
+    <string name="settings_whatsnew_entry_voice_server_picker_summary">Unter Einstellungen › Stimme › Sprachanbieter wählst du, über welchen gespeicherten Server deine Anrufe laufen – oder über dein eigenes OpenAI-Konto auf diesem Handy.</string>
+
+    <!-- 2026-10-24-01-living-orb-floats -->
+    <string name="settings_whatsnew_entry_living_orb_floats_title">Lebendige Kugel schwebt überall</string>
+    <string name="settings_whatsnew_entry_living_orb_floats_summary">„Lebendige Kugel“ ist jetzt der schwebende Anrufstil unter Einstellungen › Experimentell › Anrufe. Sie ist größer, bleibt über den Einstellungen und allen anderen Ansichten und bewegt sich mit beiden Stimmen. Sprecht ihr gleichzeitig, hat jede Stimme ihre eigene Farbe. Tippe sie an, um sie als Karte zu öffnen. Ziehe sie nach oben für den ganzen Anruf samt Transkript und nach unten, um sie wieder zu verkleinern. Unter „Kugel“ unterhalb von „Anrufstil“ änderst du ihr Aussehen.</string>
+
+    <!-- 2026-10-24-02-new-messages-divider-on -->
+    <string name="settings_whatsnew_entry_new_messages_divider_on_title">Trennlinie für neue Nachrichten</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_summary">Ist eine während deiner Abwesenheit eingegangene Antwort länger als der Bildschirm, öffnet sich die Sitzung an einer Trennlinie mit „Neu“ am Anfang der Antwort.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_1">Passt die Antwort auf den Bildschirm, öffnet sich die Sitzung am Ende, ohne Trennlinie.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_2">Antworten, die beim Zuschauen eintreffen, werden nie markiert.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_3">Wenn du bis zum Ende liest, verschwindet die Trennlinie.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_4">Unter Einstellungen › Sitzungen kannst du sie ausschalten.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_example">Bitte um eine lange Antwort, wechsle bis zu ihrem Abschluss in eine andere App und komm dann zurück.</string>
+
+    <!-- 2026-10-24-03-composer-keyboard-morph -->
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_title">Nachrichteneingabe folgt der Tastatur</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_summary">Die Bedienelemente der Nachrichteneingabe öffnen sich mit der Tastatur und bewegen sich mit, wenn du sie hoch- und herunterziehst.</string>
+
+    <!-- 2026-10-24-04-composer-photo-viewer -->
+    <string name="settings_whatsnew_entry_composer_photo_viewer_title">Fotos aus der Eingabe im Vollbild</string>
+    <string name="settings_whatsnew_entry_composer_photo_viewer_summary">Tippe auf ein Foto in der Nachrichteneingabe, um es im Vollbild zu sehen. Wische zwischen Fotos und entferne sie bei Bedarf vor dem Senden.</string>
+
+    <!-- 2026-10-24-05-plus-menu-photo-picker -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_title">Neue Fotoauswahl</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_summary">Aktiviere „Neues Plus-Menü“ unter Einstellungen › Experimentell › Nachrichteneingabe. Wähle bis zu 8 der neuesten Fotos direkt im + Menü, durchsuche „Alle Fotos“ und sieh zu, wie sie in die Nachrichteneingabe und dann in die Sitzung fliegen.</string>
+
+    <!-- 2026-10-24-06-project-icons-lit -->
+    <string name="settings_whatsnew_entry_project_icons_lit_title">Projektsymbole mit Lichteffekt</string>
+    <string name="settings_whatsnew_entry_project_icons_lit_summary">Bei aktivierten Projektsymbolen fangen die Symbole in der Seitenleiste das Licht ein: mit sanftem Glanz von oben, einem feinen Glasrand und einem weichen Schatten.</string>
+
+    <!-- 2026-10-24-07-session-live-activity -->
+    <string name="settings_whatsnew_entry_session_live_activity_title">Live-Updates für Sitzungen</string>
+    <string name="settings_whatsnew_entry_session_live_activity_summary">Aktiviere „Live-Updates für Sitzungen“ unter Einstellungen › Experimentell › Seitenmenü. Verfolge gestartete Aufgaben in einer Live-Benachrichtigung, auch auf dem Sperrbildschirm, bis sie fertig sind oder deine Eingabe brauchen.</string>
+
+    <!-- 2026-10-24-08-sign-in-failed-edit-server -->
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_title">Abgelehnte Anmeldung beheben</string>
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_summary">Lehnt ein Server dein Passwort ab, bietet sein Menü in der Seitenleiste „Server bearbeiten…“ statt eines nutzlosen „Erneut versuchen“. Der Willkommensbildschirm verweist jetzt auf opencode pair --remote im Terminal.</string>
+
+    <!-- 2026-10-25-01-voice-app-screenshot -->
+    <string name="settings_whatsnew_entry_voice_app_screenshot_title">Screenshots per Sprache</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_summary">Sag im Sprachanruf „Schau dir das an“, und ein Screenshot der App wird mit deinem Feedback an eine Sitzung gesendet.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_1">Gesendet wird nur die eigene App-Ansicht samt Ansichtsname sowie Anruf- und App-Status.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_2">Bitte darum, das Anrufprotokoll oder aktuelle App-Protokolle mitzuschicken. Adressen und Zugangsdaten werden unkenntlich gemacht.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_3">Solange eine Anmeldeseite oder ein Passwortfeld sichtbar ist, wird kein Screenshot aufgenommen.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_example">Sag im Sprachanruf „Mach einen Screenshot, diese Zeile ist falsch ausgerichtet“</string>
+
+    <!-- 2026-10-25-02-voice-background-results -->
+    <string name="settings_whatsnew_entry_voice_background_results_title">Hintergrundergebnisse im Anruf</string>
+    <string name="settings_whatsnew_entry_voice_background_results_summary">Wenn eine im Anruf beauftragte Sitzung im Hintergrund arbeitet, hörst du das Ergebnis im Anruf, sobald sie fertig ist – auch wenn du inzwischen über etwas anderes sprichst.</string>
+
+    <!-- 2026-10-25-03-sound-effects-experiment -->
+    <string name="settings_whatsnew_entry_sound_effects_experiment_title">Soundeffekte</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_summary">Ein Experiment mit leisen Tönen zusätzlich zum haptischen Feedback bei Antworten, Anfragen, „Nachlesen“ und fehlgeschlagenem Senden.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_1">Im Lautlos- und Vibrationsmodus bleiben sie stumm. Musik läuft weiter.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_2">Bei Anrufen, beim Diktieren, bei der Medienwiedergabe und im Hintergrund bleiben sie stumm.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_3">Lautstärke und ein optionaler Sendeton stehen unter dem Schalter.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_example">Aktiviere „Soundeffekte“ unter Einstellungen › Experimentell und warte dann auf eine Antwort in einer anderen Sitzung</string>
+
+    <!-- 2026-10-25-90-session-title-first-prompt -->
+    <string name="settings_whatsnew_entry_session_title_first_prompt_title">Erste Anfrage als Titel</string>
+    <string name="settings_whatsnew_entry_session_title_first_prompt_summary">Sitzungen ohne Titel zeigen jetzt ihre erste Anfrage in einer Zeile, bis der Server ihnen einen Namen gibt.</string>
+
+    <!-- 2026-10-26-01-settings-sessions-page -->
+    <string name="settings_whatsnew_entry_settings_sessions_page_title">Sitzungseinstellungen</string>
+    <string name="settings_whatsnew_entry_settings_sessions_page_summary">In den Einstellungen gibt es die neue Seite „Sitzungen“. Dort steht „Trennlinie für neue Nachrichten“ über „Mit Eingabetaste senden“. Aus „Erweitert“ werden zwei Einträge: „Experimentell“ und „Entwickler“.</string>
+
+    <!-- 2026-10-26-02-project-icons-default -->
+    <string name="settings_whatsnew_entry_project_icons_default_title">Projektsymbole aktiviert</string>
+    <string name="settings_whatsnew_entry_project_icons_default_summary">Projektsymbole erscheinen jetzt neben Sitzungstiteln. Unter Einstellungen › Experimentell kannst du sie ausschalten.</string>
+
+    <!-- 2026-10-26-03-plus-menu-over-keyboard -->
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_title">Fotos über der Tastatur</string>
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_summary">Ist „Neues Plus-Menü“ aktiv, öffnet sich das + Menü über der Tastatur. „Fotos“ wächst daraus zu einer Ansicht bis an die Bildschirmränder und klappt wieder zurück, ohne die Tastatur auszublenden.</string>
+
+    <!-- 2026-10-26-04-living-orb-connect-motion -->
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_title">Kugelanimation beim Verbinden</string>
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_summary">Bei aktiver „Lebendiger Kugel“ steigt die Anruftaste in die Kugel auf und dreht sich beim Verbindungsaufbau. Nach dem Anruf kehrt sie zurück. Direktes Wiederwählen startet einen neuen Anruf, statt hängen zu bleiben.</string>
+
+    <!-- 2026-10-26-05-living-orb-presets -->
+    <string name="settings_whatsnew_entry_living_orb_presets_title">Kugelvorlagen und „Schick“</string>
+    <string name="settings_whatsnew_entry_living_orb_presets_summary">Die Kugel unter „Anrufstil“ in Einstellungen › Experimentell › Anrufe öffnet sich jetzt mit „Schick“, einer größeren Live-Vorschau und einer Vorlagenleiste. Speichere eigene Vorlagen, benenne sie um und teile Einstellungen per Kopieren und Einfügen.</string>
+
+    <!-- 2026-10-26-06-send-after-a-pause -->
+    <string name="settings_whatsnew_entry_send_after_a_pause_title">Flüssiger senden nach einer Pause</string>
+    <string name="settings_whatsnew_entry_send_after_a_pause_summary">Nach einer Pause steigt deine gesendete Nachricht jetzt direkt aus der Nachrichteneingabe in ihre Sprechblase, statt unter dem Zeitstempel erst zur Eingabe hin abzusinken.</string>
+
+    <!-- 2026-10-27-01-steadier-round-trip -->
+    <string name="settings_whatsnew_entry_steadier_round_trip_title">Stabilere Latenzanzeige</string>
+    <string name="settings_whatsnew_entry_steadier_round_trip_summary">Der ms-Wert auf der Verbindungskarte zeigt jetzt den gleitenden Durchschnitt der letzten Messungen. Eine langsame Antwort verändert ihn nur leicht, statt ihn springen zu lassen.</string>
+
+    <!-- 2026-10-27-02-drawer-drag-follows-finger -->
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_title">Ziehen im Seitenmenü folgt dem Finger</string>
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_summary">Beim Ziehen im Seitenmenü bleibt eine Sitzung jetzt direkt unter deinem Finger, gleitet über die Kopfzeile und scrollt die Liste an den Rändern. Beim Loslassen federt sie an ihren Platz.</string>
+
+    <!-- 2026-10-27-03-inbox-sidebar-experiment -->
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_title">Posteingang im Seitenmenü</string>
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_summary">Aktiviere „Posteingang im Seitenmenü“ unter Einstellungen › Experimentell › Seitenmenü. Dann siehst du zuerst Sitzungen, die deine Eingabe brauchen, danach ungelesene – jeweils mit Projekt und letzter Antwort. Wische, um sie als gelesen zu markieren oder zu archivieren.</string>
+
+    <!-- 2026-10-28-01-first-pairing-ready-session -->
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_title">Erste Sitzung startklar</string>
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_summary">Wenn du deinen ersten Computer koppelst, öffnet sich eine neue Sitzung im zuletzt verwendeten Projekt mit Beispielfragen. Ein Tippen bestätigt die Verbindung. Bei einer Neuinstallation ist „Was ist neu“ bereits als gelesen markiert.</string>
+
+    <!-- 2026-10-28-02-welcome-preview -->
+    <string name="settings_whatsnew_entry_welcome_preview_title">Vorschau der Begrüßung</string>
+    <string name="settings_whatsnew_entry_welcome_preview_summary">Die neue Begrüßung beim ersten Start zeigt OpenCode auf einem Laptop, gesteuert per Handy. Danach koppelst du in einem Schritt. Aktiviere „Vorschau der Begrüßung“ unter Einstellungen › Experimentell › Seitenmenü und tippe auf „Begrüßung anzeigen“. Beim Schließen kommst du zurück.</string>
+
+    <!-- 2026-10-29-01-composer-text-selection -->
+    <string name="settings_whatsnew_entry_composer_text_selection_title">Text in der Nachrichteneingabe auswählen</string>
+    <string name="settings_whatsnew_entry_composer_text_selection_summary">Wenn du in einem Entwurf die Auswahlgriffe oder die Lupe ziehst, wird die Tastatur nicht mehr ausgeblendet und die Nachrichteneingabe bleibt an ihrem Platz.</string>
+
+    <!-- 2026-10-30-01-voice-waits-for-you -->
+    <string name="settings_whatsnew_entry_voice_waits_for_you_title">Anrufe lassen dich ausreden</string>
+    <string name="settings_whatsnew_entry_voice_waits_for_you_summary">Der Sprachagent fällt dir nicht mehr ins Wort: Er wartet mit Neuigkeiten, bis du fertig bist. Wenn du ihn unterbrichst, hört er auf zu sprechen.</string>
+
+    <!-- 2026-10-30-02-wisp-call-sounds -->
+    <string name="settings_whatsnew_entry_wisp_call_sounds_title">Wisp-Klänge für Sprachanrufe</string>
+    <string name="settings_whatsnew_entry_wisp_call_sounds_summary">Anrufe beginnen mit einem sanften Atemzug über leisem Klangschimmer. Beim Verbinden ertönt ein Ton. Während der Agent nachsieht, etwas öffnet oder ausführt, tickt es leise; am Ende folgt ein Seufzen. Andere Klänge wählst du unter Einstellungen › Stimme › Anrufklänge.</string>
+
+    <!-- 2026-10-30-03-wisp-orb -->
+    <string name="settings_whatsnew_entry_wisp_orb_title">Die Sprachkugel ist jetzt Wisp</string>
+    <string name="settings_whatsnew_entry_wisp_orb_summary">Die Anrufkugel sieht jetzt aus wie Wisp: eine Glaslinse über Punkten, die bei beiden Stimmen aufleuchten. Wisps Stimmungen zeigen Verbinden, Zuhören, Arbeiten, Sprechen und Warten auf dich an. Das ist der einzige Kugelstil; die alten Stile und Kugel-Einstellungen entfallen.</string>
+
+    <!-- 2026-10-31-01-encrypted-notification-previews -->
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_title">Verschlüsselte Benachrichtigungsvorschau</string>
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_summary">Mit dem aktualisierten Benachrichtigungs-Plugin und einer HTTPS-Verbindung verschlüsselt dein Server Titel und Nachricht für dieses Gerät. Lässt sich eine Vorschau nicht öffnen, steht in der Benachrichtigung nur „Neue Aktivität“.</string>
+
+    <!-- 2026-10-31-02-move-session-folder-gone -->
+    <string name="settings_whatsnew_entry_move_session_folder_gone_title">Sitzungen bleiben ohne Ordner erhalten</string>
+    <string name="settings_whatsnew_entry_move_session_folder_gone_summary">Fehlt der Ordner einer Sitzung, etwa nach dem Entfernen eines Arbeitsbereichs, bietet die App bei einem Sendefehler an, die Sitzung in den Projektordner zu verschieben und erneut zu senden.</string>
+
+    <!-- 2026-10-31-03-notification-plugin-setup -->
+    <string name="settings_whatsnew_entry_notification_plugin_setup_title">Benachrichtigungen mit OpenCode einrichten</string>
+    <string name="settings_whatsnew_entry_notification_plugin_setup_summary">Tippe unter Einstellungen → Benachrichtigungen auf „Mit OpenCode einrichten“, um eine Anweisung zur Installation des fehlenden Benachrichtigungs-Plugins zu prüfen.</string>
+
+    <!-- 2026-11-01-01-call-card-takes-over -->
+    <string name="settings_whatsnew_entry_call_card_takes_over_title">Anrufkarte füllt den unteren Bereich</string>
+    <string name="settings_whatsnew_entry_call_card_takes_over_summary">Bei „Lebendige Kugel“ füllt die Anrufkarte jetzt den unteren Bildschirmbereich über dem Nachrichtenfeld, mit gleichmäßigen Rändern. So wird sie von der Tastatur nicht mehr zusammengedrückt. Verkleinere sie zum Tippen wieder zur Kugel.</string>
+
+    <!-- 2026-11-01-01-screenshot-shutter -->
+    <string name="settings_whatsnew_entry_screenshot_shutter_title">Screenshot-Auslöser</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_summary">Wenn die App für eine Sitzung einen Screenshot von sich selbst aufnimmt, blitzt der Bildschirm auf und der Auslöser klickt.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_1">Der Blitz kommt erst nach der Aufnahme und ist deshalb nie im Bild.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_2">„Bewegung reduzieren“ ersetzt den Blitz durch sanftes Abdunkeln. „Blinkende Lichter dimmen“ schaltet ihn aus.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_3">Im Anruf wird das Klicken über die Anruf-Audioausgabe abgespielt, damit der Agent es nicht hört.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_example">Sag in einem Sprachanruf „Schau dir das an“</string>
+
+    <!-- 2026-11-01-01-voice-says-whats-running -->
+    <string name="settings_whatsnew_entry_voice_says_whats_running_title">Anrufe sagen, was noch läuft</string>
+    <string name="settings_whatsnew_entry_voice_says_whats_running_summary">Wenn deine Anfrage länger dauert, sagt dir der Sprachagent, woran er arbeitet, statt still zu bleiben.</string>
+
+    <!-- 2026-11-01-02-living-orb-default -->
+    <string name="settings_whatsnew_entry_living_orb_default_title">Anrufe schweben in der Kugel</string>
+    <string name="settings_whatsnew_entry_living_orb_default_summary">Sprachanrufe schweben jetzt bei allen in der „Lebendigen Kugel“ über jeder Ansicht. Das Nachrichtenfeld bleibt dabei frei für dich.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_1">Tippe auf die Kugel, um die Anrufkarte zu öffnen. Ziehe sie nach oben, um den ganzen Anruf samt Transkript zu sehen.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_2">Ziehe die Kugel an eine beliebige Stelle. Sie bleibt dort, auch wenn du Sitzungen wechselst oder die Einstellungen öffnest.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_3">Starte Anrufe auch aus der Sitzungsliste über die Anruftaste neben den Einstellungen.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_4">Die Ablage entfällt. Wenn du sie bisher genutzt hast, schweben deine Anrufe jetzt ebenfalls in der Kugel.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_5">Ausschalten kannst du sie unter Einstellungen › Experimentell › Anrufe › Lebendige Kugel.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_example">Starte einen Anruf und öffne die Sitzungsliste: Die Kugel kommt mit</string>
+
+    <!-- 2026-11-01-02-quicker-send -->
+    <string name="settings_whatsnew_entry_quicker_send_title">Schneller senden</string>
+    <string name="settings_whatsnew_entry_quicker_send_summary">Gesendete Nachrichten steigen jetzt zusammen mit der Liste in ihre Sprechblase auf, statt erst an der Nachrichteneingabe zu warten.</string>
+
+    <!-- 2026-11-01-02-share-screen-with-agents -->
+    <string name="settings_whatsnew_entry_share_screen_with_agents_title">Bildschirm mit Agenten teilen</string>
+    <string name="settings_whatsnew_entry_share_screen_with_agents_summary">Aktiviere „Bildschirm mit Agenten teilen“ unter Einstellungen › Experimentell › Anrufe. Dann kann ein Agent im Anruf um einen Blick auf die App bitten. Tippe auf „Teilen“, um ein Bild zu senden, oder auf „Jetzt nicht“.</string>
+
+    <!-- 2026-11-01-03-audio-in-calls -->
+    <string name="settings_whatsnew_entry_audio_in_calls_title">Audio in Anrufen</string>
+    <string name="settings_whatsnew_entry_audio_in_calls_summary">Aktiviere „Audio in Anrufen“ unter Einstellungen › Experimentell › Anrufe. Dann kann ein Agent im Anruf Musik oder einen Clip abspielen. Sobald einer von euch spricht, wird der Ton leiser. Über der Nachrichteneingabe kannst du die Wiedergabe pausieren oder stoppen.</string>
+
+    <!-- 2026-11-01-03-open-links-from-calls -->
+    <string name="settings_whatsnew_entry_open_links_from_calls_title">Links aus Anrufen öffnen</string>
+    <string name="settings_whatsnew_entry_open_links_from_calls_summary">Aktiviere „Links aus Anrufen öffnen“ unter Einstellungen › Experimentell › Anrufe. Dann kann ein Agent im Anruf einen Link anbieten, etwa für eine Uber-Fahrt. Tippe auf „Öffnen“, um ihn in der passenden App zu öffnen, oder auf „Jetzt nicht“.</string>
+
+    <!-- 2026-11-02-01-fold-questions -->
+    <string name="settings_whatsnew_entry_fold_questions_title">Fragen platzsparend einklappen</string>
+    <string name="settings_whatsnew_entry_fold_questions_summary">Ziehe eine Frage nach unten, um sie als schmale Leiste über der Nachrichteneingabe einzuklappen. Antippen bringt sie zurück. Schlägt das Senden einer Antwort fehl, wartet sie jetzt auf „Erneut versuchen“.</string>
+
+    <!-- 2026-11-02-01-steadier-following -->
+    <string name="settings_whatsnew_entry_steadier_following_title">Ruhigeres Mitscrollen</string>
+    <string name="settings_whatsnew_entry_steadier_following_summary">Eine laufende Antwort bleibt am unteren Rand, ohne dass „In Arbeit“ springt. Du kannst die Liste jetzt überall oberhalb der Nachrichteneingabe mit einer Wischbewegung scrollen.</string>
+
+    <!-- 2026-11-02-40-model-display-names -->
+    <string name="settings_whatsnew_entry_model_display_names_title">Modellnamen</string>
+    <string name="settings_whatsnew_entry_model_display_names_summary">Die Nachrichteneingabe behält Modellnamen bei, während die Modellliste lädt oder die Verbindung wiederhergestellt wird.</string>
+
+    <!-- 2026-11-02-41-all-experiments -->
+    <string name="settings_whatsnew_entry_all_experiments_title">Alle Experimente</string>
+    <string name="settings_whatsnew_entry_all_experiments_summary">Ein Schalter oben unter Einstellungen › Experimentell aktiviert alle Experimente – auch neue, sobald sie dazukommen.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_1">Schalte einzelne Experimente aus, um sie auszulassen. Sie bleiben auch beim nächsten Mal aus.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_2">Wenn du „Alle Experimente“ ausschaltest, werden deine vorherigen Einstellungen wiederhergestellt.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_3">Experimente, die eine Berechtigung benötigen, aktivierst du weiterhin einzeln.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_4">Autovervollständigung, die Fotoauswahl im Plus-Menü, der neue Serverwechsel und Projektsymbole sind jetzt für alle aktiv.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_5">Die einheitliche Auswahl und die lebendige Statuskugel haben jetzt einfache Schalter. Die Anrufablage entfällt.</string>
+    <string name="settings_whatsnew_entry_all_experiments_example">Öffne Einstellungen › Experimentell und aktiviere „Alle Experimente“</string>
+
+    <!-- 2026-11-03-01-search-all-sessions -->
+    <string name="settings_whatsnew_entry_search_all_sessions_title">Ältere Sitzungen finden</string>
+    <string name="settings_whatsnew_entry_search_all_sessions_summary">Die Suche im Seitenmenü durchsucht jetzt alle Sitzungen, nicht nur die letzten. Wenn du ganz nach unten scrollst, werden ältere Sitzungen geladen.</string>
+
+    <!-- 2026-11-03-01-voice-open-session -->
+    <string name="settings_whatsnew_entry_voice_open_session_title">Sitzungen per Sprache wechseln</string>
+    <string name="settings_whatsnew_entry_voice_open_session_summary">Wenn du deinen Sprachagenten bittest, eine Sitzung zu öffnen, schließt sich jetzt das Seitenmenü und dein Anruf bleibt verbunden.</string>
+
+    <!-- 2026-11-03-02-orb-divider-image-links -->
+    <string name="settings_whatsnew_entry_orb_divider_image_links_title">Drei Experimente für alle</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_summary">Die lebendige Statuskugel, die Trennlinie „Neu“ und die Bildvorschau für Links sind jetzt für alle aktiv – ohne Schalter.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_1">Jeder Anruf schwebt in der lebendigen Statuskugel. Die alte Anrufleiste entfällt.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_2">Wenn du zu einer Sitzung zurückkehrst, markiert die Trennlinie „Neu“ die inzwischen eingegangenen Inhalte, falls sie nicht auf den Bildschirm passen.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_3">Direkte Bildlinks zeigen das Bild unter der Nachricht an.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_example">Starte einen Anruf über die Nachrichteneingabe und sieh zu, wie er in der Statuskugel schwebt</string>
+
+    <!-- 2026-11-04-01-call-links-and-audio -->
+    <string name="settings_whatsnew_entry_call_links_and_audio_title">Links und Audio in Anrufen</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_summary">Links aus Anrufen öffnen und Audio in Anrufen sind jetzt für alle aktiv – ohne Schalter.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_1">Im Anruf kann ein Agent dir einen Link anbieten, etwa zu einer Uber-Fahrt. Tippe auf „Öffnen“, um ihn in der zugehörigen App zu öffnen, oder auf „Jetzt nicht“.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_2">Ein Agent kann im Anruf Musik oder einen Clip abspielen. Die Wiedergabe wird leiser, sobald einer von euch spricht. Über der Nachrichteneingabe kannst du sie pausieren oder stoppen.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_example">Bitte den Agenten während eines Anrufs, Musik abzuspielen</string>
+
+    <!-- 2026-11-04-01-composer-editing-caret -->
+    <string name="settings_whatsnew_entry_composer_editing_caret_title">Entwürfe bearbeiten</string>
+    <string name="settings_whatsnew_entry_composer_editing_caret_summary">Wenn du ein Wort mitten im Entwurf bearbeitest, bleibt der Cursor an der Stelle, an der du tippst.</string>
+
+    <!-- 2026-11-04-01-loading-touch-recovery -->
+    <string name="settings_whatsnew_entry_loading_touch_recovery_title">Scrollen nach dem Laden</string>
+    <string name="settings_whatsnew_entry_loading_touch_recovery_summary">Wenn du während eines Ladevorgangs zur App zurückkehrst, lässt sich das Transkript sofort wieder scrollen.</string>
+
+    <!-- 2026-11-05-01-composer-keyboard-width -->
+    <string name="settings_whatsnew_entry_composer_keyboard_width_title">Mehr Platz beim Tippen</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_width_summary">Bei geöffneter Tastatur wird die Nachrichteneingabe bis auf einen schmalen, gleichmäßigen Rand breiter. So brauchen lange Entwürfe weniger Zeilen.</string>
+
+    <!-- 2026-11-05-02-plus-menu-touch-release -->
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_title">Anhangmenü schließen</string>
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_summary">Nach dem Schließen des Anhangmenüs reagiert die Sitzung darunter wieder auf Berührungen – auch wenn sich gerade das Layout ändert.</string>
+
+    <!-- 2026-11-05-02-quiet-reconnecting-pill -->
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_title">Ruhigerer App-Start</string>
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_summary">Beim Öffnen der App blinkt „Verbindung wird wiederhergestellt…“ nicht mehr über der Nachrichteneingabe auf und die Sitzung verrutscht nicht. Die Anzeige erscheint nur, wenn der Verbindungsaufbau etwas dauert.</string>
+
+    <!-- 2026-11-05-03-stuck-touch-recovery -->
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_title">Scrollen geht von selbst wieder</string>
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_summary">Wenn etwas Unsichtbares das Scrollen in einer Sitzung länger als eine Sekunde blockiert, hebt die App die Sperre auf.</string>
+
+    <!-- 2026-11-05-04-reply-text-selection -->
+    <string name="settings_whatsnew_entry_reply_text_selection_title">Text über ganze Antworten auswählen</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_summary">Halte ein Wort in einer Antwort gedrückt oder tippe doppelt darauf. Ziehe dann die Auswahlgriffe über Absätze, Listen, Code und Tabellen hinweg.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_1">Halte einen Auswahlgriff knapp unter die Kopfzeile oder knapp über die Nachrichteneingabe, um die Antwort zu scrollen. Je näher am Rand, desto schneller.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_2">Beim Kopieren bleiben Listenpunkte und Nummerierungen sowie Tabellenzeilen und -spalten erhalten. „Zitieren“ fügt die Auswahl in die Nachrichteneingabe ein und behält Codeblöcke bei.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_example">Halte ein Wort am Anfang einer langen Antwort gedrückt. Ziehe dann den unteren Auswahlgriff zur Nachrichteneingabe und halte ihn dort</string>
+
+    <!-- 2026-11-06-01-scrolling-unsticks -->
+    <string name="settings_whatsnew_entry_scrolling_unsticks_title">Scrollblockaden lösen sich von selbst</string>
+    <string name="settings_whatsnew_entry_scrolling_unsticks_summary">Wenn sich eine Sitzung bisher erst nach einem Sitzungswechsel wieder scrollen ließ, funktioniert das jetzt von selbst.</string>
+
+    <!-- 2026-11-06-02-server-addresses -->
+    <string name="settings_whatsnew_entry_server_addresses_title">Stabilere Serververbindungen</string>
+    <string name="settings_whatsnew_entry_server_addresses_summary">OpenCode probiert alle Adressen eines Servers gleichzeitig und nutzt die erste, die antwortet. So wird die Verbindung beim Verlassen deines Zuhauses wiederhergestellt, ohne dass du dein VPN aus- und einschalten musst.</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_1">Eine Adresse, die in deinem Heimnetz funktioniert hat, wird anderswo nicht mehr grundsätzlich zuerst probiert.</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_2">Bei kurzen Unterbrechungen, beim Entsperren oder beim Herunterziehen der Schnelleinstellungen blinkt kein Banner mehr auf. „Verbindung wird wiederhergestellt“ erscheint nach wenigen Sekunden, „Offline“ nach etwa 12 – oder nach 4, wenn dein Handy kein Netz hat.</string>
+    <string name="settings_whatsnew_entry_server_addresses_example">Öffne eine Sitzung auf einem über Tailscale gekoppelten Server, schalte WLAN aus und arbeite weiter</string>
+
+    <!-- 2026-11-07-01-server-voice -->
+    <string name="settings_whatsnew_entry_server_voice_title">Anrufe mit deinen Serverschlüsseln</string>
+    <string name="settings_whatsnew_entry_server_voice_summary">Sprachanrufe über den Server sind jetzt für alle aktiv – ohne Schalter. Anrufe können die Schlüssel deines OpenCode-Servers nutzen. Dein Handy braucht also keinen eigenen OpenAI-Schlüssel.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_1">Ist „Automatisch auswählen“ aktiv, nutzen Anrufe zuerst den aktuellen Server, dann den OpenAI-Schlüssel auf deinem Handy und zuletzt einen anderen gespeicherten Server, der bereit ist.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_2">Haben sowohl dein Handy als auch dein Server einen OpenAI-Schlüssel, nutzen Anrufe jetzt den des Servers. Um weiter den Schlüssel auf deinem Handy zu nutzen, öffne „Dein OpenAI-Konto“ unter „Sprachanbieter“ und tippe auf „Für Anrufe verwenden“.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_3">Auf Servern mit einem Gemini-Schlüssel ist jetzt auch Gemini Live als Anbieter verfügbar.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_4">Kann ein Anruf nicht starten, siehst du den Grund und die passende Schaltfläche zur Lösung.</string>
+    <string name="settings_whatsnew_entry_server_voice_example">Öffne Einstellungen › Stimme und tippe auf „Sprachanbieter“</string>
+
+    <!-- 2026-11-07-02-rename-clear-button -->
+    <string name="settings_whatsnew_entry_rename_clear_button_title">Titel mit einem Tippen leeren</string>
+    <string name="settings_whatsnew_entry_rename_clear_button_summary">„Sitzung umbenennen“ und „Server umbenennen“ haben jetzt eine Schaltfläche zum Leeren. So kannst du einen neuen Titel eingeben, ohne den alten von Hand zu löschen.</string>
+
+    <!-- 2026-11-07-03-one-picker -->
+    <string name="settings_whatsnew_entry_one_picker_title">Neue Modellauswahl</string>
+    <string name="settings_whatsnew_entry_one_picker_summary">Tippe auf das Modell im Nachrichtenfeld, um die Liste direkt dort aufzuklappen. Oben stehen „Favoriten“ und „Zuletzt verwendet“, darunter alle Anbieter.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_1">Tippe in der Modellzeile auf den Denkaufwand, etwa „hoch“, um ihn direkt in der Liste zu ändern.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_2">Wische über eine Zeile oder halte sie gedrückt, um das Modell zu den Favoriten hinzuzufügen oder daraus zu entfernen.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_3">Die Suche ist unten. Gib nach dem Namen einen Denkaufwand ein, etwa „opus high“. Mit der Eingabetaste wählst du beides aus.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_4">Ziehe den Ziehgriff nach oben, um die Liste zu vergrößern, oder nach unten, um sie zu schließen.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_5">Die neue Auswahl ersetzt die bisherige Modellauswahl. Den Schalter „Einheitliche Auswahl“ unter Einstellungen › Experimentell gibt es nicht mehr.</string>
+    <string name="settings_whatsnew_entry_one_picker_example">Tippe auf das Modell im Nachrichtenfeld und wische über eine Zeile, um es als Favorit zu markieren</string>
+
+    <!-- 2026-11-08-01-connecting-caption-glass -->
+    <string name="settings_whatsnew_entry_connecting_caption_glass_title">„Verbindung über…“ besser lesbar</string>
+    <string name="settings_whatsnew_entry_connecting_caption_glass_summary">Beim Verbindungsaufbau eines Anrufs über einen Server hat die Zeile „Verbindung über…“ jetzt einen Milchglashintergrund. So bleibt sie vor den Nachrichten dahinter lesbar.</string>
+
+    <!-- 2026-11-08-02-default-model -->
+    <string name="settings_whatsnew_entry_default_model_title">Neue Sitzungen nutzen dein Standardmodell</string>
+    <string name="settings_whatsnew_entry_default_model_summary">Neue Sitzungen starten mit deinem Standardmodell aus OpenCode und dem zuletzt dafür gewählten Denkaufwand – statt mit dem Modell der letzten Sitzung.</string>
+
+    <!-- 2026-11-11-01-streamed-reply-prefix -->
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_title">Antworten während der Übertragung öffnen</string>
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_summary">Wenn du eine Sitzung öffnest, während eine Antwort übertragen wird, kannst du den bereits empfangenen Teil lesen, während der Rest ankommt.</string>
+
+    <!-- 2026-11-13-01-draw-on-images -->
+    <string name="settings_whatsnew_entry_draw_on_images_title">Auf Bildern zeichnen</string>
+    <string name="settings_whatsnew_entry_draw_on_images_summary">Markiere ein Detail, bevor du danach fragst.</string>
+    <string name="settings_whatsnew_entry_draw_on_images_detail_1">Öffne ein Bild im Vollbild und tippe auf das Stiftsymbol. Wähle eine Farbe, zeichne und tippe dann auf „Hinzufügen“, um das markierte Bild an deine Nachricht anzuhängen. Das Original bleibt unverändert.</string>
+    <string name="settings_whatsnew_entry_draw_on_images_example">Kreise in einem Screenshot das Bedienelement ein, das du verschieben möchtest, und beschreibe, wohin es soll.</string>
+
+    <!-- 2026-11-14-01-fullscreen-viewer -->
+    <string name="settings_whatsnew_entry_fullscreen_viewer_title">Zwischen Fotos und Videos wischen</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_summary">Sieh dir Bilder und Videos einer Sitzung gemeinsam an.</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_detail_1">Wische zu einem Video und tippe auf das Stiftsymbol, um das aktuelle Einzelbild zu markieren. „Hinzufügen“ hängt das markierte Einzelbild an, ohne es zu senden.</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_example">Halte ein Demovideo an der Stelle an, die geändert werden soll, kreise das Detail ein und füge das Bild deinem Entwurf hinzu.</string>
+
+    <!-- 2026-11-15-01-pairing-link-name -->
+    <string name="settings_whatsnew_entry_pairing_link_name_title">Benannte Server aus OpenCode Console</string>
+    <string name="settings_whatsnew_entry_pairing_link_name_summary">Ein Server, den du über OpenCode Console koppelst, übernimmt seinen Namen, etwa „Anomaly Box“.</string>
+
+    <!-- 2026-11-17-01-session-media -->
+    <string name="settings_whatsnew_entry_session_media_title">Sitzungsmedien</string>
+    <string name="settings_whatsnew_entry_session_media_summary">Bilder, Videos, Audio, Dateien und öffentliche Weblinks einer Sitzung durchsuchen.</string>
+    <string name="settings_whatsnew_entry_session_media_detail_1">Wähle „Sitzungsmedien“ im ⋮-Menü einer Sitzung. „Medien“ zeigt Bilder, Videos und Audio als nach Monat gruppierte Kacheln oder als Liste. „Dateien“ und „Links“ listen Dokumente, eingefügte Texte und Weblinks auf.</string>
+    <string name="settings_whatsnew_entry_session_media_example">Finde den Screenshot von heute Morgen, ohne durch die ganze Sitzung zurückzuscrollen.</string>
+
+    <!-- 2026-11-18-02-drawer-call-phone -->
+    <string name="settings_whatsnew_entry_drawer_call_phone_title">Telefonsymbol für Anrufe im Seitenmenü</string>
+    <string name="settings_whatsnew_entry_drawer_call_phone_summary">Die Anruftaste neben „Einstellungen“ in der Sitzungsliste zeigt jetzt ein Telefonsymbol, genau wie im Nachrichtenfeld.</string>
+
+    <!-- 2026-11-19-01-background-scripts -->
+    <string name="settings_whatsnew_entry_background_scripts_title">Skripte im Hintergrund</string>
+    <string name="settings_whatsnew_entry_background_scripts_summary">Skripte, die der Agent in den Hintergrund verschiebt, erscheinen neben Unteragenten und Shells. Ein Unteragent bleibt aufgelistet, solange seine Bilder, Videos oder Skripte noch laufen. Beide lassen sich direkt in der Liste stoppen.</string>
+</resources>

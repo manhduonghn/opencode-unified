@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_new_session">Sesiune nouă</string>
+    <string name="system_start_call">Pornește un apel</string>
+    <string name="system_open_session">Deschide sesiunea</string>
+    <string name="widget_start_call_description">Pornește un apel vocal într-o sesiune aleasă sau în ultima sesiune afișată.</string>
+    <string name="widget_open_session_description">Deschide o sesiune aleasă.</string>
+    <string name="widget_new_session_description">Deschide o sesiune OpenCode nouă.</string>
+
+    <!-- Shared across screens -->
+    <string name="system_selected_description">Selectată</string>
+    <string name="system_last_viewed_session">Ultima sesiune afișată</string>
+
+    <!-- Quick actions (launcher shortcuts) -->
+    <string name="system_quick_action_session_fallback">Sesiune</string>
+    <!-- Long label: the session's title, then its project. -->
+    <string name="system_quick_action_long_label">%1$s · %2$s</string>
+
+    <!-- Shortcuts and Ask OpenCode -->
+    <string name="system_session_type_name">Sesiune</string>
+    <string name="system_project_type_name">Proiect</string>
+    <string name="system_intent_open_session_description">Deschide o sesiune în OpenCode.</string>
+    <string name="system_intent_new_session_description">Pornește o sesiune nouă în OpenCode.</string>
+    <string name="system_intent_start_voice_call_title">Pornește un apel vocal</string>
+    <string name="system_intent_start_voice_call_description">Pornește un apel vocal cu OpenCode într-o sesiune. Dacă nu alegi o sesiune, apelul pornește în ultima sesiune afișată.</string>
+    <string name="system_intent_background_call_title">Pornește un apel vocal în fundal</string>
+    <string name="system_intent_background_call_description">Pornește un apel vocal cu OpenCode fără a deschide aplicația. Apelul apare în bara de stare și pe ecranul de blocare.</string>
+    <string name="system_delivery_type_name">Trimitere</string>
+    <string name="system_delivery_steer">Ghidează</string>
+    <string name="system_delivery_queue">Pune în coadă</string>
+    <string name="system_ask_title">Întreabă OpenCode</string>
+    <string name="system_ask_description">Trimite un mesaj într-o sesiune OpenCode fără a deschide aplicația.</string>
+    <string name="system_ask_message_title">Mesaj</string>
+    <string name="system_ask_message_placeholder">Ce să facă OpenCode?</string>
+    <string name="system_ask_session_title">Sesiune</string>
+    <string name="system_ask_started_new_session">S-a pornit o sesiune nouă în %1$s</string>
+    <string name="system_ask_queued_for">Pus în coadă pentru „%1$s”</string>
+    <string name="system_ask_sent_to">Trimis către „%1$s”</string>
+    <string name="system_ask_your_session">sesiunea ta</string>
+    <string name="system_ask_no_server">Deschide OpenCode și conectează-te mai întâi la un server.</string>
+    <string name="system_ask_no_project">Deschide OpenCode și pornește mai întâi o sesiune.</string>
+    <string name="system_ask_empty_message">Nu ai nimic de trimis.</string>
+    <!-- The server's error message follows. -->
+    <string name="system_ask_send_failed">Nu s-a putut trimite către OpenCode. %1$s</string>
+
+    <!-- Live Updates: voice call -->
+    <string name="system_call_muted">Microfon oprit</string>
+    <string name="system_call_unmute">Activează microfonul</string>
+    <string name="system_call_mute">Dezactivează microfonul</string>
+    <string name="system_call_end">Încheie apelul</string>
+    <string name="system_call_connecting">Se conectează…</string>
+    <string name="system_call_reconnecting">Se reconectează…</string>
+    <string name="system_call_ended">Apel încheiat</string>
+    <string name="system_call_end_title">Încheie apelul</string>
+    <string name="system_call_toggle_mute_title">Activează sau dezactivează microfonul</string>
+
+    <!-- Live Updates: hands-free recording -->
+    <string name="system_recording_active">Înregistrare</string>
+    <string name="system_recording_stopped">Înregistrare oprită</string>
+    <string name="system_recording_stop">Oprește înregistrarea</string>
+    <string name="system_recording_stop_title">Oprește înregistrarea</string>
+    <string name="system_recording_new_session">Sesiune nouă</string>
+
+    <!-- Live Updates: session run -->
+    <string name="system_session_working">De lucru</string>
+    <string name="system_session_last_seen_working">Ultima stare cunoscută: de lucru</string>
+    <!-- Where the run is (Working), then its current step (a tool name, Thinking or Replying). -->
+    <string name="system_session_status_with_step">%1$s · %2$s</string>
+    <string name="system_session_step_thinking">Se gândește</string>
+    <string name="system_session_step_replying">Răspunde</string>
+    <string name="system_session_needs_input">Așteaptă răspunsul tău</string>
+    <string name="system_session_input">Intrare</string>
+    <string name="system_session_done">Gata</string>
+    <string name="system_session_failed">Eroare</string>
+
+    <!-- Session notifications -->
+    <string name="system_notification_placeholder_body">Activitate nouă</string>
+
+    <!-- Notification channels -->
+    <string name="system_channel_voice_calls">Apeluri vocale</string>
+    <string name="system_channel_recording">Înregistrare</string>
+    <string name="system_channel_session_runs">Rulări de sesiuni</string>
+    <string name="system_channel_session_updates">Actualizări ale sesiunilor</string>
+    <string name="system_channel_shared_items">Elemente distribuite</string>
+
+    <!-- Share sheet: notifications -->
+    <string name="system_share_continue_notification_body">Atinge pentru a continua în OpenCode</string>
+
+    <!-- Share sheet -->
+    <string name="system_share_your_server">serverul tău</string>
+    <string name="system_share_new_session_in_project">Sesiune nouă · %1$s</string>
+    <string name="system_share_save_failed_message">Încearcă din nou. Dacă problema persistă, eliberează spațiu pe acest dispozitiv.</string>
+    <!-- The session's title, then its project. -->
+    <string name="system_share_session_chip_description">%1$s, %2$s</string>
+    <string name="system_share_problem_unreachable">Conectarea la %1$s nu a reușit</string>
+    <string name="system_share_problem_too_large">Nu s-au putut trimite fișiere atât de mari de aici</string>
+    <string name="system_share_problem_uploads_unsupported">Nu s-au putut încărca fișiere pe %1$s</string>
+    <string name="system_share_problem_sign_in">Autentificarea la %1$s a eșuat</string>
+    <string name="system_share_problem_send">Nu s-a putut trimite către %1$s</string>
+    <string name="system_share_problem_no_credentials">Deschide OpenCode o dată pentru a trimite de aici</string>
+    <plurals name="system_share_image_count">
+        <item quantity="one">%d imagine</item>
+        <item quantity="few">%d imagini</item>
+        <item quantity="other">%d de imagini</item>
+    </plurals>
+    <plurals name="system_share_file_count">
+        <item quantity="one">%d fișier</item>
+        <item quantity="few">%d fișiere</item>
+        <item quantity="other">%d de fișiere</item>
+    </plurals>
+    <plurals name="system_share_images_skipped">
+        <item quantity="one">%d imagine nu a putut fi adăugată</item>
+        <item quantity="few">%d imagini nu au putut fi adăugate</item>
+        <item quantity="other">%d de imagini nu au putut fi adăugate</item>
+    </plurals>
+    <plurals name="system_share_files_skipped">
+        <item quantity="one">%d fișier nu a putut fi adăugat</item>
+        <item quantity="few">%d fișiere nu au putut fi adăugate</item>
+        <item quantity="other">%d de fișiere nu au putut fi adăugate</item>
+    </plurals>
+    <string name="system_share_save_failed_title">Salvarea pentru OpenCode a eșuat</string>
+    <string name="system_share_continue_description">Continuă în OpenCode</string>
+    <string name="system_share_no_server_title">Conectează-te întâi la un server</string>
+    <string name="system_share_no_server_message">Deschide OpenCode și conectează-te la computerul tău, apoi distribuie din nou.</string>
+    <string name="system_share_send_later">Trimite mai târziu</string>
+    <string name="system_share_saved_continue">Salvat. Deschide OpenCode pentru a continua</string>
+    <string name="system_share_loading_description">Se încarcă elementele distribuite</string>
+    <string name="system_share_image_description">Imagine</string>
+    <string name="system_share_image_position_description">Imaginea %1$d din %2$d</string>
+    <string name="system_share_search_sessions_description">Caută sesiuni</string>
+    <string name="system_share_new_session_in_project_description">Sesiune nouă în %1$s</string>
+    <string name="system_share_choose_project_description">Alege proiectul sesiunii</string>
+    <string name="system_share_message_placeholder">Mesaj</string>
+    <string name="system_share_sent_to">Trimis către %1$s</string>
+    <string name="system_share_sending_description">Se trimite</string>
+    <string name="system_share_sent_description">Trimis</string>
+    <string name="system_share_sessions_title">Sesiuni</string>
+    <string name="system_share_pinned_header">Fixate</string>
+    <string name="system_share_recents_header">Recente</string>
+
+    <!-- Widget configuration -->
+    <string name="system_widget_choose_session_title">Alege o sesiune</string>
+</resources>

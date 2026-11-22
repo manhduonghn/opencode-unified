@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">共有項目を追加できませんでした</string>
+    <string name="app_alert_open_session_failed_title">セッションを開けませんでした</string>
+    <string name="app_alert_pairing_failed_title">サーバーとペアリングできませんでした</string>
+    <string name="app_pairing_confirm">ペアリング</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">サーバー</string>
+    <string name="app_servers_back_description">%1$sに戻る</string>
+    <string name="app_server_fallback_name">サーバー</string>
+    <string name="app_connection_intro_new">%1$sからコーディングセッションを続けましょう。</string>
+    <string name="app_connection_intro_returning">前回の続きを始めるか、別のパソコンとペアリングしましょう。</string>
+    <string name="app_connection_enter_manually">サーバーを手動で入力</string>
+    <string name="app_connection_scan_pairing_code">ペアリングコードをスキャン</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">パソコンでOpenCodeを開いて「設定 → ペアリング」に進むか、ターミナルでopencode pair --remoteを実行してください。その後、この%1$sでコードをスキャンしてください。</string>
+    <string name="app_setup_install_title">OpenCodeをまだお持ちでないですか？</string>
+    <string name="app_setup_other_ways_to_install">その他のインストール方法</string>
+    <string name="app_setup_terminal_title">またはターミナルで実行</string>
+    <string name="app_setup_terminal_detail">どのネットワークからでも使えます。</string>
+    <string name="app_setup_paste_prompt">または、表示されたリンクをコピーして</string>
+    <string name="app_setup_paste">貼り付け</string>
+    <string name="app_setup_copy_command_description">%1$sをコピー</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">接続中</string>
+    <string name="app_servers_edit_description">%1$sを編集</string>
+    <string name="app_servers_remove_description">%1$sを削除</string>
+    <string name="app_servers_remove_confirm_title">%1$sを削除しますか？</string>
+    <string name="app_servers_remove_confirm_message">この%1$sに保存されたアドレスとパスワードを削除します。サーバー上のセッションには影響しません。</string>
+    <string name="app_servers_remove_confirm">サーバーを削除</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">段階: %1$s</string>
+    <string name="app_error_server">サーバー: %1$s</string>
+    <string name="app_error_attempt">試行回数: %1$d</string>
+    <string name="app_error_copy_report">エラーレポートをコピー</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">新しいサーバー</string>
+    <string name="app_server_form_edit_title">サーバーを編集</string>
+    <string name="app_server_form_name">名前</string>
+    <string name="app_server_form_address">サーバーURL</string>
+    <string name="app_server_form_username">ユーザー名</string>
+    <string name="app_server_form_password">パスワード (オプション)</string>
+    <string name="app_server_form_hide_password_description">パスワードを非表示</string>
+    <string name="app_server_form_show_password_description">パスワードを表示</string>
+    <string name="app_server_form_connect">接続</string>
+    <string name="app_server_form_save_and_connect">保存して接続</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">ヘッダー</string>
+    <string name="app_server_form_header_name">名前</string>
+    <string name="app_server_form_header_name_description">ヘッダー%1$dの名前</string>
+    <string name="app_server_form_header_value">値</string>
+    <string name="app_server_form_header_value_description">ヘッダー%1$dの値</string>
+    <string name="app_server_form_header_remove_description">ヘッダー%1$dを削除</string>
+    <string name="app_server_form_header_add">ヘッダーを追加</string>
+    <string name="app_server_form_headers_detail">Cloudflare Accessなど、サーバーの手前にあるプロキシ用に、すべてのリクエストで送信されます。</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">「%1$s」は有効なヘッダー名ではありません</string>
+    <string name="app_server_form_header_invalid_value">%1$sの値に改行は使えません</string>
+    <string name="app_server_form_name_placeholder">任意</string>
+    <string name="app_connection_progress_pairing">ペアリング中</string>
+    <string name="app_connection_progress_connecting">接続中</string>
+    <string name="app_connection_progress_loading_sessions">セッションを読み込み中</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">%1$sとペアリングしますか？</string>
+    <string name="app_pairing_confirm_try_one">OpenCodeは%1$sへの接続を試し、最初に応答したアドレスに切り替えます。</string>
+    <string name="app_pairing_confirm_pair_one">OpenCodeは%1$sとペアリングし、接続先を切り替えます。</string>
+    <string name="app_pairing_confirm_try_two">OpenCodeは%1$sと%2$sへの接続を試し、最初に応答したアドレスに切り替えます。</string>
+    <string name="app_pairing_confirm_try_many">OpenCodeは%1$s、%2$sへの接続を試し、最初に応答したアドレスに切り替えます。</string>
+    <string name="app_pairing_confirm_replaces">%1$s %2$sの保存済み認証情報が置き換わる場合があります。</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">ペアリング</string>
+    <string name="app_error_phase_connect">接続</string>
+    <string name="app_error_phase_load_sessions">セッションを読み込む</string>
+    <string name="app_error_candidate_detail">候補 %1$d: %2$s</string>
+    <string name="app_error_invalid_address">利用不可（無効なアドレス）</string>
+    <string name="app_error_title_pair">ペアリングできませんでした</string>
+    <string name="app_error_title_load_sessions">セッションを読み込めませんでした</string>
+    <string name="app_error_title_connect">%1$sに接続できませんでした</string>
+    <string name="app_error_announcement">%1$s。%2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">クリップボードは空です</string>
+    <string name="app_paste_not_a_pairing_link">ペアリング用のリンクではありません</string>
+    <string name="app_server_no_longer_saved">このサーバーは、この%1$sにはもう保存されていません。セッションを開くには、もう一度接続してください。</string>
+    <string name="app_session_no_longer_available">削除されたか、サーバーが利用できない可能性があります。</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">%1$sに接続しました</string>
+    <string name="app_pairing_invalid_code">OpenCodeのペアリングコードではありません。パソコンでopencode pair --remoteを実行し、表示されたQRコードをスキャンするか、リンクを貼り付けてください。</string>
+    <string name="app_pairing_unusable_address">このペアリングコードの「%1$s」は使えませんでした。理由: %2$s。</string>
+    <string name="app_pairing_loopback">このサーバーはlocalhostでのみ接続を受け付けるため、この%1$sからは接続できません。代わりにパソコンでopencode pair --remoteを実行すると、どのネットワークからでも接続できます。</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">共有先のサーバーは、この端末にはもう保存されていません。もう一度接続してから、共有し直してください。</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">前回使用</string>
+    <string name="app_server_form_hint_new">`opencode pair --remote`で表示されるリンクを貼り付けてペアリングするか、OpenCodeサーバーのアドレスとパスワードを入力してください。ユーザー名は通常opencodeです。</string>
+    <string name="app_server_form_hint_edit_paired">変更はこのサーバーに接続すると保存されます。このサーバーはペアリング済みのため、パスワードはセッショントークンです。変更せずに、新しいペアリングコードをスキャンしてください。</string>
+    <string name="app_server_form_hint_edit">変更はこのサーバーに接続すると保存されます。</string>
+</resources>

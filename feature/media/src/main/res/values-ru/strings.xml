@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">Изображение</string>
+    <string name="media_image_load_failed">Не удалось загрузить изображение</string>
+    <string name="media_unavailable">Медиафайл недоступен</string>
+    <string name="media_try_again_label">Попробовать снова</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">Просмотр медиа</string>
+    <string name="media_viewer_save_to_photos_description">Сохранить в фото</string>
+    <string name="media_file_viewer_screen_title">Просмотр файла</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d из %3$d</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">Рисовать на изображении</string>
+    <string name="media_drawing_undo_description">Отменить</string>
+    <string name="media_drawing_add_to_prompt_description">Добавить в запрос</string>
+    <string name="media_drawing_canvas_description">Холст для рисования</string>
+    <string name="media_drawing_discard_title">Удалить рисунок?</string>
+    <string name="media_drawing_discard_confirm">Удалить рисунок</string>
+    <string name="media_drawing_keep">Продолжить рисовать</string>
+    <string name="media_drawing_add_failed_title">Не удалось добавить рисунок</string>
+    <string name="media_drawing_flatten_failed">Не удалось создать изображение. Попробуйте снова.</string>
+    <string name="media_drawing_prompt_unavailable">Сейчас к сообщению в этой сессии нельзя добавить вложения.</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">Белый</string>
+    <string name="media_drawing_ink_black">Чёрный</string>
+    <string name="media_drawing_ink_red">Красный</string>
+    <string name="media_drawing_ink_yellow">Жёлтый</string>
+    <string name="media_drawing_ink_green">Зелёный</string>
+    <string name="media_drawing_ink_blue">Синий</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">Увеличено</string>
+    <string name="media_zoom_out_label">Уменьшить</string>
+    <string name="media_zoom_in_label">Увеличить</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">Пауза</string>
+    <string name="media_player_play">Воспроизвести</string>
+    <string name="media_player_position_description">Позиция воспроизведения</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">Не удалось воспроизвести видео</string>
+    <string name="media_video_position_description">Позиция видео</string>
+    <string name="media_video_capture_failed_title">Не удалось сохранить кадр</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">Показать предпросмотр</string>
+    <string name="media_file_show_source_description">Показать исходный текст</string>
+    <string name="media_file_unwrap_lines_description">Не переносить строки</string>
+    <string name="media_file_wrap_lines_description">Переносить строки</string>
+    <string name="media_file_start_pip_description">Включить «Картинка в картинке»</string>
+    <string name="media_file_opening">Открытие…</string>
+    <string name="media_file_share_failed_title">Не удалось поделиться файлом</string>
+    <string name="media_file_share_downloading_description">Скачивание для отправки</string>
+    <string name="media_file_confirm_large_message">Размер файла — %1$s. Скачать его для просмотра на этом устройстве?</string>
+    <string name="media_file_download">Скачать</string>
+    <string name="media_file_open_in_another_app">Открыть в другом приложении</string>
+    <string name="media_file_no_app_message">На устройстве нет приложения для открытия этого файла. Нажмите «Поделиться», чтобы сохранить его или отправить куда-нибудь ещё.</string>
+    <string name="media_file_pdf_page_description">Страница %1$d из %2$d</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">Файл не найден</string>
+    <string name="media_file_error_open_failed_title">Не удалось открыть файл</string>
+    <string name="media_file_error_unreadable">Не удалось прочитать данные по этому пути на сервере.</string>
+    <string name="media_file_error_not_found">Возможно, файл перемещён или удалён.</string>
+    <string name="media_file_error_unauthorized">Сервер не принял пароль этого устройства.</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">Сервер не смог прочитать файл (HTTP %1$d). Возможно, это папка.</string>
+    <string name="media_file_error_timed_out">Время ожидания запроса истекло.</string>
+    <string name="media_file_error_unexpected_response">Сервер отправил неожиданный ответ.</string>
+    <string name="media_file_error_over_limit">Файл превышает допустимый размер для скачивания.</string>
+    <string name="media_file_error_size_unknown">Сервер не сообщил размер вложения.</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">Скачивание…</string>
+    <string name="media_file_downloading_size">Скачивание %1$s</string>
+    <string name="media_file_downloading_progress">Скачивание %1$s из %2$s</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">0 КБ</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="one">%1$d байт</item>
+        <item quantity="few">%1$d байта</item>
+        <item quantity="many">%1$d байт</item>
+        <item quantity="other">%1$d байта</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s КБ</string>
+    <string name="media_file_size_megabytes">%1$s МБ</string>
+    <string name="media_file_size_gigabytes">%1$s ГБ</string>
+    <string name="media_file_size_terabytes">%1$s ТБ</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">Не найдено</string>
+    <string name="media_image_load_label">Загрузить изображение</string>
+    <string name="media_image_loading_state">Загрузка</string>
+    <string name="media_image_open_label">Открыть изображение</string>
+    <string name="media_image_tap_to_load">Нажмите, чтобы загрузить</string>
+    <string name="media_image_outside_project_value">Вне проекта</string>
+    <string name="media_image_deferred_low_data_value">Отложено для экономии трафика</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">Открыть %1$s</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">Назад к сессии</string>
+    <string name="media_browser_ask_description">Спросить об этой странице</string>
+    <string name="media_browser_forward_description">Вперёд</string>
+    <string name="media_browser_open_in_browser_description">Открыть в браузере</string>
+    <string name="media_browser_scroll_to_top_label">Прокрутить к началу страницы</string>
+    <string name="media_browser_ask_placeholder">Спросить об этой странице</string>
+    <string name="media_browser_reply_needs_input">Нужен ваш ответ</string>
+    <string name="media_browser_reply_working">Работает</string>
+    <string name="media_browser_go_back_to_session_label">Назад к сессии</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">Ответ готов</string>
+    <string name="media_browser_reply_back_to_read">· Назад к ответу</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">Сессия</string>
+    <string name="media_link_open_in_app_browser">Открыть во встроенном браузере</string>
+    <string name="media_link_open_in_browser">Открыть в браузере</string>
+    <string name="media_link_open_in_app">Открыть в приложении</string>
+    <string name="media_link_copy">Копировать ссылку</string>
+    <string name="media_link_share">Поделиться…</string>
+    <string name="media_link_open_session">Открыть сессию</string>
+    <string name="media_link_copy_session_id">Копировать ID</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">Копировать ID %1$s</string>
+    <string name="media_link_open_session_named_description">Открыть сессию %1$s</string>
+    <string name="media_link_open_host_in_app_browser_description">Открыть %1$s во встроенном браузере</string>
+    <string name="media_link_open_host_in_browser_description">Открыть %1$s в браузере</string>
+    <string name="media_link_open_host_in_app_description">Открыть %1$s в приложении</string>
+    <string name="media_link_copy_host_description">Копировать ссылку на %1$s</string>
+    <string name="media_link_share_host_description">Поделиться ссылкой на %1$s</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%1$s на %2$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s, ссылка %2$d</string>
+    <string name="media_link_more_links_description">Ещё ссылки</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">Видео</string>
+    <string name="media_link_preview_post">Публикация</string>
+    <string name="media_link_preview_post_unavailable">Публикация недоступна</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">Репозиторий</string>
+    <string name="media_github_kind_issue">Задача</string>
+    <string name="media_github_kind_pull_request">Запрос на слияние</string>
+    <string name="media_github_kind_commit">Коммит</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">Открыто</string>
+    <string name="media_github_state_closed">Закрыто</string>
+    <string name="media_github_state_merged">Объединено</string>
+    <string name="media_github_state_draft">Черновик</string>
+    <string name="media_github_state_completed">Готово</string>
+    <string name="media_github_state_not_planned">Не планируется</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">Диаграмма, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">Просмотр диаграммы</string>
+    <string name="media_mermaid_diagram_description">Диаграмма</string>
+    <string name="media_mermaid_loading_state">%1$s, загрузка</string>
+    <string name="media_mermaid_view_source">Показать исходный текст</string>
+    <string name="media_mermaid_source_title">Исходный текст диаграммы</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">Блок-схема</string>
+    <string name="media_mermaid_type_sequence">Диаграмма последовательности</string>
+    <string name="media_mermaid_type_class">Диаграмма классов</string>
+    <string name="media_mermaid_type_state">Диаграмма состояний</string>
+    <string name="media_mermaid_type_entity_relationship">Диаграмма «сущность — связь»</string>
+    <string name="media_mermaid_type_user_journey">Путь пользователя</string>
+    <string name="media_mermaid_type_gantt">Диаграмма Ганта</string>
+    <string name="media_mermaid_type_pie">Круговая диаграмма</string>
+    <string name="media_mermaid_type_quadrant">Квадрантная диаграмма</string>
+    <string name="media_mermaid_type_requirement">Диаграмма требований</string>
+    <string name="media_mermaid_type_git_graph">Граф Git</string>
+    <string name="media_mermaid_type_c4">Диаграмма C4</string>
+    <string name="media_mermaid_type_mind_map">Карта мыслей</string>
+    <string name="media_mermaid_type_timeline">Хронология</string>
+    <string name="media_mermaid_type_sankey">Диаграмма Санки</string>
+    <string name="media_mermaid_type_xy_chart">Диаграмма XY</string>
+    <string name="media_mermaid_type_block">Структурная схема</string>
+    <string name="media_mermaid_type_packet">Диаграмма пакета</string>
+    <string name="media_mermaid_type_kanban">Канбан-доска</string>
+    <string name="media_mermaid_type_architecture">Архитектурная схема</string>
+    <string name="media_mermaid_type_radar">Лепестковая диаграмма</string>
+    <string name="media_mermaid_type_treemap">Древовидная карта</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

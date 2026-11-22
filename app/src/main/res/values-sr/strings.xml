@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">Није могуће додати дељене ставке</string>
+    <string name="app_alert_open_session_failed_title">Није могуће отворити сесију</string>
+    <string name="app_alert_pairing_failed_title">Није могуће упарити са сервером</string>
+    <string name="app_pairing_confirm">Упари</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Сервери</string>
+    <string name="app_servers_back_description">Назад на %1$s</string>
+    <string name="app_server_fallback_name">сервер</string>
+    <string name="app_connection_intro_new">Наставите сесије програмирања са уређаја %1$s.</string>
+    <string name="app_connection_intro_returning">Наставите где сте стали или упарите други рачунар.</string>
+    <string name="app_connection_enter_manually">Унеси сервер ручно</string>
+    <string name="app_connection_scan_pairing_code">Скенирај код за упаривање</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">На рачунару отворите OpenCode и идите на Подешавања → Упаривање или покрените opencode pair --remote у терминалу. Затим скенирајте код уређајем %1$s.</string>
+    <string name="app_setup_install_title">Још немате OpenCode?</string>
+    <string name="app_setup_other_ways_to_install">Други начини инсталације</string>
+    <string name="app_setup_terminal_title">Или покрените ово у терминалу</string>
+    <string name="app_setup_terminal_detail">Ради са било које мреже.</string>
+    <string name="app_setup_paste_prompt">Или копирајте исписану везу, па</string>
+    <string name="app_setup_paste">Налепи</string>
+    <string name="app_setup_copy_command_description">Копирај %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">Повезивање</string>
+    <string name="app_servers_edit_description">Уреди %1$s</string>
+    <string name="app_servers_remove_description">Уклони %1$s</string>
+    <string name="app_servers_remove_confirm_title">Уклонити %1$s?</string>
+    <string name="app_servers_remove_confirm_message">Адреса и лозинка ће бити уклоњене са уређаја %1$s. Сесије на серверу остају непромењене.</string>
+    <string name="app_servers_remove_confirm">Уклони сервер</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Фаза: %1$s</string>
+    <string name="app_error_server">Сервер: %1$s</string>
+    <string name="app_error_attempt">Покушај: %1$d</string>
+    <string name="app_error_copy_report">Копирај извештај о грешци</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Нови сервер</string>
+    <string name="app_server_form_edit_title">Уреди сервер</string>
+    <string name="app_server_form_name">Име</string>
+    <string name="app_server_form_address">Адреса сервера</string>
+    <string name="app_server_form_username">Корисничко име</string>
+    <string name="app_server_form_password">Лозинка (опционо)</string>
+    <string name="app_server_form_hide_password_description">Сакриј лозинку</string>
+    <string name="app_server_form_show_password_description">Прикажи лозинку</string>
+    <string name="app_server_form_connect">Повежи се</string>
+    <string name="app_server_form_save_and_connect">Сачувај и повежи се</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Заглавља</string>
+    <string name="app_server_form_header_name">Назив</string>
+    <string name="app_server_form_header_name_description">Назив заглавља %1$d</string>
+    <string name="app_server_form_header_value">Вредност</string>
+    <string name="app_server_form_header_value_description">Вредност заглавља %1$d</string>
+    <string name="app_server_form_header_remove_description">Уклони заглавље %1$d</string>
+    <string name="app_server_form_header_add">Додај заглавље</string>
+    <string name="app_server_form_headers_detail">Шаљу се уз сваки захтев, за посреднички сервер као што је Cloudflare Access.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">„%1$s“ није важећи назив заглавља</string>
+    <string name="app_server_form_header_invalid_value">Вредност заглавља %1$s не сме да садржи прелом реда</string>
+    <string name="app_server_form_name_placeholder">Опционо</string>
+    <string name="app_connection_progress_pairing">Упаривање</string>
+    <string name="app_connection_progress_connecting">Повезивање</string>
+    <string name="app_connection_progress_loading_sessions">Учитавање сесија</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Упарити са %1$s?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode ће испробати %1$s и прећи на прву адресу која одговори.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode ће се упарити са %1$s и прећи на њега.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode ће испробати %1$s и %2$s и прећи на прву адресу која одговори.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode ће испробати %1$s и %2$s и прећи на прву адресу која одговори.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Сачувани подаци за пријаву за %2$s могу бити замењени.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Упаривање</string>
+    <string name="app_error_phase_connect">Повежи се</string>
+    <string name="app_error_phase_load_sessions">Учитај сесије</string>
+    <string name="app_error_candidate_detail">Кандидат %1$d: %2$s</string>
+    <string name="app_error_invalid_address">Недоступно (неважећа адреса)</string>
+    <string name="app_error_title_pair">Није могуће упарити</string>
+    <string name="app_error_title_load_sessions">Није могуће учитати сесије</string>
+    <string name="app_error_title_connect">Није могуће повезати се са %1$s</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">Међуспремник је празан</string>
+    <string name="app_paste_not_a_pairing_link">То није веза за упаривање</string>
+    <string name="app_server_no_longer_saved">Овај сервер више није сачуван на овом уређају (%1$s). Повежите се поново да отворите сесију.</string>
+    <string name="app_session_no_longer_available">Можда је избрисана или сервер није доступан.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Повезано са %1$s</string>
+    <string name="app_pairing_invalid_code">То није OpenCode код за упаривање. Покрените opencode pair --remote на рачунару, па скенирајте QR код или налепите исписану везу.</string>
+    <string name="app_pairing_unusable_address">Није могуће користити „%1$s“ из овог кода за упаривање јер %2$s.</string>
+    <string name="app_pairing_loopback">Тај сервер прихвата везе само преко localhost, па му овај уређај (%1$s) не може приступити. Уместо тога, покрените opencode pair --remote на рачунару за приступ са било које мреже.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">Сервер на који сте делили више није сачуван на овом уређају. Повежите се поново, па поновите дељење.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">последњи пут коришћен</string>
+    <string name="app_server_form_hint_new">За упаривање налепите везу коју испише `opencode pair --remote` или унесите адресу и лозинку које користи ваш OpenCode сервер. Корисничко име је обично opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Промене се чувају када се сервер повеже. Овај сервер је упарен, па је његова лозинка токен сесије; уместо измене лозинке скенирајте нови код за упаривање.</string>
+    <string name="app_server_form_hint_edit">Промене се чувају када се сервер повеже.</string>
+</resources>

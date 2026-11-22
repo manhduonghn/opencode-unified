@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Appearance -->
+    <string name="settings_appearance_title">उपस्थिति</string>
+    <string name="settings_appearance_mode_header">मोड</string>
+    <string name="settings_appearance_theme">थीम</string>
+
+    <!-- Appearance › Themes -->
+    <string name="settings_themes_title">थीम</string>
+    <string name="settings_themes_preview_description">बातचीत के टेक्स्ट का पूर्वावलोकन</string>
+    <string name="settings_themes_preview_user_message">सेशन स्क्रीन बेहतर बनाने में मेरी मदद करें। जो मिले, वह दिखाएँ और बदलाव समझाएँ।</string>
+    <string name="settings_themes_preview_reply">मुझे %1$s में लेआउट की समस्या मिली। बातचीत का टेक्स्ट और संदेश लेखन उपलब्ध ऊँचाई साझा करते हैं, इसलिए कीबोर्ड खोलकर इसकी अच्छी जाँच हो जाती है।</string>
+
+    <!-- Language -->
+    <string name="settings_language_title">भाषा</string>
+    <string name="settings_language_system_default">सिस्टम का डिफ़ॉल्ट</string>
+    <string name="settings_language_search_placeholder">भाषाएँ खोजें</string>
+    <string name="settings_language_suggested_header">सुझाए गए</string>
+    <string name="settings_language_all_header">सभी भाषाएँ</string>
+    <string name="settings_language_no_matches">कोई मेल खाती भाषा नहीं</string>
+
+    <!-- Experimental -->
+    <string name="settings_experimental_title">प्रायोगिक</string>
+    <string name="settings_experimental_all_footer">नए प्रयोग भी चालू करता है, सिवाय उनके जो आपकी स्क्रीन देखते हैं या बैकग्राउंड में सुनते हैं।</string>
+    <string name="settings_experimental_all">सभी प्रयोग</string>
+    <string name="settings_experimental_all_on">सभी चालू</string>
+    <plurals name="settings_experimental_on_count">
+        <item quantity="one">%d चालू</item>
+        <item quantity="other">%d चालू</item>
+    </plurals>
+
+    <!-- Models -->
+    <string name="settings_models_title">मॉडल</string>
+    <string name="settings_models_mode_hide">छिपाना</string>
+    <string name="settings_models_mode_only_show">केवल दिखाएँ</string>
+    <string name="settings_models_mode_hide_footer">जिन मॉडल का इस्तेमाल नहीं करते, उन्हें बंद करें।</string>
+    <string name="settings_models_mode_only_show_footer">केवल इस्तेमाल करने वाले मॉडल चालू करें।</string>
+    <string name="settings_models_providers_header">प्रोवाइडर</string>
+    <string name="settings_models_stale_header">अब उपलब्ध नहीं</string>
+    <string name="settings_models_forget_unavailable">अनुपलब्ध मॉडल भूलें</string>
+    <string name="settings_models_show_every_model">सभी मॉडल दिखाएँ</string>
+    <string name="settings_models_load_failed_title">मॉडल लोड नहीं हो सके</string>
+    <string name="settings_models_summary_hidden">छिपे हुए</string>
+    <string name="settings_models_summary_all">सभी</string>
+    <string name="settings_models_summary_count">%2$d में से %1$d</string>
+
+    <!-- Models › Provider -->
+    <string name="settings_models_search_placeholder">मॉडल खोजें</string>
+    <string name="settings_models_show_provider">%1$s दिखाएँ</string>
+
+    <!-- Notifications -->
+    <string name="settings_notifications_title">सूचनाएँ</string>
+    <string name="settings_notifications_device_header">यह %1$s</string>
+    <string name="settings_notifications_device_footer">सूचनाएँ एक रिले से होकर आती हैं, जो कुछ भी सहेजता नहीं है। इस %1$s पर शुरू किए गए सेशन की सूचनाएँ ही यहाँ आती हैं।</string>
+    <string name="settings_notifications_allow">सूचनाओं की अनुमति दें</string>
+    <string name="settings_notifications_open_android_settings">Android सेटिंग्स खोलें</string>
+    <string name="settings_notifications_turn_on">सूचनाएँ चालू करें</string>
+    <string name="settings_notifications_server_header">सर्वर</string>
+    <string name="settings_notifications_set_up_footer">ऐसा सेशन खोलता है जो OpenCode से प्लग-इन इंस्टॉल करने को कहता है। संदेश भेजें, फिर दोबारा जाँचें।</string>
+    <string name="settings_notifications_plugin_needed_footer">सर्वर को OpenCode notify प्लग-इन चाहिए।</string>
+    <string name="settings_notifications_notify_plugin">Notify प्लग-इन</string>
+    <string name="settings_notifications_plugin_installed">इंस्टॉल है</string>
+    <string name="settings_notifications_plugin_not_running">चल नहीं रहा है</string>
+    <string name="settings_notifications_plugin_not_installed">इंस्टॉल नहीं है</string>
+    <string name="settings_notifications_plugin_check_failed">स्थिति की जाँच नहीं हो सकी</string>
+    <string name="settings_notifications_set_up">OpenCode से सेट अप करें</string>
+    <string name="settings_notifications_check_again">फिर से जाँचें</string>
+    <string name="settings_notifications_in_app_footer">ड्रॉअर बटन पर दिखाई जाती हैं।</string>
+    <string name="settings_notifications_in_app_notices">ऐप में सूचनाएँ</string>
+
+    <!-- Sessions -->
+    <string name="settings_sessions_title">सेशन</string>
+    <string name="settings_sessions_composer_header">संदेश लेखन</string>
+    <string name="settings_sessions_return_key_sends">रिटर्न कुंजी से भेजें</string>
+    <string name="settings_sessions_new_sessions_header">नए सेशन</string>
+    <string name="settings_sessions_server_default">सर्वर का डिफ़ॉल्ट</string>
+    <string name="settings_sessions_default_agent">डिफ़ॉल्ट एजेंट</string>
+
+    <!-- Shared values -->
+    <string name="settings_value_on">चालू</string>
+    <string name="settings_value_off">बंद</string>
+
+    <!-- Sound Effects -->
+    <string name="settings_sound_effects_volume">आवाज़</string>
+    <string name="settings_sound_effects_volume_description">ध्वनि प्रभावों की आवाज़</string>
+    <string name="settings_sound_effects_send_sound">भेजने की ध्वनि</string>
+
+    <!-- Voice › Delegator -->
+    <string name="settings_delegator_title">कार्य सौंपने वाला</string>
+    <string name="settings_delegator_other_server_note">“%1$s” दूसरे सर्वर पर है। इस सर्वर से कोई चुनें या सर्वर बदलें।</string>
+    <string name="settings_delegator_mode_footer">बिल्ट-इन विकल्प बिना सेशन के OpenAI पर चलता है। OpenCode सेशन आपके सर्वर पर एक सेशन में काम करता है।</string>
+    <string name="settings_delegator_built_in">बिल्ट-इन</string>
+    <string name="settings_delegator_opencode_session">OpenCode सेशन</string>
+    <string name="settings_delegator_target_header">लक्ष्य सेशन</string>
+    <string name="settings_delegator_target_footer">स्वचालित विकल्प इस सर्वर पर “Voice” सेशन का उपयोग करता है। स्क्रीन पर खुला सेशन विकल्प उसी सेशन का उपयोग करता है।</string>
+    <string name="settings_delegator_automatic">स्वचालित</string>
+    <string name="settings_delegator_viewed_session">स्क्रीन पर खुला सेशन</string>
+    <string name="settings_delegator_search_placeholder">सेशन खोजें</string>
+    <string name="settings_delegator_sessions_header">सेशन चुनें</string>
+    <string name="settings_delegator_sessions_footer">चुने गए सेशन का मॉडल वही रहता है।</string>
+    <string name="settings_delegator_no_sessions">इस सर्वर पर कोई सेशन नहीं</string>
+    <string name="settings_delegator_no_matching_sessions">कोई मेल खाता सेशन नहीं</string>
+    <string name="settings_delegator_new_session">नया सेशन</string>
+    <string name="settings_delegator_direct">सीधे</string>
+    <string name="settings_delegator_direct_session_unavailable">सीधे · सेशन उपलब्ध नहीं है</string>
+    <string name="settings_delegator_another_server">%1$s · दूसरा सर्वर</string>
+
+    <!-- Voice › Key Editor -->
+    <string name="settings_voice_key_hide_description">कुंजी छिपाएँ</string>
+    <string name="settings_voice_key_show_description">कुंजी दिखाएँ</string>
+    <string name="settings_voice_key_verify">सत्यापित करें</string>
+
+    <!-- Voice › Voice Provider -->
+    <string name="settings_voice_provider_title">वॉइस प्रोवाइडर</string>
+    <string name="settings_voice_provider_place">%1$s पर</string>
+    <string name="settings_voice_api_key_title">API कुंजी</string>
+    <string name="settings_voice_provider_automatic_footer">जब %1$s तैयार नहीं होता, तो कॉल के लिए कोई तैयार प्रोवाइडर इस्तेमाल होता है।</string>
+    <string name="settings_voice_provider_choose_automatically">अपने आप चुनें</string>
+    <string name="settings_voice_provider_others_header">अन्य प्रोवाइडर</string>
+    <string name="settings_voice_provider_use_description">%1$s का उपयोग करें</string>
+    <string name="settings_voice_provider_use">उपयोग करें</string>
+    <string name="settings_voice_provider_set_up">सेट अप करें</string>
+    <plurals name="settings_voice_provider_not_available_count">
+        <item quantity="one">%d उपलब्ध नहीं</item>
+        <item quantity="other">%d उपलब्ध नहीं</item>
+    </plurals>
+
+    <!-- Voice › API Key -->
+    <string name="settings_voice_account_title">आपका OpenAI खाता</string>
+    <string name="settings_voice_account_place">इस फ़ोन पर</string>
+    <string name="settings_voice_account_key_footer">कॉल के लिए सर्वर के बजाय आपका OpenAI खाता इस्तेमाल होता है।</string>
+    <string name="settings_voice_account_use_for_calls">कॉल के लिए उपयोग करें</string>
+
+    <!-- Voice -->
+    <string name="settings_voice_title">वॉइस</string>
+    <string name="settings_voice_call_setup_header">कॉल सेटअप</string>
+    <string name="settings_voice_calls_header">कॉल</string>
+    <string name="settings_voice_raise_to_talk_hint">सेशन में फ़ोन कान के पास लाने पर ईयरपीस से कॉल शुरू करना चालू या बंद करें</string>
+    <string name="settings_voice_enable">वॉइस सक्षम करें</string>
+    <string name="settings_voice_model">मॉडल</string>
+    <string name="settings_voice_model_description">वॉइस मॉडल</string>
+    <string name="settings_voice_call_voice">आवाज़</string>
+    <string name="settings_voice_raise_to_talk">कान के पास लाकर बात करें</string>
+    <string name="settings_voice_call_sounds">कॉल की ध्वनियाँ</string>
+    <string name="settings_voice_call_history">कॉल इतिहास</string>
+    <string name="settings_voice_edit_key_label">अपनी %1$s API कुंजी संपादित करें</string>
+    <string name="settings_voice_key_verified">सत्यापित</string>
+    <string name="settings_voice_key_checking">जाँच हो रही है…</string>
+    <string name="settings_voice_key_saved">सहेजी गई</string>
+    <string name="settings_voice_key_missing">मौजूद नहीं</string>
+    <string name="settings_voice_preview_disabled_hint">आवाज़ें सुनने के लिए अपनी %1$s कुंजी जोड़ें</string>
+
+    <!-- Voice › Voice Picker -->
+    <string name="settings_voice_picker_add_key_footer">आवाज़ें सुनने के लिए अपनी %1$s कुंजी जोड़ें।</string>
+    <string name="settings_voice_picker_unavailable_footer">%2$s पर %1$s उपलब्ध नहीं है, इसलिए कॉल के लिए %3$s इस्तेमाल होता है।</string>
+    <string name="settings_voice_stop_preview_description">%1$s का पूर्वावलोकन रोकें</string>
+    <string name="settings_voice_preview_description">%1$s की आवाज़ सुनें</string>
+    <string name="settings_voice_preview_playing">चल रहा है</string>
+    <string name="settings_voice_call_voice_unavailable">%1$s · %2$s उपलब्ध नहीं है</string>
+
+    <!-- Settings root -->
+    <string name="settings_whats_new_title">नया क्या है</string>
+    <string name="settings_developer_title">डेवलपर</string>
+    <string name="settings_app_version">संस्करण %1$s (%2$s)</string>
+    <string name="settings_app_version_commit">संस्करण %1$s (%2$s) · %3$s</string>
+
+    <!-- Connection card -->
+    <string name="settings_connection_show_server_label">सर्वर दिखाएँ</string>
+    <string name="settings_connection_milliseconds">%1$d ms</string>
+    <string name="settings_connection_card_value_description">%1$s, %2$s, %3$s</string>
+    <string name="settings_connection_status_connected">कनेक्ट हो गया</string>
+    <string name="settings_connection_status_slow">धीमा</string>
+    <string name="settings_connection_status_unstable">अस्थिर</string>
+    <string name="settings_connection_status_reconnecting">फिर से कनेक्ट हो रहा है</string>
+    <string name="settings_connection_status_offline">ऑफ़लाइन</string>
+    <string name="settings_connection_status_sign_in_failed">साइन इन असफल</string>
+    <string name="settings_connection_status_switching">बदल रहा है</string>
+    <string name="settings_connection_status_switching_to">%1$s पर बदल रहा है</string>
+    <string name="settings_connection_status_code">%1$s · %2$d</string>
+    <string name="settings_connection_status_http_description">%1$s, HTTP %2$d</string>
+    <plurals name="settings_connection_status_milliseconds_description">
+        <item quantity="one">%1$s, %2$d मिलीसेकंड</item>
+        <item quantity="other">%1$s, %2$d मिलीसेकंड</item>
+    </plurals>
+
+    <!-- Server page -->
+    <string name="settings_server_title">सर्वर</string>
+    <string name="settings_server_address">पता</string>
+    <string name="settings_server_connection">संबंध</string>
+    <string name="settings_server_version">संस्करण</string>
+    <string name="settings_server_edit_server">सर्वर संपादित करें…</string>
+    <string name="settings_server_rename_server_ellipsis">सर्वर का नाम बदलें…</string>
+    <string name="settings_server_rename_title">सर्वर का नाम बदलें</string>
+    <string name="settings_server_rename_message">यह नाम केवल इस %1$s पर दिखेगा। “%2$s” के लिए खाली छोड़ें।</string>
+    <string name="settings_server_status">स्थिति</string>
+    <string name="settings_server_status_milliseconds">%1$s · %2$d ms</string>
+
+    <!-- Servers section -->
+    <string name="settings_servers_header">सर्वर</string>
+    <string name="settings_servers_edit_server">%1$s संपादित करें…</string>
+    <string name="settings_servers_rename_message">यह नाम केवल इस %1$s पर दिखेगा। कंप्यूटर का नाम इस्तेमाल करने के लिए खाली छोड़ें।</string>
+    <string name="settings_servers_remove_title">%1$s हटाएँ?</string>
+    <string name="settings_servers_remove_message">इस %1$s से सहेजा गया पता और पासवर्ड हट जाएगा। सर्वर के सेशन पर कोई असर नहीं पड़ेगा।</string>
+    <string name="settings_servers_remove_server">सर्वर हटाएँ</string>
+    <string name="settings_servers_current_server_state">मौजूदा सर्वर, %1$s</string>
+    <string name="settings_servers_switch_label">इस सर्वर पर बदलें</string>
+    <string name="settings_servers_options_description">%1$s के विकल्प</string>
+    <string name="settings_servers_rename_menu">नाम बदलें…</string>
+    <string name="settings_servers_edit_menu">संपादित करें…</string>
+    <string name="settings_servers_remove_menu">हटाएँ…</string>
+    <string name="settings_servers_add_server">सर्वर जोड़ें</string>
+    <string name="settings_servers_scan_pairing_code">पेयरिंग कोड स्कैन करें</string>
+    <string name="settings_servers_enter_address">पता दर्ज करें</string>
+
+    <!-- Pairing scanner -->
+    <string name="settings_pairing_paste">पेस्ट करें</string>
+    <string name="settings_pairing_no_camera_title">कोई कैमरा उपलब्ध नहीं है</string>
+    <string name="settings_pairing_no_camera_message">कंप्यूटर पर `opencode pair` से दिखने वाला लिंक कॉपी करें, फिर यहाँ पेस्ट करें।</string>
+    <string name="settings_pairing_camera_off_title">कैमरे की अनुमति बंद है</string>
+    <string name="settings_pairing_camera_off_message">QR कोड स्कैन करने के लिए सेटिंग्स में कैमरे की अनुमति दें, या `opencode pair` से दिखने वाला लिंक पेस्ट करें।</string>
+    <string name="settings_pairing_nothing_to_paste_title">पेस्ट करने के लिए कुछ नहीं है</string>
+    <string name="settings_pairing_nothing_to_paste_message">क्लिपबोर्ड में पेयरिंग लिंक नहीं है। opencode pair से दिखने वाला लिंक कॉपी करें, फिर से कोशिश करें।</string>
+    <string name="settings_pairing_point_camera">कैमरा QR कोड की ओर करें</string>
+    <string name="settings_pairing_paste_link">पेयरिंग लिंक पेस्ट करें</string>
+    <string name="settings_pairing_computer_hint">कंप्यूटर पर OpenCode की सेटिंग्स → पेयरिंग खोलें, या टर्मिनल में %1$s चलाएँ।</string>
+</resources>

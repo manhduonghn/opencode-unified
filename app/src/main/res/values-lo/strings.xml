@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">ເພີ່ມລາຍການທີ່ແບ່ງປັນບໍ່ໄດ້</string>
+    <string name="app_alert_open_session_failed_title">ເປີດເຊດຊັນບໍ່ໄດ້</string>
+    <string name="app_alert_pairing_failed_title">ຈັບຄູ່ກັບເຊີບເວີບໍ່ໄດ້</string>
+    <string name="app_pairing_confirm">ຈັບຄູ່</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">ເຊີບເວີ</string>
+    <string name="app_servers_back_description">ກັບໄປທີ່ %1$s</string>
+    <string name="app_server_fallback_name">ເຊີບເວີ</string>
+    <string name="app_connection_intro_new">ສືບຕໍ່ເຊດຊັນຂຽນໂຄດຈາກ %1$s ຂອງເຈົ້າ.</string>
+    <string name="app_connection_intro_returning">ສືບຕໍ່ຈາກບ່ອນທີ່ຄ້າງໄວ້ ຫຼື ຈັບຄູ່ກັບຄອມພິວເຕີອີກເຄື່ອງ.</string>
+    <string name="app_connection_enter_manually">ປ້ອນເຊີບເວີເອງ</string>
+    <string name="app_connection_scan_pairing_code">ສະແກນລະຫັດຈັບຄູ່</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">ໃນຄອມພິວເຕີ, ເປີດ OpenCode ແລ້ວໄປທີ່ ການຕັ້ງຄ່າ → ການຈັບຄູ່ ຫຼື ແລ່ນ opencode pair --remote ໃນສະຖານີ. ຈາກນັ້ນສະແກນລະຫັດດ້ວຍ %1$s ນີ້.</string>
+    <string name="app_setup_install_title">ຍັງບໍ່ມີ OpenCode ເທື່ອບໍ?</string>
+    <string name="app_setup_other_ways_to_install">ວິທີຕິດຕັ້ງອື່ນໆ</string>
+    <string name="app_setup_terminal_title">ຫຼື ແລ່ນຄຳສັ່ງນີ້ໃນສະຖານີ</string>
+    <string name="app_setup_terminal_detail">ໃຊ້ໄດ້ຈາກທຸກເຄືອຂ່າຍ.</string>
+    <string name="app_setup_paste_prompt">ຫຼື ສຳເນົາລິ້ງທີ່ສະແດງອອກມາ ແລ້ວ</string>
+    <string name="app_setup_paste">ວາງ</string>
+    <string name="app_setup_copy_command_description">ສຳເນົາ %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">ກຳລັງເຊື່ອມຕໍ່</string>
+    <string name="app_servers_edit_description">ແກ້ໄຂ %1$s</string>
+    <string name="app_servers_remove_description">ເອົາ %1$s ອອກ</string>
+    <string name="app_servers_remove_confirm_title">ເອົາ %1$s ອອກບໍ?</string>
+    <string name="app_servers_remove_confirm_message">ຈະລຶບທີ່ຢູ່ ແລະ ລະຫັດຜ່ານທີ່ບັນທຶກໄວ້ໃນ %1$s ນີ້. ເຊດຊັນໃນເຊີບເວີຈະບໍ່ຖືກກະທົບ.</string>
+    <string name="app_servers_remove_confirm">ເອົາເຊີບເວີອອກ</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">ຂັ້ນຕອນ: %1$s</string>
+    <string name="app_error_server">ເຊີບເວີ: %1$s</string>
+    <string name="app_error_attempt">ຄັ້ງທີ່ລອງ: %1$d</string>
+    <string name="app_error_copy_report">ສຳເນົາລາຍງານຄວາມຜິດພາດ</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">ເຊີບເວີໃໝ່</string>
+    <string name="app_server_form_edit_title">ແກ້ໄຂເຊີບເວີ</string>
+    <string name="app_server_form_name">ຊື່</string>
+    <string name="app_server_form_address">ທີ່ຢູ່ເຊີບເວີ</string>
+    <string name="app_server_form_username">ຊື່ຜູ້ໃຊ້</string>
+    <string name="app_server_form_password">ລະຫັດຜ່ານ (ທາງເລືອກ)</string>
+    <string name="app_server_form_hide_password_description">ຫລົບຊ່ອນລະຫັດຜ່ານ</string>
+    <string name="app_server_form_show_password_description">ສະແດງລະຫັດຜ່ານ</string>
+    <string name="app_server_form_connect">ເຊື່ອມຕໍ່</string>
+    <string name="app_server_form_save_and_connect">ບັນທຶກ ແລະ ເຊື່ອມຕໍ່</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">ສ່ວນຫົວ</string>
+    <string name="app_server_form_header_name">ຊື່</string>
+    <string name="app_server_form_header_name_description">ຊື່ສ່ວນຫົວ %1$d</string>
+    <string name="app_server_form_header_value">ຄ່າ</string>
+    <string name="app_server_form_header_value_description">ຄ່າສ່ວນຫົວ %1$d</string>
+    <string name="app_server_form_header_remove_description">ເອົາສ່ວນຫົວ %1$d ອອກ</string>
+    <string name="app_server_form_header_add">ເພີ່ມສ່ວນຫົວ</string>
+    <string name="app_server_form_headers_detail">ສົ່ງໄປກັບທຸກຄຳຂໍ ສຳລັບພຣັອກຊີທີ່ຢູ່ໜ້າເຊີບເວີ ເຊັ່ນ Cloudflare Access.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">“%1$s” ບໍ່ແມ່ນຊື່ສ່ວນຫົວທີ່ຖືກຕ້ອງ</string>
+    <string name="app_server_form_header_invalid_value">ຄ່າຂອງ %1$s ຕ້ອງບໍ່ມີການຂຶ້ນແຖວໃໝ່</string>
+    <string name="app_server_form_name_placeholder">ທາງເລືອກ</string>
+    <string name="app_connection_progress_pairing">ກຳລັງຈັບຄູ່</string>
+    <string name="app_connection_progress_connecting">ກຳລັງເຊື່ອມຕໍ່</string>
+    <string name="app_connection_progress_loading_sessions">ກຳລັງໂຫຼດເຊດຊັນ</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">ຈັບຄູ່ກັບ %1$s ບໍ?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode ຈະລອງ %1$s ແລ້ວສະຫຼັບໄປໃຊ້ທີ່ຢູ່ທຳອິດທີ່ຕອບກັບ.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode ຈະຈັບຄູ່ກັບ %1$s ແລ້ວສະຫຼັບໄປໃຊ້.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode ຈະລອງ %1$s ແລະ %2$s ແລ້ວສະຫຼັບໄປໃຊ້ທີ່ຢູ່ທຳອິດທີ່ຕອບກັບ.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode ຈະລອງ %1$s ແລະ %2$s ແລ້ວສະຫຼັບໄປໃຊ້ທີ່ຢູ່ທຳອິດທີ່ຕອບກັບ.</string>
+    <string name="app_pairing_confirm_replaces">%1$s ຂໍ້ມູນເຂົ້າລະບົບທີ່ບັນທຶກໄວ້ສຳລັບ %2$s ອາດຖືກແທນທີ່.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">ຈັບຄູ່</string>
+    <string name="app_error_phase_connect">ເຊື່ອມຕໍ່</string>
+    <string name="app_error_phase_load_sessions">ໂຫຼດເຊດຊັນ</string>
+    <string name="app_error_candidate_detail">ຕົວເລືອກ %1$d: %2$s</string>
+    <string name="app_error_invalid_address">ບໍ່ພ້ອມໃຊ້ງານ (ທີ່ຢູ່ບໍ່ຖືກຕ້ອງ)</string>
+    <string name="app_error_title_pair">ຈັບຄູ່ບໍ່ໄດ້</string>
+    <string name="app_error_title_load_sessions">ໂຫຼດເຊດຊັນບໍ່ໄດ້</string>
+    <string name="app_error_title_connect">ເຊື່ອມຕໍ່ກັບ %1$s ບໍ່ໄດ້</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">ຄລິບບອດຂອງເຈົ້າວ່າງເປົ່າ</string>
+    <string name="app_paste_not_a_pairing_link">ນັ້ນບໍ່ແມ່ນລິ້ງຈັບຄູ່</string>
+    <string name="app_server_no_longer_saved">ເຊີບເວີນີ້ບໍ່ໄດ້ບັນທຶກໄວ້ໃນ %1$s ນີ້ແລ້ວ. ເຊື່ອມຕໍ່ອີກຄັ້ງເພື່ອເປີດເຊດຊັນ.</string>
+    <string name="app_session_no_longer_available">ອາດຖືກລຶບແລ້ວ ຫຼື ເຊີບເວີອາດບໍ່ພ້ອມໃຊ້ງານ.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">ເຊື່ອມຕໍ່ກັບ %1$s ແລ້ວ</string>
+    <string name="app_pairing_invalid_code">ນັ້ນບໍ່ແມ່ນລະຫັດຈັບຄູ່ OpenCode. ແລ່ນ opencode pair --remote ໃນຄອມພິວເຕີຂອງເຈົ້າ ແລ້ວສະແກນ QR code ຫຼື ວາງລິ້ງທີ່ສະແດງຂຶ້ນ.</string>
+    <string name="app_pairing_unusable_address">ໃຊ້ “%1$s” ຈາກລະຫັດຈັບຄູ່ນີ້ບໍ່ໄດ້: ມັນ%2$s.</string>
+    <string name="app_pairing_loopback">ເຊີບເວີນັ້ນຮັບການເຊື່ອມຕໍ່ຜ່ານ localhost ເທົ່ານັ້ນ, %1$s ນີ້ຈຶ່ງເຂົ້າເຖິງບໍ່ໄດ້. ໃຫ້ແລ່ນ opencode pair --remote ໃນຄອມພິວເຕີຂອງເຈົ້າແທນ ເພື່ອໃຊ້ໄດ້ຈາກທຸກເຄືອຂ່າຍ.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">ເຊີບເວີທີ່ເຈົ້າແບ່ງປັນໄປຫາບໍ່ໄດ້ບັນທຶກໄວ້ໃນອຸປະກອນນີ້ແລ້ວ. ເຊື່ອມຕໍ່ອີກຄັ້ງ ແລ້ວແບ່ງປັນໃໝ່.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">ໃຊ້ງານຫຼ້າສຸດ</string>
+    <string name="app_server_form_hint_new">ວາງລິ້ງທີ່ `opencode pair --remote` ສະແດງເພື່ອຈັບຄູ່ ຫຼື ໃຊ້ທີ່ຢູ່ ແລະ ລະຫັດຜ່ານຂອງເຊີບເວີ OpenCode ຂອງເຈົ້າ. ຊື່ຜູ້ໃຊ້ສ່ວນໃຫຍ່ແມ່ນ opencode.</string>
+    <string name="app_server_form_hint_edit_paired">ການປ່ຽນແປງຈະຖືກບັນທຶກເມື່ອເຊີບເວີນີ້ເຊື່ອມຕໍ່. ເຊີບເວີນີ້ເຄີຍຈັບຄູ່ແລ້ວ, ລະຫັດຜ່ານຈຶ່ງເປັນໂທເຄັນເຊດຊັນ; ໃຫ້ສະແກນລະຫັດຈັບຄູ່ໃໝ່ແທນການປ່ຽນມັນ.</string>
+    <string name="app_server_form_hint_edit">ການປ່ຽນແປງຈະຖືກບັນທຶກເມື່ອເຊີບເວີນີ້ເຊື່ອມຕໍ່.</string>
+</resources>

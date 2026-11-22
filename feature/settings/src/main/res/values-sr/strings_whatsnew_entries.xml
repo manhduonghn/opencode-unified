@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- What’s New entries, oldest first: one group per file in whatsnew/entries/. -->
+
+    <!-- 2026-10-06-01-voice-messages -->
+    <string name="settings_whatsnew_entry_voice_messages_title">Гласовне поруке</string>
+    <string name="settings_whatsnew_entry_voice_messages_summary">Оно што Глас пита сесију уместо тебе приказује се као гласовна порука, означена таласним обликом.</string>
+
+    <!-- 2026-10-07-01-attachment-menu-hold -->
+    <string name="settings_whatsnew_entry_attachment_menu_hold_title">Приложи помоћу +</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_summary">Мени + се отвара из поља за поруку и нуди камеру, фотографије и датотеке. Задржи + и превуци да изабереш једним покретом.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_1">Фотографије се отварају одмах изнад поља за поруку; додирни их да их приложиш.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_2">Камера има дугмад за објективе, зумирање прстима, фокусирање додиром и блиц.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_example">Задржи +, превуци нагоре до „Фотографије“ и пусти</string>
+
+    <!-- 2026-10-08-01-voice-webrtc-weak-connection -->
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_title">Стабилнији позиви</string>
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_summary">Нестабилна веза сада изазива тек кратку сметњу у позиву уместо неколико секунди тишине.</string>
+
+    <!-- 2026-10-08-02-mute-sessions -->
+    <string name="settings_whatsnew_entry_mute_sessions_title">Утишај сесије</string>
+    <string name="settings_whatsnew_entry_mute_sessions_summary">Утишане сесије остају на листи, али се не појављују у прегледу новости и немају тачку за непрочитано.</string>
+    <string name="settings_whatsnew_entry_mute_sessions_detail_1">Задржи „Преглед новости“ да све означиш као прочитано. Сесије које чекају на тебе остају.</string>
+    <string name="settings_whatsnew_entry_mute_sessions_example">Задржи сесију у бочном панелу и додирни „Утишај“</string>
+
+    <!-- 2026-10-08-03-pair-from-anywhere -->
+    <string name="settings_whatsnew_entry_pair_from_anywhere_title">Упаривање са било ког места</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_summary">Покрени opencode pair --remote на рачунару да се повежеш са било које мреже, без заједничке Wi-Fi мреже или Tailscale везе.</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_detail_1">Скенирај приказани код или налепи исписану везу.</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_example">Покрени opencode pair --remote, па додај сервер на телефону</string>
+
+    <!-- 2026-10-08-04-drawer-peek -->
+    <string name="settings_whatsnew_entry_drawer_peek_title">Када су сесије биле активне</string>
+    <string name="settings_whatsnew_entry_drawer_peek_summary">Повуци листу сесија ка сесији да видиш када је свака последњи пут била активна.</string>
+    <string name="settings_whatsnew_entry_drawer_peek_detail_1">Превлачењем улево преко листе затвараш је.</string>
+    <string name="settings_whatsnew_entry_drawer_peek_example">Отвори листу сесија и повуци је удесно</string>
+
+    <!-- 2026-10-08-05-dictation-keeps-going -->
+    <string name="settings_whatsnew_entry_dictation_keeps_going_title">Диктирај и пошаљи</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_summary">Додирни микрофон да диктираш, па пошаљи директно са траке за снимање или додирни „Стоп“ да прво прегледаш текст.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_1">Држи микрофон док говориш, превуци нагоре да закључаш снимање или улево да откажеш.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_2">Снимање се наставља и кад изађеш из апликације, а можеш га зауставити преко активности уживо.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_3">Ако промениш сесију током снимања, „Пошаљи“ шаље у ону која је на екрану.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_example">Додирни микрофон, изговори реченицу и додирни „Пошаљи“</string>
+
+    <!-- 2026-10-08-06-siri-shortcuts-spotlight -->
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_title">Радње апликације и пречице</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_summary">Покрени позив или сесију, или пошаљи поруку, преко радњи апликације у Google Assistant, пречица апликације или брзих подешавања.</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_detail_1">Задржи икону апликације да видиш недавне сесије.</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_example">Реци „Hey Google, покрени гласовни позив у OpenCode“</string>
+
+    <!-- 2026-10-09-01-working-orb -->
+    <string name="settings_whatsnew_entry_working_orb_title">Кугла статуса</string>
+    <string name="settings_whatsnew_entry_working_orb_summary">Кугла поред ознаке „У току“ и на картицама субагената показује шта агент ради, а кад заврши, постаје дугме за копирање.</string>
+
+    <!-- 2026-10-09-02-shell-glyph -->
+    <string name="settings_whatsnew_entry_shell_glyph_title">Активност shell-а</string>
+    <string name="settings_whatsnew_entry_shell_glyph_summary">Ознака &gt;_ покренутог shell-а се анимира док стиже излаз.</string>
+
+    <!-- 2026-10-09-03-math-and-diagrams -->
+    <string name="settings_whatsnew_entry_math_and_diagrams_title">Математика и дијаграми</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_summary">Одговори приказују форматиране математичке изразе и Mermaid дијаграме.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_1">Додирни дијаграм да га увећаш или га задржи да видиш извор.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_2">Математички изрази прате величину текста.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_example">Затражи дијаграм тока слања поруке</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_prompt">Нацртај дијаграм тока слања поруке</string>
+
+    <!-- 2026-10-09-04-always-notify -->
+    <string name="settings_whatsnew_entry_always_notify_title">Обавести кад заврши</string>
+    <string name="settings_whatsnew_entry_always_notify_summary">Добиј обавештење кад сесија коју овде покренеш заврши, уз кратак сажетак урађеног.</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_1">Укључи „Увек обавести“ у панелу сесије да добијаш обавештења о сваком одговору, чак и на поруке послате са рачунара.</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_2">Додирни обавештење да отвориш његову сесију.</string>
+    <string name="settings_whatsnew_entry_always_notify_example">Пошаљи поруку, па закључај телефон</string>
+
+    <!-- 2026-10-09-05-server-switcher -->
+    <string name="settings_whatsnew_entry_server_switcher_title">Промени сервер</string>
+    <string name="settings_whatsnew_entry_server_switcher_summary">Тренутни сервер је наслов бочног панела. Додирни га да пређеш на други сервер или додаш нови.</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_1">Подешавања приказују везу као пулс уживо, а време повратног одзива поред назива сервера.</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_2">Преименуј сервер; тај назив важи само на овом телефону.</string>
+    <string name="settings_whatsnew_entry_server_switcher_example">Отвори бочни панел, додирни назив сервера и додај други рачунар</string>
+
+    <!-- 2026-10-10-01-share-opened-files -->
+    <string name="settings_whatsnew_entry_share_opened_files_title">Слике као фотографије</string>
+    <string name="settings_whatsnew_entry_share_opened_files_summary">Слике се приказују целе у сесији и отварају као фотографије: зумирај прстима, превлачи између њих и повуци надоле за затварање.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_1">Свака датотека коју агент помене отвара се у апликацији.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_2">Опција „Подели“ чува све што отвориш у фотографије или датотеке, укључујући видео и аудио.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_example">Затражи од агента да прочита неколико снимака екрана, па додирни један и повуци га надоле</string>
+
+    <!-- 2026-10-10-02-call-voice -->
+    <string name="settings_whatsnew_entry_call_voice_title">Гласовни позиви</string>
+    <string name="settings_whatsnew_entry_call_voice_summary">Додирни таласни облик у празном пољу за поруку и говори. Глас ради у твојим сесијама док разговарате и јавља ти кад посао буде готов.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_1">Затражи било коју сесију по називу: Глас је отвара и у њој покреће или усмерава рад.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_2">Проговори док Глас говори да га прекинеш или питај како напредује посао.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_3">Додирни траку позива за титлове уживо.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_4">Утишај или заврши позив из обавештења, чак и на закључаном екрану.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_5">Додирни и задржи „Стоп“ да позовеш док агент ради.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_6">Изабери глас у Подешавања → Глас.</string>
+    <string name="settings_whatsnew_entry_call_voice_example">Започни позив и реци „отвори моју сесију за исправке отпремања и провери тестове“</string>
+
+    <!-- 2026-10-10-03-drawer-one-edge -->
+    <string name="settings_whatsnew_entry_drawer_one_edge_title">Уреднији бочни панел</string>
+    <string name="settings_whatsnew_entry_drawer_one_edge_summary">Редови почињу уз исту ивицу, тачке статуса су на крају сваког реда, а дугме за претрагу је на врху.</string>
+
+    <!-- 2026-10-11-01-paste-as-a-card -->
+    <string name="settings_whatsnew_entry_paste_as_a_card_title">Дуг налепљени текст у картицама</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_summary">Дуг налепљени текст постаје картица „Налепљени текст“ поред слика, а агент га и даље чита у целости.</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_1">Додирни картицу да прочиташ цео текст, уз опције „Копирај“ и „Подели“.</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_2">Дуге поруке се скупљају на неколико редова уз опцију „Прикажи више“.</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_example">Копирај дугачку евиденцију, налепи је у поље за поруку и додирни картицу</string>
+
+    <!-- 2026-10-11-02-ride-out-drops -->
+    <string name="settings_whatsnew_entry_ride_out_drops_title">Ради и уз слаб сигнал</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_summary">Неколико секунди без сигнала више не прекида рад. Слање, сесије и позиви чекају везу и настављају даље.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_1">Дугме „Пошаљи“ је увек спремно, а поруке одлазе редом којим их шаљеш.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_2">Порука која није послата остаје на месту уз „Покушај поново“, а поновни покушај је никад не шаље двапут.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_3">Кад је сервер ван мреже, његов назив у бочном панелу избледи. Додирни га за „Покушај поново“.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_example">Отвори сесију док воз улази у тунел</string>
+
+    <!-- 2026-10-11-03-new-session-recent-projects -->
+    <string name="settings_whatsnew_entry_new_session_recent_projects_title">Почни у било ком пројекту</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_summary">„Нова сесија“ приказује недавне пројекте изнад поља за поруку, а „Сви пројекти“ омогућава отварање било које фасцикле на рачунару.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_1">Изабрани пројекат остаје изнад поља за поруку док куцаш.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_2">Позив започет из нове сесије ради у изабраном пројекту.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_example">Додирни „Нова сесија“, затим „Сви пројекти“, па „Изаберите фасциклу…“</string>
+
+    <!-- 2026-10-11-04-stop-runs-your-steer -->
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_title">Усмери агента док ради</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_summary">Пошаљи поруку док агент ради и прочитаће је у следећем кораку, пошто дуготрајне команде пребаци у позадину.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_1">Додирни и задржи „Пошаљи“ да за једну поруку изабереш „Усмери“ или „Стави у ред чекања“.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_2">Задржи поруку која чека да је преместиш у ред чекања или избришеш.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_3">„Стоп“ одмах постаје „Заустављање…“, а затим се обрађује послата порука за усмеравање.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_example">Док се извршава дуготрајна команда, пошаљи поруку и гледај како команда прелази у позадину</string>
+
+    <!-- 2026-10-12-01-browser-push-in -->
+    <string name="settings_whatsnew_entry_browser_push_in_title">Веб странице у апликацији</string>
+    <string name="settings_whatsnew_entry_browser_push_in_summary">Кад је укључен експериментални прегледник у апликацији, веза отвара страницу преко сесије. Превуци од ивице за повратак.</string>
+
+    <!-- 2026-10-12-02-answer-from-the-bar -->
+    <string name="settings_whatsnew_entry_answer_from_the_bar_title">Одговори из поља за поруку</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_summary">Питања и захтеви за дозволу отварају се из поља за поруку, а одговараш ту: додирни понуђени одговор или укуцај или издиктирај свој.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_1">Захтеви за дозволу приказују команду или измену пре него што је одобриш.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_2">„Дени“ користи унети текст као упутство шта да се уради уместо тога, па агент наставља рад.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_3">Твој нацрт се враћа након одговора.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_example">Кад агент постави питање, задржи дугме микрофона и изговори одговор</string>
+
+    <!-- 2026-10-12-03-new-messages-divider -->
+    <string name="settings_whatsnew_entry_new_messages_divider_title">Настави где си стао</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_summary">Кад се вратиш у сесију, она се отвара на дну, са свим што је стигло у међувремену. Да се дуга преписка отвори код ознаке „Ново“, укључи „Разделник нових порука“ у Подешавања › Сесије.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_1">Сесије које ћеш вероватно отворити освежавају се чим отвориш бочни панел, па су спремне кад их додирнеш.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_2">При повратку у сесију, њен рад у позадини и показивач контекста остају видљиви током освежавања.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_example">Започни дуготрајан задатак, пређи у другу сесију и врати се кад стигне одговор</string>
+
+    <!-- 2026-10-12-04-model-list-and-level-meter -->
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_title">Нови избор модела</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_summary">Изабери модел и ниво размишљања у панелу „Модел“, са омиљеним моделима на врху. Да испробаш листу која се отвара из поља за поруку, укључи „Нови избор модела“ у Подешавања → Експериментално.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_1">Користи мени „Размишљање“ у панелу „Модел“ кад модел нуди више нивоа.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_2">Превуци модел да га додаш у омиљене.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_3">Ненаметљива линија у сесији означава где је промењен модел или ниво.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_example">Додирни модел у пољу за поруку и изабери ниво размишљања</string>
+
+    <!-- 2026-10-12-05-run-error-line -->
+    <string name="settings_whatsnew_entry_run_error_line_title">Кад извршавање не успе</string>
+    <string name="settings_whatsnew_entry_run_error_line_summary">Ако се извршавање прерано заустави, разлог је јасно објашњен, уз један начин да наставиш: „Уреди“, „Цомпацт“, „Промени модел“ или „Покушај поново“.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_1">„Уреди“ поништава поруку и враћа је у поље за поруку да је преформулишеш.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_2">Задржи ред са грешком да је видиш у целости и копираш.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_3">Кад агент сам покушава поново, „У току“ одбројава до следећег покушаја.</string>
+    <string name="settings_whatsnew_entry_run_error_line_example">Кад је одговор блокиран, додирни „Уреди“, преформулиши поруку и пошаљи је поново</string>
+
+    <!-- 2026-10-12-06-transcript-keyboard-space -->
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_title">Тастатура се затвара без празнине</string>
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_summary">Склањање тастатуре превлачењем више не оставља празнину испод последње поруке.</string>
+
+    <!-- 2026-10-12-07-share-sheet-sends -->
+    <string name="settings_whatsnew_entry_share_sheet_sends_title">Пошаљи из менија за дељење</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_summary">Подели било шта у OpenCode, изабери сесију, додај поруку и пошаљи без отварања апликације.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_1">Недавне сесије се појављују у горњем реду менија за дељење.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_2">JSON датотеке и извезени садржај прилажу се као датотеке са непромењеним називима.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_3">„Настави у OpenCode“ отвара сесију са подељеним садржајем у пољу за поруку.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_4">Ако слање не успе, „Пошаљи касније“ шаље поруку када следећи пут отвориш апликацију.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_example">Подели снимак екрана у OpenCode, упиши питање и додирни „Пошаљи“</string>
+
+    <!-- 2026-10-12-08-app-icon-badge -->
+    <string name="settings_whatsnew_entry_app_icon_badge_title">Значка на икони апликације</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_summary">Икона апликације показује број непрочитаних сесија и оних које чекају на тебе, као у прегледу новости.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_1">Утишане сесије се не броје.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_2">Обавештења морају бити укључена.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_example">Остави питање у сесији без одговора, па пређи на почетни екран</string>
+
+    <!-- 2026-10-12-09-drawer-keeps-keyboard -->
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_title">Тастатура клизи уз бочни панел</string>
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_summary">Када отвориш листу сесија док куцаш, фокус остаје на поруци, а тастатура клизи у страну заједно са сесијом.</string>
+
+    <!-- 2026-10-12-10-whats-new-page -->
+    <string name="settings_whatsnew_entry_whats_new_page_title">Једноставније „Шта је ново“</string>
+    <string name="settings_whatsnew_entry_whats_new_page_summary">„Шта је ново“ се отвара као страница, попут подешавања. Свака новина има своју страницу, а исправке су окупљене овде.</string>
+
+    <!-- 2026-10-12-11-catch-up-returns-to-drawer -->
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_title">Из прегледа новости у бочни панел</string>
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_summary">Када напустиш преглед новости, враћаш се на листу сесија какву си оставио.</string>
+
+    <!-- 2026-10-12-12-transcript-day-stamps -->
+    <string name="settings_whatsnew_entry_transcript_day_stamps_title">Дани у транскрипту</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_summary">У вишедневној сесији дан се приказује изнад прве поруке тог дана, нпр. „среда 08:24“, а време изнад поруке послате после сат времена паузе.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_1">За дане пише „Данас“, „јуче“ или назив дана унутар недеље, а иначе датум.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_2">Поруке за усмеравање и поруке у реду чекања немају временску ознаку док чекају.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_example">Отвори сесију започету раније ове недеље и помери приказ нагоре</string>
+
+    <!-- 2026-10-12-13-rich-link-previews -->
+    <string name="settings_whatsnew_entry_rich_link_previews_title">Прегледи веза</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_summary">Везе испод одговора приказују шта садрже, свака у свом реду: захтев за спајање или проблем са насловом и стањем, комит, видео, страницу.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_1">GitHub захтеви за спајање, проблеми, комити и спремишта приказују наслов, уз стање „Отворено“, „Спојено“ или „Затворено“ у боји.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_2">Објаве са мреже X приказују аутора и текст; YouTube везе приказују наслов, а остале странице назив прочитан из везе.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_3">Приказују се три везе; додирни „више“ поред „Копирај“ за остале, па поново да их сакријеш.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_4">Задржи прст на вези за већи преглед и опције „Копирај везу“ и „Подели“.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_example">Питај агента шта се променило у спремишту ове недеље</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_prompt">Шта се ове недеље променило у GitHub спремишту које користим? Укључи везе.</string>
+
+    <!-- 2026-10-13-01-rolling-numbers -->
+    <string name="settings_whatsnew_entry_rolling_numbers_title">Анимиране цифре</string>
+    <string name="settings_whatsnew_entry_rolling_numbers_summary">Бројачи у ознаци рада у позадини, панелу сесије, редовима „Коришћено N“ и прегледу новости мењају се анимирано, цифру по цифру.</string>
+
+    <!-- 2026-10-13-02-grouped-steering -->
+    <string name="settings_whatsnew_entry_grouped_steering_title">Груписане поруке</string>
+    <string name="settings_whatsnew_entry_grouped_steering_summary">Узастопно послате поруке стоје у једном блоку, а поруке за усмеравање које чекају агента деле ознаку „Усмеравање“.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_1">Облачићи узастопних порука стоје близу, са спојеним угловима на додиру.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_2">Фотографије и датотеке задржавају сопствени заобљени облик унутар блока.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_3">Како агент преузима сваку поруку, она се једним покретом помера нагоре на своје место.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_example">Док агент ради, брзо пошаљи три поруке, једну са фотографијом</string>
+
+    <!-- 2026-10-13-03-inline-tool-rows -->
+    <string name="settings_whatsnew_entry_inline_tool_rows_title">Ненаметљиви редови алата и питања</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_summary">Групе алата и одговорена питања отварају се у траци пуне ширине, попут кода, а узастопна читања се спајају у један ред.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_1">Скупљене групе приказују „Коришћено N алата“ и означавају неуспеле позиве алата црвеном бојом.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_2">Редови „Изврши“ наводе алате које је скрипта позвала, а редови „Вештина“ назив вештине.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_3">Одговорена питања приказују промпт и све понуђене опције, уз означен твој избор.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_example">Додирни ред „Коришћено N алата“ у сесији да отвориш његову траку</string>
+
+    <!-- 2026-10-13-04-mac-motion-playgrounds -->
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_title">Контроле пробног приказа на Mac рачунару</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_summary">Укључи режим за програмере и упари алат за подешавање са Mac рачунаром да успорено понављаш пробне анимације и прегледаш снимљене кадрове.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_1">Страница са контролама на Mac рачунару садржи избор пробног приказа, готова подешавања и контроле репродукције; телефон приказује само пробни приказ.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_2">Мале картице приказују контроле са екрана, уз именована подешавања покрета и размака и опцију „Изворно“ за повратак на почетни изглед и понашање; свако подешавање примењује све вредности одједном.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_3">Плутајући панел за подешавање се скрива када се Mac повеже; прикажи га покретом за подешавање и изабери „Изађи из пробног приказа“ за излаз.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_4">Унапред задати сценарији понављају исту пробну сесију да можеш да упоредиш анимације у различитим верзијама.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_5">Понављања крећу из почетка и испоручују поруке за усмеравање и поруке из реда чекања уместо да их оставе да чекају.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_6">Плејер за преглед на Mac рачунару омогућава преглед снимљене геометрије корак по корак, означавање кадра и слање повратних информација о анимацији.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_example">Отвори Подешавања → За програмере, упари са страницом за подешавање на Mac рачунару, па пробај Транскрипт → Постепени одговор на 0.25×</string>
+
+    <!-- 2026-10-13-05-catch-up-flicks -->
+    <string name="settings_whatsnew_entry_catch_up_flicks_title">Лакше превлачење у прегледу новости</string>
+    <string name="settings_whatsnew_entry_catch_up_flicks_summary">Брз замах или краће превлачење у прегледу новости сада помера картицу даље уместо да је врати назад.</string>
+
+    <!-- 2026-10-14-01-settings-grouped-by-purpose -->
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_title">Прегледнија подешавања</string>
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_summary">Експерименталне функције и алати за програмере су у Подешавања → Експериментално, обавештења у апликацији у одељку Обавештења, а историја позива у одељку Глас.</string>
+
+    <!-- 2026-10-14-02-send-ats-recovery -->
+    <string name="settings_whatsnew_entry_send_ats_recovery_title">Поуздано слање</string>
+    <string name="settings_whatsnew_entry_send_ats_recovery_summary">Слање порука се аутоматски понавља ако iOS накратко одбије везу са сервером која већ ради.</string>
+
+    <!-- 2026-10-14-03-keyboard-menus-and-header -->
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_title">Стабилнија тастатура и менији</string>
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_summary">Додирни + док куцаш да отвориш прилоге без спуштања тастатуре или померања контрола; замућење заглавља остаје на месту док се тастатура помера.</string>
+
+    <!-- 2026-10-14-04-open-links-in-apps -->
+    <string name="settings_whatsnew_entry_open_links_in_apps_title">Везе се отварају у својим апликацијама</string>
+    <string name="settings_whatsnew_entry_open_links_in_apps_summary">Веза се отвара у одговарајућој апликацији, попут GitHub или YouTube; ако је укључен експеримент „Прегледник у апликацији“, задржи прст на вези и изабери „Отвори у прегледнику апликације“.</string>
+
+    <!-- 2026-10-14-05-session-list-quiet-hierarchy -->
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_title">Прегледнија листа сесија</string>
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_summary">Наслови „Закачене“ и „Недавне“ су ситнији и сиви, непрочитане сесије и оне које чекају истакнуте су полуподебљаним словима, а прочитане су благо пригушене.</string>
+
+    <!-- 2026-10-14-06-queued-messages-fitted-sheet -->
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_title">Уредније поруке у реду чекања</string>
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_summary">Панел порука у реду чекања висок је само колико и сам ред, са нумерисаним ставкама и ненаметљивим дугмадима за слање одмах или отказивање.</string>
+
+    <!-- 2026-10-14-07-control-center-sessions -->
+    <string name="settings_whatsnew_entry_control_center_sessions_title">Плочице за сесију</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_summary">Додај плочицу у брза подешавања да једним додиром отвориш сесију или покренеш позив у њој.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_1">Нова плочица „Отвори сесију“ отвара сесију коју изабереш.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_2">Плочица „Покрени позив“ покреће позив у изабраној или новој сесији. Ако не промениш избор, користи сесију коју си последњу гледао.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_3">Изабери неку од закачених и недавних сесија; плочица приказује њен тренутни наслов.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_4">Плочице само отварају апликацију: ништа се не шаље док не проговориш или унесеш текст.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_example">Отвори брза подешавања, додирни „Уреди“ и превуци OpenCode плочицу „Отвори сесију“ на жељено место</string>
+
+    <!-- 2026-10-15-01-settings-keyboard-down -->
+    <string name="settings_whatsnew_entry_settings_keyboard_down_title">Тастатура не прекрива подешавања</string>
+    <string name="settings_whatsnew_entry_settings_keyboard_down_summary">Када током куцања отвориш подешавања из бочног панела, тастатура се склања уместо да их прекрива.</string>
+
+    <!-- 2026-10-15-02-session-list-sidebar-grey -->
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_title">Пространија листа сесија</string>
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_summary">Листа сесија има већи наслов и већа сива заглавља „Закачене“ и „Недавне“, са више простора изнад њих; отвори бочни панел да видиш.</string>
+
+    <!-- 2026-10-15-03-voice-varied-acknowledgements -->
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_title">Мање „Проверавам“ у позивима</string>
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_summary">У позиву глас реагује на оно што кажеш уместо да на сваки захтев одговара са „Проверавам“, а захтев се више не шаље двапут ако наставиш да говориш.</string>
+
+    <!-- 2026-10-15-04-smoother-streaming -->
+    <string name="settings_whatsnew_entry_smoother_streaming_title">Глаткији приказ одговора</string>
+    <string name="settings_whatsnew_entry_smoother_streaming_summary">Најновији ред одговора појављује се постепено, без затамњивања и треперења. Редови се више не шире преко текста па скупљају, а ставке листе и наслови одмах добијају прави облик, без почетне цртице или знака тарабе.</string>
+
+    <!-- 2026-10-15-05-model-list-sheet -->
+    <string name="settings_whatsnew_entry_model_list_sheet_title">Листа модела у панелу</string>
+    <string name="settings_whatsnew_entry_model_list_sheet_summary">Када је укључен експеримент „Нови бирач модела“, поље за поруку прелази у панел модела на месту тастатуре. Тастатура се скрива, а панел се глатко склапа без обзира на брзину отварања и затварања.</string>
+
+    <!-- 2026-10-15-06-queued-pill-whole-title -->
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_title">Пун приказ броја у реду</string>
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_summary">Ознака изнад уноса поруке приказује цело „2 у реду чекања“, без скраћивања на „2 у ред…“. И анимирани бројачи на другим местима чувају све знакове.</string>
+
+    <!-- 2026-10-16-01-plus-menu-photo-sheet -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_title">Фотографије уместо тастатуре</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_summary">Када је укључен експеримент „Нови мени +“, опција „Фотографије“ шири мени + у панел фотографија на месту тастатуре. Задржи + да видиш најновије фотографије, превуци до жељене и пусти да је додаш.</string>
+
+    <!-- 2026-10-16-02-composer-large-text-targets -->
+    <string name="settings_whatsnew_entry_composer_large_text_targets_title">Лакши додири при уносу</string>
+    <string name="settings_whatsnew_entry_composer_large_text_targets_summary">Дугмад у пољу за унос поруке лакше се додирују када је текст увећан.</string>
+
+    <!-- 2026-10-16-03-project-pick-haptic -->
+    <string name="settings_whatsnew_entry_project_pick_haptic_title">Вибрација за нови пројекат</string>
+    <string name="settings_whatsnew_entry_project_pick_haptic_summary">Избор другог пројекта за нову сесију, изнад поља за поруку или у „Сви пројекти“, прати блага вибрација.</string>
+
+    <!-- 2026-10-16-04-fork-opens-copy -->
+    <string name="settings_whatsnew_entry_fork_opens_copy_title">Нова грана отвара копију</string>
+    <string name="settings_whatsnew_entry_fork_opens_copy_summary">Опција „Нова грана“ у детаљима сесије поново отвара направљену копију.</string>
+
+    <!-- 2026-10-16-05-transcript-row-targets -->
+    <string name="settings_whatsnew_entry_transcript_row_targets_title">Лакши додири</string>
+    <string name="settings_whatsnew_entry_transcript_row_targets_summary">Наслов панела „Сесија“ лакше се додирује, а VoiceOver и Voice Control више не приступају дугмадима за унос која су скривена током диктирања.</string>
+
+    <!-- 2026-10-16-06-image-previews -->
+    <string name="settings_whatsnew_entry_image_previews_title">Прегледи слика</string>
+    <string name="settings_whatsnew_entry_image_previews_summary">Слике које агент помене приказују се као прегледи у мрежи плочица, а датотеке које недостају јасно су означене.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_1">Прегледи се налазе испод пасуса који их помиње.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_2">Додирни слику да је отвориш преко целог екрана и превлачи да прегледаш слике из одговора.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_3">Слике ван фасцикле сесије учитавају се тек када их додирнеш.</string>
+    <string name="settings_whatsnew_entry_image_previews_example">Затражи од агента да прикаже снимке екрана из твог пројекта.</string>
+    <string name="settings_whatsnew_entry_image_previews_prompt">Прикажи ми снимке екрана у овом пројекту.</string>
+
+    <!-- 2026-10-16-07-connection-error-details -->
+    <string name="settings_whatsnew_entry_connection_error_details_title">Грешке везе откривају узрок</string>
+    <string name="settings_whatsnew_entry_connection_error_details_summary">Грешке везе приказују код грешке, испробану адресу и DNS резултат, уз помоћ када назив у tailnet мрежи упућује на адресу ван Tailscale мреже.</string>
+
+    <!-- 2026-10-16-08-outage-reconnect-delay -->
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_title">Брже поновно повезивање</string>
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_summary">Сесије се брже ажурирају када сервер поново постане доступан после прекида.</string>
+
+    <!-- 2026-10-17-01-every-running-subagent -->
+    <string name="settings_whatsnew_entry_every_running_subagent_title">Сви активни субагенти</string>
+    <string name="settings_whatsnew_entry_every_running_subagent_summary">Број субагената изнад уноса поруке обухвата и оне унутар других субагената, као и оне у сесијама са више од 100 субагената, као у TUI приказу.</string>
+
+    <!-- 2026-10-17-02-session-view-refined-standard -->
+    <string name="settings_whatsnew_entry_session_view_refined_standard_title">Јаснија типографија одговора</string>
+    <string name="settings_whatsnew_entry_session_view_refined_standard_summary">Наслови трећег нивоа истакнутији су од подебљаног текста, обичан текст је благо пригушен да би се подебљани истицао, а пасуси и блокови кода имају мало више размака.</string>
+
+    <!-- 2026-10-17-03-bottom-follow-on-load -->
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_title">Остани на дну</string>
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_summary">Приказ сесије остаје на дну док се учитава закаснели садржај.</string>
+
+    <!-- 2026-10-17-04-drafts-stay-put -->
+    <string name="settings_whatsnew_entry_drafts_stay_put_title">Нацрти остају сачувани</string>
+    <string name="settings_whatsnew_entry_drafts_stay_put_summary">Нацрти, приложене фотографије и локације и поруке које чекају слање остају сачувани ако се апликација затвори у позадини.</string>
+
+    <!-- 2026-10-18-01-themes -->
+    <string name="settings_whatsnew_entry_themes_title">Теме</string>
+    <string name="settings_whatsnew_entry_themes_summary">Изабери тему за сесије, попут Tokyo Night, Catppuccin, Dracula, Rosé Pine или GitHub, уз преглед уживо док бираш.</string>
+    <string name="settings_whatsnew_entry_themes_detail_1">Теме одређују боје транскрипта, твојих порука, кода, синтаксе, разлика и веза.</string>
+    <string name="settings_whatsnew_entry_themes_detail_2">Опција „Режим“ у подешавањима изгледа нуди светли, тамни или системски режим.</string>
+    <string name="settings_whatsnew_entry_themes_detail_3">Контроле задржавају изворни Liquid Glass изглед у свакој теми.</string>
+    <string name="settings_whatsnew_entry_themes_example">Отвори Подешавања → Изглед → Тема и испробај Tokyo Night.</string>
+
+    <!-- 2026-10-18-02-return-key-sends -->
+    <string name="settings_whatsnew_entry_return_key_sends_title">Подешавање тастера Return</string>
+    <string name="settings_whatsnew_entry_return_key_sends_summary">Искључи „Слање тастером Return“ у подешавањима ако желиш да Return додаје нови ред или користи Command-Return и Shift-Return на физичкој тастатури.</string>
+
+    <!-- 2026-10-18-03-quote-replies -->
+    <string name="settings_whatsnew_entry_quote_replies_title">Цитирање одговора</string>
+    <string name="settings_whatsnew_entry_quote_replies_summary">Изаберите текст у одговору асистента и додирните „Цитирај“ да га додате у своју поруку као картицу цитата.</string>
+
+    <!-- 2026-10-18-04-launch-bloom -->
+    <string name="settings_whatsnew_entry_launch_bloom_title">Анимација при покретању</string>
+    <string name="settings_whatsnew_entry_launch_bloom_summary">При новом покретању апликације, OpenCode знак се скупља, а затим шири и открива твоју сесију.</string>
+
+    <!-- 2026-10-18-05-drag-to-pin -->
+    <string name="settings_whatsnew_entry_drag_to_pin_title">Превуци сесију да је закачиш</string>
+    <string name="settings_whatsnew_entry_drag_to_pin_summary">Задржи и превуци сесију нагоре у „Закачене“ да је закачиш на то место или превуци закачену сесију надоле у „Недавне“ да је откачиш.</string>
+
+    <!-- 2026-10-19-01-call-tray-colour-blend -->
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_title">Глатки прелази дугмета за позив</string>
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_summary">Кад је укључен експеримент „Трака позива“, дугме за позив глатко прелази у црвено дугме „Заврши“ на почетку позива и враћа се по завршетку, без бљеска боје позадине.</string>
+
+    <!-- 2026-10-19-02-optical-insets -->
+    <string name="settings_whatsnew_entry_optical_insets_title">Равномерно постављене контроле</string>
+    <string name="settings_whatsnew_entry_optical_insets_summary">Знак + и микрофон у пољу за унос, иконе ознака рада у позадини и реда чекања, као и симбол „Нова сесија“ у бочном панелу сада изгледају центрирано у заобљеним крајевима стакластих контрола. Икона shell-а је сада круг попут кугле субагента, без трепћућег курсора, а обе се приказују једна поред друге када су активне.</string>
+
+    <!-- 2026-10-19-03-smart-dictation-audio -->
+    <string name="settings_whatsnew_entry_smart_dictation_audio_title">Диктирање уз музику без прекида</string>
+    <string name="settings_whatsnew_entry_smart_dictation_audio_summary">Када диктираш уз музику, она на AirPods слушалицама остаје у стерео режиму, без прекида после једног минута. На самом телефону остаје на звучнику уместо да пређе на слушалицу.</string>
+
+    <!-- 2026-10-19-04-interrupted-hand -->
+    <string name="settings_whatsnew_entry_interrupted_hand_title">Подигнута рука за прекид</string>
+    <string name="settings_whatsnew_entry_interrupted_hand_summary">Прекинут рад агента и прекинут shell сада приказују подигнуту руку, а shell који зауставиш има ознаку „Прекинут“ уместо „Заустављен“.</string>
+
+    <!-- 2026-10-19-05-autocomplete-fast-scroll -->
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_title">Брже аутоматско довршавање</string>
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_summary">Када је укључен експеримент „Аутоматско довршавање уноса“, предлози прате куцање, а превлачење помера листу без бирања ставке.</string>
+
+    <!-- 2026-10-19-06-experimental-groups -->
+    <string name="settings_whatsnew_entry_experimental_groups_title">Груписани експерименти</string>
+    <string name="settings_whatsnew_entry_experimental_groups_summary">Експерименти у Подешавања → Експериментално сада су груписани, а позиви имају једно подешавање „Стил позива“.</string>
+
+    <!-- 2026-10-19-07-model-picker-standard-sheet -->
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_title">Стандардни панел за избор модела</string>
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_summary">Када је укључен експеримент „Нови избор модела“, додир модела у пољу за поруку отвара стандардни панел у ком сваки модел има свој мени за ниво размишљања. Претходни бирач је сада „Прилагођени избор модела“ у Подешавања › Експериментално.</string>
+
+    <!-- 2026-10-19-08-problem-reports-reach-session -->
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_title">Пријаве стижу у сесију</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_summary">Опција „Пријави проблем“ сада шаље твоју белешку и у сесију из које пријављујеш проблем, уз цео извештај у прилогу који агент може да прочита.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_1">Порука почиње назнаком пријаве проблема, твојом белешком, ID-јем пријаве и везом до отпремљеног записа извршавања.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_2">Подаци о уређају, верзији апликације и екрану, временска линија и евиденција апликације стижу као приложена датотека, баш као да је самостално приложиш.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_3">Са почетног екрана шаље се у твоју најновију сесију.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_4">Ако отпремање не успе, белешка и сажетак ипак стижу, уз обавештење о неуспеху. „Покушај поново“ затим шаље само везу до записа извршавања.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_5">Када порука стигне, приказује се потврда „Послато у сесију“.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_example">Отвори мени сесије, изабери „Пријави проблем“, додај белешку и додирни „Пошаљи“</string>
+
+    <!-- 2026-10-19-09-team-scrawl-feedback -->
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_title">Тимске повратне информације преко Scrawl-а</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_summary">Приступи тимским повратним информацијама преко личне везе да шаљеш Scrawl снимке покренуте са три прста и дијагностику без осетљивих података у заједнички ред чекања на табли „Проблеми“.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_1">Отвори своју везу opencode://team/join да прегледаш који се подаци прикупљају и прихватиш.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_2">Интерактивно упутство у три корака води те кроз задржавање три прста, говор и цртање, па слање пробног снимка у колону за тестирање.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_3">Сваки снимак прилаже исту временску линију, евиденцију апликације и Motion Watch дијагностику без осетљивих података као опција „Пријави проблем“.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_4">Понови упутство или напусти тимске повратне информације у било ком тренутку у Подешавања › За програмере.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_example">Отвори Подешавања › За програмере да провериш статус тимских повратних информација или поновиш упутство.</string>
+
+    <!-- 2026-10-19-10-scrawl-faster-start -->
+    <string name="settings_whatsnew_entry_scrawl_faster_start_title">Брже покретање Scrawl-а</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_summary">Scrawl контроле се појављују док се микрофон и снимач покрећу.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_1">Додири на „Цртај“, „Пошаљи“ и „Одбаци“ памте се док се снимање припрема.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_2">Задржавање три прста припрема преклопни приказ без прераног укључивања микрофона.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_3">Отклоњен је пад апликације при поновном покретању Scrawl микрофона током промене аудио уређаја.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_example">На упареном уређају задржи три прста да започнеш снимање</string>
+
+    <!-- 2026-10-20-01-call-tray-docks-in-drawer -->
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_title">Трака позива у бочном панелу</string>
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_summary">Када је укључен експеримент „Трака позива“, отварање бочног панела током позива премешта траку испод ставке „Нова сесија“, са нивоом звука и дугмадима „Утишај“ и „Заврши“. Затварање је враћа назад.</string>
+
+    <!-- 2026-10-20-02-markdown-streams-smoothly -->
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_title">Глаткији приказ одговора у току</string>
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_summary">Дуги одговори се приказују без успоравања док пристижу, а недовршен подебљани текст, код и везе приказују се форматирано уместо као сирови Markdown.</string>
+
+    <!-- 2026-10-20-04-return-newline-default -->
+    <string name="settings_whatsnew_entry_return_newline_default_title">Return додаје нови ред</string>
+    <string name="settings_whatsnew_entry_return_newline_default_summary">Return сада подразумевано додаје нови ред. Укључи „Тастер Return шаље“ у Подешавања › Сесије да шаљеш тастером Return или користи Ctrl+Enter на физичкој тастатури.</string>
+
+    <!-- 2026-10-20-05-drawer-session-alignment -->
+    <string name="settings_whatsnew_entry_drawer_session_alignment_title">Поравнате контроле бочног панела</string>
+    <string name="settings_whatsnew_entry_drawer_session_alignment_summary">„Претражи“, „Нова сесија“ и „Подешавања“ поравнати су са заглављем сесије и пољем за поруку на телефонима и таблетима.</string>
+
+    <!-- 2026-10-20-06-call-tray-switch-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_title">Стабилније контроле позива</string>
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_summary">Таласни приказ звука позива наставља да се креће када промениш сесију, а контроле остају на истој висини док отвараш листу сесија.</string>
+
+    <!-- 2026-10-20-07-voice-delegation-visible-on-admission -->
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_title">Гласовне поруке се одмах приказују</string>
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_summary">Поруке које „Глас“ шаље у сесију појављују се чим их сервер прихвати, чак и када ажурирања сесије касне.</string>
+
+    <!-- 2026-10-20-08-inline-image-links -->
+    <string name="settings_whatsnew_entry_inline_image_links_title">Прегледи слика са веза</string>
+    <string name="settings_whatsnew_entry_inline_image_links_summary">Укључи „Прегледи слика са веза“ у Подешавања › Експериментално › Транскрипт да видиш слике са веза у одговорима. Додирни сличицу да је отвориш преко целог екрана и увећаш.</string>
+
+    <!-- 2026-10-20-09-smooth-link-preview-arrival -->
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_title">Глаткији прегледи веза</string>
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_summary">Прегледи веза се постепено појављују док се учитавају, а редови испод њих се глатко померају када се промени висина наслова.</string>
+
+    <!-- 2026-10-20-10-subagent-capsule-press -->
+    <string name="settings_whatsnew_entry_subagent_capsule_press_title">Заобљена ознака активности</string>
+    <string name="settings_whatsnew_entry_subagent_capsule_press_summary">Ознака субагента и shell-а задржава заобљене крајеве док је притискаш.</string>
+
+    <!-- 2026-10-20-11-advanced-settings-open -->
+    <string name="settings_whatsnew_entry_advanced_settings_open_title">Једноставнија напредна подешавања</string>
+    <string name="settings_whatsnew_entry_advanced_settings_open_summary">Све експерименталне опције у Подешавања › Експериментално су у отвореним групама, бирачи модела су обједињени у опцију Бирач модела, а избор мењаш додиром било где у реду.</string>
+
+    <!-- 2026-10-20-12-revert-to-here -->
+    <string name="settings_whatsnew_entry_revert_to_here_title">Врати поруку</string>
+    <string name="settings_whatsnew_entry_revert_to_here_summary">Задржи прст на некој својој поруци и изабери „Врати поруку“ да се вратиш на тај тренутак и уредиш је.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_1">Текст, фотографије и датотеке из поруке враћају се у поље за поруку.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_2">Опција „Поништи“ враћа размене порука и њихове измене датотека све док не пошаљеш нову поруку.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_3">Опција је доступна док агент не ради.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_example">Задржи прст на раније послатој поруци и изабери „Врати поруку“.</string>
+
+    <!-- 2026-10-20-13-drag-from-transcript -->
+    <string name="settings_whatsnew_entry_drag_from_transcript_title">Превлачење из сесије</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_summary">Задржи прст и превуци код, слике, датотеке, везе и поруке из сесије у друге апликације.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_1">Блокови кода преносе се као текст са ознаком језика.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_2">Слике и датотеке које је агент направио преносе се као датотеке.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_3">Превуци их у поље за поруку да их приложиш или налепиш.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_4">Померање садржаја, бирање текста и менији раде као и пре.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_example">Изабери ред кода у одговору, затим задржи прст на избору и превуци блок у Notes.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_prompt">Напиши кратку Swift функцију која обрће ниску, у блоку кода.</string>
+
+    <!-- 2026-10-20-14-tuning-glass-tap-targets -->
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_title">Лакше подешавање</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_summary">Скупљено дугме за подешавање и бочни језичак имају веће области за додир.</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_detail_1">Њихове стакласте површине остају исте величине.</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_example">Скупи панел за подешавање, па додирни близу ивице његовог дугмета или језичка</string>
+
+    <!-- 2026-10-20-15-new-session-project-continuity -->
+    <string name="settings_whatsnew_entry_new_session_project_continuity_title">Стабилнији избор пројекта</string>
+    <string name="settings_whatsnew_entry_new_session_project_continuity_summary">Недавне фасцикле остају на свом месту док бираш пројекат, назив у заглављу се мења постепено, а панел Пројекат јасније приказује путање фасцикли.</string>
+
+    <!-- 2026-10-20-16-simple-session-loading -->
+    <string name="settings_whatsnew_entry_simple_session_loading_title">Ненаметљивије учитавање сесије</string>
+    <string name="settings_whatsnew_entry_simple_session_loading_summary">Мали, непомични логотип постепено се појављује само ако учитавање сесије потраје, а затим уступа место порукама.</string>
+
+    <!-- 2026-10-20-17-voice-route-consistency -->
+    <string name="settings_whatsnew_entry_voice_route_consistency_title">Исправке гласовне везе</string>
+    <string name="settings_whatsnew_entry_voice_route_consistency_summary">Grok и даље користи твој xAI кључ када сервер води позиве, а Gemini се исправно представља.</string>
+
+    <!-- 2026-10-20-18-call-tray-edge-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_title">Анимација панела позива</string>
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_summary">Звучни талас панела позива прати његову заобљену ивицу док се отвара и прелази у бочни панел или излази из њега.</string>
+
+    <!-- 2026-10-21-01-call-tray-keyboard-return -->
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_title">Повратак панела позива</string>
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_summary">Панел позива остаје видљив док се бочни панел затвара и тастатура враћа.</string>
+
+    <!-- 2026-10-21-02-drawer-title-fade -->
+    <string name="settings_whatsnew_entry_drawer_title_fade_title">Потпунији наслови сесија</string>
+    <string name="settings_whatsnew_entry_drawer_title_fade_summary">Дуги наслови сесија у бочном панелу протежу се до ивице и постепено бледе, уместо да се раније прекину тротачком.</string>
+
+    <!-- 2026-10-21-03-call-sounds-from-the-tap -->
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_title">Бржи звуци позива</string>
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_summary">Звуци повезивања позива почињу с првим прелазом анимације, уместо неколико секунди после додира.</string>
+
+    <!-- 2026-10-21-04-calm-wireframe-launch -->
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_title">Мирније учитавање</string>
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_summary">Кеширане сесије отварају се одмах; ако учитавање потраје, приказују се пулсирајући облачићи који постепено уступају место порукама.</string>
+
+    <!-- 2026-10-21-05-request-dictation-last-line -->
+    <string name="settings_whatsnew_entry_request_dictation_last_line_title">Видљив крај диктата</string>
+    <string name="settings_whatsnew_entry_request_dictation_last_line_summary">На iOS 26, када завршиш дуго диктирање у пољу за одговор на захтев на чекању, приказују се последњи редови уместо средине текста.</string>
+
+    <!-- 2026-10-21-06-first-run-pairing-fixes -->
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_title">Јасније прво упаривање</string>
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_summary">Ако је остава празна, покушај лепљења то приказује поред опције „Налепи“, а подешавање више не обећава удаљени приступ за пола минута.</string>
+
+    <!-- 2026-10-21-07-welcome-pairing-copy -->
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_title">Упаривање из апликације OpenCode</string>
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_summary">Екран добродошлице упућује на Подешавања → Упаривање у апликацији OpenCode на рачунару или на /pair у терминалу, уз команду за инсталацију ако још немаш OpenCode.</string>
+
+    <!-- 2026-10-21-08-session-id-links -->
+    <string name="settings_whatsnew_entry_session_id_links_title">Везе ка сесијама</string>
+    <string name="settings_whatsnew_entry_session_id_links_summary">ID сесије у одговору приказује се као њен наслов. Додирни га да отвориш сесију.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_1">ID субагента отвара његову сесију преко тренутне, а „Назад“ те враћа.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_2">Задржи прст на вези да копираш ID.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_3">ID који овај сервер не препознаје приказује се скраћено.</string>
+    <string name="settings_whatsnew_entry_session_id_links_example">Замоли агента да наведе другу сесију по њеном ID-у, па додирни наслов.</string>
+    <string name="settings_whatsnew_entry_session_id_links_prompt">Наведи мојих пет најновијих OpenCode сесија и њихове идентификаторе.</string>
+
+    <!-- 2026-10-21-10-ipad-multiple-windows -->
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_title">Више прозора на таблетима</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_summary">На таблету отвори сесије у засебним прозорима и држи две једну поред друге.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_1">Задржи прст на сесији у бочном панелу и изабери „Отвори у новом прозору“.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_2">Сваки прозор има своју сесију, бочни панел и поље за поруку.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_3">Закачене и прочитане сесије и твоји сервери исти су у свим прозорима.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_4">Прозори се поново отварају на сесији коју су приказивали.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_example">Задржи прст на сесији у бочном панелу, изабери „Отвори у новом прозору“ и постави га поред првог.</string>
+
+    <!-- 2026-10-21-11-plain-launch -->
+    <string name="settings_whatsnew_entry_plain_launch_title">Једноставно покретање</string>
+    <string name="settings_whatsnew_entry_plain_launch_summary">OpenCode се отвара на једноставном екрану и прелази право на сесију чим буде спремна, без анимације учитавања.</string>
+
+    <!-- 2026-10-21-12-breath-ping-call-sounds -->
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_title">Блажи звуци позива</string>
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_summary">Повезивање, сигнали и прекид позива прате благи, прозрачни тонови који остају тихо у позадини разговора.</string>
+
+    <!-- 2026-10-21-13-smoother-session-list -->
+    <string name="settings_whatsnew_entry_smoother_session_list_title">Течнија листа сесија</string>
+    <string name="settings_whatsnew_entry_smoother_session_list_summary">Листа сесија у бочном панелу глатко се помера док сесије раде, а дуги притисак на сесију отвара њен мени без промене величине реда.</string>
+
+    <!-- 2026-10-22-01-whats-new-actions -->
+    <string name="settings_whatsnew_entry_whats_new_actions_title">Отвори и испробај из „Шта је ново“</string>
+    <string name="settings_whatsnew_entry_whats_new_actions_summary">Страница новости у одељку „Шта је ново“ има дугме које отвара одговарајуће подешавање, попут тема, или покреће нову сесију с унетим промптом за испробавање.</string>
+
+    <!-- 2026-10-22-02-project-icons-current-discovery -->
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_title">Исправке икона пројеката</string>
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_summary">Када су иконе пројеката укључене, бочни панел приказује и иконе које сервер пронађе у Icon Composer пакетима.</string>
+
+    <!-- 2026-10-22-03-new-divider-off-page -->
+    <string name="settings_whatsnew_entry_new_divider_off_page_title">„Ново“ само кад затреба</string>
+    <string name="settings_whatsnew_entry_new_divider_off_page_summary">Када је укључен експеримент „Разделник нових порука“, ознака „Ново“ обележава пристигло само ако не стаје све на екран.</string>
+
+    <!-- 2026-10-22-04-catch-up-all-caught-up-row -->
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_title">Све је прочитано</string>
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_summary">Читање последње сесије у прегледу новости враћа те право у бочни панел, где се преглед новости означава као „Све је прочитано“.</string>
+
+    <!-- 2026-10-23-01-session-mentions -->
+    <string name="settings_whatsnew_entry_session_mentions_title">Помињање сесија</string>
+    <string name="settings_whatsnew_entry_session_mentions_summary">Када је укључен експеримент „Аутоматско допуњавање уноса поруке“, унеси @ да поменеш другу сесију по наслову, као у десктоп апликацији.</string>
+
+    <!-- 2026-10-23-02-gpt-live-own-key -->
+    <string name="settings_whatsnew_entry_gpt_live_own_key_title">GPT-Live кључеви</string>
+    <string name="settings_whatsnew_entry_gpt_live_own_key_summary">GPT-Live позиви могу да користе твој OpenAI кључ, OpenAI кључ сервера или његову везу са OpenCode Console.</string>
+
+    <!-- 2026-10-23-03-pair-opens-drawer -->
+    <string name="settings_whatsnew_entry_pair_opens_drawer_title">Настави где си стао</string>
+    <string name="settings_whatsnew_entry_pair_opens_drawer_summary">После упаривања новог рачунара, бочни панел приказује његове недавне сесије да изабереш једну, уместо да останеш у празној сесији.</string>
+
+    <!-- 2026-10-23-04-voice-server-picker -->
+    <string name="settings_whatsnew_entry_voice_server_picker_title">Изабери сервер за гласовне позиве</string>
+    <string name="settings_whatsnew_entry_voice_server_picker_summary">У Подешавања › Глас › Добављач гласа изабери сачувани сервер преко ког иду позиви или свој OpenAI налог на овом телефону.</string>
+
+    <!-- 2026-10-24-01-living-orb-floats -->
+    <string name="settings_whatsnew_entry_living_orb_floats_title">Жива кугла лебди свуда</string>
+    <string name="settings_whatsnew_entry_living_orb_floats_summary">Жива кугла је сада лебдећи стил позива у Подешавања › Експериментално › Позиви. Већа је, остаје изнад подешавања и сваког екрана и помера се уз оба гласа, сваки у својој боји када говорите истовремено. Додирни је да је прошириш у картицу, превуци нагоре за цео позив и транскрипт, а надоле да је поново смањиш. Опција „Кугла“, испод стила позива, мења њен изглед.</string>
+
+    <!-- 2026-10-24-02-new-messages-divider-on -->
+    <string name="settings_whatsnew_entry_new_messages_divider_on_title">Разделник нових порука</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_summary">Када је одговор пристигао у твом одсуству дужи од екрана, сесија се отвара на разделнику „Ново“ на почетку одговора.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_1">Одговор који стаје на екран отвара се на крају, без разделника.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_2">Одговори који пристижу док их гледаш никад се не означавају.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_3">Кад прочиташ до краја, разделник нестаје.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_4">Искључи у Подешавања › Сесије.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_example">Затражи дугачак одговор, пређи у другу апликацију док се не заврши, па се врати.</string>
+
+    <!-- 2026-10-24-03-composer-keyboard-morph -->
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_title">Унос поруке прати тастатуру</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_summary">Контроле за унос поруке отварају се с тастатуром и прате је док је превлачиш нагоре и надоле.</string>
+
+    <!-- 2026-10-24-04-composer-photo-viewer -->
+    <string name="settings_whatsnew_entry_composer_photo_viewer_title">Фотографије преко целог екрана</string>
+    <string name="settings_whatsnew_entry_composer_photo_viewer_summary">Додирни фотографију у уносу поруке да је видиш преко целог екрана, превлачи између фотографија и уклони неку пре слања.</string>
+
+    <!-- 2026-10-24-05-plus-menu-photo-picker -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_title">Нови избор фотографија</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_summary">Укључи „Нови + мени“ у Подешавања › Експериментално › Унос поруке да изабереш до 8 недавних фотографија директно из + менија, прегледаш све фотографије и гледаш како прелећу у унос поруке, па у сесију.</string>
+
+    <!-- 2026-10-24-06-project-icons-lit -->
+    <string name="settings_whatsnew_entry_project_icons_lit_title">Осветљене иконе пројеката</string>
+    <string name="settings_whatsnew_entry_project_icons_lit_summary">Када су иконе пројеката укључене, иконе у бочном панелу хватају светлост: благ одсјај одозго, танку стакласту ивицу и нежну сенку.</string>
+
+    <!-- 2026-10-24-07-session-live-activity -->
+    <string name="settings_whatsnew_entry_session_live_activity_title">Сесије уживо</string>
+    <string name="settings_whatsnew_entry_session_live_activity_summary">Укључи „Сесије уживо“ у Подешавања › Експериментално › Бочни панел да пратиш послати задатак у обавештењу уживо, и на закључаном екрану, док се не заврши или не затражи твој унос.</string>
+
+    <!-- 2026-10-24-08-sign-in-failed-edit-server -->
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_title">Реши одбијену пријаву</string>
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_summary">Када сервер одбије лозинку, његов мени у бочном панелу нуди „Уреди сервер…“ уместо „Покушај поново“, што не би помогло. Почетни екран сада упућује на opencode pair --remote у терминалу.</string>
+
+    <!-- 2026-10-25-01-voice-app-screenshot -->
+    <string name="settings_whatsnew_entry_voice_app_screenshot_title">Снимци екрана гласом</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_summary">Током гласовног позива реци „погледај ово“ и снимак екрана апликације биће послат у сесију уз твој коментар.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_1">Шаље се само екран саме апликације, уз назив екрана и стање позива и апликације.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_2">Затражи да се уз њега пошаље евиденција позива или недавна евиденција апликације; адресе и подаци за пријаву су скривени.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_3">Снимање није могуће док је приказан екран за пријаву или поље за лозинку.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_example">Током гласовног позива реци „направи снимак екрана, овај ред није поравнат“</string>
+
+    <!-- 2026-10-25-02-voice-background-results -->
+    <string name="settings_whatsnew_entry_voice_background_results_title">Резултати рада у позадини у позивима</string>
+    <string name="settings_whatsnew_entry_voice_background_results_summary">Када сесија којој током позива задаш задатак почне да ради у позадини, у позиву ћеш чути шта је пронашла чим заврши, чак и ако већ радиш нешто друго.</string>
+
+    <!-- 2026-10-25-03-sound-effects-experiment -->
+    <string name="settings_whatsnew_entry_sound_effects_experiment_title">Звучни ефекти</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_summary">Експеримент који уз вибрације пушта благе звуке за одговоре, захтеве, преглед новости и неуспела слања.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_1">Нечујни режим и режим вибрације их утишавају, а музика наставља да свира.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_2">Не чују се током позива, диктирања или репродукције медија, ни у позадини.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_3">Јачина звука и опциони звук слања налазе се испод прекидача.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_example">Укључи звучне ефекте у Подешавања › Експериментално, па сачекај одговор у другој сесији</string>
+
+    <!-- 2026-10-25-90-session-title-first-prompt -->
+    <string name="settings_whatsnew_entry_session_title_first_prompt_title">Наслови из првих промптова</string>
+    <string name="settings_whatsnew_entry_session_title_first_prompt_summary">Сесије без наслова сада приказују свој први промпт у једном реду, док им сервер не додели назив.</string>
+
+    <!-- 2026-10-26-01-settings-sessions-page -->
+    <string name="settings_whatsnew_entry_settings_sessions_page_title">Подешавања сесија</string>
+    <string name="settings_whatsnew_entry_settings_sessions_page_summary">Подешавања имају нову страницу „Сесије“, где је „Разделник нових порука“ изнад „Слање тастером Enter“, а „Напредно“ је сада подељено у два реда: „Експериментално“ и „За програмере“.</string>
+
+    <!-- 2026-10-26-02-project-icons-default -->
+    <string name="settings_whatsnew_entry_project_icons_default_title">Иконе пројеката су укључене</string>
+    <string name="settings_whatsnew_entry_project_icons_default_summary">Иконе пројеката сада се приказују поред наслова сесија. Искључи их у Подешавања › Експериментално.</string>
+
+    <!-- 2026-10-26-03-plus-menu-over-keyboard -->
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_title">Фотографије преко тастатуре</string>
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_summary">Када је укључен „Нови + мени“, + мени се отвара преко тастатуре, а „Фотографије“ се из њега шире у панел до ивица екрана, па се скупљају без склањања тастатуре.</string>
+
+    <!-- 2026-10-26-04-living-orb-connect-motion -->
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_title">Кретање кугле при повезивању</string>
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_summary">Када је Жива кугла укључена, дугме за позив се подиже у куглу и окреће док се позив повезује, па се по завршетку враћа на место. Поновно позивање одмах покреће нов позив, без заглављивања.</string>
+
+    <!-- 2026-10-26-05-living-orb-presets -->
+    <string name="settings_whatsnew_entry_living_orb_presets_title">Поставке кугле и раскошни стил</string>
+    <string name="settings_whatsnew_entry_living_orb_presets_summary">Кугла, испод Стил позива у Подешавања › Експериментално › Позиви, сада се отвара у раскошном стилу, са већим прегледом уживо и редом готових поставки. Сачувај своје поставке, преименуј их и копирај или налепи да их поделиш.</string>
+
+    <!-- 2026-10-26-06-send-after-a-pause -->
+    <string name="settings_whatsnew_entry_send_after_a_pause_title">Течније слање после паузе</string>
+    <string name="settings_whatsnew_entry_send_after_a_pause_summary">Порука послата после паузе сада се подиже право из поља за унос у свој облачић, уместо да се прво спусти ка пољу испод ознаке времена.</string>
+
+    <!-- 2026-10-27-01-steadier-round-trip -->
+    <string name="settings_whatsnew_entry_steadier_round_trip_title">Стабилнији приказ одзива</string>
+    <string name="settings_whatsnew_entry_steadier_round_trip_summary">Број милисекунди на картици везе сада је просек последњих неколико провера, па га један спор одговор само мало промени, уместо да нагло скочи.</string>
+
+    <!-- 2026-10-27-02-drawer-drag-follows-finger -->
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_title">Превлачење прати прст</string>
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_summary">Сесија коју превлачиш у бочном панелу сада остаје тачно испод прста, прелази преко заглавља, помера листу на њеним ивицама и ускаче на место када је пустиш.</string>
+
+    <!-- 2026-10-27-03-inbox-sidebar-experiment -->
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_title">Пријемно сандуче у бочном панелу</string>
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_summary">Укључи Пријемно сандуче у бочном панелу у Подешавања › Експериментално › Бочни панел да видиш сесије као пријемно сандуче: прво оне које чекају твој унос, затим непрочитане, уз пројекат и најновији одговор. Превуци сесију да је означиш као прочитану или архивираш.</string>
+
+    <!-- 2026-10-28-01-first-pairing-ready-session -->
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_title">Прва сесија је спремна</string>
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_summary">Упаривање првог рачунара сада отвара нову сесију у његовом последњем пројекту, уз неколико питања за пробу, а додир потврђује да си повезан. При новој инсталацији, Шта је ново већ је означено као прочитано.</string>
+
+    <!-- 2026-10-28-02-welcome-preview -->
+    <string name="settings_whatsnew_entry_welcome_preview_title">Преглед добродошлице</string>
+    <string name="settings_whatsnew_entry_welcome_preview_summary">Нова добродошлица при првом покретању приказује како OpenCode ради на лаптопу док га телефон усмерава, а затим следи упаривање у једном кораку. Укључи Преглед добродошлице у Подешавања › Експериментално › Бочни панел и додирни Прикажи добродошлицу; затварање те враћа назад.</string>
+
+    <!-- 2026-10-29-01-composer-text-selection -->
+    <string name="settings_whatsnew_entry_composer_text_selection_title">Избор текста у пољу за унос</string>
+    <string name="settings_whatsnew_entry_composer_text_selection_summary">Превлачење ручица за избор текста или лупе у нацрту више не скрива тастатуру нити помера поље за унос нагоре или надоле.</string>
+
+    <!-- 2026-10-30-01-voice-waits-for-you -->
+    <string name="settings_whatsnew_entry_voice_waits_for_you_title">Позиви чекају да завршиш</string>
+    <string name="settings_whatsnew_entry_voice_waits_for_you_summary">Гласовни агент те више не прекида: новости чекају да завршиш с говором, а ако проговориш док он говори, зауставиће се.</string>
+
+    <!-- 2026-10-30-02-wisp-call-sounds -->
+    <string name="settings_whatsnew_entry_wisp_call_sounds_title">Позиви користе звукове Wisp</string>
+    <string name="settings_whatsnew_entry_wisp_call_sounds_summary">Позиви почињу благим дахом уз тихо треперење звука током повезивања, зазвоне када се повежу, тихо куцкају док агент прегледа, отвара или покреће нешто и завршавају се уздахом. Изабери други скуп у Подешавања › Глас › Звукови позива.</string>
+
+    <!-- 2026-10-30-03-wisp-orb -->
+    <string name="settings_whatsnew_entry_wisp_orb_title">Гласовна кугла је сада Wisp</string>
+    <string name="settings_whatsnew_entry_wisp_orb_summary">Кугла позива сада има изглед Wisp: стаклено сочиво преко светлећих тачака које реагују на оба гласа, уз стања за повезивање, слушање, рад, говор и чекање на тебе. То је једини стил кугле, па су стари стилови и подешавања кугле уклоњени.</string>
+
+    <!-- 2026-10-31-01-encrypted-notification-previews -->
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_title">Шифровани прегледи обавештења</string>
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_summary">Уз ажуриран додатак за обавештења и HTTPS везу, сервер шифрује наслов и поруку за овај уређај. Ако преглед не може да се отвори, обавештење само каже „Нова активност”.</string>
+
+    <!-- 2026-10-31-02-move-session-folder-gone -->
+    <string name="settings_whatsnew_entry_move_session_folder_gone_title">Сесије остају и без фасцикле</string>
+    <string name="settings_whatsnew_entry_move_session_folder_gone_summary">Када фасцикла сесије више не постоји, рецимо после уклањања радног простора, неуспело слање нуди премештање сесије у фасциклу пројекта и поново шаље поруку.</string>
+
+    <!-- 2026-10-31-03-notification-plugin-setup -->
+    <string name="settings_whatsnew_entry_notification_plugin_setup_title">Подеси обавештења уз OpenCode</string>
+    <string name="settings_whatsnew_entry_notification_plugin_setup_summary">У Подешавања → Обавештења додирни Подеси уз OpenCode да прегледаш промпт који инсталира додатак за обавештења који недостаје.</string>
+
+    <!-- 2026-11-01-01-call-card-takes-over -->
+    <string name="settings_whatsnew_entry_call_card_takes_over_title">Картица позива заузима дно екрана</string>
+    <string name="settings_whatsnew_entry_call_card_takes_over_summary">У Живој кугли, картица позива сада испуњава дно екрана преко поља за поруку, са једнаким размацима са свих страна, па је тастатура више не сабија. Скупи је назад у куглу да куцаш.</string>
+
+    <!-- 2026-11-01-01-screenshot-shutter -->
+    <string name="settings_whatsnew_entry_screenshot_shutter_title">Окидач снимка екрана</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_summary">Када апликација сними свој екран за сесију, екран бљесне и чује се окидач.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_1">Бљесак долази после снимања, па се никад не види на слици.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_2">Опција Смањи кретање замењује га благим затамњењем, а Пригуши трепћућа светла га искључује.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_3">Током позива, звук окидача се пушта кроз позив, па га агент не чује.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_example">У гласовном позиву реци „погледај ово”</string>
+
+    <!-- 2026-11-01-01-voice-says-whats-running -->
+    <string name="settings_whatsnew_entry_voice_says_whats_running_title">Позиви јављају шта још траје</string>
+    <string name="settings_whatsnew_entry_voice_says_whats_running_summary">Када захтев потраје, гласовни агент ти каже на чему ради уместо да ућути.</string>
+
+    <!-- 2026-11-01-02-living-orb-default -->
+    <string name="settings_whatsnew_entry_living_orb_default_title">Позиви лебде у кугли</string>
+    <string name="settings_whatsnew_entry_living_orb_default_summary">Гласовни позиви сада свима лебде у Живој кугли изнад сваког екрана, док поље за поруку остаје слободно.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_1">Додирни куглу да је прошириш у картицу позива, па превуци нагоре за цео позив и његов транскрипт.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_2">Превуци куглу било где; остаје на месту док мењаш сесије или отвараш подешавања.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_3">Покрени позив и са листе сесија, дугметом за позив поред подешавања.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_4">Панел позива је уклоњен: ако си га користио, и твоји позиви сада лебде у кугли.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_5">Искључи је у Подешавања › Експериментално › Позиви › Жива кугла.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_example">Покрени позив, па отвори листу сесија: кугла иде с тобом</string>
+
+    <!-- 2026-11-01-02-quicker-send -->
+    <string name="settings_whatsnew_entry_quicker_send_title">Брже слање</string>
+    <string name="settings_whatsnew_entry_quicker_send_summary">Послата порука сада се подиже у свој облачић заједно са листом, уместо да прво чека код поља за унос.</string>
+
+    <!-- 2026-11-01-02-share-screen-with-agents -->
+    <string name="settings_whatsnew_entry_share_screen_with_agents_title">Дељење екрана са агентима</string>
+    <string name="settings_whatsnew_entry_share_screen_with_agents_summary">Укључи Дељење екрана са агентима у Подешавања › Експериментално › Позиви, па агент током позива може да затражи да види апликацију: додирни Подели да му пошаљеш слику или Не сада.</string>
+
+    <!-- 2026-11-01-03-audio-in-calls -->
+    <string name="settings_whatsnew_entry_audio_in_calls_title">Аудио у позивима</string>
+    <string name="settings_whatsnew_entry_audio_in_calls_summary">Укључи Аудио у позивима у Подешавања › Експериментално › Позиви, па агент током позива може да ти пусти музику или снимак. Звук се стишава док неко од вас говори; паузирај га или заустави изнад поља за унос.</string>
+
+    <!-- 2026-11-01-03-open-links-from-calls -->
+    <string name="settings_whatsnew_entry_open_links_from_calls_title">Отварање веза из позива</string>
+    <string name="settings_whatsnew_entry_open_links_from_calls_summary">Укључи Отварање веза из позива у Подешавања › Експериментално › Позиви, па агент током позива може да понуди везу, рецимо за Uber вожњу: додирни Отвори да је отвориш у њеној апликацији или Не сада.</string>
+
+    <!-- 2026-11-02-01-fold-questions -->
+    <string name="settings_whatsnew_entry_fold_questions_title">Склони питања с пута</string>
+    <string name="settings_whatsnew_entry_fold_questions_summary">Превуци питање надоле да га скупиш у малу траку изнад поља за унос, па је додирни да га вратиш. Ако слање одговора не успе, сада чека да додирнеш Покушај поново.</string>
+
+    <!-- 2026-11-02-01-steadier-following -->
+    <string name="settings_whatsnew_entry_steadier_following_title">Стабилније праћење одговора</string>
+    <string name="settings_whatsnew_entry_steadier_following_summary">Одговор који пристиже остаје при дну без поскакивања ознаке У току, а листу можеш да превлачиш било где изнад поља за унос.</string>
+
+    <!-- 2026-11-02-40-model-display-names -->
+    <string name="settings_whatsnew_entry_model_display_names_title">Називи модела</string>
+    <string name="settings_whatsnew_entry_model_display_names_summary">Поље за унос поруке памти називе модела док се листа модела учитава или веза поново успоставља.</string>
+
+    <!-- 2026-11-02-41-all-experiments -->
+    <string name="settings_whatsnew_entry_all_experiments_title">Сви експерименти</string>
+    <string name="settings_whatsnew_entry_all_experiments_summary">Један прекидач на врху одељка Подешавања › Експериментално укључује све експерименте, па и нове чим стигну.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_1">Искључи појединачни експеримент ако га не желиш; остаће искључен и следећи пут.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_2">Искључивање опције Сви експерименти враћа прекидаче у претходно стање.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_3">Експерименти који траже дозволу и даље се укључују засебно.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_4">Аутоматско довршавање, панел фотографија у менију плус, нови прекидач за сервере и иконе пројеката сада су укључени за све.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_5">Јединствени бирач и жива кугла сада су обични прекидачи, а панел позива је уклоњен.</string>
+    <string name="settings_whatsnew_entry_all_experiments_example">Отвори Подешавања › Експериментално и укључи Сви експерименти</string>
+
+    <!-- 2026-11-03-01-search-all-sessions -->
+    <string name="settings_whatsnew_entry_search_all_sessions_title">Пронађи старије сесије</string>
+    <string name="settings_whatsnew_entry_search_all_sessions_summary">Претрага у бочном панелу сада обухвата све сесије, не само недавне, а померање до дна учитава старије сесије.</string>
+
+    <!-- 2026-11-03-01-voice-open-session -->
+    <string name="settings_whatsnew_entry_voice_open_session_title">Мењај сесије гласом</string>
+    <string name="settings_whatsnew_entry_voice_open_session_summary">Када затражиш од гласовног агента да отвори сесију, бочни панел се затвара, а позив остаје повезан.</string>
+
+    <!-- 2026-11-03-02-orb-divider-image-links -->
+    <string name="settings_whatsnew_entry_orb_divider_image_links_title">Три експеримента доступна свима</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_summary">Жива кугла, разделник Ново и прегледи веза ка сликама сада су укључени за све, без прекидача.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_1">Сваки позив лебди у живој кугли; стара трака позива је уклоњена.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_2">По повратку у сесију, разделник Ново означава шта је стигло у твом одсуству ако све не стаје на екран.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_3">Директне везе ка сликама приказују слику испод поруке.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_example">Покрени позив из поља за унос поруке и гледај како лебди у кугли</string>
+
+    <!-- 2026-11-04-01-call-links-and-audio -->
+    <string name="settings_whatsnew_entry_call_links_and_audio_title">Везе и аудио у позивима</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_summary">Отварање веза из позива и аудио у позивима сада су укључени за све, без прекидача.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_1">Током позива агент може да понуди везу, рецимо за Uber вожњу: додирни Отвори да је отвориш у њеној апликацији или Не сада.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_2">Агент може да пусти музику или снимак током позива. Звук се утишава док неко од вас говори; паузирај га или заустави изнад поља за унос поруке.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_example">Током позива замоли агента да пусти музику</string>
+
+    <!-- 2026-11-04-01-composer-editing-caret -->
+    <string name="settings_whatsnew_entry_composer_editing_caret_title">Уређивање нацрта</string>
+    <string name="settings_whatsnew_entry_composer_editing_caret_summary">Када мењаш реч усред нацрта, курсор остаје тамо где куцаш.</string>
+
+    <!-- 2026-11-04-01-loading-touch-recovery -->
+    <string name="settings_whatsnew_entry_loading_touch_recovery_title">Померање после учитавања</string>
+    <string name="settings_whatsnew_entry_loading_touch_recovery_summary">Повратак у апликацију током прелаза при учитавању одмах поново омогућава померање транскрипта.</string>
+
+    <!-- 2026-11-05-01-composer-keyboard-width -->
+    <string name="settings_whatsnew_entry_composer_keyboard_width_title">Шири унос током куцања</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_width_summary">Када је тастатура отворена, поље за унос поруке се шири уз мале, једнаке маргине, па се дуги нацрти мање преламају.</string>
+
+    <!-- 2026-11-05-02-plus-menu-touch-release -->
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_title">Затварање менија прилога</string>
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_summary">Затварање менија прилога поново омогућава додире у сесији испод њега, чак и током промене распореда.</string>
+
+    <!-- 2026-11-05-02-quiet-reconnecting-pill -->
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_title">Мирније покретање</string>
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_summary">При отварању апликације више не трепери „Поновно повезивање…“ изнад поља за унос нити се сесија помера; ознака се приказује само ако повезивање потраје.</string>
+
+    <!-- 2026-11-05-03-stuck-touch-recovery -->
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_title">Померање се само опоравља</string>
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_summary">Ако нешто невидљиво спречава померање сесије дуже од секунде, апликација је одблокира.</string>
+
+    <!-- 2026-11-05-04-reply-text-selection -->
+    <string name="settings_whatsnew_entry_reply_text_selection_title">Избор текста кроз цео одговор</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_summary">Задржи прст на речи у одговору или је додирни двапут, па превуци ручице преко пасуса, листа, кода и табела.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_1">Задржи ручицу тик испод заглавља или изнад поља за унос и одговор ће се померати, све брже што си ближе ивици.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_2">Копирај чува ознаке и бројеве у листама, као и редове и колоне табела. Цитирај додаје изабрани текст у поље за унос и задржава ознаке блокова кода.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_example">Задржи прст на речи при почетку дугог одговора, па превуци завршну ручицу до поља за унос и задржи је ту</string>
+
+    <!-- 2026-11-06-01-scrolling-unsticks -->
+    <string name="settings_whatsnew_entry_scrolling_unsticks_title">Померање се само одблокира</string>
+    <string name="settings_whatsnew_entry_scrolling_unsticks_summary">Сесија која понекад није могла да се помера без преласка у другу сада се сама одблокира.</string>
+
+    <!-- 2026-11-06-02-server-addresses -->
+    <string name="settings_whatsnew_entry_server_addresses_title">Стабилније везе са сервером</string>
+    <string name="settings_whatsnew_entry_server_addresses_summary">OpenCode испробава све адресе сервера одједном и користи ону која прва одговори, па се по изласку из куће поново повезује без искључивања и укључивања VPN-а.</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_1">Адреса која је радила на кућној мрежи више се не испробава прва на свим другим мрежама.</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_2">Кратак прекид, откључавање телефона или спуштање брзих подешавања више не изазивају трептање банера. Поновно повезивање се приказује после неколико секунди, а Ван мреже после око 12, или 4 ако телефон нема мрежу.</string>
+    <string name="settings_whatsnew_entry_server_addresses_example">Док је отворена сесија на серверу упареном преко Tailscale, искључи Wi-Fi и настави да радиш</string>
+
+    <!-- 2026-11-07-01-server-voice -->
+    <string name="settings_whatsnew_entry_server_voice_title">Позиви уз кључеве сервера</string>
+    <string name="settings_whatsnew_entry_server_voice_summary">Глас преко сервера сада је укључен за све, без прекидача. Позиви могу да користе кључеве OpenCode сервера, па овом телефону не треба сопствени OpenAI кључ.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_1">Када је укључено Аутоматски изабери, позиви користе тренутни сервер, затим OpenAI кључ на овом телефону, па други сачувани сервер који је спреман.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_2">Ако и телефон и сервер имају OpenAI кључ, позиви сада користе кључ сервера. Да наставиш да користиш свој, отвори Твој OpenAI налог у одељку Добављач гласа и додирни Користи за позиве.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_3">Gemini Live је сада такође добављач на серверима са кључем за Gemini.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_4">Ако позив не може да почне, приказују се разлог и дугме за решавање проблема.</string>
+    <string name="settings_whatsnew_entry_server_voice_example">Отвори Подешавања › Глас и додирни Добављач гласа</string>
+
+    <!-- 2026-11-07-02-rename-clear-button -->
+    <string name="settings_whatsnew_entry_rename_clear_button_title">Обриши наслов једним додиром</string>
+    <string name="settings_whatsnew_entry_rename_clear_button_summary">Преименуј сесију и Преименуј сервер сада имају дугме за брисање, па можеш да унесеш нови наслов без ручног брисања старог.</string>
+
+    <!-- 2026-11-07-03-one-picker -->
+    <string name="settings_whatsnew_entry_one_picker_title">Нови бирач модела</string>
+    <string name="settings_whatsnew_entry_one_picker_summary">Додирни модел у пољу за поруку и из њега ће се отворити листа, са одељцима Омиљени и Недавни на врху и свим добављачима испод.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_1">Додирни ниво размишљања у реду модела, нпр. „високо“, да га промениш без напуштања листе.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_2">Превуци или задржи прст на реду да додаш модел у омиљене или га уклониш.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_3">Претрага је на дну. Унеси ниво после назива, нпр. „opus high“, па притисни Return да изабереш оба.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_4">Превуци ручицу нагоре да прошириш листу или надоле да је затвориш.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_5">Нови бирач замењује стари панел „Модел“, а прекидач „Јединствени бирач“ је уклоњен из одељка Подешавања › Експериментално.</string>
+    <string name="settings_whatsnew_entry_one_picker_example">Додирни модел у пољу за поруку, па превуци ред да га додаш у омиљене</string>
+
+    <!-- 2026-11-08-01-connecting-caption-glass -->
+    <string name="settings_whatsnew_entry_connecting_caption_glass_title">Читљивији натпис „Повезивање преко…“</string>
+    <string name="settings_whatsnew_entry_connecting_caption_glass_summary">Док се позив повезује преко сервера, натпис „Повезивање преко…“ има стакласту подлогу и више се не стапа са порукама иза њега.</string>
+
+    <!-- 2026-11-08-02-default-model -->
+    <string name="settings_whatsnew_entry_default_model_title">Нове сесије користе подразумевани модел</string>
+    <string name="settings_whatsnew_entry_default_model_summary">Нове сесије почињу са подразумеваним моделом из OpenCode-а и последњим изабраним нивоом размишљања за тај модел, уместо са моделом из претходне сесије.</string>
+
+    <!-- 2026-11-11-01-streamed-reply-prefix -->
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_title">Отвори одговор док стиже</string>
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_summary">Када отворите сесију док одговор још стиже, можете читати оно што је већ стигло док се одговор наставља.</string>
+
+    <!-- 2026-11-13-01-draw-on-images -->
+    <string name="settings_whatsnew_entry_draw_on_images_title">Цртајте по сликама</string>
+    <string name="settings_whatsnew_entry_draw_on_images_summary">Означите детаљ пре него што питате о њему.</string>
+    <string name="settings_whatsnew_entry_draw_on_images_detail_1">Отворите слику преко целог екрана и додирните дугме са оловком. Изаберите боју, цртајте, па додирните Додај да приложите означену слику поруци. Оригинал остаје непромењен.</string>
+    <string name="settings_whatsnew_entry_draw_on_images_example">На снимку екрана заокружите контролу коју желите да преместите, па опишите где треба да буде.</string>
+
+    <!-- 2026-11-14-01-fullscreen-viewer -->
+    <string name="settings_whatsnew_entry_fullscreen_viewer_title">Превлачите између фотографија и видеа</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_summary">Прегледајте слике и видео-снимке сесије на једном месту.</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_detail_1">Превуците до видеа, па додирните дугме са оловком да означите тренутни кадар. Додај прилаже означени кадар без слања.</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_example">Паузирајте демонстрацију на екрану који треба изменити, заокружите детаљ и додајте га у нацрт.</string>
+
+    <!-- 2026-11-15-01-pairing-link-name -->
+    <string name="settings_whatsnew_entry_pairing_link_name_title">Именовани сервери из OpenCode Console</string>
+    <string name="settings_whatsnew_entry_pairing_link_name_summary">Сервер који упарите преко OpenCode Console стиже са својим називом, на пример „Anomaly Box“.</string>
+
+    <!-- 2026-11-17-01-session-media -->
+    <string name="settings_whatsnew_entry_session_media_title">Медији сесије</string>
+    <string name="settings_whatsnew_entry_session_media_summary">Прегледајте слике, видео, аудио, датотеке и јавне веб везе у сесији.</string>
+    <string name="settings_whatsnew_entry_session_media_detail_1">Изаберите Медији сесије у менију ⋮ сесије. Медији приказују слике, видео и аудио као плочице груписане по месецима или као листу, а Датотеке и Везе приказују документе, налепљени текст и веб-везе.</string>
+    <string name="settings_whatsnew_entry_session_media_example">Пронађите снимак екрана који сте послали јутрос без листања уназад кроз целу сесију.</string>
+
+    <!-- 2026-11-18-02-drawer-call-phone -->
+    <string name="settings_whatsnew_entry_drawer_call_phone_title">Икона телефона за позиве у бочном панелу</string>
+    <string name="settings_whatsnew_entry_drawer_call_phone_summary">Дугме за позив поред Подешавања у листи сесија приказује телефон, као и оно у пољу за поруку.</string>
+
+    <!-- 2026-11-19-01-background-scripts -->
+    <string name="settings_whatsnew_entry_background_scripts_title">Скрипте у позадинском раду</string>
+    <string name="settings_whatsnew_entry_background_scripts_summary">Скрипте које агент премести у позадину приказују се уз субагенте и shell-ове, а субагент остаје на листи док се његове слике, видео-снимци или скрипте још обрађују. И једне и друге можете зауставити са листе.</string>
+</resources>

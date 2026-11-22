@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Appearance -->
+    <string name="settings_appearance_title">外观</string>
+    <string name="settings_appearance_mode_header">模式</string>
+    <string name="settings_appearance_theme">主题</string>
+
+    <!-- Appearance › Themes -->
+    <string name="settings_themes_title">主题</string>
+    <string name="settings_themes_preview_description">对话记录预览</string>
+    <string name="settings_themes_preview_user_message">帮我改进会话界面。告诉我发现了什么，并说明改动。</string>
+    <string name="settings_themes_preview_reply">我在 %1$s 中找到了布局问题。对话记录和输入框共用可用高度，所以弹出键盘很适合做压力测试。</string>
+
+    <!-- Language -->
+    <string name="settings_language_title">语言</string>
+    <string name="settings_language_system_default">系统默认</string>
+    <string name="settings_language_search_placeholder">搜索语言</string>
+    <string name="settings_language_suggested_header">建议</string>
+    <string name="settings_language_all_header">所有语言</string>
+    <string name="settings_language_no_matches">没有匹配的语言</string>
+
+    <!-- Experimental -->
+    <string name="settings_experimental_title">实验</string>
+    <string name="settings_experimental_all_footer">也会自动开启新实验，但查看屏幕或在后台收听的实验除外。</string>
+    <string name="settings_experimental_all">所有实验</string>
+    <string name="settings_experimental_all_on">全部开启</string>
+    <plurals name="settings_experimental_on_count">
+        <item quantity="other">已开启 %d 项</item>
+    </plurals>
+
+    <!-- Models -->
+    <string name="settings_models_title">模型</string>
+    <string name="settings_models_mode_hide">隐藏</string>
+    <string name="settings_models_mode_only_show">仅显示</string>
+    <string name="settings_models_mode_hide_footer">关闭你不用的模型。</string>
+    <string name="settings_models_mode_only_show_footer">只开启你使用的模型。</string>
+    <string name="settings_models_providers_header">提供商</string>
+    <string name="settings_models_stale_header">已停止提供</string>
+    <string name="settings_models_forget_unavailable">忘记不可用的模型</string>
+    <string name="settings_models_show_every_model">显示所有模型</string>
+    <string name="settings_models_load_failed_title">无法加载模型</string>
+    <string name="settings_models_summary_hidden">已隐藏</string>
+    <string name="settings_models_summary_all">全部</string>
+    <string name="settings_models_summary_count">%1$d / %2$d</string>
+
+    <!-- Models › Provider -->
+    <string name="settings_models_search_placeholder">搜索模型</string>
+    <string name="settings_models_show_provider">显示 %1$s</string>
+
+    <!-- Notifications -->
+    <string name="settings_notifications_title">通知</string>
+    <string name="settings_notifications_device_header">此 %1$s</string>
+    <string name="settings_notifications_device_footer">通知通过不存储任何内容的中继服务发送。只有在此 %1$s 上启动的会话才会向它发送通知。</string>
+    <string name="settings_notifications_allow">允许通知</string>
+    <string name="settings_notifications_open_android_settings">打开 Android 设置</string>
+    <string name="settings_notifications_turn_on">开启通知</string>
+    <string name="settings_notifications_server_header">服务器</string>
+    <string name="settings_notifications_set_up_footer">打开一个会话，请 OpenCode 安装插件。发送后，再检查一次。</string>
+    <string name="settings_notifications_plugin_needed_footer">服务器需要安装 OpenCode notify 插件。</string>
+    <string name="settings_notifications_notify_plugin">通知插件</string>
+    <string name="settings_notifications_plugin_installed">已安装</string>
+    <string name="settings_notifications_plugin_not_running">未运行</string>
+    <string name="settings_notifications_plugin_not_installed">未安装</string>
+    <string name="settings_notifications_plugin_check_failed">无法检查状态</string>
+    <string name="settings_notifications_set_up">通过 OpenCode 设置</string>
+    <string name="settings_notifications_check_again">再次检查</string>
+    <string name="settings_notifications_in_app_footer">显示在侧边栏按钮上。</string>
+    <string name="settings_notifications_in_app_notices">应用内注意事项</string>
+
+    <!-- Sessions -->
+    <string name="settings_sessions_title">会话</string>
+    <string name="settings_sessions_composer_header">输入框</string>
+    <string name="settings_sessions_return_key_sends">回车键发送</string>
+    <string name="settings_sessions_new_sessions_header">新建会话</string>
+    <string name="settings_sessions_server_default">服务器默认</string>
+    <string name="settings_sessions_default_agent">默认智能体</string>
+
+    <!-- Shared values -->
+    <string name="settings_value_on">开启</string>
+    <string name="settings_value_off">关闭</string>
+
+    <!-- Sound Effects -->
+    <string name="settings_sound_effects_volume">音量</string>
+    <string name="settings_sound_effects_volume_description">音效音量</string>
+    <string name="settings_sound_effects_send_sound">发送音效</string>
+
+    <!-- Voice › Delegator -->
+    <string name="settings_delegator_title">委派器</string>
+    <string name="settings_delegator_other_server_note">“%1$s”在另一台服务器上。请选择此服务器上的会话，或切换服务器。</string>
+    <string name="settings_delegator_mode_footer">内置模式通过 OpenAI 运行，无需会话。OpenCode 会话模式在你服务器上的会话中运行。</string>
+    <string name="settings_delegator_built_in">内置</string>
+    <string name="settings_delegator_opencode_session">OpenCode 会话</string>
+    <string name="settings_delegator_target_header">目标会话</string>
+    <string name="settings_delegator_target_footer">“自动”使用此服务器上的“Voice”会话。“当前会话”使用屏幕上显示的会话。</string>
+    <string name="settings_delegator_automatic">自动</string>
+    <string name="settings_delegator_viewed_session">当前会话</string>
+    <string name="settings_delegator_search_placeholder">搜索会话</string>
+    <string name="settings_delegator_sessions_header">选择会话</string>
+    <string name="settings_delegator_sessions_footer">所选会话会保留原有模型。</string>
+    <string name="settings_delegator_no_sessions">此服务器暂无会话</string>
+    <string name="settings_delegator_no_matching_sessions">没有匹配的会话</string>
+    <string name="settings_delegator_new_session">新建会话</string>
+    <string name="settings_delegator_direct">直连</string>
+    <string name="settings_delegator_direct_session_unavailable">直连 · 会话不可用</string>
+    <string name="settings_delegator_another_server">%1$s · 其他服务器</string>
+
+    <!-- Voice › Key Editor -->
+    <string name="settings_voice_key_hide_description">隐藏密钥</string>
+    <string name="settings_voice_key_show_description">显示密钥</string>
+    <string name="settings_voice_key_verify">验证</string>
+
+    <!-- Voice › Voice Provider -->
+    <string name="settings_voice_provider_title">语音提供商</string>
+    <string name="settings_voice_provider_place">在 %1$s 上</string>
+    <string name="settings_voice_api_key_title">API 密钥</string>
+    <string name="settings_voice_provider_automatic_footer">%1$s 不可用时，通话会使用其他可用的提供商。</string>
+    <string name="settings_voice_provider_choose_automatically">自动选择</string>
+    <string name="settings_voice_provider_others_header">其他提供商</string>
+    <string name="settings_voice_provider_use_description">使用 %1$s</string>
+    <string name="settings_voice_provider_use">使用</string>
+    <string name="settings_voice_provider_set_up">设置</string>
+    <plurals name="settings_voice_provider_not_available_count">
+        <item quantity="other">%d 个不可用</item>
+    </plurals>
+
+    <!-- Voice › API Key -->
+    <string name="settings_voice_account_title">你的 OpenAI 账户</string>
+    <string name="settings_voice_account_place">在此手机上</string>
+    <string name="settings_voice_account_key_footer">通话使用你的 OpenAI 账户，而非服务器。</string>
+    <string name="settings_voice_account_use_for_calls">用于通话</string>
+
+    <!-- Voice -->
+    <string name="settings_voice_title">语音</string>
+    <string name="settings_voice_call_setup_header">通话设置</string>
+    <string name="settings_voice_calls_header">通话</string>
+    <string name="settings_voice_raise_to_talk_hint">开启或关闭：在会话中将手机举到耳边时，通过听筒发起通话</string>
+    <string name="settings_voice_enable">启用语音</string>
+    <string name="settings_voice_model">模型</string>
+    <string name="settings_voice_model_description">语音模型</string>
+    <string name="settings_voice_call_voice">音色</string>
+    <string name="settings_voice_raise_to_talk">抬起通话</string>
+    <string name="settings_voice_call_sounds">通话音效</string>
+    <string name="settings_voice_call_history">通话记录</string>
+    <string name="settings_voice_edit_key_label">编辑你的 %1$s API 密钥</string>
+    <string name="settings_voice_key_verified">已验证</string>
+    <string name="settings_voice_key_checking">检查中…</string>
+    <string name="settings_voice_key_saved">已保存</string>
+    <string name="settings_voice_key_missing">未添加</string>
+    <string name="settings_voice_preview_disabled_hint">添加你的 %1$s 密钥以试听音色</string>
+
+    <!-- Voice › Voice Picker -->
+    <string name="settings_voice_picker_add_key_footer">添加你的 %1$s 密钥以试听音色。</string>
+    <string name="settings_voice_picker_unavailable_footer">%1$s 在 %2$s 上不可用，通话将使用 %3$s。</string>
+    <string name="settings_voice_stop_preview_description">停止试听 %1$s</string>
+    <string name="settings_voice_preview_description">试听 %1$s</string>
+    <string name="settings_voice_preview_playing">正在播放</string>
+    <string name="settings_voice_call_voice_unavailable">%1$s · %2$s 不可用</string>
+
+    <!-- Settings root -->
+    <string name="settings_whats_new_title">最新动态</string>
+    <string name="settings_developer_title">开发者</string>
+    <string name="settings_app_version">版本 %1$s (%2$s)</string>
+    <string name="settings_app_version_commit">版本 %1$s (%2$s) · %3$s</string>
+
+    <!-- Connection card -->
+    <string name="settings_connection_show_server_label">显示服务器</string>
+    <string name="settings_connection_milliseconds">%1$d 毫秒</string>
+    <string name="settings_connection_card_value_description">%1$s，%2$s，%3$s</string>
+    <string name="settings_connection_status_connected">已连接</string>
+    <string name="settings_connection_status_slow">缓慢</string>
+    <string name="settings_connection_status_unstable">不稳定</string>
+    <string name="settings_connection_status_reconnecting">正在重新连接</string>
+    <string name="settings_connection_status_offline">离线</string>
+    <string name="settings_connection_status_sign_in_failed">登录失败</string>
+    <string name="settings_connection_status_switching">正在切换</string>
+    <string name="settings_connection_status_switching_to">正在切换到 %1$s</string>
+    <string name="settings_connection_status_code">%1$s · %2$d</string>
+    <string name="settings_connection_status_http_description">%1$s，HTTP %2$d</string>
+    <plurals name="settings_connection_status_milliseconds_description">
+        <item quantity="other">%1$s，%2$d 毫秒</item>
+    </plurals>
+
+    <!-- Server page -->
+    <string name="settings_server_title">服务器</string>
+    <string name="settings_server_address">地址</string>
+    <string name="settings_server_connection">连接</string>
+    <string name="settings_server_version">版本</string>
+    <string name="settings_server_edit_server">编辑服务器…</string>
+    <string name="settings_server_rename_server_ellipsis">重命名服务器…</string>
+    <string name="settings_server_rename_title">重命名服务器</string>
+    <string name="settings_server_rename_message">此名称仅在此 %1$s 上使用。留空则使用“%2$s”。</string>
+    <string name="settings_server_status">状态</string>
+    <string name="settings_server_status_milliseconds">%1$s · %2$d 毫秒</string>
+
+    <!-- Servers section -->
+    <string name="settings_servers_header">服务器</string>
+    <string name="settings_servers_edit_server">编辑 %1$s…</string>
+    <string name="settings_servers_rename_message">此名称仅在此 %1$s 上使用。留空则使用电脑的名称。</string>
+    <string name="settings_servers_remove_title">移除 %1$s？</string>
+    <string name="settings_servers_remove_message">这会清除此 %1$s 上保存的地址和密码。服务器上的会话不受影响。</string>
+    <string name="settings_servers_remove_server">移除服务器</string>
+    <string name="settings_servers_current_server_state">当前服务器，%1$s</string>
+    <string name="settings_servers_switch_label">切换到此服务器</string>
+    <string name="settings_servers_options_description">%1$s 的选项</string>
+    <string name="settings_servers_rename_menu">重命名…</string>
+    <string name="settings_servers_edit_menu">编辑…</string>
+    <string name="settings_servers_remove_menu">移除…</string>
+    <string name="settings_servers_add_server">添加服务器</string>
+    <string name="settings_servers_scan_pairing_code">扫描配对码</string>
+    <string name="settings_servers_enter_address">输入地址</string>
+
+    <!-- Pairing scanner -->
+    <string name="settings_pairing_paste">粘贴</string>
+    <string name="settings_pairing_no_camera_title">无可用相机</string>
+    <string name="settings_pairing_no_camera_message">复制电脑上 `opencode pair` 输出的链接，然后粘贴到这里。</string>
+    <string name="settings_pairing_camera_off_title">相机权限未开启</string>
+    <string name="settings_pairing_camera_off_message">在设置中允许使用相机以扫描二维码，或粘贴 `opencode pair` 输出的链接。</string>
+    <string name="settings_pairing_nothing_to_paste_title">没有可粘贴的内容</string>
+    <string name="settings_pairing_nothing_to_paste_message">剪贴板中没有配对链接。复制 opencode pair 输出的链接，然后再试一次。</string>
+    <string name="settings_pairing_point_camera">将相机对准二维码</string>
+    <string name="settings_pairing_paste_link">粘贴配对链接</string>
+    <string name="settings_pairing_computer_hint">在电脑上打开 OpenCode 的设置 → 配对，或在终端中运行 %1$s。</string>
+</resources>

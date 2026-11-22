@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- What’s New entries, oldest first: one group per file in whatsnew/entries/. -->
+
+    <!-- 2026-10-06-01-voice-messages -->
+    <string name="settings_whatsnew_entry_voice_messages_title">Missatges de veu</string>
+    <string name="settings_whatsnew_entry_voice_messages_summary">El que Veu demana a una sessió per tu apareix com un missatge de veu, marcat amb una ona sonora.</string>
+
+    <!-- 2026-10-07-01-attachment-menu-hold -->
+    <string name="settings_whatsnew_entry_attachment_menu_hold_title">Adjunta amb +</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_summary">El menú + es desplega des del quadre de missatge amb Càmera, Fotos i Fitxers. Mantén premut + i llisca per triar en un sol gest.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_1">Fotos s\'obre just damunt del quadre de missatge; toca les fotos per adjuntar-les.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_2">La càmera té botons per canviar d\'objectiu i flaix. Pessiga per fer zoom i toca per enfocar.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_example">Mantén premut +, llisca amunt fins a Fotos i deixa\'l anar</string>
+
+    <!-- 2026-10-08-01-voice-webrtc-weak-connection -->
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_title">Trucades més estables</string>
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_summary">Amb una connexió inestable, la trucada només fa un petit salt en lloc de quedar-se segons en silenci.</string>
+
+    <!-- 2026-10-08-02-mute-sessions -->
+    <string name="settings_whatsnew_entry_mute_sessions_title">Silencia sessions</string>
+    <string name="settings_whatsnew_entry_mute_sessions_summary">Les sessions silenciades continuen a la llista, però no apareixen a Posa\'t al dia ni mostren el punt de missatges sense llegir.</string>
+    <string name="settings_whatsnew_entry_mute_sessions_detail_1">Mantén premut Posa\'t al dia per marcar-ho tot com a llegit. Les sessions que t\'esperen es queden.</string>
+    <string name="settings_whatsnew_entry_mute_sessions_example">Mantén premuda una sessió al panell lateral i toca Silencia</string>
+
+    <!-- 2026-10-08-03-pair-from-anywhere -->
+    <string name="settings_whatsnew_entry_pair_from_anywhere_title">Aparella des de qualsevol lloc</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_summary">Executa opencode pair --remote a l\'ordinador per connectar-t\'hi des de qualsevol xarxa, sense compartir Wi-Fi ni fer servir Tailscale.</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_detail_1">Escaneja el codi que apareix o enganxa l\'enllaç que es mostra.</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_example">Executa opencode pair --remote i afegeix el servidor al mòbil</string>
+
+    <!-- 2026-10-08-04-drawer-peek -->
+    <string name="settings_whatsnew_entry_drawer_peek_title">Última activitat de les sessions</string>
+    <string name="settings_whatsnew_entry_drawer_peek_summary">Arrossega la llista de sessions cap a la sessió per veure quan s\'ha activat cadascuna per última vegada.</string>
+    <string name="settings_whatsnew_entry_drawer_peek_detail_1">Llisca cap a l\'esquerra sobre la llista per tancar-la.</string>
+    <string name="settings_whatsnew_entry_drawer_peek_example">Obre la llista de sessions i arrossega-la cap a la dreta</string>
+
+    <!-- 2026-10-08-05-dictation-keeps-going -->
+    <string name="settings_whatsnew_entry_dictation_keeps_going_title">Dicta i envia</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_summary">Toca el micròfon per dictar i envia directament des de la barra d\'enregistrament, o toca Atureu-vos per revisar-ho abans.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_1">Mantén premut el micròfon per parlar, llisca amunt per bloquejar l\'enregistrament o a l\'esquerra per cancel·lar-lo.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_2">L\'enregistrament continua quan surts de l\'aplicació, amb una activitat en directe per aturar-lo.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_3">Si canvies de sessió mentre enregistres, Envia ho envia a la que tens en pantalla.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_example">Toca el micròfon, digues una frase i toca Envia</string>
+
+    <!-- 2026-10-08-06-siri-shortcuts-spotlight -->
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_title">Accions i dreceres de l\'aplicació</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_summary">Inicia una trucada o una sessió, o envia un missatge, des de les accions d\'aplicacions de l\'Assistent de Google, les dreceres de l\'aplicació o la configuració ràpida.</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_detail_1">Mantén premuda la icona de l\'aplicació per veure les sessions recents.</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_example">Digues «Hey Google, inicia una trucada de veu a OpenCode»</string>
+
+    <!-- 2026-10-09-01-working-orb -->
+    <string name="settings_whatsnew_entry_working_orb_title">Esfera d\'estat</string>
+    <string name="settings_whatsnew_entry_working_orb_summary">Una esfera al costat de Treballant i a les targetes dels subagents mostra què fa l\'agent i es converteix en el botó de còpia quan acaba.</string>
+
+    <!-- 2026-10-09-02-shell-glyph -->
+    <string name="settings_whatsnew_entry_shell_glyph_title">Activitat de l\'intèrpret d\'ordres</string>
+    <string name="settings_whatsnew_entry_shell_glyph_summary">L\'indicador &gt;_ d\'un intèrpret d\'ordres en execució s\'anima a mesura que arriba la sortida.</string>
+
+    <!-- 2026-10-09-03-math-and-diagrams -->
+    <string name="settings_whatsnew_entry_math_and_diagrams_title">Matemàtiques i diagrames</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_summary">Les respostes mostren fórmules matemàtiques i dibuixen diagrames Mermaid.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_1">Toca un diagrama per ampliar-lo o mantén-lo premut per veure\'n el codi font.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_2">Les fórmules s\'adapten a la mida del text.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_example">Demana un diagrama de flux de com s\'envia un missatge</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_prompt">Dibuixa un diagrama de flux de com s\'envia un missatge</string>
+
+    <!-- 2026-10-09-04-always-notify -->
+    <string name="settings_whatsnew_entry_always_notify_title">Avisa quan acabi</string>
+    <string name="settings_whatsnew_entry_always_notify_summary">Rep una notificació quan acabi una sessió que has iniciat aquí, amb un resum breu del que ha passat.</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_1">Activa Avisa sempre al panell d\'una sessió per rebre avisos de cada resposta, fins i tot de les iniciades a l\'ordinador.</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_2">Toca una notificació per obrir-ne la sessió.</string>
+    <string name="settings_whatsnew_entry_always_notify_example">Envia un missatge i bloqueja el mòbil</string>
+
+    <!-- 2026-10-09-05-server-switcher -->
+    <string name="settings_whatsnew_entry_server_switcher_title">Canvia de servidor</string>
+    <string name="settings_whatsnew_entry_server_switcher_summary">El servidor actual apareix al títol del panell lateral. Toca\'l per canviar de servidor o afegir-ne un.</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_1">Configuració mostra la connexió com un batec en directe, amb el temps d\'anada i tornada al costat del nom del servidor.</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_2">Canvia el nom d\'un servidor; només es fa servir en aquest mòbil.</string>
+    <string name="settings_whatsnew_entry_server_switcher_example">Obre el panell lateral, toca el nom del servidor i afegeix l\'altre ordinador</string>
+
+    <!-- 2026-10-10-01-share-opened-files -->
+    <string name="settings_whatsnew_entry_share_opened_files_title">Imatges com a Fotos</string>
+    <string name="settings_whatsnew_entry_share_opened_files_summary">Les imatges es veuen senceres a la sessió i s\'obren com a Fotos: pessiga per fer zoom, llisca per passar d\'una a l\'altra i arrossega avall per tancar.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_1">Qualsevol fitxer que l\'agent esmenti s\'obre a l\'aplicació.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_2">Comparteix desa tot el que obres a Fotos o Fitxers, també vídeos i àudio.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_example">Demana a l\'agent que llegeixi unes captures de pantalla, toca\'n una i arrossega-la avall</string>
+
+    <!-- 2026-10-10-02-call-voice -->
+    <string name="settings_whatsnew_entry_call_voice_title">Trucades de veu</string>
+    <string name="settings_whatsnew_entry_call_voice_summary">Toca l\'ona sonora en un quadre de missatge buit i parla. Veu treballa a les teves sessions mentre parles i t\'avisa quan la feina està feta.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_1">Demana qualsevol sessió pel nom: Veu l\'obre i hi inicia o redirigeix la feina.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_2">Parla mentre Veu parla per interrompre-la, o pregunta com va la feina.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_3">Toca la barra de trucada per veure els subtítols en directe.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_4">Silencia o finalitza la trucada des de la notificació, també a la pantalla de bloqueig.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_5">Mantén premut «Atureu-vos» per trucar mentre l\'agent treballa.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_6">Tria una veu a Configuració → Veu.</string>
+    <string name="settings_whatsnew_entry_call_voice_example">Inicia una trucada i digues «obre la meva sessió de correccions de pujada i comprova les proves»</string>
+
+    <!-- 2026-10-10-03-drawer-one-edge -->
+    <string name="settings_whatsnew_entry_drawer_one_edge_title">Panell lateral més endreçat</string>
+    <string name="settings_whatsnew_entry_drawer_one_edge_summary">Les files s\'alineen al mateix costat, els punts d\'estat són al final de cada fila i la cerca és un botó a dalt.</string>
+
+    <!-- 2026-10-11-01-paste-as-a-card -->
+    <string name="settings_whatsnew_entry_paste_as_a_card_title">Textos llargs enganxats en targetes</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_summary">El text llarg que enganxes es converteix en una targeta «Text enganxat» al costat de les imatges, i l\'agent el continua llegint sencer.</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_1">Toca la targeta per llegir tot el text enganxat, amb les opcions «Còpia» i «Comparteix».</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_2">Els missatges llargs es pleguen en unes quantes línies amb «Mostra\'n més».</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_example">Copia un registre llarg, enganxa\'l al quadre de missatge i toca la targeta</string>
+
+    <!-- 2026-10-11-02-ride-out-drops -->
+    <string name="settings_whatsnew_entry_ride_out_drops_title">Funciona amb poc senyal</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_summary">Uns segons sense senyal ja no provoquen errors. Els enviaments, les sessions i les trucades esperen que torni la connexió i continuen.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_1">«Envia» sempre està disponible i els missatges s\'envien en el mateix ordre que els has enviat.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_2">Si un missatge no s\'ha pogut enviar, es queda al seu lloc amb «Torna-ho a provar», sense enviar-se mai dues vegades.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_3">Quan el servidor no té connexió, el seu nom al panell lateral s\'atenua. Toca\'l per veure «Torna-ho a provar».</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_example">Obre una sessió quan el tren entri en un túnel</string>
+
+    <!-- 2026-10-11-03-new-session-recent-projects -->
+    <string name="settings_whatsnew_entry_new_session_recent_projects_title">Comença en qualsevol projecte</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_summary">«Nova sessió» mostra els projectes recents damunt del quadre de missatge, i «Tots els projectes» permet obrir qualsevol carpeta de l\'ordinador.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_1">El projecte que has triat es manté damunt del quadre de missatge mentre escrius.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_2">Una trucada iniciada des d\'una sessió nova treballa en el projecte que has triat.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_example">Toca «Nova sessió», després «Tots els projectes» i després «Tria una carpeta…»</string>
+
+    <!-- 2026-10-11-04-stop-runs-your-steer -->
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_title">Redirigeix mentre treballa</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_summary">Envia un missatge mentre l\'agent treballa i el llegirà al pas següent, després de passar les ordres llargues a segon pla.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_1">Mantén premut «Envia» per triar «Redirigeix» o «Posa a la cua» per a un missatge.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_2">Mantén premut un missatge pendent per moure\'l a la cua o suprimir-lo.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_3">«Atureu-vos» canvia de seguida a «S\'està aturant…» i tot seguit s\'executa el missatge de redirecció que has enviat.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_example">Mentre s\'executa una ordre llarga, envia un missatge i veuràs com l\'ordre passa a segon pla</string>
+
+    <!-- 2026-10-12-01-browser-push-in -->
+    <string name="settings_whatsnew_entry_browser_push_in_title">Pàgines al navegador integrat</string>
+    <string name="settings_whatsnew_entry_browser_push_in_summary">Amb l\'experiment «Navegador integrat» activat, els enllaços obren la pàgina sobre la sessió. Llisca des de la vora per tornar enrere.</string>
+
+    <!-- 2026-10-12-02-answer-from-the-bar -->
+    <string name="settings_whatsnew_entry_answer_from_the_bar_title">Respon des del quadre de missatge</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_summary">Les preguntes i els permisos es despleguen des del quadre de missatge. Respon-hi mateix: toca una opció o escriu o dicta la teva resposta.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_1">Els permisos mostren l\'ordre o el canvi abans que l\'autoritzis.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_2">«Negar» fa servir el que has escrit com a alternativa perquè l\'agent continuï treballant.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_3">L\'esborrany torna a aparèixer quan has respost.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_example">Quan l\'agent faci una pregunta, mantén premut el micròfon i digues la resposta</string>
+
+    <!-- 2026-10-12-03-new-messages-divider -->
+    <string name="settings_whatsnew_entry_new_messages_divider_title">Reprèn on ho vas deixar</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_summary">Quan tornes a una sessió, s\'obre al final, amb tot el que ha arribat mentre no hi eres. Per obrir una conversa llarga a la línia «Nou», activa «Separador de missatges nous» a Configuració › Sessions.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_1">Les sessions que és més probable que obris s\'actualitzen en obrir el panell lateral, perquè estiguin a punt quan les toquis.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_2">Quan tornes a una sessió, es mantenen la feina en segon pla i l\'indicador de context mentre s\'actualitza.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_example">Inicia una tasca llarga, canvia a una altra sessió i torna-hi quan hagi respost</string>
+
+    <!-- 2026-10-12-04-model-list-and-level-meter -->
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_title">Nou selector de models</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_summary">Tria un model i el seu nivell de raonament al panell «Model», amb els preferits a dalt. Per provar la llista que es desplega des del quadre de missatge, activa «Nou selector de models» a Configuració → Experimental.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_1">Fes servir el menú «Pensant» del panell «Model» quan un model ofereixi nivells.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_2">Llisca sobre un model per afegir-lo a Preferits.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_3">Una línia discreta a la sessió marca on has canviat de model o de nivell.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_example">Toca el model al quadre de missatge i tria un nivell de raonament</string>
+
+    <!-- 2026-10-12-05-run-error-line -->
+    <string name="settings_whatsnew_entry_run_error_line_title">Quan falla una execució</string>
+    <string name="settings_whatsnew_entry_run_error_line_summary">Si una execució s\'atura abans d\'hora, n\'explica el motiu amb paraules clares i una opció per continuar: «Edita», «Compacte», «Canvia de model» o «Torna-ho a provar».</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_1">«Edita» desfà el missatge i el torna al quadre de missatge perquè el reformulis.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_2">Mantén premuda la línia per veure l\'error complet i copiar-lo.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_3">Quan l\'agent ho tornarà a provar tot sol, «Treballant» mostra el compte enrere fins a l\'intent següent.</string>
+    <string name="settings_whatsnew_entry_run_error_line_example">Quan es bloquegi una resposta, toca «Edita», reformula el missatge i torna\'l a enviar</string>
+
+    <!-- 2026-10-12-06-transcript-keyboard-space -->
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_title">El teclat es tanca sense buits</string>
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_summary">Amagar el teclat arrossegant-lo ja no deixa cap buit sota l\'últim missatge.</string>
+
+    <!-- 2026-10-12-07-share-sheet-sends -->
+    <string name="settings_whatsnew_entry_share_sheet_sends_title">Envia des del menú de compartir</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_summary">Comparteix qualsevol cosa amb OpenCode, tria una sessió, afegeix un missatge i envia-ho sense obrir l\'aplicació.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_1">Les sessions recents apareixen a la primera fila del menú de compartir.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_2">Els fitxers JSON i les exportacions s\'adjunten com a fitxers amb els noms intactes.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_3">Continua a OpenCode obre la sessió amb el que has compartit al quadre de missatge.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_4">Si no es pot enviar, Envia més tard ho envia el pròxim cop que obris l\'aplicació.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_example">Comparteix una captura de pantalla amb OpenCode, escriu una pregunta i toca Envia</string>
+
+    <!-- 2026-10-12-08-app-icon-badge -->
+    <string name="settings_whatsnew_entry_app_icon_badge_title">Indicador a la icona de l\'aplicació</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_summary">La icona de l\'aplicació mostra quantes sessions tens sense llegir o pendents de tu, el mateix recompte que a Posa\'t al dia.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_1">Les sessions silenciades no compten.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_2">Cal tenir les notificacions activades.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_example">Deixa una sessió amb una pregunta pendent i ves a la pantalla d\'inici</string>
+
+    <!-- 2026-10-12-09-drawer-keeps-keyboard -->
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_title">El teclat llisca amb el panell lateral</string>
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_summary">Si obres la llista de sessions mentre escrius, el missatge manté el focus i el teclat es desplaça al costat amb la sessió.</string>
+
+    <!-- 2026-10-12-10-whats-new-page -->
+    <string name="settings_whatsnew_entry_whats_new_page_title">Novetats, més senzilles</string>
+    <string name="settings_whatsnew_entry_whats_new_page_summary">Novetats s\'obre com una pàgina, igual que Configuració, amb una pàgina per a cada funció i les correccions aplegades aquí.</string>
+
+    <!-- 2026-10-12-11-catch-up-returns-to-drawer -->
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_title">De Posa\'t al dia al panell lateral</string>
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_summary">En sortir de Posa\'t al dia, tornes a la llista de sessions tal com l\'havies deixada.</string>
+
+    <!-- 2026-10-12-12-transcript-day-stamps -->
+    <string name="settings_whatsnew_entry_transcript_day_stamps_title">Dies a la transcripció</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_summary">Si una sessió dura diversos dies, es mostra el dia damunt del primer missatge de cada dia, com ara «Dimecres 8:24», i l\'hora damunt d\'un missatge enviat després d\'una hora de pausa.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_1">S\'hi mostra Avui, Ahir o el dia de la setmana si és d\'aquesta setmana; si no, la data.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_2">Els missatges de redirecció i en cua no mostren cap marca de temps mentre esperen.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_example">Obre una sessió que hagis començat aquesta setmana i desplaça\'t cap amunt</string>
+
+    <!-- 2026-10-12-13-rich-link-previews -->
+    <string name="settings_whatsnew_entry_rich_link_previews_title">Vistes prèvies dels enllaços</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_summary">Els enllaços sota una resposta mostren què són, un per línia: una sol·licitud de fusió o incidència amb títol i estat, una confirmació, un vídeo o una pàgina.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_1">Les sol·licituds de fusió, incidències, confirmacions i repositoris de GitHub mostren el títol, amb Obert, Fusionat o Tancat en color.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_2">Les publicacions d\'X mostren l\'autor i què ha dit; els enllaços de YouTube mostren el títol, i les altres pàgines, un nom extret de l\'enllaç.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_3">Es mostren tres enllaços; toca «més» al costat de Còpia per veure la resta, i torna-hi a tocar per amagar-los.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_4">Mantén premut un enllaç per veure una vista prèvia més gran, Copia l\'enllaç i Comparteix.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_example">Pregunta a l\'agent què ha canviat en un repositori aquesta setmana</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_prompt">Què ha canviat aquesta setmana en un repositori de GitHub que faig servir? Inclou-hi enllaços.</string>
+
+    <!-- 2026-10-13-01-rolling-numbers -->
+    <string name="settings_whatsnew_entry_rolling_numbers_title">Xifres animades</string>
+    <string name="settings_whatsnew_entry_rolling_numbers_summary">Els recomptes en directe de la càpsula de tasques en segon pla, del panell Sessió, de les files d\'eines utilitzades i de Posa\'t al dia llisquen xifra a xifra.</string>
+
+    <!-- 2026-10-13-02-grouped-steering -->
+    <string name="settings_whatsnew_entry_grouped_steering_title">Missatges agrupats</string>
+    <string name="settings_whatsnew_entry_grouped_steering_summary">Els missatges que envies seguits s\'agrupen en un sol bloc, i els missatges de redirecció pendents de l\'agent comparteixen una sola etiqueta Redirecció.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_1">Les bombolles consecutives queden juntes, amb les cantonades unides on es toquen.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_2">Les fotos i els fitxers mantenen la seva forma arrodonida dins del bloc.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_3">Quan l\'agent rep cada missatge, aquest puja fins al seu lloc amb un sol moviment.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_example">Mentre l\'agent treballa, envia tres missatges ràpids, un amb una foto</string>
+
+    <!-- 2026-10-13-03-inline-tool-rows -->
+    <string name="settings_whatsnew_entry_inline_tool_rows_title">Files d\'eines i preguntes discretes</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_summary">Els grups d\'eines i les preguntes respostes s\'obren en una franja d\'amplada completa, com el codi, i les lectures consecutives s\'uneixen en una sola fila.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_1">Els grups replegats mostren «S\'han fet servir N eines» i marquen en vermell les crides a eines que han fallat.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_2">Les files Executa indiquen les eines que ha cridat l\'script, i les files Habilitat, el nom de l\'habilitat.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_3">Les preguntes respostes mostren la indicació i totes les opcions ofertes, amb la teva tria marcada.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_example">Toca una fila «S\'han fet servir N eines» en una sessió per obrir-ne la franja</string>
+
+    <!-- 2026-10-13-04-mac-motion-playgrounds -->
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_title">Controls de proves al Mac</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_summary">Amb el mode de desenvolupador activat, aparella els ajustos amb el Mac per reproduir animacions de la zona de proves a càmera lenta i inspeccionar fotogrames capturats.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_1">La pàgina de controls del Mac inclou la selecció de la zona de proves, els preajustos i els controls de reproducció; el mòbil només mostra la zona de proves.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_2">Les targetes compactes mostren quins controls hi ha en pantalla, amb preajustos de moviment i espaiat amb nom i Natiu per recuperar el comportament original; cada preajust aplica tots els valors alhora.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_3">El panell flotant d\'ajustos s\'amaga quan es connecta el Mac; obre\'l amb el gest d\'ajustos i tria Surt de la zona de proves per sortir-ne.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_4">Els escenaris amb una llavor fixa reprodueixen la mateixa sessió de mostra perquè puguis comparar el moviment entre compilacions.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_5">Les reproduccions comencen de zero i lliuren els missatges de redirecció i en cua en lloc de deixar-los pendents.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_6">El reproductor de revisió del Mac et permet recórrer la geometria capturada pas a pas, marcar un fotograma i enviar comentaris sobre l\'animació.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_example">Obre Configuració → Desenvolupador, aparella amb la pàgina d\'ajustos del Mac i prova Transcripció → Resposta en continu a 0.25×</string>
+
+    <!-- 2026-10-13-05-catch-up-flicks -->
+    <string name="settings_whatsnew_entry_catch_up_flicks_title">Llisca més fàcilment a Posa\'t al dia</string>
+    <string name="settings_whatsnew_entry_catch_up_flicks_summary">Un lliscament ràpid o un arrossegament més curt a Posa\'t al dia desplaça la targeta en lloc de fer-la tornar al punt de partida.</string>
+
+    <!-- 2026-10-14-01-settings-grouped-by-purpose -->
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_title">Configuració més clara</string>
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_summary">Troba les funcions experimentals i les eines de desenvolupador a Configuració → Experimental, els avisos de l\'aplicació a Notificacions i l\'historial de trucades a Veu.</string>
+
+    <!-- 2026-10-14-02-send-ats-recovery -->
+    <string name="settings_whatsnew_entry_send_ats_recovery_title">Enviaments fiables</string>
+    <string name="settings_whatsnew_entry_send_ats_recovery_summary">L\'enviament dels missatges es reintenta automàticament si iOS rebutja breument una connexió amb el servidor que ja funcionava.</string>
+
+    <!-- 2026-10-14-03-keyboard-menus-and-header -->
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_title">Teclat i menús més estables</string>
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_summary">Toca + mentre escrius per obrir els adjunts sense amagar el teclat ni moure els controls; el desenfocament de la capçalera es manté al seu lloc mentre es mou el teclat.</string>
+
+    <!-- 2026-10-14-04-open-links-in-apps -->
+    <string name="settings_whatsnew_entry_open_links_in_apps_title">Els enllaços s\'obren a la seva aplicació</string>
+    <string name="settings_whatsnew_entry_open_links_in_apps_summary">Cada enllaç s\'obre a l\'aplicació corresponent, com GitHub o YouTube; amb l\'experiment Navegador integrat activat, mantén premut un enllaç i tria Obre al navegador integrat.</string>
+
+    <!-- 2026-10-14-05-session-list-quiet-hierarchy -->
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_title">Llista de sessions més fàcil de llegir</string>
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_summary">Fixades i Recents passen a segon pla amb lletra grisa més petita; les sessions sense llegir i en espera destaquen amb un gruix mitjà, i les llegides s\'atenuen una mica.</string>
+
+    <!-- 2026-10-14-06-queued-messages-fitted-sheet -->
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_title">Missatges en cua més endreçats</string>
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_summary">El panell de missatges en cua s\'ajusta a l\'alçada de la cua, amb files numerades i botons discrets per enviar un missatge ara o cancel·lar-lo.</string>
+
+    <!-- 2026-10-14-07-control-center-sessions -->
+    <string name="settings_whatsnew_entry_control_center_sessions_title">Botons per a una sessió</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_summary">Afegeix un botó a la configuració ràpida per obrir una sessió o iniciar-hi una trucada amb un sol toc.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_1">El nou botó Obre la sessió obre la sessió que triïs.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_2">Inicia una trucada permet trucar a una sessió que triïs o a una de nova. Si no ho canvies, truca a l\'última sessió que has vist.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_3">Tria entre les sessions fixades i recents; el botó mostra el títol actual de la sessió.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_4">Els botons només obren l\'aplicació: no s\'envia res fins que parles o escrius.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_example">Obre la configuració ràpida, toca Edita i arrossega el botó Obre la sessió d\'OpenCode al seu lloc</string>
+
+    <!-- 2026-10-15-01-settings-keyboard-down -->
+    <string name="settings_whatsnew_entry_settings_keyboard_down_title">La configuració, sense el teclat al damunt</string>
+    <string name="settings_whatsnew_entry_settings_keyboard_down_summary">Si obres Configuració des del panell lateral mentre escrius, el teclat s\'amaga en lloc de quedar-hi al damunt.</string>
+
+    <!-- 2026-10-15-02-session-list-sidebar-grey -->
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_title">Llista de sessions més espaiosa</string>
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_summary">La llista de sessions té un títol més gran i les capçaleres Fixades i Recents són més grans, grises i amb més espai al damunt; obre el panell lateral per veure-ho.</string>
+
+    <!-- 2026-10-15-03-voice-varied-acknowledgements -->
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_title">Menys «Ho comprovo» a les trucades</string>
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_summary">Durant una trucada, la veu reacciona al que dius en lloc de respondre sempre «Ho comprovo», i les peticions ja no s\'envien dues vegades si continues parlant.</string>
+
+    <!-- 2026-10-15-04-smoother-streaming -->
+    <string name="settings_whatsnew_entry_smoother_streaming_title">Respostes progressives més fluides</string>
+    <string name="settings_whatsnew_entry_smoother_streaming_summary">L\'última línia de la resposta apareix suaument, sense atenuar-se ni parpellejar; les files ja no s\'allarguen més enllà del text per després encongir-se, i els elements de llista i els títols apareixen amb el format correcte, no com un guió o un coixinet solt.</string>
+
+    <!-- 2026-10-15-05-model-list-sheet -->
+    <string name="settings_whatsnew_entry_model_list_sheet_title">Llista de models en un panell</string>
+    <string name="settings_whatsnew_entry_model_list_sheet_summary">Amb l\'experiment Nou selector de models activat, el camp del missatge es transforma en un panell de models al lloc del teclat, que s\'amaga. El panell es plega suaument encara que l\'obris i el tanquis de pressa.</string>
+
+    <!-- 2026-10-15-06-queued-pill-whole-title -->
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_title">Recompte en cua sense retalls</string>
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_summary">L\'indicador sobre el redactor mostra «2 en cua» sencer en lloc de retallar-lo a «2 en cu…», i els altres recomptes animats també conserven tots els caràcters.</string>
+
+    <!-- 2026-10-16-01-plus-menu-photo-sheet -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_title">Fotos al lloc del teclat</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_summary">Amb l\'experiment Nou menú + activat, Fotos amplia el menú + en un panell de fotos al lloc del teclat. Mantén premut + per veure les fotos més recents: llisca fins a una i deixa anar per afegir-la.</string>
+
+    <!-- 2026-10-16-02-composer-large-text-targets -->
+    <string name="settings_whatsnew_entry_composer_large_text_targets_title">Redactor més fàcil de tocar</string>
+    <string name="settings_whatsnew_entry_composer_large_text_targets_summary">Els botons del redactor són més fàcils de tocar amb mides de text grans.</string>
+
+    <!-- 2026-10-16-03-project-pick-haptic -->
+    <string name="settings_whatsnew_entry_project_pick_haptic_title">Una vibració en canviar de projecte</string>
+    <string name="settings_whatsnew_entry_project_pick_haptic_summary">Triar un altre projecte per a una sessió nova, sobre el camp del missatge o a Tots els projectes, produeix una vibració suau.</string>
+
+    <!-- 2026-10-16-04-fork-opens-copy -->
+    <string name="settings_whatsnew_entry_fork_opens_copy_title">Bifurca obre la còpia</string>
+    <string name="settings_whatsnew_entry_fork_opens_copy_summary">Bifurca, als detalls d\'una sessió, torna a obrir la còpia.</string>
+
+    <!-- 2026-10-16-05-transcript-row-targets -->
+    <string name="settings_whatsnew_entry_transcript_row_targets_title">Més fàcil de tocar</string>
+    <string name="settings_whatsnew_entry_transcript_row_targets_summary">El títol del panell Sessió és més fàcil de tocar, i VoiceOver i Voice Control ja no accedeixen als botons del redactor ocults mentre dictes.</string>
+
+    <!-- 2026-10-16-06-image-previews -->
+    <string name="settings_whatsnew_entry_image_previews_title">Vistes prèvies d\'imatges</string>
+    <string name="settings_whatsnew_entry_image_previews_summary">Les imatges que esmenta l\'agent es mostren en una graella de vistes prèvies, i s\'indica si falta algun fitxer.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_1">Les vistes prèvies apareixen sota el paràgraf que les esmenta.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_2">Toca una imatge per obrir-la a pantalla completa i llisca per veure les altres imatges de la resposta.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_3">Les imatges de fora de la carpeta de la sessió no es carreguen fins que les toques.</string>
+    <string name="settings_whatsnew_entry_image_previews_example">Demana a l\'agent que mostri captures de pantalla del teu projecte.</string>
+    <string name="settings_whatsnew_entry_image_previews_prompt">Mostra\'m les captures de pantalla d\'aquest projecte.</string>
+
+    <!-- 2026-10-16-07-connection-error-details -->
+    <string name="settings_whatsnew_entry_connection_error_details_title">Els errors de connexió indiquen què ha fallat</string>
+    <string name="settings_whatsnew_entry_connection_error_details_summary">Els errors de connexió mostren el codi d\'error, l\'adreça provada i el resultat DNS, amb ajuda quan un nom de la xarxa tailnet es resol fora de Tailscale.</string>
+
+    <!-- 2026-10-16-08-outage-reconnect-delay -->
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_title">Reconnexions més ràpides</string>
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_summary">Les sessions es posen al dia més aviat quan el servidor torna després d\'una interrupció.</string>
+
+    <!-- 2026-10-17-01-every-running-subagent -->
+    <string name="settings_whatsnew_entry_every_running_subagent_title">Tots els subagents en execució</string>
+    <string name="settings_whatsnew_entry_every_running_subagent_summary">El recompte de subagents sobre el redactor inclou els que depenen d\'altres subagents i els de sessions amb més de 100, igual que a la TUI.</string>
+
+    <!-- 2026-10-17-02-session-view-refined-standard -->
+    <string name="settings_whatsnew_entry_session_view_refined_standard_title">Tipografia més clara a les respostes</string>
+    <string name="settings_whatsnew_entry_session_view_refined_standard_summary">Els títols de nivell 3 destaquen més que el text en negreta, el text normal s\'atenua una mica perquè la negreta ressalti, i els paràgrafs i blocs de codi tenen una mica més d\'espai.</string>
+
+    <!-- 2026-10-17-03-bottom-follow-on-load -->
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_title">Sempre al final</string>
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_summary">Les sessions es mantenen al final mentre es carrega el contingut que triga més.</string>
+
+    <!-- 2026-10-17-04-drafts-stay-put -->
+    <string name="settings_whatsnew_entry_drafts_stay_put_title">Els esborranys es conserven</string>
+    <string name="settings_whatsnew_entry_drafts_stay_put_summary">Els esborranys, les fotos i ubicacions adjuntes i els missatges pendents d\'enviar es conserven si l\'aplicació es tanca en segon pla.</string>
+
+    <!-- 2026-10-18-01-themes -->
+    <string name="settings_whatsnew_entry_themes_title">Temes</string>
+    <string name="settings_whatsnew_entry_themes_summary">Dona un tema a les sessions, com Tokyo Night, Catppuccin, Dracula, Rosé Pine o GitHub, amb una vista prèvia en directe mentre els explores.</string>
+    <string name="settings_whatsnew_entry_themes_detail_1">Els temes donen color a la transcripció, els teus missatges, el codi, la sintaxi, els diffs i els enllaços.</string>
+    <string name="settings_whatsnew_entry_themes_detail_2">A Aparença, Mode permet triar Llum, Fosc o Sistema.</string>
+    <string name="settings_whatsnew_entry_themes_detail_3">Els controls mantenen l\'aspecte natiu Liquid Glass en tots els temes.</string>
+    <string name="settings_whatsnew_entry_themes_example">Obre Configuració → Aparença → Tema i prova Tokyo Night.</string>
+
+    <!-- 2026-10-18-02-return-key-sends -->
+    <string name="settings_whatsnew_entry_return_key_sends_title">Configuració de la tecla de retorn</string>
+    <string name="settings_whatsnew_entry_return_key_sends_summary">Desactiva La tecla de retorn envia a Configuració si vols que Retorn afegeixi una línia nova, o fes servir Command-Return i Shift-Return en un teclat físic.</string>
+
+    <!-- 2026-10-18-03-quote-replies -->
+    <string name="settings_whatsnew_entry_quote_replies_title">Cita les respostes</string>
+    <string name="settings_whatsnew_entry_quote_replies_summary">Selecciona text d\'una resposta de l\'assistent i toca Cita per afegir-lo al teu missatge com a targeta de cita.</string>
+
+    <!-- 2026-10-18-04-launch-bloom -->
+    <string name="settings_whatsnew_entry_launch_bloom_title">Animació d\'inici</string>
+    <string name="settings_whatsnew_entry_launch_bloom_summary">Quan obres l\'aplicació des de zero, el logotip d\'OpenCode es contrau i s\'expandeix per donar pas a la sessió.</string>
+
+    <!-- 2026-10-18-05-drag-to-pin -->
+    <string name="settings_whatsnew_entry_drag_to_pin_title">Arrossega una sessió per fixar-la</string>
+    <string name="settings_whatsnew_entry_drag_to_pin_summary">Mantén premuda una sessió i arrossega-la amunt, a Fixades, per fixar-la en aquell lloc, o arrossega una sessió fixada avall, a Recents, per deixar de fixar-la.</string>
+
+    <!-- 2026-10-19-01-call-tray-colour-blend -->
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_title">Botó de trucada més fluid</string>
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_summary">Amb l\'experiment Barra de trucada activat, el botó de trucada es transforma directament en el botó vermell Penja quan comença una trucada, i a la inversa quan penges, sense mostrar breument el fons.</string>
+
+    <!-- 2026-10-19-02-optical-insets -->
+    <string name="settings_whatsnew_entry_optical_insets_title">Controls ben centrats</string>
+    <string name="settings_whatsnew_entry_optical_insets_summary">El + i el micròfon del redactor, les icones de les càpsules de tasques en segon pla i en cua, i el símbol de Nova sessió del panell lateral ara queden visualment centrats als extrems arrodonits del vidre. La icona de l\'intèrpret d\'ordres ara és un cercle com l\'esfera del subagent, sense el cursor intermitent, i es mostren de costat quan tots dos estan en execució.</string>
+
+    <!-- 2026-10-19-03-smart-dictation-audio -->
+    <string name="settings_whatsnew_entry_smart_dictation_audio_title">Dictat més fluid amb música</string>
+    <string name="settings_whatsnew_entry_smart_dictation_audio_summary">Si dictes mentre sona música, es manté en estèreo als AirPods sense tallar-se al cap d\'un minut i, si només fas servir el mòbil, continua sonant per l\'altaveu en lloc de l\'auricular.</string>
+
+    <!-- 2026-10-19-04-interrupted-hand -->
+    <string name="settings_whatsnew_entry_interrupted_hand_title">Una mà per indicar interrupcions</string>
+    <string name="settings_whatsnew_entry_interrupted_hand_summary">Les execucions i els intèrprets d\'ordres interromputs ara mostren una mà alçada, i un intèrpret d\'ordres que atures indica Interromput en lloc d\'Aturat.</string>
+
+    <!-- 2026-10-19-05-autocomplete-fast-scroll -->
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_title">Autocompleció més àgil</string>
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_summary">Amb l\'experiment Autocompleció del redactor activat, els suggeriments segueixen el ritme mentre escrius, i pots arrossegar la llista per desplaçar-te sense seleccionar cap fila.</string>
+
+    <!-- 2026-10-19-06-experimental-groups -->
+    <string name="settings_whatsnew_entry_experimental_groups_title">Experiments agrupats</string>
+    <string name="settings_whatsnew_entry_experimental_groups_summary">Els experiments de Configuració → Experimental estan agrupats, i les trucades tenen un únic selector d\'Estil de trucada.</string>
+
+    <!-- 2026-10-19-07-model-picker-standard-sheet -->
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_title">Selector de models en un panell estàndard</string>
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_summary">Amb l\'experiment Nou selector de models activat, el model del quadre de missatge obre un panell estàndard on cada model té el seu menú de nivell de pensament. El selector anterior ara és a Configuració › Experimental com a Selector de models personalitzat.</string>
+
+    <!-- 2026-10-19-08-problem-reports-reach-session -->
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_title">Els informes arriben a la sessió</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_summary">Informa d\'un problema ara també envia la teva nota a la sessió des d\'on has informat, amb l\'informe complet adjunt perquè l\'agent el pugui llegir.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_1">El missatge comença amb una línia que indica que és un informe de problema, la teva nota, l\'ID de l\'informe i un enllaç a la traça pujada.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_2">Les dades del dispositiu, la compilació, la pantalla, la cronologia i el registre de l\'aplicació arriben com a fitxer adjunt, igual que un que adjuntis tu.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_3">Des d\'Inici, s\'envia a la teva sessió més recent.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_4">Si falla la pujada, la nota i el resum arriben igualment i ho indiquen; Torna-ho a provar envia després només l\'enllaç a la traça.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_5">Quan arriba, es mostra la confirmació «Enviat a la sessió».</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_example">Obre el menú d\'una sessió, tria Informa d\'un problema, afegeix una nota i toca Envia</string>
+
+    <!-- 2026-10-19-09-team-scrawl-feedback -->
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_title">Comentaris de l\'equip amb Scrawl</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_summary">Uneix-te a Team Feedback amb el teu enllaç personal per enviar enregistraments de Scrawl amb tres dits i diagnòstics amb les dades sensibles ocultes a la cua compartida del tauler de problemes.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_1">Obre el teu enllaç opencode://team/join per revisar què es recull i acceptar-ho.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_2">Un tutorial interactiu de tres passos t\'ensenya a mantenir tres dits premuts, parlar i dibuixar, i enviar un clip de pràctica a la columna de proves.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_3">Cada enregistrament adjunta la mateixa cronologia, registre de l\'aplicació i diagnòstics de Motion Watch que Informa d\'un problema, amb les dades sensibles ocultes.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_4">Pots repetir el tutorial o sortir de Team Feedback quan vulguis a Configuració › Desenvolupador.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_example">Obre Configuració › Desenvolupador per consultar el teu estat a Team Feedback o repetir el tutorial.</string>
+
+    <!-- 2026-10-19-10-scrawl-faster-start -->
+    <string name="settings_whatsnew_entry_scrawl_faster_start_title">Inici de Scrawl més ràpid</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_summary">Els controls de Scrawl apareixen mentre s\'inicien el micròfon i l\'enregistrador.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_1">Els tocs a Dibuixa, Envia i Descarta es conserven mentre es prepara l\'enregistrament.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_2">Mantenir tres dits premuts prepara la capa superposada sense activar el micròfon abans d\'hora.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_3">S\'ha corregit un tancament inesperat quan el micròfon de Scrawl es reinicia durant un canvi de ruta d\'àudio.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_example">En un dispositiu aparellat, mantén tres dits premuts per iniciar un enregistrament</string>
+
+    <!-- 2026-10-20-01-call-tray-docks-in-drawer -->
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_title">Barra de trucada al panell lateral</string>
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_summary">Amb l\'experiment Barra de trucada activat, obrir el panell lateral durant una trucada mou la barra sota Nova sessió, amb el nivell d\'àudio, Silencia i Penja; en tancar-lo, torna al seu lloc.</string>
+
+    <!-- 2026-10-20-02-markdown-streams-smoothly -->
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_title">Respostes progressives més fluides</string>
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_summary">Les respostes llargues es mantenen àgils mentre arriben, i la negreta, el codi i els enllaços a mig escriure es mostren amb format en lloc de Markdown sense processar.</string>
+
+    <!-- 2026-10-20-04-return-newline-default -->
+    <string name="settings_whatsnew_entry_return_newline_default_title">Retorn afegeix una línia nova</string>
+    <string name="settings_whatsnew_entry_return_newline_default_summary">Ara Retorn afegeix una línia nova per defecte. Activa Envia amb la tecla Retorn a Configuració › Sessions per enviar amb Retorn, o fes servir Ctrl+Enter en un teclat físic.</string>
+
+    <!-- 2026-10-20-05-drawer-session-alignment -->
+    <string name="settings_whatsnew_entry_drawer_session_alignment_title">Controls del panell lateral alineats</string>
+    <string name="settings_whatsnew_entry_drawer_session_alignment_summary">Cerca, Nova sessió i Configuració s\'alineen amb la capçalera i el quadre de missatge de la sessió en mòbils i tauletes.</string>
+
+    <!-- 2026-10-20-06-call-tray-switch-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_title">Controls de trucada més estables</string>
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_summary">L\'ona d\'àudio de la trucada es continua movent quan canvies de sessió, i els controls es mantenen a la mateixa alçada quan obres la llista de sessions.</string>
+
+    <!-- 2026-10-20-07-voice-delegation-visible-on-admission -->
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_title">Missatges de veu sense espera</string>
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_summary">Els missatges que Veu envia a la sessió apareixen tan bon punt el servidor els accepta, encara que les actualitzacions de la sessió arribin amb retard.</string>
+
+    <!-- 2026-10-20-08-inline-image-links -->
+    <string name="settings_whatsnew_entry_inline_image_links_title">Previsualització d\'enllaços a imatges</string>
+    <string name="settings_whatsnew_entry_inline_image_links_summary">Activa Previsualització d\'enllaços a imatges a Configuració › Experimental › Transcripció per previsualitzar les imatges enllaçades a les respostes. Toca una miniatura per obrir-la a pantalla completa i ampliar-la.</string>
+
+    <!-- 2026-10-20-09-smooth-link-preview-arrival -->
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_title">Previsualitzacions d\'enllaços més fluides</string>
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_summary">Les previsualitzacions d\'enllaços apareixen gradualment quan es carreguen, i les files de sota es mouen suaument quan canvia l\'alçada d\'un títol.</string>
+
+    <!-- 2026-10-20-10-subagent-capsule-press -->
+    <string name="settings_whatsnew_entry_subagent_capsule_press_title">Càpsula d\'activitat arrodonida</string>
+    <string name="settings_whatsnew_entry_subagent_capsule_press_summary">La càpsula del subagent i de l\'intèrpret d\'ordres manté els extrems arrodonits mentre la prems.</string>
+
+    <!-- 2026-10-20-11-advanced-settings-open -->
+    <string name="settings_whatsnew_entry_advanced_settings_open_title">Configuració avançada més senzilla</string>
+    <string name="settings_whatsnew_entry_advanced_settings_open_summary">Els experiments de Configuració › Experimental són tots en grups desplegats, els selectors de models s’agrupen en una sola opció «Selector de models» i pots tocar qualsevol punt de la fila d’una opció per canviar-la.</string>
+
+    <!-- 2026-10-20-12-revert-to-here -->
+    <string name="settings_whatsnew_entry_revert_to_here_title">Reverteix el missatge</string>
+    <string name="settings_whatsnew_entry_revert_to_here_summary">Mantén premut un dels teus missatges i tria «Reverteix el missatge» per tornar a aquell punt i editar-lo.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_1">El text, les fotos i els fitxers del missatge tornen al quadre de missatge.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_2">«Desfer» recupera els torns i els canvis als fitxers fins que envies un missatge nou.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_3">L’opció està disponible quan l’agent no està treballant.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_example">Mantén premut un missatge que hagis enviat abans i tria «Reverteix el missatge».</string>
+
+    <!-- 2026-10-20-13-drag-from-transcript -->
+    <string name="settings_whatsnew_entry_drag_from_transcript_title">Arrossega des de la sessió</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_summary">Mantén premuts i arrossega codi, imatges, fitxers, enllaços i missatges d’una sessió a altres aplicacions.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_1">Els blocs de codi es transfereixen com a text amb el llenguatge indicat.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_2">Les imatges i els fitxers que ha creat l’agent es transfereixen com a fitxers.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_3">Deixa’ls anar al quadre de missatge per adjuntar-los o enganxar-los.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_4">El desplaçament, la selecció de text i els menús funcionen com abans.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_example">Selecciona una línia de codi d’una resposta, mantén premuda la selecció i arrossega el bloc a Notes.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_prompt">Escriu una funció curta en Swift que inverteixi una cadena de text, dins d’un bloc de codi.</string>
+
+    <!-- 2026-10-20-14-tuning-glass-tap-targets -->
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_title">Controls d’ajust més fàcils de tocar</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_summary">El botó d’ajust plegat i la pestanya de la vora tenen zones tàctils més grans.</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_detail_1">Les superfícies de vidre mantenen la mateixa mida.</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_example">Plega el panell d’ajust i toca prop de la vora del botó o de la pestanya</string>
+
+    <!-- 2026-10-20-15-new-session-project-continuity -->
+    <string name="settings_whatsnew_entry_new_session_project_continuity_title">Selecció de projectes més estable</string>
+    <string name="settings_whatsnew_entry_new_session_project_continuity_summary">Les carpetes recents mantenen la posició mentre tries un projecte, el nom de la capçalera canvia suaument i el panell de projecte mostra els camins de les carpetes més clarament.</string>
+
+    <!-- 2026-10-20-16-simple-session-loading -->
+    <string name="settings_whatsnew_entry_simple_session_loading_title">Càrrega de sessions més discreta</string>
+    <string name="settings_whatsnew_entry_simple_session_loading_summary">Un logotip petit i estàtic apareix suaument només si una sessió triga a carregar-se, i després deixa pas als missatges.</string>
+
+    <!-- 2026-10-20-17-voice-route-consistency -->
+    <string name="settings_whatsnew_entry_voice_route_consistency_title">Correccions de la connexió de veu</string>
+    <string name="settings_whatsnew_entry_voice_route_consistency_summary">Grok continua fent servir la teva tecla xAI quan el servidor gestiona les trucades, i Gemini s’identifica correctament.</string>
+
+    <!-- 2026-10-20-18-call-tray-edge-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_title">Moviment de la safata de trucades</string>
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_summary">L’ona de la safata de trucades segueix la vora arrodonida quan s’obre i quan entra o surt del panell lateral.</string>
+
+    <!-- 2026-10-21-01-call-tray-keyboard-return -->
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_title">Retorn de la safata de trucades</string>
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_summary">La safata de trucades es manté visible quan es tanca el panell lateral i torna el teclat.</string>
+
+    <!-- 2026-10-21-02-drawer-title-fade -->
+    <string name="settings_whatsnew_entry_drawer_title_fade_title">Títols de sessió més complets</string>
+    <string name="settings_whatsnew_entry_drawer_title_fade_summary">Els títols llargs de sessió del panell lateral arriben fins a la vora i s’esvaeixen, en lloc de tallar-se abans amb punts suspensius.</string>
+
+    <!-- 2026-10-21-03-call-sounds-from-the-tap -->
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_title">Sons de trucada més immediats</string>
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_summary">Els tons de connexió de la trucada comencen amb el primer moviment de l’animació, en lloc d’un parell de segons després de tocar.</string>
+
+    <!-- 2026-10-21-04-calm-wireframe-launch -->
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_title">Càrrega més tranquil·la</string>
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_summary">Les sessions en memòria cau s’obren de seguida; si una sessió triga a carregar-se, mostra bombolles de missatge que bateguen i deixen pas als teus missatges.</string>
+
+    <!-- 2026-10-21-05-request-dictation-last-line -->
+    <string name="settings_whatsnew_entry_request_dictation_last_line_title">El dictat mostra el final</string>
+    <string name="settings_whatsnew_entry_request_dictation_last_line_summary">A iOS 26, quan atures un dictat llarg al quadre de resposta d’una sol·licitud pendent, es mostren les últimes línies en lloc d’un fragment del mig.</string>
+
+    <!-- 2026-10-21-06-first-run-pairing-fixes -->
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_title">Primer aparellament més clar</string>
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_summary">Si proves d’enganxar amb el porta-retalls buit, s’indica al costat d’«Enganxa», i la configuració ja no promet accés remot en mig minut.</string>
+
+    <!-- 2026-10-21-07-welcome-pairing-copy -->
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_title">Aparella des de l’aplicació OpenCode</string>
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_summary">La pantalla de benvinguda t’indica que vagis a Configuració → Aparellament a l’OpenCode de l’ordinador, o que facis servir /pair al terminal, i inclou l’ordre d’instal·lació per a qui encara no tingui OpenCode.</string>
+
+    <!-- 2026-10-21-08-session-id-links -->
+    <string name="settings_whatsnew_entry_session_id_links_title">Enllaços a sessions</string>
+    <string name="settings_whatsnew_entry_session_id_links_summary">L’ID d’una sessió en una resposta es mostra com el títol d’aquella sessió. Toca’l per obrir-la.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_1">L’ID d’un subagent s’obre sobre la sessió actual, i «Enrere» t’hi retorna.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_2">Mantén-ne premut un per copiar-ne l’ID.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_3">Si el servidor no reconeix un ID, es mostra escurçat.</string>
+    <string name="settings_whatsnew_entry_session_id_links_example">Demana a l’agent que esmenti una altra sessió pel seu ID i toca’n el títol.</string>
+    <string name="settings_whatsnew_entry_session_id_links_prompt">Llista les meves cinc sessions més recents d’OpenCode amb els seus ID de sessió.</string>
+
+    <!-- 2026-10-21-10-ipad-multiple-windows -->
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_title">Diverses finestres en tauletes</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_summary">En una tauleta, obre sessions en finestres pròpies i mantén-ne dues de costat.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_1">Mantén premuda una sessió al panell lateral i tria «Obre en una finestra nova».</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_2">Cada finestra té la seva sessió, el seu panell lateral i el seu quadre de missatge.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_3">Les sessions fixades, les llegides i els teus servidors són els mateixos a totes les finestres.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_4">Les finestres tornen a la sessió que mostraven.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_example">Mantén premuda una sessió al panell lateral, tria «Obre en una finestra nova» i posa-la al costat de la primera.</string>
+
+    <!-- 2026-10-21-11-plain-launch -->
+    <string name="settings_whatsnew_entry_plain_launch_title">Inici senzill</string>
+    <string name="settings_whatsnew_entry_plain_launch_summary">OpenCode s’obre amb una pantalla senzilla i passa directament a la teva sessió tan bon punt està a punt, sense animació de càrrega.</string>
+
+    <!-- 2026-10-21-12-breath-ping-call-sounds -->
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_title">Sons de trucada més suaus</string>
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_summary">La connexió, els avisos i el final de les trucades sonen amb tons suaus, com un sospir, que queden de fons sense destorbar la conversa.</string>
+
+    <!-- 2026-10-21-13-smoother-session-list -->
+    <string name="settings_whatsnew_entry_smoother_session_list_title">Llista de sessions més fluida</string>
+    <string name="settings_whatsnew_entry_smoother_session_list_summary">La llista de sessions del panell lateral es desplaça amb fluïdesa mentre les sessions treballen, i mantenir premuda una sessió n\'obre el menú sense canviar la mida de la fila.</string>
+
+    <!-- 2026-10-22-01-whats-new-actions -->
+    <string name="settings_whatsnew_entry_whats_new_actions_title">Obre i prova des de Novetats</string>
+    <string name="settings_whatsnew_entry_whats_new_actions_summary">La pàgina de cada novetat té un botó que obre la configuració corresponent, com ara Temes, o inicia una nova sessió amb una indicació ja escrita perquè la provis.</string>
+
+    <!-- 2026-10-22-02-project-icons-current-discovery -->
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_title">Correccions a les icones de projecte</string>
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_summary">Amb Icones de projecte activat, el panell lateral també mostra les icones que el servidor troba als paquets d\'Icon Composer.</string>
+
+    <!-- 2026-10-22-03-new-divider-off-page -->
+    <string name="settings_whatsnew_entry_new_divider_off_page_title">Nou només quan cal</string>
+    <string name="settings_whatsnew_entry_new_divider_off_page_summary">Amb l\'experiment Separador de missatges nous activat, Nou marca el que ha arribat només si no cap tot a la pantalla.</string>
+
+    <!-- 2026-10-22-04-catch-up-all-caught-up-row -->
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_title">Ja estàs al dia</string>
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_summary">Llegir l\'última sessió de Posa\'t al dia et torna directament al panell lateral, on Posa\'t al dia queda marcat com a Ja estàs al dia.</string>
+
+    <!-- 2026-10-23-01-session-mentions -->
+    <string name="settings_whatsnew_entry_session_mentions_title">Esmenta sessions</string>
+    <string name="settings_whatsnew_entry_session_mentions_summary">Amb l\'experiment Compleció automàtica del redactor activat, escriu @ per esmentar una altra sessió pel títol, com a l\'escriptori.</string>
+
+    <!-- 2026-10-23-02-gpt-live-own-key -->
+    <string name="settings_whatsnew_entry_gpt_live_own_key_title">Tecles de GPT-Live</string>
+    <string name="settings_whatsnew_entry_gpt_live_own_key_summary">Les trucades de GPT-Live poden fer servir la teva tecla d\'OpenAI, la del servidor o la seva connexió a OpenCode Console.</string>
+
+    <!-- 2026-10-23-03-pair-opens-drawer -->
+    <string name="settings_whatsnew_entry_pair_opens_drawer_title">Reprèn on ho vas deixar</string>
+    <string name="settings_whatsnew_entry_pair_opens_drawer_summary">Després d\'aparellar un ordinador nou, el panell lateral s\'obre amb les sessions recents perquè en triïs una, en lloc de deixar-te en una sessió buida.</string>
+
+    <!-- 2026-10-23-04-voice-server-picker -->
+    <string name="settings_whatsnew_entry_voice_server_picker_title">Tria un servidor de veu</string>
+    <string name="settings_whatsnew_entry_voice_server_picker_summary">A Configuració › Veu › Proveïdor de veu, tria per quin servidor desat passen les trucades, o fes servir el teu compte d\'OpenAI en aquest mòbil.</string>
+
+    <!-- 2026-10-24-01-living-orb-floats -->
+    <string name="settings_whatsnew_entry_living_orb_floats_title">L\'esfera viva flota arreu</string>
+    <string name="settings_whatsnew_entry_living_orb_floats_summary">Esfera viva és ara l\'estil de trucada flotant a Configuració › Experimental › Trucades. És més gran, es manté per sobre de Configuració i de qualsevol pantalla, i es mou amb totes dues veus, cadascuna amb el seu color quan parleu alhora. Toca-la per ampliar-la en una targeta, arrossega-la amunt per veure tota la trucada i la transcripció, i avall per tornar-la a reduir. Esfera, sota Estil de trucada, en canvia l\'aspecte.</string>
+
+    <!-- 2026-10-24-02-new-messages-divider-on -->
+    <string name="settings_whatsnew_entry_new_messages_divider_on_title">Separador de missatges nous</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_summary">Quan una resposta que ha arribat mentre eres fora no cap a la pantalla, la sessió s\'obre amb un separador Nou al començament de la resposta.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_1">Si la resposta cap a la pantalla, s\'obre al final, sense separador.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_2">Les respostes que van arribant mentre les mires no es marquen mai.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_3">Llegir fins al final elimina el separador.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_4">Desactiva\'l a Configuració › Sessions.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_example">Demana una resposta llarga, canvia a una altra aplicació fins que acabi i torna.</string>
+
+    <!-- 2026-10-24-03-composer-keyboard-morph -->
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_title">El redactor segueix el teclat</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_summary">Els controls del redactor s\'obren amb el teclat i es mouen amb ell quan l\'arrossegues amunt i avall.</string>
+
+    <!-- 2026-10-24-04-composer-photo-viewer -->
+    <string name="settings_whatsnew_entry_composer_photo_viewer_title">Fotos del redactor a pantalla completa</string>
+    <string name="settings_whatsnew_entry_composer_photo_viewer_summary">Toca una foto del redactor per veure-la a pantalla completa, llisca per passar d\'una foto a l\'altra i elimina\'n alguna abans d\'enviar.</string>
+
+    <!-- 2026-10-24-05-plus-menu-photo-picker -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_title">Nou selector de fotos</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_summary">Activa Nou menú + a Configuració › Experimental › Redactor per triar fins a 8 fotos recents des del menú +, explorar Totes les fotos i veure com passen al redactor i després a la sessió.</string>
+
+    <!-- 2026-10-24-06-project-icons-lit -->
+    <string name="settings_whatsnew_entry_project_icons_lit_title">Icones de projecte il·luminades</string>
+    <string name="settings_whatsnew_entry_project_icons_lit_summary">Amb Icones de projecte activat, les icones del panell lateral reflecteixen la llum: una lluentor suau des de dalt, una vora fina de vidre i una ombra tènue.</string>
+
+    <!-- 2026-10-24-07-session-live-activity -->
+    <string name="settings_whatsnew_entry_session_live_activity_title">Actualitzacions de sessió en directe</string>
+    <string name="settings_whatsnew_entry_session_live_activity_summary">Activa Actualitzacions de sessió en directe a Configuració › Experimental › Panell lateral per seguir una tasca que enviïs en una notificació en directe, també a la pantalla de bloqueig, fins que acabi o necessiti la teva intervenció.</string>
+
+    <!-- 2026-10-24-08-sign-in-failed-edit-server -->
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_title">Resol un inici de sessió rebutjat</string>
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_summary">Quan un servidor rebutja la contrasenya, el seu menú al panell lateral ofereix Edita el servidor… en lloc de Torna-ho a provar, que no ho podia resoldre. La pantalla de benvinguda ara indica que executis opencode pair --remote al terminal.</string>
+
+    <!-- 2026-10-25-01-voice-app-screenshot -->
+    <string name="settings_whatsnew_entry_voice_app_screenshot_title">Captures de pantalla per veu</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_summary">En una trucada de veu, digues «mira això» i la pantalla de l\'aplicació s\'envia a una sessió amb els teus comentaris.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_1">Només envia la pantalla de l\'aplicació, amb el nom de la pantalla i l\'estat de la trucada i de l\'aplicació.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_2">Demana que s\'hi adjuntin el registre de la trucada o els registres recents de l\'aplicació; les adreces i les credencials s\'oculten.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_3">No fa cap captura mentre es mostra una pantalla d\'inici de sessió o un camp de contrasenya.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_example">En una trucada de veu, digues «fes una captura de pantalla, aquesta fila està desalineada»</string>
+
+    <!-- 2026-10-25-02-voice-background-results -->
+    <string name="settings_whatsnew_entry_voice_background_results_title">Resultats en segon pla a les trucades</string>
+    <string name="settings_whatsnew_entry_voice_background_results_summary">Quan una sessió a la qual has fet una petició durant una trucada comença a treballar en segon pla, la trucada t\'explica què ha trobat tan bon punt acaba, encara que ja estiguis fent altres coses.</string>
+
+    <!-- 2026-10-25-03-sound-effects-experiment -->
+    <string name="settings_whatsnew_entry_sound_effects_experiment_title">Efectes de so</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_summary">Un experiment que reprodueix sons suaus amb les vibracions per a les respostes, les sol·licituds, Posa\'t al dia i els enviaments fallits.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_1">Els modes de silenci i vibració els silencien, i la música continua sonant.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_2">No sonen durant les trucades, el dictat o la reproducció multimèdia, ni en segon pla.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_3">Volum i l\'opció So d\'enviament són sota l\'interruptor.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_example">Activa Efectes de so a Configuració › Experimental i espera una resposta en una altra sessió</string>
+
+    <!-- 2026-10-25-90-session-title-first-prompt -->
+    <string name="settings_whatsnew_entry_session_title_first_prompt_title">Títols a partir de la primera indicació</string>
+    <string name="settings_whatsnew_entry_session_title_first_prompt_summary">Les sessions sense títol ara mostren la primera indicació en una sola línia fins que el servidor els posa nom.</string>
+
+    <!-- 2026-10-26-01-settings-sessions-page -->
+    <string name="settings_whatsnew_entry_settings_sessions_page_title">Configuració de sessions</string>
+    <string name="settings_whatsnew_entry_settings_sessions_page_summary">Configuració té una nova pàgina Sessions, on Separador de missatges nous és damunt d\'Envia amb la tecla de retorn, i Avançat ara té dues files: Experimental i Desenvolupador.</string>
+
+    <!-- 2026-10-26-02-project-icons-default -->
+    <string name="settings_whatsnew_entry_project_icons_default_title">Icones de projecte activades</string>
+    <string name="settings_whatsnew_entry_project_icons_default_summary">Les icones de projecte ara apareixen al costat dels títols de les sessions. Desactiva-les a Configuració › Experimental.</string>
+
+    <!-- 2026-10-26-03-plus-menu-over-keyboard -->
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_title">Fotos per sobre del teclat</string>
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_summary">Amb Nou menú + activat, el menú + s\'obre per sobre del teclat, i Fotos s\'amplia en un panell fins a les vores de la pantalla i després es replega sense amagar el teclat.</string>
+
+    <!-- 2026-10-26-04-living-orb-connect-motion -->
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_title">Animació de connexió de l\'esfera</string>
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_summary">Amb l\'Esfera viva activada, el botó de trucada puja fins a l\'esfera i gira mentre es connecta, i torna al seu lloc quan la trucada acaba. Si tornes a trucar de seguida, s\'inicia una trucada nova sense quedar-se encallada.</string>
+
+    <!-- 2026-10-26-05-living-orb-presets -->
+    <string name="settings_whatsnew_entry_living_orb_presets_title">Predefinits de l\'esfera i estil sofisticat</string>
+    <string name="settings_whatsnew_entry_living_orb_presets_summary">L\'opció Esfera, sota Estil de trucada a Configuració › Experimental › Trucades, ara s\'obre amb l\'estil Sofisticat, una vista prèvia en directe més gran i una fila de predefinits. Desa els teus, canvia\'ls el nom i copia o enganxa una configuració per compartir-la.</string>
+
+    <!-- 2026-10-26-06-send-after-a-pause -->
+    <string name="settings_whatsnew_entry_send_after_a_pause_title">Enviament més fluid després d\'una pausa</string>
+    <string name="settings_whatsnew_entry_send_after_a_pause_summary">Ara, quan envies un missatge després d\'una pausa, puja directament del redactor a la seva bombolla, en lloc de baixar primer cap al redactor per sota de l\'hora.</string>
+
+    <!-- 2026-10-27-01-steadier-round-trip -->
+    <string name="settings_whatsnew_entry_steadier_round_trip_title">Temps d\'anada i tornada més estable</string>
+    <string name="settings_whatsnew_entry_steadier_round_trip_summary">El valor en ms de la targeta de connexió ara és una mitjana mòbil de les últimes comprovacions. Així, una resposta lenta només el fa variar una mica, sense salts bruscos.</string>
+
+    <!-- 2026-10-27-02-drawer-drag-follows-finger -->
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_title">El panell lateral segueix el dit</string>
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_summary">Ara, quan arrossegues una sessió al panell lateral, es manté sota el dit, passa per sobre de la capçalera, desplaça la llista en arribar a les vores i encaixa al seu lloc quan la deixes anar.</string>
+
+    <!-- 2026-10-27-03-inbox-sidebar-experiment -->
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_title">Safata d\'entrada al panell lateral</string>
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_summary">Activa Safata d\'entrada al panell lateral a Configuració › Experimental › Panell lateral per veure les sessions com una safata d\'entrada: primer les que et necessiten, després les que tens sense llegir, amb el projecte i l\'última resposta. Llisca per marcar-les com a llegides o arxivar-les.</string>
+
+    <!-- 2026-10-28-01-first-pairing-ready-session -->
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_title">La primera sessió, a punt</string>
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_summary">Ara, en aparellar el primer ordinador, s\'obre una sessió nova al seu projecte més recent, amb algunes preguntes per provar, i un toc confirma que hi tens connexió. Les instal·lacions noves també comencen amb les Novetats ja llegides.</string>
+
+    <!-- 2026-10-28-02-welcome-preview -->
+    <string name="settings_whatsnew_entry_welcome_preview_title">Vista prèvia de la benvinguda</string>
+    <string name="settings_whatsnew_entry_welcome_preview_summary">La nova benvinguda inicial mostra OpenCode treballant en un portàtil mentre un mòbil el dirigeix, i després permet aparellar-los en un sol pas. Activa Vista prèvia de la benvinguda a Configuració › Experimental › Panell lateral i toca Mostra la benvinguda per veure-la; en tancar-la, tornaràs on eres.</string>
+
+    <!-- 2026-10-29-01-composer-text-selection -->
+    <string name="settings_whatsnew_entry_composer_text_selection_title">Selecciona text al redactor</string>
+    <string name="settings_whatsnew_entry_composer_text_selection_summary">Arrossegar els controls de selecció o la lupa en un esborrany ja no amaga el teclat ni mou el redactor amunt o avall.</string>
+
+    <!-- 2026-10-30-01-voice-waits-for-you -->
+    <string name="settings_whatsnew_entry_voice_waits_for_you_title">Les trucades esperen que acabis</string>
+    <string name="settings_whatsnew_entry_voice_waits_for_you_summary">L\'agent de veu ja no et trepitja quan parles: espera que acabis per donar novetats i, si l\'interromps, deixa de parlar.</string>
+
+    <!-- 2026-10-30-02-wisp-call-sounds -->
+    <string name="settings_whatsnew_entry_wisp_call_sounds_title">Sons de Wisp a les trucades de veu</string>
+    <string name="settings_whatsnew_entry_wisp_call_sounds_summary">Les trucades comencen amb un alè suau sobre un so tènue de connexió, fan un repic en connectar-se, petits clics mentre l\'agent consulta, obre o executa coses, i un sospir en acabar. Tria un altre conjunt a Configuració › Veu › Sons de trucada.</string>
+
+    <!-- 2026-10-30-03-wisp-orb -->
+    <string name="settings_whatsnew_entry_wisp_orb_title">L\'esfera de veu ara és Wisp</string>
+    <string name="settings_whatsnew_entry_wisp_orb_summary">L\'esfera de la trucada ara té l\'aspecte de Wisp: una lent de vidre sobre punts lluminosos que les dues veus il·luminen, amb els estats de Wisp per connectar, escoltar, treballar, parlar i esperar-te. És l\'únic estil d\'esfera, així que s\'han eliminat els estils antics i la configuració d\'Esfera.</string>
+
+    <!-- 2026-10-31-01-encrypted-notification-previews -->
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_title">Vistes prèvies de notificacions xifrades</string>
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_summary">Amb el connector de notificacions actualitzat i una connexió HTTPS, el servidor xifra el títol i el missatge per a aquest dispositiu. Si no es pot obrir una vista prèvia, la notificació només diu «Activitat nova».</string>
+
+    <!-- 2026-10-31-02-move-session-folder-gone -->
+    <string name="settings_whatsnew_entry_move_session_folder_gone_title">Les sessions sobreviuen a la carpeta</string>
+    <string name="settings_whatsnew_entry_move_session_folder_gone_summary">Si la carpeta d\'una sessió ja no existeix, com ara un espai de treball eliminat, quan falla un enviament s\'ofereix moure la sessió a la carpeta del projecte i tornar-lo a enviar.</string>
+
+    <!-- 2026-10-31-03-notification-plugin-setup -->
+    <string name="settings_whatsnew_entry_notification_plugin_setup_title">Configura les notificacions amb OpenCode</string>
+    <string name="settings_whatsnew_entry_notification_plugin_setup_summary">A Configuració → Notificacions, toca Configura amb OpenCode per revisar una indicació que instal·la el connector de notificacions que falta.</string>
+
+    <!-- 2026-11-01-01-call-card-takes-over -->
+    <string name="settings_whatsnew_entry_call_card_takes_over_title">La targeta de trucada ocupa la part inferior</string>
+    <string name="settings_whatsnew_entry_call_card_takes_over_summary">Amb l\'Esfera viva, la targeta de trucada ara omple la part inferior de la pantalla per sobre del camp de missatge, amb marges uniformes, perquè el teclat ja no la comprimeixi. Redueix-la a l\'esfera per escriure.</string>
+
+    <!-- 2026-11-01-01-screenshot-shutter -->
+    <string name="settings_whatsnew_entry_screenshot_shutter_title">Obturador de captures de pantalla</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_summary">Quan l\'aplicació fa una captura de si mateixa per a una sessió, la pantalla fa un flaix i sona l\'obturador.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_1">El flaix es produeix després de la captura, de manera que no hi surt mai.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_2">Redueix el moviment el converteix en un enfosquiment suau, i Atenua els llums intermitents el desactiva.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_3">Durant una trucada, el clic es reprodueix pel canal de la trucada perquè l\'agent no el senti.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_example">En una trucada de veu, digues «mira això»</string>
+
+    <!-- 2026-11-01-01-voice-says-whats-running -->
+    <string name="settings_whatsnew_entry_voice_says_whats_running_title">Les trucades expliquen què continua en marxa</string>
+    <string name="settings_whatsnew_entry_voice_says_whats_running_summary">Quan la teva petició triga una estona, l\'agent de veu t\'explica en què treballa en lloc de quedar-se en silenci.</string>
+
+    <!-- 2026-11-01-02-living-orb-default -->
+    <string name="settings_whatsnew_entry_living_orb_default_title">Les trucades floten a l\'esfera</string>
+    <string name="settings_whatsnew_entry_living_orb_default_summary">Ara les trucades de veu floten a l\'Esfera viva per a tothom, per sobre de qualsevol pantalla, mentre el camp de missatge queda lliure.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_1">Toca l\'esfera per ampliar-la a la targeta de trucada i arrossega cap amunt per veure tota la trucada i la transcripció.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_2">Arrossega l\'esfera on vulguis; es queda al seu lloc quan canvies de sessió o obres Configuració.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_3">També pots iniciar una trucada des de la llista de sessions, amb el botó de trucada al costat de Configuració.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_4">La Safata ha desaparegut: si la feies servir, les trucades també floten a l\'esfera.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_5">Desactiva-la a Configuració › Experimental › Trucades › Esfera viva.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_example">Inicia una trucada i obre la llista de sessions: l\'esfera t\'acompanya</string>
+
+    <!-- 2026-11-01-02-quicker-send -->
+    <string name="settings_whatsnew_entry_quicker_send_title">Enviament més ràpid</string>
+    <string name="settings_whatsnew_entry_quicker_send_summary">Ara, quan envies un missatge, puja a la seva bombolla alhora que la llista, sense esperar primer al redactor.</string>
+
+    <!-- 2026-11-01-02-share-screen-with-agents -->
+    <string name="settings_whatsnew_entry_share_screen_with_agents_title">Comparteix la pantalla amb els agents</string>
+    <string name="settings_whatsnew_entry_share_screen_with_agents_summary">Activa Comparteix la pantalla amb els agents a Configuració › Experimental › Trucades i, durant una trucada, un agent et podrà demanar de veure l\'aplicació: toca Comparteix per enviar-li una imatge, o Ara no.</string>
+
+    <!-- 2026-11-01-03-audio-in-calls -->
+    <string name="settings_whatsnew_entry_audio_in_calls_title">Àudio a les trucades</string>
+    <string name="settings_whatsnew_entry_audio_in_calls_summary">Activa Àudio a les trucades a Configuració › Experimental › Trucades i, durant una trucada, un agent et podrà posar música o un clip. El volum baixa quan parla qualsevol dels dos; pots posar-lo en pausa o aturar-lo sobre el redactor.</string>
+
+    <!-- 2026-11-01-03-open-links-from-calls -->
+    <string name="settings_whatsnew_entry_open_links_from_calls_title">Obre enllaços des de les trucades</string>
+    <string name="settings_whatsnew_entry_open_links_from_calls_summary">Activa Obre enllaços des de les trucades a Configuració › Experimental › Trucades i, durant una trucada, un agent et podrà oferir un enllaç, com ara un trajecte d\'Uber: toca Obert per obrir-lo a la seva aplicació, o Ara no.</string>
+
+    <!-- 2026-11-02-01-fold-questions -->
+    <string name="settings_whatsnew_entry_fold_questions_title">Plega les preguntes perquè no destorbin</string>
+    <string name="settings_whatsnew_entry_fold_questions_summary">Arrossega una pregunta cap avall per plegar-la en una barra petita sobre el redactor, i toca-la per recuperar-la. Si una resposta falla, ara espera que toquis Torna-ho a provar.</string>
+
+    <!-- 2026-11-02-01-steadier-following -->
+    <string name="settings_whatsnew_entry_steadier_following_title">Seguiment més estable</string>
+    <string name="settings_whatsnew_entry_steadier_following_summary">Mentre es genera una resposta, es manté fixada a baix sense que l\'indicador Treballant faci salts, i pots desplaçar la llista des de qualsevol punt per sobre del redactor.</string>
+
+    <!-- 2026-11-02-40-model-display-names -->
+    <string name="settings_whatsnew_entry_model_display_names_title">Noms dels models</string>
+    <string name="settings_whatsnew_entry_model_display_names_summary">El redactor recorda els noms dels models mentre la llista de models es carrega o es reconnecta.</string>
+
+    <!-- 2026-11-02-41-all-experiments -->
+    <string name="settings_whatsnew_entry_all_experiments_title">Tots els experiments</string>
+    <string name="settings_whatsnew_entry_all_experiments_summary">Un interruptor a dalt de Configuració › Experimental activa tots els experiments, també els nous a mesura que arriben.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_1">Desactiva un experiment per ometre\'l; continuarà desactivat la pròxima vegada.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_2">Si desactives Tots els experiments, es recupera la configuració anterior dels interruptors.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_3">Els experiments que demanen permisos es continuen activant per separat.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_4">L\'autocompleció, el panell de fotos del menú més, el nou selector de servidors i les icones de projecte ja estan activats per a tothom.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_5">Selector únic i Esfera viva ara són interruptors normals, i Safata de trucades s\'ha eliminat.</string>
+    <string name="settings_whatsnew_entry_all_experiments_example">Obre Configuració › Experimental i activa Tots els experiments</string>
+
+    <!-- 2026-11-03-01-search-all-sessions -->
+    <string name="settings_whatsnew_entry_search_all_sessions_title">Troba sessions antigues</string>
+    <string name="settings_whatsnew_entry_search_all_sessions_summary">La cerca del panell lateral ara busca a totes les sessions, no només a les recents, i en desplaçar-te fins al final es carreguen sessions més antigues.</string>
+
+    <!-- 2026-11-03-01-voice-open-session -->
+    <string name="settings_whatsnew_entry_voice_open_session_title">Canvia de sessió amb la veu</string>
+    <string name="settings_whatsnew_entry_voice_open_session_summary">Si demanes a l\'agent de veu que obri una sessió, ara es tanca el panell lateral i la trucada es manté connectada.</string>
+
+    <!-- 2026-11-03-02-orb-divider-image-links -->
+    <string name="settings_whatsnew_entry_orb_divider_image_links_title">Tres experiments per a tothom</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_summary">L\'Esfera viva, el separador Nou i les vistes prèvies d\'enllaços a imatges ja estan activats per a tothom, sense interruptor.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_1">Totes les trucades suren a l\'Esfera viva; l\'antiga barra de trucades s\'ha eliminat.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_2">Quan tornes a una sessió, el separador Nou marca el que ha arribat mentre no hi eres, si no cap a la pantalla.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_3">Els enllaços directes a una imatge la mostren sota el missatge.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_example">Inicia una trucada des del redactor i mira com sura a l\'esfera</string>
+
+    <!-- 2026-11-04-01-call-links-and-audio -->
+    <string name="settings_whatsnew_entry_call_links_and_audio_title">Enllaços i àudio a les trucades</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_summary">Obre enllaços des de les trucades i Àudio a les trucades ja estan activats per a tothom, sense interruptor.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_1">Durant una trucada, un agent pot oferir un enllaç, com ara un trajecte d\'Uber: toca Obert per obrir-lo a la seva aplicació, o Ara no.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_2">Un agent pot reproduir música o un clip durant la trucada. El volum baixa quan algun dels dos parla; pots posar-lo en pausa o aturar-lo damunt del redactor.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_example">Durant una trucada, demana a l\'agent que posi música</string>
+
+    <!-- 2026-11-04-01-composer-editing-caret -->
+    <string name="settings_whatsnew_entry_composer_editing_caret_title">Edició d\'esborranys</string>
+    <string name="settings_whatsnew_entry_composer_editing_caret_summary">Quan edites una paraula al mig d\'un esborrany, el cursor es queda on escrius.</string>
+
+    <!-- 2026-11-04-01-loading-touch-recovery -->
+    <string name="settings_whatsnew_entry_loading_touch_recovery_title">Desplaçament després de carregar</string>
+    <string name="settings_whatsnew_entry_loading_touch_recovery_summary">Si tornes a l\'aplicació durant una transició de càrrega, pots tornar a desplaçar la transcripció immediatament.</string>
+
+    <!-- 2026-11-05-01-composer-keyboard-width -->
+    <string name="settings_whatsnew_entry_composer_keyboard_width_title">Redactor més ample en escriure</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_width_summary">Amb el teclat obert, el redactor s\'eixampla i deixa un marge petit i uniforme perquè els esborranys llargs ocupin menys línies.</string>
+
+    <!-- 2026-11-05-02-plus-menu-touch-release -->
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_title">Tancament del menú d\'adjunts</string>
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_summary">Tancar el menú d\'adjunts desbloqueja la sessió de sota, fins i tot durant un canvi de disposició.</string>
+
+    <!-- 2026-11-05-02-quiet-reconnecting-pill -->
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_title">Inici més estable</string>
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_summary">En obrir l\'aplicació, ja no apareix fugaçment «S\'està reconnectant…» damunt del redactor ni es mou la sessió; l\'indicador només apareix si la reconnexió triga una mica.</string>
+
+    <!-- 2026-11-05-03-stuck-touch-recovery -->
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_title">El desplaçament es recupera sol</string>
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_summary">Si un element invisible impedeix desplaçar una sessió durant més d\'un segon, l\'aplicació la desbloqueja.</string>
+
+    <!-- 2026-11-05-04-reply-text-selection -->
+    <string name="settings_whatsnew_entry_reply_text_selection_title">Selecciona al llarg d\'una resposta</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_summary">Mantén premuda una paraula d\'una resposta o toca-la dos cops, i arrossega els controls de selecció per paràgrafs, llistes, codi i taules.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_1">Mantén un control de selecció just sota la capçalera o damunt del redactor i la resposta es desplaçarà, més de pressa com més a prop siguis de la vora.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_2">Còpia conserva els pics i els números de les llistes, i les files i columnes de les taules. Cita afegeix la selecció al redactor i manté els blocs de codi delimitats.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_example">Mantén premuda una paraula prop de l\'inici d\'una resposta llarga, arrossega el control final fins al redactor i mantén-lo allà</string>
+
+    <!-- 2026-11-06-01-scrolling-unsticks -->
+    <string name="settings_whatsnew_entry_scrolling_unsticks_title">El desplaçament es desbloqueja sol</string>
+    <string name="settings_whatsnew_entry_scrolling_unsticks_summary">Si una sessió de vegades no es podia desplaçar fins que en seleccionaves una altra, ara es recupera sola.</string>
+
+    <!-- 2026-11-06-02-server-addresses -->
+    <string name="settings_whatsnew_entry_server_addresses_title">Connexions al servidor més estables</string>
+    <string name="settings_whatsnew_entry_server_addresses_summary">OpenCode prova totes les adreces d\'un servidor alhora i fa servir la primera que respon, de manera que es reconnecta quan surts de casa sense haver de desactivar i reactivar la VPN.</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_1">Una adreça que funcionava a la xarxa de casa ja no es prova primer a totes les altres xarxes.</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_2">Un tall breu, desbloquejar el mòbil o desplegar la configuració ràpida ja no fa aparèixer un avís fugaç. S\'està reconnectant apareix al cap d\'uns segons, i Sense connexió al cap d\'uns 12, o de 4 si el mòbil no té xarxa.</string>
+    <string name="settings_whatsnew_entry_server_addresses_example">Amb una sessió oberta en un servidor aparellat amb Tailscale, desactiva la Wi-Fi i continua treballant</string>
+
+    <!-- 2026-11-07-01-server-voice -->
+    <string name="settings_whatsnew_entry_server_voice_title">Trucades amb les tecles del servidor</string>
+    <string name="settings_whatsnew_entry_server_voice_summary">Veu del servidor ja està activat per a tothom, sense interruptor. Les trucades poden fer servir les tecles del servidor OpenCode, així que aquest mòbil no necessita una tecla OpenAI pròpia.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_1">Amb Tria automàticament activat, les trucades fan servir el servidor actual, després la tecla OpenAI d\'aquest mòbil i, finalment, un altre servidor desat que estigui preparat.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_2">Si tant aquest mòbil com el servidor tenen una tecla OpenAI, les trucades ara fan servir la del servidor. Per continuar fent servir la teva, obre El teu compte OpenAI a Proveïdor de veu i toca Fes servir per a les trucades.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_3">Gemini Live ara també és un proveïdor als servidors amb una tecla de Gemini.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_4">Si una trucada no pot començar, s\'explica el motiu i es mostra el botó per resoldre-ho.</string>
+    <string name="settings_whatsnew_entry_server_voice_example">Obre Configuració › Veu i toca Proveïdor de veu</string>
+
+    <!-- 2026-11-07-02-rename-clear-button -->
+    <string name="settings_whatsnew_entry_rename_clear_button_title">Esborra un títol amb un toc</string>
+    <string name="settings_whatsnew_entry_rename_clear_button_summary">Canvia el nom de la sessió i Canvia el nom del servidor ara tenen un botó per netejar el text i començar un títol nou sense haver d\'esborrar l\'anterior.</string>
+
+    <!-- 2026-11-07-03-one-picker -->
+    <string name="settings_whatsnew_entry_one_picker_title">Nou selector de models</string>
+    <string name="settings_whatsnew_entry_one_picker_summary">Toca el model al quadre de missatge i la llista es desplegarà des d\'allà, amb Preferits i Recents a dalt i tots els proveïdors a sota.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_1">Toca el nivell de pensament a la fila d’un model, com ara «alt», per canviar-lo sense sortir de la llista.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_2">Llisca una fila o mantén-la premuda per afegir el model als preferits o treure’l.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_3">La cerca és a baix. Si escrius un nivell després del nom, com ara «opus high», en prémer Retorn se seleccionen tots dos.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_4">Arrossega el tirador cap amunt per ampliar la llista o cap avall per tancar-la.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_5">El nou selector substitueix l’antic panell de models, i l’opció Selector únic ja no és a Configuració › Experimental.</string>
+    <string name="settings_whatsnew_entry_one_picker_example">Toca el model al quadre de missatge i llisca una fila per marcar-lo com a preferit</string>
+
+    <!-- 2026-11-08-01-connecting-caption-glass -->
+    <string name="settings_whatsnew_entry_connecting_caption_glass_title">«S’està connectant a través de…» més llegible</string>
+    <string name="settings_whatsnew_entry_connecting_caption_glass_summary">Mentre una trucada es connecta a través d’un servidor, el text «S’està connectant a través de…» té un fons translúcid perquè no es confongui amb els missatges del darrere.</string>
+
+    <!-- 2026-11-08-02-default-model -->
+    <string name="settings_whatsnew_entry_default_model_title">Les noves sessions fan servir el teu model per defecte</string>
+    <string name="settings_whatsnew_entry_default_model_summary">Les noves sessions comencen amb el model que has definit per defecte a OpenCode i l’últim nivell de pensament que hi has triat, en lloc del model de l’última sessió.</string>
+
+    <!-- 2026-11-11-01-streamed-reply-prefix -->
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_title">Obre una resposta en curs</string>
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_summary">Si obres una sessió mentre arriba una resposta, pots llegir el que ja ha arribat mentre es continua generant.</string>
+
+    <!-- 2026-11-13-01-draw-on-images -->
+    <string name="settings_whatsnew_entry_draw_on_images_title">Dibuixa sobre les imatges</string>
+    <string name="settings_whatsnew_entry_draw_on_images_summary">Assenyala un detall abans de preguntar-hi res.</string>
+    <string name="settings_whatsnew_entry_draw_on_images_detail_1">Obre una imatge a pantalla completa i toca el botó del llapis. Tria un color, dibuixa i toca Afegeix per adjuntar la imatge amb les marques al missatge. L\'original no es modifica.</string>
+    <string name="settings_whatsnew_entry_draw_on_images_example">Encercla el control que vols moure en una captura de pantalla i descriu on ha d\'anar.</string>
+
+    <!-- 2026-11-14-01-fullscreen-viewer -->
+    <string name="settings_whatsnew_entry_fullscreen_viewer_title">Llisca entre fotos i vídeos</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_summary">Explora les imatges i els vídeos d\'una sessió en un sol lloc.</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_detail_1">Llisca fins a un vídeo i toca el botó del llapis per fer marques al fotograma actual. Afegeix adjunta el fotograma amb les marques sense enviar-lo.</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_example">Posa una demostració en pausa a la pantalla que cal canviar, encercla el detall i afegeix-la a l\'esborrany.</string>
+
+    <!-- 2026-11-15-01-pairing-link-name -->
+    <string name="settings_whatsnew_entry_pairing_link_name_title">Servidors amb nom des d\'OpenCode Console</string>
+    <string name="settings_whatsnew_entry_pairing_link_name_summary">Els servidors que aparelles des d\'OpenCode Console ja venen amb el seu nom, com ara «Anomaly Box».</string>
+
+    <!-- 2026-11-17-01-session-media -->
+    <string name="settings_whatsnew_entry_session_media_title">Multimèdia de la sessió</string>
+    <string name="settings_whatsnew_entry_session_media_summary">Explora les imatges, els vídeos, l\'àudio, els fitxers i els enllaços web públics d\'una sessió.</string>
+    <string name="settings_whatsnew_entry_session_media_detail_1">Tria Multimèdia de la sessió al menú ⋮ d\'una sessió. Multimèdia mostra les imatges, els vídeos i l\'àudio en mosaics agrupats per mes o en una llista, i Fitxers i Enllaços mostren els documents, els textos enganxats i els enllaços web.</string>
+    <string name="settings_whatsnew_entry_session_media_example">Troba la captura de pantalla que has enviat aquest matí sense haver de recórrer tota la sessió.</string>
+
+    <!-- 2026-11-18-02-drawer-call-phone -->
+    <string name="settings_whatsnew_entry_drawer_call_phone_title">Icona de telèfon per a les trucades al panell lateral</string>
+    <string name="settings_whatsnew_entry_drawer_call_phone_summary">El botó de trucada al costat de Configuració, a la llista de sessions, mostra un telèfon com el del quadre de missatge.</string>
+
+    <!-- 2026-11-19-01-background-scripts -->
+    <string name="settings_whatsnew_entry_background_scripts_title">Scripts a les tasques en segon pla</string>
+    <string name="settings_whatsnew_entry_background_scripts_summary">Els scripts que l\'agent passa a segon pla apareixen al costat dels subagents i els intèrprets d\'ordres. Els subagents continuen a la llista mentre les seves imatges, vídeos o scripts segueixen en curs. Pots aturar tant els scripts com els subagents des de la llista.</string>
+</resources>

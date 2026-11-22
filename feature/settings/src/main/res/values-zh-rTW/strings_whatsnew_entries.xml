@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- What’s New entries, oldest first: one group per file in whatsnew/entries/. -->
+
+    <!-- 2026-10-06-01-voice-messages -->
+    <string name="settings_whatsnew_entry_voice_messages_title">語音訊息</string>
+    <string name="settings_whatsnew_entry_voice_messages_summary">語音助理代你向工作階段提出的要求，會顯示為帶有波形標記的語音訊息。</string>
+
+    <!-- 2026-10-07-01-attachment-menu-hold -->
+    <string name="settings_whatsnew_entry_attachment_menu_hold_title">用 + 附加內容</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_summary">點一下 +，就會從訊息框展開相機、照片和檔案選單。按住 + 再滑動，一個動作就能選好。</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_1">照片會直接在訊息框上方開啟，點選即可附加。</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_2">相機提供鏡頭切換按鈕、雙指縮放、點按對焦和閃光燈。</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_example">按住 +，向上滑到「照片」後放開</string>
+
+    <!-- 2026-10-08-01-voice-webrtc-weak-connection -->
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_title">通話更穩定</string>
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_summary">連線不穩時，通話只會短暫卡頓，不再無聲好幾秒。</string>
+
+    <!-- 2026-10-08-02-mute-sessions -->
+    <string name="settings_whatsnew_entry_mute_sessions_title">將工作階段靜音</string>
+    <string name="settings_whatsnew_entry_mute_sessions_summary">已靜音的工作階段仍會保留在清單中，但不會出現在「補看動態」，也不會顯示未讀圓點。</string>
+    <string name="settings_whatsnew_entry_mute_sessions_detail_1">按住「補看動態」即可全部標為已讀，等待你回應的工作階段仍會保留。</string>
+    <string name="settings_whatsnew_entry_mute_sessions_example">在側邊欄中長按工作階段，再點「靜音」</string>
+
+    <!-- 2026-10-08-03-pair-from-anywhere -->
+    <string name="settings_whatsnew_entry_pair_from_anywhere_title">隨處都能配對</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_summary">在電腦上執行 opencode pair --remote，就能從任何網路連線，不必使用同一個 Wi-Fi 或 Tailscale。</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_detail_1">掃描顯示的 QR 碼，或貼上輸出的連結。</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_example">執行 opencode pair --remote，再用手機新增伺服器</string>
+
+    <!-- 2026-10-08-04-drawer-peek -->
+    <string name="settings_whatsnew_entry_drawer_peek_title">查看上次活動時間</string>
+    <string name="settings_whatsnew_entry_drawer_peek_summary">將工作階段清單往工作階段方向拖曳，即可查看各工作階段上次的活動時間。</string>
+    <string name="settings_whatsnew_entry_drawer_peek_detail_1">在清單上向左滑動即可關閉。</string>
+    <string name="settings_whatsnew_entry_drawer_peek_example">開啟工作階段清單，再向右拖曳</string>
+
+    <!-- 2026-10-08-05-dictation-keeps-going -->
+    <string name="settings_whatsnew_entry_dictation_keeps_going_title">語音輸入後直接傳送</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_summary">點一下麥克風開始語音輸入，再從錄音列直接傳送，或先點「停止」檢查內容。</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_1">按住麥克風說話，向上滑動可鎖定錄音，向左滑動可取消。</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_2">離開應用程式後仍會繼續錄音，可透過即時動態停止。</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_3">錄音途中切換工作階段，點「傳送」就會送到目前畫面上的工作階段。</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_example">點一下麥克風，說一句話，再點「傳送」</string>
+
+    <!-- 2026-10-08-06-siri-shortcuts-spotlight -->
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_title">應用程式動作與捷徑</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_summary">透過 Google 助理的應用程式動作、應用程式捷徑或快速設定，即可開始通話、建立工作階段或傳送訊息。</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_detail_1">長按應用程式圖示，即可查看最近的工作階段。</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_example">說「Hey Google，在 OpenCode 中開始語音通話」</string>
+
+    <!-- 2026-10-09-01-working-orb -->
+    <string name="settings_whatsnew_entry_working_orb_title">狀態光球</string>
+    <string name="settings_whatsnew_entry_working_orb_summary">「工作中」旁和子代理卡片上的光球會顯示代理程式正在做什麼，完成後則變成複製按鈕。</string>
+
+    <!-- 2026-10-09-02-shell-glyph -->
+    <string name="settings_whatsnew_entry_shell_glyph_title">Shell 動態</string>
+    <string name="settings_whatsnew_entry_shell_glyph_summary">Shell 執行時，&gt;_ 提示符號會隨著輸出以動畫顯示。</string>
+
+    <!-- 2026-10-09-03-math-and-diagrams -->
+    <string name="settings_whatsnew_entry_math_and_diagrams_title">數學公式與圖表</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_summary">回覆可排版數學公式，並繪製 Mermaid 圖表。</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_1">點一下圖表可放大，長按則可查看原始碼。</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_2">數學公式會配合你的文字大小。</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_example">請代理程式畫出訊息傳送流程圖</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_prompt">畫出訊息傳送流程圖</string>
+
+    <!-- 2026-10-09-04-always-notify -->
+    <string name="settings_whatsnew_entry_always_notify_title">完成時通知</string>
+    <string name="settings_whatsnew_entry_always_notify_summary">你在這裡啟動的工作階段完成後，會收到通知，附上處理結果的簡短摘要。</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_1">在工作階段面板中開啟「一律通知」，每次回覆都會收到通知，包括從電腦發起的回覆。</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_2">點一下通知，即可開啟對應的工作階段。</string>
+    <string name="settings_whatsnew_entry_always_notify_example">傳送訊息後鎖定手機</string>
+
+    <!-- 2026-10-09-05-server-switcher -->
+    <string name="settings_whatsnew_entry_server_switcher_title">切換伺服器</string>
+    <string name="settings_whatsnew_entry_server_switcher_summary">側邊欄標題會顯示目前的伺服器。點一下即可切換或新增伺服器。</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_1">設定頁面會以即時心跳顯示連線狀態，並在伺服器名稱旁顯示往返延遲。</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_2">重新命名伺服器，只會影響這台手機上的名稱。</string>
+    <string name="settings_whatsnew_entry_server_switcher_example">開啟側邊欄，點一下伺服器名稱，再新增另一台電腦</string>
+
+    <!-- 2026-10-10-01-share-opened-files -->
+    <string name="settings_whatsnew_entry_share_opened_files_title">像照片一樣瀏覽圖片</string>
+    <string name="settings_whatsnew_entry_share_opened_files_summary">圖片會在工作階段中完整顯示，開啟後就像瀏覽照片：雙指縮放、滑動切換、向下拖曳關閉。</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_1">代理程式提到的每個檔案，都能在應用程式中開啟。</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_2">使用「分享」可將開啟的內容儲存到照片或檔案，包括影片和音訊。</string>
+    <string name="settings_whatsnew_entry_share_opened_files_example">請代理程式讀取幾張螢幕截圖，再點開其中一張並向下拖曳</string>
+
+    <!-- 2026-10-10-02-call-voice -->
+    <string name="settings_whatsnew_entry_call_voice_title">語音通話</string>
+    <string name="settings_whatsnew_entry_call_voice_summary">點一下空白訊息框中的波形就能說話。語音助理會一邊與你交談，一邊在工作階段中處理工作，完成後再告訴你。</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_1">說出任一工作階段的名稱，語音助理就會開啟它，並在其中開始或引導工作。</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_2">直接開口就能打斷，也可以詢問工作進度。</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_3">點一下通話列即可查看即時字幕。</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_4">可從通話通知靜音或結束通話，鎖定畫面上也能操作。</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_5">長按「停止」，即可在代理程式工作時通話。</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_6">在「設定 → 音色」中選擇音色。</string>
+    <string name="settings_whatsnew_entry_call_voice_example">開始通話，說「開啟我的上傳修正工作階段，檢查測試」</string>
+
+    <!-- 2026-10-10-03-drawer-one-edge -->
+    <string name="settings_whatsnew_entry_drawer_one_edge_title">更整齊的側邊欄</string>
+    <string name="settings_whatsnew_entry_drawer_one_edge_summary">各列起點對齊，狀態圓點放在列尾，搜尋按鈕則在頂端。</string>
+
+    <!-- 2026-10-11-01-paste-as-a-card -->
+    <string name="settings_whatsnew_entry_paste_as_a_card_title">長篇貼上內容變成卡片</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_summary">貼上長篇內容時，會在圖片旁顯示「貼上的文字」卡片，代理程式仍會讀取完整內容。</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_1">點一下卡片即可閱讀完整內容，也能複製和分享。</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_2">長訊息會收合成幾行，點「顯示更多」即可展開。</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_example">複製一段長記錄，貼到訊息框，再點一下卡片</string>
+
+    <!-- 2026-10-11-02-ride-out-drops -->
+    <string name="settings_whatsnew_entry_ride_out_drops_title">訊號弱也能用</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_summary">短暫失去訊號不再導致操作失敗。傳送、工作階段和通話都會等待連線恢復後繼續。</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_1">隨時都能傳送，訊息會依傳送順序送出。</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_2">傳送失敗的訊息會留在原處，並顯示「重試」，重試也不會重複傳送。</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_3">伺服器離線時，側邊欄中的名稱會變暗。點一下即可選擇「再試一次」。</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_example">在列車進入隧道時開啟工作階段</string>
+
+    <!-- 2026-10-11-03-new-session-recent-projects -->
+    <string name="settings_whatsnew_entry_new_session_recent_projects_title">從任何專案開始</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_summary">「新增工作階段」會在訊息框上方列出最近使用的專案，也能透過「所有專案」開啟電腦上的任何資料夾。</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_1">輸入時，所選專案會一直顯示在訊息框上方。</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_2">從新工作階段開始通話時，會在所選專案中工作。</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_example">依序點選「新增工作階段」、「所有專案」，再點「選擇資料夾…」</string>
+
+    <!-- 2026-10-11-04-stop-runs-your-steer -->
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_title">工作中也能引導</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_summary">在代理程式工作時傳送訊息，它會先將耗時命令移至背景，再於下一步讀取你的訊息。</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_1">長按「傳送」，即可為單則訊息選擇「引導」或「排入佇列」。</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_2">長按等待中的訊息，即可移至佇列或刪除。</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_3">點選「停止」後會立即顯示「停止中…」，接著執行你送出的引導訊息。</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_example">在耗時命令執行時傳送訊息，看看命令如何移至背景</string>
+
+    <!-- 2026-10-12-01-browser-push-in -->
+    <string name="settings_whatsnew_entry_browser_push_in_title">App 內瀏覽網頁</string>
+    <string name="settings_whatsnew_entry_browser_push_in_summary">開啟「App 內瀏覽器」實驗功能後，點選連結會在工作階段上方滑入網頁。從邊緣滑動即可返回。</string>
+
+    <!-- 2026-10-12-02-answer-from-the-bar -->
+    <string name="settings_whatsnew_entry_answer_from_the_bar_title">直接在訊息框回答</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_summary">問題和權限請求會從訊息框展開，可直接點選選項，或輸入、口述自己的回答。</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_1">權限請求會先顯示命令或修改內容，再讓你決定是否允許。</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_2">點選「拒絕」時，會將你輸入的內容作為替代指示，讓代理程式繼續工作。</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_3">回答後，原本的草稿就會恢復。</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_example">代理程式提問時，按住麥克風說出答案</string>
+
+    <!-- 2026-10-12-03-new-messages-divider -->
+    <string name="settings_whatsnew_entry_new_messages_divider_title">接續上次的進度</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_summary">返回工作階段時會顯示底部，離開期間收到的訊息也已載入。若累積了許多訊息，想從「最新」分隔線開始閱讀，可在「設定 › 工作階段」開啟「新訊息分隔線」。</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_1">開啟側邊欄時，會更新你可能開啟的工作階段，點選時就已準備就緒。</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_2">切回工作階段時，更新期間仍會保留背景工作和上下文用量指標。</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_example">開始一項耗時任務，切換到其他工作階段，等收到回覆後再回來</string>
+
+    <!-- 2026-10-12-04-model-list-and-level-meter -->
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_title">全新模型選擇器</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_summary">在「模型」面板選擇模型及思考程度，收藏的模型會置頂。若想試用從訊息框展開的清單，可在「設定 → 實驗性」開啟「全新模型選擇器」。</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_1">模型支援思考程度時，可在「模型」面板的「思考」選單中選擇。</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_2">在模型上滑動即可加入收藏。</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_3">工作階段會以低調的標記行，標示切換模型或思考程度的位置。</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_example">點一下訊息框中的模型，再選擇思考程度</string>
+
+    <!-- 2026-10-12-05-run-error-line -->
+    <string name="settings_whatsnew_entry_run_error_line_title">執行失敗時</string>
+    <string name="settings_whatsnew_entry_run_error_line_summary">執行提前中止時，會用簡單的文字說明原因，並提供下一步操作：編輯、緊湊型、切換模型或再試一次。</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_1">「編輯」會復原你的訊息，放回訊息框，讓你修改措辭。</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_2">長按該行即可查看並複製完整錯誤。</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_3">代理程式將自動重試時，「工作中」會顯示下次重試的倒數計時。</string>
+    <string name="settings_whatsnew_entry_run_error_line_example">回覆遭到阻擋時，點選「編輯」，修改訊息後再傳送</string>
+
+    <!-- 2026-10-12-06-transcript-keyboard-space -->
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_title">收起鍵盤不留空隙</string>
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_summary">拖曳收起鍵盤後，最後一則訊息下方不再留下空隙。</string>
+
+    <!-- 2026-10-12-07-share-sheet-sends -->
+    <string name="settings_whatsnew_entry_share_sheet_sends_title">從分享面板傳送</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_summary">將任何內容分享到 OpenCode，選擇工作階段、加上訊息即可傳送，不必開啟 App。</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_1">最近使用的工作階段會顯示在分享面板的最上列。</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_2">JSON 檔案和匯出內容會以檔案形式附加，並保留原始檔名。</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_3">點選「在 OpenCode 中繼續」會開啟工作階段，並將分享的內容放入訊息輸入框。</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_4">若無法傳送，選擇「稍後傳送」就會在下次開啟應用程式時傳送。</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_example">將螢幕截圖分享到 OpenCode，輸入問題，再點選「傳送」</string>
+
+    <!-- 2026-10-12-08-app-icon-badge -->
+    <string name="settings_whatsnew_entry_app_icon_badge_title">應用程式圖示標記</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_summary">應用程式圖示會顯示未讀或等待你回應的工作階段數量，與「補看動態」的數量相同。</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_1">已靜音的工作階段不計入。</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_2">需要開啟通知才能使用。</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_example">讓工作階段停在等待你回答問題的狀態，再返回主畫面</string>
+
+    <!-- 2026-10-12-09-drawer-keeps-keyboard -->
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_title">鍵盤隨側邊欄滑動</string>
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_summary">輸入時開啟工作階段清單，訊息輸入框會保持焦點，鍵盤也會隨工作階段滑向一旁。</string>
+
+    <!-- 2026-10-12-10-whats-new-page -->
+    <string name="settings_whatsnew_entry_whats_new_page_title">更簡潔的最新消息</string>
+    <string name="settings_whatsnew_entry_whats_new_page_summary">「最新消息」現在和「設定」一樣以頁面呈現，每項功能都有專屬頁面，修正項目則集中於此。</string>
+
+    <!-- 2026-10-12-11-catch-up-returns-to-drawer -->
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_title">離開補看動態後返回側邊欄</string>
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_summary">離開「補看動態」後，會返回工作階段清單，並保留離開前的狀態。</string>
+
+    <!-- 2026-10-12-12-transcript-day-stamps -->
+    <string name="settings_whatsnew_entry_transcript_day_stamps_title">對話紀錄顯示日期</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_summary">跨日的工作階段會在每天第一則訊息上方顯示日期，例如「星期三 上午 8:24」；間隔一小時後傳送的訊息也會在上方顯示時間。</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_1">日期會顯示為「今天」、「昨天」，或本週的星期幾；其餘則顯示日期。</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_2">引導訊息和已加入佇列的訊息在等待時不會顯示時間標記。</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_example">開啟本週稍早建立的工作階段，並向上捲動</string>
+
+    <!-- 2026-10-12-13-rich-link-previews -->
+    <string name="settings_whatsnew_entry_rich_link_previews_title">連結預覽</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_summary">回覆下方的連結會逐行顯示內容類型：提取要求或議題的標題與狀態，以及提交、影片或網頁資訊。</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_1">GitHub 提取要求、議題、提交和儲存庫會顯示標題，並以顏色標示「開啟」、「已合併」或「已關閉」狀態。</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_2">X 貼文會顯示發文者與內容；YouTube 連結會顯示標題，其他網頁則顯示從連結讀取的名稱。</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_3">預設顯示三個連結；點選「複製」旁的「更多」可查看其餘連結，再點一次即可收合。</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_4">長按連結可查看較大的預覽，或選擇「複製連結」和「分享」。</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_example">詢問代理程式某個儲存庫本週有哪些變更</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_prompt">我使用的 GitHub 儲存庫本週有哪些變更？請附上連結。</string>
+
+    <!-- 2026-10-13-01-rolling-numbers -->
+    <string name="settings_whatsnew_entry_rolling_numbers_title">數字滾動效果</string>
+    <string name="settings_whatsnew_entry_rolling_numbers_summary">背景工作膠囊、工作階段面板、「已使用 N 個」列和「補看動態」中的即時數字，會逐位滾動更新。</string>
+
+    <!-- 2026-10-13-02-grouped-steering -->
+    <string name="settings_whatsnew_entry_grouped_steering_title">訊息群組</string>
+    <string name="settings_whatsnew_entry_grouped_steering_summary">連續傳送的訊息會合為一個區塊，等待代理程式處理的引導訊息則共用一個「引導」標籤。</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_1">連續的訊息泡泡會緊密排列，相接處的邊角也會連在一起。</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_2">區塊內的照片與檔案仍保留各自的圓角外形。</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_3">代理程式接收每則訊息時，訊息會以流暢的動作上移到定位。</string>
+    <string name="settings_whatsnew_entry_grouped_steering_example">在代理程式工作時，快速連續傳送三則訊息，其中一則附上照片</string>
+
+    <!-- 2026-10-13-03-inline-tool-rows -->
+    <string name="settings_whatsnew_entry_inline_tool_rows_title">更簡潔的工具與問題列</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_summary">工具群組和已回答的問題會像程式碼一樣展開為全寬區塊，連續的讀取操作則合併為一列。</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_1">摺疊的群組會顯示「已使用 N 個工具」，並以紅色標示失敗的工具呼叫。</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_2">「執行」列會顯示指令碼呼叫的工具名稱，「技能」列則顯示技能名稱。</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_3">已回答的問題會顯示題目和所有選項，並勾選你的選擇。</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_example">點選工作階段中的「已使用 N 個工具」列以展開區塊</string>
+
+    <!-- 2026-10-13-04-mac-motion-playgrounds -->
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_title">Mac 上的測試場控制項</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_summary">開啟開發者模式後，將調校功能與 Mac 配對，即可慢速重播測試場動畫並檢查擷取的影格。</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_1">Mac 的調整頁面提供測試場選擇、預設組合和重播控制項；手機上只會顯示測試場。</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_2">精簡卡片會顯示畫面上有哪些控制項，並提供具名的動態與間距預設組合；選擇「原生」可還原預設效果。每個預設組合的數值都會一次套用。</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_3">Mac 連線後，浮動調校面板會隱藏；使用調校手勢即可叫出面板，選擇「離開測試場」即可離開。</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_4">固定的測試情境會重播相同的範例工作階段，方便比較不同版本的動態效果。</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_5">每次重播都會重新開始，並送出其中的引導訊息和佇列訊息，不再讓它們持續等待。</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_6">Mac 的檢閱播放器可逐格查看擷取的幾何資訊、標記影格，並傳送動畫意見回饋。</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_example">開啟「設定 → 開發者」，與 Mac 調校頁面配對，再以 0.25× 試播「對話紀錄 → 串流回覆」</string>
+
+    <!-- 2026-10-13-05-catch-up-flicks -->
+    <string name="settings_whatsnew_entry_catch_up_flicks_title">補看動態更好滑</string>
+    <string name="settings_whatsnew_entry_catch_up_flicks_summary">在「補看動態」中，快速輕滑或短距離拖曳就能滑走卡片，不再彈回原位。</string>
+
+    <!-- 2026-10-14-01-settings-grouped-by-purpose -->
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_title">更清楚的設定分類</string>
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_summary">實驗性功能與開發者工具位於「設定 → 實驗性」，應用程式內通知位於「通知」，通話紀錄則位於「語音」。</string>
+
+    <!-- 2026-10-14-02-send-ats-recovery -->
+    <string name="settings_whatsnew_entry_send_ats_recovery_title">傳送更可靠</string>
+    <string name="settings_whatsnew_entry_send_ats_recovery_summary">若 iOS 暫時拒絕原本正常的伺服器連線，訊息會自動重試傳送。</string>
+
+    <!-- 2026-10-14-03-keyboard-menus-and-header -->
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_title">更穩定的鍵盤與選單</string>
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_summary">輸入時點選 + 即可開啟附件選單，不會收起鍵盤或移動控制項；鍵盤移動時，頂部的模糊效果也會保持原位。</string>
+
+    <!-- 2026-10-14-04-open-links-in-apps -->
+    <string name="settings_whatsnew_entry_open_links_in_apps_title">以對應的應用程式開啟連結</string>
+    <string name="settings_whatsnew_entry_open_links_in_apps_summary">連結會由對應的應用程式開啟，例如 GitHub 或 YouTube；開啟「應用程式內瀏覽器」實驗功能後，可長按連結並選擇「在應用程式內瀏覽器中開啟」。</string>
+
+    <!-- 2026-10-14-05-session-list-quiet-hierarchy -->
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_title">更好瀏覽的工作階段清單</string>
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_summary">「已釘選」和「最近使用」改用較小的灰色文字，未讀和等待中的工作階段以中等字重突顯，已讀的則稍微淡化。</string>
+
+    <!-- 2026-10-14-06-queued-messages-fitted-sheet -->
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_title">更整齊的佇列訊息</string>
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_summary">佇列訊息面板的高度隨訊息數量調整，每則訊息都有編號，並附上簡潔的按鈕，可立即傳送或取消。</string>
+
+    <!-- 2026-10-14-07-control-center-sessions -->
+    <string name="settings_whatsnew_entry_control_center_sessions_title">工作階段快捷方塊</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_summary">新增快速設定方塊，一下就能開啟工作階段或開始通話。</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_1">新的「開啟工作階段」方塊會開啟你指定的工作階段。</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_2">「開始通話」可在指定或新增的工作階段中通話。若未變更設定，會使用你上次檢視的工作階段。</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_3">可從已釘選和最近使用的工作階段中選擇；方塊會顯示工作階段目前的標題。</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_4">方塊只會開啟應用程式，在你說話或輸入前不會傳送任何內容。</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_example">開啟快速設定，點選「編輯」，再將 OpenCode 的「開啟工作階段」方塊拖到想要的位置</string>
+
+    <!-- 2026-10-15-01-settings-keyboard-down -->
+    <string name="settings_whatsnew_entry_settings_keyboard_down_title">鍵盤不再擋住設定</string>
+    <string name="settings_whatsnew_entry_settings_keyboard_down_summary">輸入時從側邊欄開啟設定，鍵盤會自動收起，不再遮住設定畫面。</string>
+
+    <!-- 2026-10-15-02-session-list-sidebar-grey -->
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_title">更寬鬆的工作階段清單</string>
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_summary">工作階段清單的標題變大，灰色的「已釘選」和「最近使用」標題也放大並增加上方間距；開啟側邊欄就能看到。</string>
+
+    <!-- 2026-10-15-03-voice-varied-acknowledgements -->
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_title">通話不再總說「確認中」</string>
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_summary">通話時，語音會依照你說的內容回應，不再每次都說「確認中」；你繼續說話時，也不會重複傳送同一個要求。</string>
+
+    <!-- 2026-10-15-04-smoother-streaming -->
+    <string name="settings_whatsnew_entry_smoother_streaming_title">更流暢的串流回覆</string>
+    <string name="settings_whatsnew_entry_smoother_streaming_summary">串流回覆的最新一行會平順淡入，不再變暗或閃現；文字列不再先拉長再縮回，清單項目和標題也會直接以正確格式出現，不再先顯示單獨的連字號或井字號。</string>
+
+    <!-- 2026-10-15-05-model-list-sheet -->
+    <string name="settings_whatsnew_entry_model_list_sheet_title">面板式模型清單</string>
+    <string name="settings_whatsnew_entry_model_list_sheet_summary">開啟「新版模型選擇器」實驗功能後，輸入框會展開為模型面板，取代鍵盤的位置。無論開關多快，都能平順收合。</string>
+
+    <!-- 2026-10-15-06-queued-pill-whole-title -->
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_title">完整顯示佇列數量</string>
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_summary">輸入區上方的佇列標籤會完整顯示「2 則已加入佇列」，不再截成「2 則已加入佇…」；其他位置的滾動計數也不再缺字。</string>
+
+    <!-- 2026-10-16-01-plus-menu-photo-sheet -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_title">在鍵盤位置瀏覽照片</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_summary">開啟「新版加號選單」實驗功能後，點選「照片」會將 + 選單展開為照片面板，取代鍵盤的位置。長按 + 可顯示最新照片，滑到照片上再放開即可附加。</string>
+
+    <!-- 2026-10-16-02-composer-large-text-targets -->
+    <string name="settings_whatsnew_entry_composer_large_text_targets_title">輸入區更好點選</string>
+    <string name="settings_whatsnew_entry_composer_large_text_targets_summary">使用較大文字時，輸入區的按鈕更容易點選。</string>
+
+    <!-- 2026-10-16-03-project-pick-haptic -->
+    <string name="settings_whatsnew_entry_project_pick_haptic_title">切換專案時輕震回饋</string>
+    <string name="settings_whatsnew_entry_project_pick_haptic_summary">為新工作階段選擇其他專案時，無論從輸入框上方或「所有專案」中選擇，都會輕震一下。</string>
+
+    <!-- 2026-10-16-04-fork-opens-copy -->
+    <string name="settings_whatsnew_entry_fork_opens_copy_title">建立分支後開啟副本</string>
+    <string name="settings_whatsnew_entry_fork_opens_copy_summary">在工作階段詳情中點選「分支」，現在又能正常開啟副本了。</string>
+
+    <!-- 2026-10-16-05-transcript-row-targets -->
+    <string name="settings_whatsnew_entry_transcript_row_targets_title">更容易點選</string>
+    <string name="settings_whatsnew_entry_transcript_row_targets_summary">「工作階段」面板的標題更容易點選，VoiceOver 和 Voice Control 也不會再選到聽寫時隱藏的輸入區按鈕。</string>
+
+    <!-- 2026-10-16-06-image-previews -->
+    <string name="settings_whatsnew_entry_image_previews_title">圖片預覽</string>
+    <string name="settings_whatsnew_entry_image_previews_summary">代理程式提到的圖片會以拼貼版面顯示預覽，找不到檔案時也會明確提示。</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_1">預覽會顯示在提到該圖片的段落下方。</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_2">點選圖片即可全螢幕開啟，並左右滑動瀏覽回覆中的圖片。</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_3">工作階段資料夾以外的圖片，會等你點選後才載入。</string>
+    <string name="settings_whatsnew_entry_image_previews_example">請代理程式顯示專案中的螢幕截圖。</string>
+    <string name="settings_whatsnew_entry_image_previews_prompt">顯示這個專案中的螢幕截圖。</string>
+
+    <!-- 2026-10-16-07-connection-error-details -->
+    <string name="settings_whatsnew_entry_connection_error_details_title">連線錯誤原因更清楚</string>
+    <string name="settings_whatsnew_entry_connection_error_details_summary">連線錯誤會顯示錯誤代碼、嘗試連線的位址和 DNS 結果；若 tailnet 名稱解析到 Tailscale 以外的位址，也會提供說明。</string>
+
+    <!-- 2026-10-16-08-outage-reconnect-delay -->
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_title">更快重新連線</string>
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_summary">伺服器中斷後恢復時，工作階段能更快同步最新內容。</string>
+
+    <!-- 2026-10-17-01-every-running-subagent -->
+    <string name="settings_whatsnew_entry_every_running_subagent_title">計入所有執行中的子代理</string>
+    <string name="settings_whatsnew_entry_every_running_subagent_summary">輸入區上方的子代理數量，現在也會計入其他子代理底下的子代理，以及子代理超過 100 個的工作階段，與 TUI 一致。</string>
+
+    <!-- 2026-10-17-02-session-view-refined-standard -->
+    <string name="settings_whatsnew_entry_session_view_refined_standard_title">更清楚的回覆排版</string>
+    <string name="settings_whatsnew_entry_session_view_refined_standard_summary">三級標題比粗體文字更醒目，內文稍微淡化以突顯粗體，段落和程式碼區塊的間距也略為加大。</string>
+
+    <!-- 2026-10-17-03-bottom-follow-on-load -->
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_title">保持在底部</string>
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_summary">延遲的內容載入時，工作階段畫面會保持在底部。</string>
+
+    <!-- 2026-10-17-04-drafts-stay-put -->
+    <string name="settings_whatsnew_entry_drafts_stay_put_title">草稿不遺失</string>
+    <string name="settings_whatsnew_entry_drafts_stay_put_summary">即使應用程式在背景關閉，草稿、附加的照片與位置，以及等待傳送的訊息都會保留。</string>
+
+    <!-- 2026-10-18-01-themes -->
+    <string name="settings_whatsnew_entry_themes_title">主題</string>
+    <string name="settings_whatsnew_entry_themes_summary">為工作階段選用 Tokyo Night、Catppuccin、Dracula、Rosé Pine 或 GitHub 等主題，瀏覽時即可即時預覽。</string>
+    <string name="settings_whatsnew_entry_themes_detail_1">主題會套用到對話紀錄、你的訊息、程式碼、語法標示、差異和連結的配色。</string>
+    <string name="settings_whatsnew_entry_themes_detail_2">可在「外觀」的「模式」中選擇淺色、深色或跟隨系統。</string>
+    <string name="settings_whatsnew_entry_themes_detail_3">所有主題的控制項都會保留原生 Liquid Glass 外觀。</string>
+    <string name="settings_whatsnew_entry_themes_example">開啟「設定」→「外觀」→「主題」，試試 Tokyo Night。</string>
+
+    <!-- 2026-10-18-02-return-key-sends -->
+    <string name="settings_whatsnew_entry_return_key_sends_title">Return 鍵設定</string>
+    <string name="settings_whatsnew_entry_return_key_sends_summary">想用 Return 換行時，可在設定中關閉「Return 鍵傳送」，或使用實體鍵盤的 Command-Return 和 Shift-Return。</string>
+
+    <!-- 2026-10-18-03-quote-replies -->
+    <string name="settings_whatsnew_entry_quote_replies_title">引用回覆</string>
+    <string name="settings_whatsnew_entry_quote_replies_summary">選取助理回覆中的文字，再點一下「引用」，就能以引用卡片加入你的訊息。</string>
+
+    <!-- 2026-10-18-04-launch-bloom -->
+    <string name="settings_whatsnew_entry_launch_bloom_title">啟動綻放動畫</string>
+    <string name="settings_whatsnew_entry_launch_bloom_summary">從完全關閉的狀態開啟應用程式時，OpenCode 標誌會先收縮，再綻放展開你的工作階段。</string>
+
+    <!-- 2026-10-18-05-drag-to-pin -->
+    <string name="settings_whatsnew_entry_drag_to_pin_title">拖曳工作階段以釘選</string>
+    <string name="settings_whatsnew_entry_drag_to_pin_summary">長按任一工作階段，向上拖到「已釘選」就能釘選在該位置；將已釘選的工作階段向下拖到「最近使用」即可取消釘選。</string>
+
+    <!-- 2026-10-19-01-call-tray-colour-blend -->
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_title">更流暢的通話按鈕</string>
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_summary">啟用「通話控制列」實驗功能後，通話開始時，通話按鈕會直接漸變為紅色的「結束」按鈕，掛斷後再變回原樣，不再閃現背景色。</string>
+
+    <!-- 2026-10-19-02-optical-insets -->
+    <string name="settings_whatsnew_entry_optical_insets_title">控制項間距更均勻</string>
+    <string name="settings_whatsnew_entry_optical_insets_summary">輸入區的 + 和麥克風、背景工作與佇列膠囊的圖示，以及側邊欄的「新增工作階段」符號，現在都在玻璃質感的圓角端部視覺置中。Shell 圖示也改為與子代理光球相似的圓形，不再顯示閃爍游標；兩者同時執行時會並排顯示。</string>
+
+    <!-- 2026-10-19-03-smart-dictation-audio -->
+    <string name="settings_whatsnew_entry_smart_dictation_audio_title">聽音樂時聽寫更順暢</string>
+    <string name="settings_whatsnew_entry_smart_dictation_audio_summary">播放音樂時使用聽寫，AirPods 會維持立體聲，不再於一分鐘後中斷；只用手機時，音樂也會繼續從揚聲器播放，不會切到聽筒。</string>
+
+    <!-- 2026-10-19-04-interrupted-hand -->
+    <string name="settings_whatsnew_entry_interrupted_hand_title">以舉手圖示標示中斷</string>
+    <string name="settings_whatsnew_entry_interrupted_hand_summary">執行或 Shell 中斷時，現在會顯示舉手圖示；手動停止的 Shell 也會顯示「已中斷」，而非「已停止」。</string>
+
+    <!-- 2026-10-19-05-autocomplete-fast-scroll -->
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_title">更靈敏的自動完成</string>
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_summary">啟用「輸入區自動完成」實驗功能後，建議會即時跟上輸入速度，拖曳清單也只會捲動，不會誤選項目。</string>
+
+    <!-- 2026-10-19-06-experimental-groups -->
+    <string name="settings_whatsnew_entry_experimental_groups_title">實驗功能分組</string>
+    <string name="settings_whatsnew_entry_experimental_groups_summary">「設定 → 實驗性」中的實驗功能已分組，通話則統一用「通話樣式」選項設定。</string>
+
+    <!-- 2026-10-19-07-model-picker-standard-sheet -->
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_title">模型選擇改用標準面板</string>
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_summary">啟用「新版模型選擇器」實驗功能後，點一下訊息輸入框中的模型，即可開啟標準面板，每個模型都有自己的思考程度選單。原本的選擇器現已改名為「自訂模型選擇器」，位於「設定 › 實驗性」。</string>
+
+    <!-- 2026-10-19-08-problem-reports-reach-session -->
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_title">問題回報同步傳到工作階段</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_summary">「回報問題」現在也會將你的備註傳到發起回報的工作階段，並附上完整報告供代理程式讀取。</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_1">訊息開頭會標示為問題回報，並包含你的備註、報告 ID 和已上傳的追蹤記錄連結。</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_2">裝置、組建版本、畫面、時間軸和應用程式記錄會以附件傳送，就像你自行附加的檔案。</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_3">從首頁回報時，會傳到最近使用的工作階段。</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_4">即使上傳失敗，備註和摘要仍會送達，並註明上傳失敗；點一下「再試一次」後，只會補傳追蹤記錄連結。</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_5">送達後會顯示「已傳送至工作階段」的確認訊息。</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_example">開啟工作階段選單，選擇「回報問題」，加入備註後點一下「傳送」</string>
+
+    <!-- 2026-10-19-09-team-scrawl-feedback -->
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_title">團隊 Scrawl 意見回饋</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_summary">透過個人連結加入「團隊意見回饋」，即可將三指操作的 Scrawl 錄製內容和已遮蔽敏感資訊的診斷資料，傳到「問題」看板的共用佇列。</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_1">開啟你的 opencode://team/join 連結，查看會收集哪些資料並同意加入。</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_2">三步驟互動教學會帶你練習三指長按、邊說邊畫，並將練習片段傳到測試區。</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_3">每次錄製都會附上與「回報問題」相同、已遮蔽敏感資訊的時間軸、應用程式記錄和 Motion Watch 診斷資料。</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_4">隨時可在「設定 › 開發者」重看教學或退出「團隊意見回饋」。</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_example">開啟「設定 › 開發者」，查看「團隊意見回饋」狀態或重看教學。</string>
+
+    <!-- 2026-10-19-10-scrawl-faster-start -->
+    <string name="settings_whatsnew_entry_scrawl_faster_start_title">更快啟動 Scrawl</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_summary">麥克風和錄製功能啟動時，Scrawl 控制項就會出現。</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_1">準備錄製時，系統會保留你對「繪圖」、「傳送」和「捨棄」的點按操作。</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_2">三指長按會先準備浮動介面，不會提早啟動麥克風。</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_3">修正切換音訊輸入或輸出時，Scrawl 麥克風重新啟動導致的當機問題。</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_example">在已配對的裝置上三指長按，即可開始錄製</string>
+
+    <!-- 2026-10-20-01-call-tray-docks-in-drawer -->
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_title">側邊欄中的通話控制列</string>
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_summary">啟用「通話控制列」實驗功能後，通話中開啟側邊欄，控制列會移到「新增工作階段」下方，保留音量指示、「靜音」和「結束」；關閉側邊欄後便會移回原位。</string>
+
+    <!-- 2026-10-20-02-markdown-streams-smoothly -->
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_title">更流暢的串流回覆</string>
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_summary">長篇回覆逐步顯示時仍保持流暢，尚未完整輸出的粗體、程式碼和連結也會套用格式，不再顯示原始 Markdown。</string>
+
+    <!-- 2026-10-20-04-return-newline-default -->
+    <string name="settings_whatsnew_entry_return_newline_default_title">Return 鍵預設換行</string>
+    <string name="settings_whatsnew_entry_return_newline_default_summary">Return 鍵現在預設為換行。若要用 Return 傳送，可在「設定 › 工作階段」啟用「Return 鍵傳送」，或在實體鍵盤上使用 Ctrl+Enter。</string>
+
+    <!-- 2026-10-20-05-drawer-session-alignment -->
+    <string name="settings_whatsnew_entry_drawer_session_alignment_title">側邊欄控制項對齊</string>
+    <string name="settings_whatsnew_entry_drawer_session_alignment_summary">在手機和平板上，「搜尋」、「新增工作階段」和「設定」現在會與工作階段的頁首和訊息輸入框對齊。</string>
+
+    <!-- 2026-10-20-06-call-tray-switch-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_title">更穩定的通話控制項</string>
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_summary">切換工作階段時，通話波形會持續動態顯示；開啟工作階段清單時，控制項也會維持原有高度。</string>
+
+    <!-- 2026-10-20-07-voice-delegation-visible-on-admission -->
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_title">語音訊息即時顯示</string>
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_summary">語音功能傳到工作階段的訊息，只要伺服器接受就會立即顯示，即使工作階段更新延遲也一樣。</string>
+
+    <!-- 2026-10-20-08-inline-image-links -->
+    <string name="settings_whatsnew_entry_inline_image_links_title">圖片連結預覽</string>
+    <string name="settings_whatsnew_entry_inline_image_links_summary">在「設定 › 實驗性 › 對話紀錄」啟用「圖片連結預覽」，即可預覽回覆中連結的圖片。點一下縮圖可全螢幕開啟並縮放。</string>
+
+    <!-- 2026-10-20-09-smooth-link-preview-arrival -->
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_title">更流暢的連結預覽</string>
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_summary">連結預覽載入時會淡入顯示，標題高度改變時，下方項目也會平順移動。</string>
+
+    <!-- 2026-10-20-10-subagent-capsule-press -->
+    <string name="settings_whatsnew_entry_subagent_capsule_press_title">活動膠囊保持圓角</string>
+    <string name="settings_whatsnew_entry_subagent_capsule_press_summary">按住子代理與 Shell 的膠囊控制項時，兩端仍會保持圓角。</string>
+
+    <!-- 2026-10-20-11-advanced-settings-open -->
+    <string name="settings_whatsnew_entry_advanced_settings_open_title">更簡單的進階設定</string>
+    <string name="settings_whatsnew_entry_advanced_settings_open_summary">「設定 › 實驗性」中的實驗功能群組現在全部展開，模型選擇器整合為一個「模型選擇器」選項，點選選項所在列的任意位置即可變更。</string>
+
+    <!-- 2026-10-20-12-revert-to-here -->
+    <string name="settings_whatsnew_entry_revert_to_here_title">重設至此點</string>
+    <string name="settings_whatsnew_entry_revert_to_here_summary">長按你傳送的訊息，選擇「重設至此點」，即可回到該處並編輯訊息。</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_1">訊息中的文字、照片和檔案會回到訊息輸入框。</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_2">在傳送新訊息前，可用「復原」還原對話及其檔案變更。</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_3">僅在代理程式未工作時可用。</string>
+    <string name="settings_whatsnew_entry_revert_to_here_example">長按先前傳送的訊息，選擇「重設至此點」。</string>
+
+    <!-- 2026-10-20-13-drag-from-transcript -->
+    <string name="settings_whatsnew_entry_drag_from_transcript_title">從工作階段拖出內容</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_summary">長按並拖曳，即可將工作階段中的程式碼、圖片、檔案、連結和訊息拖到其他應用程式。</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_1">程式碼區塊會以文字傳送，並附上程式語言資訊。</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_2">圖片和代理程式寫入的檔案會以檔案傳送。</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_3">將任何內容拖放到訊息輸入框，即可附加或貼上。</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_4">捲動、選取文字和選單的操作方式不變。</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_example">在回覆中選取一行程式碼，再長按選取範圍，將區塊拖到備忘錄。</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_prompt">寫一個簡短的 Swift 函式來反轉字串，放在程式碼區塊中。</string>
+
+    <!-- 2026-10-20-14-tuning-glass-tap-targets -->
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_title">更好操作的調整控制項</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_summary">收合後的膠囊狀調整按鈕和邊緣頁籤，可點選範圍更大了。</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_detail_1">玻璃外觀的大小維持不變。</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_example">收合調整面板，再點一下膠囊按鈕或頁籤的邊緣附近</string>
+
+    <!-- 2026-10-20-15-new-session-project-continuity -->
+    <string name="settings_whatsnew_entry_new_session_project_continuity_title">更穩定的專案選取</string>
+    <string name="settings_whatsnew_entry_new_session_project_continuity_summary">選擇專案時，最近使用的資料夾會維持原位，頂端名稱以柔和動畫切換，專案面板中的資料夾路徑也更清楚。</string>
+
+    <!-- 2026-10-20-16-simple-session-loading -->
+    <string name="settings_whatsnew_entry_simple_session_loading_title">更低調的工作階段載入</string>
+    <string name="settings_whatsnew_entry_simple_session_loading_summary">只有工作階段需要稍候才能載入時，才會淡入小型靜態標誌，接著淡出並顯示訊息。</string>
+
+    <!-- 2026-10-20-17-voice-route-consistency -->
+    <string name="settings_whatsnew_entry_voice_route_consistency_title">語音連線修正</string>
+    <string name="settings_whatsnew_entry_voice_route_consistency_summary">由伺服器處理通話時，Grok 會繼續使用你的 xAI 金鑰，Gemini 也會正確表明自己的身分。</string>
+
+    <!-- 2026-10-20-18-call-tray-edge-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_title">通話面板動畫</string>
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_summary">通話面板展開及移入或移出側邊欄時，波形會沿著圓角邊緣移動。</string>
+
+    <!-- 2026-10-21-01-call-tray-keyboard-return -->
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_title">通話面板返回</string>
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_summary">側邊欄關閉、鍵盤重新出現時，通話面板會持續顯示。</string>
+
+    <!-- 2026-10-21-02-drawer-title-fade -->
+    <string name="settings_whatsnew_entry_drawer_title_fade_title">更完整的工作階段標題</string>
+    <string name="settings_whatsnew_entry_drawer_title_fade_summary">側邊欄中的長工作階段標題會延伸至邊緣並淡出，不再提早以省略號截斷。</string>
+
+    <!-- 2026-10-21-03-call-sounds-from-the-tap -->
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_title">更即時的通話音效</string>
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_summary">通話連線提示音會隨第一輪掃描動畫響起，不再等到點選後數秒才播放。</string>
+
+    <!-- 2026-10-21-04-calm-wireframe-launch -->
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_title">更柔和的載入畫面</string>
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_summary">已快取的工作階段會立即開啟；需要稍候載入時，會顯示明暗起伏的訊息泡泡，再淡入你的訊息。</string>
+
+    <!-- 2026-10-21-05-request-dictation-last-line -->
+    <string name="settings_whatsnew_entry_request_dictation_last_line_title">聽寫顯示末尾內容</string>
+    <string name="settings_whatsnew_entry_request_dictation_last_line_summary">在 iOS 26 上，於待處理要求的回覆框中結束長篇聽寫後，會顯示最後幾行，不再停在中段文字。</string>
+
+    <!-- 2026-10-21-06-first-run-pairing-fixes -->
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_title">更清楚的首次配對</string>
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_summary">剪貼簿空白時點選「貼上」，旁邊會顯示提示；設定流程也不再承諾半分鐘內就能遠端存取。</string>
+
+    <!-- 2026-10-21-07-welcome-pairing-copy -->
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_title">透過 OpenCode 應用程式配對</string>
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_summary">歡迎畫面會引導你前往電腦上 OpenCode 的「設定 → 配對」，或在終端機使用 /pair，並為尚未安裝 OpenCode 的使用者提供安裝命令。</string>
+
+    <!-- 2026-10-21-08-session-id-links -->
+    <string name="settings_whatsnew_entry_session_id_links_title">工作階段連結</string>
+    <string name="settings_whatsnew_entry_session_id_links_summary">回覆中的工作階段 ID 會顯示為該工作階段的標題，點一下即可開啟。</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_1">點選子代理的 ID，會在目前工作階段上方開啟；點選「返回」即可回到原處。</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_2">長按即可複製 ID。</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_3">此伺服器無法辨識的 ID 會縮短顯示。</string>
+    <string name="settings_whatsnew_entry_session_id_links_example">請代理程式用 ID 指出另一個工作階段，再點選標題。</string>
+    <string name="settings_whatsnew_entry_session_id_links_prompt">列出我最近的五個 OpenCode 工作階段及其工作階段 ID。</string>
+
+    <!-- 2026-10-21-10-ipad-multiple-windows -->
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_title">平板多視窗</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_summary">在平板上，可用獨立視窗開啟各個工作階段，並將兩個視窗並排顯示。</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_1">長按側邊欄中的工作階段，選擇「在新視窗中開啟」。</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_2">每個視窗都有自己的工作階段、側邊欄和訊息輸入框。</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_3">釘選項目、工作階段的已讀狀態和伺服器會在所有視窗間同步。</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_4">重新開啟視窗時，會回到先前顯示的工作階段。</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_example">長按側邊欄中的工作階段，選擇「在新視窗中開啟」，再將它放到原視窗旁。</string>
+
+    <!-- 2026-10-21-11-plain-launch -->
+    <string name="settings_whatsnew_entry_plain_launch_title">簡潔的啟動畫面</string>
+    <string name="settings_whatsnew_entry_plain_launch_summary">OpenCode 啟動時會顯示簡潔畫面，工作階段一就緒便直接切換，不顯示載入動畫。</string>
+
+    <!-- 2026-10-21-12-breath-ping-call-sounds -->
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_title">更柔和的通話音效</string>
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_summary">通話連線、提示和掛斷音效改用柔和輕盈的音調，在對話中輕聲播放，不搶走注意力。</string>
+
+    <!-- 2026-10-21-13-smoother-session-list -->
+    <string name="settings_whatsnew_entry_smoother_session_list_title">更流暢的工作階段清單</string>
+    <string name="settings_whatsnew_entry_smoother_session_list_summary">工作階段執行時，側邊欄的工作階段清單也能順暢捲動；長按開啟選單時，項目大小維持不變。</string>
+
+    <!-- 2026-10-22-01-whats-new-actions -->
+    <string name="settings_whatsnew_entry_whats_new_actions_title">從最新消息開啟設定或試用</string>
+    <string name="settings_whatsnew_entry_whats_new_actions_summary">最新消息的各項介紹頁面新增按鈕，可開啟主題等相關設定，或新增已填好提示詞的工作階段，讓你直接試用。</string>
+
+    <!-- 2026-10-22-02-project-icons-current-discovery -->
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_title">專案圖示修正</string>
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_summary">啟用專案圖示後，側邊欄也會顯示伺服器在 Icon Composer 套件中找到的圖示。</string>
+
+    <!-- 2026-10-22-03-new-divider-off-page -->
+    <string name="settings_whatsnew_entry_new_divider_off_page_title">需要時才標示最新訊息</string>
+    <string name="settings_whatsnew_entry_new_divider_off_page_summary">開啟「新訊息分隔線」實驗功能後，只有新內容超出一個畫面時，才會以「最新」標示。</string>
+
+    <!-- 2026-10-22-04-catch-up-all-caught-up-row -->
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_title">已全部看完</string>
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_summary">在「補看動態」讀完最後一個工作階段後，會直接返回側邊欄，並將「補看動態」打勾標示為「已全部看完」。</string>
+
+    <!-- 2026-10-23-01-session-mentions -->
+    <string name="settings_whatsnew_entry_session_mentions_title">提及工作階段</string>
+    <string name="settings_whatsnew_entry_session_mentions_summary">開啟「輸入區自動完成」實驗功能後，就能像桌面版一樣，輸入 @ 並依標題提及其他工作階段。</string>
+
+    <!-- 2026-10-23-02-gpt-live-own-key -->
+    <string name="settings_whatsnew_entry_gpt_live_own_key_title">GPT-Live 金鑰</string>
+    <string name="settings_whatsnew_entry_gpt_live_own_key_summary">GPT-Live 通話可使用你自己的 OpenAI 金鑰、伺服器的 OpenAI 金鑰，或伺服器的 OpenCode Console 連線。</string>
+
+    <!-- 2026-10-23-03-pair-opens-drawer -->
+    <string name="settings_whatsnew_entry_pair_opens_drawer_title">接著上次的進度</string>
+    <string name="settings_whatsnew_entry_pair_opens_drawer_summary">配對新電腦後，側邊欄會開啟並顯示該電腦最近的工作階段，讓你選擇，不再停留在空白工作階段。</string>
+
+    <!-- 2026-10-23-04-voice-server-picker -->
+    <string name="settings_whatsnew_entry_voice_server_picker_title">選擇語音伺服器</string>
+    <string name="settings_whatsnew_entry_voice_server_picker_summary">在「設定 › 音色 › 語音提供者」中，選擇通話要透過哪台已儲存的伺服器，或使用這支手機上你自己的 OpenAI 帳號。</string>
+
+    <!-- 2026-10-24-01-living-orb-floats -->
+    <string name="settings_whatsnew_entry_living_orb_floats_title">動態光球隨處懸浮</string>
+    <string name="settings_whatsnew_entry_living_orb_floats_summary">動態光球現在是「設定 › 實驗性 › 通話」中的懸浮通話樣式。光球更大，會浮在設定與所有畫面上方，並隨雙方聲音變化；同時說話時，各自顯示不同顏色。點一下可展開成卡片，向上拖曳可查看完整通話與對話紀錄，向下拖曳則縮回光球。「通話樣式」下方的「光球」可調整外觀。</string>
+
+    <!-- 2026-10-24-02-new-messages-divider-on -->
+    <string name="settings_whatsnew_entry_new_messages_divider_on_title">新訊息分隔線</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_summary">若你離開期間收到的回覆超出一個畫面，開啟工作階段時會定位到回覆開頭的「最新」分隔線。</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_1">若回覆能在一個畫面內顯示，則會開啟在結尾，不顯示分隔線。</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_2">你正在觀看時陸續產生的回覆，一律不會標示。</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_3">往下讀到結尾後，分隔線就會消失。</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_4">可在「設定 › 工作階段」中關閉。</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_example">要求一段長回覆，切換到其他應用程式，等回覆完成後再回來。</string>
+
+    <!-- 2026-10-24-03-composer-keyboard-morph -->
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_title">輸入區隨鍵盤移動</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_summary">輸入區的控制項會隨鍵盤一起展開，並在你上下拖曳鍵盤時跟著移動。</string>
+
+    <!-- 2026-10-24-04-composer-photo-viewer -->
+    <string name="settings_whatsnew_entry_composer_photo_viewer_title">全螢幕檢視輸入區照片</string>
+    <string name="settings_whatsnew_entry_composer_photo_viewer_summary">點一下輸入區中的照片即可全螢幕檢視，滑動切換照片，也能在傳送前移除照片。</string>
+
+    <!-- 2026-10-24-05-plus-menu-photo-picker -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_title">全新照片選擇器</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_summary">在「設定 › 實驗性 › 輸入區」開啟「全新加號選單」，即可直接從 + 選單選取最多 8 張最近的照片、瀏覽「所有照片」，並看著照片飛入輸入區，再進入工作階段。</string>
+
+    <!-- 2026-10-24-06-project-icons-lit -->
+    <string name="settings_whatsnew_entry_project_icons_lit_title">專案圖示光影效果</string>
+    <string name="settings_whatsnew_entry_project_icons_lit_summary">啟用專案圖示後，側邊欄圖示會呈現光影效果：頂部柔和的亮光、細緻的玻璃邊緣，以及淡淡的陰影。</string>
+
+    <!-- 2026-10-24-07-session-live-activity -->
+    <string name="settings_whatsnew_entry_session_live_activity_title">工作階段即時更新</string>
+    <string name="settings_whatsnew_entry_session_live_activity_summary">在「設定 › 實驗性 › 側邊欄」開啟「工作階段即時更新」，就能透過即時通知追蹤你送出任務的進度，鎖定畫面也能查看，直到任務完成或需要你輸入。</string>
+
+    <!-- 2026-10-24-08-sign-in-failed-edit-server -->
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_title">修正登入遭拒問題</string>
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_summary">伺服器拒絕你的密碼時，側邊欄的伺服器選單會顯示「編輯伺服器…」，取代無法解決問題的「再試一次」。歡迎畫面現在也會提示你在終端機執行 opencode pair --remote。</string>
+
+    <!-- 2026-10-25-01-voice-app-screenshot -->
+    <string name="settings_whatsnew_entry_voice_app_screenshot_title">語音螢幕截圖</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_summary">語音通話時，說「看看這個」，就能將應用程式的畫面連同你的意見傳送到工作階段。</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_1">只會傳送應用程式本身的畫面，並附上畫面名稱、通話與應用程式狀態。</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_2">也能要求一併附上通話記錄或最近的應用程式記錄；位址與憑證都會遮蔽。</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_3">顯示登入畫面或密碼欄位時，不會擷取螢幕截圖。</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_example">語音通話時，說「截個圖，這一列沒對齊」</string>
+
+    <!-- 2026-10-25-02-voice-background-results -->
+    <string name="settings_whatsnew_entry_voice_background_results_title">通話中回報背景結果</string>
+    <string name="settings_whatsnew_entry_voice_background_results_summary">通話中交辦的工作階段開始在背景執行後，一完成就會在通話中告訴你結果，即使你已經在處理其他事情也一樣。</string>
+
+    <!-- 2026-10-25-03-sound-effects-experiment -->
+    <string name="settings_whatsnew_entry_sound_effects_experiment_title">音效</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_summary">這項實驗功能會在收到回覆、要求、補看動態及傳送失敗時，搭配觸覺回饋播放輕柔音效。</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_1">靜音與震動模式下不會播放音效，也不會中斷音樂播放。</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_2">通話、語音輸入、播放媒體或應用程式在背景時，都不會播放音效。</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_3">開關下方可調整音量，並選擇是否啟用「傳送音效」。</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_example">在「設定 › 實驗性」開啟「音效」，然後等待另一個工作階段的回覆</string>
+
+    <!-- 2026-10-25-90-session-title-first-prompt -->
+    <string name="settings_whatsnew_entry_session_title_first_prompt_title">以第一則提示詞作為標題</string>
+    <string name="settings_whatsnew_entry_session_title_first_prompt_summary">沒有標題的工作階段，現在會先以單行顯示第一則提示詞，直到伺服器為它命名。</string>
+
+    <!-- 2026-10-26-01-settings-sessions-page -->
+    <string name="settings_whatsnew_entry_settings_sessions_page_title">工作階段設定</string>
+    <string name="settings_whatsnew_entry_settings_sessions_page_summary">設定新增「工作階段」頁面，「新訊息分隔線」位於「按 Enter 鍵傳送」上方；「進階」現在分為「實驗性」與「開發者」兩個項目。</string>
+
+    <!-- 2026-10-26-02-project-icons-default -->
+    <string name="settings_whatsnew_entry_project_icons_default_title">專案圖示預設開啟</string>
+    <string name="settings_whatsnew_entry_project_icons_default_summary">工作階段標題旁現在會顯示專案圖示。可在「設定 › 實驗性」中關閉。</string>
+
+    <!-- 2026-10-26-03-plus-menu-over-keyboard -->
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_title">在鍵盤上方選照片</string>
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_summary">開啟「全新加號選單」後，+ 選單會顯示在鍵盤上方。「照片」會從選單展開成延伸至螢幕邊緣的面板，收合時也不會關閉鍵盤。</string>
+
+    <!-- 2026-10-26-04-living-orb-connect-motion -->
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_title">光球連線動畫</string>
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_summary">開啟「活力光球」後，通話按鈕會升起化為光球，在接通時旋轉，結束後再回到按鈕。立即重撥也能開始新通話，不再卡住。</string>
+
+    <!-- 2026-10-26-05-living-orb-presets -->
+    <string name="settings_whatsnew_entry_living_orb_presets_title">光球預設與華麗樣式</string>
+    <string name="settings_whatsnew_entry_living_orb_presets_summary">在「設定 › 實驗性 › 通話」的「通話樣式」下開啟「光球」，現在會預先選用「華麗」，並顯示更大的即時預覽及一排預設。你可以儲存自己的設定、重新命名，也能複製或貼上設定來分享。</string>
+
+    <!-- 2026-10-26-06-send-after-a-pause -->
+    <string name="settings_whatsnew_entry_send_after_a_pause_title">停頓後傳送更順暢</string>
+    <string name="settings_whatsnew_entry_send_after_a_pause_summary">停頓後傳送的訊息，現在會直接從輸入區升起成為訊息泡泡，不再先從時間戳記下方向輸入區下沉。</string>
+
+    <!-- 2026-10-27-01-steadier-round-trip -->
+    <string name="settings_whatsnew_entry_steadier_round_trip_title">更穩定的往返時間</string>
+    <string name="settings_whatsnew_entry_steadier_round_trip_summary">連線卡片的毫秒數現在採用最近幾次檢查的移動平均值，單次回應較慢只會讓數字稍微變動，不再突然跳升。</string>
+
+    <!-- 2026-10-27-02-drawer-drag-follows-finger -->
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_title">側邊欄拖曳更跟手</string>
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_summary">在側邊欄拖曳工作階段時，它會緊貼手指、浮在標題列上方，靠近清單邊緣時自動捲動，放手後再彈回定位。</string>
+
+    <!-- 2026-10-27-03-inbox-sidebar-experiment -->
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_title">收件匣側邊欄</string>
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_summary">在「設定 › 實驗性 › 側邊欄」開啟「收件匣側邊欄」，即可用收件匣方式查看工作階段：需要你回應的排最前，再來是未讀項目，每項都附有專案與最新回覆。滑動即可標為已讀或封存。</string>
+
+    <!-- 2026-10-28-01-first-pairing-ready-session -->
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_title">首次工作階段準備就緒</string>
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_summary">首次配對電腦後，現在會在最近使用的專案中開啟新工作階段，提供幾個可試問的問題，點一下即可確認已連線。全新安裝也會將「最新消息」預先標為已讀。</string>
+
+    <!-- 2026-10-28-02-welcome-preview -->
+    <string name="settings_whatsnew_entry_welcome_preview_title">歡迎畫面預覽</string>
+    <string name="settings_whatsnew_entry_welcome_preview_summary">全新的首次啟動畫面會展示 OpenCode 在筆電上工作、由手機引導的情境，接著一步完成配對。在「設定 › 實驗性 › 側邊欄」開啟「歡迎畫面預覽」，再點「顯示歡迎畫面」即可查看；關閉後會回到原畫面。</string>
+
+    <!-- 2026-10-29-01-composer-text-selection -->
+    <string name="settings_whatsnew_entry_composer_text_selection_title">在輸入區選取文字</string>
+    <string name="settings_whatsnew_entry_composer_text_selection_summary">在草稿中拖曳文字選取控點或放大鏡時，不再收起鍵盤，也不會讓輸入區上下移動。</string>
+
+    <!-- 2026-10-30-01-voice-waits-for-you -->
+    <string name="settings_whatsnew_entry_voice_waits_for_you_title">通話會等你說完</string>
+    <string name="settings_whatsnew_entry_voice_waits_for_you_summary">語音代理程式不再搶話：進度更新會等你說完才播報，你開口時也會停止說話。</string>
+
+    <!-- 2026-10-30-02-wisp-call-sounds -->
+    <string name="settings_whatsnew_entry_wisp_call_sounds_title">語音通話採用 Wisp 音效</string>
+    <string name="settings_whatsnew_entry_wisp_call_sounds_summary">通話開始時，輕柔的呼吸聲伴隨細微的連線音效，接通時響起提示音。代理程式查看、開啟或執行項目時會輕輕滴答，結束時則輕嘆一聲。可在「設定 › 音色 › 通話音效」選用其他音效。</string>
+
+    <!-- 2026-10-30-03-wisp-orb -->
+    <string name="settings_whatsnew_entry_wisp_orb_title">語音光球換上 Wisp 外觀</string>
+    <string name="settings_whatsnew_entry_wisp_orb_summary">通話光球現在採用 Wisp 外觀：玻璃透鏡下的光點會隨雙方聲音亮起，並以 Wisp 的神態呈現連線中、聆聽、工作中、說話及等待你的狀態。這是目前唯一的光球樣式，因此舊樣式與「光球」設定已移除。</string>
+
+    <!-- 2026-10-31-01-encrypted-notification-previews -->
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_title">加密通知預覽</string>
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_summary">使用更新後的通知外掛程式並透過 HTTPS 連線時，伺服器會為這台裝置加密通知標題與訊息。若無法開啟預覽，通知只會顯示「有新動態」。</string>
+
+    <!-- 2026-10-31-02-move-session-folder-gone -->
+    <string name="settings_whatsnew_entry_move_session_folder_gone_title">資料夾移除後仍可繼續對話</string>
+    <string name="settings_whatsnew_entry_move_session_folder_gone_summary">若工作階段的資料夾已不存在，例如工作區遭到移除，傳送失敗時會提示你將工作階段移至所屬專案的資料夾，然後重新傳送。</string>
+
+    <!-- 2026-10-31-03-notification-plugin-setup -->
+    <string name="settings_whatsnew_entry_notification_plugin_setup_title">透過 OpenCode 設定通知</string>
+    <string name="settings_whatsnew_entry_notification_plugin_setup_summary">在「設定 → 通知」點選「透過 OpenCode 設定」，即可檢閱用來安裝缺少的通知外掛程式的提示詞。</string>
+
+    <!-- 2026-11-01-01-call-card-takes-over -->
+    <string name="settings_whatsnew_entry_call_card_takes_over_title">通話卡片佔用底部空間</string>
+    <string name="settings_whatsnew_entry_call_card_takes_over_summary">使用「活力光球」時，通話卡片現在會覆蓋訊息輸入欄、填滿畫面底部，四周留白一致，不再被鍵盤擠壓。縮回光球即可輸入文字。</string>
+
+    <!-- 2026-11-01-01-screenshot-shutter -->
+    <string name="settings_whatsnew_entry_screenshot_shutter_title">螢幕截圖快門效果</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_summary">應用程式為工作階段擷取自身畫面時，螢幕會閃一下，並播放快門聲。</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_1">閃光會在截圖後出現，不會被拍進圖片。</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_2">開啟「減少動態效果」後會改為輕微變暗；開啟「調暗閃爍燈光」則會關閉此效果。</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_3">通話時，快門聲會透過通話音訊播放，因此代理程式不會聽到。</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_example">在語音通話中說「看看這個」</string>
+
+    <!-- 2026-11-01-01-voice-says-whats-running -->
+    <string name="settings_whatsnew_entry_voice_says_whats_running_title">通話中播報進行中的工作</string>
+    <string name="settings_whatsnew_entry_voice_says_whats_running_summary">當你的要求需要較長時間處理時，語音代理程式會告訴你目前在做什麼，不再保持安靜。</string>
+
+    <!-- 2026-11-01-02-living-orb-default -->
+    <string name="settings_whatsnew_entry_living_orb_default_title">通話浮在光球中</string>
+    <string name="settings_whatsnew_entry_living_orb_default_summary">現在所有人的語音通話都會以「活力光球」浮在各個畫面上方，訊息輸入欄仍可照常使用。</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_1">點一下光球可展開通話卡片，向上拖曳則可查看完整通話與對話紀錄。</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_2">光球可拖到任何位置；切換工作階段或開啟設定時，它都會留在原處。</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_3">工作階段清單也能開始通話，通話按鈕就在「設定」旁邊。</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_4">「托盤」已移除：原本使用托盤的通話，也會改為浮動光球。</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_5">可在「設定 › 實驗性 › 通話 › 活力光球」關閉。</string>
+    <string name="settings_whatsnew_entry_living_orb_default_example">開始通話後開啟工作階段清單，光球會跟著你</string>
+
+    <!-- 2026-11-01-02-quicker-send -->
+    <string name="settings_whatsnew_entry_quicker_send_title">傳送更俐落</string>
+    <string name="settings_whatsnew_entry_quicker_send_summary">傳送訊息後，訊息會隨清單一起上移成為訊息泡泡，不再先停留在輸入區。</string>
+
+    <!-- 2026-11-01-02-share-screen-with-agents -->
+    <string name="settings_whatsnew_entry_share_screen_with_agents_title">與代理程式分享螢幕</string>
+    <string name="settings_whatsnew_entry_share_screen_with_agents_summary">在「設定 › 實驗性 › 通話」開啟「與代理程式分享螢幕」後，代理程式就能在通話中要求查看應用程式畫面：點「分享」傳送截圖，或點「暫時不要」。</string>
+
+    <!-- 2026-11-01-03-audio-in-calls -->
+    <string name="settings_whatsnew_entry_audio_in_calls_title">通話中播放音訊</string>
+    <string name="settings_whatsnew_entry_audio_in_calls_summary">在「設定 › 實驗性 › 通話」開啟「通話中播放音訊」後，代理程式就能在通話中播放音樂或片段給你聽。任一方說話時，音量會自動降低；你可在輸入區上方暫停或停止播放。</string>
+
+    <!-- 2026-11-01-03-open-links-from-calls -->
+    <string name="settings_whatsnew_entry_open_links_from_calls_title">從通話開啟連結</string>
+    <string name="settings_whatsnew_entry_open_links_from_calls_summary">在「設定 › 實驗性 › 通話」開啟「從通話開啟連結」後，代理程式就能在通話中提供連結，例如 Uber 叫車連結：點「開啟」即可在對應的應用程式中開啟，或點「暫時不要」。</string>
+
+    <!-- 2026-11-02-01-fold-questions -->
+    <string name="settings_whatsnew_entry_fold_questions_title">收合問題不擋畫面</string>
+    <string name="settings_whatsnew_entry_fold_questions_summary">將問題向下拖曳，即可收成輸入區上方的小橫條，點一下就能還原。回答傳送失敗時，現在會等你點「重試」。</string>
+
+    <!-- 2026-11-02-01-steadier-following -->
+    <string name="settings_whatsnew_entry_steadier_following_title">更穩定地跟隨回覆</string>
+    <string name="settings_whatsnew_entry_steadier_following_summary">逐步顯示的回覆會穩定貼齊底部，「工作中」不再跳動；在輸入區上方的任何位置都能滑動清單。</string>
+
+    <!-- 2026-11-02-40-model-display-names -->
+    <string name="settings_whatsnew_entry_model_display_names_title">模型名稱</string>
+    <string name="settings_whatsnew_entry_model_display_names_summary">模型清單載入或重新連線時，輸入區會保留模型名稱。</string>
+
+    <!-- 2026-11-02-41-all-experiments -->
+    <string name="settings_whatsnew_entry_all_experiments_title">所有實驗功能</string>
+    <string name="settings_whatsnew_entry_all_experiments_summary">「設定 › 實驗性」頂端的開關可開啟所有實驗功能，之後新增的功能也會自動開啟。</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_1">不想使用的實驗功能可個別關閉，下次也會保持關閉。</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_2">關閉「所有實驗功能」會還原先前的開關設定。</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_3">需要權限的實驗功能仍由你個別決定是否開啟。</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_4">自動完成、加號選單的照片面板、新版伺服器切換器和專案圖示，現已全面開放。</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_5">統一選擇器和動態光球已改為一般開關，通話面板則已移除。</string>
+    <string name="settings_whatsnew_entry_all_experiments_example">開啟「設定 › 實驗性」，再開啟「所有實驗功能」</string>
+
+    <!-- 2026-11-03-01-search-all-sessions -->
+    <string name="settings_whatsnew_entry_search_all_sessions_title">搜尋更早的工作階段</string>
+    <string name="settings_whatsnew_entry_search_all_sessions_summary">側邊欄搜尋現在涵蓋所有工作階段，不再限於最近的項目；捲動到底部即可載入更早的工作階段。</string>
+
+    <!-- 2026-11-03-01-voice-open-session -->
+    <string name="settings_whatsnew_entry_voice_open_session_title">用語音切換工作階段</string>
+    <string name="settings_whatsnew_entry_voice_open_session_summary">請語音代理程式開啟工作階段時，現在會關閉側邊欄，並保持通話連線。</string>
+
+    <!-- 2026-11-03-02-orb-divider-image-links -->
+    <string name="settings_whatsnew_entry_orb_divider_image_links_title">三項實驗功能正式推出</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_summary">動態光球、「最新」分隔線和圖片連結預覽現已全面開放，不再設有開關。</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_1">所有通話都會以動態光球懸浮顯示，舊版通話列已移除。</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_2">返回工作階段時，若離開期間的新內容超出畫面範圍，「最新」分隔線會標示新內容的起點。</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_3">直接連到圖片的連結會在訊息下方顯示圖片。</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_example">從輸入區開始通話，看看通話如何以光球懸浮顯示</string>
+
+    <!-- 2026-11-04-01-call-links-and-audio -->
+    <string name="settings_whatsnew_entry_call_links_and_audio_title">通話中的連結與音訊</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_summary">通話中開啟連結與播放音訊的功能現已全面開放，不再設有開關。</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_1">通話時，代理程式可以提供連結，例如 Uber 叫車連結：點一下「開啟」即可在對應的應用程式中開啟，或選擇「暫時不要」。</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_2">代理程式可以在通話中播放音樂或片段。你或代理程式說話時，音量會自動降低；可在輸入區上方暫停或停止播放。</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_example">通話時，請代理程式播放一些音樂</string>
+
+    <!-- 2026-11-04-01-composer-editing-caret -->
+    <string name="settings_whatsnew_entry_composer_editing_caret_title">編輯草稿</string>
+    <string name="settings_whatsnew_entry_composer_editing_caret_summary">編輯草稿中間的文字時，游標會留在你輸入的位置。</string>
+
+    <!-- 2026-11-04-01-loading-touch-recovery -->
+    <string name="settings_whatsnew_entry_loading_touch_recovery_title">載入後繼續捲動</string>
+    <string name="settings_whatsnew_entry_loading_touch_recovery_summary">在載入切換期間返回應用程式，現在可立即恢復捲動對話紀錄。</string>
+
+    <!-- 2026-11-05-01-composer-keyboard-width -->
+    <string name="settings_whatsnew_entry_composer_keyboard_width_title">輸入時加寬輸入區</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_width_summary">鍵盤顯示時，輸入區會加寬，兩側只留少量等寬邊距，讓長草稿減少換行。</string>
+
+    <!-- 2026-11-05-02-plus-menu-touch-release -->
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_title">關閉附件選單</string>
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_summary">關閉附件選單後，即使版面正在變動，也能立即操作下方的工作階段。</string>
+
+    <!-- 2026-11-05-02-quiet-reconnecting-pill -->
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_title">啟動更穩定</string>
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_summary">開啟應用程式時，輸入區上方不再閃現「正在重新連線…」或推動工作階段內容；只有重新連線需要一些時間時才會顯示提示。</string>
+
+    <!-- 2026-11-05-03-stuck-touch-recovery -->
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_title">自動恢復捲動</string>
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_summary">若有看不見的元件阻擋工作階段捲動超過一秒，應用程式會自動解除阻擋。</string>
+
+    <!-- 2026-11-05-04-reply-text-selection -->
+    <string name="settings_whatsnew_entry_reply_text_selection_title">跨段選取回覆</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_summary">長按或點兩下回覆中的文字，再拖曳選取控制點，即可跨段落、清單、程式碼和表格選取內容。</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_1">將選取控制點停在標頭下方或輸入區上方，回覆就會自動捲動，越靠近邊緣捲動越快。</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_2">複製時會保留清單的項目符號、編號及表格的列與欄。「引用」會將選取內容加入輸入區，並保留程式碼區塊標記。</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_example">長按長篇回覆開頭附近的文字，再將結尾控制點往下拖到輸入區並停在那裡</string>
+
+    <!-- 2026-11-06-01-scrolling-unsticks -->
+    <string name="settings_whatsnew_entry_scrolling_unsticks_title">捲動卡住時自動恢復</string>
+    <string name="settings_whatsnew_entry_scrolling_unsticks_summary">工作階段偶爾無法捲動時，現在會自行恢復，不必再切換到其他工作階段。</string>
+
+    <!-- 2026-11-06-02-server-addresses -->
+    <string name="settings_whatsnew_entry_server_addresses_title">伺服器連線更穩定</string>
+    <string name="settings_whatsnew_entry_server_addresses_summary">OpenCode 會同時嘗試伺服器的所有位址，並使用最先回應的位址，讓你離家後也能重新連線，不必關閉再開啟 VPN。</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_1">在家中網路可用的位址，不再於其他網路一律優先嘗試。</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_2">短暫斷線、解鎖手機或下拉快速設定時，不再閃現橫幅。幾秒後才會顯示「正在重新連線」，約 12 秒後顯示「離線」；若手機沒有網路，則約 4 秒後顯示。</string>
+    <string name="settings_whatsnew_entry_server_addresses_example">在透過 Tailscale 配對的伺服器上開啟工作階段，關閉 Wi-Fi 後繼續工作</string>
+
+    <!-- 2026-11-07-01-server-voice -->
+    <string name="settings_whatsnew_entry_server_voice_title">使用伺服器金鑰通話</string>
+    <string name="settings_whatsnew_entry_server_voice_summary">伺服器語音現已全面開放，不再設有開關。通話可使用 OpenCode 伺服器的金鑰，這支手機不必另設 OpenAI 金鑰。</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_1">開啟「自動選擇」後，通話會依序使用目前連線的伺服器、這支手機上的 OpenAI 金鑰，最後是其他已儲存且可用的伺服器。</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_2">若手機和伺服器都有 OpenAI 金鑰，通話現在會使用伺服器的金鑰。若要繼續使用手機上的金鑰，請在「語音提供者」中開啟「你的 OpenAI 帳戶」，再點一下「用於通話」。</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_3">設有 Gemini 金鑰的伺服器，現在也能選用 Gemini Live 作為提供者。</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_4">無法開始通話時，會說明原因並顯示可解決問題的按鈕。</string>
+    <string name="settings_whatsnew_entry_server_voice_example">開啟「設定 › 語音」，再點一下「語音提供者」</string>
+
+    <!-- 2026-11-07-02-rename-clear-button -->
+    <string name="settings_whatsnew_entry_rename_clear_button_title">一鍵清除標題</string>
+    <string name="settings_whatsnew_entry_rename_clear_button_summary">「重新命名工作階段」和「重新命名伺服器」現在都有清除按鈕，方便直接輸入新標題，不必逐字刪除舊標題。</string>
+
+    <!-- 2026-11-07-03-one-picker -->
+    <string name="settings_whatsnew_entry_one_picker_title">新版模型選擇器</string>
+    <string name="settings_whatsnew_entry_one_picker_summary">點一下訊息框中的模型，清單就會從該處展開，頂端顯示「收藏」和「最近使用」，下方列出所有提供者。</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_1">點一下模型列上的思考強度（例如「high」），就能直接調整，不必離開清單。</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_2">滑動或長按模型列，即可加入收藏或從收藏移除。</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_3">搜尋列位於底部。在名稱後輸入強度，例如「opus high」，再按下 Return，就能同時選定模型與強度。</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_4">向上拖曳面板拖曳列可加高清單，向下拖曳則可關閉。</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_5">新的選擇器取代了舊的模型面板，「設定 › 實驗性」中的「整合選擇器」開關也已移除。</string>
+    <string name="settings_whatsnew_entry_one_picker_example">點一下訊息輸入框中的模型，再滑動模型列將它加入收藏</string>
+
+    <!-- 2026-11-08-01-connecting-caption-glass -->
+    <string name="settings_whatsnew_entry_connecting_caption_glass_title">「正在透過…連線」更清楚易讀</string>
+    <string name="settings_whatsnew_entry_connecting_caption_glass_summary">通話透過伺服器連線時，「正在透過…連線」這行文字會加上玻璃質感背景，不再與後方訊息混在一起。</string>
+
+    <!-- 2026-11-08-02-default-model -->
+    <string name="settings_whatsnew_entry_default_model_title">新工作階段使用你的預設模型</string>
+    <string name="settings_whatsnew_entry_default_model_summary">新工作階段會使用你在 OpenCode 設定的預設模型，並沿用你上次為該模型選擇的思考強度，不再使用上一個工作階段的模型。</string>
+
+    <!-- 2026-11-11-01-streamed-reply-prefix -->
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_title">在回覆傳送途中開啟閱讀</string>
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_summary">在回覆串流傳送時開啟工作階段，即可一邊閱讀已收到的內容，一邊接收後續回覆。</string>
+
+    <!-- 2026-11-13-01-draw-on-images -->
+    <string name="settings_whatsnew_entry_draw_on_images_title">在圖片上畫記</string>
+    <string name="settings_whatsnew_entry_draw_on_images_summary">先標出細節，再針對它提問。</string>
+    <string name="settings_whatsnew_entry_draw_on_images_detail_1">以全螢幕開啟圖片，點一下畫筆按鈕。選擇顏色並畫記，再點一下「新增」，將標記後的圖片附加到訊息。原圖不會變動。</string>
+    <string name="settings_whatsnew_entry_draw_on_images_example">在螢幕截圖中圈出要移動的控制項，再說明要移到哪裡。</string>
+
+    <!-- 2026-11-14-01-fullscreen-viewer -->
+    <string name="settings_whatsnew_entry_fullscreen_viewer_title">滑動切換照片與影片</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_summary">一起瀏覽工作階段中的圖片和影片。</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_detail_1">滑動切換到影片，再點一下畫筆按鈕，即可在目前畫格上畫記。點選「新增」只會附加標記後的畫格，不會傳送。</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_example">將示範影片暫停在需要修改的畫面，圈出細節，再加入草稿。</string>
+
+    <!-- 2026-11-15-01-pairing-link-name -->
+    <string name="settings_whatsnew_entry_pairing_link_name_title">從 OpenCode Console 配對時帶入伺服器名稱</string>
+    <string name="settings_whatsnew_entry_pairing_link_name_summary">從 OpenCode Console 配對的伺服器會自動帶入名稱，例如「Anomaly Box」。</string>
+
+    <!-- 2026-11-17-01-session-media -->
+    <string name="settings_whatsnew_entry_session_media_title">工作階段媒體</string>
+    <string name="settings_whatsnew_entry_session_media_summary">瀏覽工作階段中的圖片、影片、音訊、檔案和公開網頁連結。</string>
+    <string name="settings_whatsnew_entry_session_media_detail_1">從工作階段的 ⋮ 選單選擇「工作階段媒體」。「媒體」會以按月分組的方塊或清單顯示圖片、影片和音訊；「檔案」和「連結」則會列出文件、貼上的內容和網頁連結。</string>
+    <string name="settings_whatsnew_entry_session_media_example">不用往回捲動整個工作階段，就能找到今天早上傳送的螢幕截圖。</string>
+
+    <!-- 2026-11-18-02-drawer-call-phone -->
+    <string name="settings_whatsnew_entry_drawer_call_phone_title">側邊欄的通話按鈕改用電話圖示</string>
+    <string name="settings_whatsnew_entry_drawer_call_phone_summary">工作階段清單中「設定」旁的通話按鈕，現在使用與訊息輸入框相同的電話圖示。</string>
+
+    <!-- 2026-11-19-01-background-scripts -->
+    <string name="settings_whatsnew_entry_background_scripts_title">背景工作中顯示腳本</string>
+    <string name="settings_whatsnew_entry_background_scripts_summary">代理程式移到背景執行的腳本，會與子代理和 Shell 一起顯示。子代理只要仍在處理圖片、影片或執行腳本，就會留在清單中。兩者都能直接從清單停止。</string>
+</resources>

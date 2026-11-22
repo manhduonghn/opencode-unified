@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Appearance -->
+    <string name="settings_appearance_title">Vzhled</string>
+    <string name="settings_appearance_mode_header">Režim</string>
+    <string name="settings_appearance_theme">Téma</string>
+
+    <!-- Appearance › Themes -->
+    <string name="settings_themes_title">Témata</string>
+    <string name="settings_themes_preview_description">Náhled přepisu</string>
+    <string name="settings_themes_preview_user_message">Pomoz mi vylepšit obrazovku relace. Ukaž mi, co najdeš, a vysvětli změny.</string>
+    <string name="settings_themes_preview_reply">Našel jsem problém s rozložením v %1$s. Přepis a editor zpráv sdílejí dostupnou výšku, takže klávesnice dobře prověří, jak rozložení funguje.</string>
+
+    <!-- Language -->
+    <string name="settings_language_title">Jazyk</string>
+    <string name="settings_language_system_default">Výchozí v systému</string>
+    <string name="settings_language_search_placeholder">Hledat jazyky</string>
+    <string name="settings_language_suggested_header">Doporučeno</string>
+    <string name="settings_language_all_header">Všechny jazyky</string>
+    <string name="settings_language_no_matches">Žádné odpovídající jazyky</string>
+
+    <!-- Experimental -->
+    <string name="settings_experimental_title">Experimentální</string>
+    <string name="settings_experimental_all_footer">Zapne i nové experimenty kromě těch, které sledují obrazovku nebo poslouchají na pozadí.</string>
+    <string name="settings_experimental_all">Všechny experimenty</string>
+    <string name="settings_experimental_all_on">Vše zapnuto</string>
+    <plurals name="settings_experimental_on_count">
+        <item quantity="one">%d zapnutý</item>
+        <item quantity="few">%d zapnuté</item>
+        <item quantity="many">%d zapnutého</item>
+        <item quantity="other">%d zapnutých</item>
+    </plurals>
+
+    <!-- Models -->
+    <string name="settings_models_title">Modely</string>
+    <string name="settings_models_mode_hide">Skrýt</string>
+    <string name="settings_models_mode_only_show">Zobrazit jen</string>
+    <string name="settings_models_mode_hide_footer">Vypněte modely, které nepoužíváte.</string>
+    <string name="settings_models_mode_only_show_footer">Zapněte jen modely, které používáte.</string>
+    <string name="settings_models_providers_header">Poskytovatelé</string>
+    <string name="settings_models_stale_header">Již nejsou v nabídce</string>
+    <string name="settings_models_forget_unavailable">Zapomenout nedostupné modely</string>
+    <string name="settings_models_show_every_model">Zobrazit všechny modely</string>
+    <string name="settings_models_load_failed_title">Nepodařilo se načíst modely</string>
+    <string name="settings_models_summary_hidden">Skryté</string>
+    <string name="settings_models_summary_all">Všechny</string>
+    <string name="settings_models_summary_count">%1$d z %2$d</string>
+
+    <!-- Models › Provider -->
+    <string name="settings_models_search_placeholder">Hledat modely</string>
+    <string name="settings_models_show_provider">Zobrazit %1$s</string>
+
+    <!-- Notifications -->
+    <string name="settings_notifications_title">Oznámení</string>
+    <string name="settings_notifications_device_header">Toto zařízení (%1$s)</string>
+    <string name="settings_notifications_device_footer">Oznámení procházejí přes prostředníka, který nic neukládá. Na toto zařízení (%1$s) chodí jen oznámení z relací, které na něm byly spuštěny.</string>
+    <string name="settings_notifications_allow">Povolit oznámení</string>
+    <string name="settings_notifications_open_android_settings">Otevřít nastavení Androidu</string>
+    <string name="settings_notifications_turn_on">Zapnout oznámení</string>
+    <string name="settings_notifications_server_header">Server</string>
+    <string name="settings_notifications_set_up_footer">Otevře relaci se žádostí, aby OpenCode nainstaloval plugin. Odešlete ji a pak stav znovu zkontrolujte.</string>
+    <string name="settings_notifications_plugin_needed_footer">Server potřebuje plugin OpenCode notify.</string>
+    <string name="settings_notifications_notify_plugin">Plugin notify</string>
+    <string name="settings_notifications_plugin_installed">Nainstalován</string>
+    <string name="settings_notifications_plugin_not_running">Neběží</string>
+    <string name="settings_notifications_plugin_not_installed">Nenainstalován</string>
+    <string name="settings_notifications_plugin_check_failed">Nepodařilo se ověřit stav</string>
+    <string name="settings_notifications_set_up">Nastavit pomocí OpenCode</string>
+    <string name="settings_notifications_check_again">Znovu zkontrolovat</string>
+    <string name="settings_notifications_in_app_footer">Zobrazují se na tlačítku výsuvného panelu.</string>
+    <string name="settings_notifications_in_app_notices">Upozornění v aplikaci</string>
+
+    <!-- Sessions -->
+    <string name="settings_sessions_title">Relace</string>
+    <string name="settings_sessions_composer_header">Editor zpráv</string>
+    <string name="settings_sessions_return_key_sends">Odesílat klávesou Enter</string>
+    <string name="settings_sessions_new_sessions_header">Nové relace</string>
+    <string name="settings_sessions_server_default">Výchozí na serveru</string>
+    <string name="settings_sessions_default_agent">Výchozí agent</string>
+
+    <!-- Shared values -->
+    <string name="settings_value_on">Zapnuto</string>
+    <string name="settings_value_off">Vypnuto</string>
+
+    <!-- Sound Effects -->
+    <string name="settings_sound_effects_volume">Hlasitost</string>
+    <string name="settings_sound_effects_volume_description">Hlasitost zvukových efektů</string>
+    <string name="settings_sound_effects_send_sound">Zvuk odeslání</string>
+
+    <!-- Voice › Delegator -->
+    <string name="settings_delegator_title">Delegátor</string>
+    <string name="settings_delegator_other_server_note">„%1$s“ je na jiném serveru. Vyberte relaci na tomto serveru nebo přepněte server.</string>
+    <string name="settings_delegator_mode_footer">Vestavěný režim využívá OpenAI bez relace. Režim Relace OpenCode pracuje v relaci na vašem serveru.</string>
+    <string name="settings_delegator_built_in">Vestavěný</string>
+    <string name="settings_delegator_opencode_session">Relace OpenCode</string>
+    <string name="settings_delegator_target_header">Cílová relace</string>
+    <string name="settings_delegator_target_footer">Automatická volba používá relaci „Voice“ na tomto serveru. Zobrazená relace používá tu na obrazovce.</string>
+    <string name="settings_delegator_automatic">Automaticky</string>
+    <string name="settings_delegator_viewed_session">Zobrazená relace</string>
+    <string name="settings_delegator_search_placeholder">Vyhledávání relací</string>
+    <string name="settings_delegator_sessions_header">Vyberte relaci</string>
+    <string name="settings_delegator_sessions_footer">Vybraná relace si ponechá svůj model.</string>
+    <string name="settings_delegator_no_sessions">Na tomto serveru nejsou žádné relace</string>
+    <string name="settings_delegator_no_matching_sessions">Žádné odpovídající relace</string>
+    <string name="settings_delegator_new_session">Nová relace</string>
+    <string name="settings_delegator_direct">Přímo</string>
+    <string name="settings_delegator_direct_session_unavailable">Přímo · Relace není dostupná</string>
+    <string name="settings_delegator_another_server">%1$s · Jiný server</string>
+
+    <!-- Voice › Key Editor -->
+    <string name="settings_voice_key_hide_description">Skrýt klíč</string>
+    <string name="settings_voice_key_show_description">Zobrazit klíč</string>
+    <string name="settings_voice_key_verify">Ověřit</string>
+
+    <!-- Voice › Voice Provider -->
+    <string name="settings_voice_provider_title">Poskytovatel hlasu</string>
+    <string name="settings_voice_provider_place">Na %1$s</string>
+    <string name="settings_voice_api_key_title">API klíč</string>
+    <string name="settings_voice_provider_automatic_footer">Když %1$s není připraven, hovory použijí dostupného poskytovatele.</string>
+    <string name="settings_voice_provider_choose_automatically">Vybrat automaticky</string>
+    <string name="settings_voice_provider_others_header">Jiní poskytovatelé</string>
+    <string name="settings_voice_provider_use_description">Použít %1$s</string>
+    <string name="settings_voice_provider_use">Použít</string>
+    <string name="settings_voice_provider_set_up">Nastavit</string>
+    <plurals name="settings_voice_provider_not_available_count">
+        <item quantity="one">%d nedostupný</item>
+        <item quantity="few">%d nedostupní</item>
+        <item quantity="many">%d nedostupného</item>
+        <item quantity="other">%d nedostupných</item>
+    </plurals>
+
+    <!-- Voice › API Key -->
+    <string name="settings_voice_account_title">Váš účet OpenAI</string>
+    <string name="settings_voice_account_place">Na tomto telefonu</string>
+    <string name="settings_voice_account_key_footer">Hovory používají váš účet OpenAI místo serveru.</string>
+    <string name="settings_voice_account_use_for_calls">Použít pro hovory</string>
+
+    <!-- Voice -->
+    <string name="settings_voice_title">Hlas</string>
+    <string name="settings_voice_call_setup_header">Nastavení hovorů</string>
+    <string name="settings_voice_calls_header">Hovory</string>
+    <string name="settings_voice_raise_to_talk_hint">Zapnout nebo vypnout zahájení hovoru přes sluchátko při přiložení telefonu k uchu v otevřené relaci</string>
+    <string name="settings_voice_enable">Povolit hlasové hovory</string>
+    <string name="settings_voice_model">Model</string>
+    <string name="settings_voice_model_description">Hlasový model</string>
+    <string name="settings_voice_call_voice">Hlas</string>
+    <string name="settings_voice_raise_to_talk">Přiložením zahájit hovor</string>
+    <string name="settings_voice_call_sounds">Zvuky hovorů</string>
+    <string name="settings_voice_call_history">Historie hovorů</string>
+    <string name="settings_voice_edit_key_label">Upravit váš API klíč pro %1$s</string>
+    <string name="settings_voice_key_verified">Ověřeno</string>
+    <string name="settings_voice_key_checking">Kontrola…</string>
+    <string name="settings_voice_key_saved">Uloženo</string>
+    <string name="settings_voice_key_missing">Chybí</string>
+    <string name="settings_voice_preview_disabled_hint">Pro ukázky hlasů přidejte klíč pro %1$s</string>
+
+    <!-- Voice › Voice Picker -->
+    <string name="settings_voice_picker_add_key_footer">Pro ukázky hlasů přidejte klíč pro %1$s.</string>
+    <string name="settings_voice_picker_unavailable_footer">%1$s není na %2$s k dispozici, hovory proto používají %3$s.</string>
+    <string name="settings_voice_stop_preview_description">Zastavit ukázku %1$s</string>
+    <string name="settings_voice_preview_description">Přehrát ukázku %1$s</string>
+    <string name="settings_voice_preview_playing">Přehrávání</string>
+    <string name="settings_voice_call_voice_unavailable">%1$s · %2$s není k dispozici</string>
+
+    <!-- Settings root -->
+    <string name="settings_whats_new_title">Co je nového</string>
+    <string name="settings_developer_title">Pro vývojáře</string>
+    <string name="settings_app_version">Verze %1$s (%2$s)</string>
+    <string name="settings_app_version_commit">Verze %1$s (%2$s) · %3$s</string>
+
+    <!-- Connection card -->
+    <string name="settings_connection_show_server_label">Zobrazit server</string>
+    <string name="settings_connection_milliseconds">%1$d ms</string>
+    <string name="settings_connection_card_value_description">%1$s, %2$s, %3$s</string>
+    <string name="settings_connection_status_connected">Připojeno</string>
+    <string name="settings_connection_status_slow">Pomalé</string>
+    <string name="settings_connection_status_unstable">Nestabilní</string>
+    <string name="settings_connection_status_reconnecting">Opětovné připojování</string>
+    <string name="settings_connection_status_offline">Bez připojení</string>
+    <string name="settings_connection_status_sign_in_failed">Přihlášení se nezdařilo</string>
+    <string name="settings_connection_status_switching">Přepínání</string>
+    <string name="settings_connection_status_switching_to">Přepínání na %1$s</string>
+    <string name="settings_connection_status_code">%1$s · %2$d</string>
+    <string name="settings_connection_status_http_description">%1$s, HTTP %2$d</string>
+    <plurals name="settings_connection_status_milliseconds_description">
+        <item quantity="one">%1$s, %2$d milisekunda</item>
+        <item quantity="few">%1$s, %2$d milisekundy</item>
+        <item quantity="many">%1$s, %2$d milisekundy</item>
+        <item quantity="other">%1$s, %2$d milisekund</item>
+    </plurals>
+
+    <!-- Server page -->
+    <string name="settings_server_title">Server</string>
+    <string name="settings_server_address">Adresa</string>
+    <string name="settings_server_connection">Připojení</string>
+    <string name="settings_server_version">Verze</string>
+    <string name="settings_server_edit_server">Upravit server…</string>
+    <string name="settings_server_rename_server_ellipsis">Přejmenovat server…</string>
+    <string name="settings_server_rename_title">Přejmenovat server</string>
+    <string name="settings_server_rename_message">Název platí jen na tomto zařízení (%1$s). Pro „%2$s“ nechte pole prázdné.</string>
+    <string name="settings_server_status">Stav</string>
+    <string name="settings_server_status_milliseconds">%1$s · %2$d ms</string>
+
+    <!-- Servers section -->
+    <string name="settings_servers_header">Servery</string>
+    <string name="settings_servers_edit_server">Upravit %1$s…</string>
+    <string name="settings_servers_rename_message">Název platí jen na tomto zařízení (%1$s). Pro název počítače nechte pole prázdné.</string>
+    <string name="settings_servers_remove_title">Odebrat %1$s?</string>
+    <string name="settings_servers_remove_message">Z tohoto zařízení (%1$s) se odstraní adresa a heslo. Relace na serveru zůstanou beze změny.</string>
+    <string name="settings_servers_remove_server">Odebrat server</string>
+    <string name="settings_servers_current_server_state">Aktuální server, %1$s</string>
+    <string name="settings_servers_switch_label">Přepnout na tento server</string>
+    <string name="settings_servers_options_description">Možnosti serveru %1$s</string>
+    <string name="settings_servers_rename_menu">Přejmenovat…</string>
+    <string name="settings_servers_edit_menu">Upravit…</string>
+    <string name="settings_servers_remove_menu">Odebrat…</string>
+    <string name="settings_servers_add_server">Přidat server</string>
+    <string name="settings_servers_scan_pairing_code">Naskenovat párovací kód</string>
+    <string name="settings_servers_enter_address">Zadat adresu</string>
+
+    <!-- Pairing scanner -->
+    <string name="settings_pairing_paste">Vložit</string>
+    <string name="settings_pairing_no_camera_title">Fotoaparát není dostupný</string>
+    <string name="settings_pairing_no_camera_message">Zkopírujte odkaz, který na počítači vypíše `opencode pair`, a vložte ho sem.</string>
+    <string name="settings_pairing_camera_off_title">Přístup k fotoaparátu je vypnutý</string>
+    <string name="settings_pairing_camera_off_message">Pro naskenování QR kódu povolte v nastavení přístup k fotoaparátu, nebo vložte odkaz, který vypíše `opencode pair`.</string>
+    <string name="settings_pairing_nothing_to_paste_title">Není co vložit</string>
+    <string name="settings_pairing_nothing_to_paste_message">Ve schránce není párovací odkaz. Zkopírujte odkaz, který vypíše opencode pair, a zkuste to znovu.</string>
+    <string name="settings_pairing_point_camera">Namiřte fotoaparát na QR kód</string>
+    <string name="settings_pairing_paste_link">Vložit párovací odkaz</string>
+    <string name="settings_pairing_computer_hint">Na počítači otevřete v OpenCode Nastavení → Párování nebo v terminálu spusťte %1$s.</string>
+</resources>

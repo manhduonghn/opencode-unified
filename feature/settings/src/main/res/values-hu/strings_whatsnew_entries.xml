@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- What’s New entries, oldest first: one group per file in whatsnew/entries/. -->
+
+    <!-- 2026-10-06-01-voice-messages -->
+    <string name="settings_whatsnew_entry_voice_messages_title">Hangüzenetek</string>
+    <string name="settings_whatsnew_entry_voice_messages_summary">Amit a Hang funkció kérdez Ön helyett egy munkamenetben, hullámformával jelölt hangüzenetként jelenik meg.</string>
+
+    <!-- 2026-10-07-01-attachment-menu-hold -->
+    <string name="settings_whatsnew_entry_attachment_menu_hold_title">Csatolás a + gombbal</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_summary">A + menü az üzenetmezőből nyílik ki a Kamera, Fotók és Fájlok lehetőségekkel. Tartsa nyomva a + gombot, majd csúsztassa az ujját a választáshoz.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_1">A fotók közvetlenül az üzenetmező felett nyílnak meg; koppintson rájuk a csatoláshoz.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_detail_2">A kamerában objektívgombok, kétujjas nagyítás, koppintásos fókusz és vaku is van.</string>
+    <string name="settings_whatsnew_entry_attachment_menu_hold_example">Tartsa nyomva a + gombot, húzza az ujját a Fotókra, majd engedje el</string>
+
+    <!-- 2026-10-08-01-voice-webrtc-weak-connection -->
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_title">Stabilabb hívások</string>
+    <string name="settings_whatsnew_entry_voice_webrtc_weak_connection_summary">Akadozó kapcsolatnál több másodperces csend helyett csak egy rövid zökkenés hallható a hívásban.</string>
+
+    <!-- 2026-10-08-02-mute-sessions -->
+    <string name="settings_whatsnew_entry_mute_sessions_title">Munkamenetek némítása</string>
+    <string name="settings_whatsnew_entry_mute_sessions_summary">A némított munkamenetek a listában maradnak, de az Áttekintésből kimaradnak, és olvasatlanságot jelző pont sem jelenik meg mellettük.</string>
+    <string name="settings_whatsnew_entry_mute_sessions_detail_1">Tartsa nyomva az Áttekintés gombot minden olvasottnak jelöléséhez. Az Önre váró munkamenetek megmaradnak.</string>
+    <string name="settings_whatsnew_entry_mute_sessions_example">Tartson nyomva egy munkamenetet az oldalmenüben, majd koppintson a Némításra</string>
+
+    <!-- 2026-10-08-03-pair-from-anywhere -->
+    <string name="settings_whatsnew_entry_pair_from_anywhere_title">Párosítás bárhonnan</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_summary">Futtassa az opencode pair --remote parancsot a számítógépén, és csatlakozzon bármely hálózatról, közös Wi-Fi vagy Tailscale nélkül.</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_detail_1">Olvassa be a megjelenő kódot, vagy illessze be a kiírt linket.</string>
+    <string name="settings_whatsnew_entry_pair_from_anywhere_example">Futtassa az opencode pair --remote parancsot, majd adja hozzá a kiszolgálót a telefonján</string>
+
+    <!-- 2026-10-08-04-drawer-peek -->
+    <string name="settings_whatsnew_entry_drawer_peek_title">Legutóbbi aktivitás</string>
+    <string name="settings_whatsnew_entry_drawer_peek_summary">Húzza a munkamenetlistát a munkamenet felé, hogy lássa, melyik mikor volt utoljára aktív.</string>
+    <string name="settings_whatsnew_entry_drawer_peek_detail_1">A lista balra húzással bezárható.</string>
+    <string name="settings_whatsnew_entry_drawer_peek_example">Nyissa meg a munkamenetlistát, majd húzza jobbra</string>
+
+    <!-- 2026-10-08-05-dictation-keeps-going -->
+    <string name="settings_whatsnew_entry_dictation_keeps_going_title">Diktálás és küldés</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_summary">Koppintson a mikrofonra a diktáláshoz, majd küldje el közvetlenül a felvételi sávról, vagy előbb ellenőrizze a Leállítás gombbal.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_1">Tartsa nyomva a mikrofont a beszédhez, húzza felfelé a rögzítéshez, vagy balra a megszakításhoz.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_2">A felvétel az alkalmazás elhagyásakor is folytatódik, és az Élő tevékenységből leállítható.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_detail_3">Felvétel közben is válthat munkamenetet: a Küldés az éppen megnyitottba küldi az üzenetet.</string>
+    <string name="settings_whatsnew_entry_dictation_keeps_going_example">Koppintson a mikrofonra, mondjon egy mondatot, majd koppintson a Küldésre</string>
+
+    <!-- 2026-10-08-06-siri-shortcuts-spotlight -->
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_title">Alkalmazásműveletek és parancsikonok</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_summary">Indítson hívást vagy munkamenetet, illetve küldjön üzenetet a Google Asszisztens alkalmazásműveleteivel, parancsikonokkal vagy a gyorsbeállításokból.</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_detail_1">Tartsa nyomva az alkalmazás ikonját a legutóbbi munkamenetekhez.</string>
+    <string name="settings_whatsnew_entry_siri_shortcuts_spotlight_example">Mondja: „Hey Google, indíts hanghívást az OpenCode-ban”</string>
+
+    <!-- 2026-10-09-01-working-orb -->
+    <string name="settings_whatsnew_entry_working_orb_title">Állapotjelző gömb</string>
+    <string name="settings_whatsnew_entry_working_orb_summary">A Dolgozik felirat mellett és az alügynökök kártyáin egy gömb jelzi, mit csinál az ügynök. Ha végzett, másolásgombbá alakul.</string>
+
+    <!-- 2026-10-09-02-shell-glyph -->
+    <string name="settings_whatsnew_entry_shell_glyph_title">Shelltevékenység</string>
+    <string name="settings_whatsnew_entry_shell_glyph_summary">A futó shell &gt;_ jele a kimenet érkezésével körbefut.</string>
+
+    <!-- 2026-10-09-03-math-and-diagrams -->
+    <string name="settings_whatsnew_entry_math_and_diagrams_title">Képletek és diagramok</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_summary">A válaszok formázott képleteket és Mermaid-diagramokat is megjelenítenek.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_1">Koppintson egy diagramra a nagyításhoz, vagy tartsa nyomva a forrás megtekintéséhez.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_detail_2">A képletek a beállított szövegmérethez igazodnak.</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_example">Kérjen folyamatábrát az üzenetküldés menetéről</string>
+    <string name="settings_whatsnew_entry_math_and_diagrams_prompt">Rajzolj folyamatábrát az üzenetküldés menetéről</string>
+
+    <!-- 2026-10-09-04-always-notify -->
+    <string name="settings_whatsnew_entry_always_notify_title">Értesítés, ha elkészült</string>
+    <string name="settings_whatsnew_entry_always_notify_summary">Értesítést kap, ha egy itt indított munkamenet végzett, az elvégzett munka rövid összefoglalójával.</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_1">Kapcsolja be a Mindig értesítsen lehetőséget a munkamenet adatlapján, hogy minden válaszról értesüljön, a számítógépen indítottakról is.</string>
+    <string name="settings_whatsnew_entry_always_notify_detail_2">Koppintson egy értesítésre a hozzá tartozó munkamenet megnyitásához.</string>
+    <string name="settings_whatsnew_entry_always_notify_example">Küldjön üzenetet, majd zárolja a telefonját</string>
+
+    <!-- 2026-10-09-05-server-switcher -->
+    <string name="settings_whatsnew_entry_server_switcher_title">Váltás a kiszolgálók között</string>
+    <string name="settings_whatsnew_entry_server_switcher_summary">Az oldalmenü címe az aktuális kiszolgáló neve. Koppintson rá másik kiszolgáló választásához vagy új hozzáadásához.</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_1">A Beállításokban élő pulzusjel mutatja a kapcsolatot, a kiszolgáló neve mellett pedig az oda-vissza válaszidő látható.</string>
+    <string name="settings_whatsnew_entry_server_switcher_detail_2">Átnevezheti a kiszolgálót; az új név csak ezen a telefonon érvényes.</string>
+    <string name="settings_whatsnew_entry_server_switcher_example">Nyissa meg az oldalmenüt, koppintson a kiszolgáló nevére, és adja hozzá a másik számítógépét</string>
+
+    <!-- 2026-10-10-01-share-opened-files -->
+    <string name="settings_whatsnew_entry_share_opened_files_title">Képek, mint a Fotókban</string>
+    <string name="settings_whatsnew_entry_share_opened_files_summary">A képek teljes egészükben látszanak a munkamenetben, és a Fotókhoz hasonlóan nyílnak meg: két ujjal nagyíthatók, lapozhatók, lefelé húzva bezárhatók.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_1">Az ügynök által említett összes fájl megnyitható az alkalmazásban.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_detail_2">A Megosztás funkcióval bármit elmenthet a Fotókba vagy a Fájlokba, amit megnyitott, videókat és hangfájlokat is.</string>
+    <string name="settings_whatsnew_entry_share_opened_files_example">Kérje meg az ügynököt néhány képernyőkép elolvasására, majd koppintson az egyikre, és húzza lefelé</string>
+
+    <!-- 2026-10-10-02-call-voice -->
+    <string name="settings_whatsnew_entry_call_voice_title">Hanghívások</string>
+    <string name="settings_whatsnew_entry_call_voice_summary">Koppintson az üres üzenetmező hullámformájára, és beszéljen. A Hang funkció közben a munkameneteiben dolgozik, és szól, ha elkészült.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_1">Kérjen név szerint bármely munkamenetet: a Hang funkció megnyitja, és ott indítja vagy irányítja a munkát.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_2">Vágjon közbe a megszakításhoz, vagy kérdezze meg, hogy halad a munka.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_3">Az élő feliratozáshoz koppintson a hívássávra.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_4">A hívás értesítéséből némíthat és bonthat, a zárolási képernyőn is.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_5">Híváshoz tartsa nyomva a Leállítás gombot, miközben az ügynök dolgozik.</string>
+    <string name="settings_whatsnew_entry_call_voice_detail_6">Válasszon hangot a Beállítások → Hang menüben.</string>
+    <string name="settings_whatsnew_entry_call_voice_example">Indítson hívást, és mondja: „nyisd meg a feltöltési javítások munkamenetét, és ellenőrizd a teszteket”</string>
+
+    <!-- 2026-10-10-03-drawer-one-edge -->
+    <string name="settings_whatsnew_entry_drawer_one_edge_title">Rendezettebb oldalmenü</string>
+    <string name="settings_whatsnew_entry_drawer_one_edge_summary">A sorok egy vonalban kezdődnek, az állapotjelző pontok a sorok végére kerültek, a keresés pedig felül, gombként érhető el.</string>
+
+    <!-- 2026-10-11-01-paste-as-a-card -->
+    <string name="settings_whatsnew_entry_paste_as_a_card_title">Hosszú beillesztések kártyán</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_summary">A hosszú beillesztett szöveg Beillesztett szöveg kártyaként jelenik meg a képek mellett, de az ügynök továbbra is az egészet elolvassa.</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_1">A kártyára koppintva a teljes szöveg elolvasható, másolható és megosztható.</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_detail_2">A hosszú üzenetek néhány sorra csukódnak össze, és a Mutasson többet gombbal bonthatók ki.</string>
+    <string name="settings_whatsnew_entry_paste_as_a_card_example">Másoljon egy hosszú naplót, illessze be az üzenetmezőbe, majd koppintson a kártyára</string>
+
+    <!-- 2026-10-11-02-ride-out-drops -->
+    <string name="settings_whatsnew_entry_ride_out_drops_title">Gyenge térerővel is működik</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_summary">Néhány másodperces jelkimaradás már nem okoz hibát. A küldések, munkamenetek és hívások megvárják a kapcsolatot, majd folytatódnak.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_1">A Küldés mindig elérhető, az üzenetek pedig a küldés sorrendjében továbbítódnak.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_2">A sikertelenül küldött üzenet a helyén marad a Próbálja újra gombbal. Az újrapróbálkozás sosem küldi el kétszer.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_detail_3">Ha a kiszolgáló nem érhető el, a neve elhalványul az oldalmenüben. Koppintson rá a Próbálja újra lehetőséghez.</string>
+    <string name="settings_whatsnew_entry_ride_out_drops_example">Nyisson meg egy munkamenetet, amikor a vonat alagútba ér</string>
+
+    <!-- 2026-10-11-03-new-session-recent-projects -->
+    <string name="settings_whatsnew_entry_new_session_recent_projects_title">Kezdés bármelyik projektben</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_summary">Az Új munkamenet az üzenetmező felett mutatja a legutóbbi projekteket, a Minden projekt pedig a számítógép bármely mappáját megnyithatja.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_1">A kiválasztott projekt gépelés közben is az üzenetmező felett marad.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_detail_2">Az új munkamenetből indított hívás a kiválasztott projektben dolgozik.</string>
+    <string name="settings_whatsnew_entry_new_session_recent_projects_example">Koppintson az Új munkamenet, majd a Minden projekt, végül a Válasszon mappát… lehetőségre</string>
+
+    <!-- 2026-10-11-04-stop-runs-your-steer -->
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_title">Irányítás munka közben</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_summary">Küldjön üzenetet munka közben: az ügynök a következő lépésnél elolvassa, a hosszan futó parancsokat előbb a háttérbe helyezi.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_1">Tartsa nyomva a Küldés gombot az Irányítás vagy a Sorba állítás kiválasztásához az adott üzenetnél.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_2">Tartsa nyomva a várakozó üzenetet a sorba helyezéshez vagy törléshez.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_detail_3">A Leállítás felirata azonnal Leállítás… lesz, és az elküldött irányító üzenet következik.</string>
+    <string name="settings_whatsnew_entry_stop_runs_your_steer_example">Küldjön üzenetet egy hosszan futó parancs közben, és figyelje, ahogy a parancs a háttérbe kerül</string>
+
+    <!-- 2026-10-12-01-browser-push-in -->
+    <string name="settings_whatsnew_entry_browser_push_in_title">Weboldalak az alkalmazáson belül</string>
+    <string name="settings_whatsnew_entry_browser_push_in_summary">A kísérleti Alkalmazáson belüli böngésző bekapcsolásával a linkek oldala a munkamenet fölé csúszik. A visszalépéshez húzza el a képernyő szélétől.</string>
+
+    <!-- 2026-10-12-02-answer-from-the-bar -->
+    <string name="settings_whatsnew_entry_answer_from_the_bar_title">Válasz az üzenetmezőből</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_summary">A kérdések és engedélykérések az üzenetmezőből nyílnak ki, és ott válaszolhat rájuk: válasszon egy lehetőséget, vagy gépelje, diktálja be a válaszát.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_1">Az engedélykérések jóváhagyás előtt megmutatják a parancsot vagy szerkesztést.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_2">A Megtagadás a beírt szöveget új utasításként adja át, így az ügynök folytatja a munkát.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_detail_3">Válaszadás után visszatér a piszkozat.</string>
+    <string name="settings_whatsnew_entry_answer_from_the_bar_example">Ha az ügynök kérdez, tartsa nyomva a mikrofont, és mondja el a válaszát</string>
+
+    <!-- 2026-10-12-03-new-messages-divider -->
+    <string name="settings_whatsnew_entry_new_messages_divider_title">Folytatás onnan, ahol abbahagyta</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_summary">Visszatéréskor a munkamenet a végén nyílik meg, az időközben érkezett üzenetekkel együtt. Ha sok új üzenetnél inkább az Új jelöléshez ugrana, kapcsolja be az Új üzenetek elválasztója beállítást a Beállítások › Munkamenetek menüben.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_1">A várhatóan megnyitandó munkamenetek már az oldalmenü megnyitásakor frissülnek, így koppintásra készen állnak.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_detail_2">Visszaváltáskor a háttérmunka és a kontextusjelző frissítés közben is megmarad.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_example">Indítson egy hosszú feladatot, váltson másik munkamenetre, majd a válasz után térjen vissza</string>
+
+    <!-- 2026-10-12-04-model-list-and-level-meter -->
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_title">Új modellválasztó</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_summary">Válasszon modellt és gondolkodási szintet a Modell panelen, felül a kedvencekkel. Az üzenetmezőből kinyíló lista kipróbálásához kapcsolja be az Új modellválasztót a Beállítások → Kísérleti menüben.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_1">Ha a modell több szintet kínál, használja a Modell panel Gondolkodás menüjét.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_2">Húzza oldalra a modellt a kedvencekhez adáshoz.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_detail_3">Egy visszafogott sor jelzi a munkamenetben, hol váltott modellt vagy szintet.</string>
+    <string name="settings_whatsnew_entry_model_list_and_level_meter_example">Koppintson a modellre az üzenetmezőben, és válasszon gondolkodási szintet</string>
+
+    <!-- 2026-10-12-05-run-error-line -->
+    <string name="settings_whatsnew_entry_run_error_line_title">Ha a futás sikertelen</string>
+    <string name="settings_whatsnew_entry_run_error_line_summary">A félbeszakadt futás közérthetően jelzi az okot, és egy továbblépési lehetőséget kínál: Szerkesztés, Kompakt, Modellváltás vagy Próbálja újra.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_1">A Szerkesztés visszavonja az üzenetet, és visszateszi az üzenetmezőbe átfogalmazáshoz.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_2">Tartsa nyomva a sort a teljes hiba megtekintéséhez és másolásához.</string>
+    <string name="settings_whatsnew_entry_run_error_line_detail_3">Ha az ügynök magától újrapróbálkozik, a Dolgozik jelzés visszaszámol a következő próbálkozásig.</string>
+    <string name="settings_whatsnew_entry_run_error_line_example">Ha a válasz le van tiltva, koppintson a Szerkesztés gombra, fogalmazza át az üzenetet, majd küldje el újra</string>
+
+    <!-- 2026-10-12-06-transcript-keyboard-space -->
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_title">Rés nélkül eltűnő billentyűzet</string>
+    <string name="settings_whatsnew_entry_transcript_keyboard_space_summary">A billentyűzet elhúzása már nem hagy üres helyet az utolsó üzenet alatt.</string>
+
+    <!-- 2026-10-12-07-share-sheet-sends -->
+    <string name="settings_whatsnew_entry_share_sheet_sends_title">Küldés a megosztási panelről</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_summary">Osszon meg bármit az OpenCode-dal, válasszon munkamenetet, írjon üzenetet, és küldje el az alkalmazás megnyitása nélkül.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_1">A legutóbbi munkamenetek a megosztási panel felső sorában jelennek meg.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_2">A JSON-fájlok és exportok fájlként, változatlan névvel csatolódnak.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_3">A Folytatás az OpenCode-ban megnyitja a munkamenetet, a megosztott tartalommal az üzenetmezőben.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_detail_4">Ha a küldés nem sikerül, a Küldés később az alkalmazás következő megnyitásakor küldi el.</string>
+    <string name="settings_whatsnew_entry_share_sheet_sends_example">Osszon meg egy képernyőképet az OpenCode-dal, írjon hozzá kérdést, majd koppintson a Küldés gombra</string>
+
+    <!-- 2026-10-12-08-app-icon-badge -->
+    <string name="settings_whatsnew_entry_app_icon_badge_title">Jelvény az alkalmazásikonon</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_summary">Az alkalmazásikon az olvasatlan vagy Önre váró munkamenetek számát mutatja, ugyanannyit, mint az Áttekintés.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_1">A némított munkamenetek nem számítanak bele.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_detail_2">Ehhez engedélyezni kell az értesítéseket.</string>
+    <string name="settings_whatsnew_entry_app_icon_badge_example">Hagyjon megválaszolatlanul egy kérdést egy munkamenetben, majd lépjen a kezdőképernyőre</string>
+
+    <!-- 2026-10-12-09-drawer-keeps-keyboard -->
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_title">Az oldalmenüvel csúszó billentyűzet</string>
+    <string name="settings_whatsnew_entry_drawer_keeps_keyboard_summary">Ha gépelés közben megnyitja a munkamenetlistát, az üzenetmező aktív marad, a billentyűzet pedig a munkamenettel együtt oldalra csúszik.</string>
+
+    <!-- 2026-10-12-10-whats-new-page -->
+    <string name="settings_whatsnew_entry_whats_new_page_title">Egyszerűbb Újdonságok</string>
+    <string name="settings_whatsnew_entry_whats_new_page_summary">Az Újdonságok a Beállításokhoz hasonló oldalon nyílik meg. Minden funkció külön oldalt kap, a javításokat pedig itt gyűjtjük össze.</string>
+
+    <!-- 2026-10-12-11-catch-up-returns-to-drawer -->
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_title">Az Áttekintésből vissza az oldalmenübe</string>
+    <string name="settings_whatsnew_entry_catch_up_returns_to_drawer_summary">Az Áttekintésből kilépve a munkamenetlista oda tér vissza, ahol hagyta.</string>
+
+    <!-- 2026-10-12-12-transcript-day-stamps -->
+    <string name="settings_whatsnew_entry_transcript_day_stamps_title">Napjelölések az átiratban</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_summary">A több napon át tartó munkamenetekben minden nap első üzenete felett megjelenik a nap, például „szerda 8:24”. Egyórás szünet után az új üzenet felett az időpont is látható.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_1">A napjelölés Ma, Tegnap vagy az adott héten a hét napja, egyébként a dátum.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_detail_2">Az irányító és a sorban álló üzenetek várakozás közben nem kapnak időbélyeget.</string>
+    <string name="settings_whatsnew_entry_transcript_day_stamps_example">Nyisson meg egy, a hét korábbi napján indított munkamenetet, és görgessen fel</string>
+
+    <!-- 2026-10-12-13-rich-link-previews -->
+    <string name="settings_whatsnew_entry_rich_link_previews_title">Linkelőnézetek</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_summary">A válasz alatti linkek soronként mutatják, mire vezetnek: beolvasztási kérelemre vagy hibajegyre címmel és állapottal, véglegesítésre, videóra vagy oldalra.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_1">A GitHub beolvasztási kérelmei, hibajegyei, véglegesítései és adattárai címmel jelennek meg, a Nyitott, Beolvasztva vagy Lezárt állapotot szín jelzi.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_2">Az X-bejegyzéseknél a szerző és a szöveg látható, a YouTube-linkeknél a cím, más oldalaknál pedig a linkből kiolvasott név.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_3">Három link látható. A többihez koppintson a Másolás melletti „továbbiak” gombra, majd újra az elrejtésükhöz.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_detail_4">Tartsa nyomva a linket a nagyobb előnézethez, a Link másolása és a Megosztás lehetőséghez.</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_example">Kérdezze meg az ügynököt, mi változott egy adattárban ezen a héten</string>
+    <string name="settings_whatsnew_entry_rich_link_previews_prompt">Mi változott ezen a héten egy általam használt GitHub-adattárban? Linkeket is kérek.</string>
+
+    <!-- 2026-10-13-01-rolling-numbers -->
+    <string name="settings_whatsnew_entry_rolling_numbers_title">Gördülő számok</string>
+    <string name="settings_whatsnew_entry_rolling_numbers_summary">A háttérmunka-jelző, a Munkamenet panel, az „N használva” sorok és az Áttekintés élő számlálói számjegyenként gördülnek.</string>
+
+    <!-- 2026-10-13-02-grouped-steering -->
+    <string name="settings_whatsnew_entry_grouped_steering_title">Csoportosított üzenetek</string>
+    <string name="settings_whatsnew_entry_grouped_steering_summary">Az egymás után küldött üzenetek egy blokkba kerülnek, az ügynökre váró irányító üzenetek pedig közös Irányítás címkét kapnak.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_1">Az egymást követő buborékok közel kerülnek egymáshoz, sarkaik az érintkezésnél összeérnek.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_2">A fotók és fájlok a blokkon belül is megtartják lekerekített formájukat.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_detail_3">Amikor az ügynök átvesz egy üzenetet, az egyetlen mozdulattal a helyére csúszik.</string>
+    <string name="settings_whatsnew_entry_grouped_steering_example">Miközben az ügynök dolgozik, küldjön gyorsan három üzenetet, az egyikben egy fotóval</string>
+
+    <!-- 2026-10-13-03-inline-tool-rows -->
+    <string name="settings_whatsnew_entry_inline_tool_rows_title">Visszafogott eszköz- és kérdéssorok</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_summary">Az eszközcsoportok és a megválaszolt kérdések a kódhoz hasonló, teljes szélességű sávban nyílnak meg. Az egymást követő olvasások egy sorba kerülnek.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_1">Az összecsukott csoportokon „N eszköz használva” felirat látható, a sikertelen eszközhívásokat piros jelöli.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_2">A Futtatás sorai megnevezik a szkript által hívott eszközöket, a Képesség sorai pedig a képességet.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_detail_3">A megválaszolt kérdéseknél az utasítás és az összes felajánlott válasz látható, az Ön választása bejelölve.</string>
+    <string name="settings_whatsnew_entry_inline_tool_rows_example">Koppintson egy munkamenet „N eszköz használva” sorára a sáv megnyitásához</string>
+
+    <!-- 2026-10-13-04-mac-motion-playgrounds -->
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_title">Tesztfelület-vezérlők Macen</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_summary">Bekapcsolt fejlesztői módban párosítsa a finomhangolást a Mac gépével, hogy lassítva játssza le a tesztfelület animációit, és megvizsgálja a rögzített képkockákat.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_1">A Mac vezérlőoldalán választhat tesztfelületet, beállításkészletet és vezérelheti a visszajátszást. A telefonon csak a tesztfelület látható.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_2">Kompakt kártyák mutatják a képernyőn látható vezérlőket. A mozgáshoz és térközökhöz elnevezett beállításkészletek tartoznak, a Natív pedig visszaállítja a gyári működést. Minden készlet egyszerre alkalmazza az értékeit.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_3">A lebegő finomhangoló panel elrejtőzik, amikor a Mac csatlakozik. Hívja elő a finomhangoló kézmozdulattal, majd a kilépéshez válassza a Kilépés a tesztfelületről lehetőséget.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_4">Az előre megadott forgatókönyvek ugyanazt a mintamunkamenetet játsszák le, így összehasonlítható az animáció a különböző verziókban.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_5">A visszajátszások tiszta állapotból indulnak, és várakoztatás helyett kézbesítik az irányító és sorban álló üzeneteket.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_detail_6">A Mac áttekintő lejátszójában lépésenként vizsgálhatja a rögzített elrendezést, megjelölhet egy képkockát, és visszajelzést küldhet az animációról.</string>
+    <string name="settings_whatsnew_entry_mac_motion_playgrounds_example">Nyissa meg a Beállítások → Fejlesztő oldalt, párosítsa a Mac finomhangoló oldalával, majd próbálja ki az Átirat → Válasz folyamatos megjelenítése lehetőséget 0,25× sebességgel</string>
+
+    <!-- 2026-10-13-05-catch-up-flicks -->
+    <string name="settings_whatsnew_entry_catch_up_flicks_title">Könnyebb lapozás az Áttekintésben</string>
+    <string name="settings_whatsnew_entry_catch_up_flicks_summary">Az Áttekintésben egy gyors pöccintés vagy rövidebb húzás is továbblöki a kártyát, ahelyett hogy visszaugrana.</string>
+
+    <!-- 2026-10-14-01-settings-grouped-by-purpose -->
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_title">Átláthatóbb beállítások</string>
+    <string name="settings_whatsnew_entry_settings_grouped_by_purpose_summary">A kísérleti funkciók és fejlesztői eszközök a Beállítások → Kísérleti alatt, az alkalmazáson belüli jelzések az Értesítések, a híváselőzmények pedig a Hang alatt találhatók.</string>
+
+    <!-- 2026-10-14-02-send-ats-recovery -->
+    <string name="settings_whatsnew_entry_send_ats_recovery_title">Megbízható küldés</string>
+    <string name="settings_whatsnew_entry_send_ats_recovery_summary">Az alkalmazás automatikusan újrapróbálja az üzenetküldést, ha az iOS rövid időre elutasít egy már működő kiszolgálókapcsolatot.</string>
+
+    <!-- 2026-10-14-03-keyboard-menus-and-header -->
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_title">Stabilabb billentyűzet és menük</string>
+    <string name="settings_whatsnew_entry_keyboard_menus_and_header_summary">Gépelés közben a + gombbal úgy nyithatja meg a mellékleteket, hogy a billentyűzet nem csukódik be, a vezérlők pedig nem mozdulnak el. A fejléc elmosása a billentyűzet mozgása közben is a helyén marad.</string>
+
+    <!-- 2026-10-14-04-open-links-in-apps -->
+    <string name="settings_whatsnew_entry_open_links_in_apps_title">Linkek megnyitása a saját alkalmazásukban</string>
+    <string name="settings_whatsnew_entry_open_links_in_apps_summary">A linkek az őket kezelő alkalmazásban nyílnak meg, például a GitHubban vagy a YouTube-ban. Ha az Alkalmazáson belüli böngésző kísérlet be van kapcsolva, tartsa nyomva a linket, és válassza a Megnyitás az alkalmazás böngészőjében lehetőséget.</string>
+
+    <!-- 2026-10-14-05-session-list-quiet-hierarchy -->
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_title">Áttekinthetőbb munkamenetlista</string>
+    <string name="settings_whatsnew_entry_session_list_quiet_hierarchy_summary">A Rögzített és Legutóbbiak felirat kisebb, szürke betűkkel háttérbe húzódik, az olvasatlan és várakozó munkamenetek közepesen vastag betűkkel kiemelkednek, az olvasottak kissé halványabbak.</string>
+
+    <!-- 2026-10-14-06-queued-messages-fitted-sheet -->
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_title">Rendezettebb üzenetsor</string>
+    <string name="settings_whatsnew_entry_queued_messages_fitted_sheet_summary">A sorban álló üzenetek panelje csak akkora, amekkora a sor: számozott sorokkal és visszafogott gombokkal az azonnali küldéshez vagy a megszakításhoz.</string>
+
+    <!-- 2026-10-14-07-control-center-sessions -->
+    <string name="settings_whatsnew_entry_control_center_sessions_title">Munkamenetcsempék</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_summary">Adjon hozzá egy csempét a gyorsbeállításokhoz, amellyel egyetlen koppintással megnyithat egy munkamenetet vagy hívást indíthat benne.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_1">Az új Munkamenet megnyitása csempe a kiválasztott munkamenetet nyitja meg.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_2">A Hívás indítása egy kiválasztott vagy új munkamenetben indíthat hívást. Alapértelmezés szerint a legutóbb megtekintett munkamenetet hívja.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_3">Válasszon a rögzített és legutóbbi munkamenetek közül; a csempén a munkamenet aktuális címe látható.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_detail_4">A csempék csak az alkalmazást nyitják meg: semmit sem küldenek el, amíg nem beszél vagy gépel.</string>
+    <string name="settings_whatsnew_entry_control_center_sessions_example">Nyissa meg a gyorsbeállításokat, koppintson a Szerkesztés gombra, és húzza a helyére az OpenCode Munkamenet megnyitása csempéjét</string>
+
+    <!-- 2026-10-15-01-settings-keyboard-down -->
+    <string name="settings_whatsnew_entry_settings_keyboard_down_title">A billentyűzet nem takarja a beállításokat</string>
+    <string name="settings_whatsnew_entry_settings_keyboard_down_summary">Ha gépelés közben az oldalmenüből nyitja meg a Beállításokat, a billentyűzet eltűnik, és nem takarja el az oldalt.</string>
+
+    <!-- 2026-10-15-02-session-list-sidebar-grey -->
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_title">Szellősebb munkamenetlista</string>
+    <string name="settings_whatsnew_entry_session_list_sidebar_grey_summary">A munkamenetlista címe nagyobb, a szürke Rögzített és Legutóbbiak fejlécek is nagyobbak, és több hely van felettük. Nyissa meg az oldalmenüt a megtekintéshez.</string>
+
+    <!-- 2026-10-15-03-voice-varied-acknowledgements -->
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_title">Kevesebb „Ellenőrzöm” a hívásokban</string>
+    <string name="settings_whatsnew_entry_voice_varied_acknowledgements_summary">Hívás közben a hang az elhangzottakra reagál, nem minden kérésre „Ellenőrzöm” a válasz. Ha tovább beszél egy kérés közben, az már nem lesz kétszer elküldve.</string>
+
+    <!-- 2026-10-15-04-smoother-streaming -->
+    <string name="settings_whatsnew_entry_smoother_streaming_title">Simábban megjelenő válaszok</string>
+    <string name="settings_whatsnew_entry_smoother_streaming_summary">A folyamatosan érkező válasz új sora fokozatosan jelenik meg, halványulás és villanás nélkül. A sorok nem nyúlnak túl a szövegen, majd ugranak vissza, a listaelemek és címsorok pedig rögtön a végleges formájukban jelennek meg, nem különálló kötőjelként vagy kettőskeresztként.</string>
+
+    <!-- 2026-10-15-05-model-list-sheet -->
+    <string name="settings_whatsnew_entry_model_list_sheet_title">Modelllista panelen</string>
+    <string name="settings_whatsnew_entry_model_list_sheet_summary">Az Új modellválasztó kísérleti funkcióval az üzenetmező modellpanellel bővül a billentyűzet helyén. A billentyűzet eltűnik, a panel pedig simán összecsukódik, bármilyen gyorsan nyitja és zárja.</string>
+
+    <!-- 2026-10-15-06-queued-pill-whole-title -->
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_title">Teljes sorjelző felirat</string>
+    <string name="settings_whatsnew_entry_queued_pill_whole_title_summary">Az üzenetszerkesztő feletti jelzőn a teljes „2 sorban” felirat látható a levágott „2 sor…” helyett. A máshol gördülve változó számlálók is minden karaktert megőriznek.</string>
+
+    <!-- 2026-10-16-01-plus-menu-photo-sheet -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_title">Fotók a billentyűzet helyén</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_sheet_summary">Az Új pluszmenü kísérleti funkcióval a Fotók elem fotópanellel bővíti a + menüt a billentyűzet helyén. A + nyomva tartására megjelennek a legújabb fotók: húzza az ujját az egyikre, majd engedje fel a hozzáadáshoz.</string>
+
+    <!-- 2026-10-16-02-composer-large-text-targets -->
+    <string name="settings_whatsnew_entry_composer_large_text_targets_title">Könnyebb koppintás az üzenetszerkesztőben</string>
+    <string name="settings_whatsnew_entry_composer_large_text_targets_summary">Nagy szövegméretnél könnyebb az üzenetszerkesztő gombjaira koppintani.</string>
+
+    <!-- 2026-10-16-03-project-pick-haptic -->
+    <string name="settings_whatsnew_entry_project_pick_haptic_title">Finom rezgés projektváltáskor</string>
+    <string name="settings_whatsnew_entry_project_pick_haptic_summary">Finom rezgést érezhet, ha másik projektet választ az új munkamenethez az üzenetmező felett vagy a Minden projekt nézetben.</string>
+
+    <!-- 2026-10-16-04-fork-opens-copy -->
+    <string name="settings_whatsnew_entry_fork_opens_copy_title">Az elágazás megnyitja a másolatot</string>
+    <string name="settings_whatsnew_entry_fork_opens_copy_summary">A munkamenet részleteinél az Elágazás ismét megnyitja a másolatot.</string>
+
+    <!-- 2026-10-16-05-transcript-row-targets -->
+    <string name="settings_whatsnew_entry_transcript_row_targets_title">Könnyebb koppintások</string>
+    <string name="settings_whatsnew_entry_transcript_row_targets_summary">Könnyebb a Munkamenet panel címére koppintani, a VoiceOver és a Voice Control pedig már nem éri el az üzenetszerkesztő diktálás közben rejtett gombjait.</string>
+
+    <!-- 2026-10-16-06-image-previews -->
+    <string name="settings_whatsnew_entry_image_previews_title">Képelőnézetek</string>
+    <string name="settings_whatsnew_entry_image_previews_summary">Az ügynök által említett képek mozaikos elrendezésű előnézetként jelennek meg, a hiányzó fájlokat pedig jelzés mutatja.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_1">Az előnézetek az őket említő bekezdés alatt jelennek meg.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_2">Koppintson egy képre a teljes képernyős megnyitáshoz, majd lapozzon a válasz képei között.</string>
+    <string name="settings_whatsnew_entry_image_previews_detail_3">A munkamenet mappáján kívüli képek csak koppintásra töltődnek be.</string>
+    <string name="settings_whatsnew_entry_image_previews_example">Kérje meg az ügynököt, hogy mutasson képernyőképeket a projektből.</string>
+    <string name="settings_whatsnew_entry_image_previews_prompt">Mutasd meg a projektben lévő képernyőképeket.</string>
+
+    <!-- 2026-10-16-07-connection-error-details -->
+    <string name="settings_whatsnew_entry_connection_error_details_title">Részletesebb kapcsolódási hibák</string>
+    <string name="settings_whatsnew_entry_connection_error_details_summary">A kapcsolódási hibáknál megjelenik a hibakód, a megpróbált cím és a DNS-feloldás eredménye, valamint segítség, ha egy tailnet-név Tailscale-en kívüli címre oldódik fel.</string>
+
+    <!-- 2026-10-16-08-outage-reconnect-delay -->
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_title">Gyorsabb újracsatlakozás</string>
+    <string name="settings_whatsnew_entry_outage_reconnect_delay_summary">A munkamenetek hamarabb frissülnek, amikor a kiszolgáló egy leállás után újra elérhető.</string>
+
+    <!-- 2026-10-17-01-every-running-subagent -->
+    <string name="settings_whatsnew_entry_every_running_subagent_title">Minden futó alügynök</string>
+    <string name="settings_whatsnew_entry_every_running_subagent_summary">Az üzenetszerkesztő feletti alügynökszámláló a más alügynökök alá tartozókat és a 100-nál több alügynököt tartalmazó munkamenetek összes alügynökét is számolja, a TUI-val egyezően.</string>
+
+    <!-- 2026-10-17-02-session-view-refined-standard -->
+    <string name="settings_whatsnew_entry_session_view_refined_standard_title">Áttekinthetőbb válaszszöveg</string>
+    <string name="settings_whatsnew_entry_session_view_refined_standard_summary">A 3. szintű címsorok jobban elkülönülnek a félkövér szövegtől, a normál szöveg kissé halványabb, hogy a félkövér kiemelkedjen, a bekezdések és kódblokkok körül pedig több hely marad.</string>
+
+    <!-- 2026-10-17-03-bottom-follow-on-load -->
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_title">Maradjon a lista alján</string>
+    <string name="settings_whatsnew_entry_bottom_follow_on_load_summary">A munkamenetek nézete a lista alján marad, amíg a késve érkező tartalom betöltődik.</string>
+
+    <!-- 2026-10-17-04-drafts-stay-put -->
+    <string name="settings_whatsnew_entry_drafts_stay_put_title">A piszkozatok megmaradnak</string>
+    <string name="settings_whatsnew_entry_drafts_stay_put_summary">A piszkozatok, a csatolt fotók és helyszínek, valamint a küldésre váró üzenetek akkor is megmaradnak, ha az alkalmazás a háttérben bezárul.</string>
+
+    <!-- 2026-10-18-01-themes -->
+    <string name="settings_whatsnew_entry_themes_title">Témák</string>
+    <string name="settings_whatsnew_entry_themes_summary">Válasszon témát a munkamenetekhez, például Tokyo Night, Catppuccin, Dracula, Rosé Pine vagy GitHub témát, böngészés közbeni élő előnézettel.</string>
+    <string name="settings_whatsnew_entry_themes_detail_1">A témák színezik az átiratot, az üzeneteket, a kódot, a szintaxist, a diffeket és a linkeket.</string>
+    <string name="settings_whatsnew_entry_themes_detail_2">A Megjelenés alatti Mód beállítással választhat a Világos, Sötét és Rendszer lehetőségek közül.</string>
+    <string name="settings_whatsnew_entry_themes_detail_3">A vezérlők minden témában megőrzik a natív Liquid Glass megjelenésüket.</string>
+    <string name="settings_whatsnew_entry_themes_example">Nyissa meg a Beállítások → Megjelenés → Téma menüt, és próbálja ki a Tokyo Night témát.</string>
+
+    <!-- 2026-10-18-02-return-key-sends -->
+    <string name="settings_whatsnew_entry_return_key_sends_title">A Return billentyű beállítása</string>
+    <string name="settings_whatsnew_entry_return_key_sends_summary">Kapcsolja ki a Küldés Return billentyűvel beállítást a Beállításokban, ha a Return billentyűvel új sort szeretne kezdeni, vagy használja a Command-Return és Shift-Return kombinációkat fizikai billentyűzeten.</string>
+
+    <!-- 2026-10-18-03-quote-replies -->
+    <string name="settings_whatsnew_entry_quote_replies_title">Válaszok idézése</string>
+    <string name="settings_whatsnew_entry_quote_replies_summary">Jelöljön ki szöveget az asszisztens válaszában, majd koppintson az Idézés gombra, hogy idézetkártyaként hozzáadja az üzenetéhez.</string>
+
+    <!-- 2026-10-18-04-launch-bloom -->
+    <string name="settings_whatsnew_entry_launch_bloom_title">Kibomló indítóanimáció</string>
+    <string name="settings_whatsnew_entry_launch_bloom_summary">Az alkalmazás teljes indításakor az OpenCode emblémája összehúzódik, majd a munkamenetté bomlik ki.</string>
+
+    <!-- 2026-10-18-05-drag-to-pin -->
+    <string name="settings_whatsnew_entry_drag_to_pin_title">Munkamenet rögzítése húzással</string>
+    <string name="settings_whatsnew_entry_drag_to_pin_summary">Tartsa nyomva és húzza fel a munkamenetet a Rögzített rész kívánt helyére, vagy húzza le a Legutóbbiak közé a rögzítés feloldásához.</string>
+
+    <!-- 2026-10-19-01-call-tray-colour-blend -->
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_title">Simább hívásgomb-átmenet</string>
+    <string name="settings_whatsnew_entry_call_tray_colour_blend_summary">A kísérleti Híváspanel bekapcsolásával a hívásgomb hívásindításkor közvetlenül a piros Befejezés gombba vált át, hívásbontáskor pedig vissza, a háttér felvillanása nélkül.</string>
+
+    <!-- 2026-10-19-02-optical-insets -->
+    <string name="settings_whatsnew_entry_optical_insets_title">Egyenletesen elhelyezett vezérlők</string>
+    <string name="settings_whatsnew_entry_optical_insets_summary">Az üzenetszerkesztő + és mikrofonikonja, a háttérmunka és a sorban álló feladatok jelvényeinek ikonjai, valamint az oldalmenü Új munkamenet ikonja most az üvegfelület lekerekített végeinek optikai közepén ülnek. A shell ikonja most az alügynök gömbjéhez hasonló kör, villogó kurzor nélkül. Ha mindkettő fut, egymás mellett jelennek meg.</string>
+
+    <!-- 2026-10-19-03-smart-dictation-audio -->
+    <string name="settings_whatsnew_entry_smart_dictation_audio_title">Simább diktálás zene mellett</string>
+    <string name="settings_whatsnew_entry_smart_dictation_audio_summary">Diktálás közben a zene sztereó marad az AirPods fülhallgatón, és egy perc után sem szakad meg. Ha csak a telefont használja, a hangszórón szól tovább, nem a beszédhangszórón.</string>
+
+    <!-- 2026-10-19-04-interrupted-hand -->
+    <string name="settings_whatsnew_entry_interrupted_hand_title">Kézjel a megszakításhoz</string>
+    <string name="settings_whatsnew_entry_interrupted_hand_summary">A megszakított futást és shellt most felemelt kéz jelzi. A leállított shell állapota pedig Leállítva helyett Megszakított.</string>
+
+    <!-- 2026-10-19-05-autocomplete-fast-scroll -->
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_title">Fürgébb automatikus kiegészítés</string>
+    <string name="settings_whatsnew_entry_autocomplete_fast_scroll_summary">A kísérleti Üzenetszerkesztő automatikus kiegészítése bekapcsolásával a javaslatok követik a gépelést, a lista húzása pedig görget, nem választ ki sort.</string>
+
+    <!-- 2026-10-19-06-experimental-groups -->
+    <string name="settings_whatsnew_entry_experimental_groups_title">Csoportosított kísérleti funkciók</string>
+    <string name="settings_whatsnew_entry_experimental_groups_summary">A Beállítások → Kísérleti funkciói csoportokba rendezve jelennek meg, a hívásokhoz pedig egyetlen Hívásstílus beállítás tartozik.</string>
+
+    <!-- 2026-10-19-07-model-picker-standard-sheet -->
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_title">Modellválasztó szabványos panelen</string>
+    <string name="settings_whatsnew_entry_model_picker_standard_sheet_summary">A kísérleti Új modellválasztó bekapcsolásával az üzenetmezőben lévő modell szabványos panelt nyit meg, ahol minden modellhez külön gondolkodásiszint-menü tartozik. A korábbi választó most Egyedi modellválasztó néven található a Beállítások › Kísérleti alatt.</string>
+
+    <!-- 2026-10-19-08-problem-reports-reach-session -->
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_title">Hibajelentések a munkamenetben</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_summary">A Probléma jelentése most a megjegyzését is elküldi abba a munkamenetbe, ahonnan jelentett, a teljes jelentést pedig csatolja, hogy az ügynök elolvashassa.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_1">Az üzenet elején a hibajelentést jelző sor, az Ön megjegyzése, a jelentés azonosítója és a feltöltött nyomkövetési napló linkje szerepel.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_2">Az eszköz, a build és a képernyő adatai, az idővonal és az alkalmazásnapló csatolt fájlként érkeznek, mintha Ön csatolta volna őket.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_3">A Kezdőlapról küldve a legutóbbi munkamenetbe kerül.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_4">Sikertelen feltöltéskor a megjegyzés és az összefoglaló akkor is megérkezik, és jelzi a hibát. A Próbálja újra ezután csak a nyomkövetési napló linkjét küldi el.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_detail_5">Megérkezéskor az „Elküldve a munkamenetbe” visszaigazolás jelenik meg.</string>
+    <string name="settings_whatsnew_entry_problem_reports_reach_session_example">Nyissa meg egy munkamenet menüjét, válassza a Probléma jelentése lehetőséget, írjon megjegyzést, majd koppintson a Küldés gombra</string>
+
+    <!-- 2026-10-19-09-team-scrawl-feedback -->
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_title">Csapat-visszajelzés a Scrawl segítségével</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_summary">Csatlakozzon személyes linkjével a Csapat-visszajelzéshez, hogy három ujjal indított Scrawl-felvételeket és érzékeny adatoktól megtisztított diagnosztikát küldhessen a Problémák tábla közös várólistájára.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_1">Nyissa meg az opencode://team/join linkjét az adatgyűjtés áttekintéséhez és elfogadásához.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_2">Egy háromlépéses interaktív útmutató bemutatja a háromujjas nyomva tartást, a beszédet és rajzolást, majd egy próbafelvétel elküldését a tesztsávba.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_3">Minden felvételhez ugyanaz az érzékeny adatoktól megtisztított idővonal, alkalmazásnapló és Motion Watch-diagnosztika társul, mint a Probléma jelentése funkciónál.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_detail_4">A Beállítások › Fejlesztő alatt bármikor újra megnyithatja az útmutatót, vagy kiléphet a Csapat-visszajelzésből.</string>
+    <string name="settings_whatsnew_entry_team_scrawl_feedback_example">A Beállítások › Fejlesztő alatt ellenőrizheti a Csapat-visszajelzés állapotát, vagy újra megnyithatja az útmutatót.</string>
+
+    <!-- 2026-10-19-10-scrawl-faster-start -->
+    <string name="settings_whatsnew_entry_scrawl_faster_start_title">Gyorsabb Scrawl-indítás</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_summary">A Scrawl vezérlői már a mikrofon és a felvevő indulása közben megjelennek.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_1">A felvétel előkészítése közben a Rajzolás, Küldés és Elvetés gombokra koppintásokat is megjegyzi.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_2">A háromujjas nyomva tartás előkészíti a fedőpanelt, de nem indítja el idő előtt a mikrofont.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_detail_3">Javítottuk az összeomlást, amely akkor történt, ha hangútvonal-váltás közben újraindult a Scrawl mikrofonja.</string>
+    <string name="settings_whatsnew_entry_scrawl_faster_start_example">Párosított eszközön tartsa három ujját a képernyőn a felvétel indításához</string>
+
+    <!-- 2026-10-20-01-call-tray-docks-in-drawer -->
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_title">Híváspanel az oldalmenüben</string>
+    <string name="settings_whatsnew_entry_call_tray_docks_in_drawer_summary">A kísérleti Híváspanel bekapcsolásával az oldalmenü hívás közbeni megnyitása a panelt az Új munkamenet alá helyezi a szintjelzővel, a Némítás és a Befejezés gombbal együtt. Bezáráskor visszakerül a helyére.</string>
+
+    <!-- 2026-10-20-02-markdown-streams-smoothly -->
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_title">Simábban megjelenő válaszok</string>
+    <string name="settings_whatsnew_entry_markdown_streams_smoothly_summary">A hosszú válaszok megjelenítése folyamatos érkezés közben is gyors marad. A még befejezetlen félkövér szöveg, kód és link is formázva jelenik meg, nem nyers Markdownként.</string>
+
+    <!-- 2026-10-20-04-return-newline-default -->
+    <string name="settings_whatsnew_entry_return_newline_default_title">Az Enter új sort kezd</string>
+    <string name="settings_whatsnew_entry_return_newline_default_summary">Az Enter most alapértelmezés szerint új sort kezd. Az Enterrel küldéshez kapcsolja be az Enterrel küldés beállítást a Beállítások › Munkamenetek alatt, vagy használja a Ctrl+Enter billentyűkombinációt külső billentyűzeten.</string>
+
+    <!-- 2026-10-20-05-drawer-session-alignment -->
+    <string name="settings_whatsnew_entry_drawer_session_alignment_title">Igazított oldalmenüvezérlők</string>
+    <string name="settings_whatsnew_entry_drawer_session_alignment_summary">A Keresés, az Új munkamenet és a Beállítások a munkamenet fejlécéhez és üzenetmezőjéhez igazodik telefonon és táblagépen is.</string>
+
+    <!-- 2026-10-20-06-call-tray-switch-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_title">Stabilabb hívásvezérlők</string>
+    <string name="settings_whatsnew_entry_call_tray_switch_continuity_summary">A hívás hullámformája munkamenetváltáskor is tovább mozog, a vezérlők pedig a munkamenetlista megnyitásakor is egy magasságban maradnak.</string>
+
+    <!-- 2026-10-20-07-voice-delegation-visible-on-admission -->
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_title">Azonnal megjelenő hangüzenetek</string>
+    <string name="settings_whatsnew_entry_voice_delegation_visible_on_admission_summary">A Hang által a munkamenetbe küldött üzenetek azonnal megjelennek, amint a kiszolgáló elfogadja őket, akkor is, ha a munkamenet frissítései késnek.</string>
+
+    <!-- 2026-10-20-08-inline-image-links -->
+    <string name="settings_whatsnew_entry_inline_image_links_title">Képlinkek előnézete</string>
+    <string name="settings_whatsnew_entry_inline_image_links_summary">Kapcsolja be a Képlinkek előnézete funkciót a Beállítások › Kísérleti › Átirat alatt a válaszokban hivatkozott képek előnézetéhez. A bélyegképre koppintva teljes képernyőn nyithatja meg és nagyíthatja a képet.</string>
+
+    <!-- 2026-10-20-09-smooth-link-preview-arrival -->
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_title">Simább linkelőnézetek</string>
+    <string name="settings_whatsnew_entry_smooth_link_preview_arrival_summary">A linkelőnézetek betöltéskor fokozatosan tűnnek elő, az alattuk lévő sorok pedig finoman mozdulnak el, ha a cím magassága változik.</string>
+
+    <!-- 2026-10-20-10-subagent-capsule-press -->
+    <string name="settings_whatsnew_entry_subagent_capsule_press_title">Lekerekített tevékenységjelző</string>
+    <string name="settings_whatsnew_entry_subagent_capsule_press_summary">Az alügynök és a shell kapszulája megnyomáskor is megtartja lekerekített végeit.</string>
+
+    <!-- 2026-10-20-11-advanced-settings-open -->
+    <string name="settings_whatsnew_entry_advanced_settings_open_title">Egyszerűbb haladó beállítások</string>
+    <string name="settings_whatsnew_entry_advanced_settings_open_summary">A Beállítások › Kísérleti kísérletei mind kibontott csoportokban vannak, a modellválasztók egyetlen Modellválasztó beállításba kerültek, és a módosításhoz a sor bármely pontjára koppinthat.</string>
+
+    <!-- 2026-10-20-12-revert-to-here -->
+    <string name="settings_whatsnew_entry_revert_to_here_title">Üzenet visszaállítása</string>
+    <string name="settings_whatsnew_entry_revert_to_here_summary">Tartsa nyomva az egyik üzenetét, majd válassza az Üzenet visszaállítása lehetőséget, hogy visszatérjen ahhoz a ponthoz, és szerkeszthesse az üzenetet.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_1">Az üzenet szövege, fotói és fájljai visszakerülnek az üzenetmezőbe.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_2">A Visszavonás visszahozza az üzenetváltásokat és a fájlmódosításaikat, amíg nem küld új üzenetet.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_detail_3">Akkor érhető el, amikor az ügynök nem dolgozik.</string>
+    <string name="settings_whatsnew_entry_revert_to_here_example">Tartsa nyomva egy korábbi üzenetét, majd válassza az Üzenet visszaállítása lehetőséget.</string>
+
+    <!-- 2026-10-20-13-drag-from-transcript -->
+    <string name="settings_whatsnew_entry_drag_from_transcript_title">Áthúzás a munkamenetből</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_summary">Nyomva tartással húzhat át kódot, képeket, fájlokat, linkeket és üzeneteket a munkamenetből más alkalmazásokba.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_1">A kódblokkok szövegként kerülnek át, a programnyelv megjelölésével.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_2">Az ügynök által létrehozott képek és fájlok fájlként kerülnek át.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_3">Húzza bármelyiket az üzenetmezőbe a csatoláshoz vagy beillesztéshez.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_detail_4">A görgetés, a szövegkijelölés és a menük ugyanúgy működnek, mint eddig.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_example">Jelöljön ki egy kódsort a válaszban, majd tartsa nyomva a kijelölést, és húzza át a blokkot a Jegyzetekbe.</string>
+    <string name="settings_whatsnew_entry_drag_from_transcript_prompt">Írjon kódblokkban egy rövid Swift-függvényt, amely megfordít egy karakterláncot.</string>
+
+    <!-- 2026-10-20-14-tuning-glass-tap-targets -->
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_title">Könnyebben kezelhető finomhangolás</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_summary">Az összecsukott finomhangolási gomb és az oldalsó fül nagyobb koppintási felületet kapott.</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_detail_1">Az üveghatású felületük mérete nem változott.</string>
+    <string name="settings_whatsnew_entry_tuning_glass_tap_targets_example">Csukja össze a finomhangolási panelt, majd koppintson a gomb vagy a fül szélének közelébe</string>
+
+    <!-- 2026-10-20-15-new-session-project-continuity -->
+    <string name="settings_whatsnew_entry_new_session_project_continuity_title">Stabilabb projektválasztás</string>
+    <string name="settings_whatsnew_entry_new_session_project_continuity_summary">Projektválasztáskor a legutóbbi mappák a helyükön maradnak, a fejléc neve finom átmenettel változik, a Projekt panelen pedig átláthatóbbak a mappák elérési útjai.</string>
+
+    <!-- 2026-10-20-16-simple-session-loading -->
+    <string name="settings_whatsnew_entry_simple_session_loading_title">Nyugodtabb munkamenet-betöltés</string>
+    <string name="settings_whatsnew_entry_simple_session_loading_summary">Csak akkor tűnik elő egy kis, álló logó, ha a munkamenet betöltése eltart egy ideig, majd finoman átadja helyét az üzeneteknek.</string>
+
+    <!-- 2026-10-20-17-voice-route-consistency -->
+    <string name="settings_whatsnew_entry_voice_route_consistency_title">Hangkapcsolati javítások</string>
+    <string name="settings_whatsnew_entry_voice_route_consistency_summary">A Grok továbbra is az Ön xAI kulcsát használja, ha a hívásokat a kiszolgáló kezeli, a Gemini pedig helyesen azonosítja magát.</string>
+
+    <!-- 2026-10-20-18-call-tray-edge-continuity -->
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_title">A híváspanel mozgása</string>
+    <string name="settings_whatsnew_entry_call_tray_edge_continuity_summary">A híváspanel hullámformája követi a lekerekített szélét, amikor kinyílik, illetve az oldalmenübe vagy onnan kifelé mozog.</string>
+
+    <!-- 2026-10-21-01-call-tray-keyboard-return -->
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_title">A híváspanel visszatérése</string>
+    <string name="settings_whatsnew_entry_call_tray_keyboard_return_summary">A híváspanel látható marad, amikor az oldalmenü bezárul, és visszatér a billentyűzet.</string>
+
+    <!-- 2026-10-21-02-drawer-title-fade -->
+    <string name="settings_whatsnew_entry_drawer_title_fade_title">Teljesebb munkamenetcímek</string>
+    <string name="settings_whatsnew_entry_drawer_title_fade_summary">Az oldalsáv hosszú munkamenetcímei a széléig érnek, és ott elhalványulnak, ahelyett hogy korábban három ponttal végződnének.</string>
+
+    <!-- 2026-10-21-03-call-sounds-from-the-tap -->
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_title">Gyorsabb híváshangok</string>
+    <string name="settings_whatsnew_entry_call_sounds_from_the_tap_summary">A hívás kapcsolódási hangjai már az első animációval megszólalnak, nem csak pár másodperccel a koppintás után.</string>
+
+    <!-- 2026-10-21-04-calm-wireframe-launch -->
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_title">Nyugodtabb betöltés</string>
+    <string name="settings_whatsnew_entry_calm_wireframe_launch_summary">A gyorsítótárazott munkamenetek azonnal megnyílnak; ha a betöltés eltart egy ideig, pulzáló üzenetbuborékok jelennek meg, majd finoman átadják helyüket az üzeneteknek.</string>
+
+    <!-- 2026-10-21-05-request-dictation-last-line -->
+    <string name="settings_whatsnew_entry_request_dictation_last_line_title">A diktálás vége látszik</string>
+    <string name="settings_whatsnew_entry_request_dictation_last_line_summary">iOS 26-on a függőben lévő kérés válaszmezőjébe diktált hosszú szöveg leállítás után az utolsó sorokat mutatja, nem a szöveg közepét.</string>
+
+    <!-- 2026-10-21-06-first-run-pairing-fixes -->
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_title">Érthetőbb első párosítás</string>
+    <string name="settings_whatsnew_entry_first_run_pairing_fixes_summary">Ha beillesztéskor üres a vágólap, ezt jelzi a Beillesztés mellett, és a beállítás már nem ígér fél percen belüli távoli hozzáférést.</string>
+
+    <!-- 2026-10-21-07-welcome-pairing-copy -->
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_title">Párosítás az OpenCode alkalmazásból</string>
+    <string name="settings_whatsnew_entry_welcome_pairing_copy_summary">Az üdvözlőképernyő a számítógépes OpenCode Beállítások → Párosítás menüpontjához vagy a terminál /pair parancsához irányít, és a telepítési parancsot is mutatja, ha még nincs OpenCode.</string>
+
+    <!-- 2026-10-21-08-session-id-links -->
+    <string name="settings_whatsnew_entry_session_id_links_title">Munkamenetlinkek</string>
+    <string name="settings_whatsnew_entry_session_id_links_summary">A válaszban szereplő munkamenet-azonosító helyett a munkamenet címe jelenik meg. Koppintson rá a megnyitáshoz.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_1">Az alügynök azonosítójára koppintva az aktuális munkamenet fölött nyílik meg, a Vissza pedig visszavisz.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_2">Tartsa nyomva az azonosító másolásához.</string>
+    <string name="settings_whatsnew_entry_session_id_links_detail_3">A kiszolgáló számára ismeretlen azonosító rövidítve jelenik meg.</string>
+    <string name="settings_whatsnew_entry_session_id_links_example">Kérje meg az ügynököt, hogy említsen meg egy másik munkamenetet az azonosítójával, majd koppintson a címre.</string>
+    <string name="settings_whatsnew_entry_session_id_links_prompt">Sorolja fel az öt legutóbbi OpenCode-munkamenetemet a munkamenet-azonosítójukkal együtt.</string>
+
+    <!-- 2026-10-21-10-ipad-multiple-windows -->
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_title">Több ablak táblagépen</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_summary">Táblagépen külön ablakokban nyithatja meg a munkameneteket, és kettőt egymás mellé is tehet.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_1">Tartson nyomva egy munkamenetet az oldalsávban, majd válassza a Megnyitás új ablakban lehetőséget.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_2">Minden ablaknak saját munkamenete, oldalsávja és üzenetmezője van.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_3">A rögzítések, az olvasott munkamenetek és a szerverek minden ablakban azonosak.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_detail_4">Az ablakok a korábban megjelenített munkamenettel térnek vissza.</string>
+    <string name="settings_whatsnew_entry_ipad_multiple_windows_example">Tartson nyomva egy munkamenetet az oldalsávban, válassza a Megnyitás új ablakban lehetőséget, majd tegye az első ablak mellé.</string>
+
+    <!-- 2026-10-21-11-plain-launch -->
+    <string name="settings_whatsnew_entry_plain_launch_title">Egyszerű indítás</string>
+    <string name="settings_whatsnew_entry_plain_launch_summary">Az OpenCode egyszerű képernyővel indul, majd amint a munkamenet készen áll, betöltési animáció nélkül rögtön átvált rá.</string>
+
+    <!-- 2026-10-21-12-breath-ping-call-sounds -->
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_title">Lágyabb híváshangok</string>
+    <string name="settings_whatsnew_entry_breath_ping_call_sounds_summary">A hívás kapcsolódását, jelzéseit és befejezését halk, lágy, leheletszerű hangok kísérik, amelyek nem zavarják a beszélgetést.</string>
+
+    <!-- 2026-10-21-13-smoother-session-list -->
+    <string name="settings_whatsnew_entry_smoother_session_list_title">Gördülékenyebb munkamenetlista</string>
+    <string name="settings_whatsnew_entry_smoother_session_list_summary">Az oldalmenü munkamenetlistája munka közben is simán görgethető. Hosszan nyomva megnyílik a munkamenet menüje, a sor mérete pedig változatlan marad.</string>
+
+    <!-- 2026-10-22-01-whats-new-actions -->
+    <string name="settings_whatsnew_entry_whats_new_actions_title">Megnyitás és kipróbálás az Újdonságokból</string>
+    <string name="settings_whatsnew_entry_whats_new_actions_summary">Az Újdonságok bejegyzéseinek oldalán egy gomb megnyitja a kapcsolódó beállítást, például a Témákat, vagy új munkamenetet indít egy kipróbálható, előre beírt utasítással.</string>
+
+    <!-- 2026-10-22-02-project-icons-current-discovery -->
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_title">Projektikonok javítása</string>
+    <string name="settings_whatsnew_entry_project_icons_current_discovery_summary">Ha a Projektikonok be van kapcsolva, az oldalmenü az Icon Composer-csomagokban talált ikonokat is megjeleníti.</string>
+
+    <!-- 2026-10-22-03-new-divider-off-page -->
+    <string name="settings_whatsnew_entry_new_divider_off_page_title">Új jelzés csak szükség esetén</string>
+    <string name="settings_whatsnew_entry_new_divider_off_page_summary">Az Új üzenetek elválasztója kísérleti funkció használatakor az Új jelzés csak akkor jelöli az érkezett szöveget, ha az nem fér el a képernyőn.</string>
+
+    <!-- 2026-10-22-04-catch-up-all-caught-up-row -->
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_title">Minden áttekintve</string>
+    <string name="settings_whatsnew_entry_catch_up_all_caught_up_row_summary">Az Áttekintés utolsó munkamenetének elolvasása után visszakerül az oldalmenübe, ahol az Áttekintés kipipálva, Minden áttekintve felirattal jelenik meg.</string>
+
+    <!-- 2026-10-23-01-session-mentions -->
+    <string name="settings_whatsnew_entry_session_mentions_title">Munkamenetek említése</string>
+    <string name="settings_whatsnew_entry_session_mentions_summary">Az Üzenetszerkesztő automatikus kiegészítése kísérleti funkcióval a @ beírásával cím alapján említhet másik munkamenetet, akárcsak az asztali appban.</string>
+
+    <!-- 2026-10-23-02-gpt-live-own-key -->
+    <string name="settings_whatsnew_entry_gpt_live_own_key_title">GPT-Live-kulcsok</string>
+    <string name="settings_whatsnew_entry_gpt_live_own_key_summary">A GPT-Live-hívásokhoz használhatja saját OpenAI-kulcsát, a kiszolgáló OpenAI-kulcsát vagy annak OpenCode Console-kapcsolatát.</string>
+
+    <!-- 2026-10-23-03-pair-opens-drawer -->
+    <string name="settings_whatsnew_entry_pair_opens_drawer_title">Folytassa, ahol abbahagyta</string>
+    <string name="settings_whatsnew_entry_pair_opens_drawer_summary">Új számítógép párosítása után üres munkamenet helyett az oldalmenü nyílik meg a gép legutóbbi munkameneteivel, hogy választhasson közülük.</string>
+
+    <!-- 2026-10-23-04-voice-server-picker -->
+    <string name="settings_whatsnew_entry_voice_server_picker_title">Hangkiszolgáló kiválasztása</string>
+    <string name="settings_whatsnew_entry_voice_server_picker_summary">A Beállítások › Hang › Hangszolgáltató alatt kiválaszthatja, melyik mentett kiszolgálón vagy a telefonon beállított saját OpenAI-fiókján keresztül menjenek a hívások.</string>
+
+    <!-- 2026-10-24-01-living-orb-floats -->
+    <string name="settings_whatsnew_entry_living_orb_floats_title">Az élő gömb mindenhol lebeg</string>
+    <string name="settings_whatsnew_entry_living_orb_floats_summary">Az Élő gömb mostantól lebegő hívásstílus a Beállítások › Kísérleti › Hívások alatt. Nagyobb, a Beállítások és minden más képernyő fölött marad, és mindkét hangra mozog. Ha egyszerre beszélnek, mindkét hang saját színt kap. Koppintásra kártyává nő; felfelé húzva a teljes hívás és átirata látható, lefelé húzva újra összemegy. A Hívásstílus alatti Gömb beállítás a megjelenését módosítja.</string>
+
+    <!-- 2026-10-24-02-new-messages-divider-on -->
+    <string name="settings_whatsnew_entry_new_messages_divider_on_title">Új üzenetek elválasztója</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_summary">Ha a távollétében érkezett válasz nem fér el a képernyőn, a munkamenet a válasz elején, az Új elválasztónál nyílik meg.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_1">Ha a válasz elfér a képernyőn, a végén nyílik meg, elválasztó nélkül.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_2">A megtekintés közben folyamatosan érkező válaszok sosem kapnak jelölést.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_3">Ha végigolvassa a választ, az elválasztó eltűnik.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_detail_4">A Beállítások › Munkamenetek alatt kapcsolható ki.</string>
+    <string name="settings_whatsnew_entry_new_messages_divider_on_example">Kérjen hosszú választ, váltson másik appra, amíg elkészül, majd térjen vissza.</string>
+
+    <!-- 2026-10-24-03-composer-keyboard-morph -->
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_title">A szerkesztő követi a billentyűzetet</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_morph_summary">Az üzenetszerkesztő vezérlői a billentyűzettel együtt nyílnak meg, és követik annak fel-le húzását.</string>
+
+    <!-- 2026-10-24-04-composer-photo-viewer -->
+    <string name="settings_whatsnew_entry_composer_photo_viewer_title">Teljes képernyős fotók a szerkesztőben</string>
+    <string name="settings_whatsnew_entry_composer_photo_viewer_summary">Koppintson egy fotóra az üzenetszerkesztőben a teljes képernyős nézethez. Lapozhat a fotók között, és küldés előtt eltávolíthatja őket.</string>
+
+    <!-- 2026-10-24-05-plus-menu-photo-picker -->
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_title">Új fotóválasztó</string>
+    <string name="settings_whatsnew_entry_plus_menu_photo_picker_summary">Kapcsolja be az Új pluszmenüt a Beállítások › Kísérleti › Üzenetszerkesztő alatt. Így akár 8 legutóbbi fotót választhat ki közvetlenül a + menüből, böngészhet az Összes fotó között, és láthatja, ahogy a képek a szerkesztőbe, majd a munkamenetbe repülnek.</string>
+
+    <!-- 2026-10-24-06-project-icons-lit -->
+    <string name="settings_whatsnew_entry_project_icons_lit_title">Megvilágított projektikonok</string>
+    <string name="settings_whatsnew_entry_project_icons_lit_summary">Ha a Projektikonok be van kapcsolva, az oldalmenü ikonjain megcsillan a fény: felül lágy csúcsfény, körben finom üvegszegély és halvány árnyék jelenik meg.</string>
+
+    <!-- 2026-10-24-07-session-live-activity -->
+    <string name="settings_whatsnew_entry_session_live_activity_title">Munkamenet élő frissítései</string>
+    <string name="settings_whatsnew_entry_session_live_activity_summary">Kapcsolja be a Munkamenet élő frissítéseit a Beállítások › Kísérleti › Oldalmenü alatt. Élő értesítésben, a zárolási képernyőn is követheti az elindított feladatot, amíg elkészül vagy a válaszára vár.</string>
+
+    <!-- 2026-10-24-08-sign-in-failed-edit-server -->
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_title">Elutasított bejelentkezés javítása</string>
+    <string name="settings_whatsnew_entry_sign_in_failed_edit_server_summary">Ha a kiszolgáló elutasítja a jelszót, az oldalmenü kiszolgálómenüje a hasztalan Próbálja újra helyett a Szerver szerkesztése… lehetőséget kínálja. Az üdvözlőképernyő mostantól a terminálban kiadható opencode pair --remote parancsra irányít.</string>
+
+    <!-- 2026-10-25-01-voice-app-screenshot -->
+    <string name="settings_whatsnew_entry_voice_app_screenshot_title">Képernyőkép hangutasítással</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_summary">Hanghívás közben mondja, hogy „nézd meg ezt”, és az app képernyője a visszajelzésével együtt egy munkamenetbe kerül.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_1">Csak az app saját képernyőjét küldi el, a képernyő nevével, valamint a hívás és az app állapotával együtt.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_2">Kérheti mellé a hívásnaplót vagy az app legutóbbi naplóit is; a címek és a hitelesítési adatok rejtve maradnak.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_detail_3">Nem készít képet, ha bejelentkezési képernyő vagy jelszómező látható.</string>
+    <string name="settings_whatsnew_entry_voice_app_screenshot_example">Hanghívás közben mondja: „készíts képernyőképet, ez a sor el van csúszva”</string>
+
+    <!-- 2026-10-25-02-voice-background-results -->
+    <string name="settings_whatsnew_entry_voice_background_results_title">Háttérfeladatok eredményei hívásban</string>
+    <string name="settings_whatsnew_entry_voice_background_results_summary">Ha egy hívás közben felkért munkamenet a háttérben kezd dolgozni, a hívás azonnal beszámol az eredményről, amint elkészült, akkor is, ha közben már mással foglalkozik.</string>
+
+    <!-- 2026-10-25-03-sound-effects-experiment -->
+    <string name="settings_whatsnew_entry_sound_effects_experiment_title">Hangeffektusok</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_summary">Kísérleti funkció, amely halk hangokkal kíséri a rezgéseket válaszoknál, kéréseknél, az Áttekintésnél és sikertelen küldésnél.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_1">Néma és rezgő módban elnémulnak, a zenelejátszást nem szakítják meg.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_2">Hívás, diktálás vagy médialejátszás közben, illetve a háttérben nem szólnak.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_detail_3">A kapcsoló alatt található a Hangerő és a külön bekapcsolható Küldési hang.</string>
+    <string name="settings_whatsnew_entry_sound_effects_experiment_example">Kapcsolja be a Hangeffektusokat a Beállítások › Kísérleti alatt, majd várjon meg egy választ egy másik munkamenetben</string>
+
+    <!-- 2026-10-25-90-session-title-first-prompt -->
+    <string name="settings_whatsnew_entry_session_title_first_prompt_title">Cím az első utasításból</string>
+    <string name="settings_whatsnew_entry_session_title_first_prompt_summary">A cím nélküli munkamenetek mostantól az első utasításukat mutatják egy sorban, amíg a kiszolgáló el nem nevezi őket.</string>
+
+    <!-- 2026-10-26-01-settings-sessions-page -->
+    <string name="settings_whatsnew_entry_settings_sessions_page_title">Munkamenet-beállítások</string>
+    <string name="settings_whatsnew_entry_settings_sessions_page_summary">A Beállítások új Munkamenetek oldalán az Új üzenetek elválasztója az Enterrel küldés fölé került. A Haladó helyén most két sor van: Kísérleti és Fejlesztő.</string>
+
+    <!-- 2026-10-26-02-project-icons-default -->
+    <string name="settings_whatsnew_entry_project_icons_default_title">Projektikonok bekapcsolva</string>
+    <string name="settings_whatsnew_entry_project_icons_default_summary">A projektikonok mostantól megjelennek a munkamenetek címe mellett. A Beállítások › Kísérleti alatt kapcsolhatók ki.</string>
+
+    <!-- 2026-10-26-03-plus-menu-over-keyboard -->
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_title">Fotók a billentyűzet fölött</string>
+    <string name="settings_whatsnew_entry_plus_menu_over_keyboard_summary">Ha az Új pluszmenü be van kapcsolva, a + menü a billentyűzet fölött nyílik meg. A Fotók ebből nő ki a képernyő széléig érő panelként, majd úgy csukódik vissza, hogy a billentyűzet nyitva marad.</string>
+
+    <!-- 2026-10-26-04-living-orb-connect-motion -->
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_title">A gömb animációja kapcsolódáskor</string>
+    <string name="settings_whatsnew_entry_living_orb_connect_motion_summary">Bekapcsolt Élő gömb mellett a hívásgomb a gömbbe emelkedik, és kapcsolódás közben forog, majd a hívás végén visszatér a helyére. Az azonnali újrahívás új hívást indít, nem akad el.</string>
+
+    <!-- 2026-10-26-05-living-orb-presets -->
+    <string name="settings_whatsnew_entry_living_orb_presets_title">Gömbminták és Díszes stílus</string>
+    <string name="settings_whatsnew_entry_living_orb_presets_summary">A Beállítások › Kísérleti › Hívások alatt, a Hívásstílus alatti Gömb most a Díszes stílussal nyílik meg, nagyobb élő előnézettel és választható mintákkal. Saját beállításokat is menthet, átnevezhet, másolhat vagy beilleszthet a megosztáshoz.</string>
+
+    <!-- 2026-10-26-06-send-after-a-pause -->
+    <string name="settings_whatsnew_entry_send_after_a_pause_title">Simább küldés szünet után</string>
+    <string name="settings_whatsnew_entry_send_after_a_pause_summary">A szünet után küldött üzenet most egyenesen az üzenetszerkesztőből emelkedik a buborékjába, ahelyett, hogy előbb az időbélyege alatt az üzenetszerkesztő felé süllyedne.</string>
+
+    <!-- 2026-10-27-01-steadier-round-trip -->
+    <string name="settings_whatsnew_entry_steadier_round_trip_title">Egyenletesebb válaszidő</string>
+    <string name="settings_whatsnew_entry_steadier_round_trip_summary">A kapcsolatkártyán látható ms-érték most az utóbbi néhány mérés mozgóátlaga, így egyetlen lassú válasz csak kicsit módosítja, nem ugrasztja meg.</string>
+
+    <!-- 2026-10-27-02-drawer-drag-follows-finger -->
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_title">Az oldalsávban a húzás követi az ujját</string>
+    <string name="settings_whatsnew_entry_drawer_drag_follows_finger_summary">Az oldalsávban húzott munkamenet most végig az ujja alatt marad, a fejléc fölött mozog, a lista szélén görget, elengedéskor pedig a helyére ugrik.</string>
+
+    <!-- 2026-10-27-03-inbox-sidebar-experiment -->
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_title">Beérkezett üzenetek az oldalsávban</string>
+    <string name="settings_whatsnew_entry_inbox_sidebar_experiment_summary">Kapcsolja be a Beérkezett üzenetek oldalsávot a Beállítások › Kísérleti › Oldalmenü alatt. Elöl a válaszra váró, majd az olvasatlan munkamenetek jelennek meg, a projektjükkel és a legutóbbi válasszal. Csúsztatással olvasottnak jelölheti vagy archiválhatja őket.</string>
+
+    <!-- 2026-10-28-01-first-pairing-ready-session -->
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_title">Az első munkamenet már készen vár</string>
+    <string name="settings_whatsnew_entry_first_pairing_ready_session_summary">Az első számítógép párosításakor új munkamenet nyílik a legutóbbi projektben, néhány kipróbálható kérdéssel. Egy koppintással ellenőrizheti a kapcsolatot. Friss telepítéskor az Újdonságok eleve olvasottként jelenik meg.</string>
+
+    <!-- 2026-10-28-02-welcome-preview -->
+    <string name="settings_whatsnew_entry_welcome_preview_title">Az üdvözlőképernyő előnézete</string>
+    <string name="settings_whatsnew_entry_welcome_preview_summary">Az új üdvözlőképernyőn az OpenCode egy laptopon dolgozik, miközben telefonról irányítják, majd egy lépésben párosítható. Kapcsolja be az Üdvözlőképernyő előnézetét a Beállítások › Kísérleti › Oldalmenü alatt, majd koppintson az Üdvözlőképernyő megjelenítése lehetőségre. Bezáráskor ide tér vissza.</string>
+
+    <!-- 2026-10-29-01-composer-text-selection -->
+    <string name="settings_whatsnew_entry_composer_text_selection_title">Szövegkijelölés az üzenetszerkesztőben</string>
+    <string name="settings_whatsnew_entry_composer_text_selection_summary">A piszkozatban a kijelölőfogantyúk vagy a nagyító húzása már nem rejti el a billentyűzetet, és nem mozgatja fel-le az üzenetszerkesztőt.</string>
+
+    <!-- 2026-10-30-01-voice-waits-for-you -->
+    <string name="settings_whatsnew_entry_voice_waits_for_you_title">A hívás megvárja, amíg befejezi</string>
+    <string name="settings_whatsnew_entry_voice_waits_for_you_summary">A hangalapú ügynök már nem vág a szavába: csak akkor ad helyzetjelentést, ha Ön befejezte a mondandóját, és elhallgat, ha közbeszól.</string>
+
+    <!-- 2026-10-30-02-wisp-call-sounds -->
+    <string name="settings_whatsnew_entry_wisp_call_sounds_title">A hanghívások a Wisp hangjait használják</string>
+    <string name="settings_whatsnew_entry_wisp_call_sounds_summary">A hívás halk lehelettel és finom, csillogó hanggal indul, kapcsolódáskor csilingel, az ügynök kereséseit, megnyitásait és futtatásait halk kattanás jelzi, a végét pedig sóhaj. Másik hangkészletet a Beállítások › Hang › Híváshangok alatt választhat.</string>
+
+    <!-- 2026-10-30-03-wisp-orb -->
+    <string name="settings_whatsnew_entry_wisp_orb_title">A hívásgömb mostantól Wisp</string>
+    <string name="settings_whatsnew_entry_wisp_orb_summary">A hívás gömbje most a Wisp megjelenését kapta: üveglencse alatt fénylő pontokat, amelyeket mindkét hang felvillant. A Wisp hangulatai jelzik a kapcsolódást, figyelést, munkát, beszédet és az Önre várást. Ez az egyetlen gömbstílus, így a régi stílusok és a Gömb beállításai megszűntek.</string>
+
+    <!-- 2026-10-31-01-encrypted-notification-previews -->
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_title">Titkosított értesítési előnézetek</string>
+    <string name="settings_whatsnew_entry_encrypted_notification_previews_summary">A frissített értesítési bővítménnyel és HTTPS-kapcsolattal a kiszolgáló erre az eszközre titkosítja a címet és az üzenetet. Ha az előnézet nem nyitható meg, az értesítésben csak „Új tevékenység” látható.</string>
+
+    <!-- 2026-10-31-02-move-session-folder-gone -->
+    <string name="settings_whatsnew_entry_move_session_folder_gone_title">A munkamenet túléli a mappáját</string>
+    <string name="settings_whatsnew_entry_move_session_folder_gone_summary">Ha a munkamenet mappája már nem létezik, például törölték a munkaterületét, a sikertelen küldés felajánlja az áthelyezést a projekt mappájába, majd újraküldi az üzenetet.</string>
+
+    <!-- 2026-10-31-03-notification-plugin-setup -->
+    <string name="settings_whatsnew_entry_notification_plugin_setup_title">Értesítések beállítása az OpenCode-dal</string>
+    <string name="settings_whatsnew_entry_notification_plugin_setup_summary">A Beállítások → Értesítések alatt koppintson a Beállítás az OpenCode-dal lehetőségre. Itt átnézheti a hiányzó értesítési bővítményt telepítő utasítást.</string>
+
+    <!-- 2026-11-01-01-call-card-takes-over -->
+    <string name="settings_whatsnew_entry_call_card_takes_over_title">A híváskártya kitölti a képernyő alját</string>
+    <string name="settings_whatsnew_entry_call_card_takes_over_summary">Az Élő gömb híváskártyája most az üzenetmezőt lefedve kitölti a képernyő alját, minden oldalon egyenletes margóval, így a billentyűzet már nem nyomja össze. Gépeléshez kicsinyítse vissza gömbbé.</string>
+
+    <!-- 2026-11-01-01-screenshot-shutter -->
+    <string name="settings_whatsnew_entry_screenshot_shutter_title">Képernyőkép készítése zárhanggal</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_summary">Amikor az alkalmazás képernyőképet készít magáról egy munkamenethez, a képernyő felvillan, és zárhang hallatszik.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_1">A villanás a felvétel után történik, így sosem kerül a képre.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_2">A Mozgás csökkentése finom elsötétítésre cseréli, a Villogó fények tompítása pedig kikapcsolja.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_detail_3">Hívás közben a kattanás a hívás hangcsatornáján szólal meg, így az ügynök nem hallja.</string>
+    <string name="settings_whatsnew_entry_screenshot_shutter_example">Hanghívás közben mondja: „nézd meg ezt”</string>
+
+    <!-- 2026-11-01-01-voice-says-whats-running -->
+    <string name="settings_whatsnew_entry_voice_says_whats_running_title">Hívás közben jelzi, mi fut még</string>
+    <string name="settings_whatsnew_entry_voice_says_whats_running_summary">Ha a kérése több időt igényel, a hangalapú ügynök csend helyett elmondja, min dolgozik.</string>
+
+    <!-- 2026-11-01-02-living-orb-default -->
+    <string name="settings_whatsnew_entry_living_orb_default_title">A hívások a gömbben lebegnek</string>
+    <string name="settings_whatsnew_entry_living_orb_default_summary">A hanghívások mostantól mindenkinél az Élő gömbben lebegnek, az összes képernyő felett, miközben az üzenetmező szabadon használható.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_1">Koppintson a gömbre a híváskártya kibontásához, majd húzza felfelé a teljes hívásnézet és az átirat megnyitásához.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_2">Húzza a gömböt bárhová: a helyén marad munkamenetváltáskor és a Beállítások megnyitásakor is.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_3">A munkamenetlistából is indíthat hívást a Beállítások melletti hívásgombbal.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_4">A Tálca megszűnt: ha ezt használta, a hívásai mostantól szintén a gömbben lebegnek.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_detail_5">A Beállítások › Kísérleti › Hívások › Élő gömb alatt kapcsolhatja ki.</string>
+    <string name="settings_whatsnew_entry_living_orb_default_example">Indítson hívást, majd nyissa meg a munkamenetlistát: a gömb Önnel tart</string>
+
+    <!-- 2026-11-01-02-quicker-send -->
+    <string name="settings_whatsnew_entry_quicker_send_title">Gyorsabb küldés</string>
+    <string name="settings_whatsnew_entry_quicker_send_summary">Az elküldött üzenet most a listával együtt emelkedik a buborékjába, nem várakozik előbb az üzenetszerkesztőnél.</string>
+
+    <!-- 2026-11-01-02-share-screen-with-agents -->
+    <string name="settings_whatsnew_entry_share_screen_with_agents_title">Képernyőmegosztás az ügynökökkel</string>
+    <string name="settings_whatsnew_entry_share_screen_with_agents_summary">Kapcsolja be a Képernyőmegosztás az ügynökökkel funkciót a Beállítások › Kísérleti › Hívások alatt. Hívás közben az ügynök kérheti, hogy láthassa az alkalmazást: a Megosztás képet küld neki, a Most nem elutasítja a kérést.</string>
+
+    <!-- 2026-11-01-03-audio-in-calls -->
+    <string name="settings_whatsnew_entry_audio_in_calls_title">Hanglejátszás hívás közben</string>
+    <string name="settings_whatsnew_entry_audio_in_calls_summary">Kapcsolja be a Hanglejátszás hívás közben funkciót a Beállítások › Kísérleti › Hívások alatt, és az ügynök zenét vagy hangrészletet játszhat le a hívásban. A hangerő csökken, ha bármelyikük beszél; a lejátszást az üzenetszerkesztő felett szüneteltetheti vagy állíthatja le.</string>
+
+    <!-- 2026-11-01-03-open-links-from-calls -->
+    <string name="settings_whatsnew_entry_open_links_from_calls_title">Linkek megnyitása hívásból</string>
+    <string name="settings_whatsnew_entry_open_links_from_calls_summary">Kapcsolja be a Linkek megnyitása hívásból funkciót a Beállítások › Kísérleti › Hívások alatt. Hívás közben az ügynök linket ajánlhat, például egy Uber-fuvarhoz: a Nyitott megnyitja a megfelelő alkalmazásban, a Most nem elutasítja.</string>
+
+    <!-- 2026-11-02-01-fold-questions -->
+    <string name="settings_whatsnew_entry_fold_questions_title">Kérdések félretétele</string>
+    <string name="settings_whatsnew_entry_fold_questions_summary">Húzza lefelé a kérdést, hogy kis sávvá csukódjon az üzenetszerkesztő felett, majd koppintással nyissa meg újra. Sikertelen válaszküldéskor most a Próbálja újra gombra vár.</string>
+
+    <!-- 2026-11-02-01-steadier-following -->
+    <string name="settings_whatsnew_entry_steadier_following_title">Egyenletesebb követés</string>
+    <string name="settings_whatsnew_entry_steadier_following_summary">A folyamatosan érkező válasz alul marad, a Dolgozik jelzés nem ugrál, a listát pedig bárhol görgetheti az üzenetszerkesztő felett.</string>
+
+    <!-- 2026-11-02-40-model-display-names -->
+    <string name="settings_whatsnew_entry_model_display_names_title">Modellnevek</string>
+    <string name="settings_whatsnew_entry_model_display_names_summary">Az üzenetszerkesztő megőrzi a modellneveket, amíg a modelllista betöltődik vagy újracsatlakozik.</string>
+
+    <!-- 2026-11-02-41-all-experiments -->
+    <string name="settings_whatsnew_entry_all_experiments_title">Összes kísérlet</string>
+    <string name="settings_whatsnew_entry_all_experiments_summary">A Beállítások › Kísérleti oldal tetején egyetlen kapcsoló minden kísérletet bekapcsol, az újonnan érkezőket is.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_1">Kapcsolja ki, amelyiket kihagyná; az legközelebb is kikapcsolva marad.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_2">Az Összes kísérlet kikapcsolása visszaállítja a kapcsolók korábbi állapotát.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_3">Az engedélyt kérő kísérletekről továbbra is külön dönthet.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_4">Az automatikus kiegészítés, a plusz menü fotópanelje, az új kiszolgálóváltó és a projektikonok már mindenkinél be vannak kapcsolva.</string>
+    <string name="settings_whatsnew_entry_all_experiments_detail_5">Az Egységes választó és az Élő gömb egyszerű kapcsolót kapott, a Hívástálca pedig megszűnt.</string>
+    <string name="settings_whatsnew_entry_all_experiments_example">Nyissa meg a Beállítások › Kísérleti oldalt, és kapcsolja be az Összes kísérlet lehetőséget</string>
+
+    <!-- 2026-11-03-01-search-all-sessions -->
+    <string name="settings_whatsnew_entry_search_all_sessions_title">Régebbi munkamenetek keresése</string>
+    <string name="settings_whatsnew_entry_search_all_sessions_summary">Az oldalsáv keresője már minden munkamenetben keres, nem csak a legutóbbiakban. Legalulra görgetve a régebbiek is betöltődnek.</string>
+
+    <!-- 2026-11-03-01-voice-open-session -->
+    <string name="settings_whatsnew_entry_voice_open_session_title">Munkamenetváltás hanggal</string>
+    <string name="settings_whatsnew_entry_voice_open_session_summary">Ha megkéri a hangalapú ügynököt egy munkamenet megnyitására, az oldalmenü bezárul, a hívás pedig folytatódik.</string>
+
+    <!-- 2026-11-03-02-orb-divider-image-links -->
+    <string name="settings_whatsnew_entry_orb_divider_image_links_title">Három kísérlet véglegessé vált</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_summary">Az Élő gömb, az Új elválasztó és a képlinkek előnézete már mindenkinél be van kapcsolva, külön kapcsoló nélkül.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_1">Minden hívás az Élő gömbben lebeg; a régi hívássáv megszűnt.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_2">A munkamenetbe visszatérve az Új elválasztó jelzi a távollétében érkezett tartalmat, ha az nem fér el a képernyőn.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_detail_3">A közvetlenül képre mutató linkek megjelenítik a képet az üzenet alatt.</string>
+    <string name="settings_whatsnew_entry_orb_divider_image_links_example">Indítson hívást az üzenetszerkesztőből, és figyelje, ahogy a gömbben lebeg</string>
+
+    <!-- 2026-11-04-01-call-links-and-audio -->
+    <string name="settings_whatsnew_entry_call_links_and_audio_title">Linkek és hang a hívásokban</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_summary">A linkek megnyitása és a hanglejátszás hívás közben már mindenkinél elérhető, külön kapcsoló nélkül.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_1">Hívás közben az ügynök linket ajánlhat, például egy Uber-fuvarhoz: a Nyitott gombbal megnyithatja a hozzá tartozó alkalmazásban, vagy választhatja a Most nem lehetőséget.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_detail_2">Az ügynök zenét vagy hangrészletet játszhat le a hívásban. A hang lehalkul, ha bármelyikük beszél; az üzenetszerkesztő felett szüneteltetheti vagy leállíthatja.</string>
+    <string name="settings_whatsnew_entry_call_links_and_audio_example">Hívás közben kérje meg az ügynököt, hogy játsszon le zenét</string>
+
+    <!-- 2026-11-04-01-composer-editing-caret -->
+    <string name="settings_whatsnew_entry_composer_editing_caret_title">Piszkozatok szerkesztése</string>
+    <string name="settings_whatsnew_entry_composer_editing_caret_summary">Ha a piszkozat közepén szerkeszt egy szót, a kurzor a gépelés helyén marad.</string>
+
+    <!-- 2026-11-04-01-loading-touch-recovery -->
+    <string name="settings_whatsnew_entry_loading_touch_recovery_title">Görgetés betöltés után</string>
+    <string name="settings_whatsnew_entry_loading_touch_recovery_summary">Ha betöltési átmenet közben tér vissza az alkalmazásba, az átirat azonnal újra görgethető.</string>
+
+    <!-- 2026-11-05-01-composer-keyboard-width -->
+    <string name="settings_whatsnew_entry_composer_keyboard_width_title">Szélesebb szerkesztő gépeléskor</string>
+    <string name="settings_whatsnew_entry_composer_keyboard_width_summary">Nyitott billentyűzetnél az üzenetszerkesztő kis, egyenletes margóig szélesedik, így a hosszú piszkozatok kevesebb sorba törnek.</string>
+
+    <!-- 2026-11-05-02-plus-menu-touch-release -->
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_title">A mellékletmenü bezárása</string>
+    <string name="settings_whatsnew_entry_plus_menu_touch_release_summary">A mellékletmenü bezárása elrendezésváltás közben is újra kezelhetővé teszi az alatta lévő munkamenetet.</string>
+
+    <!-- 2026-11-05-02-quiet-reconnecting-pill -->
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_title">Nyugodtabb indítás</string>
+    <string name="settings_whatsnew_entry_quiet_reconnecting_pill_summary">Az alkalmazás megnyitásakor már nem villan fel az „Újracsatlakozás…” jelzés az üzenetszerkesztő felett, és nem mozdul el a munkamenet. A jelzés csak elhúzódó újracsatlakozásnál jelenik meg.</string>
+
+    <!-- 2026-11-05-03-stuck-touch-recovery -->
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_title">A görgetés magától helyreáll</string>
+    <string name="settings_whatsnew_entry_stuck_touch_recovery_summary">Ha valami láthatatlan több mint egy másodpercig akadályozza a munkamenet görgetését, az alkalmazás feloldja az akadályt.</string>
+
+    <!-- 2026-11-05-04-reply-text-selection -->
+    <string name="settings_whatsnew_entry_reply_text_selection_title">Kijelölés a teljes válaszban</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_summary">Tartson nyomva egy szót a válaszban, vagy koppintson rá duplán, majd húzza a kijelölőfogantyúkat bekezdéseken, listákon, kódon és táblázatokon át.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_1">Tartsa a fogantyút közvetlenül a fejléc alatt vagy az üzenetszerkesztő felett: a válasz görgetődni kezd, a szélhez közelebb egyre gyorsabban.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_detail_2">A Másolás megőrzi a listajeleket és számozást, valamint a táblázatok sorait és oszlopait. Az Idézés a kijelölést az üzenetszerkesztőbe teszi, a kódblokkok jelölését is megtartva.</string>
+    <string name="settings_whatsnew_entry_reply_text_selection_example">Tartson nyomva egy szót egy hosszú válasz elején, majd húzza a kijelölés végét az üzenetszerkesztőig, és tartsa ott</string>
+
+    <!-- 2026-11-06-01-scrolling-unsticks -->
+    <string name="settings_whatsnew_entry_scrolling_unsticks_title">A görgetés magától megjavul</string>
+    <string name="settings_whatsnew_entry_scrolling_unsticks_summary">Ha egy munkamenet korábban csak egy másikra váltás után vált újra görgethetővé, most már magától helyreáll.</string>
+
+    <!-- 2026-11-06-02-server-addresses -->
+    <string name="settings_whatsnew_entry_server_addresses_title">Stabilabb kiszolgálókapcsolat</string>
+    <string name="settings_whatsnew_entry_server_addresses_summary">Az OpenCode egyszerre próbálja a kiszolgáló összes címét, és az elsőként válaszolót használja. Így otthonról elindulva a VPN ki-be kapcsolása nélkül is újracsatlakozik.</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_1">Az otthoni hálózaton működő címet máshol már nem próbálja elsőként.</string>
+    <string name="settings_whatsnew_entry_server_addresses_detail_2">Rövid megszakadás, a telefon feloldása vagy a gyorsbeállítások lehúzása már nem villant fel értesítési sávot. Az Újracsatlakozás néhány másodperc után jelenik meg, a Nincs kapcsolat pedig körülbelül 12, hálózat nélkül 4 másodperc után.</string>
+    <string name="settings_whatsnew_entry_server_addresses_example">Egy Tailscale-lel párosított kiszolgáló nyitott munkamenetében kapcsolja ki a Wi-Fi-t, és dolgozzon tovább</string>
+
+    <!-- 2026-11-07-01-server-voice -->
+    <string name="settings_whatsnew_entry_server_voice_title">Hívások a kiszolgáló kulcsaival</string>
+    <string name="settings_whatsnew_entry_server_voice_summary">A kiszolgálón keresztüli hanghívás már mindenkinél elérhető, külön kapcsoló nélkül. A hívások az OpenCode-kiszolgáló kulcsait is használhatják, így ezen a telefonon nem kell külön OpenAI-kulcs.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_1">Automatikus választásnál a hívások először az aktuális kiszolgálót, majd a telefonon tárolt OpenAI-kulcsot, végül egy másik, elérhető mentett kiszolgálót használják.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_2">Ha a telefonon és a kiszolgálón is van OpenAI-kulcs, a hívások mostantól a kiszolgálóét használják. A sajátjához nyissa meg a Hangszolgáltató alatt a Saját OpenAI-fiók oldalt, majd koppintson a Használat hívásokhoz lehetőségre.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_3">A Gemini Live is választható szolgáltató azokon a kiszolgálókon, amelyeken van Gemini-kulcs.</string>
+    <string name="settings_whatsnew_entry_server_voice_detail_4">Ha egy hívás nem indítható, megjelenik az oka és a megoldáshoz vezető gomb.</string>
+    <string name="settings_whatsnew_entry_server_voice_example">Nyissa meg a Beállítások › Hang oldalt, és koppintson a Hangszolgáltató lehetőségre</string>
+
+    <!-- 2026-11-07-02-rename-clear-button -->
+    <string name="settings_whatsnew_entry_rename_clear_button_title">Cím törlése egy koppintással</string>
+    <string name="settings_whatsnew_entry_rename_clear_button_summary">A munkamenet és a kiszolgáló átnevezésekor már van törlőgomb, így nem kell kézzel kitörölnie a régi címet az új megadásához.</string>
+
+    <!-- 2026-11-07-03-one-picker -->
+    <string name="settings_whatsnew_entry_one_picker_title">Új modellválasztó</string>
+    <string name="settings_whatsnew_entry_one_picker_summary">Koppintson a modellre az üzenetmezőben: a lista onnan nyílik ki, felül a Kedvencek és a Legutóbbiak, alattuk az összes szolgáltató látható.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_1">Koppintson a modell sorában a gondolkodási szintre, például a „high” értékre, és módosítsa a lista elhagyása nélkül.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_2">Csúsztassa el vagy tartsa nyomva a sort a kedvencekhez adáshoz vagy az eltávolításhoz.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_3">A kereső alul található. Ha a név után szintet is ír, például „opus high”, az Enter megnyomásával mindkettőt kiválasztja.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_4">Húzza felfelé a fogantyút a lista növeléséhez, vagy lefelé a bezárásához.</string>
+    <string name="settings_whatsnew_entry_one_picker_detail_5">Az új választó felváltja a régi Modell panelt, az Egységes választó kapcsoló pedig kikerült a Beállítások › Kísérleti menüből.</string>
+    <string name="settings_whatsnew_entry_one_picker_example">Koppintson a modellre az üzenetmezőben, majd csúsztasson el egy sort a kedvencekhez adáshoz</string>
+
+    <!-- 2026-11-08-01-connecting-caption-glass -->
+    <string name="settings_whatsnew_entry_connecting_caption_glass_title">Olvasható „Csatlakozás ezen keresztül…”</string>
+    <string name="settings_whatsnew_entry_connecting_caption_glass_summary">Amíg a hívás egy kiszolgálón keresztül kapcsolódik, a „Csatlakozás ezen keresztül…” sor üveghatású hátteret kap, így nem olvad össze a mögötte lévő üzenetekkel.</string>
+
+    <!-- 2026-11-08-02-default-model -->
+    <string name="settings_whatsnew_entry_default_model_title">Új munkamenetek az alapértelmezett modellel</string>
+    <string name="settings_whatsnew_entry_default_model_summary">Az új munkamenetek az OpenCode-ban alapértelmezettként beállított modellel indulnak, a hozzá legutóbb választott gondolkodási szinten, nem pedig az előző munkamenet modelljével.</string>
+
+    <!-- 2026-11-11-01-streamed-reply-prefix -->
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_title">Válasz megnyitása írás közben</string>
+    <string name="settings_whatsnew_entry_streamed_reply_prefix_summary">Ha válaszadás közben nyit meg egy munkamenetet, a már megérkezett részt olvashatja, miközben a válasz folytatódik.</string>
+
+    <!-- 2026-11-13-01-draw-on-images -->
+    <string name="settings_whatsnew_entry_draw_on_images_title">Rajzolás képekre</string>
+    <string name="settings_whatsnew_entry_draw_on_images_summary">Jelöljön meg egy részletet, mielőtt rákérdez.</string>
+    <string name="settings_whatsnew_entry_draw_on_images_detail_1">Nyisson meg egy képet teljes képernyőn, és koppintson a toll gombra. Válasszon színt, rajzoljon, majd a Hozzáadás gombbal csatolja a megjelölt képet az üzenetéhez. Az eredeti változatlan marad.</string>
+    <string name="settings_whatsnew_entry_draw_on_images_example">Karikázza be az áthelyezendő vezérlőt egy képernyőképen, majd írja le, hová kerüljön.</string>
+
+    <!-- 2026-11-14-01-fullscreen-viewer -->
+    <string name="settings_whatsnew_entry_fullscreen_viewer_title">Lapozás fotók és videók között</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_summary">Böngéssze együtt a munkamenet képeit és videóit.</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_detail_1">Lapozzon egy videóhoz, majd a toll gombra koppintva rajzoljon az aktuális képkockára. A Hozzáadás csatolja a megjelölt képkockát, de nem küldi el.</string>
+    <string name="settings_whatsnew_entry_fullscreen_viewer_example">Állítsa meg a bemutatót a módosítandó képernyőnél, karikázza be a részletet, és adja hozzá a piszkozatához.</string>
+
+    <!-- 2026-11-15-01-pairing-link-name -->
+    <string name="settings_whatsnew_entry_pairing_link_name_title">Elnevezett szerverek az OpenCode Console-ból</string>
+    <string name="settings_whatsnew_entry_pairing_link_name_summary">Az OpenCode Console-ból párosított kiszolgáló a nevével együtt jelenik meg, például „Anomaly Box”.</string>
+
+    <!-- 2026-11-17-01-session-media -->
+    <string name="settings_whatsnew_entry_session_media_title">Munkamenet médiája</string>
+    <string name="settings_whatsnew_entry_session_media_summary">Böngésszen a munkamenet képei, videói, hanganyagai, fájljai és nyilvános weblinkjei között.</string>
+    <string name="settings_whatsnew_entry_session_media_detail_1">Válassza a Munkamenet médiája lehetőséget a munkamenet ⋮ menüjében. A Média a képeket, videókat és hangokat havi csoportosítású csempékként vagy listaként mutatja, a Fájlok és a Linkek pedig a dokumentumokat, beillesztett tartalmakat és webes linkeket sorolja fel.</string>
+    <string name="settings_whatsnew_entry_session_media_example">Keresse meg a ma reggel küldött képernyőképet a teljes munkamenet visszagörgetése nélkül.</string>
+
+    <!-- 2026-11-18-02-drawer-call-phone -->
+    <string name="settings_whatsnew_entry_drawer_call_phone_title">Telefonikon az oldalmenü hívásgombján</string>
+    <string name="settings_whatsnew_entry_drawer_call_phone_summary">A munkamenetlistában a Beállítások melletti hívásgombon most telefonikon látható, akárcsak az üzenetmezőben.</string>
+
+    <!-- 2026-11-19-01-background-scripts -->
+    <string name="settings_whatsnew_entry_background_scripts_title">Szkriptek a háttérmunkák között</string>
+    <string name="settings_whatsnew_entry_background_scripts_summary">Az ügynök által háttérbe helyezett szkriptek az alügynökök és shellek mellett jelennek meg. Az alügynök a listán marad, amíg a képei, videói vagy szkriptjei futnak. Mindkettő leállítható a listából.</string>
+</resources>

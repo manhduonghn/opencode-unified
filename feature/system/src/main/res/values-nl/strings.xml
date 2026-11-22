@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_new_session">Nieuwe sessie</string>
+    <string name="system_start_call">Oproep starten</string>
+    <string name="system_open_session">Sessie openen</string>
+    <string name="widget_start_call_description">Start een spraakoproep in een sessie die je kiest, of de laatst bekeken sessie.</string>
+    <string name="widget_open_session_description">Opent een sessie die je kiest.</string>
+    <string name="widget_new_session_description">Opent een nieuwe OpenCode-sessie.</string>
+
+    <!-- Shared across screens -->
+    <string name="system_selected_description">Geselecteerd</string>
+    <string name="system_last_viewed_session">Laatst bekeken sessie</string>
+
+    <!-- Quick actions (launcher shortcuts) -->
+    <string name="system_quick_action_session_fallback">Sessie</string>
+    <!-- Long label: the session's title, then its project. -->
+    <string name="system_quick_action_long_label">%1$s · %2$s</string>
+
+    <!-- Shortcuts and Ask OpenCode -->
+    <string name="system_session_type_name">Sessie</string>
+    <string name="system_project_type_name">Project</string>
+    <string name="system_intent_open_session_description">Opent een sessie in OpenCode.</string>
+    <string name="system_intent_new_session_description">Start een nieuwe sessie in OpenCode.</string>
+    <string name="system_intent_start_voice_call_title">Spraakoproep starten</string>
+    <string name="system_intent_start_voice_call_description">Start een spraakoproep met OpenCode in een sessie. Zonder gekozen sessie start de oproep in de laatst bekeken sessie.</string>
+    <string name="system_intent_background_call_title">Spraakoproep op de achtergrond starten</string>
+    <string name="system_intent_background_call_description">Start een spraakoproep met OpenCode zonder de app te openen. De oproep verschijnt in de statusbalk en op het vergrendelscherm.</string>
+    <string name="system_delivery_type_name">Verzendwijze</string>
+    <string name="system_delivery_steer">Bijsturen</string>
+    <string name="system_delivery_queue">In wachtrij plaatsen</string>
+    <string name="system_ask_title">Vraag OpenCode</string>
+    <string name="system_ask_description">Verzendt een bericht naar een OpenCode-sessie zonder de app te openen.</string>
+    <string name="system_ask_message_title">Bericht</string>
+    <string name="system_ask_message_placeholder">Wat moet OpenCode doen?</string>
+    <string name="system_ask_session_title">Sessie</string>
+    <string name="system_ask_started_new_session">Nieuwe sessie gestart in %1$s</string>
+    <string name="system_ask_queued_for">In de wachtrij voor “%1$s”</string>
+    <string name="system_ask_sent_to">Verzonden naar “%1$s”</string>
+    <string name="system_ask_your_session">je sessie</string>
+    <string name="system_ask_no_server">Open eerst OpenCode en maak verbinding met een server.</string>
+    <string name="system_ask_no_project">Open eerst OpenCode en start een sessie.</string>
+    <string name="system_ask_empty_message">Er is niets om te verzenden.</string>
+    <!-- The server's error message follows. -->
+    <string name="system_ask_send_failed">Verzenden naar OpenCode mislukt. %1$s</string>
+
+    <!-- Live Updates: voice call -->
+    <string name="system_call_muted">Gedempt</string>
+    <string name="system_call_unmute">Dempen opheffen</string>
+    <string name="system_call_mute">Dempen</string>
+    <string name="system_call_end">Oproep beëindigen</string>
+    <string name="system_call_connecting">Verbinding maken…</string>
+    <string name="system_call_reconnecting">Opnieuw verbinden…</string>
+    <string name="system_call_ended">Oproep beëindigd</string>
+    <string name="system_call_end_title">Oproep beëindigen</string>
+    <string name="system_call_toggle_mute_title">Oproep dempen of dempen opheffen</string>
+
+    <!-- Live Updates: hands-free recording -->
+    <string name="system_recording_active">Opname bezig</string>
+    <string name="system_recording_stopped">Opname gestopt</string>
+    <string name="system_recording_stop">Opname stoppen</string>
+    <string name="system_recording_stop_title">Opname stoppen</string>
+    <string name="system_recording_new_session">Nieuwe sessie</string>
+
+    <!-- Live Updates: session run -->
+    <string name="system_session_working">Bezig</string>
+    <string name="system_session_last_seen_working">Laatst bekend: bezig</string>
+    <!-- Where the run is (Working), then its current step (a tool name, Thinking or Replying). -->
+    <string name="system_session_status_with_step">%1$s · %2$s</string>
+    <string name="system_session_step_thinking">Denken</string>
+    <string name="system_session_step_replying">Antwoorden</string>
+    <string name="system_session_needs_input">Je invoer is nodig</string>
+    <string name="system_session_input">Invoer</string>
+    <string name="system_session_done">Klaar</string>
+    <string name="system_session_failed">Mislukt</string>
+
+    <!-- Session notifications -->
+    <string name="system_notification_placeholder_body">Nieuwe activiteit</string>
+
+    <!-- Notification channels -->
+    <string name="system_channel_voice_calls">Spraakoproepen</string>
+    <string name="system_channel_recording">Opname</string>
+    <string name="system_channel_session_runs">Sessie-uitvoeringen</string>
+    <string name="system_channel_session_updates">Sessie-updates</string>
+    <string name="system_channel_shared_items">Gedeelde items</string>
+
+    <!-- Share sheet: notifications -->
+    <string name="system_share_continue_notification_body">Tik om door te gaan in OpenCode</string>
+
+    <!-- Share sheet -->
+    <string name="system_share_your_server">je server</string>
+    <string name="system_share_new_session_in_project">Nieuwe sessie · %1$s</string>
+    <string name="system_share_save_failed_message">Probeer het opnieuw. Blijft dit gebeuren? Maak dan wat opslagruimte vrij op dit apparaat.</string>
+    <!-- The session's title, then its project. -->
+    <string name="system_share_session_chip_description">%1$s, %2$s</string>
+    <string name="system_share_problem_unreachable">%1$s niet bereikbaar</string>
+    <string name="system_share_problem_too_large">Bestanden van dit formaat kunnen niet vanaf hier worden verzonden</string>
+    <string name="system_share_problem_uploads_unsupported">Bestanden uploaden naar %1$s mislukt</string>
+    <string name="system_share_problem_sign_in">Aanmelden bij %1$s mislukt</string>
+    <string name="system_share_problem_send">Verzenden naar %1$s mislukt</string>
+    <string name="system_share_problem_no_credentials">Open OpenCode een keer om vanaf hier te verzenden</string>
+    <plurals name="system_share_image_count">
+        <item quantity="one">%d afbeelding</item>
+        <item quantity="other">%d afbeeldingen</item>
+    </plurals>
+    <plurals name="system_share_file_count">
+        <item quantity="one">%d bestand</item>
+        <item quantity="other">%d bestanden</item>
+    </plurals>
+    <plurals name="system_share_images_skipped">
+        <item quantity="one">%d afbeelding kon niet worden toegevoegd</item>
+        <item quantity="other">%d afbeeldingen konden niet worden toegevoegd</item>
+    </plurals>
+    <plurals name="system_share_files_skipped">
+        <item quantity="one">%d bestand kon niet worden toegevoegd</item>
+        <item quantity="other">%d bestanden konden niet worden toegevoegd</item>
+    </plurals>
+    <string name="system_share_save_failed_title">Opslaan voor OpenCode mislukt</string>
+    <string name="system_share_continue_description">Doorgaan in OpenCode</string>
+    <string name="system_share_no_server_title">Maak eerst verbinding met een server</string>
+    <string name="system_share_no_server_message">Open OpenCode en maak verbinding met je computer. Deel daarna opnieuw.</string>
+    <string name="system_share_send_later">Later verzenden</string>
+    <string name="system_share_saved_continue">Opgeslagen. Open OpenCode om door te gaan</string>
+    <string name="system_share_loading_description">Gedeelde items laden</string>
+    <string name="system_share_image_description">Afbeelding</string>
+    <string name="system_share_image_position_description">Afbeelding %1$d van %2$d</string>
+    <string name="system_share_search_sessions_description">Zoek sessies</string>
+    <string name="system_share_new_session_in_project_description">Nieuwe sessie in %1$s</string>
+    <string name="system_share_choose_project_description">Kies het bijbehorende project</string>
+    <string name="system_share_message_placeholder">Bericht</string>
+    <string name="system_share_sent_to">Verzonden naar %1$s</string>
+    <string name="system_share_sending_description">Verzenden</string>
+    <string name="system_share_sent_description">Verzonden</string>
+    <string name="system_share_sessions_title">Sessies</string>
+    <string name="system_share_pinned_header">Vastgezet</string>
+    <string name="system_share_recents_header">Recent</string>
+
+    <!-- Widget configuration -->
+    <string name="system_widget_choose_session_title">Sessie kiezen</string>
+</resources>

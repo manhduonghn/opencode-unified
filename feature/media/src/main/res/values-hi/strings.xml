@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Media attachment that can’t be shown -->
+    <string name="media_image_title">छवि</string>
+    <string name="media_image_load_failed">छवि लोड नहीं हो सकी</string>
+    <string name="media_unavailable">मीडिया उपलब्ध नहीं है</string>
+    <string name="media_try_again_label">फिर से कोशिश करें</string>
+
+    <!-- Media viewer -->
+    <string name="media_viewer_screen_title">मीडिया व्यूअर</string>
+    <string name="media_viewer_save_to_photos_description">फ़ोटो में सहेजें</string>
+    <string name="media_file_viewer_screen_title">फ़ाइल व्यूअर</string>
+    <!-- One image of several: the image's label, then its place, as “Image 2 of 3” -->
+    <string name="media_image_page_label">%1$s %2$d (%3$d में से)</string>
+
+    <!-- Draw on Image: an editor that marks up a copy of an image and adds it to the prompt -->
+    <string name="media_drawing_draw_on_image_description">छवि पर ड्रॉ करें</string>
+    <string name="media_drawing_undo_description">पूर्ववत</string>
+    <string name="media_drawing_add_to_prompt_description">प्रॉम्प्ट में जोड़ें</string>
+    <string name="media_drawing_canvas_description">ड्रॉइंग कैनवस</string>
+    <string name="media_drawing_discard_title">ड्रॉइंग हटाएँ?</string>
+    <string name="media_drawing_discard_confirm">ड्रॉइंग हटाएँ</string>
+    <string name="media_drawing_keep">ड्रॉ करते रहें</string>
+    <string name="media_drawing_add_failed_title">ड्रॉइंग नहीं जोड़ सके</string>
+    <string name="media_drawing_flatten_failed">छवि नहीं बन सकी। फिर से कोशिश करें।</string>
+    <string name="media_drawing_prompt_unavailable">इस सेशन के संदेश में अभी अटैचमेंट नहीं जोड़े जा सकते।</string>
+
+    <!-- Draw on Image: ink colours, read by TalkBack -->
+    <string name="media_drawing_ink_white">सफ़ेद</string>
+    <string name="media_drawing_ink_black">काला</string>
+    <string name="media_drawing_ink_red">लाल</string>
+    <string name="media_drawing_ink_yellow">पीला</string>
+    <string name="media_drawing_ink_green">हरा</string>
+    <string name="media_drawing_ink_blue">नीला</string>
+
+    <!-- Zoomable image -->
+    <string name="media_zoom_zoomed_in_state">ज़ूम किया गया</string>
+    <string name="media_zoom_out_label">ज़ूम घटाएँ</string>
+    <string name="media_zoom_in_label">ज़ूम बढ़ाएँ</string>
+
+    <!-- Audio and video player -->
+    <string name="media_player_pause">रोकें</string>
+    <string name="media_player_play">चलाएँ</string>
+    <string name="media_player_position_description">प्लेबैक की स्थिति</string>
+
+    <!-- Video pages in the full-screen viewer -->
+    <string name="media_video_play_failed">वीडियो नहीं चल सका</string>
+    <string name="media_video_position_description">वीडियो की स्थिति</string>
+    <string name="media_video_capture_failed_title">फ़्रेम कैप्चर नहीं हो सका</string>
+
+    <!-- File viewer -->
+    <string name="media_file_show_preview_description">पूर्वावलोकन दिखाएँ</string>
+    <string name="media_file_show_source_description">स्रोत दिखाएँ</string>
+    <string name="media_file_unwrap_lines_description">पंक्तियाँ रैप न करें</string>
+    <string name="media_file_wrap_lines_description">पंक्तियाँ रैप करें</string>
+    <string name="media_file_start_pip_description">पिक्चर-इन-पिक्चर शुरू करें</string>
+    <string name="media_file_opening">खुल रहा है…</string>
+    <string name="media_file_share_failed_title">फ़ाइल शेयर नहीं हो सकी</string>
+    <string name="media_file_share_downloading_description">शेयर करने के लिए डाउनलोड हो रहा है</string>
+    <string name="media_file_confirm_large_message">इस फ़ाइल का आकार %1$s है। इसे इस डिवाइस पर देखने के लिए डाउनलोड करें?</string>
+    <string name="media_file_download">डाउनलोड करें</string>
+    <string name="media_file_open_in_another_app">दूसरे ऐप में खोलें</string>
+    <string name="media_file_no_app_message">इस डिवाइस का कोई ऐप यह फ़ाइल नहीं खोल सकता। इसे सहेजने या कहीं और भेजने के लिए शेयर करें।</string>
+    <string name="media_file_pdf_page_description">%2$d में से पृष्ठ %1$d</string>
+
+    <!-- File viewer: why a file couldn’t open -->
+    <string name="media_file_error_not_found_title">फ़ाइल नहीं मिली</string>
+    <string name="media_file_error_open_failed_title">फ़ाइल नहीं खुल सकी</string>
+    <string name="media_file_error_unreadable">सर्वर से इस पाथ को पढ़ा नहीं जा सकता।</string>
+    <string name="media_file_error_not_found">इसे कहीं और ले जाया गया या हटा दिया गया हो सकता है।</string>
+    <string name="media_file_error_unauthorized">सर्वर ने इस डिवाइस का पासवर्ड स्वीकार नहीं किया।</string>
+    <!-- %1$d is the HTTP status code -->
+    <string name="media_file_error_server">सर्वर इसे पढ़ नहीं सका (HTTP %1$d)। यह फ़ोल्डर हो सकता है।</string>
+    <string name="media_file_error_timed_out">अनुरोध का समय समाप्त हो गया।</string>
+    <string name="media_file_error_unexpected_response">सर्वर ने अनपेक्षित प्रतिक्रिया भेजी।</string>
+    <string name="media_file_error_over_limit">फ़ाइल डाउनलोड की आकार सीमा से बड़ी है।</string>
+    <string name="media_file_error_size_unknown">सर्वर ने अटैचमेंट का आकार नहीं बताया।</string>
+
+    <!-- File viewer: download progress. %1$s and %2$s are file sizes, as “1.2 MB” -->
+    <string name="media_file_downloading">डाउनलोड हो रहा है…</string>
+    <string name="media_file_downloading_size">%1$s डाउनलोड हो रहा है</string>
+    <string name="media_file_downloading_progress">%2$s में से %1$s डाउनलोड हो रहा है</string>
+
+    <!-- File sizes in decimal units. %1$s is the formatted number -->
+    <string name="media_file_size_zero">शून्य KB</string>
+    <plurals name="media_file_size_bytes">
+        <item quantity="one">%1$d बाइट</item>
+        <item quantity="other">%1$d बाइट</item>
+    </plurals>
+    <string name="media_file_size_kilobytes">%1$s KB</string>
+    <string name="media_file_size_megabytes">%1$s MB</string>
+    <string name="media_file_size_gigabytes">%1$s GB</string>
+    <string name="media_file_size_terabytes">%1$s TB</string>
+
+    <!-- Image gallery -->
+    <string name="media_image_not_found">नहीं मिली</string>
+    <string name="media_image_load_label">छवि लोड करें</string>
+    <string name="media_image_loading_state">लोड हो रहा है</string>
+    <string name="media_image_open_label">छवि खोलें</string>
+    <string name="media_image_tap_to_load">लोड करने के लिए टैप करें</string>
+    <string name="media_image_outside_project_value">प्रोजेक्ट के बाहर</string>
+    <string name="media_image_deferred_low_data_value">कम डेटा मोड के कारण टाला गया</string>
+
+    <!-- File attachment cards -->
+    <string name="media_file_card_open_description">%1$s खोलें</string>
+
+    <!-- In-app browser -->
+    <string name="media_browser_back_to_session_description">सेशन पर वापस जाएँ</string>
+    <string name="media_browser_ask_description">इस पृष्ठ के बारे में पूछें</string>
+    <string name="media_browser_forward_description">आगे जाएँ</string>
+    <string name="media_browser_open_in_browser_description">ब्राउज़र में खोलें</string>
+    <string name="media_browser_scroll_to_top_label">पृष्ठ के सबसे ऊपर जाएँ</string>
+    <string name="media_browser_ask_placeholder">इस पृष्ठ के बारे में पूछें</string>
+    <string name="media_browser_reply_needs_input">आपका इनपुट चाहिए</string>
+    <string name="media_browser_reply_working">कार्य जारी है</string>
+    <string name="media_browser_go_back_to_session_label">सेशन पर वापस जाएँ</string>
+    <!-- Shown side by side on one line, in this order: “Reply ready · Back to read it” -->
+    <string name="media_browser_reply_ready">जवाब तैयार है</string>
+    <string name="media_browser_reply_back_to_read">· पढ़ने के लिए वापस जाएँ</string>
+
+    <!-- Link menu -->
+    <string name="media_link_session_fallback_title">सेशन</string>
+    <string name="media_link_open_in_app_browser">ऐप के ब्राउज़र में खोलें</string>
+    <string name="media_link_open_in_browser">ब्राउज़र में खोलें</string>
+    <string name="media_link_open_in_app">ऐप में खोलें</string>
+    <string name="media_link_copy">लिंक की प्रतिलिपि करें</string>
+    <string name="media_link_share">शेयर करें…</string>
+    <string name="media_link_open_session">सेशन खोलें</string>
+    <string name="media_link_copy_session_id">ID कॉपी करें</string>
+
+    <!-- Link menu: TalkBack actions when a text has several links. %1$s names the link, usually its host -->
+    <string name="media_link_copy_session_id_of_description">%1$s का ID कॉपी करें</string>
+    <string name="media_link_open_session_named_description">सेशन %1$s खोलें</string>
+    <string name="media_link_open_host_in_app_browser_description">%1$s को ऐप के ब्राउज़र में खोलें</string>
+    <string name="media_link_open_host_in_browser_description">%1$s को ब्राउज़र में खोलें</string>
+    <string name="media_link_open_host_in_app_description">%1$s को ऐप में खोलें</string>
+    <string name="media_link_copy_host_description">%1$s का लिंक कॉपी करें</string>
+    <string name="media_link_share_host_description">%1$s का लिंक शेयर करें</string>
+    <!-- A link's own text, then its host, as “docs on example.com” -->
+    <string name="media_link_text_on_host_description">%2$s पर %1$s</string>
+    <!-- A link's host, then its place among the text's links, as “example.net link 3” -->
+    <string name="media_link_host_numbered_description">%1$s लिंक %2$d</string>
+    <string name="media_link_more_links_description">और लिंक</string>
+
+    <!-- Link previews -->
+    <string name="media_link_preview_video">वीडियो</string>
+    <string name="media_link_preview_post">पोस्ट</string>
+    <string name="media_link_preview_post_unavailable">पोस्ट उपलब्ध नहीं है</string>
+
+    <!-- GitHub link previews: what a link points at -->
+    <string name="media_github_kind_repository">रिपॉजिटरी</string>
+    <string name="media_github_kind_issue">इश्यू</string>
+    <string name="media_github_kind_pull_request">पुल रिक्वेस्ट</string>
+    <string name="media_github_kind_commit">कमिट</string>
+
+    <!-- GitHub link previews: an issue’s or pull request’s state -->
+    <string name="media_github_state_open">खुला</string>
+    <string name="media_github_state_closed">बंद</string>
+    <string name="media_github_state_merged">मर्ज किया गया</string>
+    <string name="media_github_state_draft">ड्राफ़्ट</string>
+    <string name="media_github_state_completed">पूरा हुआ</string>
+    <string name="media_github_state_not_planned">योजना में नहीं</string>
+
+    <!-- Mermaid diagram -->
+    <string name="media_mermaid_preview_label">आरेख, %1$s</string>
+    <string name="media_mermaid_viewer_screen_title">आरेख व्यूअर</string>
+    <string name="media_mermaid_diagram_description">आरेख</string>
+    <string name="media_mermaid_loading_state">%1$s, लोड हो रहा है</string>
+    <string name="media_mermaid_view_source">स्रोत देखें</string>
+    <string name="media_mermaid_source_title">आरेख का स्रोत</string>
+
+    <!-- Mermaid diagram kinds, read by TalkBack as “Diagram, Flowchart” -->
+    <string name="media_mermaid_type_flowchart">फ़्लोचार्ट</string>
+    <string name="media_mermaid_type_sequence">सीक्वेंस आरेख</string>
+    <string name="media_mermaid_type_class">क्लास आरेख</string>
+    <string name="media_mermaid_type_state">स्टेट आरेख</string>
+    <string name="media_mermaid_type_entity_relationship">एंटिटी रिलेशनशिप आरेख</string>
+    <string name="media_mermaid_type_user_journey">यूज़र जर्नी</string>
+    <string name="media_mermaid_type_gantt">गैंट चार्ट</string>
+    <string name="media_mermaid_type_pie">पाई चार्ट</string>
+    <string name="media_mermaid_type_quadrant">क्वाड्रंट चार्ट</string>
+    <string name="media_mermaid_type_requirement">आवश्यकता आरेख</string>
+    <string name="media_mermaid_type_git_graph">Git ग्राफ़</string>
+    <string name="media_mermaid_type_c4">C4 आरेख</string>
+    <string name="media_mermaid_type_mind_map">माइंड मैप</string>
+    <string name="media_mermaid_type_timeline">टाइमलाइन</string>
+    <string name="media_mermaid_type_sankey">सैंकी आरेख</string>
+    <string name="media_mermaid_type_xy_chart">XY चार्ट</string>
+    <string name="media_mermaid_type_block">ब्लॉक आरेख</string>
+    <string name="media_mermaid_type_packet">पैकेट आरेख</string>
+    <string name="media_mermaid_type_kanban">कानबन बोर्ड</string>
+    <string name="media_mermaid_type_architecture">आर्किटेक्चर आरेख</string>
+    <string name="media_mermaid_type_radar">रडार चार्ट</string>
+    <string name="media_mermaid_type_treemap">ट्रीमैप</string>
+    <string name="media_viewer_page_counter">%1$d / %2$d</string>
+</resources>

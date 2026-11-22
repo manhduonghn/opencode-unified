@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RunNotices.kt: background shell and subagent notices -->
+    <string name="server_notice_source_shell">សែល</string>
+    <string name="server_notice_source_subagent">ភ្នាក់ងាររង</string>
+    <string name="server_notice_heading_finished">%1$s បានបញ្ចប់</string>
+    <string name="server_notice_heading_failed">%1$s បានបរាជ័យ</string>
+    <string name="server_notice_heading_interrupted">%1$s ត្រូវបានរំខាន</string>
+    <plurals name="server_notice_count_shell_finished">
+        <item quantity="other">សែល %1$d បានបញ្ចប់</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_failed">
+        <item quantity="other">សែល %1$d បានបរាជ័យ</item>
+    </plurals>
+    <plurals name="server_notice_count_shell_interrupted">
+        <item quantity="other">សែល %1$d ត្រូវបានរំខាន</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_finished">
+        <item quantity="other">ភ្នាក់ងាររង %1$d បានបញ្ចប់</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_failed">
+        <item quantity="other">ភ្នាក់ងាររង %1$d បានបរាជ័យ</item>
+    </plurals>
+    <plurals name="server_notice_count_subagent_interrupted">
+        <item quantity="other">ភ្នាក់ងាររង %1$d ត្រូវបានរំខាន</item>
+    </plurals>
+
+    <!-- RunNotices.kt: a run that ended early -->
+    <string name="server_run_error_action_compact">បង្រួម</string>
+    <string name="server_run_error_action_switch_model">ប្តូរម៉ូដែល</string>
+    <string name="server_run_error_aborted">រំខាន</string>
+    <string name="server_run_error_permission_rejected">ត្រូវបានរំខានបន្ទាប់ពីសំណើត្រូវបានបដិសេធ</string>
+    <string name="server_run_error_content_filter">តម្រងសុវត្ថិភាពបានទប់ស្កាត់ការឆ្លើយតប</string>
+    <string name="server_run_error_rate_limit">បានដល់ដែនកំណត់ប្រេកង់សំណើ</string>
+    <string name="server_run_error_quota">បានដល់ដែនកំណត់ការប្រើប្រាស់</string>
+    <string name="server_run_error_auth">អ្នកផ្តល់សេវាបានបដិសេធសោ API</string>
+    <string name="server_run_error_context_overflow">សម័យវែងពេកសម្រាប់ម៉ូដែលនេះ</string>
+    <string name="server_run_error_invalid_request">អ្នកផ្តល់សេវាបានបដិសេធសំណើ</string>
+    <string name="server_run_error_overloaded">ម៉ូដែលកំពុងផ្ទុកលើសទម្ងន់</string>
+    <string name="server_run_error_internal">អ្នកផ្តល់សេវាមានបញ្ហា</string>
+    <string name="server_run_error_transport">ការតភ្ជាប់ទៅម៉ូដែលបានដាច់</string>
+    <string name="server_run_error_timeout">ម៉ូដែលចំណាយពេលយូរពេកដើម្បីឆ្លើយតប</string>
+    <string name="server_run_error_invalid_output">មិនអាចអានការឆ្លើយតបរបស់ម៉ូដែលបាន</string>
+    <string name="server_run_error_unavailable">មិនមានម៉ូដែលនេះទេ</string>
+    <string name="server_run_error_unsupported_operation">ម៉ូដែលនេះមិនអាចធ្វើបែបនោះបានទេ</string>
+    <string name="server_run_error_tool_execution">ឧបករណ៍មួយបានបរាជ័យ ហើយការដំណើរការបានឈប់</string>
+    <string name="server_run_error_other">ការដំណើរការបានឈប់ដោយសារកំហុស</string>
+    <string name="server_run_retry_in_seconds">%1$s · នឹងព្យាយាមម្តងទៀតក្នុង %2$d វិនាទី</string>
+    <string name="server_run_retry_now">%1$s · កំពុងព្យាយាមម្តងទៀត</string>
+
+    <!-- OpenCodeClientError.kt -->
+    <string name="server_error_unreachable">មិនអាចភ្ជាប់ទៅម៉ាស៊ីនមេ OpenCode បាន</string>
+    <string name="server_error_folder_gone">ថតនេះលែងមានហើយ</string>
+    <string name="server_error_uploads_unsupported">ម៉ាស៊ីនមេនេះមិនគាំទ្រឯកសារភ្ជាប់ទេ។ សូមធ្វើបច្ចុប្បន្នភាព OpenCode នៅលើកុំព្យូទ័ររបស់អ្នក។</string>
+    <string name="server_error_archiving_unsupported">ម៉ាស៊ីនមេនេះមិនគាំទ្រការដាក់ក្នុងបណ្ណសារទេ។ សូមធ្វើបច្ចុប្បន្នភាព OpenCode លើកុំព្យូទ័ររបស់អ្នក។</string>
+
+    <!-- LocalNetworkPermission.kt -->
+    <string name="server_local_network_denied">OpenCode មិនត្រូវបានអនុញ្ញាតឱ្យភ្ជាប់ទៅឧបករណ៍នៅលើបណ្តាញមូលដ្ឋានរបស់អ្នកទេ។ សូមបើកសិទ្ធិឧបករណ៍នៅក្បែរសម្រាប់ OpenCode ក្នុងការកំណត់ រួចព្យាយាមម្តងទៀត។</string>
+
+    <!-- SessionTitle.kt -->
+    <string name="server_session_title_untitled">សម័យគ្មានចំណងជើង</string>
+
+    <!-- OpenCodeToolCall.kt, LiveTranscript.kt -->
+    <string name="server_tool_shell">សែល</string>
+    <string name="server_tool_shell_killed">សែលត្រូវបានបញ្ឈប់</string>
+    <string name="server_tool_shell_exit_code">ពាក្យបញ្ជាបានបញ្ចប់ដោយលេខកូដ %1$d</string>
+    <string name="server_notice_session_update">បច្ចុប្បន្នភាពសម័យ</string>
+
+    <!-- ConnectionFailureDetail.kt -->
+    <string name="server_connection_failed">ការតភ្ជាប់បានបរាជ័យ</string>
+    <string name="server_connection_resolved_address_unknown">អាសយដ្ឋានដែលរកឃើញ៖ មិនស្គាល់</string>
+    <string name="server_connection_resolved_address">អាសយដ្ឋានដែលរកឃើញ (ស្វែងរកក្រោយបរាជ័យ)៖ %1$s</string>
+    <string name="server_connection_tailnet_dns_mismatch">ឈ្មោះ tailnet នេះបានបម្លែងទៅជាអាសយដ្ឋានក្រៅជួររបស់ Tailscale ដូច្នេះប្រហែលជាមិនកំពុងប្រើ DNS របស់ Tailscale ទេ។ ក្នុងកម្មវិធី Tailscale សូមបើកការប្រើការកំណត់ DNS របស់ Tailscale ហើយបិទ DNS ឯកជន ឬទម្រង់ VPN ណាមួយដែលប្តូរ DNS។</string>
+
+    <!-- OpenCodeServer.kt: how the phone reaches the server -->
+    <string name="server_connection_route_local_network">បណ្តាញមូលដ្ឋាន</string>
+    <string name="server_connection_route_loopback">ការតភ្ជាប់ទៅឧបករណ៍ខ្លួនឯង</string>
+    <string name="server_connection_route_internet">អ៊ីនធឺណិត</string>
+
+    <!-- OpenCodePairingLink.kt: each one completes the sentence “Couldn’t use “<address>” from this pairing code: it …” -->
+    <string name="server_pairing_origin_not_web_address">មិនមែនជាអាសយដ្ឋានគេហទំព័រ</string>
+    <string name="server_pairing_origin_bad_scheme">មិនចាប់ផ្តើមដោយ http:// ឬ https://</string>
+    <string name="server_pairing_origin_no_host">គ្មានឈ្មោះម៉ាស៊ីន</string>
+    <string name="server_pairing_origin_credentials">មានឈ្មោះអ្នកប្រើ ឬពាក្យសម្ងាត់</string>
+    <string name="server_pairing_origin_query">មានប៉ារ៉ាម៉ែត្រសំណួរ ឬផ្នែកយោង</string>
+    <string name="server_pairing_origin_port">មានច្រកក្រៅចន្លោះ 1–65535</string>
+    <string name="server_pairing_origin_path">មានផ្លូវ ប៉ុន្តែម៉ាស៊ីនមេត្រូវស្ថិតនៅឫសនៃអាសយដ្ឋាន</string>
+
+    <!-- OpenCodeServerFriendlyName.kt: an unnamed server -->
+    <string name="server_friendly_name_fallback">ម៉ាស៊ីនមេ</string>
+    <string name="server_friendly_name_numbered">ម៉ាស៊ីនមេ %1$s</string>
+
+    <!-- OpenCodeClientOperations.kt -->
+    <string name="server_error_prompt_unconfirmed">ការតភ្ជាប់បានដាច់បន្ទាប់ពីផ្ញើសារ ដូច្នេះសារប្រហែលជាបានទៅដល់ហើយ។</string>
+
+    <!-- LiveCatalog.kt -->
+    <string name="server_error_integration_no_sign_in">ការរួមបញ្ចូលនេះគ្មានវិធីចូលគណនីទេ។</string>
+    <string name="server_error_sign_in_url_invalid">អាសយដ្ឋានទំព័រចូលគណនីមិនត្រឹមត្រូវទេ។</string>
+    <string name="server_error_load_server_details">មិនអាចផ្ទុកព័ត៌មានលម្អិតម៉ាស៊ីនមេបាន</string>
+
+    <!-- LiveConnection.kt -->
+    <string name="server_error_pairing_expired">កូដផ្គូផ្គងនេះផុតកំណត់ ឬបានប្រើរួចហើយ។ ដំណើរការ `opencode pair --remote` ម្តងទៀត។</string>
+    <string name="server_error_pairing_unsupported">ម៉ាស៊ីនមេនេះមិនគាំទ្រតំណផ្គូផ្គងទេ។ ធ្វើបច្ចុប្បន្នភាព OpenCode លើកុំព្យូទ័ររបស់អ្នក ឬបញ្ចូលម៉ាស៊ីនមេដោយដៃ។</string>
+    <string name="server_error_notification_previews_need_https">ការមើលការជូនដំណឹងដែលបានអ៊ិនគ្រីបជាមុន ត្រូវការការតភ្ជាប់ម៉ាស៊ីនមេតាម HTTPS។</string>
+
+    <!-- LiveEvents.kt, LiveTransport.kt, LiveFiles.kt, MediaReferenceFetch.kt, SharedEvents.kt -->
+    <string name="server_error_invalid_url">បញ្ចូល URL ម៉ាស៊ីនមេ HTTP ឬ HTTPS ដែលត្រឹមត្រូវ។</string>
+    <string name="server_error_credentials_rejected">ម៉ាស៊ីនមេបានបដិសេធព័ត៌មានចូលទាំងនេះ។</string>
+    <string name="server_error_http_status">ម៉ាស៊ីនមេបានឆ្លើយតប HTTP %1$d។</string>
+    <string name="server_error_event_stream_http">ស្ទ្រីមព្រឹត្តិការណ៍បានឆ្លើយតប HTTP %1$d។</string>
+    <string name="server_error_event_stream_oversized_frame">ស្ទ្រីមព្រឹត្តិការណ៍បានផ្ញើស៊ុមទិន្នន័យធំពេក។</string>
+    <string name="server_error_event_stream_ended">ស្ទ្រីមព្រឹត្តិការណ៍បានបញ្ចប់។</string>
+    <string name="server_error_event_stream_server_failure">ស្ទ្រីមព្រឹត្តិការណ៍បានរាយការណ៍ពីការបរាជ័យម៉ាស៊ីនមេ។</string>
+    <string name="server_tool_failed">ឧបករណ៍បានបរាជ័យ</string>
+    <string name="server_error_list_folder">ម៉ាស៊ីនមេមិនអាចបង្ហាញបញ្ជីមាតិកាថតនេះបាន</string>
+
+    <!-- LiveFamily.kt, LiveSessions.kt, OpenCodeReadCache.kt -->
+    <string name="server_error_load_projects_and_sessions">មិនអាចផ្ទុកគម្រោង និងសម័យបាន</string>
+    <string name="server_error_load_session_family">មិនអាចផ្ទុកក្រុមសម័យដែលពាក់ព័ន្ធបាន</string>
+    <string name="server_error_update_session">មិនអាចធ្វើបច្ចុប្បន្នភាពសម័យបាន</string>
+    <string name="server_error_load_session_ancestry">មិនអាចផ្ទុកលំដាប់សម័យមេរបស់សម័យសកម្មបាន</string>
+
+    <!-- LiveRequests.kt: a question settled elsewhere -->
+    <string name="server_request_already_answered_elsewhere">បានឆ្លើយនៅកន្លែងផ្សេងរួចហើយ</string>
+    <string name="server_request_already_dismissed">បានច្រានចោលរួចហើយ</string>
+    <string name="server_request_already_answered">បានឆ្លើយរួចហើយ</string>
+    <string name="server_request_already_dismissed_elsewhere">បានច្រានចោលនៅកន្លែងផ្សេងរួចហើយ</string>
+    <string name="server_request_no_longer_waiting">លែងរង់ចាំហើយ</string>
+
+    <!-- Composer.kt -->
+    <string name="server_media_unavailable">មិនមានមេឌៀទេ</string>
+    <string name="server_pasted_text_title">អត្ថបទដែលបានបិទភ្ជាប់</string>
+    <plurals name="server_pasted_text_summary">
+        <item quantity="other">%1$d បន្ទាត់ · %2$s</item>
+    </plurals>
+    <plurals name="server_pasted_text_lines">
+        <item quantity="other">%1$d បន្ទាត់</item>
+    </plurals>
+    <string name="server_file_size_zero">សូន្យ KB</string>
+    <plurals name="server_file_size_bytes">
+        <item quantity="other">%1$d បៃ</item>
+    </plurals>
+    <string name="server_file_size_kilobytes">%1$s KB</string>
+    <string name="server_file_size_megabytes">%1$s MB</string>
+    <string name="server_file_size_gigabytes">%1$s GB</string>
+    <string name="server_file_size_terabytes">%1$s TB</string>
+    <string name="server_autocomplete_folder_project">គម្រោង</string>
+
+    <!-- Payloads.kt -->
+    <string name="server_transcript_file_fallback">ឯកសារ</string>
+
+    <!-- Forms.kt: form answer checks -->
+    <string name="server_form_complete_step">បំពេញជំហាននេះ</string>
+    <string name="server_form_required">ត្រូវបំពេញ</string>
+    <plurals name="server_form_min_length">
+        <item quantity="other">បញ្ចូលយ៉ាងតិច %1$d តួអក្សរ</item>
+    </plurals>
+    <plurals name="server_form_max_length">
+        <item quantity="other">បញ្ចូលមិនលើសពី %1$d តួអក្សរ</item>
+    </plurals>
+    <string name="server_form_invalid_format">ទម្រង់មិនត្រឹមត្រូវ</string>
+    <string name="server_form_choose_option">ជ្រើសរើសជម្រើសដែលមាន</string>
+    <string name="server_form_invalid_email">បញ្ចូលអ៊ីមែលដែលត្រឹមត្រូវ</string>
+    <string name="server_form_invalid_url">បញ្ចូល URL ដែលត្រឹមត្រូវ</string>
+    <string name="server_form_invalid_date">បញ្ចូលកាលបរិច្ឆេទតាមទម្រង់ YYYY-MM-DD</string>
+    <string name="server_form_invalid_date_time">បញ្ចូលកាលបរិច្ឆេទ និងម៉ោងដែលត្រឹមត្រូវ</string>
+    <string name="server_form_minimum">ត្រូវមានយ៉ាងតិច %1$s</string>
+    <string name="server_form_maximum">ត្រូវមិនលើសពី %1$s</string>
+    <string name="server_form_whole_number">បញ្ចូលចំនួនគត់</string>
+    <plurals name="server_form_min_items">
+        <item quantity="other">ជ្រើសរើសយ៉ាងតិច %1$d</item>
+    </plurals>
+    <plurals name="server_form_max_items">
+        <item quantity="other">ជ្រើសរើសមិនលើសពី %1$d</item>
+    </plurals>
+    <string name="server_form_invalid_value">តម្លៃមិនត្រឹមត្រូវ</string>
+
+    <!-- ModelVisibility.kt -->
+    <string name="server_model_visibility_hide">លាក់ម៉ូដែលដែលបានជ្រើសរើស</string>
+    <string name="server_model_visibility_only_show">បង្ហាញតែម៉ូដែលដែលបានជ្រើសរើស</string>
+
+    <!-- Models.kt -->
+    <string name="server_model_variant_off">បិទ</string>
+    <string name="server_model_variant_extra_high">ខ្ពស់ខ្លាំង</string>
+    <string name="server_model_variant_max">អតិបរមា</string>
+    <string name="server_delivery_steering">ការណែនាំទិសដៅ</string>
+    <string name="server_delivery_queued">នៅក្នុងជួរ</string>
+</resources>

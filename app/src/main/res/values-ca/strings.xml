@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App alerts -->
+    <string name="app_alert_share_failed_title">No s\'han pogut afegir els elements compartits</string>
+    <string name="app_alert_open_session_failed_title">No s\'ha pogut obrir la sessió</string>
+    <string name="app_alert_pairing_failed_title">No s\'ha pogut aparellar amb el servidor</string>
+    <string name="app_pairing_confirm">Aparella</string>
+
+    <!-- Connection screen -->
+    <string name="app_servers_title">Servidors</string>
+    <string name="app_servers_back_description">Torna a %1$s</string>
+    <string name="app_server_fallback_name">servidor</string>
+    <string name="app_connection_intro_new">Continua les sessions de programació des del teu %1$s.</string>
+    <string name="app_connection_intro_returning">Continua on ho vas deixar o aparella un altre ordinador.</string>
+    <string name="app_connection_enter_manually">Introdueix un servidor manualment</string>
+    <string name="app_connection_scan_pairing_code">Escaneja el codi d\'aparellament</string>
+
+    <!-- Setup steps -->
+    <string name="app_setup_instructions">A l\'ordinador, obre OpenCode i ves a Configuració → Aparellament, o executa opencode pair --remote en un terminal. Després escaneja el codi amb aquest %1$s.</string>
+    <string name="app_setup_install_title">Encara no tens OpenCode?</string>
+    <string name="app_setup_other_ways_to_install">Altres maneres d\'instal·lar</string>
+    <string name="app_setup_terminal_title">O executa això en un terminal</string>
+    <string name="app_setup_terminal_detail">Funciona des de qualsevol xarxa.</string>
+    <string name="app_setup_paste_prompt">O copia l\'enllaç que es mostra i després</string>
+    <string name="app_setup_paste">Enganxa</string>
+    <string name="app_setup_copy_command_description">Copia %1$s</string>
+
+    <!-- Saved servers -->
+    <string name="app_servers_connecting_description">S\'està connectant</string>
+    <string name="app_servers_edit_description">Edita %1$s</string>
+    <string name="app_servers_remove_description">Elimina %1$s</string>
+    <string name="app_servers_remove_confirm_title">Vols eliminar %1$s?</string>
+    <string name="app_servers_remove_confirm_message">S\'eliminaran l\'adreça i la contrasenya desades en aquest %1$s. Les sessions del servidor no es veuran afectades.</string>
+    <string name="app_servers_remove_confirm">Elimina el servidor</string>
+
+    <!-- Connection error card -->
+    <string name="app_error_phase">Fase: %1$s</string>
+    <string name="app_error_server">Servidor: %1$s</string>
+    <string name="app_error_attempt">Intent: %1$d</string>
+    <string name="app_error_copy_report">Copia l\'informe d\'error</string>
+
+    <!-- New Server / Edit Server sheet -->
+    <string name="app_server_form_new_title">Nou servidor</string>
+    <string name="app_server_form_edit_title">Edita el servidor</string>
+    <string name="app_server_form_name">Nom</string>
+    <string name="app_server_form_address">Adreça del servidor</string>
+    <string name="app_server_form_username">Nom d\'usuari</string>
+    <string name="app_server_form_password">Contrasenya (opcional)</string>
+    <string name="app_server_form_hide_password_description">Amaga la contrasenya</string>
+    <string name="app_server_form_show_password_description">Mostra la contrasenya</string>
+    <string name="app_server_form_connect">Connecta</string>
+    <string name="app_server_form_save_and_connect">Desa i connecta</string>
+
+    <!-- Custom headers -->
+    <string name="app_server_form_headers_title">Capçaleres</string>
+    <string name="app_server_form_header_name">Nom</string>
+    <string name="app_server_form_header_name_description">Nom de la capçalera %1$d</string>
+    <string name="app_server_form_header_value">Valor</string>
+    <string name="app_server_form_header_value_description">Valor de la capçalera %1$d</string>
+    <string name="app_server_form_header_remove_description">Elimina la capçalera %1$d</string>
+    <string name="app_server_form_header_add">Afegeix una capçalera</string>
+    <string name="app_server_form_headers_detail">S\'envien amb cada sol·licitud per a un servidor intermediari com Cloudflare Access.</string>
+
+    <!-- Server form state (AppFeature) -->
+    <string name="app_server_form_header_invalid_name">«%1$s» no és un nom de capçalera vàlid</string>
+    <string name="app_server_form_header_invalid_value">El valor de %1$s no pot contenir salts de línia</string>
+    <string name="app_server_form_name_placeholder">Opcional</string>
+    <string name="app_connection_progress_pairing">S\'està aparellant</string>
+    <string name="app_connection_progress_connecting">S\'està connectant</string>
+    <string name="app_connection_progress_loading_sessions">S\'estan carregant les sessions</string>
+
+    <!-- Pairing confirmation (AppFeature.PendingPairing) -->
+    <string name="app_pairing_confirm_title">Vols aparellar-te amb %1$s?</string>
+    <string name="app_pairing_confirm_try_one">OpenCode provarà %1$s i es connectarà a la primera adreça que respongui.</string>
+    <string name="app_pairing_confirm_pair_one">OpenCode s\'aparellarà amb %1$s i s\'hi connectarà.</string>
+    <string name="app_pairing_confirm_try_two">OpenCode provarà %1$s i %2$s i es connectarà a la primera adreça que respongui.</string>
+    <string name="app_pairing_confirm_try_many">OpenCode provarà %1$s i %2$s i es connectarà a la primera adreça que respongui.</string>
+    <string name="app_pairing_confirm_replaces">%1$s Les credencials desades per a %2$s es podrien substituir.</string>
+
+    <!-- Connection error (AppFeature.FailureContext, AppView) -->
+    <string name="app_error_phase_pair">Aparellament</string>
+    <string name="app_error_phase_connect">Connecta</string>
+    <string name="app_error_phase_load_sessions">Carrega les sessions</string>
+    <string name="app_error_candidate_detail">Candidat %1$d: %2$s</string>
+    <string name="app_error_invalid_address">No disponible (adreça no vàlida)</string>
+    <string name="app_error_title_pair">No s\'ha pogut aparellar</string>
+    <string name="app_error_title_load_sessions">No s\'han pogut carregar les sessions</string>
+    <string name="app_error_title_connect">No s\'ha pogut connectar a %1$s</string>
+    <string name="app_error_announcement">%1$s. %2$s</string>
+
+    <!-- App messages (AppFeature) -->
+    <string name="app_paste_clipboard_empty">El porta-retalls és buit</string>
+    <string name="app_paste_not_a_pairing_link">Això no és un enllaç d\'aparellament</string>
+    <string name="app_server_no_longer_saved">Aquest servidor ja no està desat en aquest %1$s. Torna a connectar-t\'hi per obrir la sessió.</string>
+    <string name="app_session_no_longer_available">Pot ser que s\'hagi suprimit o que el servidor no estigui disponible.</string>
+
+    <!-- Pairing (AppFeaturePairing) -->
+    <string name="app_pairing_connected_announcement">Connectat a %1$s</string>
+    <string name="app_pairing_invalid_code">Això no és un codi d\'aparellament d\'OpenCode. Executa opencode pair --remote a l\'ordinador i escaneja el codi QR o enganxa l\'enllaç que mostra.</string>
+    <string name="app_pairing_unusable_address">No s\'ha pogut fer servir «%1$s» d\'aquest codi d\'aparellament: %2$s.</string>
+    <string name="app_pairing_loopback">Aquest servidor només escolta a localhost i aquest %1$s no hi pot accedir. Executa opencode pair --remote a l\'ordinador per connectar-t\'hi des de qualsevol xarxa.</string>
+
+    <!-- Shares (AppFeatureShares) -->
+    <string name="app_share_server_no_longer_saved">El servidor on has compartit ja no està desat en aquest dispositiu. Torna a connectar-t\'hi i a compartir.</string>
+
+    <!-- Saved server rows and server form hints (AppView) -->
+    <string name="app_servers_last_used">últim ús</string>
+    <string name="app_server_form_hint_new">Enganxa l\'enllaç que mostra `opencode pair --remote` per fer l\'aparellament, o fes servir l\'adreça i la contrasenya del teu servidor OpenCode. El nom d\'usuari sol ser opencode.</string>
+    <string name="app_server_form_hint_edit_paired">Els canvis es desen quan es connecta aquest servidor. Com que es va aparellar, la contrasenya és un testimoni de sessió; escaneja un codi d\'aparellament nou en lloc de canviar-la.</string>
+    <string name="app_server_form_hint_edit">Els canvis es desen quan es connecta aquest servidor.</string>
+</resources>

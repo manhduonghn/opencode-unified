@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent activity glyph -->
+    <string name="session_activity_running_description">运行中</string>
+    <!-- Background work panel -->
+    <string name="session_background_work_show_label">显示运行中的子代理、脚本和 Shell</string>
+    <string name="session_background_work_collapsed_description">已折叠</string>
+    <string name="session_background_work_subagents_title">子代理</string>
+    <string name="session_background_work_open_subagent_label">打开子代理的会话</string>
+    <string name="session_background_work_shells_title">Shell</string>
+    <string name="session_background_work_show_shell_label">显示 Shell 输出</string>
+    <!-- The session's images and videos, paged in the full-screen viewer -->
+    <string name="session_visual_attached_image">附加图片</string>
+    <string name="session_visual_tool_image">工具图片</string>
+    <string name="session_visual_image">图片</string>
+    <!-- One image of several: the image's label, then its place, as “Attached image 2 of 3” -->
+    <string name="session_visual_image_page_label">%1$s，第 %2$d 张，共 %3$d 张</string>
+    <!-- A diagram's label, read by TalkBack. %1$s is its kind, as “Diagram, Flowchart” -->
+    <string name="session_visual_diagram_label">图表，%1$s</string>
+    <!-- Jump to latest -->
+    <string name="session_scroll_to_latest_description">跳转到最新</string>
+    <!-- Dictation bar -->
+    <string name="session_dictation_finishing_description">正在完成听写</string>
+    <string name="session_dictation_stop_recording_description">停止录音</string>
+    <string name="session_dictation_stop_recording_hint">将听写文字填入消息</string>
+    <string name="session_sending_message_description">正在发送消息</string>
+    <string name="session_delivery_steer_label">在下一步引导</string>
+    <string name="session_delivery_queue_label">加入队列，等待本次回复结束</string>
+    <string name="session_delivery_steer">引导</string>
+    <string name="session_delivery_queue">加入队列</string>
+    <!-- Draft project picker -->
+    <string name="session_draft_project_choose_label">选择会话的起始位置</string>
+    <string name="session_project_choose_folder">选择文件夹…</string>
+    <string name="session_project_all_projects">所有项目</string>
+    <string name="session_project_selected_description">已选择</string>
+    <string name="session_project_picker_title">项目</string>
+    <!-- Folder browser -->
+    <string name="session_folder_select_description">选择文件夹</string>
+    <string name="session_folder_path_description">路径</string>
+    <string name="session_folder_title">文件夹</string>
+    <string name="session_folder_select">选择</string>
+    <string name="session_folder_open_failed_title">无法打开文件夹</string>
+    <string name="session_folder_empty_title">暂无文件夹</string>
+    <string name="session_folder_search_empty_title">没有关于“%1$s”的结果</string>
+    <string name="session_folder_search_empty_message">检查拼写或换个关键词搜索。</string>
+    <!-- Server connection pill -->
+    <string name="session_server_edit">编辑服务器…</string>
+    <!-- Starter prompts -->
+    <string name="session_starter_prompts_title">试着问问</string>
+    <string name="session_starter_prompt_pick_label">填入消息</string>
+    <!-- Session sheet -->
+    <string name="session_sheet_rename_failed">无法重命名</string>
+    <string name="session_sheet_status_description">状态</string>
+    <string name="session_rename_title">重命名会话</string>
+    <string name="session_untitled_title">会话</string>
+    <string name="session_pin">置顶</string>
+    <string name="session_pinned">已置顶</string>
+    <string name="session_unread">未读</string>
+    <string name="session_mute">静音</string>
+    <string name="session_muted">已静音</string>
+    <string name="session_compact">压缩会话</string>
+    <string name="session_fork">创建分支会话</string>
+    <string name="session_toggle_on_description">开启</string>
+    <string name="session_toggle_off_description">关闭</string>
+    <string name="session_export">导出</string>
+    <string name="session_export_markdown">Markdown</string>
+    <string name="session_export_json">JSON</string>
+    <string name="session_sheet_model">模型</string>
+    <string name="session_sheet_context">上下文</string>
+    <string name="session_sheet_unknown_description">未知</string>
+    <string name="session_sheet_context_tokens">%1$s 个词元</string>
+    <string name="session_sheet_cost">费用</string>
+    <string name="session_sheet_media">媒体</string>
+    <string name="session_sheet_media_value">文件和链接</string>
+    <string name="session_always_notify">始终通知</string>
+    <string name="session_always_notify_message_phone">每次回复完成时都通知这台手机，即使消息不是从这里发送的。</string>
+    <string name="session_always_notify_message_tablet">每次回复完成时都通知这台平板，即使消息不是从这里发送的。</string>
+    <string name="session_delete_session">删除会话</string>
+    <string name="session_rename_placeholder">标题</string>
+    <string name="session_auto_rename">自动重命名</string>
+    <string name="session_delete_confirm_title">删除“%1$s”？</string>
+    <string name="session_delete_confirm_message">这会从服务器删除此会话，所有客户端都将无法访问。</string>
+    <!-- Transcript -->
+    <string name="session_move_to_background">移至后台</string>
+    <string name="session_move_to_background_hint">让当前任务在后台继续运行，以便智能体读取你的下一条消息</string>
+    <!-- Attachments -->
+    <string name="session_attachment_add_image_failed_title">无法添加图片</string>
+    <string name="session_attachment_upload">上传</string>
+    <string name="session_attachment_remove_image_description">移除图片附件 %1$d</string>
+    <string name="session_attachment_remove_description">移除 %1$s</string>
+    <string name="session_attachment_file_description">文件附件 %1$s</string>
+    <string name="session_attachment_cancel_upload_description">取消上传 %1$s</string>
+    <string name="session_attachment_open_photo_label">全屏打开照片</string>
+    <string name="session_attachment_image_description">图片附件 %1$d</string>
+    <string name="session_attachment_video_description">视频附件 %1$d</string>
+    <!-- Composer controls -->
+    <string name="session_answer_own_description">你的自定义答案</string>
+    <string name="session_answer_own_type_label">输入或口述你的答案</string>
+    <string name="session_answer_own_clear_label">暂不使用你的答案</string>
+    <string name="session_answer_own_choose_label">使用你的答案</string>
+    <string name="session_answer_decline_with_words_label">告诉智能体改做什么</string>
+    <string name="session_answer_required_description">选择一个答案或自行输入</string>
+    <string name="session_dictate_message_description">口述消息</string>
+    <string name="session_dictate_message_hint">口述输入消息，或长按录音并发送</string>
+    <string name="session_send_waiting_for_uploads_description">上传完成后发送</string>
+    <string name="session_steer_message_description">引导消息</string>
+    <string name="session_stopping_description">正在停止</string>
+    <string name="session_start_voice_call">发起语音通话</string>
+    <string name="session_dictation_stop_description">停止口述输入</string>
+    <!-- Composer -->
+    <string name="session_requests_load_failed_title">无法加载请求</string>
+    <plurals name="session_queued_count">
+        <item quantity="other">%1$d 条排队中</item>
+    </plurals>
+    <string name="session_queued_show_label">显示等待本次回复完成后发送的消息</string>
+    <plurals name="session_queued_messages_description">
+        <item quantity="other">%1$d 条消息排队中</item>
+    </plurals>
+    <string name="session_dictation_preparing">正在准备口述输入…</string>
+    <string name="session_message_placeholder">消息</string>
+    <!-- Session header -->
+    <string name="session_back_to_main_description">返回主会话</string>
+    <string name="session_header_open_from_catch_up_label">打开会话并退出动态浏览</string>
+    <string name="session_header_show_details_label">显示会话详情</string>
+    <string name="session_header_idle_description">空闲</string>
+    <string name="session_header_syncing_description">正在同步</string>
+    <string name="session_header_last_known_description">上次已知状态</string>
+    <string name="session_menu_more_description">更多</string>
+    <string name="session_unpin">取消置顶</string>
+    <string name="session_copy_session_id">复制会话 ID</string>
+    <string name="session_mark_as_read">标为已读</string>
+    <string name="session_mark_as_unread">标为未读</string>
+    <string name="session_unmute">取消静音</string>
+    <string name="session_menu_export_expanded_description">已展开</string>
+    <string name="session_menu_export_collapsed_description">已折叠</string>
+    <string name="session_info">会话信息</string>
+    <!-- Session screen -->
+    <string name="session_load_failed_title">无法加载会话</string>
+    <string name="session_location_share_failed_title">无法分享位置</string>
+    <!-- Shell output -->
+    <string name="session_shell_stop_confirm_title">停止此 Shell？</string>
+    <string name="session_shell_stop_confirm_message">命令将立即结束。此处的输出会保留，直到你关闭它。</string>
+    <string name="session_shell_stop">停止 Shell</string>
+    <string name="session_shell_copy_output">复制输出</string>
+    <string name="session_shell_share_output">分享输出</string>
+    <string name="session_shell_earlier_output_hidden">较早的输出已隐藏</string>
+    <string name="session_shell_showing_last_output">正在显示最后 4 MB 的输出</string>
+    <string name="session_shell_load_earlier">加载更早的输出</string>
+    <string name="session_shell_output_unavailable_title">输出不可用</string>
+    <string name="session_shell_output_unavailable_message">服务器上已无此 Shell 的输出。</string>
+    <string name="session_shell_no_output_yet_title">暂无输出</string>
+    <string name="session_shell_no_output_title">无输出</string>
+    <string name="session_shell_no_output_yet_message">命令的输出会实时显示在这里。</string>
+    <string name="session_shell_status_stopping">正在停止…</string>
+    <string name="session_shell_status_unavailable">不可用</string>
+    <string name="session_shell_status_interrupted">已中断</string>
+    <string name="session_shell_status_timed_out">已超时</string>
+    <string name="session_shell_status_exited_with_code">已退出，退出码 %1$d</string>
+    <string name="session_shell_status_exited">已退出</string>
+    <plurals name="session_shell_elapsed_hours">
+        <item quantity="other">%1$d 小时</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_minutes">
+        <item quantity="other">%1$d 分钟</item>
+    </plurals>
+    <plurals name="session_shell_elapsed_seconds">
+        <item quantity="other">%1$d 秒</item>
+    </plurals>
+
+    <!-- Agent activity (glyph labels and titles) -->
+    <string name="session_activity_idle">空闲</string>
+    <string name="session_activity_starting_up">正在启动</string>
+    <string name="session_activity_thinking">思考中</string>
+    <string name="session_activity_long_work">长时间工作</string>
+    <string name="session_activity_tool_burst">密集调用工具</string>
+    <string name="session_activity_streaming_output">流式输出</string>
+    <string name="session_activity_waiting_for_input">等待输入</string>
+    <string name="session_activity_handing_off">正在移交</string>
+    <string name="session_activity_done">完成</string>
+    <string name="session_activity_failed">失败</string>
+    <string name="session_working_stopping">正在停止…</string>
+    <string name="session_status_working">工作中</string>
+    <string name="session_status_needs_input">需要你输入</string>
+    <string name="session_status_done">完成</string>
+
+    <!-- Lists: joins two or three phrases -->
+    <string name="session_list_two">%1$s、%2$s</string>
+    <string name="session_list_three">%1$s、%2$s、%3$s</string>
+
+    <!-- Background work panel -->
+    <plurals name="session_background_work_subagent_count">
+        <item quantity="other">%1$d 个子代理</item>
+    </plurals>
+    <plurals name="session_background_work_shell_count">
+        <item quantity="other">%1$d 个 Shell</item>
+    </plurals>
+    <plurals name="session_background_work_script_count">
+        <item quantity="other">%1$d 个脚本</item>
+    </plurals>
+    <string name="session_background_work_summary">%1$s · %2$s</string>
+    <string name="session_background_work_scripts_title">脚本</string>
+    <string name="session_background_work_stop_script_label">停止脚本</string>
+    <string name="session_background_work_stop_subagent_label">停止子代理</string>
+    <string name="session_background_work_stop_script_failed">无法停止脚本</string>
+    <string name="session_background_work_stop_subagent_failed">无法停止子代理</string>
+
+    <!-- Composer buttons -->
+    <string name="session_send_message_description">发送消息</string>
+    <string name="session_stop_description">停止</string>
+    <string name="session_start_voice_call_description">发起语音通话</string>
+    <string name="session_model_level_default">默认</string>
+
+    <!-- In-app notice -->
+    <plurals name="session_notice_session_count">
+        <item quantity="other">%1$d 个会话</item>
+    </plurals>
+    <plurals name="session_notice_needs_input_count">
+        <item quantity="other">%1$d 个需要你输入</item>
+    </plurals>
+    <string name="session_notice_announcement">%1$s，%2$s</string>
+
+    <!-- Server connection pill -->
+    <string name="session_server_reconnecting">正在重新连接到 %1$s…</string>
+    <string name="session_server_connect_failed">无法连接到 %1$s</string>
+    <string name="session_server_sign_in_failed">无法登录 %1$s</string>
+    <string name="session_server_pair_again">重新配对</string>
+    <string name="session_server_try_again_click_label">再试一次</string>
+    <string name="session_server_pair_again_click_label">重新配对</string>
+
+    <!-- Export -->
+    <string name="session_export_folder_failed">无法创建导出文件夹</string>
+    <string name="session_export_save_failed">无法保存导出内容</string>
+
+    <!-- Session errors -->
+    <string name="session_agent_fallback_name">智能体</string>
+    <string name="session_something_went_wrong">出了点问题</string>
+    <string name="session_something_went_wrong_sentence">出了点问题。</string>
+    <string name="session_load_earlier_failed">无法加载更早的消息</string>
+    <string name="session_move_to_background_failed">无法移至后台：%1$s</string>
+    <string name="session_move_failed_reason">无法移动会话</string>
+    <string name="session_delivery_waiting_to_send">等待发送</string>
+    <string name="session_create_failed">无法创建会话。</string>
+    <string name="session_switch_agent_failed">无法切换智能体：%1$s</string>
+    <string name="session_switch_model_failed">无法切换模型：%1$s</string>
+    <string name="session_pending_send_now_failed_details">无法立即发送待发送消息：%1$s</string>
+    <string name="session_pending_cancel_failed_details">无法取消待发送消息：%1$s</string>
+    <string name="session_pending_queue_failed_details">无法将待发送消息加入队列：%1$s</string>
+    <string name="session_stopped_before_sent">发送前已中断</string>
+    <string name="session_stop_failed">无法停止会话</string>
+    <string name="session_undo_message_failed">无法撤销消息：%1$s</string>
+    <string name="session_revert_failed">无法撤销</string>
+    <string name="session_revert_failed_details">无法撤销：%1$s</string>
+
+    <!-- Session sheet errors -->
+    <string name="session_sheet_rename_failed_title">无法重命名会话</string>
+    <string name="session_sheet_compact_failed_title">无法压缩会话</string>
+    <string name="session_sheet_fork_failed_title">无法创建分支会话</string>
+    <string name="session_sheet_save_export_failed">无法保存导出文件</string>
+    <string name="session_sheet_export_failed_title">无法导出会话</string>
+    <string name="session_sheet_notifications_off_message">请先在设置中开启通知。</string>
+    <string name="session_sheet_always_notify_on_failed_title">无法开启始终通知</string>
+    <string name="session_sheet_always_notify_off_failed_title">无法关闭始终通知</string>
+
+    <!-- Attachments -->
+    <string name="session_attachment_files_unsupported">服务器不支持文件</string>
+    <string name="session_attachment_upload_failed">无法上传</string>
+    <string name="session_attachment_file_fallback_name">文件</string>
+    <string name="session_attachment_image_too_large">请选择小于 20 MB 的图片。</string>
+    <string name="session_attachment_image_load_failed">无法加载这张图片。请换一张照片。</string>
+    <string name="session_attachment_file_add_failed">无法添加此文件。请换一个文件。</string>
+    <plurals name="session_attachment_files_add_failed">
+        <item quantity="other">%1$d 个文件无法添加。</item>
+    </plurals>
+    <string name="session_large_upload_title">上传 %1$s？</string>
+    <string name="session_large_upload_message_one">“%1$s”较大。上传到你的服务器后，消息才会发送。</string>
+    <plurals name="session_large_upload_message_many">
+        <item quantity="other">%1$d 个文件较大。上传到你的服务器后，消息才会发送。</item>
+    </plurals>
+
+    <!-- Header and screens -->
+    <string name="session_new_session_title">新建会话</string>
+    <string name="session_pasted_text_screen_title">粘贴的文本</string>
+    <string name="session_pasted_text_viewer_screen_title">粘贴文本查看器</string>
+    <string name="session_context_summary">已用 %1$d%%，共 %2$s</string>
+    <string name="session_context_accessibility_value">已用 %1$d%%，共 %2$s 个词元</string>
+
+    <!-- Starter prompts (shown, then sent as the person’s message) -->
+    <string name="session_starter_project_purpose">这个项目是做什么的？</string>
+    <string name="session_starter_code_tour">带我快速了解一下代码</string>
+    <string name="session_starter_recent_changes">最近有哪些改动？</string>
+
+    <!-- Shell output -->
+    <string name="session_shell_refresh_failed">无法刷新输出</string>
+    <string name="session_shell_load_earlier_failed">无法加载更早的输出</string>
+    <string name="session_shell_stop_failed">无法停止壳牌</string>
+    <string name="session_quote_remove_description">移除引用</string>
+    <string name="session_quote_comment_placeholder">添加评论（可选）…</string>
+    <string name="session_media_title">会话媒体</string>
+    <string name="session_media_filter_media">媒体</string>
+    <string name="session_media_filter_files">文件</string>
+    <string name="session_media_filter_links">链接</string>
+    <string name="session_media_layout_description">媒体布局</string>
+    <string name="session_media_layout_tiles">图块</string>
+    <string name="session_media_layout_list">列表</string>
+    <string name="session_media_origin_user">你发送的</string>
+    <string name="session_media_origin_agent">智能体分享的</string>
+    <string name="session_media_open_click_label">打开</string>
+    <string name="session_media_open_link_click_label">打开链接</string>
+    <string name="session_media_empty_media_title">暂无媒体</string>
+    <string name="session_media_empty_media_message">此会话中分享的图片、视频和音频会显示在这里。</string>
+    <string name="session_media_empty_files_title">暂无文件</string>
+    <string name="session_media_empty_files_message">此会话中的文档和粘贴的文本会显示在这里。</string>
+    <string name="session_media_empty_links_title">暂无链接</string>
+    <string name="session_media_empty_links_message">此会话中分享的网页链接会显示在这里。</string>
+    <string name="session_media_earlier_note">更早的消息尚未加载。</string>
+    <string name="session_media_load_earlier">加载更早的消息</string>
+    <string name="session_media_loading_earlier">加载中…</string>
+    <string name="session_media_earlier_failed">无法加载更早的消息。请检查网络连接后重试。</string>
+    <string name="session_media_earlier_nothing_new">刚加载的消息中没有新内容，更早的消息里可能还有。</string>
+</resources>
