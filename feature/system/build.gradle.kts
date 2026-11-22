@@ -9,6 +9,8 @@ android {
 // The graph is acyclic: media, voice, system < transcript, composer, settings < session < drawer <
 // app.
 dependencies {
+    // Save shared items into the runtime home's Downloads folder.
+    implementation(project(":runtime"))
     implementation(libs.glance.appwidget)
     implementation(libs.glance.material3)
     implementation(libs.androidx.work.runtime)

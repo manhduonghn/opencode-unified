@@ -20,7 +20,7 @@ not carried over).
 | Directory picker / write operations | `opencode-termux` `DirectoryPickerBottomSheet.java`, `FileManagerUtils.java` | `:feature:workspace` | wired | `WorkspaceFiles` implements safe names, protected paths, symlink-as-link copy/delete and ZIP create/extract with zip-slip checks. The browser exposes new file/folder, rename, copy/paste, delete and zip. A dedicated picker sheet remains optional. |
 | Storage permission / symlink setup | `opencode-termux` `StorageAccess.java`, `SettingsActivity.java` storage block | `:runtime` + `:feature:settings` | wired | `StorageAccess` and `TermuxInstaller.setupStorageSymlinks` exposed through `RuntimeStorage`; Settings opens system app details. No legacy storage flags or `root-path /`. |
 | Scoped file provider | `opencode-termux` `file_paths.xml` | `devtools/src/main/res/xml/devtools_file_paths.xml` | wired | The app's single `FileProvider` (authority `${applicationId}.devtools.files`) now also exposes `files-path home/` and `cache-path workspace-share/`; no `root-path`. |
-| Share target | `opencode-termux` `FileReceiverActivity.java`, `file_paths.xml` | `:feature:system/share` | replaced | Native `ShareActivity` already handles `ACTION_SEND`/`SEND_MULTIPLE`. Add “save to ~/Downloads” only if needed; never add a second exported receiver or a broad provider. |
+| Share target / save to Downloads | `opencode-termux` `FileReceiverActivity.java`, `file_paths.xml` | `:feature:system/share` + `:runtime` | wired | Native `ShareActivity` stays the only exported `ACTION_SEND`/`SEND_MULTIPLE` receiver. Added a “Save to Downloads” action that copies staged files, images and received text into `~/Downloads` through `RuntimeStorage.downloads()`, with sanitised unique names. No second receiver or broad provider. |
 | GitHub login / clone | `opencode-termux` `GitHubActivity.java` | `:feature:workspace` | wired | `gh` owns credentials: a pasted token is piped to `gh auth login --with-token` and never saved in app state. Clone uses argument arrays with `GIT_TERMINAL_PROMPT=0` and validates HTTPS GitHub URLs and home-relative destinations. No client id or scopes are embedded. |
 | Crash report UI | `opencode-termux` `ReportActivity` manifest entries | `:runtime` | wired | Declared so `TermuxCrashUtils` notifications can open the shared report screen. |
 | Backup exclusions | `opencode-termux` Termux home/prefix | `app/src/main/res/xml/data_extraction_rules.xml` | wired | Exclude `usr/`, `home/` (gh/ssh/opencode configs) and `Downloads/` from cloud backup and device transfer. |
@@ -49,4 +49,6 @@ not carried over).
   `home/` (including `.config/gh`, `.ssh` and `.opencode`) is excluded from backup.
 - Preserve the fork's file-manager safety invariants (protected paths, symlink handling, zip-slip
   checks) when reimplementing its behaviour in Compose.
-- Extend the native share sheet instead of adding a second exported `ACTION_SEND` activity.
+- Extend the native share sheet instead of adding a second exported `ACTION_SEND` activity. The
+  “Save to Downloads” action reuses `ShareActivity`'s staged copies and writes only into the runtime
+  home's `Downloads/` folder.

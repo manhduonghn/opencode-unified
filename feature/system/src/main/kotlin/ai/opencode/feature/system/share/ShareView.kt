@@ -158,6 +158,7 @@ class ShareActions(
     val onCancel: () -> Unit,
     val onSend: () -> Unit,
     val onSendLater: () -> Unit,
+    val onSaveToDownloads: () -> Unit,
     val onContinue: () -> Unit,
     val onDone: () -> Unit,
     val onDismissSaveError: () -> Unit,
@@ -311,15 +312,27 @@ private fun TopBar(state: ShareModel.State, actions: ShareActions) {
             style = OpenCodeTextStyles.headline,
             modifier = Modifier.align(Alignment.Center).semantics { heading() },
         )
-        if (state.targets != null) {
+        Row(
+            modifier = Modifier.align(Alignment.CenterEnd),
+            horizontalArrangement = Arrangement.End,
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
             OpenCodeIconButton(
-                symbol = SFSymbol.ArrowUpForwardApp,
-                contentDescription = stringResource(R.string.system_share_continue_description),
-                onClick = { if (!state.isBusy) actions.onContinue() },
-                modifier = Modifier.align(Alignment.CenterEnd),
+                symbol = SFSymbol.SquareAndArrowDown,
+                contentDescription = stringResource(R.string.oc_share_save_downloads_description),
+                onClick = actions.onSaveToDownloads,
                 style = OpenCodeIconButtonStyle.Standard,
-                enabled = state.canContinue || state.isBusy,
+                enabled = state.canSaveToDownloads,
             )
+            if (state.targets != null) {
+                OpenCodeIconButton(
+                    symbol = SFSymbol.ArrowUpForwardApp,
+                    contentDescription = stringResource(R.string.system_share_continue_description),
+                    onClick = { if (!state.isBusy) actions.onContinue() },
+                    style = OpenCodeIconButtonStyle.Standard,
+                    enabled = state.canContinue || state.isBusy,
+                )
+            }
         }
     }
 }

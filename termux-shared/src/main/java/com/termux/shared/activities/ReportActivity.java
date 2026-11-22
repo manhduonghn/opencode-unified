@@ -7,6 +7,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -203,9 +204,10 @@ public class ReportActivity extends AppCompatActivity {
         return true;
     }
 
+    // Removing the crash report from Recents is deliberate; super.onBackPressed() would leave it.
+    @SuppressLint("MissingSuperCall")
     @Override
     public void onBackPressed() {
-        // Remove activity from recents menu on back button press
         finishAndRemoveTask();
     }
 

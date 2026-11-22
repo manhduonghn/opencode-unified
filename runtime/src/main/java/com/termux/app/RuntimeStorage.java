@@ -29,6 +29,15 @@ public final class RuntimeStorage {
         return TermuxConstants.TERMUX_PREFIX_DIR;
     }
 
+    /** The runtime home's Downloads folder, where shared files are saved. Created on demand. */
+    public static File downloads() {
+        File directory = new File(TermuxConstants.TERMUX_HOME_DIR, "Downloads");
+        if (!directory.isDirectory() && !directory.mkdirs()) {
+            throw new IllegalStateException("Could not create " + directory.getAbsolutePath());
+        }
+        return directory;
+    }
+
     public static boolean hasPermission(Context context) {
         return StorageAccess.hasStoragePermission(context);
     }

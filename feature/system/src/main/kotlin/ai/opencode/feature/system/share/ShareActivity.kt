@@ -1,6 +1,7 @@
 package ai.opencode.feature.system.share
 
 import ai.opencode.feature.system.LeftToRight
+import ai.opencode.feature.system.R
 import ai.opencode.core.dependencies.dependency
 import ai.opencode.core.haptics.HapticsClient
 import ai.opencode.core.ui.OpenCodeAppTheme
@@ -8,6 +9,7 @@ import ai.opencode.feature.system.intents.SystemActionActivity
 import android.app.Application
 import android.content.Context
 import android.os.Bundle
+import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
@@ -86,6 +88,7 @@ class ShareActivity : ComponentActivity() {
                         onCancel = ::cancel,
                         onSend = ::send,
                         onSendLater = { if (!holder.completed && model.sendLater()) holder.finishShare() },
+                        onSaveToDownloads = ::saveToDownloads,
                         onContinue = ::continueInApp,
                         onDone = holder::finishShare,
                         onDismissSaveError = model::dismissSaveError,
@@ -146,6 +149,25 @@ class ShareActivity : ComponentActivity() {
             delay(ShareComposition.SendMotion.closeDelay)
             withTimeoutOrNull(720.milliseconds) { followUp.join() }
             holder.finishShare()
+        }
+    }
+
+    /**
+     * Copies the shared files, images and text into the runtime home's Downloads, matching the
+     * fork's share receiver without adding a second exported target. The sheet stays open so the
+     * same share can still be sent afterwards.
+     */
+    private fun saveToDownloads() {
+        val model = holder.model ?: return
+        if (holder.completed || !model.current.canSaveToDownloads) return
+        val context = applicationContext
+        holder.viewModelScope.launch {
+            val saved = withContext(Dispatchers.IO) { ShareDownloads.save(model.current) }
+            val message = if (saved > 0) R.string.oc_share_saved_downloads
+            else R.string.oc_share_save_downloads_failed
+            withContext(Dispatchers.Main) {
+                Toast.makeText(context, message, Toast.LENGTH_SHORT).show()
+            }
         }
     }
 

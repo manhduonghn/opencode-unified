@@ -77,6 +77,11 @@ class ShareModel(
 
         val canContinue: Boolean get() = !isLoading && destination != null && hasStore && !isBusy && !isSaved
 
+        /** Shared files, images or text can be copied into the runtime home's Downloads. */
+        val canSaveToDownloads: Boolean get() =
+            !isLoading && !isBusy && !isSaved &&
+                (images.isNotEmpty() || files.isNotEmpty() || sharedText.isNotEmpty())
+
         /** Chips: New Session, then pinned and recent sessions. */
         val sessions: List<ShareTargets.Session> get() = targets?.sessions ?: emptyList()
         val projects: List<ShareTargets.Project> get() = targets?.newSessionProjects ?: emptyList()
