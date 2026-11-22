@@ -2108,6 +2108,9 @@ public final class OpenCodeBootstrap {
             report.append(readTextFileQuietly(new File(DIAGNOSTICS_PATH)));
 
             writeTextFileQuietly(new File(ERROR_DETAIL_PATH), report.toString());
+            // A failed install blocks pairing. Export the full detail so it can be diagnosed even
+            // when the app never reaches a screen that exposes ~/.opencode/last-error.txt.
+            DownloadsCrashHandler.export(context, "opencode-bootstrap-error", report.toString());
 
             notifyFinished("OpenCode: installation failed", tail(message, MAX_DETAIL_CHARS), true);
 

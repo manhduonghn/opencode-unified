@@ -61,9 +61,17 @@ public final class DownloadsCrashHandler implements Thread.UncaughtExceptionHand
     }
 
     private void writeReport(Thread thread, Throwable throwable) {
+        export(context, "opencode-crash", buildReport(thread, throwable));
+    }
+
+    /**
+     * Leaves a readable copy of a diagnostic report in both Downloads locations. Also used for
+     * bootstrap failures, which otherwise only write into the app-private `~/.opencode` folder.
+     */
+    public static void export(Context context, String prefix, String content) {
         String timestamp = new SimpleDateFormat("yyyyMMdd-HHmmss", Locale.US).format(new Date());
-        String fileName = "opencode-crash-" + timestamp + ".txt";
-        byte[] report = buildReport(thread, throwable).getBytes(StandardCharsets.UTF_8);
+        String fileName = prefix + "-" + timestamp + ".txt";
+        byte[] report = content.getBytes(StandardCharsets.UTF_8);
 
         // Runtime home: visible in the app's workspace browser and through its FileProvider.
         try {
