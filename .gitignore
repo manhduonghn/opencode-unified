@@ -6,6 +6,8 @@ build/
 captures/
 *.apk
 *.aab
+# Downloaded by :runtime's downloadBootstraps task (embedded via `.incbin`).
+runtime/src/main/cpp/bootstrap-*.zip
 *.ap_
 *.dex
 # Local config and secrets
