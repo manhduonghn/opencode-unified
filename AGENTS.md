@@ -37,6 +37,10 @@ activity so the Java runtime does not need to depend on the Kotlin shell.
   `values/strings*.xml`; the translation checker scans that pattern.
 - Keep `minSdk 33`, `compileSdk 37`, JDK 17, NDK `29.0.14206865` in sync between
   `build-logic/src/main/kotlin/OpenCodePlugins.kt` and `.github/workflows/ci.yml`.
+- Never call Guava's `com.google.common.io.MoreFiles` / `RecursiveDeleteOption` from shared code.
+  Gradle resolves Guava's **Android** variant on the app runtime classpath; that jar omits those
+  JRE-only classes even though javac accepts them from the `-jre` variant. Use the plain-Java
+  symlink-safe helpers in `termux-shared` `FileUtils` instead.
 - The native client's logging rules still apply: log counts/statuses/timings through `AppLog`,
   never tokens, pairing codes, server addresses, prompts or file contents.
 

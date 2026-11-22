@@ -2,11 +2,11 @@ package com.termux.shared.file;
 
 import android.os.Build;
 import android.system.Os;
+import android.system.OsConstants;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.google.common.io.RecursiveDeleteOption;
 import com.termux.shared.file.filesystem.FileType;
 import com.termux.shared.file.filesystem.FileTypes;
 import com.termux.shared.data.DataUtils;
@@ -1280,6 +1280,49 @@ public class FileUtils {
      *                             {@link FileTypes#FILE_TYPE_ANY_FLAGS} to allow deletion of any file type.
      * @return Returns the {@code error} if deletion was not successful, otherwise {@code null}.
      */
+    /**
+     * Deletes a file, directory tree or symlink without following symlinks.
+     *
+     * <p>Replaces Guava's {@code MoreFiles.deleteRecursively(..., ALLOW_INSECURE)}: Gradle resolves
+     * the Android variant of Guava for the app's runtime classpath, and that variant does not ship
+     * {@code com.google.common.io.MoreFiles} or {@code RecursiveDeleteOption}. Calling them crashed
+     * bootstrap cleanup on a real device. Plain Java keeps this safety-critical path independent of
+     * whichever Guava variant wins resolution.</p>
+     */
+    private static void deleteRecursively(File file) throws IOException {
+        if (isSymbolicLink(file)) {
+            if (!file.delete() && file.exists())
+                throw new IOException("Failed to delete symlink at path \"" + file.getAbsolutePath() + "\"");
+            return;
+        }
+
+        if (file.isDirectory()) {
+            File[] children = file.listFiles();
+            if (children != null) {
+                for (File child : children) deleteRecursively(child);
+            }
+        }
+
+        if (!file.delete() && file.exists())
+            throw new IOException("Failed to delete file at path \"" + file.getAbsolutePath() + "\"");
+    }
+
+    /** Deletes the children of a directory, leaving the directory itself in place. */
+    private static void clearDirectoryContents(File directory) throws IOException {
+        File[] children = directory.listFiles();
+        if (children == null) return;
+        for (File child : children) deleteRecursively(child);
+    }
+
+    /** Uses lstat so a symlink to a directory is deleted as a link, never traversed. */
+    private static boolean isSymbolicLink(File file) {
+        try {
+            return (Os.lstat(file.getAbsolutePath()).st_mode & OsConstants.S_IFMT) == OsConstants.S_IFLNK;
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
     public static Error deleteFile(String label, final String filePath, final boolean ignoreNonExistentFile, final boolean ignoreWrongFileType, int allowedFileTypeFlags) {
         label = (label == null || label.isEmpty() ? "" : label + " ");
         if (filePath == null || filePath.isEmpty()) return FunctionErrno.ERRNO_NULL_OR_EMPTY_PARAMETER.getError(label + "file path", "deleteFile");
@@ -1316,37 +1359,9 @@ public class FileUtils {
 
             Logger.logVerbose(LOG_TAG, "Deleting " + label + "file at path \"" + filePath + "\"");
 
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                /*
-                 * Try to use {@link SecureDirectoryStream} if available for safer directory
-                 * deletion, it should be available for android >= 8.0
-                 * https://guava.dev/releases/24.1-jre/api/docs/com/google/common/io/MoreFiles.html#deleteRecursively-java.nio.file.Path-com.google.common.io.RecursiveDeleteOption...-
-                 * https://github.com/google/guava/issues/365
-                 * https://cs.android.com/android/platform/superproject/+/android-11.0.0_r3:libcore/ojluni/src/main/java/sun/nio/fs/UnixSecureDirectoryStream.java
-                 *
-                 * MoreUtils is marked with the @Beta annotation so the API may be removed in
-                 * future but has been there for a few years now.
-                 *
-                 * If an exception is thrown, the exception message might not contain the full errors.
-                 * Individual failures get added to suppressed throwables which can be extracted
-                 * from the exception object by calling `Throwable[] getSuppressed()`. So just logging
-                 * the exception message and stacktrace may not be enough, the suppressed throwables
-                 * need to be logged as well, which the Logger class does if they are found in the
-                 * exception added to the Error that's returned by this function.
-                 * https://github.com/google/guava/blob/v30.1.1/guava/src/com/google/common/io/MoreFiles.java#L775
-                 */
-                //noinspection UnstableApiUsage
-                com.google.common.io.MoreFiles.deleteRecursively(file.toPath(), RecursiveDeleteOption.ALLOW_INSECURE);
-            } else {
-                if (fileType == FileType.DIRECTORY) {
-                    // deleteDirectory() instead of forceDelete() gets the files list first instead of walking directory tree, so seems safer
-                    // Will give runtime exceptions on android < 8 due to missing classes like java.nio.file.Path if org.apache.commons.io version > 2.5
-                    org.apache.commons.io.FileUtils.deleteDirectory(file);
-                } else {
-                    // Will give runtime exceptions on android < 8 due to missing classes like java.nio.file.Path if org.apache.commons.io version > 2.5
-                    org.apache.commons.io.FileUtils.forceDelete(file);
-                }
-            }
+            // Plain-Java recursive delete keeps symlink-safe cleanup independent of Guava's
+            // Android variant, which does not include MoreFiles/RecursiveDeleteOption.
+            deleteRecursively(file);
 
             // If file still exists after deleting it
             fileType = getFileType(filePath, false);
@@ -1406,15 +1421,8 @@ public class FileUtils {
 
             // If directory exists, clear its contents
             if (fileType == FileType.DIRECTORY) {
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                    /* If an exception is thrown, the exception message might not contain the full errors.
-                     * Individual failures get added to suppressed throwables. */
-                    //noinspection UnstableApiUsage
-                    com.google.common.io.MoreFiles.deleteDirectoryContents(file.toPath(), RecursiveDeleteOption.ALLOW_INSECURE);
-                } else {
-                    // Will give runtime exceptions on android < 8 due to missing classes like java.nio.file.Path if org.apache.commons.io version > 2.5
-                    org.apache.commons.io.FileUtils.cleanDirectory(new File(filePath));
-                }
+                // Same as Guava's deleteDirectoryContents, without the missing Guava class.
+                clearDirectoryContents(file);
             }
             // Else create it
             else {
