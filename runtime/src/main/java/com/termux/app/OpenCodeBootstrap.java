@@ -2111,6 +2111,13 @@ public final class OpenCodeBootstrap {
             report.append(tail(readTextFileQuietly(new File(SETUP_LOG_PATH)), FAILURE_LOG_LINES));
             report.append("\nDiagnostics (").append(DIAGNOSTICS_PATH).append("):\n");
             report.append(readTextFileQuietly(new File(DIAGNOSTICS_PATH)));
+            // apt/bash/dpkg failures are only visible in the process output. Keep the last one:
+            // mirror retries alone cannot tell a network failure from W^X/permission errors.
+            String output = lastOutput == null ? "" : lastOutput.trim();
+            if (!output.isEmpty()) {
+                report.append("\nLast command output:\n");
+                report.append(tail(output, FAILURE_LOG_LINES));
+            }
 
             writeTextFileQuietly(new File(ERROR_DETAIL_PATH), report.toString());
             // A failed install blocks pairing. Export the full detail so it can be diagnosed even

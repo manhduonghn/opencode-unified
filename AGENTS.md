@@ -37,6 +37,9 @@ activity so the Java runtime does not need to depend on the Kotlin shell.
   `values/strings*.xml`; the translation checker scans that pattern.
 - Keep `minSdk 33`, `compileSdk 37`, JDK 17, NDK `29.0.14206865` in sync between
   `build-logic/src/main/kotlin/OpenCodePlugins.kt` and `.github/workflows/ci.yml`.
+- **Never raise `TARGET_SDK` above 28.** Android 10's W^X rule blocks `execve` of files under
+  `/data/data/com.termux/files` for apps targeting API 29+, so apt/bash/dpkg and every glibc
+  launcher fail instantly and bootstrap can never finish. The fork targets 28 for this reason.
 - Never call Guava's `com.google.common.io.MoreFiles` / `RecursiveDeleteOption` from shared code.
   Gradle resolves Guava's **Android** variant on the app runtime classpath; that jar omits those
   JRE-only classes even though javac accepts them from the `-jre` variant. Use the plain-Java

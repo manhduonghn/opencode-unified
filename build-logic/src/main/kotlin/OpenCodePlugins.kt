@@ -16,7 +16,13 @@ object OpenCodeBuild {
     const val COMPILE_SDK = 37
     const val COMPILE_SDK_MINOR = 1
     const val MIN_SDK = 33
-    const val TARGET_SDK = 37
+    /**
+     * Must stay <= 28: Android 10's W^X rule denies `execve` of files in an app's data directory
+     * to apps targeting API 29+, which makes every Termux `$PREFIX/bin/*` command (apt, bash,
+     * dpkg, the glibc loader) fail instantly. The fork also targets 28 for this reason.
+     * `compileSdk` remains 37, so all APIs are still available at build time.
+     */
+    const val TARGET_SDK = 28
 }
 
 private fun Project.catalog() = extensions.getByType<VersionCatalogsExtension>().named("libs")
