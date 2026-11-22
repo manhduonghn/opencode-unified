@@ -4,6 +4,7 @@ import ai.opencode.core.log.AppLog
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
+import com.termux.app.DownloadsCrashHandler
 import com.termux.app.OpenCodeBootstrap
 import com.termux.app.OpenCodeForegroundService
 import com.termux.app.TermuxInstaller
@@ -33,6 +34,9 @@ object UnifiedRuntime {
      * setup are installed here.
      */
     fun install(context: Context) {
+        // Install first so the Termux crash handler chains to it: a launch crash leaves a readable
+        // report in Downloads even when the app never reaches its own UI.
+        DownloadsCrashHandler.install(context)
         runCatching {
             TermuxCrashUtils.setDefaultCrashHandler(context)
 

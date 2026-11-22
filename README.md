@@ -46,6 +46,14 @@ the local `opencode` process. Terminal, workspace (files, editor, GitHub), share
 runtime settings surfaces are all present. See `docs/PARITY.md` for the full parity matrix and the
 intentional non-goals/drops (WebView shell, `sharedUserId`, broad storage permissions).
 
+### Crash reports
+
+An uncaught exception writes `opencode-crash-<timestamp>.txt` to **public `Download/`** (via
+`MediaStore`, no storage permission needed) and to the runtime home's `Downloads/` (visible in the
+app's file browser). The fork's private `~/crash_log.md` still works too. If the app fails on
+launch, attach the newest `opencode-crash-*.txt` from `Download/` to a bug report — the report
+contains the device, app version, thread and full stack trace.
+
 ## Licensing
 
 See [ATTRIBUTION.md](ATTRIBUTION.md) before publishing a build. The Termux-derived portions are
