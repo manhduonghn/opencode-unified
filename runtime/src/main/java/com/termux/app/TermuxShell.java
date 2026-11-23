@@ -42,9 +42,15 @@ final class TermuxShell {
      * Preferred for git/gh invocations.
      */
     static String runArgs(Context context, String[] args, long timeoutMs, StreamListener listener) {
+        return runArgsInDirectory(context, null, args, timeoutMs, listener);
+    }
+
+    /** Same as {@link #runArgs}, but with an explicit working directory (e.g. a clone target). */
+    static String runArgsInDirectory(Context context, File workingDirectory, String[] args,
+                                     long timeoutMs, StreamListener listener) {
         try {
             ProcessBuilder builder = new ProcessBuilder(args);
-            return start(builder, context, null, timeoutMs, listener);
+            return start(builder, context, workingDirectory, null, timeoutMs, listener);
         } catch (Exception ex) {
             return ex.toString();
         }
@@ -63,8 +69,15 @@ final class TermuxShell {
 
     private static String start(ProcessBuilder builder, Context context, String input,
                                 long timeoutMs, StreamListener listener) throws Exception {
+        return start(builder, context, null, input, timeoutMs, listener);
+    }
+
+    private static String start(ProcessBuilder builder, Context context, File workingDirectory,
+                                String input, long timeoutMs, StreamListener listener) throws Exception {
         applyEnvironment(context, builder);
-        builder.directory(new File(TermuxConstants.TERMUX_HOME_DIR_PATH));
+        builder.directory(workingDirectory != null && workingDirectory.isDirectory()
+            ? workingDirectory
+            : new File(TermuxConstants.TERMUX_HOME_DIR_PATH));
         builder.redirectErrorStream(true);
 
         final Process process = builder.start();

@@ -97,6 +97,16 @@ object WorkspaceFiles {
         copyTree(source, destination)
     }
 
+    /** Renames when possible, otherwise copies then removes the source. */
+    fun move(source: File, destination: File): Result<Unit> = runCatching {
+        if (!isSafeToModify(source)) throw IOException("Protected source")
+        if (!isSafeToModify(destination)) throw IOException("Protected destination")
+        if (!source.renameTo(destination)) {
+            copyTree(source, destination)
+            if (!deleteTree(source)) throw IOException("Could not remove source")
+        }
+    }
+
     private fun copyTree(source: File, target: File) {
         if (Files.isSymbolicLink(source.toPath())) {
             Files.createSymbolicLink(target.toPath(), Files.readSymbolicLink(source.toPath()))

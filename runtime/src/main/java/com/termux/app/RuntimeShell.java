@@ -31,6 +31,17 @@ public final class RuntimeShell {
             listener == null ? null : listener::onLine);
     }
 
+    /**
+     * Runs a command from an explicit directory. Used by `git clone` so the repository is created
+     * inside the folder the file browser had open. The directory must be a real directory; an
+     * invalid one falls back to the Termux home in [TermuxShell].
+     */
+    public static String runInDirectory(Context context, File workingDirectory, String[] args,
+                                        long timeoutMs, LineListener listener) {
+        return TermuxShell.runArgsInDirectory(context, workingDirectory, args, timeoutMs,
+            listener == null ? null : listener::onLine);
+    }
+
     /** Feeds a token to stdin without persisting it in app preferences. */
     public static String runWithInput(Context context, String input, String[] args, long timeoutMs,
                                       LineListener listener) {

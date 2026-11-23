@@ -49,7 +49,7 @@ import java.util.regex.Pattern;
  * ships <b>bionic</b>. The binary therefore has to be patched before it can be executed:</p>
  *
  * <pre>
- *   pkg install glibc-repo glibc-runner tar
+ *   pkg install glibc-repo glibc-runner tar termux-am ripgrep git gh
  *     -&gt; download the official npm tarball @opencode/cli-linux-&lt;arch&gt;
  *     -&gt; tar -xzf package/bin/opencode
  *     -&gt; point PT_INTERP at $PREFIX/glibc/lib/ld-linux-*.so.*   (interpreter ONLY)
@@ -150,6 +150,10 @@ public final class OpenCodeBootstrap {
     public static final String OC_PATCH_PATH = PREFIX + "/bin/oc-patch";
     /** Termux package manager front end, preferred over raw {@code apt-get} for installs. */
     public static final String PKG_PATH = PREFIX + "/bin/pkg";
+    /** Git, used by the GitHub screen to clone repositories. */
+    public static final String GIT_PATH = PREFIX + "/bin/git";
+    /** GitHub CLI, used by the GitHub screen for login and repository listing. */
+    public static final String GH_PATH = PREFIX + "/bin/gh";
     /** Installer script of older versions, removed on sight. */
     public static final String LEGACY_SETUP_SCRIPT_PATH = OC_HOME + "/setup.sh";
     /** Directory holding the second stage script of the Termux bootstrap. */
@@ -234,6 +238,8 @@ public final class OpenCodeBootstrap {
     private static boolean sMaintenanceRunning = false;
     /** Serializes the (rare) installation of ripgrep so that apt never runs twice for it. */
     private static final Object sRipgrepLock = new Object();
+    /** Serializes the installation of git/gh so that apt never runs twice for them. */
+    private static final Object sGitHubToolsLock = new Object();
     /** The listeners that want to know about the progress of the installation. */
     private static final List<InstallListener> sListeners = new CopyOnWriteArrayList<>();
     /** The callbacks that are waiting for the installation to finish. */
@@ -604,7 +610,8 @@ public final class OpenCodeBootstrap {
             // 'termux-am' is needed by the 'oc-install' launcher, it asks the app to install
             // or update the runtime.
             setStage(OpenCodeInstallState.STAGE_APT_INSTALL, "Installing the helper packages...");
-            if (!installPackages(Arrays.asList("glibc-runner", "tar", "termux-am", "ripgrep")))
+            if (!installPackages(Arrays.asList(
+                    "glibc-runner", "tar", "termux-am", "ripgrep", "git", "gh")))
                 Logger.logWarn(LOG_TAG, "Some of the helper packages could not be installed, continuing anyway.");
 
             // The ELF patcher ships inside the APK, it does not need any apt package. Publish
@@ -660,6 +667,7 @@ public final class OpenCodeBootstrap {
             installOcPatch();
             repairInterpreterIfNeeded(context);
             installRipgrep();
+            ensureGitHubTools();
             String loader = findGlibcLoader();
             if (loader != null) ensurePtyHelper(loader);
         }
@@ -780,6 +788,29 @@ public final class OpenCodeBootstrap {
                 if (installPackages(Arrays.asList("ripgrep"))) return true;
 
                 Logger.logWarn(LOG_TAG, "Could not install ripgrep, the glob and grep tools may fail.");
+                return false;
+            }
+        }
+
+        /**
+         * Repair git/gh for installs that predate the GitHub screen. Fresh installs get both in
+         * {@link #doInstall()}, this only handles an app update over an existing environment.
+         *
+         * @return true when this call installed one of them.
+         */
+        private boolean ensureGitHubTools() {
+            synchronized (sGitHubToolsLock) {
+                if (isExecutable(new File(GIT_PATH)) && isExecutable(new File(GH_PATH)))
+                    return false;
+
+                List<String> missing = new ArrayList<>();
+                if (!isExecutable(new File(GIT_PATH))) missing.add("git");
+                if (!isExecutable(new File(GH_PATH))) missing.add("gh");
+
+                status("Installing git and gh for the GitHub screen...");
+                if (installPackages(missing)) return true;
+
+                Logger.logWarn(LOG_TAG, "Could not install git/gh, the GitHub screen will offer a retry.");
                 return false;
             }
         }

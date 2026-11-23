@@ -12,6 +12,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.core.content.FileProvider
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.IconButton
@@ -70,6 +71,7 @@ fun WorkspaceScreen(initialPath: String?, modifier: Modifier = Modifier) {
     var nameAction by remember { mutableStateOf<NameAction?>(null) }
     var nameText by remember { mutableStateOf("") }
     var copied by remember { mutableStateOf<File?>(null) }
+    var cutMode by remember { mutableStateOf(false) }
 
     LaunchedEffect(path, query, showHidden, refresh) {
         val listing = withContext(Dispatchers.IO) { listWorkspace(File(path), showHidden, query) }
@@ -107,6 +109,12 @@ fun WorkspaceScreen(initialPath: String?, modifier: Modifier = Modifier) {
                     IconButton(onClick = { showHidden = !showHidden }) {
                         Text(if (showHidden) "◉" else "○")
                     }
+                    TextButton(onClick = {
+                        context.startActivity(
+                            Intent(context, GitHubActivity::class.java)
+                                .putExtra(GitHubActivity.EXTRA_TARGET_DIRECTORY, path),
+                        )
+                    }) { Text(stringResource(R.string.oc_workspace_github_title)) }
                 },
             )
         },
@@ -136,9 +144,15 @@ fun WorkspaceScreen(initialPath: String?, modifier: Modifier = Modifier) {
                 }) { Text(stringResource(R.string.oc_workspace_new_folder)) }
                 TextButton(onClick = {
                     val source = copied ?: return@TextButton
+                    val moving = cutMode
                     scope.launch(Dispatchers.IO) {
-                        val result = WorkspaceFiles.copy(source, WorkspaceFiles.uniqueTarget(File(path), source.name))
-                        withContext(Dispatchers.Main) { finish(result) }
+                        val target = WorkspaceFiles.uniqueTarget(File(path), source.name)
+                        val result = if (moving) WorkspaceFiles.move(source, target)
+                        else WorkspaceFiles.copy(source, target)
+                        withContext(Dispatchers.Main) {
+                            finish(result)
+                            if (moving && result.isSuccess) copied = null
+                        }
                     }
                 }) { Text(stringResource(R.string.oc_workspace_paste)) }
                 TextButton(onClick = {
@@ -213,8 +227,40 @@ fun WorkspaceScreen(initialPath: String?, modifier: Modifier = Modifier) {
                         }) { Text(stringResource(R.string.oc_workspace_rename)) }
                         TextButton(onClick = {
                             copied = entry.file
+                            cutMode = false
                             selected = null
                         }) { Text(stringResource(R.string.oc_workspace_copy)) }
+                        TextButton(onClick = {
+                            copied = entry.file
+                            cutMode = true
+                            selected = null
+                        }) { Text(stringResource(R.string.oc_workspace_cut)) }
+                        if (!entry.isDirectory && !entry.isLink) {
+                            TextButton(onClick = {
+                                scope.launch(Dispatchers.IO) {
+                                    val downloads = RuntimeStorage.downloads()
+                                    val result = WorkspaceFiles.copy(
+                                        entry.file,
+                                        WorkspaceFiles.uniqueTarget(downloads, entry.file.name),
+                                    )
+                                    withContext(Dispatchers.Main) { finish(result) }
+                                }
+                                selected = null
+                            }) { Text(stringResource(R.string.oc_workspace_save_downloads)) }
+                            TextButton(onClick = {
+                                shareEntry(context, entry.file)
+                                selected = null
+                            }) { Text(stringResource(R.string.oc_workspace_share)) }
+                            if (entry.name.endsWith(".zip", ignoreCase = true)) {
+                                TextButton(onClick = {
+                                    scope.launch(Dispatchers.IO) {
+                                        val result = WorkspaceFiles.extractZip(entry.file, File(path))
+                                        withContext(Dispatchers.Main) { finish(result) }
+                                    }
+                                    selected = null
+                                }) { Text(stringResource(R.string.oc_workspace_extract)) }
+                            }
+                        }
                         TextButton(onClick = {
                             scope.launch(Dispatchers.IO) {
                                 val deleted = WorkspaceFiles.delete(entry.file)
@@ -318,6 +364,39 @@ fun WorkspaceScreen(initialPath: String?, modifier: Modifier = Modifier) {
                     Text(stringResource(R.string.oc_workspace_cancel))
                 }
             },
+        )
+    }
+}
+
+/**
+ * Shares a file through the app's single existing FileProvider. Files outside `files/home` (for
+ * example a shared-storage document) are staged in the provider's `cache/workspace-share` root
+ * first, so no second provider or root-path rule is needed.
+ */
+private fun shareEntry(context: Context, file: File) {
+    val insideHome = runCatching {
+        file.canonicalFile.startsWith(context.filesDir.canonicalFile)
+    }.getOrDefault(false)
+    val target = if (insideHome) file else runCatching {
+        val stageRoot = File(context.cacheDir, "workspace-share")
+        stageRoot.mkdirs()
+        val staged = WorkspaceFiles.uniqueTarget(stageRoot, file.name)
+        if (WorkspaceFiles.copy(file, staged).isSuccess) staged else null
+    }.getOrNull() ?: return
+
+    runCatching {
+        val uri = FileProvider.getUriForFile(
+            context,
+            "${context.packageName}.devtools.files",
+            target,
+        )
+        val intent = Intent(Intent.ACTION_SEND).apply {
+            type = "*/*"
+            putExtra(Intent.EXTRA_STREAM, uri)
+            addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+        }
+        context.startActivity(
+            Intent.createChooser(intent, context.getString(R.string.oc_workspace_share)),
         )
     }
 }
