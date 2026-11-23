@@ -9,7 +9,9 @@ RUN="${1:-}"
 H=(-H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json")
 
 if [[ -z "$RUN" ]]; then
-  RUNS=$(curl -sS "${H[@]}" "https://api.github.com/repos/$REPO/actions/runs?per_page=1")
+  # Filter by workflow: /actions/runs also returns release/dev-latest runs, which are not the
+  # build this script is meant to report on.
+  RUNS=$(curl -sS "${H[@]}" "https://api.github.com/repos/$REPO/actions/workflows/ci.yml/runs?per_page=1")
   RUN=$(printf '%s' "$RUNS" | grep '"id"' | sed -n '1p' | tr -dc '0-9')
 fi
 
