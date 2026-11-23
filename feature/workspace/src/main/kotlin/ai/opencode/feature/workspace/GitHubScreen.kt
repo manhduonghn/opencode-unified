@@ -47,6 +47,7 @@ import java.io.InputStreamReader
 import java.net.HttpURLConnection
 import java.net.URL
 import java.net.URLEncoder
+import java.util.Locale
 
 /** OAuth client used by the fork's device-code flow. It is public, not a secret. */
 private const val CLIENT_ID = "178c6fc778ccc68e1d6a"
@@ -112,6 +113,23 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
 
     val cloneDirectory = remember(targetDirectory) { cloneDirectory(targetDirectory) }
     val notInstalledText = stringResource(R.string.oc_workspace_github_not_installed)
+    // Resolve strings in composition so a configuration change cannot leave a stale Context.
+    val sFetchingCode = stringResource(R.string.oc_workspace_github_fetching_code)
+    val sInstallingBeforeLogin = stringResource(R.string.oc_workspace_github_installing_before_login)
+    val sToolInstallFailed = stringResource(R.string.oc_workspace_github_tool_install_failed)
+    val sEnterCode = stringResource(R.string.oc_workspace_github_enter_code)
+    val sCodeHint = stringResource(R.string.oc_workspace_github_code_hint)
+    val sLoginNotRecorded = stringResource(R.string.oc_workspace_github_login_not_recorded)
+    val sLoginFailed = stringResource(R.string.oc_workspace_github_login_failed)
+    val sInvalidRepo = stringResource(R.string.oc_workspace_github_invalid_repo)
+    val sInvalidDestination = stringResource(R.string.oc_workspace_github_invalid_destination)
+    val sCloning = stringResource(R.string.oc_workspace_github_cloning)
+    val sCloneDone = stringResource(R.string.oc_workspace_github_clone_done)
+    val sCloneFailed = stringResource(R.string.oc_workspace_github_clone_failed)
+    val sReposError = stringResource(R.string.oc_workspace_github_repos_error)
+
+    fun format(template: String, value: Any): String =
+        String.format(Locale.getDefault(), template, value)
 
     fun report(line: String) {
         // Shell output arrives on a reader thread; marshal state writes back to Main.
@@ -164,7 +182,7 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
                         ?.trim()
                         ?.take(200)
                         .takeUnless { it.isNullOrEmpty() }
-                        ?: context.getString(R.string.oc_workspace_github_repos_error, "")
+                        ?: format(sReposError, "")
                 }
             }
         }
@@ -193,12 +211,12 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
                 busy = true
                 error = null
                 output = ""
-                status = context.getString(R.string.oc_workspace_github_fetching_code)
+                status = sFetchingCode
             }
             try {
                 if (!RuntimeShell.hasExecutable("gh") || !RuntimeShell.hasExecutable("git")) {
                     withContext(Dispatchers.Main) {
-                        status = context.getString(R.string.oc_workspace_github_installing_before_login)
+                        status = sInstallingBeforeLogin
                     }
                     RuntimeShell.run(
                         context,
@@ -206,9 +224,7 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
                         900_000,
                     ) { line -> report(line) }
                     if (!RuntimeShell.hasExecutable("gh") || !RuntimeShell.hasExecutable("git")) {
-                        throw IllegalStateException(
-                            context.getString(R.string.oc_workspace_github_tool_install_failed),
-                        )
+                        throw IllegalStateException(sToolInstallFailed)
                     }
                 }
 
@@ -216,14 +232,9 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
                 withContext(Dispatchers.Main) {
                     userCode = device.userCode
                     verificationUri = device.verificationUri
-                    codeHint = context.getString(
-                        R.string.oc_workspace_github_code_hint,
-                        maxOf(1L, device.expiresIn / 60L).toString(),
-                    )
-                    status = context.getString(
-                        R.string.oc_workspace_github_enter_code,
-                        device.userCode,
-                    )
+                    codeHint = format(sCodeHint, maxOf(1L, device.expiresIn / 60L).toString())
+                    // The code itself is rendered from `userCode` in composition below.
+                    status = format(sEnterCode, device.userCode)
                     copyText(context, device.userCode)
                     openExternal(context, device.verificationUri)
                 }
@@ -253,16 +264,13 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
                         codeHint = ""
                         loadRepos()
                     } else {
-                        error = context.getString(R.string.oc_workspace_github_login_not_recorded)
+                        error = sLoginNotRecorded
                     }
                 }
             } catch (ex: Exception) {
                 withContext(Dispatchers.Main) {
                     busy = false
-                    error = context.getString(
-                        R.string.oc_workspace_github_login_failed,
-                        ex.message ?: ex.toString(),
-                    )
+                    error = format(sLoginFailed, ex.message ?: ex.toString())
                 }
             }
         }
@@ -289,11 +297,11 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
     fun clone(value: String, label: String? = null) {
         val url = normalizeCloneUrl(value)
         if (url.isEmpty()) {
-            error = context.getString(R.string.oc_workspace_github_invalid_repo)
+            error = sInvalidRepo
             return
         }
         if (!cloneDirectory.isDirectory || !cloneDirectory.canWrite()) {
-            error = context.getString(R.string.oc_workspace_github_invalid_destination)
+            error = sInvalidDestination
             return
         }
         scope.launch(Dispatchers.IO) {
@@ -301,10 +309,7 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
                 busy = true
                 error = null
                 output = ""
-                status = context.getString(
-                    R.string.oc_workspace_github_cloning,
-                    label ?: url,
-                )
+                status = format(sCloning, label ?: url)
             }
             val result = RuntimeShell.runInDirectory(
                 context,
@@ -321,9 +326,9 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
                 busy = false
                 if (ok) {
                     repo = ""
-                    output += context.getString(R.string.oc_workspace_github_clone_done) + "\n"
+                    output += sCloneDone + "\n"
                 } else {
-                    error = context.getString(R.string.oc_workspace_github_clone_failed)
+                    error = sCloneFailed
                 }
             }
         }
