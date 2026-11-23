@@ -1,6 +1,7 @@
 package ai.opencode.feature.terminal
 
 import android.content.Context
+import android.util.TypedValue
 import android.view.ViewGroup
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
@@ -35,7 +36,14 @@ private fun createTerminalView(context: Context): TerminalView {
     val client = TerminalClients(context)
     val session = TerminalSession(shell, home, arrayOf("-l"), env, 500, client)
 
+    // The old Termux Activity set this from preferences before attaching a session. Compose hosts
+    // the view directly, so without this the first layout reaches updateSize() with a null renderer.
+    val textSize = TypedValue.applyDimension(
+        TypedValue.COMPLEX_UNIT_DIP, 12f, context.resources.displayMetrics,
+    ).toInt()
+
     return TerminalView(context, null).apply {
+        setTextSize(textSize)
         layoutParams = ViewGroup.LayoutParams(
             ViewGroup.LayoutParams.MATCH_PARENT,
             ViewGroup.LayoutParams.MATCH_PARENT,
