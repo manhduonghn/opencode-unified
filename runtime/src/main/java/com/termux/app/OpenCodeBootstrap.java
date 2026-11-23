@@ -34,6 +34,7 @@ import java.net.URL;
 import java.security.MessageDigest;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
@@ -342,6 +343,32 @@ public final class OpenCodeBootstrap {
             Logger.logInfo(LOG_TAG, "The OpenCode runtime is incomplete: " + TextUtils.join(", ", problems));
             setupIfNeeded(activity, null);
         }
+    }
+
+    /**
+     * Make sure git and gh are present, without touching the rest of the runtime. Used by the
+     * GitHub screen so a skipped or failed install during setup is repaired on the next visit.
+     * The callback always runs on the UI thread.
+     */
+    public static void ensureGitHubTools(final Context context, final Runnable onDone) {
+        final Context app = context == null ? null : context.getApplicationContext();
+        new Thread(() -> {
+            try {
+                ensureGitHubToolsBlocking(app);
+            } catch (Exception e) {
+                Logger.logStackTraceWithMessage(LOG_TAG, "Could not ensure git/gh", e);
+            } finally {
+                if (onDone != null) runOnUiThread(app, onDone);
+            }
+        }, "opencode-github-tools").start();
+    }
+
+    /** Blocking variant for callers already on a background thread (e.g. the GitHub login). */
+    public static void ensureGitHubToolsBlocking(Context context) {
+        if (context == null || !isTermuxBootstrapReady()) return;
+        Installer installer = new Installer(context.getApplicationContext(), false);
+        installer.logOnly = true;
+        installer.ensureGitHubTools();
     }
 
     /**
@@ -807,11 +834,18 @@ public final class OpenCodeBootstrap {
                 if (!isExecutable(new File(GIT_PATH))) missing.add("git");
                 if (!isExecutable(new File(GH_PATH))) missing.add("gh");
 
-                status("Installing git and gh for the GitHub screen...");
-                if (installPackages(missing)) return true;
-
-                Logger.logWarn(LOG_TAG, "Could not install git/gh, the GitHub screen will offer a retry.");
-                return false;
+                boolean installed = false;
+                for (String name : missing) {
+                    status("Installing " + name + " for the GitHub screen...");
+                    // Install one at a time: one failing package must not block the other.
+                    if (installPackages(Collections.singletonList(name))) {
+                        installed = true;
+                    } else {
+                        Logger.logWarn(LOG_TAG, "Could not install " + name
+                            + ", the GitHub screen will retry on its next visit.");
+                    }
+                }
+                return installed;
             }
         }
 

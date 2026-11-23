@@ -7,7 +7,6 @@ import android.content.Intent
 import android.net.Uri
 import android.os.SystemClock
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -33,6 +32,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
+import com.termux.app.OpenCodeBootstrap
 import com.termux.app.RuntimeShell
 import com.termux.app.RuntimeStorage
 import kotlinx.coroutines.Dispatchers
@@ -115,6 +115,7 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
     val notInstalledText = stringResource(R.string.oc_workspace_github_not_installed)
     // Resolve strings in composition so a configuration change cannot leave a stale Context.
     val sFetchingCode = stringResource(R.string.oc_workspace_github_fetching_code)
+    val sWaitingAuth = stringResource(R.string.oc_workspace_github_waiting_auth)
     val sInstallingBeforeLogin = stringResource(R.string.oc_workspace_github_installing_before_login)
     val sToolInstallFailed = stringResource(R.string.oc_workspace_github_tool_install_failed)
     val sEnterCode = stringResource(R.string.oc_workspace_github_enter_code)
@@ -138,34 +139,52 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
         }
     }
 
+    fun updateTools(): Boolean {
+        val ready = RuntimeShell.hasExecutable("gh") && RuntimeShell.hasExecutable("git")
+        toolsReady = ready
+        return ready
+    }
+
+    /** Repairs a skipped/failed bootstrap install silently, with no manual install button. */
+    fun ensureTools(onDone: () -> Unit) {
+        OpenCodeBootstrap.ensureGitHubTools(context) {
+            updateTools()
+            onDone()
+        }
+    }
+
     fun refreshState() {
+        if (!updateTools()) {
+            status = notInstalledText
+            account = ""
+            return
+        }
         scope.launch(Dispatchers.IO) {
-            val auth = RuntimeShell.run(
-                context,
-                arrayOf("gh", "auth", "status", "-h", "github.com"),
-                30_000,
-            )
-            val login = RuntimeShell.run(
-                context,
-                arrayOf("gh", "api", "user", "-q", ".login"),
-                30_000,
-            )
+            val gh = RuntimeShell.executable("gh")
+            val auth = RuntimeShell.run(context, arrayOf(gh, "auth", "status", "-h", "github.com"), 30_000)
+            val login = RuntimeShell.run(context, arrayOf(gh, "api", "user", "-q", ".login"), 30_000)
             withContext(Dispatchers.Main) {
                 status = parseAuthStatus(auth)
                 account = login.lineSequence()
                     .map { it.trim() }
-                    .firstOrNull { it.isNotEmpty() && !it.startsWith("{") }
+                    .firstOrNull { it.isNotEmpty() && !it.startsWith("{") && !it.startsWith("java.") }
                     .orEmpty()
             }
         }
     }
 
     fun loadRepos() {
+        if (!updateTools()) {
+            repos = emptyList()
+            reposError = null
+            return
+        }
         scope.launch(Dispatchers.IO) {
+            val gh = RuntimeShell.executable("gh")
             val result = RuntimeShell.run(
                 context,
                 arrayOf(
-                    "gh", "repo", "list", "--limit", "100",
+                    gh, "repo", "list", "--limit", "100",
                     "--json", "nameWithOwner,description,url",
                 ),
                 60_000,
@@ -178,28 +197,12 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
                 } else {
                     repos = emptyList()
                     reposError = result.lineSequence()
-                        .firstOrNull { it.isNotBlank() }
+                        .firstOrNull { it.isNotBlank() && !it.startsWith("java.") }
                         ?.trim()
                         ?.take(200)
                         .takeUnless { it.isNullOrEmpty() }
                         ?: format(sReposError, "")
                 }
-            }
-        }
-    }
-
-    fun installTools() {
-        scope.launch(Dispatchers.IO) {
-            withContext(Dispatchers.Main) { busy = true; error = null }
-            RuntimeShell.run(
-                context,
-                arrayOf("pkg", "install", "-y", "git", "gh"),
-                900_000,
-            ) { line -> report(line) }
-            withContext(Dispatchers.Main) {
-                busy = false
-                toolsReady = RuntimeShell.hasExecutable("gh") && RuntimeShell.hasExecutable("git")
-                refreshState()
             }
         }
     }
@@ -214,19 +217,11 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
                 status = sFetchingCode
             }
             try {
-                if (!RuntimeShell.hasExecutable("gh") || !RuntimeShell.hasExecutable("git")) {
-                    withContext(Dispatchers.Main) {
-                        status = sInstallingBeforeLogin
-                    }
-                    RuntimeShell.run(
-                        context,
-                        arrayOf("pkg", "install", "-y", "git", "gh"),
-                        900_000,
-                    ) { line -> report(line) }
-                    if (!RuntimeShell.hasExecutable("gh") || !RuntimeShell.hasExecutable("git")) {
-                        throw IllegalStateException(sToolInstallFailed)
-                    }
+                if (!updateTools()) {
+                    withContext(Dispatchers.Main) { status = sInstallingBeforeLogin }
                 }
+                OpenCodeBootstrap.ensureGitHubToolsBlocking(context)
+                if (!updateTools()) throw IllegalStateException(sToolInstallFailed)
 
                 val device = requestDeviceCode()
                 withContext(Dispatchers.Main) {
@@ -239,17 +234,22 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
                     openExternal(context, device.verificationUri)
                 }
 
+                withContext(Dispatchers.Main) {
+                    status = sWaitingAuth
+                }
+
                 // The token only lives on this coroutine's stack until it is handed to gh.
                 val token = pollAccessToken(device)
-                RuntimeShell.runWithInput(
+                val gh = RuntimeShell.executable("gh")
+                val authOutput = RuntimeShell.runWithInput(
                     context,
                     token,
-                    arrayOf("gh", "auth", "login", "--with-token", "-h", "github.com"),
+                    arrayOf(gh, "auth", "login", "--with-token", "-h", "github.com"),
                     60_000,
                 ) { line -> report(line) }
                 RuntimeShell.run(
                     context,
-                    arrayOf("gh", "auth", "setup-git"),
+                    arrayOf(gh, "auth", "setup-git"),
                     60_000,
                 ) { line -> report(line) }
 
@@ -264,7 +264,15 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
                         codeHint = ""
                         loadRepos()
                     } else {
-                        error = sLoginNotRecorded
+                        val detail = authOutput.lineSequence()
+                            .firstOrNull { it.isNotBlank() }
+                            ?.trim()
+                            .orEmpty()
+                        error = if (detail.isEmpty() || detail.startsWith("java.")) {
+                            sLoginNotRecorded
+                        } else {
+                            format(sLoginFailed, detail.take(200))
+                        }
                     }
                 }
             } catch (ex: Exception) {
@@ -281,7 +289,7 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
             withContext(Dispatchers.Main) { busy = true }
             RuntimeShell.run(
                 context,
-                arrayOf("gh", "auth", "logout", "-h", "github.com"),
+                arrayOf(RuntimeShell.executable("gh"), "auth", "logout", "-h", "github.com"),
                 60_000,
             ) { line -> report(line) }
             withContext(Dispatchers.Main) {
@@ -316,7 +324,7 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
                 cloneDirectory,
                 arrayOf(
                     "env", "GIT_TERMINAL_PROMPT=0",
-                    "git", "clone", "--progress", "--", url,
+                    RuntimeShell.executable("git"), "clone", "--progress", "--", url,
                 ),
                 900_000,
             ) { line -> report(line) }
@@ -335,9 +343,11 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
     }
 
     LaunchedEffect(Unit) {
-        toolsReady = RuntimeShell.hasExecutable("gh") && RuntimeShell.hasExecutable("git")
-        refreshState()
-        loadRepos()
+        // Bootstrap normally installs these; this repairs an older/skipped install silently.
+        ensureTools {
+            refreshState()
+            loadRepos()
+        }
     }
 
     Scaffold(
@@ -356,16 +366,12 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
             if (account.isNotEmpty()) {
                 Text(stringResource(R.string.oc_workspace_github_account, account))
             }
-            Row {
-                TextButton(onClick = { installTools() }) {
-                    Text(stringResource(R.string.oc_workspace_github_install))
-                }
-                TextButton(onClick = {
-                    toolsReady = RuntimeShell.hasExecutable("gh") && RuntimeShell.hasExecutable("git")
+            TextButton(onClick = {
+                ensureTools {
                     refreshState()
                     loadRepos()
-                }) { Text(stringResource(R.string.oc_workspace_github_reload)) }
-            }
+                }
+            }) { Text(stringResource(R.string.oc_workspace_github_reload)) }
             TextButton(onClick = { login() }, enabled = !busy) {
                 Text(stringResource(R.string.oc_workspace_github_login))
             }
@@ -532,7 +538,7 @@ private fun parseAuthStatus(result: String): String {
 
 private fun ghLoggedIn(context: Context): Boolean = RuntimeShell.run(
     context,
-    arrayOf("gh", "auth", "status", "-h", "github.com"),
+    arrayOf(RuntimeShell.executable("gh"), "auth", "status", "-h", "github.com"),
     30_000,
 ).contains("Logged in to github.com", ignoreCase = true)
 

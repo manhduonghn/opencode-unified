@@ -54,4 +54,15 @@ public final class RuntimeShell {
         if (name == null || name.isEmpty() || name.contains("/")) return false;
         return new File(TermuxConstants.TERMUX_BIN_PREFIX_DIR_PATH, name).canExecute();
     }
+
+    /**
+     * Absolute path for a bootstrap executable when it exists, otherwise the bare name. Running
+     * `gh`/`git` by absolute path avoids depending on the patched PATH of a new process.
+     */
+    public static String executable(String name) {
+        if (hasExecutable(name)) {
+            return new File(TermuxConstants.TERMUX_BIN_PREFIX_DIR_PATH, name).getAbsolutePath();
+        }
+        return name;
+    }
 }
