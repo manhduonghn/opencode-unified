@@ -21,7 +21,7 @@ import androidx.compose.ui.viewinterop.AndroidView
 
 /** A real Termux shell in the native client, with the familiar extra-key row. */
 @Composable
-fun TerminalScreen(controller: TerminalController) {
+internal fun TerminalScreen(controller: TerminalController) {
     Column(Modifier.fillMaxSize()) {
         AndroidView(
             modifier = Modifier.fillMaxWidth().weight(1f),
