@@ -16,10 +16,10 @@ renders a WebView.
 ```
 app, core, server, feature/*, devtools   native client (kept from opencode-android)
 runtime                                 installer + ELF patcher + daemon supervision
+termux-ui                               real upstream Termux terminal UI (trimmed, non-exported)
 termux-shared                           Termux utilities (copied library)
 terminal-emulator, terminal-view        terminal primitives (copied libraries)
 ```
-
 `app/src/main/kotlin/ai/opencode/app/UnifiedSetupActivity.kt` is the launcher and first screen. It
 drives `runtime/.../UnifiedSetup.java` through bootstrap extraction, runtime installation, daemon
 start and one-time pairing. `UnifiedHandoff.kt` redeems the local pair link with the native client's
