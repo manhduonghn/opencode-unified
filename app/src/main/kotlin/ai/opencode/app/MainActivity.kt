@@ -263,7 +263,8 @@ class MainActivity : ComponentActivity() {
     /** Settings opens the inherited shell with `opencode://terminal`; handle cold and warm starts alike. */
     private fun openTerminalIfRequested(intent: Intent?): Boolean {
         if (intent?.data?.scheme != "opencode" || intent.data?.host != "terminal") return false
-        startActivity(Intent(this, ai.opencode.feature.terminal.TerminalActivity::class.java))
+        // The real upstream Termux UI lives in :termux-ui and is internal to this APK.
+        startActivity(Intent(this, com.termux.app.TermuxActivity::class.java))
         finish()
         return true
     }

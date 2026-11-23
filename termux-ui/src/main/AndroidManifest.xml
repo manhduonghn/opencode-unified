@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <!-- Upstream Termux terminal UI, kept internal: the merged app's MainActivity owns the
+             only exported opencode:// entry point and routes opencode://terminal here. -->
+        <activity
+            android:name="com.termux.app.TermuxActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|density|screenLayout|keyboard|keyboardHidden|navigation"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:resizeableActivity="true"
+            android:theme="@style/Theme.TermuxActivity.DayNight.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
+
+        <service
+            android:name="com.termux.app.TermuxService"
+            android:exported="false" />
+    </application>
+</manifest>

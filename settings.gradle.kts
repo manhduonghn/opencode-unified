@@ -40,4 +40,5 @@ include(
     ":terminal-emulator",
     ":terminal-view",
     ":runtime",
+    ":termux-ui",
 )
