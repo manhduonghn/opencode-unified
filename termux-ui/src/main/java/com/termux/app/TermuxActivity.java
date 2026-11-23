@@ -51,6 +51,7 @@ import com.termux.view.TerminalViewClient;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.core.content.ContextCompat;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.viewpager.widget.ViewPager;
@@ -580,7 +581,7 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
 
 
 
-    @SuppressLint("RtlHardcoded")
+    @SuppressLint({"RtlHardcoded", "MissingSuperCall"})
     @Override
     public void onBackPressed() {
         if (getDrawer().isDrawerOpen(Gravity.LEFT)) {
@@ -831,7 +832,8 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
         IntentFilter intentFilter = new IntentFilter();
         intentFilter.addAction(TERMUX_ACTIVITY.ACTION_RELOAD_STYLE);
 
-        registerReceiver(mTermuxActivityBroadcastReceiver, intentFilter);
+        ContextCompat.registerReceiver(this, mTermuxActivityBroadcastReceiver, intentFilter,
+            ContextCompat.RECEIVER_NOT_EXPORTED);
     }
 
     private void unregisterTermuxActivityBroadcastReceiver() {
