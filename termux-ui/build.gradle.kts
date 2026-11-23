@@ -21,4 +21,7 @@ dependencies {
     implementation("androidx.drawerlayout:drawerlayout:1.2.0")
     implementation("androidx.viewpager:viewpager:1.0.0")
     implementation("com.google.android.material:material:1.12.0")
+    // Upstream's shortcut map is a Guava ImmutableBiMap, exposed by termux-shared.
+    implementation("com.google.guava:guava:24.1-jre")
+    implementation("com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava")
 }
