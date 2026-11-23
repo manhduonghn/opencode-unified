@@ -5,6 +5,7 @@
             android:name="ai.opencode.feature.terminal.TerminalActivity"
             android:exported="false"
             android:label="@string/oc_terminal_title"
+            android:configChanges="orientation|screenSize|smallestScreenSize|density|screenLayout|keyboard|keyboardHidden|navigation"
             android:windowSoftInputMode="adjustResize" />
     </application>
 </manifest>
