@@ -156,20 +156,25 @@ internal fun parseAuthStatus(result: String): String {
         ?: result.lineSequence().firstOrNull { it.isNotBlank() }?.trim().orEmpty()
 }
 
-internal fun parseRepos(text: String): List<Repo>? = runCatching {
+internal fun parseRepos(text: String): List<Repo>? {
     val start = text.indexOf('[')
-    val end = text.lastIndexOf(']')
-    if (start < 0 || end <= start) return null
-    val array = runCatching { JSONArray(text.substring(start, end + 1)) }.getOrNull() ?: return null
-    (0 until array.length()).map { index ->
-        val item = array.getJSONObject(index)
-        Repo(
-            nameWithOwner = item.optString("nameWithOwner", ""),
-            description = item.optString("description", ""),
-            url = item.optString("url", ""),
-        )
+    if (start < 0) return null
+    for (end in text.length - 1 downTo start) {
+        if (text[end] != ']') continue
+        val array = runCatching { JSONArray(text.substring(start, end + 1)) }.getOrNull() ?: continue
+        return runCatching {
+            (0 until array.length()).map { index ->
+                val item = array.getJSONObject(index)
+                Repo(
+                    nameWithOwner = item.optString("nameWithOwner", ""),
+                    description = item.optString("description", ""),
+                    url = item.optString("url", ""),
+                )
+            }
+        }.getOrNull()
     }
-}.getOrNull()
+    return null
+}
 
 private val REPO_PART = Regex("[A-Za-z0-9][A-Za-z0-9_.-]*")
 
