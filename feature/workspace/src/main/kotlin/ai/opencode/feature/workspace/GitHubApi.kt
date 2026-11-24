@@ -149,16 +149,18 @@ private fun httpPostForm(url: String, params: Map<String, String>): String {
     }
 }
 
-internal fun parseAuthStatus(result: String): String =
-    result.lineSequence().firstOrNull { it.contains("Logged in to") }
-        ?: result.lineSequence().firstOrNull { it.contains("not logged in", ignoreCase = true) }
+internal fun parseAuthStatus(result: String): String {
+    val loggedIn = result.lineSequence().firstOrNull { it.contains("Logged in to") }?.trim()
+    if (loggedIn != null) return "Logged in to github.com"
+    return result.lineSequence().firstOrNull { it.contains("not logged in", ignoreCase = true) }?.trim()
         ?: result.lineSequence().firstOrNull { it.isNotBlank() }?.trim().orEmpty()
+}
 
 internal fun parseRepos(text: String): List<Repo>? = runCatching {
     val start = text.indexOf('[')
     val end = text.lastIndexOf(']')
     if (start < 0 || end <= start) return null
-    val array = JSONArray(text.substring(start, end + 1))
+    val array = runCatching { JSONArray(text.substring(start, end + 1)) }.getOrNull() ?: return null
     (0 until array.length()).map { index ->
         val item = array.getJSONObject(index)
         Repo(
