@@ -53,6 +53,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.dp
@@ -87,6 +88,9 @@ private enum class Work { Login, Logout, Clone }
 fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier) {
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
+    val formatLocale = remember(LocalConfiguration.current) {
+        context.resources.configuration.locales[0]
+    }
 
     var status by rememberSaveable { mutableStateOf("") }
     var account by rememberSaveable { mutableStateOf("") }
@@ -133,7 +137,7 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
     val sUnknownError = stringResource(R.string.oc_workspace_github_unknown_error)
 
     fun format(template: String, value: Any): String =
-        String.format(Locale.getDefault(), template, value)
+        String.format(formatLocale, template, value)
 
     fun report(line: String) {
         // Shell output arrives on a reader thread; marshal state writes back to Main.
@@ -418,7 +422,7 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
     val secondsLeft = if (expiresAt == 0L) 0L else ((expiresAt - tick) / 1000L).coerceAtLeast(0L)
     val minutes = secondsLeft / 60L
     val seconds = secondsLeft % 60L
-    val countdown = String.format(Locale.getDefault(), "%02d:%02d", minutes, seconds)
+    val countdown = String.format(formatLocale, "%02d:%02d", minutes, seconds)
 
     LaunchedEffect(Unit) {
         // Bootstrap normally installs these; this repairs an older/skipped install silently.
