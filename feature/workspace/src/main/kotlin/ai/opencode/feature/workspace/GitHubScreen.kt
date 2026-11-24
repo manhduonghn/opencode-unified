@@ -88,9 +88,8 @@ private enum class Work { Login, Logout, Clone }
 fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier) {
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
-    val formatLocale = remember(LocalConfiguration.current) {
-        context.resources.configuration.locales[0]
-    }
+    val configuration = LocalConfiguration.current
+    val formatLocale = remember(configuration) { configuration.locales[0] }
 
     var status by rememberSaveable { mutableStateOf("") }
     var account by rememberSaveable { mutableStateOf("") }
