@@ -1,19 +1,29 @@
 package ai.opencode.feature.workspace
 
+import ai.opencode.core.diagnostics.HidesFromScreenshots
+import ai.opencode.core.log.AppLog
 import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.SystemClock
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.Button
+import androidx.compose.material3.Card
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -31,6 +41,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.KeyboardType
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.termux.app.OpenCodeBootstrap
 import com.termux.app.RuntimeShell
@@ -39,7 +50,6 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.json.JSONArray
 import org.json.JSONObject
 import java.io.BufferedReader
 import java.io.File
@@ -69,28 +79,12 @@ private const val SCOPES =
         "project read:project delete_repo " +
         "write:discussion read:discussion codespace copilot"
 
-private data class DeviceCode(
-    val deviceCode: String,
-    val userCode: String,
-    val verificationUri: String,
-    val interval: Int,
-    val expiresIn: Long,
-)
-
-private data class Repo(
-    val nameWithOwner: String,
-    val description: String,
-    val url: String,
-)
-
 /**
  * Compose replacement for the fork's `GitHubActivity`.
  *
- * Login is the fork's OAuth device-code flow: the code is shown and copied, the verification page
- * opens in the browser, and the resulting token is piped straight into `gh auth login --with-token`
- * and `gh auth setup-git`. The token is never saved in app state or preferences; `gh` owns the
- * credential store. Cloning targets the directory that was open in the file browser, like the
- * fork, and accepts full URLs, `github.com/owner/repo` and `owner/repo`.
+ * This is the only GitHub surface: it is opened from the file browser's GitHub button, which passes
+ * the folder currently on screen as the clone destination. Sign-in is the fork's OAuth device-code
+ * flow; the token is piped straight into `gh auth login --with-token` and never saved by the app.
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -98,8 +92,9 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
 
-    var status by rememberSaveable { mutableStateOf("") }
+    var status by remember { mutableStateOf("") }
     var account by rememberSaveable { mutableStateOf("") }
+    var cloneStatus by rememberSaveable { mutableStateOf("") }
     var userCode by remember { mutableStateOf("") }
     var verificationUri by remember { mutableStateOf("") }
     var codeHint by remember { mutableStateOf("") }
@@ -110,24 +105,46 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
     var error by remember { mutableStateOf<String?>(null) }
     var busy by remember { mutableStateOf(false) }
     var toolsReady by remember { mutableStateOf(false) }
+    var showOutput by remember { mutableStateOf(false) }
 
     val cloneDirectory = remember(targetDirectory) { cloneDirectory(targetDirectory) }
-    val notInstalledText = stringResource(R.string.oc_workspace_github_not_installed)
-    // Resolve strings in composition so a configuration change cannot leave a stale Context.
+
+    val sNotLoggedIn = stringResource(R.string.oc_workspace_github_not_logged_in)
+    val sSignedInAs = stringResource(R.string.oc_workspace_github_account)
+    val sLogin = stringResource(R.string.oc_workspace_github_login)
+    val sLogout = stringResource(R.string.oc_workspace_github_logout)
+    val sReload = stringResource(R.string.oc_workspace_github_reload)
+    val sNotInstalled = stringResource(R.string.oc_workspace_github_not_installed)
+    val sToolInstallFailed = stringResource(R.string.oc_workspace_github_tool_install_failed)
     val sFetchingCode = stringResource(R.string.oc_workspace_github_fetching_code)
     val sWaitingAuth = stringResource(R.string.oc_workspace_github_waiting_auth)
-    val sInstallingBeforeLogin = stringResource(R.string.oc_workspace_github_installing_before_login)
-    val sToolInstallFailed = stringResource(R.string.oc_workspace_github_tool_install_failed)
     val sEnterCode = stringResource(R.string.oc_workspace_github_enter_code)
     val sCodeHint = stringResource(R.string.oc_workspace_github_code_hint)
-    val sLoginNotRecorded = stringResource(R.string.oc_workspace_github_login_not_recorded)
+    val sCopy = stringResource(R.string.oc_workspace_github_copy)
+    val sOpenVerification = stringResource(R.string.oc_workspace_github_open_verification)
     val sLoginFailed = stringResource(R.string.oc_workspace_github_login_failed)
+    val sLoginNotRecorded = stringResource(R.string.oc_workspace_github_login_not_recorded)
+    val sErrorNoCode = stringResource(R.string.oc_workspace_github_error_no_code)
+    val sErrorExpired = stringResource(R.string.oc_workspace_github_error_expired)
+    val sErrorDenied = stringResource(R.string.oc_workspace_github_error_denied)
+    val sErrorTimeout = stringResource(R.string.oc_workspace_github_error_timeout)
+    val sErrorUnexpected = stringResource(R.string.oc_workspace_github_error_unexpected)
+    val sErrorHttp = stringResource(R.string.oc_workspace_github_error_http)
+    val sCloneInto = stringResource(R.string.oc_workspace_github_clone_into)
+    val sRepoLabel = stringResource(R.string.oc_workspace_github_repo)
+    val sCloneAction = stringResource(R.string.oc_workspace_github_run)
     val sInvalidRepo = stringResource(R.string.oc_workspace_github_invalid_repo)
     val sInvalidDestination = stringResource(R.string.oc_workspace_github_invalid_destination)
     val sCloning = stringResource(R.string.oc_workspace_github_cloning)
     val sCloneDone = stringResource(R.string.oc_workspace_github_clone_done)
     val sCloneFailed = stringResource(R.string.oc_workspace_github_clone_failed)
+    val sRepos = stringResource(R.string.oc_workspace_github_repos)
+    val sReposEmpty = stringResource(R.string.oc_workspace_github_repos_empty)
     val sReposError = stringResource(R.string.oc_workspace_github_repos_error)
+    val sOutput = stringResource(R.string.oc_workspace_github_output)
+    val sShowOutput = stringResource(R.string.oc_workspace_github_show_output)
+    val sHideOutput = stringResource(R.string.oc_workspace_github_hide_output)
+    val sWorking = stringResource(R.string.oc_workspace_github_working)
 
     fun format(template: String, value: Any): String =
         String.format(Locale.getDefault(), template, value)
@@ -145,7 +162,7 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
         return ready
     }
 
-    /** Repairs a skipped/failed bootstrap install silently, with no manual install button. */
+    /** Repairs a skipped/failed bootstrap install silently; the callback runs on the UI thread. */
     fun ensureTools(onDone: () -> Unit) {
         OpenCodeBootstrap.ensureGitHubTools(context) {
             updateTools()
@@ -153,95 +170,101 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
         }
     }
 
-    fun refreshState() {
-        if (!updateTools()) {
-            status = notInstalledText
-            account = ""
-            return
+    suspend fun readAuth(): AuthSnapshot = withContext(Dispatchers.IO) {
+        val gh = RuntimeShell.executable("gh")
+        val auth = RuntimeShell.run(
+            context,
+            arrayOf(gh, "auth", "status", "-h", "github.com"),
+            30_000,
+        )
+        val signedIn = auth.contains("Logged in to github.com", ignoreCase = true)
+        val login = if (signedIn) {
+            parseAccount(RuntimeShell.run(context, arrayOf(gh, "api", "user", "-q", ".login"), 30_000))
+        } else {
+            ""
         }
-        scope.launch(Dispatchers.IO) {
-            val gh = RuntimeShell.executable("gh")
-            val auth = RuntimeShell.run(context, arrayOf(gh, "auth", "status", "-h", "github.com"), 30_000)
-            val login = RuntimeShell.run(context, arrayOf(gh, "api", "user", "-q", ".login"), 30_000)
-            withContext(Dispatchers.Main) {
-                status = parseAuthStatus(auth)
-                account = login.lineSequence()
-                    .map { it.trim() }
-                    .firstOrNull { it.isNotEmpty() && !it.startsWith("{") && !it.startsWith("java.") }
-                    .orEmpty()
-            }
+        AuthSnapshot(parseAuthStatus(auth), login)
+    }
+
+    suspend fun readRepos(): RepoSnapshot = withContext(Dispatchers.IO) {
+        val result = RuntimeShell.run(
+            context,
+            arrayOf(
+                RuntimeShell.executable("gh"), "repo", "list", "--limit", "100",
+                "--json", "nameWithOwner,description,url",
+            ),
+            60_000,
+        )
+        val parsed = parseRepos(result)
+        if (parsed != null) {
+            RepoSnapshot(parsed, null)
+        } else {
+            RepoSnapshot(emptyList(), repoError(result, format(sReposError, "")))
         }
     }
 
-    fun loadRepos() {
-        if (!updateTools()) {
-            repos = emptyList()
-            reposError = null
-            return
-        }
-        scope.launch(Dispatchers.IO) {
-            val gh = RuntimeShell.executable("gh")
-            val result = RuntimeShell.run(
-                context,
-                arrayOf(
-                    gh, "repo", "list", "--limit", "100",
-                    "--json", "nameWithOwner,description,url",
-                ),
-                60_000,
-            )
-            val parsed = parseRepos(result)
-            withContext(Dispatchers.Main) {
-                if (parsed != null) {
-                    repos = parsed
-                    reposError = null
-                } else {
-                    repos = emptyList()
-                    reposError = result.lineSequence()
-                        .firstOrNull { it.isNotBlank() && !it.startsWith("java.") }
-                        ?.trim()
-                        ?.take(200)
-                        .takeUnless { it.isNullOrEmpty() }
-                        ?: format(sReposError, "")
+    fun applyAuth(snapshot: AuthSnapshot) {
+        status = snapshot.detail
+        account = snapshot.login
+    }
+
+    fun refresh() {
+        ensureTools {
+            val ready = updateTools()
+            if (!ready) {
+                status = sToolInstallFailed
+                account = ""
+                repos = emptyList()
+                reposError = null
+            } else {
+                scope.launch(Dispatchers.Main) {
+                    applyAuth(readAuth())
+                    val reposResult = readRepos()
+                    repos = reposResult.repos
+                    reposError = reposResult.error
+                    AppLog.app.info("github repos refreshed: count=${reposResult.repos.size}")
                 }
             }
         }
     }
 
+    fun loginError(ex: GitHubLoginException): String = when (ex.failure) {
+        GitHubLoginFailure.MissingCode -> format(sErrorNoCode, ex.detail)
+        GitHubLoginFailure.Expired -> sErrorExpired
+        GitHubLoginFailure.Denied -> sErrorDenied
+        GitHubLoginFailure.Timeout -> sErrorTimeout
+        GitHubLoginFailure.Unexpected -> format(sErrorUnexpected, ex.detail)
+        GitHubLoginFailure.Http -> format(sErrorHttp, ex.detail)
+    }
+
     fun login() {
-        if (busy) return
+        if (busy || !toolsReady) return
         scope.launch(Dispatchers.IO) {
             withContext(Dispatchers.Main) {
                 busy = true
                 error = null
                 output = ""
+                showOutput = false
                 status = sFetchingCode
             }
+            AppLog.app.info("github login started")
             try {
-                if (!updateTools()) {
-                    withContext(Dispatchers.Main) { status = sInstallingBeforeLogin }
-                }
-                OpenCodeBootstrap.ensureGitHubToolsBlocking(context)
-                if (!updateTools()) throw IllegalStateException(sToolInstallFailed)
-
                 val device = requestDeviceCode()
                 withContext(Dispatchers.Main) {
                     userCode = device.userCode
                     verificationUri = device.verificationUri
                     codeHint = format(sCodeHint, maxOf(1L, device.expiresIn / 60L).toString())
-                    // The code itself is rendered from `userCode` in composition below.
-                    status = format(sEnterCode, device.userCode)
+                    // The code itself is only in the non-saveable state below, never in `status`.
+                    status = sWaitingAuth
                     copyText(context, device.userCode)
                     openExternal(context, device.verificationUri)
                 }
-
-                withContext(Dispatchers.Main) {
-                    status = sWaitingAuth
-                }
+                AppLog.app.info("github login device code issued")
 
                 // The token only lives on this coroutine's stack until it is handed to gh.
                 val token = pollAccessToken(device)
                 val gh = RuntimeShell.executable("gh")
-                val authOutput = RuntimeShell.runWithInput(
+                RuntimeShell.runWithInput(
                     context,
                     token,
                     arrayOf(gh, "auth", "login", "--with-token", "-h", "github.com"),
@@ -252,57 +275,73 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
                     arrayOf(gh, "auth", "setup-git"),
                     60_000,
                 ) { line -> report(line) }
+                AppLog.app.info("github login token handed to gh")
 
-                val loggedIn = ghLoggedIn(context)
+                val snapshot = readAuth()
+                val reposResult = readRepos()
                 withContext(Dispatchers.Main) {
                     busy = false
-                    toolsReady = true
-                    refreshState()
-                    if (loggedIn) {
-                        userCode = ""
-                        verificationUri = ""
-                        codeHint = ""
-                        loadRepos()
-                    } else {
-                        val detail = authOutput.lineSequence()
-                            .firstOrNull { it.isNotBlank() }
-                            ?.trim()
-                            .orEmpty()
-                        error = if (detail.isEmpty() || detail.startsWith("java.")) {
-                            sLoginNotRecorded
-                        } else {
-                            format(sLoginFailed, detail.take(200))
-                        }
+                    applyAuth(snapshot)
+                    repos = reposResult.repos
+                    reposError = reposResult.error
+                    userCode = ""
+                    verificationUri = ""
+                    codeHint = ""
+                    cloneStatus = ""
+                    if (snapshot.login.isEmpty() &&
+                        snapshot.detail.contains("Logged in to github.com", ignoreCase = true)
+                    ) {
+                        error = sLoginNotRecorded
                     }
                 }
-            } catch (ex: Exception) {
+                AppLog.app.info("github login completed: repos=${reposResult.repos.size}")
+            } catch (ex: GitHubLoginException) {
+                AppLog.app.info("github login failed: ${ex.failure.name}")
                 withContext(Dispatchers.Main) {
                     busy = false
-                    error = format(sLoginFailed, ex.message ?: ex.toString())
+                    error = format(sLoginFailed, loginError(ex))
+                    showOutput = true
+                }
+            } catch (ex: Exception) {
+                AppLog.app.info("github login failed: ${ex.javaClass.simpleName}")
+                withContext(Dispatchers.Main) {
+                    busy = false
+                    error = format(sLoginFailed, format(sErrorUnexpected, ""))
+                    showOutput = true
                 }
             }
         }
     }
 
     fun logout() {
+        if (busy || !toolsReady) return
         scope.launch(Dispatchers.IO) {
-            withContext(Dispatchers.Main) { busy = true }
+            withContext(Dispatchers.Main) {
+                busy = true
+                error = null
+                output = ""
+                showOutput = false
+            }
+            AppLog.app.info("github logout started")
             RuntimeShell.run(
                 context,
                 arrayOf(RuntimeShell.executable("gh"), "auth", "logout", "-h", "github.com"),
                 60_000,
             ) { line -> report(line) }
+            val snapshot = readAuth()
             withContext(Dispatchers.Main) {
                 busy = false
                 repos = emptyList()
-                account = ""
-                status = ""
-                refreshState()
+                reposError = null
+                cloneStatus = ""
+                applyAuth(snapshot)
             }
+            AppLog.app.info("github logout completed")
         }
     }
 
     fun clone(value: String, label: String? = null) {
+        if (busy || !toolsReady) return
         val url = normalizeCloneUrl(value)
         if (url.isEmpty()) {
             error = sInvalidRepo
@@ -317,8 +356,10 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
                 busy = true
                 error = null
                 output = ""
-                status = format(sCloning, label ?: url)
+                showOutput = false
+                cloneStatus = format(sCloning, label ?: url)
             }
+            AppLog.app.info("github clone started")
             val result = RuntimeShell.runInDirectory(
                 context,
                 cloneDirectory,
@@ -330,25 +371,25 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
             ) { line -> report(line) }
             val cloned = File(cloneDirectory, repoNameFromUrl(url))
             val ok = cloned.isDirectory && !result.contains("fatal:", ignoreCase = true)
+            AppLog.app.info(if (ok) "github clone succeeded" else "github clone failed")
             withContext(Dispatchers.Main) {
                 busy = false
+                cloneStatus = if (ok) sCloneDone else sCloneFailed
                 if (ok) {
                     repo = ""
-                    output += sCloneDone + "\n"
                 } else {
                     error = sCloneFailed
+                    showOutput = true
                 }
             }
         }
     }
 
-    LaunchedEffect(Unit) {
-        // Bootstrap normally installs these; this repairs an older/skipped install silently.
-        ensureTools {
-            refreshState()
-            loadRepos()
-        }
-    }
+    LaunchedEffect(Unit) { refresh() }
+
+    // The device code is a short-lived credential; keep the whole screen out of screenshots while
+    // it is visible. The code is still copied to the clipboard only on an explicit tap.
+    HidesFromScreenshots(userCode.isNotEmpty())
 
     Scaffold(
         modifier = modifier,
@@ -358,73 +399,155 @@ fun GitHubScreen(targetDirectory: String? = null, modifier: Modifier = Modifier)
             Modifier
                 .fillMaxSize()
                 .padding(padding)
-                .padding(horizontal = 16.dp)
+                .padding(horizontal = 16.dp, vertical = 12.dp)
                 .verticalScroll(rememberScrollState()),
+            verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
-            Text(stringResource(R.string.oc_workspace_github_status))
-            Text(status.ifEmpty { stringResource(R.string.oc_workspace_github_not_logged_in) })
-            if (account.isNotEmpty()) {
-                Text(stringResource(R.string.oc_workspace_github_account, account))
-            }
-            TextButton(onClick = {
-                ensureTools {
-                    refreshState()
-                    loadRepos()
-                }
-            }) { Text(stringResource(R.string.oc_workspace_github_reload)) }
-            TextButton(onClick = { login() }, enabled = !busy) {
-                Text(stringResource(R.string.oc_workspace_github_login))
-            }
-            if (userCode.isNotEmpty()) {
-                Text(stringResource(R.string.oc_workspace_github_enter_code, userCode))
-                TextButton(onClick = { copyText(context, userCode) }) {
-                    Text(stringResource(R.string.oc_workspace_github_copy))
-                }
-                Text(verificationUri)
-                Text(codeHint)
-                TextButton(onClick = { openExternal(context, verificationUri) }) {
-                    Text(stringResource(R.string.oc_workspace_github_open_verification))
-                }
-            }
-            TextButton(onClick = { logout() }, enabled = !busy && toolsReady) {
-                Text(stringResource(R.string.oc_workspace_github_logout))
+            if (error != null) {
+                Text(error!!, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.error)
             }
 
-            Text(stringResource(R.string.oc_workspace_github_clone_into, cloneDirectory.absolutePath))
-            OutlinedTextField(
-                value = repo,
-                onValueChange = { repo = it },
-                label = { Text(stringResource(R.string.oc_workspace_github_repo)) },
-                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Uri),
-                singleLine = true,
-                modifier = Modifier.fillMaxWidth(),
-            )
-            TextButton(onClick = { clone(repo) }, enabled = !busy && toolsReady) {
-                Text(stringResource(R.string.oc_workspace_github_run))
-            }
-            if (!toolsReady) Text(notInstalledText)
-            if (error != null) Text(error!!)
-
-            Text(stringResource(R.string.oc_workspace_github_repos))
-            TextButton(onClick = { loadRepos() }, enabled = !busy && toolsReady) {
-                Text(stringResource(R.string.oc_workspace_github_reload))
-            }
-            if (reposError != null && reposError!!.isNotBlank()) Text(reposError!!)
-            repos.forEach { item ->
-                Column(Modifier.fillMaxWidth().padding(vertical = 4.dp)) {
-                    Text(item.nameWithOwner, maxLines = 1)
-                    if (item.description.isNotBlank()) {
-                        Text(item.description, maxLines = 2)
+            Card(modifier = Modifier.fillMaxWidth()) {
+                Column(Modifier.fillMaxWidth().padding(16.dp)) {
+                    Text(
+                        if (account.isEmpty()) sNotLoggedIn else format(sSignedInAs, account),
+                        style = MaterialTheme.typography.titleMedium,
+                    )
+                    if (status.isNotEmpty()) {
+                        Text(
+                            status,
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        )
                     }
-                    TextButton(onClick = { clone(item.url, item.nameWithOwner) }, enabled = !busy) {
-                        Text(stringResource(R.string.oc_workspace_github_run))
+                    Spacer(Modifier.height(12.dp))
+                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                        Button(onClick = { login() }, enabled = !busy && toolsReady) {
+                            Text(sLogin)
+                        }
+                        OutlinedButton(
+                            onClick = { logout() },
+                            enabled = !busy && toolsReady && account.isNotEmpty(),
+                        ) {
+                            Text(sLogout)
+                        }
+                        TextButton(onClick = { refresh() }, enabled = !busy) {
+                            Text(sReload)
+                        }
+                    }
+                    if (!toolsReady) {
+                        Spacer(Modifier.height(8.dp))
+                        Text(
+                            sNotInstalled,
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.error,
+                        )
+                    }
+                    if (userCode.isNotEmpty()) {
+                        Spacer(Modifier.height(12.dp))
+                        Text(format(sEnterCode, userCode), style = MaterialTheme.typography.titleSmall)
+                        Text(verificationUri, style = MaterialTheme.typography.bodySmall)
+                        Text(codeHint, style = MaterialTheme.typography.bodySmall)
+                        Spacer(Modifier.height(8.dp))
+                        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                            Button(onClick = { copyText(context, userCode) }) { Text(sCopy) }
+                            OutlinedButton(onClick = { openExternal(context, verificationUri) }) {
+                                Text(sOpenVerification)
+                            }
+                        }
                     }
                 }
             }
 
-            if (busy) Text("…")
-            Text(stringResource(R.string.oc_workspace_github_output))
-            Text(output)
+            Card(modifier = Modifier.fillMaxWidth()) {
+                Column(Modifier.fillMaxWidth().padding(16.dp)) {
+                    Text(
+                        format(sCloneInto, cloneDirectory.absolutePath),
+                        style = MaterialTheme.typography.titleMedium,
+                    )
+                    Spacer(Modifier.height(8.dp))
+                    OutlinedTextField(
+                        value = repo,
+                        onValueChange = { repo = it },
+                        label = { Text(sRepoLabel) },
+                        keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Uri),
+                        singleLine = true,
+                        enabled = !busy && toolsReady,
+                        modifier = Modifier.fillMaxWidth(),
+                    )
+                    Spacer(Modifier.height(8.dp))
+                    Button(
+                        onClick = { clone(repo) },
+                        enabled = !busy && toolsReady && repo.isNotBlank(),
+                    ) {
+                        Text(sCloneAction)
+                    }
+                    if (cloneStatus.isNotEmpty()) {
+                        Spacer(Modifier.height(8.dp))
+                        Text(cloneStatus, style = MaterialTheme.typography.bodySmall)
+                    }
+                }
+            }
+
+            Card(modifier = Modifier.fillMaxWidth()) {
+                Column(Modifier.fillMaxWidth().padding(16.dp)) {
+                    Text(sRepos, style = MaterialTheme.typography.titleMedium)
+                    when {
+                        !reposError.isNullOrBlank() -> {
+                            Spacer(Modifier.height(8.dp))
+                            Text(
+                                reposError!!,
+                                style = MaterialTheme.typography.bodySmall,
+                                color = MaterialTheme.colorScheme.error,
+                            )
+                        }
+                        repos.isEmpty() -> {
+                            Spacer(Modifier.height(8.dp))
+                            Text(sReposEmpty, style = MaterialTheme.typography.bodySmall)
+                        }
+                    }
+                    repos.forEach { item ->
+                        Column(Modifier.fillMaxWidth().padding(vertical = 6.dp)) {
+                            Text(
+                                item.nameWithOwner,
+                                style = MaterialTheme.typography.titleSmall,
+                                maxLines = 1,
+                                overflow = TextOverflow.Ellipsis,
+                            )
+                            if (item.description.isNotBlank()) {
+                                Text(
+                                    item.description,
+                                    style = MaterialTheme.typography.bodySmall,
+                                    maxLines = 2,
+                                    overflow = TextOverflow.Ellipsis,
+                                )
+                            }
+                            TextButton(
+                                onClick = { clone(item.url, item.nameWithOwner) },
+                                enabled = !busy && toolsReady,
+                            ) {
+                                Text(sCloneAction)
+                            }
+                        }
+                    }
+                }
+            }
+
+            if (busy) {
+                Text(sWorking, style = MaterialTheme.typography.bodySmall)
+            }
+            TextButton(onClick = { showOutput = !showOutput }) {
+                Text(if (showOutput) sHideOutput else sOutput)
+            }
+            if (showOutput) {
+                Card(modifier = Modifier.fillMaxWidth()) {
+                    Text(
+                        output,
+                        Modifier.padding(16.dp),
+                        style = MaterialTheme.typography.bodySmall,
+                    )
+                }
+            }
         }
     }
 }
@@ -440,7 +563,7 @@ private fun requestDeviceCode(): DeviceCode {
     val userCode = json.optString("user_code", "")
     if (deviceCode.isEmpty() || userCode.isEmpty()) {
         val detail = json.optString("error_description", json.optString("error", ""))
-        throw IllegalStateException("GitHub không trả về mã đăng nhập: $detail")
+        throw GitHubLoginException(GitHubLoginFailure.MissingCode, detail.take(200))
     }
     return DeviceCode(
         deviceCode = deviceCode,
@@ -468,24 +591,21 @@ private suspend fun pollAccessToken(device: DeviceCode): String {
         val token = json.optString("access_token", "")
         if (token.isNotEmpty()) return token
 
-        when (val code = json.optString("error", "")) {
+        when (json.optString("error", "")) {
             "authorization_pending" -> delay(interval * 1000L)
             "slow_down" -> {
                 interval += 5
                 delay(interval * 1000L)
             }
-            "expired_token" -> throw IllegalStateException(
-                "Mã đăng nhập đã hết hạn. Bấm Đăng nhập lại để lấy mã mới.",
-            )
-            "access_denied" -> throw IllegalStateException(
-                "Bạn đã từ chối cấp quyền cho ứng dụng.",
-            )
-            else -> throw IllegalStateException(
-                json.optString("error_description", code).ifEmpty { "Không lấy được access token." },
+            "expired_token" -> throw GitHubLoginException(GitHubLoginFailure.Expired)
+            "access_denied" -> throw GitHubLoginException(GitHubLoginFailure.Denied)
+            else -> throw GitHubLoginException(
+                GitHubLoginFailure.Unexpected,
+                json.optString("error_description", "").take(200),
             )
         }
     }
-    throw IllegalStateException("Hết thời gian chờ xác thực. Bấm Đăng nhập lại để lấy mã mới.")
+    throw GitHubLoginException(GitHubLoginFailure.Timeout)
 }
 
 private fun httpPostForm(url: String, params: Map<String, String>): String {
@@ -506,11 +626,11 @@ private fun httpPostForm(url: String, params: Map<String, String>): String {
 
         val code = connection.responseCode
         val stream = if (code >= 400) connection.errorStream else connection.inputStream
-        if (stream == null) throw IllegalStateException("GitHub trả về HTTP $code")
+        if (stream == null) throw GitHubLoginException(GitHubLoginFailure.Http, code.toString())
         val response = stream.use { input ->
             BufferedReader(InputStreamReader(input, Charsets.UTF_8)).readText()
         }
-        if (response.isBlank()) throw IllegalStateException("GitHub trả về HTTP $code")
+        if (response.isBlank()) throw GitHubLoginException(GitHubLoginFailure.Http, code.toString())
         return response
     } finally {
         connection.disconnect()
@@ -530,33 +650,6 @@ private fun openExternal(context: Context, url: String) {
     }
 }
 
-private fun parseAuthStatus(result: String): String {
-    val line = result.lineSequence().firstOrNull { it.contains("Logged in to") }
-        ?: result.lineSequence().firstOrNull { it.contains("not logged in", ignoreCase = true) }
-    return line?.trim() ?: result.lineSequence().firstOrNull { it.isNotBlank() }?.trim().orEmpty()
-}
-
-private fun ghLoggedIn(context: Context): Boolean = RuntimeShell.run(
-    context,
-    arrayOf(RuntimeShell.executable("gh"), "auth", "status", "-h", "github.com"),
-    30_000,
-).contains("Logged in to github.com", ignoreCase = true)
-
-private fun parseRepos(text: String): List<Repo>? = runCatching {
-    val start = text.indexOf('[')
-    val end = text.lastIndexOf(']')
-    if (start < 0 || end <= start) return null
-    val array = JSONArray(text.substring(start, end + 1))
-    (0 until array.length()).map { index ->
-        val item = array.getJSONObject(index)
-        Repo(
-            nameWithOwner = item.optString("nameWithOwner", ""),
-            description = item.optString("description", ""),
-            url = item.optString("url", ""),
-        )
-    }
-}.getOrNull()
-
 /** Matches the fork: the folder the file manager had open, or the Termux home as fallback. */
 private fun cloneDirectory(targetDirectory: String?): File {
     if (!targetDirectory.isNullOrBlank()) {
@@ -564,23 +657,4 @@ private fun cloneDirectory(targetDirectory: String?): File {
         if (candidate.isDirectory && candidate.canWrite()) return candidate
     }
     return RuntimeStorage.home()
-}
-
-/** Accepts full URLs, `github.com/owner/repo` and `owner/repo`, just like the fork. */
-private fun normalizeCloneUrl(repo: String?): String {
-    var url = repo?.trim().orEmpty()
-    if (url.isEmpty()) return url
-    while (url.endsWith("/")) url = url.dropLast(1)
-    if (url.startsWith("github.com/") || url.startsWith("www.github.com/")) {
-        url = "https://$url"
-    } else if (!url.contains("://") && !url.startsWith("git@") && url.indexOf('/') > 0) {
-        url = "https://github.com/$url"
-    }
-    if (url.startsWith("https://github.com/") && !url.endsWith(".git")) url += ".git"
-    return url
-}
-
-private fun repoNameFromUrl(url: String): String {
-    val name = url.substringAfterLast('/').removeSuffix(".git")
-    return if (name.isEmpty()) "repository" else name
 }

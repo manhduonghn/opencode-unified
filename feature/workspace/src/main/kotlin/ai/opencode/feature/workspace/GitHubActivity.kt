@@ -6,7 +6,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 
-/** Host for the fork-style GitHub device login, repository list and clone screen. */
+/** Host for the fork-style GitHub device login, repository list and clone screen. Opened from Files. */
 class GitHubActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         enableEdgeToEdge()

@@ -50,9 +50,10 @@ Requirements: JDK 17, Android SDK platform 37 (minor 1), build-tools 37, NDK `29
 
 The merge is complete. The app opens on a preparation screen: the Termux runtime installs and
 starts the local `opencode` process, creates a one-time pair link and silently connects the native
-client before opening the chat UI. Terminal, workspace (files, editor, GitHub), share-to-Downloads
-and runtime settings surfaces are all present. See `docs/PARITY.md` for the full parity matrix and
-the intentional non-goals/drops (WebView shell, `sharedUserId`, broad storage permissions).
+client before opening the chat UI. Terminal, workspace (files, editor and the GitHub sign-in/clone
+screen reached from Files), share-to-Downloads and runtime settings surfaces are all present. See
+`docs/PARITY.md` for the full parity matrix and the intentional non-goals/drops (WebView shell,
+`sharedUserId`, broad storage permissions).
 
 ### Crash reports
 

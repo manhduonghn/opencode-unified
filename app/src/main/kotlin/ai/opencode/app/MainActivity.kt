@@ -269,7 +269,10 @@ class MainActivity : ComponentActivity() {
         return true
     }
 
-    /** Settings and the share sheet open the Compose file browser with `opencode://workspace/files`. */
+    /**
+     * Files is the only visible entry into the workspace. `opencode://workspace/github` stays as an
+     * internal deep link for existing shortcuts; there is no Settings row for it any more.
+     */
     private fun openWorkspaceIfRequested(intent: Intent?): Boolean {
         val uri = intent?.data ?: return false
         if (uri.scheme != "opencode" || uri.host != "workspace") return false

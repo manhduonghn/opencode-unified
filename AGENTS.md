@@ -15,7 +15,8 @@ UI. See [docs/PARITY.md](docs/PARITY.md) for what has been carried over and what
 | `:app`, `:core`, `:server`, `:feature:*`, `:devtools` | `anomalyco/opencode-android` | Native client. Keep its store/dependency/shared-key architecture. |
 | `:runtime` | custom `opencode-termux` `app` classes + `cpp` | Installer, ELF patcher, launcher scripts, daemon supervision. |
 | `:termux-ui` | upstream `termux-app` app module (terminal UI only) | Real Termux Activity/Service/drawer/extra-keys toolbar, ported with plugin/bootstrap/report/storage code removed. |
-| `:feature:terminal` | previous Compose host | Kept only as a bridge; `opencode://terminal` now routes to `:termux-ui`. || `:feature:workspace` | `opencode-termux` file manager, code viewer, GitHub activity | Compose file browser, editor and `gh`-backed clone surface. |
+| `:feature:terminal` | previous Compose host | Kept only as a bridge; `opencode://terminal` now routes to `:termux-ui`. |
+| `:feature:workspace` | `opencode-termux` file manager, code viewer, GitHub activity | Compose file browser, editor and `gh`-backed clone surface. The file browser's GitHub button is the only visible GitHub entry; clone destinations come from the open folder. |
 | `:termux-shared`, `:terminal-emulator`, `:terminal-view` | upstream Termux libraries | Shared utilities and terminal primitives for the runtime/terminal screens. |
 
 `:app`, `:feature:settings`, `:feature:workspace` and `:feature:system` (share) depend on `:runtime`;
