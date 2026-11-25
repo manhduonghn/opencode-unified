@@ -12,7 +12,13 @@ dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
-        mavenCentral()
+        mavenCentral {
+            content {
+                // termux-am-library is JitPack-only. Asking Central for it first turns Central's
+                // occasional 429 into a fatal build error instead of falling through to JitPack.
+                excludeGroup("com.termux")
+            }
+        }
         // termux-am-library used by the copied Termux runtime.
         maven { url = uri("https://jitpack.io") }
     }

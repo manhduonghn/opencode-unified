@@ -9,6 +9,9 @@ fun RepositoryHandler.mavenCentralMirror() = maven {
         excludeGroupAndSubgroups("com.google.android")
         excludeGroupAndSubgroups("com.google.firebase")
         excludeGroupAndSubgroups("com.google.testing.platform")
+        // The Termux library is JitPack-only; a 404 here would otherwise push resolution into
+        // Central (and its occasional 429s) before JitPack gets a chance.
+        excludeGroup("com.termux")
     }
 }
 
