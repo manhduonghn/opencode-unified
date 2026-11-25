@@ -15,8 +15,11 @@ public final class UnifiedApp {
     /** Must match TermuxConstants: bootstrap binaries hardcode this package path. */
     public static final String APPLICATION_ID = "com.termux";
 
-    /** Fully qualified launcher activity of the unified app shell. */
-    public static final String LAUNCHER_ACTIVITY = "ai.opencode.app.UnifiedSetupActivity";
+    /**
+     * Fully qualified launcher activity of the unified app shell. This is the long-lived window;
+     * the setup screen is a transient step started by it and must never own the app task.
+     */
+    public static final String LAUNCHER_ACTIVITY = "ai.opencode.app.MainActivity";
 
     /** Version reported in diagnostics; the shell supplies the real version at runtime. */
     public static final String VERSION_NAME = "0.1.0";

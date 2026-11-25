@@ -20,12 +20,13 @@ termux-ui                               real upstream Termux terminal UI (trimme
 termux-shared                           Termux utilities (copied library)
 terminal-emulator, terminal-view        terminal primitives (copied libraries)
 ```
-`app/src/main/kotlin/ai/opencode/app/UnifiedSetupActivity.kt` is the launcher and first screen. It
-drives `runtime/.../UnifiedSetup.java` through bootstrap extraction, runtime installation, daemon
-start and one-time pairing. `UnifiedHandoff.kt` redeems the local pair link with the native client's
-own `OpenCodeClient`, saves the resulting server, then opens `MainActivity` straight into chat —
-the native pairing screen is never shown. `UnifiedRuntime.kt` installs the process-wide Termux
-plumbing from `OpenCodeApplication`.
+`MainActivity` is the launcher and owns the app task, so a home-icon tap brings the running window
+forward. On a cold launch it starts `UnifiedSetupActivity.kt`, which drives
+`runtime/.../UnifiedSetup.java` through bootstrap extraction, runtime installation, daemon start and
+one-time pairing. `UnifiedHandoff.kt` redeems the local pair link with the native client's own
+`OpenCodeClient`, saves the resulting server and returns to the same `MainActivity` — the native
+pairing screen is never shown and the chat state survives a launcher tap. `UnifiedRuntime.kt`
+installs the process-wide Termux plumbing from `OpenCodeApplication`.
 
 See [docs/PARITY.md](docs/PARITY.md) for the integration checklist and [AGENTS.md](AGENTS.md) for
 contributor rules.

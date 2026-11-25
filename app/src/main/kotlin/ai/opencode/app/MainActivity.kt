@@ -11,12 +11,15 @@ import ai.opencode.core.dependencies.dependency
 import ai.opencode.core.diagnostics.PerfFrameSampler
 import ai.opencode.core.diagnostics.PerfTimeline
 import ai.opencode.core.sharing.shared
+import ai.opencode.core.store.PresentationAction
 import ai.opencode.core.ui.ThemeSharedKeys
 import ai.opencode.feature.composer.DictationPermissionClient
+import ai.opencode.feature.settings.SettingsFeature
 import ai.opencode.feature.system.notifications.NotificationPermission
 import ai.opencode.feature.system.notifications.NotificationPermissionClient
 import ai.opencode.feature.voice.VoiceMicrophonePermission
 import android.Manifest
+import android.app.Activity
 import android.app.UiModeManager
 import android.content.Context
 import android.content.Intent
@@ -35,12 +38,16 @@ import ai.opencode.devtools.DevToolsOverlay
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.lifecycleScope
 import ai.opencode.feature.drawer.HomeFeature
 import ai.opencode.feature.system.SessionWindowTarget
+import com.termux.app.UnifiedSetup
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
@@ -65,6 +72,30 @@ class MainActivity : ComponentActivity() {
         localNetworkRequest = null
     }
     private var removeRequesters: List<() -> Unit> = emptyList()
+
+    /** True while the one-time setup screen is on top of this window (cold launch only). */
+    private var awaitingSetup by mutableStateOf(false)
+
+    /** A terminal/workspace link that must wait until the runtime has been prepared. */
+    private var pendingExternalScreen: Intent? = null
+
+    /**
+     * The setup screen returns here instead of opening a new task, so a home-icon tap keeps this
+     * window and its state. A cancelled setup is retried rather than leaving a blank window.
+     */
+    private val setupLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
+        if (result.resultCode == Activity.RESULT_OK) {
+            awaitingSetup = false
+            pendingExternalScreen?.let {
+                pendingExternalScreen = null
+                startActivity(it)
+            }
+            // A launch intent that arrived before pairing can be routed now that a server exists.
+            handle(intent)
+        } else {
+            startSetup(force = true)
+        }
+    }
 
     override fun attachBaseContext(newBase: Context) {
         super.attachBaseContext(newBase)
@@ -96,6 +127,8 @@ class MainActivity : ComponentActivity() {
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        awaitingSetup = savedInstanceState?.getBoolean(KEY_AWAITING_SETUP) ?: false
+        pendingExternalScreen = savedInstanceState?.getParcelable(KEY_PENDING_EXTERNAL)
         // Debug lab hooks run before anything reads the store.
         if (savedInstanceState == null) LabLaunch.apply(intent)
         // The transcript cache decodes off the main thread; the store's first read takes it.
@@ -107,10 +140,17 @@ class MainActivity : ComponentActivity() {
         splash.setKeepOnScreenCondition { LaunchBloomController.keepsCover(store.state.isColdLaunchContentReady) }
         enableEdgeToEdge()
         super.onCreate(savedInstanceState)
-        // Unified app: the bootstrap/runtime/pair pipeline lives in UnifiedSetupActivity, the
-        // launcher. Reaching this activity means the local daemon is already paired.
-        // Unified app: Settings opens the inherited shell and file browser through deep links.
-        if (savedInstanceState == null && (openTerminalIfRequested(intent) || openWorkspaceIfRequested(intent))) return
+        // Settings opens the inherited shell and file browser through deep links. Keep this window
+        // alive under them: Back then returns to the chat instead of emptying the app task.
+        val external = if (savedInstanceState == null) externalScreen(intent) else pendingExternalScreen
+        if (external != null) {
+            if (UnifiedHandoff.isConnected) {
+                pendingExternalScreen = null
+                startActivity(external)
+            } else {
+                pendingExternalScreen = external
+            }
+        }
         lifecycle.addObserver(
             LifecycleEventObserver { _, event ->
                 when (event) {
@@ -120,6 +160,7 @@ class MainActivity : ComponentActivity() {
                         SceneWindows.resumed(root)
                         store.send(AppFeature.Action.PendingSharesRequested)
                         registerPermissionRequesters()
+                        if (awaitingSetup && !UnifiedSetup.isRunning()) startSetup(force = true)
                     }
                     Lifecycle.Event.ON_PAUSE -> {
                         removeRequesters.forEach { it() }
@@ -136,8 +177,9 @@ class MainActivity : ComponentActivity() {
             PerfTimeline.appLaunched()
             PerfFrameSampler.startIfRequested()
         }
+        backFallback()
         keepCallOnBack()
-        setContent { DevToolsOverlay { AppView(store) } }
+        setContent { if (!awaitingSetup) DevToolsOverlay { AppView(store) } }
         window.decorView.viewTreeObserver.addOnTouchModeChangeListener { inTouchMode ->
             touchModeLeft = if (inTouchMode) null else TouchModeExit(SystemClock.uptimeMillis(), currentFocus != null)
         }
@@ -147,8 +189,47 @@ class MainActivity : ComponentActivity() {
         }
         if (root.follows) followShownSession()
         followAppearanceNightMode()
-        // A recreated activity already handled its launch intent.
-        if (savedInstanceState == null) handle(intent)
+        // A recreated activity already handled its launch intent. A fresh process runs the one-time
+        // setup first; further windows in this process are already paired.
+        if (savedInstanceState == null && !awaitingSetup) {
+            if (UnifiedHandoff.isConnected) handle(intent) else startSetup()
+        }
+    }
+
+    private fun startSetup(force: Boolean = false) {
+        if (!force && (awaitingSetup || UnifiedHandoff.isConnected || UnifiedSetup.isRunning())) return
+        awaitingSetup = true
+        setupLauncher.launch(Intent(this, UnifiedSetupActivity::class.java))
+    }
+
+    /**
+     * The single activity in this task must not finish just because a Compose back handler was not
+     * mounted yet — that is what made Back close the app from Settings. It is registered before the
+     * live-call handler and before the content, so any enabled Compose handler wins.
+     */
+    private fun backFallback() {
+        val callback = object : OnBackPressedCallback(true) {
+            override fun handleOnBackPressed() {
+                if (awaitingSetup) {
+                    moveTaskToBack(true)
+                    return
+                }
+                val current = this@MainActivity.store
+                if (current.state.home?.settings != null) {
+                    // Pops one Settings page, or closes Settings at its root.
+                    current.send(
+                        AppFeature.Action.Home(
+                            HomeFeature.Action.SettingsScreen(
+                                PresentationAction.Presented(SettingsFeature.Action.BackTapped),
+                            ),
+                        ),
+                    )
+                    return
+                }
+                finish()
+            }
+        }
+        onBackPressedDispatcher.addCallback(this, callback)
     }
 
     /**
@@ -236,6 +317,8 @@ class MainActivity : ComponentActivity() {
 
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
+        outState.putBoolean(KEY_AWAITING_SETUP, awaitingSetup)
+        outState.putParcelable(KEY_PENDING_EXTERNAL, pendingExternalScreen)
         if (!root.follows) return
         val shown = root.shown ?: root.pendingTarget ?: return
         outState.putString(SessionWindowTarget.EXTRA_SERVER_ID, shown.serverID)
@@ -250,7 +333,22 @@ class MainActivity : ComponentActivity() {
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
         setIntent(intent)
-        if (openTerminalIfRequested(intent) || openWorkspaceIfRequested(intent)) return
+        if (awaitingSetup) {
+            // Backing out of setup puts the task behind; a launcher tap must resume it, not show
+            // an empty window.
+            if (!UnifiedSetup.isRunning()) startSetup(force = true)
+            return
+        }
+        if (!UnifiedHandoff.isConnected) {
+            startSetup()
+            return
+        }
+        val external = externalScreen(intent)
+        if (external != null) {
+            pendingExternalScreen = null
+            startActivity(external)
+            return
+        }
         // A window asked again for its own session shows it.
         if (intent.action == SessionWindowTarget.ACTION && root.follows) {
             val next = RootStore.target(intent, null) ?: return
@@ -260,29 +358,27 @@ class MainActivity : ComponentActivity() {
         handle(intent)
     }
 
-    /** Settings opens the inherited shell with `opencode://terminal`; handle cold and warm starts alike. */
-    private fun openTerminalIfRequested(intent: Intent?): Boolean {
-        if (intent?.data?.scheme != "opencode" || intent.data?.host != "terminal") return false
-        // The real upstream Termux UI lives in :termux-ui and is internal to this APK.
-        startActivity(Intent(this, com.termux.app.TermuxActivity::class.java))
-        finish()
-        return true
-    }
-
     /**
-     * Files is the only visible entry into the workspace. `opencode://workspace/github` stays as an
-     * internal deep link for existing shortcuts; there is no Settings row for it any more.
+     * Settings opens the inherited shell with `opencode://terminal` and the file browser with
+     * `opencode://workspace/files`. The returned intent is started without finishing this window,
+     * so Back from either screen lands back in the chat. `opencode://workspace/github` stays as an
+     * internal deep link for existing shortcuts.
      */
-    private fun openWorkspaceIfRequested(intent: Intent?): Boolean {
-        val uri = intent?.data ?: return false
-        if (uri.scheme != "opencode" || uri.host != "workspace") return false
-        val target: Class<*> = when (uri.path) {
-            "/github" -> ai.opencode.feature.workspace.GitHubActivity::class.java
-            else -> ai.opencode.feature.workspace.WorkspaceActivity::class.java
+    private fun externalScreen(intent: Intent?): Intent? {
+        val uri = intent?.data ?: return null
+        if (uri.scheme != "opencode") return null
+        return when (uri.host) {
+            // The real upstream Termux UI lives in :termux-ui and is internal to this APK.
+            "terminal" -> Intent(this, com.termux.app.TermuxActivity::class.java)
+            "workspace" -> {
+                val target: Class<*> = when (uri.path) {
+                    "/github" -> ai.opencode.feature.workspace.GitHubActivity::class.java
+                    else -> ai.opencode.feature.workspace.WorkspaceActivity::class.java
+                }
+                Intent(this, target).setData(uri)
+            }
+            else -> null
         }
-        startActivity(Intent(this, target).setData(uri))
-        finish()
-        return true
     }
 
     private fun handle(intent: Intent?) {
@@ -300,6 +396,9 @@ class MainActivity : ComponentActivity() {
     }
 
     companion object {
+        private const val KEY_AWAITING_SETUP = "ai.opencode.app.awaitingSetup"
+        private const val KEY_PENDING_EXTERNAL = "ai.opencode.app.pendingExternal"
+
         /** A notification tap, an `opencode://` system action link, or a pairing link. */
         fun route(intent: Intent?): AppFeature.Action? {
             intent ?: return null

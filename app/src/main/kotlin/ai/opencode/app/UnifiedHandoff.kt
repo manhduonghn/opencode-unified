@@ -5,7 +5,6 @@ import ai.opencode.core.sharing.SharedStore
 import ai.opencode.server.OpenCodeClient
 import ai.opencode.server.OpenCodePairingLink
 import ai.opencode.server.remember
-import android.content.Intent
 import androidx.activity.ComponentActivity
 import androidx.lifecycle.lifecycleScope
 import com.termux.app.UnifiedSetup
@@ -20,14 +19,24 @@ import kotlinx.coroutines.withContext
  * The fork's one-time link points at `127.0.0.1`. The client's pasted-code path deliberately
  * rejects loopback-only links (they are useless for a remote phone), so this bridge validates the
  * link with [OpenCodePairingLink.decode] and redeems it through the same client the pairing screen
- * uses. That yields the session token, which [remember] persists as the current server *before*
- * `MainActivity` creates its store — cold start therefore restores an already-connected Home.
+ * uses. That yields the session token, which [remember] persists as the current server before
+ * `MainActivity` shows Home, so the restored window is already connected.
+ *
+ * It deliberately does not launch an activity. `MainActivity` stays alive underneath the setup
+ * screen and resumes as soon as [onConnected] reports that the token is stored. Starting a new task
+ * here is what used to make a home-icon tap re-run bootstrap.
  */
 internal object UnifiedHandoff {
-    fun openChat(
+    /** Set once the token is durable, so further windows in this process skip setup. */
+    @Volatile
+    var isConnected: Boolean = false
+        private set
+
+    fun connect(
         activity: ComponentActivity,
         result: UnifiedSetup.Result,
         onError: (String) -> Unit,
+        onConnected: () -> Unit,
     ) {
         val link = OpenCodePairingLink.decode(result.pairUrl)
         if (link == null) {
@@ -40,16 +49,12 @@ internal object UnifiedHandoff {
                 val server = dependency(OpenCodeClient).redeemPairing(link)
                 server.remember()
                 // Writes are asynchronous; make sure the token survives a process restart before
-                // the setup activity goes away.
+                // the setup screen goes away.
                 dependency(SharedStore).flush()
                 withContext(Dispatchers.Main) {
                     if (activity.isFinishing || activity.isDestroyed) return@withContext
-                    activity.startActivity(
-                        Intent(activity, MainActivity::class.java).addFlags(
-                            Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK,
-                        ),
-                    )
-                    activity.finish()
+                    isConnected = true
+                    onConnected()
                 }
             } catch (error: Throwable) {
                 val message = error.message?.takeIf { it.isNotBlank() }

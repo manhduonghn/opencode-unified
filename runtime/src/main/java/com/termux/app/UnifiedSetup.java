@@ -89,7 +89,13 @@ public final class UnifiedSetup {
      * main thread, matching the fork's install listener contract.
      */
     public static synchronized void start(final Activity activity, final Listener listener) {
-        if (sRunning || activity == null || listener == null) return;
+        if (activity == null || listener == null) return;
+        if (sRunning) {
+            // A screen recreated during configuration change reattaches to the pipeline in flight;
+            // dropping its listener would leave the new screen stuck with no progress or result.
+            sListener = listener;
+            return;
+        }
         sRunning = true;
         sListener = listener;
 
@@ -114,8 +120,22 @@ public final class UnifiedSetup {
         });
     }
 
+    /** Whether the pipeline is currently running, so callers never start it twice. */
+    public static synchronized boolean isRunning() {
+        return sRunning;
+    }
+
+    /** The shell has redeemed the pair link; release the pipeline so a later launch can retry. */
+    public static synchronized void complete() {
+        clear();
+    }
+
     /** Cancel before destroying the setup activity so no callback targets a dead screen. */
     public static synchronized void cancel() {
+        clear();
+    }
+
+    private static synchronized void clear() {
         sRunning = false;
         if (sInstallListener != null) {
             OpenCodeBootstrap.removeInstallListener(sInstallListener);
@@ -159,10 +179,9 @@ public final class UnifiedSetup {
                 String pairUrl = OpenCodeService.startAndPair(app, SERVICE_START_TIMEOUT_MS, CLI_TIMEOUT_MS);
                 final Result result = new Result(pairUrl);
                 post(() -> {
-                    if (sRunning && sListener != null) {
-                        sRunning = false;
-                        sListener.onReady(result);
-                    }
+                    // Stay "running" until the shell has redeemed and stored the token. Otherwise a
+                    // resumed MainActivity can start a second pipeline while the handoff is in flight.
+                    if (sRunning && sListener != null) sListener.onReady(result);
                 });
             } catch (Exception e) {
                 Logger.logStackTraceWithMessage(LOG_TAG, "Could not create the pair link", e);
@@ -180,8 +199,8 @@ public final class UnifiedSetup {
     private static void fail(final String message) {
         post(() -> {
             if (!sRunning) return;
-            sRunning = false;
             Listener listener = sListener;
+            clear();
             if (listener != null) listener.onError(message);
         });
     }

@@ -3,6 +3,7 @@ package ai.opencode.app
 import ai.opencode.core.ui.OpenCodeAppTheme
 import ai.opencode.core.ui.OpenCodeTextStyles
 import ai.opencode.core.ui.OpenCodeTheme
+import android.app.Activity
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -32,11 +33,10 @@ import androidx.compose.ui.unit.dp
 import com.termux.app.UnifiedSetup
 
 /**
- * The first screen of the unified app.
- *
- * It is the fork's startup flow with the WebView removed: bootstrap, runtime installation, daemon
- * start and pairing all happen here. At the end it hands the one-time pair link to the native chat
- * client and finishes, so the user never sees the native pairing screen.
+ * The fork's startup flow with the WebView removed: bootstrap, runtime installation, daemon start
+ * and pairing all happen here. `MainActivity` starts it on a cold launch and keeps its task alive;
+ * once the one-time pair link is redeemed this screen returns `RESULT_OK` and finishes, so the chat
+ * client resumes on the same window and the user never sees its pairing screen.
  */
 class UnifiedSetupActivity : ComponentActivity() {
     private var progress by mutableStateOf(
@@ -66,7 +66,16 @@ class UnifiedSetupActivity : ComponentActivity() {
 
             override fun onReady(result: UnifiedSetup.Result) {
                 if (isFinishing || isDestroyed) return
-                UnifiedHandoff.openChat(this@UnifiedSetupActivity, result, ::onHandoffError)
+                UnifiedHandoff.connect(
+                    activity = this@UnifiedSetupActivity,
+                    result = result,
+                    onError = ::onHandoffError,
+                    onConnected = {
+                        UnifiedSetup.complete()
+                        setResult(Activity.RESULT_OK)
+                        finish()
+                    },
+                )
             }
 
             override fun onError(message: String) {
@@ -76,11 +85,15 @@ class UnifiedSetupActivity : ComponentActivity() {
     }
 
     private fun onHandoffError(message: String) {
+        // Let a retry start a fresh pipeline instead of joining the one that just failed.
+        UnifiedSetup.complete()
         if (!isFinishing && !isDestroyed) error = message
     }
 
     override fun onDestroy() {
-        UnifiedSetup.cancel()
+        // A configuration change recreates this screen and reattaches its listener; only a real
+        // exit cancels the pipeline.
+        if (!isChangingConfigurations) UnifiedSetup.cancel()
         super.onDestroy()
     }
 }

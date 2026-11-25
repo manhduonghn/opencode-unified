@@ -18,18 +18,16 @@
         android:networkSecurityConfig="@xml/network_security_config"
         android:supportsRtl="false"
         android:theme="@style/Theme.OpenCode">
-        <!-- The fork's startup flow is the first screen: prepare the environment, install
-             OpenCode, start it and connect the native client without showing its pairing UI. -->
+        <!-- The one-time preparation screen. It is started by MainActivity on a cold launch and
+             returns there when pairing is done. It must not be the launcher: it finishes after the
+             handoff, so a launcher tap would find no instance and start a fresh task every time. -->
         <activity
             android:name=".UnifiedSetupActivity"
-            android:exported="true"
-            android:launchMode="singleTask"
-            android:theme="@style/Theme.OpenCode.Starting">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.OpenCode.Starting" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -42,6 +40,12 @@
             <property
                 android:name="android.window.PROPERTY_SUPPORTS_MULTI_INSTANCE_SYSTEM_UI"
                 android:value="true" />
+            <!-- MainActivity owns the task for the whole app, so a home-icon tap brings the
+                 running window forward (onNewIntent) instead of re-running the setup pipeline. -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
             <!-- opencode://session/<id>, last-session, new-session (system actions) and opencode://pair|connect (pairing). -->
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
