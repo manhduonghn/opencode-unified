@@ -37,11 +37,10 @@ Publishing overview shows no changes in review, re-run the failed jobs.
 
 Report the tag, the workflow run and the Play version code.
 
-## What a push to dev does
+## What a push to dev or main does
 
-Runs `scripts/check.sh` and publishes the debug APK (`ai.opencode.mobilecode.debug`, installs
-beside the Play build) as the rolling `dev-latest` GitHub pre-release for sideloading. Nothing
-goes to Play.
+Runs `scripts/check.sh` and publishes the debug APK straight to the rolling `dev-latest` GitHub
+pre-release for sideloading. No Actions artifacts are uploaded, and nothing goes to Play.
 
 ## Versions
 
