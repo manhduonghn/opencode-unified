@@ -1,6 +1,7 @@
 package ai.opencode.feature.workspace
 
 import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.JsonNull
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.JsonPrimitive
 import kotlinx.serialization.json.jsonArray
@@ -84,8 +85,11 @@ internal fun parseRepos(text: String): List<Repo>? = runCatching {
 }.getOrNull()
 
 private fun JsonObject.stringOrEmpty(key: String): String {
-    val value = this[key] ?: return ""
-    return (value as? JsonPrimitive)?.content ?: ""
+    return when (val value = this[key]) {
+        is JsonNull -> ""
+        is JsonPrimitive -> value.content
+        else -> ""
+    }
 }
 
 internal fun parseAuthStatus(result: String): String {
