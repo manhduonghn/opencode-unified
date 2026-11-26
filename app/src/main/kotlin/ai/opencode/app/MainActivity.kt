@@ -6,6 +6,7 @@ import ai.opencode.feature.system.SystemAction
 import ai.opencode.feature.system.share.ShareConversation
 import ai.opencode.server.LocalNetworkPermission
 import ai.opencode.server.OpenCodePairingLink
+import ai.opencode.server.OpenCodeServer
 import ai.opencode.server.TranscriptCachePersistence
 import ai.opencode.core.dependencies.dependency
 import ai.opencode.core.diagnostics.PerfFrameSampler
@@ -87,8 +88,8 @@ class MainActivity : ComponentActivity() {
         if (result.resultCode == Activity.RESULT_OK) {
             awaitingSetup = false
             val server = UnifiedHandoff.lastPairedServer
-            val paired = server?.let(::Result.success)
-                ?: Result.failure(IllegalStateException("The runtime did not return a server."))
+            val paired = server?.let { Result.success<OpenCodeServer>(it) }
+                ?: Result.failure<OpenCodeServer>(IllegalStateException("The runtime did not return a server."))
             // The waiting effect sends RuntimeStarted, so the chat connects exactly once. A setup
             // started outside a request (a retry) still needs to hand its server to the chat.
             if (!dependency(RuntimeBootClient).complete(paired) && server != null) {
@@ -326,8 +327,8 @@ class MainActivity : ComponentActivity() {
                     onConnected = {
                         UnifiedSetup.complete()
                         val server = UnifiedHandoff.lastPairedServer
-                        val paired = server?.let(::Result.success)
-                            ?: Result.failure(IllegalStateException("The runtime did not return a server."))
+                        val paired = server?.let { Result.success<OpenCodeServer>(it) }
+                            ?: Result.failure<OpenCodeServer>(IllegalStateException("The runtime did not return a server."))
                         dependency(RuntimeBootClient).complete(paired)
                         pendingExternalScreen?.let {
                             pendingExternalScreen = null
