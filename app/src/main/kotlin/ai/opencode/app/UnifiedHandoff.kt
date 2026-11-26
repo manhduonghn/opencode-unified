@@ -4,6 +4,7 @@ import ai.opencode.core.dependencies.dependency
 import ai.opencode.core.sharing.SharedStore
 import ai.opencode.server.OpenCodeClient
 import ai.opencode.server.OpenCodePairingLink
+import ai.opencode.server.OpenCodeServer
 import ai.opencode.server.remember
 import androidx.activity.ComponentActivity
 import androidx.lifecycle.lifecycleScope
@@ -20,17 +21,29 @@ import kotlinx.coroutines.withContext
  * rejects loopback-only links (they are useless for a remote phone), so this bridge validates the
  * link with [OpenCodePairingLink.decode] and redeems it through the same client the pairing screen
  * uses. That yields the session token, which [remember] persists as the current server before
- * `MainActivity` shows Home, so the restored window is already connected.
+ * `MainActivity` connects its chat, so the restored window is already connected.
  *
  * It deliberately does not launch an activity. `MainActivity` stays alive underneath the setup
- * screen and resumes as soon as [onConnected] reports that the token is stored. Starting a new task
- * here is what used to make a home-icon tap re-run bootstrap.
+ * screen (or, for a prepared runtime, underneath the connecting chat) and resumes as soon as
+ * [onConnected] reports that the token is stored. Starting a new task here is what used to make a
+ * home-icon tap re-run bootstrap.
  */
 internal object UnifiedHandoff {
     /** Set once the token is durable, so further windows in this process skip setup. */
     @Volatile
     var isConnected: Boolean = false
         private set
+
+    /** The server from the last successful handoff, for the chat to connect to at once. */
+    @Volatile
+    var lastPairedServer: OpenCodeServer? = null
+        private set
+
+    /** Forget the in-process handoff so the next connection asks the runtime to start again. */
+    fun reset() {
+        isConnected = false
+        lastPairedServer = null
+    }
 
     fun connect(
         activity: ComponentActivity,
@@ -53,6 +66,7 @@ internal object UnifiedHandoff {
                 dependency(SharedStore).flush()
                 withContext(Dispatchers.Main) {
                     if (activity.isFinishing || activity.isDestroyed) return@withContext
+                    lastPairedServer = server
                     isConnected = true
                     onConnected()
                 }

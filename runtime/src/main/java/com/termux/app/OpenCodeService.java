@@ -25,8 +25,8 @@ import java.util.regex.Pattern;
  *
  * <p>All start/stop/pair operations are therefore executed while holding {@link #LOCK}. A stop is
  * performed on a helper thread so that the UI is never blocked. When a
- * stop has been requested, {@link #consumeStoppedByUser()} tells the caller that the paired service
- * is gone so it has to pair again.</p>
+ * stop has been requested, {@link #consumeStoppedByUser(Context)} tells the chat client that the
+ * paired service is gone so it has to start and pair again.</p>
  */
 public final class OpenCodeService {
 
@@ -193,9 +193,11 @@ public final class OpenCodeService {
         final Context appContext = context.getApplicationContext();
 
         // Set the flags synchronously, so that an activity that starts in the meantime knows that
-        // the service is going away and that its current page has to be replaced.
+        // the service is going away and that its current page has to be replaced. Persist the stop
+        // too: a force-quit before the next launch must not forget that a handoff is due.
         sStopped.set(true);
         sStopRequested = true;
+        OpenCodePrefs.markServiceStoppedByUser(appContext);
         if (clearTmp) sClearTmpRequested.set(true);
 
         Thread thread = new Thread(() -> {
@@ -223,11 +225,13 @@ public final class OpenCodeService {
     }
 
     /**
-     * @return true once after the service was stopped, so that the caller can discard the current
-     * WebView page and pair again. The flag is reset by this call.
+     * Whether the daemon was stopped from the notification since the last handoff. Reading it
+     * clears both the in-memory and the durable flag; the chat client uses this to ask the runtime
+     * to start and pair again before it tries to connect.
      */
-    public static boolean consumeStoppedByUser() {
-        return sStopped.getAndSet(false);
+    public static boolean consumeStoppedByUser(Context context) {
+        boolean stopped = sStopped.getAndSet(false);
+        return OpenCodePrefs.consumeServiceStoppedByUser(context) || stopped;
     }
 
     /* ==========================================================================================

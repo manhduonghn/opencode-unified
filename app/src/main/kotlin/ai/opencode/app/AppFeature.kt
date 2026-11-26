@@ -457,6 +457,11 @@ class AppFeature : Reducer<AppFeature.State, AppFeature.Action> {
 
     sealed interface Action {
         data object Task : Action
+        /** The chat asks the local runtime to start (or restart) its daemon. */
+        data object RuntimeStartRequested : Action
+        /** The runtime started and returned a freshly paired server; connect at once. */
+        data class RuntimeStarted(val server: OpenCodeServer) : Action
+        data class RuntimeStartFailed(val message: String) : Action
         data class ForegroundChanged(val isInForeground: Boolean) : Action
         data class ServerURLChanged(val value: String) : Action
         data class UsernameChanged(val value: String) : Action
@@ -509,7 +514,7 @@ class AppFeature : Reducer<AppFeature.State, AppFeature.Action> {
         data class ServerSwitchTimedOut(val attemptID: Int) : Action
     }
 
-    internal enum class CancelID { Health, Home, Notification, SystemActions, SystemSession, SwitchTimeout }
+    internal enum class CancelID { Health, Home, Notification, SystemActions, SystemSession, SwitchTimeout, RuntimeStart }
 
     private val core = Reducer<State, Action> { state, action -> reduceCore(state, action) }
 
@@ -597,8 +602,47 @@ class AppFeature : Reducer<AppFeature.State, AppFeature.Action> {
             val saved = state.savedServer.value
             if (state.connection != State.Connection.Idle || state.home != null) Reduced(state)
             else if (saved != null) connect(state.load(saved))
-            // With no last-used server, wait for a scan or an explicit selection.
+            // No last-used server: on the unified app the chat can bring its local runtime up
+            // itself instead of sitting on the connection screen forever.
+            else if (dependency(RuntimeBootClient).canStartRuntime) Reduced(state, Effect.send(Action.RuntimeStartRequested))
             else Reduced(state)
+        }
+        Action.RuntimeStartRequested -> {
+            // A stop from the notification invalidates the current Home: reconnect from scratch.
+            val next = state.copy(
+                connection = State.Connection.Connecting,
+                connectionAttempt = null,
+                home = null,
+            )
+            Reduced(
+                next,
+                Effect.run<Action> { send ->
+                    val result = dependency(RuntimeBootClient).ensure()
+                    send(
+                        result.fold(
+                            onSuccess = { Action.RuntimeStarted(it) },
+                            onFailure = { Action.RuntimeStartFailed(it.message ?: "The local runtime could not be started.") },
+                        ),
+                    )
+                }.cancellable(CancelID.RuntimeStart, cancelInFlight = true),
+            )
+        }
+        is Action.RuntimeStarted -> {
+            LaunchBloomController.completeColdLaunch()
+            action.server.remember()
+            connect(state.load(action.server), preservingPending = true)
+        }
+        is Action.RuntimeStartFailed -> {
+            LaunchBloomController.completeColdLaunch()
+            Reduced(
+                state.copy(
+                    connectionAttempt = null,
+                    connection = State.Connection.Failed(
+                        message = action.message,
+                        context = FailureContext.of(state.server, FailureContext.Phase.Connect, state.connectionGeneration),
+                    ),
+                ),
+            )
         }
         is Action.ForegroundChanged -> {
             if (state.isInForeground != action.isInForeground) AppLog.app.info { if (action.isInForeground) "Foreground" else "Background" }

@@ -120,6 +120,23 @@ public final class UnifiedSetup {
         });
     }
 
+    /**
+     * Starts only the daemon/pair part of the pipeline, for a runtime that is already installed.
+     * The chat uses this after a notification stop: no bootstrap dialog, no installer state check,
+     * just a fresh one-time link handed back through the same listener contract.
+     */
+    public static synchronized void startPrepared(final Activity activity, final Listener listener) {
+        if (activity == null || listener == null) return;
+        if (sRunning) {
+            // A recreated window reattaches to the pair request already in flight.
+            sListener = listener;
+            return;
+        }
+        sRunning = true;
+        sListener = listener;
+        activity.runOnUiThread(() -> startServiceAndPair(activity.getApplicationContext()));
+    }
+
     /** Whether the pipeline is currently running, so callers never start it twice. */
     public static synchronized boolean isRunning() {
         return sRunning;

@@ -7,7 +7,9 @@ import android.content.Intent
 import com.termux.app.DownloadsCrashHandler
 import com.termux.app.OpenCodeBootstrap
 import com.termux.app.OpenCodeForegroundService
+import com.termux.app.OpenCodeService
 import com.termux.app.TermuxInstaller
+import com.termux.app.UnifiedSetup
 import com.termux.shared.logger.Logger
 import com.termux.shared.termux.TermuxBootstrap
 import com.termux.shared.termux.TermuxConstants
@@ -67,6 +69,20 @@ object UnifiedRuntime {
             AppLog.app.notice { "Termux runtime initialization could not be completed" }
         }
     }
+
+    /**
+     * Whether the daemon was stopped from its notification since the last handoff. The chat's
+     * connection flow consumes this before asking the runtime to start again.
+     */
+    fun consumeStoppedByUser(context: Context): Boolean = OpenCodeService.consumeStoppedByUser(context)
+
+    /** True when only a daemon restart/pair is needed; a fresh install still needs the full setup. */
+    fun isPrepared(): Boolean =
+        OpenCodeBootstrap.isTermuxBootstrapReady() && OpenCodeBootstrap.isRuntimeComplete()
+
+    /** Starts and pairs an already prepared runtime without showing the bootstrap/install UI. */
+    fun startPrepared(activity: Activity, listener: UnifiedSetup.Listener) =
+        UnifiedSetup.startPrepared(activity, listener)
 
     fun initialize(activity: Activity) {
         val app = activity.applicationContext

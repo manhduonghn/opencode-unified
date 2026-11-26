@@ -166,8 +166,8 @@ public class OpenCodeForegroundService extends Service {
     }
 
     /**
-     * Tell a visible web activity that the current page belongs to a daemon that is gone, so it can
-     * pair again right away instead of waiting for the next {@code onResume()}.
+     * Tell a visible activity that the current connection belongs to a daemon that is gone, so it
+     * can pair again right away instead of waiting for the next {@code onResume()}.
      */
     private void notifyStopped() {
         Intent intent = new Intent(ACTION_STOPPED).setPackage(getPackageName());

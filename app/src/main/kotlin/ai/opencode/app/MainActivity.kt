@@ -86,6 +86,14 @@ class MainActivity : ComponentActivity() {
     private val setupLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
         if (result.resultCode == Activity.RESULT_OK) {
             awaitingSetup = false
+            val server = UnifiedHandoff.lastPairedServer
+            val paired = server?.let(::Result.success)
+                ?: Result.failure(IllegalStateException("The runtime did not return a server."))
+            // The waiting effect sends RuntimeStarted, so the chat connects exactly once. A setup
+            // started outside a request (a retry) still needs to hand its server to the chat.
+            if (!dependency(RuntimeBootClient).complete(paired) && server != null) {
+                store.send(AppFeature.Action.RuntimeStarted(server))
+            }
             pendingExternalScreen?.let {
                 pendingExternalScreen = null
                 startActivity(it)
@@ -93,7 +101,13 @@ class MainActivity : ComponentActivity() {
             // A launch intent that arrived before pairing can be routed now that a server exists.
             handle(intent)
         } else {
-            startSetup(force = true)
+            awaitingSetup = false
+            val completed = dependency(RuntimeBootClient).complete(
+                Result.failure(IllegalStateException("Runtime setup was cancelled.")),
+            )
+            // With a chat request in flight its failure is visible; otherwise keep retrying setup so
+            // a backed-out cold launch never leaves an empty window.
+            if (!completed) startSetup(force = true)
         }
     }
 
@@ -140,6 +154,8 @@ class MainActivity : ComponentActivity() {
         splash.setKeepOnScreenCondition { LaunchBloomController.keepsCover(store.state.isColdLaunchContentReady) }
         enableEdgeToEdge()
         super.onCreate(savedInstanceState)
+        // The chat's runtime request needs a requester before its first effect can run.
+        registerPermissionRequesters()
         // Settings opens the inherited shell and file browser through deep links. Keep this window
         // alive under them: Back then returns to the chat instead of emptying the app task.
         val external = if (savedInstanceState == null) externalScreen(intent) else pendingExternalScreen
@@ -160,6 +176,8 @@ class MainActivity : ComponentActivity() {
                         SceneWindows.resumed(root)
                         store.send(AppFeature.Action.PendingSharesRequested)
                         registerPermissionRequesters()
+                        // A notification stop while we were away needs a fresh handoff on return.
+                        restartAfterStopIfNeeded()
                         if (awaitingSetup && !UnifiedSetup.isRunning()) startSetup(force = true)
                     }
                     Lifecycle.Event.ON_PAUSE -> {
@@ -189,11 +207,23 @@ class MainActivity : ComponentActivity() {
         }
         if (root.follows) followShownSession()
         followAppearanceNightMode()
-        // A recreated activity already handled its launch intent. A fresh process runs the one-time
-        // setup first; further windows in this process are already paired.
-        if (savedInstanceState == null && !awaitingSetup) {
-            if (UnifiedHandoff.isConnected) handle(intent) else startSetup()
+        // A notification stop survives process death: ask the chat's runtime client to start and
+        // pair again before it tries the saved token.
+        val restartedAfterStop = restartAfterStopIfNeeded()
+        // A recreated activity already handled its launch intent. With no saved server the chat
+        // itself asks the runtime to start; with one it just connects using the saved token.
+        if (savedInstanceState == null && !awaitingSetup && !restartedAfterStop) {
+            if (UnifiedHandoff.isConnected || store.state.savedServer.value != null) handle(intent)
+            else store.send(AppFeature.Action.RuntimeStartRequested)
         }
+    }
+
+    /** Consumes a notification stop and routes the chat through a fresh runtime handoff. */
+    private fun restartAfterStopIfNeeded(): Boolean {
+        if (!UnifiedRuntime.consumeStoppedByUser(this)) return false
+        UnifiedHandoff.reset()
+        store.send(AppFeature.Action.RuntimeStartRequested)
+        return true
     }
 
     private fun startSetup(force: Boolean = false) {
@@ -263,7 +293,57 @@ class MainActivity : ComponentActivity() {
             },
             dependency(DictationPermissionClient).register { requestMicrophone() },
             dependency(LocalNetworkPermission).register { requestLocalNetwork() },
+            dependency(RuntimeBootClient).register { startRuntimeHandoff() },
         )
+    }
+
+    /**
+     * Runs the runtime handoff the chat asked for. Fresh installs still use the setup screen; once
+     * the runtime is prepared a restart only starts the daemon and redeems a new pair link.
+     */
+    private fun startRuntimeHandoff() {
+        if (UnifiedRuntime.isPrepared()) startPreparedRuntime() else startSetup(force = true)
+    }
+
+    /** Starts and pairs through the runtime without showing the bootstrap/install pipeline. */
+    private fun startPreparedRuntime() {
+        UnifiedRuntime.startPrepared(this, object : UnifiedSetup.Listener {
+            override fun onProgress(progress: UnifiedSetup.Progress) = Unit
+
+            override fun onReady(result: UnifiedSetup.Result) {
+                if (isFinishing || isDestroyed) {
+                    UnifiedSetup.complete()
+                    dependency(RuntimeBootClient).complete(Result.failure(IllegalStateException("Runtime setup left the screen.")))
+                    return
+                }
+                UnifiedHandoff.connect(
+                    activity = this@MainActivity,
+                    result = result,
+                    onError = { message ->
+                        UnifiedSetup.complete()
+                        dependency(RuntimeBootClient).complete(Result.failure(IllegalStateException(message)))
+                    },
+                    onConnected = {
+                        UnifiedSetup.complete()
+                        val server = UnifiedHandoff.lastPairedServer
+                        val paired = server?.let(::Result.success)
+                            ?: Result.failure(IllegalStateException("The runtime did not return a server."))
+                        dependency(RuntimeBootClient).complete(paired)
+                        pendingExternalScreen?.let {
+                            pendingExternalScreen = null
+                            startActivity(it)
+                        }
+                        // A deep link that arrived while the daemon was down can be routed now.
+                        handle(intent)
+                    },
+                )
+            }
+
+            override fun onError(message: String) {
+                UnifiedSetup.complete()
+                dependency(RuntimeBootClient).complete(Result.failure(IllegalStateException(message)))
+            }
+        })
     }
 
     private suspend fun requestLocalNetwork(): Boolean {
@@ -333,14 +413,19 @@ class MainActivity : ComponentActivity() {
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
         setIntent(intent)
+        if (restartAfterStopIfNeeded()) {
+            // Keep a deep link for the setup result: it is handled once the new server is ready.
+            pendingExternalScreen = externalScreen(intent)
+            return
+        }
         if (awaitingSetup) {
             // Backing out of setup puts the task behind; a launcher tap must resume it, not show
             // an empty window.
             if (!UnifiedSetup.isRunning()) startSetup(force = true)
             return
         }
-        if (!UnifiedHandoff.isConnected) {
-            startSetup()
+        if (!UnifiedHandoff.isConnected && store.state.savedServer.value == null) {
+            store.send(AppFeature.Action.RuntimeStartRequested)
             return
         }
         val external = externalScreen(intent)

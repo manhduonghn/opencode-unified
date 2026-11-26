@@ -102,6 +102,9 @@ internal object AppDependencies {
                 },
             )
             this[VoiceScreenActivityRegistry] = registry
+            // The chat's connection flow asks this client to bring the local runtime up; the
+            // visible window registers the actual handoff while it is alive.
+            this[RuntimeBootClient] = RuntimeBootClient.Key.liveValue
         }
         // The call's screen hold goes to whichever activity is in front.
         application.registerActivityLifecycleCallbacks(
