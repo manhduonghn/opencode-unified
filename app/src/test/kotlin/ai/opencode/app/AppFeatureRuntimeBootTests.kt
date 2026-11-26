@@ -43,9 +43,10 @@ class AppFeatureRuntimeBootTests {
         store.exhaustive = false
 
         store.send(AppFeature.Action.Task)
-        eventually { asked.value }
+        store.receive(AppFeature.Action.RuntimeStartRequested)
 
         assertTrue(asked.value)
+        store.receive({ it is AppFeature.Action.RuntimeStartFailed }, "RuntimeStartFailed")
         store.skipInFlightEffects()
     }
 
@@ -58,7 +59,7 @@ class AppFeatureRuntimeBootTests {
         store.exhaustive = false
 
         store.send(AppFeature.Action.RuntimeStartRequested)
-        eventually { shared.run { shared(ServerSharedKeys.savedServer).value } == server }
+        store.receive({ it is AppFeature.Action.RuntimeStarted }, "RuntimeStarted")
 
         assertEquals(server, shared.run { shared(ServerSharedKeys.savedServer).value })
         store.skipInFlightEffects()
@@ -72,7 +73,7 @@ class AppFeatureRuntimeBootTests {
         store.exhaustive = false
 
         store.send(AppFeature.Action.RuntimeStartRequested)
-        eventually { store.state.connection is AppFeature.State.Connection.Failed }
+        store.receive({ it is AppFeature.Action.RuntimeStartFailed }, "RuntimeStartFailed")
 
         val failed = store.state.connection as? AppFeature.State.Connection.Failed
         assertNotNull(failed)

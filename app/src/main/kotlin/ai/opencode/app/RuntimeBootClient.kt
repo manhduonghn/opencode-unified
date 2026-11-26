@@ -3,8 +3,6 @@ package ai.opencode.app
 import ai.opencode.core.dependencies.DependencyKey
 import ai.opencode.server.OpenCodeServer
 import kotlinx.coroutines.CompletableDeferred
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.withContext
 
 /**
  * The chat side's handle on the local daemon.
@@ -23,7 +21,11 @@ class RuntimeBootClient internal constructor(
     private var pending: CompletableDeferred<Result<OpenCodeServer>>? = null
     private var started = false
 
-    /** The visible window registers how to show the runtime handoff while it is alive. */
+    /**
+     * The visible window registers how to show the runtime handoff while it is alive. Store effects
+     * run on the main dispatcher in the app, so invoking it directly stays on the UI thread; a test
+     * can register a plain lambda without a main dispatcher.
+     */
     fun register(requester: () -> Unit): () -> Unit {
         synchronized(lock) { this.requester = requester }
         return { synchronized(lock) { if (this.requester === requester) this.requester = null } }
@@ -47,7 +49,7 @@ class RuntimeBootClient internal constructor(
         }
         if (shouldStart) {
             try {
-                withContext(Dispatchers.Main) { requester() }
+                requester()
             } catch (error: Throwable) {
                 complete(Result.failure(error))
             }
